@@ -3,6 +3,8 @@ on:
   workflow_dispatch:
     inputs:
       check_only: {description: "Only test the connection", type: boolean, default: true}
+  schedule:
+    - cron: '30 6 * * *'
   push:
     paths: ["studio/yt/queue.json"]
 permissions:
@@ -20,7 +22,7 @@ jobs:
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           SECRETS: ${{ toJSON(secrets) }}
-          CHECK_ONLY: ${{ inputs.check_only && '1' || '' }}
+          CHECK_ONLY: ${{ (github.event_name == 'schedule' || inputs.check_only) && '1' || '' }}
       - run: |
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
-          git add studio/yt/queue.json && git commit -m "YouTube upload results [skip ci]" && git push || true
+          git add studio/yt/queue.json studio/yt/status.json && git commit -m "YouTube upload results [skip ci]" && git push || true

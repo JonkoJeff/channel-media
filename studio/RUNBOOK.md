@@ -57,11 +57,11 @@ cd studio/assetedit && python3 longform.py videos/lfNN.json    # ≈20 min each
 
 ### B5. Schedule
 - `bash studio/publish.sh renders/lfNN.mp4 renders/shNNa.mp4 renders/shNNb.mp4` prints the public URLs.
-- Long videos: Metricool `createScheduledPost` on Tuesday and Friday at 17:00:
+- Long videos: Metricool `createScheduledPost` at 17:00 on the first free Tuesday and Friday after the last long video already scheduled (`getScheduledPosts`):
   - text = `renders/lfNN_description.txt`
   - `youtubeData {title, type: "video", privacy: "public", category: "EDUCATION", madeForKids: false, isAiGeneratedContent: true, tags}`
   - Afterwards: `publish.sh --rm lfNN.mp4`
-- Shorts: do not schedule them now. Append them to `studio/queue.json` (status pending, due at 12:00 on the days after their long video). Part A links them to the long video once it is live.
+- Shorts: do not schedule them now. Append them to `studio/queue.json` (status pending, due at 12:00, one per day, starting the day after their long video and never on a day that already has a Short in the queue). Part A links them to the long video once it is live.
 - Check `getScheduledPosts` first so nothing collides.
 
 ### B6. Save and report

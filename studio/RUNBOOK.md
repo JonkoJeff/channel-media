@@ -56,7 +56,8 @@ cd studio/assetedit && python3 longform.py videos/lfNN.json    # ≈20 min each
 - Add 2 Shorts per video to `videos/shorts.json` (A = the hook segments, B = the study reveal, each ≤ 58 s). Render only the new ones: put them in a temp JSON and run `python3 shorts.py <temp.json>`.
 
 ### B5. Schedule
-- `bash studio/publish.sh renders/lfNN.mp4 renders/shNNa.mp4 renders/shNNb.mp4` prints the public URLs.
+- `bash studio/publish.sh renders/lfNN.mp4 renders/lfNN_thumb.png renders/shNNa.mp4 renders/shNNb.mp4` prints the public URLs.
+- Thumbnail: add `videoThumbnailUrl` (the png URL) to the long-video post. If Metricool answers VIDEO_THUMBNAIL_NOT_APPLICABLE (channel not phone-verified yet), schedule again without it and mention "verify the channel by phone" once in the report.
 - Long videos: Metricool `createScheduledPost` at 17:00 on the first free Tuesday and Friday after the last long video already scheduled (`getScheduledPosts`):
   - text = `renders/lfNN_description.txt`
   - `youtubeData {title, type: "video", privacy: "public", category: "EDUCATION", madeForKids: false, isAiGeneratedContent: true, tags}`

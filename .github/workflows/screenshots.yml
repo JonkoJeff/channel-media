@@ -1,9 +1,8 @@
 name: screenshots
 on:
+  push:
+    paths: ["studio/channels/*/shots.json"]
   workflow_dispatch:
-    inputs:
-      urls: {description: "Space-separated public URLs", required: true}
-      name: {description: "File name prefix", default: "shot"}
 permissions:
   contents: write
 jobs:
@@ -12,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: npm i playwright@1.47.2 && npx playwright install --with-deps chromium
-      - run: node studio/shots/shoot.js "${{ inputs.name }}" ${{ inputs.urls }}
+      - run: node studio/shots/shoot.js
       - run: |
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
-          git add studio/shots/*.png && git commit -m "Screenshots: ${{ inputs.name }} [skip ci]" && git push || true
+          git add studio/channels/*/shots && git commit -m "Screenshots [skip ci]" && git push || true

@@ -9,7 +9,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 VOICE_DIR = os.environ.get("KOKORO_DIR", os.path.join(HERE, "..", "voice"))
 W, H, FPS = 1920, 1080, 24
 INK, CREAM, ORANGE, RED, MUTED = (28, 26, 31), (255, 246, 236), (255, 138, 43), (216, 53, 42), (120, 100, 90)
-MAN = json.load(open(os.path.join(HERE, "manifest.json")))
+CH = os.environ.get("CHANNEL_DIR", HERE)  # channel folder with manifest.json, assets/, backgrounds/, shots/
+MAN = json.load(open(os.path.join(CH, "manifest.json")))
 ASSETS = {a["asset_id"]: a for a in MAN["assets"]}
 BGS = {b["bg_id"]: b for b in MAN["backgrounds"]}
 
@@ -77,7 +78,7 @@ _bg, _spr = {}, {}
 def background(bid, dim):
     key = (bid, dim)
     if key not in _bg:
-        im = Image.open(os.path.join(HERE, BGS[bid]["file_path"])).convert("RGB").resize((W, H), Image.LANCZOS)
+        im = Image.open(os.path.join(CH, BGS[bid]["file_path"])).convert("RGB").resize((W, H), Image.LANCZOS)
         if dim:
             im = im.filter(ImageFilter.GaussianBlur(6))
             im = Image.blend(im, Image.new("RGB", (W, H), (20, 16, 24)), 0.45)
@@ -87,7 +88,7 @@ def background(bid, dim):
 def sprite(aid, scale):
     key = (aid, round(scale, 3))
     if key not in _spr:
-        im = Image.open(os.path.join(HERE, ASSETS[aid]["file_path"])).convert("RGBA")
+        im = Image.open(os.path.join(CH, ASSETS[aid]["file_path"])).convert("RGBA")
         _spr[key] = im.resize((round(im.width * scale), round(im.height * scale)), Image.LANCZOS)  # uniform scale only
     return _spr[key]
 
@@ -176,8 +177,30 @@ def card_dynamic(d, sh, lt, dur):
             d.ellipse((px - 22, py - 22, px + 22, py + 22), fill=RED, outline=INK, width=5)
             f = font(48, "Black"); d.text((px - d.textlength(sh["label"], font=f) / 2, py - 92), sh["label"], font=f, fill=INK)
 
+_shot = {}
+def screen(img, sh, lt, dur):
+    """Screenshot (shots/<file>) in a browser frame. Per-scene motion keeps every video different:
+    move = zoom | scroll | pan; focus = [x, y] (0-1) of the part to end on; side = left | right."""
+    if sh["file"] not in _shot: _shot[sh["file"]] = Image.open(os.path.join(CH, "shots", sh["file"])).convert("RGB")
+    s = _shot[sh["file"]]; k = ease(lt / max(dur, .1)); fx, fy = sh.get("focus", [.5, .3]); mv = sh.get("move", "zoom")
+    fw, fh = 1180, 760; z = 1 + (.55 * k if mv == "zoom" else .25)
+    cw, chh = s.width / z, s.width / z * fh / fw
+    cx = (s.width - cw) * (fx if mv != "pan" else k * fx); cy = max(0, min(s.height - chh, (s.height - chh) * (fy if mv != "scroll" else k * fy)))
+    view = s.resize((fw, fh), Image.LANCZOS, box=(cx, cy, cx + cw, cy + chh))
+    x0 = 110 if sh.get("side", "left") == "left" else W - 110 - fw; y0 = 150
+    d = ImageDraw.Draw(img); d.rounded_rectangle((x0 + 12, y0 + 16, x0 + fw + 12, y0 + fh + 76), 24, fill=(10, 10, 14))
+    d.rounded_rectangle((x0, y0, x0 + fw, y0 + fh + 60), 24, fill=(236, 238, 243), outline=INK, width=5)
+    for i, c in enumerate(((255, 95, 87), (254, 188, 46), (40, 200, 64))): d.ellipse((x0 + 24 + i * 34, y0 + 20, x0 + 46 + i * 34, y0 + 42), fill=c)
+    d.rounded_rectangle((x0 + 140, y0 + 14, x0 + fw - 30, y0 + 48), 17, fill=(255, 255, 255))
+    d.text((x0 + 160, y0 + 19), sh.get("url", "")[:70], font=font(22, "Medium"), fill=MUTED)
+    img.paste(view, (x0, y0 + 60))
+    if sh.get("cap"): text_block(d, (x0, y0 + fh + 90), sh["cap"], font(50, "Black"), fw, fill=CREAM, stroke=8, sfill=INK)
+
 def frame_for(seg, lt, dur, beat=0):
     sh = seg["show"]; t = sh["type"]
+    if t == "screen":
+        img = background(sh["bg"], dim=True).copy(); screen(img, sh, lt, dur)
+        place_sprite(img, sh["sprite"], 1640 if sh.get("side", "left") == "left" else 280, 2.0, lt); return img
     fullscreen = t in ("char", "chapter", "end")
     img = background(sh["bg"], dim=not fullscreen or t != "char").copy()
     d = ImageDraw.Draw(img)
@@ -215,7 +238,7 @@ def thumbnail(v, path):
     # MrBeast-style: 1 face big ("rule of big"), <=3 words that add to the title, simple saturated cool background,
     # rim-lit subject, white/yellow text with thick black stroke + hard shadow, top-left text, bottom-right corner free.
     from PIL import ImageFilter, ImageEnhance, ImageChops
-    th = v["thumb"]; img = Image.open(os.path.join(HERE, BGS[th["bg"]]["file_path"])).convert("RGB").resize((1280, 720), Image.LANCZOS)
+    th = v["thumb"]; img = Image.open(os.path.join(CH, BGS[th["bg"]]["file_path"])).convert("RGB").resize((1280, 720), Image.LANCZOS)
     img = ImageEnhance.Color(img.filter(ImageFilter.GaussianBlur(7))).enhance(1.6)
     img = Image.blend(img, Image.new("RGB", img.size, (24, 110, 190)), 0.28)  # teal/blue grade
     yy, xx = np.mgrid[0:720, 0:1280]; vig = 1 - 0.45 * (((xx - 900) / 900) ** 2 + ((yy - 360) / 520) ** 2).clip(0, 1)

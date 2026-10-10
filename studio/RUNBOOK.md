@@ -74,6 +74,8 @@ bash studio/setup.sh      # Kokoro voice (Apache-2.0) + espeak-ng; prints "voice
   5. A callback to the opening.
   6. An `end` segment that teases the next title in series.json.
 - Length: 1,450–1,650 words. `python3 studio/est.py <file>` must print OK.
+- Real screenshots (`screen` scenes) only when the topic is about a real tool, site or app (e.g. a store builder, a bank app, an AI tool) and seeing it helps; most videos need none. Never reuse a screenshot from an earlier video; vary `move` (zoom/scroll/pan), `focus` and `side` per scene. Public pages only, never logged-in dashboards, never edited to look different, never implying a sponsor. List them in `shots.json` of the channel ({file, url}); the GitHub Actions `screenshots` workflow fetches them before rendering; look at every shot (cookie banners, errors) before using it.
+- Every video must be unique in structure as well as topic: vary the hook type, the order and mix of scene types, and which sprites and backgrounds lead; never copy the scene list of an earlier video.
 - Use approved sprites and backgrounds only (`longform.validate` enforces this; A07 cannot be used). Fill in `thumb`, `desc`, `sources` and `tags`.
 
 ### B4. Render and check

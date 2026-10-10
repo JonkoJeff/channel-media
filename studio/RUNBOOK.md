@@ -29,7 +29,9 @@ Published videos are never edited or deleted. If something is wrong: bad luck, t
 3. Commit and push `studio/lessons.md`.
 
 ## B. Sundays and Wednesdays: make the next videos (≈1.5 h)
-Rhythm: 3 long videos a week (Mon, Wed, Fri at 17:00) and 1 Short every day at 12:00. Each run makes 2 long videos, unless the next 7 days already have 3 scheduled; then make 1, or 0 and only do A and C.
+Rhythm: 3 long videos a week (Mon, Wed, Fri at 17:00). 3 Shorts per long video (A hook, B study reveal, C practical tip), 9 a week: daily at 12:00, plus 20:00 on Mon/Wed/Fri. Max 2 Shorts a day, never 2 in a row from the same video.
+Back catalog: from 10 published long videos on, add 2 extra Shorts a week cut from older videos, best performers first, never a segment already used (check shorts.json).
+Scale every 3 weeks from insights.md: good retention/CTR -> 4 long a week or 2 Shorts every day; dropping -> back down. Each run makes 2 long videos, unless the next 7 days already have 3 scheduled; then make 1, or 0 and only do A and C.
 
 ### B0. Setup
 ```
@@ -67,7 +69,7 @@ bash studio/setup.sh      # Kokoro voice (Apache-2.0) + espeak-ng; prints "voice
 cd studio/assetedit && python3 longform.py videos/lfNN.json    # ≈20 min each
 ```
 - Check that the length is ≥ 8:00 and the file has audio, and go through every rule in `studio/lessons.md` one by one. Look at 6 frames (`ffmpeg -ss`) and at the thumbnail. Fix and re-render if anything overflows or looks wrong.
-- Add 2 Shorts per video to `videos/shorts.json` (A = the hook segments, B = the study reveal, each ≤ 58 s). Render only the new ones: put them in a temp JSON and run `python3 shorts.py <temp.json>`.
+- Add 3 Shorts per video to `videos/shorts.json` (A = hook segments, B = study reveal, C = a practical tip; each ≤ 58 s). Render only the new ones: put them in a temp JSON and run `python3 shorts.py <temp.json>`.
 
 ### B5. Schedule
 - `bash studio/publish.sh renders/lfNN.mp4 renders/lfNN_thumb.png renders/shNNa.mp4 renders/shNNb.mp4` prints the public URLs.

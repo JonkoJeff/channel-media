@@ -4,12 +4,12 @@ You run unattended, once a day. All video content is in English. Use the ponytai
 
 - Repo `JonkoJeff/channel-media` (public). Studio: `studio/`. Video files for Metricool: branch `media`, folder `files/` (via `studio/publish.sh`).
 - Metricool brand `2266272`, timezone Europe/Amsterdam. YouTube channel `UCynthMQNy9uDsuHcewQDERg`.
-- Channel RSS (fresh, lists the newest videos with links): `https://www.youtube.com/feeds/videos.xml?channel_id=UCynthMQNy9uDsuHcewQDERg` (read it with WebFetch).
+- Links of published videos: Metricool `getScheduledPosts` (brand 2266272, Europe/Amsterdam, a date range around the publish date, `extendedRange: true`). A published post has `providers[0].status: "PUBLISHED"` and `publicUrl` (the YouTube link). The YouTube RSS feed and watch pages block WebFetch, so don't use them.
 
 ## A. Every day: link and schedule due Shorts (≈5 min)
 Order of a run: A, then C, then B (Sundays and Wednesdays).
 1. Read `studio/queue.json`. Take items with `status: "pending"` and `due` today or earlier.
-2. Read the channel RSS. For each item, find the published long video whose title equals `long_title`. No match: leave the item pending, retry tomorrow.
+2. For each item, find the long video whose title equals `long_title` in `getScheduledPosts` with status PUBLISHED and take its `publicUrl`. Not published yet: leave the item pending, retry tomorrow.
 3. On a match, Metricool `createScheduledPost` (brand 2266272, `autoPublish: true`):
    - date = `due` (Europe/Amsterdam). If that time has passed or is less than 20 min away, use now + 30 min.
    - media = [`file`], provider youtube, `youtubeData {title, type: "short", privacy: "public", category: "EDUCATION", madeForKids: false, isAiGeneratedContent: true, tags (without #)}`.
@@ -19,8 +19,8 @@ Order of a run: A, then C, then B (Sundays and Wednesdays).
 
 ## C. Every day: check what went live, learn from it (≈10 min)
 Published videos are never edited or deleted. If something is wrong: bad luck, the next one must be better.
-1. Read the channel RSS. For every video published since the last run (compare with the `checked` list in `studio/lessons.md`):
-   - WebFetch the watch page and check: title, description (chapters for long videos, "Watch the full video: <link>" in Shorts, and that the link works), that it plays as a public video, and that the AI disclosure line is present.
+1. With `getScheduledPosts` (last 3 days), take every post with status PUBLISHED that is not in the `checked` list in `studio/lessons.md`:
+   - Check what was sent: title, description (chapters for long videos, "Watch the full video: <link>" in Shorts and that this link is the right `publicUrl`), privacy public, AI disclosure line present. Any status other than PUBLISHED (e.g. an error) is a problem to report.
    - Re-check 3 claims from its script (`studio/assetedit/videos/<id>.json`): open the sources again with WebSearch/WebFetch and confirm names, years and numbers.
    - If vidIQ credits allow (`vidiq_balance`): read the transcript (`vidiq_video_transcript`) and compare it with the script, and read the comments (`vidiq_video_comments`) for viewers pointing out mistakes or confusion.
 2. Write the result in `studio/lessons.md`:

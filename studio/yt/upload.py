@@ -7,7 +7,7 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
 Q = os.path.join(os.path.dirname(__file__), "queue.json")
-S = json.loads(os.environ.get("SECRETS") or "{}")
+S = {k: v for k, v in os.environ.items() if k.startswith("YT_REFRESH_TOKEN_") and v}  # extra channels: add env lines in the workflow
 def client(channel=None):
     tok = S.get("YT_REFRESH_TOKEN_" + channel.upper()) if channel else os.environ.get("YT_REFRESH_TOKEN")
     if not tok: raise SystemExit(f"::error::Missing GitHub secret YT_REFRESH_TOKEN_{(channel or '').upper()}")
@@ -18,10 +18,16 @@ q = json.load(open(Q)) if os.path.exists(Q) else []
 if os.environ.get("CHECK_ONLY"):
     missing = [k for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN") if not os.environ.get(k)]
     if missing: print(f"::error::Missing GitHub secrets: {missing}"); raise SystemExit(1)
+    import datetime
+    st = {"checked_at": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ"), "channels": []}
     try:
-        for ch in [None] + [k[17:].lower() for k in S if k.startswith("YT_REFRESH_TOKEN_")]:
-            items = client(ch).channels().list(part="snippet", mine=True).execute().get("items", [])
+        for ch in [None] + [k[17:].lower() for k in S]:
+            items = client(ch).channels().list(part="snippet,statistics", mine=True).execute().get("items", [])
             print(f"::notice::{ch or 'default'} -> {items[0]['snippet']['title'] if items else 'NO CHANNEL (pick the channel at sign-in)'}")
+            st["channels"] += [{"key": ch or "default", "id": c["id"], "title": c["snippet"]["title"],
+                                **{k: int(v) for k, v in c["statistics"].items() if k in ("subscriberCount", "viewCount", "videoCount")}} for c in items]
+        json.dump(st, open(os.path.join(os.path.dirname(__file__), "status.json"), "w"), indent=1)
+        print("::notice::status " + json.dumps(st))
     except Exception as e:
         print(f"::error::{type(e).__name__}: {str(e)[:300]}"); raise SystemExit(1)
     raise SystemExit

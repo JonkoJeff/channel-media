@@ -10,7 +10,9 @@ const { chromium } = require('playwright'); const fs = require('fs'); const path
       try {
         await p.goto(s.url, { waitUntil: 'networkidle', timeout: 60000 });
         for (const t of ['Accept', 'Accept all', 'Accept All', 'I agree', 'Got it', 'OK']) { const x = p.getByRole('button', { name: t, exact: true }); if (await x.count()) { await x.first().click().catch(() => {}); break; } }
-        await p.waitForTimeout(1500); await p.screenshot({ path: out, fullPage: true }); console.log('ok', s.url);
+        // scroll through the page so lazy images, videos and counters load, then back to top
+        await p.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += 500) { window.scrollTo(0, y); await new Promise(r => setTimeout(r, 250)); } window.scrollTo(0, 0); });
+        await p.waitForTimeout(3000); await p.screenshot({ path: out, fullPage: true }); console.log('ok', s.url);
       } catch (e) { console.log('::warning::' + s.url + ' ' + e.message.slice(0, 150)); }
     }
   }

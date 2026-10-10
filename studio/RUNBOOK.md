@@ -7,6 +7,7 @@ You run unattended, once a day. All video content is in English. Use the ponytai
 - Channel RSS (fresh, lists the newest videos with links): `https://www.youtube.com/feeds/videos.xml?channel_id=UCynthMQNy9uDsuHcewQDERg` (read it with WebFetch).
 
 ## A. Every day: link and schedule due Shorts (≈5 min)
+Order of a run: A, then C, then B (Sundays).
 1. Read `studio/queue.json`. Take items with `status: "pending"` and `due` today or earlier.
 2. Read the channel RSS. For each item, find the published long video whose title equals `long_title`. No match: leave the item pending, retry tomorrow.
 3. On a match, Metricool `createScheduledPost` (brand 2266272, `autoPublish: true`):
@@ -16,6 +17,17 @@ You run unattended, once a day. All video content is in English. Use the ponytai
 4. Set `status: "scheduled"`, `long_url`, `metricool_id`. Then `bash studio/publish.sh --rm <id>.mp4` for those files (Metricool copied them when scheduling; the response's media URL starts with static.metricool.com).
 5. Commit and push `studio/queue.json`.
 
+## C. Every day: check what went live, learn from it (≈10 min)
+Published videos are never edited or deleted. If something is wrong: bad luck, the next one must be better.
+1. Read the channel RSS. For every video published since the last run (compare with the `checked` list in `studio/lessons.md`):
+   - WebFetch the watch page and check: title, description (chapters for long videos, "Watch the full video: <link>" in Shorts, and that the link works), that it plays as a public video, and that the AI disclosure line is present.
+   - Re-check 3 claims from its script (`studio/assetedit/videos/<id>.json`): open the sources again with WebSearch/WebFetch and confirm names, years and numbers.
+   - If vidIQ credits allow (`vidiq_balance`): read the transcript (`vidiq_video_transcript`) and compare it with the script, and read the comments (`vidiq_video_comments`) for viewers pointing out mistakes or confusion.
+2. Write the result in `studio/lessons.md`:
+   - Add the video id to `checked`.
+   - For every problem, add one concrete rule under `## Rules`, for example "Say years in digits on cards; the voice reads '2020' fine". Keep rules short and testable. Merge duplicates.
+3. Commit and push `studio/lessons.md`.
+
 ## B. Sundays only: make next week's videos (≈1.5 h)
 
 ### B0. Setup
@@ -24,6 +36,7 @@ bash studio/setup.sh      # Kokoro voice (Apache-2.0) + espeak-ng; prints "voice
 ```
 
 ### B1. Learn from the numbers (Metricool, free)
+- First read `studio/lessons.md` (rules from earlier mistakes) and the last 2 blocks of `studio/insights.md`. Every rule there applies to this run.
 - `getAnalyticsDataByMetrics` brand 2266272, from 2026-10-01 to today, metrics `YTVV02, YTVV17, YTVV06, YTVV08, YTVV09, YTVV11, YTVV12` (date, title, views, avg view duration, likes, comments, shares).
 - Append a dated block to `studio/insights.md` with these columns per video: views, avg view duration as % of length, likes and comments per 1k views. Then 3 bullets: what worked, what didn't, and what to change this week.
 - Rules of thumb:
@@ -52,7 +65,7 @@ bash studio/setup.sh      # Kokoro voice (Apache-2.0) + espeak-ng; prints "voice
 ```
 cd studio/assetedit && python3 longform.py videos/lfNN.json    # ≈20 min each
 ```
-- Check that the length is ≥ 8:00 and the file has audio. Look at 6 frames (`ffmpeg -ss`) and at the thumbnail. Fix and re-render if anything overflows or looks wrong.
+- Check that the length is ≥ 8:00 and the file has audio, and go through every rule in `studio/lessons.md` one by one. Look at 6 frames (`ffmpeg -ss`) and at the thumbnail. Fix and re-render if anything overflows or looks wrong.
 - Add 2 Shorts per video to `videos/shorts.json` (A = the hook segments, B = the study reveal, each ≤ 58 s). Render only the new ones: put them in a temp JSON and run `python3 shorts.py <temp.json>`.
 
 ### B5. Schedule

@@ -4,7 +4,7 @@ Last updated: 10 October 2026
 
 Crazy Facts Publisher is a private tool used only by the owner of the YouTube channel "Crazy Facts" to upload and schedule the owner's own original videos and set their thumbnails. It is not offered to other users.
 
-**Data accessed.** With the owner's consent (Google OAuth), the tool uses the YouTube Data API to upload videos, set thumbnails and read the list and basic statistics of the owner's own videos. It does not access any other user's data.
+**Data accessed.** With the owner's consent (Google OAuth), the tool uses the YouTube Data API to upload videos and Shorts, set thumbnails, edit titles, descriptions and tags, manage playlists, read and reply to comments, and read basic statistics, all only on the owner's own channel. It does not access any other user's data.
 
 **Storage.** The OAuth token is stored only as a private secret in the owner's own environment. Video metadata (title, description, tags, video ID) is kept in the owner's private project files. Nothing is sold, shared or used for advertising.
 

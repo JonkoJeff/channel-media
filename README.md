@@ -1,6 +1,6 @@
 # Crazy Facts Publisher
 
-A private, single-user tool that uploads and schedules the original videos of the YouTube channel **Crazy Facts** (animated psychology explainers) to that same channel, and sets their thumbnails. It is used only by the channel owner.
+A private, single-user tool that uploads and schedules the original videos of the YouTube channel **Crazy Facts** (animated psychology explainers) to that same channel: uploads (long videos and Shorts), thumbnails, titles/descriptions/tags, playlists and replies to comments. It is used only by the channel owner.
 
 **Uses YouTube API Services.** By using this tool you agree to the [YouTube Terms of Service](https://www.youtube.com/t/terms).
 

@@ -45,8 +45,14 @@ if os.environ.get("CHECK_ONLY"):
 def fetch(url):
     p = tempfile.mktemp(suffix=os.path.splitext(url)[1]); urllib.request.urlretrieve(url, p); return p
 
+# Spread uploads: only items publishing within the next 26 h, max 3 per run (YouTube flags bursts of uploads as spam).
+import datetime as _dt
+now, done = _dt.datetime.now(_dt.timezone.utc), 0
 for it in q:
-    if it.get("status") != "pending": continue
+    if it.get("status") != "pending" or done >= 3: continue
+    pa = it.get("publish_at")
+    if pa and _dt.datetime.fromisoformat(pa.replace("Z", "+00:00")) > now + _dt.timedelta(hours=26): continue
+    done += 1
     status = {"privacyStatus": "private" if it.get("publish_at") else "public", "selfDeclaredMadeForKids": False,
               "containsSyntheticMedia": True}
     if it.get("publish_at"): status["publishAt"] = it["publish_at"]

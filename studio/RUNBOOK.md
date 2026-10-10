@@ -6,6 +6,10 @@ You run unattended, once a day. All video content is in English. Use the ponytai
 - Metricool brand `2266272`, timezone Europe/Amsterdam. YouTube channel `UCynthMQNy9uDsuHcewQDERg`.
 - Links of published videos: Metricool `getScheduledPosts` (brand 2266272, Europe/Amsterdam, a date range around the publish date, `extendedRange: true`). A published post has `providers[0].status: "PUBLISHED"` and `publicUrl` (the YouTube link). The YouTube RSS feed and watch pages block WebFetch, so don't use them.
 
+## YouTube route (check first)
+- If `studio/yt/APPROVED` exists (Google approved the API audit): **all YouTube uploads go through our own uploader**, no post limit. Append items to `studio/yt/queue.json` (`{id, file, thumb, title, description, tags, publish_at (UTC ISO, e.g. 17:00 Amsterdam = 15:00Z in summer, 16:00Z in winter), short, status: "pending"}`) and push; GitHub Actions uploads them as scheduled and writes back `video_id`. Use the full rhythm: 3 long a week + 3 Shorts per long video (A hook, B study, C tip), daily 12:00 plus 20:00 on Mon/Wed/Fri, max 2 a day. Items in `studio/queue.json` with status `later` go back into the rotation. Metricool then only posts Shorts to TikTok/Instagram (if connected), within the 20-post budget below.
+- If it does not exist yet: uploads through our own uploader stay private, so keep using Metricool for YouTube with the budget below.
+
 ## Post budget (Metricool free plan: 20 posts per calendar month)
 - Count every post in `getScheduledPosts` whose publication date is in that month, any status. One Metricool post counts once, however many networks it goes to.
 - Long videos come first: always reserve one slot for each Mon/Wed/Fri 17:00 still ahead in the month. Shorts only use what is left: `free = 20 - counted - reserved`. If `free <= 0`, no Short that month.

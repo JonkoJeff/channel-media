@@ -1,0 +1,483 @@
+{
+ "id": "lf01",
+ "title": "Why Your Brain Replays Your Most Embarrassing Moments at 3 AM",
+ "voice": "am_puck",
+ "thumb": {
+  "text": "NOBODY|NOTICED.",
+  "sprite": "A09",
+  "bg": "bedroom_night"
+ },
+ "desc": "It's 3 AM and your brain decides to replay the time you said \"you too\" to a waiter. Why does it do that? In this video we look at why cringe memories are saved in high definition, why they love to show up at night, the famous T-shirt experiment that shows almost nobody noticed, and four tricks to switch the replay off.",
+ "sources": [
+  "Gilovich, Medvec & Savitsky (2000). The spotlight effect in social judgment. Journal of Personality and Social Psychology, 78(2), 211-222.",
+  "Savitsky, Epley & Gilovich (2001). Do others judge us as harshly as we think? Journal of Personality and Social Psychology.",
+  "Baumeister, Bratslavsky, Finkenauer & Vohs (2001). Bad is stronger than good. Review of General Psychology.",
+  "Kross et al. (2014). Self-talk as a regulatory mechanism. Journal of Personality and Social Psychology."
+ ],
+ "tags": [
+  "#psychology",
+  "#brain",
+  "#relatable",
+  "#cringe",
+  "#spotlighteffect"
+ ],
+ "segments": [
+  {
+   "say": "It's three oh seven AM. You're warm, you're comfortable, and you're almost asleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "3:07 AM."
+   }
+  },
+  {
+   "say": "And then your brain, out of nowhere, decides to play a highlight reel. Not of your best moments. Of your worst.",
+   "show": {
+    "type": "char",
+    "sprite": "A16",
+    "bg": "bedroom_night",
+    "cap": "...and then."
+   }
+  },
+  {
+   "say": "The waiter says, enjoy your meal. And you say, you too. The time you waved back at someone who was actually waving at the person behind you. That one thing you said in seventh grade that nobody else on Earth remembers.",
+   "show": {
+    "type": "char",
+    "sprite": "A09",
+    "bg": "bedroom_night",
+    "cap": "\"You too!\"",
+    "sub": "said to a waiter who told you to enjoy your meal"
+   }
+  },
+  {
+   "say": "So why does your brain do this? Why does it hold on to the cringe so tightly, and why does it always pick the exact moment you're trying to fall asleep?",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Why?!"
+   }
+  },
+  {
+   "say": "In this video, we're going to look at why cringe memories are stored so strongly, why they love to show up at night, a famous experiment that will make you feel a lot better, and a few tricks to actually switch the replay off. And stay for part three, because one number in that experiment changes how you'll think about every awkward moment you've ever had.",
+   "show": {
+    "type": "list",
+    "title": "In this video",
+    "items": [
+     "Why cringe is saved in HD",
+     "Why it shows up at night",
+     "The T-shirt experiment",
+     "How to switch the replay off"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Part one. Your brain saves cringe in high definition.",
+   "show": {
+    "type": "chapter",
+    "n": 1,
+    "title": "Your brain saves cringe in HD",
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Quick test. What did you have for lunch eleven days ago? You probably have no idea. Most of your days are quietly deleted, and that's completely normal. Your brain can't keep everything, so it keeps what seems important.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Most days get deleted"
+   }
+  },
+  {
+   "say": "And how does it decide what's important? Mostly, emotion. When something makes you feel strongly, a small almond shaped part of the brain called the amygdala gets involved, and it helps tell your memory systems: keep this one. That's why big moments, good or bad, can stay sharp for years.",
+   "show": {
+    "type": "list",
+    "title": "What your brain saves first",
+    "items": [
+     "Moments that felt emotional",
+     "Moments that felt like a threat",
+     "Moments that happened in front of other people"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Now here's the thing about embarrassment. To your brain, it isn't just an awkward feeling. It's an alarm.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "bedroom_night",
+    "cap": "Embarrassment = alarm"
+   }
+  },
+  {
+   "say": "Psychologists also separate embarrassment from shame. Embarrassment is about a moment. I did something awkward. Shame is about who you are. I am awkward. The three AM replay often tries to turn the first one into the second. Don't let it. One awkward moment is just one awkward moment.",
+   "show": {
+    "type": "list",
+    "title": "Embarrassment vs shame",
+    "items": [
+     "Embarrassment: I did something awkward",
+     "Shame: I am awkward",
+     "Keep it a moment, not an identity"
+    ],
+    "sprite": "A04",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "For most of human history, people lived in small groups, and being pushed out of the group was genuinely dangerous. So the brain became very good at noticing social mistakes, and very serious about remembering them, so you wouldn't make the same one twice.",
+   "show": {
+    "type": "list",
+    "title": "Why embarrassment felt dangerous",
+    "items": [
+     "Humans lived in small groups",
+     "Losing the group was a real danger",
+     "So the brain tracks every social slip"
+    ],
+    "sprite": "A04",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Psychologists have a name for this tilt toward the negative. It's called the negativity bias. A well known review from 2001 summed it up in four words. Bad is stronger than good. Negative events tend to grab more attention and stick around longer than positive events of the same size.",
+   "show": {
+    "type": "quote",
+    "text": "Bad is stronger than good.",
+    "by": "Baumeister et al., Review of General Psychology (2001)",
+    "sprite": "A13",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "So the replay isn't your brain being broken. It's an old safety system doing its job a little too well. That's useful when you're learning not to touch a hot stove. It's less useful when the danger is saying, you too, to a waiter.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "Not broken.",
+    "sub": "Just an old alarm, a little too loud."
+   }
+  },
+  {
+   "say": "Part two. Why it always shows up at night.",
+   "show": {
+    "type": "chapter",
+    "n": 2,
+    "title": "Why it shows up at night",
+    "sprite": "A19",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "During the day, your brain is busy. You're talking, scrolling, working, answering messages. All of that keeps your attention pointed outward, at the world in front of you.",
+   "show": {
+    "type": "char",
+    "sprite": "A17",
+    "bg": "street_day",
+    "cap": "Daytime: busy brain"
+   }
+  },
+  {
+   "say": "But when you lie down in the dark, all of that disappears. There's no task, no conversation, nothing to focus on. And when the brain has nothing to do, it doesn't simply switch off. It wanders.",
+   "show": {
+    "type": "list",
+    "title": "What changes at night",
+    "items": [
+     "No task to focus on",
+     "No screens, no people",
+     "So the mind starts to wander"
+    ],
+    "sprite": "A13",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "Neuroscientists call the network behind this wandering the default mode network. It's a set of brain regions that becomes more active when you're not focused on the outside world. And what does it love to think about? You. Your past, your plans, your conversations, and everything that could have gone differently.",
+   "show": {
+    "type": "list",
+    "title": "The default mode network",
+    "items": [
+     "Gets busier when you stop focusing",
+     "Thinks about you: past and future",
+     "Replays conversations and what-ifs"
+    ],
+    "sprite": "A04",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "So at night, with nothing to distract it, your brain opens the archive. And because the cringe memories were saved with extra emotion, they're sitting right at the front of the shelf.",
+   "show": {
+    "type": "char",
+    "sprite": "A09",
+    "bg": "bedroom_night",
+    "cap": "The archive opens"
+   }
+  },
+  {
+   "say": "It doesn't help that you're tired. When you're exhausted, feelings tend to get bigger and harder to put into perspective. A memory that would make you shrug at noon can make you want to disappear at three in the morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "bedroom_night",
+    "cap": "Tired = louder feelings"
+   }
+  },
+  {
+   "say": "Psychologists call this kind of looping thought rumination. Replaying the same scene again and again, without ever solving anything. A little of it is normal. But if the replay is heavy and shows up almost every night, it's worth talking to someone you trust about it. That's not weakness. That's maintenance.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Rumination.",
+    "sub": "Normal in small doses. Talk about it if it's every night."
+   }
+  },
+  {
+   "say": "Quick question before we keep going. What's the one memory your brain loves to replay? Put it in the comments. After the next part, I promise you'll feel a lot less alone.",
+   "show": {
+    "type": "char",
+    "sprite": "A11",
+    "bg": "street_day",
+    "cap": "What's yours?",
+    "sub": "Tell me in the comments."
+   }
+  },
+  {
+   "say": "Part three. The T-shirt experiment.",
+   "show": {
+    "type": "chapter",
+    "n": 3,
+    "title": "The T-shirt experiment",
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "In the year two thousand, psychologists Thomas Gilovich, Victoria Medvec and Kenneth Savitsky ran a now famous experiment at Cornell University. They asked students to put on a T-shirt that would be pretty embarrassing to wear in front of other students.",
+   "show": {
+    "type": "study",
+    "who": "Gilovich, Medvec & Savitsky",
+    "where": "Cornell University, 2000",
+    "what": "Students put on an embarrassing T-shirt and walked into a room full of other students.",
+    "sprite": "A04",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "The shirt had a big picture of the singer Barry Manilow on it. If you don't know who that is, that's kind of the point. For a college student back then, this was not a cool shirt.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "bedroom_night",
+    "cap": "The shirt."
+   }
+  },
+  {
+   "say": "The student walked into a room where other students were already sitting, stayed for a short moment, and then left. Then the researchers asked a simple question. How many people in that room do you think noticed your shirt?",
+   "show": {
+    "type": "char",
+    "sprite": "A09",
+    "bg": "bedroom_night",
+    "cap": "Walk in. Sit. Cringe."
+   }
+  },
+  {
+   "say": "On average, the students guessed that about half of the room had noticed. Around forty six percent.",
+   "show": {
+    "type": "stat",
+    "title": "Their guess",
+    "big": "46%",
+    "label": "of the room would notice the shirt",
+    "sprite": "A04",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Then the researchers asked the people in the room. And the real number was about twenty three percent. Half of what they expected. The students felt twice as visible as they actually were.",
+   "show": {
+    "type": "bars",
+    "title": "Who actually noticed the shirt?",
+    "bars": [
+     [
+      "They guessed",
+      46
+     ],
+     [
+      "Actually noticed",
+      23
+     ]
+    ],
+    "unit": "%",
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "This is called the spotlight effect. We feel like there's a spotlight on us, following every move we make. But everyone else is standing in their own spotlight, busy worrying about themselves.",
+   "show": {
+    "type": "quote",
+    "text": "We think the spotlight is on us far more than it really is.",
+    "by": "The spotlight effect, in one sentence",
+    "sprite": "A13",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Why does this happen? The researchers suggested that we start from our own point of view, which is completely filled with the embarrassing shirt, and then we don't adjust enough for how little other people actually see. You know every detail of your own cringe. They saw two seconds of it, if they saw it at all.",
+   "show": {
+    "type": "list",
+    "title": "Why we feel so visible",
+    "items": [
+     "We start from our own view",
+     "Our view is full of the cringe",
+     "We don't adjust enough for others"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "And it doesn't stop at clothes. In a follow up study, the same research group found that people also overestimate how harshly others judge their mistakes. We assume people think less of us. Most of the time, they just think about us less.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Same for mistakes"
+   }
+  },
+  {
+   "say": "So that moment you keep replaying? The waiter forgot it before you reached your table. The person who waved never even noticed. Your classmates from seventh grade are lying awake replaying their own stuff. You are the only one still watching your highlight reel.",
+   "show": {
+    "type": "char",
+    "sprite": "A11",
+    "bg": "street_day",
+    "cap": "Nobody is replaying it.",
+    "sub": "Except you."
+   }
+  },
+  {
+   "say": "Part four. How to switch the replay off.",
+   "show": {
+    "type": "chapter",
+    "n": 4,
+    "title": "How to switch the replay off",
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Let's be honest, you can't delete a memory on purpose. But you can change what happens when it shows up. Here are four things that actually help.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "You can't delete it.",
+    "sub": "But you can change how it plays."
+   }
+  },
+  {
+   "say": "Trick one. Name it. When the memory starts, say in your head, that's just a cringe memory. Research on putting feelings into words suggests that labeling an emotion can turn its intensity down a little. You step out of the scene and watch it from the outside.",
+   "show": {
+    "type": "list",
+    "title": "Trick 1: Name it",
+    "items": [
+     "Notice the replay starting",
+     "Say: \"That's just a cringe memory.\"",
+     "Naming a feeling takes some power away"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Trick two. Talk to yourself like a friend would. Psychologist Ethan Kross and his colleagues found that talking to yourself in the third person, using your own name, can help people stay calmer in stressful moments. It creates distance. You would never tell a friend they're a disaster for saying, you too. So don't say it to yourself either.",
+   "show": {
+    "type": "list",
+    "title": "Trick 2: Talk like a friend",
+    "items": [
+     "Use your own name",
+     "\"Alex, it was one sentence. It's fine.\"",
+     "Distance makes it easier to see clearly"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Trick three. The one year test. Ask yourself, will anyone remember this in a year? Most of the time, the answer is no. Sometimes not even you. And if you do remember it, it will probably be a funny story by then.",
+   "show": {
+    "type": "list",
+    "title": "Trick 3: The one-year test",
+    "items": [
+     "Will anyone remember this in a year?",
+     "Will you?",
+     "If not, it's a story, not a problem"
+    ],
+    "sprite": "A02",
+    "bg": "street_day"
+   }
+  },
+  {
+   "say": "Trick four. Give your brain a job. Remember, the replay starts because the brain has nothing to focus on. So give it something boring but absorbing. Count backwards from three hundred in steps of three. Picture a calm place in a lot of detail. Or put on something quiet to listen to. A busy, bored brain is a sleepy brain.",
+   "show": {
+    "type": "list",
+    "title": "Trick 4: Give your brain a job",
+    "items": [
+     "Count back from 300 in threes",
+     "Picture a calm place in detail",
+     "Play something quiet and calm"
+    ],
+    "sprite": "A10",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "And a bonus trick. If your mind keeps circling, grab a notebook before bed and write down whatever is on your mind. Getting thoughts out of your head and onto paper can make it easier to let them go for the night. They're saved. You can deal with them tomorrow, if they still matter.",
+   "show": {
+    "type": "list",
+    "title": "Bonus: park it on paper",
+    "items": [
+     "Notebook next to your bed",
+     "Write down what's circling",
+     "It's saved. Deal with it tomorrow."
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "And here's one last way to look at it. Feeling cringe about something usually means you care about how you come across to other people. People who don't care don't lie awake replaying conversations. So in a strange way, your cringe is a sign that you're a pretty considerate person.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Cringe = you care"
+   }
+  },
+  {
+   "say": "So the next time it's three AM and your brain hits play, remember. It's an old alarm system. Almost nobody else saw it. And you are allowed to go to sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Now go to sleep."
+   }
+  },
+  {
+   "say": "In the next video, we're looking at the other thing your brain does hours too late. The perfect comeback. Why does it only show up in the shower, long after the conversation is over? Subscribe so you don't miss it. And hey. Enjoy your meal.",
+   "show": {
+    "type": "end",
+    "next": "Why You Think of the Perfect Comeback Too Late",
+    "sprite": "A20",
+    "bg": "living_room_day"
+   }
+  }
+ ]
+}

@@ -1,0 +1,292 @@
+{
+ "reference": "ORIGINAL_CHARACTER_SHEET (sheet A: 5x4, echte alfa, gebruiker 2026-10-09)",
+ "anchor_default": "bottom_center",
+ "notes": "A01-A20: pixels 1-op-1 uit het originele blad, alleen uitgesneden. B01-B20 en sheet-1 sprites: niet goedgekeurd (handmatige uitsnede/matting nog na te kijken).",
+ "assets": [
+  {
+   "asset_id": "A01",
+   "file_path": "assets/A01.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "pose_type": "bust",
+   "face_direction": "front_left",
+   "gesture": "peace_sign",
+   "mouth_state": "open",
+   "eye_state": "open",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A02",
+   "file_path": "assets/A02.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "pose_type": "bust",
+   "face_direction": "front_right",
+   "gesture": "point_up_right",
+   "mouth_state": "open",
+   "eye_state": "wink",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A03",
+   "file_path": "assets/A03.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "pose_type": "bust",
+   "face_direction": "front",
+   "gesture": "none",
+   "mouth_state": "closed_smile",
+   "eye_state": "open",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A04",
+   "file_path": "assets/A04.png",
+   "approved": true,
+   "emotion": "CONFUSED",
+   "pose_type": "bust",
+   "face_direction": "front_right",
+   "gesture": "hand_on_chin",
+   "mouth_state": "closed",
+   "eye_state": "open_up",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A05",
+   "file_path": "assets/A05.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "pose_type": "bust",
+   "face_direction": "front",
+   "gesture": "none",
+   "mouth_state": "open_wide",
+   "eye_state": "closed_happy",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A06",
+   "file_path": "assets/A06.png",
+   "approved": true,
+   "emotion": "EXCITED",
+   "pose_type": "bust",
+   "face_direction": "front_left",
+   "gesture": "none",
+   "mouth_state": "open",
+   "eye_state": "wide",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A07",
+   "file_path": "assets/A07.png",
+   "approved": true,
+   "emotion": "ANGRY",
+   "pose_type": "bust",
+   "face_direction": "front",
+   "gesture": "fist",
+   "mouth_state": "closed",
+   "eye_state": "narrow",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A08",
+   "file_path": "assets/A08.png",
+   "approved": true,
+   "emotion": "SAD",
+   "pose_type": "bust",
+   "face_direction": "front",
+   "gesture": "hands_on_cheeks",
+   "mouth_state": "open_wide",
+   "eye_state": "closed_crying",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A09",
+   "file_path": "assets/A09.png",
+   "approved": true,
+   "emotion": "SAD",
+   "pose_type": "bust",
+   "face_direction": "front",
+   "gesture": "hands_cover_face",
+   "mouth_state": "hidden",
+   "eye_state": "half",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A10",
+   "file_path": "assets/A10.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "pose_type": "bust",
+   "face_direction": "front",
+   "gesture": "hand_on_cheek",
+   "mouth_state": "closed_smile",
+   "eye_state": "closed",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A11",
+   "file_path": "assets/A11.png",
+   "approved": true,
+   "emotion": "EXCITED",
+   "pose_type": "bust",
+   "face_direction": "front_left",
+   "gesture": "point_viewer",
+   "mouth_state": "open",
+   "eye_state": "open",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A12",
+   "file_path": "assets/A12.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "pose_type": "bust",
+   "face_direction": "front",
+   "gesture": "present_open_hand",
+   "mouth_state": "open",
+   "eye_state": "open",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A13",
+   "file_path": "assets/A13.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "pose_type": "bust",
+   "face_direction": "front_left",
+   "gesture": "none",
+   "mouth_state": "flat",
+   "eye_state": "half",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A14",
+   "file_path": "assets/A14.png",
+   "approved": true,
+   "emotion": "EXCITED",
+   "pose_type": "bust",
+   "face_direction": "front_left",
+   "gesture": "finger_up_idea",
+   "mouth_state": "open",
+   "eye_state": "wink",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A15",
+   "file_path": "assets/A15.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "pose_type": "bust",
+   "face_direction": "front",
+   "gesture": "hold_drink",
+   "mouth_state": "open",
+   "eye_state": "closed_happy",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A16",
+   "file_path": "assets/A16.png",
+   "approved": true,
+   "emotion": "EXCITED",
+   "pose_type": "bust",
+   "face_direction": "front_left",
+   "gesture": "none",
+   "mouth_state": "open",
+   "eye_state": "wide",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A17",
+   "file_path": "assets/A17.png",
+   "approved": true,
+   "emotion": "EXCITED",
+   "pose_type": "bust",
+   "face_direction": "front",
+   "gesture": "hold_controller",
+   "mouth_state": "open",
+   "eye_state": "open",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A18",
+   "file_path": "assets/A18.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "pose_type": "peek",
+   "face_direction": "front",
+   "gesture": "hands_on_edge",
+   "mouth_state": "hidden",
+   "eye_state": "open",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A19",
+   "file_path": "assets/A19.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "pose_type": "lying",
+   "face_direction": "front",
+   "gesture": "head_on_arms",
+   "mouth_state": "closed",
+   "eye_state": "closed_sleep",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "A20",
+   "file_path": "assets/A20.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "pose_type": "bust",
+   "face_direction": "front_left",
+   "gesture": "wave",
+   "mouth_state": "open",
+   "eye_state": "wink",
+   "anchor_point": "bottom_center"
+  }
+ ],
+ "backgrounds": [
+  {
+   "bg_id": "bedroom_night",
+   "file_path": "backgrounds/bedroom_night.png",
+   "approved": true,
+   "emotions": [
+    "SAD",
+    "NEUTRAL",
+    "CONFUSED",
+    "EXCITED"
+   ],
+   "use": "late-night thoughts, vulnerable/intimate moments, setup + tension; 3 AM startle moments"
+  },
+  {
+   "bg_id": "living_room_day",
+   "file_path": "backgrounds/living_room_day.png",
+   "approved": true,
+   "emotions": [
+    "HAPPY",
+    "NEUTRAL"
+   ],
+   "use": "relief, resolution, calm explaining"
+  },
+  {
+   "bg_id": "street_day",
+   "file_path": "backgrounds/street_day.png",
+   "approved": true,
+   "emotions": [
+    "EXCITED",
+    "HAPPY"
+   ],
+   "use": "outdoor stories, energy, scene changes"
+  },
+  {
+   "bg_id": "conspiracy_board",
+   "file_path": "backgrounds/conspiracy_board.png",
+   "approved": true,
+   "emotions": [
+    "CONFUSED",
+    "EXCITED"
+   ],
+   "use": "explaining the 'why', facts, reveals"
+  }
+ ],
+ "backgrounds_note": "Uitgesneden uit het aangeleverde 2x2-blad, geschaald naar 1920x1080, Gaussian blur 3.5 px."
+}

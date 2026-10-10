@@ -1,0 +1,7 @@
+renders/
+*.wav
+!studio/remotion/public/sfx/*.wav
+studio/voice/*.onnx
+studio/voice/voices.bin
+studio/voice/piper/
+__pycache__/

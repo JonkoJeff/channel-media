@@ -1,0 +1,537 @@
+{
+ "id": "lf04",
+ "title": "Why Songs Get Stuck in Your Head (And How to Get Them Out)",
+ "voice": "am_puck",
+ "thumb": {
+  "text": "GET IT|OUT OF|MY HEAD!",
+  "sprite": "A10",
+  "bg": "living_room_day"
+ },
+ "desc": "Ten seconds of a song, on repeat, all day long. Earworms happen to almost everyone, and scientists have studied which songs get stuck, why the brain loops them, and what actually helps. In this video: the study of 3,000 people that found the catchiest songs, why your brain hates unfinished things, and the surprisingly simple trick of chewing gum.",
+ "sources": [
+  "Jakubowski, Finkel, Stewart & Müllensiefen (2016). Dissecting an earworm: Melodic features and song popularity predict involuntary musical imagery. Psychology of Aesthetics, Creativity, and the Arts.",
+  "Scientific American: How do you solve a problem like an earworm? (prevalence: about 92% of people weekly).",
+  "Beaman et al. (2015), University of Reading: chewing gum reduces earworms. Quarterly Journal of Experimental Psychology.",
+  "Zeigarnik, B. (1927). On finished and unfinished tasks. Psychologische Forschung.",
+  "Baddeley & Hitch (1974). Working memory (the phonological loop)."
+ ],
+ "tags": [
+  "#psychology",
+  "#brain",
+  "#earworm",
+  "#music",
+  "#relatable"
+ ],
+ "segments": [
+  {
+   "say": "You hear ten seconds of a song in a store. Just ten seconds. And then it follows you home.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Ten seconds.",
+    "sub": "That's all it took."
+   }
+  },
+  {
+   "say": "It plays while you brush your teeth. It plays while you try to read. It's still playing when you lie down to sleep. And it's not even the whole song. It's the same tiny piece, over and over and over.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "On repeat.",
+    "sub": "All. Day. Long."
+   }
+  },
+  {
+   "say": "This is called an earworm, and it's one of the most common glitches the human brain has. Scientists have actually studied which songs get stuck, why the brain loops them, and what really helps to get them out.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Earworms."
+   }
+  },
+  {
+   "say": "The word itself comes from German, Ohrwurm, literally ear worm. Scientists use a more serious name, involuntary musical imagery. Which is a very fancy way of saying, music in your head that you didn't ask for.",
+   "show": {
+    "type": "list",
+    "title": "Same thing, three names",
+    "items": [
+     "German: Ohrwurm",
+     "English: earworm",
+     "Science: involuntary musical imagery"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "In this video, we'll look at how common earworms are, the study of three thousand people that found the catchiest songs, why your brain can't let go of unfinished things, and the strangely simple tricks that work. One of them involves chewing gum. I'm serious.",
+   "show": {
+    "type": "list",
+    "title": "In this video",
+    "items": [
+     "How common earworms are",
+     "The catchiest songs, scientifically",
+     "Why your brain loops them",
+     "Tricks that actually work"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Part one. You are not alone.",
+   "show": {
+    "type": "chapter",
+    "n": 1,
+    "title": "You are not alone",
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "If you get songs stuck in your head, welcome to the club. Basically everyone is in it. Surveys suggest that around ninety two percent of people get an earworm at least once a week.",
+   "show": {
+    "type": "stat",
+    "title": "Earworm at least once a week",
+    "big": "92%",
+    "label": "of people, according to surveys",
+    "sprite": "A06",
+    "bg": "street_day"
+   }
+  },
+  {
+   "say": "And the typical earworm isn't a full song. It's usually a short loop, something like fifteen to thirty seconds, often a chorus or a hook, playing again and again like a broken record.",
+   "show": {
+    "type": "list",
+    "title": "A typical earworm",
+    "items": [
+     "A short loop, about 15 to 30 seconds",
+     "Usually the chorus or the hook",
+     "Repeating like a broken record"
+    ],
+    "sprite": "A13",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Most people find them mildly annoying, but not a big deal. Some people even enjoy them. But for a smaller group, a stuck song can be genuinely distracting, especially when they're trying to focus or fall asleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A09",
+    "bg": "bedroom_night",
+    "cap": "Annoying for most.",
+    "sub": "Really distracting for some."
+   }
+  },
+  {
+   "say": "Research also suggests that people who listen to a lot of music, or play an instrument, tend to get earworms more often. Makes sense. The more music you store, the more songs are waiting to come back.",
+   "show": {
+    "type": "char",
+    "sprite": "A17",
+    "bg": "street_day",
+    "cap": "Music lovers",
+    "sub": "get more earworms."
+   }
+  },
+  {
+   "say": "And one more thing. For most people, earworms are just a harmless quirk. But if music in your head ever feels constant, really distressing, or like it's not stopping at all, it's worth mentioning to a doctor. For the rest of us, it's just a catchy song that overstayed its welcome.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Usually harmless.",
+    "sub": "Constant and distressing? Ask a doctor."
+   }
+  },
+  {
+   "say": "So almost everyone gets them. But why these songs, and not others? Is there a formula for a song that sticks? Researchers went looking for it.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Is there a formula?"
+   }
+  },
+  {
+   "say": "Part two. The catchiest songs, scientifically.",
+   "show": {
+    "type": "chapter",
+    "n": 2,
+    "title": "The catchiest songs, scientifically",
+    "sprite": "A17",
+    "bg": "street_day"
+   }
+  },
+  {
+   "say": "So what makes a song sticky? In 2016, music psychologist Kelly Jakubowski and her colleagues asked three thousand people which songs got stuck in their heads most often. Then they analyzed the melodies of those songs and compared them to songs that were just as popular, but didn't get stuck.",
+   "show": {
+    "type": "study",
+    "who": "Jakubowski, Finkel, Stewart & Müllensiefen",
+    "where": "Goldsmiths, University of London, 2016",
+    "what": "3,000 people named their most frequent earworms. The team analyzed what those melodies have in common.",
+    "sprite": "A04",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "And the top of the list included some very familiar names. Bad Romance by Lady Gaga came in at number one. Then Can't Get You Out of My Head by Kylie Minogue, which is honestly a little too perfect. And Don't Stop Believing by Journey.",
+   "show": {
+    "type": "list",
+    "title": "Most named earworms",
+    "items": [
+     "1. Bad Romance - Lady Gaga",
+     "2. Can't Get You Out of My Head - Kylie Minogue",
+     "3. Don't Stop Believing - Journey"
+    ],
+    "sprite": "A16",
+    "bg": "street_day"
+   }
+  },
+  {
+   "say": "Somebody That I Used to Know by Gotye, Moves Like Jagger by Maroon Five, and Bohemian Rhapsody by Queen were on the list too. So if one of these just started playing in your head, I'm sorry.",
+   "show": {
+    "type": "list",
+    "title": "Also on the list",
+    "items": [
+     "Somebody That I Used to Know - Gotye",
+     "Moves Like Jagger - Maroon 5",
+     "Bohemian Rhapsody - Queen"
+    ],
+    "sprite": "A05",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Popularity mattered too. Songs that had done well in the charts, and songs that were released more recently, were more likely to become earworms. The more often a song is played everywhere, the more chances it has to get in.",
+   "show": {
+    "type": "list",
+    "title": "Popularity helps",
+    "items": [
+     "Big chart success",
+     "More recent releases",
+     "Played everywhere, heard everywhere"
+    ],
+    "sprite": "A06",
+    "bg": "street_day"
+   }
+  },
+  {
+   "say": "And notice what's not on the list of reasons. Being a good song. People get earworms of songs they don't even like. Your brain doesn't care about your taste. It cares about the pattern.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "It's not about taste.",
+    "sub": "It's about the pattern."
+   }
+  },
+  {
+   "say": "And why is it almost always the chorus? Because that's the part you've heard the most. Pop songs repeat the hook again and again, so it becomes the strongest memory of the whole song, and the easiest part for your brain to grab.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Why the chorus?",
+    "sub": "It's the part you've heard most."
+   }
+  },
+  {
+   "say": "But the interesting part is what these songs have in common. The researchers found three main features.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "What do they share?"
+   }
+  },
+  {
+   "say": "First, they tend to be faster. An upbeat tempo seems to help a song stick. Second, the melody has a very common overall shape, for example, a phrase that rises and then falls, the kind of pattern that's easy for your brain to predict and sing along to.",
+   "show": {
+    "type": "list",
+    "title": "Why they stick",
+    "items": [
+     "A faster, upbeat tempo",
+     "A familiar melody shape: up, then down"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "And third, they have something a little unusual. An unexpected jump in the melody, or more repeated notes than you'd normally hear. So the perfect earworm is mostly familiar, with one small surprise. Easy to remember, but just weird enough to stand out.",
+   "show": {
+    "type": "list",
+    "title": "Why they stick",
+    "items": [
+     "A faster, upbeat tempo",
+     "A familiar melody shape: up, then down",
+     "One unusual twist: a jump or lots of repeats"
+    ],
+    "sprite": "A11",
+    "bg": "street_day"
+   }
+  },
+  {
+   "say": "Quick question. What's the song that gets stuck in your head the most? Tell me in the comments, and let's see if anyone can beat Lady Gaga.",
+   "show": {
+    "type": "char",
+    "sprite": "A11",
+    "bg": "street_day",
+    "cap": "Your worst earworm?",
+    "sub": "Tell me in the comments."
+   }
+  },
+  {
+   "say": "So now we know which songs get stuck. But we still haven't answered the real question. Why does your brain play the same ten seconds again and again, instead of just letting it go? That's next.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "But why the loop?"
+   }
+  },
+  {
+   "say": "Part three. Why your brain loops it.",
+   "show": {
+    "type": "chapter",
+    "n": 3,
+    "title": "Why your brain loops it",
+    "sprite": "A04",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "To understand why earworms loop, we need a story about a restaurant. In the nineteen twenties, psychologist Bluma Zeigarnik noticed something about waiters. They could remember long, complicated orders perfectly, as long as the bill hadn't been paid. Once the order was done, it seemed to vanish from their memory.",
+   "show": {
+    "type": "study",
+    "who": "Bluma Zeigarnik",
+    "where": "Berlin, 1920s",
+    "what": "Waiters remembered unpaid orders well, and seemed to forget them once the bill was settled.",
+    "sprite": "A15",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "She tested this in experiments and found that people tend to remember interrupted, unfinished tasks better than finished ones. This became known as the Zeigarnik effect. The brain likes to keep unfinished business close.",
+   "show": {
+    "type": "quote",
+    "text": "Unfinished tasks stay on the mind longer than finished ones.",
+    "by": "The Zeigarnik effect, in one sentence",
+    "sprite": "A13",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "And that's exactly what an earworm is. A song fragment without an ending. You hear a hook, but not the full song, and your brain keeps trying to complete it. It plays the loop, reaches the end of the fragment, and starts over, because the task never feels finished.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "bedroom_night",
+    "cap": "An unfinished song",
+    "sub": "is an unfinished task."
+   }
+  },
+  {
+   "say": "There's another piece to the puzzle. Your brain has a kind of inner voice system that psychologists call the phonological loop. It's what you use when you repeat a phone number in your head. And it's the same system that replays songs. When it's free and idle, an earworm can move right in.",
+   "show": {
+    "type": "list",
+    "title": "The phonological loop",
+    "items": [
+     "Your inner voice system",
+     "Used to repeat a number in your head",
+     "Also where earworms play"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "That's why earworms love boring moments. Showering, walking, waiting, lying in bed. When your mind isn't fully busy, the loop is open, and the last catchy thing you heard takes the stage. Hearing a song recently, hearing it many times, or something reminding you of it, like a word or a place, can all set it off.",
+   "show": {
+    "type": "list",
+    "title": "Earworm triggers",
+    "items": [
+     "Hearing the song recently",
+     "Hearing it many times",
+     "A word, place or memory that links to it",
+     "A bored, idle mind"
+    ],
+    "sprite": "A10",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Lots of people even say they wake up with a song already playing, before they've heard any music at all. The loop was ready and waiting.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Good morning.",
+    "sub": "The song was already playing."
+   }
+  },
+  {
+   "say": "Advertisers know all of this, by the way. Jingles are short, simple and repeated, with a melody that's easy to predict. They're basically designed to become earworms, so the brand name keeps playing in your head long after the ad is over.",
+   "show": {
+    "type": "list",
+    "title": "Why jingles stick",
+    "items": [
+     "Short and simple",
+     "Repeated a lot",
+     "Easy to predict melody"
+    ],
+    "sprite": "A11",
+    "bg": "street_day"
+   }
+  },
+  {
+   "say": "Part four. How to get it out.",
+   "show": {
+    "type": "chapter",
+    "n": 4,
+    "title": "How to get it out",
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Here's what science says actually helps.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "street_day",
+    "cap": "What actually helps"
+   }
+  },
+  {
+   "say": "One. Chew gum. This sounds like a joke, but researchers at the University of Reading found that people who chewed gum after hearing catchy songs reported fewer earworms. The idea is that chewing keeps the muscles of your mouth and jaw busy, the same ones involved when you quietly sing in your head, so the loop has a harder time running.",
+   "show": {
+    "type": "list",
+    "title": "1. Chew gum",
+    "items": [
+     "University of Reading study",
+     "Chewing reduced earworms",
+     "Busy jaw, harder for the loop to run"
+    ],
+    "sprite": "A05",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Two. Finish the song. Remember the Zeigarnik effect. If the problem is an unfinished fragment, listening to the whole song from start to end can sometimes close the loop. Fair warning, for some people it makes it worse. Try it and see.",
+   "show": {
+    "type": "list",
+    "title": "2. Finish the song",
+    "items": [
+     "Listen to the whole thing",
+     "Close the unfinished loop",
+     "Doesn't work for everyone"
+    ],
+    "sprite": "A15",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Three. Give your brain a task with the right difficulty. Not too easy, or the song keeps playing in the background. Not too hard, or you'll give up and the song comes back. A puzzle, a word game, or reading something interesting can fill the loop.",
+   "show": {
+    "type": "curve",
+    "title": "Pick the right difficulty",
+    "x": "Task difficulty",
+    "y": "Earworm blocked",
+    "peak": 0.5,
+    "label": "just right",
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Another option is to use your inner voice for something else. Read a few pages out loud, or say a poem or some lyrics from a different song in your head. Because earworms live in that same inner voice system, keeping it busy with words can push the song out.",
+   "show": {
+    "type": "list",
+    "title": "Bonus: use your inner voice",
+    "items": [
+     "Read out loud",
+     "Recite something else",
+     "Fill the loop with words"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Some people also swear by a cure song. A go-to song they deliberately play in their head to replace the stuck one. The risk, of course, is that your cure song becomes the new earworm. Choose wisely.",
+   "show": {
+    "type": "list",
+    "title": "The cure song",
+    "items": [
+     "Pick a go-to replacement song",
+     "Play it to push the earworm out",
+     "Risk: it becomes the new earworm"
+    ],
+    "sprite": "A15",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "And four. Let it be. Fighting an earworm can make you think about it more. Often, if you just notice it, shrug, and get on with your day, it fades out on its own.",
+   "show": {
+    "type": "list",
+    "title": "4. Let it be",
+    "items": [
+     "Notice it",
+     "Shrug",
+     "Let it fade on its own"
+    ],
+    "sprite": "A03",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "And honestly, an earworm is kind of a compliment to your brain. It means you have an amazing memory for music. One short listen, and your brain can replay a melody, perfectly in tune, for hours. That's pretty impressive. Just slightly inconvenient.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "street_day",
+    "cap": "Impressive.",
+    "sub": "Just slightly inconvenient."
+   }
+  },
+  {
+   "say": "So the next time a song gets stuck in your head, remember. It's an unfinished task, playing in your inner voice, on a bored brain. Grab some gum, finish the song, or give your mind a job.",
+   "show": {
+    "type": "list",
+    "title": "Quick recap",
+    "items": [
+     "Unfinished fragment",
+     "Inner voice loop",
+     "Bored brain",
+     "Gum, finish it, or give it a job"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "And if this video just gave you an earworm, I'm sorry. Tell me in the comments which song it was. Chew some gum.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Sorry.",
+    "sub": "Chew some gum."
+   }
+  },
+  {
+   "say": "And just in time for Halloween, the next video is about something a little darker. Why do so many of us love being scared? Horror movies, haunted houses, scary stories in the dark. Science has some surprising answers. Subscribe so you don't miss it.",
+   "show": {
+    "type": "end",
+    "next": "Why We Love Being Scared",
+    "sprite": "A20",
+    "bg": "living_room_day"
+   }
+  }
+ ]
+}

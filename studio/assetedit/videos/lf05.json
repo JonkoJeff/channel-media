@@ -1,0 +1,519 @@
+{
+ "id": "lf05",
+ "title": "Why We Love Being Scared",
+ "voice": "am_puck",
+ "thumb": {
+  "text": "WHY FEAR|FEELS SO|GOOD",
+  "sprite": "A16",
+  "bg": "bedroom_night"
+ },
+ "desc": "Horror movies, haunted houses, scary stories in the dark: why do we pay money to be terrified? In this video we look at what fear does to your body, the haunted house study that found the 'sweet spot' of fear with heart rate monitors, why horror fans may handle real stress better, and how to find your own perfect level of scary this Halloween.",
+ "sources": [
+  "Andersen, Schjoedt, Price, Rosas, Scrivner & Clasen (2020). Playing with fear: A field study in recreational horror. Psychological Science.",
+  "Scrivner, Johnson, Kjeldgaard-Christiansen & Clasen (2021). Pandemic practice: Horror fans and morbidly curious individuals are more psychologically resilient during the COVID-19 pandemic. Personality and Individual Differences.",
+  "Recreational Fear Lab, Aarhus University.",
+  "University of Chicago, Division of the Social Sciences (2020): Why scary movies are helping some people cope with the pandemic."
+ ],
+ "tags": [
+  "#psychology",
+  "#halloween",
+  "#horror",
+  "#brain",
+  "#fear"
+ ],
+ "segments": [
+  {
+   "say": "The lights are off. The music gets quieter. You know something is about to happen. Your heart is pounding, your hands are sweaty, and every part of your body is screaming, get out.",
+   "show": {
+    "type": "char",
+    "sprite": "A16",
+    "bg": "bedroom_night",
+    "cap": "Something's coming."
+   }
+  },
+  {
+   "say": "And yet, you paid for this. You chose this movie. You stood in line for this haunted house. You might even do it again next week.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "bedroom_night",
+    "cap": "You chose this."
+   }
+  },
+  {
+   "say": "So why do so many of us love being scared? Why would a brain that's built to avoid danger go looking for it, just for fun?",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Why?!"
+   }
+  },
+  {
+   "say": "In this video, we'll look at what fear actually does to your body, the haunted house study that measured the sweet spot of fear, why horror fans might handle real life stress better, and how to find your own perfect level of scary. Perfect timing, because Halloween is right around the corner.",
+   "show": {
+    "type": "list",
+    "title": "In this video",
+    "items": [
+     "What fear does to your body",
+     "The haunted house study",
+     "Horror as practice for real life",
+     "Finding your perfect level of scary"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Part one. What fear does to your body.",
+   "show": {
+    "type": "chapter",
+    "n": 1,
+    "title": "What fear does to your body",
+    "sprite": "A16",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "When something scary happens, even on a screen, your body reacts in a fraction of a second. It's the fight or flight response. Your heart speeds up, you breathe faster, adrenaline floods your system, and your senses get sharper. Your body is getting ready to run or fight.",
+   "show": {
+    "type": "list",
+    "title": "Fight or flight",
+    "items": [
+     "Heart speeds up",
+     "Breathing gets faster",
+     "Adrenaline floods in",
+     "Senses get sharper"
+    ],
+    "sprite": "A06",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "Your pupils widen to let in more light. Your digestion slows down. Blood moves toward the big muscles in your arms and legs. It's an ancient survival program, and it runs the same way whether the threat is a real bear or a man in a mask on your screen.",
+   "show": {
+    "type": "list",
+    "title": "Also happening",
+    "items": [
+     "Pupils widen",
+     "Digestion slows",
+     "Blood rushes to your muscles"
+    ],
+    "sprite": "A06",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "The fast alarm part of your brain doesn't wait to check if the monster is real. It reacts first and asks questions later. That's why you can jump at a jump scare even when you know it's coming.",
+   "show": {
+    "type": "char",
+    "sprite": "A16",
+    "bg": "bedroom_night",
+    "cap": "React first.",
+    "sub": "Ask questions later."
+   }
+  },
+  {
+   "say": "Horror filmmakers know this very well. A long, quiet moment, and then a sudden loud sound, is one of the oldest tricks in the book. Your startle reflex fires before your thinking brain can do anything about it.",
+   "show": {
+    "type": "list",
+    "title": "Anatomy of a jump scare",
+    "items": [
+     "A long, quiet build-up",
+     "A sudden loud sound",
+     "Your startle reflex fires first"
+    ],
+    "sprite": "A16",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "But then, a moment later, the thinking part of your brain catches up and says, wait. I'm on my couch. I have popcorn. This is fine. And that combination is the secret. Your body gets the full thrill of danger, while your mind knows you are completely safe.",
+   "show": {
+    "type": "list",
+    "title": "The secret recipe",
+    "items": [
+     "Body: full danger mode",
+     "Mind: I'm on my couch",
+     "Result: thrill without real risk"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Researchers call this recreational fear. Fear you choose, in a safe setting, for the experience. Like a roller coaster, but for your emotions.",
+   "show": {
+    "type": "quote",
+    "text": "Recreational fear: fear you choose, in a safe place, for fun.",
+    "by": "Recreational Fear Lab, Aarhus University",
+    "sprite": "A13",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "And humans have been doing this for a very long time. Halloween itself grew out of old autumn festivals like the Celtic Samhain, a time when people believed the border between the living and the dead got thin. Ghost stories, scary costumes, and spooky games are some of the oldest ways we play with fear.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "bedroom_night",
+    "cap": "An old tradition.",
+    "sub": "People have always played with fear."
+   }
+  },
+  {
+   "say": "Even classic fairy tales were much darker than most modern versions. The original stories collected by the Brothers Grimm included plenty of things that would never make it into a kids' movie today. Scary stories have always been part of growing up.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Fairy tales",
+    "sub": "used to be much darker."
+   }
+  },
+  {
+   "say": "And there's a bonus at the end. When the danger passes, the leftover energy doesn't just disappear. The racing heart turns into laughter, relief and excitement. That's why people often come out of a scary movie feeling buzzed and weirdly happy.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Fear, then relief.",
+    "sub": "That buzz afterwards."
+   }
+  },
+  {
+   "say": "So fear can feel good. But how scary is too scary? Is there a perfect amount? A team of scientists decided to find out, by putting heart rate monitors on people in a real haunted house.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "How scary is too scary?"
+   }
+  },
+  {
+   "say": "Part two. The haunted house study.",
+   "show": {
+    "type": "chapter",
+    "n": 2,
+    "title": "The haunted house study",
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "In 2020, a team of researchers from the Recreational Fear Lab at Aarhus University in Denmark took science into an actual haunted house. A commercial attraction in Vejle, Denmark, with close to fifty rooms of horror.",
+   "show": {
+    "type": "study",
+    "who": "Andersen, Clasen and colleagues",
+    "where": "Aarhus University, Psychological Science, 2020",
+    "what": "110 visitors walked through a real haunted house with heart rate monitors on.",
+    "sprite": "A04",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Instead of measuring fear in a quiet lab, they measured it where people actually go looking for it. Real actors, real darkness, real screams.",
+   "show": {
+    "type": "char",
+    "sprite": "A16",
+    "bg": "bedroom_night",
+    "cap": "Real actors.",
+    "sub": "Real screams."
+   }
+  },
+  {
+   "say": "One hundred and ten visitors wore heart rate monitors as they walked through. Cameras recorded their reactions, and afterwards, people rated how scared they were and how much fun they had at each scare.",
+   "show": {
+    "type": "stat",
+    "title": "Haunted house visitors",
+    "big": "110",
+    "label": "wore heart rate monitors through the house",
+    "sprite": "A06",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "And the results drew a very clear shape. If a scare was too mild, it wasn't much fun. If it was way too intense, it wasn't much fun either. The most enjoyment happened right in the middle. Just scary enough.",
+   "show": {
+    "type": "curve",
+    "title": "The fear sweet spot",
+    "x": "How scared",
+    "y": "How fun",
+    "peak": 0.5,
+    "label": "sweet spot",
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "The heart rate data told a similar story. Moments where the body reacted, but not wildly and not for too long, lined up with enjoyment. Big, long lasting jumps away from normal were linked to the experience feeling unpleasant.",
+   "show": {
+    "type": "list",
+    "title": "What the heart rate showed",
+    "items": [
+     "Moderate spikes: fun",
+     "Huge, long spikes: unpleasant",
+     "Same sweet spot shape"
+    ],
+    "sprite": "A16",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "So the best scares aren't the biggest scares. They're the ones that push you just a little past comfortable, and then let you breathe again.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Just past comfortable.",
+    "sub": "Then breathe."
+   }
+  },
+  {
+   "say": "The researchers compared it to other forms of play. Fun often lives right at the edge of what we can handle. Not too easy, not too hard. Just like a good video game, or a roller coaster that's thrilling, but not terrifying.",
+   "show": {
+    "type": "char",
+    "sprite": "A17",
+    "bg": "street_day",
+    "cap": "Fun lives at the edge",
+    "sub": "of what you can handle."
+   }
+  },
+  {
+   "say": "And of course, the sweet spot is different for everyone. Psychologists have long studied a trait called sensation seeking. People high in it enjoy intense, new and thrilling experiences, like extreme sports, roller coasters and the scariest horror movies. People low in it prefer things calmer. Neither is better. They just have their sweet spot in a different place.",
+   "show": {
+    "type": "list",
+    "title": "Sensation seeking",
+    "items": [
+     "High: loves intense thrills",
+     "Low: prefers things calmer",
+     "Different people, different sweet spots"
+    ],
+    "sprite": "A17",
+    "bg": "street_day"
+   }
+  },
+  {
+   "say": "Quick question. Are you a horror fan, or do you watch scary movies through your fingers? Tell me in the comments.",
+   "show": {
+    "type": "char",
+    "sprite": "A11",
+    "bg": "street_day",
+    "cap": "Horror fan, or not?",
+    "sub": "Tell me in the comments."
+   }
+  },
+  {
+   "say": "Part three. Horror as practice for real life.",
+   "show": {
+    "type": "chapter",
+    "n": 3,
+    "title": "Horror as practice for real life",
+    "sprite": "A04",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Here's where it gets really interesting. Some researchers think scary stories aren't just entertainment. They might be practice.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Practice?"
+   }
+  },
+  {
+   "say": "Psychologist Coltan Scrivner and his colleagues surveyed people early in the COVID-19 pandemic. They found that horror fans, and people who were very curious about dark and scary topics, reported less psychological distress during the pandemic than others.",
+   "show": {
+    "type": "study",
+    "who": "Scrivner and colleagues",
+    "where": "Personality and Individual Differences, 2021",
+    "what": "Early in the pandemic, horror fans reported less psychological distress than non-fans.",
+    "sprite": "A04",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Their idea is that horror lets you rehearse being afraid. Again and again, in a safe place, you feel fear, you sit with it, and you come out the other side. Over time, you may get better at handling that feeling when something scary happens for real.",
+   "show": {
+    "type": "list",
+    "title": "Horror as a fear gym",
+    "items": [
+     "Feel the fear",
+     "Stay with it, safely",
+     "Come out the other side",
+     "Repeat"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Scrivner also studies something called morbid curiosity. That's the pull you feel toward dark and dangerous things, like true crime, disaster stories, or slowing down to look at an accident. One idea is that this curiosity helped our ancestors learn about threats from a safe distance, by listening to stories instead of meeting the danger themselves.",
+   "show": {
+    "type": "list",
+    "title": "Morbid curiosity",
+    "items": [
+     "The pull toward dark topics",
+     "True crime, disasters, horror",
+     "Learning about danger from a safe distance"
+    ],
+    "sprite": "A04",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "You can even see this in how kids play. Some of their favorite games come with a small dose of fear. Being chased. Hiding. Jumping out to surprise each other. Some researchers who study play think these thrilling games help children learn to handle fear, in small, safe amounts.",
+   "show": {
+    "type": "list",
+    "title": "Fear in kids' games",
+    "items": [
+     "Being chased",
+     "Hide and seek",
+     "Jumping out to surprise"
+    ],
+    "sprite": "A05",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "It's a survey, so it can't prove that horror movies caused people to cope better. Maybe people who are already calm under pressure just enjoy horror more. But the idea fits with how people have always told scary stories, around campfires, for thousands of years.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Not proof.",
+    "sub": "But an interesting idea."
+   }
+  },
+  {
+   "say": "And there's a social side too. Screaming together, grabbing your friend's arm, laughing afterwards. Shared fear is a surprisingly strong way to bond. That's why horror movies are often a group activity.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Scared together",
+    "sub": "= closer together"
+   }
+  },
+  {
+   "say": "And to be fair, horror isn't for everyone. For some people, especially people who already deal with a lot of anxiety, scary content just isn't fun, and it can stick around for days. That's completely valid. Recreational fear only works when it stays recreational.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Not for everyone.",
+    "sub": "And that's okay."
+   }
+  },
+  {
+   "say": "Part four. Find your perfect level of scary.",
+   "show": {
+    "type": "chapter",
+    "n": 4,
+    "title": "Find your perfect level of scary",
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Everyone's sweet spot is different. Some people love the most extreme horror out there. Others are at their limit with a spooky cartoon. Neither is wrong. Here's how to find yours.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Everyone's sweet spot",
+    "sub": "is different."
+   }
+  },
+  {
+   "say": "One. Start small. A spooky story, a mild thriller, or a fun haunted house before the really intense stuff. Two. Bring people. Fear feels lighter and more fun in a group. Three. Keep control. Knowing you can pause, look away, or leave keeps your brain in that safe zone where fear becomes fun.",
+   "show": {
+    "type": "list",
+    "title": "Find your sweet spot",
+    "items": [
+     "Start small",
+     "Bring people",
+     "Keep control: pause or look away"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "And four. Pay attention to your body afterwards. If you feel buzzed and happy, you hit the sweet spot. If you can't sleep for three nights, maybe go one level down next time. No shame in that.",
+   "show": {
+    "type": "list",
+    "title": "4. Check in afterwards",
+    "items": [
+     "Buzzed and happy? Sweet spot.",
+     "Can't sleep for days? Go one level down.",
+     "No shame either way"
+    ],
+    "sprite": "A19",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "And five. If scary movies wreck your sleep, try the daylight trick. Watch earlier in the day, with the lights on, and do something light and funny afterwards before bed. You still get the thrill, without the three AM shadows in the corner of your room.",
+   "show": {
+    "type": "list",
+    "title": "5. The daylight trick",
+    "items": [
+     "Watch earlier in the day",
+     "Lights on",
+     "Something funny before bed"
+    ],
+    "sprite": "A01",
+    "bg": "street_day"
+   }
+  },
+  {
+   "say": "And six. Turn the volume down. A huge part of the scare in horror movies comes from the sound. The sudden bangs, the creepy music. Lower the volume a bit, and the same movie can drop from too much to just right.",
+   "show": {
+    "type": "list",
+    "title": "6. Turn the volume down",
+    "items": [
+     "Much of the scare is sound",
+     "Lower volume, softer scares",
+     "From too much to just right"
+    ],
+    "sprite": "A10",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "So why do we love being scared? Because it lets us feel the full rush of danger without the danger. Because the relief afterwards feels amazing. Because it might help us practice for real life. And because it's more fun when we're scared together.",
+   "show": {
+    "type": "list",
+    "title": "Why we love being scared",
+    "items": [
+     "The rush, without the risk",
+     "The relief afterwards",
+     "Practice for real life",
+     "Scared together"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "So this Halloween, pick something just scary enough. Turn off the lights. Grab a friend. And enjoy the sweet spot.",
+   "show": {
+    "type": "char",
+    "sprite": "A16",
+    "bg": "bedroom_night",
+    "cap": "Happy Halloween."
+   }
+  },
+  {
+   "say": "Next time, we're talking about a very different kind of suspense. You send a message, and you wait. And wait. Why does waiting for a text back feel like forever? Subscribe so you don't miss it.",
+   "show": {
+    "type": "end",
+    "next": "Why Waiting for a Text Back Feels Like Forever",
+    "sprite": "A20",
+    "bg": "living_room_day"
+   }
+  }
+ ]
+}

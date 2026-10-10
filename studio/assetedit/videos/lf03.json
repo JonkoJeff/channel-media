@@ -1,0 +1,535 @@
+{
+ "id": "lf03",
+ "title": "Why You Forget Why You Walked Into a Room",
+ "voice": "am_puck",
+ "thumb": {
+  "text": "WAIT...|WHY AM I|HERE?",
+  "sprite": "A04",
+  "bg": "bedroom_night"
+ },
+ "desc": "You walk into the kitchen with a clear plan, and the moment you step through the door, it's gone. It's not your age and it's not a bad memory. Psychologists call it the doorway effect. In this video we look at the experiments that discovered it, why your brain files life into chapters, and simple ways to stop doorways from stealing your thoughts.",
+ "sources": [
+  "Radvansky, Krawietz & Tamplin (2011). Walking through doorways causes forgetting: Further explorations. Quarterly Journal of Experimental Psychology.",
+  "Radvansky & Copeland (2006). Walking through doorways causes forgetting: Situation models and experienced space. Memory & Cognition.",
+  "Zacks, Speer, Swallow, Braver & Reynolds (2007). Event perception: A mind-brain perspective. Psychological Bulletin.",
+  "University of Notre Dame news release (2011): Walking through doorways causes forgetting, new research shows."
+ ],
+ "tags": [
+  "#psychology",
+  "#brain",
+  "#memory",
+  "#relatable",
+  "#doorwayeffect"
+ ],
+ "segments": [
+  {
+   "say": "You're on the couch. You think, I need to grab something from the kitchen. You get up, you walk over, you step through the door...",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "\"I need to grab...\""
+   }
+  },
+  {
+   "say": "...and it's gone. You're standing in the kitchen, staring at the fridge, with absolutely no idea why you're there.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "...wait.",
+    "sub": "Why am I here?"
+   }
+  },
+  {
+   "say": "You walk back to the couch, sit down, and of course, you remember instantly. Classic.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Classic."
+   }
+  },
+  {
+   "say": "This happens to almost everyone, and it's not because your memory is bad. Scientists have actually tested it, and the surprising answer is that the door itself might be part of the problem.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "bedroom_night",
+    "cap": "Blame the door?"
+   }
+  },
+  {
+   "say": "In this video, we'll look at the experiments that discovered the doorway effect, why your brain splits your life into chapters, a strange twist in the results, and some easy ways to stop doorways from stealing your thoughts. And stick around for part three, because the researchers also tested the obvious fix, going back to the room, and the result is not what you'd expect.",
+   "show": {
+    "type": "list",
+    "title": "In this video",
+    "items": [
+     "The doorway experiments",
+     "Why your brain makes chapters",
+     "The strange twist",
+     "How to beat the doorway"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Part one. The doorway experiments.",
+   "show": {
+    "type": "chapter",
+    "n": 1,
+    "title": "The doorway experiments",
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Most of us blame age, stress or a bad night of sleep. And those things can matter. But the doorway effect also shows up in young, well rested students in a lab. So something else is going on.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Not just age.",
+    "sub": "It happens to rested students too."
+   }
+  },
+  {
+   "say": "The researcher behind this is psychologist Gabriel Radvansky at the University of Notre Dame. He and his colleagues wanted to know if walking through a doorway really makes people forget, or if it just feels that way.",
+   "show": {
+    "type": "study",
+    "who": "Gabriel Radvansky and colleagues",
+    "where": "University of Notre Dame, 2006 and 2011",
+    "what": "Does walking through a doorway actually make people forget? They tested it in virtual and real rooms.",
+    "sprite": "A04",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "In the first experiments, students played a simple video game. They walked through virtual rooms, picked up an object from a table, and carried it to another table. Sometimes the next table was in the same room. Sometimes it was through a doorway, in a new room. And the distance walked was kept the same.",
+   "show": {
+    "type": "list",
+    "title": "Experiment 1: virtual rooms",
+    "items": [
+     "Pick up an object",
+     "Carry it to another table",
+     "Same room, or through a door",
+     "Same walking distance"
+    ],
+    "sprite": "A17",
+    "bg": "street_day"
+   }
+  },
+  {
+   "say": "Along the way, the game asked them what they were carrying. And the result was clear. People who had just walked through a doorway forgot more often than people who walked the same distance in a single room.",
+   "show": {
+    "type": "list",
+    "title": "The result",
+    "items": [
+     "Same room: remembered better",
+     "Through a doorway: forgot more often",
+     "Same distance walked in both"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Then the researchers took it out of the screen and into real rooms. Students carried real objects in a box, walking either across one room or the same distance through a doorway. Same result. Doorways caused more forgetting.",
+   "show": {
+    "type": "list",
+    "title": "Experiment 2: real rooms",
+    "items": [
+     "Real objects, in a box",
+     "Across one room, or through a door",
+     "Same result: doors cause forgetting"
+    ],
+    "sprite": "A11",
+    "bg": "street_day"
+   }
+  },
+  {
+   "say": "What makes these experiments clever is how boring they are. Same objects, same distances, same kind of people. The only real difference was whether there was a doorway. So when memory got worse, the doorway was the main suspect.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Only one difference:",
+    "sub": "the doorway."
+   }
+  },
+  {
+   "say": "So the doorway effect is real. But why would a door, which is basically just a hole in a wall, mess with your memory?",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "But... why a door?"
+   }
+  },
+  {
+   "say": "Part two. Your brain thinks in chapters.",
+   "show": {
+    "type": "chapter",
+    "n": 2,
+    "title": "Your brain thinks in chapters",
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Your brain doesn't record life like one long, endless video. It cuts it into chunks. Episodes. Making breakfast. Walking to the bus. Talking to a friend. Psychologists call the moments between those chunks event boundaries.",
+   "show": {
+    "type": "list",
+    "title": "How your brain records life",
+    "items": [
+     "Not one long video",
+     "But separate episodes",
+     "Split at 'event boundaries'"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "This idea comes from what's called event segmentation theory, developed by psychologist Jeffrey Zacks and colleagues. When something important in your situation changes, your brain closes the old chapter and opens a new one.",
+   "show": {
+    "type": "study",
+    "who": "Zacks and colleagues",
+    "where": "Event segmentation theory, 2007",
+    "what": "The brain splits experience into events, and updates its model of the situation at the boundaries.",
+    "sprite": "A04",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "It's the same reason books have chapters and movies cut between scenes. Storytellers didn't invent that structure out of nowhere. They're working with how our brains already like to organize experience.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Books have chapters.",
+    "sub": "So does your brain."
+   }
+  },
+  {
+   "say": "And it's not just doors. In this research, event boundaries tend to show up whenever something important in the situation changes. A new place. A new goal. Someone new walking in. In studies where people watch films, viewers tend to agree on where one event ends and the next begins, and the brain responds at those moments.",
+   "show": {
+    "type": "list",
+    "title": "Other event boundaries",
+    "items": [
+     "A new place",
+     "A new goal",
+     "Someone new walks in",
+     "A scene change in a film"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "And a doorway is a perfect event boundary. New room, new lighting, new objects, new possibilities. Your brain goes, okay, new scene. And it files the old scene away, along with the thought you were carrying.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "bedroom_night",
+    "cap": "New room = new chapter"
+   }
+  },
+  {
+   "say": "The thought isn't deleted. It's just in the previous chapter, and the page has turned. That's why going back to the couch can bring it back. You're standing in that old scene again.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Not deleted.",
+    "sub": "Just in the last chapter."
+   }
+  },
+  {
+   "say": "There's a name for the kind of memory the doorway attacks. Prospective memory. That's remembering to do something in the future, like grabbing the scissors or taking your medicine. It's fragile, because usually nothing around you is reminding you of it. You have to carry it yourself.",
+   "show": {
+    "type": "list",
+    "title": "Prospective memory",
+    "items": [
+     "Remembering to do something later",
+     "Nothing around you reminds you",
+     "So it's easy to drop"
+    ],
+    "sprite": "A04",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "It also makes sense that this happens more when you're juggling a lot. A thought you're only half holding is easier to drop when the page turns.",
+   "show": {
+    "type": "char",
+    "sprite": "A09",
+    "bg": "bedroom_night",
+    "cap": "Busy mind,",
+    "sub": "easier to drop."
+   }
+  },
+  {
+   "say": "You probably know a modern version of this too. You unlock your phone to check one thing, you see a notification, and suddenly, what was it again? Switching apps can feel a lot like walking through a door. That one hasn't been tested the same way as the doorway studies, but it fits the same idea. New screen, new chapter.",
+   "show": {
+    "type": "char",
+    "sprite": "A17",
+    "bg": "street_day",
+    "cap": "The phone doorway",
+    "sub": "new screen, new chapter"
+   }
+  },
+  {
+   "say": "Quick question. What's the strangest thing you've walked into a room for, and completely forgotten? Let me know in the comments.",
+   "show": {
+    "type": "char",
+    "sprite": "A11",
+    "bg": "street_day",
+    "cap": "What did you forget?",
+    "sub": "Tell me in the comments."
+   }
+  },
+  {
+   "say": "So, new room, new chapter. That seems simple. But the researchers found something in the next experiment that doesn't fit that simple story at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A16",
+    "bg": "bedroom_night",
+    "cap": "But wait..."
+   }
+  },
+  {
+   "say": "Part three. The strange twist.",
+   "show": {
+    "type": "chapter",
+    "n": 3,
+    "title": "The strange twist",
+    "sprite": "A16",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "If the problem is being in a different room than where you made the memory, then going back to the original room should fix it. Right? The researchers tested that too.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "So just go back?"
+   }
+  },
+  {
+   "say": "In a third experiment, people walked through several doorways and ended up back in the very same room where they started. And their memory did not get better. Just passing through doorways was enough to cause the forgetting, even when they returned to the original room.",
+   "show": {
+    "type": "list",
+    "title": "Experiment 3: the twist",
+    "items": [
+     "Walk through several doors",
+     "End up back in the starting room",
+     "Memory did NOT improve"
+    ],
+    "sprite": "A16",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "So it's not only about where you are. It's about the act of crossing the boundary. Each door is like hitting a save and close button on what you were just thinking.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "It's the crossing.",
+    "sub": "Each door: save and close."
+   }
+  },
+  {
+   "say": "One explanation the researchers offered is about competition. After a boundary, your brain is now holding more than one chapter, the old one and the new one. When you try to remember, those chapters compete with each other, and the thing you wanted gets harder to find.",
+   "show": {
+    "type": "list",
+    "title": "Why crossing makes it worse",
+    "items": [
+     "Old chapter and new chapter",
+     "Both stay in mind",
+     "They compete when you try to remember"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "And that's why the couch trick only works sometimes. When it works, it's usually because something on the couch, the TV, your phone, the conversation, reminds you of the thought. Not because you magically returned to the right room.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The couch trick",
+    "sub": "works because of cues, not magic"
+   }
+  },
+  {
+   "say": "Here's the part that should make you feel better. This is a sign of a healthy brain. Splitting life into chapters is how you remember things in order, understand stories, and keep track of what's happening. The doorway glitch is just the price you pay for a very good filing system.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Healthy brain.",
+    "sub": "Great filing system, small glitch."
+   }
+  },
+  {
+   "say": "Part four. How to beat the doorway.",
+   "show": {
+    "type": "chapter",
+    "n": 4,
+    "title": "How to beat the doorway",
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "You can't remove the doors from your house. Well, you can, but please don't. Here's what you can do instead. These tricks are simple, and they work for the same reason. They keep the thought active, or they give it an anchor that survives the boundary.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "street_day",
+    "cap": "Keep the doors."
+   }
+  },
+  {
+   "say": "One. Say it out loud. Before you get up, say the thing. Scissors. Charger. Water. Hearing it makes it a stronger memory, and a single word is easy to carry through a door.",
+   "show": {
+    "type": "list",
+    "title": "1. Say it out loud",
+    "items": [
+     "\"Scissors.\"",
+     "\"Charger.\"",
+     "One word is easy to carry"
+    ],
+    "sprite": "A11",
+    "bg": "street_day"
+   }
+  },
+  {
+   "say": "Two. Keep repeating it while you walk. It feels silly, but you're keeping the thought active, so there's nothing to file away when you cross the boundary.",
+   "show": {
+    "type": "list",
+    "title": "2. Repeat it while you walk",
+    "items": [
+     "Charger, charger, charger",
+     "Keeps the thought active",
+     "Nothing gets filed away"
+    ],
+    "sprite": "A05",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Three. Make a picture. Imagine the thing in a silly way. A giant phone charger stuck in the fridge. Weird images are easier to remember than plain words.",
+   "show": {
+    "type": "list",
+    "title": "3. Make it a weird picture",
+    "items": [
+     "Imagine it in a silly way",
+     "A giant charger in the fridge",
+     "Weird is memorable"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Here's another one. Finish the thought before you move. Instead of a vague feeling of needing something, say a complete sentence in your head. I'm going to the kitchen to get scissors for this box. A clear sentence is much harder to lose than a fuzzy idea.",
+   "show": {
+    "type": "list",
+    "title": "Finish the thought first",
+    "items": [
+     "Not: 'I need something...'",
+     "But: 'Scissors, for this box.'",
+     "Clear beats fuzzy"
+    ],
+    "sprite": "A11",
+    "bg": "street_day"
+   }
+  },
+  {
+   "say": "And four. If you still forget, don't panic. Stand still for a moment and think about what you were doing just before you got up. You're not searching for the item. You're searching for the chapter. Very often, the item comes right back with it.",
+   "show": {
+    "type": "list",
+    "title": "4. Search for the chapter",
+    "items": [
+     "Pause for a moment",
+     "What were you just doing?",
+     "The thought often comes back with it"
+    ],
+    "sprite": "A10",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "And five. Carry a clue. If the thing you need goes with an object, take that object with you. Going to get batteries for the remote? Bring the remote. It's a physical reminder that walks through the door with you.",
+   "show": {
+    "type": "list",
+    "title": "5. Carry a clue",
+    "items": [
+     "Need batteries for the remote?",
+     "Bring the remote",
+     "The reminder walks through the door too"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "One important note. Walking into a room and forgetting why is normal, and it happens at every age. But if forgetting is getting a lot worse over time, or it's starting to get in the way of daily life, that's worth talking to a doctor about. Occasional doorway moments are just your brain's filing system at work.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Occasional = normal.",
+    "sub": "Big changes? Talk to a doctor."
+   }
+  },
+  {
+   "say": "Quick recap. Doors are event boundaries. When you cross one, your brain closes the old chapter, and the thought you were carrying gets filed away with it. Going back doesn't always fix it. But saying it, repeating it, picturing it, or carrying a clue makes it much harder to lose.",
+   "show": {
+    "type": "list",
+    "title": "Quick recap",
+    "items": [
+     "Doors are event boundaries",
+     "Your brain closes the old chapter",
+     "Going back doesn't always help",
+     "Say it, repeat it, picture it, carry it"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "So the next time you're standing in the kitchen, staring at the fridge, wondering why you're there, don't blame your memory. Blame the door. Your brain just turned the page a little too quickly.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "Blame the door."
+   }
+  },
+  {
+   "say": "Honestly, there's something kind of nice about it. Your brain is constantly turning your life into a story, one scene at a time. Sometimes it just turns the page before you're done reading.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Your life, in scenes."
+   }
+  },
+  {
+   "say": "Next time, we're talking about the song that's been stuck in your head all day. Why does your brain play the same ten seconds on repeat, and how do you make it stop? Subscribe so you don't miss it.",
+   "show": {
+    "type": "end",
+    "next": "Why Songs Get Stuck in Your Head",
+    "sprite": "A20",
+    "bg": "living_room_day"
+   }
+  }
+ ]
+}

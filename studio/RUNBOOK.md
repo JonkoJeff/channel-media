@@ -6,16 +6,23 @@ You run unattended, once a day. All video content is in English. Use the ponytai
 - Metricool brand `2266272`, timezone Europe/Amsterdam. YouTube channel `UCynthMQNy9uDsuHcewQDERg`.
 - Links of published videos: Metricool `getScheduledPosts` (brand 2266272, Europe/Amsterdam, a date range around the publish date, `extendedRange: true`). A published post has `providers[0].status: "PUBLISHED"` and `publicUrl` (the YouTube link). The YouTube RSS feed and watch pages block WebFetch, so don't use them.
 
+## Post budget (Metricool free plan: 20 posts per calendar month)
+- Count every post in `getScheduledPosts` whose publication date is in that month, any status. One Metricool post counts once, however many networks it goes to.
+- Long videos come first: always reserve one slot for each Mon/Wed/Fri 17:00 still ahead in the month. Shorts only use what is left: `free = 20 - counted - reserved`. If `free <= 0`, no Short that month.
+- Every Short is one post to every connected network at once (YouTube Short + Instagram Reel + TikTok), so each slot gets the most reach.
+- If the user upgrades the plan, they will say so; then this section goes away.
+
 ## A. Every day: link and schedule due Shorts (≈5 min)
 Order of a run: A, then C, then B (Sundays and Wednesdays).
 1. Read `studio/queue.json`. Take items with `status: "pending"` and `due` today or earlier.
 2. For each item, find the long video whose title equals `long_title` in `getScheduledPosts` with status PUBLISHED and take its `publicUrl`. Not published yet: leave the item pending, retry tomorrow.
-3. On a match, Metricool `createScheduledPost` (brand 2266272, `autoPublish: true`):
+3. Check the post budget for the month of `due`. No free slot: leave it pending and set `due` to the 1st of the next month at 12:00. Max 1 Short per day.
+4. On a match with a free slot, Metricool `createScheduledPost` (brand 2266272, `autoPublish: true`):
    - date = `due` (Europe/Amsterdam). If that time has passed or is less than 20 min away, use now + 30 min.
-   - media = [`file`], provider youtube, `youtubeData {title, type: "short", privacy: "public", category: "EDUCATION", madeForKids: false, isAiGeneratedContent: true, tags (without #)}`.
+   - media = [`file`], providers: youtube, plus instagram and tiktok if `getBrandSettings` shows them connected. `youtubeData {title, type: "short", privacy: "public", category: "EDUCATION", madeForKids: false, isAiGeneratedContent: true, tags (without #)}`, `instagramData {type: "REEL", isAiGenerated: true}`, `tiktokData {title, isAigc: true}`.
    - text = `<hook>\n\nWatch the full video: <long video URL>\n\n<tags joined by spaces>`
-4. Set `status: "scheduled"`, `long_url`, `metricool_id`. Then `bash studio/publish.sh --rm <id>.mp4` for those files (Metricool copied them when scheduling; the response's media URL starts with static.metricool.com).
-5. Commit and push `studio/queue.json`.
+5. Set `status: "scheduled"`, `long_url`, `metricool_id`. Then `bash studio/publish.sh --rm <id>.mp4` for those files (Metricool copied them when scheduling; the response's media URL starts with static.metricool.com).
+6. Commit and push `studio/queue.json`.
 
 ## C. Every day: check what went live, learn from it (≈10 min)
 Published videos are never edited or deleted. If something is wrong: bad luck, the next one must be better.
@@ -29,9 +36,9 @@ Published videos are never edited or deleted. If something is wrong: bad luck, t
 3. Commit and push `studio/lessons.md`.
 
 ## B. Sundays and Wednesdays: make the next videos (≈1.5 h)
-Rhythm: 3 long videos a week (Mon, Wed, Fri at 17:00). 3 Shorts per long video (A hook, B study reveal, C practical tip), 9 a week: daily at 12:00, plus 20:00 on Mon/Wed/Fri. Max 2 Shorts a day, never 2 in a row from the same video.
+Rhythm: long video is the main route: 3 a week (Mon, Wed, Fri at 17:00). Shorts fill the leftover post budget (see Post budget): about 7 a month, at 12:00, max 1 a day, never 2 in a row from the same video.
 Back catalog: from 10 published long videos on, add 2 extra Shorts a week cut from older videos, best performers first, never a segment already used (check shorts.json).
-Scale every 3 weeks from insights.md: good retention/CTR -> 4 long a week or 2 Shorts every day; dropping -> back down. Each run makes 2 long videos, unless the next 7 days already have 3 scheduled; then make 1, or 0 and only do A and C.
+Scale every 3 weeks from insights.md within the post budget: good retention/CTR -> keep 3 long a week; dropping -> fewer, better long videos. Each run makes 2 long videos, unless the next 7 days already have 3 scheduled; then make 1, or 0 and only do A and C.
 
 ### B0. Setup
 ```
@@ -69,16 +76,16 @@ bash studio/setup.sh      # Kokoro voice (Apache-2.0) + espeak-ng; prints "voice
 cd studio/assetedit && python3 longform.py videos/lfNN.json    # ≈20 min each
 ```
 - Check that the length is ≥ 8:00 and the file has audio, and go through every rule in `studio/lessons.md` one by one. Look at 6 frames (`ffmpeg -ss`) and at the thumbnail. Fix and re-render if anything overflows or looks wrong.
-- Add 3 Shorts per video to `videos/shorts.json` (A = hook segments, B = study reveal, C = a practical tip; each ≤ 58 s). Render only the new ones: put them in a temp JSON and run `python3 shorts.py <temp.json>`.
+- Add 2 Shorts per video to `videos/shorts.json` (A = hook segments, B = study reveal; each ≤ 58 s). A goes first in the queue, B only if the budget has room. Render only the new ones: put them in a temp JSON and run `python3 shorts.py <temp.json>`.
 
 ### B5. Schedule
 - `bash studio/publish.sh renders/lfNN.mp4 renders/lfNN_thumb.png renders/shNNa.mp4 renders/shNNb.mp4` prints the public URLs.
-- Thumbnail: add `videoThumbnailUrl` (the png URL) to the long-video post. If Metricool answers VIDEO_THUMBNAIL_NOT_APPLICABLE (channel not phone-verified yet), schedule again without it and mention "verify the channel by phone" once in the report.
+- Thumbnail: add `videoThumbnailUrl` (the png URL) to the long-video post (channel is verified). Thumbnail text in `thumb.text`: max 3 words / ~12 characters that add to the title, never repeat it (curiosity gap). Pick the sprite with the strongest emotion for the topic.
 - Long videos: Metricool `createScheduledPost` at 17:00 on the first free Monday, Wednesday or Friday after the last long video already scheduled (`getScheduledPosts`). Never 2 long videos on one day; never a gap longer than 3 days:
   - text = `renders/lfNN_description.txt`
   - `youtubeData {title, type: "video", privacy: "public", category: "EDUCATION", madeForKids: false, isAiGeneratedContent: true, tags}`
   - Afterwards: `publish.sh --rm lfNN.mp4`
-- Shorts: do not schedule them now. Append them to `studio/queue.json` (status pending, due at 12:00, one per day, starting the day after their long video and never on a day that already has a Short in the queue). Part A links them to the long video once it is live. Aim for exactly 1 Short per day; if a day would stay empty, add a third Short (a strong tip or myth-vs-fact moment, ≤ 58 s) from the newest video.
+- Shorts: do not schedule them now. Append them to `studio/queue.json` (status pending, due at 12:00, one per day, starting the day after their long video and never on a day that already has a Short in the queue). Part A links them to the long video once it is live. Part A applies the post budget; leftover Shorts roll to next month.
 - Check `getScheduledPosts` first so nothing collides.
 
 ### B6. Save and report

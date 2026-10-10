@@ -212,15 +212,33 @@ def music(total, timing, v, path, sr=24000):
 
 # ---------- outputs ----------
 def thumbnail(v, path):
+    # MrBeast-style: 1 face big ("rule of big"), <=3 words that add to the title, simple saturated cool background,
+    # rim-lit subject, white/yellow text with thick black stroke + hard shadow, top-left text, bottom-right corner free.
+    from PIL import ImageFilter, ImageEnhance, ImageChops
     th = v["thumb"]; img = Image.open(os.path.join(HERE, BGS[th["bg"]]["file_path"])).convert("RGB").resize((1280, 720), Image.LANCZOS)
-    img = Image.blend(img, Image.new("RGB", img.size, (20, 16, 24)), 0.25)
+    img = ImageEnhance.Color(img.filter(ImageFilter.GaussianBlur(7))).enhance(1.6)
+    img = Image.blend(img, Image.new("RGB", img.size, (24, 110, 190)), 0.28)  # teal/blue grade
+    yy, xx = np.mgrid[0:720, 0:1280]; vig = 1 - 0.45 * (((xx - 900) / 900) ** 2 + ((yy - 360) / 520) ** 2).clip(0, 1)
+    img = Image.fromarray((np.asarray(img) * vig[..., None]).astype(np.uint8))
     sp = Image.open(os.path.join(HERE, ASSETS[th["sprite"]]["file_path"])).convert("RGBA")
-    sp = sp.resize((round(sp.width * 2.55), round(sp.height * 2.55)), Image.LANCZOS)
-    img.paste(sp, (1280 - sp.width + 30, 720 - sp.height + 4), sp)
-    d = ImageDraw.Draw(img); y = 70
-    for i, ln in enumerate(th["text"].split("|")):
-        f = font(118 if len(ln) < 10 else 96, "Black")
-        d.text((54, y), ln, font=f, fill=ORANGE if i == len(th["text"].split("|")) - 1 else CREAM, stroke_width=12, stroke_fill=INK); y += f.size * 1.08
+    sp = ImageEnhance.Color(sp.resize((round(sp.width * 3.15), round(sp.height * 3.15)), Image.LANCZOS)).enhance(1.25)
+    # sprites are cropped at their image border: fade those cut edges so no straight lines show
+    al = np.asarray(sp.split()[-1]).astype(float); h, w = al.shape; F = 60; ramp = np.linspace(0, 1, F)
+    if al[:, 0].max() > 0: al[:, :F] *= ramp[None, :]
+    if al[0, :].max() > 0: al[:F, :] *= ramp[:, None]
+    if al[:, -1].max() > 0: al[:, -F:] *= ramp[::-1][None, :]
+    P = 40; a = Image.new("L", (w + 2 * P, h + 2 * P)); a.paste(Image.fromarray(al.astype(np.uint8)), (P, P))
+    sp.putalpha(Image.fromarray(al.astype(np.uint8))); x0, y0 = 1280 - w - 10, 720 - h + 150
+    for grow, col in ((22, (0, 230, 255)), (10, (255, 255, 255))):  # cyan rim light, then white sticker edge
+        rim = Image.new("RGBA", a.size, col + (0,)); rim.putalpha(a.point(lambda p: 255 if p > 128 else 0).filter(ImageFilter.MaxFilter(grow * 2 + 1)))
+        if grow > 12: rim = rim.filter(ImageFilter.GaussianBlur(6))
+        img.paste(rim, (x0 - P, y0 - P), rim)
+    img.paste(sp, (x0, y0), sp)
+    d = ImageDraw.Draw(img); y = 60; lines = th["text"].split("|")
+    for i, ln in enumerate(lines):
+        f = font(150 if len(ln) <= 7 else 124, "Black"); fill = (255, 230, 0) if i == len(lines) - 1 else (255, 255, 255)
+        d.text((62, y + 10), ln, font=f, fill=(0, 0, 0), stroke_width=16, stroke_fill=(0, 0, 0))  # hard drop shadow
+        d.text((50, y), ln, font=f, fill=fill, stroke_width=16, stroke_fill=(0, 0, 0)); y += f.size * 1.05
     img.save(path, quality=95)
 
 def description(v, timing, series, path):

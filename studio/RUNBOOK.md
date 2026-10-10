@@ -100,6 +100,7 @@ cd studio/assetedit && python3 longform.py videos/lfNN.json    # ≈20 min each
 Say what was scheduled (titles and dates), the insight bullets (Sundays and Wednesdays), and anything that failed with what is needed. Never schedule something broken.
 
 ## Never
+- Use anything that costs money (paid plans, paid APIs, credits). The goal is to run everything for free; if something can only be done paid, report it instead.
 - Post the same video twice.
 - Reuse a script and only swap the topic (YouTube's "inauthentic content" rule).
 - Remove the AI disclosure.

@@ -12,7 +12,14 @@ creds = Credentials(None, refresh_token=os.environ["YT_REFRESH_TOKEN"], client_i
 yt = build("youtube", "v3", credentials=creds)
 q = json.load(open(Q)) if os.path.exists(Q) else []
 if os.environ.get("CHECK_ONLY"):
-    print(yt.channels().list(part="snippet", mine=True).execute()["items"][0]["snippet"]["title"]); raise SystemExit
+    missing = [k for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN") if not os.environ.get(k)]
+    if missing: print(f"::error::Missing GitHub secrets: {missing}"); raise SystemExit(1)
+    try:
+        items = yt.channels().list(part="snippet", mine=True).execute().get("items", [])
+        print(f"::notice::Connected to channel: {items[0]['snippet']['title'] if items else 'NO CHANNEL (pick the channel at sign-in)'}")
+    except Exception as e:
+        print(f"::error::{type(e).__name__}: {str(e)[:300]}"); raise SystemExit(1)
+    raise SystemExit
 
 def fetch(url):
     p = tempfile.mktemp(suffix=os.path.splitext(url)[1]); urllib.request.urlretrieve(url, p); return p

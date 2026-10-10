@@ -45,11 +45,11 @@ if os.environ.get("CHECK_ONLY"):
 def fetch(url):
     p = tempfile.mktemp(suffix=os.path.splitext(url)[1]); urllib.request.urlretrieve(url, p); return p
 
-# Spread uploads: only items publishing within the next 26 h, max 3 per run (YouTube flags bursts of uploads as spam).
+# Spread uploads: only items publishing within the next 26 h, max MAX_PER_RUN per run (YouTube flags bursts of uploads as spam).
 import datetime as _dt
 now, done = _dt.datetime.now(_dt.timezone.utc), 0
 for it in q:
-    if it.get("status") != "pending" or done >= 3: continue
+    if it.get("status") != "pending" or done >= int(os.environ.get("MAX_PER_RUN", "8")): continue
     pa = it.get("publish_at")
     if pa and _dt.datetime.fromisoformat(pa.replace("Z", "+00:00")) > now + _dt.timedelta(hours=26): continue
     done += 1
@@ -59,7 +59,12 @@ for it in q:
     body = {"snippet": {"title": it["title"], "description": it["description"], "tags": it.get("tags", []), "categoryId": "27"},
             "status": status}
     yc = client(it.get("channel"))
-    r = yc.videos().insert(part="snippet,status", body=body, media_body=MediaFileUpload(fetch(it["file"]), resumable=True)).execute()
+    try:
+        r = yc.videos().insert(part="snippet,status", body=body, media_body=MediaFileUpload(fetch(it["file"]), resumable=True)).execute()
+    except Exception as e:
+        if "uploadLimitExceeded" in str(e) or "limit" in str(e).lower():
+            print("::warning::YouTube daily upload limit reached; the rest waits for the next run"); break
+        raise
     it["video_id"], it["status"] = r["id"], "uploaded"
     if it.get("thumb"):
         yc.thumbnails().set(videoId=r["id"], media_body=MediaFileUpload(fetch(it["thumb"]))).execute()

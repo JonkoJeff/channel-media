@@ -7,7 +7,7 @@ You run unattended, once a day. All video content is in English. Use the ponytai
 - Channel RSS (fresh, lists the newest videos with links): `https://www.youtube.com/feeds/videos.xml?channel_id=UCynthMQNy9uDsuHcewQDERg` (read it with WebFetch).
 
 ## A. Every day: link and schedule due Shorts (≈5 min)
-Order of a run: A, then C, then B (Sundays).
+Order of a run: A, then C, then B (Sundays and Wednesdays).
 1. Read `studio/queue.json`. Take items with `status: "pending"` and `due` today or earlier.
 2. Read the channel RSS. For each item, find the published long video whose title equals `long_title`. No match: leave the item pending, retry tomorrow.
 3. On a match, Metricool `createScheduledPost` (brand 2266272, `autoPublish: true`):
@@ -28,7 +28,8 @@ Published videos are never edited or deleted. If something is wrong: bad luck, t
    - For every problem, add one concrete rule under `## Rules`, for example "Say years in digits on cards; the voice reads '2020' fine". Keep rules short and testable. Merge duplicates.
 3. Commit and push `studio/lessons.md`.
 
-## B. Sundays only: make next week's videos (≈1.5 h)
+## B. Sundays and Wednesdays: make the next videos (≈1.5 h)
+Rhythm: 3 long videos a week (Mon, Wed, Fri at 17:00) and 1 Short every day at 12:00. Each run makes 2 long videos, unless the next 7 days already have 3 scheduled; then make 1, or 0 and only do A and C.
 
 ### B0. Setup
 ```
@@ -45,7 +46,7 @@ bash studio/setup.sh      # Kokoro voice (Apache-2.0) + espeak-ng; prints "voice
   - A Short with high views → reuse its hook style.
 - With fewer than 3 videos older than 3 days, only log the numbers. Draw no conclusions yet.
 
-### B2. Pick 2 topics
+### B2. Pick the topics (1 or 2, see above)
 - Take the next 2 titles from `studio/assetedit/videos/series.json` that have no JSON file yet, unless B1 says another topic should jump the queue.
 - Always keep at least 3 planned titles after the ones you make, because descriptions promise "coming up next". Use the pattern "Why <relatable thing your brain does>", backed by a real study. Seasonal topics go in 1–2 weeks early.
 
@@ -71,11 +72,11 @@ cd studio/assetedit && python3 longform.py videos/lfNN.json    # ≈20 min each
 ### B5. Schedule
 - `bash studio/publish.sh renders/lfNN.mp4 renders/lfNN_thumb.png renders/shNNa.mp4 renders/shNNb.mp4` prints the public URLs.
 - Thumbnail: add `videoThumbnailUrl` (the png URL) to the long-video post. If Metricool answers VIDEO_THUMBNAIL_NOT_APPLICABLE (channel not phone-verified yet), schedule again without it and mention "verify the channel by phone" once in the report.
-- Long videos: Metricool `createScheduledPost` at 17:00 on the first free Tuesday and Friday after the last long video already scheduled (`getScheduledPosts`):
+- Long videos: Metricool `createScheduledPost` at 17:00 on the first free Monday, Wednesday or Friday after the last long video already scheduled (`getScheduledPosts`). Never 2 long videos on one day; never a gap longer than 3 days:
   - text = `renders/lfNN_description.txt`
   - `youtubeData {title, type: "video", privacy: "public", category: "EDUCATION", madeForKids: false, isAiGeneratedContent: true, tags}`
   - Afterwards: `publish.sh --rm lfNN.mp4`
-- Shorts: do not schedule them now. Append them to `studio/queue.json` (status pending, due at 12:00, one per day, starting the day after their long video and never on a day that already has a Short in the queue). Part A links them to the long video once it is live.
+- Shorts: do not schedule them now. Append them to `studio/queue.json` (status pending, due at 12:00, one per day, starting the day after their long video and never on a day that already has a Short in the queue). Part A links them to the long video once it is live. Aim for exactly 1 Short per day; if a day would stay empty, add a third Short (a strong tip or myth-vs-fact moment, ≤ 58 s) from the newest video.
 - Check `getScheduledPosts` first so nothing collides.
 
 ### B6. Save and report
@@ -83,7 +84,7 @@ cd studio/assetedit && python3 longform.py videos/lfNN.json    # ≈20 min each
 - On the first Sunday of each month, shrink the media branch: recreate it as an orphan holding only files still pending in queue.json, then force-push.
 
 ## Always end with a short report
-Say what was scheduled (titles and dates), the insight bullets (Sundays), and anything that failed with what is needed. Never schedule something broken.
+Say what was scheduled (titles and dates), the insight bullets (Sundays and Wednesdays), and anything that failed with what is needed. Never schedule something broken.
 
 ## Never
 - Post the same video twice.

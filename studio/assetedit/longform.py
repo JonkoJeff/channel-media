@@ -176,7 +176,7 @@ def card_dynamic(d, sh, lt, dur):
             d.ellipse((px - 22, py - 22, px + 22, py + 22), fill=RED, outline=INK, width=5)
             f = font(48, "Black"); d.text((px - d.textlength(sh["label"], font=f) / 2, py - 92), sh["label"], font=f, fill=INK)
 
-def frame_for(seg, lt, dur):
+def frame_for(seg, lt, dur, beat=0):
     sh = seg["show"]; t = sh["type"]
     fullscreen = t in ("char", "chapter", "end")
     img = background(sh["bg"], dim=not fullscreen or t != "char").copy()
@@ -188,11 +188,27 @@ def frame_for(seg, lt, dur):
     elif t in ("chapter", "end"): place_sprite(img, sh["sprite"], 1560, 2.6, lt)
     else: place_sprite(img, sh["sprite"], 1620, 2.0, lt)
     if t == "char":  # slow push-in keeps static shots alive
-        z = 1 + 0.035 * min(lt / max(dur, 0.1), 1)
+        z = (1.07 if beat % 2 else 1.0) + 0.025 * min(lt / max(dur, 0.1), 1)
         if z > 1.001:
             cw, ch = W / z, H / z
             img = img.resize((W, H), Image.BILINEAR, box=((W - cw) / 2, (H - ch) / 2, (W + cw) / 2, (H + ch) / 2))
     return img
+
+def music(total, timing, v, path, sr=24000):
+    t = np.arange(int(total * sr)) / sr; out = np.zeros_like(t)
+    chords = [(261.6, 329.6, 392.0), (220.0, 261.6, 329.6), (174.6, 220.0, 261.6), (196.0, 246.9, 293.7)]
+    for i, ch in enumerate(chords * int(total / 27.4 + 2)):
+        a, b = int(i * 6.86 * sr), int((i + 1) * 6.86 * sr)
+        if a >= len(t): break
+        seg = t[a:b] - t[a]; env = np.minimum(1, seg / 1.5) * np.minimum(1, (6.86 - seg) / 1.5)
+        out[a:b] += env * sum(np.sin(2 * np.pi * f / 2 * seg) + 0.3 * np.sin(2 * np.pi * f * seg) for f in ch)
+    for s, tm in zip(v["segments"], timing):  # silence the bed around chapter cards = "drop before the reveal"
+        if s["show"]["type"] == "chapter":
+            a, b = int((tm["start"] - 0.8) * sr), int((tm["end"] + 0.6) * sr); out[max(a, 0):b] *= 0.0
+    out = np.convolve(out, np.ones(60) / 60, "same")  # soften
+    out = out / np.sqrt((out ** 2).mean() + 1e-9) * 10 ** (-40 / 20)  # ~24 dB under the -16 LUFS voice
+    sys.path.insert(0, VOICE_DIR); import kokoro_tts as k; k.save(out.astype(np.float32), path)
+    return path
 
 # ---------- outputs ----------
 def thumbnail(v, path):
@@ -226,23 +242,28 @@ if __name__ == "__main__":
     out = os.path.join(HERE, "renders", v["id"] + ".mp4"); silent = out[:-4] + "_silent.mp4"
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
                            "-c:v", "libx264", "-preset", "veryfast", "-crf", "19", "-pix_fmt", "yuv420p", silent], stdin=subprocess.PIPE)
+    import wave
+    w = wave.open(wav); va = np.abs(np.frombuffer(w.readframes(w.getnframes()), np.int16)); sr = w.getframerate()
+    quiet = np.convolve(va > 300, np.ones(int(0.3 * sr)), "valid") == 0  # 0.3 s of silence = sentence gap
+    beats = np.flatnonzero(np.diff(quiet.astype(int)) == -1) / sr + 0.3
     si = 0
     for f in range(N):
         t = f / FPS
         while si + 1 < len(timing) and t >= timing[si + 1]["start"]: si += 1
         seg, tm = v["segments"][si], timing[si]
-        ff.stdin.write(frame_for(seg, t - tm["start"], tm["end"] - tm["start"]).tobytes())
+        ff.stdin.write(frame_for(seg, t - tm["start"], tm["end"] - tm["start"], int(((beats > tm["start"] + 0.2) & (beats <= t)).sum())).tobytes())
         if f % (FPS * 30) == 0: print(f"video {t / total:5.1%}", flush=True)
     ff.stdin.close(); ff.wait()
     # sfx: soft whoosh on every card/chapter, pop on character scenes
     sfx = os.path.join(HERE, "..", "remotion", "public", "sfx"); ins, flt, lab = ["-i", wav], ["[1]loudnorm=I=-16:TP=-1.5[v]"], ["[v]"]
     for i, (s, tm) in enumerate(zip(v["segments"], timing)):
         if i == 0: continue
-        ins += ["-i", os.path.join(sfx, "pop.wav" if s["show"]["type"] == "char" else "whoosh.wav")]
+        ins += ["-i", os.path.join(sfx, {"char": "pop.wav", "stat": "boom.wav", "bars": "boom.wav"}.get(s["show"]["type"], "whoosh.wav"))]
         ms = round(tm["start"] * 1000); flt.append(f"[{len(lab) + 1}]adelay={ms}|{ms},volume=0.22[s{i}]"); lab.append(f"[s{i}]")
+    ins += ["-i", music(total, timing, v, out[:-4] + "_music.wav")]; flt.append(f"[{len(lab) + 1}]anull[mu]"); lab.append("[mu]")
     flt.append("".join(lab) + f"amix=inputs={len(lab)}:normalize=0[m]")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", silent, *ins, "-filter_complex", ";".join(flt), "-map", "0:v", "-map", "[m]",
                     "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-t", f"{total:.3f}", out], check=True)
-    os.remove(silent)
+    os.remove(silent); os.remove(out[:-4] + "_music.wav")
     thumbnail(v, out[:-4] + "_thumb.png"); description(v, timing, series, out[:-4] + "_description.txt")
     print(f"DONE {out} {total / 60:.2f} min")

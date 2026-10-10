@@ -1,0 +1,25 @@
+name: youtube-upload
+on:
+  workflow_dispatch:
+    inputs:
+      check_only: {description: "Only test the connection", type: boolean, default: true}
+  push:
+    paths: ["studio/yt/queue.json"]
+permissions:
+  contents: write
+concurrency: youtube-upload
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install google-api-python-client google-auth
+      - run: python studio/yt/upload.py
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          CHECK_ONLY: ${{ inputs.check_only && '1' || '' }}
+      - run: |
+          git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
+          git add studio/yt/queue.json && git commit -m "YouTube upload results [skip ci]" && git push || true

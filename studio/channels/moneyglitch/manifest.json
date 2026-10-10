@@ -1,0 +1,362 @@
+{
+ "reference": "Money Glitch sheets from ChatGPT (user, 2026-10-11), cut by color key + silhouette",
+ "anchor_default": "bottom_center",
+ "assets": [
+  {
+   "asset_id": "F01",
+   "file_path": "assets/F01.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "wave",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "F02",
+   "file_path": "assets/F02.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "thumbs_up_chart_up",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "F03",
+   "file_path": "assets/F03.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "calm_smile",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "F04",
+   "file_path": "assets/F04.png",
+   "approved": true,
+   "emotion": "CONFUSED",
+   "gesture": "hand_on_chin",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "F05",
+   "file_path": "assets/F05.png",
+   "approved": true,
+   "emotion": "EXCITED",
+   "gesture": "fist_chart_up",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "F06",
+   "file_path": "assets/F06.png",
+   "approved": true,
+   "emotion": "SHOCKED",
+   "gesture": "chart_crash",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "F07",
+   "file_path": "assets/F07.png",
+   "approved": true,
+   "emotion": "SAD",
+   "gesture": "crying",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "F08",
+   "file_path": "assets/F08.png",
+   "approved": true,
+   "emotion": "SAD",
+   "gesture": "stressed_paperwork",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "F09",
+   "file_path": "assets/F09.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "headphones_trading_screen",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "F10",
+   "file_path": "assets/F10.png",
+   "approved": true,
+   "emotion": "EXCITED",
+   "gesture": "coin_point_viewer",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "F11",
+   "file_path": "assets/F11.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "tablet_chart_up",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "F12",
+   "file_path": "assets/F12.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "skeptical",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "F13",
+   "file_path": "assets/F13.png",
+   "approved": true,
+   "emotion": "EXCITED",
+   "gesture": "idea",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "F14",
+   "file_path": "assets/F14.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "coffee_chart",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "F15",
+   "file_path": "assets/F15.png",
+   "approved": true,
+   "emotion": "SHOCKED",
+   "gesture": "shocked",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "F16",
+   "file_path": "assets/F16.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "working_laptop_books",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "F17",
+   "file_path": "assets/F17.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "peek",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "F18",
+   "file_path": "assets/F18.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "asleep_desk",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "F19",
+   "file_path": "assets/F19.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "wave_wink",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G01",
+   "file_path": "assets/G01.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "wave_reach",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G02",
+   "file_path": "assets/G02.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "calm_smile",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G03",
+   "file_path": "assets/G03.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "embarrassed_laugh",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G04",
+   "file_path": "assets/G04.png",
+   "approved": true,
+   "emotion": "CONFUSED",
+   "gesture": "hand_on_chin",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G05",
+   "file_path": "assets/G05.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "curious",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G06",
+   "file_path": "assets/G06.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "point_viewer",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G07",
+   "file_path": "assets/G07.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "working_laptop",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G08",
+   "file_path": "assets/G08.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "headphones",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G09",
+   "file_path": "assets/G09.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "chin_on_hand",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G10",
+   "file_path": "assets/G10.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "thumbs_up",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G11",
+   "file_path": "assets/G11.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "tablet_notes",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G12",
+   "file_path": "assets/G12.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "wave",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G13",
+   "file_path": "assets/G13.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "present_chart",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G14",
+   "file_path": "assets/G14.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "reading_thinking",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G15",
+   "file_path": "assets/G15.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "coffee",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G16",
+   "file_path": "assets/G16.png",
+   "approved": true,
+   "emotion": "EXCITED",
+   "gesture": "determined_fist",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G17",
+   "file_path": "assets/G17.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "writing_notebook",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G18",
+   "file_path": "assets/G18.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "daydream",
+   "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "G19",
+   "file_path": "assets/G19.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "leaving_wave",
+   "anchor_point": "bottom_center"
+  }
+ ],
+ "backgrounds": [
+  {
+   "bg_id": "home_office_night",
+   "file_path": "backgrounds/home_office_night.png",
+   "approved": true,
+   "emotions": [
+    "NEUTRAL",
+    "SAD",
+    "CONFUSED",
+    "EXCITED",
+    "SHOCKED"
+   ],
+   "use": "late-night money worries, budgeting, setup"
+  },
+  {
+   "bg_id": "living_room_golden",
+   "file_path": "backgrounds/living_room_golden.png",
+   "approved": true,
+   "emotions": [
+    "HAPPY",
+    "NEUTRAL",
+    "EXCITED",
+    "CONFUSED"
+   ],
+   "use": "everyday spending, tips, calm explanations"
+  },
+  {
+   "bg_id": "street_day",
+   "file_path": "backgrounds/street_day.png",
+   "approved": true,
+   "emotions": [
+    "HAPPY",
+    "NEUTRAL",
+    "EXCITED",
+    "CONFUSED",
+    "SHOCKED"
+   ],
+   "use": "shopping, real-world examples"
+  },
+  {
+   "bg_id": "money_board",
+   "file_path": "backgrounds/money_board.png",
+   "approved": true,
+   "emotions": [
+    "NEUTRAL",
+    "CONFUSED",
+    "SHOCKED",
+    "EXCITED"
+   ],
+   "use": "studies, data, AI and money mysteries"
+  }
+ ]
+}

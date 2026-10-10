@@ -26,6 +26,16 @@ if os.environ.get("CHECK_ONLY"):
             print(f"::notice::{ch or 'default'} -> {items[0]['snippet']['title'] if items else 'NO CHANNEL (pick the channel at sign-in)'}")
             st["channels"] += [{"key": ch or "default", "id": c["id"], "title": c["snippet"]["title"],
                                 **{k: int(v) for k, v in c["statistics"].items() if k in ("subscriberCount", "viewCount", "videoCount")}} for c in items]
+            yc = client(ch)  # per-video stats of the newest 50 uploads
+            for c in items:
+                up = "UU" + c["id"][2:]
+                ids = [i["contentDetails"]["videoId"] for i in yc.playlistItems().list(part="contentDetails", playlistId=up, maxResults=50).execute().get("items", [])]
+                if not ids: continue
+                for v in yc.videos().list(part="snippet,statistics,contentDetails", id=",".join(ids)).execute().get("items", []):
+                    s = v.get("statistics", {})
+                    st.setdefault("videos", []).append({"channel": c["snippet"]["title"], "id": v["id"], "title": v["snippet"]["title"],
+                        "published": v["snippet"]["publishedAt"][:16].replace("T", " "), "duration": v["contentDetails"]["duration"],
+                        "views": int(s.get("viewCount", 0)), "likes": int(s.get("likeCount", 0)), "comments": int(s.get("commentCount", 0))})
         json.dump(st, open(os.path.join(os.path.dirname(__file__), "status.json"), "w"), indent=1)
         print("::notice::status " + json.dumps(st))
     except Exception as e:

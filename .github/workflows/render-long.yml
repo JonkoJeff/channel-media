@@ -77,4 +77,4 @@ jobs:
           gh release delete $ID -y --cleanup-tag 2>/dev/null || true
           gh release create $ID $R/$ID.mp4 $(ls $R/sh*.mp4 2>/dev/null) --title "$ID" --notes "Rendered video files for the channel."
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
-          git add $D && git commit -m "Rendered $ID [skip ci]" && git pull --rebase -q && git push
+          git add -f $D && git commit -m "Rendered $ID [skip ci]" && git pull --rebase -q && git push

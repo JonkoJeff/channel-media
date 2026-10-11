@@ -351,6 +351,8 @@ def description(v, timing, series, path):
         cr = json.load(open(cpath)); lines += ["", "\U0001f4f7 Photos"] + [f'\u2022 "{cr[f]["title"]}" by {cr[f]["creator"]} ({cr[f]["provider"]}), {cr[f]["license"]}: {cr[f]["source"]}' for f in dict.fromkeys(used) if f in cr and not cr[f].get("ai")]
         if any(cr.get(f, {}).get("ai") for f in used): lines += ["\u2022 Some images are AI-generated (Flux)."]
     lines += ["", "Narration is AI-generated (synthetic voice). Script, research and edit by the channel.", "", " ".join(v["tags"])]
+    if len("\n".join(lines)) > 4900:  # YouTube description limit is 5000 characters: shorten source lines
+        lines = [l[:97].rstrip(" ,;:") + "\u2026" if l.startswith("\u2022 ") and len(l) > 100 else l for l in lines]
     open(path, "w").write("\n".join(lines) + "\n")
 
 if __name__ == "__main__":

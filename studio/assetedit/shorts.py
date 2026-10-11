@@ -40,7 +40,7 @@ def render(s):
     a = t[s["first"]]["start"]; last = s["first"]
     while last + 1 < len(t) and t[last + 1]["end"] - a <= s.get("max", 58) and last + 1 <= s.get("last", 999): last += 1
     b = t[last]["end"]
-    v = json.load(open(os.path.join(HERE, "videos", s["src"] + ".json"))); full = v["title"]
+    v = json.load(open(os.path.join(HERE, "videos", s["src"] + ".json"))); full = v.get("title", "")
     ov = os.path.join(HERE, "renders", s["id"] + "_ov.png"); overlay(s["top"], full, ov)
     cap = os.path.join(HERE, "renders", s["id"] + ".ass"); captions(v["segments"], t, a, b, cap)
     out = os.path.join(HERE, "renders", s["id"] + ".mp4")

@@ -15,12 +15,15 @@ with open(lst, "w") as f:
         f.write(f"file '{os.path.join(R, pid + '.mp4')}'\n")
 total = off
 approved = os.path.exists(os.path.join(L.HERE, "..", "yt", "APPROVED"))
-if approved: enc = ["-c:v", "libx264", "-preset", "medium", "-crf", "21"]
-else:
-    kbps = int(470 * 8 * 1024 / total) - 96  # 470 MB budget for Metricool's 500 MB limit
-    enc = ["-vf", "scale=1280:720", "-c:v", "libx264", "-preset", "medium", "-b:v", f"{kbps}k", "-maxrate", f"{int(kbps * 1.4)}k", "-bufsize", f"{kbps * 2}k"]
-subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, *enc, "-pix_fmt", "yuv420p",
-                "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", out], check=True)
+src = ["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst]
+if approved:
+    subprocess.run([*src, "-c:v", "libx264", "-preset", "medium", "-tune", "animation", "-crf", "21", "-pix_fmt", "yuv420p",
+                    "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out], check=True)
+else:  # Metricool takes max 500 MB: 2-pass 720p at the bitrate that fits (tested: still sharp at ~330 kbps for this style)
+    kbps = min(int(470 * 8 * 1024 / total) - 96, 4000)
+    enc = ["-vf", "scale=1280:720", "-c:v", "libx264", "-preset", "slow", "-tune", "animation", "-b:v", f"{kbps}k", "-pix_fmt", "yuv420p", "-passlogfile", out[:-4] + "_2pass"]
+    subprocess.run([*src, *enc, "-pass", "1", "-an", "-f", "null", "/dev/null"], check=True)
+    subprocess.run([*src, *enc, "-pass", "2", "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", out], check=True)
 os.remove(lst)
 mv = dict(v, segments=segs)
 series = json.load(open(os.path.join(L.HERE, "videos", "series.json")))

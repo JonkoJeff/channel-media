@@ -7,17 +7,17 @@ You run unattended, once a day. All video content is in English. Use the ponytai
 - Links of published videos: Metricool `getScheduledPosts` (brand 2266272, Europe/Amsterdam, a date range around the publish date, `extendedRange: true`). A published post has `providers[0].status: "PUBLISHED"` and `publicUrl` (the YouTube link). The YouTube RSS feed and watch pages block WebFetch, so don't use them.
 
 ## YouTube route (check first)
-- If `studio/yt/APPROVED` exists (Google approved the API audit): **all YouTube uploads go through our own uploader**, no post limit. Append items to `studio/yt/queue.json` (`{id, file, thumb, title, description, tags, publish_at (UTC ISO, e.g. 17:00 Amsterdam = 15:00Z in summer, 16:00Z in winter), short, status: "pending"}`) and push; GitHub Actions uploads each item within 26 h of its `publish_at`, max 8 per run (daily at 06:30 UTC), and writes back `video_id`. Max 8 uploads a day per channel (long + Shorts together). If a run reports "daily upload limit reached", lower to 5 a day for 2 weeks and say so in the report. Rhythm (owner's choice, 8 uploads a day): 1 long video every day at 17:00 + 7 Shorts a day at 08:00, 10:00, 12:00, 14:00, 19:00, 21:00 and 23:00 (Amsterdam). Make 5 Shorts per new long video (A hook, B study, C tip, D and E strong moments); fill the rest from the back catalog (best performers first, never a segment twice). Never 2 Shorts in a row from the same video. Part B then runs EVERY day and makes 1 long video (plus its 5 Shorts) instead of 2 on Sundays/Wednesdays. Items in `studio/queue.json` with status `later` go back into the rotation. Metricool then only posts Shorts to TikTok/Instagram (if connected), within the 20-post budget below.
+- If `studio/yt/APPROVED` exists (Google approved the API audit): **all YouTube uploads go through our own uploader**, no post limit. Append items to `studio/yt/queue.json` (`{id, file, thumb, title, description, tags, publish_at (UTC ISO, e.g. 17:00 Amsterdam = 15:00Z in summer, 16:00Z in winter), short, status: "pending"}`) and push; GitHub Actions uploads each item within 26 h of its `publish_at`, max 8 per run (daily at 06:30 UTC), and writes back `video_id`. Max 8 uploads a day per channel (long + Shorts together). If a run reports "daily upload limit reached", lower to 5 a day for 2 weeks and say so in the report. Rhythm: long 2.5 h videos on Tuesday and Saturday at 17:00; Shorts up to 7 a day at 08:00, 10:00, 12:00, 14:00, 19:00, 21:00 and 23:00 (Amsterdam), from the 12 Shorts per video plus the back catalog (best performers first, never a segment twice, never 2 in a row from the same video). Items in `studio/queue.json` with status `later` go back into the rotation. Metricool then only posts Shorts to TikTok/Instagram (if connected), within the 20-post budget below.
 - If it does not exist yet: uploads through our own uploader stay private, so keep using Metricool for YouTube with the budget below.
 
 ## Post budget (Metricool free plan: 20 posts per calendar month)
 - Count every post in `getScheduledPosts` whose publication date is in that month, any status. One Metricool post counts once, however many networks it goes to.
-- Long videos come first: always reserve one slot for each Mon/Wed/Fri 17:00 still ahead in the month. Shorts only use what is left: `free = 20 - counted - reserved`. If `free <= 0`, no Short that month.
+- Long videos come first: always reserve one slot for each Tuesday and Saturday 17:00 still ahead in the month. Shorts only use what is left: `free = 20 - counted - reserved`. If `free <= 0`, no Short that month.
 - Every Short is one post to every connected network at once (YouTube Short + Instagram Reel + TikTok), so each slot gets the most reach.
 - If the user upgrades the plan, they will say so; then this section goes away.
 
 ## A. Every day: link and schedule due Shorts (≈5 min)
-Order of a run: A, then C, then B (Sundays and Wednesdays).
+Order of a run: A, then C, then B (every day).
 1. Read `studio/queue.json`. Take items with `status: "pending"` and `due` today or earlier.
 2. For each item, find the long video whose title equals `long_title` in `getScheduledPosts` with status PUBLISHED and take its `publicUrl`. Not published yet: leave the item pending, retry tomorrow.
 3. Check the post budget for the month of `due`. No free slot: leave it pending and set `due` to the 1st of the next month at 12:00. Max 1 Short per day.
@@ -25,7 +25,7 @@ Order of a run: A, then C, then B (Sundays and Wednesdays).
    - date = `due` (Europe/Amsterdam). If that time has passed or is less than 20 min away, use now + 30 min.
    - media = [`file`], providers: youtube, plus instagram and tiktok if `getBrandSettings` shows them connected. `youtubeData {title, type: "short", privacy: "public", category: "EDUCATION", madeForKids: false, isAiGeneratedContent: true, tags (without #)}`, `instagramData {type: "REEL", isAiGenerated: true}`, `tiktokData {title, isAigc: true}`.
    - text = `<hook>\n\nWatch the full video: <long video URL>\n\n<tags joined by spaces>`
-5. Set `status: "scheduled"`, `long_url`, `metricool_id`. Then `bash studio/publish.sh --rm <id>.mp4` for those files (Metricool copied them when scheduling; the response's media URL starts with static.metricool.com).
+5. Set `status: "scheduled"`, `long_url`, `metricool_id`. Files on the media branch (old Shorts only): `bash studio/publish.sh --rm <id>.mp4` (Metricool copied them when scheduling; the response's media URL starts with static.metricool.com).
 6. Commit and push `studio/queue.json`.
 
 ## C. Every day: check what went live, learn from it (≈10 min)
@@ -48,10 +48,9 @@ GitHub Actions `trend-scan` runs at 05:15, 13:15 and 21:15 UTC and writes `studi
 5. Never copy a title, thumbnail or script. Take the pattern, not the content. Our own numbers (insights.md) beat outside trends when they disagree.
 6. Commit and push. Only report when a new rule was added or something failed.
 
-## B. Sundays and Wednesdays: make the next videos (≈1.5 h)
-Rhythm: long video is the main route: 3 a week (Mon, Wed, Fri at 17:00). Shorts fill the leftover post budget (see Post budget): about 7 a month, at 12:00, max 1 a day, never 2 in a row from the same video.
-Back catalog: from 10 published long videos on, add 2 extra Shorts a week cut from older videos, best performers first, never a segment already used (check shorts.json).
-Scale every 3 weeks from insights.md within the post budget: good retention/CTR -> keep 3 long a week; dropping -> fewer, better long videos. Each run makes 2 long videos, unless the next 7 days already have 3 scheduled; then make 1, or 0 and only do A and C.
+## B. Every day: build the next 2.5-hour video (owner's choice since 2026-10-11)
+Format: every long video is ONE big theme of about 2.5 hours (140–160 min, 20,000–22,000 words), split into 12 parts of ~1,700 words (~12 min each). Think "the complete guide": e.g. "The Psychology of Your Brain at Night". Each part works like a strong mini-video (own question, own study, re-hook at the end that pulls into the next part). Never filler, never repeating a point to gain minutes: if the theme can't carry 12 strong parts, pick a bigger theme.
+Rhythm: publish 2 long videos a week (Tuesday and Saturday 17:00). Production runs every day: write 4 parts per run (research + script), so one video is complete every 3 runs. Shorts: 1 per part (12 per video), cut from the strongest moment of that part.
 
 ### B0. Setup
 ```
@@ -59,59 +58,43 @@ bash studio/setup.sh      # Kokoro voice (Apache-2.0) + espeak-ng; prints "voice
 ```
 
 ### B1. Learn from the numbers (Metricool, free)
-- First read `studio/lessons.md` (rules from earlier mistakes), `studio/trends.md` (`## Rules` and `## Now working`: apply them to titles, thumbnails, hooks and descriptions) and the last 2 blocks of `studio/insights.md`. Every rule there applies to this run.
-- `getAnalyticsDataByMetrics` brand 2266272, from 2026-10-01 to today, metrics `YTVV02, YTVV17, YTVV06, YTVV08, YTVV09, YTVV11, YTVV12` (date, title, views, avg view duration, likes, comments, shares).
-- Append a dated block to `studio/insights.md` with these columns per video: views, avg view duration as % of length, likes and comments per 1k views. Then 3 bullets: what worked, what didn't, and what to change this week.
-- Rules of thumb:
-  - A long video where viewers watch under 30% on average → the hook is too slow. Shorten the intro list and open with the payoff.
-  - A topic with the best views per day → put a close cousin next in the queue.
-  - A Short with high views → reuse its hook style.
-- With fewer than 3 videos older than 3 days, only log the numbers. Draw no conclusions yet.
+- First read `studio/lessons.md`, `studio/trends.md` (`## Rules` and `## Now working`: apply them to titles, thumbnails, hooks and descriptions) and the last 2 blocks of `studio/insights.md`. Every rule there applies to this run.
+- `getAnalyticsDataByMetrics` brand 2266272, from 2026-10-01 to today, metrics `YTVV02, YTVV17, YTVV06, YTVV08, YTVV09, YTVV11, YTVV12`. Append a dated block to `studio/insights.md` (views, average view duration in minutes and as % of length, likes and comments per 1k views) + 3 bullets: what worked, what didn't, what to change. Only once per 3 days; with fewer than 3 videos older than 3 days, only log.
+- For 2.5 h videos, watch time in minutes matters more than %; a part where many viewers drop → make the matching part of the next video shorter and punchier.
 
-### B2. Pick the topics (1 or 2, see above)
-- Titles: short and punchy, max ~40 characters (they are cut off on phones), curiosity first, plain words, no clickbait the video doesn't deliver. Pattern examples: "Why Doorways Make You Forget", "Why Fear Feels So Good". Shorts titles max ~35 characters.
-- Take the next 2 titles from `studio/assetedit/videos/series.json` that have no JSON file yet, unless B1 says another topic should jump the queue.
-- Always keep at least 3 planned titles after the ones you make, because descriptions promise "coming up next". Use the pattern "Why <relatable thing your brain does>", backed by a real study. Seasonal topics go in 1–2 weeks early.
+### B2. Theme and plan (when no video is in progress)
+- A video is "in progress" when `studio/assetedit/videos/<id>.json` exists without `studio/renders/<id>/result.json`. Continue it first.
+- New video: next id `lfNN`. Pick a theme from `series.json` (or a bigger cousin of what B1 shows works). Title: short and punchy, max ~40 characters, curiosity first (e.g. "Your Brain at Night, Explained"), never clickbait the video doesn't deliver. Write `videos/lfNN.json` = `{id, title, desc, tags, sources, thumb, parts: ["lfNN_p01" ... "lfNN_p12"], plan: [12 one-line part outlines]}` and add the title to `series.json`. Keep 3 planned titles after it.
 
-### B3. Research and script (per video; next id = lfNN)
-- Do 2–4 web searches. Every number, study, name and year must come from a source you opened. Never invent figures. If a study has no numbers, use `list` or `study` cards, not `bars` or `stat`.
-- Copy the structure of `studio/assetedit/videos/lf01.json`:
-  1. Hook: 2–4 `char` segments, with the payoff promised within 15 s.
-  2. An "In this video" list.
-  3. 4 `chapter` parts, with a comment question in the middle and a re-hook before part 3.
-  4. Practical tips.
-  5. A callback to the opening.
-  6. An `end` segment that teases the next title in series.json.
-- Length: 1,450–1,650 words. `python3 studio/est.py <file>` must print OK.
-- Real screenshots (`screen` scenes) only when the topic is about a real tool, site or app (e.g. a store builder, a bank app, an AI tool) and seeing it helps; most videos need none. Never reuse a screenshot from an earlier video; vary `move` (zoom/scroll/pan), `focus` and `side` per scene. Public pages only, never logged-in dashboards, never edited to look different, never implying a sponsor. List them in `shots.json` of the channel ({file, url}); the GitHub Actions `screenshots` workflow fetches them before rendering; look at every shot (cookie banners, errors) before using it.
-- Photos (`photo` scenes): only free-licensed images via Openverse (includes Wikimedia Commons), licenses that allow commercial use and changes. List them in the channel's `photos.json` ({file, query}); the `screenshots` workflow fetches them with credits; the description lists every photo's credit automatically. Never use images from Google, Pinterest or other sites, never reuse a photo in a later video, and look at each photo before using it (right subject, no watermark, no recognizable private people, no logos of brands we do not discuss).
-- AI images (free): when no real photo fits (abstract ideas, metaphors, moods, B-roll), add `{file, ai: "<prompt>"}` to `photos.json`; the same workflow generates it with Flux on Cloudflare Workers AI (free tier, max ~100 a day for all channels together; stay under 30 a run). Prompts: describe scene, style, light and "no text, no logos"; never real people, brands or copyrighted characters. Look at every result (hands, faces, garbled text) and regenerate with a new file name if it fails. Real proof (prices, dashboards, earnings) is always a real screenshot, never an AI image. If the CF_API_TOKEN secret is missing, use Openverse photos and report it.
-- Every video must be unique in structure as well as topic: vary the hook type, the order and mix of scene types, and which sprites and backgrounds lead; never copy the scene list of an earlier video.
-- Use approved sprites and backgrounds only (`longform.validate` enforces this; A07 cannot be used). Fill in `thumb`, `desc`, `sources` and `tags`.
+### B3. Research and script (4 parts per run)
+- Every part file `videos/lfNN_pXX.json` = `{id, part: true, voice, segments}` in the segment format of `videos/lf01.json`. Every part starts with a `chapter` segment (`n` = part number, `title` = part title). Part 1 opens with the hook (payoff promised within 15 s) and an "In this video" list of the 12 parts, then its chapter. Part 12 ends with practical takeaways, a callback to the opening and an `end` segment teasing the next video.
+- ~1,700 words per part (`python3 studio/est.py <part>` for a time check, ≈11–13 min each). 2–4 web searches per part; every number, study, name and year from a source you opened; add them to the video's `sources`.
+- Motion and variety (this is what keeps people watching for 2.5 h): per part at least 1 `photo` scene with an AI B-roll image (see AI images) or a free photo, a mix of `list`, `study`, `stat`, `bars`, `curve`, `quote`, `char` scenes, never more than 3 `char` scenes in a row, and different sprites/backgrounds leading each part. Captions, character motion, drifting backgrounds, transitions and the part progress bar are automatic.
+- Real screenshots (`screen` scenes) only when the topic is about a real tool, site or app and seeing it helps. Never reuse a screenshot; vary `move`, `focus` and `side`. Public pages only, never logged-in dashboards, never edited, never implying a sponsor. List them in the channel's `shots.json` ({file, url}); the `screenshots` workflow fetches them; look at every shot before using it.
+- Photos (`photo` scenes): free-licensed images via Openverse only (commercial use + changes allowed), listed in `photos.json` ({file, query}); credits go in the description automatically. Never images from Google, Pinterest or other sites; never reuse a photo; look at each one first.
+- AI images (free): for ideas, metaphors, moods and B-roll add `{file, ai: "<prompt>"}` to `photos.json` (Flux on Cloudflare Workers AI, free tier ~100 a day for all channels; stay under 30 a run). Describe scene, style, light, "no text, no logos"; never real people, brands, copyrighted characters or our own character. Look at every result and regenerate with a new file name if it fails. Proof (prices, dashboards, earnings) is always a real screenshot. If the CF_API_TOKEN secret is missing, use Openverse and report it.
+- Push `photos.json` / `shots.json` early in the run so the workflow fetches them while you write.
+- Every video unique: vary hook type, part structure, scene order and mix; never copy the scene list of an earlier video.
+- Use approved sprites and backgrounds only (`longform.validate` enforces this; A07 cannot be used).
+- Shorts: for every finished part add 1 entry to `videos/shorts.json` (`{id: "shNNxx", src: "lfNN_pXX", first, last, top, title, tags}`, the part's strongest ≤58 s moment, hook text on top).
+- Check one part locally before committing all: `cd studio/assetedit && python3 -c "import json,longform as L;L.validate(json.load(open('videos/lfNN_pXX.json')))"`.
 
-### B4. Render and check
-```
-cd studio/assetedit && python3 longform.py videos/lfNN.json    # ≈20 min each
-```
-- Check that the length is ≥ 8:00 and the file has audio, and go through every rule in `studio/lessons.md` one by one. Look at 6 frames (`ffmpeg -ss`) and at the thumbnail. Fix and re-render if anything overflows or looks wrong.
-- Add 2 Shorts per video to `videos/shorts.json` (A = hook segments, B = study reveal; each ≤ 58 s). A goes first in the queue, B only if the budget has room. Render only the new ones: put them in a temp JSON and run `python3 shorts.py <temp.json>`.
+### B4. Render (GitHub Actions, free) when all 12 parts are written
+- Commit and push, then start the render: `gh api -X POST repos/JonkoJeff/channel-media/actions/workflows/render-long.yml/dispatches -f ref=main -f "inputs[id]=lfNN"` (for another channel add `-f "inputs[channel]=<slug>"`). All 12 parts render in parallel (voice, frames, captions, its Shorts), then they are stitched. Takes about 1 hour. It writes `studio/renders/lfNN/` (thumb.png, description.txt, 12 review frames, result.json with the public video and Shorts URLs on the GitHub release `lfNN`).
+- If it fails: read the error annotation of the failed job (check-runs annotations API), fix the part, run again.
+- Before the audit is approved the video is 720p and ≤ 500 MB (Metricool's limit); after approval it is 1080p via our own uploader.
 
-### B5. Schedule
-- `bash studio/publish.sh renders/lfNN.mp4 renders/lfNN_thumb.png renders/shNNa.mp4 renders/shNNb.mp4` prints the public URLs.
-- Thumbnail: add `videoThumbnailUrl` (the png URL) to the long-video post (channel is verified). Thumbnail text in `thumb.text`: max 3 words / ~12 characters that add to the title, never repeat it (curiosity gap). Pick the sprite with the strongest emotion for the topic.
-- Long videos: Metricool `createScheduledPost` at 17:00 on the first free Monday, Wednesday or Friday after the last long video already scheduled (`getScheduledPosts`). Never 2 long videos on one day; never a gap longer than 3 days:
-  - text = `renders/lfNN_description.txt`
-  - `youtubeData {title, type: "video", privacy: "public", category: "EDUCATION", madeForKids: false, isAiGeneratedContent: true, tags}`
-  - Afterwards: `publish.sh --rm lfNN.mp4`
-- Shorts: do not schedule them now. Append them to `studio/queue.json` (status pending, due at 12:00, one per day, starting the day after their long video and never on a day that already has a Short in the queue). Part A links them to the long video once it is live. Part A applies the post budget; leftover Shorts roll to next month.
-- Check `getScheduledPosts` first so nothing collides.
+### B5. Check and schedule (the run after the render)
+- Look at the 12 review frames and the thumbnail: text overflow, wrong sprite, broken image, captions over the character. Read the description (chapters in h:mm:ss, sources, AI disclosure). Go through every rule in `studio/lessons.md`. Anything wrong: fix and re-render, never schedule it.
+- Thumbnail text in `thumb.text`: max 3 words that add to the title; the strongest emotion sprite.
+- Schedule with Metricool `createScheduledPost` at 17:00 on the next free Tuesday or Saturday: media = [result.json `video`], `videoThumbnailUrl` = result.json `thumb`, text = `studio/renders/lfNN/description.txt`, `youtubeData {title, type: "video", privacy: "public", category: "EDUCATION", madeForKids: false, isAiGeneratedContent: true, tags}`. With `studio/yt/APPROVED`, use our own uploader queue instead (see YouTube route).
+- Shorts: append the 12 Shorts to `studio/queue.json` (status pending, `file` = their URL from result.json, `long_title` = the title, due at 12:00, one per day from the day after the long video). Part A links and schedules them within the post budget.
 
 ### B6. Save and report
-- Commit the new JSON files, `insights.md`, `series.json` and `queue.json`. Never commit renders/, audio wav or models.
-- On the first Sunday of each month, shrink the media branch: recreate it as an orphan holding only files still pending in queue.json, then force-push.
+- Commit the JSON files, `insights.md`, `series.json` and `queue.json`. Never commit renders/, audio wav or models.
 
 ## Always end with a short report
-Say what was scheduled (titles and dates), the insight bullets (Sundays and Wednesdays), and anything that failed with what is needed. Never schedule something broken.
+Say what was scheduled (titles and dates), which parts of the video in progress were written, the insight bullets (when made), and anything that failed with what is needed. Never schedule something broken.
 
 ## Never
 - Use vidIQ (owner's choice: not used at all).

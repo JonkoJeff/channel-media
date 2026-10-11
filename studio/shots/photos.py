@@ -3,7 +3,7 @@ Reads studio/channels/<ch>/photos.json: [{"file": "x.jpg", "query": "handmade je
 Only licenses that allow commercial use AND modification (cc0, pdm, by, by-sa). Writes the image to
 studio/channels/<ch>/photos/<file> and its credit to photos/credits.json (title, creator, license, url).
 AI images: [{"file": "x.jpg", "ai": "prompt"}] -> Flux (flux-1-schnell, 1024x1024) on Cloudflare Workers AI, free tier
-(10,000 neurons/day, ~60 per image). Needs GitHub secrets CF_ACCOUNT_ID + CF_API_TOKEN (Workers AI permission)."""
+(10,000 neurons/day, ~60 per image). Needs GitHub secret CF_API_TOKEN (Workers AI permission); CF_ACCOUNT_ID is optional."""
 import base64
 import json, os, urllib.parse, urllib.request
 UA = {"User-Agent": "CrazyFactsPublisher/1.0 (github.com/JonkoJeff/channel-media)"}
@@ -17,7 +17,10 @@ for ch in os.listdir("studio/channels"):
         if os.path.exists(os.path.join(out, p["file"])): continue
         if p.get("ai"):
             acc, tok = os.environ.get("CF_ACCOUNT_ID"), os.environ.get("CF_API_TOKEN")
-            if not (acc and tok): print("::error::AI image asked but GitHub secrets CF_ACCOUNT_ID / CF_API_TOKEN are missing"); continue
+            if not tok: print("::error::AI image asked but GitHub secret CF_API_TOKEN is missing"); continue
+            if not acc:  # account id is optional: take the first account the token can see
+                acc = os.environ["CF_ACCOUNT_ID"] = json.loads(urllib.request.urlopen(urllib.request.Request("https://api.cloudflare.com/client/v4/accounts",
+                      headers={"Authorization": "Bearer " + tok}), timeout=30).read())["result"][0]["id"]
             try:
                 req = urllib.request.Request(f"https://api.cloudflare.com/client/v4/accounts/{acc}/ai/run/@cf/black-forest-labs/flux-1-schnell",
                       data=json.dumps({"prompt": p["ai"], "steps": p.get("steps", 4)}).encode(), headers={"Authorization": "Bearer " + tok, "Content-Type": "application/json"})

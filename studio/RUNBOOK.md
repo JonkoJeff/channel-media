@@ -61,6 +61,7 @@ bash studio/setup.sh      # Kokoro voice (Apache-2.0) + espeak-ng; prints "voice
 - With fewer than 3 videos older than 3 days, only log the numbers. Draw no conclusions yet.
 
 ### B2. Pick the topics (1 or 2, see above)
+- Titles: short and punchy, max ~40 characters (they are cut off on phones), curiosity first, plain words, no clickbait the video doesn't deliver. Pattern examples: "Why Doorways Make You Forget", "Why Fear Feels So Good". Shorts titles max ~35 characters.
 - Take the next 2 titles from `studio/assetedit/videos/series.json` that have no JSON file yet, unless B1 says another topic should jump the queue.
 - Always keep at least 3 planned titles after the ones you make, because descriptions promise "coming up next". Use the pattern "Why <relatable thing your brain does>", backed by a real study. Seasonal topics go in 1–2 weeks early.
 

@@ -266,7 +266,7 @@ def thumbnail(v, path):
     img = Image.blend(img, Image.new("RGB", img.size, (24, 110, 190)), 0.28)  # teal/blue grade
     yy, xx = np.mgrid[0:720, 0:1280]; vig = 1 - 0.45 * (((xx - 900) / 900) ** 2 + ((yy - 360) / 520) ** 2).clip(0, 1)
     img = Image.fromarray((np.asarray(img) * vig[..., None]).astype(np.uint8))
-    sp = Image.open(os.path.join(HERE, ASSETS[th["sprite"]]["file_path"])).convert("RGBA")
+    sp = Image.open(os.path.join(CH, ASSETS[th["sprite"]]["file_path"])).convert("RGBA")
     sp = ImageEnhance.Color(sp.resize((round(sp.width * 3.15), round(sp.height * 3.15)), Image.LANCZOS)).enhance(1.25)
     # sprites are cropped at their image border: fade those cut edges so no straight lines show
     al = np.asarray(sp.split()[-1]).astype(float); h, w = al.shape; F = 60; ramp = np.linspace(0, 1, F)

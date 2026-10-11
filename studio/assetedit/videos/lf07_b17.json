@@ -1,0 +1,170 @@
+{
+ "id": "lf07_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Picture a busy party. Music is playing. Dozens of people are talking at once. You're standing with a friend, listening to their story, and somehow you can follow every word, even though the room is full of noise. All the other voices fade into a kind of soft background hum.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 17,
+    "title": "Hearing your own name"
+   }
+  },
+  {
+   "say": "And then, from somewhere across the room, in a conversation you weren't listening to at all, someone says your name. And instantly, your head turns. How did that happen? You weren't listening to that conversation. You didn't hear anything else they said. And yet your name came straight through.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b20_party.jpg",
+    "cap": "A room full of voices"
+   }
+  },
+  {
+   "say": "Psychologists call this the cocktail party effect. Our ability to focus on one voice in a noisy crowd, and yet still notice certain important things from the voices we're ignoring. It's something you do so naturally that you've probably never wondered how remarkable it is.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The cocktail party effect."
+   }
+  },
+  {
+   "say": "In the nineteen fifties, a British scientist named Colin Cherry began studying this with headphones. He played a different message into each ear, and asked people to repeat one of them out loud, word by word, as they heard it. This keeps attention firmly fixed on that one ear. Then he asked, what did you notice about the other message?",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Colin Cherry",
+    "where": "Published in 1953",
+    "what": "People wore headphones playing a different message in each ear. They repeated one message aloud, and were later asked what they noticed about the other."
+   }
+  },
+  {
+   "say": "The answer was, surprisingly little. People could often tell whether the ignored voice was a man or a woman, or whether it was a voice at all rather than a tone. But they often couldn't say what had been said. In some versions of this kind of experiment, the ignored message could even switch to another language, or be played backwards, and many people didn't notice.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Almost nothing got through."
+   }
+  },
+  {
+   "say": "Does that remind you of anything? It's very similar to the gorilla experiment, but for hearing. When attention is busy with one thing, a lot of information from elsewhere simply doesn't make it into awareness. The ears receive it. But the brain doesn't build it into what you experience.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Like the gorilla, but for ears."
+   }
+  },
+  {
+   "say": "But then a researcher named Neville Moray added a twist. What if the ignored message contained the person's own name? Would that get through? In his study, and in later studies that tested the same idea, some people did notice their own name, even in the ear they were supposed to be ignoring.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Neville Moray",
+    "where": "Published in 1959",
+    "what": "In the same kind of headphone task, a person's own name was sometimes inserted into the ignored message."
+   }
+  },
+  {
+   "say": "Not everyone noticed. In later careful repetitions of this kind of study, around a third of people reported hearing their name in the ignored ear. But that's still remarkable. Because it means the brain must be doing something with the ignored voices. It isn't just switching them off. It's quietly monitoring them, listening for anything important.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "About a third noticed."
+   }
+  },
+  {
+   "say": "Think of it like a guard at the door of your awareness. Most of the sounds around you are turned away. They're not important. But the guard has a short list of things that are always allowed in. Your name. Maybe the cry of your own child. Maybe a sudden loud noise. When one of those arrives, the guard lets it straight through.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A quiet guard at the door."
+   }
+  },
+  {
+   "say": "And of course, that's enormously useful. You can't pay full attention to everything. So the brain picks one stream to focus on, and lets the rest fade. But completely ignoring everything else would be dangerous. So it keeps a little bit of processing running in the background, just enough to catch what might matter most.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why would this be useful?"
+   }
+  },
+  {
+   "say": "But this guard can also make mistakes. Maybe you've had the experience of thinking someone called your name, only to discover that no one did. A similar sounding word, a bit of noise, and the guard got excited. Better a false alarm than a miss, just like with faces in the clouds.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "But the guard makes mistakes."
+   }
+  },
+  {
+   "say": "And there's a very modern version of this. Have you ever felt your phone vibrate in your pocket, reached for it, and found there was no message at all? Maybe the phone wasn't even in your pocket. Researchers have studied this, and it's sometimes called phantom vibration. Many people who carry a phone report experiencing it at least now and then.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b20_phone.jpg",
+    "cap": "It didn't buzz. You felt it anyway."
+   }
+  },
+  {
+   "say": "One explanation is that the phone has become one of the things on the guard's list. Your brain has learned that a buzz matters. So it's constantly listening for it. And when a small sensation comes along, a bit of clothing moving, a muscle twitch, the brain jumps to its favorite prediction. That must be my phone.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The brain is listening for it."
+   }
+  },
+  {
+   "say": "That's a fascinating thought. The guard at the door isn't fixed. We train it, through what we pay attention to. The things we care about, and the things we check again and again, become the things our brain listens for. In a sense, our habits teach our brain what to notice.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "We train our own guard."
+   }
+  },
+  {
+   "say": "And that gives us a gentle invitation. If you'd like your brain to notice more of the good things, the birds outside, a kind word, a beautiful light in the evening, you can practice paying attention to them. Over time, they may become part of what your quiet guard lets through.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A gentle invitation."
+   }
+  },
+  {
+   "say": "So here's what the cocktail party teaches us. Attention picks one stream and dims the rest. Some things, like your own name, can still get through. The background guard sometimes gives false alarms, like a phantom buzz. And what we practice noticing, we tend to notice more.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "What the cocktail party teaches",
+    "items": [
+     "Attention picks one stream and dims the rest",
+     "Some things always get through, like your name",
+     "The background guard can give false alarms",
+     "What we practice noticing, we notice more"
+    ]
+   }
+  },
+  {
+   "say": "We've seen how the brain chooses what to hear. Next, let's return to the eyes one more time, to something you might think is completely objective. Color. Surely a color is just a color? But a famous photo of a dress once divided the whole internet. Let's find out why.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: colors that aren't there."
+   }
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "id": "lf07_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine you're asked to watch a short video. Two small teams of students are passing basketballs to each other. One team wears white shirts, the other black. Your task is simple. Count how many passes the white team makes. Concentrate. Don't lose count.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 2,
+    "title": "The gorilla nobody saw"
+   }
+  },
+  {
+   "say": "You watch closely. The balls fly back and forth, the players weave between each other. You count. Eleven, twelve, thirteen. And then the video ends, and someone asks you a strange question. Did you see the gorilla?",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b02_court.jpg",
+    "cap": "Count the passes. Concentrate."
+   }
+  },
+  {
+   "say": "The what? Halfway through the video, a person in a full gorilla suit walked right into the middle of the players, stopped, faced the camera, thumped their chest, and walked off. They were on screen for several seconds. Right in the middle of the scene.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The what?"
+   }
+  },
+  {
+   "say": "This is a real experiment. It was published in nineteen ninety nine by Daniel Simons and Christopher Chabris. And when people were busy counting passes, a large share of them simply didn't see the gorilla at all.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Simons & Chabris",
+    "where": "Harvard University, published in Perception, 1999",
+    "what": "People watching a ball-passing video and counting passes were asked afterwards if they noticed anything unusual, like a person in a gorilla suit."
+   }
+  },
+  {
+   "say": "About half of the people, according to the summary of the study, failed to notice the gorilla. Many of them were completely sure there had been no gorilla. Some even thought they had been shown a different video when they watched it again.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Missed the gorilla",
+    "big": "about 50%",
+    "label": "of people counting passes didn't notice it"
+   }
+  },
+  {
+   "say": "Psychologists call this inattentional blindness. When your attention is fully busy with one thing, things you're not expecting can pass right through your field of vision without ever reaching your awareness. Your eyes see the gorilla. The light hits your retina. But your brain, focused on the passes, never builds it into the picture.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Inattentional blindness."
+   }
+  },
+  {
+   "say": "That's the lesson I find so beautiful about this experiment. In a sense, we don't see with our eyes. We see with our attention. The eyes deliver the raw material, but attention decides what gets built into the world you experience.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "You don't see with your eyes."
+   }
+  },
+  {
+   "say": "This isn't just a lab curiosity. It helps explain why a driver busy with a phone call can fail to notice a cyclist. Or why you can look straight at your keys on the table and still not see them, because you were expecting them somewhere else. Attention is powerful, but it has a narrow beam.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "And it happens in real life too."
+   }
+  },
+  {
+   "say": "Now let's go one step further. Because it turns out that you can miss not only unexpected things, but also big changes. Even changes to the very person you're talking to. And the study that showed this is one of the most charming experiments ever done.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Now a second, even stranger study."
+   }
+  },
+  {
+   "say": "Picture a university campus. A stranger walks up to a pedestrian with a map and asks for directions. While they're talking, two workers carrying a large door walk rudely right between them. For a moment, the door blocks the pedestrian's view. And behind the door, the person asking for directions is swapped for a completely different person.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b02_door.jpg",
+    "cap": "The door study"
+   }
+  },
+  {
+   "say": "The new person takes the map, and simply continues the conversation, as if nothing happened. Different height. Different clothes. Different voice. Different face. This study was done by Daniel Simons and Daniel Levin.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Simons & Levin",
+    "where": "Cornell University campus, late 1990s",
+    "what": "During a conversation, the person asking for directions was swapped for someone else while a door passed between them."
+   }
+  },
+  {
+   "say": "And about half of the people, according to the textbook summary of the study, didn't notice that they were now talking to a different person. They just kept explaining the way. Psychologists call this change blindness.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Didn't notice the swap",
+    "big": "about 50%",
+    "label": "of people kept giving directions to a new person"
+   }
+  },
+  {
+   "say": "How is that possible? Here's one explanation that many researchers find convincing. Your brain doesn't keep a detailed photograph of the world in memory. It keeps a rough summary. Something like: a young man, asking for directions, holding a map. As long as the new person fits that summary, there's no alarm.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "How is that possible?"
+   }
+  },
+  {
+   "say": "In a way, your brain uses the world itself as its memory. Why store every detail when you can just look again? Most of the time, that's a very efficient strategy. The world doesn't usually swap people behind doors. So your brain doesn't waste effort checking.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The world is its own memory."
+   }
+  },
+  {
+   "say": "So what do these two studies teach us? We see what we attend to. We store a summary, not a photograph. Big, obvious things can slip right through. And maybe most importantly, feeling sure that we saw everything is not the same as having seen everything.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "What these studies teach us",
+    "items": [
+     "We see what we attend to",
+     "We keep a summary, not a photo",
+     "Big things can slip through",
+     "Feeling sure is not the same as being right"
+    ]
+   }
+  },
+  {
+   "say": "I don't think this should make you anxious. I think it can give you a gentle, useful humility. The next time you and someone else remember a scene differently, or argue about what was obviously there, you can remember the gorilla. Maybe neither of you is lying. Maybe both of your brains built a slightly different world.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A gentle, useful humility."
+   }
+  },
+  {
+   "say": "And if the brain is this selective about what it sees in the moment, imagine what it does with things that happened weeks, months or years ago. Because memory isn't a recording. It's something much more alive, and much more editable. Let's go there next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: memory, the great editor."
+   }
+  }
+ ]
+}

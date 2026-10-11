@@ -1,0 +1,160 @@
+{
+ "id": "lf07_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Your brain has two halves. A left hemisphere and a right hemisphere. They look a lot alike, and they're connected by a thick band of nerve fibers called the corpus callosum. Think of it as a bridge, with an enormous amount of traffic flowing across it every second, so that the two halves can share what they know.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 7,
+    "title": "The interpreter in your head"
+   }
+  },
+  {
+   "say": "Now, for a small number of people with severe epilepsy that couldn't be treated in other ways, doctors in the past sometimes cut that bridge. The idea was to stop seizures from spreading from one side of the brain to the other. And for many of these patients, it helped. They could live their lives, talk normally, work, joke.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b07_bridge.jpg",
+    "cap": "A bridge between two halves"
+   }
+  },
+  {
+   "say": "At first glance, they seemed almost unchanged. But careful experiments revealed something remarkable. Because the bridge was cut, information that reached only one half of the brain could, in the right conditions, stay in that half. And that gave researchers a rare window into how the mind explains itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Something unusual was hiding there."
+   }
+  },
+  {
+   "say": "To understand the experiments, you only need two simple facts. First, in most people, language, the ability to speak and explain, is mainly handled by the left half of the brain. And second, the wiring is crossed. What you see on the right side of your view goes mainly to the left half of your brain. What you see on the left side goes mainly to the right half. The same crossing goes for the hands.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A quick bit of wiring."
+   }
+  },
+  {
+   "say": "Researchers like Roger Sperry and Michael Gazzaniga spent decades working with these patients. And one experiment, described by Gazzaniga, has become a classic. A patient sat in front of a screen, looking at a dot in the middle. Then two pictures were flashed, one on each side, too briefly to move the eyes.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Michael Gazzaniga and colleagues",
+    "where": "Split-brain research, starting in the 1960s with Roger Sperry",
+    "what": "Patients whose brain halves had been surgically separated were shown different pictures to each half, and asked to point to matching cards."
+   }
+  },
+  {
+   "say": "On the right side, the patient was shown a chicken claw. That went to the left half of the brain, the half that talks. On the left side, the patient was shown a snowy winter scene. That went to the right half of the brain, the half that, in this setup, couldn't really speak about what it saw.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A chicken claw, and a snowy scene."
+   }
+  },
+  {
+   "say": "Then the patient was asked to pick matching pictures from a row of cards. The right hand, controlled by the left brain, picked a chicken. Makes sense, it saw the claw. And the left hand, controlled by the right brain, picked a shovel. Also sensible. You need a shovel for snow.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b07_snow.jpg",
+    "cap": "A shovel and a chicken"
+   }
+  },
+  {
+   "say": "And then came the key question. The researchers asked the patient, why did you choose those? Now remember, the talking half of the brain had only seen the chicken claw. It had no idea about the snow. It just saw its own left hand pointing at a shovel, for no reason it knew.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "So why the shovel?"
+   }
+  },
+  {
+   "say": "And without missing a beat, the patient answered, oh, that's simple. The chicken claw goes with the chicken, and you need a shovel to clean out the chicken shed. A perfectly reasonable story. Calm. Confident. And completely made up.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "text": "Oh, that's simple. The chicken claw goes with the chicken, and you need a shovel to clean out the chicken shed.",
+    "by": "Split-brain patient, as described by Michael Gazzaniga"
+   }
+  },
+  {
+   "say": "Gazzaniga called this part of the mind the interpreter. A system, mainly in the left hemisphere, that constantly tries to explain what we do and feel. It takes whatever information it has, and weaves it into a story that makes sense. And when information is missing, it doesn't say, I don't know. It makes something up that fits.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "The interpreter."
+   }
+  },
+  {
+   "say": "Does that sound familiar? It's the same thing we saw with the jam and the faces. The people in those studies had their brains intact, and yet they did something very similar. They explained choices they hadn't made. Maybe the interpreter is at work in all of us, every day, quietly narrating our lives.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Not a liar. A storyteller."
+   }
+  },
+  {
+   "say": "I want to add one careful note. These patients are rare, and the research is complex. More recent studies have suggested that the split between the two halves may not always be as complete as the classic experiments made it seem. Scientists are still discussing the details. But the core observation, a mind confidently inventing a reason, has stayed with neuroscience for decades.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A careful note."
+   }
+  },
+  {
+   "say": "Why would we need an interpreter? Think about how much happens in your brain that you're not aware of. Countless processes running at the same time, reacting, deciding, remembering. If you had no story tying it together, life might feel chaotic. The interpreter gives you a sense of one self, one person with reasons, moving through the day.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Why have an interpreter at all?"
+   }
+  },
+  {
+   "say": "In that sense, the interpreter is a gift. It's part of what makes your life feel like your life. A continuous story, with a main character, who does things for reasons. It's just good to know that the narrator is an optimist, and sometimes a bit of an improviser.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "It gives us a self."
+   }
+  },
+  {
+   "say": "So here's what I take from the interpreter. Your mind is constantly explaining you to yourself. When information is missing, it fills the gap with a good story. Feeling sure about a reason doesn't automatically make it the real reason. And a little humility about our own explanations leaves room for something lovely. Curiosity about ourselves.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Listening to your inner narrator",
+    "items": [
+     "Your mind explains you to yourself",
+     "Missing information gets filled with a story",
+     "Feeling sure of a reason doesn't make it the reason",
+     "A little humility makes room for curiosity"
+    ]
+   }
+  },
+  {
+   "say": "And speaking of a narrator who is a bit of an optimist. There's one story the brain loves to tell more than almost any other. A story about you. About how you compare to everyone else. And it turns out most of us believe a version of it that simply can't be true for all of us at once.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: why you think you're above average."
+   }
+  }
+ ]
+}

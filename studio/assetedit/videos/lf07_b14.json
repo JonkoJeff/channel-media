@@ -1,0 +1,170 @@
+{
+ "id": "lf07_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's one of the most famous lies in medicine. A sugar pill. A tablet with no active medicine in it at all. And yet, in many studies, some people who take a sugar pill report feeling better. Their symptoms ease. This is called the placebo effect, from a Latin word that means, I shall please.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 14,
+    "title": "When a lie can heal"
+   }
+  },
+  {
+   "say": "Now, it's easy to dismiss this. People just imagine they feel better, right? But researchers have found that placebo effects can be connected to real changes in the brain and body, especially for experiences like pain, nausea and discomfort. Expectation, it seems, can change how we actually feel.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Not just imagination."
+   }
+  },
+  {
+   "say": "Think back to everything we've seen tonight. The brain predicts. It fills in. It turns its best guess into experience. So it shouldn't be completely surprising that what we expect about a treatment can shape how we experience our symptoms. If the brain is built on predictions, then a strong prediction of relief can sometimes bring some relief.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Expectation shapes experience."
+   }
+  },
+  {
+   "say": "I want to be careful here, because this is important. Placebos don't cure diseases. A sugar pill won't shrink a tumor or fix a broken bone. Placebo effects mainly seem to affect how symptoms feel, things like pain or discomfort. Real medicine matters enormously. Placebo is not a replacement for it. If you're unwell, please talk to a doctor.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A careful word about placebos."
+   }
+  },
+  {
+   "say": "With that said, there's always been an ethical problem with placebos. They seemed to require deception. A doctor had to tell the patient, this is a medicine, when it wasn't. And deceiving patients is a serious problem in medicine. So for a long time, it was assumed that placebos only work if you believe they're real.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "But there was always a catch."
+   }
+  },
+  {
+   "say": "But then a team of researchers asked a bold question. What if we told people the truth? What if we gave them a bottle of pills and said, honestly, these are placebo pills, they contain no medicine. Would they still help? Most people would expect the answer to be no. That's what makes the result so surprising.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b14_bottle.jpg",
+    "cap": "What if you told the truth?"
+   }
+  },
+  {
+   "say": "In two thousand and ten, Ted Kaptchuk and his colleagues published a study in PLoS ONE. Eighty patients with irritable bowel syndrome, a condition that causes stomach pain and discomfort, took part. Half of them received no pill. The other half were openly given placebo pills, and told clearly that the pills contained no medicine.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Kaptchuk and colleagues",
+    "where": "Harvard Medical School, published in PLoS ONE, 2010",
+    "what": "80 patients with irritable bowel syndrome. Half received placebo pills openly described as placebo pills. Half received no treatment. The trial lasted three weeks."
+   }
+  },
+  {
+   "say": "The patients in the pill group were told that placebo pills had been shown in research to produce improvement in some people, possibly through mind body processes. They didn't have to believe it. They just had to take the pills, twice a day, for three weeks. The bottles were even labeled as placebo pills.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "They were told the truth."
+   }
+  },
+  {
+   "say": "And after three weeks, more of the people taking the open placebo reported adequate relief of their symptoms. Fifty nine percent in the placebo group, compared with thirty five percent in the group without pills. The people knew the pills were empty. And still, on average, they reported feeling better.",
+   "show": {
+    "type": "bars",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Reported adequate relief after 3 weeks",
+    "unit": "%",
+    "bars": [
+     [
+      "Open-label placebo",
+      59.0
+     ],
+     [
+      "No treatment",
+      35.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Now, this was a small study, with eighty people and a short time frame. The patients knew which group they were in, and the results were based on how people reported feeling, which is exactly where expectation plays a role. Scientists have since done more research on open label placebos, with mixed results, and the debate continues. It's an intriguing finding, not a miracle cure.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A small study, with limits."
+   }
+  },
+  {
+   "say": "But why might an honest placebo work at all? One idea is that the ritual of treatment itself matters. Taking a pill, at regular times, with care and attention. Being listened to by a kind doctor. Expecting that something might help. These things may shape the brain's predictions, even when we consciously know the pill is empty.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why might it work at all?"
+   }
+  },
+  {
+   "say": "In fact, researchers have also looked at how the warmth of the care itself can matter. In a related study, also involving irritable bowel syndrome, a warm, attentive interaction with a practitioner seemed to add to the improvement people reported. Being cared for is, in a sense, part of the treatment.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b14_garden.jpg",
+    "cap": "Care itself can comfort"
+   }
+  },
+  {
+   "say": "There's also a darker twin to the placebo, called the nocebo effect. If people expect something to cause side effects, some of them start to experience those effects, even from a pill with no active ingredient. Worry can make discomfort feel worse. Expectation works in both directions.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The other side: nocebo."
+   }
+  },
+  {
+   "say": "I find this a gentle and powerful idea. Your expectations aren't just thoughts floating in your head. They can shape how you feel. Not without limit, and not as a replacement for medicine. But the way you approach a difficult experience, with calm or with fear, may influence how that experience feels.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Your expectations matter."
+   }
+  },
+  {
+   "say": "Here's what placebo research suggests. Expectations can shape how symptoms feel. Placebos don't cure diseases, and real medicine matters. The care and ritual around treatment may play a role too. And worry, through the nocebo effect, can make discomfort feel worse. So a little calm and a little kindness may be more powerful than we think.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "What placebo research suggests",
+    "items": [
+     "Expectations can shape how symptoms feel",
+     "Placebos don't cure diseases",
+     "Care and ritual may matter too",
+     "Worry can make discomfort worse"
+    ]
+   }
+  },
+  {
+   "say": "Expectation is a powerful force. And it turns out that when it comes to our own future, most of our brains expect something rather rosy. Next, let's look at one of the most widespread lies the brain tells about tomorrow. And why it might be one of the reasons we keep going.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the rosy glasses we all wear."
+   }
+  }
+ ]
+}

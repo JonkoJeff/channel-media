@@ -1,0 +1,170 @@
+{
+ "id": "lf07_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Some memories feel different from all the others. You probably have a few. The moment you heard about a huge event in the world, or a sudden piece of news in your own life. You remember where you were standing. Who told you. What you were holding. Maybe even the weather.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 5,
+    "title": "The memories you'd bet your life on"
+   }
+  },
+  {
+   "say": "These memories feel almost like photographs. Sharp, bright, frozen in time. And because they feel so vivid, we tend to trust them completely. If anyone told you that your memory of that moment was wrong, you'd probably laugh. You were there. You remember it perfectly.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "They feel like photographs."
+   }
+  },
+  {
+   "say": "In nineteen seventy seven, two psychologists, Roger Brown and James Kulik, gave these memories a name. Flashbulb memories. As if a camera flash went off in your mind at the moment of shock, capturing everything in one bright instant. It's a beautiful name. And for a while, many people assumed it was also an accurate description.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Psychologists gave them a name."
+   }
+  },
+  {
+   "say": "But there was a problem. Nobody had really checked. To know whether a flashbulb memory is accurate, you need to know what a person remembered right after the event, and then compare it with what they remember years later. And to do that, someone has to be ready on the very day something shocking happens.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "But was anyone checking?"
+   }
+  },
+  {
+   "say": "In January nineteen eighty six, the space shuttle Challenger broke apart shortly after launch. It was a national shock in the United States. Many children were watching, because a schoolteacher was on board. And the very next morning, a psychologist named Ulric Neisser saw an opportunity, a sad one, to finally test flashbulb memories properly.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b05_tv.jpg",
+    "cap": "The morning the news came in"
+   }
+  },
+  {
+   "say": "The day after the disaster, Neisser and his colleague Nicole Harsch asked a class of university students to write down exactly how they had heard the news. Where were you? What were you doing? Who told you? How did you feel? The students wrote it all down, fresh, while it was still raw.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Neisser & Harsch",
+    "where": "Emory University, the day after the Challenger disaster, 1986",
+    "what": "Students wrote down how they heard the news. About two and a half years later, they were asked again, and the two versions were compared."
+   }
+  },
+  {
+   "say": "And then the researchers waited. About two and a half years later, they found many of the same students again, and asked them the same questions. The students answered confidently. They still remembered. Of course they did. It was one of those moments you never forget.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Then they waited."
+   }
+  },
+  {
+   "say": "But when the researchers compared the new answers with the old, handwritten ones, many of them didn't match. And not just in small details. Someone who first wrote that they heard the news in a classroom might now remember hearing it on television at home. Different place. Different people. Different moment entirely.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b05_notebook.jpg",
+    "cap": "Two versions of the same morning"
+   }
+  },
+  {
+   "say": "The most striking part wasn't that memories had changed. We already know memories change. It was that the confidence hadn't changed at all. Many students felt just as sure about their new version. Some of them, when shown their own original handwriting, still felt that their current memory was the true one. Their own words, from the day after, felt less real to them than the story in their head.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "And they were still sure."
+   }
+  },
+  {
+   "say": "Think about how strange that is. The feeling of certainty stayed perfectly intact, while the facts underneath it quietly moved. That's the heart of this lie. The brain doesn't attach confidence to accuracy. It attaches confidence to vividness and emotion. And those two things are not the same.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The feeling stayed. The facts moved."
+   }
+  },
+  {
+   "say": "Years later, two other researchers, Jennifer Talarico and David Rubin, did something similar after the attacks of September eleventh, two thousand and one. The day after, they asked students to record two memories. How they heard about the attacks. And an ordinary memory from the days before, something everyday, like a party or a study session.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Talarico & Rubin",
+    "where": "Duke University, starting the day after 9/11, 2001",
+    "what": "Students recorded a memory of hearing about the attacks and an ordinary everyday memory, and were tested again weeks and months later."
+   }
+  },
+  {
+   "say": "Then they tested the students again, at different moments in the weeks and months that followed. And here's what they found. Both kinds of memories faded and changed in similar ways over time. The shocking memory was not kept more accurately than the ordinary one. But there was one big difference.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Two kinds of memory. One surprise."
+   }
+  },
+  {
+   "say": "The students believed their memory of the attacks much more strongly. They rated it as more vivid. They were more confident in it. The everyday memory faded and the students knew it was fading. The flashbulb memory faded too, but it kept feeling bright. So what makes a flashbulb memory special may not be how accurate it is, but how certain it feels.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Only the confidence was different."
+   }
+  },
+  {
+   "say": "Why would the brain do this? One idea is that emotion tells the brain, this matters, pay attention, rehearse this. And we do rehearse these memories. We tell the story to friends. We see the images on the news again and again. Every retelling is a little rebuild, and with every rebuild, small changes can slip in, while the feeling of importance only grows.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why would the brain do this?"
+   }
+  },
+  {
+   "say": "Over time, the story we tell can slowly become the memory itself. We remember the last version we told, smoothed and shaped, rather than the raw moment. And because the emotion is real, and the importance is real, the whole thing feels unquestionable.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The story becomes the memory."
+   }
+  },
+  {
+   "say": "So here's what I'd like you to take from this. Vivid is not the same as accurate. Confidence can stay high while the details quietly drift. Every time we retell a story, we reshape it a little. And none of this makes those moments less meaningful. The feeling you had was real. The importance was real. It's only the little details that may have wandered.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Holding vivid memories gently",
+    "items": [
+     "Vivid is not the same as accurate",
+     "Confidence can stay while details drift",
+     "Retelling reshapes the memory",
+     "The feeling is real, even if the details move"
+    ]
+   }
+  },
+  {
+   "say": "So far, we've seen the brain fill in what we see, and rewrite what we remember. But surely, at least, we know why we make our own choices? If I ask you why you picked something, you can just tell me. Can't you? The next experiment is one of my favorites. It involves two photographs, and a magic trick.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the choices you never made."
+   }
+  }
+ ]
+}

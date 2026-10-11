@@ -1,0 +1,197 @@
+{
+ "id": "lf07_b15",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's try a small thought experiment about the future. Think about your life ten years from now. Picture it for a moment. Where do you live? How do you feel? Now, honestly, does the picture lean a little toward the bright side? A bit more settled, a bit happier, a bit more sorted than today?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 15,
+    "title": "The rosy glasses we all wear"
+   }
+  },
+  {
+   "say": "If it does, you're in very good company. When people imagine their own future, many of them lean optimistic. They expect good things to be a bit more likely for them than for the average person. And bad things, like illness, accidents or a divorce, a bit less likely. Psychologists call this the optimism bias.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Most of us lean bright."
+   }
+  },
+  {
+   "say": "One of the classic early studies of this was done by Neil Weinstein, around nineteen eighty. He asked students to compare their own chances of experiencing many different life events with the chances of other students like them. Things like owning a home, or having a good job. And things like getting seriously ill, or having a drinking problem.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Neil Weinstein",
+    "where": "Rutgers University, published in 1980",
+    "what": "Students estimated how likely various positive and negative life events were to happen to them, compared with other students."
+   }
+  },
+  {
+   "say": "On average, the students rated themselves as more likely than their peers to experience the good events, and less likely to experience the bad ones. Now, for any single person, that might be true. But for the group as a whole, it can't be. Not everyone can be less likely than average to get ill. Somebody has to be the average.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Good things for me. Bad things for others."
+   }
+  },
+  {
+   "say": "Later research has found similar patterns in many groups of people, across different ages and different countries. The details vary. Some people are more optimistic than others. And in some situations, like during depression, the picture can look very different. But a gentle tilt toward the bright side is very common.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "It's not only students."
+   }
+  },
+  {
+   "say": "Think of it as wearing glasses with a very light rose tint. Not enough to make you blind to danger. But enough to make the future look a little warmer than the numbers would suggest. And most of us wear them without ever noticing they're there.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b15_glasses.jpg",
+    "cap": "A gentle tint on tomorrow"
+   }
+  },
+  {
+   "say": "Here's a puzzle, though. Life keeps giving us information. We hear about divorce rates. We read about accidents. We know people who get ill. So why doesn't all that bad news wash the rose tint away? How does the brain keep its optimism, year after year, in the face of reality?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "But how does it survive reality?"
+   }
+  },
+  {
+   "say": "A neuroscientist named Tali Sharot has spent years studying this question. In one well known study, published in two thousand and eleven, she and her colleagues asked people to estimate their chances of experiencing various unpleasant events. Then they showed people the actual average chances. And afterwards, they asked them to estimate their own chances again.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Tali Sharot, Christoph Korn & Raymond Dolan",
+    "where": "University College London, published in Nature Neuroscience, 2011",
+    "what": "People estimated their chances of various bad life events, then learned the real average chances, and estimated again."
+   }
+  },
+  {
+   "say": "What they found was a beautifully simple asymmetry. When the real numbers were better than people expected, people updated their beliefs quite a lot. Oh, good, it's less likely than I thought. But when the real numbers were worse than expected, people updated less. The bad news seemed to slide off a little more easily.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Good news sticks. Bad news slides off."
+   }
+  },
+  {
+   "say": "In other words, people did learn. But they learned in a lopsided way. Good news was absorbed more readily than bad news. And over time, that lopsided learning can keep the rose tint in place, even when the world keeps offering grey facts. It's not that we ignore reality. We just take in its kinder parts more eagerly.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Learning, but lopsided."
+   }
+  },
+  {
+   "say": "So why would a brain be built this way? Wouldn't it be safer to see the future exactly as it is? Maybe not. Many researchers think that a bit of optimism is genuinely useful. If you expect things can go well, you're more likely to try. To start a project, to apply for a job, to reach out to someone, to get up after falling down.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Why would the brain be built like this?"
+   }
+  },
+  {
+   "say": "Optimism can reduce stress, because the future doesn't look so threatening. It can help you keep going through difficult times, because you believe they'll pass. And there's a lot of research linking an optimistic outlook with better wellbeing, although the exact direction of cause and effect is hard to untangle. In a sense, a little bit of hope seems to keep us moving forward.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Hope keeps us moving."
+   }
+  },
+  {
+   "say": "Imagine an early human who saw every danger at its true size, every risk with perfect clarity. They might never leave the cave. Optimism might be part of what made us explorers. It lets us walk toward the horizon, even when we can't see what's beyond it.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b15_horizon.jpg",
+    "cap": "A horizon worth walking toward"
+   }
+  },
+  {
+   "say": "But optimism does have a price. If we're too sure that bad things won't happen to us, we might skip the check up, not wear the seatbelt, or not save money for a rainy day. And there's a famous everyday version too, the planning fallacy. We tend to underestimate how long tasks will take, even when we know that similar tasks have taken longer before.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The price of rosy glasses."
+   }
+  },
+  {
+   "say": "Think of the last time you planned a project. A renovation, a piece of work, even just cleaning the house. Did it take as long as you expected? Or longer? For many of us, it's almost always longer. And yet the next time, we plan optimistically again. The rosy glasses go right back on.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The planning fallacy."
+   }
+  },
+  {
+   "say": "So maybe the wisest approach is not to throw away the rosy glasses, but to know you're wearing them. Keep the hope that gets you moving. And then add a little practical caution for the things that really matter. Dream big, and also buy the insurance. Expect it to go well, and also leave extra time.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The trick is to keep both."
+   }
+  },
+  {
+   "say": "Some psychologists talk about something like realistic optimism. Believing that good outcomes are possible, and that your actions matter, while also looking honestly at the obstacles. Not, everything will be fine no matter what. But rather, things can go well, and here's what I can do to help them along.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A kind of realistic hope."
+   }
+  },
+  {
+   "say": "And I want to say something gently to anyone listening for whom the future doesn't look rosy at all right now. That happens. It's human, and sometimes it's a sign that you're carrying a lot. If that dark view stays with you for a long time, it can be really worth talking to someone, a friend, or a doctor, or a counselor. You deserve support, and things can shift.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "If the future looks dark."
+   }
+  },
+  {
+   "say": "So here's what I'd like to remember about the optimism bias. Many of us lean optimistic about our own future. Our brains tend to take in good news more easily than bad. That hope can help us try things and keep going. And for the things that really matter, it's wise to add a small, practical dose of caution.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Wearing rosy glasses wisely",
+    "items": [
+     "Many of us lean optimistic about our own future",
+     "Good news sticks more easily than bad",
+     "Hope helps us try, and keep going",
+     "Add a little caution for what matters"
+    ]
+   }
+  },
+  {
+   "say": "Optimism is the brain finding a hopeful pattern in an uncertain future. But the brain loves patterns everywhere, sometimes even where there are none. Next, let's look at why you see faces in clouds, in electrical sockets, and in the front of cars. And how that same love of patterns can quietly shape what we believe.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: seeing faces in the clouds."
+   }
+  }
+ ]
+}

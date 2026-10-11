@@ -1,0 +1,157 @@
+{
+ "id": "lf07_b18",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In early two thousand and fifteen, a simple photo of a striped dress appeared online. And within days, millions of people were arguing about it. Some people looked at it and saw a blue dress with black stripes. Others looked at the very same photo, on the very same screen, and saw a white dress with gold stripes.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 18,
+    "title": "Colors that aren't there"
+   }
+  },
+  {
+   "say": "And here's the strange thing. Neither group could understand the other. If you saw white and gold, it seemed obvious. How could anyone see blue? And if you saw blue and black, it seemed just as obvious the other way. Friends argued. Couples argued. Scientists got interested. The real dress, it turned out, was blue and black.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Same photo. Different colors."
+   }
+  },
+  {
+   "say": "To understand what was happening, we need to understand something surprising about color. We tend to think of color as a simple property of things. The banana is yellow. The sky is blue. But the light that reaches your eye from an object depends on two things. The surface of the object, and the light that's shining on it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Color isn't simply in the world."
+   }
+  },
+  {
+   "say": "Think of a sheet of white paper. In the orange light of a sunset, the light coming off that paper is actually quite orange. Under a blue evening sky, it's bluish. Under a yellow lamp, it's yellowish. And yet, in all those situations, you see the paper as white. Your brain doesn't just report the light. It figures out what the light source probably is, and subtracts it.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b21_sunset.jpg",
+    "cap": "White paper, orange light"
+   }
+  },
+  {
+   "say": "This is called color constancy. It's an amazing ability. It means that a banana looks yellow to you in the morning and in the evening, indoors and outdoors. Your brain is constantly estimating the lighting, and correcting for it, so that objects keep their color. And you never notice the correction happening.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Color constancy."
+   }
+  },
+  {
+   "say": "The dress photo was unusual because it gave very few clues about the lighting. Was the dress standing in bright, bluish daylight, or in warm, yellowish indoor light? Or in shadow? The photo was ambiguous. So each brain had to make its own guess about the light. And different brains made different guesses.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The dress gave no clues."
+   }
+  },
+  {
+   "say": "If your brain assumed the dress was in bluish shadow, it subtracted the blue, and you saw white and gold. If your brain assumed warm, yellowish light, it subtracted the yellow, and you saw blue and black. Researchers who studied the dress found that people's assumptions about the lighting seemed to play an important role in which colors they saw.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Different guesses, different dresses."
+   }
+  },
+  {
+   "say": "Some researchers even explored whether people's own experiences shaped those assumptions. For example, whether people who spend more of their time in daylight, or in artificial light, might lean one way or the other. The findings are still being discussed. But the overall idea is clear. Your brain's guess about the light comes from experience, and that guess decides the color you see.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Our past shapes our guesses."
+   }
+  },
+  {
+   "say": "There's another famous example, created by a scientist named Edward Adelson, called the checker shadow illusion. It shows a checkerboard, with a cylinder casting a shadow across it. One square outside the shadow looks dark grey. Another square inside the shadow looks light grey. They look completely different.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b21_board.jpg",
+    "cap": "Two squares, the same grey"
+   }
+  },
+  {
+   "say": "But on the screen, the two squares are exactly the same shade of grey. Exactly the same. If you cover everything else and look at just those two squares, you can see it. And yet, when you look at the whole picture again, they snap back to looking different. Your brain knows that one square is in shadow, so it brightens it for you.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "They're exactly the same."
+   }
+  },
+  {
+   "say": "And here's the thing. In the real world, this is exactly the right thing to do. If a real checkerboard had a shadow on it, the square in the shadow really would be a light square. Your brain is showing you what the surface is like, not what the light is doing. It's a lie about the light, in service of the truth about the object.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A helpful lie."
+   }
+  },
+  {
+   "say": "That's a beautiful example of everything we've talked about tonight. The brain isn't trying to show you raw data. It's trying to show you the world, the actual objects, their real properties, so that you can act. To do that, it has to interpret the data. And interpretation means sometimes, in unusual situations, getting it wrong.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Seeing the thing, not the light."
+   }
+  },
+  {
+   "say": "The dress taught many people something they hadn't realized. We don't all see exactly the same world. Two people can look at the same thing, at the same moment, and genuinely experience something different. Not because one is lying, and not because one is broken. But because their brains made different guesses.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "We don't all see the same world."
+   }
+  },
+  {
+   "say": "I find that a gentle lesson in humility, and in kindness. So many disagreements in life feel like, but it's obvious, how can you not see it? The dress reminds us that obvious is something our own brain creates. The other person's obvious might be just as real to them.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A lesson in humility."
+   }
+  },
+  {
+   "say": "So here's what colors teach us. The colors you see depend on your brain's guess about the light. Color constancy keeps the world stable and recognizable. When the clues are unclear, different brains can make different guesses. And what feels obvious to you is, in part, something your own brain has created.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "What colors teach us",
+    "items": [
+     "Color depends on the brain's guess about light",
+     "Color constancy keeps objects looking the same",
+     "Unclear clues lead to different guesses",
+     "Obvious is something the brain creates"
+    ]
+   }
+  },
+  {
+   "say": "We've now met a whole collection of the brain's lies. And you might be wondering, why are we built like this? Wouldn't a perfectly honest brain be better? Let's step back and look at the big picture. Because there's a deeper reason behind all of these little lies, and I think it's a beautiful one.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: why the lies are good."
+   }
+  }
+ ]
+}

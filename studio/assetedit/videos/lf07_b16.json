@@ -1,0 +1,177 @@
+{
+ "id": "lf07_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Have you ever looked at a cloud and seen a face? Or noticed that an electrical socket looks a bit surprised? Or that the front of a car seems to be smiling, or frowning? Maybe a house with two windows and a door that looks like it's watching you. Almost everyone has experienced this.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 16,
+    "title": "Seeing faces in the clouds"
+   }
+  },
+  {
+   "say": "This has a name. Pareidolia. It's when the brain sees a meaningful pattern, very often a face, in something that's actually random or unrelated. A few dots and a line become eyes and a mouth. A knot in a piece of wood becomes a little creature looking back at you.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b16_clouds.jpg",
+    "cap": "A face that isn't there"
+   }
+  },
+  {
+   "say": "Why faces? Because faces matter enormously to humans. From the very beginning of life, we pay attention to them. Recognizing a face quickly, and reading its expression, can tell you who's a friend, who's upset, who's coming toward you. So the brain is very eager to find faces. Perhaps a little too eager.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Your brain is a face detector."
+   }
+  },
+  {
+   "say": "Think about it from the brain's point of view. If you see a face that isn't there, the cost is small. You get a little surprise, maybe a laugh. But if you miss a face that is there, a person hiding in the bushes, an animal watching you, the cost could be much bigger. So the brain sets its detector to be sensitive. It accepts some false alarms, so that it rarely misses the real thing.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Better a false alarm than a miss."
+   }
+  },
+  {
+   "say": "You may have felt this in the dark. A coat hanging on a door at night that suddenly looks like a person standing there. A shadow that seems to move. A sound in the house that your mind turns into footsteps. The brain, in uncertain conditions, fills the gaps with the most important possibilities. And people are always among the most important.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "You've felt this at night."
+   }
+  },
+  {
+   "say": "And it's not only faces. Humans have always found patterns in randomness. For thousands of years, people looked up at scattered stars, and saw hunters, bears, scorpions and swans. We hear melodies in the hum of a machine. We see shapes in the patterns of a carpet. The brain is a pattern seeking machine, and it rarely switches off.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b16_stars.jpg",
+    "cap": "We draw pictures in the stars"
+   }
+  },
+  {
+   "say": "The same tendency shows up in how we think about events. If something happens twice, we wonder if there's a reason. If you wear a certain sweater and your team wins, a little voice might suggest wearing it again next time. Psychologists sometimes call this illusory correlation. Seeing a connection between things that aren't really connected.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Patterns in events, too."
+   }
+  },
+  {
+   "say": "And once the brain has found a pattern, it does something else that's quite sneaky. It starts to look for evidence that the pattern is real. And it pays less attention to evidence that it isn't. If you believe your sweater is lucky, you'll remember the wins when you wore it, and quietly forget the losses.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "And then we look for proof."
+   }
+  },
+  {
+   "say": "A British psychologist named Peter Wason created a lovely puzzle to study this. He told people, the numbers two, four, six follow a rule I have in mind. Your job is to find the rule. You can suggest other sets of three numbers, and I'll tell you whether they fit. Then, when you're sure, tell me the rule.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Peter Wason",
+    "where": "University College London, published in 1960",
+    "what": "People were told that the numbers 2, 4, 6 fit a hidden rule. They could test new sets of three numbers to discover the rule."
+   }
+  },
+  {
+   "say": "Many people quickly formed a guess. Maybe it's even numbers going up by two. And then they tested numbers like eight, ten, twelve. Yes, that fits. Twenty, twenty two, twenty four. Yes, that fits. So the rule must be even numbers going up by two. But it wasn't.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Most people test their guess."
+   }
+  },
+  {
+   "say": "The actual rule was much simpler. Any three numbers in increasing order. One, two, three would have fit. So would five, seventeen, a hundred. But many people never discovered this, because they only tested numbers that agreed with their guess. They rarely tried numbers that might prove their guess wrong.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The rule was simpler."
+   }
+  },
+  {
+   "say": "This tendency is often called confirmation bias. The habit of looking for, noticing and remembering information that supports what we already believe, more than information that challenges it. It's not stupidity. It's very human. And it affects clever people just as much as anyone else.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Confirmation bias."
+   }
+  },
+  {
+   "say": "The tricky thing is how good it feels. Every time you find evidence that agrees with you, you feel smart. The pattern is confirmed. You were right. Looking for evidence against your own beliefs, on the other hand, feels uncomfortable. So the brain naturally drifts toward the comfortable path.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "It feels like being right."
+   }
+  },
+  {
+   "say": "Today, this tendency can be amplified by the way we get information. If we follow people we agree with, and read articles that match what we already think, we can end up in a comfortable bubble, where nearly everything seems to confirm our view. It's not that anyone is lying to us, necessarily. It's that our own pattern seeking brain is choosing the ingredients.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "In the age of feeds."
+   }
+  },
+  {
+   "say": "In a way, the scientific method is humanity's answer to this weakness. Instead of looking for evidence that we're right, scientists try to design tests that could prove them wrong. Control groups, careful measurements, other researchers checking the results. It's a set of tools built precisely because human brains love patterns too much.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Science is the antidote."
+   }
+  },
+  {
+   "say": "But again, I don't want to make pattern seeking sound like a flaw. It's also one of our greatest gifts. It's how we learned language, music and mathematics. It's how we predict the seasons, recognize friends, and notice that something's changed. The same brain that sees a face in a cloud also discovered the patterns that let us fly to the moon.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The gift of patterns."
+   }
+  },
+  {
+   "say": "So here's what I'd like to remember. Seeing faces in clouds and sockets is perfectly normal. Your brain prefers a false alarm to a miss. Once we have a belief, we tend to look for proof rather than disproof. And one of the simplest, most powerful questions you can ask yourself is this. What would prove me wrong?",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Living with a pattern-seeking brain",
+    "items": [
+     "Seeing faces everywhere is normal",
+     "The brain prefers false alarms to misses",
+     "We tend to seek proof, not disproof",
+     "Try asking: what would prove me wrong?"
+    ]
+   }
+  },
+  {
+   "say": "And this love of patterns doesn't only work through the eyes. Your ears are listening for patterns too, all the time, even when you think you're not listening at all. Next, let's step into a noisy party, and discover why one small word can cut straight through the noise.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: hearing your own name."
+   }
+  }
+ ]
+}

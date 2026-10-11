@@ -1,0 +1,177 @@
+{
+ "id": "lf07_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think back to a time when something surprising happened. A friend's relationship ended. A team you followed lost a match they were supposed to win. A plan at work fell apart. And then, a little later, you caught yourself thinking, honestly, I saw that coming.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 9,
+    "title": "I knew it all along"
+   }
+  },
+  {
+   "say": "And maybe you did see it coming, a little. But often, something sneakier is going on. Once we know how a story ends, our brain quietly rewrites how we saw things before the ending. The outcome starts to feel obvious. Predictable. Almost certain. As if anyone paying attention could have known.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Looking back, it was obvious."
+   }
+  },
+  {
+   "say": "Psychologists call this hindsight bias. The I knew it all along effect. And one of the first researchers to study it carefully was Baruch Fischhoff, in the nineteen seventies. His experiments were quietly brilliant, and they showed just how easily knowing the end changes how we see the beginning.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Psychologists call it hindsight bias."
+   }
+  },
+  {
+   "say": "In one kind of study, people read a short description of a real historical situation, with several possible ways it could have ended. Some people were told nothing about the ending. Others were told that one particular outcome had happened. Then everyone was asked the same question. Before you knew anything, how likely did each outcome seem?",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Baruch Fischhoff",
+    "where": "Published in 1975",
+    "what": "People read about a historical event with several possible outcomes. Some were told which outcome happened. They then judged how likely each outcome had seemed beforehand."
+   }
+  },
+  {
+   "say": "And the people who had been told an ending judged that ending as more likely than the people who hadn't been told. Even when they were asked to ignore what they knew. Even when they tried. Once the answer was in their head, they couldn't quite get back to the person who didn't know it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Knowing the ending changed the past."
+   }
+  },
+  {
+   "say": "It's a little like opening a sealed envelope with the answer inside. Once you've read it, you can't un-read it. You can try to imagine what you thought before, but your imagination is now colored by the answer. Fischhoff called this creeping determinism. After the fact, the outcome seems to have crept toward being inevitable.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b09_envelope.jpg",
+    "cap": "You can't un-open the envelope"
+   }
+  },
+  {
+   "say": "And there's a related effect that's even more personal. In other studies, people made predictions about upcoming events. Then, after the events had happened, they were asked to remember what they had predicted. And many people remembered their own predictions as more accurate than they really were. Their memory quietly moved toward the truth.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Our own predictions move too."
+   }
+  },
+  {
+   "say": "It's almost as if the brain wants to protect its reputation. It would rather believe it was right all along than admit it was surprised. And it does this so smoothly that we don't notice it happening. We're not lying to anyone. We sincerely remember having been wiser than we were.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The brain saves its reputation."
+   }
+  },
+  {
+   "say": "Why would a brain work this way? Remember what we said earlier about memory. It's constantly being rebuilt with what we know now. When you learn how something ended, that new knowledge doesn't sit in a separate box. It blends into everything connected to it, including your memory of what you used to think.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Why would a brain do this?"
+   }
+  },
+  {
+   "say": "And in a way, that's exactly what learning should look like. You learn something new, and your whole picture of the world updates. That's great for the future. The side effect is that the past gets updated too. Your old, uncertain self gets quietly painted over by your new, wiser self.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Learning, with a side effect."
+   }
+  },
+  {
+   "say": "There's a lovely way to picture this. When you look back at a path you've walked, it often seems like there was only one way to go. The road behind looks straight. But when you were standing at each fork, it was misty, and every direction looked possible. Hindsight clears the mist from the past, and makes us forget it was ever there.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b09_path.jpg",
+    "cap": "The road behind always looks straight"
+   }
+  },
+  {
+   "say": "This matters more than it might seem. Think of a doctor whose decision is judged after something went wrong. Or a friend who made a choice that didn't work out. With hindsight, the warning signs look so clear. Why didn't they see it? But at the time, those signs were mixed in with a hundred other signals, many of them pointing the other way.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Why this matters in real life."
+   }
+  },
+  {
+   "say": "So hindsight bias can make us judge people too harshly. Including ourselves. Maybe you've lain awake at night thinking about a decision from years ago. How could I have been so blind? It was so obvious. But was it? Or does it only look obvious now, from the end of the story?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "We judge too harshly."
+   }
+  },
+  {
+   "say": "I'd like to suggest something gentle. Your past self didn't have the information you have now. They were standing in the mist. They made the best choice they could with what they could see. It's fair to learn from it. But it's not fair to blame them for not knowing the ending.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Be kind to your past self."
+   }
+  },
+  {
+   "say": "Hindsight bias has another side effect. If the past always looks predictable, we may start to believe the future is more predictable too. We feel more confident in our forecasts than we should. And then, when the next surprise comes, we're surprised again. And afterwards, of course, we tell ourselves we saw it coming.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "It also fools us about the future."
+   }
+  },
+  {
+   "say": "One of the simplest ways to soften this bias is almost boringly practical. Write things down before you know how they turn out. If you're making a big decision, jot down what you expect, and why, and how sure you are. Later, you'll have something honest to compare with, instead of your brain's helpful edit.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "One small habit helps."
+   }
+  },
+  {
+   "say": "So here are a few ways to see the past more fairly. Write your predictions down before you know the outcome. When judging a decision, ask, what did they know at the time? Try imagining the other ways things could have gone, because they really could have. And forgive your past self for walking in the mist. Everyone does.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Seeing the past more fairly",
+    "items": [
+     "Write predictions down before the outcome",
+     "Ask: what did they know at the time?",
+     "Imagine other ways it could have gone",
+     "Forgive your past self for the mist"
+    ]
+   }
+  },
+  {
+   "say": "So far, the brain has been editing what we see, what we remember, and what we think we predicted. But surely our senses at least keep each other honest? If your eyes are fooled, your ears will catch it. Won't they? Next, we'll meet an illusion where your eyes quietly change what you hear. And knowing the trick doesn't stop it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: when your ears believe your eyes."
+   }
+  }
+ ]
+}

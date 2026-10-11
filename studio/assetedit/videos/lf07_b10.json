@@ -1,0 +1,159 @@
+{
+ "id": "lf07_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's something we don't often think about. When someone talks to you, you're not only listening. You're also watching. Their lips, their jaw, their face. And your brain is quietly mixing what you see with what you hear, to decide what was said. Most of the time, you never notice this mixing at all.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 10,
+    "title": "When your eyes change what you hear"
+   }
+  },
+  {
+   "say": "You might have noticed it in a noisy place, like a busy café. It's often easier to follow a friend when you can see their face. Or when watching a film where the sound is slightly out of sync with the lips, something feels wrong, even if you can't say what. Your brain expects the two to match.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Hearing is also seeing."
+   }
+  },
+  {
+   "say": "In nineteen seventy six, two researchers, Harry McGurk and John MacDonald, published a short paper in the journal Nature, with a wonderful title. Hearing lips and seeing voices. They had stumbled onto something by accident, while working with recordings of a face saying simple sounds.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Harry McGurk & John MacDonald",
+    "where": "Published in Nature, 1976",
+    "what": "People watched a film of a face saying one syllable, while the sound track played a different syllable. They were asked what they heard."
+   }
+  },
+  {
+   "say": "Here's the classic version. The sound track plays a voice saying ba, ba, ba. But the video shows a face whose lips are saying ga, ga, ga. Two different signals. And many people, watching and listening, report hearing neither of them. They hear something in between. Something like da.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "One sound. One face. A third answer."
+   }
+  },
+  {
+   "say": "Think about that. You hear a sound that isn't in the sound track and isn't on the lips. Your brain has received two conflicting reports, one from the eyes and one from the ears. And instead of telling you, these don't match, it quietly finds a compromise. And then presents that compromise to you as simply what you heard.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Your brain finds a compromise."
+   }
+  },
+  {
+   "say": "And here's the most fascinating part. If you close your eyes, you hear ba, clearly. Open them again, and you're back to hearing something else. You can know exactly how the trick works, and do this over and over, and the illusion still happens. Knowing the truth doesn't switch it off.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b10_headphones.jpg",
+    "cap": "Close your eyes, and it changes"
+   }
+  },
+  {
+   "say": "That's what makes this kind of illusion so humbling. With some of the lies we've talked about, knowing about them can help us a bit. But here, the mixing happens so early, so automatically, that your conscious knowledge never gets a vote. Your brain has already decided what you heard before you can think about it.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Knowing doesn't help."
+   }
+  },
+  {
+   "say": "I want to be careful here. The McGurk effect isn't equally strong for everyone. Some people experience it very strongly, others hardly at all, and it can depend on the exact recording, the language, and the listener. Scientists still debate how best to measure it. But for many people, the effect is easy to experience.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Not everyone, not every time."
+   }
+  },
+  {
+   "say": "So why would a brain do this? Why not keep the senses separate, and tell you honestly when they disagree? The answer is that in real life, the senses almost never disagree. When someone speaks, their lips and their voice belong together. So combining them is a brilliant strategy. Two noisy signals, combined, give a clearer picture than either one alone.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Why would a brain mix senses?"
+   }
+  },
+  {
+   "say": "That's why lip reading helps in a noisy café. The ears catch part of a word. The eyes catch another part. The brain blends them into one confident perception. In a world where sound and sight come from the same source, this blending makes you understand more, faster. The McGurk effect is what happens when a researcher plays a trick that the real world almost never plays.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b10_cafe.jpg",
+    "cap": "Two signals are better than one"
+   }
+  },
+  {
+   "say": "There are other everyday examples of this. Think of a ventriloquist. The voice comes from the performer, but because the puppet's mouth is moving, your brain places the voice in the puppet. Or think of a film in a cinema. The speakers are at the sides of the room, but the voices seem to come from the actors' mouths on the screen.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "The ventriloquist's secret."
+   }
+  },
+  {
+   "say": "In all of these cases, the brain is doing the same thing. It isn't giving you separate reports from separate senses. It's building one world, where things make sense together. A voice belongs to a mouth. A sound belongs to the thing that moved. And if the senses need a little adjusting to fit that world, the brain adjusts them, without asking.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Your brain builds one world."
+   }
+  },
+  {
+   "say": "Even taste works this way. Much of what we call flavor actually comes from smell. That's why food can taste so flat when you have a cold. And what we see can shape what we expect a food to taste like. The brain rarely gives you one sense at a time. It gives you a blend, and calls it reality.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Even taste is a mixture."
+   }
+  },
+  {
+   "say": "This brings us back to a big idea from the start of tonight. What you experience isn't raw data from the outside world. It's the brain's best interpretation of that data. Usually the interpretation is excellent, so excellent that it feels like direct contact with reality. The McGurk effect is a small crack in that feeling, where we can see the machinery for a moment.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "So what are we really perceiving?"
+   }
+  },
+  {
+   "say": "Here's what I find worth remembering. Your senses are blended together, not separate channels. That blending usually makes your perception better, not worse. Knowing about a trick doesn't always protect you from it. And what we perceive is always, at some level, an interpretation.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "What the McGurk effect teaches",
+    "items": [
+     "Your senses are blended, not separate",
+     "Blending usually makes perception better",
+     "Knowing a trick doesn't always stop it",
+     "Perception is interpretation"
+    ]
+   }
+  },
+  {
+   "say": "And if the brain can blend sight and sound into something new, what happens when it blends sight and touch? Could your brain be convinced that something that isn't part of your body, is? The next experiment involves a rubber hand, two paintbrushes, and a feeling that's very hard to forget.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: a hand that isn't yours."
+   }
+  }
+ ]
+}

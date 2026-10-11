@@ -1,0 +1,168 @@
+{
+ "id": "lf07_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You're walking into a room you've never visited. Or someone says a sentence in a conversation. And suddenly a strange feeling washes over you. I've been here before. I've lived this exact moment. The light, the words, the feeling. It's all familiar. And yet, you also know that it can't be.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 12,
+    "title": "Have I been here before?"
+   }
+  },
+  {
+   "say": "That's déjà vu. A French phrase that means, already seen. And what makes it so strange is its double nature. You feel strong familiarity, and at the same time, you know that the familiarity is wrong. Both feelings exist together. And then, a few seconds later, it fades, and you're left wondering what just happened.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A strange double feeling."
+   }
+  },
+  {
+   "say": "Many people have experienced déjà vu at least once, and researchers have found that it tends to be more commonly reported by younger people, becoming less frequent as people get older. For something so common, it has been surprisingly hard to study. Because how do you study a feeling that comes without warning, and lasts only a moment?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Most people know this feeling."
+   }
+  },
+  {
+   "say": "For a long time, déjà vu was mostly studied through questionnaires and people's descriptions. Researchers asked, how often does it happen? When? What does it feel like? And over the years, many theories appeared. Some were mystical, like memories from a past life, or glimpses of the future. Scientists, though, have been looking for an explanation inside the memory system itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Hard to catch in a lab."
+   }
+  },
+  {
+   "say": "To understand the most popular scientific ideas, we need to know about two different parts of remembering. Psychologists often distinguish familiarity from recollection. Familiarity is the feeling that you know something. Recollection is actually remembering where and when you met it before.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b12_hall.jpg",
+    "cap": "Familiar, but from where?"
+   }
+  },
+  {
+   "say": "You know this from daily life. You see someone in a supermarket and think, I know that face. That's familiarity. But you can't remember who they are. That's missing recollection. And then suddenly it clicks. Oh, it's the person from the bakery. Now familiarity and recollection have met, and the feeling makes sense.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The face you can't place."
+   }
+  },
+  {
+   "say": "One leading idea is that déjà vu happens when the familiarity signal fires, strongly, but recollection finds nothing to attach it to. Your brain says, this is familiar. But when you search for where you know it from, there's nothing. So you're left with a powerful feeling of having been here, with no actual memory behind it.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Déjà vu might be familiarity alone."
+   }
+  },
+  {
+   "say": "One researcher who has explored this is Anne Cleary. She and her colleagues found ways to make people feel something like déjà vu in the lab. In some studies, people explored scenes, including scenes in virtual reality. Later, they saw new scenes that had the same layout as earlier ones, but with completely different objects and details.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Anne Cleary and colleagues",
+    "where": "Colorado State University, from the 2000s onward",
+    "what": "People viewed scenes, including virtual scenes, some of which had the same layout as scenes they had seen earlier but didn't remember."
+   }
+  },
+  {
+   "say": "When people couldn't consciously remember the earlier scene, the new scene with the matching layout was more likely to give them a feeling of déjà vu. The arrangement felt familiar, even though nothing in the room was the same. Their brain had recognized the pattern without being able to say where it came from.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b12_room.jpg",
+    "cap": "A new room with an old layout"
+   }
+  },
+  {
+   "say": "So perhaps when you walk into a café in a city you've never visited and feel déjà vu, it's because the layout of the room resembles somewhere you've been before, maybe a place you've long forgotten. The tables in a similar spot. The window on the same side. Your brain recognizes the shape of the space, but not where it came from.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A similar layout, half remembered."
+   }
+  },
+  {
+   "say": "Another interesting idea comes from researchers such as Chris Moulin and Akira O'Connor. They've suggested that déjà vu might be a sign of the brain's fact checking system at work. Some part of the brain sends a false signal of familiarity, and another part notices the mistake and says, wait, that can't be right. Déjà vu might be the feeling of that error being caught.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "A memory fact checker?"
+   }
+  },
+  {
+   "say": "If that's true, then déjà vu is not a sign that something is wrong. It might actually be a sign of something working well. Your brain caught itself in a small lie. It noticed that a feeling of familiarity didn't fit the facts. That would be a rather lovely little piece of mental housekeeping.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A healthy glitch."
+   }
+  },
+  {
+   "say": "I should mention one thing for completeness. In some people with a certain kind of epilepsy, affecting the temporal lobe, a déjà vu-like feeling can be part of a seizure. That's quite different from the occasional déjà vu most people have. If someone experiences very frequent, intense episodes along with other unusual symptoms, it's worth mentioning to a doctor. But for most of us, déjà vu is simply a curious quirk of a healthy brain.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "When to talk to a doctor."
+   }
+  },
+  {
+   "say": "And interestingly, there's an opposite feeling too. Jamais vu, never seen. It's when something very familiar suddenly feels strange and new. You might have experienced it by repeating a common word over and over, until it starts to sound odd, almost meaningless. The familiarity signal, for a moment, goes quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The opposite exists too."
+   }
+  },
+  {
+   "say": "Both of these feelings tell us the same thing. Familiarity is not something that's simply attached to things in the world. It's a signal your brain produces. And like any signal, it can occasionally fire at the wrong moment, or stay silent when it should speak.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Two signals, one feeling."
+   }
+  },
+  {
+   "say": "So here's what déjà vu tells us. Familiarity is a feeling your brain produces, not a label on the world. It can appear without any real memory behind it. A familiar layout, half forgotten, might be enough to trigger it. And the strange feeling that it's wrong might be your brain doing exactly what it should, catching its own mistake.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "What déjà vu tells us",
+    "items": [
+     "Familiarity is a feeling the brain produces",
+     "It can appear without a real memory",
+     "A familiar layout may trigger it",
+     "Noticing the error may be healthy"
+    ]
+   }
+  },
+  {
+   "say": "Déjà vu plays with our sense of the past. But the brain can also play with time itself. You've probably heard people say that in a scary moment, everything seemed to happen in slow motion. Is that real? Does time actually slow down in a crisis? A group of scientists decided to find out, in a rather dramatic way.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: when time stretches."
+   }
+  }
+ ]
+}

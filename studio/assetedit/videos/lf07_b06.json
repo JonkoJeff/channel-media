@@ -1,0 +1,161 @@
+{
+ "id": "lf07_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's play a small game in your imagination. I show you two photographs of two different faces, side by side. I ask you a simple question. Which of these two people do you find more attractive? You look for a moment, and you point to one.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 6,
+    "title": "The choices you never made"
+   }
+  },
+  {
+   "say": "Then I slide that photo over to you, and ask you to tell me why you chose this one. Easy. You look at it and explain. Maybe it's the smile. Maybe the eyes. Maybe something kind in the expression. You give your reasons, and they feel completely honest.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b06_cards.jpg",
+    "cap": "Pick one. Then explain why."
+   }
+  },
+  {
+   "say": "But here's the twist. The photo I slid over to you is not the one you chose. It's the other face. The one you rejected. I swapped them with a simple card trick, right in front of you, and you didn't notice. And now you're explaining, in detail, why you preferred a face you didn't prefer.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "But it's not the face you chose."
+   }
+  },
+  {
+   "say": "This is a real experiment. It was published in two thousand and five by Petter Johansson, Lars Hall and their colleagues at Lund University in Sweden. Participants saw fifteen pairs of faces and chose the one they found more attractive. On three of those pairs, the researchers used a sleight of hand, a trick borrowed from magicians, to hand them the wrong photo.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Johansson, Hall, Sikström & Olsson",
+    "where": "Lund University, published in Science, 2005",
+    "what": "People chose the more attractive of two faces. On some trials, a card trick swapped the photos, and people were asked to explain a choice they hadn't made."
+   }
+  },
+  {
+   "say": "And most of the time, people didn't notice. In the original study, only around thirteen percent of the swapped trials were detected immediately. Even when the two faces weren't especially similar, people usually accepted the switched photo as their own choice.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Swaps noticed right away",
+    "big": "about 13%",
+    "label": "of the manipulated trials, according to the study"
+   }
+  },
+  {
+   "say": "And then came the truly fascinating part. People explained choices they had never made. Some of them pointed to details that only existed in the face they had actually rejected. Like, I chose her because I like her earrings, when the face they had really picked wasn't wearing earrings at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "They explained it anyway."
+   }
+  },
+  {
+   "say": "The researchers called this choice blindness. And I think it reveals something quiet and deep about the mind. When we give reasons for our choices, we're often not reading them from some inner record. We're building them, on the spot, from whatever is in front of us. The explanation comes after the choice. And sometimes it doesn't even belong to the choice.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The explanation came after."
+   }
+  },
+  {
+   "say": "You might think, well, faces are hard, and lab settings are strange. So the same research group took the idea out into the real world. They set up a tasting stand in a supermarket. Shoppers tasted two kinds of jam, or two kinds of tea, and said which one they liked better.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "And not only in a lab."
+   }
+  },
+  {
+   "say": "Then they were asked to taste their favorite again and explain why they liked it. But the jars had a hidden trick. They were double ended, with a different jam at each end. And the researchers secretly flipped them. So people tasted the jam they had just rejected, and described why they liked it.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b06_jars.jpg",
+    "cap": "A tasting stand with a secret"
+   }
+  },
+  {
+   "say": "And many people didn't notice, even with flavors that were quite different. Like a spicy cinnamon apple, and a bitter grapefruit. People happily explained what they loved about the one they hadn't chosen. Again, the reasons appeared to come after the choice, built to fit whatever was in front of them.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Even very different flavors."
+   }
+  },
+  {
+   "say": "Later, the researchers tried it with something that feels even more personal. Opinions. In one study, people filled in a survey about moral and political questions. Then, using a hidden trick with the paper, some answers were reversed. And when people were asked to explain their answers, many of them defended the opposite of what they had first said.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Even with opinions."
+   }
+  },
+  {
+   "say": "This raises a delicious question. If we can explain choices we never made, then how much do we really know about why we make the choices we do make? Perhaps a lot of our decisions happen quickly and quietly, in parts of the mind we don't see. And then another part of the mind steps in afterwards, and writes a sensible story.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "So who is choosing?"
+   }
+  },
+  {
+   "say": "And I don't think we should call that lying, exactly. It's more like storytelling. The people in these studies weren't trying to fool anybody. Their brains simply did what brains love to do. Make sense of things. Fill the gap between I chose this and here's why, with something that sounds right.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Not lying. Storytelling."
+   }
+  },
+  {
+   "say": "And there's actually a hopeful side to this. If our reasons are more flexible than we think, then maybe our opinions are too. Maybe we're less locked into our positions than we feel. Some researchers have suggested that this flexibility could help people understand the other side of an argument a little better.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "There's a hopeful side, too."
+   }
+  },
+  {
+   "say": "So what can we take from choice blindness? Your reasons might be built after the choice. Small details, in the moment, can steer preferences more than we realize. Our opinions may be more flexible than they feel from the inside. And when we notice ourselves explaining something with great certainty, a little curiosity can be wiser than defending it to the end.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Living with a storytelling mind",
+    "items": [
+     "Your reasons may be built after the choice",
+     "Small details can steer big preferences",
+     "Opinions are more flexible than they feel",
+     "Curiosity beats certainty"
+    ]
+   }
+  },
+  {
+   "say": "But where do these instant stories come from? Is there a part of the brain whose job it is to explain us to ourselves? To answer that, we need to visit some very special patients, and one of the most famous lines of research in the history of neuroscience. Let's go there now, slowly.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the interpreter in your head."
+   }
+  }
+ ]
+}

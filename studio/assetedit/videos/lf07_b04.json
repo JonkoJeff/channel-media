@@ -1,0 +1,143 @@
+{
+ "id": "lf07_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine a family member sits down with you and says, do you remember when you got lost in the shopping mall as a little kid? You were about five. You were crying, and an older person helped you find us again.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 4,
+    "title": "Memories that never happened"
+   }
+  },
+  {
+   "say": "At first, you don't remember it at all. But they seem so sure. And the story sounds plausible. Kids get lost in malls. So you think about it. And over the next days, something strange may happen. Little pieces start to appear. The bright lights. The panic. The kind stranger.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "You don't remember it. At first."
+   }
+  },
+  {
+   "say": "In nineteen ninety five, Elizabeth Loftus and Jacqueline Pickrell published a study built on exactly this idea. Adults were given short descriptions of events from their childhood, supposedly provided by a family member. Three of the stories were true. One was invented: getting lost in a shopping mall.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Loftus & Pickrell",
+    "where": "University of Washington, 1995",
+    "what": "Adults read short stories about their childhood from a relative. Three were true. One, about being lost in a shopping mall, was invented."
+   }
+  },
+  {
+   "say": "Over a couple of interviews, the participants were asked to remember as much as they could about each event. The true ones. And the invented one. And a number of them began to remember the mall.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "They were asked to remember."
+   }
+  },
+  {
+   "say": "In the original study, six of the twenty four participants came to remember the invented event, fully or partly. About one in four. Not everyone. But enough to show something important. Under the right conditions, a brain can build a memory of something that never happened.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Remembered the invented event",
+    "big": "6 of 24",
+    "label": "participants recalled being lost in the mall, fully or partly"
+   }
+  },
+  {
+   "say": "And those false memories didn't feel false. Some people added details that were never in the story. What they were wearing. What the person who helped them looked like. Their brains took a suggestion and dressed it up into an experience.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b04_mall.jpg",
+    "cap": "A mall they never got lost in"
+   }
+  },
+  {
+   "say": "Later research has tested this idea in many ways, and in recent years researchers have also run careful replications of the shopping mall study. The details differ between studies, and how many people form a false memory depends a lot on the method. But the core finding has held up. Memories can be planted.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Later studies tried it again."
+   }
+  },
+  {
+   "say": "Why would a brain ever do this? It seems like a dangerous flaw. But think about how memory needs to work. We don't just store experiences. We also learn from stories, from other people, from things we imagine. A brain that combines all of those into one flexible model of the past is a brain that learns quickly.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Why would a brain do this?"
+   }
+  },
+  {
+   "say": "And there's a deeper reason. Brain research suggests that remembering the past and imagining the future use a lot of the same machinery. When you imagine a scene vividly enough, your brain can lose track of whether it came from the outside world or from inside. The source label falls off.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Imagination and memory share tools."
+   }
+  },
+  {
+   "say": "Psychologists talk about source monitoring. Your brain has to keep track not only of what you remember, but where it came from. Did I see this, or did someone tell me? Did it happen, or did I dream it? Did I lock the door, or did I just think about locking the door? And that labeling system is surprisingly fragile.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The source label falls off."
+   }
+  },
+  {
+   "say": "You know this feeling, I think. You're sure you told someone something, and they insist you never did. Or you remember a funny scene from a film, and then realize it was actually a story a friend told you. The memory is real. The label is wrong.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "You know this feeling."
+   }
+  },
+  {
+   "say": "I find the shopping mall study a little unsettling, and maybe you do too. But I want to offer a gentler way to hold it. Your memories are not a museum, sealed behind glass. They're more like a living garden. They grow, they change, they get tended by the stories you tell and the people you share them with.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b04_balloon.jpg",
+    "cap": "Memories drift"
+   }
+  },
+  {
+   "say": "So how do we live with a memory this creative? Don't treat vividness as proof. A memory can be bright and detailed and still be partly built. Be careful with leading questions, including the ones you ask yourself. Keep a journal for the things that really matter. And be gentle when someone you love remembers the past differently. Their brain built their version honestly, just as yours did.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Living with a creative memory",
+    "items": [
+     "Don't treat vivid as proof",
+     "Be careful with leading questions, even to yourself",
+     "Keep a journal for what matters",
+     "Be gentle when others remember differently"
+    ]
+   }
+  },
+  {
+   "say": "But what about the big moments? The memories so intense you'd swear you could never forget a single detail. Where you were when you heard huge news. Surely those are different. Surely those are burned in perfectly. Let's find out.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the memories you'd bet your life on."
+   }
+  }
+ ]
+}

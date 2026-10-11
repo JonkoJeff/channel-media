@@ -1,0 +1,188 @@
+{
+ "id": "lf07_b19",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We've come a long way tonight. Let's take a breath and look back for a moment. We've seen a brain that fills in a hole in your vision. That misses a gorilla. That adds broken glass to a memory, and can build a whole childhood event from a suggestion. A brain that explains choices you never made, and gives you a lovely story about a chicken shed.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 19,
+    "title": "Why the lies are good"
+   }
+  },
+  {
+   "say": "We've seen a brain that rates you above average, and edits your past predictions to look wiser. That lets your eyes change what you hear, and lets a rubber hand feel like your own. That stretches a frightening second, eases pain with an empty pill, and puts a rosy tint on tomorrow. It's quite a list.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A long list of lies."
+   }
+  },
+  {
+   "say": "So you might reasonably wonder, is the brain just sloppy? Is evolution a bad engineer? I'd like to suggest a different view. A view that many scientists share. The brain isn't trying to show you the world exactly as it is. That was never its job. Its job is to keep you alive and help you act, quickly, in a world that's full of uncertainty.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Is the brain just sloppy?"
+   }
+  },
+  {
+   "say": "An idea that has become very influential in neuroscience is that the brain is, at heart, a prediction machine. Instead of waiting passively for information to arrive, it's constantly guessing what's out there and what will happen next. Then it compares those guesses with the signals coming in from the senses, and corrects the guesses where they're wrong.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The brain as a prediction machine."
+   }
+  },
+  {
+   "say": "This idea has old roots. In the eighteen hundreds, a German scientist named Hermann von Helmholtz suggested that perception involves something like unconscious inference. The brain draws conclusions about the world from incomplete signals, without us noticing. Modern researchers have developed this into detailed theories, sometimes called predictive processing. The details are still debated, but the core idea is widely discussed.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "An old idea, made new."
+   }
+  },
+  {
+   "say": "Imagine walking through a misty forest at night with a lantern. You can only see a few steps ahead. You can't wait until you've seen the whole forest before you take a step. So you guess. The path probably continues this way. The ground is probably solid. You walk, and you adjust as you go. That's a little like what your brain is doing every moment of your life.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b17_lantern.jpg",
+    "cap": "Lighting a few steps ahead"
+   }
+  },
+  {
+   "say": "In that kind of world, speed often matters more than perfection. A brain that waited for complete, certain information before acting would be too slow. By the time it had worked out that the shape in the grass was a snake, it would be too late. A brain that makes fast, good enough guesses, and then corrects them, is a brain that survives.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Speed beats perfection."
+   }
+  },
+  {
+   "say": "In nineteen seventy four, two psychologists, Amos Tversky and Daniel Kahneman, published a famous paper in the journal Science about how people make judgments under uncertainty. They described several mental shortcuts, which they called heuristics. Quick rules of thumb the mind uses to make judgments fast. And they showed how these shortcuts usually work well, but sometimes lead to predictable errors.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Mental shortcuts."
+   }
+  },
+  {
+   "say": "One of their examples is a little startling. People watched a wheel of fortune being spun. It landed on a number, either ten or sixty five. Then they were asked to estimate the percentage of African countries in the United Nations. The wheel's number had nothing to do with the question. Everyone could see it was random.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Amos Tversky & Daniel Kahneman",
+    "where": "Published in Science, 1974",
+    "what": "People spun a wheel of fortune that landed on 10 or 65, then estimated the percentage of African countries in the United Nations."
+   }
+  },
+  {
+   "say": "And yet, the random number pulled their answers. According to the paper, people who saw ten gave a median estimate of twenty five percent. People who saw sixty five gave a median estimate of forty five percent. This is called anchoring. A starting number, even a meaningless one, can quietly drag our estimates toward it.",
+   "show": {
+    "type": "bars",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Median estimate (% of African countries in the UN)",
+    "unit": "%",
+    "bars": [
+     [
+      "Wheel showed 10",
+      25.0
+     ],
+     [
+      "Wheel showed 65",
+      45.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Tversky and Kahneman also described other shortcuts. One is judging how likely something is by how easily examples come to mind. That usually works, because common things are usually easier to remember. But it can mislead us when something is very memorable, like a dramatic news story, without being common. Most of the time, though, these shortcuts serve us very well.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Shortcuts work most of the time."
+   }
+  },
+  {
+   "say": "And when you look back at the lies we've met tonight, you can see that most of them are shortcuts too. Fill in the blind spot with what's around it. Store a summary instead of a photograph. Rebuild memories from the gist. Blend the senses into one world. Explain yourself with a quick story. Lean toward hope. Each one is a way of being fast and good enough, instead of slow and perfect.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Every lie is a shortcut."
+   }
+  },
+  {
+   "say": "There's an old saying. The map is not the territory. Your experience of the world is a kind of map, drawn by your brain. It's simplified. It leaves things out. It sometimes draws things that aren't quite there. But that's exactly what makes a map useful. A map that showed every pebble and every blade of grass would be as big as the world, and just as hard to use.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b17_map.jpg",
+    "cap": "A map, not the territory"
+   }
+  },
+  {
+   "say": "So, in a way, the little lies are not a betrayal. They're what makes a human life possible. They let you walk through a crowded street without being overwhelmed. They let you have a sense of who you are, a story with a past and a future. They let you get up in the morning with some hope. A perfectly honest brain, if it could even exist, might be a very slow and anxious one.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The lies make a life possible."
+   }
+  },
+  {
+   "say": "That doesn't mean we should ignore the errors. Sometimes they really matter. In courtrooms, in medicine, in big life decisions, and in how we judge each other. And that's where knowing about these lies helps. You can't switch them off. But you can notice when a situation calls for a little extra care. You can slow down, check, ask, write it down.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "But it helps to know."
+   }
+  },
+  {
+   "say": "Kahneman later described this in a way that many people found helpful. A fast, intuitive way of thinking that handles most of life smoothly. And a slower, more effortful way of thinking that we can call on when something matters. The goal isn't to replace the fast system. It's to know when to invite the slow one to the table.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Two speeds of thinking."
+   }
+  },
+  {
+   "say": "So here's the big picture. Your brain is a prediction machine. In a world full of uncertainty, speed often matters more than perfection. The shortcuts it uses usually work very well. And knowing about them gives you something precious, the ability to slow down when it really matters.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Why the lies are good",
+    "items": [
+     "The brain is a prediction machine",
+     "Speed often matters more than perfection",
+     "Shortcuts usually work very well",
+     "Knowing them helps when it really matters"
+    ]
+   }
+  },
+  {
+   "say": "We're nearly at the end of our journey now. Before we start winding down, I'd like to gather everything together into a few simple ideas you can carry with you. Not rules. Just a few gentle habits of mind, for living well with a brain that tells you lovely little lies.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: what to take with you."
+   }
+  }
+ ]
+}

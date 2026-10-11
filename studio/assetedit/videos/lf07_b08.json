@@ -1,0 +1,150 @@
+{
+ "id": "lf07_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a quick question. Don't think too long. Compared to other drivers on the road, how good a driver are you? Below average? About average? Or above average? Most people, when they're honest, feel a little pull toward that last answer.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 8,
+    "title": "Why you think you're above average"
+   }
+  },
+  {
+   "say": "And that's perfectly understandable. You know how careful you are. You remember the times you stayed calm while someone else did something reckless. You've seen plenty of bad driving, and most of it, it seems, was done by other people.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b08_road.jpg",
+    "cap": "How good a driver are you?"
+   }
+  },
+  {
+   "say": "In nineteen eighty one, a Swedish researcher named Ola Svenson asked groups of students in the United States and in Sweden exactly this kind of question. How skillful and how safe a driver are you, compared with the other people in this group? And the results became one of the most quoted findings in psychology.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Ola Svenson",
+    "where": "Published in Acta Psychologica, 1981",
+    "what": "Students in the United States and in Sweden rated their own driving skill and safety compared with the other people in the room."
+   }
+  },
+  {
+   "say": "In both countries, a majority of the students placed themselves above the middle of the group. In the American group, it was a very large majority. Now think about that for a moment. The middle is the middle. Only half of any group can be above it. And yet most people felt sure they were.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Most people put themselves above the middle."
+   }
+  },
+  {
+   "say": "Svenson's study was small, and it was about students. But the same pattern has shown up again and again, in many forms. Later researchers repeated the driving question with a much bigger group of more than a thousand adults, and again found that people tended to rate their own driving above average.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "It keeps showing up."
+   }
+  },
+  {
+   "say": "And it's not only about driving. Psychologists call this the better than average effect. When people compare themselves with others on positive qualities, like being kind, fair, honest or reasonable, many people tend to rate themselves a little better than the typical person. Not wildly. Just a comfortable little step above.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Not only about driving."
+   }
+  },
+  {
+   "say": "Why does the brain do this? One part of the answer is simple. We know ourselves from the inside. We know our good intentions. We know how hard we tried. With other people, we only see what they do, and often only when it goes wrong. So the comparison isn't fair to begin with.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b08_mirror.jpg",
+    "cap": "A kind little mirror"
+   }
+  },
+  {
+   "say": "Another part is a clever little trick. Words like good driver are vague. So without noticing, each of us picks the definition that suits us best. If you're very careful, a good driver means careful. If you're quick and confident, a good driver means skilled. Everyone measures with their own ruler, and almost everyone comes out ahead.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "We pick the definition."
+   }
+  },
+  {
+   "say": "And there's a related habit called the self serving bias. When things go well, we tend to see it as our own doing. I worked hard. I'm good at this. When things go badly, we look outward. The test was unfair. The traffic was terrible. It's a gentle way of protecting how we feel about ourselves.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Credit for success. Blame for failure."
+   }
+  },
+  {
+   "say": "Now you might be thinking, this sounds like vanity. But many psychologists see it more kindly. A slightly rosy view of yourself may help you keep going. To try again after a failure. To take on a challenge you're not sure you can handle. In the right dose, it may be a bit like emotional armor.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Is this a bad thing?"
+   }
+  },
+  {
+   "say": "But the dose matters. If the rosy view gets too far from reality, it can lead us to take risks we shouldn't, or to stop learning, because we think we already know enough. And it can make us harsh toward others, because if I'm above average, then the people who disagree with me must be below.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The dose matters."
+   }
+  },
+  {
+   "say": "I also want to say something to anyone listening who feels the opposite. Who looks around and feels below average at almost everything. The better than average effect is a tendency in groups, not a rule for every person. Plenty of people judge themselves too harshly. And interestingly, for some skills that feel difficult, many people rate themselves below average, even when they're not.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "And what if you feel below average?"
+   }
+  },
+  {
+   "say": "Either way, the lesson is the same. The brain is not a fair judge when it comes to you. Sometimes it's a kind friend who flatters you a little. Sometimes it's a harsh critic. Rarely is it a neutral referee. Knowing that can help you hold your self image a bit more lightly, in both directions.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The brain is not a fair judge."
+   }
+  },
+  {
+   "say": "So what can we do? Notice when you're quietly choosing the definition that suits you. Try judging other people by their intentions, the way you judge yourself. Ask someone you trust for honest feedback now and then. And if your inner voice is a harsh critic, try being as fair to yourself as you would be to a good friend.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "A fairer mirror",
+    "items": [
+     "Notice when you use your own definition",
+     "Judge others by their intentions too",
+     "Ask someone you trust for honest feedback",
+     "Be as fair to yourself as to a friend"
+    ]
+   }
+  },
+  {
+   "say": "There's one more way the brain polishes its own image, and it does it by quietly editing the past. You've probably said it yourself after something surprising happened. I knew it all along. But did you? Let's take a gentle look at that feeling next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: I knew it all along."
+   }
+  }
+ ]
+}

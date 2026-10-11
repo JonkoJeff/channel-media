@@ -1,0 +1,163 @@
+{
+ "id": "lf07_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Get comfortable. Tonight, I want to tell you something that sounds a little alarming, but I promise it ends somewhere gentle. Right now, as you watch this, your brain is lying to you. Not once. Many times a second.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Your brain is lying to you.",
+    "sub": "Right now."
+   }
+  },
+  {
+   "say": "It's showing you a world that looks complete, smooth and certain. And a lot of that world is filled in, guessed, edited or quietly invented. The colors at the edge of your vision. The memory of what you did last Tuesday. The reason you think you chose the sandwich you had for lunch.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "But here's the important part. Your brain doesn't do this because it's broken. It does it because it's brilliant. It has a nearly impossible job, and the little lies are how it gets that job done. Tonight, we'll look at those lies one by one, slowly, with real experiments, and by the end, I think you'll trust your brain a little less, and like it a little more.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Not because it's broken."
+   }
+  },
+  {
+   "say": "Think of it like this. Your brain lives in complete darkness, inside your skull. It never sees light. It never hears sound directly. All it gets are electrical signals, coming in through your eyes, ears and skin. And from those signals, it has to build a whole world, fast enough to keep you alive.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b01_mirror.jpg",
+    "cap": "A world that is partly built from inside"
+   }
+  },
+  {
+   "say": "Here's where we're going tonight. We'll start with your eyes, and the things they miss even when they're looking straight at them. Then memory, and how easily it rewrites itself. Then the stories we tell about our own choices. Then the way the brain bends time, pain and the future. And finally, why all of this might be one of the best things about being human.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Why your eyes miss what's right in front of you",
+     "How memories quietly rewrite themselves",
+     "Why we invent reasons for our choices",
+     "How your brain bends time, pain and the future",
+     "Why all of this is actually good news"
+    ]
+   }
+  },
+  {
+   "say": "Let's begin with something you can try right now, wherever you are. It's one of the oldest tricks in the book, and it shows, in a few seconds, that there's a hole in your vision that you've never seen.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Let's begin with something you can try."
+   }
+  },
+  {
+   "say": "In the back of each eye, there's a spot where the optic nerve leaves the eye on its way to the brain. At that spot, there are no light sensitive cells at all. None. It's called the blind spot. Every eye has one. So in each eye, there's a small area of the world that you simply cannot see.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "A hole in your vision."
+   }
+  },
+  {
+   "say": "So why don't you walk around seeing a black hole floating in front of you? Partly because your two eyes cover for each other. But even when you close one eye, you still don't see a hole. Your brain fills it in, using what's around it. If the wall around the blind spot is white, your brain paints the hole white. Seamlessly.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "So why don't you see a hole?"
+   }
+  },
+  {
+   "say": "If you'd like to find yours, here's a gentle way. Close your left eye. With your right eye, keep looking at one small point straight ahead. Now hold a finger up at eye level and slowly move it to the right, while you keep your gaze still. At some point, roughly a hand's width or more to the side, the tip of your finger may seem to disappear. Move it a bit further, and it comes back.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Find your blind spot",
+    "items": [
+     "Close your left eye",
+     "Look at a small mark on a wall with your right eye",
+     "Slowly move a fingertip to the right at eye level",
+     "At some point, the tip seems to vanish"
+    ]
+   }
+  },
+  {
+   "say": "That moment, when your fingertip disappears, is the first lie of the night caught in the act. The world didn't change. Your finger is still there. But your brain decided that the best guess for that spot was more wall, and it showed you that guess as if it were real.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "That vanishing finger is the first lie."
+   }
+  },
+  {
+   "say": "And this is a pattern we'll see again and again tonight. The brain doesn't wait for complete information. It makes its best guess, quickly, and presents that guess as reality. Most of the time, the guess is excellent. Sometimes it's surprisingly wrong. And you almost never notice the difference.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b01_fog.jpg",
+    "cap": "Your brain shows you its best guess"
+   }
+  },
+  {
+   "say": "Here's another one. Only a small central part of your vision is truly sharp and full of detail. Toward the edges, your vision is much blurrier, and in many ways weaker at color. And yet, if I ask you to describe the room around you, it feels sharp and colorful everywhere. That's because your eyes jump around constantly, several times a second, and your brain stitches the snapshots together into one smooth, detailed scene.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The sharp part is tiny."
+   }
+  },
+  {
+   "say": "And during those little jumps, those quick eye movements, your brain largely ignores what comes in, so that you don't see the world smear every time your eyes move. Think about that. Many times a second, your brain quietly edits out a blurry moment, and gives you a smooth film instead. You never see the cuts.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "You're blind during every jump."
+   }
+  },
+  {
+   "say": "I don't want you to hear this as, my eyes are terrible. They're not. This is a wonderful design. A brain that tried to process every pixel in perfect detail, all the time, would be slow and overwhelmed. Instead, it focuses its effort where it matters, and fills in the rest with smart predictions.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Not a flaw. A clever design."
+   }
+  },
+  {
+   "say": "But a brain that works on predictions also has a weakness. If something unexpected happens, something it's not looking for, it can miss it entirely. Even if it's big. Even if it's right in the middle of the picture. And the experiment that proved this has become one of the most famous in all of psychology.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "But predictions can miss things."
+   }
+  },
+  {
+   "say": "It involves a basketball, a group of students, and a person in a gorilla suit. So let's slow down, take a breath, and step into that experiment together.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Next: the gorilla nobody saw."
+   }
+  }
+ ]
+}

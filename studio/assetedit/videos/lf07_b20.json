@@ -1,0 +1,159 @@
+{
+ "id": "lf07_b20",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So let's gather it all together. If you remember nothing else from tonight, here are a few simple ideas to carry with you. Think of them not as rules, but as gentle habits of mind. Small ways of living kindly and wisely with a brain that tells you lovely little lies.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 20,
+    "title": "What to take with you"
+   }
+  },
+  {
+   "say": "The first idea is to hold certainty lightly. We've seen again and again that feeling sure is not the same as being right. The students who were certain about where they heard the Challenger news. The people who saw no gorilla. The confident explanations of choices never made. Certainty is a feeling the brain produces. It's worth listening to, but it's not proof.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "One. Hold certainty lightly."
+   }
+  },
+  {
+   "say": "The second idea is wonderfully practical. Write down what matters, soon. Memories are rebuilt every time we recall them, and they drift toward our current beliefs and the stories we tell. A few lines in a notebook, written close to the moment, can be a gift to your future self. An honest anchor in a sea of rebuilding.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Two. Write down what matters."
+   }
+  },
+  {
+   "say": "You don't need to keep a detailed diary. Just the important things. A big decision and why you made it. A prediction about how something will turn out. A precious moment you'd like to keep. Later, when your brain offers you a polished version, you'll have the original to compare it with.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b18_journal.jpg",
+    "cap": "A few honest lines for your future self"
+   }
+  },
+  {
+   "say": "The third idea is a question. What would prove me wrong? It's the lesson of the two, four, six puzzle. Our brains love to look for evidence that agrees with us. Simply asking that question, now and then, especially about the things you feel most strongly about, can open a window in a room that was getting a little stuffy.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Three. Ask what would prove you wrong."
+   }
+  },
+  {
+   "say": "The fourth idea is about other people. When someone remembers something differently from you, be generous. Their brain built their memory honestly, just as yours did. Neither of you is necessarily lying. You might both be partly right, and partly rebuilt. Comparing notes with curiosity is usually much more pleasant than arguing over who's correct.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Four. Be generous with other memories."
+   }
+  },
+  {
+   "say": "The fifth idea is about you. Forgive your past self. Hindsight makes old decisions look obvious, but they weren't obvious at the time. Your past self was walking in the mist with a small lantern. They did their best with what they could see. You can learn from them without blaming them for not knowing the ending.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Five. Forgive your past self."
+   }
+  },
+  {
+   "say": "The sixth idea is to notice the stories you tell about yourself. Your inner interpreter is always narrating, explaining why you did this, why you feel that. Those stories can be helpful. But they're not always the whole truth. Every now and then, it's worth asking, is this really why? Or is it just the story that came first?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Six. Notice the stories you tell."
+   }
+  },
+  {
+   "say": "The seventh idea comes from the placebo research. Your expectations can shape how you experience things. Not without limits, and never instead of real medical care. But approaching a difficult moment with calm and kindness, rather than fear, may soften how it feels. And being kind to others when they're struggling may help them more than we realize.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Seven. Use your expectations kindly."
+   }
+  },
+  {
+   "say": "The eighth idea is about the future. Keep your hope. The rosy glasses help you try things, and help you keep going when things are hard. Just add a little practical caution for the things that really matter. Leave a bit of extra time. Take care of your health. Hope, with a seatbelt on.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Eight. Keep the rosy glasses, wisely."
+   }
+  },
+  {
+   "say": "And the ninth idea comes from the free fall study. If time seems to fly by, try adding some new things to your days. They don't need to be big. A new walk, a new dish, a new conversation. New experiences seem to leave richer memories, and richer memories may help life feel longer and fuller when you look back.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Nine. Fill your days with new things."
+   }
+  },
+  {
+   "say": "So once more, in short. Hold certainty lightly. Write down what matters. Ask what would prove you wrong. Be generous when others remember differently. Forgive your past self. Notice your inner stories. Use your expectations kindly. Keep your hope, with a seatbelt on. And fill your days with a few new things.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Living well with a lying brain",
+    "items": [
+     "Hold certainty lightly",
+     "Write down what matters",
+     "Ask what would prove you wrong",
+     "Be generous with other memories",
+     "Forgive your past self",
+     "Keep hope, with a seatbelt on"
+    ]
+   }
+  },
+  {
+   "say": "And maybe most of all, I hope you'll come away with a little amazement. Right now, inside your head, in complete darkness, a few pounds of living tissue are building a whole world for you. Colors, sounds, the feeling of your body, the story of your life. It's not perfect. But it is astonishing.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "And most of all, be amazed."
+   }
+  },
+  {
+   "say": "Every moment of your life, your brain is quietly painting the world for you. Filling the gaps. Smoothing the edges. Making it make sense. And most of the time, it does this so well that you never even notice the paintbrush. Tonight, we've caught a glimpse of the paintbrush at work.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b18_window.jpg",
+    "cap": "A world, built for you, every moment"
+   }
+  },
+  {
+   "say": "At the start of tonight, I said that by the end, you might trust your brain a little less, and like it a little more. I hope that's how you feel now. Not suspicious, not worried. Just a little wiser about how it works, and a little more fond of the strange, creative, hard working thing that is your mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Trust it a little less. Like it a little more."
+   }
+  },
+  {
+   "say": "And now, if you'd like, let's slow everything down. You don't need to learn anything more tonight. You don't need to remember anything. Over the next few minutes, I'll simply guide you into a calm, quiet place. If you're in bed, get comfortable. And if you drift off along the way, that's perfectly fine.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Now, let's slow down."
+   }
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "id": "lf07_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Many people who have been through a sudden scare describe the same thing. A car skidding on ice. A fall from a bike. A near miss of some kind. And afterwards they say, it all happened in slow motion. I saw everything. Every second felt like a minute.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 13,
+    "title": "When time stretches"
+   }
+  },
+  {
+   "say": "It's a very common story. And it raises a fascinating question. In those moments, does the brain actually speed up? Does it start processing the world faster, like a high speed camera, so that it truly sees more? Or is something else going on? Is the slow motion real, or is it another of the brain's quiet lies?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Did time really slow down?"
+   }
+  },
+  {
+   "say": "The trouble is, how do you test this? You can't safely put people in a car crash. And scary moments are hard to recreate in a lab. A frightening film isn't the same as real danger. So a team of researchers, led by David Eagleman, came up with a creative solution. They used a ride that is genuinely frightening, but safe.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "How would you even test this?"
+   }
+  },
+  {
+   "say": "They used a free fall ride at an amusement park in Texas. Participants were dropped from a tall tower, falling backwards, with nothing to hold onto, into a safety net below. A fall of about three seconds. No ropes, no harness to slow them. Just falling. Many people find it quite terrifying.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b13_net.jpg",
+    "cap": "A free fall into a net"
+   }
+  },
+  {
+   "say": "The study was published in two thousand and seven, by Chess Stetson, Matthew Fiesta and David Eagleman. And it had two clever parts. The first part was simple. After their fall, people were asked to estimate how long it had taken. They could watch someone else fall too, and compare.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Stetson, Fiesta & Eagleman",
+    "where": "Published in PLoS ONE, 2007",
+    "what": "Participants took a free fall of about three seconds into a safety net, then estimated how long their own fall had lasted, and tried to read numbers on a special wrist display while falling."
+   }
+  },
+  {
+   "say": "And people did feel that their own fall had lasted longer. On average, they judged their own fall to have been about thirty six percent longer than the falls they watched others take. So the subjective experience was real. Their fall had seemed to stretch.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "How long did their own fall feel?",
+    "big": "about 36% longer",
+    "label": "than the falls they watched others take, on average"
+   }
+  },
+  {
+   "say": "Now the second part. This was the really clever bit. If the brain truly speeds up in a crisis, then people should be able to see things that are normally too fast to see. Like a hummingbird's wings, or the blades of a fan. So the researchers built a special display that people wore on their wrists, like a watch.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "But could they see more?"
+   }
+  },
+  {
+   "say": "The display showed a number that flickered too fast to read under normal conditions. The number and its negative image switched back and forth so quickly that, normally, the two blend together into a blur. If people could truly see in slow motion during the fall, they should be able to read the number. That was the test.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A number flashing too fast to read."
+   }
+  },
+  {
+   "say": "And the answer was no. During the fall, people weren't able to read the fast flickering number, any better than they could on the ground. Their perception hadn't actually sped up. They weren't seeing the world in high resolution slow motion. So where does the slow motion feeling come from?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "They couldn't read it."
+   }
+  },
+  {
+   "say": "The researchers proposed an elegant answer. It's not about perception. It's about memory. In a frightening moment, the brain lays down memories more richly than usual. Emotion signals that this is important, so more details get recorded. Then, afterwards, when you remember the event, there's so much more memory packed into those few seconds that it seems like it must have lasted longer.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "It's about memory."
+   }
+  },
+  {
+   "say": "In other words, we may measure the length of time partly by how much we remember of it. More memories, longer time. A few seconds that are crammed with detailed memories feel, looking back, like much more than a few seconds. The slow motion isn't happening during the fall. It's created in the memory of the fall.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b13_clock.jpg",
+    "cap": "Time measured by memories"
+   }
+  },
+  {
+   "say": "You may know a gentle version of this effect from everyday life. Think of a holiday in a new place. Every day is full of new impressions. While you're there, the days fly by. But afterwards, when you look back, that week feels long and rich, full of memories. Meanwhile, a routine week at home might feel slow while you're in it, but vanish almost completely in memory.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "You know this from holidays."
+   }
+  },
+  {
+   "say": "Some people think this is part of why time can seem to speed up as we get older. In childhood, so much is new. Every year is packed with firsts. As adults, life often settles into routines, and routine days leave fewer distinct memories. So looking back, the years seem to fold together. This is an idea, not a settled fact, but many people find it rings true.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why the years seem to speed up."
+   }
+  },
+  {
+   "say": "And if that's true, it offers a gentle suggestion. If you'd like your life to feel longer and richer when you look back, fill it with new experiences, even small ones. A new walk. A new recipe. A conversation with someone you don't know well. Novelty leaves memories, and memories may be how we feel the length of our lives.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A gentle way to slow time."
+   }
+  },
+  {
+   "say": "So here's what the free fall study shows us. Frightening moments really can feel longer afterwards. But in this study, perception didn't speed up. A richer memory may stretch the feeling of time in hindsight. And in daily life, novelty may help our years feel fuller when we look back on them.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "What the free fall study shows",
+    "items": [
+     "Frightening moments feel longer afterwards",
+     "Perception didn't actually speed up",
+     "Richer memories may stretch time in hindsight",
+     "Novelty can make life feel longer"
+    ]
+   }
+  },
+  {
+   "say": "We've seen the brain bend what we see, hear, feel and remember, and even the length of time. Next, let's look at a lie that seems almost magical. A lie that can make some people feel better. And one of the most surprising twists, a version of it that may work, even when the person knows it's a lie.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: when a lie can heal."
+   }
+  }
+ ]
+}

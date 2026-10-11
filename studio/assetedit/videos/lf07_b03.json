@@ -1,0 +1,204 @@
+{
+ "id": "lf07_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think of one of your favorite memories. Maybe a summer day, a birthday, a trip. Hold it in your mind for a moment. Notice how real it feels. The light, the voices, maybe even a smell.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 3,
+    "title": "Memory, the great editor"
+   }
+  },
+  {
+   "say": "It feels like you're replaying a recording. As if somewhere in your brain there's a little video file, stored safely, and you just pressed play. That's how most of us imagine memory works. And it's one of the most comforting lies your brain tells.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "It feels like a recording."
+   }
+  },
+  {
+   "say": "Because memory doesn't work like a video file. Every time you remember something, your brain rebuilds it. It gathers pieces, the gist of what happened, a few vivid details, what usually happens in situations like this, and what you know now. And it assembles them into a scene that feels like the original.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b03_photos.jpg",
+    "cap": "Memories are rebuilt, not replayed"
+   }
+  },
+  {
+   "say": "And because the scene is rebuilt every time, it can change a little every time. A detail drops away. Another one sneaks in. The order shifts. And the next time you remember it, you're not remembering the original event. You're partly remembering the last time you remembered it.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Rebuilt every single time."
+   }
+  },
+  {
+   "say": "That sounds like a nice theory. But can we actually see it happen? Can a memory really be changed from the outside? In the early nineteen seventies, a young psychologist named Elizabeth Loftus decided to find out. And she used something very simple. A single word.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Can we show this in a lab?"
+   }
+  },
+  {
+   "say": "In nineteen seventy four, Elizabeth Loftus and John Palmer showed students short films of car accidents. Afterwards, the students were asked a question about how fast the cars were going. But not everyone got the exact same question. One word was different.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Loftus & Palmer",
+    "where": "University of Washington, 1974",
+    "what": "Students watched films of car accidents, then were asked how fast the cars were going. Only one word in the question was changed."
+   }
+  },
+  {
+   "say": "Some were asked, about how fast were the cars going when they smashed into each other? Others heard collided, or bumped, or hit, or contacted. Everything else was the same. Same film. Same accident. Just one verb.",
+   "show": {
+    "type": "list",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "title": "The one word that changed",
+    "items": [
+     "About how fast were the cars going when they smashed into each other?",
+     "...when they collided?",
+     "...when they bumped?",
+     "...when they hit?",
+     "...when they contacted?"
+    ]
+   }
+  },
+  {
+   "say": "And the speed estimates changed with the word. According to a summary of the study, people who heard smashed estimated about forty point eight miles per hour on average. Those who heard hit, about thirty four. And contacted, just under thirty two. Same film. Different word. Different memory of speed.",
+   "show": {
+    "type": "bars",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Estimated speed (mph)",
+    "unit": "mph",
+    "bars": [
+     [
+      "Smashed",
+      40.8
+     ],
+     [
+      "Collided",
+      39.3
+     ],
+     [
+      "Bumped",
+      38.1
+     ],
+     [
+      "Hit",
+      34.0
+     ],
+     [
+      "Contacted",
+      31.8
+     ]
+    ]
+   }
+  },
+  {
+   "say": "But the most remarkable part came a week later. In a second experiment, people came back and were asked another question. Did you see any broken glass? In the film, there was no broken glass at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Then came the broken glass."
+   }
+  },
+  {
+   "say": "Of the people who had heard the word smashed, thirty two percent said yes, they had seen broken glass. Of those who heard hit, fourteen percent. And in a group that hadn't been asked about speed at all, twelve percent. One word, a week earlier, had quietly added broken glass to their memory.",
+   "show": {
+    "type": "bars",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Remembered broken glass (there was none)",
+    "unit": "%",
+    "bars": [
+     [
+      "Heard 'smashed'",
+      32.0
+     ],
+     [
+      "Heard 'hit'",
+      14.0
+     ],
+     [
+      "No speed question",
+      12.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Think about what happened there. The word smashed didn't just change a number. It changed the whole scene in people's minds. A smashing accident is a violent accident. Violent accidents have broken glass. So when the memory was rebuilt, the brain helpfully added what fits the story.",
+   "show": {
+    "type": "photo",
+    "file": "lf07_b03_road.jpg",
+    "cap": "No broken glass. But they remembered it."
+   }
+  },
+  {
+   "say": "It's the same trick as the blind spot, now working in time instead of space. The brain fills the gaps with what's likely. Most of the time, that's helpful. If you remember a birthday party, it's reasonable for your brain to fill in a cake, even if you don't remember the cake specifically. Usually, there was one.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Your brain fills in what fits."
+   }
+  },
+  {
+   "say": "But sometimes it really matters. Elizabeth Loftus went on to spend decades studying memory, especially eyewitness memory in courtrooms. Because if a single word can add broken glass, then leading questions, conversations with other witnesses, and news reports can all reshape what a witness honestly believes they saw.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Why this matters."
+   }
+  },
+  {
+   "say": "And I want to stress one word in that sentence. Honestly. These people weren't lying. They weren't trying to deceive anyone. They genuinely remembered the glass. The lie was told by their brain, to them, and they had no way of noticing.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Honest people. Changed memories."
+   }
+  },
+  {
+   "say": "So what can we do with this knowledge? Write down important things soon after they happen, while the memory is fresh. Notice how questions shape answers, including the questions you ask yourself. When you and a friend remember something differently, compare notes with curiosity instead of a fight. And hold your oldest memories a little loosely. They're precious, but they're also handmade.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Being kind to your memory",
+    "items": [
+     "Write important things down soon",
+     "Notice how questions shape answers",
+     "Compare notes without arguing",
+     "Hold old memories a little loosely"
+    ]
+   }
+  },
+  {
+   "say": "And if one word can add broken glass to a memory, a question naturally follows. Could a brain be led to remember a whole event that never happened at all? A childhood memory, complete with feelings and details, built from nothing? The answer is one of the most unsettling findings in psychology. Let's look at it, gently.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: memories that never happened."
+   }
+  }
+ ]
+}

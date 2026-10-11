@@ -33,7 +33,6 @@ Published videos are never edited or deleted. If something is wrong: bad luck, t
 1. With `getScheduledPosts` (last 3 days), take every post with status PUBLISHED that is not in the `checked` list in `studio/lessons.md`:
    - Check what was sent: title, description (chapters for long videos, "Watch the full video: <link>" in Shorts and that this link is the right `publicUrl`), privacy public, AI disclosure line present. Any status other than PUBLISHED (e.g. an error) is a problem to report.
    - Re-check 3 claims from its script (`studio/assetedit/videos/<id>.json`): open the sources again with WebSearch/WebFetch and confirm names, years and numbers.
-   - If vidIQ credits allow (`vidiq_balance`): read the transcript (`vidiq_video_transcript`) and compare it with the script, and read the comments (`vidiq_video_comments`) for viewers pointing out mistakes or confusion.
 2. Write the result in `studio/lessons.md`:
    - Add the video id to `checked`.
    - For every problem, add one concrete rule under `## Rules`, for example "Say years in digits on cards; the voice reads '2020' fine". Keep rules short and testable. Merge duplicates.
@@ -44,7 +43,7 @@ Published videos are never edited or deleted. If something is wrong: bad luck, t
 GitHub Actions `trend-scan` runs at 05:15, 13:15 and 21:15 UTC and writes `studio/trends/latest.json` (per niche: the last 7 days' videos that beat their channel size most, with title, description, tags, length, chapters yes/no, views, views/hour, outlier = views ÷ subscribers) and `studio/trends/thumbs/<id>.jpg`. Topics live in `studio/trends/topics.json` (add a line per new channel).
 1. `git pull`. If `latest.json` is older than 9 h, check the last `trend-scan` run and report the error annotation.
 2. Per group, study the top videos: look at every thumbnail with Read, and read titles and descriptions. Note per video in one line: title formula (length, words, curiosity gap, number, "you/your"), thumbnail (face/emotion, words on it, colors, focal object, layout), description (first line, chapters, links, hashtags), length.
-3. Editing style: the API gives no frames. Infer it from length, chapters and Shorts format. Only when vidIQ credits allow, read the transcript of the single top outlier (hook in the first 15 s, pace, structure). Never download videos.
+3. Editing style: the API gives no frames. Infer it from length, chapters and Shorts format. Never download videos.
 4. Update `studio/trends.md`: replace the `## Now working` block (max 12 bullets, each with an example title + channel + outlier score), and add a dated line to `## Log`. Turn a pattern into a rule under `## Rules` only when it shows up in 2+ scans; remove rules that stop showing up for 2 weeks.
 5. Never copy a title, thumbnail or script. Take the pattern, not the content. Our own numbers (insights.md) beat outside trends when they disagree.
 6. Commit and push. Only report when a new rule was added or something failed.
@@ -114,6 +113,7 @@ cd studio/assetedit && python3 longform.py videos/lfNN.json    # ≈20 min each
 Say what was scheduled (titles and dates), the insight bullets (Sundays and Wednesdays), and anything that failed with what is needed. Never schedule something broken.
 
 ## Never
+- Use vidIQ (owner's choice: not used at all).
 - Use anything that costs money (paid plans, paid APIs, credits). The goal is to run everything for free; if something can only be done paid, report it instead.
 - Post the same video twice.
 - Reuse a script and only swap the topic (YouTube's "inauthentic content" rule).

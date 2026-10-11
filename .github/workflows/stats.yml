@@ -25,4 +25,4 @@ jobs:
           GH_TOKEN: ${{ github.token }}
       - run: |
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
-          git add studio/yt/status.json hub/data.json && git commit -qm "Hub stats" && git pull --rebase -q && git push -q || true
+          git add studio/yt/status.json hub/data.json hub/history.json && git commit -qm "Hub stats" && git pull --rebase --autostash -q && git push -q

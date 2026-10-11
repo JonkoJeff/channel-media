@@ -1,0 +1,18 @@
+name: upscale-sprites
+on:
+  workflow_dispatch:
+    inputs:
+      folders: {description: "Sprite folders, space-separated", default: "studio/assetedit/assets"}
+permissions:
+  contents: write
+jobs:
+  up:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install torch --index-url https://download.pytorch.org/whl/cpu && pip install spandrel pillow numpy
+      - run: curl -sSL -o anime6B.pth https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth
+      - run: python3 studio/ai/upscale.py ${{ inputs.folders }}
+      - run: |
+          git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
+          git add studio/ai/upscaled && git commit -m "Upscaled sprites [skip ci]" && git pull --rebase -q && git push || true

@@ -50,7 +50,11 @@ for g in out["groups"]:
         try: urllib.request.urlretrieve(r["thumb"], os.path.join(th, r["id"] + ".jpg"))
         except Exception: pass
 json.dump(out, open(os.path.join(D, "latest.json"), "w"), indent=1)
-with open(os.path.join(D, "history.jsonl"), "a") as h:
+hp = os.path.join(D, "history.jsonl")  # YouTube API policy: keep other channels' data max 30 days
+if os.path.exists(hp):
+    keep = [l for l in open(hp) if l.strip() and json.loads(l)["at"] >= (now - dt.timedelta(days=30)).strftime("%Y-%m-%dT%H:%MZ")]
+    open(hp, "w").writelines(keep)
+with open(hp, "a") as h:
     h.write(json.dumps({"at": out["scanned_at"], "top": [{k: r[k] for k in ("id", "title", "channel", "views", "outlier", "seconds")}
             for g in out["groups"] for r in g["videos"][:3]]}) + "\n")
 print(f"::notice::trend scan: {len(seen)} videos in {len(out['groups'])} groups")

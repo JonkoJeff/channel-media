@@ -1,10 +1,10 @@
 {
- "id": "lf06_p02",
+ "id": "lf06_b02",
  "part": true,
- "voice": "am_puck",
+ "voice": "am_michael",
  "segments": [
   {
-   "say": "Part two. Revenge bedtime procrastination.",
+   "say": "So let's talk about that feeling. It even has a name: revenge bedtime procrastination.",
    "show": {
     "type": "chapter",
     "n": 2,
@@ -259,7 +259,7 @@
    }
   },
   {
-   "say": "The authors say this fits what we know about body clocks. And it ties straight back to part one. If your clock runs late, the bedtime you intend may land right in your forbidden zone, when your brain is still pushing hard to stay awake. You're not lazy. You're being asked to sleep before your gate opens.",
+   "say": "The authors say this fits what we know about body clocks. And it ties straight back to where we started tonight. If your clock runs late, the bedtime you intend may land right in your forbidden zone, when your brain is still pushing hard to stay awake. You're not lazy. You're being asked to sleep before your gate opens.",
    "show": {
     "type": "char",
     "sprite": "A12",
@@ -269,7 +269,7 @@
    }
   },
   {
-   "say": "And why would it shrink during the week? The study can't say for sure. But one possible explanation fits part one perfectly. After a few short nights in a row, sleep pressure piles up, and eventually even an owl's brain just gives in.",
+   "say": "And why would it shrink during the week? The study can't say for sure. But one possible explanation fits what we saw earlier perfectly. After a few short nights in a row, sleep pressure piles up, and eventually even an owl's brain just gives in.",
    "show": {
     "type": "char",
     "sprite": "A13",
@@ -401,7 +401,7 @@
    }
   },
   {
-   "say": "And then, at three twelve AM, your eyes snap open. Wide awake. No alarm. No noise. No reason. What just happened? Is something wrong with you? That's part three.",
+   "say": "And then, at three twelve AM, your eyes snap open. Wide awake. No alarm. No noise. No reason. What just happened? Is something wrong with you? Let's find out.",
    "show": {
     "type": "char",
     "sprite": "A06",
@@ -410,5 +410,6 @@
     "sub": "Why are you awake?"
    }
   }
- ]
+ ],
+ "vibe": "calm"
 }

@@ -1,10 +1,10 @@
 {
- "id": "lf06_p03",
+ "id": "lf06_b03",
  "part": true,
- "voice": "am_puck",
+ "voice": "am_michael",
  "segments": [
   {
-   "say": "Part three. The three AM wake up.",
+   "say": "Now, let's move deeper into the night. To the moment your eyes open at three AM.",
    "show": {
     "type": "chapter",
     "n": 3,
@@ -411,7 +411,7 @@
    }
   },
   {
-   "say": "The email you didn't answer becomes a disaster. A small pain becomes a serious illness. A tiny argument becomes the end of a friendship. Why does everything feel so much worse at night? And why does it all look fine again in the morning? That's part four.",
+   "say": "The email you didn't answer becomes a disaster. A small pain becomes a serious illness. A tiny argument becomes the end of a friendship. Why does everything feel so much worse at night? And why does it all look fine again in the morning? Let's find out together.",
    "show": {
     "type": "char",
     "sprite": "A06",
@@ -420,5 +420,6 @@
     "sub": "Why worries feel bigger at night"
    }
   }
- ]
+ ],
+ "vibe": "calm"
 }

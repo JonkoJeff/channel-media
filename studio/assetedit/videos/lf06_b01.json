@@ -1,7 +1,7 @@
 {
- "id": "lf06_p01",
+ "id": "lf06_b01",
  "part": true,
- "voice": "am_puck",
+ "voice": "am_michael",
  "segments": [
   {
    "say": "Tonight, at some point, you'll lie down, close your eyes, and switch off for hours. Your brain won't. It has a whole night shift planned, and by the end of this video you'll know every part of it.",
@@ -36,7 +36,7 @@
    "say": "So here's the plan. In this video, we follow your brain through one entire night, from the moment you start to feel sleepy to the moment you open your eyes in the morning. Twelve parts.",
    "show": {
     "type": "list",
-    "title": "In this video (part 1 of 3)",
+    "title": "Tonight, we'll explore",
     "items": [
      "Why your brain fights sleep",
      "Revenge bedtime procrastination",
@@ -51,7 +51,7 @@
    "say": "We'll start with why your brain fights sleep at bedtime, why you stay up when you're exhausted, why waking up at three AM is far more normal than you think, and why every worry looks bigger in the dark.",
    "show": {
     "type": "list",
-    "title": "In this video (part 2 of 3)",
+    "title": "Tonight, we'll explore",
     "items": [
      "The falling jolt",
      "Why we dream",
@@ -66,7 +66,7 @@
    "say": "Then the weird stuff. That falling jolt just as you drift off. Why we dream at all. The terrifying thing called sleep paralysis. And how your brain quietly saves your memories while you're out cold.",
    "show": {
     "type": "list",
-    "title": "In this video (part 3 of 3)",
+    "title": "Tonight, we'll explore",
     "items": [
      "The night-time cleaning crew",
      "Night owls vs early birds",
@@ -87,7 +87,7 @@
    }
   },
   {
-   "say": "Part one. Why your brain fights sleep.",
+   "say": "Let's start at the very beginning of the night. Why does your brain fight sleep?",
    "show": {
     "type": "chapter",
     "n": 1,
@@ -442,7 +442,7 @@
    }
   },
   {
-   "say": "They pick up the phone. One more episode. One more video. It's one AM, they know they'll regret it, and they keep going anyway. Psychologists have a name for that. And it's coming up in part two.",
+   "say": "They pick up the phone. One more episode. One more video. It's one AM, they know they'll regret it, and they keep going anyway. Psychologists have a name for that. And that's where we're going next.",
    "show": {
     "type": "char",
     "sprite": "A11",
@@ -451,5 +451,6 @@
     "sub": "Revenge bedtime procrastination"
    }
   }
- ]
+ ],
+ "vibe": "calm"
 }

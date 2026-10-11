@@ -1,10 +1,10 @@
 {
- "id": "lf06_p04",
+ "id": "lf06_b04",
  "part": true,
- "voice": "am_puck",
+ "voice": "am_michael",
  "segments": [
   {
-   "say": "Part four. Why worries feel bigger at night.",
+   "say": "And that brings us to something almost everyone has felt. Why do worries feel so much bigger at night?",
    "show": {
     "type": "chapter",
     "n": 4,
@@ -53,7 +53,7 @@
    }
   },
   {
-   "say": "The first shift is mood. Across the day, our emotions follow a rhythm, much like the body clock from part one. According to the review, positive feelings peak during the day and reach their lowest point during the night, between about one and four AM.",
+   "say": "The first shift is mood. Across the day, our emotions follow a rhythm, much like the body clock we met earlier. According to the review, positive feelings peak during the day and reach their lowest point during the night, between about one and four AM.",
    "show": {
     "type": "list",
     "title": "Your mood has a clock too",
@@ -304,7 +304,7 @@
    }
   },
   {
-   "say": "And fourth, if you're awake and the worries are spiraling, use what you learned in part three. Don't lie there wrestling with them. Get up, keep the light low, do something calm, and come back when you're sleepy.",
+   "say": "And fourth, if you're awake and the worries are spiraling, use what we just learned about waking at night. Don't lie there wrestling with them. Get up, keep the light low, do something calm, and come back when you're sleepy.",
    "show": {
     "type": "list",
     "title": "If the worries spiral",
@@ -338,7 +338,7 @@
    }
   },
   {
-   "say": "Because there's a moment, right on the edge of sleep, when your whole body suddenly jolts, like you just stepped off a cliff. Sometimes you even feel like you're falling. Almost everyone knows it. Hardly anyone knows what it is. That's part five.",
+   "say": "Because there's a moment, right on the edge of sleep, when your whole body suddenly jolts, like you just stepped off a cliff. Sometimes you even feel like you're falling. Almost everyone knows it. Hardly anyone knows what it is. So let's slow down and look at it.",
    "show": {
     "type": "char",
     "sprite": "A16",
@@ -347,5 +347,6 @@
     "sub": "The falling jolt"
    }
   }
- ]
+ ],
+ "vibe": "calm"
 }

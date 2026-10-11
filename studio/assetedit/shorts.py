@@ -12,7 +12,7 @@ def overlay(top, full_title, path):
         d.text((540 - d.textlength(ln, font=f) / 2, y), ln, font=f, fill=CREAM, stroke_width=10, stroke_fill=INK); y += 96
     im.save(path)
 
-def captions(segs, timing, a, b, path, res=(1080, 1920), size=84, outline=9, marginv=430, ml=60, mr=60):
+def captions(segs, timing, a, b, path, res=(1080, 1920), size=84, outline=9, marginv=430, ml=60, mr=60, calm=False):
     """Word-by-word pop-up captions (ASS). Word times are estimated inside each voiced segment by word length,
     with a short pause after sentence ends (the voice has no word timestamps)."""
     import re
@@ -27,7 +27,8 @@ def captions(segs, timing, a, b, path, res=(1080, 1920), size=84, outline=9, mar
             chunk = words[c:c + 3]
             for k in range(len(chunk)):
                 i = c + k; s0, s1 = times[i] - a, (times[i + 1] if k < len(chunk) - 1 else times[min(c + 3, len(words))]) - a
-                txt = " ".join(("{\\c&H5AF02E&\\fscx118\\fscy118\\t(0,90,\\fscx100\\fscy100)}" + w.upper() + "{\\c&HFFFFFF&}") if j == k else w.upper() for j, w in enumerate(chunk))
+                hl = "{\\c&H7AC8FF&}" if calm else "{\\c&H5AF02E&\\fscx118\\fscy118\\t(0,90,\\fscx100\\fscy100)}"  # calm: warm amber, no pop
+                txt = " ".join((hl + (w if calm else w.upper()) + "{\\c&HFFFFFF&}") if j == k else (w if calm else w.upper()) for j, w in enumerate(chunk))
                 if s1 > 0: ev.append(f"Dialogue: 0,{ts(s0)},{ts(min(s1, b - a))},W,,0,0,0,,{txt}")
     head = (f"[Script Info]\nScriptType: v4.00+\nPlayResX: {res[0]}\nPlayResY: {res[1]}\n\n[V4+ Styles]\n"
             "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\n"

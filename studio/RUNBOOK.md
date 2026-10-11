@@ -7,17 +7,17 @@ You run unattended, once a day. All video content is in English. Use the ponytai
 - Links of published videos: Metricool `getScheduledPosts` (brand 2266272, Europe/Amsterdam, a date range around the publish date, `extendedRange: true`). A published post has `providers[0].status: "PUBLISHED"` and `publicUrl` (the YouTube link). The YouTube RSS feed and watch pages block WebFetch, so don't use them.
 
 ## YouTube route (check first)
-- If `studio/yt/APPROVED` exists (Google approved the API audit): **all YouTube uploads go through our own uploader**, no post limit. Append items to `studio/yt/queue.json` (`{id, file, thumb, title, description, tags, publish_at (UTC ISO, e.g. 17:00 Amsterdam = 15:00Z in summer, 16:00Z in winter), short, status: "pending"}`) and push; GitHub Actions uploads each item within 26 h of its `publish_at`, max 8 per run (daily at 06:30 UTC), and writes back `video_id`. Max 8 uploads a day per channel (long + Shorts together). If a run reports "daily upload limit reached", lower to 5 a day for 2 weeks and say so in the report. Rhythm: long 2.5 h videos on Tuesday and Saturday at 17:00; Shorts up to 7 a day at 08:00, 10:00, 12:00, 14:00, 19:00, 21:00 and 23:00 (Amsterdam), from the 12 Shorts per video plus the back catalog (best performers first, never a segment twice, never 2 in a row from the same video). Items in `studio/queue.json` with status `later` go back into the rotation. Metricool then only posts Shorts to TikTok/Instagram (if connected), within the 20-post budget below.
+- If `studio/yt/APPROVED` exists (Google approved the API audit): **all YouTube uploads go through our own uploader**, no post limit. Append items to `studio/yt/queue.json` (`{id, file, thumb, title, description, tags, publish_at (UTC ISO, e.g. 17:00 Amsterdam = 15:00Z in summer, 16:00Z in winter), short, status: "pending"}`) and push; GitHub Actions uploads each item within 26 h of its `publish_at`, max 8 per run (daily at 06:30 UTC), and writes back `video_id`. Max 8 uploads a day per channel (long + Shorts together). If a run reports "daily upload limit reached", lower to 5 a day for 2 weeks and say so in the report. Rhythm: one long 2.5 h video every day at 17:00; Shorts (from then on) up to 7 a day at 08:00, 10:00, 12:00, 14:00, 19:00, 21:00 and 23:00 (Amsterdam), from the 12 Shorts per video plus the back catalog (best performers first, never a segment twice, never 2 in a row from the same video). Items in `studio/queue.json` with status `later` go back into the rotation. Metricool then only posts Shorts to TikTok/Instagram (if connected), within the 20-post budget below.
 - If it does not exist yet: uploads through our own uploader stay private, so keep using Metricool for YouTube with the budget below.
 
 ## Post budget (Metricool free plan: 20 posts per calendar month)
 - Count every post in `getScheduledPosts` whose publication date is in that month, any status. One Metricool post counts once, however many networks it goes to.
-- Long videos come first: always reserve one slot for each Tuesday and Saturday 17:00 still ahead in the month. Shorts only use what is left: `free = 20 - counted - reserved`. If `free <= 0`, no Short that month.
+- Until approval, all slots go to the daily long videos (no Shorts). Shorts only use what is left: `free = 20 - counted - reserved`. If `free <= 0`, no Short that month.
 - Every Short is one post to every connected network at once (YouTube Short + Instagram Reel + TikTok), so each slot gets the most reach.
 - If the user upgrades the plan, they will say so; then this section goes away.
 
 ## A. Every day: link and schedule due Shorts (≈5 min)
-Order of a run: A, then C, then B (every day).
+Order of a run: A, then C, then B (every day). Until `studio/yt/APPROVED` exists, Part A is skipped (no Shorts).
 1. Read `studio/queue.json`. Take items with `status: "pending"` and `due` today or earlier.
 2. For each item, find the long video whose title equals `long_title` in `getScheduledPosts` with status PUBLISHED and take its `publicUrl`. Not published yet: leave the item pending, retry tomorrow.
 3. Check the post budget for the month of `due`. No free slot: leave it pending and set `due` to the 1st of the next month at 12:00. Max 1 Short per day.
@@ -48,9 +48,13 @@ GitHub Actions `trend-scan` runs at 05:15, 13:15 and 21:15 UTC and writes `studi
 5. Never copy a title, thumbnail or script. Take the pattern, not the content. Our own numbers (insights.md) beat outside trends when they disagree.
 6. Commit and push. Only report when a new rule was added or something failed.
 
-## B. Every day: build the next 2.5-hour video (owner's choice since 2026-10-11)
-Format: every long video is ONE big theme of about 2.5 hours (140–160 min, 20,000–22,000 words), split into 12 parts of ~1,700 words (~12 min each). Think "the complete guide": e.g. "The Psychology of Your Brain at Night". Each part works like a strong mini-video (own question, own study, re-hook at the end that pulls into the next part). Never filler, never repeating a point to gain minutes: if the theme can't carry 12 strong parts, pick a bigger theme.
-Rhythm: publish 2 long videos a week (Tuesday and Saturday 17:00). Production runs every day: write 4 parts per run (research + script), so one video is complete every 3 runs. Shorts: 1 per part (12 per video), cut from the strongest moment of that part.
+## B. Every day: one 2.5-hour video (owner's strategy since 2026-10-11)
+Strategy: publish ONE long video every day at 17:00, about 2.5 hours (140–160 min, 20,000–22,000 words), about ONE topic, with a calm, warm vibe. No Shorts until `studio/yt/APPROVED` exists (Part A then does nothing).
+- One topic, one flowing story (e.g. "Your Brain at Night, Explained" = we follow the brain through one night). Viewers never see "parts": no "Part one", no part numbers, no "in this part", no progress bar, no chapter list in the description. Move on with natural spoken transitions ("Now, let's go deeper into the night...").
+- Calm and warm: set `"vibe": "calm"` in the video and in every block. Unhurried sentences, friendly and cozy, no hype words, no shouting caps, no "SMASH that like". Calm sprites only (HAPPY, NEUTRAL, THINKING, CALM-looking poses; never SHOCKED, ANGRY or panic effects). Warm, soft backgrounds (bedroom_night, living_room_day, cozy ones). The renderer then uses the calm voice (am_michael at 0.92), longer pauses, warm grade, crossfades, no sound effects and soft amber captions.
+- Internally the script is split into 12 blocks of ~1,700 words (`lfNN_b01` ... `lfNN_b12`, listed in `parts`) only so GitHub can render them in parallel. Block boundaries are invisible: the story just continues.
+- Order of each daily run: first B5 (schedule yesterday's rendered video for today 17:00), then write today's complete video (all 12 blocks) and start its render (B4).
+- Metricool free plan = 20 posts a month: until `studio/yt/APPROVED` exists, all 20 go to these long videos; when the month's budget is used up, keep producing and rendering (so videos are ready), but schedule them from the 1st of next month, and say so in the report. After approval: our own uploader, every day, no limit.
 
 ### B0. Setup
 ```
@@ -63,11 +67,11 @@ bash studio/setup.sh      # Kokoro voice (Apache-2.0) + espeak-ng; prints "voice
 - For 2.5 h videos, watch time in minutes matters more than %; a part where many viewers drop → make the matching part of the next video shorter and punchier.
 
 ### B2. Theme and plan (when no video is in progress)
-- A video is "in progress" when `studio/assetedit/videos/<id>.json` exists without `studio/renders/<id>/result.json`. Continue it first.
-- New video: next id `lfNN`. Pick a theme from `series.json` (or a bigger cousin of what B1 shows works). Title: short and punchy, max ~40 characters, curiosity first (e.g. "Your Brain at Night, Explained"), never clickbait the video doesn't deliver. Write `videos/lfNN.json` = `{id, title, desc, tags, sources, thumb, parts: ["lfNN_p01" ... "lfNN_p12"], plan: [12 one-line part outlines]}` and add the title to `series.json`. Keep 3 planned titles after it.
+- A video is "in progress" when `studio/assetedit/videos/<id>.json` exists without `studio/renders/<id>/result.json`. Finish it first.
+- New video: next id `lfNN`. Pick a theme from `series.json` (or a bigger cousin of what B1 shows works). Title: short and punchy, max ~40 characters, curiosity first (e.g. "Your Brain at Night, Explained"), never clickbait the video doesn't deliver. Write `videos/lfNN.json` = `{id, title, desc, tags, sources, thumb, vibe: "calm", parts: ["lfNN_b01" ... "lfNN_b12"], plan: [12 one-line block outlines]}` and add the title to `series.json`. Keep 3 planned titles after it.
 
-### B3. Research and script (4 parts per run)
-- Every part file `videos/lfNN_pXX.json` = `{id, part: true, voice, segments}` in the segment format of `videos/lf01.json`. Every part starts with a `chapter` segment (`n` = part number, `title` = part title). Part 1 opens with the hook (payoff promised within 15 s) and an "In this video" list of the 12 parts, then its chapter. Part 12 ends with practical takeaways, a callback to the opening and an `end` segment teasing the next video.
+### B3. Research and script (all 12 blocks in one run)
+- Every block file `videos/lfNN_bXX.json` = `{id, part: true, vibe: "calm", segments}` in the segment format of `videos/lf01.json`. A new subtopic may start with a `chapter` segment: in calm videos it shows as a quiet caption of its `title` (no number) and its `say` is a natural transition, never "Part X". Block 1 opens with a gentle hook (what we'll discover tonight, within 15 s) and an overview list titled e.g. "Tonight, we'll explore" (no part numbers). Block 12 ends with calm takeaways, a callback to the opening and an `end` segment teasing tomorrow's video.
 - ~1,700 words per part (`python3 studio/est.py <part>` for a time check, ≈11–13 min each). 2–4 web searches per part; every number, study, name and year from a source you opened; add them to the video's `sources`.
 - Motion and variety (this is what keeps people watching for 2.5 h): per part at least 1 `photo` scene with an AI B-roll image (see AI images) or a free photo, a mix of `list`, `study`, `stat`, `bars`, `curve`, `quote`, `char` scenes, never more than 3 `char` scenes in a row, and different sprites/backgrounds leading each part. Captions, character motion, drifting backgrounds, transitions and the part progress bar are automatic.
 - Real screenshots (`screen` scenes) only when the topic is about a real tool, site or app and seeing it helps. Never reuse a screenshot; vary `move`, `focus` and `side`. Public pages only, never logged-in dashboards, never edited, never implying a sponsor. List them in the channel's `shots.json` ({file, url}); the `screenshots` workflow fetches them; look at every shot before using it.
@@ -76,7 +80,7 @@ bash studio/setup.sh      # Kokoro voice (Apache-2.0) + espeak-ng; prints "voice
 - Push `photos.json` / `shots.json` early in the run so the workflow fetches them while you write.
 - Every video unique: vary hook type, part structure, scene order and mix; never copy the scene list of an earlier video.
 - Use approved sprites and backgrounds only (`longform.validate` enforces this; A07 cannot be used).
-- Shorts: for every finished part add 1 entry to `videos/shorts.json` (`{id: "shNNxx", src: "lfNN_pXX", first, last, top, title, tags}`, the part's strongest ≤58 s moment, hook text on top).
+- Shorts (only once `studio/yt/APPROVED` exists): for every block add 1 entry to `videos/shorts.json` (`{id: "shNNxx", src: "lfNN_pXX", first, last, top, title, tags}`, the part's strongest ≤58 s moment, hook text on top).
 - Check one part locally before committing all: `cd studio/assetedit && python3 -c "import json,longform as L;L.validate(json.load(open('videos/lfNN_pXX.json')))"`.
 
 ### B4. Render (GitHub Actions, free) when all 12 parts are written
@@ -87,8 +91,8 @@ bash studio/setup.sh      # Kokoro voice (Apache-2.0) + espeak-ng; prints "voice
 ### B5. Check and schedule (the run after the render)
 - Look at the 12 review frames and the thumbnail: text overflow, wrong sprite, broken image, captions over the character. Read the description (chapters in h:mm:ss, sources, AI disclosure). Go through every rule in `studio/lessons.md`. Anything wrong: fix and re-render, never schedule it.
 - Thumbnail text in `thumb.text`: max 3 words that add to the title; the strongest emotion sprite.
-- Schedule with Metricool `createScheduledPost` at 17:00 on the next free Tuesday or Saturday: media = [result.json `video`], `videoThumbnailUrl` = result.json `thumb`, text = `studio/renders/lfNN/description.txt`, `youtubeData {title, type: "video", privacy: "public", category: "EDUCATION", madeForKids: false, isAiGeneratedContent: true, tags}`. With `studio/yt/APPROVED`, use our own uploader queue instead (see YouTube route).
-- Shorts: append the 12 Shorts to `studio/queue.json` (status pending, `file` = their URL from result.json, `long_title` = the title, due at 12:00, one per day from the day after the long video). Part A links and schedules them within the post budget.
+- Schedule with Metricool `createScheduledPost` at 17:00 today (or the next day without a long video; see the monthly budget): media = [result.json `video`], `videoThumbnailUrl` = result.json `thumb`, text = `studio/renders/lfNN/description.txt`, `youtubeData {title, type: "video", privacy: "public", category: "EDUCATION", madeForKids: false, isAiGeneratedContent: true, tags}`. With `studio/yt/APPROVED`, use our own uploader queue instead (see YouTube route).
+- Shorts (only after approval): append the 12 Shorts to `studio/queue.json` (status pending, `file` = their URL from result.json, `long_title` = the title, due at 12:00, one per day from the day after the long video). Part A links and schedules them within the post budget.
 
 ### B6. Save and report
 - Commit the JSON files, `insights.md`, `series.json` and `queue.json`. Never commit renders/, audio wav or models.

@@ -67,9 +67,10 @@ def voice(v):
     for i, s in enumerate(v["segments"]):
         start = t
         for sent in re.split(r"(?<=[.!?])\s+", s["say"].strip()):
-            a = k.speak(sent, v.get("voice", "am_puck"), 1.0)
+            a = k.speak(sent, v.get("voice", "am_michael" if v.get("vibe") == "calm" else "am_puck"), v.get("speed", 0.92 if v.get("vibe") == "calm" else 1.0))
             nz = np.nonzero(np.abs(a) > 0.01)[0]; a = a[max(0, nz[0] - 600):nz[-1] + 1200]
-            out += [a, np.zeros(int(0.4 * k.SR), np.float32)]; t += len(a) / k.SR + 0.4
+            ps = 0.65 if v.get("vibe") == "calm" else 0.4
+            out += [a, np.zeros(int(ps * k.SR), np.float32)]; t += len(a) / k.SR + ps
         gap = {"chapter": 0.9, "end": 2.0}.get(s["show"]["type"], 0.5)
         out.append(np.zeros(int(gap * k.SR), np.float32)); t += gap
         timing.append({"seg": i, "start": round(start, 3), "end": round(t, 3)})
@@ -80,6 +81,16 @@ def voice(v):
 
 # ---------- drawing ----------
 _bg, _spr = {}, {}
+CALM = [False]  # vibe "calm": warm grade, crossfades, no punch/flash/sfx, slower voice (set by the render loop)
+_vig = {}
+def warm(img):
+    """Warm, soft look for calm videos: amber tint + gentle vignette."""
+    if "m" not in _vig:
+        y, x = np.mgrid[0:H, 0:W]; r = np.sqrt(((x - W / 2) / (W / 2)) ** 2 + ((y - H / 2) / (H / 2)) ** 2)
+        m = np.clip(1 - 0.32 * np.clip(r - 0.55, 0, 1) ** 1.4, 0, 1)
+        _vig["m"] = Image.fromarray((np.dstack([m * 255, m * 238, m * 215])).astype(np.uint8))
+    from PIL import ImageChops
+    return ImageChops.multiply(img, _vig["m"])
 NOW = [0.0]  # global time of the frame being drawn (set by the render loop)
 def background(bid, dim):
     """Background slowly drifts (8% larger canvas, slow figure-eight) so no shot is fully still."""
@@ -112,9 +123,10 @@ def sprite(aid, scale):
 
 def place_sprite(img, aid, cx, base_scale, lt):
     """Pop in, then idle: slow breathing + bob so the character never looks frozen."""
-    br = 1 + 0.012 * math.sin(lt * 2.2) if lt > 0.4 else 1
-    sp = sprite(aid, base_scale * pop(lt) * br)
-    img.paste(sp, (round(cx - sp.width / 2 + 6 * math.sin(lt * 0.9)), round(H - sp.height + 10 + 7 * math.sin(lt * 2.2 + 1))), sp)
+    sp_ = 1.3 if CALM[0] else 2.2
+    br = 1 + 0.012 * math.sin(lt * sp_) if (lt > 0.4 or CALM[0]) else 1
+    sp = sprite(aid, base_scale * (1 if CALM[0] else pop(lt)) * br)
+    img.paste(sp, (round(cx - sp.width / 2 + 6 * math.sin(lt * 0.6)), round(H - sp.height + 10 + 7 * math.sin(lt * sp_ + 1))), sp)
 
 def panel(d, box, fill=CREAM):
     x0, y0, x1, y1 = box
@@ -232,6 +244,8 @@ def photo(sh, lt, dur):
 
 def frame_for(seg, lt, dur, beat=0):
     sh = seg["show"]; t = sh["type"]
+    if CALM[0] and t == "chapter":
+        seg = dict(seg, show=dict(sh, type="char", cap=sh["title"], sub=None)); sh = seg["show"]; t = "char"
     if t == "photo":
         img = photo(sh, lt, dur)
         if sh.get("sprite"): place_sprite(img, sh["sprite"], 1650, 1.8, lt)
@@ -242,19 +256,24 @@ def frame_for(seg, lt, dur, beat=0):
     fullscreen = t in ("char", "chapter", "end")
     img = background(sh["bg"], dim=not fullscreen or t != "char").copy()
     d = ImageDraw.Draw(img)
-    oy = round((1 - ease(lt / 0.3)) * 60)
+    oy = round((1 - ease(lt / (0.8 if CALM[0] else 0.3))) * (30 if CALM[0] else 60))
     card_static(d, sh, oy)
     if oy == 0: card_dynamic(d, sh, lt, dur)
     if t == "char": place_sprite(img, sh["sprite"], 1420, 3.1, lt)
     elif t in ("chapter", "end"): place_sprite(img, sh["sprite"], 1560, 2.6, lt)
     else: place_sprite(img, sh["sprite"], 1620, 2.0, lt)
     z = 1.0
-    if t == "char": z = (1.07 if beat % 2 else 1.0) + 0.025 * min(lt / max(dur, 0.1), 1)  # slow push-in keeps static shots alive
+    if t == "char": z = 1.0 + (0.035 if CALM[0] else 0.025) * min(lt / max(dur, 0.1), 1) + (0 if CALM[0] else (0.07 if beat % 2 else 0))  # slow push-in keeps static shots alive
     return finish(img, seg, lt, z)
 
 def finish(img, seg, lt, z=1.0):
     """Motion-graphics layer on every frame: punch-in transition on each new scene, white flash on chapters,
     and a progress bar for the current part (seg['_p'] = [n, title, start, end], set by the render loop)."""
+    if CALM[0]:
+        if z > 1.001:
+            cw, ch = W / z, H / z
+            img = img.resize((W, H), Image.BILINEAR, box=((W - cw) / 2, (H - ch) / 2, (W + cw) / 2, (H + ch) / 2))
+        return warm(img)
     if lt < 0.22: z *= 1 + 0.06 * (1 - ease(lt / 0.22))
     if z > 1.001:
         cw, ch = W / z, H / z
@@ -276,10 +295,10 @@ def music(total, timing, v, path, sr=24000):
         seg = t[a:b] - t[a]; env = np.minimum(1, seg / 1.5) * np.minimum(1, (6.86 - seg) / 1.5)
         out[a:b] += env * sum(np.sin(2 * np.pi * f / 2 * seg) + 0.3 * np.sin(2 * np.pi * f * seg) for f in ch)
     for s, tm in zip(v["segments"], timing):  # silence the bed around chapter cards = "drop before the reveal"
-        if s["show"]["type"] == "chapter":
+        if s["show"]["type"] == "chapter" and v.get("vibe") != "calm":
             a, b = int((tm["start"] - 0.8) * sr), int((tm["end"] + 0.6) * sr); out[max(a, 0):b] *= 0.0
     out = np.convolve(out, np.ones(60) / 60, "same")  # soften
-    out = out / np.sqrt((out ** 2).mean() + 1e-9) * 10 ** (-40 / 20)  # ~24 dB under the -16 LUFS voice
+    out = out / np.sqrt((out ** 2).mean() + 1e-9) * 10 ** ((-43 if v.get("vibe") == "calm" else -40) / 20)  # ~24 dB under the -16 LUFS voice
     sys.path.insert(0, VOICE_DIR); import kokoro_tts as k; k.save(out.astype(np.float32), path)
     return path
 
@@ -319,7 +338,7 @@ def description(v, timing, series, path):
     chap = [("0:00", "Intro")] + [(ts(timing[i]["start"]), s["show"]["title"]) for i, s in enumerate(v["segments"]) if s["show"]["type"] == "chapter"]
     idx = [x["id"] for x in series].index(v["id"])
     nxt = series[idx + 1:idx + 4]
-    lines = [v["desc"], "", "\u23f1 Chapters"] + [f"{a} {b}" for a, b in chap] + ["", "\U0001f52e Coming up next on the channel:"]
+    lines = [v["desc"]] + (["", "\u23f1 Chapters"] + [f"{a} {b}" for a, b in chap] if v.get("vibe") != "calm" else []) + ["", "\U0001f52e Coming up next on the channel:"]
     lines += [f"\u25b8 {x['title']}" for x in nxt] + ["", "\U0001f4da Sources"] + [f"\u2022 {s}" for s in v["sources"]]
     cpath = os.path.join(CH, "photos", "credits.json"); used = [s["show"]["file"] for s in v["segments"] if s["show"]["type"] == "photo"]
     if used and os.path.exists(cpath):
@@ -348,7 +367,8 @@ if __name__ == "__main__":
     vf = []
     if v.get("captions", True):
         from shorts import captions
-        cap = out[:-4] + ".ass"; captions(v["segments"], timing, 0, total, cap, res=(W, H), size=60, outline=7, marginv=40, ml=90, mr=760); vf = ["-vf", "ass=" + cap]
+        cap = out[:-4] + ".ass"; captions(v["segments"], timing, 0, total, cap, res=(W, H), size=56 if v.get("vibe") == "calm" else 60, outline=6 if v.get("vibe") == "calm" else 7,
+                                          marginv=40, ml=90, mr=760, calm=v.get("vibe") == "calm"); vf = ["-vf", "ass=" + cap]
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", *vf,
                            "-c:v", "libx264", "-preset", "veryfast", "-crf", "19", "-pix_fmt", "yuv420p", silent], stdin=subprocess.PIPE)
     import wave
@@ -356,17 +376,23 @@ if __name__ == "__main__":
     quiet = np.convolve(va > 300, np.ones(int(0.3 * sr)), "valid") == 0  # 0.3 s of silence = sentence gap
     beats = np.flatnonzero(np.diff(quiet.astype(int)) == -1) / sr + 0.3
     si = 0
+    CALM[0] = v.get("vibe") == "calm"; prev, last_si = None, -1
     for f in range(N):
         t = f / FPS; NOW[0] = t
         while si + 1 < len(timing) and t >= timing[si + 1]["start"]: si += 1
         seg, tm = v["segments"][si], timing[si]
-        ff.stdin.write(frame_for(seg, t - tm["start"], tm["end"] - tm["start"], int(((beats > tm["start"] + 0.2) & (beats <= t)).sum())).tobytes())
+        fr = frame_for(seg, t - tm["start"], tm["end"] - tm["start"], int(((beats > tm["start"] + 0.2) & (beats <= t)).sum()))
+        if CALM[0]:  # 0.7 s crossfade from the last frame of the previous scene
+            if si != last_si: hold, last_si = prev, si
+            if hold is not None and t - tm["start"] < 0.7: fr = Image.blend(hold, fr, ease((t - tm["start"]) / 0.7))
+            prev = fr
+        ff.stdin.write(fr.tobytes())
         if f % (FPS * 30) == 0: print(f"video {t / total:5.1%}", flush=True)
     ff.stdin.close(); ff.wait()
     # sfx: soft whoosh on every card/chapter, pop on character scenes
     sfx = os.path.join(HERE, "..", "remotion", "public", "sfx"); ins, flt, lab = ["-i", wav], ["[1]loudnorm=I=-16:TP=-1.5[v]"], ["[v]"]
     for i, (s, tm) in enumerate(zip(v["segments"], timing)):
-        if i == 0: continue
+        if i == 0 or CALM[0]: continue
         ins += ["-i", os.path.join(sfx, {"char": "pop.wav", "stat": "boom.wav", "bars": "boom.wav"}.get(s["show"]["type"], "whoosh.wav"))]
         ms = round(tm["start"] * 1000); flt.append(f"[{len(lab) + 1}]adelay={ms}|{ms},volume=0.22[s{i}]"); lab.append(f"[s{i}]")
     ins += ["-i", music(total, timing, v, out[:-4] + "_music.wav")]; flt.append(f"[{len(lab) + 1}]anull[mu]"); lab.append("[mu]")

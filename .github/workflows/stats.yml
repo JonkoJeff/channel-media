@@ -2,10 +2,11 @@ name: hub-stats
 # Every 15 min: fresh YouTube numbers (YouTube Data API, ~3 quota units per run) -> studio/yt/status.json + hub/data.json for the screen hub.
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
+  actions: read
 concurrency: hub-stats
 jobs:
   stats:
@@ -20,6 +21,8 @@ jobs:
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           CHECK_ONLY: '1'
       - run: python studio/yt/hubdata.py
+        env:
+          GH_TOKEN: ${{ github.token }}
       - run: |
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
           git add studio/yt/status.json hub/data.json && git commit -qm "Hub stats" && git pull --rebase -q && git push -q || true

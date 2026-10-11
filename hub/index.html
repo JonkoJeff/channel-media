@@ -7,121 +7,265 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
 <style>
-  :root{--bg:#0d1020;--panel:#151a30;--panel2:#1b2140;--line:#262d52;--text:#eef0ff;--muted:#8e95c2;--amber:#ffb03b;--green:#3ddc84;--red:#ff5d5d;--blue:#6aa8ff;--violet:#a98bff}
+  :root{--bg:#0d1020;--panel:#151a30;--panel2:#1b2140;--line:#262d52;--grid:#232a4a;--text:#eef0ff;--muted:#8e95c2;--amber:#ffb03b;--green:#3ddc84;--red:#ff5d5d;--long:#c9781f;--short:#8f6ef0;--accent:#ffb03b}
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:radial-gradient(1200px 600px at 10% -10%,#22285a 0%,transparent 60%),radial-gradient(900px 500px at 110% 10%,#3a2340 0%,transparent 55%),var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;min-height:100vh;padding:28px clamp(16px,3vw,44px)}
-  header{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-bottom:26px}
-  header img{width:64px;height:64px;border-radius:50%;border:3px solid var(--amber);object-fit:cover;background:#222}
-  h1{font-size:clamp(22px,2.4vw,34px);font-weight:900;letter-spacing:-.5px}
+  body{background:radial-gradient(1200px 600px at 10% -10%,#22285a 0%,transparent 60%),radial-gradient(900px 500px at 110% 10%,#3a2340 0%,transparent 55%),var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;min-height:100vh;padding:24px clamp(16px,2.6vw,40px)}
+  header{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-bottom:22px}
+  header img{width:60px;height:60px;border-radius:50%;border:3px solid var(--amber);object-fit:cover;background:#222}
+  h1{font-size:clamp(22px,2.3vw,32px);font-weight:900;letter-spacing:-.5px}
   .sub{color:var(--muted);font-size:14px;margin-top:2px}
   .live{margin-left:auto;display:flex;align-items:center;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:10px 16px;font-size:14px;color:var(--muted)}
-  .dot{width:10px;height:10px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(61,220,132,.7);animation:pulse 2s infinite}
+  .dot{width:10px;height:10px;border-radius:50%;background:var(--green);animation:pulse 2s infinite}
   .dot.stale{background:var(--amber);animation:none}
-  @keyframes pulse{70%{box-shadow:0 0 0 10px rgba(61,220,132,0)}100%{box-shadow:0 0 0 0 rgba(61,220,132,0)}}
-  .grid{display:grid;gap:18px}
-  .kpis{grid-template-columns:repeat(auto-fit,minmax(210px,1fr));margin-bottom:18px}
-  .card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:22px;padding:22px}
-  .kpi .label{color:var(--muted);font-size:14px;font-weight:600;text-transform:uppercase;letter-spacing:.08em}
-  .kpi .val{font-size:clamp(40px,4.6vw,64px);font-weight:900;margin:6px 0 4px;letter-spacing:-1.5px}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(61,220,132,.7)}70%{box-shadow:0 0 0 10px rgba(61,220,132,0)}100%{box-shadow:0 0 0 0 rgba(61,220,132,0)}}
+  .grid{display:grid;gap:16px;margin-bottom:16px}
+  .kpis{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+  .card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:22px;padding:20px 22px;min-width:0}
+  .kpi .label{color:var(--muted);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+  .kpi .val{font-size:clamp(40px,4.4vw,62px);font-weight:900;margin:4px 0 2px;letter-spacing:-1.5px;line-height:1.05}
   .kpi .hint{color:var(--muted);font-size:14px}
+  .up{color:var(--green);font-weight:800}
   .bar{height:10px;background:#0b0e1d;border-radius:99px;overflow:hidden;margin-top:12px}
-  .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--amber),#ff7a59);border-radius:99px}
-  .two{grid-template-columns:repeat(auto-fit,minmax(320px,1fr));margin-bottom:18px}
-  h2{font-size:18px;font-weight:800;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+  .bar i{display:block;height:100%;background:var(--amber);border-radius:99px}
+  .wide{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}
+  @media (max-width:980px){.wide{grid-template-columns:1fr}}
+  h2{font-size:18px;font-weight:800;margin-bottom:14px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
   .pill{font-size:12px;font-weight:700;padding:4px 10px;border-radius:99px;background:#232a52;color:var(--muted)}
-  .split{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-  .split div{background:#0f1328;border:1px solid var(--line);border-radius:16px;padding:16px}
-  .split b{display:block;font-size:34px;font-weight:900;margin-top:4px}
-  .split span{color:var(--muted);font-size:13px}
-  .vid{display:grid;grid-template-columns:132px 1fr auto;gap:14px;align-items:center;padding:10px;border-radius:14px;text-decoration:none;color:inherit}
+  .legend{display:flex;gap:16px;font-size:13px;color:var(--muted);margin-left:auto}
+  .legend span{display:flex;align-items:center;gap:6px}
+  .sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+  .chart{position:relative}
+  .chart svg{width:100%;height:auto;display:block;overflow:visible}
+  .tip{position:absolute;pointer-events:none;background:#0b0e1d;border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:13px;color:var(--text);white-space:nowrap;opacity:0;transition:opacity .1s;transform:translate(-50%,-110%)}
+  .tip b{display:block;font-size:16px}
+  .empty{color:var(--muted);font-size:14px;padding:8px 0}
+  /* systems map */
+  .counters{display:flex;gap:8px;flex-wrap:wrap;margin-left:auto}
+  .cnt{font-size:12px;font-weight:800;padding:5px 11px;border-radius:99px;border:1px solid var(--line);background:#11152b;display:flex;align-items:center;gap:6px;font-family:ui-monospace,Menlo,monospace}
+  .cnt i{width:8px;height:8px;border-radius:50%;display:inline-block}
+  .map{position:relative;background:#0e1226;background-image:linear-gradient(#171c38 1px,transparent 1px),linear-gradient(90deg,#171c38 1px,transparent 1px);background-size:28px 28px;border:1px solid var(--line);border-radius:18px;overflow:hidden}
+  .map svg{width:100%;height:auto;display:block}
+  .edge{fill:none;stroke-width:2.2}
+  .edge.live{stroke:#2fd9b4;stroke-dasharray:10 8;animation:flow 1.6s linear infinite}
+  .edge.plan{stroke:#e6a23c;stroke-dasharray:3 7;opacity:.85}
+  .edge.err{stroke:#ff5d5d;stroke-dasharray:3 7}
+  @keyframes flow{to{stroke-dashoffset:-36}}
+  .node circle.ring{fill:#0f1a2a;stroke-width:3}
+  .node.live circle.ring{stroke:#2fd9b4;filter:drop-shadow(0 0 8px rgba(47,217,180,.55))}
+  .node.plan circle.ring{stroke:#e6a23c;filter:drop-shadow(0 0 6px rgba(230,162,60,.45))}
+  .node.err circle.ring{stroke:#ff5d5d;filter:drop-shadow(0 0 8px rgba(255,93,93,.6))}
+  .node .card{fill:#141a33;stroke:#2b335c;stroke-width:1.2}
+  .node.live .card{stroke:#24796a}.node.plan .card{stroke:#7a5a26}.node.err .card{stroke:#8a2f35}
+  .node text{font-family:Inter,system-ui,sans-serif}
+  .node:hover .card{fill:#1b2347}
+  @media (prefers-reduced-motion:reduce){.edge.live{animation:none}}
+  /* schedule */
+  .days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:10px}
+  @media (max-width:980px){.days{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}}
+  .day{background:#0f1328;border:1px solid var(--line);border-radius:16px;padding:14px;min-height:150px;display:flex;flex-direction:column;gap:6px}
+  .day.today{border-color:var(--amber)}
+  .day .d{font-size:13px;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+  .day .tm{font-size:22px;font-weight:900}
+  .day .ttl{font-size:14px;font-weight:700;line-height:1.3}
+  .st{font-size:12px;font-weight:800;padding:3px 9px;border-radius:99px;align-self:flex-start;margin-top:auto}
+  .st.gepland{background:rgba(255,176,59,.16);color:var(--amber)}
+  .st.online{background:rgba(61,220,132,.14);color:var(--green)}
+  .st.maak{background:rgba(143,110,240,.18);color:#b9a3ff}
+  .st.open{background:#1d2346;color:var(--muted)}
+  .day.open .ttl{color:var(--muted);font-weight:600}
+  .vid{display:grid;grid-template-columns:120px 1fr auto;gap:14px;align-items:center;padding:8px;border-radius:14px;text-decoration:none;color:inherit}
   .vid:hover{background:#1f2650}
-  .vid img{width:132px;aspect-ratio:16/9;object-fit:cover;border-radius:10px;background:#000}
+  .vid img{width:120px;aspect-ratio:16/9;object-fit:cover;border-radius:10px;background:#000}
   .vid .t{font-weight:700;font-size:15px;line-height:1.3}
   .vid .m{color:var(--muted);font-size:13px;margin-top:4px}
   .vid .v{font-size:24px;font-weight:900;text-align:right}
   .vid .v small{display:block;font-size:11px;color:var(--muted);font-weight:600}
-  .tag{font-size:11px;font-weight:800;padding:2px 8px;border-radius:6px;margin-right:6px}
-  .tag.long{background:rgba(255,176,59,.16);color:var(--amber)}.tag.short{background:rgba(169,139,255,.16);color:var(--violet)}
-  .row{display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid var(--line);gap:12px}
+  .tag{font-size:11px;font-weight:800;padding:2px 8px;border-radius:6px;margin-right:6px;color:var(--text)}
+  .row{display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px solid var(--line);gap:12px;font-size:15px}
   .row:last-child{border:0}
-  .ok{color:var(--green);font-weight:800}.wait{color:var(--amber);font-weight:800}.err{color:var(--red);font-weight:800}
-  .empty{color:var(--muted);font-size:14px;padding:8px 0}
-  footer{color:var(--muted);font-size:12px;margin-top:20px;text-align:center}
-  @media (max-width:560px){.vid{grid-template-columns:96px 1fr}.vid img{width:96px}.vid .v{grid-column:2;text-align:left}.live{margin-left:0}}
+  .ok{color:var(--green);font-weight:800}.wait{color:var(--amber);font-weight:800}
+  footer{color:var(--muted);font-size:12px;margin-top:8px;text-align:center}
+  @media (max-width:560px){.vid{grid-template-columns:90px 1fr}.vid img{width:90px}.vid .v{grid-column:2;text-align:left}.live{margin-left:0}}
 </style>
 </head>
 <body>
 <header>
   <img src="../studio/assetedit/branding/avatar.png" alt="">
-  <div><h1>Crazy Facts Hub</h1><div class="sub">Crazy_Factsss · YouTube · rustige 2,5-uursvideo's, elke dag</div></div>
+  <div><h1>Crazy Facts Hub</h1><div class="sub">Crazy_Factsss · elke dag één rustige video van 2,5 uur</div></div>
   <div class="live"><span class="dot" id="dot"></span><span id="upd">laden…</span></div>
 </header>
 
 <section class="grid kpis">
-  <div class="card kpi"><div class="label">Abonnees</div><div class="val" id="subs">–</div><div class="hint" id="subsHint">doel 1.000 voor monetisatie</div><div class="bar"><i id="subsBar" style="width:0"></i></div></div>
-  <div class="card kpi"><div class="label">Views totaal</div><div class="val" id="views">–</div><div class="hint" id="viewsHint">alle video's samen</div></div>
+  <div class="card kpi"><div class="label">Views totaal</div><div class="val" id="views">–</div><div class="hint" id="views24">–</div></div>
+  <div class="card kpi"><div class="label">Abonnees</div><div class="val" id="subs">–</div><div class="hint" id="subsHint">–</div><div class="bar"><i id="subsBar" style="width:0"></i></div></div>
   <div class="card kpi"><div class="label">Video's online</div><div class="val" id="count">–</div><div class="hint" id="countHint"></div></div>
-  <div class="card kpi"><div class="label">Likes + reacties</div><div class="val" id="eng">–</div><div class="hint">betrokkenheid</div></div>
+  <div class="card kpi"><div class="label">Volgende upload</div><div class="val" id="next" style="font-size:clamp(30px,3vw,44px)">–</div><div class="hint" id="nextHint"></div></div>
 </section>
 
-<section class="grid two">
-  <div class="card"><h2>Lang vs Shorts</h2>
-    <div class="split">
-      <div><span>Lange video's</span><b id="lv">–</b><span id="lvs"></span></div>
-      <div><span>Shorts</span><b id="sv">–</b><span id="svs"></span></div>
-    </div>
-  </div>
-  <div class="card"><h2>Systeem <span class="pill">automatisch</span></h2>
-    <div class="row"><span>YouTube-data (elke 15 min)</span><span id="apiData" class="ok">–</span></div>
-    <div class="row"><span>YouTube API-goedkeuring</span><span id="apiAudit" class="wait">–</span></div>
-    <div class="row"><span>Uploadroute</span><span id="route">–</span></div>
-    <div class="row"><span>Dagelijkse run</span><span>09:47 · Gmail-check 09:32</span></div>
-  </div>
+<section class="card" style="margin-bottom:16px">
+  <h2>Systemen &amp; koppelingen <span class="counters" id="counters"></span></h2>
+  <div class="map" id="map"></div>
 </section>
 
-<section class="grid two">
+<section class="card" style="margin-bottom:16px">
+  <h2>Planning · komende 7 dagen <span class="pill" id="budget"></span></h2>
+  <div class="days" id="days"></div>
+</section>
+
+<section class="grid wide">
+  <div class="card"><h2>Views over tijd <span class="legend" id="lineLegend"></span></h2><div class="chart" id="lineChart"></div></div>
+  <div class="card"><h2>Views per video <span class="legend"><span><i class="sw" style="background:var(--long)"></i>Lang</span><span><i class="sw" style="background:var(--short)"></i>Short</span></span></h2><div class="chart" id="barChart"></div></div>
+</section>
+
+<section class="grid wide">
   <div class="card"><h2>Populaire video's <span class="pill" id="vidPill"></span></h2><div id="videos"></div></div>
-  <div class="card"><h2>Gepland &amp; in de maak</h2><div id="planned"></div></div>
+  <div class="card"><h2>Systeem <span class="pill">automatisch</span></h2>
+    <div class="row"><span>YouTube-cijfers</span><span id="apiData" class="ok">–</span></div>
+    <div class="row"><span>API-goedkeuring Google</span><span id="apiAudit" class="wait">–</span></div>
+    <div class="row"><span>Uploadroute</span><span id="route">–</span></div>
+    <div class="row"><span>Nieuwe video maken</span><span>dagelijks 09:47</span></div>
+    <div class="row"><span>Gmail-check audit</span><span>elk uur</span></div>
+    <div class="row"><span>Trendstudie</span><span>elke 8 uur</span></div>
+  </div>
 </section>
-<footer>Data: YouTube Data API via GitHub Actions · ververst elke 15 minuten · deze pagina haalt elke minuut de nieuwste data op</footer>
+<footer>Data: YouTube Data API via GitHub Actions · nieuwe cijfers elke 15 minuten · pagina haalt elke minuut de nieuwste data op</footer>
 
 <script>
 const nf = n => (n ?? 0).toLocaleString('nl-NL');
 const el = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-function ago(iso){ if(!iso) return '?'; const m = Math.round((Date.now() - new Date(iso.replace('Z',':00Z')).getTime())/60000); return m < 1 ? 'zojuist' : m < 60 ? m + ' min geleden' : Math.round(m/60) + ' uur geleden'; }
+const T = iso => new Date(iso.length === 17 ? iso.replace('Z', ':00Z') : iso);
+const AMS = {timeZone:'Europe/Amsterdam'};
+function ago(iso){ if(!iso) return '?'; const m = Math.round((Date.now() - T(iso))/60000); return m < 1 ? 'zojuist' : m < 60 ? m + ' min geleden' : Math.round(m/60) + ' uur geleden'; }
 function dur(s){ const h = Math.floor(s/3600), m = Math.floor(s%3600/60), x = s%60; return h ? `${h}:${String(m).padStart(2,'0')}:${String(x).padStart(2,'0')}` : `${m}:${String(x).padStart(2,'0')}`; }
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+function lineChart(hist){
+  const box = el('lineChart'); if (hist.length < 2){ box.innerHTML = '<div class="empty">De grafiek vult zich vanzelf: elke 15 minuten komt er een meetpunt bij.</div>'; el('lineLegend').innerHTML=''; return; }
+  const W = 760, H = 260, L = 48, R = 16, Tp = 14, B = 30, max = Math.max(5, ...hist.map(h => h.views));
+  const t0 = T(hist[0].t).getTime(), t1 = T(hist[hist.length-1].t).getTime() || t0 + 1;
+  const x = t => L + (W - L - R) * (T(t).getTime() - t0) / Math.max(1, t1 - t0), y = v => Tp + (H - Tp - B) * (1 - v / max);
+  const ticks = [0, .25, .5, .75, 1].map(f => Math.round(max * f));
+  const path = k => hist.map((h, i) => `${i ? 'L' : 'M'}${x(h.t).toFixed(1)},${y(h[k]).toFixed(1)}`).join('');
+  const fmt = t => T(t).toLocaleString('nl-NL', {...AMS, day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'});
+  box.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Totaal aantal views over tijd">
+    ${ticks.map(v => `<line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" stroke="${css('--grid')}" stroke-width="1"/><text x="${L-8}" y="${y(v)+4}" fill="${css('--muted')}" font-size="12" text-anchor="end">${nf(v)}</text>`).join('')}
+    <text x="${L}" y="${H-8}" fill="${css('--muted')}" font-size="12">${fmt(hist[0].t)}</text>
+    <text x="${W-R}" y="${H-8}" fill="${css('--muted')}" font-size="12" text-anchor="end">${fmt(hist[hist.length-1].t)}</text>
+    <path d="${path('views')}" fill="none" stroke="${css('--accent')}" stroke-width="2.5" stroke-linejoin="round"/>
+    <line id="cx" y1="${Tp}" y2="${H-B}" stroke="${css('--muted')}" stroke-width="1" opacity="0"/>
+    <circle id="cd" r="5" fill="${css('--accent')}" stroke="${css('--panel')}" stroke-width="2" opacity="0"/>
+    <text x="${x(hist[hist.length-1].t)-6}" y="${y(hist[hist.length-1].views)-10}" fill="${css('--text')}" font-size="14" font-weight="800" text-anchor="end">${nf(hist[hist.length-1].views)}</text>
+    <rect x="${L}" y="${Tp}" width="${W-L-R}" height="${H-Tp-B}" fill="transparent" id="hit"/></svg><div class="tip" id="ltip"></div>`;
+  el('lineLegend').innerHTML = `<span><i class="sw" style="background:var(--accent)"></i>Views totaal</span>`;
+  const svg = box.querySelector('svg'), tip = el('ltip');
+  el('hit').addEventListener('mousemove', e => {
+    const r = svg.getBoundingClientRect(), px = (e.clientX - r.left) * W / r.width;
+    let best = hist[0]; for (const h of hist) if (Math.abs(x(h.t) - px) < Math.abs(x(best.t) - px)) best = h;
+    const cx = x(best.t), cy = y(best.views);
+    el('cx').setAttribute('x1', cx); el('cx').setAttribute('x2', cx); el('cx').setAttribute('opacity', .6);
+    el('cd').setAttribute('cx', cx); el('cd').setAttribute('cy', cy); el('cd').setAttribute('opacity', 1);
+    tip.innerHTML = `<b>${nf(best.views)} views</b>${fmt(best.t)} · lang ${nf(best.long)} · shorts ${nf(best.short)} · ${nf(best.subs)} abonnees`;
+    tip.style.left = (cx * r.width / W) + 'px'; tip.style.top = (cy * r.height / H) + 'px'; tip.style.opacity = 1;
+  });
+  el('hit').addEventListener('mouseleave', () => { tip.style.opacity = 0; el('cx').setAttribute('opacity', 0); el('cd').setAttribute('opacity', 0); });
+}
+
+function barChart(v){
+  const box = el('barChart'); if (!v.length){ box.innerHTML = '<div class="empty">Nog geen video\'s.</div>'; return; }
+  const rows = [...v].sort((a, b) => b.views - a.views).slice(0, 8), max = Math.max(1, ...rows.map(r => r.views));
+  const W = 520, rh = 38, H = rows.length * rh, L = 190;
+  box.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Views per video">${rows.map((r, i) => {
+    const w = Math.max(4, (W - L - 60) * r.views / max), t = r.title.replace(/\s*#shorts/i, ''); const short = t.length > 26 ? t.slice(0, 25) + '…' : t;
+    return `<g class="b" data-i="${i}"><title>${esc(t)} — ${nf(r.views)} views</title>
+      <text x="${L-10}" y="${i*rh+24}" fill="${css('--text')}" font-size="13" text-anchor="end">${esc(short)}</text>
+      <rect x="${L}" y="${i*rh+9}" width="${w}" height="20" rx="4" fill="${r.type === 'Long' ? css('--long') : css('--short')}"/>
+      <text x="${L+w+8}" y="${i*rh+24}" fill="${css('--text')}" font-size="13" font-weight="800">${nf(r.views)}</text>
+      <rect x="0" y="${i*rh}" width="${W}" height="${rh}" fill="transparent"/></g>`; }).join('')}</svg>`;
+}
+
+function schedule(d){
+  const days = d.schedule || [], today = new Date().toLocaleDateString('sv-SE', AMS);
+  el('budget').textContent = d.approved ? 'eigen uploader · geen limiet' : `Metricool ${d.metricool_used ?? 0}/20 deze maand`;
+  el('days').innerHTML = days.map(x => {
+    const cls = {gepland:'gepland', online:'online', 'in de maak':'maak', open:'open'}[x.status] || 'open';
+    const dt = new Date(x.date + 'T12:00:00').toLocaleDateString('nl-NL', {weekday:'short', day:'numeric', month:'short'});
+    return `<div class="day ${cls === 'open' ? 'open' : ''} ${x.date === today ? 'today' : ''}">
+      <div class="d">${x.date === today ? 'Vandaag' : esc(dt)}</div><div class="tm">${esc(x.time)}</div>
+      <div class="ttl">${esc(x.title)}</div>${x.length ? `<div class="sub">${esc(x.length)}</div>` : ''}${x.blocks ? `<div class="sub">script ${esc(x.blocks)}</div>` : ''}
+      <span class="st ${cls}">${esc(x.status)}</span></div>`; }).join('');
+  const nx = days.find(x => x.status === 'gepland');
+  el('next').textContent = nx ? (nx.date === today ? 'vandaag ' : new Date(nx.date + 'T12:00:00').toLocaleDateString('nl-NL', {weekday:'short'}) + ' ') + nx.time : '—';
+  el('nextHint').textContent = nx ? nx.title : 'nog niets ingepland';
+}
+
+
+// ---------- systems map ----------
+function sysMap(d){
+  const wf = d.workflows || {}, fresh = d.checked_at && (Date.now() - T(d.checked_at)) < 40*60000;
+  const w = (f, ok='live') => { const r = wf[f]; if (!r) return ok; if (r.status !== 'completed') return 'live'; return r.conclusion === 'success' ? 'live' : 'err'; };
+  const N = [
+    {id:'claude', x:600, y:300, ic:'✦', t:'CLAUDE · MACHINE', s:'Dagelijkse run 09:47 · script, check, inplannen', st:'live', big:1},
+    {id:'repo', x:600, y:105, ic:'⎇', t:'GITHUB REPO', s:'Scripts, regels, data', st:'live'},
+    {id:'render', x:330, y:150, ic:'▶', t:'RENDER (ACTIONS)', s:'17 delen parallel · 720p', st:w('render-long.yml')},
+    {id:'voice', x:110, y:85, ic:'♪', t:'KOKORO STEM', s:'Gratis TTS · rustig', st:'live'},
+    {id:'flux', x:110, y:235, ic:'✸', t:'CLOUDFLARE FLUX', s:'AI-beelden · gratis', st:w('screenshots.yml')},
+    {id:'open', x:110, y:385, ic:'▣', t:'OPENVERSE', s:'Vrije foto’s', st:'live'},
+    {id:'esr', x:330, y:30, ic:'⬆', t:'UPSCALER', s:'Real-ESRGAN · HD karakter', st:w('upscale.yml')},
+    {id:'metri', x:600, y:500, ic:'⧗', t:'METRICOOL', s:`Publiceren · ${d.metricool_used ?? 0}/20 deze maand`, st:'live'},
+    {id:'yt', x:880, y:500, ic:'▶', t:'YOUTUBE · CRAZY FACTS', s:'Kanaal live', st:'live'},
+    {id:'mn', x:1100, y:560, ic:'$', t:'MONEY AT NIGHT', s:'Kanaal · nog koppelen', st:'plan'},
+    {id:'ytdata', x:880, y:300, ic:'≡', t:'YOUTUBE DATA API', s:fresh ? 'Cijfers elke 15 min' : 'Cijfers verouderd', st:fresh ? 'live' : 'err'},
+    {id:'ytup', x:1100, y:400, ic:'⇪', t:'EIGEN UPLOADER', s:d.approved ? 'Goedgekeurd · onbeperkt' : 'Wacht op Google-audit', st:d.approved ? 'live' : 'plan'},
+    {id:'gmail', x:1100, y:200, ic:'✉', t:'GMAIL', s:'Audit-check elk uur', st:'live'},
+    {id:'hub', x:880, y:105, ic:'▦', t:'HUB (DEZE PAGINA)', s:'Live dashboard', st:w('stats.yml')},
+    {id:'trends', x:330, y:450, ic:'↗', t:'TRENDSTUDIE', s:'Elke 8 uur · leert van viral video’s', st:w('trends.yml')},
+    {id:'social', x:330, y:575, ic:'⬡', t:'TIKTOK · INSTAGRAM', s:'Na API-goedkeuring', st:'plan'},
+  ];
+  const E = [['claude','repo'],['repo','render'],['render','voice'],['render','flux'],['render','open'],['render','esr'],['claude','metri'],['metri','yt'],
+    ['claude','ytdata'],['ytdata','yt'],['ytdata','hub'],['repo','hub'],['claude','gmail'],['gmail','ytup'],['ytup','yt'],['ytup','mn'],['claude','trends'],['trends','repo'],['metri','social']];
+  const byId = Object.fromEntries(N.map(n => [n.id, n]));
+  const est = (a, b) => (a.st === 'err' || b.st === 'err') ? 'err' : (a.st === 'plan' || b.st === 'plan') ? 'plan' : 'live';
+  const col = {live:'#2fd9b4', plan:'#e6a23c', err:'#ff5d5d'}, lab = {live:'LIVE', plan:'GEPLAND', err:'FOUT'};
+  const edges = E.map(([a, b]) => { const A = byId[a], B = byId[b], mx = (A.x + B.x)/2, my = (A.y + B.y)/2 - 30;
+    return `<path class="edge ${est(A,B)}" d="M${A.x},${A.y} Q${mx},${my} ${B.x},${B.y}"/>`; }).join('');
+  const nodes = N.map(n => { const r = n.big ? 34 : 22, cw = n.big ? 250 : 200, ch = 54, cy = n.y + r + 6;
+    return `<g class="node ${n.st}"><title>${esc(n.t)} — ${esc(n.s)}</title>
+      <circle class="ring" cx="${n.x}" cy="${n.y}" r="${r}"/>
+      <text x="${n.x}" y="${n.y + (n.big ? 11 : 7)}" text-anchor="middle" font-size="${n.big ? 30 : 20}" fill="${col[n.st]}">${n.ic}</text>
+      <rect class="card" x="${n.x - cw/2}" y="${cy}" width="${cw}" height="${ch}" rx="9"/>
+      <text x="${n.x}" y="${cy + 18}" text-anchor="middle" font-size="12.5" font-weight="900" fill="#eef0ff" letter-spacing=".4">${esc(n.t)}</text>
+      <text x="${n.x}" y="${cy + 33}" text-anchor="middle" font-size="10.5" fill="#8e95c2">${esc(n.s.length > 40 ? n.s.slice(0, 39) + '…' : n.s)}</text>
+      <rect x="${n.x - 26}" y="${cy + 39}" width="52" height="11" rx="5.5" fill="${col[n.st]}22" stroke="${col[n.st]}" stroke-width=".8"/>
+      <text x="${n.x}" y="${cy + 47.5}" text-anchor="middle" font-size="7.5" font-weight="900" fill="${col[n.st]}" letter-spacing=".6">● ${lab[n.st]}</text></g>`; }).join('');
+  el('map').innerHTML = `<svg viewBox="0 -10 1220 690" role="img" aria-label="Kaart van alle systemen en koppelingen">${edges}${nodes}</svg>`;
+  const c = s => N.filter(n => n.st === s).length;
+  el('counters').innerHTML = `<span class="cnt">${N.length} systemen</span><span class="cnt"><i style="background:#2fd9b4"></i>${c('live')} live</span><span class="cnt"><i style="background:#e6a23c"></i>${c('plan')} gepland</span><span class="cnt"><i style="background:#ff5d5d"></i>${c('err')} fouten</span>`;
+}
+
 async function load(){
   try{
-    const d = await (await fetch('data.json?t=' + Date.now(), {cache:'no-store'})).json();
-    const ch = d.channels[0] || {}; const v = d.videos || [];
-    const L = v.filter(x => x.type === 'Long'), S = v.filter(x => x.type === 'Short');
+    const [d, hist] = await Promise.all([fetch('data.json?t=' + Date.now(), {cache:'no-store'}).then(r => r.json()), fetch('history.json?t=' + Date.now(), {cache:'no-store'}).then(r => r.ok ? r.json() : []).catch(() => [])]);
+    const ch = d.channels[0] || {}, v = d.videos || [], L = v.filter(x => x.type === 'Long'), S = v.filter(x => x.type === 'Short');
     const sum = a => a.reduce((t, x) => t + (x.views || 0), 0);
+    el('views').textContent = nf(sum(v));
+    el('views24').innerHTML = `<span class="up">+${nf(Math.max(0, d.views24 ?? 0))}</span> in de laatste 24 uur · lang ${nf(sum(L))} · shorts ${nf(sum(S))}`;
     el('subs').textContent = nf(ch.subscriberCount); el('subsBar').style.width = Math.min(100, (ch.subscriberCount || 0) / 10) + '%';
-    el('subsHint').textContent = `${nf(Math.max(0, 1000 - (ch.subscriberCount || 0)))} te gaan tot 1.000`;
-    el('views').textContent = nf(Math.max(sum(v), ch.viewCount || 0));
+    el('subsHint').innerHTML = `${(d.subs24 ?? 0) > 0 ? `<span class="up">+${nf(d.subs24)}</span> vandaag · ` : ''}nog ${nf(Math.max(0, 1000 - (ch.subscriberCount || 0)))} tot 1.000`;
     el('count').textContent = nf(v.length); el('countHint').textContent = `${L.length} lang · ${S.length} Shorts`;
-    el('eng').textContent = nf(v.reduce((t, x) => t + (x.likes || 0) + (x.comments || 0), 0));
-    el('lv').textContent = nf(sum(L)) + ' views'; el('lvs').textContent = `${L.length} video's · gem. ${nf(Math.round(sum(L) / (L.length || 1)))}`;
-    el('sv').textContent = nf(sum(S)) + ' views'; el('svs').textContent = `${S.length} Shorts · gem. ${nf(Math.round(sum(S) / (S.length || 1)))}`;
-    const fresh = d.checked_at && (Date.now() - new Date(d.checked_at.replace('Z',':00Z'))) < 40*60000;
-    el('dot').className = 'dot' + (fresh ? '' : ' stale');
-    el('upd').textContent = 'YouTube-data ' + ago(d.checked_at);
+    const fresh = d.checked_at && (Date.now() - T(d.checked_at)) < 40*60000;
+    el('dot').className = 'dot' + (fresh ? '' : ' stale'); el('upd').textContent = 'cijfers ' + ago(d.checked_at);
     el('apiData').textContent = fresh ? 'actueel' : 'verouderd'; el('apiData').className = fresh ? 'ok' : 'wait';
     el('apiAudit').textContent = d.approved ? 'goedgekeurd' : 'wacht op Google'; el('apiAudit').className = d.approved ? 'ok' : 'wait';
-    el('route').textContent = d.approved ? 'eigen uploader' : 'Metricool (20/maand)';
+    el('route').textContent = d.approved ? 'eigen uploader' : 'Metricool';
+    schedule(d); sysMap(d); lineChart(hist); barChart(v);
     el('vidPill').textContent = v.length + ' online';
-    el('videos').innerHTML = v.length ? [...v].sort((a, b) => b.views - a.views).slice(0, 8).map(x => `
+    el('videos').innerHTML = v.length ? [...v].sort((a, b) => b.views - a.views).slice(0, 6).map(x => `
       <a class="vid" href="https://youtu.be/${esc(x.id)}" target="_blank" rel="noopener">
         <img src="https://i.ytimg.com/vi/${esc(x.id)}/mqdefault.jpg" alt="">
         <div><div class="t">${esc(x.title.replace(/\s*#shorts/i, ''))}</div>
-        <div class="m"><span class="tag ${x.type === 'Long' ? 'long' : 'short'}">${x.type === 'Long' ? 'LANG' : 'SHORT'}</span>${dur(x.seconds)} · ${esc(x.published)} · ${nf(x.likes)} likes</div></div>
+        <div class="m"><span class="tag" style="background:${x.type === 'Long' ? 'var(--long)' : 'var(--short)'}">${x.type === 'Long' ? 'LANG' : 'SHORT'}</span>${dur(x.seconds)} · ${esc(x.published)} · ${nf(x.likes)} likes · ${nf(x.comments)} reacties</div></div>
         <div class="v">${nf(x.views)}<small>views</small></div></a>`).join('') : '<div class="empty">Nog geen video\'s.</div>';
-    const now = Date.now();
-    const pl = (d.planned || []).filter(p => p.scheduled && new Date(p.scheduled).getTime() > now).map(p => `
-      <div class="row"><div><div style="font-weight:800">${esc(p.title)}</div><div class="sub">${esc(p.length || '')} · ${new Date(p.scheduled).toLocaleString('nl-NL', {timeZone:'Europe/Amsterdam', weekday:'short', day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'})}</div></div><span class="wait">gepland</span></div>`);
-    const ip = (d.in_progress || []).map(p => `<div class="row"><div><div style="font-weight:800">${esc(p.title)}</div><div class="sub">script ${esc(p.blocks)} blokken</div></div><span class="pill">in de maak</span></div>`);
-    el('planned').innerHTML = [...pl, ...ip].join('') || '<div class="empty">Niets gepland; de dagelijkse run maakt de volgende video.</div>';
   }catch(e){ el('upd').textContent = 'kon data niet laden'; el('dot').className = 'dot stale'; }
 }
 load(); setInterval(load, 60000); setTimeout(() => location.reload(), 6 * 3600000);

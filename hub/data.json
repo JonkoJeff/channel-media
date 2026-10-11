@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T15:17Z",
+ "updated": "2026-10-11T16:37Z",
  "checked_at": "2026-10-11T15:17Z",
  "channels": [
   {
@@ -47,5 +47,90 @@
   }
  ],
  "in_progress": [],
- "approved": false
+ "approved": false,
+ "views24": 3,
+ "subs24": 1,
+ "schedule": [
+  {
+   "status": "gepland",
+   "title": "Your Brain at Night, Explained",
+   "time": "20:00",
+   "length": "2:28:50",
+   "date": "2026-10-11"
+  },
+  {
+   "status": "open",
+   "title": "nog leeg \u00b7 de machine vult dit automatisch",
+   "time": "17:00",
+   "date": "2026-10-12"
+  },
+  {
+   "status": "open",
+   "title": "nog leeg \u00b7 de machine vult dit automatisch",
+   "time": "17:00",
+   "date": "2026-10-13"
+  },
+  {
+   "status": "open",
+   "title": "nog leeg \u00b7 de machine vult dit automatisch",
+   "time": "17:00",
+   "date": "2026-10-14"
+  },
+  {
+   "status": "open",
+   "title": "nog leeg \u00b7 de machine vult dit automatisch",
+   "time": "17:00",
+   "date": "2026-10-15"
+  },
+  {
+   "status": "open",
+   "title": "nog leeg \u00b7 de machine vult dit automatisch",
+   "time": "17:00",
+   "date": "2026-10-16"
+  },
+  {
+   "status": "open",
+   "title": "nog leeg \u00b7 de machine vult dit automatisch",
+   "time": "17:00",
+   "date": "2026-10-17"
+  }
+ ],
+ "metricool_used": 3,
+ "workflows": {
+  "render-long.yml": {
+   "status": "completed",
+   "conclusion": "success",
+   "at": "2026-10-11T13:35Z"
+  },
+  "stats.yml": {
+   "status": "completed",
+   "conclusion": "success",
+   "at": "2026-10-11T15:17Z"
+  },
+  "trends.yml": {
+   "status": "completed",
+   "conclusion": "success",
+   "at": "2026-10-11T11:22Z"
+  },
+  "screenshots.yml": {
+   "status": "completed",
+   "conclusion": "success",
+   "at": "2026-10-11T15:25Z"
+  },
+  "youtube.yml": {
+   "status": "completed",
+   "conclusion": "success",
+   "at": "2026-10-11T13:10Z"
+  },
+  "upscale.yml": {
+   "status": "completed",
+   "conclusion": "success",
+   "at": "2026-10-11T15:25Z"
+  },
+  "ai.yml": {
+   "status": "completed",
+   "conclusion": "success",
+   "at": "2026-10-11T02:31Z"
+  }
+ }
 }

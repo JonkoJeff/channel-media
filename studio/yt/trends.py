@@ -30,6 +30,8 @@ for t in json.load(open(os.path.join(D, "topics.json"))):
     for v in vids:
         sn, st, ln = v["snippet"], v.get("statistics", {}), secs(v["contentDetails"]["duration"])
         if t["format"] == "short" and ln > 180 or t["format"] == "long" and ln < 240: continue
+        if sum(c.isascii() for c in sn["title"]) < 0.85 * len(sn["title"]) or "Section 107" in sn.get("description", ""): continue  # non-English titles, fan edits
+        if int(st.get("viewCount", 0)) < t.get("min_views", 1000): continue
         views, sub = int(st.get("viewCount", 0)), subs.get(sn["channelId"], 0)
         hours = max(1, (now - dt.datetime.fromisoformat(sn["publishedAt"].replace("Z", "+00:00"))).total_seconds() / 3600)
         d = sn.get("description", "")

@@ -24,3 +24,4 @@ Money / AI (long):
 
 ## Log
 - 2026-10-11 00:50 UTC: first scan. Psych long: white bg + text left + figure right is the dominant winning thumbnail (4/6), 5–8 min. Psych Shorts: 6–15 s fact lists explode. Money: proof-on-screen thumbnails and low-barrier titles. Filters added (English titles only, ≥1k views, no fan edits).
+- 2026-10-11 05:41 UTC: no new scan (05:15 cron had not run yet; latest.json still the 00:50 scan, 4.9 h old). Same data as the line above, so it does not count as a 2nd scan; no rules added or removed.

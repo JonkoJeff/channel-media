@@ -1,0 +1,281 @@
+{
+ "id": "lf06_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Every night, after the handover is done, your brain starts making films. You're the main character. You never wrote the script. And while you're inside them, you almost never think, wait, this makes no sense.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 6,
+    "title": "Why we dream"
+   }
+  },
+  {
+   "say": "You're back in your old school, except it's also your kitchen. Someone you haven't seen in ten years is there, and somehow they're your boss now. You can't find your shoes. And all of it feels completely normal. Until you wake up and think, where on earth did that come from?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Your old school. In your kitchen."
+   }
+  },
+  {
+   "say": "People have asked that question for as long as there have been people. Ancient cultures saw dreams as messages from the gods, or as glimpses of the future. Much later, Sigmund Freud famously argued that dreams are disguised wishes. Today, most of Freud's specific ideas about dreams are not supported by research. But the question he asked is still alive. Why do we dream at all?",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "One of the oldest questions."
+   }
+  },
+  {
+   "say": "To get closer to an answer, we first need to go back to a sleep lab in Chicago in the early nineteen fifties. Because that's where something about sleep was discovered that changed everything.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Let's start with a discovery."
+   }
+  },
+  {
+   "say": "In nineteen fifty three, Eugene Aserinsky and Nathaniel Kleitman published a paper in the journal Science. They had watched people sleep and noticed something odd. At certain moments in the night, the eyes started darting back and forth under the closed eyelids. Quickly. As if the sleeper was watching something.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Aserinsky & Kleitman",
+    "where": "University of Chicago, published in Science, 1953",
+    "what": "Watching sleepers through the night, they saw periods of rapid eye movements under closed eyelids, and the brain looked surprisingly active."
+   }
+  },
+  {
+   "say": "They called it rapid eye movement sleep. REM for short. And when they woke people up during these periods, they often reported vivid dreams. For a while, it seemed like the answer was simple. REM sleep is dreaming sleep. The rest of the night is just quiet darkness.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Rapid eye movement. REM."
+   }
+  },
+  {
+   "say": "REM sleep is a remarkable state. Your brain becomes very active, in some ways close to how it looks when you're awake. Your eyes move. Your breathing and heart rate become a little irregular. And at the same time, most of the large muscles in your body are switched off. Hold on to that last detail. It will become very important a little later tonight.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "title": "What REM sleep looks like",
+    "items": [
+     "The eyes dart under the eyelids",
+     "The brain is busy, almost like awake",
+     "Most big muscles are switched off",
+     "Breathing and heart rate become irregular"
+    ]
+   }
+  },
+  {
+   "say": "Remember the ninety minute cycles from earlier? REM sleep comes back again and again during the night. The REM periods tend to get longer toward the morning. That's one reason the dreams you remember most are often the ones from just before you wake up.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The night comes in waves."
+   }
+  },
+  {
+   "say": "For years, scientists assumed that only REM sleep had dreams. But when researchers kept waking people from other stages of sleep, they found that people sometimes reported dreams there too. Shorter, usually. Less wild. But dreams. So dreaming couldn't just be the same thing as REM sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "But then the story got more complicated."
+   }
+  },
+  {
+   "say": "In twenty seventeen, a team led by Francesca Siclari and Giulio Tononi at the University of Wisconsin looked at this question in a beautifully direct way. Forty six volunteers slept in the lab, wearing caps with two hundred and fifty six electrodes. Again and again, they were woken by a sound and asked a simple question. Were you dreaming just now?",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Siclari, Tononi and colleagues",
+    "where": "University of Wisconsin, Nature Neuroscience, 2017",
+    "what": "46 volunteers slept with 256-electrode caps. They were woken many times and asked: were you dreaming just now?"
+   }
+  },
+  {
+   "say": "What the researchers found was a region toward the back of the brain that seemed to light up, in a particular way, when people were dreaming. They called it a posterior hot zone. And it worked in both kinds of sleep. In REM and non REM sleep alike, what mattered was the activity in that hot zone, not the stage itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "A hot zone at the back of the brain."
+   }
+  },
+  {
+   "say": "And here's the part that sounds like science fiction. Just by looking at that brain activity, the researchers could predict whether a person had been dreaming. According to the university's report, they predicted the presence of dreaming in ninety two percent of cases, and the absence of dreaming in eighty one percent.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Predicting dreams from brainwaves",
+    "big": "92%",
+    "label": "of dreams correctly predicted from the EEG alone"
+   }
+  },
+  {
+   "say": "Even better, the content of the dreams seemed to match the brain areas that were active. When people dreamed about speaking, for example, regions involved in language were more active. It's as if your brain uses the same machinery for dreaming that it uses for living. Just without the outside world switched on.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Dream content matched the brain."
+   }
+  },
+  {
+   "say": "And that may be the simplest way to think about a dream. Your brain is still building a world. It just isn't getting any information from your eyes and ears. So it builds the world from what it already has inside. Memories. Feelings. Worries. Fragments of your day.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b06_dreamroom.jpg",
+    "cap": "The same brain, without the outside world"
+   }
+  },
+  {
+   "say": "That tells us how dreams happen. But not why. And here we arrive at one of the most open questions in all of brain science. There are several theories, and I want to walk you through four of them. Each one captures something real. And none of them has won.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "So why do we dream?"
+   }
+  },
+  {
+   "say": "Here they are. Dreams as random noise turned into a story. Dreams as a training ground for danger. Dreams as part of how we sort our memories. And dreams as a kind of overnight emotional processing. Let's take them one by one.",
+   "show": {
+    "type": "list",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "title": "Four ideas about dreams",
+    "items": [
+     "Random signals, stitched into a story",
+     "Practice for dangerous situations",
+     "Sorting the day's memories",
+     "Processing emotions"
+    ]
+   }
+  },
+  {
+   "say": "The first idea comes from J. Allan Hobson and Robert McCarley in nineteen seventy seven. It's called the activation synthesis hypothesis. During REM sleep, parts of the brainstem send out bursts of activity. The higher parts of the brain receive these signals and do what they always do. They try to make sense of them. They weave them into a story.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Hobson & McCarley",
+    "where": "Activation-synthesis hypothesis, 1977",
+    "what": "During REM sleep the brainstem sends out signals. The thinking brain tries to make sense of them and weaves them into a story."
+   }
+  },
+  {
+   "say": "Does that sound familiar? It's the same talent we met with the falling jolt. A brain that receives a signal and immediately invents a story to explain it. In this view, dreams are partly the brain's storytelling machine running without a script.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "The jolt, all over again."
+   }
+  },
+  {
+   "say": "The second idea comes from the Finnish researcher Antti Revonsuo, in the year two thousand. It's called the threat simulation theory. It starts from a simple observation. A lot of dreams are about being chased, being late, being lost, being unprepared. Not exactly relaxing.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Antti Revonsuo",
+    "where": "Threat simulation theory, 2000",
+    "what": "Dreams may let us rehearse dangerous situations in a safe place, so we respond better when it matters."
+   }
+  },
+  {
+   "say": "Revonsuo suggested that dreaming may work like a flight simulator. A safe place to rehearse threats, so that when something dangerous happens in real life, we're a little better prepared. It would explain why so many dreams feel like tests. It's an elegant idea. It's also still debated.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A flight simulator for the mind."
+   }
+  },
+  {
+   "say": "The third idea is that dreams are connected to memory. While you sleep, your brain is busy with the experiences of the day, deciding what to keep and what to let go. Dreams might be a glimpse of that process from the inside. Your old school in your kitchen might be your brain linking an old memory to a new one.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Idea three: sorting the day."
+   }
+  },
+  {
+   "say": "We'll look much more closely at memory and sleep a little later tonight, because the evidence there is genuinely beautiful. For now, just notice that dreams often mix the recent and the ancient. Yesterday's conversation, wearing the costume of something from ten years ago.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "We'll come back to this."
+   }
+  },
+  {
+   "say": "And the fourth idea is about feelings. Remember what we learned about worries at night, and REM sleep as a kind of overnight therapy? Many researchers think dreaming may help us process emotional experiences, so that the sharp edge is a little softer by morning. Not always. But often.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Idea four: emotions, overnight."
+   }
+  },
+  {
+   "say": "So which theory is right? Here's what I find most likely, and what many scientists suspect too. Dreaming probably isn't one thing with one purpose. It may be several processes overlapping. Some storytelling, some rehearsing, some sorting, some soothing. Different nights, different dreams, different jobs.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b06_door.jpg",
+    "cap": "Maybe dreams do more than one job"
+   }
+  },
+  {
+   "say": "One last mystery before we move on. Why do we forget most of our dreams? You can have several dreams a night and remember none of them. One reason is simply timing. If you don't wake up during or right after a dream, it usually doesn't get stored. Dreams seem to be made of very fragile material.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Why do we forget them?"
+   }
+  },
+  {
+   "say": "If you'd like to remember more of your dreams, there's a simple and gentle trick. Keep a notebook next to your bed. When you wake up, before you reach for your phone, before you even move much, ask yourself, what was I just dreaming? Write down anything. A color. A feeling. A single word. People who do this often find they remember more over time.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Want to remember more?"
+   }
+  },
+  {
+   "say": "I love that idea. A little notebook, a little cinema ticket for the films your brain makes every night. Most of them disappear before the credits roll. But some of them, you can catch.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "Your nightly cinema."
+   }
+  },
+  {
+   "say": "But not every film your brain makes is gentle. Some people, sometimes, wake up into a scene that's far more frightening than any nightmare. Their eyes are open. They're awake. And they cannot move. That's where we're going next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "But not every night film is gentle."
+   }
+  }
+ ]
+}

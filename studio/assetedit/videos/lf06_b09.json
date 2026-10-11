@@ -1,0 +1,172 @@
+{
+ "id": "lf06_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a question that sounds almost too simple. Every cell in your body produces waste. Your muscles, your liver, your skin. And most of your body has a dedicated system to carry that waste away. It's called the lymphatic system. But for a long time, the brain seemed to be missing one.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 9,
+    "title": "The night cleaning crew"
+   }
+  },
+  {
+   "say": "Your brain is one of the hungriest organs you have. It uses a lot of energy, and all that activity leaves things behind. Waste products, leftover proteins, all kinds of molecules that shouldn't build up. So where does it all go? For a long time, there wasn't a satisfying answer.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "So how does the brain take out the trash?"
+   }
+  },
+  {
+   "say": "Then, around twenty twelve and twenty thirteen, a research team led by the Danish neuroscientist Maiken Nedergaard, working at the University of Rochester, proposed an answer. They described a system in which the fluid that surrounds the brain flows into the brain along the outside of blood vessels, washes through the tissue, and carries waste away.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A team in Rochester went looking."
+   }
+  },
+  {
+   "say": "They named it the glymphatic system. A mix of glia, a type of brain cell that helps run this plumbing, and lymphatic, the body's drainage system. And then they asked a question that made headlines around the world. Does this cleaning system work differently when we sleep?",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "They named it the glymphatic system."
+   }
+  },
+  {
+   "say": "In twenty thirteen, the team published a study in the journal Science, led by Lulu Xie. They worked with mice, and they measured how easily fluid could flow through the brain while the animals were awake and while they were asleep or anesthetized.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Xie, Nedergaard and colleagues",
+    "where": "Science, 2013",
+    "what": "In mice, natural sleep and anesthesia came with a bigger space between brain cells, and faster clearance of beta-amyloid."
+   }
+  },
+  {
+   "say": "What they reported was striking. During natural sleep, or under anesthesia, the space between brain cells increased by about sixty percent. More space means fluid can flow through more easily. And they found that a protein called beta amyloid was cleared faster during sleep.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Space between brain cells during sleep",
+    "big": "+60%",
+    "label": "in sleeping and anesthetized mice"
+   }
+  },
+  {
+   "say": "That name might ring a bell. Beta amyloid is a protein that builds up in the brains of people with Alzheimer's disease. So you can imagine why this study caught people's attention. The idea was simple and beautiful. While you sleep, your brain opens up and rinses itself clean.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Beta amyloid?"
+   }
+  },
+  {
+   "say": "Think of a busy city. During the day, the streets are full, and there's no space for the cleaning trucks. At night, the streets empty, and the cleaning crew can finally move through and wash everything down. That's the picture many people took away from this research. Sleep as the brain's night shift for cleaning.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b09_city.jpg",
+    "cap": "Like a city cleaned at night"
+   }
+  },
+  {
+   "say": "It's a lovely picture. And I want to tell you something important about how science works, because this topic is a perfect example. A beautiful idea, published in a top journal, is not the end of the story. It's the beginning of the testing.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A beautiful idea. But science isn't done."
+   }
+  },
+  {
+   "say": "In twenty twenty four, a team at Imperial College London, including Nicholas Franks and William Wisden, published a study in Nature Neuroscience. Its title says it all. Brain clearance is reduced during sleep and anesthesia.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "In 2024, a challenge."
+   }
+  },
+  {
+   "say": "Using a different method, they measured how quickly a small dye moved out of the brain in mice. And they found the opposite of the earlier work. Clearance was lower during sleep and anesthesia, not higher. So, two careful teams, two respected journals, two opposite answers.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Miao, Franks, Wisden and colleagues",
+    "where": "Nature Neuroscience, 2024",
+    "what": "Measuring how quickly a dye moved out of the brain of mice, they found clearance was lower during sleep and anesthesia, not higher."
+   }
+  },
+  {
+   "say": "How do we make sense of that? Other experts have weighed in on both sides. Some pointed to technical concerns about the methods of the newer study. Others said the newer results fit with what they had seen themselves. One suggestion is that small molecules and large proteins may be cleared in different ways, so a small dye may not tell the whole story.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Scientists disagree. That's normal."
+   }
+  },
+  {
+   "say": "So here's an honest summary of where things stand. The brain does have ways to clear waste. Whether sleep speeds that cleaning up, slows it down, or changes it in some other way is still being debated. Different methods give different answers. And the question is being actively studied right now.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "title": "What we can say today",
+    "items": [
+     "The brain does have ways to clear waste",
+     "Whether sleep speeds that up is debated",
+     "Different methods give different answers",
+     "The question is being actively tested"
+    ]
+   }
+  },
+  {
+   "say": "I could have told you the simple version. Sleep washes your brain, end of story. It's catchy, and you'll hear it a lot. But you deserve the real version. Because the real version teaches you something even more valuable than one fact. It teaches you how to hold new findings. With curiosity, and with a little patience.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why I'm telling you this."
+   }
+  },
+  {
+   "say": "And here's the part that doesn't change, whichever team turns out to be right. Sleep is clearly important for the brain. We've already seen what it does for memory, for mood, for how we handle worries. The cleaning question is about how sleep helps, not whether it helps.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Sleep matters either way."
+   }
+  },
+  {
+   "say": "I actually find the open question quite beautiful. Right now, in labs around the world, people are designing new experiments to find out what really happens to the fluid in your brain while you sleep tonight. One day, we'll have a clearer answer. And it might surprise all of us.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b09_river.jpg",
+    "cap": "A question still flowing"
+   }
+  },
+  {
+   "say": "But let's leave the lab and come back to something you can feel in your own life. Why are some people wide awake at midnight, full of ideas, while others can barely keep their eyes open after ten? Are night owls lazy? Are early birds just disciplined? Your genes have something to say about that.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: why some brains love the night."
+   }
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "id": "lf06_b15",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Have you ever been in the middle of a dream, and suddenly realized, wait, I'm dreaming? Maybe it lasted only a second before you woke up. Or maybe, for a moment, you could look around inside the dream, knowing it wasn't real.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 14,
+    "title": "The dreamers who answered back"
+   }
+  },
+  {
+   "say": "That experience has a name. A lucid dream. A dream in which you know that you're dreaming. Some people have them often. Some people have never had one. And some people practice for months to have them more often, because inside a lucid dream, you can sometimes steer what happens.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "That's called a lucid dream."
+   }
+  },
+  {
+   "say": "For scientists, lucid dreams pose a fascinating problem. How do you prove that someone is aware during a dream? You can't just ask them. They're asleep. And remember, during REM sleep, almost all the big muscles in the body are switched off. A dreamer can't wave, can't talk, can't press a button.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "But how do you study it?"
+   }
+  },
+  {
+   "say": "But there's one exception we met earlier tonight. The eyes. In REM sleep, the eyes move. Rapid eye movement is right there in the name. And researchers realized something clever. If dream eye movements can show up as real eye movements, then a lucid dreamer might be able to send a signal with their eyes.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Almost all muscles. Not the eyes."
+   }
+  },
+  {
+   "say": "So, before falling asleep, lucid dreamers agree on a signal with the researchers. For example, look far left, then far right, then left, then right, several times in a row. A pattern that doesn't usually happen by accident. Then they go to sleep, wired up in the lab. And when they become lucid in a dream, they move their dream eyes in that pattern.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A secret code."
+   }
+  },
+  {
+   "say": "And on the screens in the lab, the researchers can see it. A clear, deliberate pattern of eye movements, during sleep that otherwise looks exactly like REM sleep. A message from inside a dream. Lucid dream researchers have used signals like this for decades to show that lucid dreaming is real, and happens during sleep.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b14_lab.jpg",
+    "cap": "A signal from inside a dream"
+   }
+  },
+  {
+   "say": "But for a long time, it was mostly one way. The dreamer could signal, I'm lucid now. The researchers could listen. But could you actually have a conversation with someone who is dreaming? Ask a question, and get an answer?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Then someone asked: can we talk back?"
+   }
+  },
+  {
+   "say": "In twenty twenty one, a paper in the journal Current Biology reported exactly that. It was a collaboration between four labs in four countries. Northwestern University in the United States, Sorbonne University in France, Osnabrück University in Germany, and Radboud University Medical Center in the Netherlands.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Konkoly, Paller and colleagues",
+    "where": "Current Biology, 2021",
+    "what": "Four labs in four countries asked lucid dreamers questions during REM sleep, and the dreamers answered with eye movements or facial twitches."
+   }
+  },
+  {
+   "say": "The title of the paper was, Real time dialogue between experimenters and dreamers during REM sleep. And according to the university report, the dreamers could follow instructions, answer yes or no questions, do simple math, and tell different signals apart. They answered with eye movements, or by twitching muscles in their face.",
+   "show": {
+    "type": "list",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "What the dreamers could do",
+    "items": [
+     "Follow instructions",
+     "Answer yes or no questions",
+     "Solve simple math problems",
+     "Tell different signals apart"
+    ]
+   }
+  },
+  {
+   "say": "Imagine what that might be like from the inside. You're dreaming. You know you're dreaming. And somewhere, as if from the sky, or through a radio, or as a voice in the walls, a question arrives. What is eight minus six? And from inside your dream, you look left and right, twice. Two.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Imagine the dream from inside."
+   }
+  },
+  {
+   "say": "The researchers were careful. They used questions with known answers, like simple math, so they could check whether the replies were correct, and not just random eye movements. And in some cases, the dreamers got them right. A conversation across the border of sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Questions with known answers."
+   }
+  },
+  {
+   "say": "Why does this matter? Because for the whole history of dream research, scientists had to rely on reports after waking. And as we saw, dreams are fragile. They fade, they change in the telling. Talking to dreamers during the dream opens a new window, a way to study dreams while they're happening.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Why does this matter?"
+   }
+  },
+  {
+   "say": "Some researchers hope this could one day help people with recurring nightmares, by guiding them inside the dream. Others are simply curious about what consciousness is, and how a mind can be asleep and aware at the same time. It's a young field. Many questions are still open.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b14_lucid.jpg",
+    "cap": "A window into the dreaming mind"
+   }
+  },
+  {
+   "say": "Could you learn to have lucid dreams yourself? Some people do, with practice. Common tips include keeping a dream journal, which we talked about earlier, and getting into the habit of asking yourself during the day, am I dreaming right now? The idea is that the habit may carry over into your dreams.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Could you learn to dream lucidly?"
+   }
+  },
+  {
+   "say": "But I'd add one gentle note. Some lucid dreaming techniques involve waking yourself up in the middle of the night. If you're already short on sleep, that's not a great trade. A good night of sleep is worth more than a spectacular dream. Remember the fog.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "But don't trade good sleep for it."
+   }
+  },
+  {
+   "say": "I love ending our journey through the night with this story, because it captures everything we've seen tonight. The night isn't empty. It's full of activity, of stories, of repair, of strange and wonderful things. Your brain doesn't switch off. It switches over.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The night is full of wonders."
+   }
+  },
+  {
+   "say": "So now, let's slowly bring the night together. Let's look back at where we've been, and turn it into a few simple, gentle things you can do. Starting tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Let's bring the night together."
+   }
+  }
+ ]
+}

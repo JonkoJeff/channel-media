@@ -1,0 +1,213 @@
+{
+ "id": "lf06_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's be honest. Most of us have a moment where we decide that sleep can wait. One more episode. One more hour of work. Or just a busy life with too many things squeezed into it. And the next day, we tell ourselves, I'm fine. A bit tired, but fine.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 11,
+    "title": "What a few short nights really do"
+   }
+  },
+  {
+   "say": "That little sentence, I'm fine, turns out to be one of the most interesting things scientists have ever studied about sleep. Because it's often not true. And the problem isn't that people lie. It's that a tired brain is not a reliable judge of its own tiredness.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "\"I'm fine.\" Are you, though?"
+   }
+  },
+  {
+   "say": "Before we get to the science, let me tell you an old story. It's the most extreme version of skipping sleep, and it's a little bit legendary. In the winter of nineteen sixty three, a seventeen year old student in San Diego decided to stay awake for as long as he possibly could.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "First, the most extreme story."
+   }
+  },
+  {
+   "say": "His name was Randy Gardner. It started as a high school science fair project. He stayed awake from December twenty eighth to January eighth. Eleven days. Two hundred and sixty four hours. It became a world record.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Randy Gardner, age 17",
+    "where": "San Diego, Dec 28, 1963 to Jan 8, 1964",
+    "what": "A school science project that became a world record: 11 days, 264 hours, without sleep."
+   }
+  },
+  {
+   "say": "What happened to him along the way? According to an interview he gave years later, by day three he had nausea and trouble remembering things. He became more irritable. By the end, he was snapping at the reporters around him. Mentally, the experience was rough.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "What happened to him?"
+   }
+  },
+  {
+   "say": "And then he slept. Fourteen hours, in a naval hospital. When he woke up, he felt groggy, but not much more than anyone would. Doctors found him healthy. So you might think, the story has a happy ending. Humans can bounce back.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Then, he slept."
+   }
+  },
+  {
+   "say": "But here's the part that matters. Guinness World Records later stopped tracking attempts at sleep deprivation, because of the harmful effects of sleeplessness. And Randy Gardner himself, decades later, struggled with insomnia. He even called it a kind of payback, though nobody can say for sure what caused it. Please, never try this.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "But nobody should try this."
+   }
+  },
+  {
+   "say": "Of course, almost nobody skips eleven days of sleep. What most of us do is far more ordinary. We sleep a bit too little, night after night. Six hours instead of eight. And that's exactly what the most important study in this chapter looked at.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Most of us don't skip 11 days."
+   }
+  },
+  {
+   "say": "In two thousand three, Hans Van Dongen, David Dinges and colleagues published a study in the journal Sleep. Forty eight healthy adults, aged twenty one to thirty eight, spent time in a lab. Some were allowed eight hours in bed per night, for fourteen days. Some six hours. Some only four. And another group stayed awake completely for three nights.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Van Dongen, Maislin, Mullington & Dinges",
+    "where": "Sleep, 2003",
+    "what": "48 healthy adults spent 14 days with 8, 6 or 4 hours in bed per night, or 3 nights with no sleep at all."
+   }
+  },
+  {
+   "say": "Every day, the researchers tested their attention and thinking. Simple tasks, like reacting as fast as possible when a light appears. The kind of skill you need for driving, for listening in a meeting, for not missing something important.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "They tested attention every day."
+   }
+  },
+  {
+   "say": "The results were sobering. People who slept six hours or less per night for two weeks ended up with deficits in their thinking equivalent to up to two nights of total sleep deprivation. Two weeks of six hours. Like two nights of no sleep at all.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "6 hours a night for two weeks",
+    "big": "= 2 nights",
+    "label": "without any sleep, for some measures of thinking"
+   }
+  },
+  {
+   "say": "And now comes the part that I think about whenever I'm tempted to stay up too late. The researchers also asked people how sleepy they felt. And according to the study, the participants were largely unaware of their growing deficits.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "And now the most surprising part."
+   }
+  },
+  {
+   "say": "In the first days, people felt sleepier. But after that, their feeling of sleepiness didn't change much anymore. Meanwhile, their actual performance kept getting worse. Their brains adjusted to feeling tired. But their brains did not adjust to being tired. Those are two very different things.",
+   "show": {
+    "type": "list",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "title": "Feeling vs. reality",
+    "items": [
+     "First days: you feel sleepier",
+     "Then: the feeling levels off",
+     "Performance: keeps getting worse"
+    ]
+   }
+  },
+  {
+   "say": "Think about what that means. After a week of short nights, you may genuinely feel, I've gotten used to it. I'm fine on six hours. And your feeling is honest. It's just not accurate. The very organ that would have to notice the problem is the one being affected.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A tired brain can't judge itself."
+   }
+  },
+  {
+   "say": "It's a bit like driving into fog so slowly that you never notice it getting thicker. Every moment seems almost the same as the moment before. You only realize how foggy it was when you come out the other side, after a few good nights, and the world suddenly feels sharper.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b11_fog.jpg",
+    "cap": "Like driving in fog, without noticing the fog"
+   }
+  },
+  {
+   "say": "And that leads to a hopeful thought. If you've been running on short sleep for a while, you might have no idea how good you could feel. Many people who start sleeping more consistently describe it as the world coming back into focus. You don't need to take my word for it. You can test it, gently, over a couple of weeks.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "That's actually good news."
+   }
+  },
+  {
+   "say": "How can you tell if you might be short on sleep, when your own feeling can't be trusted? Look for outside signs. Needing an alarm every single morning, without exception. Sleeping much longer whenever you get the chance. Dozing off the moment you sit still, on the couch, in a meeting, as a passenger. And heavy, foggy afternoons.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Signs your sleep may be too short",
+    "items": [
+     "You need an alarm every single day",
+     "You sleep much longer on free days",
+     "You doze off in quiet moments",
+     "Afternoons feel foggy and heavy"
+    ]
+   }
+  },
+  {
+   "say": "That second one is especially telling. Remember social jetlag? If you sleep two or three hours longer on the weekend, your body may be trying to pay back a debt from the week. It's not laziness. It's bookkeeping.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Your weekend is a clue."
+   }
+  },
+  {
+   "say": "We live in a world that often treats sleep as wasted time. Something to cut when life gets busy. Tonight, we've seen how much is actually happening in those hours. Memory being sorted. Emotions being softened. A body clock being kept in tune. Cutting sleep isn't saving time. It's borrowing it, at a high interest rate.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b11_candle.jpg",
+    "cap": "Sleep isn't wasted time"
+   }
+  },
+  {
+   "say": "And if you can't sleep more right now, because of a baby, a job, or a hard season of life, please be kind to yourself. Know that the fog is real, even if you don't feel it. Be a bit more careful driving. Make big decisions after a good night when you can. And protect your sleep again when life allows.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Be kind to the tired you."
+   }
+  },
+  {
+   "say": "But what if your nights are short for a while, and there's nothing you can do about it? Is there a way to give your brain a little help during the day? There is. It's one of the oldest habits in the world.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: a little help during the day."
+   }
+  }
+ ]
+}

@@ -67,9 +67,9 @@ def voice(v):
     for i, s in enumerate(v["segments"]):
         start = t
         for sent in re.split(r"(?<=[.!?])\s+", s["say"].strip()):
-            a = k.speak(sent, v.get("voice", "am_michael" if v.get("vibe") == "calm" else "am_puck"), v.get("speed", 0.92 if v.get("vibe") == "calm" else 1.0))
+            a = k.speak(sent, v.get("voice", "am_michael" if v.get("vibe") == "calm" else "am_puck"), v.get("speed", 0.86 if v.get("vibe") == "calm" else 1.0))
             nz = np.nonzero(np.abs(a) > 0.01)[0]; a = a[max(0, nz[0] - 600):nz[-1] + 1200]
-            ps = 0.65 if v.get("vibe") == "calm" else 0.4
+            ps = v.get("pause", 0.85 if v.get("vibe") == "calm" else 0.4)
             out += [a, np.zeros(int(ps * k.SR), np.float32)]; t += len(a) / k.SR + ps
         gap = {"chapter": 0.9, "end": 2.0}.get(s["show"]["type"], 0.5)
         out.append(np.zeros(int(gap * k.SR), np.float32)); t += gap
@@ -309,11 +309,13 @@ def thumbnail(v, path):
     from PIL import ImageFilter, ImageEnhance, ImageChops
     th = v["thumb"]; img = Image.open(os.path.join(CH, BGS[th["bg"]]["file_path"])).convert("RGB").resize((1280, 720), Image.LANCZOS)
     img = ImageEnhance.Color(img.filter(ImageFilter.GaussianBlur(7))).enhance(1.6)
-    img = Image.blend(img, Image.new("RGB", img.size, (24, 110, 190)), 0.28)  # teal/blue grade
+    calm = v.get("vibe") == "calm"  # calm videos: warm night grade, amber rim, last word on a warm block (trend: text left + one word on a colour block)
+    img = Image.blend(img, Image.new("RGB", img.size, (255, 140, 50) if calm else (24, 110, 190)), 0.22 if calm else 0.28)
     yy, xx = np.mgrid[0:720, 0:1280]; vig = 1 - 0.45 * (((xx - 900) / 900) ** 2 + ((yy - 360) / 520) ** 2).clip(0, 1)
     img = Image.fromarray((np.asarray(img) * vig[..., None]).astype(np.uint8))
-    sp = Image.open(os.path.join(CH, ASSETS[th["sprite"]]["file_path"])).convert("RGBA")
-    sp = ImageEnhance.Color(sp.resize((round(sp.width * 3.15), round(sp.height * 3.15)), Image.LANCZOS)).enhance(1.25)
+    hd = os.path.join(CH, "assets_hd", os.path.basename(ASSETS[th["sprite"]]["file_path"])); k = 4 if os.path.exists(hd) else 1  # sharp 4x sprite when available
+    sp = Image.open(hd if k == 4 else os.path.join(CH, ASSETS[th["sprite"]]["file_path"])).convert("RGBA")
+    sp = ImageEnhance.Color(sp.resize((round(sp.width * 3.15 / k), round(sp.height * 3.15 / k)), Image.LANCZOS)).enhance(1.25)
     # sprites are cropped at their image border: fade those cut edges so no straight lines show
     al = np.asarray(sp.split()[-1]).astype(float); h, w = al.shape; F = 60; ramp = np.linspace(0, 1, F)
     if al[:, 0].max() > 0: al[:, :F] *= ramp[None, :]
@@ -321,14 +323,18 @@ def thumbnail(v, path):
     if al[:, -1].max() > 0: al[:, -F:] *= ramp[::-1][None, :]
     P = 40; a = Image.new("L", (w + 2 * P, h + 2 * P)); a.paste(Image.fromarray(al.astype(np.uint8)), (P, P))
     sp.putalpha(Image.fromarray(al.astype(np.uint8))); x0, y0 = 1280 - w - 10, 720 - h + 150
-    for grow, col in ((22, (0, 230, 255)), (10, (255, 255, 255))):  # cyan rim light, then white sticker edge
+    for grow, col in ((22, (255, 186, 80) if calm else (0, 230, 255)), (10, (255, 255, 255))):  # rim light, then white sticker edge
         rim = Image.new("RGBA", a.size, col + (0,)); rim.putalpha(a.point(lambda p: 255 if p > 128 else 0).filter(ImageFilter.MaxFilter(grow * 2 + 1)))
         if grow > 12: rim = rim.filter(ImageFilter.GaussianBlur(6))
         img.paste(rim, (x0 - P, y0 - P), rim)
     img.paste(sp, (x0, y0), sp)
     d = ImageDraw.Draw(img); y = 60; lines = th["text"].split("|")
     for i, ln in enumerate(lines):
-        f = font(150 if len(ln) <= 7 else 124, "Black"); fill = (255, 230, 0) if i == len(lines) - 1 else (255, 255, 255)
+        f = font(150 if len(ln) <= 7 else 124, "Black"); last = i == len(lines) - 1; fill = (255, 230, 0) if last else (255, 255, 255)
+        if calm and last and len(lines) > 1:  # warm block behind the last word
+            tw = d.textlength(ln, font=f); d.rounded_rectangle((62, y + 34, 62 + tw + 56, y + f.size * 1.02 + 34), 22, fill=(0, 0, 0))
+            d.rounded_rectangle((50, y + 22, 50 + tw + 56, y + f.size * 1.02 + 22), 22, fill=(255, 176, 59), outline=(0, 0, 0), width=8)
+            d.text((78, y), ln, font=f, fill=(28, 20, 14)); y += f.size * 1.12; continue
         d.text((62, y + 10), ln, font=f, fill=(0, 0, 0), stroke_width=16, stroke_fill=(0, 0, 0))  # hard drop shadow
         d.text((50, y), ln, font=f, fill=fill, stroke_width=16, stroke_fill=(0, 0, 0)); y += f.size * 1.05
     img.save(path, quality=95)

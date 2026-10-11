@@ -1,0 +1,235 @@
+{
+ "id": "lf06_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine waking up in the middle of the night. Your eyes open. You can see your room, the dark shape of the wardrobe, the faint light around the curtains. You're awake. You know you're awake. And then you try to move your arm. And nothing happens.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "n": 7,
+    "title": "Awake, but unable to move"
+   }
+  },
+  {
+   "say": "You try again. Nothing. You try to speak, to call someone, and no sound comes out. Your chest feels heavy. And then, for many people, it gets worse. There's a feeling that someone else is in the room. A presence. Near the door, or standing by the bed.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "bedroom_night",
+    "cap": "You can't move. You can't call out."
+   }
+  },
+  {
+   "say": "If this has ever happened to you, you may have never told anyone, because it sounds so strange. Or you may have wondered whether something was seriously wrong. So I want to start this part of our night with the most important sentence. This is a known phenomenon, it has a name, and it is generally not dangerous.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b07_doorway.jpg",
+    "cap": "Many people describe a presence in the room"
+   }
+  },
+  {
+   "say": "It's called sleep paralysis. And once you understand what's happening in the brain, the fear starts to make sense. It's not a mystery from another world. It's a timing problem. A small error in the schedule of the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "It's called sleep paralysis."
+   }
+  },
+  {
+   "say": "How common is it? In twenty eleven, Brian Sharpless and Jacques Barber reviewed thirty five studies, together covering more than thirty six thousand people. They wanted to know how many people experience sleep paralysis at least once in their life.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Sharpless & Barber",
+    "where": "Sleep Medicine Reviews, 2011",
+    "what": "A review of 35 studies with 36,533 people: how many have had at least one episode of sleep paralysis in their life?"
+   }
+  },
+  {
+   "say": "Their estimate for the general population was seven point six percent. Among students, it was much higher, twenty eight point three percent. And among psychiatric patients, thirty one point nine percent. Students are a revealing group, by the way. Irregular sleep, late nights, stress, exams. Remember that. It's a clue.",
+   "show": {
+    "type": "bars",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Had sleep paralysis at least once",
+    "unit": "%",
+    "bars": [
+     [
+      "General population",
+      7.6
+     ],
+     [
+      "Students",
+      28.3
+     ],
+     [
+      "Psychiatric patients",
+      31.9
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Now, remember the detail I asked you to hold on to earlier? During REM sleep, while your brain is busy dreaming, most of the large muscles in your body are switched off. It's a kind of built in paralysis.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Remember REM's strange detail?"
+   }
+  },
+  {
+   "say": "And it's a very good idea. Without it, you might act out your dreams. Running from the dream monster, you'd run straight into the wall. So during REM sleep, your brain puts a safety lock on your body. You dream of moving, but you stay safely in bed.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A safety lock."
+   }
+  },
+  {
+   "say": "Sleep paralysis happens when the timing slips. Your mind wakes up, but the safety lock of REM sleep is still on for a little while. You're conscious, but your body hasn't received the message yet. For a few seconds, sometimes a few minutes, you are awake inside a body that is still asleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Sleep paralysis = the lock stays on."
+   }
+  },
+  {
+   "say": "And it isn't just the paralysis that carries over. Some of the dream machinery can carry over too. That's why people can see, hear or feel things that aren't really there. Your eyes are open and looking at your real room, while a part of your brain is still in dream mode, painting things into it.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "title": "What's happening",
+    "items": [
+     "Your mind is awake",
+     "Your muscles are still in REM lock",
+     "Dream images can leak into the room",
+     "It passes on its own"
+    ]
+   }
+  },
+  {
+   "say": "That explains the presence. In the Sharpless and Barber review, one of the common hallucination themes is a sense of malevolent intruders in the bedroom. Not because anyone is there. But because a brain that's half dreaming, paralyzed, and alarmed will quickly build a story to explain that alarm.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The presence in the room."
+   }
+  },
+  {
+   "say": "Do you see the pattern of tonight? The falling jolt. The dream stories. And now this. Again and again, your brain receives a strange signal and instantly invents a reason for it. A fall. A film. A figure by the door. It's the same storyteller, working the night shift.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Our storytelling brain again."
+   }
+  },
+  {
+   "say": "And the heavy feeling on the chest? During REM sleep, breathing is controlled more automatically, and the muscles that you'd normally use to take a big, deliberate breath are mostly switched off. So if you suddenly try to breathe deeply, it can feel like something is pressing on you. It isn't. Your breathing continues on its own.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The heavy chest."
+   }
+  },
+  {
+   "say": "Because sleep paralysis is so vivid, cultures all over the world have their own names and stories for it. The old hag who sits on your chest. Kanashibari in Japan, which means something like being bound in metal. And many more. Across centuries and continents, people have been describing the very same experience.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "text": "Night hag. Old hag. Kanashibari. The pressing ghost.",
+    "by": "Names for sleep paralysis in different cultures"
+   }
+  },
+  {
+   "say": "I find that deeply comforting. When something frightening happens to you at night, it's easy to feel alone in it. But with sleep paralysis, you share the experience with millions of people, across all of history. Your brain is doing something very human.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Not crazy. Not alone."
+   }
+  },
+  {
+   "say": "So what makes sleep paralysis more likely? Researchers have linked it to many of the things we've already met tonight. Irregular sleep. Not getting enough sleep. Stress. Disrupted sleep schedules, like shift work or jet lag. And some people notice it happens more when they sleep on their back.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "What makes it more likely?"
+   }
+  },
+  {
+   "say": "Remember the students in that review, with more than a quarter reporting at least one episode? Irregular schedules, late nights and stress. When the night's timing gets messy, the handovers between sleep stages get messy too. And sleep paralysis is, above all, a messy handover.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Remember the students?"
+   }
+  },
+  {
+   "say": "If it happens to you, here's what many sleep experts suggest. First, tell yourself what it is. This is sleep paralysis. It's harmless and it will pass. Breathe slowly and calmly, don't fight for big breaths. Some people find it helps to focus on moving something very small, like a finger or a toe. And once it's over, it can help to get up for a minute, turn on a soft light, and reset, before going back to sleep.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "If it happens to you",
+    "items": [
+     "Remind yourself: it's sleep paralysis, it passes",
+     "Breathe slowly, don't fight for big breaths",
+     "Try to move something small, like a finger",
+     "Afterwards, get up for a moment before sleeping again"
+    ]
+   }
+  },
+  {
+   "say": "Many people find that simply knowing what sleep paralysis is takes away a lot of the terror. The first time, it feels like something supernatural. After you understand it, it becomes a strange, unpleasant, but familiar glitch. And fear feeds on not knowing.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Knowing makes it less scary."
+   }
+  },
+  {
+   "say": "If sleep paralysis happens often, if it makes you afraid to go to sleep, or if it comes together with things like falling asleep suddenly during the day, please talk to a doctor. Frequent episodes can sometimes be linked to other sleep conditions, and those can be treated. You don't have to just put up with it.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "When to see a doctor."
+   }
+  },
+  {
+   "say": "And here's the gentle ending to this strange chapter of the night. Every episode of sleep paralysis ends. The lock opens. The body catches up with the mind. And whatever seemed to be standing by the door is simply gone, because it was never there. It was your own brain, telling itself a story in the dark.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b07_morning.jpg",
+    "cap": "And then, morning comes"
+   }
+  },
+  {
+   "say": "Now, let's turn from the frightening side of the night to the most useful thing your brain does while you sleep. Because while you're lying there, eyes closed, your brain is quietly deciding what you'll remember tomorrow. And the experiments that showed this are wonderful.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Next: the night's most useful work."
+   }
+  }
+ ]
+}

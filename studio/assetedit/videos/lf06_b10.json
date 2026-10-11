@@ -1,0 +1,227 @@
+{
+ "id": "lf06_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Some people jump out of bed at six, open the curtains, and feel genuinely happy about it. Others need three alarms, a large coffee, and about two hours before they can form a full sentence. And at midnight, the roles flip. The early bird is fading. The night owl is just getting started.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "n": 10,
+    "title": "Night owls and early birds"
+   }
+  },
+  {
+   "say": "For a long time, people treated this as a question of character. Early birds were disciplined. Night owls were lazy, or undisciplined, or just bad at going to bed. There's a whole old proverb about it. Early to bed and early to rise. But science tells a much kinder story.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Lazy? Disciplined? Or something else?"
+   }
+  },
+  {
+   "say": "Remember the body clock we met at the very beginning of tonight? The internal rhythm, about a day long, that tells your body when to be alert and when to wind down? Here's the thing. Not everyone's clock is set to the same time. And the setting is called your chronotype.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Remember your body clock?"
+   }
+  },
+  {
+   "say": "Your chronotype is your natural timing. When you get sleepy if nobody tells you what to do. When you'd wake up without an alarm. When you feel sharpest. Most people are somewhere in the middle. Some lean strongly toward the morning, some strongly toward the night.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Your chronotype",
+    "items": [
+     "When you naturally get sleepy",
+     "When you naturally wake up",
+     "When you feel most alert",
+     "It's partly in your genes"
+    ]
+   }
+  },
+  {
+   "say": "And part of that setting comes from your genes. In twenty nineteen, a team led by Samuel Jones published a huge genetic study in Nature Communications. They looked at the DNA of six hundred ninety seven thousand, eight hundred and twenty eight people, from the UK Biobank and from the company 23andMe.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Jones and colleagues",
+    "where": "Nature Communications, 2019",
+    "what": "A genetic study of 697,828 people from UK Biobank and 23andMe, looking for genes linked to being a morning person."
+   }
+  },
+  {
+   "say": "They found three hundred and fifty one places in the genome linked to being a morning person. Before this study, only twenty four were known. Many of these genes are connected to the body clock itself, and to how the eyes pass information about light to the brain.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Places in the genome linked to being a morning person",
+    "big": "351",
+    "label": "up from 24 known before"
+   }
+  },
+  {
+   "say": "Now, how big is the effect of all these genes together? According to the UK Biobank summary, the five percent of people carrying the most morning versions had a sleep timing about twenty five minutes earlier than the five percent carrying the fewest. That's real. But it's not everything. Genes nudge. They don't decide alone.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A real, but modest effect."
+   }
+  },
+  {
+   "say": "Something else that shapes your chronotype is your age. And here's a story every parent of a teenager will recognize. Children tend to be early birds. Then, in the teenage years, something shifts. The body clock slides later and later. The child who used to wake at six can suddenly sleep until noon.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Your age matters too."
+   }
+  },
+  {
+   "say": "In two thousand four, Till Roenneberg and his team in Munich asked about twenty five thousand people, aged eight to ninety, when they slept on days without work or school. And they saw a clear pattern through life.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Roenneberg and colleagues",
+    "where": "Current Biology, 2004",
+    "what": "25,000 people aged 8 to 90 reported when they slept on free days. Sleep timing got later through the teens, then turned around."
+   }
+  },
+  {
+   "say": "Sleep timing got later and later through the teenage years. It reached its latest point at around nineteen and a half for women, and around twenty one for men. After that, it slowly started moving earlier again. The researchers even suggested this turning point could be seen as a kind of biological marker for the end of adolescence.",
+   "show": {
+    "type": "bars",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Age when sleep timing is latest",
+    "unit": "years",
+    "bars": [
+     [
+      "Women",
+      19.5
+     ],
+     [
+      "Men",
+      20.9
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So when a teenager can't fall asleep at ten and can't wake up at seven, it isn't only stubbornness. Their body clock really has moved. Asking a sixteen year old to be sharp at eight in the morning is, for their biology, a bit like asking an adult to be sharp at six.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Teenagers aren't just lazy."
+   }
+  },
+  {
+   "say": "And that brings us to the real problem for night owls. It's not their clock. It's the world they live in. Schools, offices, appointments, most of society runs on a schedule that suits the early birds. So night owls are often pushed to wake up long before their body is ready.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b10_owl.jpg",
+    "cap": "Night owls live in a morning world"
+   }
+  },
+  {
+   "say": "Till Roenneberg and colleagues gave this mismatch a wonderful name. Social jetlag. On workdays, you get up much earlier than your body wants. On free days, you sleep in, and your sleep shifts later. Your body lives as if it flies a few time zones west every weekend, and back again on Monday.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Social jetlag."
+   }
+  },
+  {
+   "say": "In twenty twelve, the team published a study in Current Biology, based on a huge online questionnaire. More than sixty five thousand people. They found that social jetlag was associated with a higher body mass index. That's a link, not proof that one causes the other. But it's a reason to take this mismatch seriously.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Roenneberg and colleagues",
+    "where": "Current Biology, 2012",
+    "what": "A large online survey of more than 65,000 people: social jetlag was linked to a higher body mass index."
+   }
+  },
+  {
+   "say": "It also explains something many of us feel without knowing why. That heavy Monday morning feeling. After a weekend of sleeping later, Monday asks your body to jump back several hours at once. It's jetlag, without the holiday.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Monday mornings make sense now."
+   }
+  },
+  {
+   "say": "Remember the big genetic study? It found something else too. Using a method that looks at genes to estimate cause and effect, the researchers reported that being a morning person was linked to better mental health. They found no effect on body weight or type two diabetes risk in that analysis.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "And there's one more gene finding."
+   }
+  },
+  {
+   "say": "But please don't hear that as, night owls are doomed. A big part of the story may be the mismatch itself. Living against your own clock, day after day, is tiring. Some researchers think a world with a bit more flexibility, later school times for teenagers, flexible working hours, could help many people feel better.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Not a reason to blame night owls."
+   }
+  },
+  {
+   "say": "Can you shift your own clock a little? Somewhat, yes. The strongest signal for your body clock is light, especially morning light. Getting bright daylight soon after waking helps pull your clock earlier. Bright light late in the evening tends to push it later.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b10_sunrise_bird.jpg",
+    "cap": "Morning light moves your clock"
+   }
+  },
+  {
+   "say": "So, if you're a night owl who needs to function in a morning world, here are some gentle tools. Get outside, or near a bright window, soon after you wake up. Keep your evenings dimmer and warmer. Keep your wake up time fairly steady, even on weekends, to shrink the social jetlag. And move your bedtime in small steps, fifteen minutes at a time, instead of trying to jump by hours.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Gently shifting an owl's clock",
+    "items": [
+     "Get daylight soon after waking",
+     "Keep evenings dim and warm",
+     "Keep wake-up time steady, even on weekends",
+     "Move bedtime in small steps, not hours"
+    ]
+   }
+  },
+  {
+   "say": "And maybe the kindest takeaway is this. Owls and larks are both normal. Humans have always had a mix of them. Some researchers have even wondered whether, long ago, a group with different sleep timings had an advantage, because someone was always awake. It's a lovely idea, and a reminder that being different is not being broken.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "Owls and larks both belong."
+   }
+  },
+  {
+   "say": "But whatever your chronotype, all of us need enough sleep. And what happens when we don't get it is more surprising than you'd think. Especially one finding about how bad we are at noticing it. Let's look at what a few short nights really do.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: what happens without enough sleep."
+   }
+  }
+ ]
+}

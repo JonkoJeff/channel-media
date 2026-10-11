@@ -1,0 +1,179 @@
+{
+ "id": "lf06_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "It's late. You're in bed. The lights are off, and one small rectangle of light is still on. You tell yourself you're just checking one thing. Then a video starts. Then another. And when you finally look at the time, forty minutes have disappeared.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 12,
+    "title": "Your phone and your sleep"
+   }
+  },
+  {
+   "say": "If that sounds familiar, I want to start with something kind. That's not a personal failure. The apps on your phone are built by very smart people whose job is to keep you watching. Endless feeds. Autoplay. Notifications. Against all of that, a tired brain at midnight doesn't stand much of a chance.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "You're not weak. It's designed this way."
+   }
+  },
+  {
+   "say": "But what does the phone actually do to your sleep? When scientists look at this question, they usually separate it into three different things. And it's worth separating them, because they need different solutions.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Three ways a phone can affect sleep."
+   }
+  },
+  {
+   "say": "First, the light from the screen. Second, the content. The messages, the news, the exciting video, the argument in the comments. And third, simply the time. Every minute on the phone is a minute you're not sleeping. Remember revenge bedtime procrastination? This is often where it lives.",
+   "show": {
+    "type": "list",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "title": "How screens can affect sleep",
+    "items": [
+     "The light",
+     "The content",
+     "The time it takes"
+    ]
+   }
+  },
+  {
+   "say": "Let's start with the light, because that's the part that gets the most attention. Remember the body clock? Light is its most important signal. Bright light tells your clock, it's daytime. And one of the ways your body prepares for sleep is by releasing the hormone melatonin in the evening, as it gets dark.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Let's start with the light."
+   }
+  },
+  {
+   "say": "A careful study on this was published in the journal PNAS in late twenty fourteen, led by Anne-Marie Chang at Brigham and Women's Hospital. Twelve adults lived in a sleep lab for two weeks. For five evenings, they read on an iPad for four hours before bed. For five other evenings, they read a printed book. Same stories, different light.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Chang, Aeschbach, Duffy & Czeisler",
+    "where": "Brigham and Women's Hospital, PNAS, published Dec 2014",
+    "what": "12 adults read for four hours before bed, on an iPad or from a printed book, five evenings each, in a sleep lab."
+   }
+  },
+  {
+   "say": "After reading on the light emitting device, the researchers found that melatonin was suppressed. People took nearly ten minutes longer to fall asleep. They had less REM sleep. And the next morning, they felt more tired and took longer to become fully alert.",
+   "show": {
+    "type": "list",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "After reading on the iPad",
+    "items": [
+     "Melatonin was suppressed",
+     "Nearly 10 minutes longer to fall asleep",
+     "Less REM sleep",
+     "More tired the next morning"
+    ]
+   }
+  },
+  {
+   "say": "Now, I want to be fair about this study. It was small, just twelve people. And four hours of reading on a bright tablet right before bed is a lot. Most of us don't do exactly that. So the effect for an ordinary evening may be smaller. But the direction is clear. Bright screens late in the evening can nudge your body clock later.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Four hours is a lot, though."
+   }
+  },
+  {
+   "say": "What about night mode, the setting that turns your screen warmer and more orange? It may help a little, because it reduces some of the bluish light your clock is most sensitive to. But it doesn't solve the other two problems. A warm colored screen can still show you something that keeps you up for an hour.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "What about night mode?"
+   }
+  },
+  {
+   "say": "And that's why many sleep researchers think the content may matter just as much as the light, maybe more. Think about it. A calm book on a tablet is very different from an angry message from your boss. One relaxes you. The other switches on your whole stress system, the system that should be powering down.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The content may matter even more."
+   }
+  },
+  {
+   "say": "And remember what we learned about worries at night? The mind after midnight tends to see things more darkly. So reading the news, checking work email, or comparing your life to other people's highlights, right at the time your brain is least able to put things in perspective, is a pretty rough combination.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Remember the mind after midnight?"
+   }
+  },
+  {
+   "say": "And then there's the simplest effect of all. Time. If you go to bed at eleven but put the phone down at midnight, you didn't go to bed at eleven. You just moved your phone to a horizontal position. For many people, this is the biggest effect, much bigger than the light.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "And then there's time."
+   }
+  },
+  {
+   "say": "So what can you do? I'm not going to tell you to throw your phone in a lake. That's not realistic, and it's not necessary. The point isn't zero screens. The point is to give your evening a gentle slope down, instead of a cliff.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b12_book.jpg",
+    "cap": "The point isn't zero screens"
+   }
+  },
+  {
+   "say": "Here are a few ideas that many people find helpful. Pick a time when your phone goes to bed, maybe thirty to sixty minutes before you do. Charge it outside your bedroom, so it's not within arm's reach. Keep news and work email for the daytime. And swap the endless scroll for something with an ending. A paper book. A podcast. Or a calm, long video like this one, played with the screen face down.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "A kinder evening with your phone",
+    "items": [
+     "Pick a 'phone goes to bed' time",
+     "Charge it outside the bedroom",
+     "No news or work mail late in the evening",
+     "Swap the scroll for a paper book or audio"
+    ]
+   }
+  },
+  {
+   "say": "The charging trick is especially powerful, and it's very simple. If the phone sleeps in the hallway, you need an old fashioned alarm clock. And you lose the habit of grabbing it the moment you wake up at three AM. Remember what we learned about the three AM wake up? Checking the time and the phone is one of the best ways to turn a brief awakening into an hour of lying awake.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b12_charger.jpg",
+    "cap": "A phone that sleeps in the hallway"
+   }
+  },
+  {
+   "say": "And please, start small. You don't need to change everything tonight. Pick one thing. Maybe just the charger. Try it for a week, and see how your mornings feel. Small changes that you actually keep are worth much more than big plans that last three days.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "Start with one small change."
+   }
+  },
+  {
+   "say": "Now, let's take a step back and look beyond ourselves. Because humans are not the only ones who face the puzzle of sleep. Every animal that sleeps has to solve it. And some of their solutions are almost unbelievable. Birds that sleep while flying. Brains that sleep one half at a time.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Next: how other animals sleep."
+   }
+  }
+ ]
+}

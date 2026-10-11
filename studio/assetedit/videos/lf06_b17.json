@@ -1,0 +1,157 @@
+{
+ "id": "lf06_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Get comfortable. Let your body find a position that feels easy. If you're lying down, let the bed take your weight. You don't have to hold anything up anymore. The day is done.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 16,
+    "title": "Letting the day go"
+   }
+  },
+  {
+   "say": "Let's start with your breath. Breathe in slowly through your nose. Not too deep. Just a little slower than usual. And breathe out, even slower. Let the out breath be the longest part.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Breathe in slowly."
+   }
+  },
+  {
+   "say": "Again. In, gently. And out, slowly, like you're letting air out of a balloon. There's no right or wrong way to do this. Just a slower rhythm than the day had.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "One more time. In. And out. And now let your breathing go back to whatever it wants to do. You don't need to control it anymore. Your body knows how to breathe while you sleep. It has done it every night of your life.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "Now bring your attention to your forehead. Notice if there's any tension there. Any small frown left over from the day. Let it soften. Let the space between your eyebrows become smooth and wide.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b16_lake.jpg"
+   }
+  },
+  {
+   "say": "Let your eyes rest heavy in their sockets. Let your cheeks soften. Let your jaw loosen, so your teeth are slightly apart. Many of us carry the whole day in our jaw. Let it go now.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b16_lake.jpg"
+   }
+  },
+  {
+   "say": "Let your tongue rest. Let your throat be soft. Notice your shoulders. Are they raised, even a little? Let them sink down, away from your ears. Down into the bed. Heavier with every breath out.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b16_lake.jpg"
+   }
+  },
+  {
+   "say": "Now your arms. Let them grow heavy. Your upper arms. Your elbows. Your forearms. Your hands. Let your fingers uncurl. There's nothing to hold on to now. Nothing to carry.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "Feel your chest rise and fall on its own. Slow and easy. Let your belly be soft. No need to hold it in. No one is watching. You're safe here.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "Let the softness move down your back. Each part of your spine settling into the bed, one by one. Your lower back. Your hips. Feel how heavy your body is, and how the bed holds all of it.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b16_blanket.jpg"
+   }
+  },
+  {
+   "say": "Now your legs. Your thighs, heavy and warm. Your knees. Your calves. Your ankles. And finally your feet. Let your toes relax. Your whole body is resting now, from the top of your head to the tips of your toes.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b16_blanket.jpg"
+   }
+  },
+  {
+   "say": "If a thought comes along, that's fine. Thoughts are like cars passing outside a window. You can hear them, and you can let them drive on. You don't have to follow them. Tomorrow will come, and it will have its own time.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "Remember what we learned tonight. Your brain is about to start its night shift. The two forces are meeting. The gate is opening. Soon the waves of sleep will come, one after another, all through the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "While you rest, your brain will quietly sort through today. It will keep what matters, and let the rest drift away, like leaves on a slow river. You don't have to help. You just have to rest.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b16_lake.jpg"
+   }
+  },
+  {
+   "say": "And if you wake up in the night, that's okay too. It's just the end of a wave. You can breathe slowly, let your body grow heavy again, and wait for the next wave to carry you down.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b16_lake.jpg"
+   }
+  },
+  {
+   "say": "Breathe in, gently. And breathe out, slowly. Let your body sink a little deeper. Heavy. Warm. Safe.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "There's nothing left to do today. Nothing left to solve. Everything that matters will still be there in the morning, and you'll meet it rested. For now, there is only this bed, this breath, this quiet.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b16_blanket.jpg"
+   }
+  },
+  {
+   "say": "Thank you for spending this night with me. Thank you for being curious about the strange and wonderful brain that you carry around every day. And thank you for giving it the rest it deserves.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b16_lake.jpg"
+   }
+  },
+  {
+   "say": "Tomorrow, we'll explore another side of that brain. Why it sometimes tells you things that aren't quite true, and why that might actually be a good thing. But that's for tomorrow. For now, sleep well. Goodnight.",
+   "show": {
+    "type": "end",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "next": "Why Your Brain Lies to You"
+   }
+  }
+ ],
+ "speed": 0.8,
+ "pause": 1.6
+}

@@ -7,7 +7,7 @@
    "say": "Tonight, at some point, you'll lie down, close your eyes, and switch off for hours. Your brain won't. It has a whole night shift planned, and by the end of this video you'll know every part of it.",
    "show": {
     "type": "char",
-    "sprite": "A16",
+    "sprite": "A13",
     "bg": "bedroom_night",
     "cap": "Lights off.",
     "sub": "Brain: still on."
@@ -209,7 +209,7 @@
     "title": "Caffeine 6 hours before bed",
     "big": "1+ hour",
     "label": "less sleep, measured objectively",
-    "sprite": "A06",
+    "sprite": "A13",
     "bg": "bedroom_night"
    }
   },
@@ -244,7 +244,7 @@
    "say": "Most people have a strange dip in the early afternoon, and then a weird burst of energy in the evening. You feel like a zombie at three PM, and then at ten PM you're suddenly ready to reorganize your entire closet. That's force number two.",
    "show": {
     "type": "char",
-    "sprite": "A17",
+    "sprite": "A05",
     "bg": "street_day",
     "cap": "10 PM:",
     "sub": "suddenly full of energy"
@@ -305,7 +305,7 @@
    "say": "Quick question before we go on. What time does your second wind usually hit? Nine? Eleven? After midnight? Tell me in the comments, because by part ten you'll find out what that says about you.",
    "show": {
     "type": "char",
-    "sprite": "A11",
+    "sprite": "A05",
     "bg": "street_day",
     "cap": "When's your second wind?",
     "sub": "Tell me in the comments."
@@ -326,7 +326,7 @@
    "say": "That let him measure how easily people could fall asleep at every hour of the day. And he found something that surprised everyone. In the hours just before people's normal bedtime, it was harder to fall asleep than at almost any other time.",
    "show": {
     "type": "char",
-    "sprite": "A06",
+    "sprite": "A13",
     "bg": "bedroom_night",
     "cap": "Hardest time to sleep?",
     "sub": "Right before bedtime."
@@ -350,7 +350,7 @@
    "say": "Isn't that wild? Your brain deliberately makes you more alert right before bed. One idea is that it helps you push through the end of the day, while the sleep pressure is at its highest.",
    "show": {
     "type": "char",
-    "sprite": "A16",
+    "sprite": "A05",
     "bg": "street_day",
     "cap": "Built-in second wind"
    }
@@ -445,7 +445,7 @@
    "say": "They pick up the phone. One more episode. One more video. It's one AM, they know they'll regret it, and they keep going anyway. Psychologists have a name for that. And that's where we're going next.",
    "show": {
     "type": "char",
-    "sprite": "A11",
+    "sprite": "A05",
     "bg": "street_day",
     "cap": "Up next: part 2",
     "sub": "Revenge bedtime procrastination"

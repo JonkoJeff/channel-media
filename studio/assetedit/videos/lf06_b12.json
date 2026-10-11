@@ -1,0 +1,161 @@
+{
+ "id": "lf06_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So what if your nights are too short, at least for a while? Is there anything you can do during the day? Many cultures have an old answer to that. The afternoon nap. The siesta. The quiet half hour after lunch, when the whole house slows down.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "n": 12,
+    "title": "The art of the nap"
+   }
+  },
+  {
+   "say": "And there's a reason the afternoon is such a natural time for it. Many people feel a dip in alertness in the early afternoon. It's often blamed on lunch, but it also has to do with the body clock and the sleep pressure we met at the very start of the night. By early afternoon, the sand in the hourglass has been piling up for hours.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "That afternoon dip is real."
+   }
+  },
+  {
+   "say": "But do naps actually help? Or do they just make you groggy? To answer that, let's visit one of the most famous places a nap was ever tested. Not a bedroom. A cockpit.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "But do naps actually help?"
+   }
+  },
+  {
+   "say": "In nineteen ninety five, researchers working with NASA, with Mark Rosekind as first author, published work on what they called strategic naps. Pilots on long flights were given a planned chance to rest in the cockpit, a forty minute opportunity, while their colleagues kept flying the plane.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Rosekind and colleagues, NASA",
+    "where": "1995",
+    "what": "Pilots on long flights were allowed a planned rest opportunity in the cockpit, while their colleagues flew the plane."
+   }
+  },
+  {
+   "say": "Imagine that moment. Hours into a long night flight, the cabin quiet, the clouds far below. One pilot rests, while another keeps watch. Then they wake up and get back to work. The question was simple. Does that short rest make a difference by the end of the flight?",
+   "show": {
+    "type": "photo",
+    "file": "lf06_bnap_cockpit.jpg",
+    "cap": "A short rest, high above the clouds"
+   }
+  },
+  {
+   "say": "According to a summary by the Sleep Foundation, the pilots who napped, on average for about twenty six minutes, showed up to fifty four percent more alertness and thirty four percent better job performance than pilots who didn't nap. And the pilots who didn't nap showed more sleepiness near the end of the flights.",
+   "show": {
+    "type": "bars",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "After the nap, compared with no nap",
+    "unit": "% better",
+    "bars": [
+     [
+      "Alertness",
+      54.0
+     ],
+     [
+      "Job performance",
+      34.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "That's where you sometimes hear the phrase, the twenty six minute nap, or the NASA nap. And while you shouldn't treat twenty six minutes as a magic number, there's a real lesson in it. A short nap can make a real difference.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "That's where the '26 minute nap' comes from."
+   }
+  },
+  {
+   "say": "Why short? Because of something called sleep inertia. Have you ever woken up from a long afternoon nap feeling worse than before? Heavy, confused, a bit grumpy, like your head is full of cotton? That's sleep inertia. It's more likely when you wake up out of deep sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Why short is better."
+   }
+  },
+  {
+   "say": "Remember the waves of sleep from earlier tonight? The longer you sleep, the further you go down into deeper stages. If you wake up in the middle of deep sleep, the climb back up takes a while. A short nap tends to keep you closer to the surface, so waking up is easier.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Remember the waves?"
+   }
+  },
+  {
+   "say": "So here's a gentle recipe for a good nap. Keep it short, about twenty to thirty minutes. Take it in the early afternoon, not in the evening, because a late nap empties some of your sleep pressure, and remember, you need that pressure to fall asleep at night. Find a quiet, dim place if you can. And when you wake up, give yourself a few minutes before anything important.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "A good nap, gently",
+    "items": [
+     "Keep it short, around 20 to 30 minutes",
+     "Early afternoon, not late in the day",
+     "A quiet, dim place if you can",
+     "Give yourself a few minutes to wake up"
+    ]
+   }
+  },
+  {
+   "say": "And if you can't fall asleep during your nap? That's fine too. Lying down with your eyes closed, resting quietly, can still feel refreshing. Don't make it another thing to be good at. A nap is a gift, not a test.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_bnap_hammock.jpg",
+    "cap": "Even resting your eyes can help"
+   }
+  },
+  {
+   "say": "One honest caution, though. Naps can help you feel more alert, but they don't replace a full night of sleep. Remember the study where six hours a night for two weeks added up to the fog of two sleepless nights? A short nap won't erase that. The night is still where most of the important work happens.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Naps don't replace the night."
+   }
+  },
+  {
+   "say": "And if you struggle with falling asleep at night, a nap might actually make it harder, because it reduces your sleep pressure. In that case, it can be better to skip the nap for a while and let that pressure build, so the night comes more easily.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "And if you have insomnia..."
+   }
+  },
+  {
+   "say": "Still, I love the idea of the nap. It's one of the oldest and gentlest habits humans have. A short pause in the middle of a busy day. A way of saying to your body, I hear you, you're tired, let's rest for a moment. Then we'll continue.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "A small, old kindness."
+   }
+  },
+  {
+   "say": "Now, there's one thing that stands between many of us and our sleep, every single night. It's probably within arm's reach right now. It glows. It buzzes. And it's very, very good at saying, just one more. Let's talk honestly about your phone.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the little screen by the bed."
+   }
+  }
+ ]
+}

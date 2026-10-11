@@ -1,0 +1,251 @@
+{
+ "id": "lf06_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think back to the last time you learned something new. A new song on the guitar. A route through a new city. A list of words for a test. You practiced, you got a bit better, and then you went to bed. And the next day, somehow, it was easier. As if someone had been practicing for you during the night.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 8,
+    "title": "How sleep saves your memories"
+   }
+  },
+  {
+   "say": "In a way, someone did. Your own brain. One of the most important jobs of sleep, and one of the best studied, is memory. While you sleep, your brain is not simply resting. It's sorting, strengthening and filing what you experienced during the day.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Someone did practice for you."
+   }
+  },
+  {
+   "say": "This idea is older than you might think. Long before brain scans, long before anyone recorded brainwaves, psychologists already suspected that sleep did something special for memory. And one of the first experiments to test it is almost a hundred years old.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "An idea with a long history."
+   }
+  },
+  {
+   "say": "In nineteen twenty four, two researchers at Cornell University, John Jenkins and Karl Dallenbach, ran a small but famous study. Two people learned lists of nonsense syllables, meaningless little words, and were tested later. Sometimes they had slept in between. Sometimes they had spent the same time awake, going about their day.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Jenkins & Dallenbach",
+    "where": "Cornell University, American Journal of Psychology, 1924",
+    "what": "Two people learned lists of nonsense syllables, then were tested after periods of sleep or of normal waking life."
+   }
+  },
+  {
+   "say": "The result was clear. After a stretch of sleep, they remembered more than after the same amount of time awake. Jenkins and Dallenbach thought sleep simply protected memories from interference, from all the new things that crowd in during the day. That was part of the story. But much later, scientists discovered that sleep does something far more active.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "After sleep, they remembered more."
+   }
+  },
+  {
+   "say": "To see what it does, we need to visit a lab full of rats. Because in the nineteen nineties, researchers found a way to listen to individual brain cells while animals explored, and then while they slept. And what they heard was astonishing.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Your brain replays your day."
+   }
+  },
+  {
+   "say": "In nineteen ninety four, Matthew Wilson and Bruce McNaughton published a study in the journal Science. They recorded from cells in a part of the brain called the hippocampus, the brain's gateway to memory. Some of these cells are called place cells. They fire when an animal is in a particular spot.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Wilson & McNaughton",
+    "where": "Science, 1994",
+    "what": "They recorded groups of 'place cells' in the hippocampus of rats, during a task and during the deep sleep that followed."
+   }
+  },
+  {
+   "say": "So as a rat explores a space, different place cells fire in different spots, like little lights marking the route. The researchers recorded groups of these cells while the rats were busy with their task. And then they kept recording while the rats slept afterwards.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b08_maze.jpg",
+    "cap": "Cells that fire together, by day and by night"
+   }
+  },
+  {
+   "say": "Cells that had fired together during the task, because they marked overlapping places, fired together more often during the sleep that came after, compared with the sleep before the task. It was as if the brain was replaying the day's experience during the night. Practicing the route, with the lights off.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "The same cells, firing together again."
+   }
+  },
+  {
+   "say": "Scientists now call this replay. And since that early study, replay has been studied a great deal. The idea is that during sleep, the hippocampus reactivates recent experiences, and that this helps move them into longer lasting storage elsewhere in the brain. A bit like moving notes from a sticky note on your desk into a well organized archive.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Replay."
+   }
+  },
+  {
+   "say": "I love this picture. During the day, your hippocampus collects experiences quickly, like someone scribbling notes during a busy meeting. And at night, in the quiet, those notes are read again, connected to what you already know, and filed away. Some of them, anyway. Not everything makes it into the archive. And that's a good thing too.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b08_library.jpg",
+    "cap": "From sticky notes to the archive"
+   }
+  },
+  {
+   "say": "Now, rats are not people. So how do we know something similar happens in human sleep? This is where one of my favorite experiments comes in. It involves a memory game, a sleep lab, and the smell of roses.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "But does it work in humans?"
+   }
+  },
+  {
+   "say": "In two thousand seven, Björn Rasch, Jan Born and colleagues published a study in the journal Science. Volunteers learned a memory game. Card pairs in a grid, a bit like the game memory you might have played as a kid. And while they were learning, the scent of roses was released into the air.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Rasch, Büchel, Gais & Born",
+    "where": "Science, 2007",
+    "what": "Volunteers learned where pairs of cards were, while smelling roses. During deep sleep, some smelled the roses again."
+   }
+  },
+  {
+   "say": "Then they went to sleep in the lab. And during deep sleep, called slow wave sleep, some of them got another puff of rose scent. Just a few short bursts. They didn't wake up. They didn't know. The idea was that the smell might work like a cue. A gentle tap on the shoulder of the memory. Remember this?",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b08_roses.jpg",
+    "cap": "A scent as a reminder"
+   }
+  },
+  {
+   "say": "The next day, they were tested. According to the report of the study, people who smelled roses both while learning and during deep sleep remembered ninety seven percent of the card pairs. People without that combination remembered eighty five percent.",
+   "show": {
+    "type": "bars",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Card pairs remembered the next day",
+    "unit": "%",
+    "bars": [
+     [
+      "Without the scent cue",
+      85.0
+     ],
+     [
+      "Roses while learning and in deep sleep",
+      97.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And here's the detail that makes scientists really pay attention. The scent didn't help when it was given during REM sleep. It worked during deep, slow wave sleep. And brain imaging showed that the scent activated the hippocampus during sleep. The very gateway to memory we met in the rats.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Only in deep sleep."
+   }
+  },
+  {
+   "say": "Now, I want to be clear about what this does and doesn't mean. This is not about learning new things while you sleep, like playing a language course under your pillow. The scent didn't teach anything new. It strengthened something people had already learned that day. Sleep is not a classroom. It's a workshop where the day's work is finished.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "You can't learn new things in your sleep."
+   }
+  },
+  {
+   "say": "Let's put it together. During sleep, your brain replays experiences. It seems to strengthen what you learned. It links new memories to what you already know. And it lets a lot of the unimportant stuff fade away, which is just as important. A memory system that kept everything would be a very messy archive.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "What sleep does for memory",
+    "items": [
+     "Replays the day's experiences",
+     "Strengthens what you learned",
+     "Connects new things to old knowledge",
+     "Lets a lot of clutter fade away"
+    ]
+   }
+  },
+  {
+   "say": "Different stages of sleep seem to do different parts of this work. Deep sleep appears to be especially important for facts and events, like the card game. REM sleep may help more with emotional memories, and with making unusual connections. Remember the dreams that mix your old school with your kitchen? Some researchers think that's this linking process, glimpsed from inside.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Deep sleep and REM: a team."
+   }
+  },
+  {
+   "say": "Which brings us to a very old piece of advice. Sleep on it. Before a big decision, or when a problem seems stuck. People have said it for centuries, and now we have some idea why it can help. During the night, your brain gets the chance to process and connect, in a way that's hard during a busy day.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "That's why 'sleep on it' works."
+   }
+  },
+  {
+   "say": "And if you're studying, or learning a skill, this changes how you might plan. Many short sessions spread over days, with sleep in between, tend to work better than one giant session the night before. Every night of sleep is another round in the workshop.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "What it means for studying."
+   }
+  },
+  {
+   "say": "So here's a gentle plan. Learn something, then let sleep do its part. Spread your practice over several days. Don't trade away your sleep for one more hour of cramming, because that may cost you exactly the memory work you were hoping for. And do a short review in the morning, when the night has done its filing.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Learning with your sleep, not against it",
+    "items": [
+     "Learn in the evening, then sleep",
+     "Spread practice over several days",
+     "Don't swap sleep for one more hour of cramming",
+     "Review briefly in the morning"
+    ]
+   }
+  },
+  {
+   "say": "I find this one of the most hopeful things about sleep. All those hours that feel like nothing, like lost time, are some of the most productive hours your brain has. While you lie still in the dark, it's quietly working for you. Replaying, sorting, keeping the good parts.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The night is quietly working for you."
+   }
+  },
+  {
+   "say": "And memory isn't the only thing being sorted at night. Scientists have also discovered what looks like a cleaning system in the brain, one that may be busiest while you sleep. It's a fascinating discovery, and also a fascinating scientific argument. Let's look at both sides.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Next: the night cleaning crew."
+   }
+  }
+ ]
+}

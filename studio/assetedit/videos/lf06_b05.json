@@ -1,0 +1,322 @@
+{
+ "id": "lf06_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You're lying in bed. The day is finally letting go of you. Your thoughts are getting softer, a little blurry, a little strange. And then, out of nowhere, your whole body jerks. Like you just missed a step on the stairs.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 5,
+    "title": "The falling jolt"
+   }
+  },
+  {
+   "say": "Your heart is pounding. Maybe your leg kicked the blanket. Maybe your partner asked, are you okay? And for a moment, you genuinely felt like you were falling. Then it's gone, and you lie there, a bit embarrassed, waiting for sleep to come back.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "One second: drifting off.",
+    "sub": "The next: wide awake."
+   }
+  },
+  {
+   "say": "If that has ever happened to you, you're in very good company. It's so common that it has an official name. It's called a hypnic jerk. Some people call it a sleep start. Hypnic simply means related to falling asleep. And jerk means exactly what you think it means.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "It has a name."
+   }
+  },
+  {
+   "say": "How common is it? Estimates in the research suggest that somewhere between sixty and seventy percent of people experience these jolts. A study by Chiaro and colleagues from twenty sixteen is one of the sources often cited for that number. So if you've felt it, you're not strange. You're in the majority.",
+   "show": {
+    "type": "stat",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "title": "How common is it?",
+    "big": "60-70%",
+    "label": "of people experience hypnic jerks"
+   }
+  },
+  {
+   "say": "And here's the first comforting thing to know. For most people, a hypnic jerk is completely harmless. It isn't a sign of a disease. It isn't your heart doing something dangerous. It's simply one of the many odd little things a normal brain does on its way into the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Not a sign that something is wrong."
+   }
+  },
+  {
+   "say": "But harmless doesn't mean boring. Because when you look closely at what happens in that split second, it tells you something beautiful about how your brain switches from day to night. So let's slow down and take it apart.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Falling asleep isn't like flipping a switch. It's more like walking down a slope into the water. There's a border zone between being awake and being asleep. Scientists sometimes call the very first, lightest stage of sleep N1. It usually only lasts a few minutes.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b05_edge.jpg",
+    "cap": "The border between awake and asleep"
+   }
+  },
+  {
+   "say": "In that border zone, a lot of things change at once. Your muscles begin to relax. Your breathing slows. Your thoughts become loose and a little dreamlike. Sometimes you see images, or hear a sound that isn't really there. Your brain is half here, and half somewhere else.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "title": "The border zone of sleep",
+    "items": [
+     "Your muscles start to relax",
+     "Your breathing slows down",
+     "Thoughts turn loose and dreamlike",
+     "Your brain is half here, half gone"
+    ]
+   }
+  },
+  {
+   "say": "And that's exactly where the jolt lives. In the handover. Think of it like two people passing a cup of tea from one hand to another. Most of the time it goes smoothly. But every now and then, the cup wobbles. A hypnic jerk is a wobble in the handover between waking and sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The handover isn't always smooth."
+   }
+  },
+  {
+   "say": "So what happens in the body during that wobble? A hypnic jerk is a sudden, very short contraction of muscles. Often the legs, sometimes the arms, sometimes the whole body at once. It's over in a fraction of a second.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "What actually happens?"
+   }
+  },
+  {
+   "say": "Doctors have a word for this kind of sudden, brief muscle twitch. It's called myoclonus. That sounds serious, but you've experienced harmless myoclonus your whole life. A hiccup is one. And according to the National Institute of Neurological Disorders and Stroke, the jolt you feel when you fall asleep is another everyday example.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "National Institute of Neurological Disorders and Stroke",
+    "where": "Myoclonus fact sheet",
+    "what": "Sudden, brief muscle jerks are called myoclonus. Hiccups and the jolt of falling asleep are everyday, harmless examples."
+   }
+  },
+  {
+   "say": "I find that strangely comforting. The thing that made you feel like you were falling off a cliff belongs to the same family as a hiccup. Your body does these small, sudden things all the time. This one just happens to arrive at the exact moment you were finally getting comfortable.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Same family as a hiccup."
+   }
+  },
+  {
+   "say": "But that still leaves the big question. Why does it so often come with that feeling of falling? Why not just a twitch? Why the missed step, the cliff edge, the sudden drop?",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Why does it feel like falling?"
+   }
+  },
+  {
+   "say": "Here I want to be honest with you. Scientists don't know for certain. The exact cause of hypnic jerks is still not fully understood. There are ideas, and some of them are quite elegant, but none of them has been proven. So let's look at them for what they are. Possible explanations.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Honest answer: nobody knows for sure."
+   }
+  },
+  {
+   "say": "I'll give you three. The first idea is about misunderstanding. The second is about storytelling. And the third goes back millions of years. None of them is the final answer. But together, they paint a fascinating picture.",
+   "show": {
+    "type": "list",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "title": "Possible explanations",
+    "items": [
+     "The brain misreads relaxing muscles",
+     "A half-asleep brain makes up a story",
+     "An old reflex from our ancestors"
+    ]
+   }
+  },
+  {
+   "say": "Idea number one. As you fall asleep, your muscles relax quite quickly. One popular explanation is that a part of your brain notices this sudden loss of tension and misreads it. To that part of the brain, muscles going limp can feel a lot like the body losing its footing. So it reacts the way it would if you were actually slipping. With a quick, protective jerk.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Idea one: a misunderstanding."
+   }
+  },
+  {
+   "say": "Imagine you're standing on a train, and the train suddenly slows. Your body jolts before you even think about it. Your balance system is always running in the background, even when you're about to sleep. If it gets a confusing signal, it may react first and ask questions later.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b05_feather.jpg",
+    "cap": "Muscles letting go, a little too fast"
+   }
+  },
+  {
+   "say": "Idea number two is about storytelling. In that border zone, your brain is already starting to dream. And dreaming brains love to explain things. So when the muscles jerk, the half dreaming brain may quickly invent a story to go with it. A step you missed. A ledge. A fall. The feeling of falling might be the story, not the cause.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Idea two: the brain tells a story."
+   }
+  },
+  {
+   "say": "That would explain why the falling dream sometimes seems to arrive at the exact same moment as the jolt. Your brain is very good at stitching events into a story so fast that you never notice the seams. We'll see this talent again in a few minutes, when we talk about dreams.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "The jerk first, the story after?"
+   }
+  },
+  {
+   "say": "And idea number three is the most dramatic one. Some researchers have suggested that the jolt could be a leftover from our distant ancestors, primates who slept in trees. If your body is about to relax and you're high up in a tree, a quick reflex that checks your grip could be very useful.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Idea three: an ancient reflex."
+   }
+  },
+  {
+   "say": "It's a lovely story. It's also very hard to test, because we can't go back millions of years and ask a sleeping primate how it feels. So please treat it like a campfire story. Interesting to think about, but not something science has confirmed.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A nice story. Not proven."
+   }
+  },
+  {
+   "say": "What we can say with more confidence is what makes these jolts more likely. Because hypnic jerks are not completely random. Certain things seem to turn up the volume.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "What makes them more likely?"
+   }
+  },
+  {
+   "say": "Being very tired is one. When you're sleep deprived, your body tends to fall asleep faster and more abruptly, and the handover gets rougher. Stimulants like caffeine and nicotine are another. Stress and anxiety too, because a brain that's on alert is easier to startle. And sometimes even an uncomfortable position can play a role.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Things that can make jolts more likely",
+    "items": [
+     "Being very tired or short on sleep",
+     "Caffeine and nicotine",
+     "Stress and a busy mind",
+     "An awkward sleeping position"
+    ]
+   }
+  },
+  {
+   "say": "Notice something about that list? It's almost the same list as the things that make sleep worse in general. Late coffee. A stressful evening. Going to bed completely exhausted after a few short nights. The jolt is often your body's way of telling you that tonight's handover is a bit rushed.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Notice something?"
+   }
+  },
+  {
+   "say": "Remember the caffeine study from earlier tonight? Even coffee six hours before bed still had an effect on sleep. That same coffee can also make your nervous system a little more jumpy at night. Your body doesn't forget your afternoon cappuccino just because you did.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Remember the caffeine?"
+   }
+  },
+  {
+   "say": "Researchers who record brain activity during the falling asleep phase have also seen a pattern. A jerk often comes together with a particular kind of brainwave called a vertex sharp wave, a typical signal of that early border stage of sleep. It's one more clue that the jolt belongs to the transition itself, not to anything wrong with you.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The brainwaves show it too."
+   }
+  },
+  {
+   "say": "And here's a lovely detail. These kinds of sudden twitches are part of how the nervous system develops from the very beginning. Researchers have described myoclonus as a developmental feature, present even before birth. Babies twitch in their sleep all the time. In a way, the jolt is an old friend you've had since before you were born.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "They start very early in life."
+   }
+  },
+  {
+   "say": "Now, a calm word of caution. Occasional jolts are normal. But if the jerks happen very often, if they keep you from falling asleep night after night, or if movements continue throughout the night, that's something worth mentioning to a doctor. Not because it's likely to be dangerous, but because good sleep matters, and you deserve to have it checked.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "When should you pay attention?"
+   }
+  },
+  {
+   "say": "So, what can you do if the jolts bother you? Give your body a gentler handover. Keep caffeine for the morning. Give your mind an hour to wind down before bed, so you don't carry the whole day into the pillow. Try not to arrive in bed completely wrecked after several short nights. And keep your sleep times fairly steady, so your body knows when the handover is coming.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Fewer jolts, gentler nights",
+    "items": [
+     "No caffeine late in the day",
+     "Give your mind a wind-down hour",
+     "Try not to go to bed completely exhausted",
+     "Keep a steady sleep schedule"
+    ]
+   }
+  },
+  {
+   "say": "And if it happens anyway, here's my favorite trick. Don't fight it. Don't get annoyed. Just notice it. Oh, there's the handover wobble again. My brain is switching over. That's all. Breathe out slowly, let your shoulders drop, and let the slope take you down again.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "And if it happens anyway?"
+   }
+  },
+  {
+   "say": "Because in a strange way, a hypnic jerk is good news. It means you were right at the edge of sleep. You were almost there. The jolt is just a little bump on the last bit of the road.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A sign you were almost there."
+   }
+  },
+  {
+   "say": "And what's waiting just behind that edge, once the bump is behind you? The strangest place your brain visits every single night. A world where you can fly, where your old school appears in your kitchen, and where none of it feels strange at all. Let's go there next. Let's talk about why we dream.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Next: the world behind the edge."
+   }
+  }
+ ]
+}

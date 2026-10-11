@@ -1,0 +1,179 @@
+{
+ "id": "lf06_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a thought that sounds simple, but gets stranger the longer you look at it. Sleep is dangerous. For hours, you lie still, you don't see what's coming, you can't run. For a wild animal, that's a huge risk. And yet, as far as scientists can tell, a great many animals sleep in some form.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 13,
+    "title": "How other animals sleep"
+   }
+  },
+  {
+   "say": "If sleep were just resting, evolution would probably have found a safer way to rest. The fact that so many creatures have kept it, despite the danger, tells us that sleep must do something important. Something that's hard to do while awake. We've seen some candidates tonight. Memory. Emotional balance. And whatever the brain's cleaning system turns out to do.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "If sleep is so risky, why keep it?"
+   }
+  },
+  {
+   "say": "But it also means every animal has to solve a puzzle. How do you get the sleep you need, without getting eaten, without drowning, without falling out of the sky? And nature has come up with some astonishing answers.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Every animal has to solve the puzzle."
+   }
+  },
+  {
+   "say": "One of the most remarkable answers is this. Sleep with half your brain at a time. It sounds impossible, but some animals can do something close to that. Researchers call it unihemispheric sleep. One half of the brain shows sleep, while the other half stays more awake.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Half a brain at a time."
+   }
+  },
+  {
+   "say": "Dolphins are the famous example. They breathe air, so they need to come up to the surface, and they live in a world full of movement. Dolphins and some other marine mammals are known to sleep with one half of the brain at a time, so that some part of them can keep swimming, keep surfacing, and keep an eye on the world.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b13_dolphins.jpg",
+    "cap": "Dolphins: one half asleep, one half watching"
+   }
+  },
+  {
+   "say": "And then there are birds. For a long time, people wondered about birds that fly for days or even weeks over the ocean, without landing. Do they ever sleep? Can a bird sleep in the air? For a long time, nobody could prove it either way.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "And then there are the birds."
+   }
+  },
+  {
+   "say": "In twenty sixteen, a team led by Niels Rattenborg from the Max Planck Institute for Ornithology published the first direct evidence. They studied frigatebirds, large seabirds that can stay airborne over the ocean for days. Small devices recorded the birds' brain activity during non stop flights of up to ten days, covering about three thousand kilometers.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Rattenborg and colleagues",
+    "where": "Max Planck Institute for Ornithology, Nature Communications, 2016",
+    "what": "Small devices recorded the brain activity of great frigatebirds during flights of up to ten days over the ocean."
+   }
+  },
+  {
+   "say": "And yes, the birds slept in flight. Sometimes with one half of the brain, sometimes with both halves at the same time. One hemisphere sleep was more common in the air than on land.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b13_frigate.jpg",
+    "cap": "Sleeping while gliding"
+   }
+  },
+  {
+   "say": "But here's the part that surprised the researchers most. In flight, the birds slept only about forty two minutes per day. On land, they slept more than twelve hours a day. So during those long journeys, they were getting just a tiny fraction of their usual sleep.",
+   "show": {
+    "type": "bars",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Frigatebirds: sleep per day",
+    "unit": "hours",
+    "bars": [
+     [
+      "In flight",
+      0.7
+     ],
+     [
+      "On land",
+      12.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "How they manage on so little is still a bit of a mystery. Maybe it's a bit like us during a demanding period, running on a very short budget of sleep, and catching up later. It shows how flexible sleep can be. And also how strongly animals hold on to at least a little of it, even in the middle of the ocean sky.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Sleep, compressed."
+   }
+  },
+  {
+   "say": "And here's a lovely link to everyday language. We say, to sleep with one eye open, meaning to stay alert even when resting. Some birds really do something like that. When one half of the brain sleeps, the eye connected to the other half can stay open, watching.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "One eye open."
+   }
+  },
+  {
+   "say": "What about us? Humans don't sleep with half a brain the way dolphins do. But there's a gentle, very human echo of this idea. Researchers have reported that, in the first night in a new place, one side of the brain can stay a little more watchful than the other. Which might be part of why the first night in a hotel often feels so light and restless.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "And what about us?"
+   }
+  },
+  {
+   "say": "Sleep researchers know this as the first night effect. In fact, in many sleep studies, the first night in the lab is treated as an adaptation night, because people simply sleep worse in a new environment. Your brain, quite sensibly, keeps a little bit of watch when it doesn't know where it is.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The first-night effect."
+   }
+  },
+  {
+   "say": "I find that strangely moving. In all of us, there's still a bit of that ancient night watch. The part that listens for sounds in an unfamiliar place. The part that jumps at a noise in the hallway. It's the same deep need every animal has. To rest, but not too deeply, until it feels safe.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Your brain is still keeping watch."
+   }
+  },
+  {
+   "say": "And maybe that gives us a gentle hint for better sleep. Help your brain feel safe. A familiar, tidy, dark room. The same small ritual every evening, so your brain knows what's coming. When you travel, bring something familiar, a pillowcase, a scent, a favorite blanket. And if your surroundings are noisy, a steady, soft sound can hide the sudden noises that make your inner night watch jump.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Helping your brain feel safe at night",
+    "items": [
+     "A familiar, tidy, dark room",
+     "The same small bedtime ritual",
+     "A familiar smell or blanket when traveling",
+     "Steady sounds instead of sudden ones"
+    ]
+   }
+  },
+  {
+   "say": "So tonight, when you close your eyes, you join a very old tradition. Dolphins drifting with half a brain awake. Frigatebirds dozing on the wind above the ocean. And you, in your bed, letting your night watch slowly relax. All of us doing the same strange, risky, essential thing. Sleeping.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "We're part of something old."
+   }
+  },
+  {
+   "say": "And before we bring this night to a gentle close, I want to share one last wonder with you. Something that sounds like science fiction, but was published in a serious scientific journal. Researchers asked people questions while they were dreaming. And the dreamers answered.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Next: the dreamers who answered back."
+   }
+  }
+ ]
+}

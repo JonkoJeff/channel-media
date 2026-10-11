@@ -1,0 +1,148 @@
+{
+ "id": "lf06_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We've travelled a long way tonight. From the first yawn of the evening, through the falling jolt, the dreams, the frightening paralysis, the replay of memories, the cleaning crew, owls and larks, tired brains, glowing phones, sleeping birds over the ocean, and dreamers who answered back.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 15,
+    "title": "A better night, starting tonight"
+   }
+  },
+  {
+   "say": "Now, let's gather all of that into something useful. Not a strict list of rules. You don't need more pressure in the evening. Think of these as small, kind ideas, each one connected to something we discovered tonight. Pick one or two that feel right for you.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Let's gather it into something useful."
+   }
+  },
+  {
+   "say": "Remember the two forces from the very beginning. Sleep pressure, building all day like sand in an hourglass, and your body clock, opening the gate to sleep. So keep caffeine for the morning, because it quietly blocks the signal of that sand. Give your evening a gentle slope down instead of a cliff. And wake up at a steady time, because that's the anchor your body clock holds on to.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "From tonight's journey",
+    "items": [
+     "Respect the two forces: sleep pressure and the clock",
+     "Keep caffeine for the morning",
+     "Give your evening a gentle slope down",
+     "Wake up at a steady time"
+    ]
+   }
+  },
+  {
+   "say": "Remember revenge bedtime procrastination? Staying up late to finally have some time for yourself? The kindest answer isn't to scold yourself. It's to find a little bit of me time earlier in the evening, so the night doesn't have to provide it. Even twenty minutes that are truly yours can make it easier to let the day end.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Take your evening back, gently."
+   }
+  },
+  {
+   "say": "Remember the three AM wake up. Short awakenings between sleep cycles are a normal part of the night. People in history even had a first sleep and a second sleep. So if you wake up, don't check the clock, don't reach for your phone. And if you're truly wide awake after a while, get up, keep the light low, do something calm, and come back when you're sleepy.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Waking at 3 AM is normal."
+   }
+  },
+  {
+   "say": "Remember the mind after midnight. Worries feel bigger in the dark, not because they are bigger, but because your brain at that hour is a poorer judge. So a helpful sentence for three AM is this one. I'll think about this tomorrow, in daylight. Write it down if you need to, and let the morning version of you handle it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Night worries are not night truths."
+   }
+  },
+  {
+   "say": "For the jolts and the paralysis, name what's happening, breathe slowly, and let it pass. For learning, practice and then let sleep do its filing. For night owls, morning light and dimmer evenings to gently shift the clock. And for everyone, let your phone sleep somewhere other than your pillow.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "More gentle ideas",
+    "items": [
+     "Jolts and paralysis: name them, breathe, let them pass",
+     "Learn, then sleep on it",
+     "Morning light for owls, dim evenings for everyone",
+     "Let your phone sleep outside the bedroom"
+    ]
+   }
+  },
+  {
+   "say": "And one more thing that matters a lot. If sleep is hard for you for a long time, if you lie awake most nights for weeks or months, and it affects your days, please know that there's real help. Insomnia is common, and it's treatable.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "And if sleep stays hard?"
+   }
+  },
+  {
+   "say": "In twenty sixteen, the American College of Physicians recommended that cognitive behavioral therapy for insomnia, called CBT-I, should be the first line treatment for adults with chronic insomnia. It combines working with the thoughts around sleep, practical techniques for the bedroom and your schedule, and good sleep habits. It can be done with a therapist, in a group, online, or even with a good self-help book.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "American College of Physicians",
+    "where": "Clinical guideline, 2016",
+    "what": "CBT-I, cognitive behavioral therapy for insomnia, should be the first-line treatment for adults with chronic insomnia."
+   }
+  },
+  {
+   "say": "So if this is you, please talk to a doctor about it. Not because you've failed at sleeping, but because you deserve good nights, and there are proven ways to get there. You don't have to fix it alone, at three in the morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "You don't have to fix it alone."
+   }
+  },
+  {
+   "say": "And now, let's go back to where we started. Remember the very first thing I said tonight? At some point, you'll lie down, close your eyes, and switch off for hours. And your brain won't. Now you know what it's doing instead.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_b15_window.jpg",
+    "cap": "Your brain never switched off"
+   }
+  },
+  {
+   "say": "It's balancing two forces to let you drift off. Riding waves of sleep, cycle after cycle. Softening the emotions of the day. Telling stories to itself in dreams. Replaying what you learned and filing it away. Keeping a quiet watch, just in case. All night long, without you having to do a single thing.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "It's working for you all night."
+   }
+  },
+  {
+   "say": "That's the beautiful part. You don't have to do the work. You don't have to try to sleep. Sleep isn't something you can force anyway. All you have to do is make the conditions kind, and then let your brain do what it has done every night of your life.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "All you have to do is let it."
+   }
+  },
+  {
+   "say": "So, if you're watching this in the evening, maybe even in bed, let's do one last thing together. Let's slowly let today go. You don't need to watch the screen for this part. You can close your eyes and just listen.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Let's let the day go, together."
+   }
+  }
+ ]
+}

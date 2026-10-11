@@ -1,13 +1,14 @@
 {
  "id": "lf06",
  "title": "Your Brain at Night, Explained",
- "desc": "Every night you switch off for hours, but your brain doesn't. In this complete guide we follow your brain through one whole night: why it fights sleep at bedtime, why you stay up when you're exhausted, why waking at 3 AM is more normal than you think, why worries feel huge in the dark, plus the falling jolt, dreams, sleep paralysis, memory, the brain's night-time cleaning crew, night owls, phones, and what actually helps you sleep better.",
+ "desc": "Every night you switch off for hours, but your brain doesn't. Get comfortable and join me for a calm, 2.5-hour journey through one whole night inside your brain: why it fights sleep at bedtime, why you stay up when you're exhausted, the 3 AM wake-up, why worries feel bigger in the dark, the falling jolt, why we dream, sleep paralysis, how sleep saves your memories, the brain's night-time cleaning debate, night owls and early birds, what short nights really do, the art of the nap, your phone, how animals sleep, and the dreamers who answered back. We end with simple ideas for better nights and a gentle wind-down, so you can fall asleep to the last part if you like.",
  "tags": [
   "#psychology",
   "#sleep",
   "#brain",
-  "#psychologyexplained",
-  "#night"
+  "#sleepstory",
+  "#relaxing",
+  "#psychologyexplained"
  ],
  "sources": [
   "Borbély, A. A. (1982). A two process model of sleep regulation. Human Neurobiology, 1, 195-204. Retrospective: Borbély et al. (2016/2022), The two-process model of sleep regulation: beginnings and outlook, Journal of Sleep Research (PMC9540767).",
@@ -22,11 +23,33 @@
   "Wehr, T. A. (1992). In short photoperiods, human sleep is biphasic. Journal of Sleep Research.",
   "Tubbs, A. S., Fernandez, F.-X., Grandner, M. A., Perlis, M. L. & Klerman, E. B. (2022). The mind after midnight: nocturnal wakefulness, behavioral dysregulation, and psychopathology. Frontiers in Network Physiology, 1.",
   "Yoo, S.-S., Gujar, N., Hu, P., Jolesz, F. A. & Walker, M. P. (2007). The human emotional brain without sleep: a prefrontal amygdala disconnect. Current Biology, 17(20), R877-R878.",
-  "van der Helm, E. et al. (2011). REM sleep depotentiates amygdala activity to previous emotional experiences. Current Biology."
+  "van der Helm, E. et al. (2011). REM sleep depotentiates amygdala activity to previous emotional experiences. Current Biology.",
+  "Chiaro, G. et al. (2016). Hypnic jerks are an underestimated sleep motor phenomenon in patients with parkinsonism (60-70% prevalence figure), as summarized by Medical News Today: What are hypnic jerks?",
+  "National Institute of Neurological Disorders and Stroke (NINDS): Myoclonus fact sheet (hiccups and sleep starts as harmless myoclonus).",
+  "Aserinsky, E. & Kleitman, N. (1953). Regularly occurring periods of eye motility, and concomitant phenomena, during sleep. Science, 118, 273-274.",
+  "Siclari, F., Tononi, G. et al. (2017). The neural correlates of dreaming. Nature Neuroscience. University of Wisconsin-Madison news: Research shows 'hot zone' that's active during dreaming.",
+  "Hobson, J. A. & McCarley, R. W. (1977). The brain as a dream state generator: an activation-synthesis hypothesis of the dream process. American Journal of Psychiatry.",
+  "Revonsuo, A. (2000). The reinterpretation of dreams: an evolutionary hypothesis of the function of dreaming. Behavioral and Brain Sciences. (Overview: BrainFacts.org, In your dreams, 2020.)",
+  "Sharpless, B. A. & Barber, J. P. (2011). Lifetime prevalence rates of sleep paralysis: a systematic review. Sleep Medicine Reviews, 15(5), 311-315.",
+  "Jenkins, J. G. & Dallenbach, K. M. (1924). Obliviscence during sleep and waking. American Journal of Psychology, 35, 605-612.",
+  "Wilson, M. A. & McNaughton, B. L. (1994). Reactivation of hippocampal ensemble memories during sleep. Science, 265, 676-679.",
+  "Rasch, B., Büchel, C., Gais, S. & Born, J. (2007). Odor cues during slow-wave sleep prompt declarative memory consolidation. Science, 315, 1426-1429. (Alzforum summary.)",
+  "Xie, L., Kang, H., Xu, Q. et al., Nedergaard, M. (2013). Sleep drives metabolite clearance from the adult brain. Science, 342(6156), 373-377.",
+  "Miao, A. et al., Franks, N. P. & Wisden, W. (2024). Brain clearance is reduced during sleep and anesthesia. Nature Neuroscience, 27(6), 1046-1050. (Alzforum coverage with expert comments.)",
+  "Jones, S. E. et al. (2019). Genome-wide association analyses of chronotype in 697,828 individuals provides insights into circadian rhythms. Nature Communications, 10, 343. (UK Biobank summary.)",
+  "Roenneberg, T. et al. (2004). A marker for the end of adolescence. Current Biology, 14(24). (Nature news, 30 Dec 2004.)",
+  "Roenneberg, T., Allebrandt, K. V., Merrow, M. & Vetter, C. (2012). Social jetlag and obesity. Current Biology, 22(10), 939-943.",
+  "NPR (2024): Lessons from sleeplessness: the 60th anniversary of Randy Gardner's world record.",
+  "Van Dongen, H. P. A., Maislin, G., Mullington, J. M. & Dinges, D. F. (2003). The cumulative cost of additional wakefulness. Sleep, 26(2), 117-126.",
+  "Rosekind, M. R. et al. (1995). Alertness management: strategic naps in operational settings (NASA). Summary: Sleep Foundation, The NASA nap.",
+  "Chang, A.-M., Aeschbach, D., Duffy, J. F. & Czeisler, C. A. (2015). Evening use of light-emitting eReaders negatively affects sleep, circadian timing, and next-morning alertness. PNAS, 112(4), 1232-1237.",
+  "Rattenborg, N. C. et al. (2016). Evidence that birds sleep in mid-flight. Nature Communications, 7, 12468. (Max Planck Society press release.)",
+  "Konkoly, K. R., Paller, K. A. et al. (2021). Real-time dialogue between experimenters and dreamers during REM sleep. Current Biology. (Northwestern Now, Feb 2021.)",
+  "Qaseem, A. et al. (2016). Management of chronic insomnia disorder in adults: a clinical practice guideline from the American College of Physicians. Annals of Internal Medicine."
  ],
  "thumb": {
-  "text": "IT NEVER|SLEEPS.",
-  "sprite": "A16",
+  "text": "IT NEVER|SLEEPS",
+  "sprite": "A19",
   "bg": "bedroom_night"
  },
  "parts": [
@@ -41,7 +64,12 @@
   "lf06_b09",
   "lf06_b10",
   "lf06_b11",
-  "lf06_b12"
+  "lf06_b12",
+  "lf06_b13",
+  "lf06_b14",
+  "lf06_b15",
+  "lf06_b16",
+  "lf06_b17"
  ],
  "plan": [
   "Why your brain fights sleep: sleep pressure (adenosine), the body clock, the 'forbidden zone' before bedtime, caffeine.",

@@ -12,7 +12,7 @@ def overlay(top, full_title, path):
         d.text((540 - d.textlength(ln, font=f) / 2, y), ln, font=f, fill=CREAM, stroke_width=10, stroke_fill=INK); y += 96
     im.save(path)
 
-def captions(segs, timing, a, b, path):
+def captions(segs, timing, a, b, path, res=(1080, 1920), size=84, outline=9, marginv=430, ml=60, mr=60):
     """Word-by-word pop-up captions (ASS). Word times are estimated inside each voiced segment by word length,
     with a short pause after sentence ends (the voice has no word timestamps)."""
     import re
@@ -29,9 +29,9 @@ def captions(segs, timing, a, b, path):
                 i = c + k; s0, s1 = times[i] - a, (times[i + 1] if k < len(chunk) - 1 else times[min(c + 3, len(words))]) - a
                 txt = " ".join(("{\\c&H5AF02E&\\fscx118\\fscy118\\t(0,90,\\fscx100\\fscy100)}" + w.upper() + "{\\c&HFFFFFF&}") if j == k else w.upper() for j, w in enumerate(chunk))
                 if s1 > 0: ev.append(f"Dialogue: 0,{ts(s0)},{ts(min(s1, b - a))},W,,0,0,0,,{txt}")
-    head = ("[Script Info]\nScriptType: v4.00+\nPlayResX: 1080\nPlayResY: 1920\n\n[V4+ Styles]\n"
+    head = (f"[Script Info]\nScriptType: v4.00+\nPlayResX: {res[0]}\nPlayResY: {res[1]}\n\n[V4+ Styles]\n"
             "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\n"
-            "Style: W,Inter Black,84,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,9,0,2,60,60,430,1\n\n[Events]\n"
+            f"Style: W,Inter Black,{size},&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,{outline},0,2,{ml},{mr},{marginv},1\n\n[Events]\n"
             "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n")
     open(path, "w").write(head + "\n".join(ev) + "\n")
 

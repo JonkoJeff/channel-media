@@ -80,26 +80,41 @@ def voice(v):
 
 # ---------- drawing ----------
 _bg, _spr = {}, {}
+NOW = [0.0]  # global time of the frame being drawn (set by the render loop)
 def background(bid, dim):
+    """Background slowly drifts (8% larger canvas, slow figure-eight) so no shot is fully still."""
+    big = _bgbig(bid, dim); t = NOW[0]
+    x = (big.width - W) / 2 * (1 + math.sin(t / 9)); y = (big.height - H) / 2 * (1 + math.sin(t / 13 + 1))
+    return big.crop((round(x), round(y), round(x) + W, round(y) + H))
+
+def _bgbig(bid, dim):
     key = (bid, dim)
     if key not in _bg:
-        im = Image.open(os.path.join(CH, BGS[bid]["file_path"])).convert("RGB").resize((W, H), Image.LANCZOS)
+        im = Image.open(os.path.join(CH, BGS[bid]["file_path"])).convert("RGB").resize((round(W * 1.08), round(H * 1.08)), Image.LANCZOS)
         if dim:
             im = im.filter(ImageFilter.GaussianBlur(6))
-            im = Image.blend(im, Image.new("RGB", (W, H), (20, 16, 24)), 0.45)
+            im = Image.blend(im, Image.new("RGB", im.size, (20, 16, 24)), 0.45)
         _bg[key] = im
     return _bg[key]
 
+_src = {}
 def sprite(aid, scale):
-    key = (aid, round(scale, 3))
+    """Uses the 4x upscaled sprite (assets_hd/, same art, sharper) when it exists."""
+    key = (aid, round(scale, 2))
     if key not in _spr:
-        im = Image.open(os.path.join(CH, ASSETS[aid]["file_path"])).convert("RGBA")
-        _spr[key] = im.resize((round(im.width * scale), round(im.height * scale)), Image.LANCZOS)  # uniform scale only
+        if aid not in _src:
+            hd = os.path.join(CH, "assets_hd", os.path.basename(ASSETS[aid]["file_path"]))
+            _src[aid] = (Image.open(hd).convert("RGBA"), 4) if os.path.exists(hd) else (Image.open(os.path.join(CH, ASSETS[aid]["file_path"])).convert("RGBA"), 1)
+        im, k = _src[aid]
+        if len(_spr) > 120: _spr.clear()  # long videos: keep memory bounded
+        _spr[key] = im.resize((round(im.width * scale / k), round(im.height * scale / k)), Image.LANCZOS)  # uniform scale only
     return _spr[key]
 
 def place_sprite(img, aid, cx, base_scale, lt):
-    sp = sprite(aid, base_scale * pop(lt))
-    img.paste(sp, (round(cx - sp.width / 2), H - sp.height + 6), sp)
+    """Pop in, then idle: slow breathing + bob so the character never looks frozen."""
+    br = 1 + 0.012 * math.sin(lt * 2.2) if lt > 0.4 else 1
+    sp = sprite(aid, base_scale * pop(lt) * br)
+    img.paste(sp, (round(cx - sp.width / 2 + 6 * math.sin(lt * 0.9)), round(H - sp.height + 10 + 7 * math.sin(lt * 2.2 + 1))), sp)
 
 def panel(d, box, fill=CREAM):
     x0, y0, x1, y1 = box
@@ -108,7 +123,7 @@ def panel(d, box, fill=CREAM):
 
 def card_static(d, sh, oy):
     """Everything on the card that does not animate. oy = slide offset."""
-    t, X0, Y0, X1, Y1 = sh["type"], 110, 120 + oy, 1300, 960 + oy
+    t, X0, Y0, X1, Y1 = sh["type"], 110, 110 + oy, 1300, 900 + oy
     if t == "chapter":
         d.text((140, 330 + oy), f"PART {sh['n']}", font=font(64, "Black"), fill=ORANGE, stroke_width=8, stroke_fill=INK)
         text_block(d, (140, 420 + oy), sh["title"], font(118, "Black"), 1150, fill=CREAM, gap=1.08, stroke=10, sfill=INK)
@@ -141,7 +156,7 @@ def card_static(d, sh, oy):
 
 def card_dynamic(d, sh, lt, dur):
     """Animated parts: list reveals, growing bars, counting stats, the curve drawing."""
-    t, X0, Y0, X1, Y1 = sh["type"], 110, 120, 1300, 960
+    t, X0, Y0, X1, Y1 = sh["type"], 110, 110, 1300, 900
     if t == "list":
         n, maxw = len(sh["items"]), X1 - X0 - 260
         top = Y0 + 60 + len(wrap(d, sh.get("title", ""), font(60, "Black"), X1 - X0 - 140)) * 71 + 40
@@ -220,10 +235,10 @@ def frame_for(seg, lt, dur, beat=0):
     if t == "photo":
         img = photo(sh, lt, dur)
         if sh.get("sprite"): place_sprite(img, sh["sprite"], 1650, 1.8, lt)
-        return img
+        return finish(img, seg, lt, 1.0)
     if t == "screen":
         img = background(sh["bg"], dim=True).copy(); screen(img, sh, lt, dur)
-        place_sprite(img, sh["sprite"], 1640 if sh.get("side", "left") == "left" else 280, 2.0, lt); return img
+        place_sprite(img, sh["sprite"], 1640 if sh.get("side", "left") == "left" else 280, 2.0, lt); return finish(img, seg, lt, 1.0)
     fullscreen = t in ("char", "chapter", "end")
     img = background(sh["bg"], dim=not fullscreen or t != "char").copy()
     d = ImageDraw.Draw(img)
@@ -233,11 +248,23 @@ def frame_for(seg, lt, dur, beat=0):
     if t == "char": place_sprite(img, sh["sprite"], 1420, 3.1, lt)
     elif t in ("chapter", "end"): place_sprite(img, sh["sprite"], 1560, 2.6, lt)
     else: place_sprite(img, sh["sprite"], 1620, 2.0, lt)
-    if t == "char":  # slow push-in keeps static shots alive
-        z = (1.07 if beat % 2 else 1.0) + 0.025 * min(lt / max(dur, 0.1), 1)
-        if z > 1.001:
-            cw, ch = W / z, H / z
-            img = img.resize((W, H), Image.BILINEAR, box=((W - cw) / 2, (H - ch) / 2, (W + cw) / 2, (H + ch) / 2))
+    z = 1.0
+    if t == "char": z = (1.07 if beat % 2 else 1.0) + 0.025 * min(lt / max(dur, 0.1), 1)  # slow push-in keeps static shots alive
+    return finish(img, seg, lt, z)
+
+def finish(img, seg, lt, z=1.0):
+    """Motion-graphics layer on every frame: punch-in transition on each new scene, white flash on chapters,
+    and a progress bar for the current part (seg['_p'] = [n, title, start, end], set by the render loop)."""
+    if lt < 0.22: z *= 1 + 0.06 * (1 - ease(lt / 0.22))
+    if z > 1.001:
+        cw, ch = W / z, H / z
+        img = img.resize((W, H), Image.BILINEAR, box=((W - cw) / 2, (H - ch) / 2, (W + cw) / 2, (H + ch) / 2))
+    if seg["show"]["type"] == "chapter" and lt < 0.18: img = Image.blend(img, Image.new("RGB", (W, H), (255, 255, 255)), 0.7 * (1 - lt / 0.18))
+    p = seg.get("_p")
+    if p and seg["show"]["type"] not in ("chapter", "end"):
+        d = ImageDraw.Draw(img); k = min(max((NOW[0] - p[2]) / max(p[3] - p[2], 1), 0), 1)
+        d.rounded_rectangle((40, 30, 520, 44), 7, fill=(20, 16, 24)); d.rounded_rectangle((40, 30, 40 + max(14, 480 * k), 44), 7, fill=ORANGE)
+        d.text((40, 52), f"PART {p[0]}  \u00b7  {p[1]}"[:48], font=font(26, "Bold"), fill=CREAM, stroke_width=4, stroke_fill=INK)
     return img
 
 def music(total, timing, v, path, sr=24000):
@@ -308,7 +335,21 @@ if __name__ == "__main__":
     total = timing[-1]["end"]; N = round(total * FPS)
     os.makedirs(os.path.join(HERE, "renders"), exist_ok=True)
     out = os.path.join(HERE, "renders", v["id"] + ".mp4"); silent = out[:-4] + "_silent.mp4"
-    ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
+    # parts (for the progress bar) + word-by-word captions (same green pop-up style as the Shorts)
+    cur = None
+    for s_, tm in zip(v["segments"], timing):
+        if s_["show"]["type"] == "chapter": cur = [s_["show"]["n"], s_["show"]["title"], tm["start"], None]
+        if cur: s_["_p"] = cur
+    ends = {}
+    for s_, tm in zip(v["segments"], timing):
+        if s_.get("_p"): ends[id(s_["_p"])] = tm["end"]
+    for s_ in v["segments"]:
+        if s_.get("_p"): s_["_p"][3] = ends[id(s_["_p"])]
+    vf = []
+    if v.get("captions", True):
+        from shorts import captions
+        cap = out[:-4] + ".ass"; captions(v["segments"], timing, 0, total, cap, res=(W, H), size=60, outline=7, marginv=40, ml=90, mr=760); vf = ["-vf", "ass=" + cap]
+    ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", *vf,
                            "-c:v", "libx264", "-preset", "veryfast", "-crf", "19", "-pix_fmt", "yuv420p", silent], stdin=subprocess.PIPE)
     import wave
     w = wave.open(wav); va = np.abs(np.frombuffer(w.readframes(w.getnframes()), np.int16)); sr = w.getframerate()
@@ -316,7 +357,7 @@ if __name__ == "__main__":
     beats = np.flatnonzero(np.diff(quiet.astype(int)) == -1) / sr + 0.3
     si = 0
     for f in range(N):
-        t = f / FPS
+        t = f / FPS; NOW[0] = t
         while si + 1 < len(timing) and t >= timing[si + 1]["start"]: si += 1
         seg, tm = v["segments"][si], timing[si]
         ff.stdin.write(frame_for(seg, t - tm["start"], tm["end"] - tm["start"], int(((beats > tm["start"] + 0.2) & (beats <= t)).sum())).tobytes())
@@ -333,5 +374,6 @@ if __name__ == "__main__":
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", silent, *ins, "-filter_complex", ";".join(flt), "-map", "0:v", "-map", "[m]",
                     "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-t", f"{total:.3f}", out], check=True)
     os.remove(silent); os.remove(out[:-4] + "_music.wav")
+    if os.path.exists(out[:-4] + ".ass"): os.remove(out[:-4] + ".ass")
     thumbnail(v, out[:-4] + "_thumb.png"); description(v, timing, series, out[:-4] + "_description.txt")
     print(f"DONE {out} {total / 60:.2f} min")

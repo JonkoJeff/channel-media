@@ -1,0 +1,89 @@
+{
+ "id": "zz_p02",
+ "part": true,
+ "voice": "am_puck",
+ "segments": [
+  {
+   "say": "Part two. What stress does to your brain.",
+   "show": {
+    "type": "chapter",
+    "n": 2,
+    "title": "What stress does to your brain",
+    "sprite": "A06",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "When someone puts you on the spot, especially in front of other people, your body reacts like there's a threat. Your heart beats faster. Your face gets hot. Your attention narrows. Researchers who reviewed over two hundred stress studies found that situations where you might be judged by others are some of the strongest triggers of the body's stress hormone, cortisol.",
+   "show": {
+    "type": "list",
+    "title": "Being put on the spot",
+    "items": [
+     "Heart rate goes up",
+     "Face gets hot",
+     "Attention narrows",
+     "Stress hormones rise"
+    ],
+    "sprite": "A16",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "And here's the problem. The part of your brain that comes up with clever answers is the prefrontal cortex, right behind your forehead. It handles flexible thinking, holding several ideas at once, and choosing your words. It's brilliant. But it's also fragile.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "The clever part:",
+    "sub": "the prefrontal cortex"
+   }
+  },
+  {
+   "say": "Neuroscientist Amy Arnsten has spent years studying exactly this. Her research shows that during acute stress, a flood of chemicals like noradrenaline and dopamine weakens the prefrontal cortex. At the same time, older and faster brain systems take over. The ones built for reacting, not reflecting.",
+   "show": {
+    "type": "study",
+    "who": "Amy Arnsten",
+    "where": "Yale University, Nature Reviews Neuroscience, 2009",
+    "what": "Stress chemicals switch the thoughtful prefrontal cortex off and hand control to faster, more reflexive brain systems.",
+    "sprite": "A04",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "In other words, in the exact moment you need your clever brain, your stress response turns it down and hands the controls to the part that only knows three moves. Fight, flee, or freeze. And in a conversation, freezing usually wins.",
+   "show": {
+    "type": "list",
+    "title": "Who's driving under stress?",
+    "items": [
+     "Clever brain: turned down",
+     "Fast reflex brain: in control",
+     "Its options: fight, flee, or freeze"
+    ],
+    "sprite": "A06",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "This idea is actually more than a century old. In nineteen oh eight, psychologists Robert Yerkes and John Dodson described a pattern that's now called the Yerkes-Dodson law. A little bit of pressure helps you perform. Too much pressure, and performance drops off a cliff, especially on tasks that need careful thinking.",
+   "show": {
+    "type": "curve",
+    "title": "The Yerkes-Dodson law",
+    "x": "Pressure",
+    "y": "Performance",
+    "peak": 0.45,
+    "label": "best zone",
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Next time, we're looking at a different brain glitch. You walk into a room, and you have absolutely no idea why you're there. Turns out, the door might be to blame. Subscribe so you don't miss it.",
+   "show": {
+    "type": "end",
+    "next": "Why Doorways Make You Forget",
+    "sprite": "A20",
+    "bg": "living_room_day"
+   }
+  }
+ ]
+}

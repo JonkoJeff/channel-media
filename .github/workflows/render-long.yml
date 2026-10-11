@@ -1,0 +1,80 @@
+name: render-long
+# Renders a 2.5 h video: every part in parallel (voice + frames + its Shorts), then stitches, publishes as a GitHub release
+# (public URL for Metricool / the uploader) and commits thumbnail, description and review frames to studio/renders/<id>/.
+on:
+  workflow_dispatch:
+    inputs:
+      id: {description: "Video id (videos/<id>.json with parts)", required: true}
+      channel: {description: "Channel folder ('' = Crazy Facts, else studio/channels/<slug>)", default: ""}
+permissions:
+  contents: write
+concurrency: render-${{ inputs.id }}
+env:
+  CHANNEL_DIR: ${{ inputs.channel && format('{0}/studio/channels/{1}', github.workspace, inputs.channel) || '' }}
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs: {parts: "${{ steps.p.outputs.parts }}"}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        run: echo "parts=$(python3 -c "import json;print(json.dumps(json.load(open('studio/assetedit/videos/${{ inputs.id }}.json'))['parts']))")" >> "$GITHUB_OUTPUT"
+  part:
+    needs: plan
+    runs-on: ubuntu-latest
+    strategy: {fail-fast: false, matrix: {part: "${{ fromJSON(needs.plan.outputs.parts) }}"}}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        with: {path: studio/voice/*.onnx, key: kokoro-v1}
+      - uses: actions/cache@v4
+        with: {path: studio/voice/voices.bin, key: kokoro-voices-v1}
+      - run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg fonts-inter && pip install onnxruntime numpy scipy pillow
+      - run: '[ -z "$CHANNEL_DIR" ] && unset CHANNEL_DIR; bash studio/setup.sh'
+      - name: render part + its Shorts
+        run: |
+          [ -z "$CHANNEL_DIR" ] && unset CHANNEL_DIR
+          cd studio/assetedit && python3 longform.py videos/${{ matrix.part }}.json > ../../log.txt 2>&1 || { echo "::error::${{ matrix.part }}: $(tail -c 1200 ../../log.txt | tr '\n' ' ')"; exit 1; }
+          python3 -c "import json;s=[x for x in json.load(open('videos/shorts.json')) if x['src']=='${{ matrix.part }}'];json.dump(s,open('/tmp/sh.json','w'))"
+          python3 shorts.py /tmp/sh.json || echo "::warning::shorts for ${{ matrix.part }} failed"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.part }}
+          path: |
+            studio/assetedit/renders/*.mp4
+            studio/assetedit/audio/*_timing.json
+          retention-days: 3
+  assemble:
+    needs: part
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg fonts-inter && pip install numpy pillow
+      - uses: actions/download-artifact@v4
+        with: {path: art}
+      - run: |
+          mkdir -p studio/assetedit/renders studio/assetedit/audio
+          cp art/*/renders/*.mp4 studio/assetedit/renders/ 2>/dev/null || find art -name '*.mp4' -exec cp {} studio/assetedit/renders/ \;
+          find art -name '*_timing.json' -exec cp {} studio/assetedit/audio/ \;
+      - name: stitch
+        run: |
+          [ -z "$CHANNEL_DIR" ] && unset CHANNEL_DIR
+          cd studio/assetedit && python3 mega.py videos/${{ inputs.id }}.json > ../../log.txt 2>&1 || { echo "::error::$(tail -c 1200 ../../log.txt | tr '\n' ' ')"; exit 1; }
+          echo "::notice::$(tail -1 ../../log.txt)"
+      - name: publish release + commit review files
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          ID=${{ inputs.id }}; R=studio/assetedit/renders; D=studio/renders/$ID; mkdir -p $D
+          python3 - "$ID" <<'PY'
+          import json, sys, glob, os
+          i = sys.argv[1]; sh = [os.path.basename(p) for p in glob.glob("studio/assetedit/renders/*.mp4") if os.path.basename(p).startswith("sh")]
+          json.dump({"id": i, "video": f"https://github.com/JonkoJeff/channel-media/releases/download/{i}/{i}.mp4",
+                     "thumb": f"https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/renders/{i}/thumb.png",
+                     "shorts": {s[:-4]: f"https://github.com/JonkoJeff/channel-media/releases/download/{i}/{s}" for s in sh}},
+                    open(f"studio/renders/{i}/result.json", "w"), indent=1)
+          PY
+          cp $R/${ID}_thumb.png $D/thumb.png; cp $R/${ID}_description.txt $D/description.txt; cp -r $R/${ID}_frames $D/frames
+          gh release delete $ID -y --cleanup-tag 2>/dev/null || true
+          gh release create $ID $R/$ID.mp4 $(ls $R/sh*.mp4 2>/dev/null) --title "$ID" --notes "Rendered video files for the channel."
+          git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
+          git add $D && git commit -m "Rendered $ID [skip ci]" && git pull --rebase -q && git push

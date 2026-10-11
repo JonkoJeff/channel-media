@@ -315,7 +315,7 @@ def thumbnail(v, path):
     img.save(path, quality=95)
 
 def description(v, timing, series, path):
-    def ts(s): s = int(s); return f"{s // 60}:{s % 60:02d}"
+    def ts(s): s = int(s); return f"{s // 3600}:{s % 3600 // 60:02d}:{s % 60:02d}" if s >= 3600 else f"{s // 60}:{s % 60:02d}"
     chap = [("0:00", "Intro")] + [(ts(timing[i]["start"]), s["show"]["title"]) for i, s in enumerate(v["segments"]) if s["show"]["type"] == "chapter"]
     idx = [x["id"] for x in series].index(v["id"])
     nxt = series[idx + 1:idx + 4]
@@ -330,7 +330,7 @@ def description(v, timing, series, path):
 
 if __name__ == "__main__":
     v = json.load(open(sys.argv[1])); validate(v)
-    series = json.load(open(os.path.join(os.path.dirname(os.path.abspath(sys.argv[1])), "series.json")))
+    series = json.load(open(os.path.join(os.path.dirname(os.path.abspath(sys.argv[1])), "series.json"))) if not v.get("part") else []
     wav, timing = voice(v)
     total = timing[-1]["end"]; N = round(total * FPS)
     os.makedirs(os.path.join(HERE, "renders"), exist_ok=True)
@@ -375,5 +375,6 @@ if __name__ == "__main__":
                     "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-t", f"{total:.3f}", out], check=True)
     os.remove(silent); os.remove(out[:-4] + "_music.wav")
     if os.path.exists(out[:-4] + ".ass"): os.remove(out[:-4] + ".ass")
-    thumbnail(v, out[:-4] + "_thumb.png"); description(v, timing, series, out[:-4] + "_description.txt")
+    if not v.get("part"):  # parts of a 2.5 h video get their thumbnail/description from mega.py
+        thumbnail(v, out[:-4] + "_thumb.png"); description(v, timing, series, out[:-4] + "_description.txt")
     print(f"DONE {out} {total / 60:.2f} min")

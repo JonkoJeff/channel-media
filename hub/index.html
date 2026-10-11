@@ -119,7 +119,7 @@ async function load(){
         <div class="v">${nf(x.views)}<small>views</small></div></a>`).join('') : '<div class="empty">Nog geen video\'s.</div>';
     const now = Date.now();
     const pl = (d.planned || []).filter(p => p.scheduled && new Date(p.scheduled).getTime() > now).map(p => `
-      <div class="row"><div><div style="font-weight:800">${esc(p.title)}</div><div class="sub">${esc(p.length || '')} · ${new Date(p.scheduled).toLocaleString('nl-NL', {weekday:'short', day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'})}</div></div><span class="wait">gepland</span></div>`);
+      <div class="row"><div><div style="font-weight:800">${esc(p.title)}</div><div class="sub">${esc(p.length || '')} · ${new Date(p.scheduled).toLocaleString('nl-NL', {timeZone:'Europe/Amsterdam', weekday:'short', day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'})}</div></div><span class="wait">gepland</span></div>`);
     const ip = (d.in_progress || []).map(p => `<div class="row"><div><div style="font-weight:800">${esc(p.title)}</div><div class="sub">script ${esc(p.blocks)} blokken</div></div><span class="pill">in de maak</span></div>`);
     el('planned').innerHTML = [...pl, ...ip].join('') || '<div class="empty">Niets gepland; de dagelijkse run maakt de volgende video.</div>';
   }catch(e){ el('upd').textContent = 'kon data niet laden'; el('dot').className = 'dot stale'; }

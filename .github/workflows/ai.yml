@@ -1,0 +1,20 @@
+name: ai-images
+on:
+  push:
+    paths: ["studio/ai/jobs.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: ai-images
+jobs:
+  gen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 studio/ai/gen.py
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID || '21512b529b386555222317db76ce194e' }}  # not a secret, just the account number
+      - run: |
+          git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
+          git add studio/ai/out && git commit -m "AI images [skip ci]" && git pull --rebase -q && git push || true

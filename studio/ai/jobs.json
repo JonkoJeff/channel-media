@@ -1,0 +1,46 @@
+[
+ {
+  "out": "A01_9b.png",
+  "model": "flux-2-klein-9b",
+  "prompt": "Redraw the character from image 0 as a crisp high-resolution illustration: exactly the same chibi character, same face, same hair, same red hoodie, same colors, same pose, same gesture and expression. Clean sharp lineart, smooth cel shading, detailed eyes. Full bust centered, on a plain flat solid white background, no text, no shadow on the background.",
+  "refs": [
+   "studio/ai/refs/A01.png"
+  ],
+  "width": 1024,
+  "height": 1024,
+  "seed": 7
+ },
+ {
+  "out": "A03_9b.png",
+  "model": "flux-2-klein-9b",
+  "prompt": "Redraw the character from image 0 as a crisp high-resolution illustration: exactly the same chibi character, same face, same hair, same red hoodie, same colors, same pose, same gesture and expression. Clean sharp lineart, smooth cel shading, detailed eyes. Full bust centered, on a plain flat solid white background, no text, no shadow on the background.",
+  "refs": [
+   "studio/ai/refs/A03.png"
+  ],
+  "width": 1024,
+  "height": 1024,
+  "seed": 7
+ },
+ {
+  "out": "A05_9b.png",
+  "model": "flux-2-klein-9b",
+  "prompt": "Redraw the character from image 0 as a crisp high-resolution illustration: exactly the same chibi character, same face, same hair, same red hoodie, same colors, same pose, same gesture and expression. Clean sharp lineart, smooth cel shading, detailed eyes. Full bust centered, on a plain flat solid white background, no text, no shadow on the background.",
+  "refs": [
+   "studio/ai/refs/A05.png"
+  ],
+  "width": 1024,
+  "height": 1024,
+  "seed": 7
+ },
+ {
+  "out": "A01_4b.png",
+  "model": "flux-2-klein-4b",
+  "prompt": "Redraw the character from image 0 as a crisp high-resolution illustration: exactly the same chibi character, same face, same hair, same red hoodie, same colors, same pose, same gesture and expression. Clean sharp lineart, smooth cel shading, detailed eyes. Full bust centered, on a plain flat solid white background, no text, no shadow on the background.",
+  "refs": [
+   "studio/ai/refs/A01.png"
+  ],
+  "width": 1024,
+  "height": 1024,
+  "seed": 7
+ }
+]

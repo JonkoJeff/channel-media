@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crazy Facts Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0d1020;--panel:#151a30;--panel2:#1b2140;--line:#262d52;--text:#eef0ff;--muted:#8e95c2;--amber:#ffb03b;--green:#3ddc84;--red:#ff5d5d;--blue:#6aa8ff;--violet:#a98bff}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:radial-gradient(1200px 600px at 10% -10%,#22285a 0%,transparent 60%),radial-gradient(900px 500px at 110% 10%,#3a2340 0%,transparent 55%),var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;min-height:100vh;padding:28px clamp(16px,3vw,44px)}
+  header{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-bottom:26px}
+  header img{width:64px;height:64px;border-radius:50%;border:3px solid var(--amber);object-fit:cover;background:#222}
+  h1{font-size:clamp(22px,2.4vw,34px);font-weight:900;letter-spacing:-.5px}
+  .sub{color:var(--muted);font-size:14px;margin-top:2px}
+  .live{margin-left:auto;display:flex;align-items:center;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:10px 16px;font-size:14px;color:var(--muted)}
+  .dot{width:10px;height:10px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(61,220,132,.7);animation:pulse 2s infinite}
+  .dot.stale{background:var(--amber);animation:none}
+  @keyframes pulse{70%{box-shadow:0 0 0 10px rgba(61,220,132,0)}100%{box-shadow:0 0 0 0 rgba(61,220,132,0)}}
+  .grid{display:grid;gap:18px}
+  .kpis{grid-template-columns:repeat(auto-fit,minmax(210px,1fr));margin-bottom:18px}
+  .card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:22px;padding:22px}
+  .kpi .label{color:var(--muted);font-size:14px;font-weight:600;text-transform:uppercase;letter-spacing:.08em}
+  .kpi .val{font-size:clamp(40px,4.6vw,64px);font-weight:900;margin:6px 0 4px;letter-spacing:-1.5px}
+  .kpi .hint{color:var(--muted);font-size:14px}
+  .bar{height:10px;background:#0b0e1d;border-radius:99px;overflow:hidden;margin-top:12px}
+  .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--amber),#ff7a59);border-radius:99px}
+  .two{grid-template-columns:repeat(auto-fit,minmax(320px,1fr));margin-bottom:18px}
+  h2{font-size:18px;font-weight:800;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+  .pill{font-size:12px;font-weight:700;padding:4px 10px;border-radius:99px;background:#232a52;color:var(--muted)}
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .split div{background:#0f1328;border:1px solid var(--line);border-radius:16px;padding:16px}
+  .split b{display:block;font-size:34px;font-weight:900;margin-top:4px}
+  .split span{color:var(--muted);font-size:13px}
+  .vid{display:grid;grid-template-columns:132px 1fr auto;gap:14px;align-items:center;padding:10px;border-radius:14px;text-decoration:none;color:inherit}
+  .vid:hover{background:#1f2650}
+  .vid img{width:132px;aspect-ratio:16/9;object-fit:cover;border-radius:10px;background:#000}
+  .vid .t{font-weight:700;font-size:15px;line-height:1.3}
+  .vid .m{color:var(--muted);font-size:13px;margin-top:4px}
+  .vid .v{font-size:24px;font-weight:900;text-align:right}
+  .vid .v small{display:block;font-size:11px;color:var(--muted);font-weight:600}
+  .tag{font-size:11px;font-weight:800;padding:2px 8px;border-radius:6px;margin-right:6px}
+  .tag.long{background:rgba(255,176,59,.16);color:var(--amber)}.tag.short{background:rgba(169,139,255,.16);color:var(--violet)}
+  .row{display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid var(--line);gap:12px}
+  .row:last-child{border:0}
+  .ok{color:var(--green);font-weight:800}.wait{color:var(--amber);font-weight:800}.err{color:var(--red);font-weight:800}
+  .empty{color:var(--muted);font-size:14px;padding:8px 0}
+  footer{color:var(--muted);font-size:12px;margin-top:20px;text-align:center}
+  @media (max-width:560px){.vid{grid-template-columns:96px 1fr}.vid img{width:96px}.vid .v{grid-column:2;text-align:left}.live{margin-left:0}}
+</style>
+</head>
+<body>
+<header>
+  <img src="../studio/assetedit/branding/avatar.png" alt="">
+  <div><h1>Crazy Facts Hub</h1><div class="sub">Crazy_Factsss · YouTube · rustige 2,5-uursvideo's, elke dag</div></div>
+  <div class="live"><span class="dot" id="dot"></span><span id="upd">laden…</span></div>
+</header>
+
+<section class="grid kpis">
+  <div class="card kpi"><div class="label">Abonnees</div><div class="val" id="subs">–</div><div class="hint" id="subsHint">doel 1.000 voor monetisatie</div><div class="bar"><i id="subsBar" style="width:0"></i></div></div>
+  <div class="card kpi"><div class="label">Views totaal</div><div class="val" id="views">–</div><div class="hint" id="viewsHint">alle video's samen</div></div>
+  <div class="card kpi"><div class="label">Video's online</div><div class="val" id="count">–</div><div class="hint" id="countHint"></div></div>
+  <div class="card kpi"><div class="label">Likes + reacties</div><div class="val" id="eng">–</div><div class="hint">betrokkenheid</div></div>
+</section>
+
+<section class="grid two">
+  <div class="card"><h2>Lang vs Shorts</h2>
+    <div class="split">
+      <div><span>Lange video's</span><b id="lv">–</b><span id="lvs"></span></div>
+      <div><span>Shorts</span><b id="sv">–</b><span id="svs"></span></div>
+    </div>
+  </div>
+  <div class="card"><h2>Systeem <span class="pill">automatisch</span></h2>
+    <div class="row"><span>YouTube-data (elke 15 min)</span><span id="apiData" class="ok">–</span></div>
+    <div class="row"><span>YouTube API-goedkeuring</span><span id="apiAudit" class="wait">–</span></div>
+    <div class="row"><span>Uploadroute</span><span id="route">–</span></div>
+    <div class="row"><span>Dagelijkse run</span><span>09:47 · Gmail-check 09:32</span></div>
+  </div>
+</section>
+
+<section class="grid two">
+  <div class="card"><h2>Populaire video's <span class="pill" id="vidPill"></span></h2><div id="videos"></div></div>
+  <div class="card"><h2>Gepland &amp; in de maak</h2><div id="planned"></div></div>
+</section>
+<footer>Data: YouTube Data API via GitHub Actions · ververst elke 15 minuten · deze pagina haalt elke minuut de nieuwste data op</footer>
+
+<script>
+const nf = n => (n ?? 0).toLocaleString('nl-NL');
+const el = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function ago(iso){ if(!iso) return '?'; const m = Math.round((Date.now() - new Date(iso.replace('Z',':00Z')).getTime())/60000); return m < 1 ? 'zojuist' : m < 60 ? m + ' min geleden' : Math.round(m/60) + ' uur geleden'; }
+function dur(s){ const h = Math.floor(s/3600), m = Math.floor(s%3600/60), x = s%60; return h ? `${h}:${String(m).padStart(2,'0')}:${String(x).padStart(2,'0')}` : `${m}:${String(x).padStart(2,'0')}`; }
+async function load(){
+  try{
+    const d = await (await fetch('data.json?t=' + Date.now(), {cache:'no-store'})).json();
+    const ch = d.channels[0] || {}; const v = d.videos || [];
+    const L = v.filter(x => x.type === 'Long'), S = v.filter(x => x.type === 'Short');
+    const sum = a => a.reduce((t, x) => t + (x.views || 0), 0);
+    el('subs').textContent = nf(ch.subscriberCount); el('subsBar').style.width = Math.min(100, (ch.subscriberCount || 0) / 10) + '%';
+    el('subsHint').textContent = `${nf(Math.max(0, 1000 - (ch.subscriberCount || 0)))} te gaan tot 1.000`;
+    el('views').textContent = nf(Math.max(sum(v), ch.viewCount || 0));
+    el('count').textContent = nf(v.length); el('countHint').textContent = `${L.length} lang · ${S.length} Shorts`;
+    el('eng').textContent = nf(v.reduce((t, x) => t + (x.likes || 0) + (x.comments || 0), 0));
+    el('lv').textContent = nf(sum(L)) + ' views'; el('lvs').textContent = `${L.length} video's · gem. ${nf(Math.round(sum(L) / (L.length || 1)))}`;
+    el('sv').textContent = nf(sum(S)) + ' views'; el('svs').textContent = `${S.length} Shorts · gem. ${nf(Math.round(sum(S) / (S.length || 1)))}`;
+    const fresh = d.checked_at && (Date.now() - new Date(d.checked_at.replace('Z',':00Z'))) < 40*60000;
+    el('dot').className = 'dot' + (fresh ? '' : ' stale');
+    el('upd').textContent = 'YouTube-data ' + ago(d.checked_at);
+    el('apiData').textContent = fresh ? 'actueel' : 'verouderd'; el('apiData').className = fresh ? 'ok' : 'wait';
+    el('apiAudit').textContent = d.approved ? 'goedgekeurd' : 'wacht op Google'; el('apiAudit').className = d.approved ? 'ok' : 'wait';
+    el('route').textContent = d.approved ? 'eigen uploader' : 'Metricool (20/maand)';
+    el('vidPill').textContent = v.length + ' online';
+    el('videos').innerHTML = v.length ? [...v].sort((a, b) => b.views - a.views).slice(0, 8).map(x => `
+      <a class="vid" href="https://youtu.be/${esc(x.id)}" target="_blank" rel="noopener">
+        <img src="https://i.ytimg.com/vi/${esc(x.id)}/mqdefault.jpg" alt="">
+        <div><div class="t">${esc(x.title.replace(/\s*#shorts/i, ''))}</div>
+        <div class="m"><span class="tag ${x.type === 'Long' ? 'long' : 'short'}">${x.type === 'Long' ? 'LANG' : 'SHORT'}</span>${dur(x.seconds)} · ${esc(x.published)} · ${nf(x.likes)} likes</div></div>
+        <div class="v">${nf(x.views)}<small>views</small></div></a>`).join('') : '<div class="empty">Nog geen video\'s.</div>';
+    const now = Date.now();
+    const pl = (d.planned || []).filter(p => p.scheduled && new Date(p.scheduled).getTime() > now).map(p => `
+      <div class="row"><div><div style="font-weight:800">${esc(p.title)}</div><div class="sub">${esc(p.length || '')} · ${new Date(p.scheduled).toLocaleString('nl-NL', {weekday:'short', day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'})}</div></div><span class="wait">gepland</span></div>`);
+    const ip = (d.in_progress || []).map(p => `<div class="row"><div><div style="font-weight:800">${esc(p.title)}</div><div class="sub">script ${esc(p.blocks)} blokken</div></div><span class="pill">in de maak</span></div>`);
+    el('planned').innerHTML = [...pl, ...ip].join('') || '<div class="empty">Niets gepland; de dagelijkse run maakt de volgende video.</div>';
+  }catch(e){ el('upd').textContent = 'kon data niet laden'; el('dot').className = 'dot stale'; }
+}
+load(); setInterval(load, 60000); setTimeout(() => location.reload(), 6 * 3600000);
+</script>
+</body>
+</html>

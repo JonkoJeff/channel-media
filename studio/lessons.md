@@ -3,6 +3,7 @@
 The machine adds a rule here every time a published video had a problem. Every new video must follow all rules.
 
 ## Rules
+- AI images (Cloudflare Flux) refuse prompts with roses/romantic/pink + bedside wording as 'NSFW'; use neutral still-life words ("glass vase with garden flowers on a windowsill"). Check the screenshots run annotations for refused prompts before rendering: a missing photo file breaks the render.
 - Every number, name and year on screen must match an opened source.
 - A study's year is the year it was published. Say "published in 2000", never "in 2000 they ran", unless the source gives the year the experiment was run. (lf01: the T-shirt study ran in the late 1990s, published 2000.)
 - Use the study's own measure in the line: if the paper measured "could recall/name the shirt", say "remembered", not "noticed". (lf01: 46% guessed vs 23% recalled.)

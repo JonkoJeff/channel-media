@@ -13,10 +13,11 @@ for ch in os.listdir("studio/channels"):
     for p in json.load(open(lst)):
         if os.path.exists(os.path.join(out, p["file"])): continue
         q = urllib.parse.urlencode({"q": p["query"], "license": "cc0,pdm,by,by-sa", "license_type": "commercial,modification",
-                                    "category": "photograph", "aspect_ratio": "wide", "size": "large", "page_size": 20, "mature": "false"})
+                                    "page_size": 20, "mature": "false"})
         try:
             res = json.loads(get("https://api.openverse.org/v1/images/?" + q))["results"]
-            res = [r for r in res if (r.get("width") or 0) >= 1600] or res
+            print(f"::notice::'{p['query']}': {len(res)} results")
+            res = sorted(res, key=lambda r: -((r.get("width") or 0) >= 1600))
             for r in res:
                 try:
                     data = get(r["url"])
@@ -25,7 +26,7 @@ for ch in os.listdir("studio/channels"):
                     credits[p["file"]] = {"title": r.get("title"), "creator": r.get("creator"), "license": f'{r["license"].upper()} {r.get("license_version") or ""}'.strip(),
                                           "license_url": r.get("license_url"), "source": r.get("foreign_landing_url"), "provider": r.get("source")}
                     print("ok", p["file"], r.get("source"), r["license"]); break
-                except Exception as e: print("skip", e)
+                except Exception as e: print(f"::notice::skip {r.get('source')}: {str(e)[:80]}")
             else: print(f"::warning::no usable photo for '{p['query']}'")
         except Exception as e: print(f"::warning::{p['query']}: {e}")
     json.dump(credits, open(cpath, "w"), indent=1)

@@ -40,6 +40,15 @@ Published videos are never edited or deleted. If something is wrong: bad luck, t
 3. Commit and push `studio/lessons.md`.
 4. Refresh the dashboard hub (https://claude.ai/artifact/WvKMoV3qDoFScfsTEhJUDX): read `studio/yt/status.json` (written by the daily GitHub Actions check at 06:30 UTC) and the latest Actions run result. Write `yt_videos.json` from `status.json` videos (id, title without " #shorts", channel, type Short/Lang, published, seconds, views, likes, comments, url) and `hub_channels.json` (one row per channel and platform: channel, platform, status live/off/planned, subscribers, views, videos, route, checked_at, key = "channel · platform") and `hub_apis.json` (api, role, status ok/pending/limited/off/error, detail, checked_at; keep the Metricool row with checked_at "live"). Upload each with Artifact (`asset: true`), then ArtifactData `update` datasets `yt_videos` / `hub_channels` / `hub_apis` with the new `source.url` and `updated {at, by: "daily task"}`. If the Actions check failed, set the YouTube API row to error with the annotation text.
 
+## T. Every 8 hours: trend study (≈10 min, separate scheduled task)
+GitHub Actions `trend-scan` runs at 05:15, 13:15 and 21:15 UTC and writes `studio/trends/latest.json` (per niche: the last 7 days' videos that beat their channel size most, with title, description, tags, length, chapters yes/no, views, views/hour, outlier = views ÷ subscribers) and `studio/trends/thumbs/<id>.jpg`. Topics live in `studio/trends/topics.json` (add a line per new channel).
+1. `git pull`. If `latest.json` is older than 9 h, check the last `trend-scan` run and report the error annotation.
+2. Per group, study the top videos: look at every thumbnail with Read, and read titles and descriptions. Note per video in one line: title formula (length, words, curiosity gap, number, "you/your"), thumbnail (face/emotion, words on it, colors, focal object, layout), description (first line, chapters, links, hashtags), length.
+3. Editing style: the API gives no frames. Infer it from length, chapters and Shorts format. Only when vidIQ credits allow, read the transcript of the single top outlier (hook in the first 15 s, pace, structure). Never download videos.
+4. Update `studio/trends.md`: replace the `## Now working` block (max 12 bullets, each with an example title + channel + outlier score), and add a dated line to `## Log`. Turn a pattern into a rule under `## Rules` only when it shows up in 2+ scans; remove rules that stop showing up for 2 weeks.
+5. Never copy a title, thumbnail or script. Take the pattern, not the content. Our own numbers (insights.md) beat outside trends when they disagree.
+6. Commit and push. Only report when a new rule was added or something failed.
+
 ## B. Sundays and Wednesdays: make the next videos (≈1.5 h)
 Rhythm: long video is the main route: 3 a week (Mon, Wed, Fri at 17:00). Shorts fill the leftover post budget (see Post budget): about 7 a month, at 12:00, max 1 a day, never 2 in a row from the same video.
 Back catalog: from 10 published long videos on, add 2 extra Shorts a week cut from older videos, best performers first, never a segment already used (check shorts.json).
@@ -51,7 +60,7 @@ bash studio/setup.sh      # Kokoro voice (Apache-2.0) + espeak-ng; prints "voice
 ```
 
 ### B1. Learn from the numbers (Metricool, free)
-- First read `studio/lessons.md` (rules from earlier mistakes) and the last 2 blocks of `studio/insights.md`. Every rule there applies to this run.
+- First read `studio/lessons.md` (rules from earlier mistakes), `studio/trends.md` (`## Rules` and `## Now working`: apply them to titles, thumbnails, hooks and descriptions) and the last 2 blocks of `studio/insights.md`. Every rule there applies to this run.
 - `getAnalyticsDataByMetrics` brand 2266272, from 2026-10-01 to today, metrics `YTVV02, YTVV17, YTVV06, YTVV08, YTVV09, YTVV11, YTVV12` (date, title, views, avg view duration, likes, comments, shares).
 - Append a dated block to `studio/insights.md` with these columns per video: views, avg view duration as % of length, likes and comments per 1k views. Then 3 bullets: what worked, what didn't, and what to change this week.
 - Rules of thumb:

@@ -1,0 +1,22 @@
+name: trend-scan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 5,13,21 * * *'
+permissions:
+  contents: write
+concurrency: trend-scan
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install google-api-python-client google-auth
+      - run: python studio/yt/trends.py
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      - run: |
+          git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
+          git add studio/trends && git commit -m "Trend scan [skip ci]" && git pull --rebase -q && git push || true

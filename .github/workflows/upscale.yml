@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: pip install torch --index-url https://download.pytorch.org/whl/cpu && pip install spandrel pillow numpy
+      - run: pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu && pip install spandrel pillow numpy
       - run: curl -sSL -o anime6B.pth https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth
       - run: python3 studio/ai/upscale.py ${{ inputs.folders }} > up.log 2>&1 || { echo "::error::$(tail -c 1500 up.log | tr '\n' ' ')"; exit 1; }
       - run: |

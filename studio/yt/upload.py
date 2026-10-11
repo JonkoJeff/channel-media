@@ -1,5 +1,5 @@
 """Uploads pending items from studio/yt/queue.json to YouTube (runs in GitHub Actions).
-Item: {id, channel (optional slug, e.g. "moneyglitch" -> secret YT_REFRESH_TOKEN_MONEYGLITCH; default YT_REFRESH_TOKEN), file (raw URL), thumb (raw URL|null), title, description, tags[], publish_at (ISO, UTC) | null, short: bool, status: "pending"}
+Item: {id, channel (optional slug, e.g. "moneyatnight" -> secret YT_REFRESH_TOKEN_MONEYATNIGHT; default YT_REFRESH_TOKEN), file (raw URL), thumb (raw URL|null), title, description, tags[], publish_at (ISO, UTC) | null, short: bool, status: "pending"}
 After upload: status "uploaded", video_id. Secrets: YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN."""
 import json, os, urllib.request, tempfile
 from google.oauth2.credentials import Credentials

@@ -18,17 +18,17 @@ for ch in os.listdir("studio/channels"):
         if p.get("ai"):
             acc, tok = os.environ.get("CF_ACCOUNT_ID"), os.environ.get("CF_API_TOKEN")
             if not tok: print("::error::AI image asked but GitHub secret CF_API_TOKEN is missing"); continue
-            if not acc:  # account id is optional: take the first account the token can see
-                acc = os.environ["CF_ACCOUNT_ID"] = json.loads(urllib.request.urlopen(urllib.request.Request("https://api.cloudflare.com/client/v4/accounts",
-                      headers={"Authorization": "Bearer " + tok}), timeout=30).read())["result"][0]["id"]
             try:
+                if not acc:  # account id is optional: take the first account the token can see
+                    acc = os.environ["CF_ACCOUNT_ID"] = json.loads(urllib.request.urlopen(urllib.request.Request("https://api.cloudflare.com/client/v4/accounts",
+                          headers={"Authorization": "Bearer " + tok}), timeout=30).read())["result"][0]["id"]
                 req = urllib.request.Request(f"https://api.cloudflare.com/client/v4/accounts/{acc}/ai/run/@cf/black-forest-labs/flux-1-schnell",
                       data=json.dumps({"prompt": p["ai"], "steps": p.get("steps", 4)}).encode(), headers={"Authorization": "Bearer " + tok, "Content-Type": "application/json"})
                 img = json.loads(urllib.request.urlopen(req, timeout=120).read())["result"]["image"]
                 open(os.path.join(out, p["file"]), "wb").write(base64.b64decode(img))
                 credits[p["file"]] = {"ai": True, "creator": "AI-generated", "provider": "Flux / Cloudflare Workers AI", "license": "AI", "prompt": p["ai"]}
                 print("ok ai", p["file"])
-            except Exception as e: print(f"::error::AI image {p['file']}: {type(e).__name__}: {str(e)[:200]}")
+            except Exception as e: print(f"::error::AI image {p['file']}: {type(e).__name__}: {str(e)[:200]} {getattr(e, 'read', lambda: b'')()[:300]}")
             continue
         q = urllib.parse.urlencode({"q": p["query"], "license": "cc0,pdm,by,by-sa", "license_type": "commercial,modification",
                                     "page_size": 20, "mature": "false"})

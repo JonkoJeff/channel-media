@@ -1,7 +1,10 @@
 """Fetch free-licensed photos for videos from Openverse (includes Wikimedia Commons, Flickr CC, ...).
 Reads studio/channels/<ch>/photos.json: [{"file": "x.jpg", "query": "handmade jewelry shop"}]
 Only licenses that allow commercial use AND modification (cc0, pdm, by, by-sa). Writes the image to
-studio/channels/<ch>/photos/<file> and its credit to photos/credits.json (title, creator, license, url)."""
+studio/channels/<ch>/photos/<file> and its credit to photos/credits.json (title, creator, license, url).
+AI images: [{"file": "x.jpg", "ai": "prompt"}] -> Flux (flux-1-schnell, 1024x1024) on Cloudflare Workers AI, free tier
+(10,000 neurons/day, ~60 per image). Needs GitHub secrets CF_ACCOUNT_ID + CF_API_TOKEN (Workers AI permission)."""
+import base64
 import json, os, urllib.parse, urllib.request
 UA = {"User-Agent": "CrazyFactsPublisher/1.0 (github.com/JonkoJeff/channel-media)"}
 def get(url): return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60).read()
@@ -12,6 +15,18 @@ for ch in os.listdir("studio/channels"):
     cpath = os.path.join(out, "credits.json"); credits = json.load(open(cpath)) if os.path.exists(cpath) else {}
     for p in json.load(open(lst)):
         if os.path.exists(os.path.join(out, p["file"])): continue
+        if p.get("ai"):
+            acc, tok = os.environ.get("CF_ACCOUNT_ID"), os.environ.get("CF_API_TOKEN")
+            if not (acc and tok): print("::error::AI image asked but GitHub secrets CF_ACCOUNT_ID / CF_API_TOKEN are missing"); continue
+            try:
+                req = urllib.request.Request(f"https://api.cloudflare.com/client/v4/accounts/{acc}/ai/run/@cf/black-forest-labs/flux-1-schnell",
+                      data=json.dumps({"prompt": p["ai"], "steps": p.get("steps", 4)}).encode(), headers={"Authorization": "Bearer " + tok, "Content-Type": "application/json"})
+                img = json.loads(urllib.request.urlopen(req, timeout=120).read())["result"]["image"]
+                open(os.path.join(out, p["file"]), "wb").write(base64.b64decode(img))
+                credits[p["file"]] = {"ai": True, "creator": "AI-generated", "provider": "Flux / Cloudflare Workers AI", "license": "AI", "prompt": p["ai"]}
+                print("ok ai", p["file"])
+            except Exception as e: print(f"::error::AI image {p['file']}: {type(e).__name__}: {str(e)[:200]}")
+            continue
         q = urllib.parse.urlencode({"q": p["query"], "license": "cc0,pdm,by,by-sa", "license_type": "commercial,modification",
                                     "page_size": 20, "mature": "false"})
         try:

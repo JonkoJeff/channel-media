@@ -13,6 +13,9 @@ jobs:
       - run: npm i playwright@1.47.2 && npx playwright install --with-deps chromium
       - run: node studio/shots/shoot.js
       - run: python3 studio/shots/photos.py
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
       - run: |
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
           git add studio/channels/*/shots studio/channels/*/photos && git commit -m "Screenshots [skip ci]" && git push || true

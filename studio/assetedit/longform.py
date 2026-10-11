@@ -212,7 +212,7 @@ def photo(sh, lt, dur):
     d = ImageDraw.Draw(img)
     if sh.get("cap"): text_block(d, (110, H - 250), sh["cap"], font(64, "Black"), 1150, fill=CREAM, stroke=9, sfill=INK)
     cr = json.load(open(os.path.join(CH, "photos", "credits.json"))).get(sh["file"], {})
-    d.text((24, H - 40), f'Photo: {cr.get("creator") or "unknown"} / {cr.get("provider", "")} ({cr.get("license", "")})', font=font(22, "Medium"), fill=(235, 235, 235))
+    d.text((24, H - 40), "AI-generated image" if cr.get("ai") else f'Photo: {cr.get("creator") or "unknown"} / {cr.get("provider", "")} ({cr.get("license", "")})', font=font(22, "Medium"), fill=(235, 235, 235))
     return img
 
 def frame_for(seg, lt, dur, beat=0):
@@ -296,7 +296,8 @@ def description(v, timing, series, path):
     lines += [f"\u25b8 {x['title']}" for x in nxt] + ["", "\U0001f4da Sources"] + [f"\u2022 {s}" for s in v["sources"]]
     cpath = os.path.join(CH, "photos", "credits.json"); used = [s["show"]["file"] for s in v["segments"] if s["show"]["type"] == "photo"]
     if used and os.path.exists(cpath):
-        cr = json.load(open(cpath)); lines += ["", "\U0001f4f7 Photos"] + [f'\u2022 "{cr[f]["title"]}" by {cr[f]["creator"]} ({cr[f]["provider"]}), {cr[f]["license"]}: {cr[f]["source"]}' for f in dict.fromkeys(used) if f in cr]
+        cr = json.load(open(cpath)); lines += ["", "\U0001f4f7 Photos"] + [f'\u2022 "{cr[f]["title"]}" by {cr[f]["creator"]} ({cr[f]["provider"]}), {cr[f]["license"]}: {cr[f]["source"]}' for f in dict.fromkeys(used) if f in cr and not cr[f].get("ai")]
+        if any(cr.get(f, {}).get("ai") for f in used): lines += ["\u2022 Some images are AI-generated (Flux)."]
     lines += ["", "Narration is AI-generated (synthetic voice). Script, research and edit by the channel.", "", " ".join(v["tags"])]
     open(path, "w").write("\n".join(lines) + "\n")
 

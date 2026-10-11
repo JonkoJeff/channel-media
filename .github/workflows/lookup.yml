@@ -1,0 +1,22 @@
+name: video-lookup
+on:
+  workflow_dispatch:
+    inputs:
+      ids: {description: "Video ids, comma-separated", required: true}
+permissions:
+  contents: write
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install google-api-python-client google-auth
+      - run: python studio/yt/lookup.py
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          VIDEO_IDS: ${{ inputs.ids }}
+      - run: |
+          git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
+          git add studio/yt/lookup.json studio/yt/lookup && git commit -m "Video lookup [skip ci]" && git pull --rebase -q && git push || true

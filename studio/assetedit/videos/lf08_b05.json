@@ -1,0 +1,143 @@
+{
+ "id": "lf08_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's take everything we've just learned about uncertainty and put it somewhere very ordinary. A bus stop. It's a cold evening. The timetable says the bus should come at seven fifteen. It's now seven twenty. No bus. You look down the road. Nothing. Is it late? Has it already gone? Is it coming at all?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 5,
+    "title": "Where is my bus?"
+   }
+  },
+  {
+   "say": "Many people know this feeling very well. And it's a perfect little laboratory for the psychology of waiting. Because the bus stop combines several of the things that make waits feel long. You're standing still. You're often alone. And above all, you don't know how long you'll have to wait.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_bus_stop.jpg",
+    "cap": "Seven twenty, and no bus"
+   }
+  },
+  {
+   "say": "In recent years, many cities have started offering real time information about buses and trains. On screens at the stops, or in apps on our phones. Instead of a timetable that says when the bus should come, you can see where the bus actually is, and when it's predicted to arrive. Researchers wondered whether this changes how waiting feels.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Then came arrival apps."
+   }
+  },
+  {
+   "say": "In a study published in two thousand and eleven, Kari Watkins and her colleagues went to bus stops in the Seattle area. They observed riders arriving at the stops, timed how long they actually waited, and then asked them how long they felt they had waited. Some of the riders used a real time arrival app on their phones. Others relied on the regular timetable.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Kari Watkins and colleagues",
+    "where": "University of Washington, published in Transportation Research Part A, 2011",
+    "what": "Researchers watched riders arrive at Seattle-area bus stops, measured their actual waits, and asked how long the wait had felt. Some riders used real-time arrival information on a mobile device; others used ordinary schedules."
+   }
+  },
+  {
+   "say": "And they found a clear difference. The riders without real time information tended to feel that they had waited longer than they actually had. Their perceived wait was greater than their measured wait. But for the riders using real time information, that gap disappeared. Their sense of the wait matched reality more closely.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Without information, waits felt longer."
+   }
+  },
+  {
+   "say": "The riders were also asked how long they usually waited. Those with real time information said, on average, about seven and a half minutes. Those using ordinary timetables said almost ten. Part of this was a real difference, because people with the app could time their arrival better and actually waited less. But part of it was the feeling. Knowing made waiting feel shorter.",
+   "show": {
+    "type": "bars",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Usual wait, as riders reported it",
+    "unit": "minutes",
+    "bars": [
+     [
+      "With real-time info",
+      7.5
+     ],
+     [
+      "With a timetable",
+      9.9
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Think about what real time information does. It turns an open question, where's the bus, into a closed one. Six minutes away. And once you know that, the waiting changes. You can decide to buy a coffee, or finish a chapter, or simply relax. You're no longer waiting. You're planning.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Knowing turns waiting into planning."
+   }
+  },
+  {
+   "say": "There's also a sense of control that comes with this. Without information, you're at the mercy of the bus. With information, you can make choices. Walk to the stop a little later. Take a different route if it's very late. Even small amounts of control can make an unpleasant situation feel less stressful.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_bus_road.jpg",
+    "cap": "Six minutes away"
+   }
+  },
+  {
+   "say": "This research is about buses, but the lesson reaches much further. Whenever someone is waiting for us, or for something we control, information is a gift. A parcel tracker. A message saying, I'm five minutes away. A sign at the doctor's saying, current waiting time about twenty minutes. These things don't make anything faster. But they make waiting kinder.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A lesson far beyond buses."
+   }
+  },
+  {
+   "say": "What I find lovely about this is how little it costs. Making a bus faster is expensive. More buses, more drivers, new roads. But telling people where the bus is, is cheap. And it changes how people feel about the wait, and about the whole service. Sometimes the kindest thing we can give people isn't speed. It's knowledge.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "And it's cheap to give."
+   }
+  },
+  {
+   "say": "Of course, many of life's waits don't come with an app. Nobody can tell you exactly when you'll find the right job, or when a hard season of life will pass. In those cases, it can help to create your own small certainties. A plan for this week. A routine for each day. Little closed questions to rest on, inside the big open one.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "When there's no app for it."
+   }
+  },
+  {
+   "say": "So here's what the bus stop teaches. Not knowing makes waits feel longer than they are. Real time information brings our feelings closer to reality. Knowledge turns waiting into planning. And giving people information is one of the cheapest, kindest gifts we can offer.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "What the bus stop teaches",
+    "items": [
+     "Not knowing makes waits feel longer",
+     "Real-time information brings feelings closer to reality",
+     "Knowledge turns waiting into planning",
+     "Information is a cheap and kind gift"
+    ]
+   }
+  },
+  {
+   "say": "But there's a special kind of waiting that's even harder than not knowing. Waiting for something you know will be unpleasant. A dentist appointment. A difficult conversation. Many people say, let's just get it over with. Researchers wondered how far people would go to avoid the waiting. The answer is surprising.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: dread."
+   }
+  }
+ ]
+}

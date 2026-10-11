@@ -1,0 +1,152 @@
+{
+ "id": "lf08_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think of something unpleasant you have coming up. A visit to the dentist. A difficult phone call. An injection. A conversation you've been avoiding. Now, notice something. Very often, the waiting before the unpleasant thing feels worse than the thing itself.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 6,
+    "title": "Let's just get it over with"
+   }
+  },
+  {
+   "say": "Many people have had this experience. You worry about a dentist appointment for days. Then you go, and it's over in twenty minutes, and it wasn't nearly as bad as you imagined. But those days of waiting were genuinely unpleasant. The dread did more damage than the drill.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b05_waitroom.jpg",
+    "cap": "Sometimes the wait is the worst part"
+   }
+  },
+  {
+   "say": "Psychologists and economists call this feeling dread. And dread is interesting because it means that waiting for something bad has a cost of its own. It's not only the bad thing that hurts. The waiting hurts too. So, in theory, people might sometimes prefer to have a bad thing sooner, just to avoid the waiting.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Dread has a cost."
+   }
+  },
+  {
+   "say": "Back in nineteen eighty seven, the economist George Loewenstein asked students a simple question. How much would you pay to avoid a mild, non lethal electric shock? And he varied when the shock would happen. Right now, or after some delay. And people were willing to pay more to avoid shocks that were far in the future, like a year away, than shocks happening right now.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Would you pay to avoid waiting?"
+   }
+  },
+  {
+   "say": "That's strange, if you think about it. Normally, we care less about things that are far away in time. A reward next year feels less exciting than a reward today. But with the shock, the delay made it worse, not better. One explanation is dread. A shock a year away means a year of knowing it's coming.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A strange result."
+   }
+  },
+  {
+   "say": "In two thousand and six, a team led by Gregory Berns studied dread directly, using a brain scanner. Thirty two people took part. They were given a series of choices between mild electric shocks to the foot. For example, a stronger shock in a few seconds, or a weaker shock after a longer wait.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Gregory Berns and colleagues",
+    "where": "Emory University, published in Science, 2006",
+    "what": "32 people in a brain scanner chose between shocks of different strengths and different delays. For example, a stronger shock soon, or a weaker shock later."
+   }
+  },
+  {
+   "say": "And most people strongly disliked waiting for the shock. According to the study, twenty seven of the thirty two participants chose the shorter delay more than half the time. Many people were willing to take a shock sooner, just to stop waiting for it. Waiting, it seems, was its own kind of pain.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Chose the shorter wait most of the time",
+    "big": "27 of 32",
+    "label": "participants, according to the study"
+   }
+  },
+  {
+   "say": "And a group of them went even further. The researchers called them extreme dreaders. Nine of the thirty two people preferred to receive a stronger shock sooner, rather than a weaker shock later. They chose more pain, just to avoid the waiting. That tells you how unpleasant dread can be.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Some chose a stronger shock."
+   }
+  },
+  {
+   "say": "The brain scans gave another clue. During the waiting period, the people who dreaded most showed more activity in parts of the brain linked to the experience of pain, in particular regions that respond to the body's sensations. And the difference appeared in the waiting, not in the shock itself. The researchers suggested that dread involves a lot of attention, focused on what's coming.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The brain during the wait."
+   }
+  },
+  {
+   "say": "That's a helpful way to think about dread. It's attention, pointed at the future. Like staring at a closed door, knowing something unpleasant is behind it. The longer you stare, the bigger it seems. And the more your body prepares for it, as if it's already happening.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b05_door.jpg",
+    "cap": "What waits behind the door"
+   }
+  },
+  {
+   "say": "This explains why the common advice, just get it over with, often feels right. Booking the earliest appointment. Making the difficult call in the morning instead of the afternoon. Opening the letter now instead of leaving it on the table. When you remove the wait, you remove the dread. The unpleasant thing still happens. But the long shadow it casts disappears.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why get it over with helps."
+   }
+  },
+  {
+   "say": "Of course, we can't always shorten the wait. Sometimes an appointment is two weeks away, and that's that. In those cases, what can help is moving attention elsewhere. Remember that dread is attention pointed at the future. Gently pointing that attention at something else, a good book, a walk, time with friends, can ease the weight.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "When you can't shorten it."
+   }
+  },
+  {
+   "say": "It can also help to be honest about the true size of the thing. Ask yourself, how bad was it last time? Usually, the real event is smaller than the shadow it casts. Not always. But often. Remembering that can shrink the dread a little, and make the waiting lighter.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "And be honest about the size."
+   }
+  },
+  {
+   "say": "So here's what we can take from research on dread. Waiting for something unpleasant has a cost of its own. Many people prefer to get bad things over with sooner. When you can, shorten the wait. When you can't, gently move your attention, and remember that the shadow is usually bigger than the thing itself.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Making dread smaller",
+    "items": [
+     "Waiting for bad things has its own cost",
+     "Many people prefer bad things sooner",
+     "When possible, shorten the wait",
+     "When not, gently move your attention"
+    ]
+   }
+  },
+  {
+   "say": "So far, we've looked at how waiting feels inside our own heads. But waiting often happens with other people. In lines, in queues, in crowds. And when other people are involved, a new feeling comes in, one that can turn a calm wait into a heated one in seconds. A sense of fairness.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: is this line fair?"
+   }
+  }
+ ]
+}

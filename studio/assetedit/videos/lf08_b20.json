@@ -1,0 +1,150 @@
+{
+ "id": "lf08_b20",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You lie down in bed. The lights are off. You're tired. And you wait for sleep to come. Sometimes, it comes quickly, almost before you notice. But sometimes it doesn't. You lie there. You turn over. You check the time. And the waiting begins to feel like something you're failing at.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 20,
+    "title": "Waiting for sleep"
+   }
+  },
+  {
+   "say": "Waiting for sleep is a very special kind of waiting. Because unlike most waits, you're both the one waiting and the one who's supposed to make it happen. And the strange thing is that sleep doesn't respond well to effort. The harder you try to fall asleep, the more awake you often feel.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b17_bed.jpg",
+    "cap": "Waiting for sleep to come"
+   }
+  },
+  {
+   "say": "Sleep researchers have a name for this. Sleep effort. The idea that actively trying to fall asleep, pushing, forcing, checking whether it's working, can itself keep you awake. Because effort means alertness. And alertness is exactly the opposite of what sleep needs.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Trying makes it harder."
+   }
+  },
+  {
+   "say": "And notice how many of tonight's ideas show up in this one situation. Watching the clock makes the time crawl. Uncertainty, will I sleep or not, raises stress. Dread, about how tired you'll be tomorrow, points your attention at the future. And lying alone in the dark is a bit like the empty room, with nothing to do but think.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Everything we've learned shows up here."
+   }
+  },
+  {
+   "say": "That's why many sleep experts suggest not watching the clock at night. Every time you check, you get a little reminder of how long you've been awake. And a little burst of worry. If you can, turn the clock away, or put the phone out of reach. Let the night be a little less measured.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The clock is not your friend."
+   }
+  },
+  {
+   "say": "And there's a surprising technique that some therapists use, called paradoxical intention. It sounds strange. Instead of trying to fall asleep, the person is encouraged to gently try to stay awake. Lie in bed, eyes open, in the dark, and simply allow yourself to remain awake, without trying to sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A surprising trick."
+   }
+  },
+  {
+   "say": "In one study, published in two thousand and three, Niall Broomfield and Colin Espie at the University of Glasgow tested this with thirty four people who had trouble falling asleep. Some of them practiced paradoxical intention for fourteen nights. Others were in a comparison group.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Niall Broomfield & Colin Espie",
+    "where": "University of Glasgow, published in 2003",
+    "what": "34 people with difficulty falling asleep were randomly assigned to 14 nights of paradoxical intention, or to a comparison group."
+   }
+  },
+  {
+   "say": "And the people who practiced paradoxical intention showed a significant reduction in sleep effort, and in what the researchers called sleep performance anxiety. The worry about whether they'd manage to sleep. When the pressure to sleep was removed, the anxiety around it eased.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Less effort. Less worry."
+   }
+  },
+  {
+   "say": "It's a lovely idea, if you think about it. Sleep is like a shy animal. If you chase it, it runs away. If you sit quietly and stop chasing, it sometimes comes and settles beside you. Paradoxical intention is a way of stopping the chase. You're no longer waiting for sleep. You're just resting.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Letting go of the outcome."
+   }
+  },
+  {
+   "say": "And here's another kind thought. Even if you're not asleep, resting in the dark, with your eyes closed, your body still and comfortable, is not nothing. Your body is resting. Your muscles are relaxing. Telling yourself, I'm resting, and that's okay, can be gentler than telling yourself, I'm failing to sleep.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b17_sky.jpg",
+    "cap": "Rest is already something"
+   }
+  },
+  {
+   "say": "Sleep experts also often suggest that if you've been lying awake for a long time and feel frustrated, it can help to get up for a while. Go to another room, do something calm in dim light, and come back to bed when you feel sleepy. This helps your brain keep the bed linked with sleep, rather than with frustration.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "When to get up."
+   }
+  },
+  {
+   "say": "Remember the room with nothing to do, and how much easier thinking became when people had a pleasant topic? The same may help at night. Instead of thinking about sleep, give your mind a gentle, pleasant, slightly boring task. Imagine walking slowly through a house you love. Picture a quiet garden, flower by flower. Or simply listen to a calm voice, like this one.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Giving the mind a gentle task."
+   }
+  },
+  {
+   "say": "And I want to add, gently, that if trouble sleeping goes on for weeks, and affects your days, it's worth talking to a doctor. Persistent insomnia is common, and there are effective treatments, including forms of therapy designed specifically for sleep. You don't have to just wait it out alone.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "When it keeps happening."
+   }
+  },
+  {
+   "say": "So here's what we can take from the science of waiting for sleep. Trying hard to sleep can keep you awake. It helps to turn the clock away. Resting quietly is already something good. And giving your mind a calm, pleasant task can help sleep find you, in its own time.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Waiting for sleep, gently",
+    "items": [
+     "Trying hard to sleep can keep you awake",
+     "Turn the clock away",
+     "Resting is already something",
+     "Give the mind a calm, pleasant task"
+    ]
+   }
+  },
+  {
+   "say": "We've now explored waiting from many sides. Airports and queues, dread and uncertainty, flow and anticipation, marshmallows and sleep. Next, let's gather all of these threads together into a gentle art. The art of waiting well.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: how to wait well."
+   }
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "id": "lf08_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's play an imaginary game. Picture your favorite film star. Someone you've always admired. Now imagine that you could receive a kiss from this person. Just one, on the cheek or wherever you like. Now, here's the question. When would you want it? Right now? In three hours? In three days? In a year?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 14,
+    "title": "The joy of waiting"
+   }
+  },
+  {
+   "say": "It sounds like a silly question. But in nineteen eighty seven, the economist George Loewenstein asked a small group of students something very like it. He wanted to understand how people value things that happen in the future. And this playful question revealed something surprisingly deep.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b12_cinema.jpg",
+    "cap": "A kiss from your favorite star"
+   }
+  },
+  {
+   "say": "Loewenstein asked thirty undergraduates how much they would pay for a kiss from the film star of their choice. And he asked about different timings. A kiss right now. Or in three hours. Or in twenty four hours. Three days. One year. Ten years. They were told to assume the kiss would definitely happen at that time.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "George Loewenstein",
+    "where": "Published in The Economic Journal, 1987",
+    "what": "30 students said how much they would pay for a kiss from a film star of their choice, either immediately or after delays from three hours up to ten years."
+   }
+  },
+  {
+   "say": "Now, standard economic thinking would predict a simple pattern. Sooner is better. A reward now is worth more than the same reward later. That's why people prefer to get paid today rather than next month. So you'd expect the kiss right now to be valued most, and the value to drop the longer you have to wait.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Economics predicts: sooner is better."
+   }
+  },
+  {
+   "say": "But that's not what happened. On average, the students were willing to pay more for a kiss in three days than for a kiss right now. The three day delay was valued the most of all the options. They wanted to wait. Not too long. A year or ten years was valued less. But a few days of waiting made the kiss more valuable.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "But that's not what happened."
+   }
+  },
+  {
+   "say": "Why would anyone want to wait? Loewenstein's explanation is lovely. Because waiting gives you something extra. Anticipation. Three days of looking forward to the kiss. Three days of imagining it, smiling about it, telling your friends. The kiss itself is a few seconds. But the anticipation can last for days.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why wait for a kiss?"
+   }
+  },
+  {
+   "say": "Psychologists sometimes call this savoring. Enjoying something before it happens, by looking forward to it. And Loewenstein suggested that people take the pleasure of anticipation into account when they decide when they want good things to happen. A kiss right now is over in a moment. A kiss in three days is a kiss plus three days of pleasant waiting.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Savoring the future."
+   }
+  },
+  {
+   "say": "Remember from earlier that Loewenstein also asked about electric shocks. And there, the pattern flipped. People were willing to pay more to avoid a shock that was far away in time than one that was close. Good things, we sometimes want to delay a little, to savor them. Bad things, we want to get over with, to avoid the dread.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "And the opposite with bad things."
+   }
+  },
+  {
+   "say": "You may recognize this from your own life. Maybe you've saved a favorite chocolate for later. Or waited to open a present until the right moment. Or held off on watching the final episode of a series you love. Part of you wants it now. But another part enjoys knowing that something good is still ahead.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b12_box.jpg",
+    "cap": "Saving the best for later"
+   }
+  },
+  {
+   "say": "In some ways, anticipation can be one of the most enjoyable parts of an experience. When you look forward to something, you imagine it at its best. The sun is shining. Everyone is happy. Nothing goes wrong. The real experience might include rain, delays and small annoyances. But the anticipated version is pure.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Anticipation can be the best part."
+   }
+  },
+  {
+   "say": "Children often understand this instinctively. Think of the weeks before a birthday, or a big holiday. The counting of days. The excitement building. For many people, those memories of anticipation are among the warmest of childhood. The waiting wasn't a burden. It was part of the magic.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Children know this too."
+   }
+  },
+  {
+   "say": "Some psychologists have suggested that having something to look forward to may be one of the simple ingredients of a happier life. Not necessarily something big. A dinner with a friend on Friday. A walk on Sunday. A new book arriving next week. Small anticipations, scattered through the calendar, like little lights along a path.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Something to look forward to."
+   }
+  },
+  {
+   "say": "So here's a gentle suggestion. If you have something nice coming up, don't rush past the waiting. Let yourself enjoy it. Think about it. Imagine it. Talk about it. And if your calendar feels empty, you could try planting a few small things to look forward to. Each one adds not just a moment of joy, but days of anticipation.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A gentle suggestion."
+   }
+  },
+  {
+   "say": "So here's what the film star kiss teaches us. Anticipation adds pleasure before an experience even begins. People sometimes prefer to wait a little for good things, to savor them. Bad things, we'd rather get over with. And small things to look forward to can brighten many ordinary days.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The joy of waiting",
+    "items": [
+     "Anticipation adds pleasure before an experience",
+     "People sometimes prefer to wait for good things",
+     "Bad things, we prefer to get over with",
+     "Small things to look forward to can brighten days"
+    ]
+   }
+  },
+  {
+   "say": "And it turns out that not all anticipation is the same. Looking forward to some things seems to feel better than looking forward to others. Researchers at Cornell University found an interesting difference between waiting to buy a thing, and waiting for an experience. Even in the behavior of people standing in line.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: waiting for experiences."
+   }
+  }
+ ]
+}

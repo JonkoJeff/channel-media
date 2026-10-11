@@ -1,0 +1,159 @@
+{
+ "id": "lf08_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Picture a classroom on a warm afternoon. A clock on the wall. The last lesson of the day. You keep looking up at the clock. Ten minutes left. You look again. Surely it's been five minutes. But the clock says one minute has passed. The hands seem almost frozen.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 10,
+    "title": "The watched clock"
+   }
+  },
+  {
+   "say": "Most of us know this feeling. And it's the same truth hidden inside the saying about the watched pot. When we pay close attention to time, it seems to slow down. When our attention is somewhere else, time seems to slip by. But why would looking at the time change how long it feels?",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b08_wallclock.jpg",
+    "cap": "The clock that never moves"
+   }
+  },
+  {
+   "say": "Here's something surprising. Your brain doesn't have one single, simple clock that ticks away the seconds. There's no little stopwatch in your head. Instead, the feeling of how much time has passed seems to be built from many things. Attention, memory, emotion, the body's state, and what's going on around you.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Your brain has no clock."
+   }
+  },
+  {
+   "say": "One influential idea in time research is that, while we're in a situation, the more attention we give to the passing of time, the longer it feels. It's as if attention to time collects the moments one by one. The more of them you notice, the longer the stretch seems. When your attention is busy with something else, fewer moments get counted, and time seems to fly.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Attention to time stretches time."
+   }
+  },
+  {
+   "say": "Psychologists often distinguish two ways of judging time. One is judging time while it's happening, when you know you'll need to keep track of it. The other is judging it afterwards, looking back. Research reviews have suggested that the two can behave differently. While you're actively attending to time, a period can feel longer than it does when you only estimate it in hindsight.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Two ways of judging time."
+   }
+  },
+  {
+   "say": "And waiting is almost the perfect situation for watching time. When we wait, time is often the main thing on our mind. How long has it been? How much longer? We check our watch, our phone, the clock on the wall. Every check is a little reminder that time is passing slowly. And every reminder makes it feel slower still.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Waiting makes us watch time."
+   }
+  },
+  {
+   "say": "It's a little like watching an hourglass. If you stare at the falling sand, every grain seems to drop one by one, slowly. If you turn away, and come back later, a whole pile has fallen. The sand fell at the same speed either way. Only your attention changed.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b08_hourglass.jpg",
+    "cap": "Every glance slows the sand"
+   }
+  },
+  {
+   "say": "Now here's a fun twist. If paying attention to time makes it feel slow, does believing that time has flown make an experience feel more enjoyable? We all know the saying, time flies when you're having fun. But some researchers wondered whether it might also work backwards. If time seems to fly, do we conclude that we must be having fun?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Does it work the other way?"
+   }
+  },
+  {
+   "say": "In two thousand and ten, Aaron Sackett and his colleagues tested exactly this. Students were asked to do a rather boring task. Underlining certain letter patterns in a text. They were told it would take ten minutes. But secretly, with the help of a manipulated stopwatch, the task actually lasted either five minutes or twenty minutes.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Aaron Sackett and colleagues",
+    "where": "Published in Psychological Science, 2010",
+    "what": "Students did a dull task they were told would last ten minutes. With the help of a manipulated stopwatch, it actually lasted five or twenty minutes."
+   }
+  },
+  {
+   "say": "So some students finished and thought, wow, ten minutes already? That flew by. Because in reality, only five minutes had passed. Others finished and felt it had dragged, because twenty minutes had actually passed. And then everyone rated how enjoyable the task had been.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Time felt like it flew."
+   }
+  },
+  {
+   "say": "The students who felt that time had flown rated the boring task as much more enjoyable than those who felt it had dragged. The task was exactly the same. But the feeling that time had flown made people conclude, I must have been enjoying this. In other experiments, the same feeling even made people more tolerant of an irritating noise.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "They enjoyed it more."
+   }
+  },
+  {
+   "say": "I love this study, because it ties together so much of what we've explored on this channel. The brain watches its own experiences, and draws conclusions. Time flew, so I must have enjoyed it. It's a little like the interpreter from our video on why the brain lies. The brain tells a story about itself, using whatever clues it can find.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "We read our own minds from time."
+   }
+  },
+  {
+   "say": "So what can we do with this? One simple idea is that during a wait, it can help to stop checking the time so often. Put the phone away for a few minutes. Turn your attention to something else. The wait won't get shorter on the clock. But it may feel shorter in your mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Hide the clock, sometimes."
+   }
+  },
+  {
+   "say": "And here's a gentle reversal. Sometimes, we actually want time to feel slower. On a lovely evening with friends. On a quiet morning. During a moment you want to remember. In those moments, paying gentle attention, noticing the light, the sounds, the people, may help time feel fuller and longer. Attention can stretch the good moments too.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "And sometimes, choose to watch it."
+   }
+  },
+  {
+   "say": "So here's what we've learned about the watched clock. Watching time makes it feel slower. Waiting naturally invites us to watch the clock. Feeling that time flew can even make an experience seem more enjoyable. And we can use attention both ways, to shrink our waits, and to stretch our good moments.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Attention and time",
+    "items": [
+     "Watching time makes it feel slower",
+     "Waiting invites us to watch the clock",
+     "Feeling that time flew can make things more enjoyable",
+     "Use attention to shrink waits, and stretch good moments"
+    ]
+   }
+  },
+  {
+   "say": "But what if there's no clock to watch, and nothing to do? No phone, no book, no one to talk to. Just you, sitting quietly, alone with your thoughts. That sounds peaceful. But a famous study found that many people found it so uncomfortable that they chose to give themselves an electric shock instead.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: alone with your thoughts."
+   }
+  }
+ ]
+}

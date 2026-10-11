@@ -1,0 +1,152 @@
+{
+ "id": "lf08_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Some years ago, an airport in Houston, Texas, had a problem. Passengers kept complaining about how long they had to wait for their luggage at baggage claim. There were so many complaints that the people running the airport decided something had to be done.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 2,
+    "title": "The airport that fixed waiting"
+   }
+  },
+  {
+   "say": "So they did the obvious thing. They added more baggage handlers, to get the bags out faster. And it worked, in a sense. The average wait for bags dropped to around eight minutes, which, according to the story as it was later reported in The New York Times, was well within normal standards for airports.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b02_carousel.jpg",
+    "cap": "Waiting at the carousel"
+   }
+  },
+  {
+   "say": "But here's the surprising part. The complaints didn't stop. People were still unhappy. The bags were arriving faster, but the passengers still felt they were waiting too long. So the airport took a closer look at what was actually happening to passengers, minute by minute.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "But the complaints continued."
+   }
+  },
+  {
+   "say": "And what they found was revealing. Passengers walked about one minute from their arrival gate to the baggage claim. And then they stood at the carousel for about seven more minutes. So most of their time, roughly eighty eight percent of it, according to the report, was spent standing still. Just waiting.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Houston airport baggage claim",
+    "where": "As reported in The New York Times, 2012",
+    "what": "Passengers walked about one minute from the gate to baggage claim, then waited about seven more minutes for their bags."
+   }
+  },
+  {
+   "say": "That was the real problem. Not the total time, but how it felt. Eight minutes of walking and doing things doesn't feel like waiting. But one minute of walking followed by seven minutes of standing and staring at an empty carousel feels like a long, frustrating wait.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Time spent just standing and waiting",
+    "big": "about 88%",
+    "label": "of the time from gate to bags, before the change"
+   }
+  },
+  {
+   "say": "So the airport tried something different. Instead of making the bags faster, they made the walk longer. They moved the arrival gates further away from the main terminal, and sent the bags to the carousel furthest away. Passengers now had to walk about six times as far to get their luggage.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "So they made people walk."
+   }
+  },
+  {
+   "say": "Now, that sounds like it should make people even more annoyed. Longer walk, same overall time. But the result was remarkable. According to the report, the complaints dropped to near zero. People spent about the same total time getting their bags. But now most of that time was spent moving, not standing still.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b02_corridor.jpg",
+    "cap": "A longer walk, a shorter wait"
+   }
+  },
+  {
+   "say": "This story beautifully illustrates one of the most important ideas in the psychology of waiting. Occupied time feels shorter than unoccupied time. When you're doing something, walking, reading, talking, time seems to pass more quickly. When you're doing nothing but waiting, every minute becomes noticeable.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Occupied time feels shorter."
+   }
+  },
+  {
+   "say": "Once you know this idea, you start to see it everywhere. Restaurants that hand you a menu while you wait for a table. Doctors' waiting rooms with magazines. Theme parks with entertainment along the line. Mirrors near lifts, giving people something to look at. Many businesses have learned that keeping people a little busy makes waiting feel shorter.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "You've seen this everywhere."
+   }
+  },
+  {
+   "say": "The menu trick is especially clever. While you're waiting for a table, someone hands you a menu. Now you have something to do. You read, you choose, you discuss with your friends. The wait feels shorter. And as a bonus, when you finally sit down, you're ready to order, so everything moves faster too. Everyone wins.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The menu trick."
+   }
+  },
+  {
+   "say": "The deeper lesson is this. When we complain about waiting, we often think the problem is the number of minutes. And sometimes it is. But very often, the problem is how those minutes feel. Two waits of the same length can feel completely different, depending on what fills them.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "It's not the minutes."
+   }
+  },
+  {
+   "say": "Empty minutes stretch. Full minutes shrink. That's not a law of physics. It's a law of experience. And it means that, often, we have more control over how waiting feels than we realize. We can't always make the wait shorter. But we can sometimes change what we do with it.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Empty minutes stretch."
+   }
+  },
+  {
+   "say": "You can use the airport's trick in your own life, too. If you know you'll have to wait for something, a delivery, a phone call, a pot of soup on the stove, plan a small task for that time. Tidy a drawer. Water the plants. Stretch for a few minutes. The waiting doesn't disappear. But it stops being empty, and it often seems to pass in half the time.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The same idea, at home."
+   }
+  },
+  {
+   "say": "So here's what the airport story teaches us. How a wait feels can matter more than how long it actually is. Occupied time feels shorter than empty time. Standing still makes every minute noticeable. And if you can fill a wait with something, even a short walk, it often seems to shrink.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "What the airport teaches",
+    "items": [
+     "How a wait feels can matter more than its length",
+     "Occupied time feels shorter",
+     "Standing still makes minutes noticeable",
+     "Fill a wait, and it shrinks"
+    ]
+   }
+  },
+  {
+   "say": "The airport story is one example of a bigger set of ideas. In the nineteen eighties, a business consultant wrote a short essay about the psychology of waiting lines that has been quoted for decades. It's full of simple, surprisingly wise observations about why waiting feels the way it does. Let's look at them next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the rules of waiting lines."
+   }
+  }
+ ]
+}

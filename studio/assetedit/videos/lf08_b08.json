@@ -1,0 +1,165 @@
+{
+ "id": "lf08_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You're standing in a line. Nothing about the line changes. The people ahead of you are the same. The speed of the counter is the same. But, gradually, more people join the line behind you. Does that change anything? Logically, it shouldn't. They're behind you. They don't make your wait any longer.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 8,
+    "title": "The people behind you"
+   }
+  },
+  {
+   "say": "And yet, many people notice that it does change something. When there's a long line behind you, you feel a little better about your position. You think, well, at least I'm not at the back. And you're less likely to give up and walk away. Two researchers decided to test this carefully.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Yet, somehow, it does."
+   }
+  },
+  {
+   "say": "In two thousand and three, Rongrong Zhou and Dilip Soman published a study called Looking Back. They observed real people waiting at a busy cash machine in a commercial building in Hong Kong. And they ran several experiments where students imagined waiting in different kinds of queues, like a post office or a university copy center.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Rongrong Zhou & Dilip Soman",
+    "where": "Published in the Journal of Consumer Research, 2003",
+    "what": "Field observation at a busy cash machine in Hong Kong, plus experiments in imagined queues at a post office, a licensing office, a copy center and a campus bank."
+   }
+  },
+  {
+   "say": "At the cash machine, they watched people join the line, and noted who gave up and walked away. And they found that the more people there were behind someone, the less likely that person was to leave the line. The people behind didn't change the wait. But they changed the decision to stay.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b07_atm.jpg",
+    "cap": "A busy cash machine, observed"
+   }
+  },
+  {
+   "say": "In one of the experiments, students imagined being in a slow line at a post office. The scenario was the same for everyone, except for one detail. How many people were standing behind them. Zero, five or ten. Then they were asked whether they would give up and leave.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b07_postoffice.jpg",
+    "cap": "Imagine waiting at a post office"
+   }
+  },
+  {
+   "say": "And the results were striking. With nobody behind them, eighty four percent said they would leave. With five people behind them, fifty eight percent. With ten people behind them, only thirty two percent. Same wait. Same line ahead. Just more people behind.",
+   "show": {
+    "type": "bars",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Would give up and leave the line",
+    "unit": "%",
+    "bars": [
+     [
+      "0 people behind",
+      84.0
+     ],
+     [
+      "5 people behind",
+      58.0
+     ],
+     [
+      "10 people behind",
+      32.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Why would this happen? The researchers suggested it has to do with comparison. When we wait, we naturally compare ourselves with others. If we look forward, we see people who are better off, closer to the front. That can feel bad. But if we look back, we see people who are worse off. And that can make us feel a little better about our own situation.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Comparing downward."
+   }
+  },
+  {
+   "say": "Psychologists call this downward social comparison. Comparing ourselves with people who are worse off. It's a very common way that people make themselves feel better. And in a queue, it shows up in a simple thought. At least I'm not at the back. That small thought can be enough to keep someone waiting longer.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "At least I'm not last."
+   }
+  },
+  {
+   "say": "In the study, the number of people behind someone also had a positive effect on their mood. More people behind, the better people felt about their position. It's a small reminder that how we feel in a situation often depends not only on where we are, but on where we think we are, compared with others.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Feeling better, staying longer."
+   }
+  },
+  {
+   "say": "And this goes well beyond queues. We're constantly comparing. Our income, our homes, our progress in life. If we compare ourselves with people who seem to be ahead, we may feel we're falling behind. If we compare ourselves with people who are behind, we may feel lucky. Same life. Different comparison. Different feeling.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "We compare all the time."
+   }
+  },
+  {
+   "say": "That gives us a gentle tool. When you feel frustrated about where you are, in a line or in life, it can help to look back for a moment. Not to feel superior to anyone. But simply to remember how far you've already come. The steps you've already taken. The things that once were hard and now are easy.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A gentle way to use this."
+   }
+  },
+  {
+   "say": "Of course, there's another side to this. Sometimes, staying in a line, or in a situation, isn't the best choice. We may stay because we've already invested so much time, or because others are behind us, even when walking away would be wiser. Sometimes the bravest choice is to step out of the line.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "The sunk time trap."
+   }
+  },
+  {
+   "say": "So perhaps the wisest approach is to notice why you're staying. Are you staying because it's truly worth it? Or because you're comforted by the people behind you, or by the time you've already spent? Both reasons are human. But it helps to know which one is guiding you.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Know why you're staying."
+   }
+  },
+  {
+   "say": "So here's what the people behind us teach. They can make us more likely to stay in a line. We compare ourselves both with those ahead and those behind. Looking back can lift our mood. And it's worth noticing why we're staying, in a line, or anywhere else.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "What the people behind teach us",
+    "items": [
+     "People behind you can make you more likely to stay",
+     "We compare ourselves forward and backward",
+     "Looking back can lift our mood",
+     "Notice why you're staying"
+    ]
+   }
+  },
+  {
+   "say": "And comparison doesn't only happen in queues. It happens on the road, too. If you've ever been stuck in traffic, you've probably felt that the lane next to you is always moving faster. Is it? Two researchers decided to find out.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the lane next to you."
+   }
+  }
+ ]
+}

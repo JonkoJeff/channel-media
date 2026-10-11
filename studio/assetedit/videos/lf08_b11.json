@@ -1,0 +1,161 @@
+{
+ "id": "lf08_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine you're asked to sit alone in a quiet room for fifteen minutes. No phone. No book. Nothing to write with. Nothing to do. Your only task is to sit there and think. Entertain yourself with your own thoughts. That's all. How would you feel about that?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 11,
+    "title": "Alone with your thoughts"
+   }
+  },
+  {
+   "say": "For some people, this sounds lovely. A little break. A moment of peace. But for many others, it sounds strangely uncomfortable. Fifteen minutes with nothing to do? And a team of psychologists decided to find out just how uncomfortable people find it.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b09_room.jpg",
+    "cap": "Just you, and your thoughts"
+   }
+  },
+  {
+   "say": "In two thousand and fourteen, Timothy Wilson and his colleagues published a series of studies in the journal Science. In many of them, people were asked to sit alone in a plain room, for somewhere between six and fifteen minutes, with nothing to do except think. Then they rated how much they enjoyed it.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Timothy Wilson and colleagues",
+    "where": "University of Virginia and Harvard, published in Science, 2014",
+    "what": "Participants sat alone in a room with nothing to do but think, typically for about six to fifteen minutes, and rated the experience."
+   }
+  },
+  {
+   "say": "And many people didn't enjoy it much. In a summary of the studies reported in Scientific American, of four hundred and nine participants, nearly half said they did not like the experience. Their minds wandered. They found it hard to concentrate on anything pleasant. Some even cheated when they did it at home, picking up their phone or doing something else.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Many didn't enjoy it."
+   }
+  },
+  {
+   "say": "And then came the most famous part. In one experiment, people sat alone in a room for fifteen minutes. But this time, there was a button. If they pressed it, they would give themselves a mild electric shock on the ankle. Earlier, they had all tried the shock, and described it as unpleasant. Some had even said they'd pay money to avoid it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Then came the shock button."
+   }
+  },
+  {
+   "say": "And yet, according to the reports, sixty seven percent of the men, and twenty five percent of the women, chose to give themselves at least one shock during those fifteen minutes. Rather than sitting quietly with nothing but their own thoughts, they chose a little jolt of pain. Just to have something happen.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Chose to shock themselves rather than just sit and think",
+    "big": "67% of men, 25% of women",
+    "label": "in a 15-minute session alone"
+   }
+  },
+  {
+   "say": "Now, it was a fairly small group of people in that particular experiment, and it was one specific setting. We shouldn't conclude that most people would rather be in pain than think. But the result captures something many of us recognize. Being alone with nothing to do can be surprisingly hard. The mind seems to want something to grab onto.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A small study, a big message."
+   }
+  },
+  {
+   "say": "Why would this be? One possibility is that our minds are built to engage with the world. To act, to solve, to respond. When there's nothing outside to focus on, the mind turns inward. And inside, without guidance, thoughts can drift toward worries, regrets, unfinished business. It's not always a comfortable place to wander.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Why is empty time so hard?"
+   }
+  },
+  {
+   "say": "And waiting is often exactly like this room. A waiting room, a station platform, a queue. Nothing to do. Time to think. And maybe that's part of why waiting can feel so hard. It's not just the delay. It's being left alone with a mind that doesn't quite know what to do with itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Waiting is often like this room."
+   }
+  },
+  {
+   "say": "That's why so many of us reach for our phones the moment we have to wait. In a line, at a bus stop, in a lift. The phone fills the empty space instantly. And that's not always bad. It can make waiting much easier. But Wilson and others have wondered whether having constant entertainment might make it even harder for us to be comfortable with our own thoughts.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Enter the phone."
+   }
+  },
+  {
+   "say": "There's a hopeful part to this research, though. In some of the studies, people found it easier when they had something specific to think about. A pleasant topic. A plan for a trip. A happy memory to go through in detail. Just sitting and letting the mind wander was hard. But thinking, with a little direction, was much more pleasant.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b09_bench.jpg",
+    "cap": "Thinking can be learned"
+   }
+  },
+  {
+   "say": "That gives us a gentle idea. When you find yourself waiting, with nothing to do, you could try giving your mind a little destination. Plan a lovely day in detail. Remember a happy trip, step by step. Imagine a room you'd like to decorate. It's not empty time anymore. It's time with a gentle task.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Give your mind a destination."
+   }
+  },
+  {
+   "say": "And it's worth saying something kind about boredom, too. Boredom is uncomfortable. But some researchers have suggested that it can also be useful. It can push us to look for something new. It can give the mind space to wander, and sometimes, in that wandering, new ideas appear. The empty room can be a creative room.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Boredom isn't the enemy."
+   }
+  },
+  {
+   "say": "If sitting with your thoughts feels hard, you don't need to start with fifteen minutes. Try one minute, at a bus stop, without the phone. Just look around. Notice what you see and hear. Let a few thoughts come and go. Like any skill, being comfortable with your own mind may get easier with practice.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Practice small doses."
+   }
+  },
+  {
+   "say": "So here's what the thinking room teaches. Many people find empty time surprisingly uncomfortable. Waiting often puts us in exactly that kind of room. Giving the mind a pleasant topic can make thinking enjoyable. And comfort with quiet can be practiced, one small dose at a time.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Being alone with your thoughts",
+    "items": [
+     "Many people find empty time uncomfortable",
+     "Waiting often puts us in that empty room",
+     "Giving the mind a topic makes thinking pleasant",
+     "Small doses of quiet can be practiced"
+    ]
+   }
+  },
+  {
+   "say": "Now, here's a puzzle. We've seen that people hate empty waits. So you might expect that faster is always better. But researchers have found that, in some situations, people actually prefer to wait longer. As long as they can see something happening. Let's explore this strange preference next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: why slower can feel better."
+   }
+  }
+ ]
+}

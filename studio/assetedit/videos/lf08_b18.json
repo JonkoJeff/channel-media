@@ -1,0 +1,148 @@
+{
+ "id": "lf08_b18",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let me ask you two questions. Don't think too hard. First question. Would you rather have one hundred euros today, or one hundred and ten euros next week? Many people, when they imagine this, feel a pull toward the hundred today. Why wait a whole week for just ten more?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 18,
+    "title": "Why later feels smaller"
+   }
+  },
+  {
+   "say": "Now the second question. Would you rather have one hundred euros in a year, or one hundred and ten euros in a year and one week? Here, many people feel differently. Well, if I'm waiting a year anyway, one more week doesn't matter. I'll take the hundred and ten.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b16_coins.jpg",
+    "cap": "Now, or a little more later?"
+   }
+  },
+  {
+   "say": "But look closely. It's actually the same choice. Both times, you're deciding whether to wait one extra week for ten extra euros. The only difference is when that week happens. Right now, or a year from now. And yet many people feel differently about the two. This kind of pattern is something economists and psychologists have studied for decades.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The same choice. Different feelings."
+   }
+  },
+  {
+   "say": "The general idea is called discounting. We tend to value rewards less the further away they are in time. A reward today feels big and real. The same reward next month feels a little smaller. Next year, smaller still. It's as if the future is seen through the wrong end of a telescope.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The future shrinks."
+   }
+  },
+  {
+   "say": "Think of mountains in the distance. They're enormous, but from far away, they look small. Rewards in the future can feel a bit like that. A comfortable retirement, good health in old age, a finished project. These are huge things. But because they're far away, they can feel smaller than a small treat right now.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b16_mountains.jpg",
+    "cap": "Distant things look small"
+   }
+  },
+  {
+   "say": "And what's especially interesting is that this shrinking isn't steady. Researchers have found that the step from now to a little later often feels much bigger than the same step far in the future. That's why the two questions feel different. Waiting a week starting today feels costly. Waiting a week starting in a year feels like nothing.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Now is special."
+   }
+  },
+  {
+   "say": "This is sometimes called present bias. A special pull toward now. And it explains a lot of everyday behavior. Why we plan to start exercising tomorrow, but rarely today. Why we promise ourselves we'll save money next month. Why we decide to go to bed early tonight, and then stay up late anyway. In the future, we're patient. In the present, we're not.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Present bias."
+   }
+  },
+  {
+   "say": "Some researchers describe this as a kind of conflict between two selves. Your present self, who wants comfort now. And your future self, who would benefit from patience. When you plan, you think on behalf of your future self. But when the moment arrives, your present self is in charge. And it often has different priorities.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Two different selves."
+   }
+  },
+  {
+   "say": "There's a fascinating line of research suggesting that, for some people, the future self can feel almost like a different person. Someone we don't know very well. And just as it's easier to be generous with your own needs than with a stranger's, it's easier to prioritize your present self over this distant future person.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Your future self is a stranger."
+   }
+  },
+  {
+   "say": "Why would the mind work like this? One idea is that, for most of human history, the future was genuinely uncertain. A reward today was certain. A reward next week might never come. Food could spoil. Plans could fail. In that kind of world, a strong preference for now could be a sensible strategy. Remember the children and the unreliable adult.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why would we be built this way?"
+   }
+  },
+  {
+   "say": "So what can we do, if we'd like to be a little more patient? One approach is to make the future feel closer. Imagine your future self in detail. Picture them on a specific day, in a specific place. What will they be glad you did today? The more real your future self feels, the easier it may be to care for them.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Making the future feel closer."
+   }
+  },
+  {
+   "say": "Another approach is to decide in advance, while you're still thinking about the future calmly. If you know you'll be tempted in the moment, make the decision before the moment arrives. Set up an automatic saving. Put the running shoes by the door. Leave the phone in another room at night. Help your future self, by making the patient choice the easy one.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Decide early. Make it automatic."
+   }
+  },
+  {
+   "say": "But I want to add a gentle balance here. Present bias has a bad reputation. But the present matters too. Life isn't only a preparation for the future. Sometimes, taking the hundred euros today, or the slice of cake, or the evening off, is exactly the right choice. Wisdom isn't about always waiting. It's about knowing when waiting is worth it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "And don't forget the present."
+   }
+  },
+  {
+   "say": "So here's what we've learned about why later feels smaller. We tend to value future rewards less. The step from now to a little later feels especially big. Making your future self feel real can help. And deciding in advance can make patience much easier. While still leaving room to enjoy the present.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Living with present bias",
+    "items": [
+     "We tend to value later rewards less",
+     "The step from now to later feels biggest",
+     "Make your future self feel real",
+     "Decide in advance, and make patience easy"
+    ]
+   }
+  },
+  {
+   "say": "But something interesting happens to our patience as a reward gets closer. The last part of a wait often feels completely different from the beginning. And a simple coffee card revealed how strongly the finish line pulls us forward.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: almost there."
+   }
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "id": "lf08_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You're searching for a flight on a travel website. You type in your dates and press search. Imagine two different websites. The first shows your results instantly. The second takes thirty seconds, but while you wait, it shows you what it's doing. Searching this airline. Now that one. Comparing prices. Which do you think people prefer?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 12,
+    "title": "Why slower can feel better"
+   }
+  },
+  {
+   "say": "Most of us would assume the fast one. Faster is better, surely? Nobody likes waiting. But two researchers at Harvard Business School, Ryan Buell and Michael Norton, found something surprising. In their experiments, many people preferred the slower website. As long as it showed them the work being done.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b10_laptop.jpg",
+    "cap": "Searching, comparing, checking"
+   }
+  },
+  {
+   "say": "In one of their studies, people used simulated travel websites to search for flights. Some saw a standard progress bar while they waited. Others watched the site search airline after airline, showing each step. The sites that showed their work were rated more highly, even when people had to wait longer for the same results.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Ryan Buell & Michael Norton",
+    "where": "Harvard Business School, published in Management Science, 2011",
+    "what": "People searched for flights on simulated travel websites. Some sites returned results instantly; others took longer but showed the work being done."
+   }
+  },
+  {
+   "say": "In another study, people tried two websites that gave exactly the same results. One answered instantly. The other took longer, and showed its work while they waited. And according to reports of the study, a majority preferred the slower, transparent website. They had waited longer, for the same thing, and liked it better.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Same results. Slower. Preferred."
+   }
+  },
+  {
+   "say": "Buell and Norton called this the labor illusion. When we see effort being made on our behalf, we tend to value the result more. Even if the effort is partly for show. A result that appears instantly can feel cheap, almost suspicious. Did it even check properly? A result that we watched being built feels earned.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The labor illusion."
+   }
+  },
+  {
+   "say": "You can see this in everyday life too. Think of a bakery where you can watch the bakers through a window, shaping the dough, sliding trays into the oven. Or a restaurant with an open kitchen. Seeing the work makes the wait more interesting, and it makes the food feel more valuable. You saw the care that went into it.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b10_bakery.jpg",
+    "cap": "Watching the bread being made"
+   }
+  },
+  {
+   "say": "Why would this be? Part of it connects to what we've already learned. A wait where you can see progress is an occupied wait. You have something to watch. And it's also a less uncertain wait. You can see that something is happening, that you haven't been forgotten. Both of those make waiting feel better.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why showing work helps."
+   }
+  },
+  {
+   "say": "This is why so many computer programs show progress bars. A progress bar doesn't make anything faster. But it turns an uncertain, invisible process into something you can see moving forward. Even a rough estimate is better than a blank screen. Designers have long experimented with how progress bars move, because the way they move can change how long the wait feels.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Progress bars and patience."
+   }
+  },
+  {
+   "say": "Of course, there's an important caveat. Showing people progress is helpful. But deliberately making people wait, just to seem impressive, can feel manipulative if they find out. The best kind of transparency is honest. Showing real work, really being done. People appreciate seeing effort. They don't appreciate being tricked.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "But honesty matters."
+   }
+  },
+  {
+   "say": "The labor illusion also connects to a wider idea. We tend to value things more when effort goes into them. A handmade gift. A meal someone cooked for us. A letter instead of a quick message. Part of what makes these things precious is the time and care we know they took. In a sense, the waiting and the effort become part of the gift.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Effort makes things meaningful."
+   }
+  },
+  {
+   "say": "This gives us a practical idea too. If you're doing something for someone, and they're waiting, it often helps to let them see a bit of the process. I've started on it. I'm halfway there. I'm checking the last details. It makes their wait easier. And it helps them appreciate the work you're doing.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Show your work to others."
+   }
+  },
+  {
+   "say": "And for ourselves, when we're waiting, it can help to remember the work happening behind the scenes. The doctor reviewing your results. The person preparing your order. The many people involved in getting a parcel to your door. A wait often means that someone, somewhere, is working for you. That thought can make the wait feel a little kinder.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "And see the work in your own waits."
+   }
+  },
+  {
+   "say": "So here's what the labor illusion shows us. Seeing effort can make us value results more. Visible progress makes waiting feel better. Honest transparency can matter more than empty speed. And the care and effort behind something is part of what makes it meaningful.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "What the labor illusion shows",
+    "items": [
+     "Seeing effort can make us value results more",
+     "Visible progress makes waits feel better",
+     "Honest transparency beats empty speed",
+     "Effort and care make things meaningful"
+    ]
+   }
+  },
+  {
+   "say": "But some of the hardest waits in life aren't about websites or bags or queues. They're about news. Exam results. A reply to a job application. Medical tests. Waiting to hear something that matters deeply. A psychologist named Kate Sweeny has spent years studying exactly this kind of waiting. Let's see what she found.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: waiting for news."
+   }
+  }
+ ]
+}

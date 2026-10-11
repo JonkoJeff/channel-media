@@ -1,0 +1,141 @@
+{
+ "id": "lf08_b19",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Have you noticed how the last part of a wait often feels different from the beginning? At the start of a long journey, you settle in. But when you're almost there, ten minutes from home, the last stretch can feel both exciting and unbearably slow. You sit up. You get ready. You can't wait to arrive.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 19,
+    "title": "Almost there"
+   }
+  },
+  {
+   "say": "Nearly a century ago, a psychologist named Clark Hull described something he observed in animals. As a rat in a maze got closer to food, it tended to run faster. He called it the goal gradient. The closer the goal, the stronger the drive to reach it. And much later, researchers wondered whether people show the same pattern.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Effort speeds up near the goal."
+   }
+  },
+  {
+   "say": "In two thousand and six, Ran Kivetz, Oleg Urminsky and Yuhuang Zheng studied a very familiar situation. A coffee loyalty card. Buy ten coffees, and get one free. They followed customers in a real café program, looking at how often people bought coffee as they collected stamps.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Ran Kivetz, Oleg Urminsky & Yuhuang Zheng",
+    "where": "Columbia University, published in the Journal of Marketing Research, 2006",
+    "what": "Customers in a real café reward program, buy ten coffees and get one free, were tracked to see how often they bought coffee as they got closer to the free one."
+   }
+  },
+  {
+   "say": "And they found that people bought coffee more frequently as they got closer to the free one. Early on, the time between coffees was longer. Near the end, people came back sooner. Just like Hull's rats running faster near the food. The nearer the reward, the more motivated people became.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_goal_cup.jpg",
+    "cap": "One more stamp to go"
+   }
+  },
+  {
+   "say": "Then they tried something even more interesting. Some customers got a normal card with ten empty spaces. Others got a card with twelve spaces, but two of them were already stamped as a bonus. So both groups needed exactly ten purchases to get their free coffee. The only difference was how it looked.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A clever trick with stamps."
+   }
+  },
+  {
+   "say": "And the customers with the twelve space card, the one with two bonus stamps already filled in, completed their cards faster than the customers with the plain ten space card. They felt they had already made progress. And that feeling of progress, even though it was partly an illusion, made them move faster toward the goal.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The head start won."
+   }
+  },
+  {
+   "say": "This tells us something lovely about waiting and working toward things. The feeling of progress is motivating in itself. When we can see that we've already come part of the way, the remaining distance feels more achievable. And the closer we get, the more energy we often find.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Progress feels motivating."
+   }
+  },
+  {
+   "say": "It also suggests why the middle of a long wait, or a long project, can feel hardest. At the start, everything is fresh. Near the end, the goal pulls us forward. But in the middle, we're far from both the beginning and the end. Some researchers have described this as being stuck in the middle, where motivation tends to dip.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The middle is the hardest."
+   }
+  },
+  {
+   "say": "So when you're in the middle of something long, a course, a recovery, a difficult season, it can help to break it into smaller parts. Each part has its own beginning and its own end. Each one gives you a little finish line to feel pulled toward. A long road becomes a series of short walks.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_goal_finish.jpg",
+    "cap": "The last steps glow"
+   }
+  },
+  {
+   "say": "And remember the bonus stamps. You can give yourself a sense of progress by noticing what's already done. You've already waited half the time. You've already finished three chapters. You've already made it through the hardest week. Those are real stamps on your card, and they can carry you forward.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Count what's done."
+   }
+  },
+  {
+   "say": "There's a small caution too. The pull of a nearby goal can make us rush. Near the end, we sometimes become impatient, cut corners, or make mistakes, simply because we're so eager to finish. Being almost there is a good time to slow down just a little, and finish well.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "But be careful with the finish line."
+   }
+  },
+  {
+   "say": "I think this research offers a gentle way to see many waits. Waiting doesn't have to feel like standing still. It can feel like moving toward something, stamp by stamp, step by step. And when you can see your progress, even small progress, the waiting becomes a journey rather than a pause.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Waiting toward something."
+   }
+  },
+  {
+   "say": "So here's what the coffee card teaches us. We tend to speed up as we get closer to a goal. A sense of progress, even a small head start, is motivating. The middle of a long wait is often the hardest part. And breaking long waits into smaller finish lines can help us keep going.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Almost there",
+    "items": [
+     "We speed up as we near a goal",
+     "A sense of progress is motivating",
+     "The middle is often the hardest part",
+     "Break long waits into smaller finish lines"
+    ]
+   }
+  },
+  {
+   "say": "And speaking of the evening. There's one kind of waiting that many of us know far too well. Lying in bed, waiting for sleep to come. The harder we try, the further away it seems. It's a strange kind of waiting, where effort makes things worse. Let's look at it gently, next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: waiting for sleep."
+   }
+  }
+ ]
+}

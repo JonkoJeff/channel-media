@@ -1,0 +1,148 @@
+{
+ "id": "lf08_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine you've been standing in a line for fifteen minutes. You're nearly at the front. And then someone walks straight past everyone and slips in ahead of you. How do you feel? For most people, there's an instant flash of irritation. Sometimes even anger. Over what might be just one extra minute of waiting.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 7,
+    "title": "Is this line fair?"
+   }
+  },
+  {
+   "say": "Think about how strange that is. Objectively, you've lost maybe a minute or two. If the line had simply been a little slower, you might not have cared at all. But because someone cut in, it feels like a real injustice. That's because waiting in line isn't only about time. It's about fairness.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "One minute. Big feelings."
+   }
+  },
+  {
+   "say": "David Maister listed this as one of his principles. Unfair waits are longer than equitable waits. When a wait feels fair, we can accept it more calmly. When it feels unfair, every minute becomes heavier. And it's not just about losing time. It's about the feeling that the rules are being broken, and that you're being treated as less important.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Unfair waits feel longer."
+   }
+  },
+  {
+   "say": "A waiting line is, in a way, a tiny society. It has rules that nobody wrote down, but everybody knows. First come, first served. Don't cut in. Wait your turn. And like any society, it works because people trust each other to follow those rules. When someone breaks them, the whole little society reacts.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b06_rope.jpg",
+    "cap": "A line is a small society"
+   }
+  },
+  {
+   "say": "Researchers who study queues have written about this sense of social justice in lines. The operations researcher Richard Larson, for example, wrote about how people react when someone who arrived after them gets served before them. Even when it doesn't change much in minutes, it can create strong feelings. People care about the order, not just the time.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Researchers studied queue justice."
+   }
+  },
+  {
+   "say": "This is also why many supermarkets and banks have experimented with one single line that feeds several counters, instead of a separate line for each counter. With separate lines, there's the constant comparison. Did I choose wrong? That person arrived after me and is already being served. With a single line, everyone moves forward in order. It feels fairer.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The many-lines problem."
+   }
+  },
+  {
+   "say": "Some research and a lot of practical experience suggest that people often prefer this single line, even if it looks longer, because it removes the worry of picking the wrong line and the sting of watching later arrivals overtake you. A long, fair line can feel better than a short, unpredictable one.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Fair feels faster."
+   }
+  },
+  {
+   "say": "Another simple solution is the ticket system. You take a number at the bakery or the post office, and you wait to be called. It sounds almost too simple. But it does several things at once. It guarantees fairness. It shows you how many people are ahead of you. And it lets you sit down, instead of guarding your place in a line.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b06_ticket.jpg",
+    "cap": "Take a number"
+   }
+  },
+  {
+   "say": "Our sensitivity to fairness runs deep. Across many studies, people react strongly to unfair treatment, sometimes even giving up something for themselves just to punish unfairness. In a waiting line, that same instinct shows up. A queue jumper doesn't just cost you time. They poke at something very old and very human in your brain.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Fairness and the brain."
+   }
+  },
+  {
+   "say": "But fairness can also make waiting feel better. When everyone is in the same situation, and the rules are clear, waiting can even become a shared experience. Think of people queueing patiently for a concert or a special event. Talking, laughing, sharing snacks. Everyone knows they'll get their turn. And the line becomes part of the occasion.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "And when the wait is shared fairly."
+   }
+  },
+  {
+   "say": "Of course, not all queues are first come, first served. In a hospital emergency room, the most urgent cases are seen first. And most people accept that, because they understand the reason. A rule that's fair and explained is usually accepted. What upsets people is a rule that seems arbitrary, or a person who seems to be cheating.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Priority lines and special cases."
+   }
+  },
+  {
+   "say": "This connects back to what we learned about explained waits. If someone is served before you, and you understand why, perhaps they had an appointment, or an emergency, the irritation often fades quickly. It's not being overtaken that bothers us. It's being overtaken for no reason we can see.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Explanation helps fairness too."
+   }
+  },
+  {
+   "say": "And here's a gentle thought to finish this part. The next time someone cuts in front of you, it might help to remember that you don't know their story. Maybe they're rude. Or maybe they're in a hurry for a reason you can't see, or simply didn't notice the line. A little generosity can save you from a lot of irritation.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A gentle thought."
+   }
+  },
+  {
+   "say": "So here's what fairness teaches us about waiting. Unfair waits feel longer than fair ones. A line is a small society, with rules everyone knows. One fair line can feel better than many unpredictable ones. And when someone goes ahead of us, an explanation often turns irritation into acceptance.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Fairness in waiting",
+    "items": [
+     "Unfair waits feel longer than fair ones",
+     "A line is a small society with shared rules",
+     "One fair line can feel better than many",
+     "Explanations make priority feel fair"
+    ]
+   }
+  },
+  {
+   "say": "We've talked about the people ahead of us in a line. But what about the people behind us? Do they matter? You might think they shouldn't. They don't change how long you'll wait. But a fascinating study found that they change how you feel, and whether you stay.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the people behind you."
+   }
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "id": "lf08_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You're in a traffic jam. Your lane is crawling. And the lane next to you, of course, seems to be moving faster. Cars glide past you, one after another. You consider switching lanes. Maybe you do. And then, as soon as you've changed, your new lane slows down, and the lane you just left starts to move. Sound familiar?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 9,
+    "title": "The lane next to you"
+   }
+  },
+  {
+   "say": "It's the highway version of the other line always moves faster. And it's such a common feeling that two researchers in Toronto, Donald Redelmeier and Robert Tibshirani, decided to study it. Is the next lane really faster? Or is something about the way we experience traffic fooling us?",
+   "show": {
+    "type": "photo",
+    "file": "lf08_lane_traffic.jpg",
+    "cap": "Why does the other lane always win?"
+   }
+  },
+  {
+   "say": "Their study, published in nineteen ninety nine in the journal Nature, used two approaches. First, computer models of cars moving on a congested road, where every lane had, on average, exactly the same speed. And second, videos of real traffic, shown to driving students, who were asked about what they saw.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Donald Redelmeier & Robert Tibshirani",
+    "where": "University of Toronto, published in Nature, 1999",
+    "what": "Computer models of traffic, and videos of real traffic shown to driving students, were used to study why the next lane seems faster."
+   }
+  },
+  {
+   "say": "And here's what they found. Even when all lanes had the same average speed, a driver would often experience the next lane as faster. In the videos, students tended to believe that the neighboring lane was moving faster, even in cases where it was actually slower. So the feeling wasn't proof. It was, at least partly, an illusion.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Equal lanes. Unequal feelings."
+   }
+  },
+  {
+   "say": "Why would this happen? Part of the answer is physical, and rather elegant. When traffic moves fast, cars spread out. When it moves slowly, cars bunch together. So when your lane is the faster one, you zip past a group of cars quickly, in just a few seconds. But when the other lane is faster, the same number of cars pass you slowly, over a long stretch of time.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Fast moments are short. Slow moments are long."
+   }
+  },
+  {
+   "say": "That means you spend more time being overtaken than overtaking, even if both lanes are equal on average. The moments when you're winning are brief. The moments when you're losing are long. And as we've seen tonight, the length of an experience strongly shapes how we remember it.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "So we spend more time being overtaken."
+   }
+  },
+  {
+   "say": "The researchers also pointed to attention. Drivers mostly look forward. The cars you've passed are behind you now, out of sight, out of mind. But the cars passing you are right there, in front of you, overtaking you visibly. So the losses stay in view, while the wins quickly disappear into the mirror.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_lane_mirror.jpg",
+    "cap": "What's behind us disappears"
+   }
+  },
+  {
+   "say": "Does that remind you of something? Earlier, we saw that looking at the people behind us in a queue can lift our mood. In traffic, we tend to do the opposite. We forget the cars behind, and focus on the cars ahead. No wonder it often feels like everyone else is getting somewhere faster.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Remember the people behind you?"
+   }
+  },
+  {
+   "say": "And there's one more detail. When you're stuck, with nothing to do, you glance at the next lane more often. Remember the empty room, and the watched clock. Idle attention looks for something to measure. In traffic, it measures the neighbors. And the more we compare, the more often we notice that we're behind.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Idle eyes compare more."
+   }
+  },
+  {
+   "say": "The practical lesson the researchers drew was simple. Changing lanes often brings little real benefit, and every lane change carries some risk. If the feeling that the other lane is faster is partly an illusion, then chasing it may not be worth it. Staying calmly in your lane might be the wiser and safer choice.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Changing lanes rarely pays."
+   }
+  },
+  {
+   "say": "And of course, there are other lanes in life too. Other people's careers, homes, relationships, holidays, all seem to be moving faster than ours. We see their good moments clearly, while our own progress fades behind us. Remembering the next lane illusion can be a gentle comfort. Their lane may not really be faster. It just looks that way from where you're sitting.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Other lanes in life."
+   }
+  },
+  {
+   "say": "So here's what the next lane teaches us. Lanes that are equal can feel unequal. We spend more time being overtaken than overtaking. What we've passed disappears behind us, while what passes us stays in view. And other people's lanes in life may not really be faster either.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The next lane illusion",
+    "items": [
+     "Equal lanes can feel unequal",
+     "We spend longer being overtaken than overtaking",
+     "What we pass disappears behind us",
+     "Other lanes in life may not be faster either"
+    ]
+   }
+  },
+  {
+   "say": "Let's come back now to the feeling of time itself. Earlier, I mentioned the watched pot that never boils. There's real research behind that old saying. Paying attention to time seems to change how long it feels. Next, let's look at why watching the clock makes it crawl.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the watched clock."
+   }
+  }
+ ]
+}

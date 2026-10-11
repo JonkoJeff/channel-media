@@ -1,0 +1,139 @@
+{
+ "id": "lf08_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Get comfortable. Tonight, I want to talk about something you've done every single day of your life. Probably several times today already. Something so ordinary that we hardly ever think about it. And yet, it can make us happier, more anxious, calmer or more frustrated than almost anything else. Waiting.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "We spend our lives waiting.",
+    "sub": "Tonight, let's look at why."
+   }
+  },
+  {
+   "say": "We wait for the kettle to boil. For the traffic light to turn green. For a message to come back. For the weekend. For test results. For a train, for a parcel, for a person. For sleep, sometimes. If you added up all the minutes of waiting in a whole life, it would come to a surprisingly large number.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "And here's the strange thing about waiting. Two waits that last exactly the same number of minutes can feel completely different. Ten minutes at a bus stop in the cold can feel like forever. Ten minutes waiting for a friend you're excited to see can fly by. Ten minutes waiting for important news can feel like a small eternity.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b01_station.jpg",
+    "cap": "A whole life, full of small waits"
+   }
+  },
+  {
+   "say": "The clock says one thing. Your mind says something else entirely. And that gap between clock time and felt time is what we're going to explore tonight. Because it turns out that the feeling of waiting is not really about minutes. It's about what your brain is doing with those minutes.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The clock says one thing."
+   }
+  },
+  {
+   "say": "Over the years, psychologists, economists and even airport managers have studied waiting very carefully. They've discovered why some waits feel unbearable and others feel almost pleasant. Why the line next to you always seems to move faster. Why not knowing can be worse than bad news. And why, sometimes, waiting can actually make good things better.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Waiting is a psychology."
+   }
+  },
+  {
+   "say": "Here's where we're going tonight. First, why the same wait can feel short or endless. Then, why uncertainty is often the hardest part. Why fairness matters so much when we stand in line. Why some waiting is secretly one of the best parts of life. And finally, some gentle ways to wait well, and then, slowly, to rest.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Why the same wait can feel short or endless",
+     "Why uncertainty is the hardest part",
+     "Why fairness matters so much in a line",
+     "Why some waits are secretly enjoyable",
+     "How to wait well, and rest"
+    ]
+   }
+  },
+  {
+   "say": "Let's begin with something small. You've probably heard the saying, a watched pot never boils. Of course, it does boil, eventually. The water doesn't care whether you're watching. But the saying captures something true about the experience. When you stand there staring at the pot, the minutes seem to stretch.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Let's start with a kettle."
+   }
+  },
+  {
+   "say": "And if you walk away, do something else, and come back, suddenly it's boiling. Already? That was quick. The water took exactly the same time. What changed was where your attention was. And that, as we'll see, is one of the biggest secrets of waiting. The more you pay attention to time, the slower it seems to go.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b01_kettle.jpg",
+    "cap": "A watched pot never boils"
+   }
+  },
+  {
+   "say": "Part of what makes waiting hard is that it often feels like empty time. Time that belongs to nobody. You can't really start anything, because you might be interrupted at any moment. And you can't move forward, because whatever you're waiting for isn't here yet. You're stuck in between. A kind of pause button on your life.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Waiting is empty time."
+   }
+  },
+  {
+   "say": "Our brains, it seems, don't love that kind of empty time. They like to be busy, to predict, to plan, to act. In a waiting room, there's nothing to act on. So the brain starts to fill the space. Often with checking the time. Often with worry. Often with the feeling that this is taking too long.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "And our brains dislike empty time."
+   }
+  },
+  {
+   "say": "But I don't want tonight to be only about the frustrations of waiting. Because waiting has a gentle side too. Think of the evening before a holiday. The days before a celebration. Waiting for a cake to come out of the oven, with the smell filling the kitchen. Some of the happiest moments in life are moments of waiting.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "But waiting also has a gentle side."
+   }
+  },
+  {
+   "say": "We'll see that researchers have found something quite beautiful about this. Sometimes, looking forward to something can bring as much joy as the thing itself. Sometimes, we even prefer to wait a little, just to enjoy the anticipation. Waiting, in the right form, can be a gift.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Anticipation is a pleasure."
+   }
+  },
+  {
+   "say": "So what decides whether a wait feels like a gift or a burden? Is it just the length? Or something else? To find out, let's begin with a true story from an airport. A story about bags, complaints, and a surprisingly simple solution that tells us a lot about the human mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "So what decides how a wait feels?"
+   }
+  },
+  {
+   "say": "It's a story that has been told many times, because it's so neat. An airport had a problem with angry passengers. They tried the obvious solution, and it didn't work. Then they tried something that sounds almost silly. And it worked beautifully. Let's go there next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the airport that fixed waiting."
+   }
+  }
+ ]
+}

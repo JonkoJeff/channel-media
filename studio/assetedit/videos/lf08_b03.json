@@ -1,0 +1,141 @@
+{
+ "id": "lf08_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In nineteen eighty five, a business consultant named David Maister wrote a short essay called The Psychology of Waiting Lines. It wasn't a laboratory study. It was a collection of careful observations about how people experience waiting. And it has been quoted by researchers and businesses ever since, because so much of it rings true.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 3,
+    "title": "The rules of waiting lines"
+   }
+  },
+  {
+   "say": "Maister described a set of simple principles. We've already met the first one, at the airport. Occupied time feels shorter than unoccupied time. Tonight, let's walk through the others slowly, because each of them tells us something about the human mind.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "David Maister",
+    "where": "The Psychology of Waiting Lines, 1985",
+    "what": "A short essay listing simple principles about how waiting feels, drawn from observation of services like restaurants, banks and airlines."
+   }
+  },
+  {
+   "say": "The second principle is that people want to get started. A wait before the service begins feels longer than a wait once things are underway. Think of a restaurant. Waiting twenty minutes for a table feels long. But once you're seated, with water on the table and a menu in your hands, waiting for the food feels easier.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "People want to get started."
+   }
+  },
+  {
+   "say": "Part of the reason is a quiet worry. Before you've been noticed, there's always a small fear. Have they forgotten me? Am I in the right place? Do they know I'm here? Maister noted that just being acknowledged, a staff member saying I'll be with you in a moment, can make a big difference. You've been seen. You're in the system.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b03_restaurant.jpg",
+    "cap": "Have they forgotten me?"
+   }
+  },
+  {
+   "say": "The third principle is that anxiety makes waits seem longer. When you're worried, time drags. And one of the most common worries in a waiting line is a very small one. Did I choose the right line? You stand in your line at the supermarket, and you glance at the one next to you. It seems to be moving faster.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Anxiety makes waits longer."
+   }
+  },
+  {
+   "say": "Maister quoted a humorous saying that captures this perfectly, sometimes called Erma Bombeck's Law. The other line always moves faster. Of course, it doesn't always. But it feels that way. Partly because we notice when the other line is faster, and feel annoyed, and we don't notice as much when ours is faster.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b03_lines.jpg",
+    "cap": "The other line always moves faster"
+   }
+  },
+  {
+   "say": "There's a simple reason for this feeling too. If there are several lines, and you're in one of them, the chance that your line is the fastest is quite small. With three lines, most of the time, at least one of the other two will be faster than yours. So feeling that another line is moving faster is often simply correct. It's just math.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Why the other line seems faster."
+   }
+  },
+  {
+   "say": "Another of Maister's principles is that the more valuable the service, the longer people are willing to wait. We'll wait a long time for a table at a special restaurant, or for a doctor we trust. But we'll lose patience quickly waiting for something we don't value much. Our patience depends on what's waiting at the end.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Value changes patience."
+   }
+  },
+  {
+   "say": "And there's one more that I find especially human. Solo waiting feels longer than group waiting. When you wait with friends, you talk, you laugh, the time passes. But even strangers waiting together can create a kind of bond. Maister noticed that people in a line often stay silent, until something goes wrong. A delay is announced. And suddenly, strangers start talking to each other.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Waiting alone feels longer."
+   }
+  },
+  {
+   "say": "You may have experienced this on a delayed train or plane. A shared frustration turns strangers into a small temporary community. Someone makes a joke. Someone shares a snack. The wait is the same length, but it feels lighter, because you're not carrying it alone.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A shared wait is a lighter wait."
+   }
+  },
+  {
+   "say": "None of these principles is complicated. But together, they tell us something deep. Waiting isn't just a matter of time passing. It's an emotional experience. It's shaped by worry, by attention, by feeling seen, by company, and by what we hope to get at the end.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "These ideas are simple. And deep."
+   }
+  },
+  {
+   "say": "And many organizations have learned from this. Theme parks, hospitals, banks and airports often try to design waits around feelings, not just minutes. Keep people occupied. Acknowledge them early. Reduce worry. Make the line feel fair. Explain delays. Because a wait that feels better is often remembered as a shorter wait.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Design for feelings, not minutes."
+   }
+  },
+  {
+   "say": "So here are some of Maister's insights we've seen so far. Occupied time feels shorter. Waiting to get started feels longer. Anxiety stretches time. And waiting alone often feels longer than waiting together. Simple ideas, but you'll probably notice them everywhere from now on.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Maister's insights",
+    "items": [
+     "Occupied time feels shorter",
+     "Waiting to start feels longer",
+     "Anxiety stretches time",
+     "Waiting alone feels longer than waiting together"
+    ]
+   }
+  },
+  {
+   "say": "But there are two more principles that I've saved for their own conversation, because they're so powerful. Uncertain waits feel longer than known waits. And unexplained waits feel longer than explained ones. Not knowing, it turns out, is one of the hardest things for a human mind to bear. Let's look at why.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: not knowing."
+   }
+  }
+ ]
+}

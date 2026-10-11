@@ -1,0 +1,165 @@
+{
+ "id": "lf08_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In two thousand and eighteen, three researchers, Tyler Watts, Greg Duncan and Haonan Quan, published a new look at the marshmallow test. Instead of a small group from one university community, they used data from a large national study in the United States, with more than nine hundred children from a much wider range of backgrounds.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 17,
+    "title": "Waiting and trust"
+   }
+  },
+  {
+   "say": "They looked at how long children waited for a treat at around age four, and how they were doing as teenagers. And at first, they did find a link. Children who waited longer tended to have somewhat better maths and reading skills later on. So far, a bit like the original findings.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Tyler Watts, Greg Duncan & Haonan Quan",
+    "where": "Published in Psychological Science, 2018",
+    "what": "Data from more than 900 children in a large U.S. study of early child care, linking a delay-of-gratification test at age four to outcomes in adolescence."
+   }
+  },
+  {
+   "say": "But then they took into account the children's family background and early environment. Things like the family's income, the mother's education, and the home environment. And once they did, the link between waiting and later achievement became small, and largely disappeared. They also found no link with later behavior problems or personality.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "But then came the background."
+   }
+  },
+  {
+   "say": "What does that mean? It suggests that the marshmallow test may not be measuring some magical, built in trait of self control that decides a child's future. Instead, how long a child waits might partly reflect their circumstances. Their home, their experiences, their world. And those same circumstances also shape how they do later in life.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "So what was the test measuring?"
+   }
+  },
+  {
+   "say": "Think about it from a child's point of view. If you've grown up in a world where promises are usually kept, where food is reliably there, where adults come back when they say they will, then waiting for a second marshmallow makes a lot of sense. But if you've grown up in a world where things often disappear, where promises are broken, then taking the treat now might be the wiser choice.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Think about a child's world."
+   }
+  },
+  {
+   "say": "A beautiful experiment tested exactly this idea. In two thousand and thirteen, Celeste Kidd, Holly Palmeri and Richard Aslin worked with twenty eight young children. Before the marshmallow test, the children did an art project. And during that project, the adult running it was either reliable or unreliable.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Celeste Kidd, Holly Palmeri & Richard Aslin",
+    "where": "University of Rochester, published in Cognition, 2013",
+    "what": "28 young children first experienced either a reliable or an unreliable adult, then took a marshmallow-style waiting test."
+   }
+  },
+  {
+   "say": "Here's how it worked. The child was given some well used crayons, and told, if you wait, I'll bring you a bigger, better set of art supplies. For some children, the adult came back with the better supplies, as promised. For others, the adult came back empty handed, and said, sorry, I made a mistake, we don't have any.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b15_crayons.jpg",
+    "cap": "Wait, and better crayons will come"
+   }
+  },
+  {
+   "say": "Then the same thing happened with stickers. A small sticker now, or wait for better ones. Again, the reliable adult brought the better stickers. The unreliable adult didn't. So by the time the marshmallow test began, some children had learned that this adult keeps promises. Others had learned that this adult doesn't.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b15_stickers.jpg",
+    "cap": "And then, the stickers"
+   }
+  },
+  {
+   "say": "And the difference was dramatic. Children who had experienced the unreliable adult waited, on average, about three minutes before eating the marshmallow. Children who had experienced the reliable adult waited, on average, about twelve minutes. Four times as long.",
+   "show": {
+    "type": "bars",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Average wait for the marshmallow",
+    "unit": "minutes",
+    "bars": [
+     [
+      "Unreliable adult",
+      3.0
+     ],
+     [
+      "Reliable adult",
+      12.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And when it came to waiting the full fifteen minutes, nine of the fourteen children with the reliable adult managed it. With the unreliable adult, only one of fourteen did. Same children, same age range, same treat. The difference was trust.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Waited the full 15 minutes",
+    "big": "9 of 14 vs 1 of 14",
+    "label": "with a reliable adult versus an unreliable one"
+   }
+  },
+  {
+   "say": "I find this experiment deeply moving. It shows that waiting isn't just about willpower. It's a kind of bet on the future. When we wait, we're trusting that the reward will really come. If our experience tells us it will, waiting is sensible. If our experience tells us it won't, grabbing what we can now is a perfectly rational response.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Waiting is a bet on the future."
+   }
+  },
+  {
+   "say": "That should make us kinder, both toward others and toward ourselves. When someone seems impatient, maybe they've learned, through experience, that waiting doesn't pay off. When you find it hard to wait, maybe part of you doesn't fully trust that the good thing will come. That's not a character flaw. It's learning.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Be kind about impatience."
+   }
+  },
+  {
+   "say": "And it suggests something hopeful too. If trust helps people wait, then being reliable, keeping our promises, showing up when we say we will, helps the people around us become more patient. Especially children. Every kept promise is a small lesson. Waiting is worth it here.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Building trust builds patience."
+   }
+  },
+  {
+   "say": "So here's the fuller story of the marshmallow. The test is more complex than the famous legend. Background and environment matter a lot. Children wait much longer when the adult has been reliable. And every promise we keep helps others learn that waiting can be worth it.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Waiting and trust",
+    "items": [
+     "The marshmallow test is more complex than the legend",
+     "Background and environment matter a lot",
+     "Children wait longer for a reliable adult",
+     "Keeping promises helps others learn patience"
+    ]
+   }
+  },
+  {
+   "say": "Trust is one reason we sometimes choose now over later. But there's another, deeper pull toward now that affects all of us, even when we trust the future completely. Why does a reward next week feel so much smaller than the same reward today? Let's explore the strange way the mind shrinks the future.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: why later feels smaller."
+   }
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "id": "lf08_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine two waits. In the first, someone tells you, your train will arrive in twenty minutes. In the second, nobody tells you anything. The train is late, and you have no idea how late. Maybe two minutes. Maybe an hour. Even if both waits end up lasting exactly twenty minutes, which one would feel worse?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 4,
+    "title": "Not knowing"
+   }
+  },
+  {
+   "say": "For most people, the second wait is much harder. David Maister put it simply. Uncertain waits are longer than known, finite waits. When you know how long it will take, you can settle in. You can plan. You can relax. When you don't know, you stay on alert, checking, wondering, unable to fully let go.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Uncertain waits feel longer."
+   }
+  },
+  {
+   "say": "Think of a train station when the departure board just says, delayed. No time. No reason. People pace. They check their phones. They look up at the board every few seconds. Now imagine the board says, delayed, expected in twenty five minutes. Many people sit down, buy a coffee, open a book. Same delay. Very different experience.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b04_board.jpg",
+    "cap": "The board shows nothing"
+   }
+  },
+  {
+   "say": "Maister also said that unexplained waits feel longer than explained ones. If a pilot announces, we're waiting for a short safety check, most people relax a little. There's a reason. Someone is in control. If nothing is said, people start imagining things. Has something gone wrong? Have they forgotten us? Is anyone doing anything?",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Explained waits feel shorter."
+   }
+  },
+  {
+   "say": "But why exactly is uncertainty so hard for us? You might think that what really matters is whether something bad happens or not. But research suggests that the uncertainty itself, the not knowing, can be a major source of stress. Sometimes, even more than knowing that something unpleasant is definitely coming.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "But why is not knowing so hard?"
+   }
+  },
+  {
+   "say": "In two thousand and sixteen, researchers at University College London, led by Archy de Berker, studied this in a clever way. Forty five volunteers played a computer game. They turned over rocks on a screen, and under some of the rocks, there was a snake. If they found a snake, they received a mildly painful electric shock on the hand.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "de Berker, Rutledge, Bestmann and colleagues",
+    "where": "University College London, published in Nature Communications, 2016",
+    "what": "45 volunteers played a game of turning over rocks that might hide snakes. A snake meant a mildly painful electric shock. The chances kept changing."
+   }
+  },
+  {
+   "say": "The chance of finding a snake kept changing during the game. Sometimes snakes were very likely. Sometimes very unlikely. The researchers measured how stressed people were, by asking them, and by measuring things like sweating and the size of their pupils. And they could see how stress related to uncertainty.",
+   "show": {
+    "type": "photo",
+    "file": "lf08_b04_rocks.jpg",
+    "cap": "Is there a snake under this one?"
+   }
+  },
+  {
+   "say": "And the result was striking. The most stressful situations weren't the ones where a shock was certain. They were the ones where the chance of a shock was around fifty percent. When it was completely uncertain. A definite shock was less stressful than a maybe. Certainty, even certainty of something unpleasant, was easier to bear than not knowing.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Most stressful chance of a shock",
+    "big": "50%",
+    "label": "stress peaked when people had no idea which way it would go"
+   }
+  },
+  {
+   "say": "Think about what that means for waiting. Much of what makes waiting hard is uncertainty. Will the bus come? Will the news be good? Will they call back? When the outcome is uncertain, the brain stays on high alert, trying to predict, preparing for both possibilities at once. And that preparation is tiring.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Uncertainty is its own burden."
+   }
+  },
+  {
+   "say": "The brain loves to predict. It's constantly trying to guess what comes next. An uncertain wait is like an open question it can't answer. It keeps working on it, turning it over and over, and never reaches a conclusion. That constant, unfinished work may be part of why uncertainty feels so heavy.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The brain hates open questions."
+   }
+  },
+  {
+   "say": "This is also why updates help so much, even when they don't make anything faster. A delivery tracker that shows your parcel moving. A notice that says, you are number four in the queue. A doctor who says, the results should come on Thursday. None of these make the wait shorter. But they turn an open question into a closed one.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why progress updates help."
+   }
+  },
+  {
+   "say": "This gives us a small, practical kindness we can offer other people. If someone is waiting for you, a reply, a decision, your arrival, a short update can help a lot. I'm running about ten minutes late. I'll get back to you by Friday. It costs almost nothing, and it can turn an anxious wait into a calm one.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A small kindness to others."
+   }
+  },
+  {
+   "say": "And it gives us a kindness for ourselves too. When you're in an uncertain wait, it can help to create a little certainty where you can. Decide when you'll check for news, instead of checking constantly. Set yourself a small plan for the next hour. You can't control the outcome. But you can give your mind a few closed questions to rest on.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "And a kindness to ourselves."
+   }
+  },
+  {
+   "say": "So here's what we've learned about not knowing. Uncertain waits feel longer than known ones. Unexplained waits feel longer than explained ones. A maybe can be more stressful than a definite. And small updates, for others and for ourselves, can turn an open question into something the mind can rest on.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Living with not knowing",
+    "items": [
+     "Uncertain waits feel longer than known ones",
+     "Unexplained waits feel longer too",
+     "A maybe can be more stressful than a definite",
+     "Small updates turn open questions into closed ones"
+    ]
+   }
+  },
+  {
+   "say": "And to see just how much knowing can change a wait, let's go to one of the most ordinary places of waiting in the world. A bus stop, on a cold evening, with a bus that should have been here five minutes ago.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: where is my bus?"
+   }
+  }
+ ]
+}

@@ -1,0 +1,424 @@
+{
+ "id": "lf06_p03",
+ "part": true,
+ "voice": "am_puck",
+ "segments": [
+  {
+   "say": "Part three. The three AM wake up.",
+   "show": {
+    "type": "chapter",
+    "n": 3,
+    "title": "The 3 AM wake-up",
+    "sprite": "A06",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "You're awake. Completely awake. You check the clock, and it's three AM again. It feels like this happens way too often to be a coincidence. And the longer you lie there, the more you start to wonder. Is something wrong with my sleep? Am I broken?",
+   "show": {
+    "type": "photo",
+    "file": "lf06_p03_clock_3am.jpg",
+    "cap": "3 AM. Again."
+   }
+  },
+  {
+   "say": "Here's the surprising answer. Waking up during the night is not a sign that your sleep is broken. It's built into how sleep works. To understand why, we need to look at what a night of sleep actually looks like.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Built in.",
+    "sub": "Not broken."
+   }
+  },
+  {
+   "say": "Most of us picture sleep as one smooth block. Lights off, eight hours of nothing, alarm. But that's not what happens. Sleep comes in cycles. You move from light sleep into deep sleep, then into dreaming sleep, and then back toward the surface again.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "One smooth block?",
+    "sub": "Not even close."
+   }
+  },
+  {
+   "say": "According to sleep researchers at Flinders University in Australia, writing in The Conversation, those cycles last roughly ninety minutes each, and adults usually go through five or six of them in a night.",
+   "show": {
+    "type": "list",
+    "title": "A normal night",
+    "items": [
+     "Sleep comes in cycles",
+     "Each one: roughly 90 minutes",
+     "Adults: usually 5 or 6 per night"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "And at the end of a cycle, when you've floated back up toward light sleep, it's completely normal to wake up briefly. Sometimes only for a moment. Some people remember those moments. Many people don't remember them at all, and that's fine too.",
+   "show": {
+    "type": "list",
+    "title": "At the end of each cycle",
+    "items": [
+     "You float up toward light sleep",
+     "A brief wake-up is normal",
+     "Many people don't remember it"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "So here's the thing. You might wake up several times every single night and never know it. The difference between a normal night and a 3 AM night often isn't whether you wake up. It's whether you stay awake long enough to notice.",
+   "show": {
+    "type": "char",
+    "sprite": "A16",
+    "bg": "street_day",
+    "cap": "You wake up anyway.",
+    "sub": "You just don't notice."
+   }
+  },
+  {
+   "say": "As they put it, we might be waking up five times during the night. Five. And most of us would swear we slept straight through.",
+   "show": {
+    "type": "stat",
+    "title": "Brief wake-ups in a normal night",
+    "big": "5",
+    "label": "possible, according to Flinders University sleep researchers",
+    "sprite": "A06",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "The cycles aren't all the same, either. If sleep is going well, most of your deep sleep happens in the first half of the night, and dreaming sleep, called REM sleep, is more common in the second half. So by three or four AM, your night has shifted toward lighter, dreamier cycles, and each of them still ends with that little rise toward the surface.",
+   "show": {
+    "type": "list",
+    "title": "How the night changes",
+    "items": [
+     "First half: mostly deep sleep",
+     "Second half: more dreaming (REM) sleep",
+     "Every cycle ends near the surface"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "The same researchers point out that the number of awakenings can go up with age, and that this can still be perfectly healthy. An unbroken night of sleep, as they put it, is a myth.",
+   "show": {
+    "type": "quote",
+    "text": "An unbroken night's sleep is a myth.",
+    "by": "Sleep researchers in The Conversation",
+    "sprite": "A13",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Okay. But what if you don't just wake briefly? What if you're up for an hour, wide awake, with your mind running? Surely that's a problem? Well. For a big part of human history, that might have been completely ordinary.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Awake for an hour?",
+    "sub": "History has a surprise."
+   }
+  },
+  {
+   "say": "Meet Roger Ekirch, a historian at Virginia Tech. While researching the history of nighttime, he kept running into a strange phrase in old documents. First sleep. And second sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "'First sleep.'",
+    "sub": "'Second sleep.'"
+   }
+  },
+  {
+   "say": "In a paper published in two thousand one, built on sixteen years of research, and later in his book At Day's Close, Ekirch argued that before the industrial era, many people slept in two separate chunks. His book cites more than five hundred references to this kind of segmented sleep, from diaries and court records to medical books and literature.",
+   "show": {
+    "type": "study",
+    "who": "Roger Ekirch, historian",
+    "where": "Virginia Tech, paper published 2001",
+    "what": "Found more than 500 references to 'first sleep' and 'second sleep' in diaries, court records, medical books and literature.",
+    "sprite": "A13",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "According to these accounts, the first sleep began about two hours after dusk. Then people woke up for an hour or two, in the middle of the night, on purpose and without any panic. And then they went back to sleep for their second sleep.",
+   "show": {
+    "type": "list",
+    "title": "Two sleeps, one night",
+    "items": [
+     "First sleep: about 2 hours after dusk",
+     "Awake for an hour or two",
+     "Then: second sleep"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "And what did they do in that waking hour? Pretty much anything. People got up to use the toilet or smoke tobacco. Some visited neighbors. Others stayed in bed to read, write, or pray. Some chatted quietly with whoever was sleeping next to them.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_p03_candle_room.jpg",
+    "cap": "The waking hour between 'first' and 'second' sleep"
+   }
+  },
+  {
+   "say": "Imagine that. A world where waking up at night wasn't a problem to fix. It was just a part of the night, like brushing your teeth is a part of the morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Not a problem.",
+    "sub": "Just part of the night."
+   }
+  },
+  {
+   "say": "According to Ekirch, references to this two part sleep disappear toward the end of the nineteenth century. And around that same time, writers start describing a new problem. Waking up in the middle of the night, and not being able to get back to sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Late 1800s:",
+    "sub": "two sleeps fade away"
+   }
+  },
+  {
+   "say": "Now, you might be thinking, okay, but that's history. Old diaries are one thing. Is there any experiment that shows the human body actually does this? There is. And it's one of the strangest sleep experiments ever run.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Any real experiment?"
+   }
+  },
+  {
+   "say": "In a paper published in nineteen ninety two in the Journal of Sleep Research, psychiatrist Thomas Wehr described what happened when he gave a group of volunteers a different kind of night. Instead of the usual eight hours of darkness, they spent fourteen hours in darkness every day. For a month.",
+   "show": {
+    "type": "study",
+    "who": "Thomas Wehr",
+    "where": "Journal of Sleep Research, published 1992",
+    "what": "Volunteers spent 14 hours in darkness every day, for a month, and could sleep as much as they wanted.",
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "No phones. No late night TV. No lamps keeping them up. Just long, dark, quiet nights, like winter evenings before electricity.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "14 hours of dark.",
+    "sub": "Every day. For a month."
+   }
+  },
+  {
+   "say": "At first, their sleep took time to settle. But by the fourth week, a clear pattern had appeared. And it looked a lot like those old diaries.",
+   "show": {
+    "type": "char",
+    "sprite": "A16",
+    "bg": "street_day",
+    "cap": "By week four..."
+   }
+  },
+  {
+   "say": "They slept for about four hours. Then they woke up and spent an hour or two quietly awake. Then they slept for about four more hours.",
+   "show": {
+    "type": "list",
+    "title": "Wehr's volunteers, week 4",
+    "items": [
+     "About 4 hours of sleep",
+     "1-2 hours quietly awake",
+     "About 4 more hours of sleep"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "In other words, when you remove artificial light and give people long nights, at least some bodies seem to fall right back into two sleeps, with a calm waking period in between.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Two sleeps,",
+    "sub": "when the nights are long."
+   }
+  },
+  {
+   "say": "To be fair, this was one group of volunteers under very unusual conditions. It doesn't prove that one block of sleep is wrong, or that you should start sleeping in two chunks. Most of us have long days and short nights, and one solid block can work perfectly well.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "One small experiment.",
+    "sub": "Not a new rule to follow."
+   }
+  },
+  {
+   "say": "But it does take a lot of the fear out of the three AM wake up. Waking in the middle of the night is not some modern malfunction. Our bodies seem perfectly capable of it. The problem is usually not the waking. It's what we do next.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Not the waking.",
+    "sub": "What we do next."
+   }
+  },
+  {
+   "say": "And what do most of us do next? We check the time. We calculate. Okay, if I fall asleep right now, I'll get three hours and forty minutes. Then we check again. Now it's three hours and twenty minutes. And with every check, the panic grows.",
+   "show": {
+    "type": "list",
+    "title": "The 3 AM spiral",
+    "items": [
+     "Check the clock",
+     "Calculate the hours left",
+     "Panic a little",
+     "Check again"
+    ],
+    "sprite": "A08",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "That spiral is exactly why the waking turns into a long waking. A brief, normal end of cycle moment gets turned into a full alert, and your brain starts treating the bedroom like an emergency room.",
+   "show": {
+    "type": "char",
+    "sprite": "A09",
+    "bg": "bedroom_night",
+    "cap": "A normal wake-up...",
+    "sub": "...turned into an alarm."
+   }
+  },
+  {
+   "say": "So here's a technique called stimulus control. Alberta Health Services in Canada, for example, describes it like this.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Stimulus control"
+   }
+  },
+  {
+   "say": "One. Don't look at the clock. If you need to know how long you've been awake, don't time it. Their guidance suggests that changing position about two or three times is probably close to twenty minutes.",
+   "show": {
+    "type": "list",
+    "title": "Step 1: no clock",
+    "items": [
+     "Don't check the time",
+     "Turn the clock away",
+     "Shifting position 2-3 times is about 20 minutes"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Two. If you're still awake after about twenty minutes, try relaxation exercises first. And if that doesn't work, get up. Leave the bedroom, keep the lights low, and do something calm, like a puzzle.",
+   "show": {
+    "type": "list",
+    "title": "Step 2: after about 20 minutes",
+    "items": [
+     "Try a relaxation exercise",
+     "Still awake? Get up",
+     "Low light, something calm"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Three. Go back to bed only when you feel sleepy. Not when you think you should. When you actually feel it. And if it happens again, repeat.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Back to bed",
+    "sub": "only when sleepy."
+   }
+  },
+  {
+   "say": "The idea behind it is simple. Your brain should link your bed with sleeping, not with lying awake and worrying. Every time you lie there panicking for an hour, that link gets a little weaker. Every time you get up and come back sleepy, it gets a little stronger.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Bed = sleep.",
+    "sub": "Not bed = worry."
+   }
+  },
+  {
+   "say": "And one honest note. The same Flinders researchers say up to twenty five percent of adults have insomnia. If you regularly lie awake for long stretches, take more than about thirty minutes to fall asleep most nights, or feel exhausted every day, that's worth taking to a doctor. There are effective treatments, so asking for help is important.",
+   "show": {
+    "type": "list",
+    "title": "When to get help",
+    "items": [
+     "Up to 25% of adults have insomnia",
+     "Long wake-ups most nights",
+     "Tired every day",
+     "Effective treatments exist: talk to a doctor"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Also, don't let a sleep tracker scare you. According to those researchers, trackers vary in accuracy and only give a rough estimate of your sleep stages. The gold standard is a full sleep study in a lab. So one bad number on your watch is not a diagnosis.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Your tracker:",
+    "sub": "a rough estimate, not a verdict"
+   }
+  },
+  {
+   "say": "And maybe borrow a little attitude from the people of first and second sleep. If you wake up at three, it doesn't have to be a crisis. It can just be a quiet moment in the middle of the night.",
+   "show": {
+    "type": "list",
+    "title": "At 3 AM, try this",
+    "items": [
+     "It's not a crisis",
+     "It's a quiet moment",
+     "People once had a whole waking hour"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Quick question. Do you usually wake up at the same time every night? Two, three, four? Let me know in the comments. You might be surprised how many people have the exact same time.",
+   "show": {
+    "type": "char",
+    "sprite": "A11",
+    "bg": "street_day",
+    "cap": "Same time every night?",
+    "sub": "Tell me in the comments."
+   }
+  },
+  {
+   "say": "But there's one more thing about three AM that we haven't talked about. Because when you wake up in the middle of the night, it's not just that you're awake. It's what your mind does with the time.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "But there's one more thing..."
+   }
+  },
+  {
+   "say": "The email you didn't answer becomes a disaster. A small pain becomes a serious illness. A tiny argument becomes the end of a friendship. Why does everything feel so much worse at night? And why does it all look fine again in the morning? That's part four.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "bedroom_night",
+    "cap": "Up next: part 4",
+    "sub": "Why worries feel bigger at night"
+   }
+  }
+ ]
+}

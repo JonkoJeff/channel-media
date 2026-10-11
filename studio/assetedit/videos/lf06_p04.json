@@ -1,0 +1,351 @@
+{
+ "id": "lf06_p04",
+ "part": true,
+ "voice": "am_puck",
+ "segments": [
+  {
+   "say": "Part four. Why worries feel bigger at night.",
+   "show": {
+    "type": "chapter",
+    "n": 4,
+    "title": "Why worries feel bigger at night",
+    "sprite": "A08",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "At two in the afternoon, you notice a small headache. You drink some water and forget about it. At two in the morning, the same small headache is clearly something terrible, and you're one search away from convincing yourself of it.",
+   "show": {
+    "type": "char",
+    "sprite": "A09",
+    "bg": "bedroom_night",
+    "cap": "2 PM: a headache.",
+    "sub": "2 AM: a catastrophe."
+   }
+  },
+  {
+   "say": "Same headache. Same you. Same life. So why does the night version feel so much heavier? It turns out this isn't just in your imagination. There are real reasons your brain becomes a worse judge of problems in the dark.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_p04_shadows.jpg",
+    "cap": "Same room. Same problems. Bigger shadows."
+   }
+  },
+  {
+   "say": "In twenty twenty two, a group of sleep and circadian researchers, led by Andrew Tubbs, published a paper with a memorable title. The mind after midnight.",
+   "show": {
+    "type": "study",
+    "who": "Tubbs, Fernandez, Grandner, Perlis & Klerman",
+    "where": "Frontiers in Network Physiology, published 2022",
+    "what": "'The mind after midnight': a review of how the human mind changes when we are awake during the biological night.",
+    "sprite": "A13",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Their idea is that being awake during the biological night changes how the mind works. Several things shift at once, and together they tilt the mind toward the dark side.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Awake after midnight?",
+    "sub": "Your mind works differently."
+   }
+  },
+  {
+   "say": "The first shift is mood. Across the day, our emotions follow a rhythm, much like the body clock from part one. According to the review, positive feelings peak during the day and reach their lowest point during the night, between about one and four AM.",
+   "show": {
+    "type": "list",
+    "title": "Your mood has a clock too",
+    "items": [
+     "Good feelings peak in the daytime",
+     "They bottom out around 1-4 AM",
+     "Bad feelings are highest at night"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "And negative feelings are at their highest during the night. So if you're awake at three AM, you're facing your problems at the exact moment your brain has the least good mood and the most bad mood available. It's like judging a painting in the darkest room in the house.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The worst moment",
+    "sub": "to judge anything"
+   }
+  },
+  {
+   "say": "The second shift is attention. The researchers describe attention biases at night: attention tends to lock onto the negative. You don't notice the ten things that are fine. You zoom in on the one thing that might go wrong.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Zoomed in",
+    "sub": "on the one bad thing"
+   }
+  },
+  {
+   "say": "And the third shift is control. The front part of your brain, the prefrontal cortex, is the part that usually says, hang on, let's think about this calmly. According to the review, at night, and especially after too little sleep, that calming control gets weaker. Thinking becomes less flexible, and decisions get riskier.",
+   "show": {
+    "type": "list",
+    "title": "The mind after midnight",
+    "items": [
+     "Mood: at its lowest",
+     "Attention: stuck on the negative",
+     "Self-control: weaker"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Put those three together, and three AM becomes a terrible time for thinking about your life. Lower mood. Attention stuck on threats. And the part of your brain that normally puts things in perspective is running on low power.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "bedroom_night",
+    "cap": "Low mood + threats",
+    "sub": "+ weak brakes"
+   }
+  },
+  {
+   "say": "To be fair, the authors themselves say that much of this hypothesis still needs to be properly tested. A lot of the data comes from studies of sleep loss, not from people awake during the biological night. But there's one experiment that shows the sleep loss part very clearly.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Still a hypothesis.",
+    "sub": "But one study stands out."
+   }
+  },
+  {
+   "say": "In twenty oh seven, sleep scientist Matthew Walker and his colleagues at UC Berkeley published a study in the journal Current Biology. Twenty six healthy adults, aged eighteen to thirty, were split into two groups. One group slept normally. The other stayed awake for thirty five hours straight. A full day, a full night, and another full day.",
+   "show": {
+    "type": "study",
+    "who": "Yoo, Walker and colleagues",
+    "where": "UC Berkeley, Current Biology, published 2007",
+    "what": "26 healthy adults. Half slept normally. Half stayed awake for 35 hours straight. Then everyone viewed upsetting images while brain activity was measured.",
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Then both groups looked at a hundred images, from completely neutral to very upsetting, while the researchers measured their brain activity. They watched how strongly the amygdala responded. That's the almond shaped part of the brain that reacts to emotion and threat.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "100 images.",
+    "sub": "One question: how strong is the alarm?"
+   }
+  },
+  {
+   "say": "In the sleep deprived group, the emotional centers of the brain were over sixty percent more reactive.",
+   "show": {
+    "type": "stat",
+    "title": "Emotional brain after 35 hours awake",
+    "big": "60%+",
+    "label": "more reactive to upsetting images",
+    "sprite": "A06",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "And there was a second finding that might be even more important. Normally, the amygdala is in close contact with the prefrontal cortex, the calm, rational part we talked about a moment ago. In the sleep deprived brains, that connection looked weaker. Instead, the amygdala was more connected to a different region, called the locus coeruleus.",
+   "show": {
+    "type": "list",
+    "title": "The sleep-deprived brain",
+    "items": [
+     "Emotional alarm: 60%+ louder",
+     "Link to the calm, rational brain: weaker",
+     "Link to the locus coeruleus: stronger"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "In plain language, the alarm got louder, and the part that normally tells the alarm to calm down got pushed out of the conversation.",
+   "show": {
+    "type": "char",
+    "sprite": "A16",
+    "bg": "street_day",
+    "cap": "Louder alarm.",
+    "sub": "No one to calm it down."
+   }
+  },
+  {
+   "say": "Now, one night of broken sleep isn't the same as thirty five hours without any. But it helps explain why everything feels so dramatic after a bad night, and why a three AM brain, tired and running on low mood, is such an unreliable narrator.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Your 3 AM brain:",
+    "sub": "an unreliable narrator"
+   }
+  },
+  {
+   "say": "And now for the good news. Because the same lab found that sleep doesn't only take the calm away when you lose it. When you get it, it gives the calm back.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Now the good news."
+   }
+  },
+  {
+   "say": "In twenty eleven, Matthew Walker's team published another study in Current Biology. Thirty four healthy young volunteers looked at one hundred fifty emotional images in a brain scanner, twice, twelve hours apart.",
+   "show": {
+    "type": "study",
+    "who": "Walker's team, UC Berkeley",
+    "where": "Current Biology, published 2011",
+    "what": "34 young volunteers rated 150 emotional images twice, 12 hours apart. Half had a full night's sleep in between. Half stayed awake.",
+    "sprite": "A13",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "One group saw them in the morning and again in the evening, with no sleep in between. The other group saw them in the evening, slept a full night, and saw them again the next morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Group 1: no sleep between.",
+    "sub": "Group 2: a full night's sleep."
+   }
+  },
+  {
+   "say": "The people who had slept reported a much milder emotional reaction the second time. And in their brains, during REM sleep, the dreaming stage, activity fell in the amygdala, the emotion center. The images had lost some of their sting overnight.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "After sleep:",
+    "sub": "the sting was softer"
+   }
+  },
+  {
+   "say": "Walker summed it up in a line that's hard to forget. It's not time that heals all wounds. It's REM sleep. That's what he means by overnight therapy.",
+   "show": {
+    "type": "quote",
+    "text": "It's not time that heals all wounds, it's REM sleep.",
+    "by": "Matthew Walker, UC Berkeley",
+    "sprite": "A13",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "So the night has two faces. If you're awake in the middle of it, it's the worst possible moment to judge your problems. But if you're asleep through it, it's one of the best things that can happen to them.",
+   "show": {
+    "type": "list",
+    "title": "The two faces of the night",
+    "items": [
+     "Awake at 3 AM: everything looks worse",
+     "Asleep through it: feelings get softer",
+     "Same night. Opposite effect."
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "That's why the old advice, sleep on it, is better than it sounds. The problem that felt impossible at three AM often looks a lot more manageable over breakfast. Not because it changed. Because your brain did.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_p04_sunrise.jpg",
+    "cap": "Same problem. Different brain."
+   }
+  },
+  {
+   "say": "So what can you do when the three AM worries arrive? First, remember everything from this part. Say it to yourself if you have to. This is my three AM brain. It's not a good judge right now. I'll look at this in the morning.",
+   "show": {
+    "type": "list",
+    "title": "When the 3 AM worries arrive",
+    "items": [
+     "Name it: 'This is my 3 AM brain'",
+     "Don't make decisions now",
+     "Promise to look again in the morning"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Second, don't make big decisions at night. Don't send that long message. Don't quit anything. Don't book anything. Researchers say decision making is riskier at night. So give your plans a timestamp. Morning me will decide.",
+   "show": {
+    "type": "char",
+    "sprite": "A11",
+    "bg": "street_day",
+    "cap": "No big decisions",
+    "sub": "after midnight."
+   }
+  },
+  {
+   "say": "Third, give your worries somewhere to go before bed. In twenty eighteen, Michael Scullin and his colleagues at Baylor University published a study with fifty seven students. Before bed, half of them spent five minutes writing a to do list for the coming days. The other half wrote about tasks they had already finished. Then their sleep was measured in a sleep lab.",
+   "show": {
+    "type": "study",
+    "who": "Michael Scullin and colleagues",
+    "where": "Baylor University, published 2018",
+    "what": "57 students wrote for 5 minutes before bed: half a to-do list for the next days, half a list of tasks already done. Sleep measured in a lab.",
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "The students who wrote the to do list fell asleep more quickly. It's a small study, and the researchers themselves say it's too small for big conclusions. But it's free, it takes five minutes, and it gives your brain a simple message. It's written down. You don't have to hold it all night.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Written down.",
+    "sub": "You can let it go."
+   }
+  },
+  {
+   "say": "And fourth, if you're awake and the worries are spiraling, use what you learned in part three. Don't lie there wrestling with them. Get up, keep the light low, do something calm, and come back when you're sleepy.",
+   "show": {
+    "type": "list",
+    "title": "If the worries spiral",
+    "items": [
+     "Don't wrestle them in bed",
+     "Get up, keep the light low",
+     "Come back when you're sleepy"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Let me ask you this. What's the strangest thing your three AM brain ever convinced you of? Something that looked totally ridiculous in the morning. Put it in the comments. I'll bet a lot of people will recognize it.",
+   "show": {
+    "type": "char",
+    "sprite": "A11",
+    "bg": "street_day",
+    "cap": "Your wildest 3 AM thought?",
+    "sub": "Tell me in the comments."
+   }
+  },
+  {
+   "say": "So. Your brain fights sleep with its body clock. You fight it with your phone. You wake at three, and the worries get bigger. That's the first half of the night. But we haven't even fallen properly asleep yet.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "First half of the night:",
+    "sub": "done."
+   }
+  },
+  {
+   "say": "Because there's a moment, right on the edge of sleep, when your whole body suddenly jolts, like you just stepped off a cliff. Sometimes you even feel like you're falling. Almost everyone knows it. Hardly anyone knows what it is. That's part five.",
+   "show": {
+    "type": "char",
+    "sprite": "A16",
+    "bg": "street_day",
+    "cap": "Up next: part 5",
+    "sub": "The falling jolt"
+   }
+  }
+ ]
+}

@@ -1,0 +1,455 @@
+{
+ "id": "lf06_p01",
+ "part": true,
+ "voice": "am_puck",
+ "segments": [
+  {
+   "say": "Tonight, at some point, you'll lie down, close your eyes, and switch off for hours. Your brain won't. It has a whole night shift planned, and by the end of this video you'll know every part of it.",
+   "show": {
+    "type": "char",
+    "sprite": "A16",
+    "bg": "bedroom_night",
+    "cap": "Lights off.",
+    "sub": "Brain: still on."
+   }
+  },
+  {
+   "say": "Because the night is when the strangest things happen in your head. You're exhausted at nine, then wide awake at ten. You scroll until two even though you promised yourself you wouldn't. You wake up at three for no reason, and suddenly every worry you have feels enormous.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Tired at 9.",
+    "sub": "Wide awake at 10. Why?"
+   }
+  },
+  {
+   "say": "None of that is random. Scientists have studied almost every minute of the night, and the answers are stranger, and honestly more comforting, than you'd expect.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "It's not random."
+   }
+  },
+  {
+   "say": "So here's the plan. In this video, we follow your brain through one entire night, from the moment you start to feel sleepy to the moment you open your eyes in the morning. Twelve parts.",
+   "show": {
+    "type": "list",
+    "title": "In this video (part 1 of 3)",
+    "items": [
+     "Why your brain fights sleep",
+     "Revenge bedtime procrastination",
+     "The 3 AM wake-up",
+     "Why worries feel bigger at night"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "We'll start with why your brain fights sleep at bedtime, why you stay up when you're exhausted, why waking up at three AM is far more normal than you think, and why every worry looks bigger in the dark.",
+   "show": {
+    "type": "list",
+    "title": "In this video (part 2 of 3)",
+    "items": [
+     "The falling jolt",
+     "Why we dream",
+     "Sleep paralysis",
+     "How sleep saves your memories"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Then the weird stuff. That falling jolt just as you drift off. Why we dream at all. The terrifying thing called sleep paralysis. And how your brain quietly saves your memories while you're out cold.",
+   "show": {
+    "type": "list",
+    "title": "In this video (part 3 of 3)",
+    "items": [
+     "The night-time cleaning crew",
+     "Night owls vs early birds",
+     "What your phone really does",
+     "A better night, starting tonight"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "And finally, the cleaning crew that washes your brain at night, why some people are night owls, what your phone is really doing to your sleep, and a short list of things that actually help. Get comfortable. Let's begin at the beginning. Bedtime.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "Get comfortable."
+   }
+  },
+  {
+   "say": "Part one. Why your brain fights sleep.",
+   "show": {
+    "type": "chapter",
+    "n": 1,
+    "title": "Why your brain fights sleep",
+    "sprite": "A19",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "Here's a question that sounds simple. Why do you get sleepy at all? You might say, because I'm tired. But tired of what, exactly? What is actually changing inside your head between the morning, when you feel fresh, and the evening, when your eyelids feel like they weigh a kilo each?",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Why sleepy at all?"
+   }
+  },
+  {
+   "say": "In the late nineteen seventies, sleep researcher Alexander Borbély first presented an answer that is still the backbone of sleep science today. He called it the two process model. It was formally published in nineteen eighty two, and the idea is beautifully simple.",
+   "show": {
+    "type": "study",
+    "who": "Alexander Borbély",
+    "where": "Human Neurobiology, published 1982",
+    "what": "The two-process model: how sleepy you feel is the sum of two separate forces.",
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Your sleepiness, at any moment, comes from two separate forces. The first one he called Process S. S for sleep. It's a kind of pressure that builds up the whole time you're awake, and drains away while you sleep.",
+   "show": {
+    "type": "list",
+    "title": "Force 1: sleep pressure",
+    "items": [
+     "Builds up every hour you're awake",
+     "Drains away while you sleep",
+     "Scientists call it Process S"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Think of it like an hourglass that gets flipped the moment you wake up. Every hour you're awake, more sand piles up at the bottom. By the evening, the pile is big and heavy, and your brain is practically begging for sleep. Then, during the night, the sand runs back up again. You wake up with an empty hourglass, and the whole thing starts over.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_p01_hourglass.jpg",
+    "cap": "Sleep pressure: an hourglass that fills all day"
+   }
+  },
+  {
+   "say": "So what is the sand made of? One of the best known ingredients is a chemical called adenosine. Your brain cells burn energy all day long, and adenosine is one of the things that builds up as they work.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "The sand: adenosine."
+   }
+  },
+  {
+   "say": "In nineteen ninety seven, a team led by Tarja Porkka-Heiskanen published a study in the journal Science. They measured adenosine in a part of the brain called the basal forebrain in cats, and found that it rose during six hours of enforced wakefulness. Then, during recovery sleep, it slowly went back down.",
+   "show": {
+    "type": "study",
+    "who": "Porkka-Heiskanen and colleagues",
+    "where": "Science, published 1997",
+    "what": "In cats kept awake for 6 hours, adenosine in the basal forebrain rose. During recovery sleep it slowly fell again.",
+    "sprite": "A13",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "That's the hourglass in action. The longer you stay awake, the more of this sleep signal piles up. And when you finally sleep, your brain clears it away.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Awake longer = more sand"
+   }
+  },
+  {
+   "say": "And here's where your morning coffee comes in. Caffeine works by fitting into the same docking spots on your brain cells that adenosine uses, and blocking them. The adenosine is still there. The sand is still piling up. Caffeine just stops your brain from feeling it.",
+   "show": {
+    "type": "list",
+    "title": "What caffeine really does",
+    "items": [
+     "Blocks adenosine's docking spots",
+     "The sleep pressure is still there",
+     "You just can't feel it for a while"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Which explains that horrible crash when the coffee wears off. All the sand that piled up while it was blocked suddenly lands on you at once.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "bedroom_night",
+    "cap": "The crash.",
+    "sub": "All the sand lands at once."
+   }
+  },
+  {
+   "say": "But caffeine has a sneakier side. In twenty thirteen, sleep researcher Christopher Drake and his team at the Henry Ford Sleep Disorders Center published a careful little experiment. Twelve healthy sleepers took a pill zero, three, or six hours before bed. Some pills had four hundred milligrams of caffeine in them, that's roughly two to three cups of coffee, and some were placebos.",
+   "show": {
+    "type": "study",
+    "who": "Christopher Drake and colleagues",
+    "where": "Journal of Clinical Sleep Medicine, 2013",
+    "what": "12 healthy sleepers took 400 mg of caffeine (about 2-3 cups of coffee) 0, 3 or 6 hours before bed, or a placebo.",
+    "sprite": "A13",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Even when the caffeine was taken a full six hours before bedtime, it cut their total sleep by more than an hour, measured objectively, not just by how they felt.",
+   "show": {
+    "type": "stat",
+    "title": "Caffeine 6 hours before bed",
+    "big": "1+ hour",
+    "label": "less sleep, measured objectively",
+    "sprite": "A06",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "And here's the part that should make you pause. The participants mostly didn't notice. Their own reports didn't show the damage. They felt like they slept fine. The machines said otherwise.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "They didn't notice.",
+    "sub": "Their sleep data did."
+   }
+  },
+  {
+   "say": "Based on this, the researchers suggested people should generally avoid caffeine after about five PM. So if you have a four o'clock coffee and wonder why your sleep feels thin, now you know where to look.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_p01_coffee.jpg",
+    "cap": "The researchers' tip: no caffeine after about 5 PM"
+   }
+  },
+  {
+   "say": "Okay. So that's force number one. Sleep pressure. If that were the whole story, you'd feel a little sleepier every single hour you're awake, and the most tired moment of your day would always be right before bed. But that's not how it feels, is it?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "So why the second wind?"
+   }
+  },
+  {
+   "say": "Most people have a strange dip in the early afternoon, and then a weird burst of energy in the evening. You feel like a zombie at three PM, and then at ten PM you're suddenly ready to reorganize your entire closet. That's force number two.",
+   "show": {
+    "type": "char",
+    "sprite": "A17",
+    "bg": "street_day",
+    "cap": "10 PM:",
+    "sub": "suddenly full of energy"
+   }
+  },
+  {
+   "say": "Borbély called it Process C. C for circadian. It's your internal clock, a roughly twenty four hour rhythm that runs in the background whether you've slept or not. And its job is basically to push back against the sleep pressure during the day, so you can stay awake long enough to live your life.",
+   "show": {
+    "type": "list",
+    "title": "Force 2: your body clock",
+    "items": [
+     "A roughly 24-hour rhythm",
+     "Pushes against sleep pressure by day",
+     "Scientists call it Process C"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Your actual sleepiness, at any moment, is the sum of these two forces. The pressure pulling you toward sleep, and the clock pushing you to stay awake. When they line up the right way, you drop off easily. When they're out of sync, you lie there staring at the ceiling.",
+   "show": {
+    "type": "list",
+    "title": "How sleepy you feel",
+    "items": [
+     "Sleep pressure pulls you down",
+     "Your clock pushes you up",
+     "You feel the sum of both"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "That's why the day has a shape most people recognize. Sleepy after lunch, oddly awake in the evening, and then a steep drop into sleepiness around your usual bedtime.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "You know this shape."
+   }
+  },
+  {
+   "say": "The same two forces also decide when you wake up. In Borbély's model, as you sleep, the pressure keeps draining. At some point it drops below a threshold set by your body clock, and that crossing point is when you wake. So your clock helps decide when you fall asleep, and when you wake up.",
+   "show": {
+    "type": "list",
+    "title": "Why you wake up",
+    "items": [
+     "Sleep pressure drains all night",
+     "Your clock sets a threshold",
+     "Where they cross, you wake up"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Quick question before we go on. What time does your second wind usually hit? Nine? Eleven? After midnight? Tell me in the comments, because by part ten you'll find out what that says about you.",
+   "show": {
+    "type": "char",
+    "sprite": "A11",
+    "bg": "street_day",
+    "cap": "When's your second wind?",
+    "sub": "Tell me in the comments."
+   }
+  },
+  {
+   "say": "And that oddly awake bit in the evening has a name. In a study published in nineteen eighty six, sleep researcher Peretz Lavie described an unusual experiment. Instead of letting people sleep normally, he put them on a schedule of tiny naps and short wake periods, again and again, around the clock.",
+   "show": {
+    "type": "study",
+    "who": "Peretz Lavie",
+    "where": "Published 1986",
+    "what": "Adult men alternated very short sleep and wake periods for 36 hours, so he could measure how easily they fell asleep at every hour.",
+    "sprite": "A13",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "That let him measure how easily people could fall asleep at every hour of the day. And he found something that surprised everyone. In the hours just before people's normal bedtime, it was harder to fall asleep than at almost any other time.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "bedroom_night",
+    "cap": "Hardest time to sleep?",
+    "sub": "Right before bedtime."
+   }
+  },
+  {
+   "say": "This window became known as the forbidden zone for sleep. Researchers today usually place it in the two to three hours before your habitual bedtime. Right after it, sleepiness rises sharply. Researchers call that moment the sleep gate.",
+   "show": {
+    "type": "list",
+    "title": "The forbidden zone",
+    "items": [
+     "2-3 hours before your usual bedtime",
+     "Very hard to fall asleep",
+     "Then the 'sleep gate' opens"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Isn't that wild? Your brain deliberately makes you more alert right before bed. One idea is that it helps you push through the end of the day, while the sleep pressure is at its highest.",
+   "show": {
+    "type": "char",
+    "sprite": "A16",
+    "bg": "street_day",
+    "cap": "Built-in second wind"
+   }
+  },
+  {
+   "say": "And it explains a very common mistake. Say you had a terrible night, and tonight you decide to go to bed two hours early to catch up. You lie down at nine instead of eleven, and you just lie there, wide awake, getting more and more frustrated.",
+   "show": {
+    "type": "char",
+    "sprite": "A09",
+    "bg": "bedroom_night",
+    "cap": "Early night...",
+    "sub": "...wide awake."
+   }
+  },
+  {
+   "say": "You probably climbed into bed right in the middle of your forbidden zone. Your clock was still pushing hard against sleep. The gate wasn't open yet.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The gate wasn't open."
+   }
+  },
+  {
+   "say": "Researchers have found this zone may be even stronger in teenagers. A study published in twenty twenty three compared adolescents and adults, and found the adolescents took longer to fall asleep and slept less in naps around the time their evening melatonin started to rise. So when a teenager says they physically can't fall asleep at ten, there may be real biology behind it.",
+   "show": {
+    "type": "study",
+    "who": "Frontiers in Sleep",
+    "where": "Published 2023",
+    "what": "Teenagers took longer to fall asleep and slept less than adults in naps near the evening rise of melatonin.",
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "So what can you actually do with all this? Three things follow straight from the science.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "So what helps?"
+   }
+  },
+  {
+   "say": "One. Protect your sleep pressure. A long nap late in the afternoon empties part of the hourglass, and then there's less sand left to pull you under at night. If you nap, keep it short and early.",
+   "show": {
+    "type": "list",
+    "title": "Use the two forces",
+    "items": [
+     "Protect your sleep pressure: no long late naps",
+     "Respect the caffeine window",
+     "Don't go to bed in your forbidden zone"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Two. Respect the caffeine window. Remember, six hours before bed was still enough to cost the people in that study more than an hour of sleep, and they didn't even notice.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "6 hours still counts."
+   }
+  },
+  {
+   "say": "Three. When you're catching up on sleep, don't go to bed hours early and fight your own clock. Going to bed a little earlier, and keeping your wake up time steady, works with both forces instead of against them.",
+   "show": {
+    "type": "list",
+    "title": "Catching up on sleep",
+    "items": [
+     "Don't go to bed hours early",
+     "Go a little earlier",
+     "Keep your wake-up time steady"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "But here's the thing. For a lot of people, the problem isn't the hourglass, and it isn't the clock. The sand is piled high. The sleep gate is wide open. And they still don't go to bed.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The gate is open...",
+    "sub": "...so why are you still up?"
+   }
+  },
+  {
+   "say": "They pick up the phone. One more episode. One more video. It's one AM, they know they'll regret it, and they keep going anyway. Psychologists have a name for that. And it's coming up in part two.",
+   "show": {
+    "type": "char",
+    "sprite": "A11",
+    "bg": "street_day",
+    "cap": "Up next: part 2",
+    "sub": "Revenge bedtime procrastination"
+   }
+  }
+ ]
+}

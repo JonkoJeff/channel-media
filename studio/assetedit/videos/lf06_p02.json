@@ -1,0 +1,414 @@
+{
+ "id": "lf06_p02",
+ "part": true,
+ "voice": "am_puck",
+ "segments": [
+  {
+   "say": "Part two. Revenge bedtime procrastination.",
+   "show": {
+    "type": "chapter",
+    "n": 2,
+    "title": "Revenge bedtime procrastination",
+    "sprite": "A17",
+    "bg": "street_day"
+   }
+  },
+  {
+   "say": "It's twelve forty seven AM. You have to be up at seven. You are so tired your eyes are burning. And you're watching a video about how bridges are built. You don't even care about bridges.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_p02_phone_glow.jpg",
+    "cap": "12:47 AM. Up at 7. Still scrolling."
+   }
+  },
+  {
+   "say": "You know you should put the phone down. Part of you is actively saying, go to sleep. And another part of you is saying, just one more. And somehow, that second voice wins almost every night.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Just one more.",
+    "sub": "(it's never one more)"
+   }
+  },
+  {
+   "say": "For a long time, this didn't have a name. Procrastination was something people studied with homework, taxes and deadlines. Not with sleep. Then, in twenty fourteen, a team of psychologists at Utrecht University in the Netherlands decided to look at it properly.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Procrastinating... sleep?"
+   }
+  },
+  {
+   "say": "Floor Kroese and her colleagues published a paper in the journal Frontiers in Psychology with a very direct title. Bedtime procrastination: introducing a new area of procrastination.",
+   "show": {
+    "type": "study",
+    "who": "Floor Kroese and colleagues",
+    "where": "Frontiers in Psychology, published 2014",
+    "what": "Bedtime procrastination: introducing a new area of procrastination. An online survey of 177 people.",
+    "sprite": "A13",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "And they gave it a precise definition. Bedtime procrastination is failing to go to bed at the intended time, while no external circumstances prevent a person from doing so.",
+   "show": {
+    "type": "quote",
+    "text": "Failing to go to bed at the intended time, while no external circumstances prevent a person from doing so.",
+    "by": "Kroese et al., Frontiers in Psychology (2014)",
+    "sprite": "A13",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Read that last part again. No external circumstances. This isn't about a crying baby, a night shift, or a neighbor's party. Nothing is stopping you from going to bed. You've decided to go to bed. And then you just don't.",
+   "show": {
+    "type": "list",
+    "title": "What it is NOT",
+    "items": [
+     "A crying baby",
+     "A night shift",
+     "A noisy neighbor",
+     "Nothing stops you. You just don't go."
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "In their survey of one hundred seventy seven people, the researchers found two things. People who scored lower on general self regulation, basically the ability to make yourself do what you planned, reported more bedtime procrastination.",
+   "show": {
+    "type": "stat",
+    "title": "People in the first survey",
+    "big": "177",
+    "label": "answered questions about sleep and self-control",
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "And bedtime procrastination was linked to getting too little sleep, even after the researchers took self regulation and basic background factors into account. In other words, this isn't just a quirky habit. It's connected to how much sleep people actually get.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "bedroom_night",
+    "cap": "Linked to less sleep.",
+    "sub": "Not just a quirky habit."
+   }
+  },
+  {
+   "say": "The same team then went much bigger. In a study published the same year in the Journal of Health Psychology, they surveyed over two thousand people in the Netherlands, aged sixteen to ninety three. People with sleep disorders or night shift jobs were left out. Everyone also kept a sleep diary for seven days.",
+   "show": {
+    "type": "study",
+    "who": "Kroese, Evers, Adriaanse & de Ridder",
+    "where": "Journal of Health Psychology, published 2014",
+    "what": "Over 2,000 people aged 16 to 93 answered questions and kept a 7-day sleep diary. No sleep disorders, no night shifts.",
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "On average, people slept seven point two hours a night. But more than half of them believed they didn't get enough sleep on two or more nights a week.",
+   "show": {
+    "type": "stat",
+    "title": "Not enough sleep, 2+ nights a week",
+    "big": "50%+",
+    "label": "of the people in the study said so",
+    "sprite": "A06",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "Then the researchers asked: what explains who sleeps too little? Background factors like age and gender explained eight percent of the differences. Things outside people's control, like work or family, added another four point six percent. And bedtime procrastination? It explained twelve point seven percent. More than either of the others.",
+   "show": {
+    "type": "list",
+    "title": "What explained differences in sleep",
+    "items": [
+     "Age, gender and other background: 8%",
+     "Causes outside people's control: 4.6%",
+     "Bedtime procrastination: 12.7%"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Now, a survey like this can't prove cause and effect, and the authors say so. Too little sleep can also weaken self control the next day, so it probably works in both directions. But the message is clear. For many people, the thing standing between them and enough sleep isn't their job or their kids. It's the hour they choose not to give to sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Not the job.",
+    "sub": "The hour we keep for ourselves."
+   }
+  },
+  {
+   "say": "Now. At some point, the internet gave this habit a sharper name. Revenge bedtime procrastination. And the word revenge tells you a lot about why people do it.",
+   "show": {
+    "type": "char",
+    "sprite": "A16",
+    "bg": "street_day",
+    "cap": "Revenge?!"
+   }
+  },
+  {
+   "say": "According to Scientific American, the term is supposed to have originated in China, where many employees work extremely long weeks, often seventy two hours. When your entire day belongs to someone else, the night is the only time that feels like yours.",
+   "show": {
+    "type": "photo",
+    "file": "lf06_p02_city_night.jpg",
+    "cap": "When the day isn't yours, the night feels like it is"
+   }
+  },
+  {
+   "say": "So staying up late becomes a small act of rebellion. A way of taking control back. As Scientific American put it, staying up late is, in a sense, revenge for not being able to do things during the day.",
+   "show": {
+    "type": "quote",
+    "text": "Staying up late is, in a sense, 'revenge' for not being able to do things during the day.",
+    "by": "Scientific American",
+    "sprite": "A13",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "And honestly, that rings true for a lot of people. You worked. You commuted. You cooked, cleaned, answered messages, looked after other people. And at eleven PM, the house is finally quiet, and for the first time all day, nobody needs anything from you. Of course you don't want to give that up by falling asleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "Finally. Me time."
+   }
+  },
+  {
+   "say": "Psychologist Jana Kühnel, quoted in that same article, points out something important. She sees it as an intentional postponement of going to bed. Not a slip. A choice. Which is why she thinks the word procrastination doesn't really fit.",
+   "show": {
+    "type": "list",
+    "title": "Not a slip. A choice.",
+    "items": [
+     "You know it's late",
+     "You know you'll be tired",
+     "You stay up on purpose",
+     "Because the night feels like yours"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Now, here's where the story gets a twist. The easy explanation for all this is that you're just too drained. After a long day, your willpower is used up, so you can't make yourself put the phone down. It makes sense. And Kühnel's own research suggests it might be wrong.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Too drained to stop?",
+    "sub": "Maybe not."
+   }
+  },
+  {
+   "say": "In twenty eighteen, Kühnel and her colleagues Christine Syrek and Anne Dreher published a daily diary study. One hundred eight employees from different industries filled in questionnaires over five work days. That gave the researchers almost four hundred pairs of evenings and the following mornings to compare.",
+   "show": {
+    "type": "study",
+    "who": "Kühnel, Syrek & Dreher",
+    "where": "Frontiers in Psychology, published 2018",
+    "what": "108 employees filled in daily diaries over 5 work days: how drained they felt in the evening, and when they actually went to bed.",
+    "sprite": "A13",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Each evening, they measured how much self control people felt they had left before bed. If the drained theory were right, the most exhausted evenings should have had the most bedtime procrastination.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "The test:",
+    "sub": "more drained = later bed?"
+   }
+  },
+  {
+   "say": "They found the opposite. On evenings when people had fewer of those self control resources left, they actually showed less bedtime procrastination, not more.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "bedroom_night",
+    "cap": "The opposite!"
+   }
+  },
+  {
+   "say": "Think about it. On the nights you're truly wiped out, you often just collapse. It's the nights where you have a little energy left that you end up scrolling until one.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Truly wiped out?",
+    "sub": "You just collapse."
+   }
+  },
+  {
+   "say": "So what did predict it? Chronotype. People whose body clocks run later, the night owls, reported more bedtime procrastination on work days. And for them, it went down over the course of the work week.",
+   "show": {
+    "type": "list",
+    "title": "What predicted it",
+    "items": [
+     "Not how drained people felt",
+     "Their body clock: night owls did it more",
+     "And it shrank as the work week went on"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "The authors say this fits what we know about body clocks. And it ties straight back to part one. If your clock runs late, the bedtime you intend may land right in your forbidden zone, when your brain is still pushing hard to stay awake. You're not lazy. You're being asked to sleep before your gate opens.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Not lazy.",
+    "sub": "Your gate isn't open yet."
+   }
+  },
+  {
+   "say": "And why would it shrink during the week? The study can't say for sure. But one possible explanation fits part one perfectly. After a few short nights in a row, sleep pressure piles up, and eventually even an owl's brain just gives in.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Possible reason:",
+    "sub": "the sand keeps piling up"
+   }
+  },
+  {
+   "say": "This doesn't mean the habit is harmless, and it doesn't mean self control plays no role at all. Remember, the first study did find a link with self regulation. But it means the most common advice, just have more willpower, misses a big part of the picture.",
+   "show": {
+    "type": "list",
+    "title": "What the research says",
+    "items": [
+     "Self-control plays a role",
+     "Body clocks play a role too",
+     "'Just have more willpower' isn't enough"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Before we get to what actually helps, quick check in. What's your go to revenge activity? Scrolling, gaming, a show, reading? Drop it in the comments. I'm curious which one wins.",
+   "show": {
+    "type": "char",
+    "sprite": "A11",
+    "bg": "street_day",
+    "cap": "What's yours?",
+    "sub": "Tell me in the comments."
+   }
+  },
+  {
+   "say": "Okay. If revenge bedtime procrastination is about missing me time, and about body clocks, then the fixes should target those two things. Not just willpower. Here are a few ideas that follow from the research. Try them and see what works for you.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "So what helps?"
+   }
+  },
+  {
+   "say": "First, move your me time earlier. If the real need is an hour that belongs to you, try to protect even twenty or thirty minutes of it earlier in the evening. When the night isn't your only free time, it loses some of its pull.",
+   "show": {
+    "type": "list",
+    "title": "Idea 1: me time, earlier",
+    "items": [
+     "Protect a small block before 10 PM",
+     "Call it yours: no chores, no messages",
+     "The night loses some of its pull"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "Second, set a wind down alarm, not just a wake up alarm. Most people set an alarm for the morning and none for the evening. An alarm about an hour before your intended bedtime gives you a clear moment to start ending the day, instead of drifting.",
+   "show": {
+    "type": "list",
+    "title": "Idea 2: an evening alarm",
+    "items": [
+     "One alarm for waking up",
+     "One alarm for winding down",
+     "It turns a vague plan into a moment"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Third, add a little friction. The phone in your hand is effortless. The phone charging on the other side of the room takes effort. You don't need iron willpower if the easy option and the good option are the same thing.",
+   "show": {
+    "type": "list",
+    "title": "Idea 3: add friction",
+    "items": [
+     "Charge the phone away from the bed",
+     "Turn off autoplay",
+     "Make 'one more' take effort"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "The researchers behind that big Dutch study suggested something similar: tools like if then plans. Instead of a vague goal like, I'll go to bed earlier, you decide on a specific trigger. If the episode ends, then the laptop closes. If it's eleven, then the phone goes on the charger in the hallway.",
+   "show": {
+    "type": "list",
+    "title": "Idea 4: if-then plans",
+    "items": [
+     "IF the episode ends...",
+     "THEN the laptop closes",
+     "IF it's 11 PM...",
+     "THEN the phone goes to the hallway"
+    ],
+    "sprite": "A14",
+    "bg": "conspiracy_board"
+   }
+  },
+  {
+   "say": "Fifth, if you're a night owl, be realistic. Picking a bedtime that lands deep in your forbidden zone sets you up to fail. A slightly later bedtime that you actually keep beats an early one you break every night.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Realistic beats perfect."
+   }
+  },
+  {
+   "say": "And finally, go easy on yourself. Staying up late doesn't make you broken. It usually means your days are full, and some part of you is trying to get a little life back. That's a very human thing to want.",
+   "show": {
+    "type": "list",
+    "title": "Go easy on yourself",
+    "items": [
+     "Staying up late doesn't make you broken",
+     "It usually means your days are full",
+     "You want a little life back"
+    ],
+    "sprite": "A12",
+    "bg": "living_room_day"
+   }
+  },
+  {
+   "say": "So let's say it works. You put the phone down. You fall asleep at a decent hour. The hourglass empties, everything goes perfectly.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Finally asleep."
+   }
+  },
+  {
+   "say": "And then, at three twelve AM, your eyes snap open. Wide awake. No alarm. No noise. No reason. What just happened? Is something wrong with you? That's part three.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "bedroom_night",
+    "cap": "3:12 AM.",
+    "sub": "Why are you awake?"
+   }
+  }
+ ]
+}

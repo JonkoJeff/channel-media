@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       - run: pip install torch --index-url https://download.pytorch.org/whl/cpu && pip install spandrel pillow numpy
       - run: curl -sSL -o anime6B.pth https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth
-      - run: python3 studio/ai/upscale.py ${{ inputs.folders }}
+      - run: python3 studio/ai/upscale.py ${{ inputs.folders }} > up.log 2>&1 || { echo "::error::$(tail -c 1500 up.log | tr '\n' ' ')"; exit 1; }
       - run: |
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
           git add studio/ai/upscaled && git commit -m "Upscaled sprites [skip ci]" && git pull --rebase -q && git push || true

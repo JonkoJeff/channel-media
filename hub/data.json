@@ -1,17 +1,29 @@
 {
- "updated": "2026-10-11T16:40Z",
- "checked_at": "2026-10-11T16:40Z",
+ "updated": "2026-10-11T20:38Z",
+ "checked_at": "2026-10-11T20:38Z",
  "channels": [
   {
    "key": "default",
    "id": "UCynthMQNy9uDsuHcewQDERg",
    "title": "Crazy_Factsss",
-   "viewCount": 0,
+   "viewCount": 5,
    "subscriberCount": 2,
-   "videoCount": 2
+   "videoCount": 3
   }
  ],
  "videos": [
+  {
+   "channel": "Crazy_Factsss",
+   "id": "7eBMzF04nVA",
+   "title": "Your Brain at Night, Explained",
+   "published": "2026-10-11 18:11",
+   "duration": "PT2H28M51S",
+   "views": 1,
+   "likes": 0,
+   "comments": 0,
+   "seconds": 8931,
+   "type": "Long"
+  },
   {
    "channel": "Crazy_Factsss",
    "id": "NbqEAGT9akw",
@@ -30,7 +42,7 @@
    "title": "Why Your Brain Replays Your Most Embarrassing Moments at 3 AM",
    "published": "2026-10-10 17:21",
    "duration": "PT8M36S",
-   "views": 2,
+   "views": 3,
    "likes": 0,
    "comments": 0,
    "seconds": 516,
@@ -44,11 +56,24 @@
    "scheduled": "2026-10-11T20:00:00+02:00",
    "length": "2:28:50",
    "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/renders/lf06/thumb.png"
+  },
+  {
+   "id": "lf07",
+   "title": "Why Your Brain Lies to You",
+   "scheduled": null,
+   "length": null,
+   "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/renders/lf07/thumb.png"
   }
  ],
- "in_progress": [],
+ "in_progress": [
+  {
+   "id": "lf08",
+   "title": "The Psychology of Waiting, Explained",
+   "blocks": "23/23"
+  }
+ ],
  "approved": false,
- "views24": 3,
+ "views24": 5,
  "subs24": 1,
  "schedule": [
   {
@@ -59,9 +84,10 @@
    "date": "2026-10-11"
   },
   {
-   "status": "open",
-   "title": "nog leeg \u00b7 de machine vult dit automatisch",
+   "status": "in de maak",
+   "title": "The Psychology of Waiting, Explained",
    "time": "17:00",
+   "blocks": "23/23",
    "date": "2026-10-12"
   },
   {
@@ -95,27 +121,27 @@
    "date": "2026-10-17"
   }
  ],
- "metricool_used": 3,
+ "metricool_used": 4,
  "workflows": {
   "render-long.yml": {
    "status": "completed",
    "conclusion": "success",
-   "at": "2026-10-11T13:35Z"
+   "at": "2026-10-11T17:20Z"
   },
   "stats.yml": {
    "status": "in_progress",
    "conclusion": null,
-   "at": "2026-10-11T16:40Z"
+   "at": "2026-10-11T20:38Z"
   },
   "trends.yml": {
    "status": "completed",
    "conclusion": "success",
-   "at": "2026-10-11T11:22Z"
+   "at": "2026-10-11T18:03Z"
   },
   "screenshots.yml": {
    "status": "completed",
    "conclusion": "success",
-   "at": "2026-10-11T15:25Z"
+   "at": "2026-10-11T17:29Z"
   },
   "youtube.yml": {
    "status": "completed",

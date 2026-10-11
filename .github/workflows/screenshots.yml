@@ -1,7 +1,7 @@
 name: screenshots
 on:
   push:
-    paths: ["studio/channels/*/shots.json", "studio/channels/*/photos.json"]
+    paths: ["studio/channels/*/shots.json", "studio/channels/*/photos.json", "studio/assetedit/photos.json"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -18,4 +18,4 @@ jobs:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
       - run: |
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
-          git add studio/channels/*/shots studio/channels/*/photos && git commit -m "Screenshots [skip ci]" && git push || true
+          git add -A studio/channels studio/assetedit && git commit -m "Screenshots [skip ci]" && git push || true

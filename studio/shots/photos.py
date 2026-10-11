@@ -8,10 +8,10 @@ import base64
 import json, os, urllib.parse, urllib.request
 UA = {"User-Agent": "CrazyFactsPublisher/1.0 (github.com/JonkoJeff/channel-media)"}
 def get(url): return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60).read()
-for ch in os.listdir("studio/channels"):
-    lst = os.path.join("studio/channels", ch, "photos.json")
+for chd in ["studio/assetedit"] + [os.path.join("studio/channels", c) for c in os.listdir("studio/channels")]:  # Crazy Facts lives in assetedit/
+    lst = os.path.join(chd, "photos.json")
     if not os.path.exists(lst): continue
-    out = os.path.join("studio/channels", ch, "photos"); os.makedirs(out, exist_ok=True)
+    out = os.path.join(chd, "photos"); os.makedirs(out, exist_ok=True)
     cpath = os.path.join(out, "credits.json"); credits = json.load(open(cpath)) if os.path.exists(cpath) else {}
     for p in json.load(open(lst)):
         if os.path.exists(os.path.join(out, p["file"])): continue

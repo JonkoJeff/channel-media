@@ -45,7 +45,12 @@ def pop(t, n=0.4):  # 0.86 -> 1.06 -> 1.00
 def validate(v):
     errs = []
     for i, s in enumerate(v["segments"]):
-        sh = s["show"]; a = ASSETS.get(sh.get("sprite"))
+        sh = s["show"]
+        if sh.get("type") == "photo":  # free-licensed photo; optional sprite must still be approved
+            if not sh.get("file"): errs.append(f"seg {i}: photo without file")
+            if sh.get("sprite") and not ASSETS.get(sh["sprite"], {}).get("approved"): errs.append(f"seg {i}: sprite {sh['sprite']} not approved")
+            continue
+        a = ASSETS.get(sh.get("sprite"))
         if not a or not a.get("approved"): errs.append(f"seg {i}: sprite {sh.get('sprite')} not approved")
         b = BGS.get(sh.get("bg"))
         if not b or not b.get("approved"): errs.append(f"seg {i}: bg {sh.get('bg')} not approved")
@@ -196,8 +201,26 @@ def screen(img, sh, lt, dur):
     img.paste(view, (x0, y0 + 60))
     if sh.get("cap"): text_block(d, (x0, y0 + fh + 90), sh["cap"], font(50, "Black"), fw, fill=CREAM, stroke=8, sfill=INK)
 
+def photo(sh, lt, dur):
+    """Free-licensed photo (photos/<file>) full screen with a slow Ken Burns move; credit line bottom-left."""
+    if sh["file"] not in _shot: _shot[sh["file"]] = Image.open(os.path.join(CH, "photos", sh["file"])).convert("RGB")
+    s = _shot[sh["file"]]; k = ease(lt / max(dur, .1)); z0, z1 = (1.0, 1.15) if sh.get("move", "in") == "in" else (1.15, 1.0)
+    z = z0 + (z1 - z0) * k; base = max(W / s.width, H / s.height); cw, chh = W / (base * z), H / (base * z)
+    fx, fy = sh.get("focus", [.5, .5]); cx = (s.width - cw) * fx; cy = (s.height - chh) * fy
+    img = s.resize((W, H), Image.LANCZOS, box=(cx, cy, cx + cw, cy + chh))
+    vg = Image.new("L", (W, H), 0); ImageDraw.Draw(vg).rectangle((0, H - 320, W, H), fill=150); img.paste((10, 10, 14), (0, 0), vg.filter(ImageFilter.GaussianBlur(120)))
+    d = ImageDraw.Draw(img)
+    if sh.get("cap"): text_block(d, (110, H - 250), sh["cap"], font(64, "Black"), 1150, fill=CREAM, stroke=9, sfill=INK)
+    cr = json.load(open(os.path.join(CH, "photos", "credits.json"))).get(sh["file"], {})
+    d.text((24, H - 40), f'Photo: {cr.get("creator") or "unknown"} / {cr.get("provider", "")} ({cr.get("license", "")})', font=font(22, "Medium"), fill=(235, 235, 235))
+    return img
+
 def frame_for(seg, lt, dur, beat=0):
     sh = seg["show"]; t = sh["type"]
+    if t == "photo":
+        img = photo(sh, lt, dur)
+        if sh.get("sprite"): place_sprite(img, sh["sprite"], 1650, 1.8, lt)
+        return img
     if t == "screen":
         img = background(sh["bg"], dim=True).copy(); screen(img, sh, lt, dur)
         place_sprite(img, sh["sprite"], 1640 if sh.get("side", "left") == "left" else 280, 2.0, lt); return img
@@ -271,6 +294,9 @@ def description(v, timing, series, path):
     nxt = series[idx + 1:idx + 4]
     lines = [v["desc"], "", "\u23f1 Chapters"] + [f"{a} {b}" for a, b in chap] + ["", "\U0001f52e Coming up next on the channel:"]
     lines += [f"\u25b8 {x['title']}" for x in nxt] + ["", "\U0001f4da Sources"] + [f"\u2022 {s}" for s in v["sources"]]
+    cpath = os.path.join(CH, "photos", "credits.json"); used = [s["show"]["file"] for s in v["segments"] if s["show"]["type"] == "photo"]
+    if used and os.path.exists(cpath):
+        cr = json.load(open(cpath)); lines += ["", "\U0001f4f7 Photos"] + [f'\u2022 "{cr[f]["title"]}" by {cr[f]["creator"]} ({cr[f]["provider"]}), {cr[f]["license"]}: {cr[f]["source"]}' for f in dict.fromkeys(used) if f in cr]
     lines += ["", "Narration is AI-generated (synthetic voice). Script, research and edit by the channel.", "", " ".join(v["tags"])]
     open(path, "w").write("\n".join(lines) + "\n")
 

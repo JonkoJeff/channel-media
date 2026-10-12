@@ -1,0 +1,42 @@
+name: shorts
+# Extra Shorts from an already rendered long video: reuses the part renders of its render-long run (artifacts live 3 days),
+# cuts the new Shorts from shorts.json (ids starting with `prefix`), adds them to the release and to result.json.
+on:
+  workflow_dispatch:
+    inputs:
+      id: {description: "Long video id (lf07)", required: true}
+      run: {description: "render-long run id whose part artifacts to reuse", required: true}
+      prefix: {description: "Short id prefix to cut (sh07_)", required: true}
+permissions:
+  contents: write
+  actions: read
+concurrency: shorts-${{ inputs.id }}
+jobs:
+  cut:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg fonts-inter && pip install numpy pillow
+      - uses: actions/download-artifact@v4
+        with: {path: art, run-id: "${{ inputs.run }}", github-token: "${{ github.token }}"}
+      - name: cut
+        run: |
+          R=studio/assetedit/renders; mkdir -p $R studio/assetedit/audio
+          find art -name '*.mp4' ! -name 'sh*' -exec cp {} $R/ \; ; find art -name '*_timing.json' -exec cp {} studio/assetedit/audio/ \;
+          cd studio/assetedit
+          python3 -c "import json;json.dump([x for x in json.load(open('videos/shorts.json')) if x['id'].startswith('${{ inputs.prefix }}')],open('/tmp/sh.json','w'))"
+          python3 shorts.py /tmp/sh.json > ../../log.txt 2>&1 || { echo "::error::$(tail -c 1200 ../../log.txt | tr '\n' ' ')"; exit 1; }
+          echo "::notice::$(ls renders/${{ inputs.prefix }}*.mp4 | wc -l) Shorts cut"
+      - name: publish
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          ID=${{ inputs.id }}; gh release upload $ID studio/assetedit/renders/${{ inputs.prefix }}*.mp4 --clobber
+          python3 - <<'PY'
+          import json, glob, os
+          i = "${{ inputs.id }}"; p = f"studio/renders/{i}/result.json"; r = json.load(open(p))
+          for f in glob.glob("studio/assetedit/renders/${{ inputs.prefix }}*.mp4"):
+              s = os.path.basename(f)[:-4]; r.setdefault("shorts", {})[s] = f"https://github.com/JonkoJeff/channel-media/releases/download/{i}/{s}.mp4"
+          json.dump(r, open(p, "w"), indent=1)
+          PY
+          git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
+          git add -f studio/renders/$ID/result.json && git commit -qm "Shorts ${{ inputs.prefix }} for $ID [skip ci]" && git pull -q --rebase && git push

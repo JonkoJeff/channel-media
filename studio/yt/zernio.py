@@ -40,17 +40,18 @@ elif cmd == "playlist":   # a = "Title|Title2" (prefix "moneyatnight:" for Money
         cfg.setdefault("playlists", {})[title] = p["playlist"]["id"]; save(); print(f"::notice::playlist {title} = {p['playlist']['id']}")
 elif cmd == "shorts":
     import datetime as dt
-    vid, day = sys.argv[2], dt.date.fromisoformat(sys.argv[3]); res = json.load(open(os.path.join(R, vid, "result.json")))
+    # b = "YYYY-MM-DD" (3/day at 09/13/21, continuing after earlier posts) or "YYYY-MM-DD@11:00,15:00,19:00" (own slots, from that day)
+    day, _, sl = sys.argv[3].partition("@"); vid, day = sys.argv[2], dt.date.fromisoformat(day); res = json.load(open(os.path.join(R, vid, "result.json")))
     v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); ch = v.get("channel", "crazyfacts")
     meta = {x["id"]: x for x in json.load(open(os.path.join(D, "..", "assetedit", "videos", "shorts.json")))}
-    done = res.setdefault("shorts_posted", {}); slots = ["09:00", "13:00", "21:00"]; n = len(done)
+    done = res.setdefault("shorts_posted", {}); slots = sl.split(",") if sl else ["09:00", "13:00", "21:00"]; n = 0 if sl else len(done)
     plid = cfg.get("playlists", {}).get("Money Shorts" if ch == "moneyatnight" else "Psychology Shorts")
     for sid, url in sorted(res.get("shorts", {}).items()):
         if sid in done: continue
         m = meta.get(sid, {}); f = f"/tmp/{sid}.mp4"; urllib.request.urlretrieve(url, f)
         _, ps = call("POST", "/media/presign", {"filename": sid + ".mp4", "contentType": "video/mp4", "size": os.path.getsize(f)})
         urllib.request.urlopen(urllib.request.Request(ps["uploadUrl"], data=open(f, "rb").read(), method="PUT", headers={"Content-Type": "video/mp4"}), timeout=600).read()
-        when = f"{day + dt.timedelta(days=n // 3)}T{slots[n % 3]}"
+        when = f"{day + dt.timedelta(days=n // len(slots))}T{slots[n % len(slots)]}"
         psd = {"title": (m.get("title") or v["title"])[:90] + " #shorts", "visibility": "public", "categoryId": "27", "madeForKids": False, "containsSyntheticMedia": True}
         if plid: psd["playlistId"] = plid
         body = {"content": f"{m.get('title', '')}\n\nFull calm 2.5-hour video on the channel: {v['title']}\n\n" + " ".join(m.get("tags", ["#shorts"])) + "\n\nNarration is AI-generated (synthetic voice).",

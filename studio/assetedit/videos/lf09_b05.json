@@ -37,8 +37,9 @@
   {
    "say": "Here's the clever part. Some participants were given a pill, and told that it would freeze their current mood for about an hour. Whatever they did, they wouldn't be able to feel better or worse. The pill was actually just a placebo. But the participants believed their mood was locked in place.",
    "show": {
-    "type": "photo",
-    "file": "lf09_n2_pill.jpg",
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
     "cap": "A pill that freezes your mood"
    }
   },

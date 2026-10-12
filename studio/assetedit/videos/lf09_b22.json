@@ -66,8 +66,9 @@
   {
    "say": "The sensible choice seems to be the bucket closer to the end. You'd carry it a shorter distance. But many people picked up the closer bucket, at the start, and carried it further. Doing extra physical work, just to get the task started sooner. The researchers called this precrastination. The urge to complete tasks as soon as possible, even at extra cost.",
    "show": {
-    "type": "photo",
-    "file": "lf09_b18_buckets.jpg",
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
     "cap": "The nearer bucket, carried further"
    }
   },

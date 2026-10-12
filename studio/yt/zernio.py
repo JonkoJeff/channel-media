@@ -53,7 +53,7 @@ elif cmd == "shorts":
         when = f"{day + dt.timedelta(days=n // 3)}T{slots[n % 3]}"
         psd = {"title": (m.get("title") or v["title"])[:90] + " #shorts", "visibility": "public", "categoryId": "27", "madeForKids": False, "containsSyntheticMedia": True}
         if plid: psd["playlistId"] = plid
-        body = {"content": f"{m.get('title', '')}\n\nFull calm 2.5-hour video on the channel: {v['title']}\n\n" + " ".join(m.get("tags", ["#shorts"])),
+        body = {"content": f"{m.get('title', '')}\n\nFull calm 2.5-hour video on the channel: {v['title']}\n\n" + " ".join(m.get("tags", ["#shorts"])) + "\n\nNarration is AI-generated (synthetic voice).",
                 "tags": [t.lstrip("#") for t in m.get("tags", [])], "mediaItems": [{"type": "video", "url": ps["publicUrl"]}],
                 "platforms": [{"platform": "youtube", "accountId": yt_account(ch), "platformSpecificData": psd}], "scheduledFor": when, "timezone": "Europe/Amsterdam"}
         st, p = call("POST", "/posts", body); post = p.get("post", p)

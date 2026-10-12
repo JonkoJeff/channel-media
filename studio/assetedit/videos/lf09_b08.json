@@ -28,20 +28,14 @@
   {
    "say": "On average, the students predicted they would finish in about thirty four days. The actual average was about fifty five days. Almost three weeks longer than expected. And here's the remarkable part. Even their worst case predictions, the ones where everything goes wrong, were on average too optimistic.",
    "show": {
-    "type": "bars",
+    "type": "list",
     "sprite": "A14",
     "bg": "conspiracy_board",
-    "title": "Thesis completion (days)",
-    "unit": "days",
-    "bars": [
-     [
-      "Predicted (average)",
-      33.9
-     ],
-     [
-      "Actual (average)",
-      55.5
-     ]
+    "title": "Thesis completion",
+    "items": [
+     "Predicted on average: 33.9 days",
+     "Actual on average: 55.5 days",
+     "Even worst-case guesses were too hopeful"
     ]
    }
   },

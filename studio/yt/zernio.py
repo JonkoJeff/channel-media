@@ -20,8 +20,8 @@ def call(method, path, body=None):
 def save(): json.dump(cfg, open(CFG, "w"), indent=1)
 
 
-def yt_account():
-    return cfg.get("youtube") or sys.exit("::error::no YouTube account in zernio.json; run 'accounts' first and connect YouTube in the Zernio dashboard")
+def yt_account(ch="crazyfacts"):  # channel key: crazyfacts (default) or moneyatnight
+    return cfg.get("youtube", {}).get(ch) or sys.exit(f"::error::no YouTube account for {ch} in zernio.json; run 'accounts' after connecting it in Zernio")
 
 
 cmd = sys.argv[1]
@@ -29,11 +29,12 @@ if cmd == "accounts":
     _, a = call("GET", "/accounts"); acc = a.get("accounts", a if isinstance(a, list) else [])
     cfg["accounts"] = [{k: x.get(k) for k in ("_id", "id", "platform", "username", "displayName", "name")} for x in acc]
     yt = [x for x in cfg["accounts"] if x["platform"] == "youtube"]
-    if yt: cfg["youtube"] = yt[0].get("_id") or yt[0].get("id")
+    cfg["youtube"] = {("moneyatnight" if "money" in (x.get("username") or "").lower() else "crazyfacts"): x.get("_id") or x.get("id") for x in yt}
     save(); print("::notice::Zernio accounts: " + ", ".join(f"{x['platform']}:{x.get('username') or x.get('displayName') or x.get('name')}" for x in cfg["accounts"]))
 elif cmd == "playlist":
     title, desc = sys.argv[2], (sys.argv[3] if len(sys.argv) > 3 else "")
-    _, p = call("POST", f"/accounts/{yt_account()}/youtube-playlists", {"title": title, "description": desc, "privacy": "public"})
+    ch, _, title = title.rpartition(":") if ":" in title else ("crazyfacts", "", title)   # "moneyatnight:Title" for Money at Night
+    _, p = call("POST", f"/accounts/{yt_account(ch)}/youtube-playlists", {"title": title, "description": desc, "privacy": "public"})
     cfg.setdefault("playlists", {})[title] = p["playlist"]["id"]; save(); print(f"::notice::playlist {title} = {p['playlist']['id']}")
 elif cmd == "post":
     vid, when = sys.argv[2], sys.argv[3]
@@ -48,7 +49,7 @@ elif cmd == "post":
     if pl and pl[0]: psd["playlistId"] = pl[0]
     body = {"content": open(os.path.join(R, vid, "description.txt")).read(), "tags": [t.lstrip("#") for t in v.get("tags", [])],
             "mediaItems": [{"type": "video", "url": ps["publicUrl"], "thumbnail": res["thumb"]}],
-            "platforms": [{"platform": "youtube", "accountId": yt_account(), "platformSpecificData": psd}],
+            "platforms": [{"platform": "youtube", "accountId": yt_account(v.get("channel", "crazyfacts")), "platformSpecificData": psd}],
             "scheduledFor": when, "timezone": "Europe/Amsterdam"}
     st, p = call("POST", "/posts", body); post = p.get("post", p)
     if st == 207 or post.get("status") == "failed": sys.exit(f"::error::Zernio post failed: {json.dumps(post)[:800]}")

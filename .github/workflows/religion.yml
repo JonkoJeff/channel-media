@@ -12,7 +12,12 @@ jobs:
     timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        with: {path: studio/voice/*.onnx, key: kokoro-v1}
+      - uses: actions/cache@v4
+        with: {path: studio/voice/voices.bin, key: kokoro-voices-v1}
       - run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg fonts-dejavu-core && pip install onnxruntime numpy scipy pillow
+      - run: bash studio/setup.sh
       - name: thumbnail exists?
         run: |
           E=${{ inputs.ep }}; [ "$E" = test ] && exit 0; N=$((10#$E))

@@ -186,3 +186,6 @@ Only these recurring jobs exist: the daily channel-machine task. Disabled: hourl
 - Publish in MIXED order for variety, not 1-30: rotate Bible, Quran, Christianity: 1, 21, 11, 2, 22, 12, 3, 23, 13, ... (an episode whose script or thumbnail is missing is skipped until the next one that is ready; never reorder inside a tradition).
 - YouTube title = the story title only, from episode_list.md, WITHOUT the list number and without "Part N" / "Episode N".
 - Priority: 1 Belief Through Time, 2 Crazy Facts, 3 Money at Night (lowest; cut or shorten first when tokens run short).
+
+## DAILY RULE (owner, 13 Oct 2026, 00:02)
+Belief Through Time gets ONE video EVERY day (plus its 4 Shorts). If that cannot be guaranteed (no script ready, tokens/limits short), the posting of Money at Night is STOPPED completely (no long video, no Shorts) until Belief Through Time is covered again. Crazy Facts keeps running. Default times (owner gave none): long 19:00 Europe/Amsterdam daily; Shorts 10:00, 13:00, 16:00, 22:00 on the following days (zernio.yml cmd=shorts DATE@10:00,13:00,16:00,22:00). Build with religion.yml ep=NN, then zernio.yml cmd=post a=relNN.

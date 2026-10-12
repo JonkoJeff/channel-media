@@ -10,6 +10,10 @@ D = os.path.dirname(os.path.abspath(__file__)); CFG = os.path.join(D, "zernio.js
 cfg = json.load(open(CFG)) if os.path.exists(CFG) else {}
 
 
+import traceback
+def _hook(t, e, tb): print("::error::" + " | ".join("".join(traceback.format_exception(t, e, tb)).splitlines())[-900:]); sys.exit(1)
+sys.excepthook = _hook
+
 def call(method, path, body=None):
     req = urllib.request.Request(API + path, method=method, data=json.dumps(body).encode() if body is not None else None,
                                  headers={"Authorization": "Bearer " + KEY, "Content-Type": "application/json"})

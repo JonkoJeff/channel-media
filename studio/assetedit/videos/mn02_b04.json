@@ -1,0 +1,144 @@
+{
+ "id": "mn02_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine two investors. One buys a few investments and mostly leaves them alone for years. The other watches the market closely, buying and selling often, trying to catch the best moments. Who do you think does better, on average? Many people would guess the active one. They're working harder, after all.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "home_office_night",
+    "n": 4,
+    "title": "Why confident people trade too much"
+   }
+  },
+  {
+   "say": "In two thousand and one, two finance professors, Brad Barber and Terrance Odean, published a study with a memorable title. Boys will be boys. They analyzed the trading records of tens of thousands of households at a large brokerage firm in the United States during the nineteen nineties. And they compared how often men and women traded, and how well they did.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Brad Barber & Terrance Odean",
+    "where": "University of California, published in the Quarterly Journal of Economics, 2001",
+    "what": "Trading records of tens of thousands of households at a large US discount brokerage in the 1990s were analyzed, comparing men and women."
+   }
+  },
+  {
+   "say": "They found that men traded much more often than women. According to the study, men traded about forty five percent more than women. And this extra trading had a cost. Every trade involves fees and, often, a bit of bad timing. In their data, trading reduced men's net returns by more than it reduced women's.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Men traded much more."
+   }
+  },
+  {
+   "say": "According to the paper, trading reduced the net returns of men by about two point six five percentage points a year, compared with about one point seven two percentage points for women. That might sound small. But remember compound growth. A couple of percentage points a year, over decades, adds up to a large difference.",
+   "show": {
+    "type": "bars",
+    "sprite": "F13",
+    "bg": "money_board",
+    "title": "Yearly return lost to trading",
+    "unit": "% points",
+    "bars": [
+     [
+      "Men",
+      2.65
+     ],
+     [
+      "Women",
+      1.72
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Barber and Odean suggested that the main driver was overconfidence. Psychological research had found that, in areas like finance, men tend on average to be more overconfident than women. And overconfident investors believe their information and judgment are better than they really are. So they trade more, and pay for it.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_b04_screens.jpg",
+    "cap": "Busy, but not better"
+   }
+  },
+  {
+   "say": "In another paper, from two thousand, with the equally memorable title Trading is hazardous to your wealth, Barber and Odean found that the households that traded the most earned noticeably lower net returns than those that traded the least. The busiest investors were, on average, the least successful.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Trading is hazardous."
+   }
+  },
+  {
+   "say": "Why would intelligent people keep trading, if it tends to hurt? Part of it is overconfidence. Part of it is the illusion of control. Feeling that by acting, we can steer outcomes. And part of it is simply that doing something feels better than doing nothing, especially when markets are moving and the news is loud.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Why do we overtrade?"
+   }
+  },
+  {
+   "say": "The illusion of control was studied by the psychologist Ellen Langer in the nineteen seventies. In one study, people who chose their own lottery ticket valued it more, and were less willing to sell it, than people who were simply handed a ticket. Choosing made them feel more in control of a purely random outcome.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "The illusion of control."
+   }
+  },
+  {
+   "say": "In investing, the same feeling appears. Researching, choosing, timing, it all feels like skill. And sometimes it is. But often, especially for individual investors, much of the result is luck. And when we win, we credit our skill. When we lose, we blame bad luck. So the illusion survives.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Activity feels like skill."
+   }
+  },
+  {
+   "say": "I want to be careful here. This study is about averages, not individuals. Plenty of women are overconfident, and plenty of men are cautious. The real lesson isn't about gender. It's about overconfidence, wherever it appears. And about the quiet costs of being too busy with our money.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "It's not about gender."
+   }
+  },
+  {
+   "say": "So the gentle lesson might be this. Being calm with money can be an advantage. Not reacting to every headline. Not checking prices constantly. Not mistaking activity for progress. Sometimes, the wisest thing to do with an investment, after careful thought, is to leave it alone.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "Calm is an advantage."
+   }
+  },
+  {
+   "say": "So here's what the trading studies suggest. In this data, men traded about forty five percent more than women. That extra trading reduced returns. The busiest traders tended to earn the least. And activity can feel like skill, even when it's mostly cost and luck.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Overconfidence and trading",
+    "items": [
+     "Men traded about 45% more than women",
+     "Extra trading cut returns",
+     "The busiest traders tended to earn the least",
+     "Activity can feel like skill, but often isn't"
+    ]
+   }
+  },
+  {
+   "say": "And there's a famous finding about confidence that has become almost a cliché, and is often misunderstood. It's about people who know the least, sometimes being the most sure of themselves. Let's look at what the original study actually found.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: the less we know."
+   }
+  }
+ ]
+}

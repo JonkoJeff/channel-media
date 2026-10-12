@@ -1,0 +1,133 @@
+{
+ "id": "mn02_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Every day, experts appear on television, in newspapers and online, telling us what will happen next. Where the economy is heading. Which countries will rise. Whether markets will go up or down. They sound confident and knowledgeable. But how often are they actually right?",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "home_office_night",
+    "n": 12,
+    "title": "The experts"
+   }
+  },
+  {
+   "say": "The psychologist Philip Tetlock decided to find out. Over nearly two decades, he collected around twenty eight thousand predictions from hundreds of experts. Political scientists, economists, journalists, government advisers. Then he checked their predictions against what actually happened. His results were published in a book in two thousand and five.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Philip Tetlock",
+    "where": "Expert Political Judgment, published in 2005",
+    "what": "Around 28,000 predictions by hundreds of experts on political and economic questions, collected over nearly two decades, were checked against what actually happened."
+   }
+  },
+  {
+   "say": "And the results were humbling. On average, the experts' predictions were only slightly better than chance, and often worse than simple statistical rules. Tetlock famously summarized it with a memorable image. Many experts did about as well as a chimpanzee throwing darts at the possible outcomes. A joke, but with a serious point.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_b12_crystal.jpg",
+    "cap": "Can anyone see the future?"
+   }
+  },
+  {
+   "say": "Even more striking, being famous didn't help. Tetlock found that experts who were more often in the media tended, if anything, to be less accurate. Perhaps because the media rewards bold, confident predictions. And bold, confident predictions are more likely to be wrong than careful, nuanced ones.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Fame didn't help."
+   }
+  },
+  {
+   "say": "But Tetlock also found important differences between experts. Borrowing an old idea from the philosopher Isaiah Berlin, he described two styles of thinking. Hedgehogs, who know one big thing, and explain everything through one big theory. And foxes, who know many little things, draw on many ideas, and are comfortable with uncertainty.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Foxes and hedgehogs."
+   }
+  },
+  {
+   "say": "And the foxes tended to predict better. They were more willing to say, it depends. More likely to update their views when new evidence appeared. Less attached to one grand story. The hedgehogs, with their confident big theories, were more often dramatically wrong.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Foxes predicted better."
+   }
+  },
+  {
+   "say": "Later, Tetlock ran a huge forecasting tournament, and found a small group of ordinary people who were remarkably good at predicting world events. He called them superforecasters. What made them good wasn't special knowledge, but habits of mind. Breaking big questions into smaller ones. Starting with base rates. Updating often, in small steps. Being open to being wrong.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Superforecasters."
+   }
+  },
+  {
+   "say": "What does this mean for our money? It suggests that we should be careful about following confident predictions, no matter how impressive the person making them. Nobody reliably knows what markets will do next month or next year. Plans that depend on accurate predictions are fragile.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "What this means for our money."
+   }
+  },
+  {
+   "say": "A more robust approach is to make plans that work reasonably well in many different futures. Spreading risk instead of betting on one outcome. Keeping a safety buffer. Thinking in terms of possibilities, rather than certainties. Like the fox, rather than the hedgehog.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Plans that don't need predictions."
+   }
+  },
+  {
+   "say": "A useful warning sign is certainty itself. When someone is absolutely sure about what the economy or a market will do, it might be a reason for caution, not confidence. The world is complex, and the honest answer to many money questions is, nobody knows for sure.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Beware of certainty."
+   }
+  },
+  {
+   "say": "And we can try to think like foxes ourselves. Holding our views a little loosely. Seeking out different perspectives. Changing our minds when the facts change. Saying, I might be wrong. These habits can make us better at managing money, and perhaps a little wiser in life generally.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "home_office_night",
+    "cap": "Be a fox."
+   }
+  },
+  {
+   "say": "So here's what Tetlock's research teaches us. Expert forecasts, on average, were only slightly better than chance. Experts in the media spotlight tended to be less accurate. Flexible, open minded foxes predicted better than confident hedgehogs. And plans that work in many possible futures are wiser than plans that depend on one prediction.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "What the experts teach us",
+    "items": [
+     "Expert forecasts were barely better than chance",
+     "Media stars were often less accurate",
+     "Flexible foxes beat confident hedgehogs",
+     "Make plans that don't depend on predictions"
+    ]
+   }
+  },
+  {
+   "say": "And there's one more way our minds are fooled when we study success. We often look only at the winners, and forget the ones who didn't make it. A famous story from the Second World War, about bullet holes in airplanes, shows why that matters.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: the planes that came back."
+   }
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "id": "mn02_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "On the eighteenth of August, nineteen thirteen, at the famous casino in Monte Carlo, a roulette wheel began landing on black. Once. Twice. Five times. Ten times. As the streak continued, word spread through the casino, and gamblers crowded around the table.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "n": 9,
+    "title": "Black, again and again"
+   }
+  },
+  {
+   "say": "And what did they do? Many of them started betting heavily on red. Their reasoning seemed logical. Black had come up so many times, red must be due. Surely the wheel would balance things out. As the streak went on, they bet more and more on red. And the ball kept landing on black. According to the famous story, it landed on black twenty six times in a row.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_b09_roulette.jpg",
+    "cap": "Surely red must come soon"
+   }
+  },
+  {
+   "say": "The gamblers lost a fortune. This event became a famous example of what's now called the gambler's fallacy, sometimes even called the Monte Carlo fallacy. The belief that if something has happened more often than usual, the opposite is now more likely. That past random events influence future ones.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "The gambler's fallacy."
+   }
+  },
+  {
+   "say": "But a roulette wheel has no memory. Each spin is independent. The chance of black on the next spin is the same, whether it's the first spin of the night or the twenty seventh. A long streak of black doesn't make red more likely. Our minds expect randomness to look balanced, even in short sequences. But real randomness is often streaky.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "The wheel has no memory."
+   }
+  },
+  {
+   "say": "Interestingly, there's an opposite mistake too. Sometimes called the hot hand belief. The idea that a streak will continue. A basketball player who has made several shots is on fire, so they'll make the next one. An investment that has gone up for months will keep going up. Here, we expect patterns to continue, rather than reverse.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "And the opposite mistake."
+   }
+  },
+  {
+   "say": "The hot hand in basketball has an interesting history. In nineteen eighty five, Thomas Gilovich, Robert Vallone and Amos Tversky published a famous study arguing that the hot hand was largely an illusion. But in more recent years, other researchers found a subtle statistical issue in that kind of analysis, and argued that a modest hot hand effect may exist after all. The debate shows how tricky streaks can be.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "A real debate about hot hands."
+   }
+  },
+  {
+   "say": "Why do we make these mistakes? Remember from our episode on the brain's lies, how the mind is a pattern seeking machine. It loves to find order, even in randomness. Sometimes it sees balance that should come. Sometimes it sees streaks that should continue. What it finds hardest to accept is that, sometimes, there's simply no pattern at all.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Why our minds see patterns."
+   }
+  },
+  {
+   "say": "In money, these mistakes show up everywhere. Some investors sell after a few good days, thinking a fall must be due. Others buy after a run of gains, thinking it will continue forever. Short term market movements are often close to random, and many people's attempts to read patterns into them end up costing money.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Patterns in markets."
+   }
+  },
+  {
+   "say": "Lotteries show the gambler's fallacy too. Some people avoid numbers that came up last week, thinking they're unlikely to come up again. Others pick numbers that haven't come up for a while, thinking they're due. But each draw is independent. Every combination has exactly the same chance, every time.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Lotteries and lucky numbers."
+   }
+  },
+  {
+   "say": "There's something freeing, really, about understanding independence. You don't have to track every streak, or predict every reversal. When events are truly random, past results don't owe you anything, and they don't threaten you either. Each moment is new.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Independence is freeing."
+   }
+  },
+  {
+   "say": "A helpful question, when you notice yourself seeing a pattern in money, is this. Is there a real mechanism connecting these events? Or am I just seeing a streak? If there's no clear mechanism, it may be wiser to treat each event as independent, and not bet on the pattern.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "Ask: is this really connected?"
+   }
+  },
+  {
+   "say": "So here's what the Monte Carlo story teaches us. Black came up twenty six times in a row, and gamblers lost heavily betting on red. Random events have no memory. Our minds expect either balancing reversals or never ending streaks. And asking whether there's a real connection can protect us from betting on patterns that aren't there.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Streaks and chance",
+    "items": [
+     "Black came up 26 times in a row",
+     "Random events have no memory",
+     "We expect reversals, or endless streaks",
+     "Ask: is there a real connection?"
+    ]
+   }
+  },
+  {
+   "say": "Now let's visit a supermarket. A study with jams in a fancy grocery store found something that surprised many people. More choice, it seemed, didn't always lead to more buying. Let's look at the paradox of choice, and what it means for our money.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: the jam that sold less."
+   }
+  }
+ ]
+}

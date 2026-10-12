@@ -1,0 +1,131 @@
+{
+ "id": "mn02_b24",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine a friend tells you they're opening a small café. They're passionate, hardworking, and they've chosen a lovely location. They're sure it will be a success. And when you hear the details, you feel optimistic too. Their plan sounds great. But what's the chance that any new café survives for five years?",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "street_day",
+    "n": 24,
+    "title": "Starting with the base rate"
+   }
+  },
+  {
+   "say": "That second question is about the base rate. How often, in general, does this kind of thing succeed? Before considering the specific details of your friend's café, you'd look at what usually happens to new restaurants and cafés. And in many places, a substantial share of new businesses close within their first few years.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_b17_cafe.jpg",
+    "cap": "A lovely plan, and a base rate"
+   }
+  },
+  {
+   "say": "Tversky and Kahneman found that people often ignore base rates, focusing instead on the vivid details of the specific case. They called this base rate neglect. A specific, colorful story feels much more relevant than a dull statistic. So we judge the café on its charm, rather than on how cafés usually fare.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Base rate neglect."
+   }
+  },
+  {
+   "say": "Kahneman later described this as the difference between the inside view and the outside view. The inside view focuses on the details of this particular plan. The outside view asks, what happened to similar plans? We met this idea with the planning fallacy. The outside view is usually more accurate, but much less exciting.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "The inside view and outside view."
+   }
+  },
+  {
+   "say": "Kahneman told a lovely story about this from his own life. He was part of a team writing a school textbook. Early on, he asked everyone to estimate how long it would take to finish. Most guessed around two years. Then he asked a colleague, who had experience with similar projects, how long other teams usually took. The answer was much longer, and many never finished at all.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "A famous textbook story."
+   }
+  },
+  {
+   "say": "And what did the team do with that information? They largely ignored it, and carried on. Their project, Kahneman later said, took about eight years to complete. Even an expert on decision making, who knew about the outside view, found it hard to apply to his own project. The inside view is that seductive.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "They kept going anyway."
+   }
+  },
+  {
+   "say": "In money, base rates are very useful. How often do new businesses survive? How often do individual stocks beat the market over many years? How often do home renovations come in on budget? How often do get rich quick schemes actually make people rich? Starting with these numbers grounds us, before the exciting details pull us in.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Base rates in money."
+   }
+  },
+  {
+   "say": "Starting with the base rate doesn't mean ignoring the details. Superforecasters, in Tetlock's research, often began with a base rate, and then adjusted it based on the specifics. Maybe your friend has years of café experience, or an unusually good location. That might raise their chances above average. But the base rate is the anchor, and the details adjust it.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Then adjust."
+   }
+  },
+  {
+   "say": "This might sound discouraging. Should nobody ever open a café? Of course not. Many people chase dreams against the odds, and some succeed beautifully. The point is to go in with open eyes. If you know the base rate, you can prepare for difficulties, keep a financial buffer, and decide how much you can afford to risk.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Protecting dreams wisely."
+   }
+  },
+  {
+   "say": "And with friends, knowing about base rates can help us be kindly honest. Not crushing their dream, but asking gentle questions. What will you do if the first year is slow? How long can you keep going if it takes longer than expected? Those questions, asked with care, can be a real gift.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "street_day",
+    "cap": "Kind honesty."
+   }
+  },
+  {
+   "say": "The wisest approach, perhaps, is to hold both views at once. The inside view, which gives us passion and detail. And the outside view, which gives us realism and humility. Together, they lead to choices that are both hopeful and grounded.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "street_day",
+    "cap": "Two views, one wise choice."
+   }
+  },
+  {
+   "say": "So here's what base rates teach us. Before judging a specific plan, ask how often this kind of thing usually works. We naturally neglect base rates in favor of vivid details. Starting with the outside view, then adjusting for the specifics, leads to better estimates. And knowing the odds lets us pursue our dreams with open eyes.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Starting with the base rate",
+    "items": [
+     "Ask how often this usually works",
+     "We tend to ignore base rates for vivid details",
+     "Start with the outside view, then adjust",
+     "Pursue dreams with open eyes"
+    ]
+   }
+  },
+  {
+   "say": "We've now met many of the traps that catch smart people with money. Next, let's gather the tools we've discovered into a calm, simple decision process. Something you can use for any important money choice.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: a calmer decision process."
+   }
+  }
+ ]
+}

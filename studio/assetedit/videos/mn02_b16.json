@@ -1,0 +1,124 @@
+{
+ "id": "mn02_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a small question. Do you know how a zipper works? Most people say yes, of course. Now, try to explain it, step by step, in detail. How exactly do the little teeth lock together? What does the slider do inside? For many people, the confidence quickly melts away once they try to explain.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "n": 16,
+    "title": "The illusion of understanding"
+   }
+  },
+  {
+   "say": "In two thousand and two, the psychologists Leonid Rozenblit and Frank Keil studied exactly this. They asked people to rate how well they understood how everyday things work. Zippers, toilets, locks. Then they asked them to write detailed explanations. And afterwards, to rate their understanding again.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Leonid Rozenblit & Frank Keil",
+    "where": "Yale University, published in Cognitive Science, 2002",
+    "what": "People rated how well they understood everyday objects like zippers and toilets, then tried to explain them in detail, then rated their understanding again."
+   }
+  },
+  {
+   "say": "After trying to explain, people's ratings of their own understanding dropped noticeably. They had felt they understood, until they were asked to show it. The researchers called this the illusion of explanatory depth. We feel we understand things much more deeply than we actually do.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_x1_zipper.jpg",
+    "cap": "We know less than we think"
+   }
+  },
+  {
+   "say": "Part of the reason is familiarity. We see zippers every day. We use them without thinking. That familiarity feels like understanding. But being familiar with something and understanding how it works are very different things. The feeling of knowing can be surprisingly hollow.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Familiar isn't understood."
+   }
+  },
+  {
+   "say": "In money, this illusion can be costly. Many people feel they understand mortgages, pensions, insurance policies or investment products, because they've heard about them often. But if you asked them to explain exactly how the interest is calculated, what the fees are, or what happens in a crisis, the confidence might fade.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Financial products, too."
+   }
+  },
+  {
+   "say": "Some financial products are genuinely complex, with layers of fees, conditions and risks. In the run up to the global financial crisis of two thousand and eight, many people, including professionals, held financial products whose risks they didn't fully understand. The feeling of understanding was there. The understanding often wasn't.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Complex products, simple feelings."
+   }
+  },
+  {
+   "say": "The good news is that the cure is simple. Try to explain it. Before signing up for a financial product, explain to yourself, or to a friend, exactly how it works. How do I make money? How could I lose money? What fees do I pay, and when? If you can't explain it simply, that's a signal to learn more, or to step back.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Explain it to yourself."
+   }
+  },
+  {
+   "say": "Many careful investors follow a version of this rule. Don't invest in what you don't understand. Warren Buffett has often said something similar, about staying within what he calls his circle of competence. It's not about being clever. It's about being honest about the edges of your knowledge.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "A famous rule."
+   }
+  },
+  {
+   "say": "Interestingly, later research by Philip Fernbach and colleagues found that asking people to explain how political policies would work, in detail, tended to make their views less extreme. Explaining revealed how little they knew, and that humility softened their certainty. The same may help with money. Explaining can calm overconfidence.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Explaining reduces extremes."
+   }
+  },
+  {
+   "say": "And there's no shame in discovering you don't understand something. Nobody understands everything. The illusion of understanding is universal. What matters is noticing it, and then getting curious. Asking questions. Reading the small print. Asking someone to explain it again, more simply. That curiosity protects you.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "cap": "Curious, not ashamed."
+   }
+  },
+  {
+   "say": "So here's what the illusion of understanding teaches us. We often feel we understand things more deeply than we really do. Familiarity can masquerade as understanding. Trying to explain something step by step reveals the gaps. And a simple rule, don't invest in what you can't explain, can protect us from many costly surprises.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "The illusion of understanding",
+    "items": [
+     "We feel we understand more than we do",
+     "Familiarity isn't understanding",
+     "Try explaining it step by step",
+     "Don't invest in what you can't explain"
+    ]
+   }
+  },
+  {
+   "say": "And even real experts, people who deal with prices every day, can be quietly steered by numbers they don't think matter. A study with real estate agents showed how a single number on a listing can influence even professional judgment.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: the price of a house."
+   }
+  }
+ ]
+}

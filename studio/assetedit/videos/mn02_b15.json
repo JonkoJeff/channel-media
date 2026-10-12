@@ -1,0 +1,131 @@
+{
+ "id": "mn02_b15",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Warren Buffett is often described as one of the most successful investors in history. His company, Berkshire Hathaway, grew into one of the largest companies in the world. And yet, Buffett is famous for something else too. His honesty about his own mistakes. In his yearly letters to shareholders, he often describes them openly.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "n": 15,
+    "title": "Famous mistakes"
+   }
+  },
+  {
+   "say": "One mistake he has described is the purchase of Dexter Shoe, in the early nineteen nineties. Berkshire bought the company by giving away shares of Berkshire itself. Shortly afterwards, the shoe business ran into serious trouble, partly because of competition from cheaper imports, and its value largely disappeared.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_b15_shoes.jpg",
+    "cap": "Even the best make expensive mistakes"
+   }
+  },
+  {
+   "say": "Buffett has called it one of his worst decisions. Not only because the shoe company lost its value, but because he paid with Berkshire shares, which went on to become enormously more valuable over the following decades. In later letters, he described the true cost of that mistake in billions of dollars. He gave away a growing tree to buy a fading one.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "The worst deal."
+   }
+  },
+  {
+   "say": "And there's another famous story. Berkshire Hathaway itself was originally a textile company. Buffett began buying its shares in the nineteen sixties, partly because they seemed cheap. He later took control of the company, after a dispute with its management. But the textile business was in long term decline, and it eventually closed.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "The textile mill."
+   }
+  },
+  {
+   "say": "Buffett has said that buying Berkshire Hathaway was a big mistake, at least in its original form, and that part of his motivation had been emotional, related to feeling he'd been treated unfairly by the previous management. Remember the ultimatum game, and how fairness can drive costly choices? Even Buffett, it seems, felt that pull.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "A costly emotional decision."
+   }
+  },
+  {
+   "say": "Buffett has also talked about mistakes of omission. Great opportunities that he understood, but didn't act on. Companies he could have bought, but didn't, which later grew enormously. These mistakes don't show up in any loss statement. But he has suggested that they've sometimes been among his most costly.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Mistakes of omission."
+   }
+  },
+  {
+   "say": "What I find admirable is that Buffett writes about these mistakes openly, year after year, in documents read by millions of people. He doesn't pretend to be infallible. And that honesty may be part of his success. By examining his mistakes clearly, he could learn from them, instead of hiding them from himself.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Learning in public."
+   }
+  },
+  {
+   "say": "For most of us, admitting money mistakes is difficult. There's shame, embarrassment, and the feeling that we should have known better. Remember hindsight bias. Looking back, mistakes always look obvious. That makes them feel even more embarrassing. So we often avoid looking at them at all.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Why admitting mistakes is hard."
+   }
+  },
+  {
+   "say": "One practical tool that some investors and professionals use is a decision journal. Before an important money decision, you write down what you're deciding, why, what you expect to happen, and how you feel. Later, you look back and compare. This helps you learn from both your good and bad decisions, without the distortion of hindsight.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "A decision journal."
+   }
+  },
+  {
+   "say": "Some people like to think of money mistakes as tuition. The price you pay for a lesson. It doesn't make the loss disappear. But it changes how you relate to it. Instead of a source of shame, it becomes a source of learning. And if even the most celebrated investors pay this tuition, so can we.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Mistakes are tuition."
+   }
+  },
+  {
+   "say": "So if you have money decisions you regret, and almost everyone does, I'd like you to be gentle with yourself. You made the best decision you could, with what you knew and felt at the time. Look at it honestly. Take the lesson. And then, let the rest go.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "cap": "Be gentle with your mistakes."
+   }
+  },
+  {
+   "say": "So here's what famous mistakes teach us. Even Warren Buffett has made very expensive mistakes, like Dexter Shoe. Emotions, like a sense of unfairness, can drive costly choices, even for the best investors. Missed opportunities can be among the biggest mistakes of all. And keeping a decision journal, and learning openly, turns mistakes into lessons.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Famous mistakes",
+    "items": [
+     "Buffett called Dexter Shoe one of his worst deals",
+     "Emotion played a role in buying Berkshire",
+     "Missed chances can cost the most",
+     "Keep a decision journal and learn openly"
+    ]
+   }
+  },
+  {
+   "say": "Many famous mistakes have something in common. People felt they understood a situation much better than they actually did. And there's a simple experiment, involving zippers and toilets, that reveals how easily all of us fall into that illusion.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: the illusion of understanding."
+   }
+  }
+ ]
+}

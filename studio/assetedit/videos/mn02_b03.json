@@ -1,0 +1,133 @@
+{
+ "id": "mn02_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a little puzzle. Try to answer it quickly, in your head. A bat and a ball cost one euro and ten cents in total. The bat costs one euro more than the ball. How much does the ball cost? Take a moment. What number came to mind first?",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "n": 3,
+    "title": "The bat and the ball"
+   }
+  },
+  {
+   "say": "For most people, the answer that pops up immediately is ten cents. It feels obvious. One euro ten, minus one euro, leaves ten cents. But let's check. If the ball costs ten cents, the bat costs one euro more, which is one euro ten. Together, that's one euro twenty. Not one euro ten. So ten cents is wrong.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_b03_bat.jpg",
+    "cap": "A bat, a ball, and a quick answer"
+   }
+  },
+  {
+   "say": "The correct answer is five cents. The ball costs five cents, and the bat costs one euro and five cents, which is one euro more. Together, one euro ten. Many people, when they see the right answer, feel a little jolt of surprise. How did I get that wrong? It seemed so easy.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "The right answer."
+   }
+  },
+  {
+   "say": "This puzzle is part of a short test created by Shane Frederick, called the Cognitive Reflection Test, published in two thousand and five. It has three questions, each with a tempting wrong answer that pops up quickly. To get them right, you have to notice your first answer, and stop to check it.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Shane Frederick",
+    "where": "MIT, published in the Journal of Economic Perspectives, 2005",
+    "what": "Thousands of people, including students at top universities, answered three short puzzles designed to have a tempting but wrong intuitive answer."
+   }
+  },
+  {
+   "say": "Frederick gave the test to thousands of people, including students at some of the most selective universities in the United States, like Harvard, Princeton and MIT. And for the bat and ball question, he reported that many of these very capable students gave the intuitive answer, ten cents. At some universities, more than half got it wrong.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Top universities, too."
+   }
+  },
+  {
+   "say": "These students certainly had the math skills to solve the problem. Anyone who can subtract can do it. The issue wasn't ability. It was reflection. The quick answer felt right, so they didn't check it. Their minds took a shortcut, and they didn't notice.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Not a lack of intelligence."
+   }
+  },
+  {
+   "say": "The psychologist Daniel Kahneman described this using the idea of two modes of thinking. A fast, automatic, intuitive mode, which gives quick answers. And a slower, effortful, deliberate mode, which can check and correct those answers. The bat and ball puzzle catches us when the fast mode answers, and the slow mode never wakes up.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Fast and slow."
+   }
+  },
+  {
+   "say": "Money decisions are full of situations like this. Prices that look like bargains, but aren't. Interest rates that seem small, but compound. Offers that feel generous, but hide costs. In each case, a fast intuitive answer appears, and it feels right. Checking takes a little effort. And often, we don't bother.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Money is full of bats and balls."
+   }
+  },
+  {
+   "say": "Interestingly, Frederick found that people who scored higher on the test tended to make somewhat more patient choices in other questions about money, like preferring a larger reward later over a smaller one now. Taking a moment to reflect seems to be linked to better decisions more broadly.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Reflection predicts better choices."
+   }
+  },
+  {
+   "say": "The psychologist Keith Stanovich has argued that intelligence and rationality are not the same thing. Intelligence is about how well you can think. Rationality includes whether you actually stop to think, check your assumptions, and look at evidence. Someone can be very intelligent, and still skip those steps.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Intelligence versus rationality."
+   }
+  },
+  {
+   "say": "The lovely thing about this is that reflection can be practiced. It's a habit, not a fixed trait. Simply asking, wait, is that right? before acting on a money decision can make a real difference. Especially when an answer feels obvious, or an offer feels too good to resist.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "cap": "The habit of checking."
+   }
+  },
+  {
+   "say": "So here's what the bat and ball teaches us. Quick, intuitive answers often feel right, even when they're wrong. Even very capable students fall for them. Reflection, the habit of stopping to check, may matter more than raw intelligence. And a simple question, wait, is that right, can save us from many money mistakes.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "The bat and the ball",
+    "items": [
+     "Quick answers often feel right but aren't",
+     "Even top students fall for it",
+     "Reflection matters more than raw intelligence",
+     "Ask: wait, is that right?"
+    ]
+   }
+  },
+  {
+   "say": "And there's one particular mistake that seems to grow with confidence. The belief that we can beat the market by buying and selling often. A study of tens of thousands of investors looked at exactly this. And it found an interesting difference between men and women.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: why confident people trade too much."
+   }
+  }
+ ]
+}

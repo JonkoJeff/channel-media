@@ -1,0 +1,133 @@
+{
+ "id": "mn02_b27",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We've travelled a long way tonight. From a hedge fund run by Nobel laureates, to a bat and a ball. From busy traders to a roulette wheel in Monte Carlo. From jam on a supermarket table to bullet holes in returning planes. Let's take a moment to look back over the path.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "n": 27,
+    "title": "What to take with you"
+   }
+  },
+  {
+   "say": "The first idea is that intelligence isn't enough. Brilliant people can make terrible money decisions. Not because they lack brains, but because money decisions involve uncertainty, emotion, social pressure and time. In those areas, everyone's mind uses shortcuts. And shortcuts can mislead anyone.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Intelligence isn't enough."
+   }
+  },
+  {
+   "say": "The second idea is that confidence can cost. Overconfident investors trade too much. Confident experts are often wrong. And when great confidence is combined with heavy borrowing, a small error can become a disaster. A little humility is one of the best financial protections there is.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Confidence can cost."
+   }
+  },
+  {
+   "say": "The third idea is that reflection beats reaction. The bat and ball puzzle showed how quickly our minds jump to wrong answers. Simply pausing to ask, wait, is that right, can prevent many mistakes. Cooling off periods, decision journals and checklists all create that pause.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Reflection beats reaction."
+   }
+  },
+  {
+   "say": "The fourth idea is that crowds, stories and history shape us. We follow others even when they're wrong. We're inspired by survivors, and forget the failures. And the economic times we lived through quietly shape how much risk we're willing to take. Noticing these influences helps us think more freely.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_b19_balcony.jpg",
+    "cap": "Looking back over the path"
+   }
+  },
+  {
+   "say": "The fifth idea is that less can be more. Fewer choices can lead to better decisions. Checking our investments less often can make us calmer and more patient. Trading less tends to cost less. In money, doing less, more thoughtfully, is often wiser than doing more.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Less can be more."
+   }
+  },
+  {
+   "say": "The sixth idea is about two simple tools. Imagine failure before you begin, with a premortem. And start with the base rate, before falling in love with the details. Together, they bring hopeful plans down to earth, without crushing them.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Imagine failure, start with the odds."
+   }
+  },
+  {
+   "say": "The seventh idea is that even the best make mistakes. Warren Buffett has openly described decisions that cost billions. What matters isn't avoiding all mistakes, which is impossible, but learning from them honestly, without shame. Mistakes, examined kindly, become tuition.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Mistakes are tuition."
+   }
+  },
+  {
+   "say": "And the eighth idea is that feelings are part of every money decision. Fear, anger, sadness and excitement all steer our choices, often without our noticing. Naming the feeling, and waiting for it to cool, is one of the simplest and most powerful habits we can build.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Feelings are part of it."
+   }
+  },
+  {
+   "say": "If I had to put it all into one sentence, it might be this. Smart people make bad money decisions because they're human, and the wisest thing any of us can do is slow down, check our thinking, plan for surprises, and be kind to ourselves when we're wrong.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "One sentence."
+   }
+  },
+  {
+   "say": "I hope tonight has given you a kinder relationship with your own mind. Not suspicious, not anxious. Just a little more aware of its habits. The next time you feel very sure about a money decision, I hope you'll smile, take a breath, and ask a few gentle questions.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "A kinder relationship with your mind."
+   }
+  },
+  {
+   "say": "So here it is, in one breath. Intelligence isn't enough. Humility protects. Pause and check before acting. Less can be more. Imagine failure, and start with the odds. And treat your mistakes as tuition, not as shame.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Smart money, in one breath",
+    "items": [
+     "Intelligence isn't enough",
+     "Humility protects",
+     "Pause and check",
+     "Less can be more",
+     "Imagine failure, start with the odds",
+     "Mistakes are tuition"
+    ]
+   }
+  },
+  {
+   "say": "And now, if you'd like, let's let all of these ideas drift away. There's no decision to make tonight. No checklist to complete. Over the next few minutes, I'll simply guide you toward a calm and quiet place. If you're in bed, get comfortable. And if sleep comes along the way, let it.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Now, let's slow down."
+   }
+  }
+ ]
+}

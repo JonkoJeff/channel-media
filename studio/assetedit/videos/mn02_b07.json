@@ -1,0 +1,133 @@
+{
+ "id": "mn02_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think about your grandparents, or great grandparents. If they lived through hard economic times, like the Great Depression of the nineteen thirties, or a war, they may have had certain habits with money. Saving every scrap. Distrusting banks. Avoiding debt at all costs. Never quite believing that good times would last.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "campfire_lake",
+    "n": 7,
+    "title": "What we lived through"
+   }
+  },
+  {
+   "say": "These habits often seem a little extreme to younger generations. But they make sense in light of what those people lived through. Their experiences taught them lessons, deeply, emotionally. And those lessons stayed with them for life. Researchers have found that this happens to all of us, in measurable ways.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_b07_photos.jpg",
+    "cap": "Money habits handed down"
+   }
+  },
+  {
+   "say": "In two thousand and eleven, the economists Ulrike Malmendier and Stefan Nagel published a paper with a striking title. Depression babies. They used decades of survey data about American households, and asked whether the stock market returns people had personally lived through affected their later financial behavior.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Ulrike Malmendier & Stefan Nagel",
+    "where": "UC Berkeley and University of Michigan, published in the Quarterly Journal of Economics, 2011",
+    "what": "Decades of US household survey data were used to compare people's willingness to take financial risk with the stock market returns they had personally experienced during their lives."
+   }
+  },
+  {
+   "say": "And they found that it did. People who had lived through periods of low stock market returns tended to be less willing to take financial risks, and less likely to invest in stocks, even many years later. People who had experienced strong returns tended to be more willing. And recent experiences seemed to matter more than older ones.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Experience shapes risk."
+   }
+  },
+  {
+   "say": "What's striking is that everyone had access to the same historical data. Anyone could look up how the stock market had performed over the past century. But people didn't seem to weigh all that history equally. They gave extra weight to what they had personally lived through. Experience isn't just information. It's emotion.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Not just facts, but feelings."
+   }
+  },
+  {
+   "say": "This connects to something Tversky and Kahneman called the availability heuristic. We judge how likely something is by how easily examples come to mind. If you lived through a terrible crash, examples of crashes come to mind very easily. So crashes feel more likely. If you've only seen markets rise, a crash feels distant and unlikely.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "The availability of memories."
+   }
+  },
+  {
+   "say": "This can lead people astray in both directions. After a painful crash, people may avoid investing for years, missing a later recovery. After a long boom, people may feel that markets only go up, and take on too much risk, just before a downturn. Our personal history can make us too fearful, or too bold.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "After a crash, and after a boom."
+   }
+  },
+  {
+   "say": "Many financial therapists and educators talk about a money story. The beliefs and feelings about money that we absorb in childhood and early adulthood. Money is scarce. Money is evil. Money comes easily. Rich people are greedy. We'll always be fine. These stories often operate quietly in the background, shaping decisions we think are purely logical.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Your money story."
+   }
+  },
+  {
+   "say": "A gentle exercise is to ask yourself, where did my beliefs about money come from? What did my parents say, or do, about money? What happened in the economy when I was young? Were there moments of fear or abundance that left a mark? Just noticing these influences can help you see your money choices more clearly.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Where did your beliefs come from?"
+   }
+  },
+  {
+   "say": "The aim isn't to throw away the lessons of experience. Many of them are wise. Saving for a rainy day. Being careful with debt. But it can help to check whether a lesson learned in one situation still fits your situation now. Respect the lesson. But be willing to update the rule.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "campfire_lake",
+    "cap": "Respect the lesson, update the rule."
+   }
+  },
+  {
+   "say": "This research can also make us kinder to others. When someone seems strangely cautious or strangely reckless with money, they may be carrying a story from their past. Their choices make sense from inside their own history. Understanding that can turn judgment into compassion.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "campfire_lake",
+    "cap": "A kinder view of others."
+   }
+  },
+  {
+   "say": "So here's what we've learned about the history we carry. The economic times we personally live through shape our willingness to take risks. Recent experiences tend to weigh the most. Events that are easy to recall feel more likely. And noticing our own money story can help us decide more freely.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "What we lived through",
+    "items": [
+     "Personal experience shapes risk-taking",
+     "Recent experiences weigh most",
+     "Easy-to-recall events feel more likely",
+     "Notice your money story, then update it"
+    ]
+   }
+  },
+  {
+   "say": "And sometimes, the history that traps us is much more recent. Money we've just spent, a project we've already started, a plan we've already announced. Next, let's look at the most expensive aircraft that ever flew passengers, and the trap of throwing good money after bad.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: when we've invested too much to stop."
+   }
+  }
+ ]
+}

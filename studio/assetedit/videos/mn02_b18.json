@@ -1,0 +1,124 @@
+{
+ "id": "mn02_b18",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Have you ever assembled a piece of flat pack furniture? A bookshelf, a desk, a little cabinet. It's often frustrating. Confusing instructions, mysterious extra screws. And yet, when you finally finish, many people feel a special fondness for it. It's not just a bookshelf. It's your bookshelf. You made it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "n": 18,
+    "title": "What we build ourselves"
+   }
+  },
+  {
+   "say": "In two thousand and twelve, researchers Michael Norton, Daniel Mochon and Dan Ariely studied this feeling. They called it the IKEA effect. In their experiments, participants assembled simple storage boxes, or folded origami figures. Then they were asked how much they would pay for their own creations.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Michael Norton, Daniel Mochon & Dan Ariely",
+    "where": "Published in the Journal of Consumer Psychology, 2012",
+    "what": "Participants assembled storage boxes or folded origami, then said how much they would pay for their own creations compared with identical items made by others or by experts."
+   }
+  },
+  {
+   "say": "People were willing to pay more for things they had built themselves than for identical, pre assembled items. In the origami study, people valued their own amateur folding almost as highly as origami made by experts, and much more than other people valued it. To everyone else, it was an amateur crane. To its maker, it was precious.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_x3_origami.jpg",
+    "cap": "Our own little creations"
+   }
+  },
+  {
+   "say": "The researchers suggested that labor leads to love. When we put effort into something, we come to value it more. And this effect was strongest when people successfully completed the task. When participants built something and then destroyed it, or didn't finish it, the extra love tended to disappear.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Labor leads to love."
+   }
+  },
+  {
+   "say": "In many ways, this is lovely. It's why home cooked meals can taste especially good to the cook. Why a garden you've tended feels special. Why people treasure handmade gifts. Our effort becomes part of the value. That's a beautiful part of being human.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "When it helps."
+   }
+  },
+  {
+   "say": "But in money matters, the IKEA effect can lead us astray. Business owners may overvalue the company they built. Investors may become too attached to a portfolio they carefully assembled. People renovating a home may believe their personal improvements add more value than buyers will actually pay for. Our effort feels like value to us, but not necessarily to the market.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "When it costs."
+   }
+  },
+  {
+   "say": "This connects to the endowment effect we met in our last episode, where people valued a mug more simply because it was theirs. With the IKEA effect, the attachment is even stronger, because we didn't just receive the thing, we made it. And the more effort we put in, the harder it can be to see it objectively.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "The founder's attachment."
+   }
+  },
+  {
+   "say": "The IKEA effect may apply to ideas as well as objects. Plans we came up with ourselves, strategies we designed, investment theories we developed. We may love them more, and question them less, than ideas from others. And that can make it harder to change course when the evidence turns against us.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Ideas too."
+   }
+  },
+  {
+   "say": "So when making big money decisions about something you've built, a business, a home, a plan, it can help to get outside eyes. Someone who didn't put in the effort, and can see it more neutrally. An independent valuation. An honest friend. Their view may be less flattering. But it's often closer to how the world will see it.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Outside eyes."
+   }
+  },
+  {
+   "say": "You don't need to stop loving what you build. That love is part of what makes the effort meaningful. Just remember, when money is involved, that your love isn't the same as the market's. Treasure your creations. And price them fairly.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "cap": "Love it, but price it fairly."
+   }
+  },
+  {
+   "say": "So here's what the IKEA effect teaches us. We tend to value things more when we've built them ourselves. Labor leads to love, especially when we complete the task. Our effort feels like value to us, but not always to others. And getting outside eyes on what we've built can help us see it more clearly.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "What we build ourselves",
+    "items": [
+     "We value things more when we build them",
+     "Labor leads to love, if we finish",
+     "Effort feels like value to us, not the market",
+     "Get outside eyes on what you've built"
+    ]
+   }
+  },
+  {
+   "say": "There's another quiet force that shapes our money, one that often decides things without us noticing. The pull to keep things as they are. Even when change would clearly help. Let's look at status quo bias next.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: staying put."
+   }
+  }
+ ]
+}

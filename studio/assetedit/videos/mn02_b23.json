@@ -1,0 +1,131 @@
+{
+ "id": "mn02_b23",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "When we make plans, we usually imagine them going well. We picture the investment growing, the business thriving, the renovation finishing on time. That optimism helps us get started. But it can also blind us to what might go wrong. Remember the planning fallacy, and how even our worst case predictions tend to be too hopeful.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "n": 23,
+    "title": "Imagining the failure"
+   }
+  },
+  {
+   "say": "The psychologist Gary Klein developed a simple technique to counter this, which he called a premortem. Doctors perform a postmortem after a patient has died, to understand what went wrong. A premortem happens before a project begins. You imagine that it's already failed, and then ask, what went wrong?",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "The premortem."
+   }
+  },
+  {
+   "say": "Here's how it works. Before a big decision, you say, imagine it's a year from now. We went ahead with this plan, and it was a disaster. Now, take a few minutes to write down all the reasons why it failed. Not what might go wrong. What did go wrong, as if it already happened.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_b16_table.jpg",
+    "cap": "Imagine it has already failed"
+   }
+  },
+  {
+   "say": "Why does this simple shift help? Klein has suggested that imagining a failure as certain, rather than merely possible, makes it easier for people to come up with reasons for it. Our minds are good at explaining things that have already happened. And framing it as a past event can make it feel safer to voice doubts, without seeming negative or disloyal.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Why it works."
+   }
+  },
+  {
+   "say": "Klein drew on earlier research, by Deborah Mitchell, Jay Russo and Nancy Pennington, published in nineteen eighty nine, on what they called prospective hindsight. Imagining that an event has already occurred. Their study suggested that this approach helped people generate more reasons for an outcome than simply asking whether it might happen.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Prospective hindsight."
+   }
+  },
+  {
+   "say": "Premortems can be especially useful in groups. In meetings, people often hesitate to criticize a plan, especially one proposed by a confident leader. Remember the crowd and the lines on the card. A premortem gives everyone permission to be critical. It turns finding problems into a helpful contribution, rather than an act of opposition.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Breaking groupthink."
+   }
+  },
+  {
+   "say": "You can use a premortem for personal money decisions too. Before buying a house, starting a business, or making a large investment, imagine it's five years later, and it went badly. Why? Maybe interest rates rose. Maybe you lost your job. Maybe repairs cost much more than expected. Each answer suggests a way to prepare.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "For personal money."
+   }
+  },
+  {
+   "say": "And that's the real value. A premortem isn't about scaring yourself out of doing anything. It's about turning vague fears into specific risks, and specific risks into plans. If you're worried about rising costs, build a buffer. If you're worried about losing income, make sure you have savings. The plan becomes stronger, not weaker.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "From fears to plans."
+   }
+  },
+  {
+   "say": "Ironically, the smartest and most experienced people may benefit from premortems the most. Their confidence and past success can make them less likely to imagine failure. And they're often surrounded by people who hesitate to challenge them. A premortem is a structured way to invite the doubts that would otherwise stay silent.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Smart people need it most."
+   }
+  },
+  {
+   "say": "Some people pair a premortem with its opposite. Imagine the plan succeeded beyond your hopes, and ask what made it work. That can highlight the most important things to get right. Between imagined failure and imagined success, you get a much clearer picture of what really matters.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Also imagine success."
+   }
+  },
+  {
+   "say": "I think of this as a gentle kind of pessimism. Not gloomy, not paralyzing. Just a moment of honest imagination, before you commit. It's a little like checking the weather before a long walk. You still go. You just bring an umbrella if you need one.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "cap": "Gentle pessimism."
+   }
+  },
+  {
+   "say": "So here's what the premortem teaches us. Imagine your plan has already failed. Ask what went wrong, as if it already happened. This makes it easier to see risks, and easier for people to voice doubts. And then, turn each risk you find into a preparation, so the plan becomes stronger.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Imagining the failure",
+    "items": [
+     "Imagine the plan has already failed",
+     "Ask: what went wrong?",
+     "It makes doubts easier to voice",
+     "Turn risks into preparations"
+    ]
+   }
+  },
+  {
+   "say": "And there's one more tool that superforecasters, careful investors and good doctors all use. Before thinking about the details of a particular case, they ask, how often does this kind of thing usually work out? It's called starting with the base rate. Let's look at it next.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: base rates."
+   }
+  }
+ ]
+}

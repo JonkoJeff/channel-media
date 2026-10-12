@@ -1,0 +1,124 @@
+{
+ "id": "mn02_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Buying or selling a home is one of the biggest money decisions most people ever make. And because the amounts are so large, you might hope that professionals, like real estate agents, can judge a home's value objectively. But even professionals are human. And a classic study suggested that a single number can quietly steer their judgment.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "street_day",
+    "n": 17,
+    "title": "The price of a house"
+   }
+  },
+  {
+   "say": "In nineteen eighty seven, Gregory Northcraft and Margaret Neale took real estate agents to see a real house that was for sale. The agents toured the house, saw the neighborhood, and received a packet of information, including details about other homes nearby. Everything was the same for everyone, except one number. The listing price.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Gregory Northcraft & Margaret Neale",
+    "where": "University of Arizona, published in Organizational Behavior and Human Decision Processes, 1987",
+    "what": "Real estate agents and students toured a real house and received information about it, including a listing price that varied between groups, then estimated its value."
+   }
+  },
+  {
+   "say": "Different groups of agents saw different listing prices. Some saw a higher price, some a lower one. Then the agents gave their professional estimates of what the house was really worth. And their estimates moved with the listing price they had seen. A higher listing price led to higher estimates of value.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_x2_house.jpg",
+    "cap": "One house, different starting numbers"
+   }
+  },
+  {
+   "say": "And here's the striking part. When asked what had influenced their judgment, most agents didn't mention the listing price as an important factor. They believed they were judging the house on its merits. Its size, its condition, its location. They didn't feel the anchor pulling them. But it did.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "They denied it."
+   }
+  },
+  {
+   "say": "The study also included students, who had no real estate experience. And they were influenced by the listing price too. Interestingly, the students were more willing to admit that the listing price had affected them. The experts, perhaps confident in their expertise, were less aware of the influence.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Experts and amateurs alike."
+   }
+  },
+  {
+   "say": "We met anchoring in our previous episode, with coats and subscriptions. But this study shows that anchors work even on big, important decisions, and even on experts in their own field. The first number we see becomes a reference point, and adjusting away from it is harder than we think.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Anchors in big decisions."
+   }
+  },
+  {
+   "say": "This matters for buyers and sellers of homes. An asking price can anchor both sides of a negotiation. It matters for salaries, where the first number mentioned often shapes the outcome. And it matters for any purchase where a starting price sets expectations, like cars or second hand goods.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Asking prices and salaries."
+   }
+  },
+  {
+   "say": "One defense is to bring your own anchor. Before you see the asking price, research the value yourself. Look at what similar homes actually sold for, not what they were listed for. Decide on your own estimate, and write it down. Then, when you see the listing price, you have a reference point of your own to compare it with.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Bring your own anchor."
+   }
+  },
+  {
+   "say": "Another technique that researchers have found helpful is called consider the opposite. When you're given a number, actively think of reasons why it might be too high, and reasons why it might be too low. This can weaken the pull of the anchor, by forcing your mind to explore other possibilities.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Consider the opposite."
+   }
+  },
+  {
+   "say": "And perhaps the gentlest advice is to slow down for big numbers. When a decision involves a large amount of money, give yourself time. Gather information from several sources. Sleep on it. Let your own estimate form before someone else's number takes root.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "street_day",
+    "cap": "Slow down for big numbers."
+   }
+  },
+  {
+   "say": "So here's what the house study teaches us. Listing prices moved professional agents' estimates of value. The experts often didn't notice the influence. Researching your own estimate first gives you a counter anchor. And considering why a number might be too high, or too low, can weaken its pull.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "The price of a house",
+    "items": [
+     "Listing prices moved agents' estimates",
+     "Experts often didn't notice the influence",
+     "Research your own estimate first",
+     "Consider why a number might be too high or low"
+    ]
+   }
+  },
+  {
+   "say": "And sometimes, the number that misleads us is the value we put on our own creations. A study involving flat pack furniture and origami found that we love what we build, perhaps a little too much. Let's look at the IKEA effect next.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: what we build ourselves."
+   }
+  }
+ ]
+}

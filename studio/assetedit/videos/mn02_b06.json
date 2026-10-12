@@ -1,0 +1,133 @@
+{
+ "id": "mn02_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine you're sitting in a room with seven other people. You're shown a card with a single line on it. Then another card with three lines of different lengths. Your task is simple. Which of the three lines matches the first one? It's obvious. Line B. But one by one, everyone before you says, line A.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "street_day",
+    "n": 6,
+    "title": "Following the crowd"
+   }
+  },
+  {
+   "say": "This was the setup of a famous series of experiments by the psychologist Solomon Asch, in the early nineteen fifties. The other people in the room were actually actors, working with the researcher. On some rounds, they all deliberately gave the same wrong answer. Asch wanted to see what the real participant would do.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Solomon Asch",
+    "where": "Swarthmore College, conformity experiments published in the 1950s",
+    "what": "Participants judged line lengths in a group. The other group members were actors who sometimes all gave the same obviously wrong answer."
+   }
+  },
+  {
+   "say": "And many people went along with the group, at least some of the time. In the classic version, around three quarters of participants conformed to the obviously wrong answer at least once. And overall, about a third of the answers on the critical rounds followed the group's wrong answer. Even when the correct answer was plain to see.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Many went along."
+   }
+  },
+  {
+   "say": "Some participants later said they began to doubt their own eyes. Others said they knew the group was wrong, but didn't want to stand out. Either way, the pull of the crowd was strong. And these were simple lines on a card. Imagine how much stronger that pull becomes when the question is genuinely uncertain, like what an investment is worth.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_b06_crowd.jpg",
+    "cap": "Everyone is going this way"
+   }
+  },
+  {
+   "say": "In finance, following the crowd is often called herding. When many investors buy something because others are buying it, prices can rise far beyond any reasonable value. And when the mood turns, they all sell together, and prices crash. Many economists see herding as one of the ingredients of bubbles and panics.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Herding in money."
+   }
+  },
+  {
+   "say": "Why do we follow the crowd? Partly because, in many situations, it's actually a sensible shortcut. If everyone is running out of a building, it's wise to run too. If a restaurant is full, the food is probably good. Other people's choices often contain useful information. But not always.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Why the crowd feels safe."
+   }
+  },
+  {
+   "say": "There's also comfort in being wrong together. If you lose money on an investment everyone else also bought, it feels less painful than losing on a choice you made alone. Nobody can blame you for doing what everyone did. That emotional safety can be very appealing, even when the decision itself is poor.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Safety in numbers."
+   }
+  },
+  {
+   "say": "Businesses use this tendency too. Best seller labels. Most popular options. Reviews and ratings. Limited spots, many people are viewing this. All of these tap into what psychologists call social proof. The idea that if many others are doing something, it must be right.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Social proof everywhere."
+   }
+  },
+  {
+   "say": "In money, the crowd is often late. By the time everyone is talking about a hot investment, a lot of the gains may already be gone, and the risk may be at its highest. And when everyone is panicking, prices may already be low. That's why some famous investors say they try to be cautious when others are greedy, and greedy when others are fearful.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "The cost of a crowd."
+   }
+  },
+  {
+   "say": "There's a hopeful detail in Asch's research, though. When just one other person in the room gave the correct answer, breaking the unanimity, conformity dropped dramatically. Having even one ally made it much easier for people to trust their own eyes. A single honest voice can free others to think for themselves.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "One voice makes a difference."
+   }
+  },
+  {
+   "say": "So whether in a room, a group chat, or a family discussion about money, you can be that voice. Saying, I'm not sure this is right. Or, let's look at it more carefully. You might give others permission to say what they were quietly thinking all along.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "street_day",
+    "cap": "Be that voice."
+   }
+  },
+  {
+   "say": "So here's what the crowd teaches us. In Asch's experiments, many people went along with obviously wrong answers. In money, herding can help drive bubbles and panics. The crowd offers comfort, but not always accuracy. And one honest, dissenting voice can make it much easier for others to think clearly.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Following the crowd",
+    "items": [
+     "Many people conformed to obviously wrong answers",
+     "Herding helps drive bubbles and panics",
+     "Crowds offer comfort, not always accuracy",
+     "One dissenting voice frees others"
+    ]
+   }
+  },
+  {
+   "say": "And it's not only the crowd around us that shapes our money decisions. It's also the history we lived through. Researchers have found that the economic times of our youth can shape how we invest for the rest of our lives. Let's look at that next.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: what we lived through."
+   }
+  }
+ ]
+}

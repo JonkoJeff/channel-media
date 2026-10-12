@@ -1,0 +1,144 @@
+{
+ "id": "mn02_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In a fancy grocery store in California, researchers set up a tasting table with jams. On some days, the table offered twenty four different flavors. On other days, just six. Shoppers could taste as many as they liked, and received a coupon to buy a jar. Which table do you think sold more jam?",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "street_day",
+    "n": 10,
+    "title": "Too many choices"
+   }
+  },
+  {
+   "say": "This was a famous study by Sheena Iyengar and Mark Lepper, published in two thousand. And the large display, with twenty four jams, attracted more people. More shoppers stopped to look and taste. So far, more choice seemed better. But then the researchers looked at how many people actually bought a jar.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Sheena Iyengar & Mark Lepper",
+    "where": "Columbia and Stanford, published in the Journal of Personality and Social Psychology, 2000",
+    "what": "A tasting booth in an upscale grocery store offered either 24 or 6 jam flavors. Researchers counted how many shoppers stopped, and how many later bought a jar."
+   }
+  },
+  {
+   "say": "According to the study, about thirty percent of the people who stopped at the small display, with six jams, went on to buy a jar. At the large display, with twenty four jams, only about three percent did. More choice attracted more interest, but led to far fewer purchases.",
+   "show": {
+    "type": "bars",
+    "sprite": "F13",
+    "bg": "money_board",
+    "title": "Shoppers who bought jam",
+    "unit": "%",
+    "bars": [
+     [
+      "6 flavors",
+      30.0
+     ],
+     [
+      "24 flavors",
+      3.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Iyengar and Lepper called this choice overload. When faced with too many options, people can feel overwhelmed. Comparing them all is hard work. The fear of choosing wrong grows with every extra option. And sometimes, the easiest choice is to choose nothing at all.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_b10_jams.jpg",
+    "cap": "So many choices, so few decisions"
+   }
+  },
+  {
+   "say": "I should add that later research has found the effect isn't universal. Some studies found strong choice overload, others found little or none. It seems to depend on the situation. How complex the options are, how clear your preferences are, and how hard the options are to compare. But in the right conditions, too many options can paralyze us.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "A debated effect."
+   }
+  },
+  {
+   "say": "And this matters for important money decisions, not just jam. In another study, Iyengar and her colleagues looked at retirement savings plans in the United States. They found that, as the number of investment funds offered in a plan increased, the percentage of employees who participated tended to decrease. More choice, fewer savers.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Retirement plans too."
+   }
+  },
+  {
+   "say": "That's an expensive kind of paralysis. Not joining a retirement plan because the choices feel overwhelming can mean missing years of savings and compound growth. And this connects to what we learned about defaults. When choosing is hard, the default often wins. And if the default is doing nothing, nothing is what happens.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Paralysis is expensive."
+   }
+  },
+  {
+   "say": "Interestingly, intelligent people may be especially vulnerable to certain kinds of choice overload. They can see more differences between options, more factors to weigh, more ways each choice could go wrong. Their ability to analyze can turn a simple decision into an endless project. Sometimes, being able to see every detail is a burden.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Smart people overthink."
+   }
+  },
+  {
+   "say": "The psychologist Barry Schwartz described two styles of choosing. Maximizers, who try to find the very best option. And satisficers, who look for an option that's good enough, and then stop. His research suggested that maximizers often end up with objectively good choices, but feel less satisfied with them, and more regretful.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Maximizers and satisficers."
+   }
+  },
+  {
+   "say": "For many money decisions, good enough really is good enough. A sensible, low cost savings option, chosen and started today, is often much better than the perfect option chosen next year. The cost of delay can be greater than the cost of a slightly imperfect choice.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Good enough is often great."
+   }
+  },
+  {
+   "say": "So a gentle strategy is to simplify on purpose. Narrow your options to a few good ones. Set a time limit for deciding. Decide what matters most, and ignore the rest. And remember that most decisions can be adjusted later. You don't have to get everything perfect at the start.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "street_day",
+    "cap": "Simplify on purpose."
+   }
+  },
+  {
+   "say": "So here's what the jam study and its cousins teach us. In the original study, thirty percent bought jam with six options, and only three percent with twenty four. In retirement plans, more options were linked to fewer participants. Looking for the perfect choice can leave us less satisfied. And narrowing our options can help us actually decide.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Too many choices",
+    "items": [
+     "30% bought with 6 jams, 3% with 24",
+     "More fund options, fewer savers",
+     "Maximizers often feel less satisfied",
+     "Narrow your options, then decide"
+    ]
+   }
+  },
+  {
+   "say": "And there's another way that more information can hurt. Checking our investments, or our account balances, too often. Researchers found that the more frequently people look, the more risk averse they can become. Let's look at myopic loss aversion next.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: checking too often."
+   }
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "id": "mn02_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "During the Second World War, military planners faced a difficult question. Many bomber planes were being shot down. Armor could protect them, but armor is heavy, so it couldn't cover the whole plane. Where should the extra armor go? To find out, they studied the planes that returned from missions, and looked at where they had been hit.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "campfire_lake",
+    "n": 13,
+    "title": "The planes that came back"
+   }
+  },
+  {
+   "say": "The returning planes had bullet holes in certain areas, like the wings and the body, but fewer in others, like the engines. So the obvious conclusion seemed to be, put more armor where the holes are. That's where the planes are getting hit. But a statistician named Abraham Wald, working with a research group in the United States, is often credited with seeing it differently.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_b13_hangar.jpg",
+    "cap": "The planes that made it home"
+   }
+  },
+  {
+   "say": "Wald's insight, as the story is usually told, was this. These are the planes that came back. The holes show where a plane can be hit and still survive. The planes that were hit in other places, like the engines, are the ones that didn't come back. So the armor should go where the returning planes have no holes. The missing planes held the real lesson.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Look at the missing planes."
+   }
+  },
+  {
+   "say": "This is a famous illustration of what's called survivorship bias. Drawing conclusions only from the cases that survived, and forgetting the ones that didn't. Because the survivors are visible, and the failures are invisible, we get a distorted picture of what leads to success.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Survivorship bias."
+   }
+  },
+  {
+   "say": "In money, survivorship bias is everywhere. We hear about the entrepreneurs who dropped out of university and built huge companies. We don't hear about the many more who dropped out and struggled. We see investment funds with impressive track records. We don't see the funds that performed badly and were quietly closed, disappearing from the statistics.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Survivors in money."
+   }
+  },
+  {
+   "say": "Researchers who study investment funds are well aware of this. When you look at the average performance of funds that exist today, the picture can look rosier than reality, because the worst performing funds often closed or merged and vanished from the data. To see the true picture, you have to include the failures too.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Fund statistics."
+   }
+  },
+  {
+   "say": "Success stories can be inspiring. But they can also mislead. When we hear how someone got rich, we might copy their choices, without realizing that many other people made exactly the same choices and failed. What worked for the survivor might have been luck, combined with a strategy that usually doesn't work.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Success stories mislead."
+   }
+  },
+  {
+   "say": "Smart people aren't immune to this. In fact, intelligent people can be very good at constructing explanations for success after the fact. Finding the clever decisions, the visionary moments, the hidden genius. But if you only study winners, you can find brilliant explanations for what was, in part, chance.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Smart people love stories."
+   }
+  },
+  {
+   "say": "A helpful question, whenever you hear a success story about money, is this. Where's the graveyard? How many people tried the same thing and didn't succeed? If you can't see the failures, the success story may be telling you much less than it seems.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Ask about the graveyard."
+   }
+  },
+  {
+   "say": "This connects to a related idea. Judging decisions by their outcomes. A good decision can have a bad outcome, through bad luck. A bad decision can have a good outcome, through good luck. The professional poker player and writer Annie Duke calls the habit of judging decisions only by outcomes resulting. And it can teach us the wrong lessons.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "campfire_lake",
+    "cap": "Outcome versus decision."
+   }
+  },
+  {
+   "say": "So when you look back at your own money decisions, or at others', it can help to judge the process, not just the result. Did I have good information? Did I think it through? Did I consider the risks? A thoughtful decision that turned out badly is still a thoughtful decision. And a lucky gamble is still a gamble.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "campfire_lake",
+    "cap": "Judge the process."
+   }
+  },
+  {
+   "say": "So here's what the returning planes teach us. Looking only at survivors can hide the real lessons. Investment statistics can look rosier when failures disappear from the data. Asking where the graveyard is can protect us from misleading success stories. And judging decisions by their process, not only their outcome, helps us learn the right lessons.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "The planes that came back",
+    "items": [
+     "Survivors hide the lessons of failures",
+     "Fund statistics can look rosier than reality",
+     "Ask: where's the graveyard?",
+     "Judge decisions by process, not just outcome"
+    ]
+   }
+  },
+  {
+   "say": "We've talked a lot about thinking. But money decisions are rarely made by pure thought. They're made by people who are excited, afraid, angry, tired or sad. Next, let's look at how our emotions quietly steer our money choices.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: emotions and money."
+   }
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "id": "mn02_b20",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In the late nineteen nineties, Enron was one of the most admired companies in the United States. An energy and trading giant, celebrated as innovative and bold. Its stock price soared. And many of its own employees invested a large share of their retirement savings in Enron stock. After all, they knew the company. They worked there. They believed in it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "home_office_night",
+    "n": 20,
+    "title": "The company you know"
+   }
+  },
+  {
+   "say": "But in two thousand and one, it emerged that Enron had used accounting tricks to hide debts and inflate its profits. The company collapsed into bankruptcy. Its stock became nearly worthless. And many employees lost not only their jobs, but also much of their retirement savings, at the same time. Two blows from the same source.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_x5_tower.jpg",
+    "cap": "Investing in what you know"
+   }
+  },
+  {
+   "say": "That's the special risk of investing heavily in your own employer. Your income and your savings depend on the same company. If it struggles, you can lose both together. Financial planners often warn against this concentration, precisely because of stories like Enron. Diversification is meant to prevent one failure from taking everything.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Two eggs, one basket."
+   }
+  },
+  {
+   "say": "Why do people invest so heavily in what they know? Because familiarity feels safe. We understand our employer's products. We see the busy offices. We hear the optimistic messages from management. That familiarity creates a sense of knowledge and control, even though we may know very little about the company's true finances.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Familiarity feels safe."
+   }
+  },
+  {
+   "say": "Economists have found a similar pattern at a larger scale. In nineteen ninety one, Kenneth French and James Poterba described what's called home bias. Investors in several major countries held the vast majority of their stock investments in companies from their own country, much more than standard theories of diversification would suggest.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Kenneth French & James Poterba",
+    "where": "Published in the American Economic Review, 1991",
+    "what": "Studied how investors in the US, Japan and the UK held most of their stock investments in their own country's companies."
+   }
+  },
+  {
+   "say": "Home bias seems to come partly from familiarity, and partly from a feeling that we understand local companies better. Some of it may have practical reasons, like costs or currency. But a big part is psychological. The familiar feels safer than the foreign, even when it isn't.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Home feels safer."
+   }
+  },
+  {
+   "say": "This connects to the illusion of understanding we explored earlier. Being familiar with a company, a country or an industry can make us feel we understand its risks. But familiarity is not the same as knowledge. Enron's employees saw the company every day, and still didn't see the problems hidden in its accounts.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "The illusion of knowledge."
+   }
+  },
+  {
+   "say": "None of this means familiar investments are always bad. Many people invest in their own country or industry with good reason. The lesson is about concentration. Putting too many eggs in one basket, especially a basket that's already connected to your income, your home, or your community.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Not about avoiding the familiar."
+   }
+  },
+  {
+   "say": "Financial educators often describe diversification as one of the few free lunches in investing. Spreading money across many different investments can reduce risk without necessarily reducing expected returns. It's a gentle way of admitting that we can't predict which basket will break.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Spread the risk."
+   }
+  },
+  {
+   "say": "In a sense, diversification is humility, expressed in money. It says, I don't know which company, country or industry will do best, so I won't bet everything on one. That humility might feel less exciting than a bold bet on what you know. But it's a lot more likely to let you sleep peacefully at night.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "home_office_night",
+    "cap": "Humility in a portfolio."
+   }
+  },
+  {
+   "say": "So here's what the company you know teaches us. Enron's employees lost both their jobs and much of their savings at the same time. Familiarity can make investments feel safer than they are. Many investors favor their own country, more than theory suggests. And diversification is a form of humility, protecting us from what we can't predict.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "The company you know",
+    "items": [
+     "Enron employees lost jobs and savings together",
+     "Familiarity feels safer than it is",
+     "Home bias: favoring our own country",
+     "Diversification is humility in money"
+    ]
+   }
+  },
+  {
+   "say": "And if familiarity makes us too confident about companies we work for, what about companies we start? Researchers once asked thousands of new business owners how likely they were to succeed. Their answers were remarkably hopeful.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: the optimism of founders."
+   }
+  }
+ ]
+}

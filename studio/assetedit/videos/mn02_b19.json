@@ -1,0 +1,124 @@
+{
+ "id": "mn02_b19",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think about your bank account, your phone plan, your energy supplier, your insurance. How long have you had them? And when did you last check whether there might be a better option? For many people, the honest answer is, years ago, or never. Not because they carefully decided to stay. But because staying was easier.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "n": 19,
+    "title": "Staying put"
+   }
+  },
+  {
+   "say": "In nineteen eighty eight, the economists William Samuelson and Richard Zeckhauser published a paper describing what they called status quo bias. The tendency to stick with the current situation, even when other options might be better. They showed it in experiments, and in real world choices, like the health insurance plans chosen by university employees.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "William Samuelson & Richard Zeckhauser",
+    "where": "Published in the Journal of Risk and Uncertainty, 1988",
+    "what": "Experiments and real-world data, including choices of health plans by university employees, showing a strong preference for keeping the current option."
+   }
+  },
+  {
+   "say": "In their experiments, people were given hypothetical decisions, like how to invest an inheritance. When one option was presented as the current situation, the way things already were, people chose it much more often than when the same option was presented neutrally, as just one of several. Simply being the default made an option more attractive.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_x4_armchair.jpg",
+    "cap": "The comfort of the familiar"
+   }
+  },
+  {
+   "say": "Why do we stay put? Several forces combine. Switching takes effort, and our present bias makes that effort feel bigger than the future benefit. Loss aversion makes the possible downsides of changing loom larger than the upsides. And if we change and it goes wrong, we feel more regret than if we'd stayed and it went wrong.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Why we stay."
+   }
+  },
+  {
+   "say": "In some markets, staying put can cost money. Regulators and consumer groups in several countries have pointed out that long standing customers sometimes pay more than new customers for the same service, in areas like insurance, energy or broadband. Some have called this a loyalty penalty. Companies may count on our tendency not to switch.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "The loyalty penalty."
+   }
+  },
+  {
+   "say": "This connects to the power of defaults we met in our last episode. Automatic enrollment in pensions works because of status quo bias. People tend to stay with whatever is set up for them. That can be used for good, helping people save. Or it can work against us, keeping us in expensive, outdated arrangements.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Defaults, again."
+   }
+  },
+  {
+   "say": "Intelligence doesn't protect against status quo bias. Busy, capable people are often especially likely to stick with existing arrangements, simply because they have more important things to think about. Checking whether your insurance is still competitive just isn't very exciting compared with everything else.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Smart people stay too."
+   }
+  },
+  {
+   "say": "One gentle remedy is a yearly money check. Once a year, perhaps at the same time each year, review your regular contracts. Bank accounts, savings rates, insurance, subscriptions, energy, phone. Ask, is this still right for me? Is there something better? Even a few small changes can save meaningful amounts over time.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "A yearly money check."
+   }
+  },
+  {
+   "say": "Another helpful technique is to reverse the question. Instead of asking, should I switch? ask, if I were choosing today, from scratch, would I choose this? If the answer is no, the only thing keeping you there might be the status quo itself.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Reverse the question."
+   }
+  },
+  {
+   "say": "Of course, staying isn't always wrong. Sometimes your current arrangement is genuinely the best, or the difference isn't worth the hassle. Stability has value too. The point is simply to make staying a choice, rather than an accident. To stay because you've looked, not because you haven't.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "cap": "Staying can be fine."
+   }
+  },
+  {
+   "say": "So here's what status quo bias teaches us. We tend to prefer whatever is already in place. Switching effort, loss aversion and fear of regret keep us stuck. In some markets, loyalty can cost money. And a yearly check, asking would I choose this today, turns staying into a real choice.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Staying put",
+    "items": [
+     "We prefer whatever is already in place",
+     "Switching effort and loss aversion keep us stuck",
+     "Loyalty can sometimes cost money",
+     "Do a yearly check: would I choose this today?"
+    ]
+   }
+  },
+  {
+   "say": "And there's a special kind of comfort with the familiar that can be especially risky. Putting your money into what you know best. Your own country, your own industry, even your own employer. The story of one famous company shows why that can be dangerous.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: the company you know."
+   }
+  }
+ ]
+}

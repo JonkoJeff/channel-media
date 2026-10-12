@@ -1,0 +1,113 @@
+{
+ "id": "mn02_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Get comfortable. Tonight, I'd like to explore a puzzle that has fascinated psychologists and economists for decades. Why do smart people, sometimes very smart people, make surprisingly bad decisions with money? Nobel prize winners. Famous scientists. Brilliant professionals. People who should know better.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "Why smart people make bad money decisions.",
+    "sub": "Tonight, gently."
+   }
+  },
+  {
+   "say": "It's comforting, in a way. If you've ever made a money decision you regret, you're in very distinguished company. But it's also a little unsettling. Because it suggests that intelligence alone doesn't protect us. That there's something about money that can trip up even the sharpest minds.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge"
+   }
+  },
+  {
+   "say": "Tonight, we'll look at that something. We'll meet a hedge fund run by Nobel laureates that nearly brought down the financial system. A simple puzzle about a bat and a ball that fools students at the best universities. Investors who trade too much, experts whose forecasts are barely better than chance, and a roulette wheel that landed on black twenty six times in a row.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_b01_chess.jpg",
+    "cap": "Brilliant minds, surprising mistakes"
+   }
+  },
+  {
+   "say": "Here's where we're going tonight. First, why intelligence isn't the same as good judgment. Then, how overconfidence quietly costs money. Why we follow crowds and stories. How too many choices, and checking too often, can lead us astray. And finally, some gentle habits for making better money decisions.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Why intelligence isn't the same as good judgment",
+     "How overconfidence quietly costs money",
+     "Why we follow crowds and stories",
+     "How too many choices and too much checking hurt",
+     "Gentle habits for better money decisions"
+    ]
+   }
+  },
+  {
+   "say": "As always, a gentle note. This is a calm, educational journey, not financial advice. I won't tell you what to buy, sell or invest in. The goal is understanding how minds work around money. And understanding, I think, is a lovely thing to fall asleep with.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Not advice, just understanding."
+   }
+  },
+  {
+   "say": "Here's the central idea of tonight. Intelligence is a powerful tool. But money decisions often involve uncertainty, emotion, social pressure and time. And in those areas, our minds rely on shortcuts that can mislead anyone, regardless of IQ. In some cases, being smart can even make certain mistakes more likely.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Smart, but human."
+   }
+  },
+  {
+   "say": "How could intelligence make things worse? One idea is that smart people are very good at building convincing arguments. Including arguments for what they already want to believe. A clever mind can find brilliant reasons for a bad decision. And those reasons can make it even harder to change course.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Smart people tell better stories."
+   }
+  },
+  {
+   "say": "Another idea is that success breeds confidence. People who have been right many times in the past may come to trust their judgment more and more. Sometimes, that confidence grows faster than their actual accuracy. And in money, overconfidence can be very expensive.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Confidence can grow faster than accuracy."
+   }
+  },
+  {
+   "say": "As we explore these stories, I'd like us to be kind. Not to laugh at the brilliant people who made big mistakes, but to recognize ourselves in them. The same mental patterns that tripped up Nobel laureates are at work in all of us, every time we tap a card, choose a savings account, or follow a hot tip from a friend.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "We'll be kind about it."
+   }
+  },
+  {
+   "say": "So let's begin with one of the most famous examples of smart people making a bad money decision. A story from the late nineteen nineties, about a group of the most respected minds in finance, two of them Nobel prize winners, and a fund that seemed almost too clever to fail.",
+   "show": {
+    "type": "char",
+    "sprite": "G18",
+    "bg": "city_night_lounge",
+    "cap": "A story to begin."
+   }
+  },
+  {
+   "say": "So let's take a slow breath, and travel back to the summer of nineteen ninety eight. To a hedge fund called Long Term Capital Management. And to the day that some of the smartest people in finance discovered the limits of their models.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: too clever to fail."
+   }
+  }
+ ]
+}

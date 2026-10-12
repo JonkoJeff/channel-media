@@ -1,0 +1,133 @@
+{
+ "id": "mn02_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine planting a seed in your garden. Every morning, you dig it up to check whether it's growing. Then you put it back. Of course, that would be silly. Checking that often wouldn't help the seed grow. In fact, it would probably harm it. And yet, many of us treat our money a little like that.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "blossom_temple_night",
+    "n": 11,
+    "title": "Checking too often"
+   }
+  },
+  {
+   "say": "Investments, like stocks, go up and down constantly. Over long periods, they've historically tended to grow, though there are no guarantees. But over short periods, a day, a week, a month, they bounce around a lot. On any given day, there's a fairly high chance that an investment is down compared with the day before.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_b11_garden.jpg",
+    "cap": "Let the seed grow"
+   }
+  },
+  {
+   "say": "Now, remember loss aversion. Losses feel roughly twice as strong as gains. In nineteen ninety five, the economists Shlomo Benartzi and Richard Thaler combined this idea with how often people evaluate their investments. They called it myopic loss aversion. Short sighted, plus a strong dislike of losses.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Myopic loss aversion."
+   }
+  },
+  {
+   "say": "Here's the idea. If you check your investments every day, you'll see a lot of small losses, mixed in with the gains. And because losses hurt more than gains feel good, the overall experience feels painful. If you check only once a year, you're more likely to see an overall gain, and the experience feels better.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "The more you look, the more you lose."
+   }
+  },
+  {
+   "say": "In one experiment, published in nineteen ninety seven by Richard Thaler, Amos Tversky, Daniel Kahneman and Alan Schwartz, participants made investment choices between a safer option and a riskier option with higher average returns. Some received feedback very frequently. Others received it much less often.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Thaler, Tversky, Kahneman & Schwartz",
+    "where": "Published in the Quarterly Journal of Economics, 1997",
+    "what": "Participants made repeated investment choices between a safer and a riskier fund, receiving feedback either very often or rarely."
+   }
+  },
+  {
+   "say": "And the people who received frequent feedback tended to invest less in the riskier option, and ended up earning less. The people who saw their results less often were more willing to stay with the higher return option. Watching closely made people more nervous, and more cautious, in a way that cost them.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Frequent feedback, less risk."
+   }
+  },
+  {
+   "say": "That's a surprising idea. We usually assume that more information is always better. But in this case, more frequent information led to worse decisions. Not because the information was wrong, but because of how it made people feel. Every small dip triggered the pain of loss.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Information can hurt."
+   }
+  },
+  {
+   "say": "Today, many people can check their investments on their phones, every minute of the day. Prices update in real time. Notifications announce every move. That's convenient. But according to this research, it might also make us more anxious, more reactive, and more likely to make short term decisions with long term money.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Apps and constant updates."
+   }
+  },
+  {
+   "say": "A helpful principle is to match how often you look to how long you plan to invest. If money is meant for a goal many years away, daily price movements are mostly noise. Checking occasionally, perhaps a few times a year, can be enough to make sure everything is on track, without being tossed around by every small wave.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Match your view to your goal."
+   }
+  },
+  {
+   "say": "This doesn't mean ignoring your finances. Remember the ostrich effect. Avoiding your accounts entirely isn't healthy either. It's about choosing a calm rhythm. Regular, deliberate check ins, rather than constant, anxious glances. Like a gardener who checks the garden each week, but doesn't dig up the seeds.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Not ignoring, just stepping back."
+   }
+  },
+  {
+   "say": "There's an old idea in many traditions, that patience protects us. In money, that seems especially true. The less we react to every short term movement, the more we give long term growth a chance to do its quiet work. Sometimes, the kindest thing you can do for your future self is simply to look away for a while.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "blossom_temple_night",
+    "cap": "Patience as protection."
+   }
+  },
+  {
+   "say": "So here's what myopic loss aversion teaches us. Short term prices bounce around a lot. Checking often means seeing many small losses, which hurt more than gains feel good. In experiments, frequent feedback led to more caution and lower returns. And checking at a calm rhythm that matches your goals can protect both your money and your peace of mind.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Checking too often",
+    "items": [
+     "Short-term prices bounce around a lot",
+     "Frequent checking shows many small losses",
+     "Frequent feedback led to less risk and less return",
+     "Check at a calm rhythm that fits your goal"
+    ]
+   }
+  },
+  {
+   "say": "But what about the experts? Surely professionals, who study the markets and the economy full time, can predict what will happen? A remarkable study followed thousands of expert predictions over nearly two decades. Its results were humbling.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: the experts."
+   }
+  }
+ ]
+}

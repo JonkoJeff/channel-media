@@ -1,0 +1,133 @@
+{
+ "id": "mn02_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In nineteen ninety four, a new hedge fund opened in the United States, called Long Term Capital Management. Its team was extraordinary. It included star traders from Wall Street, and two economists, Myron Scholes and Robert Merton, who would receive the Nobel prize in economics in nineteen ninety seven, for their work on how to value financial options.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "home_office_night",
+    "n": 2,
+    "title": "Too clever to fail"
+   }
+  },
+  {
+   "say": "The fund used sophisticated mathematical models to find tiny price differences between related investments, and bet that those differences would shrink. Each bet earned only a small amount. So to make big profits, the fund borrowed enormous sums of money, multiplying its bets many times over. This is called leverage.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_b02_office.jpg",
+    "cap": "The smartest people in the room"
+   }
+  },
+  {
+   "say": "And at first, it worked brilliantly. In its early years, the fund earned very high returns for its investors. The models seemed to work. The team seemed infallible. Banks were eager to lend to them, and investors were eager to join. Who could doubt a fund run by the people who had literally written the theory?",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "At first, it worked brilliantly."
+   }
+  },
+  {
+   "say": "But in nineteen ninety eight, the world did something the models hadn't expected. In August of that year, Russia defaulted on its debt. Panic spread through global markets. Investors rushed to the safest assets. And many of the price differences that the fund had bet would shrink, suddenly grew much wider instead.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Then the world surprised them."
+   }
+  },
+  {
+   "say": "Because the fund had borrowed so heavily, those moves caused enormous losses, very quickly. The fund lost most of its capital in a matter of months. And because it owed so much money to so many big banks, there were fears that its collapse could cause problems across the whole financial system.",
+   "show": {
+    "type": "char",
+    "sprite": "F15",
+    "bg": "home_office_night",
+    "cap": "Leverage multiplied the losses."
+   }
+  },
+  {
+   "say": "In September nineteen ninety eight, the Federal Reserve Bank of New York organized a meeting of major banks. Together, they agreed to put in about three point six billion dollars to take over the fund and unwind its positions slowly, to avoid wider chaos. The smartest fund in the world had to be rescued.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "The rescue of Long-Term Capital Management",
+    "where": "Organized by the Federal Reserve Bank of New York, September 1998",
+    "what": "A group of major banks agreed to put in about 3.6 billion dollars to take over the fund and wind down its positions in an orderly way."
+   }
+  },
+  {
+   "say": "So what went wrong? It wasn't a lack of intelligence. The models were sophisticated, and the people were brilliant. Many observers have pointed to a few deeper problems. Overconfidence in the models. Too much borrowing. And an assumption that the future would behave roughly like the past.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "What went wrong?"
+   }
+  },
+  {
+   "say": "Mathematical models are built on data from the past. They can estimate how likely different events are. But they can struggle with rare, extreme events, the kind that happen only once in many years. Those events may look nearly impossible in the data. Until they happen. And with high leverage, one rare event can be enough.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Rare events aren't impossible."
+   }
+  },
+  {
+   "say": "I think the deepest lesson of this story is about the combination of confidence and leverage. Confidence on its own can be harmless. Borrowing on its own can be managed. But when great confidence leads to great borrowing, a small error in judgment can become a catastrophe. The smarter you feel, the more you may be tempted to bet.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Confidence plus leverage."
+   }
+  },
+  {
+   "say": "This isn't only a lesson for hedge funds. Ordinary people can fall into similar patterns. Borrowing heavily to invest in something that feels certain. Assuming that what's been going up will keep going up. Building a plan that only works if nothing goes wrong. Leaving no room for surprises.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "For ordinary people too."
+   }
+  },
+  {
+   "say": "So perhaps the gentlest lesson from Long Term Capital Management is this. Leave room for the unexpected. Whatever your plans, assume that surprises will happen, and make sure you can survive them. A little humility, and a little slack, can protect you better than the cleverest model.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "Leave room for the unexpected."
+   }
+  },
+  {
+   "say": "So here's what the story of Long Term Capital Management teaches us. Brilliant people can still be badly wrong. Models built on the past can struggle with rare, extreme events. Great confidence combined with heavy borrowing multiplies risk. And leaving room for surprises is one of the wisest things we can do.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Lessons from a brilliant failure",
+    "items": [
+     "Brilliant people can still be badly wrong",
+     "Models struggle with rare, extreme events",
+     "Confidence plus borrowing multiplies risk",
+     "Leave room for surprises"
+    ]
+   }
+  },
+  {
+   "say": "But you don't need to run a hedge fund to be fooled by your own mind. Next, let's try a tiny puzzle. A question about a bat and a ball that has tripped up students at some of the best universities in the world. See if you can answer it before I explain.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: the bat and the ball."
+   }
+  }
+ ]
+}

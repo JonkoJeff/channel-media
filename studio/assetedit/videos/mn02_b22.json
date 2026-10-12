@@ -1,0 +1,124 @@
+{
+ "id": "mn02_b22",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine two investors. The first owns shares in Company A. She considers switching to Company B, but decides to stay. Later, she learns she would have been better off by a thousand euros if she had switched. The second investor owned shares in Company B, and switched to Company A. He also lost a thousand euros by switching. Who feels worse?",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "campfire_lake",
+    "n": 22,
+    "title": "The fear of regret"
+   }
+  },
+  {
+   "say": "Kahneman and Tversky described a scenario like this, and most people say the second investor feels worse. He took action, and it went wrong. The first investor simply stayed put. The outcomes are financially identical. But the regret feels different. Regret over actions we took often feels sharper, at least in the short term, than regret over things we didn't do.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_x7_road.jpg",
+    "cap": "The road you didn't take"
+   }
+  },
+  {
+   "say": "This leads to what's sometimes called regret aversion. We avoid decisions that might lead to regret. And since actions often feel more regrettable than inactions in the moment, regret aversion can push us toward doing nothing. Staying with the status quo. Avoiding change. Even when change would be wise.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Regret aversion."
+   }
+  },
+  {
+   "say": "But there's a fascinating twist. In nineteen ninety five, Thomas Gilovich and Victoria Husted Medvec reviewed research on regret over time. They found that in the short term, people tend to regret their actions more. But when people look back over their whole lives, they tend to regret their inactions more. The things they didn't do.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Thomas Gilovich & Victoria Husted Medvec",
+    "where": "Cornell University, published in Psychological Review, 1995",
+    "what": "A review of research, including interviews and surveys, on what people regret most when they look back over weeks versus over their whole lives."
+   }
+  },
+  {
+   "say": "The chances not taken. The courses not studied. The trips not made. The feelings not expressed. The opportunities not pursued. Over time, these regrets of inaction tend to grow, while regrets of action tend to fade. Partly because we can learn from mistakes we made, and find meaning in them. But the paths we never took stay forever open in our imagination.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Over a lifetime, inaction hurts more."
+   }
+  },
+  {
+   "say": "For money decisions, this suggests a gentle balance. In the moment, we might avoid action to protect ourselves from short term regret. But over a lifetime, never taking any financial step, never starting to save, never making a change, may be what we regret most. Waiting forever for the perfect moment can quietly cost us.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "What this means for money."
+   }
+  },
+  {
+   "say": "One helpful exercise is to imagine yourself much older, looking back. Which choice would you regret more? Trying something and having it not work out? Or never trying at all? For many decisions, especially sensible ones like starting to save, the older you would likely regret not acting.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Anticipate the right regret."
+   }
+  },
+  {
+   "say": "Regret aversion also shows up in investing. Some people avoid investing at all, for fear of buying at the wrong moment and regretting it. Others hold on to losing investments, because selling would make the regret concrete. In both cases, the fear of regret, rather than clear thinking, is steering the choice.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Regret and investing."
+   }
+  },
+  {
+   "say": "One way to soften regret aversion is to take smaller steps. Instead of making one big decision all at once, spread it out. Many people find that gradual approaches, like investing a little each month, reduce the fear of choosing the wrong moment. If one step goes badly, it's only one step.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Small steps reduce regret."
+   }
+  },
+  {
+   "say": "And when regret does come, as it will sometimes, it can be held gently. Regret means you cared. It means you can learn. It's not proof that you're foolish. Everyone who has ever made a decision has known regret. The goal isn't to never feel it. It's to let it guide you, without letting it freeze you.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "campfire_lake",
+    "cap": "Regret is a teacher."
+   }
+  },
+  {
+   "say": "So here's what research on regret teaches us. In the short term, regrets over actions feel sharper. But over a lifetime, people tend to regret what they didn't do. Fear of regret can keep us stuck in the status quo. And small, gradual steps can soften that fear, helping us act without needing to be perfect.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "The fear of regret",
+    "items": [
+     "Short-term, actions feel more regrettable",
+     "Over a lifetime, inactions are regretted more",
+     "Fear of regret can keep us stuck",
+     "Small, gradual steps soften the fear"
+    ]
+   }
+  },
+  {
+   "say": "And there's a clever technique that can help us catch mistakes before we make them, without being paralyzed by fear. Instead of imagining success, we imagine failure. It sounds gloomy, but researchers have found it can make plans much stronger. Let's look at the premortem next.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: imagining the failure."
+   }
+  }
+ ]
+}

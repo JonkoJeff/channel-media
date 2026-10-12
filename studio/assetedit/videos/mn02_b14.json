@@ -1,0 +1,131 @@
+{
+ "id": "mn02_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think about the last time you made a money decision while feeling strongly. Maybe you bought something on a whim because you were excited. Or sold something quickly because you were scared. Or agreed to a deal because you were tired and just wanted it over with. Emotions and money are deeply intertwined.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "home_office_night",
+    "n": 14,
+    "title": "Emotions and money"
+   }
+  },
+  {
+   "say": "For a long time, economists modeled people as purely rational decision makers. Calculating costs and benefits, without feelings. But research in psychology and neuroscience has shown that emotions are involved in almost every decision we make. Not just as a disturbance, but as a crucial part of how we choose.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_b14_storm.jpg",
+    "cap": "Decisions made in a storm"
+   }
+  },
+  {
+   "say": "The neuroscientist Antonio Damasio studied patients with damage to parts of the brain involved in emotion. Some of them could reason perfectly well about a problem, but struggled to make even simple everyday decisions. Damasio argued that emotions help us weigh options, and that without them, decision making can become surprisingly difficult.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Emotion is necessary."
+   }
+  },
+  {
+   "say": "At the same time, emotions can lead us astray. Psychologists like Paul Slovic described what's called the affect heuristic. We often judge risks and benefits based on how we feel about something. If we like an investment or a company, we tend to see it as both less risky and more beneficial. If we feel bad about it, the opposite.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "The affect heuristic."
+   }
+  },
+  {
+   "say": "Different emotions push us in different directions. Research by Jennifer Lerner and colleagues has suggested that fear tends to make people see more risk and act more cautiously, while anger tends to make people feel more certain and in control, and take more risks. Two negative emotions, two very different effects on our choices.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Fear and anger differ."
+   }
+  },
+  {
+   "say": "Sadness can affect money too. In one set of studies, Lerner and colleagues found that people who were feeling sad tended to be willing to pay more for an item than people in a neutral mood. One interpretation is that, when we're sad, buying something can feel like a way to change our situation. Sometimes called retail therapy.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Sadness and spending."
+   }
+  },
+  {
+   "say": "What's especially tricky is that emotions from one situation can carry over into unrelated decisions. A frustrating day at work can affect how you respond to a sales offer in the evening. The sadness from a film can affect what you buy afterwards. Psychologists call these incidental emotions. Feelings that have nothing to do with the decision, yet still shape it.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Carry-over emotions."
+   }
+  },
+  {
+   "say": "George Loewenstein has written about what he calls hot and cold states. When we're calm, in a cold state, we find it hard to imagine how we'll behave when we're excited, hungry, angry or afraid. So we underestimate how much those hot states will influence us. We plan in a cold state, and then act in a hot one.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Hot and cold states."
+   }
+  },
+  {
+   "say": "Intelligence doesn't switch off emotions. Brilliant people feel fear during a market crash, excitement during a boom, and frustration after a loss, just like anyone else. And they may be even better at finding rational sounding reasons for decisions that are, underneath, driven by feelings.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Smart people feel too."
+   }
+  },
+  {
+   "say": "So what can we do? One simple step is to notice and name the feeling before a money decision. Am I excited right now? Anxious? Angry? Sad? Tired? Just noticing can create a little space between the feeling and the action. And in that space, a wiser choice becomes possible.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Name the feeling."
+   }
+  },
+  {
+   "say": "Another step is a cooling off period. Many countries require cooling off periods for certain purchases, like some contracts signed at home, so people can reconsider. You can create your own. Wait a day, or a week, before big or emotional money decisions. Let the hot state cool, and see if the choice still feels right.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "home_office_night",
+    "cap": "Cooling off."
+   }
+  },
+  {
+   "say": "So here's what we've learned about emotions and money. Emotions are part of every decision, and that's not a flaw. Different emotions, like fear and anger, push us in different directions. Feelings from unrelated situations can carry over into money choices. And naming the feeling, then allowing a cooling off period, can help us choose more wisely.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Emotions and money",
+    "items": [
+     "Emotions are part of every decision",
+     "Fear and anger push in different directions",
+     "Unrelated feelings can carry over",
+     "Name the feeling, then cool off"
+    ]
+   }
+  },
+  {
+   "say": "And to see that nobody is immune, let's look at some famous money mistakes made by people who are widely considered among the best investors in the world. Including one that Warren Buffett himself has called his worst.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: famous mistakes."
+   }
+  }
+ ]
+}

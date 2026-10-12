@@ -1,0 +1,142 @@
+{
+ "id": "mn02_b25",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Pilots use checklists before every flight. Surgeons use checklists before operations. Not because they're inexperienced, but because even experts forget things under pressure. The surgeon and writer Atul Gawande described in his book The Checklist Manifesto how simple checklists helped reduce errors in hospitals around the world.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "n": 25,
+    "title": "A calmer decision process"
+   }
+  },
+  {
+   "say": "In a study he and colleagues published in two thousand and nine, a short surgical safety checklist was introduced in hospitals in several countries. And it was associated with a substantial reduction in complications and deaths after surgery. A simple list of questions, asked at the right moments, made skilled professionals even better.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_b18_checklist.jpg",
+    "cap": "A simple checklist for big choices"
+   }
+  },
+  {
+   "say": "So tonight, let's build a gentle checklist for important money decisions. Not a rigid rule book. Just a few questions that bring together everything we've learned, so that the smart, but very human, mind has a little support when it matters most.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "A checklist for money."
+   }
+  },
+  {
+   "say": "The first question is, what am I feeling right now? Excited, afraid, angry, sad, tired? Name it. If the feeling is strong, consider a cooling off period. Big money decisions are rarely urgent, even when they feel that way.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Question one: what am I feeling?"
+   }
+  },
+  {
+   "say": "The second question comes from the bat and the ball. Wait, is that right? Check the numbers. Read the small print. Calculate the total cost, including fees and interest. Don't let a quick, intuitive answer go unchecked.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Question two: is that right?"
+   }
+  },
+  {
+   "say": "The third question is about base rates. How often does this kind of thing usually work out? Start with the outside view. Then adjust for the details. Be especially careful when the specific story is exciting and the general odds are poor.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Question three: how often does this work?"
+   }
+  },
+  {
+   "say": "The fourth question is the premortem. Imagine it's a year from now, and this decision went badly. Why? Write down the reasons. Then ask, can I prepare for these? Can I survive them if they happen?",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Question four: how could this fail?"
+   }
+  },
+  {
+   "say": "The fifth question is about crowds and stories. Am I doing this because everyone else is? Because of a confident expert, or an exciting success story? Where's the graveyard? What would the planes that didn't come back tell me?",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Question five: am I following the crowd?"
+   }
+  },
+  {
+   "say": "The sixth question is about the past. Am I influenced by money already spent, or by an old money story from my past? Would I make this choice if I were starting fresh today?",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Question six: is the past steering me?"
+   }
+  },
+  {
+   "say": "The seventh question comes from Long Term Capital Management. How much leverage, or borrowing, is involved? Can I survive if things go wrong? Is there room for surprises?",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Question seven: how much am I borrowing?"
+   }
+  },
+  {
+   "say": "And the eighth question is perhaps the simplest of all. If a good friend were making this decision, what would I advise them? We're often wiser for others than for ourselves, because we're not caught up in our own emotions, pride and stories.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Question eight: what would I tell a friend?"
+   }
+  },
+  {
+   "say": "Of course, you don't need a checklist for buying a sandwich. Save it for the decisions that really matter. A large purchase, a big investment, a loan, a job change, a business idea. Those moments deserve a little extra care. And a few minutes with these questions can save years of regret.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "cap": "Not every decision needs it."
+   }
+  },
+  {
+   "say": "So here's the calm money checklist. What am I feeling? Wait, is that right? How often does this usually work? How could this fail? Am I following the crowd? Is the past steering me? How much am I borrowing? And what would I tell a good friend?",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "A calm money checklist",
+    "items": [
+     "What am I feeling?",
+     "Wait, is that right?",
+     "How often does this work?",
+     "How could this fail?",
+     "Am I following the crowd?",
+     "What would I tell a friend?"
+    ]
+   }
+  },
+  {
+   "say": "Before we finish, there's one more trap worth knowing about. It doesn't involve a single big decision at all. It happens slowly, almost invisibly, as our income grows. Let's look at lifestyle creep.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: the quiet creep."
+   }
+  }
+ ]
+}

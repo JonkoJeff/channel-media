@@ -1,0 +1,135 @@
+{
+ "id": "mn02_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You've probably heard of the Dunning Kruger effect. It's often summarized as, the less people know, the more confident they are. It's quoted in jokes, articles and arguments all over the internet. But what did the original research actually find? The real story is a little more nuanced, and more interesting.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "n": 5,
+    "title": "The less we know"
+   }
+  },
+  {
+   "say": "In nineteen ninety nine, two psychologists at Cornell University, Justin Kruger and David Dunning, published a paper with a long title. Unskilled and unaware of it. Students took tests of skills like logical reasoning, grammar and judging humor. Afterwards, they estimated how well they had done compared with the other students.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Justin Kruger & David Dunning",
+    "where": "Cornell University, published in the Journal of Personality and Social Psychology, 1999",
+    "what": "Students took tests of humor, grammar and logic, then estimated how well they had done compared with other students."
+   }
+  },
+  {
+   "say": "The students who scored lowest, the bottom quarter, greatly overestimated their performance. In the logical reasoning test, for example, they actually scored around the twelfth percentile on average, meaning they did better than only about twelve percent of their peers. But they estimated, on average, that they had done better than about sixty two percent of them.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "The bottom group overestimated."
+   }
+  },
+  {
+   "say": "That's a big gap. Their actual performance was near the bottom. Their estimate was above the middle. Dunning and Kruger suggested a reason. The skills you need to do a task well are often the same skills you need to recognize whether you've done it well. If you lack the skills, you may also lack the ability to see your mistakes.",
+   "show": {
+    "type": "stat",
+    "sprite": "F13",
+    "bg": "money_board",
+    "title": "Bottom-quarter students on a logic test",
+    "big": "12th → 62nd",
+    "label": "actual percentile versus their own estimate, on average"
+   }
+  },
+  {
+   "say": "And the top performers? Interestingly, they tended to slightly underestimate their relative performance. Not because they doubted their own answers, but because they assumed other people found the test as easy as they did. They overestimated everyone else.",
+   "show": {
+    "type": "photo",
+    "file": "mn02_b05_hill.jpg",
+    "cap": "Not knowing what you don't know"
+   }
+  },
+  {
+   "say": "It's important to note that this research has been debated. Some researchers have argued that part of the pattern can be explained by statistical effects, and by the general tendency of most people to rate themselves as above average. The effect is real in many settings, but it's not as simple as dumb people think they're smart.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "A nuanced picture."
+   }
+  },
+  {
+   "say": "So what does this mean for money? In areas like investing, taxes, insurance or contracts, it's easy not to know what you don't know. A beginner investor may not realize how many factors they haven't considered. Someone reading one article about a topic may feel like an expert. The less we've explored, the smaller the field seems.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Money and the unknown unknowns."
+   }
+  },
+  {
+   "say": "And here's where smart people can stumble. Expertise in one area doesn't transfer automatically to another. A brilliant surgeon, engineer or lawyer may feel confident about investing, because they're used to being competent. But being excellent at medicine doesn't make someone excellent at picking stocks. Confidence travels more easily than skill.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Expertise is domain-specific."
+   }
+  },
+  {
+   "say": "There's a lovely pattern often described in learning. When you start learning about something, your confidence may first rise quickly. Then, as you discover how complex it really is, your confidence drops. And only slowly, with real experience, does it rise again, this time on firmer ground. Feeling uncertain can be a sign of progress.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Learning reveals the gaps."
+   }
+  },
+  {
+   "say": "So a little humility is a powerful financial tool. Asking, what might I be missing? Seeking a second opinion from someone who knows the area well. Reading from sources that disagree with you. Being especially careful when you feel very sure about something you've only just learned.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Humility as a tool."
+   }
+  },
+  {
+   "say": "And it's perfectly okay not to know. Nobody can be an expert in everything. One of the wisest things anyone can say about money is, I'm not sure, let me find out. Or, this is outside my expertise. Those sentences have saved many people from expensive mistakes.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "cap": "Not knowing is okay."
+   }
+  },
+  {
+   "say": "So here's what the Dunning Kruger research suggests. The weakest performers tended to overestimate themselves the most. The skills to do something and to judge it are often linked. Expertise in one field doesn't automatically transfer to money. And asking, what might I be missing, is a quietly powerful habit.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "The less we know",
+    "items": [
+     "The weakest performers overestimated most",
+     "Skills to do and to judge are linked",
+     "Expertise doesn't transfer automatically",
+     "Ask: what might I be missing?"
+    ]
+   }
+  },
+  {
+   "say": "And sometimes, instead of trusting our own judgment too much, we do the opposite. We abandon it, and follow everyone else. Even when what everyone else is doing is plainly wrong. A classic experiment with lines on a card showed just how strong that pull can be.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: following the crowd."
+   }
+  }
+ ]
+}

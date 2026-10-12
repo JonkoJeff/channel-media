@@ -176,3 +176,8 @@ SCOPE (owner): the machine does ONLY write script -> narration -> render -> QC -
 
 ## TOKEN RULES (owner, 12 Oct 2026)
 Only these recurring jobs exist: the daily channel-machine task. Disabled: hourly hub+Gmail check, 8-hourly trend study, hub/trend schedules in Actions. One model call per script; no re-reading of finished work; no re-running successful stages; keep chat output minimal; rendering and posting run in GitHub Actions (no tokens).
+
+## RELIGION: scripts from ChatGPT (owner, 12 Oct 2026)
+- Order = `studio/channels/religion/episode_list.md` (1-10 Bible, 11-20 Christianity, 21-30 Quran; Hindu/Buddhism 301-310 is a separate series, thumbs ready). Scripts are written by the owner via ChatGPT in `studio/channels/religion/stories/NN.txt` (format: stories/FORMAT.md). The machine does NOT write or rewrite scripts: it only parses, voices, renders, checks, publishes.
+- Length ~1 hour per video, 4 Shorts per video (from the SHORTS header), posted via key 2 like the long video. Thumbnail = thumbs file with the same number (01-10 bible_*, Q01-Q10 for 21-30, 301-310). Missing thumb or script -> one-line report, skip.
+- PRIORITY: Belief Through Time comes first. If tokens run short, Money at Night is cut first (fewer/shorter videos), then Crazy Facts; never Belief Through Time.

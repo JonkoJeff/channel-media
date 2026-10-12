@@ -34,22 +34,25 @@ for chd in ["studio/assetedit"] + [os.path.join("studio/channels", c) for c in o
                 print(f"::warning::AI image {p['file']}: {type(e).__name__}: {str(e)[:200]} {body}")
             if os.path.exists(os.path.join(out, p["file"])): continue
         if p.get("ai"):  # AI failed or daily quota used up -> free-licensed photo from Openverse for the same idea
-            p = dict(p, query=" ".join(w for w in p["ai"].split(",")[0].split()[:7] if w.lower() not in ("a", "an", "the", "with", "of", "in", "on")))
-        q = urllib.parse.urlencode({"q": p["query"], "license": "cc0,pdm,by,by-sa", "license_type": "commercial,modification",
-                                    "page_size": 20, "mature": "false"})
-        try:
-            res = json.loads(get("https://api.openverse.org/v1/images/?" + q))["results"]
-            print(f"::notice::'{p['query']}': {len(res)} results")
-            res = sorted(res, key=lambda r: -((r.get("width") or 0) >= 1600))
-            for r in res:
-                try:
-                    data = get(r["url"])
-                    if len(data) < 50000: continue
-                    open(os.path.join(out, p["file"]), "wb").write(data)
-                    credits[p["file"]] = {"title": r.get("title"), "creator": r.get("creator"), "license": f'{r["license"].upper()} {r.get("license_version") or ""}'.strip(),
-                                          "license_url": r.get("license_url"), "source": r.get("foreign_landing_url"), "provider": r.get("source")}
-                    print("ok", p["file"], r.get("source"), r["license"]); break
-                except Exception as e: print(f"::notice::skip {r.get('source')}: {str(e)[:80]}")
-            else: print(f"::warning::no usable photo for '{p['query']}'")
-        except Exception as e: print(f"::warning::{p['query']}: {e}")
+            ws = [w for w in p["ai"].split(",")[0].split() if w.lower() not in ("a", "an", "the", "with", "of", "in", "on", "at", "and", "to", "by", "single", "small", "large", "old", "quiet", "softly", "lit", "empty", "cozy")]
+            p = dict(p, queries=[" ".join(ws[:5]), " ".join(ws[:3]), " ".join(ws[:2]), ws[0] if ws else "night"])
+        for qq in p.get("queries", [p.get("query")]):
+          q = urllib.parse.urlencode({"q": qq, "license": "cc0,pdm,by,by-sa", "license_type": "commercial,modification",
+                                      "page_size": 20, "mature": "false"})
+          try:
+              res = json.loads(get("https://api.openverse.org/v1/images/?" + q))["results"]
+              print(f"::notice::'{qq}': {len(res)} results")
+              res = sorted(res, key=lambda r: -((r.get("width") or 0) >= 1600))
+              for r in res:
+                  try:
+                      data = get(r["url"])
+                      if len(data) < 50000: continue
+                      open(os.path.join(out, p["file"]), "wb").write(data)
+                      credits[p["file"]] = {"title": r.get("title"), "creator": r.get("creator"), "license": f'{r["license"].upper()} {r.get("license_version") or ""}'.strip(),
+                                            "license_url": r.get("license_url"), "source": r.get("foreign_landing_url"), "provider": r.get("source")}
+                      print("ok", p["file"], r.get("source"), r["license"]); break
+                  except Exception as e: print(f"::notice::skip {r.get('source')}: {str(e)[:80]}")
+              else: print(f"::warning::no usable photo for '{qq}'"); continue
+              break
+          except Exception as e: print(f"::warning::{qq}: {e}")
     json.dump(credits, open(cpath, "w"), indent=1)

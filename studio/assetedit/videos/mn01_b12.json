@@ -17,8 +17,9 @@
   {
    "say": "Our sense of whether a price is high or low is surprisingly flexible. We rarely know what something is truly worth. So we compare. And the first number we see often becomes a reference point, an anchor, that pulls our judgment toward it. This is called anchoring, and it's one of the most studied effects in psychology.",
    "show": {
-    "type": "photo",
-    "file": "mn01_b12_shop.jpg",
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
     "cap": "Which coat did you see first?"
    }
   },

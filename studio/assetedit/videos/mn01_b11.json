@@ -17,8 +17,9 @@
   {
    "say": "Paying with cash often feels a little uncomfortable. You see the money leaving. Your wallet gets thinner. Paying by card or phone is smoother, almost painless. Researchers have a name for that small discomfort. The pain of paying. And it turns out it may influence how much we're willing to spend.",
    "show": {
-    "type": "photo",
-    "file": "mn01_b11_card.jpg",
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
     "cap": "Cash, or a quick tap?"
    }
   },

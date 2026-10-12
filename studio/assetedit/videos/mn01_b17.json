@@ -17,8 +17,9 @@
   {
    "say": "Think of two watches. Both tell the time perfectly. One costs fifty euros. The other costs fifty thousand. Part of what the expensive one offers is craftsmanship and beauty. But part of it, for many buyers, is what it says about the person wearing it. It's a signal.",
    "show": {
-    "type": "photo",
-    "file": "mn01_x2_watch.jpg",
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
     "cap": "Two watches. Both tell the time."
    }
   },

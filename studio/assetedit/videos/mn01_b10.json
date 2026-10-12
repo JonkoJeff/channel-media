@@ -17,8 +17,9 @@
   {
    "say": "The economist Richard Thaler called this mental accounting. The way we sort money into different mental categories, or jars, and treat it differently depending on which jar it's in. Money for rent. Money for groceries. Money for fun. Holiday money. Found money. Each jar comes with its own unwritten rules.",
    "show": {
-    "type": "photo",
-    "file": "mn01_b10_jars.jpg",
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
     "cap": "Holiday money, rent money, fun money"
    }
   },

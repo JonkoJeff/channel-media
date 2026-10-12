@@ -17,8 +17,9 @@
   {
    "say": "The gold standard gave people a sense of security. Money wasn't just paper. It was a claim on something solid, shiny and rare. Governments couldn't simply print as much money as they liked, because they needed gold to back it. That limited inflation, but it also made the money supply rigid.",
    "show": {
-    "type": "photo",
-    "file": "mn01_b05_vault.jpg",
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
     "cap": "Gold in the vault, paper in your pocket"
    }
   },

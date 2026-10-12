@@ -17,8 +17,9 @@
   {
    "say": "Many people know this feeling. Money worries often seem to visit at night. And there are some understandable reasons why. At night, there are no distractions. No work, no conversations, nothing to do. The mind, left alone, tends to drift toward unfinished business. And money is often unfinished business.",
    "show": {
-    "type": "photo",
-    "file": "mn01_x4_window.jpg",
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
     "cap": "Why worries grow in the dark"
    }
   },

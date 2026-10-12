@@ -26,8 +26,9 @@
   {
    "say": "Psychologists call this probability weighting. Our minds don't treat chances in a straight line. We give extra weight to small chances, and slightly less weight to things that are very likely, but not certain. The jump from impossible to possible feels huge. And the jump from almost certain to certain feels huge too.",
    "show": {
-    "type": "photo",
-    "file": "mn01_x1_dice.jpg",
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
     "cap": "It could happen. Couldn't it?"
    }
   },

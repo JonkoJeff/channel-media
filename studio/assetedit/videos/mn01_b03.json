@@ -17,8 +17,9 @@
   {
    "say": "These first coins weren't round and perfect like the ones in your pocket. They were small, lumpy pieces of metal, stamped with a mark. Often an image, like the head of a lion. That stamp was the important part. It said, this piece has a known weight and value, guaranteed by an authority.",
    "show": {
-    "type": "photo",
-    "file": "mn01_b03_coins.jpg",
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
     "cap": "Small, lumpy, and revolutionary"
    }
   },

@@ -1,8 +1,6 @@
 name: trend-scan
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '15 5,13,21 * * *'
 permissions:
   contents: write
 concurrency: trend-scan

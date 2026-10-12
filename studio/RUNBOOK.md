@@ -163,3 +163,16 @@ Every character is its own "show": own voice (Kokoro, all tested 12 Oct), own pa
 | Money at Night | Bearded sweater (BS) | bm_lewis 0.92 | study/lecture, quote and study cards, euro motifs | khaki + navy, serif text |
 | (on hold, API) | Pip cloud (own channel) | bm_fable 0.85 | very slow, dusk palette | indigo + star yellow |
 Sheets are cut by silhouette with `assetedit/cutsheet.py` and registered with `assetedit/register.py` (emotion tags by owner review); baked-scene poses are not registered. Allowed pairs follow the emotion lists of the backgrounds. 4x upscale via the `upscale` workflow into `assets_hd`.
+
+## RELIGION UNFOLDED (owner, 12 Oct 2026) - channel "religion", 3rd channel, own Zernio account (secret ZERNIO_API_KEY_2, alias ZERNO_API_KEY_2)
+The Pip/mythology channel concept is CANCELLED. This channel replaces it. YouTube shows the channel as "Belief Through Time" (@BeliefThroughTime) with Religion Unfolded art; owner decides the name.
+SCOPE (owner): the machine does ONLY write script -> narration -> render -> QC -> publish/schedule (plus minimal code fixes to unblock). No hub, no stats, no trend study, no new concepts, no thumbnail work, no brainstorming. Strategy of Crazy Facts and Money at Night is unchanged.
+- Source of truth: the owner's approved stories/titles/thumbnails of the first 30 episodes. Thumbnails are in `studio/channels/religion/thumbs/` (bible_01..10, 301..310, Q01..Q10 = Quran backlog). Stories are NOT in the repo yet: if the story for an episode is missing, report it in one line and skip (never invent).
+- Order is fixed: Christianity (101-110), episodes 201-210, Hindu epics/Buddhism (301-310). Never repeat a finished episode. Quran Q01-Q10 are backlog: do not research/script/render before their turn.
+- Video JSON: `"channel": "religion"`; default 15 min (~130 wpm, real length x1.105 rule applies). One narrator, one voice for all episodes: bm_lewis 0.92 (Kokoro, tested), light compression, -16 LUFS, peaks <= -1 dBTP, soft ending.
+- Style: dark navy/black + gold, slow zooms/pans, maps, dates, minimal text, licensed sources only (Wikimedia, Met, Smithsonian, Rijksmuseum, LoC), attribution saved in the video JSON "sources". Never depict Prophet Muhammad. AI-narration and synthetic-media disclosure on.
+- Posting: `zernio.yml cmd=post` (the script picks key 2 for channel religion). First run once: cmd=accounts a=2 to store the account id. Schedule per the owner's existing schedule; never change privacy/time without owner.
+- Reply format after a job: Episode / Script / Narration / Render / Publishing / Video URL / Token usage / Est. cost, nothing else.
+
+## TOKEN RULES (owner, 12 Oct 2026)
+Only these recurring jobs exist: the daily channel-machine task. Disabled: hourly hub+Gmail check, 8-hourly trend study, hub/trend schedules in Actions. One model call per script; no re-reading of finished work; no re-running successful stages; keep chat output minimal; rendering and posting run in GitHub Actions (no tokens).

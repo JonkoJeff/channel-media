@@ -5,7 +5,7 @@
   python3 studio/yt/zernio.py shorts lfNN 2026-10-13         -> schedules all Shorts of lfNN, 3 a day (09:00, 13:00, 21:00) from that date
 The YouTube account id and playlist ids live in studio/yt/zernio.json (not secret)."""
 import json, os, sys, urllib.request
-API = "https://zernio.com/api/v1"; KEY = os.environ["ZERNIO_API_KEY"]
+API = "https://zernio.com/api/v1"; KEY = os.environ["ZERNIO_API_KEY"]; KEY2 = os.environ.get("ZERNIO_API_KEY_2", "")  # KEY2 = second Zernio account (channel "religion")
 D = os.path.dirname(os.path.abspath(__file__)); CFG = os.path.join(D, "zernio.json"); R = os.path.join(D, "..", "renders")
 cfg = json.load(open(CFG)) if os.path.exists(CFG) else {}
 
@@ -25,12 +25,19 @@ def call(method, path, body=None):
 def save(): json.dump(cfg, open(CFG, "w"), indent=1)
 
 
-def yt_account(ch="crazyfacts"):  # channel key: crazyfacts (default) or moneyatnight
+def yt_account(ch="crazyfacts"):  # channel key: crazyfacts (default), moneyatnight or religion (own Zernio account / key)
+    global KEY
+    if ch == "religion": KEY = KEY2 or sys.exit("::error::ZERNIO_API_KEY_2 missing")
     return cfg.get("youtube", {}).get(ch) or sys.exit(f"::error::no YouTube account for {ch} in zernio.json; run 'accounts' after connecting it in Zernio")
 
 
 cmd = sys.argv[1]
-if cmd == "accounts":
+if cmd == "accounts" and sys.argv[2:3] == ["2"]:   # second Zernio account (Religion Unfolded)
+    KEY = KEY2 or sys.exit("::error::ZERNIO_API_KEY_2 missing"); _, a = call("GET", "/accounts"); acc = a.get("accounts", a if isinstance(a, list) else [])
+    yt = [x for x in acc if x.get("platform") == "youtube"]
+    if yt: cfg.setdefault("youtube", {})["religion"] = yt[0].get("_id") or yt[0].get("id"); save()
+    print(f"::notice::Zernio account 2: {len(acc)} accounts, {len(yt)} youtube")
+elif cmd == "accounts":
     _, a = call("GET", "/accounts"); acc = a.get("accounts", a if isinstance(a, list) else [])
     cfg["accounts"] = [{k: x.get(k) for k in ("_id", "id", "platform", "username", "displayName", "name")} for x in acc]
     yt = [x for x in cfg["accounts"] if x["platform"] == "youtube"]
@@ -40,6 +47,7 @@ elif cmd == "playlist":   # a = "Title|Title2" (prefix "moneyatnight:" for Money
     for t in sys.argv[2].split("|"):
         ch, _, title = t.rpartition(":") if ":" in t else ("crazyfacts", "", t)
         if title in cfg.get("playlists", {}): continue
+        yt_account(ch)
         _, p = call("POST", f"/accounts/{yt_account(ch)}/youtube-playlists", {"title": title, "description": sys.argv[3] if len(sys.argv) > 3 else "", "privacy": "public"})
         cfg.setdefault("playlists", {})[title] = p["playlist"]["id"]; save(); print(f"::notice::playlist {title} = {p['playlist']['id']}")
 elif cmd == "shorts":
@@ -52,7 +60,7 @@ elif cmd == "shorts":
     plid = cfg.get("playlists", {}).get("Money Shorts" if ch == "moneyatnight" else "Psychology Shorts")
     for sid, url in sorted(res.get("shorts", {}).items()):
         if sid in done: continue
-        m = meta.get(sid, {}); f = f"/tmp/{sid}.mp4"; urllib.request.urlretrieve(url, f)
+        yt_account(ch); m = meta.get(sid, {}); f = f"/tmp/{sid}.mp4"; urllib.request.urlretrieve(url, f)
         _, ps = call("POST", "/media/presign", {"filename": sid + ".mp4", "contentType": "video/mp4", "size": os.path.getsize(f)})
         urllib.request.urlopen(urllib.request.Request(ps["uploadUrl"], data=open(f, "rb").read(), method="PUT", headers={"Content-Type": "video/mp4"}), timeout=600).read()
         when = f"{day + dt.timedelta(days=n // len(slots))}T{slots[n % len(slots)]}"
@@ -76,7 +84,7 @@ elif cmd == "reschedule":  # a = post id, b = local time YYYY-MM-DDTHH:MM
 elif cmd == "post":
     vid, when = sys.argv[2], sys.argv[3]
     v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); res = json.load(open(os.path.join(R, vid, "result.json")))
-    mp4 = sys.argv[4] if len(sys.argv) > 4 else f"/tmp/{vid}.mp4"   # the workflow downloads the release asset here
+    yt_account(v.get("channel", "crazyfacts")); mp4 = sys.argv[4] if len(sys.argv) > 4 else f"/tmp/{vid}.mp4"   # the workflow downloads the release asset here
     _, ps = call("POST", "/media/presign", {"filename": vid + ".mp4", "contentType": "video/mp4", "size": os.path.getsize(mp4)})
     for attempt in (1, 2, 3):   # big files (1.4 GB at 1080p) can drop mid-upload: retry, and say why in the annotation
         try:

@@ -1,8 +1,6 @@
 name: hub-stats
 # Every 15 min: fresh YouTube numbers (YouTube Data API, ~3 quota units per run) -> studio/yt/status.json + hub/data.json for the screen hub.
 on:
-  schedule:
-    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
 permissions:
   contents: write

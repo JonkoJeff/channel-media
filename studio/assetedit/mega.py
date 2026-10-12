@@ -2,7 +2,8 @@
 videos/<id>.json = {"id", "title", "desc", "tags", "sources", "thumb", "parts": ["<id>_p01", ...]}; each part is a normal
 video JSON with "part": true (first segment of every part is a `chapter`; part 1 opens with the hook, the last part ends with `end`).
 Usage: python3 mega.py videos/<id>.json  -> renders/<id>.mp4 (+ _thumb.png, _description.txt, _frames/*.jpg)
-Size: without studio/yt/APPROVED the file must fit Metricool (500 MB) -> 720p at a computed bitrate; with it -> 1080p CRF 21."""
+Size: default = Zernio route (verified 12 Oct 2026): one fast 1080p pass, bitrate capped so 2.5 h stays < 1.5 GB.
+METRICOOL=1 -> must fit Metricool (500 MB): 2-pass 720p at a computed bitrate. studio/yt/APPROVED -> 1080p CRF 21."""
 import json, os, subprocess, sys
 import longform as L
 v = json.load(open(sys.argv[1])); R = os.path.join(L.HERE, "renders"); out = os.path.join(R, v["id"] + ".mp4")
@@ -19,6 +20,10 @@ src = ["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i",
 if approved:
     subprocess.run([*src, "-c:v", "libx264", "-preset", "medium", "-tune", "animation", "-crf", "21", "-pix_fmt", "yuv420p",
                     "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out], check=True)
+elif not os.environ.get("METRICOOL"):  # Zernio (max 5 GB): single pass, ~4x faster than the 2-pass route
+    subprocess.run([*src, "-c:v", "libx264", "-preset", "veryfast", "-tune", "animation", "-crf", "23", "-maxrate", "1200k", "-bufsize", "2400k",
+                    "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", out], check=True)
+    approved = True  # skip the Metricool size check below
 else:  # Metricool takes max 500 MB: 2-pass 720p at the bitrate that fits (tested: still sharp at ~330 kbps for this style)
     kbps = min(int(470 * 8 * 1024 / total) - 96, 4000)
     enc = ["-vf", "scale=1280:720", "-c:v", "libx264", "-preset", "slow", "-tune", "animation", "-b:v", f"{kbps}k", "-pix_fmt", "yuv420p", "-passlogfile", out[:-4] + "_2pass"]

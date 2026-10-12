@@ -1,0 +1,24 @@
+name: zernio
+on:
+  workflow_dispatch:
+    inputs:
+      cmd: {description: "accounts | playlist | post", required: true, default: accounts}
+      a: {description: "post: video id (lf08) / playlist: title", required: false}
+      b: {description: "post: local time 2026-10-13T17:00 / playlist: description", required: false}
+permissions:
+  contents: write
+concurrency: zernio
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - if: inputs.cmd == 'post'
+        run: curl -sSL -o /tmp/${{ inputs.a }}.mp4 https://github.com/${{ github.repository }}/releases/download/${{ inputs.a }}/${{ inputs.a }}.mp4
+      - run: python3 studio/yt/zernio.py "${{ inputs.cmd }}" "${{ inputs.a }}" "${{ inputs.b }}"
+        env:
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+      - run: |
+          git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
+          git add studio/yt/zernio.json && git add -f studio/renders/*/result.json
+          git commit -qm "zernio ${{ inputs.cmd }} ${{ inputs.a }} [skip ci]" && git pull -q --rebase && git push || true

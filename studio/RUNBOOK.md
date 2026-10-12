@@ -110,3 +110,10 @@ Say what was scheduled (titles and dates), which parts of the video in progress 
 - Reuse a script and only swap the topic (YouTube's "inauthentic content" rule).
 - Remove the AI disclosure.
 - Use copyrighted music or clips, or quote song lyrics.
+
+## Zernio route (replaces Metricool for long videos once it works)
+- Secret `ZERNIO_API_KEY` in GitHub (never in the repo or chat). The workspace cannot reach zernio.com; everything runs via `.github/workflows/zernio.yml`.
+- Once: `cmd=accounts` (stores the YouTube accountId in `studio/yt/zernio.json`), then `cmd=playlist a="Title" b="description"` per playlist.
+- Each video JSON has `playlists` (first one is used when posting). Playlists: Your Brain, Explained · Sleep & Your Brain · Everyday Psychology · Memory & Mind Tricks · Fall Asleep Learning.
+- Schedule: `cmd=post a=lfNN b=YYYY-MM-DDT17:00` (local time). Writes `zernio_id` to result.json. Up to 5 GB, so 1080p is possible later.
+- Until the first Zernio post has been verified as public on YouTube, keep scheduling via Metricool (B5).

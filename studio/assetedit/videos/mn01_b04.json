@@ -1,0 +1,131 @@
+{
+ "id": "mn01_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Picture a merchant in China, about a thousand years ago, carrying strings of heavy iron or copper coins. Large payments meant carrying a lot of metal. It was tiring, slow and risky. So merchants began leaving their coins with trusted shops, and receiving paper receipts in return. Receipts that said, the bearer of this note can collect these coins.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "campfire_lake",
+    "n": 4,
+    "title": "When paper became money"
+   }
+  },
+  {
+   "say": "And then something interesting happened. People started trading the receipts themselves, instead of collecting the coins. Why carry heavy metal, when a light piece of paper could do the same job? The receipt became the money. And during the Song dynasty, in the eleventh century, the government took over and began issuing official paper money.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b04_paper.jpg",
+    "cap": "A receipt that became money"
+   }
+  },
+  {
+   "say": "This is often described as one of the earliest government paper currencies in the world. A notes system called jiaozi, first in the region of Sichuan. It was a bold idea. A piece of paper, which costs almost nothing to make, accepted as if it were valuable metal. All because people trusted the government behind it.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "The first paper money."
+   }
+  },
+  {
+   "say": "When the Venetian traveller Marco Polo described his journeys in China, in the late thirteenth century, he wrote with amazement about paper money issued by the emperor Kublai Khan. To a European of his time, it seemed almost like a kind of magic. Paper, turned into treasure, by the stamp of an emperor.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Marco Polo was amazed."
+   }
+  },
+  {
+   "say": "But paper money came with a temptation. If you can create money by printing paper, why not print a little more? Rulers sometimes did exactly that, to pay for wars or projects. And when too much paper money chases the same amount of goods, each note buys less. Prices rise. Chinese paper money went through periods of exactly this problem.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "But paper has a temptation."
+   }
+  },
+  {
+   "say": "That's an important lesson that we'll come back to later. Trust in money is a kind of resource. It can be built up slowly, and it can be spent quickly. If people start to believe that money will lose its value, they try to get rid of it, by spending it fast, which can make the problem even worse.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Trust can be spent."
+   }
+  },
+  {
+   "say": "Meanwhile, in Europe, a different story was unfolding. In the cities of Renaissance Italy, families of bankers developed new tools. They kept accounts, made loans, and used letters of credit, so that merchants could pay in one city and collect in another, without carrying chests of gold across dangerous roads.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Meanwhile, in Europe, banks."
+   }
+  },
+  {
+   "say": "The very word bank is often traced to the Italian word banco, meaning bench or table. The tables where money changers sat in markets, doing their business. It's a humble origin for institutions that would one day become enormous. A bench in a market square.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "The bench."
+   }
+  },
+  {
+   "say": "And over time, banks discovered something powerful. When people deposit money, they usually don't all come back for it at once. So a bank can lend out part of those deposits to others. And when that loan is spent and deposited in another bank, it can be lent again. In this way, banks help expand the amount of money circulating in an economy.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Banks create money too."
+   }
+  },
+  {
+   "say": "It's a system built on confidence. As long as people trust their bank, it works smoothly. But if many people suddenly fear for their savings, and all try to withdraw at once, a bank can run into trouble. That's what's called a bank run. And it's another reminder that money, at its core, rests on trust.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "A system built on confidence."
+   }
+  },
+  {
+   "say": "So in a few centuries, money had travelled a long way. From lumps of metal, to paper receipts, to entries in a banker's book. Each step made money lighter, faster and more abstract. And each step relied a little more on trust, and a little less on anything you could hold in your hand.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "From paper to promises."
+   }
+  },
+  {
+   "say": "So here's what the story of paper money teaches us. Receipts for coins slowly became money themselves. Paper money relies entirely on trust in whoever issues it. Printing too much of it can reduce its value. And banks became powerful tools for creating and moving money, built on confidence.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "What paper money teaches",
+    "items": [
+     "Paper receipts for coins became money themselves",
+     "Paper money relies on trust in the issuer",
+     "Printing too much reduces its value",
+     "Banks help create and move money"
+    ]
+   }
+  },
+  {
+   "say": "For a long time, many people felt that paper money should be backed by something solid. Usually gold. A note was a promise that you could exchange it for real metal. But in nineteen seventy one, something happened that changed money in the modern world. Let's look at the day money let go of gold.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: the day money left gold."
+   }
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "id": "mn01_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine you're given a simple coffee mug. Nothing special. Then someone asks, how much would you sell it for? Now imagine a different person, who wasn't given the mug, is asked, how much would you pay for it? You might expect the two prices to be similar. It's the same mug. But they usually aren't.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "n": 9,
+    "title": "Why we overvalue what we own"
+   }
+  },
+  {
+   "say": "In a famous set of experiments, published in nineteen ninety by Daniel Kahneman, Jack Knetsch and Richard Thaler, people who were given mugs asked for much more to sell them than other people were willing to pay to buy them. Often, the selling price was roughly twice the buying price. Simply owning the mug for a few minutes made it feel more valuable.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b09_mug.jpg",
+    "cap": "Just a mug. Until it's yours."
+   }
+  },
+  {
+   "say": "This is called the endowment effect. Once something becomes ours, we value it more than we would if we didn't own it. And it's closely linked to loss aversion. Selling the mug feels like losing something. Buying it feels like gaining something. And as we've seen, losses loom larger.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Kahneman, Knetsch & Thaler",
+    "where": "Published in the Journal of Political Economy, 1990",
+    "what": "Students were randomly given coffee mugs or not, then could trade. Owners typically demanded about twice as much to sell as others offered to buy."
+   }
+  },
+  {
+   "say": "You can see the endowment effect at any garage sale or online marketplace. Sellers often ask far more for their old items than buyers think they're worth. To the seller, that old armchair is full of memories. To the buyer, it's just a used armchair. Both are being completely honest. They're just standing on opposite sides of ownership.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "living_room_golden",
+    "cap": "You see it at garage sales."
+   }
+  },
+  {
+   "say": "Companies use the endowment effect too. Free trials, test drives, generous return policies. Once you've had the product in your home for a few weeks, it starts to feel like yours. Giving it back feels like a loss. And so many people end up keeping things they might never have bought outright.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Trial periods use this."
+   }
+  },
+  {
+   "say": "There's another related trap that's worth knowing about. Imagine you've bought an expensive ticket to a concert. On the night, it's pouring with rain, you're tired, and you'd really rather stay home. But you think, I paid so much for this ticket. I can't waste it. So you go, and have a miserable evening.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Now, the sunk cost."
+   }
+  },
+  {
+   "say": "Psychologists Hal Arkes and Catherine Blumer studied this in the nineteen eighties. In one scenario, people imagined they had accidentally bought two non refundable ski trips for the same weekend. A more expensive one, and a cheaper one they would enjoy more. They could only go on one. Many people chose the more expensive trip, even though they expected to enjoy it less.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Hal Arkes & Catherine Blumer",
+    "where": "Published in Organizational Behavior and Human Decision Processes, 1985",
+    "what": "People imagined accidentally booking two non-refundable ski trips for the same weekend, one more expensive and one more enjoyable, and chose which to go on."
+   }
+  },
+  {
+   "say": "This is called the sunk cost fallacy. Letting money, or time, that we've already spent influence decisions about the future, even though it can't be recovered either way. The ticket money is gone, whether you go to the concert or not. The only real question is, which evening would you rather have now?",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "The money is already gone."
+   }
+  },
+  {
+   "say": "The sunk cost fallacy comes from a good place. We don't like to waste things. And we don't like to admit that a choice didn't work out. Continuing feels like honoring the investment. But sometimes, the wisest thing is to let the past cost go, and choose based only on what's ahead.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Not wanting to waste."
+   }
+  },
+  {
+   "say": "This applies to bigger things too. A project that isn't working. A course of study that no longer fits. An old car that keeps needing expensive repairs. It's very easy to think, I've already put so much into this. But the question that matters is, from here on, is it worth it? The past is spent. Only the future can still be chosen.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Bigger sunk costs."
+   }
+  },
+  {
+   "say": "Here's a gentle question that can help with both of these traps. If I didn't already own this, would I buy it today, at this price? And, if I hadn't already spent money on this, would I choose to do it now? These questions can loosen the grip of ownership and sunk costs, and let us decide more freely.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "cap": "A gentle question to ask."
+   }
+  },
+  {
+   "say": "So here's what we've learned. We value things more once we own them. Free trials and test drives use this effect. Money and time already spent can't be recovered, whatever we choose next. And a simple question, would I choose this today, can help us decide more clearly.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Owning and spending wisely",
+    "items": [
+     "We value things more once we own them",
+     "Free trials use this effect",
+     "Past costs can't be recovered either way",
+     "Ask: would I choose this today?"
+    ]
+   }
+  },
+  {
+   "say": "Our minds also do something else rather clever, and sometimes a little silly, with money. We sort it into invisible jars. Holiday money, rent money, fun money, birthday money. Even though a euro is a euro. Next, let's look at mental accounting.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: money in invisible jars."
+   }
+  }
+ ]
+}

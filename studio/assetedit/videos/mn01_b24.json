@@ -1,0 +1,142 @@
+{
+ "id": "mn01_b24",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "For many people, money brings up strong feelings. Worry, guilt, shame, excitement, envy. Surveys in many countries regularly find money among the most common sources of stress. So I'd like to spend a little time on something gentle. Not how to get rich. But how to feel calmer about money, whatever your situation.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "n": 24,
+    "title": "A calmer way with money"
+   }
+  },
+  {
+   "say": "The first idea is surprisingly simple. Look at it. Many people avoid checking their accounts when they're worried, because it feels uncomfortable. Some researchers have called this the ostrich effect, like an ostrich hiding its head in the sand. But not knowing often feels worse than knowing. A calm, regular look, even once a week, can turn a vague fear into a clear picture.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "First, look at it."
+   }
+  },
+  {
+   "say": "Remember from tonight how uncertainty can be more stressful than bad news. The same is true for money. Writing down what comes in and what goes out, without judgment, simply to see it, can be a relief. You can't steer a boat in the fog. Lifting the fog is the first step.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b20_notebook.jpg",
+    "cap": "A calm, regular look"
+   }
+  },
+  {
+   "say": "The second idea comes from the research on scarcity. Build a little slack, if you can. A small buffer, so that a surprise expense doesn't become a crisis. Even a modest amount set aside can give your mind room to breathe. It's not only financial protection. It's mental protection.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Second, build a little slack."
+   }
+  },
+  {
+   "say": "The third idea comes from the research on defaults. Automate the important things. Let savings happen automatically on payday. Let essential bills pay themselves. Let your future self be cared for without needing willpower every month. The less you rely on daily decisions, the less your present bias can get in the way.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Third, automate the important things."
+   }
+  },
+  {
+   "say": "The fourth idea comes from the chessboard. Compounding can work against you. High interest debt, like unpaid credit card balances, can grow surprisingly fast. Many people who study personal finance suggest that reducing expensive debt can be one of the most effective steps toward feeling calmer. If debt feels overwhelming, free advice services exist in many countries.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Fourth, beware of high interest debt."
+   }
+  },
+  {
+   "say": "The fifth idea comes from the pain of paying. Add a little gentle friction where you tend to overspend. Wait a day before non essential purchases. Review your subscriptions a few times a year. Unsave your card from a shopping site you visit too often. Small speed bumps can make a big difference.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Fifth, add gentle friction."
+   }
+  },
+  {
+   "say": "The sixth idea comes from happiness research. Spend on what you truly value. For some people that's travel. For others, it's a good bed, time with family, or learning something new. When you spend in line with your values, money feels less like a source of guilt, and more like a tool for the life you want.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Sixth, spend on what you value."
+   }
+  },
+  {
+   "say": "The seventh idea comes from the bubbles. Be gently wary of anything that promises quick, effortless wealth. Real growth usually takes time. If something sounds too good to be true, it often is. And remember that fear of missing out is a feeling, not a fact.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Seventh, be wary of quick riches."
+   }
+  },
+  {
+   "say": "The eighth idea comes from the hedonic treadmill. Compare less. There will always be someone with more. Comparison can turn a perfectly good life into a disappointing one, in an instant. Comparing yourself with your own past, how far you've come, is often a kinder and more useful measure.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Eighth, compare less."
+   }
+  },
+  {
+   "say": "The ninth idea is to talk about money. In many cultures, money is a taboo topic. But talking openly, with a partner, a friend, or a professional, can reduce shame and bring new ideas. Many people are quietly worrying about the same things. You're rarely as alone as you feel.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Ninth, talk about it."
+   }
+  },
+  {
+   "say": "And the tenth idea is perhaps the most important. Be kind to yourself. Everyone makes money mistakes. The mind we've explored tonight, with its loss aversion, mental jars, anchors and present bias, belongs to all of us. Mistakes aren't moral failings. They're learning. What matters most is the direction you're heading in.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "cap": "Tenth, be kind to yourself."
+   }
+  },
+  {
+   "say": "So, a calmer way with money, in short. Look at it regularly, without judgment. Build a little slack. Automate the important things. Be careful with high interest debt. Add gentle friction. Spend on what you value. Be wary of quick riches. Compare less. Talk about it. And be kind to yourself.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "A calmer way with money",
+    "items": [
+     "Look at it regularly",
+     "Build a little slack",
+     "Automate the important things",
+     "Spend on what you value",
+     "Compare less",
+     "Be kind to yourself"
+    ]
+   }
+  },
+  {
+   "say": "We're nearly at the end of our journey now. Before we slow down for the night, let's take one final look back at everything we've discovered about money, from the stones of Yap to the mugs in a psychology lab.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: what to take with you."
+   }
+  }
+ ]
+}

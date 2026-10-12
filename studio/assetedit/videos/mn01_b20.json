@@ -1,0 +1,133 @@
+{
+ "id": "mn01_b20",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's play a simple game. I'm given one hundred euros, and I have to offer you some share of it. Any amount I like. If you accept my offer, we both keep our shares. If you reject it, neither of us gets anything. Now imagine I offer you just one euro, and keep ninety nine. Would you accept?",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "n": 20,
+    "title": "Money and fairness"
+   }
+  },
+  {
+   "say": "From a purely logical point of view, you should accept. One euro is better than nothing. Rejecting the offer means you walk away with zero. And yet, many people would say no. They'd rather get nothing than accept such an unfair split. And they'd rather the other person also got nothing.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b18_scale.jpg",
+    "cap": "Is this split fair?"
+   }
+  },
+  {
+   "say": "This is called the ultimatum game. It was first studied in a famous paper by Werner Güth and colleagues in nineteen eighty two, and it has since been played in many countries and cultures. And a very common finding is that low offers, often those below about a fifth of the total, are frequently rejected.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Werner Güth and colleagues",
+    "where": "The ultimatum game, published in 1982",
+    "what": "One player proposes how to split a sum of money, the other can accept or reject. If rejected, both get nothing."
+   }
+  },
+  {
+   "say": "Think about what that means. People are willing to give up real money, just to punish what they see as unfairness. They'd rather lose than let someone else take advantage of them. That's not what a purely selfish, calculating person would do. It shows that fairness has real value in our minds. Sometimes, more than money.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Paying to punish unfairness."
+   }
+  },
+  {
+   "say": "Interestingly, people making the offers seem to understand this too. In many studies, the most common offers are not tiny. They're often somewhere between forty and fifty percent of the total. Proposers expect that unfair offers might be rejected. And many of them also simply want to be fair.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "And most offers are generous."
+   }
+  },
+  {
+   "say": "Anthropologists have played the ultimatum game in many small scale societies around the world. And they've found that what counts as a fair offer can vary between cultures, often reflecting local customs of sharing and cooperation. Fairness is universal. But its exact shape is shaped by culture.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Different cultures, different norms."
+   }
+  },
+  {
+   "say": "You can see this sense of fairness in daily life. At work, many people care deeply not only about how much they earn, but about whether it's fair compared with colleagues. A raise can feel disappointing if you find out someone else got a bigger one for similar work. The comparison changes the feeling.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Fairness at work."
+   }
+  },
+  {
+   "say": "It also affects how we feel about prices. Research by Kahneman, Knetsch and Thaler found that people often consider it unfair when a shop raises prices simply because demand suddenly increases, like raising the price of snow shovels after a snowstorm. Even if economists might call it normal supply and demand, many customers see it as taking advantage.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Prices and fairness."
+   }
+  },
+  {
+   "say": "And this brings us back to the very first theme of tonight. Trust. Fairness is a foundation of trust. And trust is the foundation of money. Businesses that are seen as fair tend to keep customers. Societies with more trust tend to cooperate more easily. Fairness isn't just a nice feeling. It's part of what makes the whole system work.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Fairness builds trust."
+   }
+  },
+  {
+   "say": "Why do we care so much? Many researchers believe our sense of fairness evolved because humans have always lived in groups that depended on cooperation. In such groups, being able to detect and resist unfair treatment, and being known as fair yourself, was valuable. Studies have even observed reactions to unequal rewards in some other primates.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Our ancient fairness sense."
+   }
+  },
+  {
+   "say": "So the next time you feel a flash of irritation at an unfair price or an unfair split, you don't need to dismiss it as irrational. It's an old and useful part of you. It helped humans build communities, and eventually, the vast web of trust that money depends on. The trick is just to notice when it helps you, and when it costs you more than it's worth.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "A useful feeling."
+   }
+  },
+  {
+   "say": "So here's what the ultimatum game teaches us. People often reject very unfair offers, even at a cost to themselves. Fairness can sometimes matter more to us than money. What counts as fair varies across cultures. And fairness supports trust, which is what money depends on.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "What the ultimatum game teaches",
+    "items": [
+     "People often reject very unfair offers",
+     "Fairness can matter more than money",
+     "Fair norms vary across cultures",
+     "Fairness supports trust, and trust supports money"
+    ]
+   }
+  },
+  {
+   "say": "And sometimes, trust and excitement can run away with themselves. Prices rise not because things are more useful, but because everyone expects them to keep rising. Next, let's look at bubbles, starting with a famous story about flowers in seventeenth century Holland.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: when everyone goes a little mad."
+   }
+  }
+ ]
+}

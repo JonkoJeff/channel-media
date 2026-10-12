@@ -1,0 +1,142 @@
+{
+ "id": "mn01_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "There's an old story about the invention of chess. A wise man presents the game to a king. The king is delighted and asks what reward he'd like. The man asks for something that sounds modest. One grain of rice on the first square of the board. Two on the second. Four on the third. Doubling on every square, all the way to the sixty fourth.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "blossom_temple_night",
+    "n": 7,
+    "title": "The quiet power of growth"
+   }
+  },
+  {
+   "say": "The king laughs and agrees. Rice for a game? Easy. But as his servants begin counting, the numbers explode. By the end of the first row, it's still small. By the middle of the board, it's enormous. By the last square, the amount of rice would be far more than all the rice in the kingdom. More than the whole world could produce.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Doubling, sixty four times."
+   }
+  },
+  {
+   "say": "That's the power of exponential growth. When something grows by a percentage of itself, again and again, it starts slow, and then it accelerates. In money, this is called compound growth, or compound interest. You earn a return not only on your original money, but also on the returns you've already earned.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Exponential growth."
+   }
+  },
+  {
+   "say": "Here's a simple example. Imagine you have one hundred euros, and it grows by five percent a year. After the first year, you have one hundred and five. In the second year, you earn five percent on one hundred and five, not just on one hundred. So you get a little more. And each year, the amount you earn grows a little bigger.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "blossom_temple_night",
+    "cap": "A simple example."
+   }
+  },
+  {
+   "say": "In the early years, the difference is tiny. It hardly seems worth noticing. That's the frustrating part of compound growth. It's slow and almost invisible at the start. Like a young tree. But give it enough time, and it grows into something you'd never have expected from such a small beginning.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b07_tree.jpg",
+    "cap": "Small, then slowly bigger"
+   }
+  },
+  {
+   "say": "There's a lovely little shortcut for thinking about this, called the rule of seventy two. Divide seventy two by the yearly growth percentage, and you get roughly how many years it takes for something to double. At six percent a year, seventy two divided by six is twelve. So it roughly doubles in about twelve years.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "The rule of 72."
+   }
+  },
+  {
+   "say": "And then it doubles again. At six percent, after about twelve years, one thousand becomes roughly two thousand. After about twenty four years, roughly four thousand. After about thirty six years, roughly eight thousand. Each doubling is bigger than the last. Time does most of the work, quietly, in the background.",
+   "show": {
+    "type": "stat",
+    "sprite": "F13",
+    "bg": "money_board",
+    "title": "Rule of 72 at 6% a year",
+    "big": "~12 years",
+    "label": "to roughly double; ~24 years to quadruple"
+   }
+  },
+  {
+   "say": "This is why people who study money often say that time is the most powerful ingredient. Starting earlier, even with small amounts, can matter more than starting later with larger amounts. Because the early money has more years to double, and double again. Not because of any trick. Just arithmetic, and patience.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Time is the key ingredient."
+   }
+  },
+  {
+   "say": "But compound growth works in both directions. It's wonderful when it's working for you. It can be painful when it's working against you. Debt with high interest, like an unpaid credit card balance, can compound too. Interest on interest. The same rice on the chessboard, but now it's something you owe.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "It works on debt, too."
+   }
+  },
+  {
+   "say": "And here's the psychological part. Our brains are not naturally good at imagining exponential growth. We tend to think in straight lines. If something grows by a little this year, we imagine it growing by the same little next year. Researchers have studied this tendency, sometimes called exponential growth bias. We often underestimate how fast compounding adds up.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Our brains think in straight lines."
+   }
+  },
+  {
+   "say": "That's why the chessboard story surprises us. That's why the effect of starting to save early, or of letting a debt run, often feels unbelievable when you finally see the numbers. Our intuition draws a gentle slope. Reality draws a curve that bends upward. Knowing this can help us trust the math more than our feeling.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Why compounding surprises us."
+   }
+  },
+  {
+   "say": "There's something calming about compound growth, I think. It rewards patience, not cleverness. Not frantic activity. Just time, and consistency. A small seed, planted early, watered regularly, and then mostly left alone to grow. Many of the best things in life seem to work a bit like that.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "blossom_temple_night",
+    "cap": "Patience as a superpower."
+   }
+  },
+  {
+   "say": "So here's what compound growth teaches us. Growth on top of growth accelerates over time. The rule of seventy two gives a rough idea of how long it takes to double. Time matters far more than our intuition suggests. And compounding can work against us too, especially with high interest debt.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "The quiet power of growth",
+    "items": [
+     "Growth on growth accelerates over time",
+     "Rule of 72: years to double ≈ 72 ÷ rate",
+     "Time matters more than we feel",
+     "Compounding works against you with debt"
+    ]
+   }
+  },
+  {
+   "say": "We've seen how money works out in the world. Now let's turn inward, to the mind. And we'll start with one of the most famous discoveries in the psychology of money. Why losing something feels so much worse than gaining the same thing feels good.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: why losing hurts so much."
+   }
+  }
+ ]
+}

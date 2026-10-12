@@ -1,0 +1,131 @@
+{
+ "id": "mn01_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a strange fact about human behavior. Many of the same people who buy lottery tickets also buy insurance. At first glance, that seems contradictory. With a lottery ticket, you're taking a risk, hoping for a huge gain. With insurance, you're paying to avoid a risk. Why would the same person do both?",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "home_office_night",
+    "n": 13,
+    "title": "Small chances, big feelings"
+   }
+  },
+  {
+   "say": "Kahneman and Tversky's prospect theory offered an explanation. People tend to treat very small probabilities as if they were bigger than they really are. A one in ten million chance of winning feels like, well, it could happen. And a tiny chance of a disaster, like a broken phone or a cancelled trip, can loom large in our minds too.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Tiny chances feel bigger."
+   }
+  },
+  {
+   "say": "Psychologists call this probability weighting. Our minds don't treat chances in a straight line. We give extra weight to small chances, and slightly less weight to things that are very likely, but not certain. The jump from impossible to possible feels huge. And the jump from almost certain to certain feels huge too.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_x1_dice.jpg",
+    "cap": "It could happen. Couldn't it?"
+   }
+  },
+  {
+   "say": "With lottery tickets, this tilt toward small chances combines with something else. The pleasure of dreaming. For a small price, you buy a few days of imagining what you'd do with millions. For many people, that daydream is part of what they're paying for. It's worth knowing, though, that on average, lotteries pay out less than they take in. That's how they fund prizes and profits.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "The lottery dream."
+   }
+  },
+  {
+   "say": "Something similar happens with small insurance products. Extended warranties on electronics. Insurance on a phone. Protection plans at the checkout. They prey gently on our fear of small but vivid disasters. Many consumer experts point out that these products are often expensive relative to the actual risk, and that sellers can earn a lot from them.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Small insurance, big margins."
+   }
+  },
+  {
+   "say": "That doesn't mean insurance is bad. Insuring against big, life changing risks, like serious illness, a house fire, or liability, is very different. Those are risks most people couldn't absorb on their own. Many personal finance writers suggest a simple principle. Insure what you can't afford to lose. Consider carrying the small risks yourself.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Big risks are different."
+   }
+  },
+  {
+   "say": "Kahneman and Tversky also described what they called the certainty effect. People are often willing to pay a lot to turn a high probability into a certainty. A ninety nine percent chance feels very different from one hundred percent. That last one percent of certainty can feel enormously valuable, even when, in money terms, it isn't.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Certainty is worth a lot."
+   }
+  },
+  {
+   "say": "And vividness matters too. Risks we can easily imagine, like a plane crash or a dramatic theft, tend to feel bigger than they are. Quiet, slow risks, like not saving enough or a gradual rise in prices, tend to feel smaller than they are. Our fear follows stories and images, not statistics.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Vivid risks feel bigger."
+   }
+  },
+  {
+   "say": "Businesses know this, of course. That's why the offer of a protection plan appears right at the moment you're buying something new and precious. You've just imagined owning it. Now you're asked to imagine losing it. It's perfectly timed to make a small risk feel large.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Shops know this."
+   }
+  },
+  {
+   "say": "A calmer way to think about chances is to ask two questions. First, how likely is this, really? And second, if it happened, could I handle it? If the answer to the second question is yes, it may be worth carrying that small risk yourself. If the answer is no, protection may be wise.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "A calmer way to think about chance."
+   }
+  },
+  {
+   "say": "And as for lottery tickets, there's nothing wrong with enjoying a small daydream now and then, if it fits comfortably in your budget. It's just helpful to see it for what it is. Mostly a ticket to a few days of imagining, rather than a plan.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "Enjoy the dream, wisely."
+   }
+  },
+  {
+   "say": "So here's what we can learn about small chances. We tend to overweight very small probabilities. Certainty feels worth paying a lot for. Vivid risks feel bigger than quiet, slow ones. And a helpful principle is to protect yourself against what you couldn't afford to lose.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Small chances, big feelings",
+    "items": [
+     "We overweight very small chances",
+     "Certainty feels worth paying for",
+     "Vivid risks feel bigger than quiet ones",
+     "Insure what you can't afford to lose"
+    ]
+   }
+  },
+  {
+   "say": "So far, we've looked at prices and chances in the moment. But many of the most important money decisions involve time. Saving for later, instead of spending now. And our minds have a very particular weakness when it comes to the future. Next, let's look at present bias, and a clever idea that helped many people save.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: saving for a future self."
+   }
+  }
+ ]
+}

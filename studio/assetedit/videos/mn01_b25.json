@@ -1,0 +1,142 @@
+{
+ "id": "mn01_b25",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We've travelled a long way tonight. From ancient villages without coins, to the first stamped lumps of metal in Lydia. From paper money in China, to the day money let go of gold. And then inward, into the curious ways our minds handle money. Let's take a moment to look back over the path.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "n": 25,
+    "title": "What to take with you"
+   }
+  },
+  {
+   "say": "The first and deepest idea is that money is trust. Whether it's a giant stone on Yap, a paper note, or a number on a screen, money works because we all agree that it works. It's one of the most remarkable cooperative stories humans have ever told. And it's told again, quietly, every time you pay for a coffee.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Money is trust."
+   }
+  },
+  {
+   "say": "The second idea is that time is powerful. Inflation gently erodes money that stands still. Compound growth slowly rewards patience. Our intuition tends to think in straight lines, while money often moves in curves. Knowing this can help us trust patience more than impulse.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Time is powerful."
+   }
+  },
+  {
+   "say": "The third idea is that our minds have quirks. Losses feel roughly twice as strong as gains. We value things more once we own them. We let sunk costs steer us. We sort money into invisible jars. We spend more easily with cards. We're anchored by the first number we see. And we tend to favor now over later.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Our minds have quirks."
+   }
+  },
+  {
+   "say": "None of these quirks make you foolish. They come from a mind that evolved long before money existed, in a world where losses could be deadly and the future was uncertain. Understanding them isn't about blaming ourselves. It's about designing a little more wisely around them.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Quirks aren't failures."
+   }
+  },
+  {
+   "say": "And that's the fourth idea. Design often beats willpower. Defaults, automation and gentle friction can help us much more than constant self control. The Save More Tomorrow program, and automatic enrollment, showed how small changes in design can transform what people actually do.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Design beats willpower."
+   }
+  },
+  {
+   "say": "The fifth idea is that scarcity is heavy, and it affects the mind, not only the wallet. When money is tight, attention narrows, and long term planning becomes harder for anyone. A little slack, and a lot of compassion, for ourselves and others, can make a real difference.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Scarcity is heavy."
+   }
+  },
+  {
+   "say": "The sixth idea is about happiness. Money can help a great deal, especially when it relieves real worries. For most people, more income is linked with more happiness, but the effect is modest, and it levels off for the least happy. And how we spend matters. On other people, on experiences, on time.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b21_city.jpg",
+    "cap": "Looking back over the path"
+   }
+  },
+  {
+   "say": "The seventh idea is that fairness matters, sometimes more than money itself. People will give up money to resist unfairness. And fairness supports trust, which brings us right back to where we started. Trust is what makes money possible at all.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Fairness matters."
+   }
+  },
+  {
+   "say": "And the eighth idea is a gentle caution. Stories about money can be powerful, and sometimes misleading. The barter myth. The exaggerated tulip legend. The promise that this time is different. A calm, curious mind, that asks where a story comes from, is one of the best protections we have.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Stories can mislead."
+   }
+  },
+  {
+   "say": "If I had to put it all into one sentence, it might be this. Money is a shared story built on trust, handled by a mind that wasn't designed for it, and the calmest way to live with it is with patience, good systems, and kindness.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "One sentence."
+   }
+  },
+  {
+   "say": "I hope tonight has given you a slightly kinder relationship with money. Not more anxious, not more obsessed. Just a little clearer. The next time you tap your card, or feel the sting of a small loss, or catch yourself comparing, you might smile and recognize your own clever, ancient, very human mind at work.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "A kinder relationship with money."
+   }
+  },
+  {
+   "say": "So here it is, in one breath. Money is trust. Time quietly shapes everything. Our minds have understandable quirks. Design beats willpower. Spending on people, experiences and time tends to bring more happiness. And kindness to yourself is always a good investment.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Money, in one breath",
+    "items": [
+     "Money is trust",
+     "Time quietly shapes everything",
+     "Our minds have understandable quirks",
+     "Design beats willpower",
+     "Spend on people, experiences and time",
+     "Be kind to yourself"
+    ]
+   }
+  },
+  {
+   "say": "And now, if you'd like, let's let all of these ideas drift away. You don't need to remember anything. Over the next few minutes, I'll simply guide you toward a calm and quiet place. If you're in bed, get comfortable. And if sleep comes along the way, let it.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Now, let's slow down."
+   }
+  }
+ ]
+}

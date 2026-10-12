@@ -1,0 +1,140 @@
+{
+ "id": "mn01_b21",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In the early sixteen hundreds, the Dutch Republic was one of the richest places in the world. Trade was booming. And a new luxury had arrived from the east. Tulips. Beautiful, unusual flowers, some with striking flames and stripes of color on their petals. Collectors adored them.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "campfire_lake",
+    "n": 21,
+    "title": "When everyone goes a little mad"
+   }
+  },
+  {
+   "say": "As demand grew, prices for some rare tulip bulbs rose dramatically. People began trading not just bulbs, but contracts for bulbs that were still in the ground. Some traders bought bulbs not to plant them, but to sell them on at a higher price. And then, in February sixteen thirty seven, the market suddenly collapsed. Prices fell sharply.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b19_tulips.jpg",
+    "cap": "Flowers worth a fortune"
+   }
+  },
+  {
+   "say": "This story, often called tulip mania, became a famous symbol of financial madness. In popular retellings, people sold their houses for a single bulb, and the whole Dutch economy was ruined when the bubble burst. Many of those dramatic details come from later accounts, some written to warn people against speculation.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "The legend of tulip mania."
+   }
+  },
+  {
+   "say": "Historians who have looked closely at the original records, like Anne Goldgar in her book Tulipmania, published in two thousand and seven, have found that the reality was more modest. Prices for some bulbs really did rise and then crash. But the economic damage seems to have been much more limited than the legend suggests. Few documented bankruptcies, and no ruined nation.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "A more careful history."
+   }
+  },
+  {
+   "say": "I love this twist. Even the story about a bubble became a kind of bubble, growing bigger and more dramatic with each retelling. It's a reminder of something we've seen all night. Stories spread because they're memorable, not always because they're accurate.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "campfire_lake",
+    "cap": "Even bubble stories can be bubbles."
+   }
+  },
+  {
+   "say": "But real bubbles do happen. Economists use the word for a situation where prices rise far above what the underlying thing is reasonably worth, driven largely by the expectation that prices will keep rising. People buy because prices are going up. And prices go up because people buy. Until, at some point, they don't.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "What is a bubble?"
+   }
+  },
+  {
+   "say": "In seventeen twenty, Britain had its own famous bubble, around shares in the South Sea Company. Prices rose dramatically, and then collapsed. There's a popular story that Isaac Newton, one of the greatest scientists in history, lost a lot of money in it. A quote is often attributed to him, about being able to calculate the motions of heavenly bodies, but not the madness of people. The quote itself may not be authentic. But the lesson is clear. Intelligence doesn't protect against bubbles.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "The South Sea Bubble."
+   }
+  },
+  {
+   "say": "In more recent memory, there was the dot com bubble around the year two thousand. Shares in internet companies soared, many of them with little or no profit. The technology heavy Nasdaq index peaked in March two thousand, and then fell by roughly three quarters over the following two and a half years. Many companies disappeared. A few survived and became giants.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "The dot com bubble."
+   }
+  },
+  {
+   "say": "Why do bubbles happen? Many forces combine. A genuinely exciting new idea, like the internet. Easy money and credit. Stories of people getting rich quickly. And our very human tendencies. Following the crowd. Fear of missing out. Overconfidence. And, as we saw earlier, a natural tendency to think recent trends will simply continue.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Why bubbles happen."
+   }
+  },
+  {
+   "say": "Fear of missing out is a powerful feeling. When everyone around you seems to be getting rich, staying out can feel painful. Like a loss. And remember, losses loom large. So people jump in, often late, near the top. The economist Robert Shiller has written extensively about how stories and emotions can drive markets, in his book Irrational Exuberance.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Fear of missing out."
+   }
+  },
+  {
+   "say": "The tricky thing about bubbles is that they're very hard to recognize from the inside. At the time, there are always convincing reasons why this time is different. Only afterwards, looking back, does it seem obvious. And remember hindsight bias. After a crash, everyone feels they saw it coming. Very few actually acted on it.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Hard to see from inside."
+   }
+  },
+  {
+   "say": "So what can we take from this, as ordinary people? Perhaps a gentle wariness of anything that promises quick, effortless riches. A healthy question, when everyone is excited, is this. If prices stopped rising, would this still be worth it to me? And maybe the reminder that slow, steady and boring has served many people better than fast and thrilling.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "campfire_lake",
+    "cap": "Calm in the crowd."
+   }
+  },
+  {
+   "say": "So here's what bubbles teach us. Prices can rise far above what things are really worth. Stories, crowds and easy money fuel bubbles. Fear of missing out is a powerful pull. And slow, steady approaches often serve people better than exciting ones. Even the tulip legend, it turns out, was a little inflated.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "What bubbles teach us",
+    "items": [
+     "Prices can rise far above real value",
+     "Stories and crowds fuel bubbles",
+     "Fear of missing out is powerful",
+     "Slow and steady often beats exciting"
+    ]
+   }
+  },
+  {
+   "say": "And if bubbles reward the excited and then punish them, what rewards the patient? A famous ten year bet, made by one of the world's best known investors, offers a lovely modern version of an old fable. Let's look at it next.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: the tortoise and the hare."
+   }
+  }
+ ]
+}

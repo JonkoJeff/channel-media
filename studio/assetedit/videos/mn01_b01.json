@@ -1,0 +1,122 @@
+{
+ "id": "mn01_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Get comfortable. Tonight, I'd like to talk about something that touches almost every part of your life, and yet is rarely explained calmly. Money. Not how to get rich quickly. Not stock tips. Just a slow, gentle look at what money really is, where it came from, and why our minds behave so strangely around it.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "How money really works.",
+    "sub": "Tonight, slowly."
+   }
+  },
+  {
+   "say": "Think about how often money crosses your mind in a single day. When you buy a coffee. When you check your account. When you lie awake wondering about a bill. Money is everywhere. And yet most of us were never really taught how it works. We just picked it up along the way, like a language we speak without knowing its grammar.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge"
+   }
+  },
+  {
+   "say": "So tonight, we'll take our time. We'll travel back thousands of years, to the very first coins. We'll look at how paper became money, and how money became numbers on a screen. And then we'll turn inward, to the fascinating psychology of how humans think, feel and decide about money.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b01_desk.jpg",
+    "cap": "A quiet evening with money on your mind"
+   }
+  },
+  {
+   "say": "Here's where we're going tonight. First, where money came from, and why the story you might have learned at school may not be quite right. Then, why money only works because we trust it. How growth and inflation quietly shape your life. The strange tricks our minds play with money. And finally, what money can, and can't, buy.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Where money came from",
+     "Why money only works because we trust it",
+     "How growth and inflation quietly shape your life",
+     "The strange tricks our minds play with money",
+     "What money can, and can't, buy"
+    ]
+   }
+  },
+  {
+   "say": "A gentle note before we begin. This is a calm, educational journey, not financial advice. I won't tell you what to buy or where to invest. Everyone's situation is different. The goal tonight is understanding. And understanding, I think, is a lovely thing to fall asleep with.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "A gentle note before we begin."
+   }
+  },
+  {
+   "say": "When you really think about it, money is one of the strangest inventions in human history. A piece of paper with a number printed on it. A small metal disc. A line of digits in a bank's computer. None of these things can feed you, or keep you warm. And yet, people will work for years to collect them.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "Money is a strange invention."
+   }
+  },
+  {
+   "say": "So why does it work? Why will a baker hand you a loaf of real bread in exchange for a little plastic card that you tap on a machine? The short answer, which we'll explore slowly tonight, is trust. Money works because we all agree that it works. It's a shared story that billions of people believe at the same time.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Why does it work at all?"
+   }
+  },
+  {
+   "say": "That might sound fragile, and in some ways it is. But it's also remarkable. Money lets strangers cooperate. A farmer on one side of the world can grow coffee for someone on the other side, whom they'll never meet. Money is the invisible thread that connects them. It's a tool for trust between people who don't know each other.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "A story we all believe."
+   }
+  },
+  {
+   "say": "But here's the twist that makes this topic so interesting. Human brains evolved long before money existed. For most of our history, we lived in small groups, sharing food and favors, without coins or banks. So when it comes to money, our ancient minds often behave in ways that are a little surprising. Sometimes even a little irrational.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "And our minds weren't built for it."
+   }
+  },
+  {
+   "say": "We'll look at those quirks with curiosity, not judgment. Why losing ten euros feels worse than finding ten euros feels good. Why we spend more freely with a card than with cash. Why a lottery win doesn't always bring lasting happiness. These aren't signs that you're bad with money. They're signs that you're human.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "We'll be kind about it."
+   }
+  },
+  {
+   "say": "So let's start at the very beginning. Before coins. Before banks. Before any of it. How did people trade and share before money existed? You may have learned a simple story about this at school. A story about swapping chickens for shoes. But historians and anthropologists have found that the real story is rather different.",
+   "show": {
+    "type": "char",
+    "sprite": "G18",
+    "bg": "city_night_lounge",
+    "cap": "Let's start at the very beginning."
+   }
+  },
+  {
+   "say": "So let's take a slow breath, and step back in time together. To a world without money, and to one of the most repeated stories in economics. A story that, it turns out, may never have happened quite the way we were told.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: the barter myth."
+   }
+  }
+ ]
+}

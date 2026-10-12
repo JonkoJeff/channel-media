@@ -1,0 +1,135 @@
+{
+ "id": "mn01_b22",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You probably know the old fable. A fast hare and a slow tortoise agree to a race. The hare is so confident that he takes a nap halfway. The tortoise keeps plodding along, slowly and steadily. And by the time the hare wakes up, the tortoise has crossed the finish line. Slow and steady wins the race.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "blossom_temple_night",
+    "n": 22,
+    "title": "The tortoise and the hare"
+   }
+  },
+  {
+   "say": "In two thousand and seven, the famous investor Warren Buffett made a bet that turned into a modern version of this fable. He wagered that over ten years, a simple, low cost fund that just followed the whole stock market would beat a selection of hedge funds, chosen by professional managers who charged high fees.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_x3_tortoise.jpg",
+    "cap": "Slow and steady"
+   }
+  },
+  {
+   "say": "The bet ran from two thousand and eight to two thousand and seventeen. On one side, a simple index fund, tracking the five hundred biggest American companies. On the other, five funds of hedge funds, chosen by a professional investment firm. The winnings would go to charity.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Warren Buffett's ten-year bet",
+    "where": "2008 to 2017, described in Berkshire Hathaway's 2017 shareholder letter",
+    "what": "A low-cost S&P 500 index fund versus five funds-of-hedge-funds selected by a professional firm. The stakes went to charity."
+   }
+  },
+  {
+   "say": "And according to Buffett's letter to shareholders in two thousand and seventeen, the simple index fund gained about seven point one percent per year, compounded. The five fund selections averaged about two point two percent per year. The tortoise had won, quite clearly.",
+   "show": {
+    "type": "stat",
+    "sprite": "F13",
+    "bg": "money_board",
+    "title": "Average yearly gain over the ten years",
+    "big": "7.1% vs 2.2%",
+    "label": "index fund versus the average of the five fund selections, per Buffett's 2017 letter"
+   }
+  },
+  {
+   "say": "Why would a simple fund beat professionals? One big reason is costs. High fees, paid year after year, eat into returns. And remember compounding. A small difference in yearly returns, compounded over many years, becomes a very large difference in the end. Fees compound too, quietly, in the wrong direction.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Why did the simple fund win?"
+   }
+  },
+  {
+   "say": "Another reason is that consistently picking winners is very hard. Markets reflect the combined knowledge and guesses of millions of people. To beat that, year after year, you have to be not only smart, but smarter than everyone else, and lucky. Reports that compare actively managed funds with simple index benchmarks have often found that many active funds fall behind over long periods.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "It's hard to beat the market."
+   }
+  },
+  {
+   "say": "I want to repeat, gently, that this is not investment advice. Every situation is different, and markets can go down as well as up, sometimes for long periods. Index funds carry real risks too. The lesson here isn't about any specific product. It's about something broader. Simple, low cost and patient approaches can be surprisingly powerful.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Not advice. Just a lesson."
+   }
+  },
+  {
+   "say": "Why is the slow and steady approach so hard for people to follow? Because doing nothing feels uncomfortable. When markets are exciting, we want to jump in. When they fall, we want to escape. Every news story seems to demand action. But many studies of investor behavior have suggested that frequent trading, on average, tends to hurt returns rather than help them.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "The urge to do something."
+   }
+  },
+  {
+   "say": "Overconfidence plays a role here too. Remember the better than average effect, where most people feel they're above average drivers. Many investors feel they're above average at picking winners as well. And just like with driving, not everyone can be above average. Feeling confident and being right are not the same thing.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Overconfidence."
+   }
+  },
+  {
+   "say": "There's a saying among some investors, that investing should be like watching paint dry, or grass grow. Boring. If it's exciting, something might be wrong. That's not very thrilling. But for a lot of people, boring and steady may be more peaceful, and more effective, than constantly chasing the next big thing.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Boring can be beautiful."
+   }
+  },
+  {
+   "say": "I find something calming in this. The tortoise doesn't have to be the smartest or the fastest. It just has to keep going, steadily, without panicking, without napping. Many of the best things in life seem to reward exactly that. Patience, consistency, and a willingness to let time do its quiet work.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "blossom_temple_night",
+    "cap": "The tortoise in us."
+   }
+  },
+  {
+   "say": "So here's what the tortoise teaches. In Buffett's bet, a simple low cost fund beat professional selections. Fees compound quietly in the wrong direction. Doing less can often beat doing more. And a boring, patient approach can be surprisingly powerful. Not advice. Just an old fable, proven again.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "What the tortoise teaches",
+    "items": [
+     "A simple fund beat professional picks in Buffett's bet",
+     "Fees compound in the wrong direction",
+     "Doing less often beats doing more",
+     "Boring and patient can be powerful"
+    ]
+   }
+  },
+  {
+   "say": "And speaking of panic. Many people know a particular moment when money worries feel heaviest. Late at night, lying awake, when every bill seems bigger. Next, let's gently look at why money worries grow in the dark, and what can help.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: money worries at night."
+   }
+  }
+ ]
+}

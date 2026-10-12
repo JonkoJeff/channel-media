@@ -1,0 +1,144 @@
+{
+ "id": "mn01_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine walking into a shop and seeing a beautiful coat for one thousand euros. Too expensive, you think. Then, next to it, you see another coat for three hundred euros. Suddenly, three hundred seems quite reasonable. Now imagine you'd seen the three hundred euro coat first, next to one for one hundred. Would three hundred still feel reasonable?",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "street_day",
+    "n": 12,
+    "title": "The price in your head"
+   }
+  },
+  {
+   "say": "Our sense of whether a price is high or low is surprisingly flexible. We rarely know what something is truly worth. So we compare. And the first number we see often becomes a reference point, an anchor, that pulls our judgment toward it. This is called anchoring, and it's one of the most studied effects in psychology.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b12_shop.jpg",
+    "cap": "Which coat did you see first?"
+   }
+  },
+  {
+   "say": "Tversky and Kahneman showed in the nineteen seventies that even a completely random number can act as an anchor. In one well known example, people who first saw a wheel of fortune stop at a higher number gave higher estimates to an unrelated question than people who saw a lower number. Our minds grab onto whatever number is in front of them.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Anchors can be random."
+   }
+  },
+  {
+   "say": "Shops use anchors all the time. A crossed out original price next to a sale price. A very expensive item placed prominently, so everything else looks affordable. A suggested retail price that makes the actual price feel like a deal. The anchor doesn't have to be bought by anyone. Its job is simply to change how other prices feel.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "street_day",
+    "cap": "Anchors in shops."
+   }
+  },
+  {
+   "say": "And then there's the decoy. The behavioral economist Dan Ariely described a famous example in his book Predictably Irrational. He showed students three subscription offers from The Economist magazine. Web only, for fifty nine dollars. Print only, for one hundred and twenty five. And print plus web, also for one hundred and twenty five.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Dan Ariely",
+    "where": "Predictably Irrational, 2008",
+    "what": "MIT students chose between subscription options for The Economist. Adding an unattractive decoy option changed which option most people chose."
+   }
+  },
+  {
+   "say": "Look at the middle option. Print only, for the same price as print plus web. Who would choose that? Almost nobody did. But Ariely reported that it wasn't useless. It made print plus web look like a fantastic deal. In his account, most students chose print plus web.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Who would choose print only?"
+   }
+  },
+  {
+   "say": "Then he removed the decoy, and offered only two options. Web only, or print plus web. According to his account, the choices shifted dramatically. With the decoy present, eighty four percent chose print plus web. Without it, only thirty two percent did. An option that almost nobody wanted had changed what most people chose.",
+   "show": {
+    "type": "bars",
+    "sprite": "F13",
+    "bg": "money_board",
+    "title": "Chose print + web",
+    "unit": "%",
+    "bars": [
+     [
+      "With the decoy",
+      84.0
+     ],
+     [
+      "Without the decoy",
+      32.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "You've probably met decoys many times without noticing. A small coffee, a medium that's only slightly cheaper than the large, and a large. The medium might exist mainly to make the large look like great value. Restaurants sometimes put an extremely expensive dish on the menu, not because they expect many people to order it, but to make other dishes look moderate.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Small, medium, large."
+   }
+  },
+  {
+   "say": "Why are we so easily steered? Because judging absolute value is hard. How much should a coat really cost? A cup of coffee? A house? We don't have an internal price list. So we rely on comparisons, which are much easier. Is this better than that? Cheaper than that one? Our minds are relative machines, not absolute ones.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Why our minds work like this."
+   }
+  },
+  {
+   "say": "Anchoring matters far beyond shopping. In negotiations, like salary discussions or selling a house, the first number mentioned often has a strong influence on the final result. That's why negotiation experts often discuss carefully who should name a number first. The anchor quietly sets the stage for everything that follows.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Anchors in salaries too."
+   }
+  },
+  {
+   "say": "So how can we defend ourselves, gently? One way is to decide what something is worth to you before you look at the prices. Another is to notice when an option seems to exist mainly to make another look good. And a simple question can help. Would I buy this if it were the only option, at this price?",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "street_day",
+    "cap": "A calm defense."
+   }
+  },
+  {
+   "say": "So here's what anchors and decoys teach us. The first number we see often becomes an anchor. Even random numbers can pull our judgment. Decoy options can make other choices look better than they are. And deciding what something is worth to you, before comparing, can help you see more clearly.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Seeing prices clearly",
+    "items": [
+     "The first number we see becomes an anchor",
+     "Even random numbers can anchor us",
+     "Decoys make other options look better",
+     "Decide your value before you compare"
+    ]
+   }
+  },
+  {
+   "say": "And prices aren't the only thing our minds judge strangely. We're also curious about chances. Why do so many people buy both lottery tickets and insurance? Next, let's look at how small chances can create big feelings.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: small chances, big feelings."
+   }
+  }
+ ]
+}

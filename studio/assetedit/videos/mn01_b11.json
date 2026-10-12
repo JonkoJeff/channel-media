@@ -1,0 +1,133 @@
+{
+ "id": "mn01_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think of the last time you paid for something with cash. You opened your wallet, counted out the notes, handed them over, and watched them go. Now think of the last time you tapped a card or your phone. A quick beep, and it was done. Did those two moments feel the same? For most people, they don't.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "n": 11,
+    "title": "The pain of paying"
+   }
+  },
+  {
+   "say": "Paying with cash often feels a little uncomfortable. You see the money leaving. Your wallet gets thinner. Paying by card or phone is smoother, almost painless. Researchers have a name for that small discomfort. The pain of paying. And it turns out it may influence how much we're willing to spend.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b11_card.jpg",
+    "cap": "Cash, or a quick tap?"
+   }
+  },
+  {
+   "say": "In a well known study published in two thousand and one, Drazen Prelec and Duncan Simester at MIT ran an experiment with real tickets to sold out sports games. Students placed sealed bids for the tickets. Some were told that, if they won, they'd have to pay with a credit card. Others were told they'd have to pay in cash.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Drazen Prelec & Duncan Simester",
+    "where": "MIT, published in Marketing Letters, 2001",
+    "what": "MBA students bid on tickets to sold-out basketball games and baseball games. Some were told they'd pay by credit card, others by cash."
+   }
+  },
+  {
+   "say": "And the students who expected to pay by credit card bid much more than those who expected to pay with cash. In some conditions, the average credit card bid was roughly double the average cash bid. Same tickets. Same students. The only difference was the way they'd pay.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Credit card bids were much higher."
+   }
+  },
+  {
+   "say": "Other researchers have looked at this in the brain. In a study published in two thousand and seven, Brian Knutson, Drazen Prelec and colleagues scanned people's brains while they decided whether to buy products. When prices seemed too high, there was more activity in a region called the insula, which is involved in processing unpleasant feelings. As if the brain registered the price as a small pain.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "The brain feels the price."
+   }
+  },
+  {
+   "say": "That small pain isn't necessarily a bad thing. It's like a gentle brake. It makes us pause and ask, do I really want this? When payment becomes almost invisible, that brake gets weaker. And many modern payment methods, like saved cards, one click buying and automatic subscriptions, are designed to make paying as painless as possible.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Why the pain can be useful."
+   }
+  },
+  {
+   "say": "Subscriptions are a perfect example. You agree once, and then the payment happens automatically every month. No decision, no pain. That's convenient. But it also means we rarely reconsider whether we still use what we're paying for. Many people are surprised when they finally add up all their subscriptions.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Subscriptions are nearly painless."
+   }
+  },
+  {
+   "say": "Casinos have long understood this too. Gamblers bet with chips, not cash. Colorful plastic tokens that feel a little like toys. Some researchers have suggested that converting money into chips may reduce the pain of paying, making it easier to bet. Similar ideas apply to in game currencies in many apps and video games.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Casinos and chips."
+   }
+  },
+  {
+   "say": "I want to be fair to cards and phones, though. They're safe, convenient and practical. Carrying lots of cash has its own risks. The point isn't that everyone should go back to cash. It's simply that the way we pay can change how much we spend, without us noticing. Knowing that gives us a choice.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Not all bad."
+   }
+  },
+  {
+   "say": "If you'd like to bring a little of that helpful pain back, there are gentle ways to do it. Checking your spending regularly, so the numbers feel real. Reviewing subscriptions a few times a year. Waiting a day before buying something you don't need. Some people even use cash on purpose for categories where they tend to overspend.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Bringing the brake back."
+   }
+  },
+  {
+   "say": "In a way, the goal is to feel your money again. Not in an anxious way. Just in an aware way. Money that you can feel is money you can steer. And money that slips away invisibly can quietly take you somewhere you didn't plan to go.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "Feel your money."
+   }
+  },
+  {
+   "say": "So here's what the pain of paying teaches us. Paying with cash often feels more painful than tapping a card. That difference can lead people to spend more with cards. Subscriptions and saved payments remove the pain almost entirely. And a little friction, added on purpose, can help us choose more consciously.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Feeling your money",
+    "items": [
+     "Cash often feels more painful than cards",
+     "People may spend more with cards",
+     "Subscriptions remove the pain of paying",
+     "A little friction can help you choose"
+    ]
+   }
+  },
+  {
+   "say": "Of course, whether a price feels high or low also depends on what we compare it with. A coat for two hundred euros might feel expensive, or like a bargain, depending on what we saw first. Next, let's look at how anchors and decoys quietly shape what we think things are worth.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: the price in your head."
+   }
+  }
+ ]
+}

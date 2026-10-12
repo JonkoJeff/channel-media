@@ -1,0 +1,124 @@
+{
+ "id": "mn01_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's the story many of us learned. Long ago, before money, people bartered. A farmer with chickens wanted shoes. So he had to find a shoemaker who, at that very moment, happened to want chickens. That was hard. So, to make trading easier, people invented money. A neat, logical story.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "campfire_lake",
+    "n": 2,
+    "title": "The barter myth"
+   }
+  },
+  {
+   "say": "This story goes back a long way. The famous economist Adam Smith described something like it in the seventeen hundreds. And it's been repeated in textbooks ever since. Economists even have a name for the problem it describes. The double coincidence of wants. You need someone who has what you want, and wants what you have, at the same time.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "campfire_lake",
+    "cap": "A tidy story."
+   }
+  },
+  {
+   "say": "But there's a problem with this tidy story. When anthropologists went looking for societies that actually worked this way, trading by barter in daily life between neighbors, they had great difficulty finding them. The anthropologist Caroline Humphrey wrote in nineteen eighty five that no example of a barter economy, pure and simple, had ever been described.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "But where's the evidence?"
+   }
+  },
+  {
+   "say": "That's a striking conclusion. Barter certainly happened. People did swap goods, especially between strangers, or between different groups who didn't trust each other. But a whole village where neighbors constantly swapped chickens for shoes, and then invented coins to solve the problem? That picture seems to be mostly imagination.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Caroline Humphrey",
+    "where": "University of Cambridge, published in Man, 1985",
+    "what": "An anthropologist reviewing the evidence concluded that no example of a pure barter economy, from which money emerged, had ever been described."
+   }
+  },
+  {
+   "say": "So how did people manage before money? Many anthropologists think the answer is something softer, and more human. Credit. Or, to put it more simply, memory and trust. In small communities, people helped each other. If your neighbor gave you grain, you remembered. And later, you helped them with something they needed.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b02_village.jpg",
+    "cap": "Before money, there were relationships"
+   }
+  },
+  {
+   "say": "Think of how families and close friends work even today. You don't pay your sister for dinner. You don't hand your friend a coin for helping you move. But you remember. And there's a gentle, unspoken sense of give and take. That web of favors and obligations may be much closer to how early communities really worked.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "campfire_lake",
+    "cap": "A web of favors."
+   }
+  },
+  {
+   "say": "Some researchers, like the anthropologist David Graeber, argued that debts and credit came first, long before coins. In ancient Mesopotamia, for example, temple and palace administrators kept detailed records of what people owed, on clay tablets. Measures of grain and silver were used as units to keep track. The accounting existed before anything like modern coins.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Debts came before coins."
+   }
+  },
+  {
+   "say": "That changes how we might think about money. Instead of a shiny object that replaced swapping, money might be better seen as a way of recording trust. A note that says, this person has given something, and is owed something back. A memory, made portable, so it can work even between strangers.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Money as a record of trust."
+   }
+  },
+  {
+   "say": "Why does the barter story survive, then? Partly because it's simple and easy to teach. And partly because it captures a real problem. As communities grow, and strangers start trading, memory and personal trust aren't enough anymore. You can't remember every favor in a city of thousands. You need something more general. Something anyone will accept.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "Why the myth survives."
+   }
+  },
+  {
+   "say": "And that's where money, in a more familiar form, starts to appear. Tokens. Precious metals. Eventually, coins. Things that could carry trust from one person to another, even when they'd never met before. A way to make the web of favors stretch across a whole kingdom.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "From favors to tokens."
+   }
+  },
+  {
+   "say": "So here's what the barter myth teaches us. The simple barter story has surprisingly little evidence behind it. Early communities seem to have relied more on trust, memory and favors. Records of debt appeared long before coins. And money, in its heart, may be a way of carrying trust between people who don't know each other.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "What the barter myth teaches",
+    "items": [
+     "The simple barter story has little evidence",
+     "Early communities relied on trust and favors",
+     "Records of debt came before coins",
+     "Money is a way of carrying trust between strangers"
+    ]
+   }
+  },
+  {
+   "say": "So when did the first coins appear? And what did they look like? Let's travel to a small kingdom in what is now western Turkey, nearly three thousand years ago, where a shiny mixture of gold and silver was about to change the world.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: the first coins."
+   }
+  }
+ ]
+}

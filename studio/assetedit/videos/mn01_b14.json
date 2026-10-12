@@ -1,0 +1,164 @@
+{
+ "id": "mn01_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Most people agree that saving is a good idea. We know we should put some money aside for emergencies, for the future, for retirement. And yet, many people find it really hard to do. Not because they don't understand why. But because, at the moment of choice, the present always seems to win.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "n": 14,
+    "title": "Saving for a future self"
+   }
+  },
+  {
+   "say": "Psychologists and economists call this present bias. A reward today feels much more valuable than the same reward in the future. A nice dinner tonight is vivid and real. A slightly more comfortable retirement in thirty years is vague and far away. In the tug of war between now and later, now usually pulls harder.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "The present is loud."
+   }
+  },
+  {
+   "say": "Some researchers describe this as a conflict between two selves. Your present self, who wants to enjoy life now. And your future self, who would benefit from a little saving. When we plan, we think on behalf of our future self. But when the moment comes, our present self is in charge. And it has different priorities.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Two selves."
+   }
+  },
+  {
+   "say": "There's even research suggesting that, for many people, the future self can feel a bit like a different person. Someone we don't know very well. And just as it's easier to spend money on yourself than to give it to a stranger, it's easier to spend on your present self than to save for that distant future person.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Your future self is a stranger."
+   }
+  },
+  {
+   "say": "So how do you help people save, when their minds are built this way? In the early two thousands, Richard Thaler and Shlomo Benartzi designed a clever program called Save More Tomorrow. Instead of asking people to save more now, which hurts, they asked people to commit to saving more in the future, specifically from their future pay raises.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Richard Thaler & Shlomo Benartzi",
+    "where": "Save More Tomorrow, published in the Journal of Political Economy, 2004",
+    "what": "Employees were invited to commit in advance to saving a share of their future pay raises for retirement."
+   }
+  },
+  {
+   "say": "This idea used several psychological insights at once. Committing to something in the future is easier than doing it now. Saving from a raise doesn't feel like a loss, because your take home pay doesn't go down. And once people are enrolled, inertia keeps them in. It's easier to stay than to actively opt out.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Saving from future raises."
+   }
+  },
+  {
+   "say": "And the results in the first company that tried it were remarkable. According to the published study, participants who joined the program increased their average savings rate from about three and a half percent to about thirteen point six percent, over roughly forty months. Without anyone having to suddenly sacrifice a lot.",
+   "show": {
+    "type": "bars",
+    "sprite": "F13",
+    "bg": "money_board",
+    "title": "Average savings rate in the first company",
+    "unit": "%",
+    "bars": [
+     [
+      "Before",
+      3.5
+     ],
+     [
+      "After about 3.5 years",
+      13.6
+     ]
+    ]
+   }
+  },
+  {
+   "say": "A related insight is the power of defaults. What happens if you do nothing? In a famous study published in two thousand and one, Brigitte Madrian and Dennis Shea looked at a company that changed its retirement plan, so that new employees were automatically enrolled, unless they chose to opt out.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "The power of defaults."
+   }
+  },
+  {
+   "say": "Before the change, participation among new employees was around thirty seven percent, according to the study. After automatic enrollment, it rose to around eighty six percent. The options were exactly the same. People could still choose freely. Only the default had changed. And the default made an enormous difference.",
+   "show": {
+    "type": "stat",
+    "sprite": "F13",
+    "bg": "money_board",
+    "title": "Participation among new employees",
+    "big": "37% → 86%",
+    "label": "before and after automatic enrollment, in the study's company"
+   }
+  },
+  {
+   "say": "This tells us something important. Doing nothing is also a choice. And the path of least resistance often decides what happens. Many countries and companies have since used automatic enrollment in pensions and savings, inspired by this kind of research. It's sometimes called a nudge. A gentle push that keeps freedom of choice.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Doing nothing is a choice."
+   }
+  },
+  {
+   "say": "You can use the same ideas for yourself. Make saving automatic, so it happens before you can spend the money. Increase savings when your income rises, so it doesn't feel like a loss. Set up the path of least resistance in the direction you want to go. Let your present self's laziness work for your future self.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Nudge yourself."
+   }
+  },
+  {
+   "say": "And remember the chessboard and the rule of seventy two. Small amounts saved regularly, given time, can grow in ways our intuition underestimates. You don't need to be a heroic saver. You need a gentle system, running quietly in the background, while you get on with your life.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b13_jar.jpg",
+    "cap": "Small, automatic, steady"
+   }
+  },
+  {
+   "say": "And of course, the present matters too. Life isn't only preparation for the future. A healthy approach to money leaves room for enjoying today, while also sending a little kindness forward to your future self. Not either or. Both.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "Be kind to your present self."
+   }
+  },
+  {
+   "say": "So here's what we can learn about saving. We naturally favor now over later. Committing to save in the future is easier than saving now. Defaults strongly shape what we end up doing. And making saving automatic and painless can help our future selves, without fighting our present selves.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Saving with your mind, not against it",
+    "items": [
+     "We naturally favor now over later",
+     "Committing in advance is easier",
+     "Defaults shape what we end up doing",
+     "Make saving automatic and painless"
+    ]
+   }
+  },
+  {
+   "say": "But what about when money is genuinely tight? When there's simply not enough? Researchers have found that scarcity doesn't just affect our bank account. It can affect how our minds work. Next, let's look gently at the psychology of scarcity.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: the scarcity mind."
+   }
+  }
+ ]
+}

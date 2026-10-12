@@ -1,0 +1,122 @@
+{
+ "id": "mn01_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In eighteen ninety nine, an American economist named Thorstein Veblen published a book called The Theory of the Leisure Class. In it, he described something he observed among the wealthy of his time. People didn't just buy things because they were useful. They bought things to show others how rich they were. He called it conspicuous consumption.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "street_day",
+    "n": 17,
+    "title": "Spending to be seen"
+   }
+  },
+  {
+   "say": "Think of two watches. Both tell the time perfectly. One costs fifty euros. The other costs fifty thousand. Part of what the expensive one offers is craftsmanship and beauty. But part of it, for many buyers, is what it says about the person wearing it. It's a signal.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_x2_watch.jpg",
+    "cap": "Two watches. Both tell the time."
+   }
+  },
+  {
+   "say": "Economists even named a category after him. Veblen goods. Products for which demand can rise when the price goes up, because a higher price makes them more exclusive and more desirable as a status symbol. That's the opposite of how we normally expect demand to work. Usually, when prices rise, people buy less.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Veblen goods."
+   }
+  },
+  {
+   "say": "Why would humans spend money to impress others? Because we're deeply social animals. For our ancestors, status within the group could affect access to resources, allies and partners. So it makes sense that we care about how others see us. Money simply became a new language for an old need.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "We're social animals."
+   }
+  },
+  {
+   "say": "And it's not only the very rich. Many of us, in small ways, spend money with an eye on how it looks. The brand of a phone. The car in the driveway. The location of a holiday shared online. Social media may have made this even stronger, by giving us a constant window into what others are buying and doing.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "street_day",
+    "cap": "Not only the rich."
+   }
+  },
+  {
+   "say": "There's an old expression for this. Keeping up with the Joneses. The pressure to match what neighbors and friends have. And it connects to what we learned about the hedonic treadmill. If happiness depends partly on comparison, then as everyone around us spends more, we may feel the need to spend more too, just to feel the same.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Keeping up."
+   }
+  },
+  {
+   "say": "Economists sometimes distinguish between positional goods, whose value depends largely on how they compare with what others have, and non positional goods, which are valuable in themselves. A bigger house than your neighbors is positional. More free time, good health, or close friendships are less positional. Some researchers have suggested that the less positional things may bring more lasting satisfaction.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Positional goods."
+   }
+  },
+  {
+   "say": "There's a lovely observation, often made by people who study personal finance. The wealth you can see, like cars and clothes, is often not the same as the wealth people actually have. Money spent on visible status is money no longer saved. Some people who look wealthy have little saved. And some genuinely wealthy people live surprisingly modestly.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "The invisible wealth."
+   }
+  },
+  {
+   "say": "A gentle question that can help is this. Who am I buying this for? Is it for me, because it truly makes my life better? Or is it for an imagined audience, who may not even notice? Sometimes the honest answer is both. And that's okay. But noticing can help us choose more freely.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Who are we buying for?"
+   }
+  },
+  {
+   "say": "And there are other ways to earn respect, ones that don't cost much money. Kindness. Skill. Reliability. Being someone people can count on. These are forms of status that many people value deeply, and they tend to grow, rather than fade, over time.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "cap": "Status that lasts."
+   }
+  },
+  {
+   "say": "So here's what conspicuous consumption teaches us. People often buy things partly as signals to others. Some goods become more desirable when they become more expensive. Comparison can fuel spending that never feels like enough. And a simple question, who am I buying this for, can help us spend more freely.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Spending to be seen",
+    "items": [
+     "People buy things partly as signals",
+     "Some goods become more desirable when pricier",
+     "Comparison can fuel endless spending",
+     "Ask: who am I buying this for?"
+    ]
+   }
+  },
+  {
+   "say": "So does that mean money can't buy happiness at all? Not quite. Some of the most interesting research of recent years has tackled exactly this question, with huge amounts of data. And the answer has changed a few times. Let's look at it next.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: can money buy happiness?"
+   }
+  }
+ ]
+}

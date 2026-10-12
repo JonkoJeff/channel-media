@@ -1,0 +1,142 @@
+{
+ "id": "mn01_b15",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine you're very hungry. Not just a little peckish, but properly hungry. What happens to your thoughts? Food starts appearing everywhere. You notice restaurants. You think about dinner. It's hard to concentrate on anything else. Your mind has become focused on what you lack.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "home_office_night",
+    "n": 15,
+    "title": "The scarcity mind"
+   }
+  },
+  {
+   "say": "In their book Scarcity, published in two thousand and thirteen, the economist Sendhil Mullainathan and the psychologist Eldar Shafir argued that something similar happens with money. When money is scarce, it captures our attention. Bills, prices, what we can and can't afford. These thoughts fill the mind, leaving less room for everything else.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Scarcity captures the mind."
+   }
+  },
+  {
+   "say": "They used a lovely word for this. Bandwidth. The mental capacity we have available for thinking, planning and controlling ourselves. When scarcity takes up a lot of bandwidth, there's less left for other things. Not because people are less capable. But because their minds are busy juggling a heavy load.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Bandwidth."
+   }
+  },
+  {
+   "say": "In one study, published in the journal Science, researchers worked with sugarcane farmers in India. These farmers receive most of their income once a year, at harvest. So before the harvest, money is often tight. After the harvest, they've been paid. The same people, in two very different financial situations.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Anandi Mani, Sendhil Mullainathan, Eldar Shafir & Jiaying Zhao",
+    "where": "Published in Science, 2013",
+    "what": "Sugarcane farmers in India were tested on thinking tasks before the harvest, when money is tight, and after the harvest, when they had been paid."
+   }
+  },
+  {
+   "say": "The researchers gave the farmers tests of thinking and attention, both before and after the harvest. And the farmers did noticeably better on the tests after the harvest than before. Same people, same intelligence. But when money was scarce, their minds seemed to have less spare capacity available.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b14_field.jpg",
+    "cap": "Before the harvest, and after"
+   }
+  },
+  {
+   "say": "I find this research important, and deeply humane. It suggests that some decisions that look unwise from the outside, like missing a payment or taking an expensive short term loan, may partly be a result of scarcity itself. Not of character. When the mind is overloaded with urgent worries, long term planning becomes much harder for anyone.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "It's not about character."
+   }
+  },
+  {
+   "say": "Mullainathan and Shafir also described something they called tunneling. When we're short of something, our attention narrows to the most urgent problem. Like looking through a tunnel. That can help us deal with the immediate crisis. But things outside the tunnel, like next month's bill or a long term plan, can get neglected.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Tunneling."
+   }
+  },
+  {
+   "say": "And interestingly, they found that this happens with other kinds of scarcity, not only money. People who are very short on time can tunnel too. A busy person rushing toward a deadline might forget other important things. Scarcity, in any form, seems to narrow the mind's focus.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Scarcity of time, too."
+   }
+  },
+  {
+   "say": "This can create a difficult circle. Scarcity narrows attention. Narrowed attention leads to decisions that solve today's problem, but may create tomorrow's. And tomorrow's problem adds to the scarcity. It's not a sign that people don't try hard. Often, it's a sign that they're trying very hard, with too little room.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "A vicious circle."
+   }
+  },
+  {
+   "say": "One idea the researchers discussed is slack. A little extra room. A small buffer of money or time, so that unexpected events don't immediately become emergencies. Even a modest emergency fund can protect not only your finances, but also your mental bandwidth. It lets your mind rest, instead of constantly scanning for the next crisis.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Building slack."
+   }
+  },
+  {
+   "say": "If money is tight for you right now, I want to say gently that it's not a personal failing. Scarcity is genuinely hard on the mind. Small steps that reduce the mental load, like automating essential bills, or writing down what's coming up, can help. And in many places there are free services that offer help with debt and budgeting. Reaching out is a sign of strength.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "If money is tight right now."
+   }
+  },
+  {
+   "say": "This research can also make us kinder to others. When someone in a difficult financial situation makes a choice we wouldn't make, it helps to remember the tunnel. They may be seeing a much narrower slice of options, under much more pressure. Judgment is easy from outside the tunnel.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "Kindness to others, too."
+   }
+  },
+  {
+   "say": "So here's what scarcity research teaches us. Scarcity captures attention. It can reduce the mental bandwidth available for other things. Tunneling helps with urgent problems, but neglects the long term. And a little slack, a buffer of money or time, can protect both our finances and our minds.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Understanding scarcity",
+    "items": [
+     "Scarcity captures attention",
+     "It can reduce mental bandwidth",
+     "Tunneling neglects the long term",
+     "A little slack protects money and mind"
+    ]
+   }
+  },
+  {
+   "say": "We've looked at what having too little money can do to the mind. Now, let's look at the opposite. What happens when people suddenly have a lot more? Do lottery winners live happily ever after? A classic study gave a surprising answer.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: what happens when you win."
+   }
+  }
+ ]
+}

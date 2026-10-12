@@ -1,0 +1,133 @@
+{
+ "id": "mn01_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's start with a little imaginary bet. I'll flip a coin. If it lands on heads, you win one hundred euros. If it lands on tails, you lose one hundred euros. Would you take that bet? It's perfectly fair. Equal chances, equal amounts. And yet, most people say no. Losing one hundred euros just feels worse than winning one hundred feels good.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "n": 8,
+    "title": "Why losing hurts so much"
+   }
+  },
+  {
+   "say": "Now, what if heads won you one hundred and fifty, and tails lost you one hundred? That's actually a good bet, on average. But many people still hesitate. Researchers who have asked this kind of question find that many people need the possible win to be roughly twice as large as the possible loss before they're comfortable accepting.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b08_coin.jpg",
+    "cap": "Heads you win, tails you lose"
+   }
+  },
+  {
+   "say": "This idea is called loss aversion. It's one of the central parts of prospect theory, developed by the psychologists Daniel Kahneman and Amos Tversky in the late nineteen seventies. Their work showed that people don't evaluate money in a perfectly logical way. We judge outcomes as gains or losses from a reference point, and losses loom larger.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Daniel Kahneman & Amos Tversky",
+    "where": "Prospect theory, published in Econometrica, 1979",
+    "what": "A theory of how people actually make choices under risk, based on experiments with simple gambles. One key idea: losses weigh more heavily than equal gains."
+   }
+  },
+  {
+   "say": "Kahneman often described it simply. For many people, losses feel roughly twice as powerful as gains of the same size. The exact number varies between people and situations, and researchers still debate how strong the effect is in different settings. But the basic tendency, that losses sting more, has been observed in many studies.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Roughly twice as strong."
+   }
+  },
+  {
+   "say": "Why would our minds work like this? One idea comes from our long evolutionary history. For our ancestors, losing food, shelter or safety could be disastrous, even deadly. Gaining a little extra was nice, but rarely life changing. A mind that was extra careful about losses may have been more likely to survive.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Why would we be built this way?"
+   }
+  },
+  {
+   "say": "You can see loss aversion everywhere in daily life. The pain of a parking fine can spoil a whole day, while finding the same amount of money on the street brings a brief smile. Losing a phone feels terrible, even if you'd never have been especially thrilled to receive one as a gift. Losses linger. Gains fade.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "You feel it in daily life."
+   }
+  },
+  {
+   "say": "Kahneman and Tversky also showed that the way a choice is described, or framed, can change what people choose. If a medical treatment is described as having a ninety percent survival rate, people feel better about it than if it's described as having a ten percent death rate. It's the same information. But one frame highlights loss.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Framing changes choices."
+   }
+  },
+  {
+   "say": "Businesses know this too. A discount framed as avoiding a surcharge. A limited offer framed as something you'll lose if you don't act now. Free trials that you have to cancel, where stopping feels like losing something. Many of these techniques quietly tap into our dislike of losing.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Marketers know this."
+   }
+  },
+  {
+   "say": "Loss aversion can protect us from reckless risks. But it can also make us too cautious. Some people keep all their savings in cash for years, losing purchasing power to inflation, because the idea of a temporary drop in value feels too painful. Avoiding small, visible losses can sometimes lead to bigger, invisible ones.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "It can make us too cautious."
+   }
+  },
+  {
+   "say": "It can also make us hold on to things too long. An investment that's gone down, kept in the hope it will come back, because selling would make the loss feel real. Researchers have described this as the disposition effect. A tendency to sell winners too early and hold losers too long. It's very human.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "And it can make us hold on."
+   }
+  },
+  {
+   "say": "So how can we live with loss aversion? Not by pretending it isn't there. It's part of being human. But we can notice it. When a choice feels scary, ask, am I afraid of a real danger, or just the feeling of a loss? And try looking at decisions over the long run, rather than one moment at a time. Single losses feel big. Patterns over years feel calmer.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "A kinder way to see it."
+   }
+  },
+  {
+   "say": "So here's what loss aversion teaches us. Losses often feel roughly twice as strong as equal gains. The way a choice is framed can change what we choose. Loss aversion can make us too cautious, or make us hold on too long. And looking at the long run, instead of single moments, can help us decide more calmly.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Living with loss aversion",
+    "items": [
+     "Losses often feel about twice as strong as gains",
+     "Framing can change our choices",
+     "It can make us too cautious",
+     "Look at the long run, not single moments"
+    ]
+   }
+  },
+  {
+   "say": "And loss aversion has a curious cousin. Once something belongs to us, even something as simple as a coffee mug, we suddenly value it more. Next, let's look at the strange way ownership changes value, and why we sometimes keep spending on things just because we already have.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: why we overvalue what we own."
+   }
+  }
+ ]
+}

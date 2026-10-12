@@ -1,0 +1,131 @@
+{
+ "id": "mn01_b23",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "It's late. The house is quiet. You're lying in bed, and suddenly a thought arrives. That bill. That payment next week. That unexpected expense. And in the dark, the worry seems to grow. It feels bigger, heavier and more urgent than it ever did during the day.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "n": 23,
+    "title": "Money worries at night"
+   }
+  },
+  {
+   "say": "Many people know this feeling. Money worries often seem to visit at night. And there are some understandable reasons why. At night, there are no distractions. No work, no conversations, nothing to do. The mind, left alone, tends to drift toward unfinished business. And money is often unfinished business.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_x4_window.jpg",
+    "cap": "Why worries grow in the dark"
+   }
+  },
+  {
+   "say": "There's another reason too. When we're tired, the parts of the brain involved in calm, balanced thinking may work less effectively, while emotional reactions can feel stronger. Problems that seem manageable at noon can feel overwhelming at three in the morning. The problem hasn't changed. Our ability to put it in perspective has.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "The tired brain."
+   }
+  },
+  {
+   "say": "And at night, you usually can't do anything about it. You can't call the bank. You can't make a payment. You can't ask for advice. So the worry just circles, with nowhere to go. Remember from tonight how uncertainty and open questions keep the mind busy. A money worry at night is an open question with no action available.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "You can't act at night."
+   }
+  },
+  {
+   "say": "One simple technique many people find helpful is a worry list. Keep a notebook by your bed. When a money worry arrives, write it down, along with one small step you could take tomorrow. Then close the notebook. You're telling your mind, this is captured. It won't be forgotten. You can let go of it for now.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "A worry list."
+   }
+  },
+  {
+   "say": "Some therapists also suggest scheduling a short worry time during the day. Ten or fifteen minutes, at a set time, when you deliberately look at your money concerns, and plan what to do. When worries appear at other times, especially at night, you can gently remind yourself, I'll think about this during my worry time.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Schedule the worrying."
+   }
+  },
+  {
+   "say": "And the most powerful antidote to night worries is often clarity during the day. Remember the ostrich effect. Avoiding your finances can make them feel more frightening, because the mind fills the unknown with worst case scenarios. Knowing your numbers, even if they're not great, can actually make the night feel calmer.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Clarity during the day."
+   }
+  },
+  {
+   "say": "Even small actions can bring relief. Setting up one automatic payment. Calling a company to ask about a payment plan. Writing a simple budget. These steps don't solve everything. But they turn vague worry into concrete action. And action is something the mind can rest on.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Small actions, big relief."
+   }
+  },
+  {
+   "say": "If money worries are keeping you awake often, it can help to talk to someone. A partner, a friend, or a free debt advice service, which exist in many countries. Many people find that simply sharing the worry makes it lighter. And professionals have seen almost every situation before. There's often more help available than we think.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "You don't have to carry it alone."
+   }
+  },
+  {
+   "say": "It's also worth knowing that poor sleep and stress can feed each other. Less sleep can make worries feel bigger. And worries can make sleep harder. Breaking that circle, even a little, with a calming routine, a worry list, or a quiet voice like this one, can help both your nights and your days.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Money and sleep."
+   }
+  },
+  {
+   "say": "And remember this. In the morning, with light and coffee and a rested mind, most problems shrink back to their real size. The night magnifies. The morning restores proportion. So when a worry feels huge at night, you can gently tell yourself, I'll look at this in the morning light. It will probably look different then.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "The morning perspective."
+   }
+  },
+  {
+   "say": "So here's what can help with money worries at night. Remember that night makes worries feel bigger than they are. Write them down, with one small step for tomorrow. Clarity during the day often calms the night. And talking to someone can make the load much lighter.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Calmer nights with money",
+    "items": [
+     "Night makes worries feel bigger",
+     "Write worries down with one small step",
+     "Clarity in the day calms the night",
+     "Talk to someone, help exists"
+    ]
+   }
+  },
+  {
+   "say": "Now, let's gather some of the gentlest lessons from tonight into a calmer way of living with money. Not rules, and not advice. Just a few ideas that might help money feel a little less heavy, in the day and at night.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: a calmer way with money."
+   }
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "id": "mn01_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine you receive fifty euros as a birthday gift from a relative. And in the same week, you get fifty euros back as a tax refund. Would you spend both in the same way? Many people wouldn't. The birthday money feels like it should be spent on a treat. The refund might go toward bills. And yet, a euro is a euro.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "n": 10,
+    "title": "Money in invisible jars"
+   }
+  },
+  {
+   "say": "The economist Richard Thaler called this mental accounting. The way we sort money into different mental categories, or jars, and treat it differently depending on which jar it's in. Money for rent. Money for groceries. Money for fun. Holiday money. Found money. Each jar comes with its own unwritten rules.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b10_jars.jpg",
+    "cap": "Holiday money, rent money, fun money"
+   }
+  },
+  {
+   "say": "Thaler, who later received the Nobel Prize in economics in two thousand and seventeen, described many examples of this. People who are careful with their salary might spend a gambling win or a bonus much more freely. As if that money was somehow less real. Economists sometimes call it house money.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Richard Thaler",
+    "where": "Mental accounting, developed in papers from 1985 and 1999",
+    "what": "Research describing how people group money into separate mental categories and spend differently depending on where money came from and what it is labeled for."
+   }
+  },
+  {
+   "say": "Kahneman and Tversky described a lovely puzzle about this. Imagine you're going to a show, and the ticket costs fifty euros. When you arrive, you realize you've lost a fifty euro note. Would you still buy a ticket? Most people say yes. Now imagine instead that you had already bought the ticket, and you've lost the ticket. Would you buy another? Many people say no.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "The lost ticket puzzle."
+   }
+  },
+  {
+   "say": "In both cases, you've lost fifty euros of value. But in the second case, the loss feels like it's charged to the show jar. Paying again feels like the show now costs one hundred euros. In the first case, the lost note comes out of a general money jar, so the show still feels like it costs fifty. Same loss. Different mental account.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Same loss, different jar."
+   }
+  },
+  {
+   "say": "Now, mental accounting isn't all bad. In fact, it can be very helpful. Many people use it on purpose to manage money. They set aside a fixed amount for groceries, or put savings in a separate account with a name like holiday or emergency fund. The labels make it easier to resist spending that money on something else.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Jars can help us."
+   }
+  },
+  {
+   "say": "Research has suggested that labeling savings for a specific purpose can make people more likely to keep them. A jar labeled for a child's education, or a trip, feels more protected than an anonymous pile of money. Our minds respect the labels, even though they're entirely invented.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Labels change behavior."
+   }
+  },
+  {
+   "say": "But jars can also trick us. Some people keep money in a savings account earning very little interest, while at the same time carrying a credit card balance with high interest. Logically, it might make sense to use the savings to pay off the expensive debt. But the savings jar feels untouchable, so the debt stays.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "And jars can trick us."
+   }
+  },
+  {
+   "say": "And windfalls, like a bonus, a gift or a win, can be especially slippery. Because they feel like extra money, outside the normal budget, they can disappear quickly on things we wouldn't normally buy. There's nothing wrong with enjoying a windfall. But it's helpful to remember that it's just as real as any other money.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Windfalls feel like free money."
+   }
+  },
+  {
+   "say": "Mental accounting also explains why small, regular expenses can hide so easily. A few euros here and there for a coffee, an app, a subscription. Each one is so small that it doesn't seem to belong to any serious jar. But together, over a year, they can add up to a surprisingly large amount.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Small expenses hide."
+   }
+  },
+  {
+   "say": "So perhaps the wisest approach is to use mental accounting on purpose, rather than letting it use us. Create jars that match what you value. Label your savings with real goals. And now and then, step back and look at all your jars together, to make sure the overall picture still makes sense.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "cap": "Use your jars on purpose."
+   }
+  },
+  {
+   "say": "So here's what mental accounting teaches us. We naturally sort money into mental jars. Found money, like bonuses or gifts, tends to be spent more freely. Labels can help protect savings for things that matter. And now and then, it's worth looking at all the jars together.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Living with invisible jars",
+    "items": [
+     "We sort money into mental categories",
+     "Found money tends to be spent more freely",
+     "Labels can help protect savings",
+     "Now and then, look at all jars together"
+    ]
+   }
+  },
+  {
+   "say": "And there's another reason our spending changes depending on how we pay. Handing over real banknotes feels different from tapping a card or a phone. Researchers have measured that difference, and it's bigger than you might expect. Let's look at the pain of paying.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: the pain of paying."
+   }
+  }
+ ]
+}

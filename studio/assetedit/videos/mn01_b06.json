@@ -1,0 +1,131 @@
+{
+ "id": "mn01_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Do you remember what a candy bar, or a bus ticket, or a cup of coffee cost when you were a child? If you're old enough, the price was probably noticeably lower than today. Older relatives often say, in my day, this cost only a few cents. And they're usually right. Prices tend to rise over time. That's inflation.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "n": 6,
+    "title": "Why prices rise"
+   }
+  },
+  {
+   "say": "Inflation means that, on average, prices in an economy go up. Or, to put it the other way around, each unit of money buys a little less than before. If inflation is two percent in a year, something that cost one hundred euros last year costs around one hundred and two euros now. Your money's purchasing power has shrunk a little.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b06_market.jpg",
+    "cap": "The same bread, a different price"
+   }
+  },
+  {
+   "say": "Why does inflation happen? Economists describe several causes, and they often work together. One is when demand grows faster than what the economy can produce. More money chasing the same goods. Another is when costs rise, for example when energy becomes more expensive, and businesses pass those costs on in their prices.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Why does it happen?"
+   }
+  },
+  {
+   "say": "And there's a psychological part, too. Expectations. If people expect prices to rise, workers ask for higher wages, and businesses raise prices in advance. Those expectations can partly fulfill themselves. That's one reason central banks care so much about keeping inflation expectations calm and steady. Trust, once again.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Expectations matter too."
+   }
+  },
+  {
+   "say": "Many central banks actually aim for a small, steady amount of inflation, often around two percent per year. Why not zero? One reason is that a little inflation gives the economy some flexibility. Another is that falling prices, called deflation, can be dangerous. If people expect things to be cheaper tomorrow, they may delay spending, and the economy can slow down.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "A little inflation is normal."
+   }
+  },
+  {
+   "say": "But when inflation gets out of control, it can be devastating. History has examples of hyperinflation, where prices rose so fast that money became almost worthless. In Germany in the early nineteen twenties, prices rose so extremely that people famously carried large bundles of banknotes to buy everyday things. Savings were wiped out.",
+   "show": {
+    "type": "char",
+    "sprite": "F15",
+    "bg": "home_office_night",
+    "cap": "When it goes wrong."
+   }
+  },
+  {
+   "say": "For most people, in most times, inflation is much gentler. But even gentle inflation has a quiet effect. Money kept as cash, or in an account that earns very little, slowly loses purchasing power. Not dramatically. But year after year, it adds up. A hundred euros under the mattress for twenty years will buy noticeably less at the end.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "The quiet effect on savings."
+   }
+  },
+  {
+   "say": "And here's where our psychology comes in. Economists talk about something called the money illusion. Our tendency to think about money in its face value, the number on the note, rather than what it can actually buy. A raise of two percent feels like a gain, even if prices also rose by three percent. In real terms, you've lost a little.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "The money illusion."
+   }
+  },
+  {
+   "say": "It's very natural. The numbers on our payslip and in our account are what we see. Adjusting everything for inflation in our heads is hard work. So we tend to feel richer when the numbers go up, even when our real buying power stays the same, or falls. Our brains are better at counting euros than at measuring value.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Numbers that feel real."
+   }
+  },
+  {
+   "say": "A helpful habit is to think in real terms. When you compare prices or salaries across years, ask, what could this actually buy? When you think about savings, ask, is this growing faster than prices, or slower? It's not about worrying. It's simply about seeing the quiet current that runs beneath all money.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Thinking in real terms."
+   }
+  },
+  {
+   "say": "I like to think of inflation as a gentle current in a river. If you stand still, it slowly carries you backwards. Not fast enough to notice from day to day. But over years, you drift. And the opposite force, the force that can help you move forward against that current, is something we'll explore next. Growth.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "A gentle current."
+   }
+  },
+  {
+   "say": "So here's what to remember about inflation. It means each euro buys a little less over time. Many central banks aim for low, steady inflation, often around two percent a year. Cash that doesn't grow slowly loses purchasing power. And the money illusion can hide those real changes from us.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Understanding inflation",
+    "items": [
+     "Inflation means each euro buys a little less",
+     "Many central banks aim for about 2% a year",
+     "Cash slowly loses purchasing power",
+     "The money illusion hides real changes"
+    ]
+   }
+  },
+  {
+   "say": "Albert Einstein is often said to have called it the eighth wonder of the world, though there's no good evidence he ever said it. Whoever said it first, the idea behind it is genuinely remarkable. Next, let's slowly explore compound growth, and why time may be the most powerful ingredient in money.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: the quiet power of growth."
+   }
+  }
+ ]
+}

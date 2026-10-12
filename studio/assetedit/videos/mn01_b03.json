@@ -1,0 +1,122 @@
+{
+ "id": "mn01_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine a river in an ancient kingdom called Lydia, in what is now western Turkey. In its waters, people found a natural mixture of gold and silver, called electrum. A pale, shining metal. And sometime around the seventh century before our era, the Lydians did something new with it. They began to make coins.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "campfire_lake",
+    "n": 3,
+    "title": "The first coins"
+   }
+  },
+  {
+   "say": "These first coins weren't round and perfect like the ones in your pocket. They were small, lumpy pieces of metal, stamped with a mark. Often an image, like the head of a lion. That stamp was the important part. It said, this piece has a known weight and value, guaranteed by an authority.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b03_coins.jpg",
+    "cap": "Small, lumpy, and revolutionary"
+   }
+  },
+  {
+   "say": "Think about why that matters. Before coins, if you wanted to pay with a piece of precious metal, someone had to weigh it, and maybe test its purity. That took time, and it required trust in the scales. A stamped coin removed that step. You could simply count the coins. The stamp carried the trust for you.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "The stamp was the trust."
+   }
+  },
+  {
+   "say": "The idea of coins spread quickly through the ancient Greek world, and beyond. City states minted their own coins, often with their own symbols. An owl for Athens, for example. Coins became a way of saying something about who you were, as well as a way of paying. They were a small piece of identity, passing from hand to hand.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "The idea spread."
+   }
+  },
+  {
+   "say": "But coins weren't the only kind of money humans invented. All over the world, different cultures used all sorts of things. Shells, beads, salt, cattle, pieces of cloth. In many places, cowrie shells were used as money for a very long time. What mattered wasn't what the money was made of. What mattered was that people accepted it.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Coins weren't the only money."
+   }
+  },
+  {
+   "say": "And there's one example that I find especially charming. On the island of Yap, in the western Pacific, people used enormous stone discs as a form of money. Some of these stones were taller than a person, with a hole in the middle. They were carved from limestone, which had to be brought from other islands, across the sea, at great effort.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "The giant stones of Yap."
+   }
+  },
+  {
+   "say": "Now here's the remarkable part. Some of these stones were so big that they were rarely moved at all. When one changed owners, the stone itself often stayed exactly where it was. Everyone in the community simply knew, and remembered, who owned it now. The ownership moved. The stone didn't.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Money that never moves."
+   }
+  },
+  {
+   "say": "There's a famous story, told by visitors to the island, about one stone that was lost at sea during transport. It sank to the bottom. And yet, the story goes, the family that owned it was still considered wealthy, because everyone agreed the stone existed and belonged to them. Even at the bottom of the ocean, it still counted.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "campfire_lake",
+    "cap": "A stone at the bottom of the sea."
+   }
+  },
+  {
+   "say": "That might sound strange. But think about it for a moment. Is it really so different from today? Most of your money isn't in your hand. It's a number in a bank's records. You've never seen it. You can't touch it. It exists because everyone agrees it does, and because records say it's yours. The people of Yap understood something very modern.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "Not so different from today."
+   }
+  },
+  {
+   "say": "So whether it's a lumpy Lydian coin, a cowrie shell, a giant stone or a number on a screen, money is fundamentally an agreement. A shared belief that this thing can be exchanged for real goods and services. The material can change completely. The agreement is what matters.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Money is agreement."
+   }
+  },
+  {
+   "say": "So here's what the first forms of money teach us. Early coins were stamped pieces of precious metal. The stamp carried trust, so people didn't have to weigh everything. Many cultures used very different things as money, from shells to giant stones. And in the end, money is an agreement, not an object.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "What the first money teaches",
+    "items": [
+     "Early coins were stamped pieces of metal",
+     "The stamp carried trust",
+     "Many cultures used shells, salt or stones",
+     "Money is an agreement, not an object"
+    ]
+   }
+  },
+  {
+   "say": "Coins were a huge step. But they were heavy, and in large amounts, very inconvenient. So eventually, someone had an idea that must have sounded almost absurd at the time. What if we replaced heavy metal with simple paper? Let's travel to China, about a thousand years ago.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: when paper became money."
+   }
+  }
+ ]
+}

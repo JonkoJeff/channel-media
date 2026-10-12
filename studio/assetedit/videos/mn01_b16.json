@@ -1,0 +1,133 @@
+{
+ "id": "mn01_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Almost everyone has imagined it at some point. Winning the lottery. Quitting your job, buying a house, travelling the world, never worrying about money again. It's a lovely daydream. And it raises an interesting question. Would a huge win actually make you lastingly happier?",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "n": 16,
+    "title": "What happens when you win"
+   }
+  },
+  {
+   "say": "In nineteen seventy eight, a team of psychologists, Philip Brickman, Dan Coates and Ronnie Janoff Bulman, published a study that has been discussed ever since. They interviewed people who had won large lottery prizes, and compared them with people who hadn't. They also, in a separate part of the study, interviewed people who had experienced serious accidents.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b15_tickets.jpg",
+    "cap": "The daydream of a big win"
+   }
+  },
+  {
+   "say": "And what they found surprised many people. The lottery winners were not significantly happier than the comparison group. And they reported taking less pleasure from everyday things, like chatting with a friend, hearing a joke, or eating breakfast. The big win had not transformed their happiness in the way you might expect.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Brickman, Coates & Janoff-Bulman",
+    "where": "Published in the Journal of Personality and Social Psychology, 1978",
+    "what": "Lottery winners and a comparison group rated their current happiness, their past happiness, and how much they enjoyed everyday pleasures."
+   }
+  },
+  {
+   "say": "I want to be careful here. This was a small study, from a long time ago, with a limited number of winners. Later research, with larger samples, has found that lottery wins can improve people's overall life satisfaction, especially their satisfaction with their finances. So the full picture is more nuanced than lottery winners are no happier.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "A small, old study."
+   }
+  },
+  {
+   "say": "But the classic study helped popularize an important idea. The hedonic treadmill. The tendency for people to adapt to changes in their lives, both good and bad, and drift back toward their usual level of happiness. A new car feels wonderful at first. After a few months, it's just your car.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "The hedonic treadmill."
+   }
+  },
+  {
+   "say": "Think about the last time you got something you really wanted. A new phone, a nicer flat, a raise. How long did the thrill last? Usually, not forever. We get used to things. What was once a luxury becomes normal. And then we start wanting the next thing. The treadmill keeps moving.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "We get used to things."
+   }
+  },
+  {
+   "say": "Adaptation isn't all bad, though. It's the same process that helps people recover from difficult events. In the original study, people who had experienced serious accidents also adapted, more than many people would have predicted, although their happiness did not fully return to the same level. Our minds are built to settle into whatever life brings.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Adaptation protects us too."
+   }
+  },
+  {
+   "say": "Comparison plays a big role too. When our income rises, we often start comparing ourselves to people with even more. New neighborhood, new circle, new standards. So even as we have more, we may feel the same, because the people around us also have more. The treadmill is partly social.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Comparisons keep us running."
+   }
+  },
+  {
+   "say": "And there are stories, though they're often exaggerated in the media, of sudden wealth bringing difficulties. Friends and relatives asking for money. Feeling isolated. Not knowing how to manage a large amount. It can be surprisingly stressful to suddenly have to make big financial decisions without experience.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Sudden wealth can be hard."
+   }
+  },
+  {
+   "say": "So if more stuff and bigger wins tend to fade, is there anything that lasts longer? Researchers have suggested a few possibilities, which we'll explore soon. Spending on experiences rather than things. Spending on other people. Buying time. Things that connect us to others, and that keep giving in memory.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "What lasts longer?"
+   }
+  },
+  {
+   "say": "One gentle way to step off the treadmill a little is to practice noticing what you already have. The roof over your head. A good cup of coffee. A friend who calls. Some people find that simple gratitude, appreciating what has already become normal, helps keep good things feeling good for longer.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "Getting off the treadmill."
+   }
+  },
+  {
+   "say": "So here's what lottery winners and the hedonic treadmill teach us. A big win may not transform happiness as much as we expect. We adapt to both good and bad changes in our lives. Comparison keeps the treadmill moving. And noticing what we already have can help good things stay good a little longer.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "What lottery winners teach us",
+    "items": [
+     "A big win may not transform happiness",
+     "We adapt to good and bad changes",
+     "Comparison keeps the treadmill moving",
+     "Noticing what you have slows the fade"
+    ]
+   }
+  },
+  {
+   "say": "And there's one more reason the treadmill keeps moving. Much of what we buy isn't only for ourselves. It's also, quietly, for the people watching. Next, let's look at how we spend money to be seen.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: spending to be seen."
+   }
+  }
+ ]
+}

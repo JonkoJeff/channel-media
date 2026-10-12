@@ -1,0 +1,133 @@
+{
+ "id": "mn01_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "For much of the nineteenth and early twentieth centuries, many countries tied their money to gold. This was called the gold standard. The idea was simple. A banknote represented a certain amount of gold, held in a vault somewhere. In principle, you could exchange your paper for that gold.",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "n": 5,
+    "title": "The day money left gold"
+   }
+  },
+  {
+   "say": "The gold standard gave people a sense of security. Money wasn't just paper. It was a claim on something solid, shiny and rare. Governments couldn't simply print as much money as they liked, because they needed gold to back it. That limited inflation, but it also made the money supply rigid.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b05_vault.jpg",
+    "cap": "Gold in the vault, paper in your pocket"
+   }
+  },
+  {
+   "say": "And rigid money can be a problem in hard times. During economic crises, like the Great Depression of the nineteen thirties, many economists believe the gold standard made things worse, because governments couldn't easily increase the money supply to help struggling economies. One by one, many countries loosened or abandoned their ties to gold.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Rigid money in hard times."
+   }
+  },
+  {
+   "say": "Near the end of the Second World War, in nineteen forty four, representatives of many nations met in a small town in New Hampshire called Bretton Woods. They designed a new system for the post war world. Other currencies would be tied to the US dollar, and the dollar would be convertible into gold at a fixed price, for foreign governments.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Bretton Woods",
+    "where": "A conference in New Hampshire, United States, 1944",
+    "what": "Representatives of 44 Allied nations designed a post-war money system: currencies were tied to the US dollar, and the dollar was tied to gold."
+   }
+  },
+  {
+   "say": "For a couple of decades, this system brought a kind of stability. The dollar sat at the center of the world's money, and gold sat behind the dollar. But over time, pressure built up. More and more dollars circulated around the world, while the gold in American vaults didn't grow at the same pace.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "The dollar at the center."
+   }
+  },
+  {
+   "say": "And in August nineteen seventy one, President Richard Nixon announced that the United States would suspend the convertibility of the dollar into gold. Foreign governments could no longer exchange their dollars for American gold. It was meant to be temporary. But in practice, it marked the end of the link between the world's main currency and gold.",
+   "show": {
+    "type": "char",
+    "sprite": "F15",
+    "bg": "home_office_night",
+    "cap": "August 1971."
+   }
+  },
+  {
+   "say": "Since then, most of the world's money has been what's called fiat money. From a Latin word meaning, let it be done. Fiat money isn't backed by gold or any physical commodity. It has value because governments declare it to be legal tender, because taxes must be paid in it, and because people trust that it will keep being accepted.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Fiat money."
+   }
+  },
+  {
+   "say": "Some people find this unsettling. If money isn't backed by gold, is it just paper? Is it fake? But remember the stones of Yap, and the receipts in China. Money has always rested on agreement. Gold was simply one way of making that agreement feel more solid. Today, the agreement rests on institutions, laws and trust.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Does that make it fake?"
+   }
+  },
+  {
+   "say": "In most countries today, a central bank manages the money supply. Like the European Central Bank for the euro, or the Federal Reserve in the United States. They try to keep prices relatively stable, often aiming for low and steady inflation, by influencing interest rates and the amount of money in the economy. Their job is, in a way, to protect the trust.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Central banks."
+   }
+  },
+  {
+   "say": "And today, most money isn't even paper. It's numbers in computer systems. When you get paid, numbers change in a database. When you pay with your phone, numbers move from one record to another. In many countries, cash makes up a shrinking share of payments. Money has become almost pure information.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Money as numbers."
+   }
+  },
+  {
+   "say": "So when you hold a banknote, or check your balance on a screen, you're holding a piece of a vast, invisible agreement. Trust in a central bank. Trust in laws. Trust that tomorrow, a shop will still accept it. It's trust, all the way down. And remarkably, most of the time, it works.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "city_night_lounge",
+    "cap": "Trust, all the way down."
+   }
+  },
+  {
+   "say": "So here's what the story of gold teaches us. The gold standard tied money to a physical metal. After the war, Bretton Woods tied the world's currencies to the dollar, and the dollar to gold. In nineteen seventy one, that link was broken. And modern money rests on institutions, laws and trust.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "What leaving gold teaches",
+    "items": [
+     "The gold standard tied money to metal",
+     "Bretton Woods tied currencies to the dollar",
+     "1971 ended dollar convertibility into gold",
+     "Modern money rests on institutions and trust"
+    ]
+   }
+  },
+  {
+   "say": "And speaking of trust, there's one quiet force that affects every euro or dollar you hold. A force that makes a coffee cost more than it did when you were a child. Next, let's look gently at inflation, and why money slowly loses its value over time.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: why prices rise."
+   }
+  }
+ ]
+}

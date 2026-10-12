@@ -1,0 +1,144 @@
+{
+ "id": "mn01_b19",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine someone hands you an envelope with some money in it, and says, spend this by the end of the day. If you're like most people, you'd probably spend it on yourself. Something you've wanted, a nice lunch, a little treat. That feels like the obvious way to get the most happiness from it. But is it?",
+   "show": {
+    "type": "chapter",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "n": 19,
+    "title": "Spending that makes people happier"
+   }
+  },
+  {
+   "say": "In two thousand and eight, Elizabeth Dunn, Lara Aknin and Michael Norton published a study in the journal Science that tested exactly this. People were given an envelope with either five or twenty dollars. Some were told to spend it on themselves, like a bill or a gift for themselves. Others were told to spend it on someone else, like a gift or a donation.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Elizabeth Dunn, Lara Aknin & Michael Norton",
+    "where": "Published in Science, 2008",
+    "what": "Participants received $5 or $20 in an envelope and were told to spend it by evening, either on themselves or on someone else (a gift or a donation)."
+   }
+  },
+  {
+   "say": "At the end of the day, the researchers called the participants and asked how happy they felt. And the people who had spent the money on others reported feeling happier than those who had spent it on themselves. And it didn't matter much whether it was five dollars or twenty. The way the money was spent mattered more than the amount.",
+   "show": {
+    "type": "photo",
+    "file": "mn01_b17_gift.jpg",
+    "cap": "A small gift for someone else"
+   }
+  },
+  {
+   "say": "Later research by Aknin and colleagues has found similar patterns in many countries around the world, including both rich and poor nations. Spending on others, sometimes called prosocial spending, seems to bring a warm glow for many people. Especially when we can see the positive effect on someone we care about.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Giving feels good."
+   }
+  },
+  {
+   "say": "A second idea is about what we buy. Research by Leaf Van Boven and Thomas Gilovich, published in two thousand and three, suggested that experiences, like trips, concerts and meals with friends, often bring more lasting happiness than material things. Experiences become part of our story. We share them with others. And we remember them warmly.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Experiences over things."
+   }
+  },
+  {
+   "say": "There are a few reasons for this. Experiences are often shared with people, and social connection is a powerful source of happiness. They're harder to compare directly with what others have. And we tend to remember them in a rosy way, polishing them over time. A rainy holiday becomes a funny story. A new sofa just becomes a sofa.",
+   "show": {
+    "type": "char",
+    "sprite": "G14",
+    "bg": "money_board",
+    "cap": "Why experiences last."
+   }
+  },
+  {
+   "say": "The third idea is perhaps the most surprising. Buying time. In a study published in two thousand and seventeen, Ashley Whillans and colleagues found that people who spent money to save time, for example by paying for help with chores they disliked, tended to report greater life satisfaction.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Buying time."
+   }
+  },
+  {
+   "say": "In a small experiment within the study, working adults were given money to spend on a time saving purchase on one weekend, and on a material purchase on another weekend. They reported feeling better on the day they bought time. Less time stress, more positive mood. Freeing up an hour from a tedious task seemed to be worth more than a new object.",
+   "show": {
+    "type": "study",
+    "sprite": "G14",
+    "bg": "money_board",
+    "who": "Ashley Whillans and colleagues",
+    "where": "Published in PNAS, 2017",
+    "what": "Surveys of thousands of people in several countries, plus a field experiment in which working adults spent money on a time-saving purchase on one weekend and a material purchase on another."
+   }
+  },
+  {
+   "say": "This connects to something deeper. Money is, in a way, a tool for shaping how we spend our time. And how we spend our time is really how we spend our lives. Spending money to buy back time for the people and activities we love can be one of the wisest uses of it, when it's possible.",
+   "show": {
+    "type": "char",
+    "sprite": "G09",
+    "bg": "city_night_lounge",
+    "cap": "Time is the real currency."
+   }
+  },
+  {
+   "say": "And remember anticipation. Looking forward to an experience can bring joy long before it happens. Planning a trip months ahead gives you months of pleasant daydreaming. Some researchers suggest that paying in advance can also make the experience feel more enjoyable at the moment itself, because the pain of paying is already behind you.",
+   "show": {
+    "type": "char",
+    "sprite": "F13",
+    "bg": "money_board",
+    "cap": "Anticipation adds joy."
+   }
+  },
+  {
+   "say": "None of this means you should never buy things for yourself. Comfortable shoes, a good bed, a reliable laptop can genuinely improve life. And everyone's circumstances are different. But these studies offer a gentle direction. When you have a choice, consider people, experiences, and time.",
+   "show": {
+    "type": "char",
+    "sprite": "F04",
+    "bg": "home_office_night",
+    "cap": "Not a rule. A direction."
+   }
+  },
+  {
+   "say": "And the lovely part is that this doesn't require a lot of money. Buying a friend a coffee. Paying for a small shared experience. Saving yourself an hour of a chore you dread. Even small amounts, spent thoughtfully, seem to carry a surprising amount of happiness.",
+   "show": {
+    "type": "char",
+    "sprite": "F03",
+    "bg": "living_room_golden",
+    "cap": "Small amounts count."
+   }
+  },
+  {
+   "say": "So here's what research suggests about happier spending. Spending on others often feels better than spending on ourselves. Experiences tend to bring longer lasting happiness than things. Buying time can reduce stress and increase satisfaction. And even small amounts, spent thoughtfully, can make a real difference.",
+   "show": {
+    "type": "list",
+    "sprite": "G13",
+    "bg": "living_room_golden",
+    "title": "Spending for happiness",
+    "items": [
+     "Spending on others often feels better",
+     "Experiences tend to last longer than things",
+     "Buying time can reduce stress",
+     "Small amounts, spent well, matter"
+    ]
+   }
+  },
+  {
+   "say": "Our feelings about money aren't only about what we have, though. They're also about whether things feel fair. And there's a simple game that has revealed how deeply humans care about fairness, even when it costs them money. Let's play it, in our imagination, next.",
+   "show": {
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
+    "cap": "Next: money and fairness."
+   }
+  }
+ ]
+}

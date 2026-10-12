@@ -31,11 +31,12 @@ if cmd == "accounts":
     yt = [x for x in cfg["accounts"] if x["platform"] == "youtube"]
     cfg["youtube"] = {("moneyatnight" if "money" in (x.get("username") or "").lower() else "crazyfacts"): x.get("_id") or x.get("id") for x in yt}
     save(); print("::notice::Zernio accounts: " + ", ".join(f"{x['platform']}:{x.get('username') or x.get('displayName') or x.get('name')}" for x in cfg["accounts"]))
-elif cmd == "playlist":
-    title, desc = sys.argv[2], (sys.argv[3] if len(sys.argv) > 3 else "")
-    ch, _, title = title.rpartition(":") if ":" in title else ("crazyfacts", "", title)   # "moneyatnight:Title" for Money at Night
-    _, p = call("POST", f"/accounts/{yt_account(ch)}/youtube-playlists", {"title": title, "description": desc, "privacy": "public"})
-    cfg.setdefault("playlists", {})[title] = p["playlist"]["id"]; save(); print(f"::notice::playlist {title} = {p['playlist']['id']}")
+elif cmd == "playlist":   # a = "Title|Title2" (prefix "moneyatnight:" for Money at Night), b = shared description
+    for t in sys.argv[2].split("|"):
+        ch, _, title = t.rpartition(":") if ":" in t else ("crazyfacts", "", t)
+        if title in cfg.get("playlists", {}): continue
+        _, p = call("POST", f"/accounts/{yt_account(ch)}/youtube-playlists", {"title": title, "description": sys.argv[3] if len(sys.argv) > 3 else "", "privacy": "public"})
+        cfg.setdefault("playlists", {})[title] = p["playlist"]["id"]; save(); print(f"::notice::playlist {title} = {p['playlist']['id']}")
 elif cmd == "post":
     vid, when = sys.argv[2], sys.argv[3]
     v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); res = json.load(open(os.path.join(R, vid, "result.json")))

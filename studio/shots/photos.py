@@ -7,6 +7,7 @@ AI images: [{"file": "x.jpg", "ai": "prompt"}] -> Flux (flux-1-schnell, 1024x102
 import base64
 import json, os, urllib.parse, urllib.request
 UA = {"User-Agent": "CrazyFactsPublisher/1.0 (github.com/JonkoJeff/channel-media)"}
+QUOTA = [False]  # Cloudflare daily free allocation used up
 def get(url): return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60).read()
 for chd in ["studio/assetedit"] + [os.path.join("studio/channels", c) for c in os.listdir("studio/channels")]:  # Crazy Facts lives in assetedit/
     lst = os.path.join(chd, "photos.json")
@@ -15,7 +16,7 @@ for chd in ["studio/assetedit"] + [os.path.join("studio/channels", c) for c in o
     cpath = os.path.join(out, "credits.json"); credits = json.load(open(cpath)) if os.path.exists(cpath) else {}
     for p in json.load(open(lst)):
         if os.path.exists(os.path.join(out, p["file"])): continue
-        if p.get("ai"):
+        if p.get("ai") and not QUOTA[0]:
             acc, tok = os.environ.get("CF_ACCOUNT_ID"), os.environ.get("CF_API_TOKEN")
             if not tok: print("::error::AI image asked but GitHub secret CF_API_TOKEN is missing"); continue
             try:
@@ -28,8 +29,12 @@ for chd in ["studio/assetedit"] + [os.path.join("studio/channels", c) for c in o
                 open(os.path.join(out, p["file"]), "wb").write(base64.b64decode(img))
                 credits[p["file"]] = {"ai": True, "creator": "AI-generated", "provider": "Flux / Cloudflare Workers AI", "license": "AI", "prompt": p["ai"]}
                 print("ok ai", p["file"])
-            except Exception as e: print(f"::error::AI image {p['file']}: {type(e).__name__}: {str(e)[:200]} {getattr(e, 'read', lambda: b'')()[:300]}")
-            continue
+            except Exception as e:
+                body = getattr(e, 'read', lambda: b'')()[:300]; QUOTA[0] = QUOTA[0] or b"4006" in body or b"daily free" in body
+                print(f"::warning::AI image {p['file']}: {type(e).__name__}: {str(e)[:200]} {body}")
+            if os.path.exists(os.path.join(out, p["file"])): continue
+        if p.get("ai"):  # AI failed or daily quota used up -> free-licensed photo from Openverse for the same idea
+            p = dict(p, query=" ".join(w for w in p["ai"].split(",")[0].split()[:7] if w.lower() not in ("a", "an", "the", "with", "of", "in", "on")))
         q = urllib.parse.urlencode({"q": p["query"], "license": "cc0,pdm,by,by-sa", "license_type": "commercial,modification",
                                     "page_size": 20, "mature": "false"})
         try:

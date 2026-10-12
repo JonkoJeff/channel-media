@@ -34,8 +34,8 @@ for blk in [b.strip() for b in src.split("\n\n") if b.strip()]:
     segs.append({"say": say, "show": sh})
 v = {"id": bid, "part": True, "vibe": "calm", "voice": "am_michael", "segments": segs}
 sys.path.insert(0, D); os.chdir(D); import longform as L; L.validate(v)
-json.dump(v, open(os.path.join(D, "videos", bid + ".json"), "w"), indent=1, ensure_ascii=False)
+json.dump(v, open(os.path.join(os.path.dirname(__file__), "..", "assetedit", "videos", bid + ".json"), "w"), indent=1, ensure_ascii=False)
 if photos:
-    pj = os.path.join(D, "photos.json"); cur = json.load(open(pj)) if os.path.exists(pj) else []
+    pj = os.path.join(os.environ.get("CHANNEL_DIR") or D, "photos.json"); cur = json.load(open(pj)) if os.path.exists(pj) else []
     have = {p["file"] for p in cur}; cur += [p for p in photos if p["file"] not in have]; json.dump(cur, open(pj, "w"), indent=1, ensure_ascii=False)
 w = sum(len(s["say"].split()) for s in segs); print(f"{bid}: {len(segs)} segments, {w} words, ~{w / 160:.1f} min, photos +{len(photos)}")

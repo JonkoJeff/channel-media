@@ -37,8 +37,9 @@
   {
    "say": "Some participants later said they began to doubt their own eyes. Others said they knew the group was wrong, but didn't want to stand out. Either way, the pull of the crowd was strong. And these were simple lines on a card. Imagine how much stronger that pull becomes when the question is genuinely uncertain, like what an investment is worth.",
    "show": {
-    "type": "photo",
-    "file": "mn02_b06_crowd.jpg",
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
     "cap": "Everyone is going this way"
    }
   },

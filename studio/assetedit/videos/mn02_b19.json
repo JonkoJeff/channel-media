@@ -28,8 +28,9 @@
   {
    "say": "In their experiments, people were given hypothetical decisions, like how to invest an inheritance. When one option was presented as the current situation, the way things already were, people chose it much more often than when the same option was presented neutrally, as just one of several. Simply being the default made an option more attractive.",
    "show": {
-    "type": "photo",
-    "file": "mn02_x4_armchair.jpg",
+    "type": "char",
+    "sprite": "F03",
+    "bg": "home_office_night",
     "cap": "The comfort of the familiar"
    }
   },

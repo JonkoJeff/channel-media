@@ -26,8 +26,9 @@
   {
    "say": "Here's how it works. Before a big decision, you say, imagine it's a year from now. We went ahead with this plan, and it was a disaster. Now, take a few minutes to write down all the reasons why it failed. Not what might go wrong. What did go wrong, as if it already happened.",
    "show": {
-    "type": "photo",
-    "file": "mn02_b16_table.jpg",
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
     "cap": "Imagine it has already failed"
    }
   },

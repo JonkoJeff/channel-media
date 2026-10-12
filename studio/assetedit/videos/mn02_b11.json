@@ -17,8 +17,9 @@
   {
    "say": "Investments, like stocks, go up and down constantly. Over long periods, they've historically tended to grow, though there are no guarantees. But over short periods, a day, a week, a month, they bounce around a lot. On any given day, there's a fairly high chance that an investment is down compared with the day before.",
    "show": {
-    "type": "photo",
-    "file": "mn02_b11_garden.jpg",
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
     "cap": "Let the seed grow"
    }
   },

@@ -17,8 +17,9 @@
   {
    "say": "For most people, the answer that pops up immediately is ten cents. It feels obvious. One euro ten, minus one euro, leaves ten cents. But let's check. If the ball costs ten cents, the bat costs one euro more, which is one euro ten. Together, that's one euro twenty. Not one euro ten. So ten cents is wrong.",
    "show": {
-    "type": "photo",
-    "file": "mn02_b03_bat.jpg",
+    "type": "char",
+    "sprite": "F14",
+    "bg": "street_day",
     "cap": "A bat, a ball, and a quick answer"
    }
   },

@@ -28,8 +28,9 @@
   {
    "say": "Different groups of agents saw different listing prices. Some saw a higher price, some a lower one. Then the agents gave their professional estimates of what the house was really worth. And their estimates moved with the listing price they had seen. A higher listing price led to higher estimates of value.",
    "show": {
-    "type": "photo",
-    "file": "mn02_x2_house.jpg",
+    "type": "char",
+    "sprite": "G08",
+    "bg": "city_night_lounge",
     "cap": "One house, different starting numbers"
    }
   },

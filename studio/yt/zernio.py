@@ -61,6 +61,10 @@ elif cmd == "shorts":
         done[sid] = {"zernio_id": post.get("_id"), "when": when}; n += 1
         json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1); print(f"{sid} -> {when}")
     print(f"::notice::{vid}: {len(done)} Shorts scheduled")
+elif cmd == "status":  # a = comma-separated Zernio post ids
+    for pid in sys.argv[2].split(","):
+        st, p = call("GET", f"/posts/{pid}"); post = p.get("post", p)
+        print(f"::notice::{pid} {post.get('status')} {post.get('scheduledFor')} " + json.dumps(post.get("platforms", ""))[:400])
 elif cmd == "post":
     vid, when = sys.argv[2], sys.argv[3]
     v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); res = json.load(open(os.path.join(R, vid, "result.json")))

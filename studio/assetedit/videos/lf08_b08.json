@@ -37,8 +37,9 @@
   {
    "say": "At the cash machine, they watched people join the line, and noted who gave up and walked away. And they found that the more people there were behind someone, the less likely that person was to leave the line. The people behind didn't change the wait. But they changed the decision to stay.",
    "show": {
-    "type": "photo",
-    "file": "lf08_b07_atm.jpg",
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
     "cap": "A busy cash machine, observed"
    }
   },

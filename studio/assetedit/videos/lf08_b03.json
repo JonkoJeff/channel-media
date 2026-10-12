@@ -54,8 +54,9 @@
   {
    "say": "Maister quoted a humorous saying that captures this perfectly, sometimes called Erma Bombeck's Law. The other line always moves faster. Of course, it doesn't always. But it feels that way. Partly because we notice when the other line is faster, and feel annoyed, and we don't notice as much when ours is faster.",
    "show": {
-    "type": "photo",
-    "file": "lf08_b03_lines.jpg",
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
     "cap": "The other line always moves faster"
    }
   },

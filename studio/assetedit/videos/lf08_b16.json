@@ -63,8 +63,9 @@
   {
    "say": "And one idea was especially clever. Some children were encouraged to imagine the treat as just a picture. To put a frame around it in their head. According to Stanford's own account of the research, children who did this waited much longer, almost eighteen minutes. As one child explained, well, you can't eat a picture.",
    "show": {
-    "type": "photo",
-    "file": "lf08_b14_frame.jpg",
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
     "cap": "Put a frame around it"
    }
   },

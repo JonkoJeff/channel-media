@@ -81,8 +81,9 @@
   {
    "say": "The adaptive level was designed to create something psychologists call flow. That wonderful state where you're so absorbed in an activity that you lose track of time. It happens when something is challenging enough to hold your attention, but not so hard that you feel overwhelmed. Just right.",
    "show": {
-    "type": "photo",
-    "file": "lf08_b11_blocks.jpg",
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
     "cap": "Just challenging enough"
    }
   },

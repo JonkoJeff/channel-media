@@ -17,8 +17,9 @@
   {
    "say": "Most of us know this feeling. And it's the same truth hidden inside the saying about the watched pot. When we pay close attention to time, it seems to slow down. When our attention is somewhere else, time seems to slip by. But why would looking at the time change how long it feels?",
    "show": {
-    "type": "photo",
-    "file": "lf08_b08_wallclock.jpg",
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
     "cap": "The clock that never moves"
    }
   },
@@ -61,8 +62,9 @@
   {
    "say": "It's a little like watching an hourglass. If you stare at the falling sand, every grain seems to drop one by one, slowly. If you turn away, and come back later, a whole pile has fallen. The sand fell at the same speed either way. Only your attention changed.",
    "show": {
-    "type": "photo",
-    "file": "lf08_b08_hourglass.jpg",
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
     "cap": "Every glance slows the sand"
    }
   },

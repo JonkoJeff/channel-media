@@ -17,8 +17,9 @@
   {
    "say": "Many people have had this experience. You worry about a dentist appointment for days. Then you go, and it's over in twenty minutes, and it wasn't nearly as bad as you imagined. But those days of waiting were genuinely unpleasant. The dread did more damage than the drill.",
    "show": {
-    "type": "photo",
-    "file": "lf08_b05_waitroom.jpg",
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
     "cap": "Sometimes the wait is the worst part"
    }
   },

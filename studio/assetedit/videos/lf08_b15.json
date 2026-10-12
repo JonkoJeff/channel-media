@@ -17,8 +17,9 @@
   {
    "say": "It sounds like a silly question. But in nineteen eighty seven, the economist George Loewenstein asked a small group of students something very like it. He wanted to understand how people value things that happen in the future. And this playful question revealed something surprisingly deep.",
    "show": {
-    "type": "photo",
-    "file": "lf08_b12_cinema.jpg",
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
     "cap": "A kiss from your favorite star"
    }
   },
@@ -81,8 +82,9 @@
   {
    "say": "You may recognize this from your own life. Maybe you've saved a favorite chocolate for later. Or waited to open a present until the right moment. Or held off on watching the final episode of a series you love. Part of you wants it now. But another part enjoys knowing that something good is still ahead.",
    "show": {
-    "type": "photo",
-    "file": "lf08_b12_box.jpg",
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
     "cap": "Saving the best for later"
    }
   },

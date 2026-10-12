@@ -17,8 +17,9 @@
   {
    "say": "Now the second question. Would you rather have one hundred euros in a year, or one hundred and ten euros in a year and one week? Here, many people feel differently. Well, if I'm waiting a year anyway, one more week doesn't matter. I'll take the hundred and ten.",
    "show": {
-    "type": "photo",
-    "file": "lf08_b16_coins.jpg",
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
     "cap": "Now, or a little more later?"
    }
   },

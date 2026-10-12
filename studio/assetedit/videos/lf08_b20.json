@@ -17,8 +17,9 @@
   {
    "say": "Waiting for sleep is a very special kind of waiting. Because unlike most waits, you're both the one waiting and the one who's supposed to make it happen. And the strange thing is that sleep doesn't respond well to effort. The harder you try to fall asleep, the more awake you often feel.",
    "show": {
-    "type": "photo",
-    "file": "lf08_b17_bed.jpg",
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
     "cap": "Waiting for sleep to come"
    }
   },

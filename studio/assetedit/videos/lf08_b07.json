@@ -35,8 +35,9 @@
   {
    "say": "A waiting line is, in a way, a tiny society. It has rules that nobody wrote down, but everybody knows. First come, first served. Don't cut in. Wait your turn. And like any society, it works because people trust each other to follow those rules. When someone breaks them, the whole little society reacts.",
    "show": {
-    "type": "photo",
-    "file": "lf08_b06_rope.jpg",
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
     "cap": "A line is a small society"
    }
   },
@@ -70,8 +71,9 @@
   {
    "say": "Another simple solution is the ticket system. You take a number at the bakery or the post office, and you wait to be called. It sounds almost too simple. But it does several things at once. It guarantees fairness. It shows you how many people are ahead of you. And it lets you sit down, instead of guarding your place in a line.",
    "show": {
-    "type": "photo",
-    "file": "lf08_b06_ticket.jpg",
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
     "cap": "Take a number"
    }
   },

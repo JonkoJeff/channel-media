@@ -54,8 +54,9 @@
   {
    "say": "You can see this in everyday life too. Think of a bakery where you can watch the bakers through a window, shaping the dough, sliding trays into the oven. Or a restaurant with an open kitchen. Seeing the work makes the wait more interesting, and it makes the food feel more valuable. You saw the care that went into it.",
    "show": {
-    "type": "photo",
-    "file": "lf08_b10_bakery.jpg",
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
     "cap": "Watching the bread being made"
    }
   },

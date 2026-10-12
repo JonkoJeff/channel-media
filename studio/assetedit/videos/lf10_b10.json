@@ -1,0 +1,124 @@
+{
+ "id": "lf10_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "During the Vietnam War, in the early nineteen seventies, American officials became worried about drug use among soldiers. Reports suggested that heroin was widely available, and that many soldiers were using it. There were fears that hundreds of thousands of addicted soldiers would return home, bringing a wave of addiction with them.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 10,
+    "title": "When everything changes"
+   }
+  },
+  {
+   "say": "The psychiatric researcher Lee Robins led a large study to find out what happened to these soldiers after they came home. Her team interviewed soldiers who had used narcotics in Vietnam, and followed them after their return to the United States. What they found surprised many experts at the time.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Lee Robins and colleagues",
+    "where": "Washington University in St. Louis, studies published in the 1970s",
+    "what": "Follow-up interviews with US soldiers who had returned from Vietnam, including many who had used heroin there."
+   }
+  },
+  {
+   "say": "Most of the soldiers who had been addicted in Vietnam did not become addicted again after returning home. According to the research, only a small minority of those who had been addicted in Vietnam became re addicted in the first year back. This was very different from the high relapse rates often seen in people treated for addiction at home.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Most did not relapse."
+   }
+  },
+  {
+   "say": "Why the difference? One important explanation was context. In Vietnam, the soldiers were in a completely different environment. Different places, different people, different routines, high stress, and easy access. When they came home, almost every cue linked to their drug use disappeared. The context that triggered the habit was gone.",
+   "show": {
+    "type": "photo",
+    "file": "lf10_b07_boxes.jpg",
+    "cap": "A whole new context"
+   }
+  },
+  {
+   "say": "I want to be careful here. Addiction is complex, and this study doesn't mean that addiction is simply a habit, or that changing your surroundings is always enough. Many factors were involved, including access, social circumstances and stress. People struggling with addiction deserve real support and treatment. But the study does show how powerful context can be.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A careful note."
+   }
+  },
+  {
+   "say": "Similar ideas appear in everyday research. Studies on what's sometimes called the habit discontinuity hypothesis, by Bas Verplanken and others, have suggested that life changes, like moving house, can create a window of opportunity. When old cues disappear, old habits are weakened, and people may be more open to new behaviors.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Moving house."
+   }
+  },
+  {
+   "say": "In one study, Verplanken and Deborah Roy found that people who had recently moved house, and were given information about environmentally friendly behaviors, were more likely to adopt some of those behaviors than people who hadn't moved recently. The move seemed to make people more receptive to change.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A window for change."
+   }
+  },
+  {
+   "say": "That gives us a lovely practical insight. Big transitions, like moving house, starting a new job, beginning a new school year, or even going on holiday, are excellent moments to start new habits. The old cues are shaken up. New routines haven't formed yet. It's a blank page, waiting for you to write on it.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Use the transitions."
+   }
+  },
+  {
+   "say": "This connects to the fresh start effect we explored in our video on procrastination. Temporal landmarks, like New Year's Day, help us feel like a new person. Context changes, like moving, actually change the cues around us. Both can make change feel more possible.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Fresh starts, again."
+   }
+  },
+  {
+   "say": "But there's also a gentle caution. Transitions can disrupt good habits too. A new job can break your exercise routine. A move can disrupt your sleep habits. So during big changes, it can help to deliberately protect the habits you value, by rebuilding them in your new context as early as possible.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Be careful in transitions too."
+   }
+  },
+  {
+   "say": "So here's what we've learned about big changes. Most soldiers who had been addicted in Vietnam did not become addicted again at home, where the old cues were gone. Losing familiar cues can weaken habits. Life transitions open a window for new ones. And during transitions, it's worth protecting the good habits we want to keep.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "When everything changes",
+    "items": [
+     "Most soldiers addicted in Vietnam didn't relapse at home",
+     "Losing old cues weakens old habits",
+     "Life transitions open a window for change",
+     "Protect good habits during transitions"
+    ]
+   }
+  },
+  {
+   "say": "But sometimes, even when a new habit would clearly help, people resist it. There's a famous and sad story from a hospital in nineteenth century Vienna, about a doctor who discovered that a simple habit could save lives.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the doctor who asked for clean hands."
+   }
+  }
+ ]
+}

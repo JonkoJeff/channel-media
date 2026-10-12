@@ -1,0 +1,125 @@
+{
+ "id": "lf10_b21",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Have you ever used a habit tracker? A calendar where you mark an X for each day you exercise. An app that shows a streak of days you've practiced a language. A notebook where you tick off your daily tasks. Many people find these tools surprisingly motivating. Is there research behind that feeling?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 21,
+    "title": "Tracking progress"
+   }
+  },
+  {
+   "say": "In two thousand and sixteen, Benjamin Harkin and colleagues at the University of Sheffield published a meta analysis combining the results of one hundred and thirty eight studies. They wanted to know whether monitoring progress toward a goal actually helps people reach it. And the answer was yes. On average, monitoring progress improved goal attainment.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Benjamin Harkin and colleagues",
+    "where": "University of Sheffield, published in Psychological Bulletin, 2016",
+    "what": "A meta-analysis of 138 studies testing whether monitoring progress toward goals helps people reach them."
+   }
+  },
+  {
+   "say": "They also found that the effect was stronger when progress was physically recorded, like writing it down, and when it was reported to others, or made public. Simply thinking about your progress helped a little. Writing it down, and sharing it, helped more. Making progress visible seems to make it more motivating.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Recording and reporting helped more."
+   }
+  },
+  {
+   "say": "Why does tracking help? Partly because it creates awareness. You notice what you're actually doing, not just what you intend to do. Partly because each mark is a small reward, a tiny sense of accomplishment. And partly because a visible streak becomes something you don't want to break. It turns progress into something you can see and feel.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Why tracking works."
+   }
+  },
+  {
+   "say": "There's a well known story, often attributed to the comedian Jerry Seinfeld, about a simple method for writing jokes. Mark a big X on a calendar for every day you write. After a few days, you'll have a chain. And your only job is not to break the chain. Whether or not the story is exactly true, many people find the idea useful.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Don't break the chain."
+   }
+  },
+  {
+   "say": "Streaks can backfire, though. If you break a long streak, it can feel like all your progress has been lost, and some people give up entirely. Remember the what the hell effect from our procrastination video. One missed day leads to, well, I've ruined it now, so why bother? That's the opposite of what we want.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "But streaks can backfire."
+   }
+  },
+  {
+   "say": "A gentle alternative that some people use is the rule of never missing twice. Missing one day is fine, life happens. But try not to miss two days in a row. This keeps the benefits of consistency, while being forgiving of real life. And remember Lally's finding, that missing a single day didn't seriously harm habit formation.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Never miss twice."
+   }
+  },
+  {
+   "say": "It can also help to track the habit itself, rather than the outcome. Track whether you went for a walk, not how much weight you lost. Track whether you practiced, not how good you sounded. Habits are within your control. Outcomes depend on many things. Tracking what you control builds confidence and momentum.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Track the habit, not the outcome."
+   }
+  },
+  {
+   "say": "And keep tracking simple. A complicated tracking system can become a chore in itself. A wall calendar with Xs. A simple note in your phone. A single tick in a notebook. The best tracker is the one you'll actually use, every day, without effort.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Keep it simple."
+   }
+  },
+  {
+   "say": "There's something lovely about looking back over a month of ticks or Xs. It's a quiet record of small promises kept. Evidence of who you're becoming. On difficult days, it can remind you how far you've come. And that, in itself, can be a gentle reward.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Watching yourself grow."
+   }
+  },
+  {
+   "say": "So here's what we've learned about tracking progress. Across one hundred and thirty eight studies, monitoring progress helped people reach their goals. Writing it down, and sharing it, helped even more. Streaks can motivate, but breaking them can backfire. And a gentle rule like never miss twice, while tracking the habit rather than the outcome, keeps tracking kind and effective.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Tracking progress",
+    "items": [
+     "Monitoring progress helped, across 138 studies",
+     "Writing it down and sharing helped more",
+     "Streaks motivate, but can backfire",
+     "Never miss twice, and track the habit"
+    ]
+   }
+  },
+  {
+   "say": "We've talked a lot about building habits. But what about the habits we'd like to break? Research suggests that trying to simply stop a habit often doesn't work very well. There are gentler, and more effective, approaches. Let's explore them next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: breaking habits gently."
+   }
+  }
+ ]
+}

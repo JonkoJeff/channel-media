@@ -1,0 +1,124 @@
+{
+ "id": "lf10_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Have you ever practiced something, a piece of music, a sport, a new skill, and felt stuck by the end of the day? And then, the next morning, it suddenly felt easier? As if something had happened overnight, while you slept? You weren't imagining it. Sleep seems to play a quiet role in how our brains consolidate skills.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 17,
+    "title": "Habits and sleep"
+   }
+  },
+  {
+   "say": "In two thousand and two, Matthew Walker, Robert Stickgold and their colleagues studied this with a simple task. Participants learned to type a short sequence of numbers on a keyboard, as quickly and accurately as possible. A bit like practicing a short piece on the piano. Then some were tested again after a night of sleep, and others after the same amount of time awake.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Matthew Walker, Robert Stickgold and colleagues",
+    "where": "Harvard Medical School, published in Neuron, 2002",
+    "what": "Participants practiced a finger-tapping sequence, then were tested again after a period of sleep or after the same time awake."
+   }
+  },
+  {
+   "say": "The people who had slept showed a clear improvement in speed, without any extra practice. The researchers reported an improvement of around twenty percent after a night of sleep. The people who stayed awake for the same period showed much less improvement. Sleep seemed to help turn practice into skill.",
+   "show": {
+    "type": "photo",
+    "file": "lf10_b11_piano.jpg",
+    "cap": "Practice by day, progress by night"
+   }
+  },
+  {
+   "say": "Interestingly, the improvement seemed to be linked to a particular stage of sleep, sometimes called stage two non REM sleep, especially later in the night. That suggests that cutting sleep short, waking very early, might cut into some of the time when this kind of consolidation happens.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Stage two sleep."
+   }
+  },
+  {
+   "say": "For habits and skills, this gives us a lovely message. Practice matters, of course. But rest matters too. The brain doesn't only learn while we're practicing. It continues working while we sleep, strengthening the patterns we've laid down during the day. Good sleep may be part of building good routines.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Practice, then rest."
+   }
+  },
+  {
+   "say": "Sleep also matters for habits in another way. When we're tired, the brain tends to rely more on automatic, habitual behavior, and less on careful, deliberate control. That's why, after a bad night's sleep, it's often harder to stick to new intentions, and easier to fall back on old habits, like reaching for sugary snacks or skipping exercise.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Tired brains fall back on old habits."
+   }
+  },
+  {
+   "say": "So if you're trying to build new habits, or break old ones, protecting your sleep can be a quiet but powerful ally. A rested brain has more capacity for deliberate choices. And a rested brain consolidates the practice you've done. Sleep isn't a break from self improvement. In a way, it's part of it.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Protect your sleep."
+   }
+  },
+  {
+   "say": "And of course, sleep itself is a habit. Going to bed at a similar time. A familiar wind down routine. A dark, quiet bedroom. These are all cues that tell the brain, it's time to sleep. Many sleep experts suggest that consistent bedtime routines can help people fall asleep more easily. The habit system can help you rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Sleep is a habit too."
+   }
+  },
+  {
+   "say": "If you're watching this in bed, you might already be building a lovely habit. A calm video, dimmed lights, a comfortable position. Repeated over many nights, these cues can become a gentle signal to your brain. It's time to slow down. It's time to rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A routine for tonight."
+   }
+  },
+  {
+   "say": "So tonight, as you drift off, you might like to know that your brain will keep working quietly. Sorting the day. Strengthening what you practiced. Making tomorrow's routines a little smoother. You don't need to do anything. Just let sleep do its gentle work.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Let sleep do its work."
+   }
+  },
+  {
+   "say": "So here's what we've learned about habits and sleep. In one study, people improved a practiced skill by around twenty percent after a night of sleep. Sleep seems to help consolidate practice. When we're tired, we fall back on old habits more easily. And a calm bedtime routine is itself a habit that can help us rest.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Habits and sleep",
+    "items": [
+     "Skills improved after a night of sleep",
+     "Sleep helps consolidate practice",
+     "Tired brains fall back on old habits",
+     "A bedtime routine is a habit too"
+    ]
+   }
+  },
+  {
+   "say": "And speaking of practice. You've probably heard that it takes ten thousand hours to master a skill. Where does that number come from, and what does it really mean? Let's take a closer look.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: practice and mastery."
+   }
+  }
+ ]
+}

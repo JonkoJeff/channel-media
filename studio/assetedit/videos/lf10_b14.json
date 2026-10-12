@@ -1,0 +1,124 @@
+{
+ "id": "lf10_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Many people want to build a new habit, like exercising, meditating, reading or flossing their teeth. And many of them start with big plans. An hour at the gym every day. Thirty minutes of meditation. A chapter every night. And often, after a week or two, the big plan collapses. It was too much, too soon.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 14,
+    "title": "Start tiny"
+   }
+  },
+  {
+   "say": "In two thousand and thirteen, researchers Gaby Judah, Benjamin Gardner and Robert Aunger studied habit formation with a wonderfully ordinary behavior. Flossing. They recruited adults who didn't usually floss, and asked them to floss once a day for several weeks. Some were asked to floss just before brushing their teeth. Others, just after.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Gaby Judah, Benjamin Gardner & Robert Aunger",
+    "where": "London School of Hygiene and Tropical Medicine, published in the British Journal of Health Psychology, 2013",
+    "what": "Adults who didn't usually floss were asked to floss once a day for several weeks, either just before or just after brushing their teeth. Researchers tracked how automatic flossing became."
+   }
+  },
+  {
+   "say": "Both groups flossed. But the researchers found that flossing after brushing tended to become more automatic than flossing before brushing. One explanation is that brushing your teeth worked as a natural cue. When you finish brushing, the next step is flossing. The existing habit acted like a doorway into the new one.",
+   "show": {
+    "type": "photo",
+    "file": "lf10_b09_bathroom.jpg",
+    "cap": "Floss after you brush"
+   }
+  },
+  {
+   "say": "This is a powerful idea that many habit researchers and writers recommend. Anchor a new habit to an existing one. After I pour my morning coffee, I'll write one sentence in my journal. After I sit down on the train, I'll read one page. After I brush my teeth, I'll floss one tooth. The old habit becomes the cue for the new one.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Anchor to an existing habit."
+   }
+  },
+  {
+   "say": "And notice that I said floss one tooth. The behavior scientist B. J. Fogg, who developed a method he calls Tiny Habits, recommends starting with versions of a habit so small that they're almost silly. One push up. One deep breath. One line in a journal. The idea is to make the habit so easy that you'll do it even on your worst day.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Start ridiculously small."
+   }
+  },
+  {
+   "say": "Why would tiny habits work better than big ones? Because the most important thing, in the early days, is repetition. Building the link between the cue and the action. A tiny habit, done every day, builds that link much more reliably than a big habit done occasionally. Once the link is strong, the habit can grow naturally.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why tiny works."
+   }
+  },
+  {
+   "say": "Fogg also suggests celebrating immediately after doing the tiny habit. A small smile, a quiet yes, a little fist pump. It might feel silly. But remember the role of reward in habit formation. A small, immediate positive feeling helps tell the brain, this was good, let's do it again.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Celebrate the small win."
+   }
+  },
+  {
+   "say": "Often, a tiny habit grows by itself. Once you're flossing one tooth, it's easy to floss two, then all of them. Once you've done one push up, you might do a few more. But even if you don't, the tiny version still counts. You're building the identity of someone who does this every day.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Growth comes naturally."
+   }
+  },
+  {
+   "say": "There's something gentle about this approach. It doesn't demand heroic effort. It doesn't punish you for bad days. It simply asks for a tiny, consistent step. And it respects the way habits actually form, slowly, through repetition, rather than through bursts of motivation.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Small is sustainable."
+   }
+  },
+  {
+   "say": "You might like to think, tonight, of one tiny habit you'd like to start. Something so small it feels almost too easy. And an existing habit you could anchor it to. After I, then I. Just one. Tomorrow, you could try it, and give yourself a little smile afterwards.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Your tiny habit."
+   }
+  },
+  {
+   "say": "So here's what we've learned about starting habits. Flossing after brushing tended to become more automatic than flossing before. Anchoring new habits to existing routines gives them a natural cue. Starting ridiculously small makes repetition easy. And a small celebration right after helps the brain learn that this is worth repeating.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Start tiny",
+    "items": [
+     "Flossing after brushing became more automatic",
+     "Anchor new habits to existing ones",
+     "Start ridiculously small",
+     "Celebrate right away"
+    ]
+   }
+  },
+  {
+   "say": "You may have heard that it takes twenty one days to form a habit. It's one of the most quoted numbers in self help. But where does it come from? And what does research actually say? The answer is more realistic, and more forgiving.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: how long does it take?"
+   }
+  }
+ ]
+}

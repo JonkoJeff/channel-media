@@ -1,0 +1,133 @@
+{
+ "id": "lf10_b26",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We've travelled through mazes, juice drops, stale popcorn and dental floss. Now let's gather what we've learned into a gentle, practical toolkit. Not strict rules, just tools you can pick up when you need them, for building good habits and loosening unwanted ones.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 26,
+    "title": "A gentle habit toolkit"
+   }
+  },
+  {
+   "say": "The first tool is to start with the cue. Every habit begins with a cue, a time, a place, a feeling, a previous action. If you want a new habit, choose a clear, reliable cue. After I pour my coffee. When I sit on the train. As soon as I get home. If you want to break a habit, notice its cue, and change or remove it.",
+   "show": {
+    "type": "photo",
+    "file": "lf10_b17_tools.jpg",
+    "cap": "A few simple tools"
+   }
+  },
+  {
+   "say": "The second tool is to anchor and start tiny. Attach your new habit to something you already do every day, like brushing your teeth. And make the first version ridiculously small. One push up, one page, one breath. Repetition matters more than size at the beginning.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Two. Anchor and start tiny."
+   }
+  },
+  {
+   "say": "The third tool is to shape your environment. Make good habits easy and visible. Make unwanted habits hard and hidden. Put the book on your pillow, the fruit on the counter, the phone in another room. Let your surroundings do the work that willpower would otherwise have to do.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Three. Shape your environment."
+   }
+  },
+  {
+   "say": "The fourth tool is to add a small, immediate reward. A smile, a tick on a calendar, a favorite song, a moment of satisfaction. Remember how the brain learns from rewards. Help it notice that this new routine is worth repeating.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Four. Add a small reward."
+   }
+  },
+  {
+   "say": "The fifth tool is consistency over perfection. Habits took about sixty six days on average in one study, with a wide range. Missing a day didn't ruin progress. So don't aim for a perfect streak. Aim to keep coming back. Most days, in the same context, is enough.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Five. Be consistent, not perfect."
+   }
+  },
+  {
+   "say": "The sixth tool is for unwanted habits. Replace, don't just remove. Find out what need the habit meets, comfort, a break, stimulation, connection, and find a healthier way to meet it. Keep the cue, change the routine, keep the reward.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Six. Replace, don't just remove."
+   }
+  },
+  {
+   "say": "The seventh tool is to use transitions. Moving house, starting a new job, a new season, even a holiday. These moments shake up old cues. They're wonderful opportunities to start new routines, and to let old ones fall away.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Seven. Use transitions."
+   }
+  },
+  {
+   "say": "The eighth tool is sleep and rest. A rested brain makes more deliberate choices, and consolidates what you practice. A tired brain falls back on old habits. Protecting your sleep protects your habits.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Eight. Sleep and rest."
+   }
+  },
+  {
+   "say": "The ninth tool is to choose your company. Spend time with people who already have the habits you want. Build shared routines with friends and family. Habits spread, so let the good ones spread to you.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Nine. Choose your company."
+   }
+  },
+  {
+   "say": "And the tenth tool is kindness. Slips are part of change. Old habits may reappear under stress. That's normal, not failure. Respond with patience, as you would to a friend. Kindness keeps you in the game long enough for the new habit to take root.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Ten. Be kind."
+   }
+  },
+  {
+   "say": "So here's the gentle habit toolkit, in short. Start with the cue. Anchor new habits and start tiny. Shape your environment. Add a small, immediate reward. Choose consistency over perfection. Replace unwanted habits rather than just removing them. Use transitions. Protect your sleep. Choose your company. And above all, be kind to yourself.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The gentle habit toolkit",
+    "items": [
+     "Start with the cue",
+     "Anchor and start tiny",
+     "Shape your environment",
+     "Add a small reward",
+     "Consistency over perfection",
+     "Be kind"
+    ]
+   }
+  },
+  {
+   "say": "And there's one more idea worth knowing before we finish. Some habits seem to be more powerful than others, because when you change them, other habits start changing too. Let's look at keystone habits.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: keystone habits."
+   }
+  }
+ ]
+}

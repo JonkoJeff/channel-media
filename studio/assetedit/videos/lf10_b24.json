@@ -1,0 +1,125 @@
+{
+ "id": "lf10_b24",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think about the habits in your family when you were growing up. When did you eat dinner? Did you eat together? Was the television on? Did people go for walks, read books, play games? Many of these shared routines may still echo in your own habits today, often without you noticing.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 24,
+    "title": "Habits in groups"
+   }
+  },
+  {
+   "say": "Humans are deeply social. We learn by watching others, especially those we're close to. Psychologists have long studied observational learning. And a lot of what we do every day, how we eat, how we speak, how we spend our evenings, we absorbed from the people around us. Habits spread through families, friendships and workplaces.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "We absorb habits from others."
+   }
+  },
+  {
+   "say": "In two thousand and seven, Nicholas Christakis and James Fowler published a much discussed study. They analyzed decades of data from a large group of people in the town of Framingham, in the United States. And they reported that obesity seemed to cluster in social networks. If a person's close friend became obese, their own chance of becoming obese appeared to increase.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Nicholas Christakis & James Fowler",
+    "where": "Harvard and UC San Diego, published in the New England Journal of Medicine, 2007",
+    "what": "An analysis of decades of data from a large social network of people in Framingham, Massachusetts, studying how weight gain clustered among friends and family."
+   }
+  },
+  {
+   "say": "I should mention that this research has been debated. Other researchers have pointed out that people tend to befriend others who are similar to them, and that shared environments can explain some of the pattern. So it's hard to prove that habits spread directly from friend to friend. But the idea that our social circles shape our behavior is widely accepted.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A debated finding."
+   }
+  },
+  {
+   "say": "One way groups shape habits is through norms. Unwritten rules about what's normal. If everyone in your office takes the stairs, you probably will too. If your friends usually order dessert, it feels natural to join them. We often adjust our behavior, quietly, to match what seems normal around us.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Norms are powerful."
+   }
+  },
+  {
+   "say": "Researchers have used this to encourage positive behaviors. In one well known study, hotel guests were more likely to reuse their towels when a sign said that most guests staying in that hotel did so, compared with a sign that simply asked them to help the environment. Learning what others do nudged their own behavior. This research was published by Noah Goldstein, Robert Cialdini and Vladas Griskevicius in two thousand and eight.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Norms can encourage good habits."
+   }
+  },
+  {
+   "say": "This suggests a gentle strategy. If you want to build a habit, spend time with people who already have it. Join a running group if you want to run. Find a reading club if you want to read more. Their routines will become part of your environment, and their normal may slowly become your normal.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Choose your influences."
+   }
+  },
+  {
+   "say": "And habits can be built together. Walking with a friend every Saturday. A family rule of no phones at dinner. Cooking together on Sundays. Shared habits are often easier to keep, because others are counting on you, and because they come with the reward of connection.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Build shared habits."
+   }
+  },
+  {
+   "say": "It also means that your own habits influence others. Your children, your partner, your friends and colleagues are watching too, often without realizing it. Taking care of your own routines may quietly help the people around you. Not by preaching, but simply by living a certain way.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Be a gentle influence."
+   }
+  },
+  {
+   "say": "I find this a warm thought. Our habits aren't just private struggles. They're woven into the lives of the people around us. We shape each other, every day, in small ways. And that means we can help each other build better routines, together.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "We're in this together."
+   }
+  },
+  {
+   "say": "So here's what we've learned about habits in groups. We absorb many habits from the people around us. Social norms quietly shape what feels normal. Spending time with people who already have the habits we want can help us build them. And shared habits, built together, are often easier to keep.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Habits in groups",
+    "items": [
+     "We absorb habits from people around us",
+     "Social norms quietly shape behavior",
+     "Spend time with people who have the habits you want",
+     "Shared habits are easier to keep"
+    ]
+   }
+  },
+  {
+   "say": "Many people believe that after a certain age, habits are set for life. But a famous study of London taxi drivers suggests that the adult brain is far more changeable than we once thought. Let's look at it next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: it's never too late."
+   }
+  }
+ ]
+}

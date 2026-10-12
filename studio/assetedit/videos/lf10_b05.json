@@ -1,0 +1,124 @@
+{
+ "id": "lf10_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Picture a small maze, shaped like the letter T. A rat starts at the bottom. It hears a click, a gate opens, and it runs up the corridor. At the top, it has to turn left or right. Behind one of the turns, there's a small piece of chocolate. At first, the rat sniffs and hesitates. It explores. It has to figure things out.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 5,
+    "title": "Rats in a maze"
+   }
+  },
+  {
+   "say": "The neuroscientist Ann Graybiel and her colleagues at MIT used mazes like this to study how habits form in the brain. They recorded the activity of neurons in a deep part of the brain called the striatum, part of a group of structures known as the basal ganglia, while rats learned to run the maze again and again.",
+   "show": {
+    "type": "photo",
+    "file": "lf10_b03_maze.jpg",
+    "cap": "A simple maze, a sweet reward"
+   }
+  },
+  {
+   "say": "At first, when the rat was still learning, the neurons in the striatum were active throughout the whole run. The brain was busy the entire time, processing each step, each sniff, each decision. Learning something new takes a lot of mental work.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Ann Graybiel and colleagues",
+    "where": "MIT, studies published from the late 1990s onward, including in Science, 1999",
+    "what": "Recordings of brain activity in the striatum of rats as they learned, over many runs, to find a reward in a T-shaped maze."
+   }
+  },
+  {
+   "say": "But as the rat ran the maze again and again, the pattern changed. The activity became concentrated at the beginning and the end of the run. When the gate opened, a burst of activity. When the reward was reached, another burst. In the middle, during the run itself, the activity quieted down. The behavior had become a smooth, automatic sequence.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Activity moved to the edges."
+   }
+  },
+  {
+   "say": "Researchers sometimes call this chunking. The brain packages a whole sequence of actions into a single unit. Instead of many separate steps, it becomes one chunk, started by a cue and finished with a reward. A bit like how you don't think about each letter when you write your own name. It flows as one piece.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Chunking."
+   }
+  },
+  {
+   "say": "You have many chunks like this. Making coffee. Locking the door. Backing out of a parking space. Each of these used to require careful attention. Now, they unfold almost by themselves once started. The cue begins them, and the brain runs the sequence, while your mind rests or wanders.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Your morning chunks."
+   }
+  },
+  {
+   "say": "That pattern, activity at the start and the end, tells us something important. The cue at the beginning matters a lot. It's what triggers the whole chunk. And the reward at the end matters too. It's what tells the brain, this sequence is worth repeating. The middle can run on autopilot.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Beginning and end matter."
+   }
+  },
+  {
+   "say": "Graybiel's work also suggested that well established habits can be surprisingly persistent in the brain. Even when the reward is removed, the habitual sequence may keep running for a while. And once a habit chunk starts, it can be hard to stop halfway. That's why it's often easier to change the cue, before the chunk begins.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Hard to stop once started."
+   }
+  },
+  {
+   "say": "This gives us a practical insight. If you'd like to change a habit, the moment of greatest influence is often at the very beginning. When the cue appears, before the sequence starts. Once you're halfway through the bag of crisps, it's much harder to stop than it would have been to not open it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A useful insight."
+   }
+  },
+  {
+   "say": "In the end, chunking is the brain's way of saving effort. Thinking is expensive. So whenever something is repeated in the same way, the brain tries to turn it into a routine. It's not laziness. It's efficiency. Your brain is trying to make life easier for you.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The brain saves effort."
+   }
+  },
+  {
+   "say": "So here's what the maze studies teach us. Learning something new requires brain activity throughout. As a habit forms, activity concentrates at the start and the end. The brain chunks sequences into single units. And the best moment to change a habit is often at the cue, before the chunk begins.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Rats in a maze",
+    "items": [
+     "Learning needs activity throughout",
+     "Habits concentrate activity at start and end",
+     "The brain chunks sequences into units",
+     "Change habits at the cue, before they start"
+    ]
+   }
+  },
+  {
+   "say": "But are habits really separate from our conscious memories? A remarkable patient, who lost the ability to form new memories, showed that the brain can learn habits even when the mind doesn't remember learning anything at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: habits without memory."
+   }
+  }
+ ]
+}

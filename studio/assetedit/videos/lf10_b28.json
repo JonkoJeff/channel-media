@@ -1,0 +1,134 @@
+{
+ "id": "lf10_b28",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We've come a long way tonight. Through mazes and monkeys, cinemas and bathrooms, soldiers coming home and pigeons pecking keys. Let's take a moment to look back over the path, and see the shape of what we've learned about habits.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 28,
+    "title": "What to take with you"
+   }
+  },
+  {
+   "say": "The first idea is that habits run much of our lives. In one study, around forty three percent of daily behaviors were done almost every day, in the same context, often while thinking about something else. Habits free our minds. They're not a weakness. They're one of the brain's greatest gifts.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Habits run much of life."
+   }
+  },
+  {
+   "say": "The second idea is that the brain turns repeated actions into chunks. In the maze studies, brain activity concentrated at the start and the end of a habitual run. The cue begins the habit, the reward ends it, and the middle runs on autopilot. That's why the cue is often the best place to intervene.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The brain chunks."
+   }
+  },
+  {
+   "say": "The third idea is that habits can live apart from conscious memory. E. P. learned new habits, even though he couldn't remember learning them. Our habits may guide us in ways we don't even notice. That's why changing them takes repetition, not just good intentions.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Habits live apart from memory."
+   }
+  },
+  {
+   "say": "The fourth idea is that reward and context are the fuel and the trigger. Dopamine signals help the brain learn which cues predict good things. And context, like the cinema for popcorn eaters, can switch a habit on or off. Change the context, and you often change the habit.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Reward and context."
+   }
+  },
+  {
+   "say": "The fifth idea is that willpower is overrated. People with high self control seem to face fewer temptations, because their environments and habits do much of the work. Designing your surroundings is often more effective than fighting yourself.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Willpower is overrated."
+   }
+  },
+  {
+   "say": "The sixth idea is to start tiny and be patient. Anchor new habits to existing ones. Make them so small they're almost too easy. And remember, habits took about sixty six days on average in one study, with a wide range. Missing a day is fine. Keep coming back.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Start tiny, be patient."
+   }
+  },
+  {
+   "say": "The seventh idea is that habits shape identity. Each action is a small vote for the kind of person you're becoming. And kind, flexible identities, like someone who keeps coming back, help habits last.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Habits shape who we are."
+   }
+  },
+  {
+   "say": "The eighth idea is that breaking habits works best by replacing, not just removing. Meeting the same need in a healthier way. And that rest and the people around us matter enormously. Sleep consolidates practice. Friends and families spread habits, for better and for worse.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Replace, rest and connect."
+   }
+  },
+  {
+   "say": "If I had to put it all into one sentence, it might be this. Habits are the quiet architecture of our lives, built from cues, routines and rewards, and the gentlest way to change them is with small steps, good surroundings, patience and kindness.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "One sentence."
+   }
+  },
+  {
+   "say": "And perhaps the most hopeful thought of all is this. You are always becoming. The habits you've had until now don't define you forever. Every small action from today onwards is shaping who you'll be. That's not a burden. It's a quiet, lovely possibility.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "You are always becoming."
+   }
+  },
+  {
+   "say": "So here it is, in one breath. Habits run much of our lives. Cues start them, and rewards keep them going. Context and environment matter more than willpower. Start tiny, and be patient. Each action is a vote for who you're becoming. And be kind to yourself along the way.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Habits, in one breath",
+    "items": [
+     "Habits run much of life",
+     "Cues start them, rewards keep them",
+     "Context beats willpower",
+     "Start tiny, be patient",
+     "Each action is a vote",
+     "Be kind"
+    ]
+   }
+  },
+  {
+   "say": "And now, if you'd like, let's let all of these ideas drift away. You don't need to remember anything. Over the next few minutes, I'll simply guide you toward a calm and quiet place. If you're in bed, get comfortable. And if sleep comes along the way, let it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Now, let's slow down."
+   }
+  }
+ ]
+}

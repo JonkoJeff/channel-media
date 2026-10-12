@@ -1,0 +1,127 @@
+{
+ "id": "lf10_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "When your hands are busy with a habit, washing dishes, driving a familiar route, folding laundry, where does your mind go? Often, it wanders. To yesterday's conversation. To tomorrow's plans. To a song, a worry, a daydream. Habits free the mind. But what does the free mind do with that freedom?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 4,
+    "title": "The wandering mind"
+   }
+  },
+  {
+   "say": "In two thousand and ten, Matthew Killingsworth and Daniel Gilbert published a study in the journal Science, using an iPhone app. At random moments during the day, the app asked thousands of people three questions. What are you doing right now? Are you thinking about something other than what you're doing? And how happy are you feeling?",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Matthew Killingsworth & Daniel Gilbert",
+    "where": "Harvard University, published in Science, 2010",
+    "what": "Thousands of people used an iPhone app that asked them at random moments what they were doing, whether their mind was wandering, and how happy they felt."
+   }
+  },
+  {
+   "say": "They found that people's minds were wandering in about forty seven percent of the moments sampled. Almost half the time, people were thinking about something other than what they were doing. And mind wandering happened during almost every kind of activity, except, interestingly, during intimate moments.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Moments when people's minds were wandering",
+    "big": "about 47%",
+    "label": "of the samples in the study"
+   }
+  },
+  {
+   "say": "And there was another finding that made headlines. On average, people reported being less happy when their minds were wandering than when they weren't. Even when they were wandering to pleasant topics, they weren't happier than when focused on what they were doing. The researchers summarized it with a memorable phrase. A wandering mind is an unhappy mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A wandering mind and happiness."
+   }
+  },
+  {
+   "say": "It's worth reading this carefully. The study found an association, and the researchers' analysis suggested that mind wandering tended to come before unhappiness, more than the other way around. But it doesn't mean that all mind wandering is bad. Daydreaming can be creative, restful and useful. It's more that, on average, being present seemed to go with feeling a little better.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A careful reading."
+   }
+  },
+  {
+   "say": "This connects to habits in an interesting way. Habits free our attention, which is wonderful. But that free attention often drifts into worry or rumination, rather than rest. So one gentle practice is to occasionally bring your attention back to what your hands are doing. Feeling the warm water while washing dishes. Noticing the trees on your usual walk.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Habits and presence."
+   }
+  },
+  {
+   "say": "You don't need to be present all the time. That would be exhausting, and impossible. But small moments of presence, sprinkled through habitual activities, can make ordinary routines feel richer. The morning coffee tastes better when you actually notice it. The walk home is more pleasant when you see the evening light.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Small moments of presence."
+   }
+  },
+  {
+   "say": "In fact, some people use habits as anchors for mindful attention. Every time I wash my hands, I take one slow breath. Every time I wait for the kettle, I notice three things around me. The habit becomes a cue for a small moment of presence. Two habits, woven together.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Habits as anchors for attention."
+   }
+  },
+  {
+   "say": "And when your mind does wander, as it will, you can be gentle about it. Notice where it went. If it's somewhere pleasant or useful, let it be. If it's somewhere stressful, you might gently bring it back to the present moment. To your breath. To your hands. To the room around you.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Let the mind wander kindly."
+   }
+  },
+  {
+   "say": "Even now, as you listen, your mind might wander a little. That's perfectly fine. You can let these words drift in and out, like waves. And whenever you notice you've drifted, you can simply return, to the sound of this voice, to the comfort of where you're resting.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Tonight, right now."
+   }
+  },
+  {
+   "say": "So here's what the wandering mind teaches us. In one large study, people's minds wandered in about forty seven percent of moments. On average, they felt a little less happy while wandering. Habits free our attention, which often drifts. And habits can become gentle anchors for small moments of presence.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The wandering mind",
+    "items": [
+     "Minds wandered about 47% of the time",
+     "People were less happy while wandering, on average",
+     "Habits free attention, which often drifts",
+     "Use habits as anchors for small moments of presence"
+    ]
+   }
+  },
+  {
+   "say": "So how does the brain actually turn a repeated action into a habit? To find out, neuroscientists have studied rats running through simple mazes, recording what happens inside their brains as a new task slowly becomes automatic.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: rats in a maze."
+   }
+  }
+ ]
+}

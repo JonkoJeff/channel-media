@@ -1,0 +1,124 @@
+{
+ "id": "lf10_b20",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine two people trying to quit smoking. Someone offers each of them a cigarette. The first says, no thanks, I'm trying to quit. The second says, no thanks, I'm not a smoker. Both are refusing. But notice the difference. The first is still a smoker, resisting. The second has changed how they see themselves.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 20,
+    "title": "Habits and identity"
+   }
+  },
+  {
+   "say": "This example has been popularized by the writer James Clear, among others. The idea is that lasting habits often go hand in hand with changes in identity. Not just doing something, but seeing yourself as the kind of person who does it. A reader. A runner. Someone who takes care of their health.",
+   "show": {
+    "type": "photo",
+    "file": "lf10_b13_runner.jpg",
+    "cap": "I'm someone who runs"
+   }
+  },
+  {
+   "say": "There's some interesting research related to this. In a study published in two thousand and eleven, Christopher Bryan and colleagues asked people about voting, using slightly different phrasing. Some were asked, how important is it to you to vote? Others, how important is it to you to be a voter? The noun, voter, framed it as part of identity.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Research on identity language."
+   }
+  },
+  {
+   "say": "And in their studies, people who were asked about being a voter were more likely to actually vote, according to official records, than those asked about voting. A tiny change in wording, linking the behavior to identity, seemed to make a difference. Later replications have found mixed results, so the effect may be smaller or depend on context. But the idea is intriguing.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Christopher Bryan, Gregory Walton, Todd Rogers & Carol Dweck",
+    "where": "Stanford and Harvard, published in PNAS, 2011",
+    "what": "Before elections, eligible voters answered surveys that referred either to \"voting\" or to \"being a voter\". Their actual turnout was later checked in official records."
+   }
+  },
+  {
+   "say": "James Clear describes this in a lovely way. Every time you do a habit, you cast a small vote for the type of person you want to become. One run doesn't make you a runner. But each run is a vote. And over time, as the votes add up, your sense of who you are begins to shift.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Every action is a vote."
+   }
+  },
+  {
+   "say": "And as identity shifts, habits become easier to maintain. If you see yourself as someone who exercises, missing a workout feels a little out of character. Going for a walk feels natural. The habit is no longer something you force yourself to do. It's simply an expression of who you are.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Identity supports habits."
+   }
+  },
+  {
+   "say": "But identity can work the other way too. If someone thinks, I'm just a lazy person, or I'm bad with money, or I'm not a morning person, those identities can quietly sustain unwanted habits. They become self fulfilling stories. It's worth noticing the labels we give ourselves, and asking whether they're helping or limiting us.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Careful with harsh identities."
+   }
+  },
+  {
+   "say": "A gentle way to shift identity is through small proofs. Not grand declarations, but tiny actions that provide evidence. I read one page today. That's what readers do. I chose water instead of soda. That's what healthy people do. Each small proof makes the new identity a little more believable to yourself.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Small proofs."
+   }
+  },
+  {
+   "say": "And it's worth choosing identities that are kind and flexible. Not, I'm someone who never misses a day, which can break with a single slip. But, I'm someone who keeps coming back. That identity survives missed days, holidays and setbacks. It's built for real life.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Kind identities."
+   }
+  },
+  {
+   "say": "I like the idea that we're always becoming. Not fixed, but slowly shaped by what we repeat. That means you're never stuck. Whoever you've been until now, the small actions you take from today onwards are quietly shaping who you'll be. One small vote at a time.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Becoming, slowly."
+   }
+  },
+  {
+   "say": "So here's what we've learned about habits and identity. Lasting habits often go together with changes in how we see ourselves. In one study, framing voting as being a voter increased turnout, though later results were mixed. Each action can be seen as a vote for who you're becoming. And kind, flexible identities, like someone who keeps coming back, are built for real life.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Habits and identity",
+    "items": [
+     "Lasting habits often change how we see ourselves",
+     "\"Being a voter\" increased turnout in one study",
+     "Each action is a vote for who you're becoming",
+     "Choose kind, flexible identities"
+    ]
+   }
+  },
+  {
+   "say": "And if each action is a vote, it can help to see the votes adding up. Habit trackers, streaks and calendars full of ticks are popular for a reason. Let's look at what research says about tracking progress.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: tracking progress."
+   }
+  }
+ ]
+}

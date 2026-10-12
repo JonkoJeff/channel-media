@@ -1,0 +1,125 @@
+{
+ "id": "lf10_b22",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Try this for a moment. Don't think of a white bear. Whatever you do, don't think of a white bear. What happened? For most people, the white bear immediately appears. Trying not to think about something can make it come to mind even more.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 22,
+    "title": "Breaking habits gently"
+   }
+  },
+  {
+   "say": "The psychologist Daniel Wegner studied exactly this, in a famous study published in nineteen eighty seven. Participants were asked not to think about a white bear, and to ring a bell every time it popped into their minds. They rang the bell quite often. And when they were later allowed to think about the bear, some thought about it even more than people who had never tried to suppress it.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Daniel Wegner and colleagues",
+    "where": "Trinity University, published in the Journal of Personality and Social Psychology, 1987",
+    "what": "Participants were asked to not think about a white bear for several minutes, and to ring a bell whenever it came to mind anyway."
+   }
+  },
+  {
+   "say": "Wegner called this kind of effect ironic processes. When we try hard to suppress a thought, part of our mind keeps checking whether the thought is present. And that checking can bring it back. Something similar may happen with habits. Focusing intensely on not doing something can keep it at the front of our minds.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Ironic rebound."
+   }
+  },
+  {
+   "say": "So instead of trying only to stop a habit, many researchers and therapists suggest replacing it. Keep the cue, keep the need behind it, but change the routine. If you snack when you're bored, find another response to boredom, like a short walk, or a glass of water, or a stretch. The cue still appears. But it leads somewhere new.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Replace, don't just remove."
+   }
+  },
+  {
+   "say": "To replace a habit well, it helps to understand what reward it's really giving you. Is the afternoon biscuit about hunger? Or about a break from work? Or about a moment of comfort? If it's really about a break, a short walk might satisfy the same need. If it's about comfort, a call to a friend might help. The best replacement meets the same need.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Find the real reward."
+   }
+  },
+  {
+   "say": "There's a therapy technique called habit reversal training, developed in the nineteen seventies and still used today for things like nail biting or hair pulling. One key part is awareness training, learning to notice the earliest signs of the habit. Another is a competing response, an action that's incompatible with the habit, like clenching your hands gently when you feel the urge to bite your nails.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Habit reversal."
+   }
+  },
+  {
+   "say": "Awareness is the first step in breaking almost any habit. Since habits run on autopilot, we often only notice them once they've already happened. Learning to notice the cue, the moment, the feeling just before, gives us a chance to choose differently. Some people find it helpful to keep a simple log for a few days, noting when the habit happens.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Notice early."
+   }
+  },
+  {
+   "say": "And remember the power of friction. Make the unwanted habit a little harder to do. Put the biscuits on a high shelf. Leave the phone in another room. Log out of the shopping website. Each extra step gives your conscious mind a moment to catch up with your autopilot.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Make it harder."
+   }
+  },
+  {
+   "say": "And when you slip, which almost everyone does, be gentle. Remember the research on self forgiveness from our procrastination video. Harsh self criticism can make habits worse, by adding stress, and stress often triggers old habits. A slip is just one repetition among many. The next choice is a new opportunity.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Slips are part of it."
+   }
+  },
+  {
+   "say": "Old habits took years to build. It's natural that they take time to fade. And research suggests that old habits may never completely disappear from the brain. They can be weakened and replaced, but under stress or in old contexts, they might reappear. Knowing that helps us respond calmly, instead of feeling we've failed.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Patience, again."
+   }
+  },
+  {
+   "say": "So here's what we've learned about breaking habits. Trying hard not to think about something can backfire. Replacing a habit, while meeting the same need, often works better than simply stopping. Noticing the cue early gives us a chance to choose. And adding friction, while forgiving ourselves for slips, makes change more sustainable.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Breaking habits gently",
+    "items": [
+     "Trying not to think can backfire",
+     "Replace the routine, keep the need",
+     "Notice the cue early",
+     "Add friction, and forgive slips"
+    ]
+   }
+  },
+  {
+   "say": "Not all habits are actions. Some of the most powerful habits are habits of thought. The way we respond to setbacks, the stories we tell about ourselves, the places our minds go when they wander. Let's take a gentle look at habits of the mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: habits of the mind."
+   }
+  }
+ ]
+}

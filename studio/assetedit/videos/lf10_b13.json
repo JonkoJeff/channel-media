@@ -1,0 +1,127 @@
+{
+ "id": "lf10_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a curious experiment from animal research. A rat learns to press a lever to get a tasty food reward. At first, it presses the lever because it wants the food. But what happens if, later, the food becomes unappealing, for example because the rat has already eaten its fill of it? Will it keep pressing the lever?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 13,
+    "title": "Habits under stress"
+   }
+  },
+  {
+   "say": "Researchers like Anthony Dickinson, at the University of Cambridge, studied this question in the nineteen eighties. They found that the answer depended on how much training the rat had had. After brief training, rats pressed the lever less once the food became unappealing. They were acting with a goal in mind. If the goal didn't matter anymore, they stopped.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Anthony Dickinson and colleagues",
+    "where": "University of Cambridge, studies from the 1980s onward",
+    "what": "Rats were trained to press a lever for food. Then the food was made less desirable, and researchers checked whether the rats kept pressing."
+   }
+  },
+  {
+   "say": "But after extensive training, many rats kept pressing the lever, even though they no longer wanted the food. The action had become a habit. It was triggered by the situation, the lever, the box, rather than by the goal. The rat pressed, not because it wanted the reward, but because pressing was simply what it did in that place.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Overtrained rats kept pressing."
+   }
+  },
+  {
+   "say": "Researchers describe this as the difference between goal directed behavior and habitual behavior. Goal directed actions are flexible, guided by what we currently want. Habitual actions are rigid, triggered by cues, and continue even when the outcome no longer matters. Both systems are useful. But they behave very differently.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Goal-directed versus habitual."
+   }
+  },
+  {
+   "say": "And here's where it gets very human. In two thousand and nine, Lars Schwabe and Oliver Wolf studied something similar in people. Participants learned actions that earned different food rewards. Some were put under stress beforehand, for example by holding a hand in ice water. Later, one of the foods was made less appealing, by letting people eat it until they were full.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Lars Schwabe & Oliver Wolf",
+    "where": "Ruhr University Bochum, published in the Journal of Neuroscience, 2009",
+    "what": "Participants learned actions that earned food rewards. Some were stressed beforehand. Later, one food was made less appealing, and researchers checked whether people adjusted their actions."
+   }
+  },
+  {
+   "say": "The participants who hadn't been stressed adjusted their behavior. They chose the less appealing food less often. But the stressed participants tended to keep doing the same actions, regardless of whether they still wanted the outcome. Stress seemed to shift them from goal directed behavior toward habitual behavior.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Stress shifted to habit."
+   }
+  },
+  {
+   "say": "That helps explain something many of us know from experience. When we're stressed, tired or overwhelmed, we fall back on old habits. The snack, the cigarette, the scrolling, the familiar route, even when part of us knows we'd prefer something else. Under stress, the brain seems to lean on its well practiced routines.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why we fall back under pressure."
+   }
+  },
+  {
+   "say": "In a way, that makes sense. When the brain is under pressure, it relies on what it knows well. Habits are fast and require little effort. They're a safety net. The problem is that the safety net includes both good and bad habits. Under stress, whatever is most practiced tends to win.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Habits as a safety net."
+   }
+  },
+  {
+   "say": "That gives us a valuable insight. Build good habits during calm times, so they're there for you when stress arrives. If your stress habit is a walk, a call to a friend, or a few slow breaths, then stress will pull you toward those. If your stress habit is something less helpful, stress will pull you there instead. The calm days are when the safety net is woven.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Build good habits in calm times."
+   }
+  },
+  {
+   "say": "And when you do fall back on an old habit during a stressful time, please be gentle with yourself. It's not a failure of character. It's your brain, under pressure, doing what brains do. Once the stress passes, you can return to your new routines. And over time, they'll become the ones your brain reaches for first.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Be kind under stress."
+   }
+  },
+  {
+   "say": "So here's what we've learned about habits under stress. Extensively trained rats kept pressing levers for food they no longer wanted. Goal directed and habitual behaviors work differently. In people, stress shifted behavior toward habits. And building good habits during calm times means they'll be there for us when stress arrives.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Habits under stress",
+    "items": [
+     "Overtrained rats kept pressing for unwanted food",
+     "Goal-directed and habitual systems differ",
+     "Stress shifted people toward habits",
+     "Build good habits in calm times"
+    ]
+   }
+  },
+  {
+   "say": "So if habits matter so much, and even more under stress, how do we build new ones? Researchers have studied habit formation with something as ordinary as dental floss. And they found that tiny, well placed habits can grow surprisingly strong.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: start tiny."
+   }
+  }
+ ]
+}

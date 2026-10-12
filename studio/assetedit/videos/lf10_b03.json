@@ -1,0 +1,127 @@
+{
+ "id": "lf10_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think back over your day so far. How many things did you actually decide to do, carefully and consciously? And how many simply happened? Getting out of bed on a particular side. Making your usual breakfast. Checking your phone at certain moments. Taking the same route. Saying the same greeting to colleagues.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 3,
+    "title": "Life on autopilot"
+   }
+  },
+  {
+   "say": "The psychologist Wendy Wood has studied this question for decades. In one well known diary study, published in two thousand and two with her colleagues, participants regularly noted what they were doing, what they were thinking about, and how they were feeling. And the researchers looked at which behaviors were repeated almost daily, in the same setting.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Wendy Wood, Jeffrey Quinn & Deborah Kashy",
+    "where": "Texas A&M University, published in the Journal of Personality and Social Psychology, 2002",
+    "what": "Students kept diaries, noting each hour what they were doing, thinking and feeling, and whether they did that activity almost every day in the same place."
+   }
+  },
+  {
+   "say": "They estimated that around forty three percent of the behaviors people reported were performed almost every day, usually in the same place. Almost half of daily life, repeating in familiar settings. That's a lot of autopilot.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Daily behaviors done almost every day in the same context",
+    "big": "about 43%",
+    "label": "in the diary study by Wood and colleagues"
+   }
+  },
+  {
+   "say": "And here's another interesting finding. While doing these habitual behaviors, people were often thinking about something else entirely. Their minds wandered to other topics, plans, worries or daydreams. For non habitual behaviors, people's thoughts were more likely to be about what they were actually doing.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Thinking about something else."
+   }
+  },
+  {
+   "say": "That's the beauty of habits. They free the mind. While your hands make breakfast, your thoughts can plan the day. While your feet walk the familiar route, your mind can listen to a podcast, or simply rest. Without habits, every small action would demand your full attention.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Habits free the mind."
+   }
+  },
+  {
+   "say": "Wood's research also found something gentle about emotions. People tended to feel less intense emotions while performing habits. Less excitement, but also less stress. Habits seem to run in a calm, steady emotional register. A kind of quiet background hum of life.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Feelings during habits."
+   }
+  },
+  {
+   "say": "What turns a behavior into a habit? According to Wood and many other researchers, the key ingredients are repetition, in a stable context, followed by some kind of reward. Do the same thing, in the same place, at the same time, and get something good from it. Over time, the context itself starts to trigger the behavior.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Repetition plus context."
+   }
+  },
+  {
+   "say": "That's an important distinction. Goals and habits are different. A goal is something you consciously want. I want to be healthier. A habit is something your brain does automatically in a certain situation. When I get home, I put on my running shoes. Goals can start habits, but once a habit forms, it runs largely on its own, even if the goal fades.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Habits aren't goals."
+   }
+  },
+  {
+   "say": "Most of us underestimate how much of our behavior is habitual. We like to think of ourselves as making conscious choices all day long. And we do make some. But a large part of what we do simply flows from the situations we're in, shaped by the countless repetitions of the past.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "More autopilot than we think."
+   }
+  },
+  {
+   "say": "I find this oddly comforting. It means that much of life doesn't require constant effort or willpower. Once good routines are in place, they carry us along gently. And it means that changing our lives often isn't about trying harder, but about slowly shaping the routines that run in the background.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Gentle autopilot."
+   }
+  },
+  {
+   "say": "So here's what we've learned about life on autopilot. Around forty three percent of daily behaviors, in one study, were performed almost daily in the same context. During habits, our minds often wander elsewhere. Habits form through repetition in a stable context, with some reward. And once formed, they can run on their own, even if the original goal fades.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Life on autopilot",
+    "items": [
+     "About 43% of daily behaviors are habitual",
+     "During habits, the mind often wanders",
+     "Habits form through repetition in a stable context",
+     "Habits run on their own, even if goals fade"
+    ]
+   }
+  },
+  {
+   "say": "And if habits free our minds, where do our minds go? A large study, using a smartphone app, asked thousands of people that very question, at random moments of their day. The answer is fascinating.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the wandering mind."
+   }
+  }
+ ]
+}

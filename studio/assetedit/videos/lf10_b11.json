@@ -1,0 +1,122 @@
+{
+ "id": "lf10_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In the eighteen forties, in a large hospital in Vienna, a young doctor named Ignaz Semmelweis was troubled by something terrible. In one of the hospital's maternity clinics, many new mothers were dying of a fever after giving birth. In another clinic, staffed by midwives, far fewer women died. Why the difference?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 11,
+    "title": "The doctor who asked for clean hands"
+   }
+  },
+  {
+   "say": "Semmelweis noticed that the doctors in the first clinic often came straight from performing autopsies to delivering babies. He suspected that something from the autopsy room was being carried on their hands. So, in eighteen forty seven, he introduced a new rule. Doctors had to wash their hands in a chlorinated solution before examining patients.",
+   "show": {
+    "type": "photo",
+    "file": "lf10_s_basin.jpg",
+    "cap": "A simple basin, a radical idea"
+   }
+  },
+  {
+   "say": "And the results were dramatic. According to historical accounts, the death rate in his clinic fell sharply after the handwashing rule was introduced, to levels similar to the midwives' clinic. A simple habit, washing hands, appeared to be saving many lives.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Deaths fell dramatically."
+   }
+  },
+  {
+   "say": "You might think the medical world would have celebrated and adopted his idea immediately. But it didn't. Many doctors resisted. Some were offended by the suggestion that their hands could be causing harm. The scientific understanding of germs was not yet established. And Semmelweis struggled to persuade his colleagues. His ideas were widely accepted only years later.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "And yet, resistance."
+   }
+  },
+  {
+   "say": "This story is often told as a lesson about how hard it can be to change established habits, even in the face of strong evidence. The doctors had their routines. They had their identities as healers. Changing those routines meant admitting that the old ones had caused harm. That's a lot to ask of anyone.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why habits resist evidence."
+   }
+  },
+  {
+   "say": "Remember the link between habits and identity. For the doctors, the idea that they were spreading disease clashed with how they saw themselves. When a habit is tied to our identity, evidence against it can feel like a personal attack. And people often defend their identity, even at the cost of ignoring evidence.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Identity and habit, again."
+   }
+  },
+  {
+   "say": "And here's the remarkable part. Even today, more than a century and a half later, handwashing in hospitals remains a challenge. Health organizations around the world still run campaigns to improve hand hygiene among healthcare workers. Not because people don't know it matters, but because turning knowledge into a consistent habit, under pressure, is hard.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Handwashing is still hard."
+   }
+  },
+  {
+   "say": "That's a lesson for all of us. Knowing that something is good for us isn't the same as doing it consistently. Doctors know handwashing matters. Most of us know exercise, sleep and vegetables matter. The gap between knowing and doing is where habits live. And closing that gap requires cues, routines, rewards and supportive environments, not just information.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Knowledge isn't habit."
+   }
+  },
+  {
+   "say": "Modern hospitals use systems to support handwashing habits. Hand sanitizer placed right at every bedside. Reminders and signs at the right moments. Feedback on hand hygiene rates. These are all ways of changing the environment and adding cues, so that the right behavior becomes easier and more automatic.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Systems help."
+   }
+  },
+  {
+   "say": "The Semmelweis story can also make us patient. If brilliant doctors, faced with life and death evidence, struggled to change a habit, then it's no surprise that we sometimes struggle with ours. Change is hard. Habits resist. But with the right supports, they can change, and sometimes, they can save lives.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Be patient with change."
+   }
+  },
+  {
+   "say": "So here's what the Semmelweis story teaches us. Handwashing dramatically reduced deaths in his clinic. And yet, many doctors resisted the change for years. Habits tied to our identity can resist even strong evidence. And closing the gap between knowing and doing takes systems, cues and supportive environments, not just information.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The doctor who asked for clean hands",
+    "items": [
+     "Handwashing cut deaths in Semmelweis's clinic",
+     "Many doctors still resisted",
+     "Habits tied to identity resist evidence",
+     "Systems and cues close the knowing-doing gap"
+    ]
+   }
+  },
+  {
+   "say": "Many of us believe that people with great self control are constantly resisting temptation with sheer willpower. But research suggests that the people who seem most self controlled may actually be using a very different strategy. Let's look at it next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the willpower myth."
+   }
+  }
+ ]
+}

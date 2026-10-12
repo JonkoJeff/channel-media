@@ -1,0 +1,125 @@
+{
+ "id": "lf10_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine you're at the cinema. The lights dim, the film begins, and you're holding a bucket of popcorn. Without thinking, you reach in, again and again. Handful after handful. Now imagine that the popcorn is a week old. Stale, chewy, not very tasty. Would you still keep eating it?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 9,
+    "title": "Stale popcorn"
+   }
+  },
+  {
+   "say": "In two thousand and eleven, researchers David Neal, Wendy Wood and their colleagues ran exactly this experiment. People were given a bucket of popcorn while watching a film. Some got fresh popcorn. Others got popcorn that was a week old. The researchers then measured how much people ate.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "David Neal, Wendy Wood, Mengju Wu & David Kurlander",
+    "where": "University of Southern California, published in Personality and Social Psychology Bulletin, 2011",
+    "what": "Moviegoers were given fresh or week-old popcorn, either in a cinema or in a meeting room watching music videos. Researchers measured how much they ate."
+   }
+  },
+  {
+   "say": "For people who didn't have a strong habit of eating popcorn at the cinema, the results were what you'd expect. They ate less of the stale popcorn than the fresh popcorn. But for people with a strong cinema popcorn habit, it made little difference. They ate about as much stale popcorn as fresh. Their hands kept reaching, regardless of taste.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Habit beat taste."
+   }
+  },
+  {
+   "say": "And here's the most interesting part. In another version of the study, people watched music videos in a university meeting room, rather than a cinema. In that setting, even the people with a strong popcorn habit ate less of the stale popcorn. Without the cinema context, the habit didn't switch on. They noticed the taste, and ate accordingly.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "But only in the cinema."
+   }
+  },
+  {
+   "say": "This tells us something important. Habits are tied to context. The darkened cinema, the big screen, the seats, the sound. These are the cues that trigger the automatic eating. Change the context, and the habit loosens its grip. The same person, with the same habit, behaves differently in a different place.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Context is the trigger."
+   }
+  },
+  {
+   "say": "In yet another twist, the researchers asked some participants to eat with their non dominant hand. If you're right handed, eating with your left. That small change disrupted the habit too. People with strong habits ate less of the stale popcorn when using their other hand. Making the action feel unfamiliar woke up their attention.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The hand on autopilot."
+   }
+  },
+  {
+   "say": "That's a lovely practical idea. If you want to interrupt a habit, you can change something about how it's done. Use a different hand. Move the snack to a different cupboard. Sit in a different chair. Small disruptions can pull a habit out of autopilot, and give your conscious mind a chance to decide.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Disrupt the routine."
+   }
+  },
+  {
+   "say": "More broadly, the popcorn study shows how much our environments shape our behavior. The kitchen, the office, the sofa, the car. Each place is full of cues, built up over years of repetition. Walking into a certain room can trigger snacking, scrolling, or relaxing, without any conscious decision at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Our environments decide a lot."
+   }
+  },
+  {
+   "say": "So one of the most effective ways to change habits isn't to change your mind, but to change your spaces. Put fruit on the counter and keep sweets out of sight. Leave the guitar out of its case, where you'll see it. Keep your phone charger outside the bedroom. Let your environment cue the habits you want.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Design your spaces."
+   }
+  },
+  {
+   "say": "And this brings a gentle reminder. If you find yourself doing something you didn't intend, like eating stale popcorn, or checking your phone for the hundredth time, it may not be a lack of willpower. It may simply be your environment, quietly running a well practiced program. Change the scene, and you may find it much easier to change the behavior.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Not weakness. Context."
+   }
+  },
+  {
+   "say": "So here's what the stale popcorn teaches us. People with strong habits ate stale popcorn almost as much as fresh, in the cinema. Outside that context, the habit loosened. Using the other hand disrupted it too. And changing the context, or the routine itself, can be one of the easiest ways to change a habit.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Stale popcorn",
+    "items": [
+     "Habitual eaters ate stale popcorn anyway",
+     "But not outside the cinema",
+     "Using the other hand broke the habit",
+     "Change the context to change the habit"
+    ]
+   }
+  },
+  {
+   "say": "If context is so powerful, what happens when our whole context changes at once? A study of soldiers returning from war, and research on people moving house, show that big life changes can be powerful moments for habits to break, or to form.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: when everything changes."
+   }
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "id": "lf10_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think of someone you know who seems to have great self control. They exercise regularly, eat well, finish their work on time, and rarely seem tempted by distractions. How do you imagine they do it? Many people picture someone constantly fighting temptation, gritting their teeth, resisting cake and phones through sheer strength of will.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 12,
+    "title": "The willpower myth"
+   }
+  },
+  {
+   "say": "In two thousand and twelve, a team led by Wilhelm Hofmann studied everyday temptations. Over two hundred adults carried smartphones that beeped at random moments, asking whether they were currently feeling a desire, like wanting to eat, sleep, check social media, or have a drink, and whether they were trying to resist it.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Wilhelm Hofmann, Roy Baumeister and colleagues",
+    "where": "Published in the Journal of Personality and Social Psychology, 2012",
+    "what": "Over 200 adults carried smartphones that asked them, at random moments during the day, whether they were experiencing a desire, and whether they were trying to resist it."
+   }
+  },
+  {
+   "say": "And they found something surprising about people who scored high on self control. These people didn't seem to be resisting temptations more often. If anything, they reported experiencing fewer temptations in the first place. They weren't winning more battles. They were facing fewer battles.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Fewer temptations, not more resisting."
+   }
+  },
+  {
+   "say": "How could that be? One explanation is that people with good self control may structure their lives to avoid temptation. They don't keep sweets in the house. They leave their phone in another room while working. They go to bed at a regular time. They've arranged things so that the tempting option rarely appears.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Avoiding the battle."
+   }
+  },
+  {
+   "say": "Another study, published in two thousand and fifteen by Brian Galla and Angela Duckworth, looked at the link between self control and habits. They found that people with higher self control tended to have stronger good habits, like regular exercise, healthy snacking and consistent study routines. And these habits seemed to explain part of why they did well.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Brian Galla & Angela Duckworth",
+    "where": "University of Pennsylvania, published in the Journal of Personality and Social Psychology, 2015",
+    "what": "Several studies examined how self-control relates to habits, such as exercise, healthy eating, study and sleep routines."
+   }
+  },
+  {
+   "say": "In other words, much of what looks like willpower may actually be habit. Once healthy behaviors become automatic, they don't require constant effort. The person who exercises every morning isn't necessarily summoning great determination each day. Morning simply means exercise. The decision was made long ago, and repetition has done the rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Habits do the heavy lifting."
+   }
+  },
+  {
+   "say": "That's good news, because relying on willpower alone is tiring. Resisting a temptation over and over, day after day, can feel exhausting. Each battle takes effort, and sometimes we lose. A strategy built entirely on willpower is fragile. A strategy built on good habits and supportive environments is much sturdier.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Willpower is tiring."
+   }
+  },
+  {
+   "say": "So instead of trying to become someone with iron willpower, it can be wiser to change the battlefield. Make good behaviors easy, obvious and automatic. Make unwanted behaviors hard, hidden and inconvenient. Let your surroundings and routines carry the weight, so that you rarely need to fight at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Change the battlefield."
+   }
+  },
+  {
+   "say": "This view of self control is also kinder. If you struggle with temptation, it doesn't mean you're weak. It might mean you're facing more temptations than the people who seem strong. Their environment might be set up differently. Their habits might have been built over many years. The difference may be less about character, and more about circumstance and routine.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Kinder to ourselves."
+   }
+  },
+  {
+   "say": "And you don't need to rebuild your whole life at once. Choose one small temptation that often catches you. Then ask, how could I make this temptation appear less often? Move it, hide it, delay it, or replace it. One small change in your environment can quietly save you hundreds of battles over a year.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Start with one change."
+   }
+  },
+  {
+   "say": "So here's what research on self control suggests. People with high self control seem to face fewer temptations, not resist more. Good habits explain much of what looks like willpower. Relying on willpower alone is tiring and fragile. And changing your environment, so temptations appear less often, can be far more effective than fighting them.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The willpower myth",
+    "items": [
+     "Self-controlled people face fewer temptations",
+     "Good habits explain much of self-control",
+     "Willpower alone is tiring and fragile",
+     "Change the battlefield, not just yourself"
+    ]
+   }
+  },
+  {
+   "say": "And there's another situation where habits take over. When we're stressed. Research with rats and with people suggests that stress pushes the brain toward its old habits, even when they no longer serve us. Let's look at that next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: habits under stress."
+   }
+  }
+ ]
+}

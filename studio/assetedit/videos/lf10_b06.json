@@ -1,0 +1,134 @@
+{
+ "id": "lf10_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In the early nineteen nineties, a man in California, often referred to in research as E. P., became seriously ill with a viral infection that damaged parts of his brain involved in memory. When he recovered, he had a profound kind of amnesia. He could remember much of his distant past, but he could no longer form new memories of events.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 6,
+    "title": "Habits without memory"
+   }
+  },
+  {
+   "say": "If you met him, talked for a while, and left the room for a few minutes, he wouldn't remember you when you came back. He couldn't learn new facts that stuck. He didn't know where the kitchen was in his new house, if asked. And yet, something surprising happened in his daily life. He could still learn routines.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Forgetting within minutes."
+   }
+  },
+  {
+   "say": "The neuroscientist Larry Squire and his colleagues studied E. P. for years. In one study, published in two thousand and five, they gave him a task. He was shown pairs of objects, and had to learn which object in each pair was the correct one. Each time he chose, he was told if he was right.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Peter Bayley, Jennifer Frascino & Larry Squire",
+    "where": "University of California San Diego, published in Nature, 2005",
+    "what": "A patient with severe amnesia was trained, over many weeks, to pick the correct object from pairs of objects, and tested on what he had learned."
+   }
+  },
+  {
+   "say": "For a person with normal memory, this task is fairly easy. You remember which ones were correct. For E. P., it was very different. He couldn't remember the previous sessions at all. And yet, over many weeks of practice, his choices gradually became more and more accurate. He was learning, without knowing that he was learning.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Slowly, he learned."
+   }
+  },
+  {
+   "say": "And here's the most fascinating part. When the researchers asked him why he chose a particular object, he couldn't explain. He didn't remember being told it was correct. He would say something like, it just feels right. His habits had learned what his conscious memory could not.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "He couldn't say why."
+   }
+  },
+  {
+   "say": "This, and other research, suggests that the brain has different systems for different kinds of learning. One system, involving a region called the hippocampus, helps us remember events and facts. Another, involving the basal ganglia that we met in the maze studies, supports gradual habit learning. E. P.'s first system was damaged. His second still worked.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Two different systems."
+   }
+  },
+  {
+   "say": "That's a profound idea. Our habits may be stored somewhat separately from our conscious memories. We might forget when or why we started doing something, and still keep doing it. The habit remembers, even when we don't.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Habits live elsewhere."
+   }
+  },
+  {
+   "say": "Squire described how E. P. was also able to take walks around his neighborhood, and find his way home, even though, if asked, he couldn't describe the route or draw a map of the area. The repeated walks had built a habit of navigation, separate from any conscious knowledge of the streets.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Walking in his neighborhood."
+   }
+  },
+  {
+   "say": "What does this mean for the rest of us? It suggests that many of our habits operate below conscious awareness. We don't need to remember how we learned them, or even notice them, for them to guide us. That's why habits can feel so automatic, and why they can be so hard to change by simply deciding to.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "What this means for us."
+   }
+  },
+  {
+   "say": "It also explains a familiar feeling. Sometimes we do something, and it just feels right, without a clear reason. That feeling may be the voice of habit. Not wisdom, not logic, just the familiar comfort of something repeated many times. It can be helpful to notice when a choice is guided by habit, rather than by real reflection.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Feelings of rightness."
+   }
+  },
+  {
+   "say": "And it invites some gentleness. If habits live partly beyond our conscious control, then struggling to change one isn't a sign of weak character. It's a sign that we're working with a different part of the brain. One that learns slowly, through repetition, rather than through good intentions.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Gentle with ourselves."
+   }
+  },
+  {
+   "say": "So here's what E. P. teaches us. He couldn't form new memories of events. And yet, over many weeks, he slowly learned new habits. This suggests that habits and conscious memories rely on different brain systems. And our habits can guide us, even when we don't remember how they formed.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Habits without memory",
+    "items": [
+     "E. P. couldn't form new memories",
+     "Yet he slowly learned habits",
+     "Habits and memories use different systems",
+     "Habits can guide us without awareness"
+    ]
+   }
+  },
+  {
+   "say": "But what tells the brain which actions are worth turning into habits? Part of the answer involves a famous chemical messenger in the brain, dopamine. And a series of experiments with monkeys and sips of juice that changed how scientists think about reward.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the chemistry of reward."
+   }
+  }
+ ]
+}

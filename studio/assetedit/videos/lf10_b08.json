@@ -1,0 +1,123 @@
+{
+ "id": "lf10_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In the early twentieth century, brushing your teeth was not yet a widespread daily habit in many places. Toothpaste existed, but many people didn't use it regularly. And then, according to a story told in Charles Duhigg's popular book The Power of Habit, an advertising man named Claude Hopkins helped change that.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 8,
+    "title": "A habit sold in a tube"
+   }
+  },
+  {
+   "say": "Hopkins was hired to promote a toothpaste called Pepsodent. As the story goes, he noticed that everyone has a slight film on their teeth. And he built advertisements around it. Run your tongue across your teeth, the ads suggested. Feel that film? Pepsodent removes it. Suddenly, a sensation everyone had became a cue. A reminder to brush.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The film on your teeth."
+   }
+  },
+  {
+   "say": "In Duhigg's telling, Hopkins had found a clear cue, the feeling of film on the teeth, and promised a reward, beautiful, clean teeth. And there may have been another, unplanned reward too. Pepsodent contained ingredients, like mint, that left a cool, tingling feeling in the mouth. People came to associate that tingle with clean teeth.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A cue and a reward."
+   }
+  },
+  {
+   "say": "Duhigg suggests that this tingle became a kind of immediate reward that people started to crave. If a toothpaste didn't tingle, it didn't feel like it was working. Whether or not that's the full historical story, it's a nice illustration of how a small sensory reward can help a routine become a habit.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The tingle as reward."
+   }
+  },
+  {
+   "say": "I should add that historians of advertising have pointed out that the real history of toothbrushing is more complex. Many factors, including public health campaigns, dentistry, and military hygiene rules, helped spread the habit. So the Pepsodent story is best seen as an illustration, not the whole explanation. But it's a vivid example of the habit loop.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A careful note on the story."
+   }
+  },
+  {
+   "say": "Duhigg popularized a simple model, the habit loop. A cue, which triggers the behavior. A routine, the behavior itself. And a reward, which makes the brain want to repeat it. Over time, as we learned with dopamine, the brain starts to anticipate the reward as soon as it sees the cue. That anticipation, a kind of craving, drives the routine.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "The habit loop."
+   }
+  },
+  {
+   "say": "Companies have long used ideas like this to build habits around their products. Cues like notifications, adverts and packaging. Routines like opening an app or buying a snack. And rewards like a pleasant taste, a fun feeling, or a sense of accomplishment. Some of these habits are helpful. Others, less so.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Marketers use the loop."
+   }
+  },
+  {
+   "say": "But you can use the same loop for yourself. Choose a clear cue, a simple routine, and a small, satisfying reward. If you want to stretch every morning, the cue could be turning off your alarm, the routine a two minute stretch, and the reward a pleasant feeling, or a cup of tea afterwards. Simple, clear, repeatable.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Use the loop for yourself."
+   }
+  },
+  {
+   "say": "And notice the power of sensory rewards. The tingle of toothpaste. The smell of fresh coffee. The warmth of a shower. The satisfying click of a pen. Small pleasant sensations, right after a habit, can help the brain mark the routine as worth repeating. You can choose these on purpose.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Sensory rewards help."
+   }
+  },
+  {
+   "say": "I like to think of this as gentle marketing, for yourself. Not manipulation, but kindness. Making the habits you want a little more pleasant, a little more noticeable, a little more rewarding. If advertising can build habits for toothpaste, you can build habits for a calmer, healthier life.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Gentle marketing for yourself."
+   }
+  },
+  {
+   "say": "So here's what the Pepsodent story illustrates. Advertising turned an everyday sensation into a cue. A small tingle may have worked as a reward. The habit loop of cue, routine and reward is a simple, useful model. And adding pleasant sensations to the habits we want can help them take root.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "A habit sold in a tube",
+    "items": [
+     "Ads turned a sensation into a cue",
+     "A tingle may have become a reward",
+     "Cue, routine, reward: the habit loop",
+     "Add pleasant sensations to habits you want"
+    ]
+   }
+  },
+  {
+   "say": "And here's a delightful experiment that shows just how powerful cues and context can be. It involves a cinema, a bucket of popcorn, and a surprising discovery. People happily ate popcorn that had gone stale, as long as they were in the right place.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: stale popcorn."
+   }
+  }
+ ]
+}

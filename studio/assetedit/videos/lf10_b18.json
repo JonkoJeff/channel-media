@@ -1,0 +1,124 @@
+{
+ "id": "lf10_b18",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You've probably heard of the ten thousand hour rule. The idea that it takes about ten thousand hours of practice to become an expert at something. It was popularized by the writer Malcolm Gladwell in his book Outliers. But where does it come from? And is it true?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 18,
+    "title": "Practice and mastery"
+   }
+  },
+  {
+   "say": "The idea traces back to a study published in nineteen ninety three by the psychologist K. Anders Ericsson and his colleagues. They studied violin students at a music academy in Berlin. And they found that the best students had, on average, accumulated more hours of solitary practice than the less accomplished students. By around age twenty, the best had practiced roughly ten thousand hours.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "K. Anders Ericsson, Ralf Krampe & Clemens Tesch-Römer",
+    "where": "Published in Psychological Review, 1993",
+    "what": "Violin students at a music academy in Berlin estimated how many hours they had practiced alone over their lives. Their teachers rated their level."
+   }
+  },
+  {
+   "say": "But Ericsson himself later pointed out that ten thousand was an average, not a magic threshold. And he emphasized that it wasn't just any practice that mattered. It was what he called deliberate practice. Focused, effortful practice, aimed at improving specific weaknesses, often with feedback from a teacher.",
+   "show": {
+    "type": "photo",
+    "file": "lf10_x_violin.jpg",
+    "cap": "Hours of quiet practice"
+   }
+  },
+  {
+   "say": "Later research added more nuance. In two thousand and fourteen, Brooke Macnamara, David Hambrick and Frederick Oswald published a large meta analysis of studies on deliberate practice. They found that practice was important, but explained only part of the differences in performance across many fields, and its share varied a lot by domain. Other factors, like starting age, talent and opportunity, mattered too.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Practice isn't everything."
+   }
+  },
+  {
+   "say": "Here's an interesting tension with habits. Habits are automatic. Deliberate practice is effortful. In fact, Ericsson suggested that experts avoid letting their skills become completely automatic too early, because automatic performance stops improving. To keep getting better, you have to keep pushing just beyond your comfort zone.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Habit versus deliberate practice."
+   }
+  },
+  {
+   "say": "But habits can still be the foundation of mastery. Not the practice itself, which needs focus, but the habit of practicing. Sitting down at the same time every day. Taking out the instrument. Opening the notebook. The habit gets you there consistently. Then deliberate attention makes the most of the time.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Habits get you to practice."
+   }
+  },
+  {
+   "say": "Anyone learning a skill will experience plateaus. Periods where progress seems to stop. That's normal. Sometimes it means the skill has become automatic at that level, and needs a new challenge. Sometimes it means the brain is consolidating, perhaps during sleep. Plateaus aren't failures. They're part of the shape of learning.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Plateaus are normal."
+   }
+  },
+  {
+   "say": "For most of us, the goal isn't world class mastery. It's enjoying a skill, getting a little better over time, and finding meaning in practice. Playing guitar for pleasure. Cooking more confidently. Speaking a new language on holiday. For these goals, a gentle, regular habit of practice is more important than any magic number.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Enjoy the process."
+   }
+  },
+  {
+   "say": "And once again, small and consistent wins. Fifteen minutes of focused practice every day, held up by a steady habit, can add up to a remarkable amount over a year. Over five years, it can transform a beginner into someone genuinely skilled. Not overnight. Slowly, quietly, one session at a time.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Small daily practice."
+   }
+  },
+  {
+   "say": "I find something peaceful in that. Mastery isn't a destination you suddenly reach after a certain number of hours. It's a journey of small, repeated steps, shaped by habit and attention, and strengthened by rest. And the journey itself, the daily practice, can be one of life's quiet joys.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Mastery as a journey."
+   }
+  },
+  {
+   "say": "So here's what we've learned about practice and mastery. The best violin students had accumulated the most practice. But ten thousand hours is an average, not a rule, and practice explains only part of skill. Deliberate practice is focused and effortful. And habits are what get us to practice consistently, day after day.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Practice and mastery",
+    "items": [
+     "Top violinists had practiced the most",
+     "10,000 hours is an average, not a rule",
+     "Deliberate practice is focused and effortful",
+     "Habits get you to practice consistently"
+    ]
+   }
+  },
+  {
+   "say": "Now let's look at one habit that almost all of us share. Reaching for our phones. Many times a day, often without deciding to. Why is this habit so strong? The answer goes back to pigeons, slot machines and unpredictable rewards.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the phone habit."
+   }
+  }
+ ]
+}

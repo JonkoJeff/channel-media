@@ -1,0 +1,132 @@
+{
+ "id": "lf10_b19",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "How many times do you think you check your phone each day? Many people guess a number, and are surprised when they see the real count from their phone's own screen time settings. Often, a lot of those checks happen almost without deciding. A quiet moment arrives, and the hand reaches.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 19,
+    "title": "The phone habit"
+   }
+  },
+  {
+   "say": "To understand why this habit is so strong, let's go back to the mid twentieth century, and the work of the psychologist B. F. Skinner. Skinner studied how animals, often pigeons and rats, learn from rewards. A pigeon might peck a small key, and receive a bit of food. And he experimented with different patterns of reward.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Pigeons and rewards."
+   }
+  },
+  {
+   "say": "In some setups, the pigeon got food every time it pecked. In others, it got food only sometimes, on an unpredictable schedule. And Skinner and later researchers found that unpredictable rewards, sometimes called variable ratio schedules, tended to produce persistent, rapid responding. The animals kept pecking, again and again, because the next peck might be the one.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Every time, or sometimes?"
+   }
+  },
+  {
+   "say": "This pattern is famous because of slot machines. You pull the lever, or press the button. Usually, nothing much happens. But sometimes, unpredictably, you win. That unpredictability is exactly what keeps many people playing. The next spin might be the big one.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Slot machines."
+   }
+  },
+  {
+   "say": "Now think about your phone. You check it. Sometimes there's something interesting. A message from a friend. A funny video. A bit of news. Often, there's nothing much. But you never know which check will bring something good. That unpredictable pattern may be one reason why checking can become such a strong, persistent habit.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Phones work similarly."
+   }
+  },
+  {
+   "say": "And phones are surrounded by cues. The buzz of a notification. The little red badge on an app. A moment of boredom in a queue. A pause in conversation. Each of these can trigger the habit loop. Cue, check, maybe a reward. Repeated many times a day, for years, the loop becomes deeply ingrained.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Cues everywhere."
+   }
+  },
+  {
+   "say": "For many people, one of the strongest cues isn't a notification at all. It's an inner feeling. Boredom. Anxiety. Loneliness. Restlessness. The phone offers quick relief from these feelings, which is a powerful reward. Remember from our video on procrastination, how we reach for quick mood repair. The phone is the perfect tool for it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Boredom as a cue."
+   }
+  },
+  {
+   "say": "I want to be clear that a strong phone habit isn't a moral failure. Many apps are designed by talented teams, specifically to capture attention. And our brains are built to respond to unpredictable rewards. It's not surprising that the habit forms. It would be surprising if it didn't.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Not a moral failure."
+   }
+  },
+  {
+   "say": "If you'd like to loosen the phone habit, the habit research we've explored offers gentle tools. Remove cues, by turning off non essential notifications. Add friction, by logging out of apps or moving them off the home screen. Change the context, by charging your phone outside the bedroom. And replace the reward, by finding another small comfort for moments of boredom.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Gentle ways to loosen it."
+   }
+  },
+  {
+   "say": "One simple practice is to notice the reach. When your hand moves toward the phone, pause for a breath, and ask, what am I looking for right now? Connection? Distraction? Relief? Sometimes the answer reveals what you really need. And sometimes, just noticing is enough to let the urge pass.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Notice the reach."
+   }
+  },
+  {
+   "say": "And phones can support good habits too. Reminders for medication, a meditation app, a language learning streak, a message to check in with a loved one. The same habit machinery that pulls us into scrolling can be used to build routines we value. It's not about rejecting the tool. It's about choosing how it shapes us.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Phones can be good habits too."
+   }
+  },
+  {
+   "say": "So here's what we've learned about the phone habit. Unpredictable rewards tend to create strong, persistent habits. Phones offer exactly that kind of reward, along with endless cues. Inner feelings like boredom and anxiety are powerful triggers. And removing cues, adding friction, and finding other rewards can gently loosen the habit.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The phone habit",
+    "items": [
+     "Unpredictable rewards create strong habits",
+     "Phones offer variable rewards and many cues",
+     "Inner feelings like boredom trigger checking",
+     "Remove cues, add friction, replace the reward"
+    ]
+   }
+  },
+  {
+   "say": "So far, we've talked about habits as actions. But many researchers and writers suggest that habits are also connected to something deeper. How we see ourselves. Let's explore the link between habits and identity next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: habits and identity."
+   }
+  }
+ ]
+}

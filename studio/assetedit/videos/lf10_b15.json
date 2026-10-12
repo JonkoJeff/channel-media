@@ -1,0 +1,127 @@
+{
+ "id": "lf10_b15",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "It takes twenty one days to form a habit. You've probably heard this many times. It's in books, articles, apps and motivational posters. It's a neat, encouraging number. Just three weeks of effort, and the new behavior will be automatic. But is it true?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 15,
+    "title": "How long does it take?"
+   }
+  },
+  {
+   "say": "The twenty one day idea is often traced back to a plastic surgeon named Maxwell Maltz, who wrote a popular book in nineteen sixty called Psycho Cybernetics. He observed that his patients seemed to take a minimum of about twenty one days to get used to changes, like a new face after surgery. Over time, a minimum of about twenty one days became simplified into twenty one days, period.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Where twenty one came from."
+   }
+  },
+  {
+   "say": "In two thousand and ten, a team led by Phillippa Lally at University College London studied habit formation more carefully. Ninety six volunteers each chose a new healthy behavior to do every day, in the same context. Like drinking a glass of water after breakfast, or going for a short run before dinner. Each day, they rated how automatic the behavior felt.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Phillippa Lally and colleagues",
+    "where": "University College London, published in the European Journal of Social Psychology, 2010",
+    "what": "96 volunteers chose a new eating, drinking or exercise behavior to do daily in the same context, and rated how automatic it felt each day for 12 weeks."
+   }
+  },
+  {
+   "say": "The researchers modeled how automaticity increased over time. And on average, it took about sixty six days for a behavior to reach its peak level of automaticity. But the range was huge. For some people and behaviors, it took around eighteen days. For others, the estimate stretched to two hundred and fifty four days.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Average time to reach peak automaticity",
+    "big": "about 66 days",
+    "label": "with a range from 18 to 254 days in the study"
+   }
+  },
+  {
+   "say": "Not surprisingly, simpler behaviors tended to become automatic faster than more complex ones. Drinking a glass of water became automatic more quickly than doing fifty sit ups. The more effort a behavior requires, the longer it may take to feel effortless.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Simple habits form faster."
+   }
+  },
+  {
+   "say": "The study also showed that habit formation follows a curve. In the early days, each repetition adds a lot of automaticity. Then the gains slow down, and gradually level off. So habits don't switch on suddenly after a certain number of days. They grow steadily stronger, with the biggest gains at the beginning.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A curve, not a switch."
+   }
+  },
+  {
+   "say": "And here's one of the most reassuring findings. Missing a single day didn't seriously damage the habit forming process. The curve continued. What mattered was overall consistency, not perfection. So if you miss a day, there's no need to start over, or to give up. Just continue tomorrow.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Missing a day is okay."
+   }
+  },
+  {
+   "say": "At first, sixty six days might sound discouraging, compared with twenty one. But I think it's actually good news. It means that if a new habit still feels effortful after three weeks, that's completely normal. You're not doing it wrong. You're simply in the middle of the curve. Keep going, and it will keep getting easier.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Why this is good news."
+   }
+  },
+  {
+   "say": "It also invites patience. Building a habit is a bit like growing a plant. You water it daily, and for a while, nothing much seems to happen. But underneath, roots are growing. One day, you notice it's sturdy enough to stand on its own. You don't need to rush that process. You just need to keep watering.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Patience with yourself."
+   }
+  },
+  {
+   "say": "So the lesson from this research is consistency over intensity. A small action, repeated most days, in the same context, will slowly become part of you. Not in twenty one days, maybe, but in its own time. And once it does, it can stay with you for years.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Consistency over intensity."
+   }
+  },
+  {
+   "say": "So here's what research says about how long habits take. The twenty one day rule is mostly a myth. In Lally's study, it took about sixty six days on average to reach peak automaticity. The range was huge, from eighteen to two hundred and fifty four days. And missing a single day didn't ruin the process. Consistency mattered more than perfection.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "How long habits take",
+    "items": [
+     "21 days is a myth",
+     "About 66 days on average in one study",
+     "Range from 18 to 254 days",
+     "Missing a day didn't ruin progress"
+    ]
+   }
+  },
+  {
+   "say": "Let's look at one habit that many people try, and struggle, to build. Exercise. Why is it so hard to make it stick? And what does research say about turning exercise into a real habit?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the exercise habit."
+   }
+  }
+ ]
+}

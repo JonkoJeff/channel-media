@@ -1,0 +1,104 @@
+{
+ "id": "lf10_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Get comfortable. Tonight, I'd like to talk about something that shapes almost every hour of your life, quietly, without asking for your attention. Habits. The way you brush your teeth. The route you take to work. The moment you reach for your phone. The words you say when you answer a call.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Your brain on habits.",
+    "sub": "Tonight, gently."
+   }
+  },
+  {
+   "say": "Most of these things happen without much thought. You don't decide, each morning, whether to brush your teeth, or which hand to hold the brush with. Your brain simply does it, while your mind is somewhere else. Planning the day, remembering a dream, worrying about a meeting.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "Tonight, we'll explore how habits form in the brain, why they're so hard to break, and why they're so powerful once they're set. We'll meet rats running mazes, a man who learned habits without remembering, popcorn that was stale but eaten anyway, and soldiers whose habits changed completely when they came home.",
+   "show": {
+    "type": "photo",
+    "file": "lf10_b01_morning.jpg",
+    "cap": "A day built from small routines"
+   }
+  },
+  {
+   "say": "Here's where we're going tonight. First, how much of our lives runs on habit. Then, how the brain builds habits, step by step. Why the places and moments around us are so powerful. Why willpower may be overrated. And finally, some gentle ways to build good habits, and loosen the ones we'd like to change.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "How much of life runs on habit",
+     "How the brain builds habits",
+     "Why context is so powerful",
+     "Why willpower is overrated",
+     "Gentle ways to build and change habits"
+    ]
+   }
+  },
+  {
+   "say": "I want to say something important at the start. Habits are not a weakness. They're one of the brain's greatest inventions. Imagine if you had to think carefully about every single movement, every word, every small decision, all day long. You'd be exhausted by breakfast. Habits free your mind for the things that matter.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Habits are not a weakness."
+   }
+  },
+  {
+   "say": "But habits have a double edge. The same system that lets you drive home while thinking about something else can also keep you reaching for snacks, scrolling late at night, or biting your nails. Habits don't judge. They simply repeat what has been repeated before. Good or bad, helpful or not.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The double edge."
+   }
+  },
+  {
+   "say": "The good news is that understanding how habits work gives you a kind of freedom. Once you see the machinery, you can start to work with it. Not by fighting yourself with willpower, but by gently shaping the cues, the routines and the rewards that keep habits running.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Understanding brings freedom."
+   }
+  },
+  {
+   "say": "And in a way, you're already an expert. You've built thousands of habits in your life, most of them without trying. Tying your shoes. Typing. Riding a bike. Speaking your language. Your brain knows how to make habits. Tonight, we'll just look a little more closely at how it does it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "You're already a habit expert."
+   }
+  },
+  {
+   "say": "So let's begin by asking a simple question. How much of what we do each day is actually habit? You might be surprised. Researchers have tried to measure it, by asking people to note what they were doing, and thinking, throughout the day.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Let's begin with a number."
+   }
+  },
+  {
+   "say": "But before we look at modern experiments, let's visit a nineteenth century psychologist who wrote about habits so beautifully that his words are still quoted today. His name was William James.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: an old idea."
+   }
+  }
+ ]
+}

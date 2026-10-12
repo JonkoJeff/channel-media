@@ -1,0 +1,124 @@
+{
+ "id": "lf10_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You've probably heard dopamine described as the pleasure chemical. Every time we eat chocolate, get a like on social media, or win a game, we supposedly get a hit of dopamine that makes us feel good. But neuroscientists have found that the real story is more interesting, and more subtle.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 7,
+    "title": "The chemistry of reward"
+   }
+  },
+  {
+   "say": "In the nineteen nineties, the neuroscientist Wolfram Schultz and his colleagues recorded the activity of dopamine neurons in monkeys. The monkeys sometimes received a drop of juice, a treat they enjoyed. And sometimes, a light came on shortly before the juice arrived, signaling that it was coming.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Wolfram Schultz and colleagues",
+    "where": "University of Fribourg and later Cambridge, published in Science, 1997",
+    "what": "Recordings of dopamine neurons in monkeys that received drops of juice, sometimes after a signal such as a light, and sometimes unexpectedly."
+   }
+  },
+  {
+   "say": "At first, when the juice arrived unexpectedly, the dopamine neurons fired strongly. That fits the pleasure idea. But as the monkeys learned that the light predicted the juice, something changed. The dopamine burst moved. It now happened when the light came on, not when the juice arrived. The signal had shifted to the cue.",
+   "show": {
+    "type": "photo",
+    "file": "lf10_b05_juice.jpg",
+    "cap": "A drop of juice, a burst of signal"
+   }
+  },
+  {
+   "say": "And if the light came on, but then no juice arrived, the dopamine neurons did something else. Their activity dipped below normal, at the moment the juice was expected. As if the brain was saying, that's worse than I predicted. Schultz and colleagues described this pattern as a reward prediction error.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "And when the juice didn't come?"
+   }
+  },
+  {
+   "say": "In simple terms, these dopamine neurons seemed to signal the difference between what was expected and what actually happened. Better than expected, a burst. Exactly as expected, little change. Worse than expected, a dip. Dopamine, in this view, isn't so much about pleasure, as about learning. Updating predictions about what's worth pursuing.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Better or worse than expected."
+   }
+  },
+  {
+   "say": "This has a big implication for habits. Over time, the cue itself starts to trigger the dopamine signal. The light, the sound of a notification, the smell of a bakery, the sight of a cigarette packet. The anticipation begins at the cue, before any reward arrives. That's part of why cues can feel so compelling. They carry a promise.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "The cue becomes exciting."
+   }
+  },
+  {
+   "say": "Other researchers, like Kent Berridge, have distinguished between wanting and liking. Dopamine seems closely tied to wanting, the motivational pull toward something. Liking, the actual pleasure when we get it, appears to involve other systems too. That's why we can strongly want something we don't really enjoy much anymore. Like checking a phone that rarely has anything new.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Wanting versus liking."
+   }
+  },
+  {
+   "say": "And remember the dip when an expected reward doesn't come? Things become especially interesting when rewards are unpredictable. Sometimes there's a reward, sometimes not. Psychologists studying learning, going back to B. F. Skinner, found that unpredictable rewards can produce particularly persistent behavior. We'll come back to this when we talk about phones.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Unpredictable rewards."
+   }
+  },
+  {
+   "say": "For now, the key idea is this. Habits form when actions are followed by rewards. Not necessarily big rewards. A feeling of relief, a taste, a small sense of completion, a moment of connection. The brain notices which actions lead to good outcomes, and gradually links them to the cues that came before.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Habits need a reward."
+   }
+  },
+  {
+   "say": "That gives us a gentle tool. If you want to build a good habit, make sure it's followed by something rewarding. Not a huge prize, just a small, immediate good feeling. A moment of satisfaction. A favorite song. A tick on a chart. And if you want to weaken a habit, look for what reward it's giving you, and find a healthier way to get it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Choose your rewards."
+   }
+  },
+  {
+   "say": "So here's what we've learned about reward. Dopamine neurons seem to signal whether things are better or worse than expected. Over time, that signal moves from the reward to the cue. Wanting and liking are not the same. And habits grow from actions followed by small, immediate rewards.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The chemistry of reward",
+    "items": [
+     "Dopamine signals surprise, not just pleasure",
+     "Over time, the signal moves to the cue",
+     "Wanting is different from liking",
+     "Habits need a small, immediate reward"
+    ]
+   }
+  },
+  {
+   "say": "And rewards don't have to be big to build a habit. Sometimes a tiny sensation is enough. There's a famous story, told in a popular book about habits, about how a toothpaste may have helped turn tooth brushing into a daily habit.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: a habit sold in a tube."
+   }
+  }
+ ]
+}

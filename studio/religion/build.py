@@ -63,6 +63,9 @@ def met(q):
         o = json.loads(get(f"https://collectionapi.metmuseum.org/public/collection/v1/objects/{i}"))
         if o.get("isPublicDomain") and o.get("primaryImage"): out.append((o["primaryImage"], f"{o.get('title')} - {o.get('artistDisplayName') or 'unknown'} - The Met Open Access (CC0) - {o.get('objectURL')}"))
     return out
+def relevant(q, title):   # the file title must share a meaningful word with the VISUAL line, else the match is random
+    ws = [w for w in re.findall(r"[a-z]{4,}", q.lower()) if w not in {"with", "from", "that", "this", "ancient", "painting", "map", "scene", "image", "photo", "artwork", "view"}]
+    return not ws or any(w in title.lower() for w in ws)
 CACHE = {}
 def find(sc):
     q = re.sub(r"[^\w ]", " ", sc["vis"]); q = " ".join(q.split())
@@ -72,7 +75,7 @@ def find(sc):
     for qq in (q, " ".join(q.split()[:3])):
         order = (met, wm) if sc["src"] == "met" else (wm, met)
         for f in order:
-            try: res += f(qq)
+            try: res += [r for r in f(qq) if relevant(qq, r[1].split(" - ")[0])]
             except Exception as e: print("search fail", f.__name__, qq, str(e)[:80])
             if len(res) >= 3: break
         if res: break

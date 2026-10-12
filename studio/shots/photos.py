@@ -33,7 +33,8 @@ for chd in ["studio/assetedit"] + [os.path.join("studio/channels", c) for c in o
                 body = getattr(e, 'read', lambda: b'')()[:300]; QUOTA[0] = QUOTA[0] or b"4006" in body or b"daily free" in body
                 print(f"::warning::AI image {p['file']}: {type(e).__name__}: {str(e)[:200]} {body}")
             if os.path.exists(os.path.join(out, p["file"])): continue
-        if p.get("ai") and not os.environ.get("OPENVERSE_FALLBACK"): continue  # wait for tomorrow's AI quota unless fallback asked
+        fb = os.environ.get("OPENVERSE_FALLBACK", "")  # "1" = all files, otherwise a file prefix such as "lf09_"
+        if p.get("ai") and not (fb in ("1", "true") or (fb and p["file"].startswith(fb))): continue  # wait for tomorrow's AI quota unless fallback asked
         if p.get("ai"):  # AI failed or daily quota used up -> free-licensed photo from Openverse for the same idea
             ws = [w for w in p["ai"].split(",")[0].split() if w.lower() not in ("a", "an", "the", "with", "of", "in", "on", "at", "and", "to", "by", "single", "small", "large", "old", "quiet", "softly", "lit", "empty", "cozy")]
             p = dict(p, queries=[" ".join(ws[:5]), " ".join(ws[:3]), " ".join(ws[:2]), ws[0] if ws else "night"])

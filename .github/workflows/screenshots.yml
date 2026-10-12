@@ -4,7 +4,7 @@ on:
     paths: ["studio/channels/*/shots.json", "studio/channels/*/photos.json", "studio/assetedit/photos.json"]
   workflow_dispatch:
     inputs:
-      fallback: {description: "Use Openverse photos when the AI quota is used up (check the contact sheet!)", required: false, default: ""}
+      fallback: {description: "Openverse photos when the AI quota is used up: '1' = all, or a file prefix like 'lf09_' (check the contact sheet!)", required: false, default: ""}
 permissions:
   contents: write
 jobs:

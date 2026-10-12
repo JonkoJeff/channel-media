@@ -348,12 +348,16 @@ def description(v, timing, series, path):
     lines += [f"\u25b8 {x['title']}" for x in nxt] + ["", "\U0001f4da Sources"] + [f"\u2022 {s}" for s in v["sources"]]
     cpath = os.path.join(CH, "photos", "credits.json"); used = [s["show"]["file"] for s in v["segments"] if s["show"]["type"] == "photo"]
     if used and os.path.exists(cpath):
-        cr = json.load(open(cpath)); lines += ["", "\U0001f4f7 Photos"] + [f'\u2022 "{cr[f]["title"]}" by {cr[f]["creator"]} ({cr[f]["provider"]}), {cr[f]["license"]}: {cr[f]["source"]}' for f in dict.fromkeys(used) if f in cr and not cr[f].get("ai")]
+        cr = json.load(open(cpath)); real = [f for f in dict.fromkeys(used) if f in cr and not cr[f].get("ai")]
+        pd = [f for f in real if cr[f]["license"].split()[0] in ("CC0", "PDM")]  # public domain: no attribution required
+        credit = [f'\u2022 "{cr[f]["title"][:28].rstrip()}" by {cr[f]["creator"]}, {cr[f]["license"]}: {cr[f]["source"]}' for f in real if f not in pd]
+        lines += ["", "\U0001f4f7 Photos"] + credit + (["\u2022 Other photos: public domain (CC0 / PDM)."] if pd else [])
         if any(cr.get(f, {}).get("ai") for f in used): lines += ["\u2022 Some images are AI-generated (Flux)."]
     lines += ["", "Narration is AI-generated (synthetic voice). Script, research and edit by the channel.", "", " ".join(v["tags"])]
-    for cut in (100, 75, 55, 40):  # YouTube description limit is 5000 characters: shorten source/credit lines step by step
+    keep = set(credit) if used and os.path.exists(cpath) else set()  # photo credits keep author, license and link (CC BY rule)
+    for cut in (100, 75, 55, 40, 30):  # YouTube description limit is 5000 characters: shorten source lines step by step
         if len("\n".join(lines)) <= 4900: break
-        lines = [l[:cut - 3].rstrip(" ,;:") + "\u2026" if l.startswith("\u2022 ") and len(l) > cut else l for l in lines]
+        lines = [l[:cut - 3].rstrip(" ,;:") + "\u2026" if l.startswith("\u2022 ") and l not in keep and len(l) > cut else l for l in lines]
     open(path, "w").write("\n".join(lines) + "\n")
 
 if __name__ == "__main__":

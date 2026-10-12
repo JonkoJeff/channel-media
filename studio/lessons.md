@@ -11,7 +11,11 @@ The machine adds a rule here every time a published video had a problem. Every n
 - A Short's text starts with a full sentence hook, not a fragment ending in a colon. (sh01a: "Your brain at 3 AM:".)
 - `bars` scenes round values to whole numbers on screen: use them only for whole numbers; show decimals (e.g. 4.6%) in a `list`.
 - Never put made-up "illustration" numbers in a `bars`/`stat` scene; if there is no measured number, use a `list`.
+- Photo credits (CC BY / BY-SA) in a description always keep author, license and link; to fit YouTube's 5,000 characters shorten the photo title or the source lines, never the credit. CC0/PDM photos go on one line "Other photos: public domain". (lf08's scheduled text had credits cut to "by Ciara Ní Riain (wikimed…"; fixed before publishing, longform.py now does this.)
+- Before starting a render, check that every `photo` file of the video exists in `photos/`. If the Cloudflare quota was used up (screenshots run warning "429 ... daily free allocation"), dispatch `screenshots` with `fallback` = the video's file prefix (e.g. `lf09_`), then check the contact sheet. (lf09: all 29 AI images were missing.)
+- While long videos go out via Metricool, start the render with input `metricool=1` (720p, max 500 MB); the default encode is Zernio 1080p (~1.5 GB) and Metricool rejects it.
 
 ## Checked videos
-checked: [lf01, sh01a]
+checked: [lf01, sh01a, lf06]
 - 2026-10-12: When the Cloudflare free AI quota is used up, photos.py falls back to Openverse with short queries. Those photos are often off-topic or show brands (Rolex, Harry Potter, Carnival). ALWAYS check a contact sheet and turn unsuitable photo segments into char segments before rendering. Budget ~40 AI images/day across both channels.
+- 2026-10-12: lf06 (7eBMzF04nVA, published 11 Oct 20:00) checked: title OK, public, AI disclosure line present, no chapter list (calm rule). Source lines are cut with "…" (author + year kept). Re-checked 3 claims: Aserinsky & Kleitman 1953 in Science (eye movements under the eyelids), Sharpless & Barber 2011 review of 35 studies with 36,533 people, Randy Gardner awake Dec 28 1963 to Jan 8 1964, ~264 h, Guinness stopped tracking (NPR 2024). All correct.

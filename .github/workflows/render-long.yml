@@ -6,6 +6,7 @@ on:
     inputs:
       id: {description: "Video id (videos/<id>.json with parts)", required: true}
       channel: {description: "Channel folder ('' = Crazy Facts, else studio/channels/<slug>)", default: ""}
+      metricool: {description: "'1' = Metricool encode (720p, max 500 MB); empty = Zernio 1080p", default: ""}
 permissions:
   contents: write
 concurrency: render-${{ inputs.id }}
@@ -57,6 +58,8 @@ jobs:
           cp art/*/renders/*.mp4 studio/assetedit/renders/ 2>/dev/null || find art -name '*.mp4' -exec cp {} studio/assetedit/renders/ \;
           find art -name '*_timing.json' -exec cp {} studio/assetedit/audio/ \;
       - name: stitch
+        env:
+          METRICOOL: ${{ inputs.metricool }}
         run: |
           [ -z "$CHANNEL_DIR" ] && unset CHANNEL_DIR
           cd studio/assetedit && python3 mega.py videos/${{ inputs.id }}.json > ../../log.txt 2>&1 || { echo "::error::$(tail -c 1200 ../../log.txt | tr '\n' ' ')"; exit 1; }

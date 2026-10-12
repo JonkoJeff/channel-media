@@ -2,6 +2,7 @@
   python3 studio/yt/zernio.py accounts                      -> lists connected accounts into studio/yt/zernio.json
   python3 studio/yt/zernio.py playlist "Title" "desc"       -> creates a public YouTube playlist, stores its id in zernio.json
   python3 studio/yt/zernio.py post lfNN 2026-10-13T17:00     -> uploads renders/lfNN video (presign), schedules it (Europe/Amsterdam)
+  python3 studio/yt/zernio.py shorts lfNN 2026-10-13         -> schedules all Shorts of lfNN, 3 a day (09:00, 13:00, 21:00) from that date
 The YouTube account id and playlist ids live in studio/yt/zernio.json (not secret)."""
 import json, os, sys, urllib.request
 API = "https://zernio.com/api/v1"; KEY = os.environ["ZERNIO_API_KEY"]
@@ -37,6 +38,29 @@ elif cmd == "playlist":   # a = "Title|Title2" (prefix "moneyatnight:" for Money
         if title in cfg.get("playlists", {}): continue
         _, p = call("POST", f"/accounts/{yt_account(ch)}/youtube-playlists", {"title": title, "description": sys.argv[3] if len(sys.argv) > 3 else "", "privacy": "public"})
         cfg.setdefault("playlists", {})[title] = p["playlist"]["id"]; save(); print(f"::notice::playlist {title} = {p['playlist']['id']}")
+elif cmd == "shorts":
+    import datetime as dt
+    vid, day = sys.argv[2], dt.date.fromisoformat(sys.argv[3]); res = json.load(open(os.path.join(R, vid, "result.json")))
+    v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); ch = v.get("channel", "crazyfacts")
+    meta = {x["id"]: x for x in json.load(open(os.path.join(D, "..", "assetedit", "videos", "shorts.json")))}
+    done = res.setdefault("shorts_posted", {}); slots = ["09:00", "13:00", "21:00"]; n = len(done)
+    plid = cfg.get("playlists", {}).get("Money Shorts" if ch == "moneyatnight" else "Psychology Shorts")
+    for sid, url in sorted(res.get("shorts", {}).items()):
+        if sid in done: continue
+        m = meta.get(sid, {}); f = f"/tmp/{sid}.mp4"; urllib.request.urlretrieve(url, f)
+        _, ps = call("POST", "/media/presign", {"filename": sid + ".mp4", "contentType": "video/mp4", "size": os.path.getsize(f)})
+        urllib.request.urlopen(urllib.request.Request(ps["uploadUrl"], data=open(f, "rb").read(), method="PUT", headers={"Content-Type": "video/mp4"}), timeout=600).read()
+        when = f"{day + dt.timedelta(days=n // 3)}T{slots[n % 3]}"
+        psd = {"title": (m.get("title") or v["title"])[:90] + " #shorts", "visibility": "public", "categoryId": "27", "madeForKids": False, "containsSyntheticMedia": True}
+        if plid: psd["playlistId"] = plid
+        body = {"content": f"{m.get('title', '')}\n\nFull calm 2.5-hour video on the channel: {v['title']}\n\n" + " ".join(m.get("tags", ["#shorts"])),
+                "tags": [t.lstrip("#") for t in m.get("tags", [])], "mediaItems": [{"type": "video", "url": ps["publicUrl"]}],
+                "platforms": [{"platform": "youtube", "accountId": yt_account(ch), "platformSpecificData": psd}], "scheduledFor": when, "timezone": "Europe/Amsterdam"}
+        st, p = call("POST", "/posts", body); post = p.get("post", p)
+        if st == 207 or post.get("status") == "failed": print(f"::warning::{sid} failed: {json.dumps(post)[:300]}"); continue
+        done[sid] = {"zernio_id": post.get("_id"), "when": when}; n += 1
+        json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1); print(f"{sid} -> {when}")
+    print(f"::notice::{vid}: {len(done)} Shorts scheduled")
 elif cmd == "post":
     vid, when = sys.argv[2], sys.argv[3]
     v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); res = json.load(open(os.path.join(R, vid, "result.json")))

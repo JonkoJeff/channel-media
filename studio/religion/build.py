@@ -66,7 +66,7 @@ def met(q):
 def relevant(q, title):   # the file title must share a meaningful word with the VISUAL line, else the match is random
     ws = [w for w in re.findall(r"[a-z]{4,}", q.lower()) if w not in {"with", "from", "that", "this", "ancient", "painting", "map", "scene", "image", "photo", "artwork", "view"}]
     return not ws or any(w in title.lower() for w in ws)
-BLOCK = re.compile(r"(?i)\b(ski|skier|skiing|snowboard|building|skyscraper|office|hospital|airport|airplane|aircraft|biplane|car|truck|football|soccer|tourist|crowd|portrait|selfie|dog|cat|logo|flag|bikini|wedding|concert|stadium|shop|street|city|bridge|graffiti|advert)\b")
+BLOCK = re.compile(r"(?i)\b(ski|skier|skiing|snowboard|building|skyscraper|office|hospital|airport|airplane|aircraft|biplane|car|truck|football|soccer|tourist|crowd|portrait|selfie|dog|cat|logo|flag|bikini|wedding|concert|stadium|shop|street|city|bridge|graffiti|advert|seedling|mango|tupperware|box|container|jar|bottle|plastic|pot)\b")
 def nasa(q):
     r = json.loads(get("https://images-api.nasa.gov/search?media_type=image&q=" + urllib.parse.quote(q))).get("collection", {}).get("items", [])[:8]; out = []
     for it in r:
@@ -132,7 +132,7 @@ def shot(args):
     k, img, nf, style, label = args; fn = os.path.join(W, f"s{k:05d}.mp4"); n = max(nf, 2); d = n / FPS
     z = {0: f"z='1+0.14*on/{n}':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2'", 1: f"z='1.14-0.14*on/{n}':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2'",
          2: f"z=1.16:x='(iw-iw/zoom)*on/{n}':y='ih/2-ih/zoom/2'", 3: f"z=1.16:x='(iw-iw/zoom)*(1-on/{n})':y='ih/2-ih/zoom/2'"}[style % 4]
-    vf = f"scale=2400:1350:force_original_aspect_ratio=increase,crop=2400:1350,zoompan={z}:d={n}:s=1920x1080:fps={FPS},vignette=PI/6,fade=t=in:st=0:d=0.45,fade=t=out:st={d - 0.45:.2f}:d=0.45"
+    vf = f"scale=2400:1350:force_original_aspect_ratio=increase,crop=2400:1350,zoompan={z}:d={n}:s=1920x1080:fps={FPS},eq=gamma=1.2:saturation=1.05,vignette=PI/6,fade=t=in:st=0:d=0.45,fade=t=out:st={d - 0.45:.2f}:d=0.45"
     if label:
         tf = fn[:-4] + ".txt"; open(tf, "w").write(label)
         vf += f",drawtext=fontfile={FONT}:textfile={tf}:fontcolor={GOLD}:fontsize=62:x=(w-text_w)/2:y=h-170:shadowcolor=black:shadowx=3:shadowy=3:enable='lt(t,4)'"
@@ -143,7 +143,7 @@ for i, sc in enumerate(scenes):
     imgs = find(sc)
     iscard = sc["src"] in ("text-card", "map") or re.match(r"(?i)(minimal )?text card|three-column|four-window|six |seven |card", sc["vis"])
     if not imgs and POOL and not iscard: imgs = POOL[-12 - (i % 5):][::3][:3] or POOL[-1:]   # no match: reuse earlier images of this film (different zoom)
-    if not imgs: c = os.path.join(W, f"card{i}.jpg"); card(sc["vis"].split(":", 1)[1] if ":" in sc["vis"] else (sc["chap"] or ""), c); imgs = [c]
+    if not imgs: c = os.path.join(W, f"card{i}.jpg"); card(re.split(r"[;]", sc["vis"].split(":", 1)[1] if ":" in sc["vis"] else (sc["chap"] or ""))[0].strip(" ."), c); imgs = [c]
     ns = max(1, round(sc["dur"] / 7)); base = sc["frames"] // ns
     for j in range(ns):
         nf = base if j + 1 < ns else sc["frames"] - base * (ns - 1)

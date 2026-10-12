@@ -39,7 +39,7 @@ for i in range(1, len(parts), 2):
     n = re.search(r"NARRATION:\s*(.*?)(?=^\s*VISUAL:|^\s*SOURCE:|\Z)", b, re.S | re.M); v = re.search(r"VISUAL:\s*(.*?)(?=^\s*SOURCE:|\Z)", b, re.S | re.M); s = re.search(r"SOURCE:\s*(\S+)", b)
     if n and n[1].strip(): scenes.append(dict(t=secs(t), say=" ".join(n[1].split()), vis=" ".join(v[1].split()) if v else "", src=(s[1].lower() if s else "wikimedia"), chap=chap))
 # CHAPTER lines trail the previous block: re-attach (chap computed above belongs to the next scene)
-pend = None; fixed = []
+pend = (re.findall(r"(?m)^\s*CHAPTER:\s*(.+)$", parts[0]) or [None])[-1]; fixed = []
 for i in range(1, len(parts), 2):
     b = parts[i + 1]
     fixed.append(pend); pend = (re.findall(r"(?m)^\s*CHAPTER:\s*(.+)$", b) or [None])[-1]
@@ -66,9 +66,10 @@ def met(q):
 def relevant(q, title):   # the file title must share a meaningful word with the VISUAL line, else the match is random
     ws = [w for w in re.findall(r"[a-z]{4,}", q.lower()) if w not in {"with", "from", "that", "this", "ancient", "painting", "map", "scene", "image", "photo", "artwork", "view"}]
     return not ws or any(w in title.lower() for w in ws)
-CACHE = {}
+CACHE = {}; POOL = []
 def find(sc):
-    q = re.sub(r"[^\w ]", " ", sc["vis"]); q = " ".join(q.split())
+    v = re.split(r"[;.]", sc["vis"])[0]; v = re.sub(r"(?i)\b(slow|slowly|gentle|gently|quiet|soft|wide|close|forward|drift|pan|zoom|no people|restrained|abstract|illustration|text card)\b", " ", v)
+    q = re.sub(r"[^\w ]", " ", v); q = " ".join(q.split()[:8])
     if sc["src"] in ("text-card", "map") or not q: return []
     if q in CACHE: return CACHE[q]
     res = []
@@ -85,7 +86,7 @@ def find(sc):
         try:
             if not os.path.exists(fn): open(fn, "wb").write(get(url)); time.sleep(0.4)
             im = Image.open(fn); im.verify()
-            if Image.open(fn).size[0] >= 900: got.append(fn); ATTR.append(at)
+            if Image.open(fn).size[0] >= 900: got.append(fn); ATTR.append(at); POOL.append(fn)
         except Exception as e: print("img fail", str(e)[:80])
         if len(got) >= 3: break
     CACHE[q] = got; return got
@@ -124,7 +125,8 @@ def shot(args):
 tasks, k = [], 0
 for i, sc in enumerate(scenes):
     imgs = find(sc)
-    if not imgs: c = os.path.join(W, f"card{i}.jpg"); card(sc["vis"] or sc["chap"] or "", c); imgs = [c]
+    if not imgs and POOL: imgs = POOL[-12 - (i % 5):][::3][:3] or POOL[-1:]   # no match: reuse earlier images of this film (different zoom)
+    if not imgs: c = os.path.join(W, f"card{i}.jpg"); card(sc["chap"] or "", c); imgs = [c]
     ns = max(1, round(sc["dur"] / 7)); base = sc["frames"] // ns
     for j in range(ns):
         nf = base if j + 1 < ns else sc["frames"] - base * (ns - 1)

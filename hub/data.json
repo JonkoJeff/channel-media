@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-12T07:17Z",
- "checked_at": "2026-10-12T07:17Z",
+ "updated": "2026-10-12T13:47Z",
+ "checked_at": "2026-10-12T13:47Z",
  "channels": [
   {
    "key": "default",
@@ -8,17 +8,29 @@
    "title": "Crazy_Factsss",
    "viewCount": 6,
    "subscriberCount": 2,
-   "videoCount": 4
+   "videoCount": 5
   }
  ],
  "videos": [
+  {
+   "channel": "Crazy_Factsss",
+   "id": "0T0fsg69m6U",
+   "title": "The airport that fixed waiting #shorts",
+   "published": "2026-10-12 11:00",
+   "duration": "PT46S",
+   "views": 3,
+   "likes": 0,
+   "comments": 0,
+   "seconds": 46,
+   "type": "Short"
+  },
   {
    "channel": "Crazy_Factsss",
    "id": "Z1u8rdbwEcQ",
    "title": "Why waiting feels so long #shorts",
    "published": "2026-10-12 07:00",
    "duration": "PT54S",
-   "views": 0,
+   "views": 1,
    "likes": 0,
    "comments": 0,
    "seconds": 54,
@@ -30,7 +42,7 @@
    "title": "Your Brain at Night, Explained",
    "published": "2026-10-11 18:11",
    "duration": "PT2H28M51S",
-   "views": 11,
+   "views": 13,
    "likes": 1,
    "comments": 0,
    "seconds": 8931,
@@ -84,19 +96,28 @@
    "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/renders/lf08/thumb.png"
   },
   {
+   "id": "lf09",
+   "title": "Why We Procrastinate, Explained",
+   "scheduled": "2026-10-14T17:00+02:00",
+   "length": null,
+   "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/renders/lf09/thumb.png"
+  },
+  {
    "id": "mn01",
    "title": "How Money Really Works, Explained",
    "scheduled": "2026-10-12T17:00+02:00",
    "length": null,
    "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/renders/mn01/thumb.png"
+  },
+  {
+   "id": "mn02",
+   "title": "Why Smart People Make Bad Money Decisions",
+   "scheduled": null,
+   "length": null,
+   "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/renders/mn02/thumb.png"
   }
  ],
  "in_progress": [
-  {
-   "id": "lf09",
-   "title": "Why We Procrastinate, Explained",
-   "blocks": "29/29"
-  },
   {
    "id": "lf10",
    "title": "Your Brain on Habits, Explained",
@@ -109,8 +130,8 @@
   }
  ],
  "approved": false,
- "views24": 15,
- "subs24": 1,
+ "views24": 19,
+ "subs24": 0,
  "schedule": [
   {
    "status": "gepland",
@@ -127,16 +148,17 @@
    "date": "2026-10-13"
   },
   {
-   "status": "in de maak",
+   "status": "gepland",
    "title": "Why We Procrastinate, Explained",
    "time": "17:00",
-   "blocks": "29/29",
+   "length": null,
    "date": "2026-10-14"
   },
   {
-   "status": "open",
-   "title": "nog leeg \u00b7 de machine vult dit automatisch",
+   "status": "in de maak",
+   "title": "Your Brain on Habits, Explained",
    "time": "17:00",
+   "blocks": "29/29",
    "date": "2026-10-15"
   },
   {
@@ -158,27 +180,27 @@
    "date": "2026-10-18"
   }
  ],
- "metricool_used": 8,
+ "metricool_used": 10,
  "workflows": {
   "render-long.yml": {
    "status": "completed",
    "conclusion": "success",
-   "at": "2026-10-12T00:32Z"
+   "at": "2026-10-12T10:41Z"
   },
   "stats.yml": {
    "status": "in_progress",
    "conclusion": null,
-   "at": "2026-10-12T07:17Z"
+   "at": "2026-10-12T13:47Z"
   },
   "trends.yml": {
    "status": "completed",
    "conclusion": "success",
-   "at": "2026-10-12T00:30Z"
+   "at": "2026-10-12T13:07Z"
   },
   "screenshots.yml": {
    "status": "completed",
    "conclusion": "success",
-   "at": "2026-10-12T01:53Z"
+   "at": "2026-10-12T10:41Z"
   },
   "youtube.yml": {
    "status": "completed",

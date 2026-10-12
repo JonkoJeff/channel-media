@@ -33,8 +33,10 @@
   {
    "say": "Now imagine a quiet meadow at night. The grass is soft and cool. Above you, the sky is full of stars. Here and there, small lights drift through the grass, glowing softly, then fading, then glowing again. There's no hurry here. Nothing needs to be finished.",
    "show": {
-    "type": "photo",
-    "file": "lf10_b19_cabin.jpg"
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": ""
    }
   },
   {

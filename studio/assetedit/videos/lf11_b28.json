@@ -33,8 +33,10 @@
   {
    "say": "Now imagine snow, falling very slowly outside a window. Each flake drifts down in its own time. None of them is in a hurry. None of them is late. They simply fall, softly, and settle. The world outside grows quieter and quieter under a soft white blanket.",
    "show": {
-    "type": "photo",
-    "file": "lf11_b21_clouds.jpg"
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": ""
    }
   },
   {
@@ -64,8 +66,10 @@
   {
    "say": "Now imagine a small fire glowing in a quiet room. The flames move slowly, softly, never quite the same. You don't need to do anything. Just watch them in your mind's eye. Soft, warm, gently moving. A kind of fascination that asks nothing of you.",
    "show": {
-    "type": "photo",
-    "file": "lf11_b21_fire.jpg"
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": ""
    }
   },
   {

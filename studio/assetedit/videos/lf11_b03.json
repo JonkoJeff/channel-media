@@ -17,8 +17,9 @@
   {
    "say": "Time distortion is one of the defining features of boredom. When we're bored, time seems to slow down. Minutes stretch. The clock seems stuck. And when we're absorbed in something we love, the opposite happens. Hours vanish. We look up and wonder where the afternoon went.",
    "show": {
-    "type": "photo",
-    "file": "lf11_b03_clock.jpg",
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
     "cap": "The longest hour"
    }
   },

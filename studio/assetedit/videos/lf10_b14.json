@@ -28,8 +28,9 @@
   {
    "say": "Both groups flossed. But the researchers found that flossing after brushing tended to become more automatic than flossing before brushing. One explanation is that brushing your teeth worked as a natural cue. When you finish brushing, the next step is flossing. The existing habit acted like a doorway into the new one.",
    "show": {
-    "type": "photo",
-    "file": "lf10_b09_bathroom.jpg",
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
     "cap": "Floss after you brush"
    }
   },

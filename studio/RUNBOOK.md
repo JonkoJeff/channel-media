@@ -48,6 +48,14 @@ GitHub Actions `trend-scan` runs at 05:15, 13:15 and 21:15 UTC and writes `studi
 5. Never copy a title, thumbnail or script. Take the pattern, not the content. Our own numbers (insights.md) beat outside trends when they disagree.
 6. Commit and push. Only report when a new rule was added or something failed.
 
+## STRATEGY (owner, 12 Oct 2026) — overrides anything below that conflicts
+- TWO channels, both daily: Crazy Facts (`lfNN`, psychology) and Money at Night (`mnNN`, money psychology; video JSON has `"channel": "moneyatnight"`; build blocks with `CHANNEL_DIR=$PWD/studio/channels/moneyatnight`; render with `inputs[channel]=moneyatnight`). One ~2.5 h calm video per channel per day at 17:00 (Europe/Amsterdam), 20–30 blocks.
+- Everything goes out via Zernio (verified 12 Oct), NOT Metricool: `zernio.yml cmd=post a=<id> b=YYYY-MM-DDT17:00`. Pick the first day that channel has no long video yet: look at `scheduled` in every `studio/renders/*/result.json` of that channel. Never two long videos on one channel on one day.
+- Shorts are ON (Zernio posts YouTube Shorts directly, no audit needed). Every video gets ~1 Short per block in `videos/shorts.json` (best ≤58 s moment, hook `top`, `title`), rendered with the parts. Schedule: `cmd=shorts a=<id> b=YYYY-MM-DD` (3/day 09:00/13:00/21:00) or `b=YYYY-MM-DD@11:00,15:00,19:00` for a second stream. Goal: 6 Shorts/day per channel (two streams), never more than 50 Zernio posts/day in total. Start a video's Shorts on the day its stream slot frees up (see `shorts_posted` `when` in result.json).
+- More Shorts from an already rendered video (part artifacts live 3 days): add entries with a new prefix to shorts.json, then `shorts.yml id=<id> run=<render-long run id> prefix=<prefix>`, then schedule them.
+- AI images: Cloudflare free quota (~30–40 images/day, all channels). If it is used up, turn `photo` scenes into `char` scenes (allowed sprite/background pairs) and remove those `#ai` lines from photos.json, instead of waiting — publishing daily matters more. Openverse fallback only with a contact-sheet review.
+- Encoding: mega.py default = fast 1080p for Zernio (`inputs[metricool]=1` only for a Metricool upload).
+
 ## B. Every day: one 2.5-hour video (owner's strategy since 2026-10-11)
 Strategy: publish ONE long video every day at 17:00, about 2.5 hours (140–160 min, 20,000–22,000 words), about ONE topic, with a calm, warm vibe. No Shorts until `studio/yt/APPROVED` exists (Part A then does nothing).
 - One topic, one flowing story (e.g. "Your Brain at Night, Explained" = we follow the brain through one night). Viewers never see "parts": no "Part one", no part numbers, no "in this part", no progress bar, no chapter list in the description. Move on with natural spoken transitions ("Now, let's go deeper into the night...").

@@ -3,6 +3,8 @@ on:
   push:
     paths: ["studio/channels/*/shots.json", "studio/channels/*/photos.json", "studio/assetedit/photos.json"]
   workflow_dispatch:
+    inputs:
+      fallback: {description: "Use Openverse photos when the AI quota is used up (check the contact sheet!)", required: false, default: ""}
 permissions:
   contents: write
 jobs:
@@ -16,6 +18,7 @@ jobs:
         env:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID || '21512b529b386555222317db76ce194e' }}  # not a secret, just the account number
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          OPENVERSE_FALLBACK: ${{ inputs.fallback }}
       - run: |
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
           git add -A studio/channels studio/assetedit && git commit -m "Screenshots [skip ci]" && git pull --rebase -q && git push || true

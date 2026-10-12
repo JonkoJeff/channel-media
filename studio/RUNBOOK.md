@@ -56,6 +56,29 @@ GitHub Actions `trend-scan` runs at 05:15, 13:15 and 21:15 UTC and writes `studi
 - AI images: Cloudflare free quota (~30–40 images/day, all channels). If it is used up, turn `photo` scenes into `char` scenes (allowed sprite/background pairs) and remove those `#ai` lines from photos.json, instead of waiting — publishing daily matters more. Openverse fallback only with a contact-sheet review.
 - Encoding: mega.py default = fast 1080p for Zernio (`inputs[metricool]=1` only for a Metricool upload).
 
+## VARIETY (owner, 12 Oct 2026) — overrides the fixed "2.5 h every day" in STRATEGY
+Never publish the same template twice in a row on one channel. Rotate through these 15 formats (length = number of blocks of ~11 min; est.py for the check). Pick the next one that differs from the last two videos of that channel in length AND structure, and note it as `"format": "F07"` in the video JSON.
+| F | Length | Structure | Look and pace |
+| --- | --- | --- | --- |
+| F01 | 150 min | deep dive, one story, wind-down at the end | calm, current default |
+| F02 | 120 min | sleep marathon: half story, half guided wind-down | calm, speed 0.8, fewer visuals, mostly char scenes |
+| F03 | 90 min | one story with a twist halfway | calm |
+| F04 | 60 min | one study in depth (design, result, criticism, what it means) | calm, study/stat/bars scenes |
+| F05 | 45 min | 5 myths debunked | normal speed, no wind-down, list scenes |
+| F06 | 30 min | quick-fire "10 facts" | normal speed, lists and stats, short pauses |
+| F07 | 30 min | one case file (a real experiment or event, step by step) | normal, conspiracy_board backgrounds |
+| F08 | 60 min | 10 big questions, each answered in ~5 min | calm, quote and char scenes |
+| F09 | 90 min | then and now: how an idea changed over time | curve/bars/timeline scenes |
+| F10 | 120 min | myth versus science, point by point | normal, study scenes |
+| F11 | 45 min | guided wind-down only, with a short fact story as intro | very slow, speed 0.8, pause 1.6 |
+| F12 | 60 min | three classic experiments retold | calm, study scenes |
+| F13 | 30 min | mini-course: 5 short lessons with a recap | normal, list scenes |
+| F14 | 75 min | a day in the life of your brain / money, hour by hour | calm, curve scenes |
+| F15 | 150 min | long listen: 12 short stories, each a different topic | calm, new chapter every ~12 min |
+- Also vary: title pattern ("Why...", "The ... of ...", "How ...", "What ... Really ..."), thumbnail layout (text left or mirrored, accent colour), opening (cold open with the twist, or a quiet title start), sprite/background set and voice speed. Never reuse the scene list of an earlier video.
+- Shorter videos cost fewer tokens: 1 Short per ~6 min of video; 6 Shorts a day per channel come from the whole back catalogue (shorts.yml), not only the newest video.
+- New art from the owner (low resolution): register new sprites/backgrounds in the channel's manifest.json and upscale them with the `upscale` workflow before use; use them in new videos to keep the look varied.
+
 ## B. Every day: one 2.5-hour video (owner's strategy since 2026-10-11)
 Strategy: publish ONE long video every day at 17:00, about 2.5 hours (140–160 min, 20,000–22,000 words), about ONE topic, with a calm, warm vibe. No Shorts until `studio/yt/APPROVED` exists (Part A then does nothing).
 - One topic, one flowing story (e.g. "Your Brain at Night, Explained" = we follow the brain through one night). Viewers never see "parts": no "Part one", no part numbers, no "in this part", no progress bar, no chapter list in the description. Move on with natural spoken transitions ("Now, let's go deeper into the night...").

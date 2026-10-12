@@ -66,6 +66,9 @@ elif cmd == "status":  # a = comma-separated Zernio post ids
     for pid in sys.argv[2].split(","):
         st, p = call("GET", f"/posts/{pid}"); post = p.get("post", p)
         print(f"::notice::{pid} {post.get('status')} {post.get('scheduledFor')} " + json.dumps(post.get("platforms", ""))[:400])
+elif cmd == "reschedule":  # a = post id, b = local time YYYY-MM-DDTHH:MM
+    st, p = call("PUT", f"/posts/{sys.argv[2]}", {"scheduledFor": sys.argv[3], "timezone": "Europe/Amsterdam"}); post = p.get("post", p)
+    print(f"::notice::{st} {post.get('status')} {post.get('scheduledFor')} {json.dumps(p)[:300]}")
 elif cmd == "post":
     vid, when = sys.argv[2], sys.argv[3]
     v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); res = json.load(open(os.path.join(R, vid, "result.json")))

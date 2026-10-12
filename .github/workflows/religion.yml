@@ -33,8 +33,8 @@ jobs:
       - name: test preview (frames committed for review)
         if: inputs.ep == 'test'
         run: |
-          for t in 3 18 33; do ffmpeg -loglevel error -y -ss $t -i out/reltest.mp4 -frames:v 1 -vf scale=640:-1 /tmp/f$t.jpg; done; ffmpeg -loglevel error -y -ss 6 -i out/reltest_s1.mp4 -frames:v 1 -vf scale=270:-1 /tmp/s.jpg
-          ffmpeg -loglevel error -y -i /tmp/f3.jpg -i /tmp/f18.jpg -i /tmp/f33.jpg -i /tmp/s.jpg -filter_complex "[0][1][2]hstack=3[a];[3]pad=iw:360:0:0[b];[a][b]hstack" studio/religion/fixtures/preview.jpg
+          for t in 2 12 24; do ffmpeg -loglevel error -y -ss $t -i out/reltest.mp4 -frames:v 1 -vf scale=640:-1 /tmp/f$t.jpg; done; ffmpeg -loglevel error -y -ss 6 -i out/reltest_s1.mp4 -frames:v 1 -vf scale=-2:360 /tmp/s.jpg
+          ffmpeg -loglevel error -y -i /tmp/f2.jpg -i /tmp/f12.jpg -i /tmp/f24.jpg -i /tmp/s.jpg -filter_complex "[0][1][2][3]hstack=4" studio/religion/fixtures/preview.jpg
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com; git add -f studio/religion/fixtures/preview.jpg && git commit -qm "test preview [skip ci]" && git pull -q --rebase && git push
       - name: publish release + result files
         if: inputs.ep != 'test'

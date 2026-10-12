@@ -149,16 +149,17 @@ Say what was scheduled (titles and dates), which parts of the video in progress 
 - Schedule: `cmd=post a=lfNN b=YYYY-MM-DDT17:00` (local time). Writes `zernio_id` to result.json. Up to 5 GB, so 1080p is possible later.
 - VERIFIED 12 Oct 2026: Zernio Short sh08_01 went public on schedule. Zernio is now the default route for long videos and Shorts; mega.py encodes a fast single-pass 1080p (set env METRICOOL=1 for the old 500 MB Metricool encode).
 
-## CHARACTER IDENTITIES (owner, 12 Oct 2026)
-Every character is its own "show": own voice (Kokoro, all tested 12 Oct), own pace, own edit style, own thumbnail layout and palette. Set `voice`/`speed` in the video JSON. Never mix two identities in one video.
-| Character | Voice / speed | Edit style | Thumbnail |
-|---|---|---|---|
-| Chibi, red hoodie (Crazy Facts) | am_puck 1.0 | fast cuts, punch, sfx, pop-up captions | bold yellow/red, big face, 2-word text |
-| Money at Night | am_michael 0.92 (calm) | warm grade, crossfades, no sfx | dark navy + gold, chart motif |
-| Pip (cloud, night-cap) - ON HOLD until API approval | bm_fable 0.85 | very slow, long crossfades, dusk palette | indigo + star yellow, storybook frame |
-| Fawn (sprout antlers, green scarf) | bf_lily 0.88 | soft, nature backgrounds, slow pans | pastel green + cream, rounded text |
-| Teal-polo man | am_eric 0.97 | everyday habits, steady cuts | teal + rust, split before/after |
-| Green-jacket man | am_liam 1.0 | travel/lifestyle, brisk, location cards | green + white, big photo-like scene |
-| Navy-blazer men | bm_george 0.95 | office/charts, clean lower-thirds | navy + white, chart + arrow |
-| Bearded man, glasses | bm_lewis 0.92 | study/lecture, quote and study cards | khaki + navy, bookish serif text |
-Channel and theme per new character are decided by the owner. Sheets are cream paper with numbered labels: cut by silhouette (not magenta key); poses with a baked-in scene are used only as scene stills. Register in the channel manifest, upscale with the `upscale` workflow.
+## CHARACTER IDENTITIES (owner, 12 Oct 2026; spread over Crazy Facts and Money at Night)
+Every character is its own "show": own voice (Kokoro, all tested 12 Oct), own pace, own edit style, own thumbnail layout and palette. Set `voice`/`speed` in the video JSON. Never mix two characters in one video. Sprite ids per manifest: prefix = character.
+| Channel | Character (prefix) | Voice / speed | Edit style | Thumbnail |
+|---|---|---|---|---|
+| Crazy Facts | Chibi, red hoodie (A) | am_puck 1.0 | fast cuts, punch, sfx, pop-up captions | bold yellow/red, big face, 2-word text |
+| Crazy Facts | Teal-polo man (TP) | am_eric 0.97 | everyday habits, steady cuts, before/after cards | teal + rust, split before/after |
+| Crazy Facts | Green-jacket man (GJ) | am_liam 1.0 | lifestyle/behaviour, brisk, location cards | green + white, big scene |
+| Crazy Facts | Fawn, sprout antlers (FW) | bf_lily 0.88 | cosy "animal + sleep psychology", soft pans, slow | pastel green + cream, rounded text |
+| Money at Night | Calm host (F, existing) | am_michael 0.92 | warm grade, crossfades, no sfx | navy + gold, chart motif |
+| Money at Night | Navy blazer A (NB) | bm_george 0.95 | office/charts, clean lower-thirds | navy + white, chart + arrow |
+| Money at Night | Navy blazer B (NC) | am_adam 0.95 | money habits, case-file style, card-heavy | navy + coral, big number |
+| Money at Night | Bearded sweater (BS) | bm_lewis 0.92 | study/lecture, quote and study cards, euro motifs | khaki + navy, serif text |
+| (on hold, API) | Pip cloud (own channel) | bm_fable 0.85 | very slow, dusk palette | indigo + star yellow |
+Sheets are cut by silhouette with `assetedit/cutsheet.py` and registered with `assetedit/register.py` (emotion tags by owner review); baked-scene poses are not registered. Allowed pairs follow the emotion lists of the backgrounds. 4x upscale via the `upscale` workflow into `assets_hd`.

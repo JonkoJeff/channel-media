@@ -1,0 +1,47 @@
+name: religion
+# Belief Through Time: script (studio/channels/religion/stories/NN.txt) -> ~1 h documentary + 4 Shorts -> release rel<NN> (+ result.json for zernio.yml). No Claude tokens.
+on:
+  workflow_dispatch:
+    inputs:
+      ep: {description: "Episode number as in the file name (01..30, 301..310) or 'test'", required: true}
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg fonts-dejavu-core && pip install onnxruntime numpy scipy pillow
+      - name: thumbnail exists?
+        run: |
+          E=${{ inputs.ep }}; [ "$E" = test ] && exit 0; N=$((10#$E))
+          if [ $N -le 10 ]; then T=$(ls studio/channels/religion/thumbs/bible_$(printf %02d $N)_*.jpg); elif [ $N -ge 21 ] && [ $N -le 30 ]; then T=studio/channels/religion/thumbs/Q$(printf %02d $((N-20))).jpg; elif [ $N -ge 301 ]; then T=studio/channels/religion/thumbs/$N.jpg; else echo "::error::no thumbnail for episode $N"; exit 1; fi
+          test -f "$T" && echo "THUMB=$T" >> $GITHUB_ENV || { echo "::error::no thumbnail for episode $N"; exit 1; }
+      - name: build
+        run: |
+          E=${{ inputs.ep }}; F=studio/channels/religion/stories/$E.txt; ID=rel$E
+          [ "$E" = test ] && F=studio/religion/fixtures/test.txt && ID=reltest
+          echo "ID=$ID" >> $GITHUB_ENV
+          python3 studio/religion/build.py $F $ID > build.log 2>&1 || { echo "::error::$(tail -c 1500 build.log | tr '\n' ' ')"; exit 1; }
+          echo "::notice::$(tail -n 1 build.log)"
+      - uses: actions/upload-artifact@v4
+        if: inputs.ep == 'test'
+        with: {name: reltest, path: "out/*.mp4", retention-days: 3}
+      - name: publish release + result files
+        if: inputs.ep != 'test'
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          python3 - <<'PY'
+          import json, os, glob
+          i = os.environ["ID"]; m = json.load(open("out/meta.json")); d = f"studio/renders/{i}"; os.makedirs(d, exist_ok=True)
+          rel = f"https://github.com/JonkoJeff/channel-media/releases/download/{i}/"
+          sh = {os.path.basename(f)[:-4]: rel + os.path.basename(f) for f in sorted(glob.glob(f"out/{i}_s*.mp4"))}
+          json.dump({"id": i, "video": rel + i + ".mp4", "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/" + os.environ["THUMB"], "shorts": sh, "shorts_meta": m["shorts_meta"]}, open(d + "/result.json", "w"), indent=1)
+          open(d + "/description.txt", "w").write(m["desc"])
+          json.dump({"id": i, "title": m["title"], "channel": "religion", "tags": m["tags"], "playlists": []}, open(f"studio/assetedit/videos/{i}.json", "w"), indent=1)
+          PY
+          gh release delete $ID -y --cleanup-tag 2>/dev/null || true
+          gh release create $ID out/$ID.mp4 $(ls out/${ID}_s*.mp4) --title "$ID" --notes "Rendered video files."
+          git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
+          git add -f studio/renders/$ID studio/assetedit/videos/$ID.json && git commit -qm "Rendered $ID [skip ci]" && git pull -q --rebase && git push

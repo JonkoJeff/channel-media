@@ -74,9 +74,14 @@ elif cmd == "post":
     v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); res = json.load(open(os.path.join(R, vid, "result.json")))
     mp4 = sys.argv[4] if len(sys.argv) > 4 else f"/tmp/{vid}.mp4"   # the workflow downloads the release asset here
     _, ps = call("POST", "/media/presign", {"filename": vid + ".mp4", "contentType": "video/mp4", "size": os.path.getsize(mp4)})
-    up = urllib.request.Request(ps["uploadUrl"], data=open(mp4, "rb"), method="PUT",
-                                headers={"Content-Type": "video/mp4", "Content-Length": str(os.path.getsize(mp4))})
-    urllib.request.urlopen(up, timeout=1800).read()
+    for attempt in (1, 2, 3):   # big files (1.4 GB at 1080p) can drop mid-upload: retry, and say why in the annotation
+        try:
+            up = urllib.request.Request(ps["uploadUrl"], data=open(mp4, "rb"), method="PUT",
+                                        headers={"Content-Type": "video/mp4", "Content-Length": str(os.path.getsize(mp4))})
+            urllib.request.urlopen(up, timeout=3600).read(); break
+        except Exception as e:
+            print(f"::warning::upload attempt {attempt} failed: {type(e).__name__} {str(e)[:300]}")
+            if attempt == 3: sys.exit(f"::error::upload failed after 3 attempts: {type(e).__name__} {str(e)[:300]}")
     psd = {"title": v["title"][:100], "visibility": "public", "categoryId": "27", "madeForKids": False, "containsSyntheticMedia": True}
     pl = [cfg.get("playlists", {}).get(t) for t in v.get("playlists", [])]
     if pl and pl[0]: psd["playlistId"] = pl[0]

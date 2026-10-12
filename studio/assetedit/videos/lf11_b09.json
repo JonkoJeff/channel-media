@@ -1,0 +1,122 @@
+{
+ "id": "lf11_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Picture a long drive on a straight, empty motorway. The same grey road, the same fields, the same steady hum of the engine, hour after hour. Nothing changes. Nothing demands your attention. It sounds relaxing. But for many drivers, it can become a strange kind of hypnotic boredom.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 9,
+    "title": "Boredom on the road"
+   }
+  },
+  {
+   "say": "Researchers who study driving have long been interested in monotony. Monotonous roads, with little variation, can make it harder for drivers to stay alert. When there's very little to respond to, attention tends to drift. Some drivers describe a state where they arrive somewhere and realize they can't remember the last few kilometers at all.",
+   "show": {
+    "type": "photo",
+    "file": "lf11_b07_highway.jpg",
+    "cap": "The long, straight road"
+   }
+  },
+  {
+   "say": "This experience is sometimes called highway hypnosis. Driving on a kind of autopilot, while the conscious mind wanders elsewhere. Remember the habits we explored in our last episode, and how the brain can run familiar routines without much conscious attention. Driving a familiar, monotonous road can become exactly that kind of routine.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Highway hypnosis."
+   }
+  },
+  {
+   "say": "Psychologists who study attention sometimes talk about underload. We usually think of overload, too much to do, as the main danger. But underload, too little to do, can also be risky. When a task demands too little attention, people may become less vigilant, slower to react, and more likely to miss important events.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Underload is a risk."
+   }
+  },
+  {
+   "say": "Boredom and fatigue often combine on long drives. A bored mind seeks stimulation, but finds little. A tired body wants rest. Together, they can lower alertness. That's one reason why many road safety organizations recommend taking regular breaks on long journeys, roughly every couple of hours, and never driving when very sleepy.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Boredom and fatigue together."
+   }
+  },
+  {
+   "say": "The difficulty of staying alert during monotonous tasks has been studied for a long time. During the Second World War, the British psychologist Norman Mackworth studied radar operators watching screens for long periods. He found that their ability to detect signals declined after a fairly short time on watch. This became known as the vigilance decrement.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Vigilance research."
+   }
+  },
+  {
+   "say": "And interestingly, this connects to the research on short breaks we explored in our procrastination video. Brief changes of activity can help restore attention. For drivers, that might mean stopping for a short walk, a drink, or a chat. Not because they're weak, but because human attention isn't built to stay perfectly focused on monotony for hours.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Short breaks help."
+   }
+  },
+  {
+   "say": "If you drive long distances, some gentle practices can help. Take regular breaks. Share the driving if you can. Keep the car cool and fresh. Pay attention to signs of tiredness, like yawning, heavy eyes or drifting thoughts. And never fight serious sleepiness. A short rest at a safe place is always better than pushing on.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Gentle ways to stay alert."
+   }
+  },
+  {
+   "say": "Monotony matters in other settings too. Factory work, security monitoring, long night shifts, repetitive office tasks. Many workplaces now recognize that variety, regular breaks and task rotation can help people stay alert and engaged. Boredom isn't just unpleasant. In some jobs, it can affect safety.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Monotony in other places."
+   }
+  },
+  {
+   "say": "So the gentle lesson here is to respect your attention. It's a precious, limited resource. It thrives on variety, challenge and rest. When we ask it to stay focused on monotony for too long, it naturally drifts. Knowing that, we can design our drives, and our days, to work with our attention, rather than against it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Respect your attention."
+   }
+  },
+  {
+   "say": "So here's what we've learned about boredom on the road. Monotonous roads can lower drivers' alertness. Too little to do can be risky, just like too much. Vigilance tends to decline during long, dull tasks. And regular breaks, along with respect for our limited attention, help keep us safe.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Boredom on the road",
+    "items": [
+     "Monotony can lower alertness",
+     "Underload is a risk, like overload",
+     "Vigilance declines on long, dull tasks",
+     "Take breaks and respect your attention"
+    ]
+   }
+  },
+  {
+   "say": "And there's one time of day when boredom and sleepiness seem to team up for many of us. The early afternoon. Let's look at the afternoon dip, and why everything can feel duller around three o'clock.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the afternoon dip."
+   }
+  }
+ ]
+}

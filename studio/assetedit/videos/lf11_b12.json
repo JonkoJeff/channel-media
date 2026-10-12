@@ -1,0 +1,122 @@
+{
+ "id": "lf11_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "When you were a child, you might have been told to stop daydreaming. Pay attention. Get your head out of the clouds. Daydreaming was often seen as a waste of time, or a sign of laziness. But one psychologist spent much of his career arguing that daydreaming is a valuable, and even skillful, part of the human mind.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 12,
+    "title": "The art of daydreaming"
+   }
+  },
+  {
+   "say": "The American psychologist Jerome L. Singer began studying daydreaming in the nineteen fifties, at a time when many psychologists considered it unimportant, or even unhealthy. Over decades of research, he described different styles of daydreaming. Some were anxious and troubled. But others were playful, curious and constructive.",
+   "show": {
+    "type": "photo",
+    "file": "lf11_d_clouds.jpg",
+    "cap": "Head in the clouds"
+   }
+  },
+  {
+   "say": "Singer called one of these styles positive constructive daydreaming. Pleasant, playful, wishful daydreams, often involving vivid imagery and planning. He and later researchers suggested that this kind of daydreaming can support creativity, planning for the future, and solving problems. It's quite different from anxious rumination.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Positive constructive daydreaming."
+   }
+  },
+  {
+   "say": "This helps make sense of the mixed research on mind wandering. Remember the study that found a wandering mind tends to be a less happy mind? The content of the wandering matters. Worrying about problems, replaying mistakes, that kind of wandering can lower mood. But playful, imaginative wandering may feel very different.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Not all wandering is equal."
+   }
+  },
+  {
+   "say": "Many researchers suggest that daydreaming helps us rehearse the future. Imagining a conversation before it happens. Picturing how a trip might go. Exploring different choices in our minds. This mental time travel can help us plan, prepare and set goals. It's like a private flight simulator for life.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Daydreaming as rehearsal."
+   }
+  },
+  {
+   "say": "Some researchers have suggested that daydreaming can even be practiced as a skill. In one line of work, by Erin Westgate, Timothy Wilson and colleagues, people found thinking alone more enjoyable when they were given a plan for what to think about, like a pleasant topic to explore. Directed, enjoyable daydreaming can be learned.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A skill you can practice."
+   }
+  },
+  {
+   "say": "Seen this way, boredom can be an invitation to daydream. When nothing outside holds our attention, we can turn inward, and choose something pleasant to imagine. A dream holiday. A creative project. A future home. A story with yourself as the hero. The empty moment becomes a canvas.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Boredom as an invitation."
+   }
+  },
+  {
+   "say": "You could try this the next time you're bored. Instead of reaching for your phone, choose a pleasant topic, and let yourself daydream about it in detail. Where would you go if you could travel anywhere? What would your perfect day look like? What would you build if you had all the time and skill in the world? Let your imagination play.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Try a daydream on purpose."
+   }
+  },
+  {
+   "say": "I should add, gently, that for a small number of people, daydreaming can become excessive, taking up many hours and interfering with daily life. Some researchers have described this as maladaptive daydreaming. If daydreaming ever feels out of control, it may be worth talking to a professional. But for most people, a little daydreaming is a healthy, creative part of life.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "When daydreaming goes too far."
+   }
+  },
+  {
+   "say": "And tonight, as you drift toward sleep, daydreams and dreams may blend together. You can let your mind wander to pleasant places. A quiet beach. A warm cabin. A garden in the evening light. There's no need to direct it too much. Just let the pleasant images come and go.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Drifting tonight."
+   }
+  },
+  {
+   "say": "So here's what we've learned about daydreaming. It can be playful, positive and constructive, not just a waste of time. The content of our wandering matters a great deal. Daydreams help us plan and rehearse the future. And boredom can be an invitation to choose a pleasant topic, and let our imagination play.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The art of daydreaming",
+    "items": [
+     "Daydreaming can be playful and constructive",
+     "The content of mind wandering matters",
+     "Daydreams help us rehearse the future",
+     "Boredom can invite pleasant daydreams"
+    ]
+   }
+  },
+  {
+   "say": "Boredom may also push us toward something bigger than creativity. Some researchers have found that when people feel bored, they start searching for meaning. For a sense that what they do matters. Let's look at that next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: boredom and meaning."
+   }
+  }
+ ]
+}

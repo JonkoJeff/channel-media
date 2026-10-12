@@ -1,0 +1,125 @@
+{
+ "id": "lf11_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "If I asked you to define boredom, you might say, it's when there's nothing to do. But that's not quite right, is it? You can be bored with plenty to do. Sitting in front of a pile of paperwork. Watching a film that doesn't grab you. Talking to someone who's telling a very long story. Plenty to do. And still bored.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 2,
+    "title": "What is boredom?"
+   }
+  },
+  {
+   "say": "In two thousand and twelve, a team of psychologists led by John Eastwood published a paper with a lovely title. The unengaged mind. They reviewed decades of research and proposed a definition. Boredom, they suggested, is the aversive experience of wanting, but being unable, to engage in satisfying activity.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "John Eastwood, Alexandra Frischen, Mark Fenske & Daniel Smilek",
+    "where": "York University and University of Waterloo, published in Perspectives on Psychological Science, 2012",
+    "what": "A theoretical paper reviewing research on boredom and proposing a definition based on attention."
+   }
+  },
+  {
+   "say": "Notice the key parts of that definition. Wanting to engage. Being unable to. And it feels unpleasant. It's not just having nothing to do. It's a mismatch. Your mind wants to be absorbed in something, but whatever is in front of you can't hold your attention, or you can't bring yourself to engage with it.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Wanting, but unable."
+   }
+  },
+  {
+   "say": "Eastwood and colleagues placed attention at the heart of boredom. When we're bored, we have trouble focusing our attention on what's in front of us. And we often blame the environment for it. This is boring. This lecture is boring. This town is boring. The feeling seems to come from outside, even though it's an experience happening inside.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Attention at the heart."
+   }
+  },
+  {
+   "say": "Boredom can also feel different at different times. Sometimes it's restless and agitated. You fidget, you pace, you want to do something, anything. Other times, it's flat and listless. You don't have the energy to do anything, but nothing appeals either. Researchers have described different flavors of boredom, from calm and indifferent to restless and searching.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Bored and restless, or bored and flat."
+   }
+  },
+  {
+   "say": "When does boredom happen? Often when a task is too easy, and doesn't challenge us enough. But it can also happen when a task is too hard, and we can't get a grip on it. Remember the Tetris study from our video on waiting, where easy and very hard levels were less absorbing than the just right level. Boredom lives at both edges.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Too easy, or too hard."
+   }
+  },
+  {
+   "say": "Another important ingredient is meaning. Psychologists Andrew Westgate and Timothy Wilson proposed in two thousand and eighteen that boredom arises when we can't focus attention, or when what we're doing doesn't feel meaningful to us, or both. A task can be engaging but meaningless, or meaningful but impossible to focus on. Either way, boredom can creep in.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Meaning matters too."
+   }
+  },
+  {
+   "say": "It's worth noticing that boredom is different from relaxation. When you're relaxing, you're content not to be doing much. You feel at ease. When you're bored, you're not content. You want something more, but you can't find it. Relaxation is a comfortable stillness. Boredom is an uncomfortable one.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Boredom is not relaxation."
+   }
+  },
+  {
+   "say": "So perhaps the simplest way to think about boredom is as a mismatch. Between what your mind wants, engagement, challenge, meaning, and what your situation offers. And like many mismatches, it creates tension. An uncomfortable push to change something.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Boredom as a mismatch."
+   }
+  },
+  {
+   "say": "And that discomfort, as we'll see tonight, can be useful. It can push us to find better activities, to seek meaning, or even to be creative. But it can also push us toward quick fixes that don't really help. The key is understanding what the feeling is asking for.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A useful discomfort."
+   }
+  },
+  {
+   "say": "So here's what we've learned about what boredom is. It's the unpleasant experience of wanting, but being unable, to engage in satisfying activity. It's about attention and meaning, not just activity. Tasks that are too easy, or too hard, can both bore us. And boredom is different from relaxation, which is a contented kind of stillness.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "What is boredom?",
+    "items": [
+     "Wanting, but unable, to engage",
+     "It's about attention, not just activity",
+     "Too easy or too hard can both bore us",
+     "Boredom is not the same as relaxation"
+    ]
+   }
+  },
+  {
+   "say": "One of the most striking features of boredom is what it does to time. Minutes stretch. Hours feel like days. Why does a bored mind experience time so differently? Let's look at that next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: why time drags."
+   }
+  }
+ ]
+}

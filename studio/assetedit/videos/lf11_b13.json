@@ -1,0 +1,124 @@
+{
+ "id": "lf11_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Have you ever been bored, and found yourself asking bigger questions? What am I doing with my life? Does any of this matter? Is this really how I want to spend my time? Boredom has a curious way of opening doors to deeper reflection. Some psychologists think that's not a coincidence.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 13,
+    "title": "Boredom and meaning"
+   }
+  },
+  {
+   "say": "In two thousand and twelve, the researchers Wijnand van Tilburg and Eric Igou published studies exploring how boredom differs from other unpleasant emotions. They found that, compared with emotions like frustration or sadness, boredom was more strongly associated with a feeling that what one was doing lacked meaning, or purpose.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Wijnand van Tilburg & Eric Igou",
+    "where": "University of Limerick, published in Motivation and Emotion, 2012",
+    "what": "Experiments comparing boredom with other emotions, such as frustration and sadness, and studying how boredom relates to the search for meaning."
+   }
+  },
+  {
+   "say": "In further studies, van Tilburg and Igou found that when people were made to feel bored, they tended to seek out meaning in various ways. For example, by valuing things that connected them to a larger identity, or to their group, or to something beyond the moment. Boredom seemed to push people to look for significance.",
+   "show": {
+    "type": "photo",
+    "file": "lf11_b09_lighthouse.jpg",
+    "cap": "Looking for something that matters"
+   }
+  },
+  {
+   "say": "This suggests that boredom might work as a kind of signal. A nudge that says, what you're doing right now doesn't feel meaningful. Find something that does. Like hunger points us to food, boredom may point us toward meaning. Toward activities that feel worthwhile, connected, purposeful.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A signal for meaning."
+   }
+  },
+  {
+   "say": "Meaning doesn't have to be grand. It can be found in small things. Helping a friend. Cooking a meal for someone. Learning something new. Caring for a plant or a pet. Doing your work well, even if it's simple. Many people find that ordinary tasks feel less boring when they're connected to someone or something they care about.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Meaning in small things."
+   }
+  },
+  {
+   "say": "That gives us a gentle tool. When a task feels boring, you might ask, why does this matter? Not to force yourself into enthusiasm, but to reconnect it to its purpose. Washing dishes so the family has a clean kitchen. Filling in forms so a project can move forward. Studying a dull chapter on the way to a career you want. Meaning can soften boredom.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Reframing dull tasks."
+   }
+  },
+  {
+   "say": "But sometimes, boredom points to a real lack of meaning. A job that feels pointless. A routine that no longer fits. A life that's drifted away from what matters to you. In those cases, boredom can be a valuable messenger. It might be telling you that something deeper needs to change.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "When meaning is missing."
+   }
+  },
+  {
+   "say": "If boredom is constant in some area of your life, it may be worth listening to it carefully. Not with panic, but with curiosity. What would make this feel more meaningful? Is there a way to bring more purpose into it? Or is it time to look for something else? Chronic boredom can sometimes be the first quiet sign of a needed change.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Listening to chronic boredom."
+   }
+  },
+  {
+   "say": "Philosophers have long seen boredom as something profound. The Danish philosopher Søren Kierkegaard wrote about boredom with both humor and seriousness. And the German philosopher Martin Heidegger described a deep, profound boredom, in which everything seems indifferent, and suggested that it could reveal something important about human existence. Boredom, for them, was a doorway to big questions.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Philosophers on boredom."
+   }
+  },
+  {
+   "say": "So the next time you feel bored, you might ask a gentle question. Not just, how can I escape this? But also, what is this boredom telling me? Maybe it's simply that you need a break. Or maybe it's pointing, quietly, toward something that matters more.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A gentle question."
+   }
+  },
+  {
+   "say": "So here's what we've learned about boredom and meaning. Compared with other unpleasant emotions, boredom is especially linked to a sense of meaninglessness. When bored, people tend to seek out significance. Reconnecting dull tasks to their purpose can soften boredom. And chronic boredom may be a quiet sign that something deeper needs to change.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Boredom and meaning",
+    "items": [
+     "Boredom is linked to a lack of meaning",
+     "Bored people tend to seek significance",
+     "Reconnect dull tasks to their purpose",
+     "Chronic boredom may signal a needed change"
+    ]
+   }
+  },
+  {
+   "say": "And one of the places a bored mind often goes, in search of meaning, is the past. Researchers have found an interesting link between boredom and nostalgia. Let's look at that next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: boredom and nostalgia."
+   }
+  }
+ ]
+}

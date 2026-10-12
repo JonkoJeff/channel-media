@@ -1,0 +1,125 @@
+{
+ "id": "lf11_b22",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Many of us have vivid memories of being bored at school. Staring at the clock. Doodling in the margins. Watching rain run down the window, while a teacher's voice drifted somewhere in the background. Classrooms are one of the places where boredom has been studied most carefully, because it seems to matter so much for learning.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 22,
+    "title": "Bored in class"
+   }
+  },
+  {
+   "say": "The educational psychologist Reinhard Pekrun and his colleagues have studied emotions in learning for many years. In studies published around two thousand and ten, they found that boredom in class was common, and that higher boredom tended to go along with lower attention, weaker motivation, less effective learning strategies, and, over time, lower achievement.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Reinhard Pekrun and colleagues",
+    "where": "University of Munich, published in the Journal of Educational Psychology, 2010",
+    "what": "Studies of university students measuring boredom in class, attention, motivation, learning strategies and later academic performance."
+   }
+  },
+  {
+   "say": "And the relationship seemed to work in both directions. Boredom tended to predict lower performance later. And lower performance tended to predict more boredom later. A student who finds a subject boring may learn less, and a student who learns less may find the subject even more boring. A loop, once again.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Boredom and achievement."
+   }
+  },
+  {
+   "say": "Pekrun's work, like Csikszentmihalyi's, suggested that boredom in learning often arises when tasks are either too easy, or too hard. A student who already knows the material may feel unchallenged. A student who doesn't understand it at all may disengage. Both can end up feeling bored, for opposite reasons.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Too easy, or too hard."
+   }
+  },
+  {
+   "say": "Another important factor is value. When students see learning as valuable, useful for their goals, interesting, or connected to their lives, they tend to feel less bored. When they can't see why something matters, boredom grows. Remember the link between boredom and meaning. It shows up clearly in classrooms too.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Value matters."
+   }
+  },
+  {
+   "say": "Pekrun's control value theory suggests that our emotions in learning depend on two things. How much control we feel over our learning and success, and how much we value the activity. Boredom tends to arise when value is low. When students feel the material doesn't matter to them, no matter how capable they are.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Control matters too."
+   }
+  },
+  {
+   "say": "What can help? Teachers who connect material to students' lives and interests. Tasks that offer the right level of challenge. Some choice in how to learn. Active learning, rather than only listening. Variety in activities. Each of these targets one of the roots of boredom, whether it's challenge, value, or control.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "What helps."
+   }
+  },
+  {
+   "say": "As adults, we can apply these ideas to our own learning. If a course or a book feels boring, we might ask, is it too easy or too hard for me? Can I connect it to something I care about? Can I learn it in a more active way, by teaching it to someone, applying it to a project, or discussing it? Small changes can turn dull learning into engaging learning.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Learning as adults."
+   }
+  },
+  {
+   "say": "And if you were often bored at school, it doesn't mean you weren't smart, or weren't trying. It may mean the challenge wasn't right for you, or that you couldn't see why the material mattered. Many people discover, later in life, that they love subjects that bored them as children, once they find their own reasons to learn.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Kindness for the bored student."
+   }
+  },
+  {
+   "say": "And tonight, you're learning too, in a gentle way. Not for a test, not for a grade. Just for curiosity. If some parts interest you more than others, that's perfectly natural. Let the interesting parts stay with you, and let the rest drift by.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Learning tonight."
+   }
+  },
+  {
+   "say": "So here's what we've learned about boredom in learning. Boredom in class is common. It tends to go along with lower attention, motivation and achievement, in a loop. It arises when tasks are too easy or too hard, and especially when material feels low in value. And the right challenge, relevance and choice can help turn boredom into engagement.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Bored in class",
+    "items": [
+     "Boredom in class is common",
+     "It's linked to lower attention and achievement",
+     "Too easy or too hard, and low value, fuel boredom",
+     "Challenge, relevance and choice help"
+    ]
+   }
+  },
+  {
+   "say": "If boredom is the unengaged mind, what does the fully engaged mind look like? A psychologist spent decades studying moments when people felt completely absorbed in what they were doing. He called it flow. Let's look at it next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the opposite of boredom."
+   }
+  }
+ ]
+}

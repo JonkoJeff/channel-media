@@ -1,0 +1,124 @@
+{
+ "id": "lf11_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think of two people on a long train journey. One looks out of the window for hours, quietly content, watching fields and towns go by. The other is restless within ten minutes, checking their phone, shifting in their seat, sighing, wishing the journey were over. Same train, same view. Very different experiences.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 5,
+    "title": "Easily bored"
+   }
+  },
+  {
+   "say": "Psychologists have long noticed that people differ in how easily they get bored. In nineteen eighty six, Richard Farmer and Norman Sundberg developed a questionnaire called the Boredom Proneness Scale, to measure this tendency. It asks people how often they find things dull, how easily they lose interest, and how much they need excitement.",
+   "show": {
+    "type": "photo",
+    "file": "lf11_b05_porch.jpg",
+    "cap": "Some sit happily for hours"
+   }
+  },
+  {
+   "say": "Since then, many studies have used this scale, or newer versions of it. And researchers have found that people who score high in boredom proneness tend to differ in several ways from people who score low. Not always, and not in every study. But some patterns have appeared fairly consistently.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Richard Farmer & Norman Sundberg",
+    "where": "University of Oregon, published in the Journal of Personality Assessment, 1986",
+    "what": "Developed the Boredom Proneness Scale, a questionnaire measuring how easily and often people experience boredom."
+   }
+  },
+  {
+   "say": "For example, higher boredom proneness has been linked in various studies to more symptoms of depression and anxiety, more impulsivity, and difficulties with attention. It's important to remember that these are associations. Being boredom prone doesn't cause these things, and having them doesn't mean you'll be easily bored. But they seem to travel together, for some people.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Links to wellbeing."
+   }
+  },
+  {
+   "say": "Some researchers, like James Danckert and John Eastwood, have suggested that difficulties with attention and self control may be at the heart of boredom proneness. If you find it hard to focus your attention, many activities may fail to hold you. And if you find it hard to direct yourself toward satisfying activities, you may spend more time feeling stuck.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Attention and self-control."
+   }
+  },
+  {
+   "say": "Another factor is sensation seeking, a personality trait studied by the psychologist Marvin Zuckerman. People high in sensation seeking crave novel, intense experiences. Adventure, variety, excitement. For them, ordinary routines can feel especially dull. They may be more prone to one kind of boredom, the restless, searching kind.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Sensation seeking."
+   }
+  },
+  {
+   "say": "I want to be gentle here. Being easily bored is not a character flaw. It may reflect a brain that craves stimulation, or an attention system that works differently, or a life that lacks meaningful challenges. Many creative, energetic, adventurous people are easily bored. It can be a source of drive, as well as discomfort.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Not a character flaw."
+   }
+  },
+  {
+   "say": "Interestingly, some research has suggested that boredom tends to be higher in adolescence and young adulthood, and tends to decrease in older adults. Perhaps because people learn, over time, to choose activities that suit them, or to find meaning in simpler things. Or perhaps because life brings different kinds of engagement as we age.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Age and boredom."
+   }
+  },
+  {
+   "say": "If you're someone who gets bored easily, knowing that about yourself can be helpful. You might build more variety into your days. Choose work with challenge and change. Keep a few absorbing hobbies ready. And notice when boredom is pushing you toward impulsive choices, so you can pause and choose differently.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Knowing yourself."
+   }
+  },
+  {
+   "say": "And if you're someone who rarely gets bored, that's lovely too. It may mean you're good at finding interest in ordinary things, or at being content with stillness. Those are quiet gifts. Both kinds of people, the easily bored and the rarely bored, can learn something from each other.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "And if you're rarely bored."
+   }
+  },
+  {
+   "say": "So here's what we've learned about boredom proneness. People differ in how easily they get bored. Boredom proneness has been linked to attention difficulties, impulsivity, and some aspects of wellbeing. Sensation seekers crave novelty, and may feel boredom more intensely. And knowing your own tendencies lets you plan your days kindly around them.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Easily bored",
+    "items": [
+     "People differ in boredom proneness",
+     "It's linked to attention and impulsivity",
+     "Sensation seekers crave novelty",
+     "Know yourself, and plan for it"
+    ]
+   }
+  },
+  {
+   "say": "And humans may not be the only ones who feel this restless hunger for stimulation. Researchers have started asking whether animals get bored too. A study of mink offered a fascinating clue.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: do animals get bored?"
+   }
+  }
+ ]
+}

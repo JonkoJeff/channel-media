@@ -1,0 +1,134 @@
+{
+ "id": "lf11_b27",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We've travelled a long way tonight. Through phone books and plastic cups, boring films and electric shocks, classrooms and cinemas, philosophers and composers. Let's take a moment to look back over the path, and see the shape of what we've learned about boredom.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 27,
+    "title": "What to take with you"
+   }
+  },
+  {
+   "say": "The first idea is that boredom isn't simply having nothing to do. It's wanting, but being unable, to engage in something satisfying. It's about attention and meaning. That's why we can be bored with plenty to do, and content with nothing to do.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Boredom is wanting to engage."
+   }
+  },
+  {
+   "say": "The second idea is that boredom stretches time in the moment, but shrinks it in memory. Bored minds watch the clock, and minutes drag. But boring weeks leave few memories, so they seem to vanish. Novelty and engagement do the opposite, making life feel fuller when we look back.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Boredom stretches time."
+   }
+  },
+  {
+   "say": "The third idea is that boredom is a strong craving for stimulation. Strong enough that some people chose mild shocks over monotony. It can push us toward quick fixes, like snacking or scrolling. Understanding that craving helps us choose responses that truly satisfy it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Boredom is a strong craving."
+   }
+  },
+  {
+   "say": "The fourth idea is that boredom is a signal. It may tell us that a task is too easy or too hard, that it lacks meaning, or that we need rest or change. In the classroom, at work and in life, listening to boredom can guide us toward better challenges and deeper meaning.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Boredom is a signal."
+   }
+  },
+  {
+   "say": "The fifth idea is that boredom can open doors. To creativity, when the mind wanders and searches. To meaning, when we ask what really matters. To imagination, for children building castles from cardboard boxes. Not every bored moment does this. But some of the best ideas grow in empty spaces.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Boredom can open doors."
+   }
+  },
+  {
+   "say": "The sixth idea is that flow is the opposite of boredom. When challenge and skill are well matched, and goals are clear, we can become fully absorbed, and time disappears. Boredom often means the challenge is too low. Adjusting it can invite flow.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Flow is the opposite."
+   }
+  },
+  {
+   "say": "The seventh idea is that attention can transform boredom. John Cage suggested that if something is boring for two minutes, try it for four, then eight. Looking closer, with curiosity, can reveal interest in ordinary things, and even in boredom itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Attention transforms."
+   }
+  },
+  {
+   "say": "And the eighth idea is that rest is different from boredom. The same stillness can be restless or peaceful, depending on how we relate to it. Giving ourselves permission to rest, and finding soft fascination in clouds, waves or rain, can turn empty moments into restorative ones.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Rest is not boredom."
+   }
+  },
+  {
+   "say": "If I had to put it all into one sentence, it might be this. Boredom is a restless signal from a mind that wants engagement and meaning, and the gentlest way to answer it is with curiosity, the right challenge, a little space to wander, and permission to rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "One sentence."
+   }
+  },
+  {
+   "say": "I hope tonight has given you a kinder relationship with boredom. Not as an enemy to be defeated at all costs, but as an honest messenger. Sometimes it's asking for more challenge. Sometimes for more meaning. Sometimes just for rest. And now, you know how to listen.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A kinder relationship with boredom."
+   }
+  },
+  {
+   "say": "So here it is, in one breath. Boredom is wanting to engage, but being unable to. It stretches time now, and shrinks it later. It's a signal, not a flaw. It can open doors to creativity and meaning. Curiosity can transform it. And rest is something different, something peaceful, that we all deserve.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Boredom, in one breath",
+    "items": [
+     "Wanting to engage, but unable",
+     "It stretches time now, shrinks it later",
+     "It's a signal, not a flaw",
+     "It can open doors to creativity and meaning",
+     "Curiosity transforms it",
+     "Rest is different"
+    ]
+   }
+  },
+  {
+   "say": "And now, if you'd like, let's let all of these ideas drift away. This is not a time for engagement, or for challenge. It's a time for rest. Over the next few minutes, I'll simply guide you toward a calm and quiet place. If you're in bed, get comfortable. And if sleep comes along the way, let it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Now, let's slow down."
+   }
+  }
+ ]
+}

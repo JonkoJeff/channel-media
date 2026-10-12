@@ -1,0 +1,124 @@
+{
+ "id": "lf11_b21",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "What's happening in your brain when you're bored? It's a difficult question to study, because boredom is a subtle, shifting feeling. But in recent years, neuroscientists have begun to explore it, using brain scans, recordings of brain activity, and careful experiments designed to make people bored.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 21,
+    "title": "The bored brain"
+   }
+  },
+  {
+   "say": "One finding that appears in several studies involves the default mode network, the set of brain regions we met earlier, which tends to be active when the mind wanders, daydreams or turns inward. Some research has found that during boredom, activity in this network is relatively high, as if the brain has disengaged from the outside task and drifted inward.",
+   "show": {
+    "type": "photo",
+    "file": "lf11_b14_brain.jpg",
+    "cap": "Networks searching for something to do"
+   }
+  },
+  {
+   "say": "In a study published in two thousand and eighteen, James Danckert and Colleen Merrifield used brain scans while participants watched a deliberately boring video, along with other videos. They reported that boredom was associated with increased activity in parts of the default mode network, and with changes in how this network interacted with regions involved in attention.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "James Danckert & Colleen Merrifield",
+    "where": "University of Waterloo, published in Experimental Brain Research, 2018",
+    "what": "Participants watched a boring video and other videos while in a brain scanner, to see which brain networks were active during boredom."
+   }
+  },
+  {
+   "say": "One interpretation is that, during boredom, the brain is in a kind of searching state. The task in front of us fails to engage the attention networks, so the brain disengages and turns inward. But this inward turn isn't always satisfying either. So we're left in between, restless, seeking something to hold our attention.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A brain looking for engagement."
+   }
+  },
+  {
+   "say": "Other researchers have linked boredom to the brain's reward systems. Remember dopamine, and the way it responds to novelty and unexpected rewards. Some scientists suggest that boredom might reflect a kind of reward deficit, when our environment offers too little that is new or rewarding. And that this could motivate us to seek out something more stimulating.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Boredom and reward."
+   }
+  },
+  {
+   "say": "Many researchers believe that attention is central. People who struggle to sustain attention, for example some people with ADHD, often report experiencing boredom more frequently and more intensely. And states that make attention harder, like fatigue, can also make boredom more likely. The bored brain is, in part, an attention system struggling to engage.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Attention and boredom."
+   }
+  },
+  {
+   "say": "I want to stress that the neuroscience of boredom is still young. Studies are relatively few, often small, and the brain is complex. We shouldn't imagine a single boredom center in the brain. Rather, boredom seems to involve shifting patterns across networks for attention, reward, and inward thought.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Early days."
+   }
+  },
+  {
+   "say": "Why does this matter for everyday life? It supports the idea that boredom is not laziness or a character flaw. It's a real brain state, involving attention and reward systems. It's a signal that our current situation isn't engaging the brain's networks in a satisfying way. And signals are worth listening to.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Why this matters."
+   }
+  },
+  {
+   "say": "In a way, engagement is like nourishment for the brain. Just as the body needs food, the mind seems to need challenge, novelty and meaning. When it doesn't get enough, it lets us know, through the uncomfortable feeling we call boredom. And then it's up to us to find something nourishing.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Engagement as nourishment."
+   }
+  },
+  {
+   "say": "And tonight, as you drift toward sleep, your brain is shifting into yet another state. Not bored, not engaged, but restful. The networks are quieting down, preparing for the deep, slow rhythms of the night. You don't need to search for anything. You can simply let your brain rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A restful brain."
+   }
+  },
+  {
+   "say": "So here's what we've learned about the bored brain. Boredom has been linked to increased activity in the default mode network. Attention networks seem to struggle to engage with the task at hand. Reward systems may signal that our environment offers too little. And boredom appears to be a real brain state, a signal, not a sign of laziness.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The bored brain",
+    "items": [
+     "Boredom involves the default mode network",
+     "Attention networks fail to engage",
+     "Reward systems may signal a deficit",
+     "Boredom is a real brain state, not laziness"
+    ]
+   }
+  },
+  {
+   "say": "And there's one place where boredom has been studied especially carefully, because so many of us spent years there. The classroom. Let's look at what research says about boredom and learning.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: bored in class."
+   }
+  }
+ ]
+}

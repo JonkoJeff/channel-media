@@ -1,0 +1,125 @@
+{
+ "id": "lf11_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Many artists, writers and inventors have described how their best ideas came during dull, empty moments. Staring out of a window. Waiting for a train. Lying in the bath. Walking with nothing particular to think about. Could boredom actually be good for creativity?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 11,
+    "title": "Boredom and creativity"
+   }
+  },
+  {
+   "say": "In two thousand and fourteen, the psychologists Sandi Mann and Rebekah Cadman tested this. Some participants were given a deliberately boring task first. Copying numbers out of a phone book for fifteen minutes. Others skipped the boring task. Then everyone took a creativity test. How many different uses could they think of for a pair of plastic cups?",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Sandi Mann & Rebekah Cadman",
+    "where": "University of Central Lancashire, published in Creativity Research Journal, 2014",
+    "what": "Some participants did a very boring task, copying numbers from a phone book, before a creativity test asking them to think of uses for a pair of plastic cups."
+   }
+  },
+  {
+   "say": "The participants who had done the boring task came up with more ideas, on average, than those who hadn't. In another version, some participants simply read the phone numbers instead of copying them, which was even more boring, and they tended to be more creative still. Boredom seemed to give the mind a push toward new ideas.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Bored people were more creative."
+   }
+  },
+  {
+   "say": "Why might boredom help creativity? One idea is that boredom makes us search for stimulation. When there's nothing interesting outside, the mind turns inward, and starts generating its own interest. Daydreaming, wondering, making connections. And that wandering, searching state can be fertile ground for new ideas.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Why might this happen?"
+   }
+  },
+  {
+   "say": "I should mention that this study was small, and research on boredom and creativity has produced mixed results. Some studies find a benefit, others don't. The effect may depend on the kind of boredom, the kind of creative task, and the person. So it's not a reliable recipe. But it's an intriguing possibility, and it fits many people's experience.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A careful note."
+   }
+  },
+  {
+   "say": "Neuroscientists have studied a set of brain regions often called the default mode network, which tends to be more active when we're not focused on an external task. When we're daydreaming, remembering, imagining the future, or thinking about other people. Some researchers have linked this network to aspects of creativity and spontaneous thought.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The mind wandering network."
+   }
+  },
+  {
+   "say": "Here's a thought that many people find a little worrying. Today, many of us rarely let ourselves be bored. Every gap, every queue, every quiet moment, can be instantly filled with a phone. That's convenient. But if boredom is sometimes a doorway to creative wandering, we may be closing that door more often than we realize.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Filling every gap."
+   }
+  },
+  {
+   "say": "Some people deliberately make room for boredom. A walk without headphones. A train journey looking out of the window. A few minutes sitting quietly, without a screen. Not as punishment, but as an invitation to the mind to wander, and perhaps to discover something unexpected.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Making room for boredom."
+   }
+  },
+  {
+   "say": "Of course, not every bored moment will lead to a great idea. Sometimes boredom is just boredom. But there's a difference between being stuck in frustrating boredom, and letting yourself drift in a gentle, open space. The second can feel more like rest, and more like play. And that's often where creativity likes to live.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Boredom versus rest."
+   }
+  },
+  {
+   "say": "Many people also notice ideas arriving as they drift toward sleep. The mind loosens. Connections form. That's one reason some people keep a notebook by their bed. If an idea arrives tonight, you can let it float gently, or write it down for tomorrow. And then return to rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Ideas at night."
+   }
+  },
+  {
+   "say": "So here's what we've learned about boredom and creativity. In one study, people who did a boring task first came up with more creative ideas. Results across studies are mixed. Boredom may push the mind to wander and search, which can spark new connections. And leaving some moments unfilled may give creativity a chance to appear.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Boredom and creativity",
+    "items": [
+     "A boring task led to more creative ideas",
+     "Results across studies are mixed",
+     "Boredom may push the mind to wander and search",
+     "Make some room for unfilled moments"
+    ]
+   }
+  },
+  {
+   "say": "If boredom can push the mind to wander, is all wandering the same? A psychologist spent decades studying daydreams, and found that some kinds of daydreaming can be playful, constructive and even skillful.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the art of daydreaming."
+   }
+  }
+ ]
+}

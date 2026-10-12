@@ -1,0 +1,122 @@
+{
+ "id": "lf11_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think back to the most boring hour of your life. Maybe a long wait in a government office. Maybe a lecture you didn't understand. Maybe a car journey as a child, asking, are we there yet, every five minutes. How long did that hour feel? Probably much longer than an hour.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 3,
+    "title": "Why time drags"
+   }
+  },
+  {
+   "say": "Time distortion is one of the defining features of boredom. When we're bored, time seems to slow down. Minutes stretch. The clock seems stuck. And when we're absorbed in something we love, the opposite happens. Hours vanish. We look up and wonder where the afternoon went.",
+   "show": {
+    "type": "photo",
+    "file": "lf11_b03_clock.jpg",
+    "cap": "The longest hour"
+   }
+  },
+  {
+   "say": "Part of the reason, as we explored in our video on waiting, is attention. When we're bored, nothing holds our attention. So it drifts toward the passage of time itself. We check the clock. We notice every minute. And the more we attend to time, the slower it seems to move. When we're absorbed, time slips out of our awareness, and seems to fly.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Attention to time."
+   }
+  },
+  {
+   "say": "Researchers have found that people who are bored tend to judge time intervals as longer than people who are engaged. In various studies, when participants did a dull task, and were asked to estimate how much time had passed, they often overestimated. The boredom stretched their sense of time.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Researchers measured it."
+   }
+  },
+  {
+   "say": "But here's a lovely paradox. While boring time feels long in the moment, it often feels short in memory. Remember the holiday paradox from our video on why the brain lies to you. A boring week leaves few distinct memories, so looking back, it seems to have passed quickly. The days drag, but the weeks vanish.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The boredom paradox."
+   }
+  },
+  {
+   "say": "And the opposite is true for exciting, varied times. A busy holiday, full of new experiences, flies by in the moment. But looking back, it feels long and rich, packed with memories. So boredom stretches time in the present, but shrinks it in memory. Engagement shrinks time in the present, but stretches it in memory.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Time that flies, then stretches."
+   }
+  },
+  {
+   "say": "This has a quietly profound implication. If you want your life to feel full and long when you look back on it, you might seek out engagement and novelty, even small amounts. And if a period of life feels endlessly boring right now, it may be some comfort to know that, in memory, it will probably feel much shorter.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "What this means for life."
+   }
+  },
+  {
+   "say": "Many people say that time felt slower in childhood. The summer holidays seemed endless. One possible reason is that children experience so much novelty, so many firsts, that their days are packed with new memories. And children also spend a lot of time waiting, often bored, which stretches the moments. Both effects may make childhood feel long.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Children and time."
+   }
+  },
+  {
+   "say": "And here's a gentle thought. Sometimes, we might actually want time to slow down. On a lovely evening, a precious visit, a quiet morning. In those moments, paying close attention, noticing the details, the light, the voices, can make time feel richer and fuller. Not in a bored way, but in an appreciative way.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Slowing down time on purpose."
+   }
+  },
+  {
+   "say": "And tonight, as you listen, you might let time be slow, in a gentle way. Not bored, just unhurried. There's nowhere to be. Nothing to rush toward. You can let the minutes pass softly, like clouds drifting across a night sky.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Tonight, let it be slow."
+   }
+  },
+  {
+   "say": "So here's what we've learned about boredom and time. When we're bored, attention drifts to time itself, making it feel slower. Bored people tend to overestimate how long things take. Boring periods feel long in the moment, but short in memory. And novelty and engagement fill our memories, making life feel fuller when we look back.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Why time drags",
+    "items": [
+     "Bored minds attend to time, so it slows",
+     "Bored people tend to overestimate durations",
+     "Boring time feels long now, short in memory",
+     "Novelty fills memory and stretches life"
+    ]
+   }
+  },
+  {
+   "say": "And boredom isn't just slow. It can be genuinely unpleasant. So unpleasant that, in some experiments, people chose to give themselves electric shocks rather than sit with it. Let's look at that surprising research next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: rather a shock than nothing."
+   }
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "id": "lf11_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Get comfortable. Tonight, I'd like to talk about a feeling that everyone knows, and almost nobody enjoys. Boredom. That restless, heavy, slightly itchy feeling when time drags, nothing seems interesting, and you just want something, anything, to happen.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Why we get bored.",
+    "sub": "Tonight, gently."
+   }
+  },
+  {
+   "say": "We've all been there. A long wait at an airport. A meeting that never seems to end. A rainy Sunday afternoon with nothing planned. A lesson at school where the clock seemed to move backwards. Boredom is one of the most universal human experiences. And yet, it's surprisingly mysterious.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "Tonight, we'll explore what boredom actually is, and why it feels so uncomfortable. We'll look at why time seems to drag when we're bored, why some people get bored more easily than others, and why being bored might lead to creativity, or to trouble. And we'll ask whether boredom is actually trying to tell us something useful.",
+   "show": {
+    "type": "photo",
+    "file": "lf11_b01_window.jpg",
+    "cap": "A slow, grey afternoon"
+   }
+  },
+  {
+   "say": "Here's where we're going tonight. First, what boredom really is, according to psychologists. Then, why time drags when we're bored. Why boredom feels so uncomfortable that some people would rather receive an electric shock. How boredom can spark creativity and the search for meaning. And finally, some gentle ways to live with a bored mind.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "What boredom really is",
+     "Why time drags when we're bored",
+     "Why boredom feels so uncomfortable",
+     "How boredom can spark creativity and meaning",
+     "Gentle ways to live with a bored mind"
+    ]
+   }
+  },
+  {
+   "say": "Here's a curious fact to start with. The English word boredom is surprisingly young. It became widely used only in the nineteenth century. The novelist Charles Dickens used it in his book Bleak House, published in the eighteen fifties, and is often credited with helping to popularize it. Of course, people felt bored long before that. They just used other words.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A strangely modern word."
+   }
+  },
+  {
+   "say": "Ancient writers described related feelings. The Romans wrote about taedium, a kind of weariness. Medieval monks wrote about acedia, sometimes called the noonday demon, a restless listlessness that could strike in the middle of a long, quiet day of prayer. The French later spoke of ennui. Different names, perhaps for a familiar ache.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Ancient feelings, different names."
+   }
+  },
+  {
+   "say": "Boredom might seem like a trivial topic. Just a mild, passing annoyance. But researchers have increasingly taken it seriously. Because boredom is linked to many things that matter. How we learn, how we work, how we drive, what we eat, how we use our phones, and even how we search for meaning in life.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Not as trivial as it seems."
+   }
+  },
+  {
+   "say": "And some researchers have suggested that boredom isn't just an unpleasant state to be avoided. It may be a signal. Like hunger tells us we need food, boredom may tell us that what we're doing isn't satisfying our minds, and that it's time to look for something else. Something more engaging, or more meaningful.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A signal, perhaps."
+   }
+  },
+  {
+   "say": "I hope tonight won't be boring for you. But if, at some point, your mind starts to drift, or your eyelids grow heavy, that's perfectly fine too. A calm, slow voice in the evening can be a lovely thing to drift away to. Boredom and relaxation are not the same. We'll talk about that difference too.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Tonight is not boring."
+   }
+  },
+  {
+   "say": "So let's begin with a simple question that turns out to be surprisingly hard to answer. What exactly is boredom? Psychologists have proposed a definition that might change how you think about this familiar feeling.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: what is boredom?"
+   }
+  }
+ ]
+}

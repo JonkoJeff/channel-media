@@ -1,0 +1,125 @@
+{
+ "id": "lf11_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "It's mid afternoon. You're at home, or at work. Nothing much is happening. And somehow, you find yourself standing in front of the fridge, or the snack cupboard, looking for something. You're not really hungry. You just want something. A little change. A little pleasure. A little break from the monotony.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 8,
+    "title": "Eating out of boredom"
+   }
+  },
+  {
+   "say": "Many people recognize this pattern. And researchers have studied it. In surveys, people often report eating more when they're bored. And in laboratory studies, people made to feel bored have, in some experiments, eaten more snacks than people in other moods.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A very common pattern."
+   }
+  },
+  {
+   "say": "In one study, published in two thousand and fifteen, researchers at Maastricht University asked participants to watch either a boring video or a more interesting one, with snacks available. The participants who watched the boring video tended to eat more. Boredom seemed to push them toward food, as a source of stimulation.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Remco Havermans, Linda Vancleef, Anastasios Kalamatianos & Chantal Nederkoorn",
+    "where": "Maastricht University, published in Appetite, 2015",
+    "what": "Participants watched either a boring or an interesting film, with snacks available, and the amount they ate was measured."
+   }
+  },
+  {
+   "say": "Why would boredom make us eat? Remember that boredom is a craving for stimulation. Food provides stimulation. Taste, texture, smell, the act of chewing, the small reward of something sweet or salty. It's an easy, available way to make the moment a little more interesting. And food has the added bonus of being comforting.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Food as stimulation."
+   }
+  },
+  {
+   "say": "The tricky thing is that eating out of boredom has little to do with hunger. So it doesn't really satisfy the underlying need. Once the snack is gone, the boredom often returns. And the next snack beckons. It's a quick fix, rather than a real solution, which is why it can easily become a habit.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Not about hunger."
+   }
+  },
+  {
+   "say": "Some research has also suggested that bored people may be more likely to choose less healthy, more exciting foods. One study, by Andrew Moynihan and colleagues, published in two thousand and fifteen, reported that boredom was linked to a preference for less healthy snacks, perhaps because they offered more intense stimulation. Others have found mixed results.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Some studies found unhealthy choices."
+   }
+  },
+  {
+   "say": "A helpful first step is simply noticing. When you reach for a snack, you might pause and ask, am I hungry, or am I bored? Just asking can create a moment of choice. And if the answer is bored, you can decide whether you really want the snack, or whether something else might satisfy you better.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Noticing the pattern."
+   }
+  },
+  {
+   "say": "If it's boredom, other kinds of stimulation can help. A short walk. A few minutes of music. A quick chat with someone. A glass of water with a slice of lemon. Stepping outside for some air. Each of these offers a change of scene or sensation, often more effectively than food.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Alternatives for boredom."
+   }
+  },
+  {
+   "say": "And of course, there's no need for guilt. Enjoying a snack is a perfectly normal part of life. Food is one of life's pleasures. The point isn't to never eat when bored. It's to notice when boredom is quietly steering you, so that you can choose with awareness, rather than on autopilot.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "No guilt."
+   }
+  },
+  {
+   "say": "Next time you find yourself in front of the fridge, unsure why, you might approach it with gentle curiosity. What am I really looking for right now? Maybe it's food. Maybe it's a break, a change, a moment of pleasure. Knowing what you need is the first step toward finding something that truly satisfies it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A gentle curiosity."
+   }
+  },
+  {
+   "say": "So here's what we've learned about eating out of boredom. In several studies, bored people tended to eat more. Food offers easy stimulation and comfort. But it rarely satisfies boredom for long, because the need isn't really hunger. And simply asking, am I hungry or bored, can help us choose more freely.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Eating out of boredom",
+    "items": [
+     "Bored people often eat more",
+     "Food offers easy stimulation",
+     "It rarely satisfies boredom for long",
+     "Ask: hungry, or bored?"
+    ]
+   }
+  },
+  {
+   "say": "Boredom doesn't only happen at home. It can happen in situations where attention really matters. Like driving on a long, straight, empty road. Let's look at monotony, attention, and why long drives can be surprisingly risky.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: boredom on the road."
+   }
+  }
+ ]
+}

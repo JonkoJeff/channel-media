@@ -1,0 +1,124 @@
+{
+ "id": "lf11_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Have you ever watched a dog lying by the door, sighing heavily, waiting for something to happen? Or a cat batting at the same toy, half heartedly, then giving up? We often say our pets look bored. But can animals really experience boredom? It's a question scientists have started to take seriously.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 6,
+    "title": "Do animals get bored?"
+   }
+  },
+  {
+   "say": "Studying boredom in animals is tricky, because animals can't tell us how they feel. But researchers can look at behavior. If an animal in a dull environment shows a strong interest in any kind of stimulation, even stimulation it would normally avoid, that might suggest something like boredom.",
+   "show": {
+    "type": "photo",
+    "file": "lf11_a_toys.jpg",
+    "cap": "Enrichment for curious minds"
+   }
+  },
+  {
+   "say": "In two thousand and twelve, the researchers Rebecca Meagher and Georgia Mason studied mink, small animals related to weasels. Some lived in plain, standard cages. Others lived in cages enriched with extra space and objects to explore. Then the researchers showed the mink various stimuli, including some that mink would usually find unpleasant or neutral.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Rebecca Meagher & Georgia Mason",
+    "where": "University of Guelph, published in PLoS ONE, 2012",
+    "what": "Mink housed in plain cages or in cages with extra objects and space were shown various stimuli, some pleasant, some neutral, and some normally aversive."
+   }
+  },
+  {
+   "say": "The mink from plain cages showed more interest in the stimuli, including ones they might normally avoid, compared with mink from enriched cages. They also spent more time lying awake but inactive. The researchers suggested that this pattern was consistent with something like boredom. An animal hungry for stimulation, interested in almost anything.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Hungry for anything."
+   }
+  },
+  {
+   "say": "Does that remind you of anything? It's strikingly similar to the human studies, where bored people chose mild shocks rather than monotony. In both cases, a lack of stimulation seemed to create a craving strong enough to make unpleasant experiences more attractive than nothing at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Echoes of the human studies."
+   }
+  },
+  {
+   "say": "Zoos and animal sanctuaries have increasingly recognized this. Many now use what's called environmental enrichment. Puzzle feeders that require animals to work for their food. Varied objects to explore. Changes to their environment. Opportunities to play, forage and solve problems. Research suggests that enrichment can reduce repetitive, stress related behaviors in many animals.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Enrichment."
+   }
+  },
+  {
+   "say": "Many vets and animal behaviorists recommend similar ideas for pets. Dogs that are left alone with nothing to do may develop unwanted behaviors, like chewing or excessive barking, which are sometimes linked to boredom. Walks, play, training, puzzle toys and new smells can give them the engagement they need.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Pets need engagement too."
+   }
+  },
+  {
+   "say": "What I find touching about this research is how it reveals a shared need. Humans, mink, dogs, parrots, elephants. Many animals seem to need not just food and safety, but engagement. Something to explore, to solve, to do. Boredom may be an ancient signal, shared across many species, telling a creature that its world has become too empty.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "A shared need."
+   }
+  },
+  {
+   "say": "From an evolutionary point of view, that makes sense. An animal that was content with doing nothing might miss opportunities to find food, mates, or safer places. A mild discomfort with monotony would push animals to explore, to learn and to adapt. Boredom may have helped our ancestors, and many other creatures, survive.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "An evolutionary signal."
+   }
+  },
+  {
+   "say": "And perhaps there's a lesson here for us too. Just as zoos enrich animal environments, we can enrich our own. New routes for a walk. A new recipe. A puzzle. A different café. Small changes and challenges that keep our curious minds engaged. We're not so different from the curious creatures around us.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Enrich your own world."
+   }
+  },
+  {
+   "say": "So here's what we've learned about animal boredom. Mink in plain cages showed more interest in almost any stimulation, which researchers linked to boredom. Boredom may be an ancient signal shared across many species. Enrichment can reduce stress related behaviors in animals. And we can enrich our own environments, with small changes and challenges.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Do animals get bored?",
+    "items": [
+     "Mink in plain cages sought any stimulation",
+     "Boredom may be shared across species",
+     "Enrichment reduces stress behaviors",
+     "Enrich your own environment too"
+    ]
+   }
+  },
+  {
+   "say": "And sometimes, when we're bored, we reach for stimulation that isn't good for us. Driving too fast. Making impulsive bets. Researchers have explored why boredom can push us toward risk. Let's look at that next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: boredom and risk."
+   }
+  }
+ ]
+}

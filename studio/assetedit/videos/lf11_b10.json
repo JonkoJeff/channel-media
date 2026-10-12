@@ -1,0 +1,123 @@
+{
+ "id": "lf11_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "It's about two or three o'clock in the afternoon. Lunch is over. You're sitting at your desk, or in a meeting, or in a classroom. And suddenly, everything feels harder. Your eyelids are heavy. Your attention drifts. Even interesting things seem dull. Many people know this feeling. The afternoon dip.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 10,
+    "title": "The afternoon dip"
+   }
+  },
+  {
+   "say": "Many people blame lunch. A heavy meal, they think, makes them sleepy. And food can play a role. But research on circadian rhythms suggests that the afternoon dip is partly built into our body clock. Even people who skip lunch often experience a dip in alertness in the early afternoon.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Not just lunch."
+   }
+  },
+  {
+   "say": "Remember from our video on your brain at night, there are two main forces that regulate sleepiness. Sleep pressure, which builds up the longer we're awake. And the circadian rhythm, our internal clock. In the early afternoon, for many people, the circadian alerting signal seems to dip slightly, while sleep pressure has been building since morning. The result is a window of drowsiness.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Two forces in the body."
+   }
+  },
+  {
+   "say": "It's interesting that many cultures, especially in warmer climates, have traditions of resting in the early afternoon. The siesta in Spain and Latin America. Afternoon naps in many other places. These traditions may reflect, in part, this natural dip in alertness, combined with the midday heat.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Siesta cultures."
+   }
+  },
+  {
+   "say": "Here's why this matters for boredom. When we're tired, our attention struggles. And when attention struggles, almost everything can feel boring. A task that would be engaging in the morning might feel unbearably dull at three in the afternoon. Sometimes, what we call boredom is really sleepiness in disguise.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Sleepiness feels like boredom."
+   }
+  },
+  {
+   "say": "Research on naps, including studies done for pilots and shift workers, has suggested that short naps of around ten to twenty minutes can improve alertness and performance for some people, without causing much grogginess afterwards. Longer naps can lead to deeper sleep, and a groggy feeling on waking, sometimes called sleep inertia.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Short naps."
+   }
+  },
+  {
+   "say": "If a nap isn't possible, other things may help. A short walk, especially outdoors in daylight. A few minutes of movement or stretching. A glass of water. A change of task, to something more active or social. Some people also find a little caffeine helpful, though it's wise not to have it too late in the day, so it doesn't disturb sleep at night.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Other ways to lift the dip."
+   }
+  },
+  {
+   "say": "If you can, it may help to plan your day around your natural rhythms. Doing demanding, focused work when you're most alert, often in the morning for many people. And saving routine, easier or more social tasks for the afternoon dip. Working with your body clock, rather than against it.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Plan your day around it."
+   }
+  },
+  {
+   "say": "Of course, everyone's rhythm is a little different. Night owls may have their dip at a different time from early birds. Paying attention to your own patterns of energy and boredom across the day can help you discover your best times for different kinds of tasks.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Night owls and early birds."
+   }
+  },
+  {
+   "say": "So the next time you feel bored and sluggish in the afternoon, you might be gentle with yourself. It may not be the task, or your character. It may simply be your body clock, doing exactly what it was designed to do. A short rest, a little movement, or a change of pace might be all you need.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Be gentle with your rhythms."
+   }
+  },
+  {
+   "say": "So here's what we've learned about the afternoon dip. Alertness tends to dip naturally in the early afternoon, partly because of our body clock. Sleepiness can easily feel like boredom. Short naps, movement and daylight may help. And planning demanding tasks for your most alert hours can make your days feel more engaging.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The afternoon dip",
+    "items": [
+     "Alertness naturally dips in the early afternoon",
+     "Sleepiness can feel like boredom",
+     "Short naps may help some people",
+     "Plan demanding tasks for your alert hours"
+    ]
+   }
+  },
+  {
+   "say": "But boredom isn't only a problem. Some researchers have found that it might also be a doorway. A study involving phone books and plastic cups suggested that being bored might actually make us more creative. Let's look at that next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: boredom and creativity."
+   }
+  }
+ ]
+}

@@ -33,8 +33,9 @@ jobs:
       - name: test preview (frames committed for review)
         if: inputs.ep == 'test'
         run: |
-          for t in 2 12 24; do ffmpeg -loglevel error -y -ss $t -i out/reltest.mp4 -frames:v 1 -vf scale=640:-1 /tmp/f$t.jpg; done; ffmpeg -loglevel error -y -ss 6 -i out/reltest_s1.mp4 -frames:v 1 -vf scale=-2:360 /tmp/s.jpg
-          ffmpeg -loglevel error -y -i /tmp/f2.jpg -i /tmp/f12.jpg -i /tmp/f24.jpg -i /tmp/s.jpg -filter_complex "[0][1][2][3]hstack=4" studio/religion/fixtures/preview.jpg
+          D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 out/reltest.mp4)
+          for i in $(seq 0 11); do ffmpeg -loglevel error -y -ss $(python3 -c "print(int($D*($i+0.5)/12))") -i out/reltest.mp4 -frames:v 1 -vf scale=480:270 /tmp/f$i.jpg; done
+          ffmpeg -loglevel error -y -i /tmp/f%d.jpg -vf tile=4x3 -frames:v 1 studio/religion/fixtures/preview.jpg
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com; git add -f studio/religion/fixtures/preview.jpg && git commit -qm "test preview [skip ci]" && git pull -q --rebase && git push
       - name: publish release + result files
         if: inputs.ep != 'test'

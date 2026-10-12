@@ -66,35 +66,51 @@ def met(q):
 def relevant(q, title):   # the file title must share a meaningful word with the VISUAL line, else the match is random
     ws = [w for w in re.findall(r"[a-z]{4,}", q.lower()) if w not in {"with", "from", "that", "this", "ancient", "painting", "map", "scene", "image", "photo", "artwork", "view"}]
     return not ws or any(w in title.lower() for w in ws)
+BLOCK = re.compile(r"(?i)\b(ski|skier|skiing|snowboard|building|skyscraper|office|hospital|airport|airplane|aircraft|biplane|car|truck|football|soccer|tourist|crowd|portrait|selfie|dog|cat|logo|flag|bikini|wedding|concert|stadium|shop|street|city|bridge|graffiti|advert)\b")
+def nasa(q):
+    r = json.loads(get("https://images-api.nasa.gov/search?media_type=image&q=" + urllib.parse.quote(q))).get("collection", {}).get("items", [])[:8]; out = []
+    for it in r:
+        d = (it.get("data") or [{}])[0]; nid = d.get("nasa_id", "")
+        if nid and not re.search(r"(?i)logo|patch|crew|portrait|astronaut|launch|rocket|technician|facility", d.get("title", "")):
+            out.append((f"https://images-assets.nasa.gov/image/{nid}/{urllib.parse.quote(nid)}~large.jpg", f"{d.get('title', nid)} - NASA - Public domain (NASA media usage guidelines) - https://images.nasa.gov/details/{nid}"))
+    return out
+def wmq(q, cat):
+    return wm((q + f' incategory:"{cat}"') if cat else q)
+SPACE = re.compile(r"(?i)\b(star|stars|night sky|galaxy|nebula|planet|earth|sun|moon|cosmos|universe|space|milky|orbit|eclipse|smoke|mist cloud)\b")
 CACHE = {}; POOL = []
 def find(sc):
-    v = re.split(r"[;.]", sc["vis"])[0]; v = re.sub(r"(?i)\b(slow|slowly|gentle|gently|quiet|soft|wide|close|forward|drift|pan|zoom|no people|restrained|abstract|illustration|text card)\b", " ", v)
-    q = re.sub(r"[^\w ]", " ", v); q = " ".join(q.split()[:8])
-    if sc["src"] in ("text-card", "map") or not q: return []
+    v = re.split(r"[;.]", sc["vis"])[0]; v = re.sub(r"(?i)\b(slow|slowly|gentle|gently|quiet|soft|wide|close|forward|drift|pan|zoom|no people|restrained|abstract|illustration|unlabelled|empty|unoccupied|contemporary|text card)\b", " ", v)
+    q = " ".join(re.sub(r"[^\w ]", " ", v).split()[:8])
+    if sc["src"] in ("text-card", "map") or re.match(r"(?i)(minimal )?text card|three-column|four-window|six |seven |card", sc["vis"]) or not q: return []
     if q in CACHE: return CACHE[q]
-    res = []
-    for qq in (q, " ".join(q.split()[:3])):
-        order = (met, wm) if sc["src"] == "met" else (wm, met)
-        for f in order:
-            try: res += [r for r in f(qq) if relevant(qq, r[1].split(" - ")[0])]
-            except Exception as e: print("search fail", f.__name__, qq, str(e)[:80])
-            if len(res) >= 3: break
-        if res: break
+    q3 = " ".join(q.split()[:3]); res = []
+    attempts = [(nasa, q), (nasa, q3)] if SPACE.search(q) else []
+    attempts += [(met, q)] if sc["src"] == "met" else []
+    attempts += [(lambda x: wmq(x, "Featured pictures on Wikimedia Commons"), q), (lambda x: wmq(x, "Quality images"), q), (lambda x: wmq(x, "Featured pictures on Wikimedia Commons"), q3), (lambda x: wmq(x, "Quality images"), q3), (wm, q3)]
+    for f, qq in attempts:
+        try: res += [r for r in f(qq) if relevant(qq, r[1].split(" - ")[0]) or f is nasa and True]
+        except Exception as e: print("search fail", qq, str(e)[:80])
+        res = [r for r in res if not BLOCK.search(r[1].split(" - ")[0])]
+        if len(res) >= 3: break
     got = []
     for url, at in res[:6]:
         fn = os.path.join(W, hashlib.sha1(url.encode()).hexdigest()[:12] + ".jpg")
         try:
             if not os.path.exists(fn): open(fn, "wb").write(get(url)); time.sleep(0.4)
             im = Image.open(fn); im.verify()
-            if Image.open(fn).size[0] >= 900: got.append(fn); ATTR.append(at); POOL.append(fn)
+            if Image.open(fn).size[0] >= 1300: got.append(fn); ATTR.append(at); POOL.append(fn)
         except Exception as e: print("img fail", str(e)[:80])
         if len(got) >= 3: break
     CACHE[q] = got; return got
 def card(text, fn):
     im = Image.new("RGB", (1920, 1080)); d = ImageDraw.Draw(im)
-    for y in range(1080): d.line([(0, y), (1920, y)], fill=(8, 14 + y // 30, 34 + y // 18))
-    f = ImageFont.truetype(FONT, 58); y = 380
-    for ln in textwrap.wrap(text or "", 34)[:5]: d.text((960, y), ln, font=f, fill=(232, 195, 106), anchor="mm"); y += 80
+    for y in range(1080): d.line([(0, y), (1920, y)], fill=(6, 11 + y // 40, 28 + y // 14))
+    rng = np.random.default_rng(abs(hash(text)) % 2**32)
+    for _ in range(140): x, y = int(rng.integers(0, 1920)), int(rng.integers(0, 1080)); r = int(rng.integers(1, 3)); d.ellipse([x, y, x + r, y + r], fill=(200, 190, 150))
+    d.rectangle([140, 120, 1780, 960], outline=(168, 140, 70), width=3); d.rectangle([158, 138, 1762, 942], outline=(110, 92, 50), width=1)
+    lines = [l for p in re.split(r"\s*/\s*| — ", text or "") for l in textwrap.wrap(p.strip(), 38)][:7]
+    f = ImageFont.truetype(FONT, 62 if len(lines) <= 4 else 48); y = 540 - 40 * len(lines)
+    for ln in lines: d.text((960, y), ln, font=f, fill=(232, 195, 106), anchor="mm"); y += 82
     im.save(fn, quality=92)
 
 # ---------- voice ----------
@@ -125,8 +141,9 @@ def shot(args):
 tasks, k = [], 0
 for i, sc in enumerate(scenes):
     imgs = find(sc)
-    if not imgs and POOL: imgs = POOL[-12 - (i % 5):][::3][:3] or POOL[-1:]   # no match: reuse earlier images of this film (different zoom)
-    if not imgs: c = os.path.join(W, f"card{i}.jpg"); card(sc["chap"] or "", c); imgs = [c]
+    iscard = sc["src"] in ("text-card", "map") or re.match(r"(?i)(minimal )?text card|three-column|four-window|six |seven |card", sc["vis"])
+    if not imgs and POOL and not iscard: imgs = POOL[-12 - (i % 5):][::3][:3] or POOL[-1:]   # no match: reuse earlier images of this film (different zoom)
+    if not imgs: c = os.path.join(W, f"card{i}.jpg"); card(sc["vis"].split(":", 1)[1] if ":" in sc["vis"] else (sc["chap"] or ""), c); imgs = [c]
     ns = max(1, round(sc["dur"] / 7)); base = sc["frames"] // ns
     for j in range(ns):
         nf = base if j + 1 < ns else sc["frames"] - base * (ns - 1)

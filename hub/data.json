@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-12T00:02Z",
- "checked_at": "2026-10-12T00:02Z",
+ "updated": "2026-10-12T05:49Z",
+ "checked_at": "2026-10-12T05:49Z",
  "channels": [
   {
    "key": "default",
    "id": "UCynthMQNy9uDsuHcewQDERg",
    "title": "Crazy_Factsss",
-   "viewCount": 5,
+   "viewCount": 6,
    "subscriberCount": 2,
    "videoCount": 3
   }
@@ -18,7 +18,7 @@
    "title": "Your Brain at Night, Explained",
    "published": "2026-10-11 18:11",
    "duration": "PT2H28M51S",
-   "views": 4,
+   "views": 13,
    "likes": 1,
    "comments": 0,
    "seconds": 8931,
@@ -60,39 +60,65 @@
   {
    "id": "lf07",
    "title": "Why Your Brain Lies to You",
-   "scheduled": null,
-   "length": null,
+   "scheduled": "2026-10-12T17:00+02:00",
+   "length": "2:30:00",
    "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/renders/lf07/thumb.png"
+  },
+  {
+   "id": "lf08",
+   "title": "The Psychology of Waiting, Explained",
+   "scheduled": "2026-10-13T17:00+02:00",
+   "length": "2:31:48",
+   "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/renders/lf08/thumb.png"
+  },
+  {
+   "id": "mn01",
+   "title": "How Money Really Works, Explained",
+   "scheduled": "2026-10-12T17:00+02:00",
+   "length": null,
+   "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/renders/mn01/thumb.png"
   }
  ],
  "in_progress": [
   {
-   "id": "lf08",
-   "title": "The Psychology of Waiting, Explained",
-   "blocks": "23/23"
+   "id": "lf09",
+   "title": "Why We Procrastinate, Explained",
+   "blocks": "29/29"
+  },
+  {
+   "id": "lf10",
+   "title": "Your Brain on Habits, Explained",
+   "blocks": "29/29"
+  },
+  {
+   "id": "lf11",
+   "title": "Why We Get Bored, Explained",
+   "blocks": "28/28"
   }
  ],
  "approved": false,
- "views24": 8,
+ "views24": 17,
  "subs24": 1,
  "schedule": [
   {
-   "status": "in de maak",
-   "title": "The Psychology of Waiting, Explained",
+   "status": "gepland",
+   "title": "Why Your Brain Lies to You",
    "time": "17:00",
-   "blocks": "23/23",
+   "length": "2:30:00",
    "date": "2026-10-12"
   },
   {
-   "status": "open",
-   "title": "nog leeg \u00b7 de machine vult dit automatisch",
+   "status": "gepland",
+   "title": "The Psychology of Waiting, Explained",
    "time": "17:00",
+   "length": "2:31:48",
    "date": "2026-10-13"
   },
   {
-   "status": "open",
-   "title": "nog leeg \u00b7 de machine vult dit automatisch",
+   "status": "in de maak",
+   "title": "Why We Procrastinate, Explained",
    "time": "17:00",
+   "blocks": "29/29",
    "date": "2026-10-14"
   },
   {
@@ -120,27 +146,27 @@
    "date": "2026-10-18"
   }
  ],
- "metricool_used": 4,
+ "metricool_used": 7,
  "workflows": {
   "render-long.yml": {
    "status": "completed",
    "conclusion": "success",
-   "at": "2026-10-11T17:20Z"
+   "at": "2026-10-12T00:32Z"
   },
   "stats.yml": {
    "status": "in_progress",
    "conclusion": null,
-   "at": "2026-10-12T00:02Z"
+   "at": "2026-10-12T05:48Z"
   },
   "trends.yml": {
    "status": "completed",
    "conclusion": "success",
-   "at": "2026-10-11T18:03Z"
+   "at": "2026-10-12T00:30Z"
   },
   "screenshots.yml": {
    "status": "completed",
    "conclusion": "success",
-   "at": "2026-10-11T17:29Z"
+   "at": "2026-10-12T01:53Z"
   },
   "youtube.yml": {
    "status": "completed",

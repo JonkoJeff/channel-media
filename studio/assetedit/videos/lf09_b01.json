@@ -1,0 +1,113 @@
+{
+ "id": "lf09_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Get comfortable. Tonight, I'd like to talk about something that almost everyone does, and almost everyone feels a little bad about. Putting things off. That email you've been meaning to send for days. The project that's due next week. The phone call you keep postponing. Tonight, we're going to look at why we procrastinate.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Why we put things off.",
+    "sub": "Tonight, gently."
+   }
+  },
+  {
+   "say": "And I want to promise you something right at the start. This won't be a lecture. Nobody is going to tell you to just try harder. Because the research on procrastination tells a much more interesting, and much kinder, story than that. Procrastination, it turns out, is not really about laziness at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night"
+   }
+  },
+  {
+   "say": "Think about the last time you procrastinated. Were you being lazy? Or were you actually quite busy? Many people, when they put off an important task, find themselves suddenly cleaning the kitchen, answering easy emails, reorganizing a drawer. We're often very active while procrastinating. Just not on the thing we're supposed to do.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_b01_desk.jpg",
+    "cap": "The task is still waiting"
+   }
+  },
+  {
+   "say": "So what is procrastination, really? Psychologists often define it as voluntarily delaying an intended course of action, despite expecting to be worse off for the delay. In other words, we choose to delay something we intended to do, even though we know, deep down, that delaying it will probably make things harder.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "So what is it, really?"
+   }
+  },
+  {
+   "say": "That's a strange choice when you think about it. Why would anyone knowingly make their own life harder? That puzzle is what makes procrastination so fascinating. And researchers have been working on it for decades, from many different angles. Emotions, time, the brain, motivation, even evolution.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A strange choice."
+   }
+  },
+  {
+   "say": "Here's where we're going tonight. First, how common procrastination really is. Then, why it's more about feelings than laziness. Why our future self can feel like a stranger. How deadlines and simple plans can help. And why, surprisingly, forgiving yourself may work much better than feeling guilty.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "How common procrastination really is",
+     "Why it's about feelings, not laziness",
+     "Why the future self feels like a stranger",
+     "How deadlines and plans can help",
+     "Why self-forgiveness works better than guilt"
+    ]
+   }
+  },
+  {
+   "say": "And if you're watching this while putting something else off, that's alright. You're in very good company. In fact, you might be procrastinating right now, by watching a video about procrastination. If so, I won't tell anyone. Let's just enjoy the irony together, and maybe by the end, that task will feel a little lighter.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "You're in good company."
+   }
+  },
+  {
+   "say": "Here's the most important idea I'd like you to carry through tonight. Procrastination is not a character flaw. It's a very human pattern, built from the way our brains handle emotions and time. Once you understand the pattern, it becomes much easier to work with it, gently, instead of fighting yourself.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Not a character flaw."
+   }
+  },
+  {
+   "say": "So as we go through tonight's ideas, I'd like you to be kind to yourself. If you recognize yourself in these stories, that's not a reason for guilt. It's a reason for curiosity. And as we'll see later, curiosity and kindness are actually some of the best tools for getting things done.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "So be kind to yourself."
+   }
+  },
+  {
+   "say": "Let's start by getting a sense of just how common procrastination is. Because if you've ever felt like you're the only one who can't seem to start things, the numbers might be a real comfort. Researchers have tried to measure it, in students and in adults. And the results are striking.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Let's start with a number."
+   }
+  },
+  {
+   "say": "But first, let's travel back in time. Because procrastination is not a modern invention. Philosophers and poets were writing about it thousands of years ago. And some of their insights are surprisingly close to what scientists are discovering today.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: an ancient habit."
+   }
+  }
+ ]
+}

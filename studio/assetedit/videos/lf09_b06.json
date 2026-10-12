@@ -1,0 +1,133 @@
+{
+ "id": "lf09_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Many people say they work best under pressure. I'll start later, they think, because the deadline gives me energy. And there's something to that. The rush before a deadline can feel focused, intense, almost exciting. But does putting things off really help? Or does it just feel that way?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 6,
+    "title": "Under pressure"
+   }
+  },
+  {
+   "say": "In nineteen ninety seven, two psychologists, Dianne Tice and Roy Baumeister, published a study that followed university students through a whole semester. They measured how much each student procrastinated. And they tracked their stress, their health, and their grades, at different points during the term.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Dianne Tice & Roy Baumeister",
+    "where": "Case Western Reserve University, published in Psychological Science, 1997",
+    "what": "Students in a health psychology course were followed through a semester, tracking procrastination, stress, symptoms of illness and grades."
+   }
+  },
+  {
+   "say": "Early in the semester, something interesting happened. The procrastinators were actually doing better, in a way. They reported less stress and fewer symptoms of illness than the students who started early. That makes sense. They weren't working yet. They were relaxing, while the others were already busy.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_b04_calendar.jpg",
+    "cap": "A whole semester, tracked"
+   }
+  },
+  {
+   "say": "But late in the semester, as the deadlines arrived, the picture flipped. The procrastinators reported more stress and more symptoms of illness than the others. And when the researchers added up stress and symptoms across the whole semester, the procrastinators came out worse overall. The early relief was paid back, with interest.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Then the deadline came."
+   }
+  },
+  {
+   "say": "And what about the grades? If procrastinators truly worked best under pressure, you'd expect their grades to be at least as good. But in this study, they weren't. The procrastinators tended to receive lower grades on their assignments and exams. The last minute rush didn't produce their best work.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "And the grades?"
+   }
+  },
+  {
+   "say": "This study captures the heart of procrastination beautifully. In the short term, putting things off feels like a win. Less stress now. More free time now. But over the longer term, the costs catch up. More stress later, worse health later, and often worse results.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A short-term winner."
+   }
+  },
+  {
+   "say": "So why do so many people feel they work best under pressure? One reason is that pressure does focus the mind. When a deadline is close, distractions fall away, and suddenly the task is the only thing that matters. That focus can feel wonderful. It's a kind of forced flow.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why it feels like we work better."
+   }
+  },
+  {
+   "say": "Another reason is memory. When we finish something at the last minute, we remember the relief and the sense of achievement. I did it! We tend to forget the sleepless night, the stress, and the parts we had to rush. And we never get to see the better version we might have made with more time.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "We remember the success, not the cost."
+   }
+  },
+  {
+   "say": "There's a lesson hidden in here, though. If deadlines create focus, maybe we can use them on purpose, without waiting for the panic at the end. Creating smaller, earlier deadlines for ourselves can bring some of that focused energy forward in time. We'll look at a study about exactly that idea soon.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Real deadlines without the panic."
+   }
+  },
+  {
+   "say": "I should add that people differ. Some research has distinguished between people who delay out of avoidance, and people who deliberately choose to work closer to deadlines and still do well. Some psychologists have called this active procrastination. It's debated. But for many people, the classic pattern from Tice and Baumeister rings very true.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Not everyone is the same."
+   }
+  },
+  {
+   "say": "So if you believe you work best under pressure, it might be worth a gentle experiment. Next time, try starting a little earlier, and see how it feels. Compare the stress, the sleep, and the result. Some people are surprised to discover that their best work, and their calmest weeks, come from starting sooner.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Be honest with yourself."
+   }
+  },
+  {
+   "say": "So here's what the semester study teaches us. Procrastinators felt better early in the term, but worse later. Overall, they had more stress and symptoms of illness. Their grades tended to be lower. And we can borrow the focus of deadlines, without the panic, by creating small, early deadlines on purpose.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Working under pressure",
+    "items": [
+     "Procrastinators felt better early, worse later",
+     "Overall, they had more stress and illness",
+     "Their grades tended to be lower",
+     "Use early mini-deadlines for focus without panic"
+    ]
+   }
+  },
+  {
+   "say": "But why do we keep choosing the short term win, even when we know the costs? Part of the answer may lie in how we think about our future selves. Researchers have found that, in our brains, the person we'll be next month can feel surprisingly like a stranger.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the stranger in the future."
+   }
+  }
+ ]
+}

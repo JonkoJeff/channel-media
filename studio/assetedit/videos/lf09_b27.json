@@ -1,0 +1,133 @@
+{
+ "id": "lf09_b27",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Not all procrastination is the same. Sometimes we delay because a task is boring. Sometimes because it's frightening. Sometimes because it's vague, or huge, or because we're simply exhausted. So instead of one solution, it can help to have a small toolkit, and to pick the right tool for the moment.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 27,
+    "title": "A gentle toolkit"
+   }
+  },
+  {
+   "say": "The first step is always the same. Notice what's going on. When you catch yourself putting something off, pause for a moment and ask, what feeling am I avoiding? Is it boredom, fear, confusion, overwhelm, or tiredness? The answer tells you which tool to reach for.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_b19_toolbox.jpg",
+    "cap": "The right tool for the moment"
+   }
+  },
+  {
+   "say": "If the task is boring, try making it more pleasant. Temptation bundling. Your favorite music, a nice drink, a pleasant place to work. Or turn it into a little game, like seeing how much you can do in twenty minutes. Boring tasks need a spoonful of pleasure.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "If it's boring."
+   }
+  },
+  {
+   "say": "If the task is scary, because you fear failure or judgment, lower the stakes. Allow yourself a rough first draft. Separate creating from judging. Remind yourself that this is one task, not a verdict on your worth. And be kind to yourself, the way you would be to a friend facing the same fear.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "If it's scary."
+   }
+  },
+  {
+   "say": "If the task is vague, make it concrete. Ask, what is the very next physical action? Not work on the project, but open the folder and list three things it needs. Vague tasks are easy to avoid, because the mind doesn't know where to start. Clear next steps give it a handle.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "If it's vague."
+   }
+  },
+  {
+   "say": "If the task is huge, break it down. Divide it into smaller pieces, each with its own mini deadline, evenly spaced. Remember the proofreading study. Many small deadlines work better than one big one. And remember the planning fallacy. Add a buffer to your estimates.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "If it's huge."
+   }
+  },
+  {
+   "say": "If the reward is far away, bring it closer. Imagine your future self vividly, and treat today's small step as a gift to them. Add small rewards for progress along the way. Make deadlines visible to others, so the consequences feel nearer.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "If it's far away."
+   }
+  },
+  {
+   "say": "If you're distracted, design your surroundings. Put your phone in another room. Close unnecessary tabs. Use a focus mode. Add friction to distractions, and remove friction from the task. Leave your work open and ready, so starting is the easiest option.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "If you're distracted."
+   }
+  },
+  {
+   "say": "If you simply can't start, make the first step tiny. Commit to five minutes. Write just the title. Use an if then plan. When I finish my coffee, I'll open the document. Let momentum take over once you've begun.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "If you can't start."
+   }
+  },
+  {
+   "say": "And if you're exhausted, consider that the problem might not be procrastination at all. You might need rest. Sleep, food, a walk, a break. A tired mind will struggle with any task. Sometimes the most productive thing you can do is to recover first, and start fresh tomorrow.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "If you're exhausted."
+   }
+  },
+  {
+   "say": "And whatever happens, afterwards, forgive yourself. Whether you managed the whole task, a little piece, or nothing at all today. Self forgiveness makes the next attempt easier. Guilt makes it harder. Every day is a fresh start.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "And afterwards, forgive."
+   }
+  },
+  {
+   "say": "So here's the gentle toolkit, in short. If it's boring, add pleasure. If it's scary, lower the stakes and be kind. If it's vague, find the next physical action. If it's huge, break it down. If the reward is far, bring it closer. If you're distracted, design your surroundings. If you can't start, try five minutes. And if you're exhausted, rest first.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The gentle toolkit",
+    "items": [
+     "Boring? Add pleasure",
+     "Scary? Lower the stakes",
+     "Vague? Find the next action",
+     "Huge? Break it down",
+     "Can't start? Five minutes",
+     "Exhausted? Rest first"
+    ]
+   }
+  },
+  {
+   "say": "We're nearly at the end of our journey now. Before we slow down for the night, let's take one last look back at everything we've learned about procrastination, and gather it into a few simple ideas to carry with you.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: what to take with you."
+   }
+  }
+ ]
+}

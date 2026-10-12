@@ -1,0 +1,124 @@
+{
+ "id": "lf09_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think of two tasks that take the same amount of effort. The first is something you've chosen yourself, because it matters to you. Maybe tending a garden, learning an instrument, or helping a friend move. The second is something you have to do, because someone else told you to. Which one are you more likely to put off?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 11,
+    "title": "Why we do things"
+   }
+  },
+  {
+   "say": "For most people, the answer is the second one. And psychologists have a well developed way of thinking about this difference. It's called self determination theory, developed by Edward Deci and Richard Ryan. It distinguishes between different kinds of motivation, depending on how much they come from within us.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Not all motivation is equal."
+   }
+  },
+  {
+   "say": "At one end, there's intrinsic motivation. Doing something because you find it interesting or enjoyable for its own sake. At the other end, there's motivation that feels controlled from outside. Doing something because you'll be punished if you don't, or because you'll feel guilty, or because someone is watching. And in between, there are shades.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_n3_garden.jpg",
+    "cap": "Doing what matters to you"
+   }
+  },
+  {
+   "say": "In nineteen ninety five, researchers Caroline Senécal, Richard Koestner and Robert Vallerand studied college students' reasons for doing their schoolwork. And they found that students whose motivation was more self determined, coming from genuine interest or personal values, tended to procrastinate less than students whose motivation felt more controlled or absent.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Caroline Senécal, Richard Koestner & Robert Vallerand",
+    "where": "Published in the Journal of Social Psychology, 1995",
+    "what": "College students reported their reasons for doing their schoolwork, and how much they procrastinated on academic tasks."
+   }
+  },
+  {
+   "say": "That makes intuitive sense. When a task connects to something we care about, it carries a little bit of meaning with it. And meaning can soften unpleasant feelings. Washing dishes feels different when you're cleaning up after a lovely dinner with friends, than when you're doing it because you were told to.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Meaning makes tasks lighter."
+   }
+  },
+  {
+   "say": "So one powerful tool against procrastination is finding your own reason for a task. Even when a task is assigned to you, there's often a way to connect it to something you value. Not, I have to write this report because my boss said so. But, this report will help my team, or I'm getting better at writing, or this brings me closer to the job I want.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Finding your own why."
+   }
+  },
+  {
+   "say": "Self determination theory also emphasizes autonomy. The feeling of choosing what you do. Even small choices can increase that feeling. Choosing which part of the task to do first. Choosing where to work. Choosing your own little deadlines. When we feel some control, tasks feel less like a burden imposed on us.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Autonomy matters."
+   }
+  },
+  {
+   "say": "Another key ingredient is competence. The feeling that you're capable, and getting better. When a task feels far beyond our abilities, it triggers dread and avoidance. When it feels like a manageable challenge, it can even become enjoyable. That's why breaking tasks into smaller pieces, which build a sense of progress, can be so helpful.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Competence matters too."
+   }
+  },
+  {
+   "say": "The third ingredient in this theory is relatedness. Feeling connected to other people. Tasks we do with others, or for others we care about, often feel more meaningful and less lonely. That's one reason why studying with friends, or working alongside colleagues, can make it easier to get started.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "And connection."
+   }
+  },
+  {
+   "say": "And sometimes, honestly, you might find that a task has no real meaning for you at all. That can be a useful discovery too. Maybe the task isn't necessary. Maybe it can be delegated, simplified, or dropped entirely. Not every procrastinated task needs to be done. Some are telling us something about our priorities.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "When there's no meaning."
+   }
+  },
+  {
+   "say": "So here's what research on motivation suggests. When our motivation comes from genuine interest or personal values, we tend to procrastinate less. Connecting tasks to what we care about can make them lighter. Feeling choice, competence and connection all help. And sometimes, procrastination is a sign that a task can be dropped altogether.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Motivation and meaning",
+    "items": [
+     "Self-determined motivation means less delay",
+     "Connect tasks to something you value",
+     "Choice, competence and connection help",
+     "Some tasks can be dropped"
+    ]
+   }
+  },
+  {
+   "say": "And in the modern world, there's one thing that makes all of this harder. A device that offers instant relief from any unpleasant feeling, always within reach. Next, let's talk about phones, distraction, and procrastination.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the phone in your pocket."
+   }
+  }
+ ]
+}

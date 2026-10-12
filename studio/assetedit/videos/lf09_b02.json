@@ -1,0 +1,123 @@
+{
+ "id": "lf09_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Procrastination might feel like a very modern problem, born of phones and endless distractions. But humans have been putting things off for as long as we've been writing things down. And some of the wisest people in history thought about it carefully. Let's take a short walk back in time.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 2,
+    "title": "An ancient habit"
+   }
+  },
+  {
+   "say": "More than two thousand years ago, Greek philosophers discussed a puzzle they called akrasia. Often translated as weakness of will, or lack of self control. The puzzle was this. How can a person know what the best thing to do is, and yet do something else? It's essentially the puzzle of procrastination.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_n1_scroll.jpg",
+    "cap": "Wise people, struggling too"
+   }
+  },
+  {
+   "say": "In some of Plato's writings, Socrates is portrayed as arguing that true akrasia is impossible. If you really knew what was best, you would do it. So people who act against their best interest must not truly know. Aristotle disagreed. He thought people could know what's good, and still be overcome by desire or emotion in the moment.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Socrates and Aristotle disagreed."
+   }
+  },
+  {
+   "say": "I find Aristotle's view remarkably close to modern research. He recognized that knowing isn't enough. That in the heat of the moment, feelings can win over knowledge. That's exactly what psychologists like Sirois and Pychyl describe today, when they talk about short term mood repair beating long term goals.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Aristotle saw the feelings."
+   }
+  },
+  {
+   "say": "Even earlier, around seven hundred years before our era, the Greek poet Hesiod, in his poem Works and Days, warned farmers not to put off their work until tomorrow, or the day after. He wrote that a man who puts off work is always wrestling with ruin. Farmers who delayed planting risked hunger. Procrastination had very real consequences.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Hesiod's warning."
+   }
+  },
+  {
+   "say": "And then there's the Roman philosopher Seneca. In his essay On the Shortness of Life, written nearly two thousand years ago, he wrote a line that still feels startlingly fresh. While we are postponing, life speeds by. He argued that people waste their lives by always planning to live properly later, instead of now.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "text": "While we are postponing, life speeds by.",
+    "by": "Seneca, On the Shortness of Life"
+   }
+  },
+  {
+   "say": "Seneca was writing about something bigger than tasks. He was writing about life itself. How people say, I'll rest when I retire, I'll follow my passion someday, I'll call my friend next week. He saw procrastination not just as a problem of productivity, but as a way of postponing life. That's a gentle, powerful thought.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Living later."
+   }
+  },
+  {
+   "say": "What I love about these old voices is how they echo modern science. The Greeks saw the gap between knowing and doing. Hesiod saw the real costs. Seneca saw how delay can steal life itself. And today, researchers measure the same patterns with surveys, experiments and brain scans. The tools are new. The human struggle is ancient.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Old words, new research."
+   }
+  },
+  {
+   "say": "There's a comfort in that, I think. If philosophers and poets thousands of years ago struggled with putting things off, then you're in very good company. It's not a sign that something is wrong with you, or with modern life. It's part of being a person, with feelings and a future to think about.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A comfort, really."
+   }
+  },
+  {
+   "say": "And what did they recommend? Aristotle believed that virtues, including self control, are built through practice and habit. Doing the right thing again and again, until it becomes easier. Seneca recommended living each day fully, and not assuming that tomorrow is guaranteed. Both ideas still feel wise.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "And their advice?"
+   }
+  },
+  {
+   "say": "So here's what ancient thinkers teach us about procrastination. The Greeks called the gap between knowing and doing akrasia. Aristotle saw that feelings can overpower knowledge in the moment. Seneca warned that while we postpone, life speeds by. And many believed that self control grows, like a skill, with practice.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Ancient wisdom on delay",
+    "items": [
+     "The Greeks called it akrasia",
+     "Aristotle saw feelings beat knowledge",
+     "Seneca: while we postpone, life speeds by",
+     "Self-control grows with practice"
+    ]
+   }
+  },
+  {
+   "say": "So procrastination is ancient. But how common is it today? Researchers have tried to measure it, in students and in adults, combining hundreds of studies. And you may discover that putting things off isn't the exception. It's closer to the rule.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: how common is it?"
+   }
+  }
+ ]
+}

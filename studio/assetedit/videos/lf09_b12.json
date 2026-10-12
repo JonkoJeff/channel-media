@@ -1,0 +1,122 @@
+{
+ "id": "lf09_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You sit down to start the task. You open the document. And then, almost without deciding to, your hand reaches for your phone. Just a quick check. A message, a notification, a short video. And twenty minutes later, you look up, and the document is still empty.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 12,
+    "title": "The phone in your pocket"
+   }
+  },
+  {
+   "say": "If that sounds familiar, you're far from alone. Smartphones are almost perfectly designed to support procrastination. Remember what we learned about mood repair. When a task makes us feel bad, we look for quick relief. And a phone offers quick relief, instantly, endlessly, in our pocket.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_b09_phone.jpg",
+    "cap": "Just a quick check"
+   }
+  },
+  {
+   "say": "Many apps are designed to capture attention. Endless scrolling feeds. Notifications. Short videos that start automatically. Small, unpredictable rewards, like a new message or an interesting post. These features can make apps very engaging. And when we're avoiding something uncomfortable, that engagement is exactly what we're reaching for.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Instant rewards."
+   }
+  },
+  {
+   "say": "And there's another cost that's easy to miss. Switching attention isn't free. Researchers who study attention have found that when we switch between tasks, it takes time to get fully back into the first one. Some describe a kind of attention residue. Part of your mind stays with the thing you just looked at, even after you've returned.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Switching has a cost."
+   }
+  },
+  {
+   "say": "Some researchers have even studied whether simply having a phone nearby affects our thinking. One well known study, published in two thousand and seventeen by Adrian Ward and colleagues, reported that people performed a little worse on some thinking tasks when their phone was on the desk, compared with when it was in another room. Even when the phone was off.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Even nearby phones?"
+   }
+  },
+  {
+   "say": "I should add that this particular finding has been debated, and later studies have found mixed results. So we shouldn't overstate it. But many people do notice, in their own experience, that it's easier to concentrate when the phone is truly out of sight, rather than just turned face down next to them.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A debated finding."
+   }
+  },
+  {
+   "say": "So one of the simplest and most effective steps against procrastination is distance. Put the phone in another room while you work. Or in a drawer. Or in your bag. Not because you have no willpower, but because you're designing your environment so that willpower isn't needed.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Out of sight, out of mind."
+   }
+  },
+  {
+   "say": "This connects to an idea we explored earlier, about commitment devices. Adding friction to distractions makes them less automatic. Logging out of apps. Turning off non essential notifications. Using a focus mode during work hours. Each little bit of friction gives your planning mind a moment to catch up with your impulse.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Friction is your friend."
+   }
+  },
+  {
+   "say": "At the same time, you can remove friction from the task. Leave the document open the night before. Put your running shoes by the door. Have your study materials already on the desk. If the task is easier to reach than the distraction, the balance shifts in your favor.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "And make the task easier to reach."
+   }
+  },
+  {
+   "say": "I don't want to make phones sound like villains. They're wonderful tools. They connect us to people we love, and to information we need. The point is simply that, in the specific moment of facing an unpleasant task, a phone is a very tempting escape hatch. Knowing that lets us decide when to keep the hatch closed.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Phones aren't the enemy."
+   }
+  },
+  {
+   "say": "So here's what we've learned about phones and procrastination. Phones offer instant relief from unpleasant feelings. Switching attention has a real cost. Distance often works better than willpower. And adding friction to distractions, while removing it from the task, can quietly tip the balance.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Phones and procrastination",
+    "items": [
+     "Phones offer instant mood repair",
+     "Switching attention has a cost",
+     "Distance beats willpower",
+     "Add friction to distractions, remove it from tasks"
+    ]
+   }
+  },
+  {
+   "say": "But some people procrastinate even without any distractions at all. They sit there, unable to begin, because they want it to be perfect. Next, let's look at perfectionism, fear of failure, and why starting can feel so frightening.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: when good isn't good enough."
+   }
+  }
+ ]
+}

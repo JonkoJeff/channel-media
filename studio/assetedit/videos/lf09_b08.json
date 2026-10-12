@@ -1,0 +1,144 @@
+{
+ "id": "lf09_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Have you ever planned to finish something in an afternoon, and found yourself still working on it two days later? Or estimated that a project would take a week, and it took a month? If so, you've met one of the most reliable patterns in psychology. The planning fallacy.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 8,
+    "title": "Why everything takes longer"
+   }
+  },
+  {
+   "say": "In nineteen ninety four, three researchers, Roger Buehler, Dale Griffin and Michael Ross, asked senior psychology students to predict when they would finish their honors theses. These were big projects, and the students knew them well. They were asked for a realistic estimate, and also for a best case and worst case estimate.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Roger Buehler, Dale Griffin & Michael Ross",
+    "where": "Published in the Journal of Personality and Social Psychology, 1994",
+    "what": "Senior psychology students predicted when they would finish their honors theses, under best-case, worst-case and typical assumptions."
+   }
+  },
+  {
+   "say": "On average, the students predicted they would finish in about thirty four days. The actual average was about fifty five days. Almost three weeks longer than expected. And here's the remarkable part. Even their worst case predictions, the ones where everything goes wrong, were on average too optimistic.",
+   "show": {
+    "type": "bars",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Thesis completion (days)",
+    "unit": "days",
+    "bars": [
+     [
+      "Predicted (average)",
+      33.9
+     ],
+     [
+      "Actual (average)",
+      55.5
+     ]
+    ]
+   }
+  },
+  {
+   "say": "According to the study, fewer than a third of the students finished by the time they had predicted. Remember, these were psychology students, who might even have learned about this kind of bias. Knowing about it didn't protect them. Their minds still drew a hopeful picture of how smoothly the work would go.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_b06_papers.jpg",
+    "cap": "Even the worst case was too hopeful"
+   }
+  },
+  {
+   "say": "Why do we do this? One explanation the researchers suggested is that when we plan, we focus on the specific task in front of us, and imagine how it will unfold. Step by step, in an ideal way. We rarely think about all the interruptions, illnesses, surprises and distractions that usually happen. Those don't feature in our mental movie.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Why do we underestimate?"
+   }
+  },
+  {
+   "say": "And interestingly, we often ignore our own past experience. The students in the study could remember that previous projects had taken longer than planned. But they tended to believe that this time would be different. This project was special. This time, they'd be more focused. The past didn't seem relevant.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "We ignore our own history."
+   }
+  },
+  {
+   "say": "The planning fallacy and procrastination feed each other. If you think a task will take two hours, it seems perfectly safe to start it the evening before the deadline. And then it takes six hours. Suddenly you're up until three in the morning, wondering how this happened again.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Planning fallacy feeds procrastination."
+   }
+  },
+  {
+   "say": "So what helps? Researchers often suggest something called taking the outside view. Instead of imagining how this particular task will go, ask, how long have similar tasks taken in the past? For me, or for other people? That reference point is usually much more realistic than our inside view.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The outside view."
+   }
+  },
+  {
+   "say": "Another approach is unpacking. Breaking a task into all its smaller steps, and estimating each one. Some studies have found that people make more realistic estimates when they think through the individual parts. Write the outline. Gather the sources. Draft section one. Each step reveals time we would otherwise forget.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Unpacking the task."
+   }
+  },
+  {
+   "say": "And a simple, practical approach is adding a buffer. Many people find it helpful to take their first estimate and multiply it, by one and a half, or even two. It feels pessimistic. But in reality, it's just honest. And finishing early is a lovely surprise, while finishing late is a stressful one.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Add a buffer."
+   }
+  },
+  {
+   "say": "There's a kindness hidden in all of this too. If you've often run late on projects, it doesn't mean you're bad at planning, or lazy. It means you're human, with a brain that draws hopeful pictures. Knowing that lets you plan with a little more room, and be gentler with yourself when things take longer.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Kindness about time."
+   }
+  },
+  {
+   "say": "So here's what the planning fallacy teaches us. Students predicted about thirty four days, and took about fifty five. Even worst case guesses were too hopeful. Asking how long similar tasks took before gives a better estimate. And breaking tasks into steps, and adding a buffer, can make our plans kinder and more realistic.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The planning fallacy",
+    "items": [
+     "Students predicted 34 days, took 55",
+     "Even worst-case guesses were too hopeful",
+     "Ask how long similar tasks took before",
+     "Break tasks down and add a buffer"
+    ]
+   }
+  },
+  {
+   "say": "If we underestimate how long things take, and wait for pressure to motivate us, could deadlines help? And if so, should we set them ourselves? A clever experiment at MIT gave students a choice about their own deadlines. What they chose, and how it turned out, is very revealing.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the power of deadlines."
+   }
+  }
+ ]
+}

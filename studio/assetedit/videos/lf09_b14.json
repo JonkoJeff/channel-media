@@ -1,0 +1,124 @@
+{
+ "id": "lf09_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think about the difference between two plans. The first plan is, I'll exercise more this week. The second plan is, on Monday, Wednesday and Friday, when I finish breakfast, I'll put on my shoes and go for a twenty minute walk around the park. Which plan do you think is more likely to actually happen?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 14,
+    "title": "If this, then that"
+   }
+  },
+  {
+   "say": "Most people feel instinctively that the second plan has a better chance. And research strongly supports that feeling. The psychologist Peter Gollwitzer has spent decades studying what he calls implementation intentions. Simple plans that link a specific situation to a specific action, in the form, if this happens, then I will do that.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Goals versus plans."
+   }
+  },
+  {
+   "say": "In two thousand and six, Gollwitzer and Paschal Sheeran published a meta analysis, combining the results of ninety four studies on implementation intentions. They found that forming if then plans had a medium to large positive effect on reaching goals, compared with just having the goal itself. Across many kinds of goals, from health to studying.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Peter Gollwitzer & Paschal Sheeran",
+    "where": "Published in Advances in Experimental Social Psychology, 2006",
+    "what": "A meta-analysis of 94 studies testing whether if-then plans help people reach their goals."
+   }
+  },
+  {
+   "say": "Why does such a simple thing work so well? One idea is that an if then plan hands the decision over to the situation. Instead of having to decide, in the moment, whether to start, you've already decided. When the situation arrives, the action follows almost automatically. You don't have to fight your mood. You just follow the plan.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_b11_morning.jpg",
+    "cap": "When breakfast ends, I begin"
+   }
+  },
+  {
+   "say": "Remember the tug of war between the feeling now and the planning mind. A big part of procrastination happens in the moment of decision. Should I start now, or later? That's exactly when the urge to avoid wins. An if then plan removes that moment of decision. There's nothing to debate. The cue arrives, and you act.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Removing the decision."
+   }
+  },
+  {
+   "say": "Here are some examples. If I sit down at my desk after lunch, then I'll open the report and write one sentence. If I feel the urge to check my phone while studying, then I'll take one slow breath and read one more paragraph. If it's Sunday evening, then I'll spend ten minutes planning the week. Simple, specific, concrete.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Examples you could try."
+   }
+  },
+  {
+   "say": "Implementation intentions can also be used to plan for obstacles. Psychologist Gabriele Oettingen developed a method that combines positive thinking with planning for obstacles. You imagine the outcome you want, then the main inner obstacle that might get in the way, and then make an if then plan for that obstacle. If I feel overwhelmed, then I'll just do the smallest next step.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Plan for obstacles too."
+   }
+  },
+  {
+   "say": "The key is specificity. When, where, and what exactly. The more concrete the cue, the better. After breakfast. When I sit on the train. At ten o'clock. And the more concrete the action, the better. Not work on the essay, but open the document and write the first sentence.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Small and specific."
+   }
+  },
+  {
+   "say": "Over time, if then plans can help build habits. When the same cue is followed by the same action again and again, the link becomes stronger, and more automatic. Eventually, finishing breakfast might simply mean it's time for a walk, without much thought at all. The plan becomes part of who you are.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "A tool for habits."
+   }
+  },
+  {
+   "say": "And of course, plans don't have to be rigid. If you miss one, that's alright. You're not a failure. You simply return to the plan next time the cue comes around. The power isn't in perfect execution. It's in having a clear path ready, so that starting is easier more often than not.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Gentle, not rigid."
+   }
+  },
+  {
+   "say": "So here's what implementation intentions teach us. Linking a specific situation to a specific action can make starting much more likely. Across ninety four studies, if then plans showed a medium to large effect. They work partly by removing the moment of decision. And planning for obstacles, with their own if then responses, can make them even stronger.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "If-then plans",
+    "items": [
+     "Link a specific situation to a specific action",
+     "94 studies showed a medium-to-large effect",
+     "Plans remove the in-the-moment decision",
+     "Plan for obstacles too"
+    ]
+   }
+  },
+  {
+   "say": "And speaking of the first step. There's an idea, supported by both research and many people's experience, that starting is the hardest part, and that once you've started, continuing becomes much easier. Next, let's look at the surprising power of just beginning.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: just start."
+   }
+  }
+ ]
+}

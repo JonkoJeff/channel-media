@@ -1,0 +1,131 @@
+{
+ "id": "lf09_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine a blank canvas. You're about to paint something. And suddenly, the blankness feels heavy. What if the first stroke is wrong? What if the whole thing turns out badly? Maybe it's better to wait until you feel ready. Until you have the perfect idea. And so, the canvas stays blank.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 13,
+    "title": "When good isn't good enough"
+   }
+  },
+  {
+   "say": "For many people, this is what procrastination feels like. Not laziness. Not distraction. But a kind of paralysis, caused by wanting things to be just right. Writers know it as the blank page. Students know it as the essay that won't begin. And it's often connected to perfectionism, and a fear of failure.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_b10_canvas.jpg",
+    "cap": "The weight of the blank page"
+   }
+  },
+  {
+   "say": "Interestingly, the link between perfectionism and procrastination is more complicated than people often assume. In Piers Steel's large review, the overall connection between perfectionism and procrastination was surprisingly weak. Some perfectionists procrastinate a lot. Others are extremely diligent, and start early, precisely because they care so much.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A complicated link."
+   }
+  },
+  {
+   "say": "Researchers often distinguish between different kinds of perfectionism. One kind involves having high standards and striving for excellence. Another kind involves intense worry about mistakes, fear of others' judgment, and harsh self criticism. It's this second, more anxious kind that tends to be more closely linked with procrastination.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Two kinds of perfectionism."
+   }
+  },
+  {
+   "say": "Why would fear of mistakes lead to delay? Remember the idea of mood repair. Starting a task means risking failure. And failure, for an anxious perfectionist, can feel like a judgment on who they are, not just on what they did. Putting the task off protects them, for now, from that painful possibility.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Protecting the self."
+   }
+  },
+  {
+   "say": "There's also a sneaky, self protective benefit to procrastination. If you start at the last minute and the result isn't great, you have an excuse. I didn't have enough time. It wasn't my best effort. Psychologists sometimes call this self handicapping. Creating an obstacle that protects your self image if things go wrong.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "The excuse of time."
+   }
+  },
+  {
+   "say": "Self handicapping can protect us emotionally in the short term. But it often costs us in the long term. The work suffers. The stress grows. And we never get to discover what we could have done with a calm, full effort. The fear stays untested, and so it stays strong.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "It protects, and it costs."
+   }
+  },
+  {
+   "say": "One of the most helpful ideas for perfectionist procrastination is giving yourself permission to be imperfect, at least at the start. Many writers talk about allowing themselves a terrible first draft. The first version doesn't have to be good. It just has to exist. Improving something that exists is much easier than creating something perfect from nothing.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Permission to be imperfect."
+   }
+  },
+  {
+   "say": "Another helpful approach is separating creating from judging. When you're starting, turn off the inner critic. Just produce. Write, sketch, brainstorm, without evaluating. Later, in a separate step, you can switch to editing mode and judge what you've made. Trying to create and judge at the same time is a recipe for paralysis.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Separate creating from judging."
+   }
+  },
+  {
+   "say": "It can also help to lower the stakes in your mind. Remind yourself that this is one task, not a verdict on your worth. That most work can be revised. That people who care about you will not love you less for an imperfect essay or report. Smaller stakes make starting feel safer.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Lower the stakes."
+   }
+  },
+  {
+   "say": "And there's an old saying, sometimes attributed to Voltaire, that the perfect is the enemy of the good. Often, a good piece of work done on time is far more valuable than a perfect one that never arrives. Good enough, delivered calmly, is frequently excellent.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Good enough is often great."
+   }
+  },
+  {
+   "say": "So here's what we've learned about perfectionism and procrastination. Anxious perfectionism, with its fear of mistakes, is linked to delay. Procrastination can protect our self image in the short term, but costs us later. Allowing a rough first draft helps. And separating creating from judging can free us to begin.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Perfectionism and procrastination",
+    "items": [
+     "Anxious perfectionism links to delay",
+     "Delay can protect self-image short-term",
+     "Allow a rough first draft",
+     "Create first, judge later"
+    ]
+   }
+  },
+  {
+   "say": "So we know that starting is the hardest part. Is there a simple tool that can make starting more automatic? Researchers have found one that is almost surprisingly simple. It involves just one sentence, with an if and a then.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: if this, then that."
+   }
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "id": "lf09_b19",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "After a day of procrastinating, many of us are quite hard on ourselves. Why did I waste the whole day? What's wrong with me? I'm so lazy. We hope that being tough on ourselves will motivate us to do better tomorrow. That a little guilt will push us forward. But does it?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 19,
+    "title": "Forgive yourself"
+   }
+  },
+  {
+   "say": "In two thousand and ten, researchers Michael Wohl, Timothy Pychyl and Shannon Bennett studied first year university students around their midterm exams. They asked the students how much they had procrastinated before the first exam. And how much they had forgiven themselves for that procrastination.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Michael Wohl, Timothy Pychyl & Shannon Bennett",
+    "where": "Carleton University, published in Personality and Individual Differences, 2010",
+    "what": "First-year students reported how much they had procrastinated studying for a first midterm exam, and how much they had forgiven themselves for it. Their procrastination before the next exam was then measured."
+   }
+  },
+  {
+   "say": "Then they looked at what happened before the next exam. And they found that students who had forgiven themselves more for procrastinating the first time tended to procrastinate less before the second exam. Self forgiveness seemed to help, not hurt. The students who were harder on themselves didn't do better.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Forgiveness predicted less delay."
+   }
+  },
+  {
+   "say": "Why would forgiving yourself reduce procrastination? The researchers suggested that self forgiveness reduces the negative feelings associated with the task. Remember, procrastination is largely about avoiding bad feelings. If a task is surrounded by guilt and shame from past failures, it becomes even more unpleasant to approach. Forgiveness clears some of that away.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_b15_hands.jpg",
+    "cap": "Kindness instead of guilt"
+   }
+  },
+  {
+   "say": "Think about it this way. If every time you think about the report, you also think, I'm terrible, I should have done this weeks ago, then the report becomes loaded with pain. And the natural response to pain is to avoid it. So guilt, instead of pushing you toward the task, can push you further away from it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Guilt makes the task heavier."
+   }
+  },
+  {
+   "say": "Fuschia Sirois, whom we met earlier, has also studied self compassion in relation to procrastination. Self compassion means treating yourself with the same kindness and understanding you would offer a good friend who was struggling. Her research found that people who procrastinate more tend to have lower self compassion, and that this lower self compassion is linked to more stress.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Self-compassion."
+   }
+  },
+  {
+   "say": "Now, self forgiveness doesn't mean pretending procrastination doesn't matter, or not caring about the consequences. It means acknowledging what happened, accepting that you're human, and then turning toward the task with kindness instead of punishment. It's taking responsibility without self attack.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Not letting yourself off the hook."
+   }
+  },
+  {
+   "say": "A simple exercise can help. Imagine a good friend tells you they've been putting off something important, and they feel terrible about it. What would you say to them? Probably something kind. That's okay, it happens to everyone. Let's figure out a small first step. Now, try saying that same thing to yourself.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "What would you say to a friend?"
+   }
+  },
+  {
+   "say": "Here's a gentle script you could use. I put this off, and that's understandable, because it felt difficult. I'm not a bad person. I'd like to do better. What's one small thing I can do right now? Notice how different that feels from, what's wrong with me? One opens a door. The other closes it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A gentle script."
+   }
+  },
+  {
+   "say": "Some people worry that being kind to themselves will make them soft, or lazy. But research on self compassion generally suggests the opposite. People who treat themselves kindly after failures often show more motivation to improve, not less. Kindness is not weakness. It's what makes it safe to try again.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Kindness is strength."
+   }
+  },
+  {
+   "say": "So here's what we've learned about self forgiveness. Students who forgave themselves for procrastinating tended to procrastinate less the next time. Guilt can make tasks even more unpleasant to approach. Self compassion is linked to less stress. And talking to yourself like a good friend can open the door to starting again.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Forgiving yourself",
+    "items": [
+     "Students who forgave themselves procrastinated less later",
+     "Guilt makes tasks more unpleasant to approach",
+     "Self-compassion is linked to less stress",
+     "Talk to yourself like a good friend"
+    ]
+   }
+  },
+  {
+   "say": "And there's one kind of procrastination that happens at a very particular time of day. Late at night, when we know we should go to bed, but we just don't. Let's talk about bedtime procrastination, and why it's so tempting.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: putting off sleep."
+   }
+  }
+ ]
+}

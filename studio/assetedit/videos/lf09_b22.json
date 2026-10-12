@@ -1,0 +1,135 @@
+{
+ "id": "lf09_b22",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "After everything we've said tonight, you might think that delay is always bad. Start early, finish early, never put anything off. But the real picture is a little more interesting. Sometimes, a little delay can help. And sometimes, rushing to do things too early can be its own problem.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 22,
+    "title": "Can delay ever be good?"
+   }
+  },
+  {
+   "say": "In two thousand and twenty one, the researchers Jihae Shin and Adam Grant published studies looking at procrastination and creativity. Their findings suggested that putting off a task could sometimes be linked to more creative ideas, especially when people were genuinely interested in the task, and used the delay to let ideas incubate.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Jihae Shin & Adam Grant",
+    "where": "Published in the Academy of Management Journal, 2021",
+    "what": "Studies of employees and experiments examining whether procrastination relates to creativity, depending on how motivated people are by the task."
+   }
+  },
+  {
+   "say": "Psychologists have long talked about incubation. The idea that when we step away from a problem, our minds can keep working on it in the background. Many people have had the experience of a solution popping into their head in the shower, or on a walk, after they stopped actively thinking about it.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Incubation."
+   }
+  },
+  {
+   "say": "But there's an important detail here. Incubation works best when you've already started thinking about the problem. You plant a seed, and then let it grow. That's very different from avoiding a task completely, without any engagement. A productive pause is not the same as avoidance.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Delay, but with a seed."
+   }
+  },
+  {
+   "say": "Some people call this strategic delay. Starting a project early, getting the ideas flowing, and then deliberately stepping back for a while, before returning to finish it. You get the benefit of incubation, without the stress of a last minute rush. It's like letting dough rise before baking it.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Strategic delay."
+   }
+  },
+  {
+   "say": "And then there's the opposite of procrastination. In two thousand and fourteen, the researchers David Rosenbaum, Lanyun Gong and Cory Potts ran a simple experiment. People walked down an alley and had to pick up one of two buckets and carry it to the end. One bucket was closer to them, and one was closer to the end.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "David Rosenbaum, Lanyun Gong & Cory Potts",
+    "where": "Penn State University, published in Psychological Science, 2014",
+    "what": "Participants walked down an alley and picked up one of two buckets, one nearer to them and one nearer to the end point, and carried it to the end."
+   }
+  },
+  {
+   "say": "The sensible choice seems to be the bucket closer to the end. You'd carry it a shorter distance. But many people picked up the closer bucket, at the start, and carried it further. Doing extra physical work, just to get the task started sooner. The researchers called this precrastination. The urge to complete tasks as soon as possible, even at extra cost.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_b18_buckets.jpg",
+    "cap": "The nearer bucket, carried further"
+   }
+  },
+  {
+   "say": "Why would people do that? The researchers suggested that people may want to reduce the mental load of remembering the task. Picking up the bucket early ticks it off the list. And that relief can be worth a little extra effort. Many of us know this feeling. Answering every email instantly, just to get it off our minds.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Getting it off the mind."
+   }
+  },
+  {
+   "say": "Precrastination can have costs. Rushing into tasks before thinking them through. Answering emails so fast that we never get to deep, focused work. Choosing the first idea, instead of the best one. Sometimes, a little pause before acting is exactly what a task needs.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Too early has costs too."
+   }
+  },
+  {
+   "say": "So perhaps the goal isn't to start everything as early as possible, or as late as possible. It's to find a sweet spot. Start early enough to avoid panic, and to let ideas incubate. But not so impulsively that you skip the thinking. Engage, pause, return. A rhythm rather than a rush.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The sweet spot."
+   }
+  },
+  {
+   "say": "The key difference is intention. Procrastination is delay driven by avoiding a feeling. Strategic delay is a choice, made with a plan to return. If you can ask yourself, am I pausing this on purpose, or am I avoiding it? you'll often know which one it is.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Delay with intention."
+   }
+  },
+  {
+   "say": "So here's what we've learned about the other side of delay. A little delay can sometimes support creativity, especially when we're engaged with the task. Incubation works best once we've already started. Some people do the opposite and precrastinate, rushing tasks at extra cost. And the healthiest delay is a choice, not an escape.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Good delay, bad delay",
+    "items": [
+     "A little delay can aid creativity",
+     "Incubation works after you've started",
+     "Precrastination: doing things too soon",
+     "Delay on purpose, not to avoid"
+    ]
+   }
+  },
+  {
+   "say": "And speaking of using delay wisely. A philosophy professor once wrote a funny essay about how he turned his lifelong procrastination into a productivity strategy. It even won him a rather unusual prize. Let's look at it next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: structured procrastination."
+   }
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "id": "lf09_b20",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "It's late. You're tired. Tomorrow is a busy day. You know you should go to bed. And yet, you don't. You watch one more episode. You scroll a little longer. You tidy something that doesn't need tidying. The bed is right there, and still, you put it off. Sound familiar?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 20,
+    "title": "Putting off sleep"
+   }
+  },
+  {
+   "say": "In two thousand and fourteen, a team of researchers at Utrecht University, led by Floor Kroese, gave this a name. Bedtime procrastination. Going to bed later than you intended, without any external reason. Nobody is keeping you up. You simply don't go. And they found that people who scored lower on measures of self regulation tended to do this more, and to get less sleep.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Floor Kroese and colleagues",
+    "where": "Utrecht University, published in Frontiers in Psychology, 2014",
+    "what": "Researchers introduced the term bedtime procrastination: going to bed later than intended, without external reasons, and studied how it relates to self-regulation and sleep."
+   }
+  },
+  {
+   "say": "Bedtime procrastination is a curious kind of procrastination. Going to bed isn't an unpleasant task. It's rest! So why would we avoid it? Researchers and many sleepy people have suggested a few reasons. One of the most popular is the idea of reclaiming time.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_b16_bed.jpg",
+    "cap": "One more episode"
+   }
+  },
+  {
+   "say": "After a long day of work, study and obligations, the late evening can feel like the only time that truly belongs to you. Going to bed means ending that free time, and starting the next demanding day sooner. So staying up feels like taking back a little freedom. Some people online call this revenge bedtime procrastination.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Taking the evening back."
+   }
+  },
+  {
+   "say": "And remember the tug of war in the brain. In the late evening, we're tired, and the planning, self controlling side of us tends to be weaker. That makes it harder to stop a pleasant activity, even when we know we should. Studies have found that people who have had demanding, effortful days are often more likely to put off bedtime.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Tired brains, weaker brakes."
+   }
+  },
+  {
+   "say": "There's also a sneaky practical factor. Going to bed often involves small chores. Brushing your teeth, taking off makeup, setting an alarm, finding tomorrow's clothes. Each of these is tiny. But together, they create a little wall of effort between the couch and the bed. And that wall can be just enough to keep us on the couch.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Bedtime has small tasks."
+   }
+  },
+  {
+   "say": "The cost of bedtime procrastination is real. Less sleep means less energy, worse mood, and, as we've seen, weaker self control the next day. Which can make us procrastinate more, both during the day and the next night. It can become a tiring cycle.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The cost is real."
+   }
+  },
+  {
+   "say": "So how can we go to bed a little earlier, gently? One idea is to move the bedtime chores earlier. Brush your teeth and get ready for bed an hour before you intend to sleep. Then, when it's time, there's no wall of effort. You can simply slip into bed.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Gentle ways to bed."
+   }
+  },
+  {
+   "say": "Another idea is to create a pleasant wind down ritual. Something you look forward to, that only happens in bed. A favorite book. A calm podcast. A gentle video like this one. That way, going to bed isn't the end of your free time. It's the beginning of a cozy, enjoyable part of it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A wind-down ritual."
+   }
+  },
+  {
+   "say": "And if the urge to stay up comes from feeling that your day had no time for you, it can help to protect a little bit of freedom earlier in the day. A short walk at lunch. Half an hour of something you love after dinner. If you've already had some time for yourself, you may feel less need to steal it from your sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Protect some daytime freedom."
+   }
+  },
+  {
+   "say": "And if you're watching this in bed, right now, a little later than you intended, that's alright. You're already in the best place. You don't need to do anything else tonight. You can simply let the rest of this video carry you gently toward sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "And if you're watching right now."
+   }
+  },
+  {
+   "say": "So here's what we've learned about bedtime procrastination. It's very common, especially after demanding days. Late evenings can feel like the only time that's truly ours. Moving bedtime chores earlier removes a wall of effort. And making bed the start of something cozy can make going there feel like a reward.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Gentle ways to bed on time",
+    "items": [
+     "Bedtime procrastination is common",
+     "Late evenings feel like reclaimed time",
+     "Do bedtime chores earlier",
+     "Make bed the start of something cozy"
+    ]
+   }
+  },
+  {
+   "say": "We've seen that procrastination can cost us sleep. But what about our wider wellbeing, our health and our happiness? A large study of university students in Sweden looked at exactly this, following students over many months. Let's look at what it found, gently.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: procrastination and wellbeing."
+   }
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "id": "lf09_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "If you've ever felt alone in your procrastination, here's some comfort. You're not. In two thousand and seven, a psychologist named Piers Steel published a large review of procrastination research in the journal Psychological Bulletin. He gathered the results of hundreds of studies, to understand what procrastination is, and who does it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 3,
+    "title": "How common is it?"
+   }
+  },
+  {
+   "say": "A review like this is called a meta analysis. Instead of running one experiment, the researcher combines many studies, to see the bigger picture. And Steel's review became one of the most cited papers on procrastination ever written. It painted a clear picture of just how widespread putting things off really is.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Piers Steel",
+    "where": "University of Calgary, published in Psychological Bulletin, 2007",
+    "what": "A meta-analysis combining the results of hundreds of studies on procrastination: how common it is, what predicts it, and what it's linked to."
+   }
+  },
+  {
+   "say": "According to the estimates Steel summarized, somewhere between eighty and ninety five percent of college students procrastinate, at least sometimes. And many of them do it regularly, especially with tasks like studying and writing assignments. If you've ever been a student, you probably don't find that surprising at all.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_b02_library.jpg",
+    "cap": "Students, deadlines, and late nights"
+   }
+  },
+  {
+   "say": "And it doesn't end with university. Steel also summarized estimates suggesting that around fifteen to twenty percent of adults consider themselves chronic procrastinators. Not just occasionally putting something off, but doing it as a regular pattern, in many areas of life. That's a lot of people.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Adults who see themselves as chronic procrastinators",
+    "big": "about 15–20%",
+    "label": "according to estimates summarized by Steel"
+   }
+  },
+  {
+   "say": "Some researchers have wondered whether procrastination is becoming more common in modern life. It's easy to see why it might. We're surrounded by distractions that are always available. Phones, social media, endless videos. There's always something more pleasant than the task in front of us, just a tap away.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Is it getting worse?"
+   }
+  },
+  {
+   "say": "Steel's review also looked at what predicts procrastination. And a few factors stood out. How unpleasant the task feels. How far away the reward is. How easily distracted or impulsive a person tends to be. And how confident they are that they can actually do the task. These factors will come up again and again tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "What predicts it?"
+   }
+  },
+  {
+   "say": "Interestingly, procrastination wasn't strongly linked to intelligence. Smart people procrastinate too, sometimes spectacularly. And the link with perfectionism, which many people assume is strong, turned out to be weaker and more complicated than expected in Steel's review. Procrastination is not a sign of being less capable.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Not about intelligence."
+   }
+  },
+  {
+   "say": "Steel later summarized many of these ideas in what he called temporal motivation theory. A simple way of thinking about why we act on some tasks and delay others. Our motivation for a task goes up with how much we expect to succeed, and how much we value the result. And it goes down with how impulsive we are, and how far away the reward is.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A formula for motivation."
+   }
+  },
+  {
+   "say": "Think of it a little like a set of scales. On one side, how confident you feel, and how much you care about the outcome. On the other, how distracted you are, and how long you'll have to wait for the payoff. When the reward is far away, and the task feels hard, the scales tip toward putting it off.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Expectancy, value, delay."
+   }
+  },
+  {
+   "say": "That simple idea explains a lot. Why we can work all night just before a deadline, when the reward and the consequences are suddenly close. Why we put off tasks that feel uncertain or overwhelming. And why something fun now so easily beats something important later. The delay itself drains our motivation.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "That explains a lot."
+   }
+  },
+  {
+   "say": "And there's good news hidden in that formula. Each part of it is something we can gently influence. We can make tasks feel more doable, which raises confidence. We can connect them to what we value. We can reduce distractions. And we can bring rewards closer in time. We'll see practical ways to do all of these later tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Good news inside the formula."
+   }
+  },
+  {
+   "say": "So here's what the research tells us about how common procrastination is. Most students procrastinate at least sometimes. Around fifteen to twenty percent of adults see themselves as chronic procrastinators. It's not a sign of low intelligence. And delay, doubt and distraction all drain our motivation.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "How common procrastination is",
+    "items": [
+     "80–95% of students procrastinate at times",
+     "About 15–20% of adults see it as chronic",
+     "It's not linked to low intelligence",
+     "Delay, doubt and distraction drain motivation"
+    ]
+   }
+  },
+  {
+   "say": "But the formula only tells part of the story. Over the last two decades, researchers have increasingly come to a surprising conclusion. Procrastination isn't mainly a time management problem. It's an emotion management problem. Let's look at that idea next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: it's about feelings."
+   }
+  }
+ ]
+}

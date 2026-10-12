@@ -1,0 +1,133 @@
+{
+ "id": "lf09_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine you're a student, and your teacher says, you have three papers to write this semester. You can choose your own deadlines. Any dates you like, as long as everything is in by the last day of class. Would you choose the last day for all three, to give yourself maximum flexibility? Or would you set earlier deadlines?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 9,
+    "title": "The power of deadlines"
+   }
+  },
+  {
+   "say": "In two thousand and two, the researchers Dan Ariely and Klaus Wertenbroch ran exactly this kind of study at MIT. Students in one class could set their own deadlines for three papers, with a penalty for missing them. Logically, the smartest choice seems to be the last possible day for everything. Maximum freedom, no risk.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Dan Ariely & Klaus Wertenbroch",
+    "where": "MIT and INSEAD, published in Psychological Science, 2002",
+    "what": "Students in a course could set their own binding deadlines for three papers. Late submissions would be penalized. In another study, proofreaders worked with different deadline schedules."
+   }
+  },
+  {
+   "say": "But many students didn't do that. Many of them chose earlier deadlines, spread through the semester. They were voluntarily limiting their own freedom. Why? Because they knew themselves. They knew that without deadlines, they'd probably put everything off until the end. So they built a little structure for their future selves.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Many chose early deadlines."
+   }
+  },
+  {
+   "say": "In another part of the research, people were paid to proofread three long texts, finding errors. Some had evenly spaced deadlines set for them, one per week. Some could choose their own deadlines. And some had one single deadline at the end for all three. And the researchers compared how well each group did.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_b07_pages.jpg",
+    "cap": "Three tasks, three deadlines"
+   }
+  },
+  {
+   "say": "The group with evenly spaced deadlines, set for them, did best. They found the most errors, submitted their work on time more often, and earned the most. The group with a single deadline at the end did worst. And the group who chose their own deadlines landed in between. Their self imposed deadlines helped, but often weren't as well spaced as they could have been.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Evenly spaced deadlines won."
+   }
+  },
+  {
+   "say": "This research suggests something that sounds a little counterintuitive. Constraints can be a gift. Too much freedom, with one distant deadline, can make it very easy to procrastinate. A series of smaller deadlines turns one big, far away goal into several near ones. And near goals, as we've seen, are much more motivating.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Deadlines are a gift."
+   }
+  },
+  {
+   "say": "The trick is that self imposed deadlines only work if they feel real. A deadline you can quietly move whenever you like doesn't have much power. That's why people often find it helpful to make their deadlines visible to others. Telling a friend. Booking a meeting to show your progress. Joining a study group.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Make deadlines real."
+   }
+  },
+  {
+   "say": "Economists call these kinds of tools commitment devices. Ways of binding your future self to a choice your present self has made. The most famous example comes from an ancient Greek story. Odysseus wanted to hear the beautiful song of the Sirens, which lured sailors to their deaths. So he had his crew tie him to the mast, and fill their own ears with wax.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Commitment devices."
+   }
+  },
+  {
+   "say": "Odysseus knew that, in the moment, he wouldn't be able to resist. So he made a decision in advance, when he was calm, that his future self couldn't undo. That's the essence of a commitment device. You plan for your own weakness, kindly, without pretending it isn't there.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Tied to the mast."
+   }
+  },
+  {
+   "say": "Modern versions are everywhere. Apps that block distracting websites during work hours. Leaving your phone in another room. Signing up for a class that meets at a fixed time. Working in a library instead of at home. Each one is a little mast, holding you steady when the Sirens of distraction start to sing.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Modern masts."
+   }
+  },
+  {
+   "say": "So if you're facing a big task with a single distant deadline, you could try a gentle experiment. Break it into parts. Give each part its own deadline, evenly spaced. Make those deadlines visible, perhaps to a friend or colleague. And see how it changes the feeling of the work.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Spaced, visible, real."
+   }
+  },
+  {
+   "say": "So here's what the deadline research teaches us. Many people, knowing themselves, choose to bind their future selves with early deadlines. Evenly spaced deadlines led to the best results. Self imposed deadlines helped, but often less than well spaced ones. And making deadlines visible and real gives them their power.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Using deadlines well",
+    "items": [
+     "Many students chose early deadlines for themselves",
+     "Evenly spaced deadlines worked best",
+     "Self-set deadlines helped, but less",
+     "Make deadlines visible and real"
+    ]
+   }
+  },
+  {
+   "say": "But what's happening inside the brain when we procrastinate? Researchers have looked at the tug of war between parts of the brain involved in emotion, and parts involved in planning. Let's take a gentle look at what neuroscience has found.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: two systems in the brain."
+   }
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "id": "lf09_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "If procrastination is really about repairing our mood, then here's a fascinating question. What would happen if people believed that their mood couldn't be changed? If putting things off couldn't make them feel better, would they still procrastinate? A clever experiment tested exactly that.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 5,
+    "title": "The mood-freezing pill"
+   }
+  },
+  {
+   "say": "In two thousand and one, Dianne Tice, Ellen Bratslavsky and Roy Baumeister published a study with a clever twist. First, some participants were put into a sad mood, for example by reading sad stories. Others were put into a neutral mood. Then everyone was told they would soon take an important test.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Dianne Tice, Ellen Bratslavsky & Roy Baumeister",
+    "where": "Published in the Journal of Personality and Social Psychology, 2001",
+    "what": "Participants were put in a sad or neutral mood. Some were told a pill would freeze their mood for an hour. Then they could practice for an upcoming test, or play with distracting puzzles and games."
+   }
+  },
+  {
+   "say": "Before the test, participants had some time. They could practice for the test, which would help them do well. Or they could play with fun distractions, like puzzles and games. And the researchers watched how much time people spent practicing, and how much they spent procrastinating with the games.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Practice, or play?"
+   }
+  },
+  {
+   "say": "Here's the clever part. Some participants were given a pill, and told that it would freeze their current mood for about an hour. Whatever they did, they wouldn't be able to feel better or worse. The pill was actually just a placebo. But the participants believed their mood was locked in place.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_n2_pill.jpg",
+    "cap": "A pill that freezes your mood"
+   }
+  },
+  {
+   "say": "Among people who believed their mood could change, those who were feeling sad procrastinated more than those in a neutral mood. They spent more time on the fun distractions, presumably trying to feel better. That fits the idea of mood repair perfectly. Feeling bad, they reached for something to feel good.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Sad people procrastinated more."
+   }
+  },
+  {
+   "say": "But among sad people who believed their mood was frozen, something different happened. They didn't procrastinate more. Since they believed that playing games wouldn't make them feel better, there was no point in avoiding the practice. So they practiced. The urge to procrastinate seemed to depend on the hope of feeling better.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "But not with a frozen mood."
+   }
+  },
+  {
+   "say": "This study is often cited as strong evidence that procrastination is driven, at least partly, by the desire to feel better in the moment. When people believed that delay couldn't improve their mood, the extra procrastination disappeared. It's a beautiful demonstration of what's really going on under the surface.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Strong evidence for mood repair."
+   }
+  },
+  {
+   "say": "So what does this mean for everyday life? It suggests that when we're feeling down, we're especially likely to procrastinate, because we're looking for relief. That's worth knowing. On days when you feel sad, stressed or low, the pull toward distraction will probably be stronger. That's normal, not a failure.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "What it means for us."
+   }
+  },
+  {
+   "say": "It also suggests something helpful. If we can find other ways to feel better, ways that don't involve abandoning our tasks, the pull toward procrastination may weaken. A short walk. A few slow breaths. A chat with a friend. A cup of tea. Repairing your mood in a healthy way first, and then returning to the task, can work better than fighting yourself.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Feel better another way."
+   }
+  },
+  {
+   "say": "And there's a gentle insight here too. Procrastination promises to make us feel better. And for a few minutes, it does. But the task remains, and the bad feeling usually comes back, often stronger. Knowing that the relief is temporary can help us choose a different path, one that actually leads somewhere better.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The task won't fix the mood."
+   }
+  },
+  {
+   "say": "So here's what the mood freezing study teaches us. Feeling sad led people to procrastinate more. But not when they believed their mood couldn't change. Procrastination seems driven, in part, by the hope of feeling better. And finding healthier ways to lift our mood can weaken its pull.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The mood-freezing study",
+    "items": [
+     "Sad moods led to more procrastination",
+     "Not when people thought mood was frozen",
+     "Procrastination is driven by hoped-for relief",
+     "Find healthier ways to lift your mood"
+    ]
+   }
+  },
+  {
+   "say": "But does procrastination really hurt us in the end? Some people say they work best under pressure. That the last minute rush brings out their best. A classic study followed students through a whole semester to find out. And the results tell a fascinating story about stress, grades and health.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the student study."
+   }
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "id": "lf09_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "When you put off a task until next week, who do you think will do it? Your future self, of course. And you probably imagine that future self as someone with more energy, more time, and more motivation than you have right now. Someone who'll happily take care of things. But will they?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 7,
+    "title": "The stranger in the future"
+   }
+  },
+  {
+   "say": "This is a very common pattern. We tend to imagine our future selves as better versions of us. More organized. More disciplined. Less tired. So handing tasks to them feels reasonable. But when the future arrives, we find ourselves just as tired, just as busy, and just as tempted to put things off again.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Future you is optimistic you."
+   }
+  },
+  {
+   "say": "Some fascinating research has looked at how the brain represents our future selves. The psychologist Hal Hershfield and his colleagues found evidence that, for some people, thinking about their future self activates patterns in the brain that are more similar to thinking about another person than to thinking about themselves right now.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A stranger in the brain."
+   }
+  },
+  {
+   "say": "In other words, the person you'll be in ten years, or even next month, can feel a bit like a stranger. And just as it's easier to hand a difficult job to a stranger than to do it yourself, it's easy to hand tasks to your future self. You don't feel their tiredness or their stress. They're just someone else, somewhere else, later.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_b05_mirror.jpg",
+    "cap": "Who is that, in the future?"
+   }
+  },
+  {
+   "say": "In one creative study, Hershfield and colleagues showed participants digitally aged images of their own faces, how they might look in old age. And people who had seen their aged selves tended to put more money aside for the future, in a hypothetical savings task, than people who hadn't. Seeing their future self made that person more real.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Hal Hershfield and colleagues",
+    "where": "Published in the Journal of Marketing Research, 2011",
+    "what": "Participants saw digitally aged images of their own faces in virtual reality, then made decisions about saving money for the future."
+   }
+  },
+  {
+   "say": "That suggests a lovely idea. If procrastination partly comes from treating our future self like a stranger, then making the future self feel more real and more familiar might help. Not just as an abstract idea, but as an actual person, with feelings, who will wake up tomorrow and face whatever we left them.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Make the future self real."
+   }
+  },
+  {
+   "say": "One way to do this is to imagine your future self in a specific moment. Picture yourself next Friday afternoon, the day before the deadline. How will you feel if the task is already done? How will you feel if it isn't? Imagine that person as vividly as you can, as if you were imagining a good friend.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Be a friend to future you."
+   }
+  },
+  {
+   "say": "And then, you could think of doing a small part of the task today as a gift to that friend. A favor. Not a sacrifice for an abstract goal, but a kindness to someone you'll soon become. Many people find this framing much more motivating than guilt or pressure.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A gift, not a burden."
+   }
+  },
+  {
+   "say": "Some researchers have experimented with letters, too. Writing a letter to your future self, or from your future self, describing their life and their hopes. These exercises can help people feel more connected to who they'll be, and in some studies, more willing to make choices that help that person.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Writing to your future self."
+   }
+  },
+  {
+   "say": "What I find gentle about this approach is that it isn't about pushing yourself harder. It's about connection. Feeling a little more continuous with your future self. Remembering that the person who'll face tomorrow is not a stranger. It's you, just a little later in the story.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Connection, not pressure."
+   }
+  },
+  {
+   "say": "So here's what the future self research suggests. We tend to imagine our future selves as more capable than we are. Future selves can feel, in the brain, a bit like strangers. Making the future self more real, like seeing an aged face, can change choices. And doing small tasks today can be seen as gifts to someone you care about. Future you.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Your future self",
+    "items": [
+     "We imagine future us as more capable",
+     "Future selves can feel like strangers",
+     "Seeing an aged self increased saving in a study",
+     "Treat small tasks as gifts to future you"
+    ]
+   }
+  },
+  {
+   "say": "And there's another way we're overly optimistic about the future. Not just about how motivated we'll be, but about how long things will take. Researchers once asked students to predict when they'd finish their theses. The results were both funny and very familiar.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: why everything takes longer."
+   }
+  }
+ ]
+}

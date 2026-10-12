@@ -1,0 +1,133 @@
+{
+ "id": "lf09_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think about a task you've been putting off. Now, notice what happens inside you when you think about it. Is there a little knot in your stomach? A feeling of dread, boredom, confusion, or self doubt? For most people, there is. And that feeling, researchers say, is the real heart of procrastination.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 4,
+    "title": "It's about feelings"
+   }
+  },
+  {
+   "say": "Two researchers, Fuschia Sirois and Timothy Pychyl, have argued that procrastination is best understood as a problem of short term mood repair. When a task makes us feel bad, putting it off makes us feel better, right now. The unpleasant feeling goes away. Temporarily.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "An emotion problem."
+   }
+  },
+  {
+   "say": "In a paper published in two thousand and thirteen, they described procrastination as giving priority to short term mood repair, over the pursuit of our intended goals. In simple words, we choose feeling better now over doing better later. And our future self pays the price.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Fuschia Sirois & Timothy Pychyl",
+    "where": "Published in Social and Personality Psychology Compass, 2013",
+    "what": "A review arguing that procrastination is driven by the wish to repair a bad mood in the short term, at the expense of our future self."
+   }
+  },
+  {
+   "say": "That changes how we see the whole thing. We don't avoid tasks because we're lazy. We avoid the feelings that the tasks bring up. Boredom. Anxiety. Frustration. The fear of doing it badly. The overwhelm of not knowing where to begin. The task is just the thing that triggers those feelings.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_b03_rain.jpg",
+    "cap": "Avoiding a feeling, not a task"
+   }
+  },
+  {
+   "say": "And here's the tricky part. When you put off a task and switch to something pleasant, you get immediate relief. That relief feels good. And in the language of psychology, a good feeling right after an action is a reward. It reinforces the behavior. So every time we procrastinate and feel relief, we're teaching our brain that procrastination works.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The relief is a reward."
+   }
+  },
+  {
+   "say": "That creates a loop. Task feels bad. Avoid it. Feel relief. Brain learns, avoiding helps. Next time the task comes up, the urge to avoid is even stronger. And meanwhile, the task doesn't go away. It sits there, growing more urgent, which makes it feel even worse. So the loop tightens.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A loop that teaches itself."
+   }
+  },
+  {
+   "say": "Researchers have found that some kinds of tasks are especially likely to trigger procrastination. Tasks that are boring, frustrating, difficult, ambiguous, unstructured, or that don't feel personally meaningful. A vague task like, work on the report, is much easier to avoid than a clear one like, write the first paragraph of the introduction.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Which tasks feel worst?"
+   }
+  },
+  {
+   "say": "For many people, the feeling underneath is a quiet fear. Fear of doing it badly. Fear of being judged. Fear of discovering that it's harder than you hoped. As long as the task isn't started, it can't fail. Putting it off protects us, in a strange way, from finding out how well we'll do.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Fear of failure."
+   }
+  },
+  {
+   "say": "This also explains why typical productivity tips often don't work for chronic procrastinators. Make a to do list. Use a planner. Manage your time better. These are fine ideas. But if the real problem is an unpleasant feeling, a better calendar won't fix it. You need ways to handle the feeling.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why tips often don't work."
+   }
+  },
+  {
+   "say": "And the good news is that feelings can be worked with. You can notice them. You can name them. You can make tasks smaller, so they feel less threatening. You can connect them to something meaningful. You can be kind to yourself when they're hard. All of these approaches target the real root of procrastination.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Feelings can be worked with."
+   }
+  },
+  {
+   "say": "Here's a gentle question you can try the next time you notice yourself putting something off. What feeling am I avoiding right now? Is it boredom? Fear? Confusion? Just naming it can loosen its grip. Researchers who study emotions have found that putting feelings into words can sometimes reduce their intensity.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Try this gentle question."
+   }
+  },
+  {
+   "say": "So here's what we've learned about the emotional heart of procrastination. We're often avoiding feelings, not tasks. Putting things off brings quick relief, which reinforces the habit. Vague, boring or scary tasks are the most likely to be delayed. And asking, what feeling am I avoiding, can be a powerful first step.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Procrastination and feelings",
+    "items": [
+     "We avoid feelings, not tasks",
+     "Delay brings relief, which reinforces it",
+     "Vague, boring or scary tasks trigger it most",
+     "Ask: what feeling am I avoiding?"
+    ]
+   }
+  },
+  {
+   "say": "If procrastination is really about repairing our mood, can we test that idea directly? A clever experiment did exactly that, using a pill that supposedly froze people's mood. The results are one of the clearest pieces of evidence we have.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: the mood-freezing pill."
+   }
+  }
+ ]
+}

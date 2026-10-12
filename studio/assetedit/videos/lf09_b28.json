@@ -1,0 +1,133 @@
+{
+ "id": "lf09_b28",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We've travelled a long way tonight. Through libraries and gyms, deadlines and bedtimes, brains and buckets. Let's take a moment to look back over the path, not to remember every detail, but to see the shape of what we've learned about putting things off.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 28,
+    "title": "What to take with you"
+   }
+  },
+  {
+   "say": "The first idea is that you're not alone. Most students procrastinate at least sometimes, and a significant number of adults see themselves as chronic procrastinators. It's one of the most common human struggles. Not a strange personal flaw, but a shared experience.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "You're not alone."
+   }
+  },
+  {
+   "say": "The second idea is perhaps the most important. Procrastination is mostly about feelings, not laziness. We avoid tasks that make us feel bored, anxious, confused or overwhelmed. Putting them off brings quick relief, which teaches our brain to do it again. Understanding that loop is the key to changing it.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "It's about feelings."
+   }
+  },
+  {
+   "say": "The third idea is that procrastination wins in the short term, and loses in the long term. The students who delayed felt better early in the semester, but worse later, with more stress and lower grades. The relief now is often borrowed from our future selves.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The short term wins, at first."
+   }
+  },
+  {
+   "say": "The fourth idea is about that future self. They can feel like a stranger, and that makes it easy to hand them our burdens. Making them feel real, imagining them vividly, treating today's step as a gift to them, can help us act with more care.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Your future self is real."
+   }
+  },
+  {
+   "say": "The fifth idea is that structure helps. We underestimate how long things take, so plans need buffers. Evenly spaced deadlines work better than one far away deadline. Commitment devices, like Odysseus tied to the mast, help us plan kindly for our own weaknesses.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Structure helps."
+   }
+  },
+  {
+   "say": "The sixth idea is that starting is a skill. Make the first step tiny. Commit to just five minutes. Use if then plans, so that starting happens almost automatically. Let momentum carry you once you've begun.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_b20_lamp.jpg",
+    "cap": "Looking back over the path"
+   }
+  },
+  {
+   "say": "The seventh idea is to make tasks kinder. Bundle them with things you enjoy. Design your surroundings, so distractions are further away and tasks are closer. Use fresh starts as gentle new beginnings, not as excuses to wait.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Make it kinder."
+   }
+  },
+  {
+   "say": "The eighth idea is one I hope you'll remember most. Forgiveness works better than guilt. Students who forgave themselves procrastinated less the next time. Talking to yourself like a good friend isn't soft. It's effective. It makes it safe to try again.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Forgiveness works."
+   }
+  },
+  {
+   "say": "And the ninth idea is that rest matters. Tired brains procrastinate more. Bedtime procrastination steals the sleep that would help us tomorrow. Caring for your sleep, your stress and your wellbeing is not separate from getting things done. It's part of it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "And rest matters."
+   }
+  },
+  {
+   "say": "If I had to put it all into one sentence, it might be this. Procrastination is a very human way of protecting ourselves from difficult feelings, and the gentlest way through it is with small steps, good structure, and a lot of kindness.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "One sentence."
+   }
+  },
+  {
+   "say": "So here it is, in one breath. Procrastination is common, and it's human. It's about feelings, not laziness. Your future self is real. Start tiny, and structure your tasks kindly. Forgive yourself instead of punishing yourself. And remember that rest is part of the work.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Procrastination, in one breath",
+    "items": [
+     "It's common, and it's human",
+     "It's about feelings, not laziness",
+     "Future you is real",
+     "Start tiny, structure kindly",
+     "Forgive, don't punish",
+     "Rest is part of the work"
+    ]
+   }
+  },
+  {
+   "say": "And now, if you'd like, let's let all of these ideas drift away. There's nothing left to do tonight. No task to start, no deadline to meet. Over the next few minutes, I'll simply guide you toward a calm and quiet place. If you're in bed, get comfortable. And if sleep comes along the way, let it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Now, let's slow down."
+   }
+  }
+ ]
+}

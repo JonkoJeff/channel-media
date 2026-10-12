@@ -1,0 +1,122 @@
+{
+ "id": "lf09_b15",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's something many people have noticed. The hardest part of a task is often the first five minutes. Once you've actually started, writing the first lines, washing the first dish, taking the first step out the door, it often becomes surprisingly easier to keep going. The dread was mostly about the beginning.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 15,
+    "title": "Just start"
+   }
+  },
+  {
+   "say": "Psychologists and productivity writers have suggested many versions of this idea. One is sometimes called the five minute rule. Tell yourself you'll work on the task for just five minutes. If you want to stop after five minutes, you're allowed to. Often, once you've started, you'll want to continue. And if you don't, you've still done five minutes.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_b12_path.jpg",
+    "cap": "One step is all it takes to begin"
+   }
+  },
+  {
+   "say": "Why would starting make continuing easier? Part of the answer goes back to emotions. Much of our dread comes from imagining the task. Its size, its difficulty, the chance of failure. When we actually start, reality often turns out to be less unpleasant than our imagination. The feeling of dread shrinks once we're inside the task.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Why starting helps."
+   }
+  },
+  {
+   "say": "There's also an old idea in psychology about unfinished tasks. In the nineteen twenties, a psychologist named Bluma Zeigarnik reported that people tended to remember interrupted, unfinished tasks better than completed ones. This became known as the Zeigarnik effect. Later research has found mixed results, so it's not a firm law. But many people do feel that an unfinished task keeps tugging at the mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Unfinished things nag."
+   }
+  },
+  {
+   "say": "If that's true, it suggests a lovely trick. Once you start something, even a little, the unfinished task may gently pull you back to it. Some writers even stop in the middle of a sentence at the end of the day, so it's easy to start again the next morning. The half finished sentence invites them back.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A gentle pull to continue."
+   }
+  },
+  {
+   "say": "Another well known version comes from the productivity writer David Allen. If something takes less than two minutes, do it now. And a related idea that many people use is to start any task with a version so small that it takes less than two minutes. Open the document. Put on the running shoes. Take out one book. Tiny beginnings.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The two minute idea."
+   }
+  },
+  {
+   "say": "The key is to make the first step so small that it barely triggers the dread at all. Not write the report, but write the title. Not clean the house, but put three things away. Not start exercising, but put on your sports clothes. The step is so easy that the emotional alarm doesn't really go off.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Make the first step tiny."
+   }
+  },
+  {
+   "say": "And then momentum often takes over. Once the title is written, the first sentence seems possible. Once the sports clothes are on, a short walk seems natural. Each small action makes the next one a little easier. Starting is like pushing a heavy cart. The first push takes the most effort. After that, it rolls.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Momentum is real."
+   }
+  },
+  {
+   "say": "What I like about this approach is that it turns starting into a skill you can practice. Not a test of character. You're simply learning to make the first step small enough, and to let momentum help you. And every time you start something small, you're teaching your brain that starting is safe.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Starting is a skill."
+   }
+  },
+  {
+   "say": "You can even celebrate the beginning, not just the end. Notice that you started. Give yourself a small moment of credit. I opened the document. I did five minutes. These small celebrations may seem silly. But they help build a positive feeling around starting, instead of dread.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Celebrate the beginning."
+   }
+  },
+  {
+   "say": "So here's what we've learned about the power of starting. The first minutes of a task are often the hardest. Committing to just five minutes can get you going. Making the first step tiny keeps the dread from rising. And once you've begun, momentum can carry you further than you expected.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The power of starting",
+    "items": [
+     "The first minutes are often the hardest",
+     "Try just five minutes",
+     "Make the first step tiny",
+     "Let momentum carry you"
+    ]
+   }
+  },
+  {
+   "say": "But what about tasks we find genuinely boring, or unpleasant, all the way through? Is there a way to make them more attractive? Researchers have tested a delightful idea. Combining something you have to do with something you love to do. Let's look at it next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: bundling temptation."
+   }
+  }
+ ]
+}

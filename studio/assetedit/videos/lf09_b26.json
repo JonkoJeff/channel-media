@@ -1,0 +1,124 @@
+{
+ "id": "lf09_b26",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Have you ever tried to relax, but found your mind keeps returning to an unfinished task? You're watching a film, and suddenly you remember the email you haven't sent. You're lying in bed, and the report pops into your head. The task isn't done. And your mind won't let you forget it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 26,
+    "title": "Consider it done"
+   }
+  },
+  {
+   "say": "Psychologists have studied this. When we have an unfinished goal, thoughts about it tend to keep popping up, especially when we're trying to focus on something else. It's as if the mind keeps a list of open tasks, and occasionally taps you on the shoulder to remind you. That can make it hard to concentrate, and hard to relax.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Unfinished goals intrude."
+   }
+  },
+  {
+   "say": "In two thousand and eleven, researchers E. J. Masicampo and Roy Baumeister published a set of studies with a lovely title. Consider it done. They reminded participants of an important unfinished goal, which tended to cause distracting thoughts later on. But then they gave some participants the chance to make a specific plan for when and how they'd complete it.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "E. J. Masicampo & Roy Baumeister",
+    "where": "Florida State University, published in the Journal of Personality and Social Psychology, 2011",
+    "what": "Participants were reminded of an unfinished goal. Some then made a specific plan for it. Later, intrusive thoughts and performance on a separate task were measured."
+   }
+  },
+  {
+   "say": "And making a plan made a difference. The participants who had made a specific plan showed fewer intrusive thoughts about the goal, and performed better on an unrelated task, compared with those who hadn't planned. They hadn't completed the goal. They had only planned it. But that seemed to be enough to quiet the mind.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_n8_list.jpg",
+    "cap": "A plan quiets the mind"
+   }
+  },
+  {
+   "say": "The researchers suggested that the mind keeps reminding us of unfinished goals because it's worried we'll forget them. Once we've made a clear plan, the mind seems to relax. It's as if it says, okay, this is handled, I can stop nagging you now. The plan acts as a promise to ourselves that the task will be done.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The mind wants a plan."
+   }
+  },
+  {
+   "say": "This connects to a popular idea from the productivity writer David Allen, who recommends capturing all your open tasks in a trusted system outside your head. A notebook, a list, an app. His view is that the mind is a poor place to store reminders. When everything is written down, with a next step, the mind can let go.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Capture everything."
+   }
+  },
+  {
+   "say": "I find this research especially useful for procrastinators. Because it means that even if you're not ready to start a task, you can still make a plan for it. On Thursday morning, after breakfast, I'll write the first page. That simple plan may give you more peace now, and a clearer path when Thursday comes.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A plan is not a promise to start now."
+   }
+  },
+  {
+   "say": "It's especially helpful in the evening. Many people find that writing down tomorrow's tasks before bed, with a plan for the first step, helps them sleep. One study, by Michael Scullin and colleagues, published in two thousand and eighteen, found that people who spent a few minutes writing a to do list before bed tended to fall asleep faster than people who wrote about tasks they had already completed.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Before bed."
+   }
+  },
+  {
+   "say": "So if your mind is buzzing with unfinished tasks tonight, you could try this. Take a piece of paper. Write down each thing that's on your mind. Next to each one, write one small next step, and when you'll do it. Then close the notebook. Consider it done, for tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Write it, then rest."
+   }
+  },
+  {
+   "say": "There's something deeply calming about this. You're not pretending the tasks don't exist. You're not forcing yourself to do them right now. You're simply giving each one a home and a plan. And that lets you be present, in the evening, with your family, your book, or your sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A gift of peace."
+   }
+  },
+  {
+   "say": "So here's what the consider it done research teaches us. Unfinished goals tend to keep popping into our minds. Making a specific plan can reduce those intrusive thoughts, even before we start. Capturing tasks outside our heads lets the mind let go. And a short to do list before bed may help us fall asleep.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Consider it done",
+    "items": [
+     "Unfinished goals keep popping into mind",
+     "A specific plan reduces intrusive thoughts",
+     "Capture tasks outside your head",
+     "A bedtime to-do list may help sleep"
+    ]
+   }
+  },
+  {
+   "say": "We've now explored procrastination from many sides. Next, let's gather everything into a gentle, practical toolkit. Not a list of rules, but a set of tools you can pick from, depending on what kind of procrastination you're facing.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: a gentle toolkit."
+   }
+  }
+ ]
+}

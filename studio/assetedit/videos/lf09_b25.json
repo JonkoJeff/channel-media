@@ -1,0 +1,124 @@
+{
+ "id": "lf09_b25",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine sitting down to work on a big task for four hours straight. No breaks. Just pure focus until it's done. For many people, that thought alone is enough to trigger procrastination. Four hours feels like a mountain. But what if you only had to work for twenty five minutes, and then take a short break?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 25,
+    "title": "The power of short breaks"
+   }
+  },
+  {
+   "say": "That's the idea behind a popular method called the Pomodoro Technique, developed by Francesco Cirillo in the late nineteen eighties. He named it after a tomato shaped kitchen timer he used as a student. Pomodoro is Italian for tomato. The method is simple. Work for twenty five minutes, then take a five minute break. After four rounds, take a longer break.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_n7_timer.jpg",
+    "cap": "Twenty five minutes, then a break"
+   }
+  },
+  {
+   "say": "Why might this help with procrastination? Mostly because it makes starting less frightening. You're not committing to finishing a huge task. You're only committing to twenty five minutes. That's a small, clear, manageable step. And as we've seen, small steps calm the emotional alarm that triggers avoidance.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Why it helps starting."
+   }
+  },
+  {
+   "say": "It also gives you a finish line that's always close. Remember the goal gradient, where people speed up as they approach a reward? With a timer, the reward, a break, is never more than twenty five minutes away. That can help you stay engaged, instead of drifting toward distractions.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A finish line in sight."
+   }
+  },
+  {
+   "say": "Research on attention also suggests that short breaks can help. In a study published in two thousand and eleven, Atsunori Ariga and Alejandro Lleras gave people a long, boring task that required sustained attention. Most people's performance declined over time. But people who had two brief diversions during the task, short switches to something else, did not show the same decline.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Atsunori Ariga & Alejandro Lleras",
+    "where": "University of Illinois, published in Cognition, 2011",
+    "what": "Participants did a long, demanding attention task. Some had two brief diversions during it; others worked without interruption."
+   }
+  },
+  {
+   "say": "The researchers suggested that brief breaks might help the mind stay focused on a long task, perhaps by preventing the goal from fading into the background. It's one study, with a specific kind of task. But it fits with many people's experience. Working in short focused bursts, with small breaks, can feel more sustainable than trying to grind through for hours.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Brief breaks refresh focus."
+   }
+  },
+  {
+   "say": "The kind of break matters too. A break spent scrolling through social media can easily turn into an hour of procrastination. A break spent stretching, walking around the room, looking out of a window, or making a cup of tea is more likely to refresh you, and easier to come back from.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Breaks that actually rest."
+   }
+  },
+  {
+   "say": "And twenty five minutes isn't magic. Some people prefer fifteen minutes of work, others fifty. The important thing is having a clear, limited block of focused time, followed by a real break. Find a rhythm that suits you, and the task in front of you.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Flexible timing."
+   }
+  },
+  {
+   "say": "Many people also find it satisfying to count their rounds. One, two, three blocks of focused time. Each completed round is a small win, a visible sign of progress. And remember, a sense of progress is one of the strongest motivators we have.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Track the rounds."
+   }
+  },
+  {
+   "say": "I like to think of this approach as working in waves. Focus, rest, focus, rest. Like breathing in and breathing out. It's a gentler way of working than trying to hold your breath for hours. And for a mind that tends to avoid, gentle is often exactly what's needed.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Work like waves."
+   }
+  },
+  {
+   "say": "So here's what we've learned about short breaks. Working in short, focused blocks makes starting feel less daunting. A small commitment, like twenty five minutes, calms the urge to avoid. Brief breaks may help sustain attention on long tasks. And breaks work best when they're real rest, not more scrolling.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The power of short breaks",
+    "items": [
+     "Work in short, focused blocks",
+     "A small commitment makes starting easier",
+     "Brief breaks can help sustain attention",
+     "Rest breaks, not scrolling breaks"
+    ]
+   }
+  },
+  {
+   "say": "But what about the tasks you haven't started, the ones that sit in the back of your mind, nagging at you all day, and sometimes all night? Researchers have found a surprisingly simple way to quiet them. Let's look at it next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: consider it done."
+   }
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "id": "lf09_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Picture a tug of war. On one side, a part of you that wants to feel good right now. Avoid the stress, do something pleasant. On the other side, a part of you that thinks ahead, plans, and cares about tomorrow. When you procrastinate, the first side is winning. But what does that tug of war look like in the brain?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 10,
+    "title": "A tug of war in the brain"
+   }
+  },
+  {
+   "say": "Neuroscientists often describe a broad division of labor in the brain. Deeper, older systems, sometimes loosely called the limbic system, are heavily involved in emotion, threat detection and reward. And areas in the front of the brain, especially the prefrontal cortex, are heavily involved in planning, self control and thinking about the future.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_b08_brain.jpg",
+    "cap": "Feeling now, planning later"
+   }
+  },
+  {
+   "say": "I want to be careful, because this is a very simplified picture. The brain doesn't really have one emotional part and one rational part that fight each other. Everything is connected, and these regions work together constantly. But the simplified picture can still help us understand the feeling of being pulled in two directions.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A simplified picture."
+   }
+  },
+  {
+   "say": "One important point is that emotional responses are fast. When you see the task, a feeling of dread or boredom can arise almost instantly. Planning and reasoning about the long term are slower and more effortful. So in the moment, the quick feeling often gets there first, and the urge to avoid is already in motion before the planning mind has caught up.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Emotion is fast."
+   }
+  },
+  {
+   "say": "In one study published in two thousand and eighteen, researchers at Ruhr University Bochum in Germany scanned the brains of a group of adults and compared them with questionnaires about how well people put their intentions into action. They reported that people who found it harder to act on their intentions tended to have a larger amygdala, a region involved in processing emotions and threats.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Caroline Schlüter, Erhan Genç and colleagues",
+    "where": "Ruhr University Bochum, published in Psychological Science, 2018",
+    "what": "Brain scans of adults were compared with questionnaire measures of how well they turn intentions into actions."
+   }
+  },
+  {
+   "say": "They also reported that, in those people, the connection between the amygdala and a region called the dorsal anterior cingulate cortex, which is involved in deciding which actions to take, seemed weaker. One interpretation is that some people may be more sensitive to the possible negative consequences of acting, which could make it harder to start.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Connections matter too."
+   }
+  },
+  {
+   "say": "It's important to say that this was one study, and it found associations, not causes. A brain difference like this isn't destiny. Brains change with experience. And the same person can procrastinate in one area of life and be very proactive in another. But it adds to the picture that procrastination is closely tied to how we handle emotion and uncertainty.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Not destiny."
+   }
+  },
+  {
+   "say": "There's another practical point here. When we're tired, stressed or hungry, the planning side of the tug of war tends to be weaker. Many people notice they procrastinate more late in the day, or after a poor night's sleep. That's not a moral failing. It's a brain running low on resources.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Tired brains procrastinate more."
+   }
+  },
+  {
+   "say": "That suggests a gentle strategy. If you can, try doing your most dreaded tasks when you're freshest. For many people, that's in the morning, after sleep and breakfast. Save easier, more automatic tasks for later in the day, when your planning mind is tired.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Timing your hard tasks."
+   }
+  },
+  {
+   "say": "And because emotion is often the first mover, anything that calms the emotional alarm can help. Taking a slow breath before starting. Reminding yourself that you only need to begin, not finish. Making the first step very small. These things make the task feel less threatening, so the planning mind has a chance to step in.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Calming the alarm."
+   }
+  },
+  {
+   "say": "So here's what neuroscience suggests, in simple terms. Emotional responses to a task can be very fast. Planning and self control are slower and more effortful. Tiredness and stress tend to weaken the planning side. And calming the alarm, then beginning with a tiny step, gives the planning mind a chance to win.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The tug of war in the brain",
+    "items": [
+     "Emotional responses are fast",
+     "Planning and self-control are slower",
+     "Tiredness weakens the planning side",
+     "Calm the alarm, then begin small"
+    ]
+   }
+  },
+  {
+   "say": "And there's another factor that shapes the tug of war. Not just how we feel, but why we're doing the task in the first place. Research suggests that the kind of motivation behind a task makes a big difference to how likely we are to put it off.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: why we do things."
+   }
+  }
+ ]
+}

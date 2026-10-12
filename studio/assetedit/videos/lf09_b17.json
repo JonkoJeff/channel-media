@@ -1,0 +1,124 @@
+{
+ "id": "lf09_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Have you ever noticed that it's sometimes easier to work in a café, or a library, surrounded by other people working? Even though nobody is checking on you, and you don't know anyone there, the quiet presence of others can make it easier to focus. There's a long history of research behind this feeling.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 17,
+    "title": "Better together"
+   }
+  },
+  {
+   "say": "One of the very first experiments in social psychology, published back in eighteen ninety eight, looked at exactly this. A psychologist named Norman Triplett noticed that cyclists seemed to ride faster when racing alongside others than when racing alone against the clock. And he ran a simple experiment with children winding fishing reels, alone or next to another child.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Norman Triplett",
+    "where": "Indiana University, published in the American Journal of Psychology, 1898",
+    "what": "Looked at cycling records and ran an experiment in which children wound fishing reels, alone or alongside another child."
+   }
+  },
+  {
+   "say": "Triplett reported that many of the children wound faster when another child was beside them. Later researchers called this kind of effect social facilitation. The presence of others can boost our performance, especially on simple or well practiced tasks. Although, interestingly, on difficult or new tasks, an audience can sometimes make us perform worse.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Social facilitation."
+   }
+  },
+  {
+   "say": "Psychologist Robert Zajonc later suggested an explanation. The presence of others increases our arousal, our level of alertness. That helps with tasks we already know how to do, but can interfere with tasks that require a lot of careful thought. So company can be a wonderful boost for getting started on routine work.",
+   "show": {
+    "type": "photo",
+    "file": "lf09_n4_cafe.jpg",
+    "cap": "Working alongside others"
+   }
+  },
+  {
+   "say": "In recent years, many people have discovered a practice sometimes called body doubling. Working alongside another person, in the same room or on a video call, each doing your own tasks. The other person doesn't help you. They're just there. And many people, especially those who struggle to start tasks, find this surprisingly effective.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Body doubling."
+   }
+  },
+  {
+   "say": "Why might it help? Partly social facilitation. Partly a gentle sense of accountability. It feels a little awkward to scroll on your phone when someone next to you is working hard. And partly connection. Working alone on a dreaded task can feel lonely and heavy. Working alongside someone feels shared, and lighter.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why company helps."
+   }
+  },
+  {
+   "say": "Accountability can be made more explicit too. Telling a friend what you plan to do today, and checking in with them later. Joining a study group, or a writing group, where everyone shares their goals. Remember the research on deadlines. Visible commitments to others carry more weight than private intentions.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Accountability partners."
+   }
+  },
+  {
+   "say": "The key is that accountability should feel supportive, not shaming. A good accountability partner says, how did it go, and what's your next step? Not, you failed again. Remember what we learned about self forgiveness. Shame tends to make procrastination worse. Warm encouragement tends to help.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "cap": "Gentle accountability."
+   }
+  },
+  {
+   "say": "Today, there are many ways to find this kind of company, even online. Virtual study rooms, co working video calls, and communities where people work quietly together. And of course, there's the simple option of inviting a friend over, both of you with your own tasks, and a pot of tea between you.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Online, too."
+   }
+  },
+  {
+   "say": "I think there's a lovely message in all of this. We often treat procrastination as a private battle, fought alone at our desks. But humans are social creatures. We were never really meant to do everything alone. Sometimes, the simplest solution is just a little company.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "You don't have to do it alone."
+   }
+  },
+  {
+   "say": "So here's what we've learned about working together. The presence of others can boost our performance on simple or familiar tasks. Working alongside someone, even silently, helps many people start. Sharing commitments with others adds gentle pressure. And accountability works best when it's supportive, not shaming.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Better together",
+    "items": [
+     "Others' presence can boost simple tasks",
+     "Body doubling helps many people start",
+     "Visible commitments add gentle pressure",
+     "Supportive, not shaming, accountability"
+    ]
+   }
+  },
+  {
+   "say": "There's another interesting pattern in when people find it easiest to begin new habits. Not just any day, but special days. New Year's Day, the start of a month, even a Monday. Researchers call it the fresh start effect. Let's look at it next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next: fresh starts."
+   }
+  }
+ ]
+}

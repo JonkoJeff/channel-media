@@ -181,3 +181,8 @@ Only these recurring jobs exist: the daily channel-machine task. Disabled: hourl
 - Order = `studio/channels/religion/episode_list.md` (1-10 Bible, 11-20 Christianity, 21-30 Quran; Hindu/Buddhism 301-310 is a separate series, thumbs ready). Scripts are written by the owner via ChatGPT in `studio/channels/religion/stories/NN.txt` (format: stories/FORMAT.md). The machine does NOT write or rewrite scripts: it only parses, voices, renders, checks, publishes.
 - Length ~1 hour per video, 4 Shorts per video (from the SHORTS header), posted via key 2 like the long video. Thumbnail = thumbs file with the same number (01-10 bible_*, Q01-Q10 for 21-30, 301-310). Missing thumb or script -> one-line report, skip.
 - PRIORITY: Belief Through Time comes first. If tokens run short, Money at Night is cut first (fewer/shorter videos), then Crazy Facts; never Belief Through Time.
+
+## RELIGION: order and titles (owner, 12 Oct 2026, replaces the "order" lines above)
+- Publish in MIXED order for variety, not 1-30: rotate Bible, Quran, Christianity: 1, 21, 11, 2, 22, 12, 3, 23, 13, ... (an episode whose script or thumbnail is missing is skipped until the next one that is ready; never reorder inside a tradition).
+- YouTube title = the story title only, from episode_list.md, WITHOUT the list number and without "Part N" / "Episode N".
+- Priority: 1 Belief Through Time, 2 Crazy Facts, 3 Money at Night (lowest; cut or shorten first when tokens run short).

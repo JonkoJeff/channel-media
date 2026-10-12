@@ -14,3 +14,4 @@ The machine adds a rule here every time a published video had a problem. Every n
 
 ## Checked videos
 checked: [lf01, sh01a]
+- 2026-10-12: When the Cloudflare free AI quota is used up, photos.py falls back to Openverse with short queries. Those photos are often off-topic or show brands (Rolex, Harry Potter, Carnival). ALWAYS check a contact sheet and turn unsuitable photo segments into char segments before rendering. Budget ~40 AI images/day across both channels.

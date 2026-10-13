@@ -77,6 +77,7 @@ elif cmd == "shorts":
     print(f"::notice::{vid}: {len(done)} Shorts scheduled")
 elif cmd == "list":   # a = channel key (religion|crazyfacts|moneyatnight): recent posts of that account, to avoid duplicates after a timeout
     yt_account(sys.argv[2] if len(sys.argv) > 2 and sys.argv[2] else "crazyfacts"); st, p = call("GET", "/posts?limit=20"); ps = p.get("posts", p if isinstance(p, list) else [])
+    print("::notice::raw " + json.dumps(p)[:1200].replace("\n", " "))
     for x in ps[:20]: print(f"::notice::{x.get('_id')} {x.get('status')} {x.get('scheduledFor')} {str(x.get('content', ''))[:50]!r}")
 elif cmd == "status":  # a = comma-separated Zernio post ids
     for pid in sys.argv[2].split(","):

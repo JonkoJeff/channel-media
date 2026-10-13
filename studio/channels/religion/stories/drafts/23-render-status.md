@@ -1,0 +1,1 @@
+Episode 23 has a complete machine-script Git blob, SHA 4ab52a1121a1b7f81c1cea0caf6d8a7475ebcb8e, containing 8,183 narration words, 18 chapters, and four Shorts. This blob has not yet been attached to main because the GitHub ref update was blocked. Keep episode marked incomplete on main until stories/23.txt is committed.

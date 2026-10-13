@@ -64,7 +64,7 @@ elif cmd == "shorts":
     plid = None if ch == "religion" else cfg.get("playlists", {}).get("Money Shorts" if ch == "moneyatnight" else "Psychology Shorts")
     for sid, url in sorted(res.get("shorts", {}).items()):
         if sid in done: continue
-        yt_account(ch); m = meta.get(sid, {}); f = f"/tmp/{sid}.mp4"; urllib.request.urlretrieve(url, f)
+        yt_account(ch); m = meta.get(sid, {}); f = f"/tmp/{sid}.mp4"; os.path.exists(f) or urllib.request.urlretrieve(url, f)
         _, ps = call("POST", "/media/presign", {"filename": sid + ".mp4", "contentType": "video/mp4", "size": os.path.getsize(f)})
         urllib.request.urlopen(urllib.request.Request(ps["uploadUrl"], data=open(f, "rb").read(), method="PUT", headers={"Content-Type": "video/mp4"}), timeout=600).read()
         when = f"{day + dt.timedelta(days=n // len(slots))}T{slots[n % len(slots)]}"

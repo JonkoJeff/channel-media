@@ -13,8 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - if: inputs.cmd == 'post'
-        run: curl -sSL -o /tmp/${{ inputs.a }}.mp4 https://github.com/${{ github.repository }}/releases/download/${{ inputs.a }}/${{ inputs.a }}.mp4
+      - if: inputs.cmd == 'post' || inputs.cmd == 'shorts'
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: gh release download "${{ inputs.a }}" --repo ${{ github.repository }} --pattern "*.mp4" --dir /tmp --clobber
       - run: python3 studio/yt/zernio.py "${{ inputs.cmd }}" "${{ inputs.a }}" "${{ inputs.b }}"
         env:
           ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}

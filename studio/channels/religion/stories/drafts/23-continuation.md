@@ -51,3 +51,12 @@ Any Arabic displayed on screen must be checked against a reliable Quranic text. 
 The phrase heavens and earth opens a space of immense scale in the imagination. The reference to water and living things brings that space close to human experience. Whatever interpretation readers consider most persuasive, the movement between cosmic scale and ordinary life is part of the passage's impact.
 
 Our task is to allow that movement to be heard without pretending that the English language removes every difficulty. When we identify the limits of our own translation, we make the story more trustworthy.
+
+
+## 15. Reading Across the Quran
+
+A single verse can be the doorway into a subject, but it is not the entire room. Surah Al-Anbiya places its statement about heavens and earth near passages on mountains, roads, the protected sky, and the movement of night and day. Elsewhere, Surah Fussilat speaks of the heaven as smoke, while Surah Al-Mulk invites attention to the arrangement of the heavens. Each passage contributes something, and each belongs to its own immediate context.
+
+When commentators compare passages, they ask whether a word has a related use elsewhere and whether one description clarifies another. This is a familiar method of scriptural interpretation. It can be fruitful, but it does not remove the need to notice differences. A verse about the beginning of the world is not always trying to answer the same question as a verse about the sky seen from the ground.
+
+Reading across passages creates a sense of continuity. The listener hears repeated attention to the heavens, earth, rain, and living things. At the same time, the narration shifts its focus. Sometimes the sky is a sign to be observed. Sometimes the world is described as created. Sometimes the emphasis falls on the choices people make within it.

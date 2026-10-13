@@ -18,7 +18,7 @@ def call(method, path, body=None):
     req = urllib.request.Request(API + path, method=method, data=json.dumps(body).encode() if body is not None else None,
                                  headers={"Authorization": "Bearer " + KEY, "Content-Type": "application/json"})
     try:
-        with urllib.request.urlopen(req, timeout=120) as r: return r.status, json.loads(r.read() or b"{}")
+        with urllib.request.urlopen(req, timeout=600) as r: return r.status, json.loads(r.read() or b"{}")
     except urllib.error.HTTPError as e: sys.exit(f"::error::Zernio {method} {path}: {e.code} {e.read()[:800]}")
 
 
@@ -74,6 +74,9 @@ elif cmd == "shorts":
         done[sid] = {"zernio_id": post.get("_id"), "when": when}; n += 1
         json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1); print(f"{sid} -> {when}")
     print(f"::notice::{vid}: {len(done)} Shorts scheduled")
+elif cmd == "list":   # a = channel key (religion|crazyfacts|moneyatnight): recent posts of that account, to avoid duplicates after a timeout
+    yt_account(sys.argv[2] if len(sys.argv) > 2 and sys.argv[2] else "crazyfacts"); st, p = call("GET", "/posts?limit=20"); ps = p.get("posts", p if isinstance(p, list) else [])
+    for x in ps[:20]: print(f"::notice::{x.get('_id')} {x.get('status')} {x.get('scheduledFor')} {str(x.get('content', ''))[:50]!r}")
 elif cmd == "status":  # a = comma-separated Zernio post ids
     for pid in sys.argv[2].split(","):
         st, p = call("GET", f"/posts/{pid}"); post = p.get("post", p)

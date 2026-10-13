@@ -189,3 +189,6 @@ Only these recurring jobs exist: the daily channel-machine task. Disabled: hourl
 
 ## DAILY RULE (owner, 13 Oct 2026, 00:02)
 Belief Through Time gets ONE video EVERY day (plus its 4 Shorts). If that cannot be guaranteed (no script ready, tokens/limits short), the posting of Money at Night is STOPPED completely (no long video, no Shorts) until Belief Through Time is covered again. Crazy Facts keeps running. Default times (owner gave none): long 19:00 Europe/Amsterdam daily; Shorts 10:00, 13:00, 16:00, 22:00 on the following days (zernio.yml cmd=shorts DATE@10:00,13:00,16:00,22:00). Build with religion.yml ep=NN, then zernio.yml cmd=post a=relNN.
+
+## MONEY AT NIGHT REMOVED (owner, 13 Oct 2026, 08:14)
+Money at Night is SCRAPPED: the owner rebuilt that YouTube channel into Belief Through Time. Only TWO channels remain: Crazy Facts and Belief Through Time. Do NOT build, render, schedule or post anything for Money at Night (mnNN, NB/NC/BS characters, studio/channels/moneyatnight). This overrides every earlier MaN line, the priority list and the DAILY RULE's MaN clause (nothing left to stop). Zernio key 1 = Crazy Facts only; key 2 = Belief Through Time. Free tokens go to Belief Through Time first, then Crazy Facts.

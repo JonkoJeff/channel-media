@@ -103,3 +103,13 @@ TOKENS
 EINDE VAN ELKE RUN (max 4 regels)
 Wat is gepubliceerd/ingepland (id, tijd), wat is overgeslagen en waarom, wat de eigenaar moet doen (alleen als nodig).
 ```
+
+# 11. Herdr-modus: Codex schrijft, Copilot controleert, Claude rendert en publiceert
+Start: `claude --agent channel-operator` in een herdr-pane; Codex (ChatGPT) en Copilot staan in panes ernaast (`herdr integration status`; flags via `herdr agent --help`, niet raden).
+Dagcyclus, zonder te wachten op de eigenaar:
+1. **Wachtrij**: lees `stories/README.md`. Zijn er minder dan 3 COMPLETE scripts in voorraad voor Belief Through Time, dan wordt Codex ingezet (stap 2), anders direct naar stap 4.
+2. **Codex schrijft**: één zelfstandige opdracht per script: aflevering, titel uit `episode_list.md`, `stories/FORMAT.md`, 1 uur, 4 SHORTS-regels, specifieke VISUAL-regels, bronnen, uitvoer `stories/NN.txt`, verboden: verzonnen feiten, geld, afbeelding van de Profeet. Volgorde van rotatie: Bijbel, Koran, Christendom door elkaar.
+3. **Copilot controleert** (gratis, goedkoop): format, aantal scènes, tijdstempels oplopend, SHORTS-regels aanwezig, geen verboden woorden; schrijft een korte `NN.check.txt`. Claude draait daarnaast `longform.validate` en neemt een steekproef van 5 scènes. Eén correctieronde naar Codex; faalt het opnieuw: overslaan en één regel melden.
+4. **Claude rendert**: `religion.yml ep=NN`, wacht in één lus, `frames.yml`, QC (zie 8), `zernio.yml cmd=post` (19:00) en `cmd=shorts`. Crazy Facts idem met `render-long.yml`.
+5. **Vastleggen**: README-wachtrij bijwerken, result.json, één regel naar de eigenaar.
+Tokenspreiding: schrijf- en controlewerk draait op ChatGPT/Copilot; Claude draagt alleen orkestratie, QC en posten. Voorraad van 3 scripts vooruit houdt de dagelijkse video gegarandeerd. Is een andere AI niet bereikbaar, dan doorgaan met wat er is en melden; nooit zelf scripts schrijven tenzij de eigenaar dat zegt.

@@ -69,3 +69,18 @@ A documentary could return to the same landscape three times. First we see a dis
 The Quran is not organized as a single uninterrupted textbook chapter on cosmology. References to creation are distributed across passages whose themes and rhetorical purposes vary. Collecting those statements into one complete physical timeline requires interpretation. A careful documentary identifies where that work begins.
 
 The joined-heavens verse has its own distinct contribution to the conversation. Reading it alongside related passages deepens appreciation without requiring the short verse to carry every detail mentioned elsewhere. Careful comparison allows the text's several emphases to remain visible.
+
+
+## 16. The Difference Between Illustration and Evidence
+
+A camera creates a powerful impression of direct access. When an image shows a landscape, the viewer can recognize details that are genuinely there. When a digital animation shows an unobserved cosmic beginning, the result may look equally convincing, even though every frame is an interpretation. That visual similarity can mislead if the narration fails to explain what has been reconstructed.
+
+For this documentary, we should reserve confident labels for things we can identify. A photograph of the Pillars of Creation is an image of a known astronomical region, not an image of Quranic creation being recorded. A picture of dry earth after rain can illustrate an agricultural interpretation without proving that it is the only meaning of a verse. A manuscript page can show the history of textual transmission but cannot establish the truth of every explanation written around it.
+
+Visual honesty does not require empty screens. It allows us to choose images carefully. The Hubble Ultra Deep Field conveys the variety of remote galaxies. A photograph of the Nile Delta shows how water can shape a landscape. A moonrise reminds us of recurring celestial patterns visible to ordinary people. Each image contributes a recognizable subject while leaving interpretation to the words of the narration.
+
+There is also a responsibility to identify sources and permissions. Not every photograph on the internet is free to use, and a familiar image may have a complicated credit history. The production team should confirm its source, license, and attribution before publication. If a suitable image cannot be verified, a simple reference card is better than a misleading substitute.
+
+In discussing sacred texts, exactness extends to typography. A decorative script may be visually beautiful and still be wrong. A verse reference, a carefully checked paraphrase, and restrained ornament are enough to establish the subject. The filmmaker need not invent Arabic lettering for the sake of atmosphere.
+
+The discipline of using images as illustrations rather than witnesses may seem like a small production choice. In reality it protects the viewer's ability to distinguish belief, interpretation, and observation. That is especially valuable for a subject whose earliest events lie beyond human memory.

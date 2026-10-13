@@ -30,6 +30,7 @@ def save(): json.dump(cfg, open(CFG, "w"), indent=1)
 
 def yt_account(ch="crazyfacts"):  # channel key: crazyfacts (default), moneyatnight or religion (own Zernio account / key)
     global KEY
+    if ch == "religion2": KEY = KEY2; return "-"   # old key-2 account: only for delete/status of leftovers
     if ch == "religion" and cfg.get("religion_key") == 2: KEY = KEY2 or sys.exit("::error::ZERNIO_API_KEY_2 missing")   # default: religion = 2nd YouTube account of key 1 (owner, 13 Oct)
     return cfg.get("youtube", {}).get(ch) or sys.exit(f"::error::no YouTube account for {ch} in zernio.json; run 'accounts' after connecting it in Zernio")
 

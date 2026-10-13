@@ -193,3 +193,8 @@ Belief Through Time gets ONE video EVERY day (plus its 4 Shorts). If that cannot
 ## MONEY AT NIGHT REMOVED (owner, 13 Oct 2026, 08:14)
 Money at Night is SCRAPPED: the owner rebuilt that YouTube channel into Belief Through Time. Only TWO channels remain: Crazy Facts and Belief Through Time. Do NOT build, render, schedule or post anything for Money at Night (mnNN, NB/NC/BS characters, studio/channels/moneyatnight). This overrides every earlier MaN line, the priority list and the DAILY RULE's MaN clause (nothing left to stop). Zernio key 1 = Crazy Facts only; key 2 = Belief Through Time. Free tokens go to Belief Through Time first, then Crazy Facts.
 Zernio (owner, 13 Oct 08:30): key 2 does nothing. Belief Through Time posts via KEY 1, on the 2nd YouTube account (the former Money at Night account, id in zernio.json youtube.religion). `religion_key: 1` in zernio.json.
+
+## NO MONEY VIDEOS EVER (owner, 13 Oct 17:21)
+Never again any video about money/finance on any channel. Scheduled Money at Night posts were deleted. Repo is PRIVATE since 13 Oct: release downloads must use the GITHUB_TOKEN (gh), not anonymous curl.
+## VARIETY (owner, 13 Oct)
+Vary thumbnails and videos: rotate characters, backgrounds, layouts, colours, headline styles; no two consecutive uploads with the same look.

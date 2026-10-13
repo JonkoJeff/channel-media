@@ -84,7 +84,8 @@ elif cmd == "list":   # a = channel key (religion|crazyfacts|moneyatnight): rece
 elif cmd == "delete":   # a = comma-separated Zernio post ids (duplicates created by a timed-out retry)
     yt_account(sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] else "crazyfacts")
     for pid in sys.argv[2].split(","): st, _ = call("DELETE", f"/posts/{pid}"); print(f"::notice::deleted {pid}: {st}")
-elif cmd == "status":  # a = comma-separated Zernio post ids
+elif cmd == "status":  # a = comma-separated Zernio post ids, b = channel key (religion uses account 2)
+    yt_account(sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] else "crazyfacts")
     for pid in sys.argv[2].split(","):
         st, p = call("GET", f"/posts/{pid}"); post = p.get("post", p)
         print(f"::notice::{pid} {post.get('status')} {post.get('scheduledFor')} " + json.dumps([{k: v for k, v in x.items() if k not in ("accountId", "_id")} for x in post.get("platforms", [])])[:700])

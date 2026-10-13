@@ -14,13 +14,15 @@ import traceback
 def _hook(t, e, tb): print("::error::" + " | ".join("".join(traceback.format_exception(t, e, tb)).splitlines())[-900:]); sys.exit(1)
 sys.excepthook = _hook
 
-def call(method, path, body=None):
+def call(method, path, body=None, soft=False):
     req = urllib.request.Request(API + path, method=method, data=json.dumps(body).encode() if body is not None else None,
                                  headers={"Authorization": "Bearer " + KEY, "Content-Type": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=600) as r: return r.status, json.loads(r.read() or b"{}")
     except urllib.error.HTTPError as e: sys.exit(f"::error::Zernio {method} {path}: {e.code} {e.read()[:800]}")
-    except Exception as e: sys.exit(f"::error::Zernio {method} {path}: {type(e).__name__} {str(e)[:300]}")
+    except Exception as e:
+        if soft: print(f"::warning::{method} {path} no answer ({type(e).__name__}); checking whether the post exists"); return None, None
+        sys.exit(f"::error::Zernio {method} {path}: {type(e).__name__} {str(e)[:300]}")
 
 
 def save(): json.dump(cfg, open(CFG, "w"), indent=1)
@@ -79,6 +81,9 @@ elif cmd == "list":   # a = channel key (religion|crazyfacts|moneyatnight): rece
     yt_account(sys.argv[2] if len(sys.argv) > 2 and sys.argv[2] else "crazyfacts"); st, p = call("GET", "/posts?limit=20"); ps = p.get("posts", p if isinstance(p, list) else [])
     print("::notice::raw " + json.dumps(p)[:1200].replace("\n", " "))
     for x in ps[:20]: print(f"::notice::{x.get('_id')} {x.get('status')} {x.get('scheduledFor')} {str(x.get('content', ''))[:50]!r}")
+elif cmd == "delete":   # a = comma-separated Zernio post ids (duplicates created by a timed-out retry)
+    yt_account(sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] else "crazyfacts")
+    for pid in sys.argv[2].split(","): st, _ = call("DELETE", f"/posts/{pid}"); print(f"::notice::deleted {pid}: {st}")
 elif cmd == "status":  # a = comma-separated Zernio post ids
     for pid in sys.argv[2].split(","):
         st, p = call("GET", f"/posts/{pid}"); post = p.get("post", p)
@@ -106,7 +111,14 @@ elif cmd == "post":
             "mediaItems": [{"type": "video", "url": ps["publicUrl"], "thumbnail": res["thumb"]}],
             "platforms": [{"platform": "youtube", "accountId": yt_account(v.get("channel", "crazyfacts")), "platformSpecificData": psd}],
             "scheduledFor": when, "timezone": "Europe/Amsterdam"}
-    st, p = call("POST", "/posts", body); post = p.get("post", p)
-    if st == 207 or post.get("status") == "failed": sys.exit(f"::error::Zernio post failed: {json.dumps(post)[:800]}")
+    st, p = call("POST", "/posts", body, soft=True)
+    if st is None:   # big video: Zernio creates the post but may not answer in time. NEVER post again: find it.
+        import time; time.sleep(20); _, lp = call("GET", "/posts?limit=20"); key = body["content"][:40]
+        found = [x for x in lp.get("posts", []) if str(x.get("content", "")).startswith(key) and x.get("status") in ("scheduled", "publishing", "published")]
+        if not found: sys.exit("::error::Zernio gave no answer and no scheduled post was found; check manually before retrying")
+        post = found[0]
+    else:
+        post = p.get("post", p)
+        if st == 207 or post.get("status") == "failed": sys.exit(f"::error::Zernio post failed: {json.dumps(post)[:800]}")
     res.update(zernio_id=post.get("_id"), scheduled=when + "+02:00", route="zernio"); json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1)
     print(f"::notice::{vid} scheduled via Zernio for {when}: post {post.get('_id')}")

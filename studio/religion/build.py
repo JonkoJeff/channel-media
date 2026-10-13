@@ -48,11 +48,15 @@ assert scenes, "no scenes parsed"; print(f"{len(scenes)} scenes, {sum(len(s['say
 
 # ---------- images (public domain / CC0 only) ----------
 lic_ok = re.compile(r"^(public domain|pd[- ]|cc0|cc-0)", re.I); ATTR = []
+CITY = re.compile(r"(?i)building|architecture|city|cities|street|people|person|portrait|bridge|office|urban|vehicle|car |cars|transport|ship|boat|train|airport|economy|industry|agricultur|farm|workers|military|war |sport|ski|tourism|monument|church|castle|house|road|village|town|night photography of cities|london|moscow|russia")
+NATURE = re.compile(r"(?i)landscape|sky|sea|ocean|water|mountain|desert|cloud|rain|forest|lake|river|beach|sunrise|sunset|dawn|dusk|star|moon|nature|coast|valley|waterfall|grass|geolog|rock|earth|space|astronomy|horizon|mist|fog|stone|hill|meadow|painting|art|manuscript|calligraph|mosque|bible|jesus|temple|ruins|archaeolog|egypt|mesopotamia|ancient")
 def wm(q):
     u = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(dict(action="query", generator="search", gsrsearch=q + " filetype:bitmap", gsrnamespace=6, gsrlimit=15, prop="imageinfo", iiprop="url|extmetadata|size", iiurlwidth=2400, format="json"))
     r = json.loads(get(u)).get("query", {}).get("pages", {}); out = []
     for p in sorted(r.values(), key=lambda p: p.get("index", 99)):
         ii = (p.get("imageinfo") or [{}])[0]; md = ii.get("extmetadata", {}); lic = md.get("LicenseShortName", {}).get("value", "")
+        cats = md.get("Categories", {}).get("value", "")
+        if CITY.search(cats) or not NATURE.search(cats + " " + p["title"]): continue   # Wikimedia categories are far more reliable than file titles
         if lic_ok.match(lic) and ii.get("width", 0) >= 1200 and ii.get("thumburl") and not re.search(r"(?i)\.(svg|tif|gif)|logo|flag|coat of arms", p["title"]):
             a = re.sub("<[^>]+>", "", html.unescape(md.get("Artist", {}).get("value", "")))[:80]
             out.append((ii["thumburl"], f"{p['title'][5:]} - {a or 'unknown'} - {lic} - {ii.get('descriptionurl')}"))
@@ -98,7 +102,9 @@ def find(sc):
         try:
             if not os.path.exists(fn): open(fn, "wb").write(get(url)); time.sleep(0.4)
             im = Image.open(fn); im.verify()
-            if Image.open(fn).size[0] >= 1300: got.append(fn); ATTR.append(at); POOL.append(fn)
+            im2 = Image.open(fn); hsv = np.asarray(im2.convert("RGB").resize((64, 36)).convert("HSV")).astype(float)
+            ok = im2.size[0] >= 1300 and (hsv[..., 1].mean() > 28 or "Met Open" in at) and hsv[..., 2].mean() > 45   # not black-and-white, not nearly black
+            if ok: got.append(fn); ATTR.append(at); POOL.append(fn)
         except Exception as e: print("img fail", str(e)[:80])
         if len(got) >= 3: break
     CACHE[q] = got; return got

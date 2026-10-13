@@ -30,7 +30,7 @@ def save(): json.dump(cfg, open(CFG, "w"), indent=1)
 
 def yt_account(ch="crazyfacts"):  # channel key: crazyfacts (default), moneyatnight or religion (own Zernio account / key)
     global KEY
-    if ch == "religion": KEY = KEY2 or sys.exit("::error::ZERNIO_API_KEY_2 missing")
+    if ch == "religion" and cfg.get("religion_key") == 2: KEY = KEY2 or sys.exit("::error::ZERNIO_API_KEY_2 missing")   # default: religion = 2nd YouTube account of key 1 (owner, 13 Oct)
     return cfg.get("youtube", {}).get(ch) or sys.exit(f"::error::no YouTube account for {ch} in zernio.json; run 'accounts' after connecting it in Zernio")
 
 
@@ -44,7 +44,7 @@ elif cmd == "accounts":
     _, a = call("GET", "/accounts"); acc = a.get("accounts", a if isinstance(a, list) else [])
     cfg["accounts"] = [{k: x.get(k) for k in ("_id", "id", "platform", "username", "displayName", "name")} for x in acc]
     yt = [x for x in cfg["accounts"] if x["platform"] == "youtube"]
-    cfg["youtube"] = {("moneyatnight" if "money" in (x.get("username") or "").lower() else "crazyfacts"): x.get("_id") or x.get("id") for x in yt}
+    cfg["youtube"] = {("crazyfacts" if "crazy" in (x.get("username") or "").lower() else "religion"): x.get("_id") or x.get("id") for x in yt}
     save(); print("::notice::Zernio accounts: " + ", ".join(f"{x['platform']}:{x.get('username') or x.get('displayName') or x.get('name')}" for x in cfg["accounts"]))
 elif cmd == "playlist":   # a = "Title|Title2" (prefix "moneyatnight:" for Money at Night), b = shared description
     for t in sys.argv[2].split("|"):

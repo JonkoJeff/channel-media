@@ -8,7 +8,7 @@ Machine-ingest narration file for the first story: [21.txt](21.txt), following s
 
 ## Production handoff
 
-- Use a completed script file as the narration source. Read only its NARRATION blocks. Do not ask another model to rewrite, summarize, expand or generate the script.
+- Use a completed script file as the narration source. Read only its NARRATION blocks. Do not ask another model to rewrite, summarize or expand a COMPLETE script. New scripts for PLANNED rows are written by Codex (ChatGPT) per `.claude/agents/channel-operator.md` section 11 (owner, 13 Oct 2026).
 - Timestamps are calculated speech estimates until audio exists. Align them to actual audio for the finished video and description. Do not narrate timestamps or directions.
 - Every episode needs >=60:00 of substantive narration. Aim for approximately 8,000–9,000 original spoken words at a natural 120–130 wpm; check both word count and real audio duration. Different voices and pronunciation can change duration. No repeats or long silences to manufacture runtime.
 - Existing voice: Kokoro bm_lewis, speed 0.92 as a starting point; low, warm, unhurried documentary delivery, consistent across the series. No theatrical divine voices, mockery, religious ranking, proselytizing, shock hooks or stereotyped accents.

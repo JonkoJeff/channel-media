@@ -198,3 +198,4 @@ Zernio (owner, 13 Oct 08:30): key 2 does nothing. Belief Through Time posts via 
 Never again any video about money/finance on any channel. Scheduled Money at Night posts were deleted. Repo is PRIVATE since 13 Oct: release downloads must use the GITHUB_TOKEN (gh), not anonymous curl.
 ## VARIETY (owner, 13 Oct)
 Vary thumbnails and videos: rotate characters, backgrounds, layouts, colours, headline styles; no two consecutive uploads with the same look.
+Thumb options in the video JSON (longform.thumbnail): `"mirror": true` = sprite left / text right (background flipped, sprite not, so "?" stays readable); `"accent": "#RRGGBB"` = colour of the word block + rim (use light colours; text on the block is dark). Used: lf09 amber/left, lf11 #FF8FB1/mirror, lf10 #4FD1C5/left.

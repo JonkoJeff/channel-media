@@ -158,8 +158,8 @@ def card_static(d, sh, oy):
         d.rounded_rectangle((X0 + 70, Y0 + 60, X0 + 470, Y0 + 130), 20, fill=INK)
         d.text((X0 + 98, Y0 + 72), "THE STUDY", font=font(44, "Black"), fill=CREAM)
         y = text_block(d, (X0 + 70, Y0 + 180), sh["who"], font(56, "Black"), X1 - X0 - 140)
-        d.text((X0 + 70, y + 6), sh["where"], font=font(42, "SemiBold"), fill=MUTED)
-        text_block(d, (X0 + 70, y + 90), sh["what"], font(48, "Medium"), X1 - X0 - 140, gap=1.3)
+        y = text_block(d, (X0 + 70, y + 6), sh["where"], font(42, "SemiBold"), X1 - X0 - 140, fill=MUTED)  # wrap: long "where" lines ran off the card (lf10)
+        text_block(d, (X0 + 70, y + 34), sh["what"], font(48, "Medium"), X1 - X0 - 140, gap=1.3)
     if t == "curve":
         ax0, ay0, ax1, ay1 = X0 + 130, Y0 + 210, X1 - 90, Y1 - 120
         d.line((ax0, ay1, ax1, ay1), fill=INK, width=6); d.line((ax0, ay0, ax0, ay1), fill=INK, width=6)
@@ -310,9 +310,11 @@ def thumbnail(v, path):
     th = v["thumb"]; img = Image.open(os.path.join(CH, BGS[th["bg"]]["file_path"])).convert("RGB").resize((1280, 720), Image.LANCZOS)
     img = ImageEnhance.Color(img.filter(ImageFilter.GaussianBlur(7))).enhance(1.6)
     calm = v.get("vibe") == "calm"  # calm videos: warm night grade, amber rim, last word on a warm block (trend: text left + one word on a colour block)
+    mir = th.get("mirror"); acc = tuple(int(th["accent"][i:i + 2], 16) for i in (1, 3, 5)) if th.get("accent") else (255, 176, 59)  # variety: text right/sprite left, own block + rim colour
     img = Image.blend(img, Image.new("RGB", img.size, (255, 140, 50) if calm else (24, 110, 190)), 0.22 if calm else 0.28)
     yy, xx = np.mgrid[0:720, 0:1280]; vig = 1 - 0.45 * (((xx - 900) / 900) ** 2 + ((yy - 360) / 520) ** 2).clip(0, 1)
     img = Image.fromarray((np.asarray(img) * vig[..., None]).astype(np.uint8))
+    if mir: img = img.transpose(Image.FLIP_LEFT_RIGHT)  # mirror only the background: sprites carry symbols ("?") that must not flip
     hd = os.path.join(CH, "assets_hd", os.path.basename(ASSETS[th["sprite"]]["file_path"])); k = 4 if os.path.exists(hd) else 1  # sharp 4x sprite when available
     sp = Image.open(hd if k == 4 else os.path.join(CH, ASSETS[th["sprite"]]["file_path"])).convert("RGBA")
     sp = ImageEnhance.Color(sp.resize((round(sp.width * 3.15 / k), round(sp.height * 3.15 / k)), Image.LANCZOS)).enhance(1.25)
@@ -322,8 +324,8 @@ def thumbnail(v, path):
     if al[0, :].max() > 0: al[:F, :] *= ramp[:, None]
     if al[:, -1].max() > 0: al[:, -F:] *= ramp[::-1][None, :]
     P = 40; a = Image.new("L", (w + 2 * P, h + 2 * P)); a.paste(Image.fromarray(al.astype(np.uint8)), (P, P))
-    sp.putalpha(Image.fromarray(al.astype(np.uint8))); x0, y0 = 1280 - w - 10, 720 - h + 150
-    for grow, col in ((22, (255, 186, 80) if calm else (0, 230, 255)), (10, (255, 255, 255))):  # rim light, then white sticker edge
+    sp.putalpha(Image.fromarray(al.astype(np.uint8))); x0, y0 = (10 if mir else 1280 - w - 10), 720 - h + 150
+    for grow, col in ((22, (acc if th.get("accent") else (255, 186, 80)) if calm else (0, 230, 255)), (10, (255, 255, 255))):  # rim light, then white sticker edge
         rim = Image.new("RGBA", a.size, col + (0,)); rim.putalpha(a.point(lambda p: 255 if p > 128 else 0).filter(ImageFilter.MaxFilter(grow * 2 + 1)))
         if grow > 12: rim = rim.filter(ImageFilter.GaussianBlur(6))
         img.paste(rim, (x0 - P, y0 - P), rim)
@@ -331,12 +333,13 @@ def thumbnail(v, path):
     d = ImageDraw.Draw(img); y = 60; lines = th["text"].split("|")
     for i, ln in enumerate(lines):
         f = font(150 if len(ln) <= 7 else 124, "Black"); last = i == len(lines) - 1; fill = (255, 230, 0) if last else (255, 255, 255)
+        tw = d.textlength(ln, font=f); L = 1280 - 120 - tw if mir else 50  # left edge of the line (right-aligned when mirrored)
         if calm and last and len(lines) > 1:  # warm block behind the last word
-            tw = d.textlength(ln, font=f); d.rounded_rectangle((62, y + 34, 62 + tw + 56, y + f.size * 1.02 + 34), 22, fill=(0, 0, 0))
-            d.rounded_rectangle((50, y + 22, 50 + tw + 56, y + f.size * 1.02 + 22), 22, fill=(255, 176, 59), outline=(0, 0, 0), width=8)
-            d.text((78, y), ln, font=f, fill=(28, 20, 14)); y += f.size * 1.12; continue
-        d.text((62, y + 10), ln, font=f, fill=(0, 0, 0), stroke_width=16, stroke_fill=(0, 0, 0))  # hard drop shadow
-        d.text((50, y), ln, font=f, fill=fill, stroke_width=16, stroke_fill=(0, 0, 0)); y += f.size * 1.05
+            d.rounded_rectangle((L + 12, y + 34, L + 12 + tw + 56, y + f.size * 1.02 + 34), 22, fill=(0, 0, 0))
+            d.rounded_rectangle((L, y + 22, L + tw + 56, y + f.size * 1.02 + 22), 22, fill=acc, outline=(0, 0, 0), width=8)
+            d.text((L + 28, y), ln, font=f, fill=(28, 20, 14)); y += f.size * 1.12; continue
+        d.text((L + 12, y + 10), ln, font=f, fill=(0, 0, 0), stroke_width=16, stroke_fill=(0, 0, 0))  # hard drop shadow
+        d.text((L, y), ln, font=f, fill=fill, stroke_width=16, stroke_fill=(0, 0, 0)); y += f.size * 1.05
     img.save(path, quality=95)
 
 def description(v, timing, series, path):
@@ -344,7 +347,7 @@ def description(v, timing, series, path):
     chap = [("0:00", "Intro")] + [(ts(timing[i]["start"]), s["show"]["title"]) for i, s in enumerate(v["segments"]) if s["show"]["type"] == "chapter"]
     idx = [x["id"] for x in series].index(v["id"])
     nxt = series[idx + 1:idx + 4]
-    lines = [v["desc"]] + (["", "\u23f1 Chapters"] + [f"{a} {b}" for a, b in chap] if v.get("vibe") != "calm" else []) + ["", "\U0001f52e Coming up next on the channel:"]
+    lines = [v["desc"]] + (["", "\u23f1 Chapters"] + [f"{a} {b}" for a, b in chap] if v.get("vibe") != "calm" else []) + (["", "\U0001f52e Coming up next on the channel:"] if nxt else [])  # no empty header when nothing is planned
     lines += [f"\u25b8 {x['title']}" for x in nxt] + ["", "\U0001f4da Sources"] + [f"\u2022 {s}" for s in v["sources"]]
     cpath = os.path.join(CH, "photos", "credits.json"); used = [s["show"]["file"] for s in v["segments"] if s["show"]["type"] == "photo"]
     if used and os.path.exists(cpath):

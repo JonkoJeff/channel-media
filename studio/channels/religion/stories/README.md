@@ -24,7 +24,7 @@ Machine-ingest narration file for the first story: [21.txt](21.txt), following s
 | Position | Episode | Approved title | Script status | File |
 | ---: | --- | --- | --- | --- |
 | 1 | 21 (Q01 thumb) | Quran — Before Humanity: The Creation of the Heavens and Earth | COMPLETE; 8,611 spoken words, 66:14 at 130 wpm before added pauses | [Q01-before-humanity.md](Q01-before-humanity.md) |
-| 2 | 22 (Q02 thumb) | Quran — The Six Stages of Creation | PLANNED | — |
+| 2 | 22 (Q02 thumb) | Quran — The Six Stages of Creation | COMPLETE; 8,405 spoken words, ~64:39 at 130 wpm | [22.txt](22.txt) |
 | 3 | 23 (Q03 thumb) | Quran — When the Heavens and Earth Were Joined | PLANNED | — |
 | 4 | 24 (Q04 thumb) | Quran — The Heavens as Smoke | PLANNED | — |
 | 5 | 25 (Q05 thumb) | Quran — The Creation of the Sun, Moon and Stars | PLANNED | — |
@@ -56,4 +56,4 @@ Machine-ingest narration file for the first story: [21.txt](21.txt), following s
 
 ## Remaining script work
 
-29 complete narration scripts remain. Next: episode 22 (Q02 thumbnail). The file for Q01 is a standalone one-hour overview; later Quran episodes must deepen their individual subjects rather than repeat its narration. No audio, renders, scheduling or publication has been performed as part of this handoff.
+28 complete narration scripts remain. Next: episode 23 (Q03 thumbnail). The file for Q01 is a standalone one-hour overview; later Quran episodes must deepen their individual subjects rather than repeat its narration. No audio, renders, scheduling or publication has been performed as part of this handoff.

@@ -79,9 +79,9 @@ elif cmd == "shorts":
         json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1); print(f"{sid} -> {when}")
     print(f"::notice::{vid}: {len(done)} Shorts scheduled")
 elif cmd == "list":   # a = channel key (religion|crazyfacts|moneyatnight): recent posts of that account, to avoid duplicates after a timeout
-    yt_account(sys.argv[2] if len(sys.argv) > 2 and sys.argv[2] else "crazyfacts"); st, p = call("GET", "/posts?limit=20"); ps = p.get("posts", p if isinstance(p, list) else [])
+    yt_account(sys.argv[2] if len(sys.argv) > 2 and sys.argv[2] else "crazyfacts"); st, p = call("GET", "/posts?limit=100"); ps = p.get("posts", p if isinstance(p, list) else [])
     print("::notice::raw " + json.dumps(p)[:1200].replace("\n", " "))
-    for x in ps[:20]: print(f"::notice::{x.get('_id')} {x.get('status')} {x.get('scheduledFor')} {str(x.get('content', ''))[:50]!r}")
+    for x in ps[:100]: print(f"::notice::{x.get('_id')} acc={str([q.get('accountId') for q in x.get('platforms', [])])[-9:]} {x.get('status')} {x.get('scheduledFor')} {str(x.get('content', ''))[:50]!r}")
 elif cmd == "delete":   # a = comma-separated Zernio post ids (duplicates created by a timed-out retry)
     yt_account(sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] else "crazyfacts")
     for pid in sys.argv[2].split(","): st, _ = call("DELETE", f"/posts/{pid}"); print(f"::notice::deleted {pid}: {st}")
@@ -115,7 +115,7 @@ elif cmd == "post":
             "scheduledFor": when, "timezone": "Europe/Amsterdam"}
     st, p = call("POST", "/posts", body, soft=True)
     if st is None:   # big video: Zernio creates the post but may not answer in time. NEVER post again: find it.
-        import time; time.sleep(20); _, lp = call("GET", "/posts?limit=20"); key = body["content"][:40]
+        import time; time.sleep(20); _, lp = call("GET", "/posts?limit=100"); key = body["content"][:40]
         found = [x for x in lp.get("posts", []) if str(x.get("content", "")).startswith(key) and x.get("status") in ("scheduled", "publishing", "published")]
         if not found: sys.exit("::error::Zernio gave no answer and no scheduled post was found; check manually before retrying")
         post = found[0]

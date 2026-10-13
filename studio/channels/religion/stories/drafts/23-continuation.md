@@ -60,3 +60,12 @@ A single verse can be the doorway into a subject, but it is not the entire room.
 When commentators compare passages, they ask whether a word has a related use elsewhere and whether one description clarifies another. This is a familiar method of scriptural interpretation. It can be fruitful, but it does not remove the need to notice differences. A verse about the beginning of the world is not always trying to answer the same question as a verse about the sky seen from the ground.
 
 Reading across passages creates a sense of continuity. The listener hears repeated attention to the heavens, earth, rain, and living things. At the same time, the narration shifts its focus. Sometimes the sky is a sign to be observed. Sometimes the world is described as created. Sometimes the emphasis falls on the choices people make within it.
+
+
+Surah Al-Anbiya also speaks about celestial bodies moving in their courses. In the passage, the recurring patterns of night and day belong to a reflection on order. A modern astronomer can describe celestial movement using tested physical theories, while the Quranic discourse connects the visible world with divine creation. The questions may overlap, but the forms of explanation differ.
+
+A documentary could return to the same landscape three times. First we see a distant horizon and ask about origin. Later we see clouds gathering and ask about rain. Finally, we see a settlement beside a river and ask how people depend on water. The place remains the same, but the question changes. This is a narrator's illustration, not a scene identified in the Quran.
+
+The Quran is not organized as a single uninterrupted textbook chapter on cosmology. References to creation are distributed across passages whose themes and rhetorical purposes vary. Collecting those statements into one complete physical timeline requires interpretation. A careful documentary identifies where that work begins.
+
+The joined-heavens verse has its own distinct contribution to the conversation. Reading it alongside related passages deepens appreciation without requiring the short verse to carry every detail mentioned elsewhere. Careful comparison allows the text's several emphases to remain visible.

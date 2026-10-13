@@ -20,6 +20,7 @@ def call(method, path, body=None):
     try:
         with urllib.request.urlopen(req, timeout=600) as r: return r.status, json.loads(r.read() or b"{}")
     except urllib.error.HTTPError as e: sys.exit(f"::error::Zernio {method} {path}: {e.code} {e.read()[:800]}")
+    except Exception as e: sys.exit(f"::error::Zernio {method} {path}: {type(e).__name__} {str(e)[:300]}")
 
 
 def save(): json.dump(cfg, open(CFG, "w"), indent=1)

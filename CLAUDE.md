@@ -2,6 +2,9 @@
 This repo runs an automated faceless YouTube channel (English psychology explainers with an approved chibi character).
 For any scheduled or manual run: follow `studio/RUNBOOK.md` exactly. Use the ponytail skill (smallest complete change, reuse first).
 
+## FOCUS: BRAIN AFTER DARK ONLY (owner, 15 Oct 2026, overrides every Belief Through Time line below and in RUNBOOK/agents)
+Belief Through Time / Religion Unfolded is STOPPED: no new scripts, renders or posts. All energy goes to Brain After Dark (YouTube channel, formerly "Crazy Facts", handle @BrainAfterDark, Zernio key 1). Growth first: ChatGPT/Codex writes texts and researches YouTube growth strategy from videos and online sources; Claude validates, renders, QC, posts and turns findings into rules in studio/factory/learned.md. The daily-video rule for Belief Through Time is void. Already scheduled Belief Through Time posts stay unless the owner says delete.
+
 ## Priorities (owner)
 Execution > Discussion. Speed > Research. Consistency > Volume. Repository state > chat memory (state lives in files, never in the conversation).
 

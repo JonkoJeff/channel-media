@@ -217,3 +217,6 @@ Daily 05:00 UTC `stats.yml` refreshes studio/yt/status.json (Actions only, no Cl
 
 ## LANGUAGES (owner, 15 Oct): main language American English, plus translated titles/descriptions
 Every long Crazy Facts video gets localized title + short description in: es, pt-BR, hi, id, fr, de, ar, tr, ru, it, ja, ko (YouTube shows them by viewer language; audio stays English, viewers use YouTube's auto-translated subtitles). After a long video goes live: add its YouTube id and the translated titles to studio/yt/localize.json (Codex translates, Claude checks) and run `localize.yml`. Needs the Crazy Facts YouTube token; Belief Through Time (Zernio-only) has to be done in Studio.
+
+## FOCUS (owner, 15 Oct): only Brain After Dark
+Belief Through Time stopped (see CLAUDE.md FOCUS). The channel formerly called Crazy Facts is now "Brain After Dark". Priority list now: 1 Brain After Dark. No religion builds.

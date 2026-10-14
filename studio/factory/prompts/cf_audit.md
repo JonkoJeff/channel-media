@@ -2,6 +2,8 @@ TASK cf_audit: you are the style editor. Check block `{{block}}` of "{{title}}" 
 
 Check: tone and narrator voice (STYLE 1-2), hook/story structure for its position ({{position}}), scene mix and the "every 60-90 s something changes" rule, no part numbers or stage directions, facts phrased per STYLE 9 (years = publication years, no invented numbers), image prompts per STYLE 5, consistent handover with the plan line: {{outline}}
 
+The block's SOURCES list is stored separately and is not shown: never flag missing sources; do flag a claim that looks invented or wrongly phrased.
+
 Block:
 {{text}}
 

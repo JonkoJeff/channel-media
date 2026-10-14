@@ -32,7 +32,7 @@ Run $dash (Cmd 'dash'); Run $ctl (Cmd 'controller')
 if (-not $NoHqAgent) {
   $hq = (Hd pane split $ctl --direction down --ratio 0.35 --cwd $Repo --no-focus).result.pane.pane_id
   Start-Sleep 2
-  try { Hd agent start hq --kind claude --pane $hq --timeout 60000 -- --agent channel-operator --model sonnet | Out-Null } catch { Run $hq 'claude --agent channel-operator --model sonnet' }
+  $cl = (Get-Command claude -ErrorAction SilentlyContinue).Source; Run $hq "& '$cl' --agent channel-operator --model sonnet"; Start-Sleep 8; try { Hd agent rename $hq hq | Out-Null } catch {}
 }
 
 $agents = @(Get-Content "$F\agents.json" -Raw | ConvertFrom-Json) | Where-Object enabled

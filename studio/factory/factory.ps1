@@ -19,7 +19,7 @@ $Git = 'C:\Program Files\Git\cmd\git.exe'
 $HerdrExe = (Get-Command herdr -ErrorAction SilentlyContinue).Source; if (-not $HerdrExe) { $HerdrExe = "$env:USERPROFILE\.herdr\packages\standalone\current\herdr.exe" }
 $Exe = @{
   codex  = "$env:LOCALAPPDATA\Microsoft\WinGet\Packages\OpenAI.Codex_Microsoft.Winget.Source_8wekyb3d8bbwe\codex.exe"
-  claude = (Get-Command claude -ErrorAction SilentlyContinue).Source
+  claude = @((Get-Command claude -ErrorAction SilentlyContinue).Source, "$env:USERPROFILE\.local\bin\claude.exe" | Where-Object { $_ -and (Test-Path $_) })[0]
   copilot = "$env:LOCALAPPDATA\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe\copilot.exe"
 }
 
@@ -363,7 +363,7 @@ function Worker($n) {
     if (-not $body) { Requeue $t "$S\queue\active\$($t.id).json" $n "prompt build failed: $perr"; continue }
     if ($t.last_errors) { $body += "`n`nA previous attempt (another agent) was rejected. Avoid exactly these problems:`n" + ((@($t.last_errors) | ForEach-Object { "- $_" }) -join "`n") }
     $prompt = "$($pk.text)`n`n---`n$body`n`n---`nOUTPUT CONTRACT: reply with ONLY the deliverable. The very first line must be exactly: STYLE $($pk.hash)`nThen the deliverable in the format above. Optional after it: lines starting with PROPOSAL: or REQUEST: (STYLE section 10). No code fences, no commentary. Do not edit any files."
-    $r = Run $ag $t $prompt
+    try { $r = Run $ag $t $prompt } catch { $r = @{ ok = $false; why = "worker error: $_"; tin = 0; tout = 0; cached = 0; cost = 0.0; secs = 0; rate = $false } }
     $a = AState $n; $a.tin += $r.tin; $a.tout += $r.tout; $a.cached += $r.cached; $a.cost += $r.cost; $a.busy += $r.secs
     $errs = @()
     if ($r.ok) {
@@ -405,7 +405,7 @@ function Inventory {
   foreach ($p in (Get-ChildItem "$S\pipelines" -Filter *.json)) { $pp = RJ $p.FullName; if ($pp.stage -ne 'rendered' -and -not (Test-Path "$Repo\studio\renders\$($pp.id)\result.json")) { $n++; $items += "$($pp.id) $($pp.stage)" } }
   @{ count = $n; items = $items }
 }
-function NextId { $m = 0; foreach ($f in (Get-ChildItem "$AE\videos" -Filter 'lf??.json')) { $m = [math]::Max($m, [int]$f.BaseName.Substring(2)) }; foreach ($f in (Get-ChildItem "$S\pipelines" -Filter 'lf*.json')) { $m = [math]::Max($m, [int]$f.BaseName.Substring(2)) }; 'lf{0:00}' -f ($m + 1) }
+function NextId { $m = 0; foreach ($vf in (Get-ChildItem "$AE\videos" -Filter 'lf??.json')) { $m = [math]::Max($m, [int]$vf.BaseName.Substring(2)) }; foreach ($vf in (Get-ChildItem "$S\pipelines" -Filter 'lf*.json')) { $m = [math]::Max($m, [int]$vf.BaseName.Substring(2)) }; 'lf{0:00}' -f ($m + 1) }
 function StartVideo { $id = NextId; WJ "$S\pipelines\$id.json" ([ordered]@{ id = $id; channel = 'crazyfacts'; created = Now; stage = 'planning' }); Ev @{ ev = 'pipeline'; id = $id }; Lock { Advance $id }; $id }
 function GitPush($paths, $msg) {
   Push-Location $Repo
@@ -436,13 +436,13 @@ function Tick {
   }
   # 3. requests agents sent to each other
   $recent = @(Get-Content "$S\events.jsonl" -Tail 400 -ErrorAction SilentlyContinue | ForEach-Object { $_ | ConvertFrom-Json -AsHashtable } | Where-Object { $_.ev -eq 'inbox' -and $now - $_.ts -lt 3600 }).Count
-  foreach ($f in (Get-ChildItem "$S\inbox" -Filter *.json)) {
-    try { $r = Get-Content $f.FullName -Raw | ConvertFrom-Json -AsHashtable } catch { $r = $null }
+  foreach ($ib in (Get-ChildItem "$S\inbox" -Filter *.json)) {
+    try { $r = Get-Content $ib.FullName -Raw | ConvertFrom-Json -AsHashtable } catch { $r = $null }
     if ($r -and $c.inbox_types -contains $r.type -and $recent -lt $c.inbox_max_per_hour -and $r.args.id) {
       $key = if ($r.args.block) { $r.args.block } else { "$($r.args.id)-$(Get-Date -f MMddHHmm)" }; Ensure $r.type $key $r.args @() $r.args.id | Out-Null; $recent++
-      Ev @{ ev = 'inbox'; type = $r.type; by = $f.BaseName; reason = $r.reason }
+      Ev @{ ev = 'inbox'; type = $r.type; by = $ib.BaseName; reason = $r.reason }
     }
-    Remove-Item $f.FullName
+    Remove-Item $ib.FullName
   }
   # 4. advance pipelines; hand finished ones to GitHub Actions for rendering
   foreach ($pf in (Get-ChildItem "$S\pipelines" -Filter *.json)) {
@@ -463,7 +463,7 @@ function Tick {
     $open = @(Get-ChildItem "$S\pipelines" -Filter *.json | ForEach-Object { RJ $_.FullName } | Where-Object { $_.stage -notin 'render_requested', 'rendered', 'blocked' }).Count
     $startedToday = [int]$ctl.started[(Today)]
     if ($ctl.cf_mode -eq 'generating' -and $open -lt $cf.max_concurrent_pipelines -and $startedToday -lt $cf.max_pipelines_started_per_day) {
-      $id = StartVideo; $ctl.started[(Today)] = $startedToday + 1; Write-Host "$(Get-Date -f HH:mm:ss) buffer $($inv.count) < $($cf.low_watermark): started $id" -ForegroundColor Cyan
+      $id = StartVideo; $ctl.started[(Today)] = $startedToday + 1; Write-Host "$(Get-Date -f HH:mm:ss) buffer $($inv.count) (refill to $($cf.high_watermark)): started $id" -ForegroundColor Cyan
     }
     $ctl.cf_buffer = $inv.count; $ctl.cf_items = $inv.items
   }
@@ -483,14 +483,14 @@ function Tick {
 # ---------- dashboard ----------
 function Render {
   $c = Cfg; $ctl = Ctl; $now = Now; $E = [char]27; $W = [math]::Max(100, $Host.UI.RawUI.WindowSize.Width)
-  $G = "$E[32m"; $R = "$E[31m"; $Y = "$E[33m"; $B = "$E[36m"; $D = "$E[90m"; $Bo = "$E[1m"; $X = "$E[0m"
+  $G = "$E[32m"; $R = "$E[31m"; $Y = "$E[33m"; $B = "$E[36m"; $Dm = "$E[2m"; $Bo = "$E[1m"; $X = "$E[0m"
   $o = [Collections.Generic.List[string]]::new()
   $hbC = [int](Get-Content "$S\controller.hb" -ErrorAction SilentlyContinue); $cOk = ($now - $hbC) -lt 120
   $mode = if ($ctl.paused) { "${R}PAUSED (manual)$X" } elseif ($ctl.cf_mode -eq 'generating') { "${G}GENERATING$X" } else { "${Y}IDLE: buffer full$X" }
   $hash = Get-Content "$S\pack.hash" -ErrorAction SilentlyContinue
   $o.Add("$Bo CRAZY FACTS FACTORY$X  $(Get-Date -f 'ddd dd MMM HH:mm:ss')   controller $(if ($cOk) { "${G}live$X" } else { "${R}DOWN$X" })   mode $mode   style ${B}v$hash$X")
   $cf = $c.channels.crazyfacts; $bar = ('#' * [int]$ctl.cf_buffer).PadRight($cf.high_watermark, '.')
-  $o.Add(" Buffer [$bar] $($ctl.cf_buffer) videos (resume < $($cf.low_watermark), stop at $($cf.high_watermark))  $D$(@($ctl.cf_items) -join ' · ')$X")
+  $o.Add(" Buffer [$bar] $($ctl.cf_buffer) videos (resume < $($cf.low_watermark), stop at $($cf.high_watermark))  $Dm$(@($ctl.cf_items) -join ' · ')$X")
   $o.Add('')
   $o.Add("$Bo AGENTS$X")
   $o.Add(('{0,-10} {1,-8} {2,-10} {3,-26} {4,9} {5,6} {6,6} {7,7} {8,8} {9,8} {10,7}' -f 'name', 'kind', 'state', 'task', 'elapsed', 'done', 'fail', 'ok%', 'tok in', 'tok out', 'cost$'))
@@ -498,7 +498,7 @@ function Render {
   $dayStart = [DateTimeOffset]::new((Get-Date).Date).ToUnixTimeSeconds(); $evToday = @($ev | Where-Object { $_.ts -ge $dayStart })
   $tot = @{ tin = 0; tout = 0; cost = 0.0 }
   foreach ($ag in (Agents)) {
-    $a = RJ "$S\agents\$($ag.name).json"; $st = 'offline'; $col = $D
+    $a = RJ "$S\agents\$($ag.name).json"; $st = 'offline'; $col = $Dm
     if ($a -and $a.day -eq (Today)) { $tot.tin += $a.tin; $tot.tout += $a.tout; $tot.cost += $a.cost }
     if (-not $ag.enabled) { $st = 'disabled' } elseif ($a -and ($now - $a.hb) -lt $c.heartbeat_stale_s) { $st = $a.state; $col = @{ working = $G; idle = $B; cooldown = $Y; capped = $Y; paused = $Y }[$st] }
     $d = if ($a.day -eq (Today)) { [int]$a.done } else { 0 }; $fl = if ($a.day -eq (Today)) { [int]$a.failed } else { 0 }; $pct = if ($d + $fl) { [int](100 * $d / ($d + $fl)) } else { '-' }
@@ -506,23 +506,23 @@ function Render {
     $el = if ($st -eq 'working') { Fmt $a.elapsed } else { '' }
     $o.Add(("{0,-10} {1,-8} $col{2,-10}$X {3,-26} {4,9} {5,6} {6,6} {7,7} {8,8} {9,8} {10,7:0.00}" -f $ag.name, $ag.kind, $st, "$task".Substring(0, [math]::Min(26, "$task".Length)), $el, $d, $fl, $pct, (Num ([int]$a.tin)), (Num ([int]$a.tout)), [double]$a.cost))
   }
-  $o.Add("$D today: tokens in $(Num $tot.tin) / out $(Num $tot.tout) (cached input not counted), Claude cost `$$('{0:0.00}' -f $tot.cost) (subscription: informational)$X")
+  $o.Add("$Dm today: tokens in $(Num $tot.tin) / out $(Num $tot.tout) (cached input not counted), Claude cost `$$('{0:0.00}' -f $tot.cost) (subscription: informational)$X")
   $o.Add('')
   $pend = @(Tasks 'pending' | Sort-Object { $_.priority }, { $_.queued }); $act = @(Tasks 'active'); $fail = @(Tasks 'failed')
   $doneToday = @($evToday | Where-Object { $_.ev -eq 'end' -and $_.ok }).Count
   $o.Add("$Bo QUEUE$X  pending $($pend.Count) · active $($act.Count) · done today $doneToday · failed $($fail.Count)")
-  foreach ($t in $act) { $lim = $c.types[$t.type].timeout_s; $el = $now - $t.started; $cl = if ($el -gt 0.8 * $lim) { $R } else { $G }; $o.Add("  ${cl}RUN $X {0,-28} by {1,-9} {2} / {3}" -f $t.id, $t.agent, (Fmt $el), (Fmt $lim)) }
-  foreach ($t in ($pend | Select-Object -First 8)) { $tc = $c.types[$t.type]; $wt = $now - $t.queued; $blocked = @($t.deps | Where-Object { -not (Done $_) }).Count; $who = if ($blocked) { "waits for $blocked dep" } else { ($tc.prefer -join '/') + $(if ($wt -gt $tc.spill_after_s) { " + $($tc.fallback -join '/') (failover open)" } else { '' }) }; $o.Add("  ${D}WAIT$X {0,-28} {1,8}  try {2}  -> {3}" -f $t.id, (Fmt $wt), ($t.attempts + 1), $who) }
-  if ($pend.Count -gt 8) { $o.Add("  $D... $($pend.Count - 8) more$X") }
-  foreach ($t in ($fail | Select-Object -Last 3)) { $o.Add("  ${R}FAIL$X {0,-28} {1}" -f $t.id, (@($t.history)[-1])) }
+  foreach ($t in $act) { $lim = $c.types[$t.type].timeout_s; $el = $now - $t.started; $cl = if ($el -gt 0.8 * $lim) { $R } else { $G }; $o.Add(("  ${cl}RUN $X {0,-28} by {1,-9} {2} / {3}" -f $t.id, $t.agent, (Fmt $el), (Fmt $lim))) }
+  foreach ($t in ($pend | Select-Object -First 8)) { $tc = $c.types[$t.type]; $wt = $now - $t.queued; $blocked = @($t.deps | Where-Object { -not (Done $_) }).Count; $who = if ($blocked) { "waits for $blocked dep" } else { ($tc.prefer -join '/') + $(if ($wt -gt $tc.spill_after_s) { " + $($tc.fallback -join '/') (failover open)" } else { '' }) }; $o.Add(("  ${Dm}WAIT$X {0,-28} {1,8}  try {2}  -> {3}" -f $t.id, (Fmt $wt), ($t.attempts + 1), $who)) }
+  if ($pend.Count -gt 8) { $o.Add("  $Dm... $($pend.Count - 8) more$X") }
+  foreach ($t in ($fail | Select-Object -Last 3)) { $o.Add(("  ${R}FAIL$X {0,-28} {1}" -f $t.id, (@($t.history)[-1]))) }
   $o.Add('')
   $o.Add("$Bo PIPELINES$X")
-  foreach ($p in (Get-ChildItem "$S\pipelines" -Filter *.json | Sort-Object Name -Descending | Select-Object -First 5 | ForEach-Object { RJ $_.FullName })) { $v = Plan $p.id; $o.Add("  {0}  {1,-16} blocks {2,-6} {3}" -f $p.id, $p.stage, $p.blocks, "$($v.title)") }
+  foreach ($p in (Get-ChildItem "$S\pipelines" -Filter *.json | Sort-Object Name -Descending | Select-Object -First 5 | ForEach-Object { RJ $_.FullName })) { $v = Plan $p.id; $o.Add(("  {0}  {1,-16} blocks {2,-6} {3}" -f $p.id, $p.stage, $p.blocks, "$($v.title)")) }
   $o.Add('')
   $words = ($evToday | Where-Object { $_.ok } | Measure-Object -Property words -Sum).Sum; $shorts = ($evToday | Where-Object { $_.ok } | Measure-Object -Property shorts -Sum).Sum
   $o.Add("$Bo OUTPUT TODAY$X  script words $([int]$words) · Shorts cut $([int]$shorts) · renders requested $(@($evToday | Where-Object ev -eq 'render').Count) · failovers $(@($evToday | Where-Object ev -eq 'requeued').Count)")
   $byType = $ev | Where-Object { $_.ev -eq 'end' -and $_.ok } | Group-Object type | ForEach-Object { $s = $_.Group | Measure-Object -Property secs -Average; $tk = $_.Group | ForEach-Object { $_.tin + $_.tout } | Measure-Object -Average; "{0} {1}x avg {2} {3} tok" -f $_.Name, $_.Count, (Fmt $s.Average), (Num ([int]$tk.Average)) }
-  if ($byType) { $o.Add("$D efficiency per task type: $($byType -join ' | ')$X") }
+  if ($byType) { $o.Add("$Dm efficiency per task type: $($byType -join ' | ')$X") }
   $o.Add('')
   $o.Add("$Bo ALERTS / IMPROVEMENTS$X")
   $al = @()
@@ -535,7 +535,7 @@ function Render {
   if ((Test-Path "$S\proposals.md")) { $al += "$(@(Get-Content "$S\proposals.md").Count) style proposals waiting for the analyst (next cf_analyze)" }
   if (-not $al) { $al += "${G}nothing stuck$X" }
   foreach ($x in ($al | Select-Object -First 8)) { $o.Add("  - $x") }
-  $o.Add("$D keys: this pane only shows. Control: factory.ps1 pause|resume|new-video|add-agent|retry -Id|kill -Id   events: studio\factory\state\events.jsonl$X")
+  $o.Add("$Dm keys: this pane only shows. Control: factory.ps1 pause|resume|new-video|add-agent|retry -Id|kill -Id   events: studio\factory\state\events.jsonl$X")
   [Console]::Write("$E[H$E[2J" + ($o -join "`n"))
 }
 

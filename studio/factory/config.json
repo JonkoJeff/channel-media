@@ -40,5 +40,5 @@
   "cf_analyze": {"prefer": ["claude"],  "fallback": ["codex"],  "spill_after_s": 3600, "timeout_s": 1200, "stall_s": 600, "priority": 4}
  },
 
- "audit_pass_score": 7
+ "audit_pass_score": 8
 }

@@ -208,3 +208,6 @@ Crazy Facts gets exactly 4 Shorts per day (09:00, 12:00, 15:00, 20:00; the long 
 
 ## THUMBNAILS (14 Oct): private repo
 raw.githubusercontent.com URLs no longer work for Zernio/YouTube (repo is private) -> YouTube picked an auto frame (rel01). zernio.py now uploads the thumbnail file to Zernio media (host_thumb) when posting. `zernio.yml cmd=rethumb a=lf10,lf11` re-attaches it to still-SCHEDULED posts; published videos need the thumbnail set in YouTube Studio. result.json "thumb" stays a repo URL (only used to find the file).
+
+## SHORTS: thumbnail + selection (14 Oct)
+Shorts now get a thumbnail (frame at 1.5 s with the hook text, hosted on Zernio). Select Shorts per studio/factory/learned.md (14 Oct rule: one study + one twist + numbers, never intros/agendas, hook = the surprising claim). 4 per day.

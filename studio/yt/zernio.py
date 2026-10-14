@@ -89,13 +89,20 @@ elif cmd == "shorts":
         ex = existing(pre) if m.get("title") else None   # FAILSAFE: this Short already exists on Zernio -> adopt, never post twice
         if ex:
             done[sid] = {"zernio_id": ex.get("_id"), "when": str(ex.get("scheduledFor"))}; json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1); print(f"{sid} already on Zernio, adopted"); continue; os.path.exists(f) or urllib.request.urlretrieve(url, f)
+        th = None   # Short thumbnail = a frame ~1.5 s in (hook text is on screen), hosted on Zernio media; failure here must never block the post
+        try:
+            import subprocess; jf = f"/tmp/{sid}.jpg"
+            subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", "1.5", "-i", f, "-frames:v", "1", "-q:v", "2", jf], check=True, timeout=60)
+            _, tp = call("POST", "/media/presign", {"filename": sid + ".jpg", "contentType": "image/jpeg", "size": os.path.getsize(jf)})
+            urllib.request.urlopen(urllib.request.Request(tp["uploadUrl"], data=open(jf, "rb").read(), method="PUT", headers={"Content-Type": "image/jpeg"}), timeout=120).read(); th = tp["publicUrl"]
+        except BaseException as e: print(f"::warning::{sid}: no thumbnail ({type(e).__name__})")
         _, ps = call("POST", "/media/presign", {"filename": sid + ".mp4", "contentType": "video/mp4", "size": os.path.getsize(f)})
         urllib.request.urlopen(urllib.request.Request(ps["uploadUrl"], data=open(f, "rb").read(), method="PUT", headers={"Content-Type": "video/mp4"}), timeout=600).read()
         when = f"{day + dt.timedelta(days=n // len(slots))}T{slots[n % len(slots)]}"
         psd = {"title": (m.get("title") or v["title"])[:90] + " #shorts", "visibility": "public", "categoryId": "27", "madeForKids": False, "containsSyntheticMedia": True}
         if plid: psd["playlistId"] = plid
         body = {"content": f"{m.get('title', '')}\n\n{'Full documentary' if ch == 'religion' else 'Full calm 2.5-hour video'} on the channel: {v['title']}\n\n" + " ".join(m.get("tags", ["#shorts"])) + "\n\nNarration is AI-generated (synthetic voice).",
-                "tags": [t.lstrip("#") for t in m.get("tags", [])], "mediaItems": [{"type": "video", "url": ps["publicUrl"]}],
+                "tags": [t.lstrip("#") for t in m.get("tags", [])], "mediaItems": [{"type": "video", "url": ps["publicUrl"], **({"thumbnail": th} if th else {})}],
                 "platforms": [{"platform": "youtube", "accountId": yt_account(ch), "platformSpecificData": psd}], "scheduledFor": when, "timezone": "Europe/Amsterdam"}
         st, p = call("POST", "/posts", body, soft=True)
         if st is None:   # no answer: the post may exist. Look, never re-post

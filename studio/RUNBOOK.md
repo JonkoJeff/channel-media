@@ -202,3 +202,6 @@ Thumb options in the video JSON (longform.thumbnail): `"mirror": true` = sprite 
 
 ## NEVER UPLOAD TWICE (owner, 14 Oct)
 zernio.py post/shorts: (1) refuses when result.json already has zernio_id / the Short is in shorts_posted; (2) checks Zernio for an existing live post with the same content and adopts it; (3) on no answer (timeout) it looks for the post instead of retrying; (4) the workflow always commits result.json, even after a failed step. To re-post on purpose: delete the Zernio post, clear zernio_id in result.json, then run again. Never re-run a failed post/shorts run without first running cmd=status or cmd=list.
+
+## CRAZY FACTS SHORTS: 4 PER DAY (owner, 14 Oct)
+Crazy Facts gets exactly 4 Shorts per day (09:00, 12:00, 15:00, 20:00; the long video stays at 17:00), only the most interesting points. zernio.py shorts defaults to these 4 slots; `zernio.yml cmd=reslot a=<first day> b=<slots>` re-times all pending Shorts to 4/day. Per video, schedule only its best Shorts (hook + strongest fact); skip filler cuts.

@@ -69,7 +69,7 @@ elif cmd == "shorts":
     day, _, sl = sys.argv[3].partition("@"); vid, day = sys.argv[2], dt.date.fromisoformat(day); res = json.load(open(os.path.join(R, vid, "result.json")))
     v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); ch = v.get("channel", "crazyfacts")
     meta = {x["id"]: x for x in json.load(open(os.path.join(D, "..", "assetedit", "videos", "shorts.json")))}
-    done = res.setdefault("shorts_posted", {}); slots = sl.split(",") if sl else ["09:00", "13:00", "21:00"]; n = 0 if sl else len(done)
+    done = res.setdefault("shorts_posted", {}); slots = sl.split(",") if sl else ["09:00", "12:00", "15:00", "20:00"]; n = 0 if sl else len(done)
     plid = None if ch == "religion" else cfg.get("playlists", {}).get("Money Shorts" if ch == "moneyatnight" else "Psychology Shorts")
     for sid, url in sorted(res.get("shorts", {}).items()):
         if sid in done: continue
@@ -110,6 +110,23 @@ elif cmd == "status":  # a = comma-separated Zernio post ids, b = channel key (r
     for pid in sys.argv[2].split(","):
         st, p = call("GET", f"/posts/{pid}"); post = p.get("post", p)
         print(f"::notice::{pid} {post.get('status')} {post.get('scheduledFor')} " + json.dumps([{k: v for k, v in x.items() if k not in ("accountId", "_id")} for x in post.get("platforms", [])])[:700])
+elif cmd == "reslot":   # a = first day YYYY-MM-DD, b = slots "09:00,12:00,15:00,20:00": re-time every still-pending Crazy Facts Short so exactly len(slots) go out per day, in the existing order
+    import datetime as dt, glob
+    day0 = dt.date.fromisoformat(sys.argv[2]); slots = (sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] else "09:00,12:00,15:00,20:00").split(",")
+    items = []
+    for f in sorted(glob.glob(os.path.join(R, "lf*", "result.json"))):
+        r = json.load(open(f))
+        for sid, d in r.get("shorts_posted", {}).items():
+            if d.get("zernio_id") and d["when"][:10] >= str(day0): items.append((d["when"], f, sid))
+    items.sort(); yt_account("crazyfacts"); n = 0; moved = 0
+    for _, f, sid in items:
+        when = f"{day0 + dt.timedelta(days=n // len(slots))}T{slots[n % len(slots)]}"; n += 1
+        r = json.load(open(f)); d = r["shorts_posted"][sid]
+        if d["when"] == when: continue
+        try: call("PUT", f"/posts/{d['zernio_id']}", {"scheduledFor": when, "timezone": "Europe/Amsterdam"})
+        except SystemExit as e: print(f"::notice::skip {sid}: {str(e)[:80]}"); continue
+        d["when"] = when; json.dump(r, open(f, "w"), indent=1); moved += 1
+    print(f"::notice::reslot: {len(items)} pending Shorts, {moved} moved, {len(slots)}/day from {day0} until {day0 + dt.timedelta(days=(n - 1) // len(slots))}")
 elif cmd == "reschedule":  # a = post id, b = local time YYYY-MM-DDTHH:MM
     st, p = call("PUT", f"/posts/{sys.argv[2]}", {"scheduledFor": sys.argv[3], "timezone": "Europe/Amsterdam"}); post = p.get("post", p)
     print(f"::notice::{st} {post.get('status')} {post.get('scheduledFor')} {json.dumps(p)[:300]}")

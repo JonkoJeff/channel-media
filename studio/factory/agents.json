@@ -1,0 +1,6 @@
+[
+ {"name": "codex1",   "kind": "codex",   "enabled": true,  "daily_token_cap": 8000000, "note": "ChatGPT: plans, script blocks, Shorts cuts, fixes (live web search for facts)"},
+ {"name": "codex2",   "kind": "codex",   "enabled": true,  "daily_token_cap": 8000000, "note": "second ChatGPT lane: blocks are written in parallel"},
+ {"name": "claude1",  "kind": "claude",  "enabled": true,  "model": "sonnet", "daily_token_cap": 4000000, "note": "thumbnails, performance analysis, style audits (haiku), failover writer"},
+ {"name": "copilot1", "kind": "copilot", "enabled": false, "daily_token_cap": 2000000, "note": "OFF: GitHub says the Copilot CLI is not included in this account (13 Oct 2026). Enable after https://github.com/settings/copilot allows it."}
+]

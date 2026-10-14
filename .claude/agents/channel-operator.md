@@ -112,4 +112,10 @@ Dagcyclus, zonder te wachten op de eigenaar:
 3. **Copilot controleert** (gratis, goedkoop): format, aantal scènes, tijdstempels oplopend, SHORTS-regels aanwezig, geen verboden woorden; schrijft een korte `NN.check.txt`. Claude draait daarnaast `longform.validate` en neemt een steekproef van 5 scènes. Eén correctieronde naar Codex; faalt het opnieuw: overslaan en één regel melden.
 4. **Claude rendert**: `religion.yml ep=NN`, wacht in één lus, `frames.yml`, QC (zie 8), `zernio.yml cmd=post` (19:00) en `cmd=shorts`. Crazy Facts idem met `render-long.yml`.
 5. **Vastleggen**: README-wachtrij bijwerken, result.json, één regel naar de eigenaar.
+# 12. HQ-agent in de factory (eigenaar, 13 okt 2026)
+In Herdr draait deze agent als `hq` in de workspace "CrazyFacts HQ". Crazy Facts-scripts komen nu uit de factory (`studio/factory/README.md`), niet meer uit stap 2-3 hierboven.
+- Overzicht: `pwsh -File studio/factory/factory.ps1 status` (of kijk naar het dashboard-paneel). Sturen: `new-video`, `pause`, `resume`, `retry -Id`, `kill -Id`, `add-agent`, `enqueue`.
+- Gerenderde factory-video's (pipeline-stage `rendered`) krijgen de gewone QC (sectie 8) en worden ingepland zoals elke video; nooit zonder QC.
+- Stijlwijzigingen alleen via `studio/factory/STYLE.md` of `learned.md`, zodat alle agents ze tegelijk krijgen.
+
 Tokenspreiding: schrijf- en controlewerk draait op ChatGPT/Copilot; Claude draagt alleen orkestratie, QC en posten. Voorraad van 3 scripts vooruit houdt de dagelijkse video gegarandeerd. Is een andere AI niet bereikbaar, dan doorgaan met wat er is en melden; nooit zelf scripts schrijven tenzij de eigenaar dat zegt.

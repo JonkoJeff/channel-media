@@ -1,0 +1,44 @@
+{
+ "repo": "C:\\Users\\jeffr\\channel-media",
+ "tick_s": 30,
+ "git_pull_every_s": 600,
+ "heartbeat_stale_s": 120,
+ "max_attempts": 3,
+ "cooldown_after_failures": 3,
+ "cooldown_s": 900,
+ "ratelimit_cooldown_s": 3600,
+ "inbox_max_per_hour": 6,
+ "inbox_types": ["cf_fix", "cf_audit", "cf_thumb", "cf_analyze"],
+
+ "channels": {
+  "crazyfacts": {
+   "enabled": true,
+   "unit": "long videos ready or in production (scheduled today or later, rendered but unscheduled, or being written)",
+   "low_watermark": 2,
+   "high_watermark": 4,
+   "max_concurrent_pipelines": 2,
+   "max_pipelines_started_per_day": 1,
+   "push_render": true
+  },
+  "religion": {
+   "enabled": false,
+   "note": "Belief Through Time scripts are ~9,000 words per episode; they stay on the CODEX_TASK.md route until a chapter-split task type exists."
+  }
+ },
+
+ "recurring": {
+  "cf_analyze": {"every_s": 86400, "only_if_changed": "studio/yt/status.json"}
+ },
+
+ "types": {
+  "cf_plan":    {"prefer": ["codex"],   "fallback": ["claude"], "spill_after_s": 900,  "timeout_s": 1200, "stall_s": 420, "priority": 2},
+  "cf_block":   {"prefer": ["codex"],   "fallback": ["claude"], "spill_after_s": 1200, "timeout_s": 1800, "stall_s": 420, "priority": 3},
+  "cf_fix":     {"prefer": ["codex"],   "fallback": ["claude"], "spill_after_s": 900,  "timeout_s": 1500, "stall_s": 420, "priority": 1},
+  "cf_audit":   {"prefer": ["copilot", "claude"], "fallback": ["codex"], "spill_after_s": 600, "timeout_s": 600, "stall_s": 600, "priority": 1, "claude_model": "haiku"},
+  "cf_shorts":  {"prefer": ["codex"],   "fallback": ["claude"], "spill_after_s": 900,  "timeout_s": 1200, "stall_s": 420, "priority": 2},
+  "cf_thumb":   {"prefer": ["claude"],  "fallback": ["codex"],  "spill_after_s": 900,  "timeout_s": 900,  "stall_s": 600, "priority": 2},
+  "cf_analyze": {"prefer": ["claude"],  "fallback": ["codex"],  "spill_after_s": 3600, "timeout_s": 1200, "stall_s": 600, "priority": 4}
+ },
+
+ "audit_pass_score": 7
+}

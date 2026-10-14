@@ -1,0 +1,50 @@
+name: factory
+# Hand-off from the local factory (studio/factory): a pushed render request -> compact scripts become block JSON
+# (block.py), B-roll is fetched (screenshots), missing AI images fall back to Openverse, then render-long starts.
+# Publishing stays with channel-operator (QC first).
+on:
+  push:
+    paths: ["studio/factory/render/*.json"]
+  workflow_dispatch:
+    inputs:
+      id: {description: "Video id (lf12)", required: true}
+permissions:
+  contents: write
+  actions: write
+concurrency: factory
+jobs:
+  handoff:
+    runs-on: ubuntu-latest
+    env: {GH_TOKEN: "${{ github.token }}"}
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - id: ids
+        run: |
+          if [ -n "${{ inputs.id }}" ]; then ids="${{ inputs.id }}"; else
+            ids=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- studio/factory/render/ | xargs -r -n1 basename | sed 's/\.json$//'); fi
+          todo=""; for id in $ids; do [ -f studio/renders/$id/result.json ] || todo="$todo $id"; done
+          echo "ids=$todo" >> "$GITHUB_OUTPUT"; echo "to render:$todo"
+      - name: scripts -> block JSON
+        if: steps.ids.outputs.ids != ''
+        run: |
+          for id in ${{ steps.ids.outputs.ids }}; do
+            n=1; for f in $(ls studio/factory/scripts/${id}_b*.txt | sort); do
+              b=$(basename "$f" .txt); python3 studio/scripts/block.py "$b" "$f" "$n" || { echo "::error::$b: block.py failed"; exit 1; }
+              n=$((n + $(grep -c '^@chapter' "$f" || true)))
+            done
+          done
+          git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
+          git add -A studio/assetedit && git commit -q -m "factory: block JSON for${{ steps.ids.outputs.ids }} [skip ci]" && git pull -q --rebase && git push -q || true
+      - name: fetch B-roll, Openverse fallback for missing AI images
+        if: steps.ids.outputs.ids != ''
+        run: |
+          wait_run() { sleep 15; rid=$(gh run list --workflow "$1" -L 1 --json databaseId -q '.[0].databaseId'); gh run watch "$rid" --exit-status >/dev/null || echo "::warning::$1 run $rid failed"; git pull -q --rebase; }
+          gh workflow run screenshots.yml && wait_run screenshots.yml
+          for id in ${{ steps.ids.outputs.ids }}; do
+            miss=$(python3 -c "import json,glob,os;print(sum(1 for f in glob.glob('studio/assetedit/videos/${id}_b*.json') for s in json.load(open(f))['segments'] if s['show']['type']=='photo' and not os.path.exists('studio/assetedit/photos/'+s['show']['file'])))")
+            if [ "$miss" != "0" ]; then echo "::warning::$id: $miss AI images missing (quota?), Openverse fallback - check the contact sheet before posting"; gh workflow run screenshots.yml -f fallback=${id}_ && wait_run screenshots.yml; fi
+          done
+      - name: start renders
+        if: steps.ids.outputs.ids != ''
+        run: for id in ${{ steps.ids.outputs.ids }}; do gh workflow run render-long.yml -f id=$id; echo "render-long started for $id"; done

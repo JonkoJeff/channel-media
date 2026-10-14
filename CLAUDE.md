@@ -5,6 +5,9 @@ For any scheduled or manual run: follow `studio/RUNBOOK.md` exactly. Use the pon
 ## Priorities (owner)
 Execution > Discussion. Speed > Research. Consistency > Volume. Repository state > chat memory (state lives in files, never in the conversation).
 
+## Factory in herdr (owner, 13 Oct 2026, replaces the routing below where they conflict)
+Crazy Facts long videos are made by the factory: `studio/factory/README.md`. Herdr workspace "CrazyFacts HQ" (`pwsh -File studio/factory/hq.ps1`) shows the dashboard, the controller, the hq agent and one pane per worker. Codex writes plans, script blocks and Shorts cuts; Claude does thumbnails, audits, analysis and is the failover writer (owner: tasks must never hang, another agent takes over). Style source of truth: `studio/factory/STYLE.md` + `learned.md`. The factory stops generating when the buffer is full and pushes finished scripts to `factory.yml` for rendering; QC and posting stay here (channel-operator).
+
 ## Multi-agent routing in herdr (owner, 13 Oct 2026)
 Run Claude Code inside a herdr pane; herdr only lets agents control herdr from inside a herdr pane. Codex (ChatGPT subscription) and Copilot (free) are signed in and connected; check with `herdr integration status`. Use `herdr agent start <name> --kind codex|copilot`, send a task, wait until it is done, then `herdr agent read`; see `herdr agent --help` for exact flags (never guess flags).
 - Claude keeps: render pipeline (studio/religion/build.py, render-long, shorts), render QC, Zernio posting/deleting, keys, accounts, priorities, RUNBOOK, fixing failures.

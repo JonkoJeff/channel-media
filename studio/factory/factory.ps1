@@ -502,7 +502,7 @@ function Run($ag, $t, $prompt) {
       foreach ($l in ($log -split "`n")) { if ($l -match '"turn.completed"') { $u = ($l | ConvertFrom-Json -AsHashtable).usage; $r.tin += $u.input_tokens - $u.cached_input_tokens; $r.cached += $u.cached_input_tokens; $r.tout += $u.output_tokens + $u.reasoning_output_tokens } }
       if (Test-Path "$base.last.txt") { $r.text = Get-Content "$base.last.txt" -Raw -Encoding utf8 }
       # owner: delete the Codex/ChatGPT chat once its text is received (the Desktop app daemon keeps it despite --ephemeral)
-      if ($c.codex_delete_chats -and "$log" -match '"thread_id":"([0-9a-f-]{36})"') { & $Exe.codex delete --force $Matches[1] 2>$null | Out-Null }
+      if ($c.codex_delete_chats -and "$log" -match '"thread_id":"([0-9a-f-]{36})"') { & $exe delete --force $Matches[1] 2>$null | Out-Null }
     }
     'claude' {
       $res = $null; foreach ($l in ($log -split "`n")) { if ($l -match '"type":"result"' -and $l -match '"usage"') { try { $j = $l | ConvertFrom-Json -AsHashtable; if ($j.type -eq 'result') { $res = $j } } catch {} } }

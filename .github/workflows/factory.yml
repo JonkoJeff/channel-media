@@ -35,6 +35,7 @@ jobs:
       - name: scripts -> block JSON
         if: steps.ids.outputs.ids != ''
         run: |
+          pip install -q numpy pillow
           for id in ${{ steps.ids.outputs.ids }}; do
             n=1; for f in $(ls studio/factory/scripts/${id}_b*.txt | sort); do
               b=$(basename "$f" .txt); python3 studio/scripts/block.py "$b" "$f" "$n" || { echo "::error::$b: block.py failed"; exit 1; }

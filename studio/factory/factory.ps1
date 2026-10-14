@@ -37,8 +37,8 @@ function Ev($h) { $h.ts = Now; [IO.File]::AppendAllText("$S\events.jsonl", ($h |
 function Fmt($s) { if ($s -lt 60) { "{0}s" -f [int]$s } elseif ($s -lt 3600) { "{0}m{1:00}s" -f [math]::Floor($s / 60), ($s % 60) } else { "{0}h{1:00}m" -f [math]::Floor($s / 3600), [math]::Floor(($s % 3600) / 60) } }
 function Num($n) { if ($n -ge 1e6) { "{0:0.0}M" -f ($n / 1e6) } elseif ($n -ge 1e3) { "{0:0.0}k" -f ($n / 1e3) } else { "$n" } }
 function Lock([scriptblock]$sb) {
-  for ($i = 0; $i -lt 600; $i++) { try { $fs = [IO.File]::Open("$S\lock", 'OpenOrCreate', 'ReadWrite', 'None'); break } catch { Start-Sleep -Milliseconds 100 } }
-  try { & $sb } finally { if ($fs) { $fs.Dispose() } }
+  for ($lockTry = 0; $lockTry -lt 600; $lockTry++) { try { $lockFs = [IO.File]::Open("$S\lock", 'OpenOrCreate', 'ReadWrite', 'None'); break } catch { Start-Sleep -Milliseconds 100 } }
+  try { & $sb } finally { if ($lockFs) { $lockFs.Dispose() } }
 }
 function Herdr { param([Parameter(ValueFromRemainingArguments)]$a) try { $o = & $HerdrExe @a 2>$null; if ($o) { ($o -join "`n") | ConvertFrom-Json -AsHashtable -ErrorAction SilentlyContinue } } catch {} }
 function Notify($title, $body) { if (Test-Path $HerdrExe) { Herdr notification show $title --body $body --position top-right --sound request | Out-Null } }
@@ -206,6 +206,7 @@ function Prompt($t) {
       $outline = (1..$ch.Count | ForEach-Object { "$_. $($ch[$_ - 1].name) (~$($ch[$_ - 1].words) words): $($ch[$_ - 1].brief)" }) -join "`n"
       $pos = if ($i -eq 1) { 'This is the FIRST chapter: open with the calm 20-second hook scene.' } elseif ($i -eq $ch.Count) { 'This is the LAST chapter: end softly with a reflective closing image; one gentle line about the next story is allowed.' } else { 'Middle chapter: start with a spoken transition, no greeting or recap.' }
       $file = '{0}\out\{1}_c{2:00}.txt' -f $S, $a.id, $i; $txt = if (Test-Path $file) { Get-Content $file -Raw -Encoding utf8 }
+      if ($t.type -ne 'rel_chapter' -and -not "$txt".Trim()) { throw "chapter file $file is missing" }
       $v = @{ n = $i; total = $ch.Count; ep = $o.ep; title = $o.title; tradition = (RelTradition ([int]$o.ep)); outline = $outline; names = (@($o.names) -join ', '); name = $c.name; words = $c.words; brief = $c.brief; prev = $(if ($i -gt 1) { $ch[$i - 2].name } else { '(this is the opening)' }); next = $(if ($i -lt $ch.Count) { $ch[$i].name } else { '(this is the end)' }); position = $pos; text = $txt }
       if ($t.type -eq 'rel_fix') { $r = RJ "$S\out\$($a.from).json"; $v.issues = ((@($r.issues) | ForEach-Object { "- $_" }) -join "`n") }
       Fill $t.type $v

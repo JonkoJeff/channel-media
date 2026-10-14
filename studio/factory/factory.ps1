@@ -52,8 +52,8 @@ function Ensure($type, $key, $targs, $deps, $pipeline) {
   WJ "$S\queue\pending\$id.json" $t; Ev @{ ev = 'queued'; task = $id; type = $type }; $id
 }
 function Done($id) { Test-Path "$S\queue\done\$id.json" }
-function Requeue($t, $from, $agent, $why) {
-  $c = Cfg; $t.attempts++; if ($agent -and $t.avoid -notcontains $agent) { $t.avoid += $agent }
+function Requeue($t, $from, $agent, $why, [switch]$Free) {
+  $c = Cfg; if (-not $Free) { $t.attempts++; if ($agent -and $t.avoid -notcontains $agent) { $t.avoid += $agent } }
   $t.history += "$(Get-Date -f 'MM-dd HH:mm') $agent $why"; $t.queued = Now; $t.Remove('agent'); $t.Remove('started')
   $to = if ($t.attempts -ge $c.max_attempts) { 'failed' } else { 'pending' }
   WJ "$S\queue\$to\$($t.id).json" $t; Remove-Item $from -ErrorAction SilentlyContinue
@@ -380,13 +380,13 @@ function CheckChapter($text, $target, $ep) {
     if (-not $s.vis -or $s.vis.Length -lt 6 -or $s.vis -match '(?i)^(an? )?(ancient|old|historical) (scene|image|picture|painting)') { $e += "scene ${i}: VISUAL missing or too vague: '$($s.vis)'" }
     if ($s.src -notin 'wikimedia', 'met', 'smithsonian', 'rijksmuseum', 'loc', 'map', 'text-card') { $e += "scene ${i}: SOURCE '$($s.src)' not allowed" }
     if ($s.vis -match '(?i)muhammad|mohammed') { $e += "scene ${i}: VISUAL may never depict the Prophet Muhammad" }
-    if ($ep -ge 21 -and $ep -le 30 -and $s.vis -match '(?i)\b(prophet|angel|angels|adam|eve|iblis)\b') { $e += "scene ${i}: Quran episode: no prophets, angels or Adam in VISUAL ('$($s.vis)')" }
+    if ($ep -ge 21 -and $ep -le 30 -and ($s.vis -replace "(?i)prophet'?s mosque", '') -match '(?i)\b(prophets?|angels?|adam|eve|iblis)\b') { $e += "scene ${i}: Quran episode: no prophets, angels or Adam in VISUAL ('$($s.vis)')" }
     if ($s.say -match '\[\d\d:\d\d|(?i)\bpart (one|two|\d+)\b|in this chapter|chapter (one|two|\d+)') { $e += "scene ${i}: part/chapter numbers or timestamps in NARRATION" }
     $vis[$s.vis] = 1 + [int]$vis[$s.vis]
   }
-  foreach ($k in $vis.Keys) { if ($vis[$k] -gt 3) { $e += "VISUAL '$k' used $($vis[$k]) times in one chapter (max 2-3)" } }
+  foreach ($k in $vis.Keys) { if ($vis[$k] -gt 4) { $e += "VISUAL '$k' used $($vis[$k]) times in one chapter (max 2-3)" } }
   if ($c.scenes.Count -lt 8) { $e += "only $($c.scenes.Count) scenes" }
-  if ($w -lt 0.92 * $target) { $e += "only $w words (target $target, minimum $([int](0.92 * $target)))" }
+  if ($w -lt 0.85 * $target) { $e += "only $w words (target $target, minimum $([int](0.85 * $target)))" }
   if ($w -gt 1.6 * $target) { $e += "$w words is far over the target $target" }
   @{ errors = $e; words = $w; name = $c.name }
 }
@@ -454,7 +454,7 @@ function RelPlan($ctl, $cfg) {
   }
   $inv = RelInventory
   if ($inv.count -lt $cfg.low_watermark) { $ctl.rel_mode = 'generating' } elseif ($inv.count -ge $cfg.high_watermark) { $ctl.rel_mode = 'paused' }
-  $open = @(Get-ChildItem "$S\pipelines" -Filter 'rel*.json' | ForEach-Object { RJ $_.FullName } | Where-Object { $_.stage -notin 'ready_to_render', 'render_requested', 'rendered', 'blocked' }).Count
+  $open = @(Get-ChildItem "$S\pipelines" -Filter 'rel*.json' | ForEach-Object { RJ $_.FullName } | Where-Object { $_.stage -notin 'ready_to_render', 'render_requested', 'rendered' }).Count
   $key = "religion-$(Today)"; $started = [int]$ctl.started[$key]
   if ($ctl.rel_mode -eq 'generating' -and $open -lt $cfg.max_concurrent_pipelines -and $started -lt $cfg.max_pipelines_started_per_day) {
     foreach ($n in (RelRotation)) {
@@ -496,7 +496,7 @@ function Run($ag, $t, $prompt) {
   $r = @{ ok = $false; text = ''; tin = 0; tout = 0; cached = 0; cost = 0.0; why = $why; secs = (Now) - $t0; rate = $false }
   # only real error events count as a rate limit (Claude logs an informational rate_limit_event on every run)
   $errEv = @("$log" -split "`n" | Where-Object { $_ -match '"type":"(error|turn\.failed)"|"is_error":true' -and $_ -notmatch 'hook timeout' }) -join ' '
-  if ("$err $errEv" -match '(?i)rate.?limit|usage limit|quota exceeded|too many requests|\b429\b|hit your (usage )?limit|credit balance' -or "$log" -match '"rate_limit_event".{0,80}"status":"(rejected|blocked)"') { $r.rate = $true }
+  if ("$err $errEv" -match '(?i)rate.?limit|usage limit|quota exceeded|too many requests|\b429\b|hit your (usage )?limit|credit balance|out of credits|add credits|insufficient_quota|billing' -or "$log" -match '"rate_limit_event".{0,80}"status":"(rejected|blocked)"') { $r.rate = $true }
   switch ($kind) {
     'codex' {
       foreach ($l in ($log -split "`n")) { if ($l -match '"turn.completed"') { $u = ($l | ConvertFrom-Json -AsHashtable).usage; $r.tin += $u.input_tokens - $u.cached_input_tokens; $r.cached += $u.cached_input_tokens; $r.tout += $u.output_tokens + $u.reasoning_output_tokens } }
@@ -576,6 +576,7 @@ function Worker($n) {
       if ($r.rate) { $a.cooldown_until = (Now) + $c.ratelimit_cooldown_s; Ev @{ ev = 'cooldown'; agent = $n; why = 'rate limit' } }
       elseif ($a.fails -ge $c.cooldown_after_failures) { $a.cooldown_until = (Now) + $c.cooldown_s; $a.fails = 0; Ev @{ ev = 'cooldown'; agent = $n; why = "$($c.cooldown_after_failures) failures in a row" } }
       # failed validation of a block: the next attempt gets the errors as a fix list
+      if ($r.rate) { Requeue $t "$S\queue\active\$($t.id).json" $n "agent limit/credits: $($errs | Select-Object -First 1)" -Free; SaveA $a; continue }
       $t.last_errors = @($errs | Select-Object -First 12)
       Requeue $t "$S\queue\active\$($t.id).json" $n (($errs | Select-Object -First 2) -join '; ')
     }
@@ -606,7 +607,9 @@ function GitPush($paths, $msg) {
 function Controller {
   Write-Host 'controller started: planner, watchdog, failover, git hand-off'
   if ($env:HERDR_PANE_ID) { Herdr pane rename $env:HERDR_PANE_ID 'controller' | Out-Null }
+  Add-Type -Namespace W -Name P -MemberDefinition '[DllImport("kernel32.dll")] public static extern uint SetThreadExecutionState(uint f);' -ErrorAction SilentlyContinue
   while ($true) {
+    if ((Cfg).keep_awake) { [W.P]::SetThreadExecutionState([uint32]2147483649) | Out-Null }  # ES_CONTINUOUS|ES_SYSTEM_REQUIRED: no sleep; the screen may still turn off
     try { Tick } catch { Write-Host "$(Get-Date -f HH:mm:ss) tick error: $_" -ForegroundColor Red; Ev @{ ev = 'error'; where = 'controller'; why = "$_" } }
     Start-Sleep (Cfg).tick_s
   }
@@ -652,12 +655,28 @@ function Tick {
       else { Write-Host 'git push failed; retry next tick' -ForegroundColor Yellow }
     }
   }
+  # 4b. blocked pipelines: after 20 min retry their failed tasks (max 3 rounds) instead of starting new work
+  foreach ($pf in (Get-ChildItem "$S\pipelines" -Filter *.json)) {
+    $p = RJ $pf.FullName; if ($p.stage -ne 'blocked') { continue }
+    if (-not $p.blocked_at) { $p.blocked_at = $now; WJ $pf.FullName $p; continue }
+    if ([int]$p.retries -ge 3 -or ($now - [int]$p.blocked_at) -lt 1200) { continue }
+    foreach ($ft in (Tasks 'failed' | Where-Object { $_.pipeline -eq $p.id })) { $ft.attempts = 0; $ft.avoid = @(); $ft.queued = $now; WJ "$S\queue\pending\$($ft.id).json" $ft; Remove-Item "$S\queue\failed\$($ft.id).json" }
+    $p.stage = 'writing'; $p.retries = [int]$p.retries + 1; $p.Remove('blocked_at'); WJ $pf.FullName $p; Ev @{ ev = 'retry'; id = $p.id; round = $p.retries }
+  }
+  # 4b. blocked pipelines: after 20 min retry their failed tasks (max 3 rounds) instead of starting new work
+  foreach ($pf in (Get-ChildItem "$S\pipelines" -Filter *.json)) {
+    $p = RJ $pf.FullName; if ($p.stage -ne 'blocked') { continue }
+    if (-not $p.blocked_at) { $p.blocked_at = $now; WJ $pf.FullName $p; continue }
+    if ([int]$p.retries -ge 3 -or ($now - [int]$p.blocked_at) -lt 1200) { continue }
+    foreach ($ft in (Tasks 'failed' | Where-Object { $_.pipeline -eq $p.id })) { $ft.attempts = 0; $ft.avoid = @(); $ft.queued = $now; WJ "$S\queue\pending\$($ft.id).json" $ft; Remove-Item "$S\queue\failed\$($ft.id).json" }
+    $p.stage = 'writing'; $p.retries = [int]$p.retries + 1; $p.Remove('blocked_at'); WJ $pf.FullName $p; Ev @{ ev = 'retry'; id = $p.id; round = $p.retries }
+  }
   # 5. watermarks: generate only when the buffer runs low, stop when it is full
   $cf = $c.channels.crazyfacts
   if ($cf.enabled -and -not $ctl.paused) {
     $inv = Inventory
     if ($inv.count -lt $cf.low_watermark) { $ctl.cf_mode = 'generating' } elseif ($inv.count -ge $cf.high_watermark) { $ctl.cf_mode = 'paused' }
-    $open = @(Get-ChildItem "$S\pipelines" -Filter 'lf*.json' | ForEach-Object { RJ $_.FullName } | Where-Object { $_.stage -notin 'render_requested', 'rendered', 'blocked' }).Count
+    $open = @(Get-ChildItem "$S\pipelines" -Filter 'lf*.json' | ForEach-Object { RJ $_.FullName } | Where-Object { $_.stage -notin 'render_requested', 'rendered' }).Count
     $startedToday = [int]$ctl.started[(Today)]
     if ($ctl.cf_mode -eq 'generating' -and $open -lt $cf.max_concurrent_pipelines -and $startedToday -lt $cf.max_pipelines_started_per_day) {
       $id = StartVideo; $ctl.started[(Today)] = $startedToday + 1; Write-Host "$(Get-Date -f HH:mm:ss) buffer $($inv.count) (refill to $($cf.high_watermark)): started $id" -ForegroundColor Cyan

@@ -214,3 +214,6 @@ Shorts now get a thumbnail (frame at 1.5 s with the hook text, hosted on Zernio)
 
 ## GROWTH LOOP (owner, 14 Oct: grow per video, quality over volume)
 Daily 05:00 UTC `stats.yml` refreshes studio/yt/status.json (Actions only, no Claude tokens). Once a week (when videos have 7 days of data) run the factory analyst `cf_analyze` on status.json: winners and flops per hook/length/slot/topic -> proposals -> learned.md. Per video: keep only Shorts that follow learned.md; fewer, stronger uploads beat more filler. Trend scan (`trends.yml`) and competitor lookup (`lookup.yml`) stay manual: run them only when the weekly analysis asks for it.
+
+## LANGUAGES (owner, 15 Oct): main language American English, plus translated titles/descriptions
+Every long Crazy Facts video gets localized title + short description in: es, pt-BR, hi, id, fr, de, ar, tr, ru, it, ja, ko (YouTube shows them by viewer language; audio stays English, viewers use YouTube's auto-translated subtitles). After a long video goes live: add its YouTube id and the translated titles to studio/yt/localize.json (Codex translates, Claude checks) and run `localize.yml`. Needs the Crazy Facts YouTube token; Belief Through Time (Zernio-only) has to be done in Studio.

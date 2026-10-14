@@ -220,3 +220,6 @@ Every long Crazy Facts video gets localized title + short description in: es, pt
 
 ## FOCUS (owner, 15 Oct): only Brain After Dark
 Belief Through Time stopped (see CLAUDE.md FOCUS). The channel formerly called Crazy Facts is now "Brain After Dark". Priority list now: 1 Brain After Dark. No religion builds.
+
+## VOICE FLOW (15 Oct)
+Long-video narration (longform.py voice()): 1-2 sentences per Kokoro take (<170 chars, not across a question), speed 0.93 (calm) with +-3% repeatable variation per take, pause 0.6 s (calm) scaled by take length / question and jittered, 12 ms fades. Voices unchanged (am_michael). Only affects NEW audio (cached *_vo.wav stay). Owner feedback: voice was too robotic.

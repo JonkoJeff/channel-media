@@ -1,7 +1,7 @@
 """Long-form (16:9) explainer renderer: approved character sprites + approved backgrounds + infographic cards, cut on the voice.
 Usage: python3 longform.py videos/lf01.json        -> renders/<id>.mp4, <id>_thumb.png, <id>_description.txt
 Voice is cached in audio/<id>_vo.wav (+ _timing.json); delete it to re-voice."""
-import json, math, os, re, subprocess, sys
+import json, math, os, re, subprocess, sys, zlib
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
@@ -66,10 +66,21 @@ def voice(v):
     out, timing, t = [], [], 0.0
     for i, s in enumerate(v["segments"]):
         start = t
-        for sent in re.split(r"(?<=[.!?])\s+", s["say"].strip()):
-            a = k.speak(sent, v.get("voice", "am_michael" if v.get("vibe") == "calm" else "am_puck"), v.get("speed", 0.86 if v.get("vibe") == "calm" else 1.0))
-            nz = np.nonzero(np.abs(a) > 0.01)[0]; a = a[max(0, nz[0] - 600):nz[-1] + 1200]
-            ps = v.get("pause", 0.85 if v.get("vibe") == "calm" else 0.4)
+        calm = v.get("vibe") == "calm"
+        # natural flow: speak 1-2 sentences per take (the model carries intonation across them), not one robotic sentence at a time
+        sents, chunks = re.split(r"(?<=[.!?])\s+", s["say"].strip()), []
+        for sent in sents:
+            if chunks and len(chunks[-1]) + len(sent) < 170 and not chunks[-1].endswith("?"): chunks[-1] += " " + sent
+            else: chunks.append(sent)
+        for ci, sent in enumerate(chunks):
+            rng = np.random.default_rng(zlib.crc32(v["id"].encode()) + i * 97 + ci)  # slight, repeatable variation per take
+            base = v.get("speed", 0.93 if calm else 1.0)
+            a = k.speak(sent, v.get("voice", "am_michael" if calm else "am_puck"), base * float(rng.uniform(0.97, 1.03)))
+            nz = np.nonzero(np.abs(a) > 0.01)[0]; a = a[max(0, nz[0] - 400):nz[-1] + 900].copy()
+            f = int(0.012 * k.SR); a[:f] *= np.linspace(0, 1, f); a[-f:] *= np.linspace(1, 0, f)
+            # pause depends on how the take ends: question/colon longer, long take longer, small random jitter
+            base_ps = v.get("pause", 0.6 if calm else 0.3)
+            ps = base_ps * (1.25 if sent.rstrip().endswith("?") else 1.0) * (1.15 if len(sent) > 110 else 0.9) * float(rng.uniform(0.85, 1.2))
             out += [a, np.zeros(int(ps * k.SR), np.float32)]; t += len(a) / k.SR + ps
         gap = {"chapter": 0.9, "end": 2.0}.get(s["show"]["type"], 0.5)
         out.append(np.zeros(int(gap * k.SR), np.float32)); t += gap

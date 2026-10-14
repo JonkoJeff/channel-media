@@ -205,3 +205,6 @@ zernio.py post/shorts: (1) refuses when result.json already has zernio_id / the 
 
 ## CRAZY FACTS SHORTS: 4 PER DAY (owner, 14 Oct)
 Crazy Facts gets exactly 4 Shorts per day (09:00, 12:00, 15:00, 20:00; the long video stays at 17:00), only the most interesting points. zernio.py shorts defaults to these 4 slots; `zernio.yml cmd=reslot a=<first day> b=<slots>` re-times all pending Shorts to 4/day. Per video, schedule only its best Shorts (hook + strongest fact); skip filler cuts.
+
+## THUMBNAILS (14 Oct): private repo
+raw.githubusercontent.com URLs no longer work for Zernio/YouTube (repo is private) -> YouTube picked an auto frame (rel01). zernio.py now uploads the thumbnail file to Zernio media (host_thumb) when posting. `zernio.yml cmd=rethumb a=lf10,lf11` re-attaches it to still-SCHEDULED posts; published videos need the thumbnail set in YouTube Studio. result.json "thumb" stays a repo URL (only used to find the file).

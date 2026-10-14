@@ -44,6 +44,17 @@ def existing(prefix):   # FAILSAFE: a live (scheduled/publishing/published) post
     return None
 
 
+
+def host_thumb(url):   # repo is PRIVATE: Zernio/YouTube cannot fetch raw.githubusercontent.com. Upload the checked-out file to Zernio media instead and return its public URL.
+    rel = url.split("/main/", 1)[-1] if "raw.githubusercontent.com" in url else None
+    f = os.path.join(D, "..", "..", rel) if rel else None
+    if not f or not os.path.exists(f): sys.exit(f"::error::thumbnail file not found for {url}")
+    ct = "image/png" if f.lower().endswith(".png") else "image/jpeg"
+    _, ps = call("POST", "/media/presign", {"filename": os.path.basename(f), "contentType": ct, "size": os.path.getsize(f)})
+    urllib.request.urlopen(urllib.request.Request(ps["uploadUrl"], data=open(f, "rb").read(), method="PUT", headers={"Content-Type": ct}), timeout=300).read()
+    return ps["publicUrl"]
+
+
 cmd = sys.argv[1]
 if cmd == "accounts" and sys.argv[2:3] == ["2"]:   # second Zernio account (Religion Unfolded)
     KEY = KEY2 or sys.exit("::error::ZERNIO_API_KEY_2 missing"); _, a = call("GET", "/accounts"); acc = a.get("accounts", a if isinstance(a, list) else [])
@@ -144,6 +155,15 @@ elif cmd == "reslot":   # a = first day YYYY-MM-DD, b = slots "09:00,12:00,15:00
         if not ok: continue
         d["when"] = when; json.dump(r, open(f, "w"), indent=1); moved += 1
     print(f"::notice::reslot: {len(items)} pending Shorts, {moved} moved, {len(slots)}/day from {day0} until {day0 + dt.timedelta(days=(n - 1) // len(slots))}")
+elif cmd == "rethumb":   # a = comma-separated video ids (lf09,rel01): re-attach the thumbnail (hosted on Zernio) to the existing scheduled post. Published posts cannot be changed: set the thumbnail in YouTube Studio.
+    for vid in sys.argv[2].split(","):
+        v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); res = json.load(open(os.path.join(R, vid, "result.json"))); yt_account(v.get("channel", "crazyfacts"))
+        _, p = call("GET", f"/posts/{res['zernio_id']}"); post = p.get("post", p)
+        if post.get("status") != "scheduled": print(f"::notice::{vid}: status {post.get('status')}, not changeable: set the thumbnail in YouTube Studio"); continue
+        mi = [dict(x) for x in post.get("mediaItems", [])]
+        for x in mi: x.pop("_id", None); x["thumbnail"] = host_thumb(res["thumb"]) if x.get("type") == "video" else x.get("thumbnail")
+        try: call("PUT", f"/posts/{res['zernio_id']}", {"mediaItems": mi}); print(f"::notice::{vid}: thumbnail re-attached")
+        except SystemExit as e: print(f"::notice::{vid}: {str(e)[:200]}")
 elif cmd == "reschedule":  # a = post id, b = local time YYYY-MM-DDTHH:MM
     st, p = call("PUT", f"/posts/{sys.argv[2]}", {"scheduledFor": sys.argv[3], "timezone": "Europe/Amsterdam"}); post = p.get("post", p)
     print(f"::notice::{st} {post.get('status')} {post.get('scheduledFor')} {json.dumps(p)[:300]}")
@@ -170,7 +190,7 @@ elif cmd == "post":
     pl = [cfg.get("playlists", {}).get(t) for t in v.get("playlists", [])]
     if pl and pl[0]: psd["playlistId"] = pl[0]
     body = {"content": open(os.path.join(R, vid, "description.txt")).read(), "tags": [t.lstrip("#") for t in v.get("tags", [])],
-            "mediaItems": [{"type": "video", "url": ps["publicUrl"], "thumbnail": res["thumb"]}],
+            "mediaItems": [{"type": "video", "url": ps["publicUrl"], "thumbnail": host_thumb(res["thumb"])}],
             "platforms": [{"platform": "youtube", "accountId": yt_account(v.get("channel", "crazyfacts")), "platformSpecificData": psd}],
             "scheduledFor": when, "timezone": "Europe/Amsterdam"}
     st, p = call("POST", "/posts", body, soft=True)

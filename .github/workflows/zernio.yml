@@ -23,4 +23,5 @@ jobs:
       - run: |
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
           git add studio/yt/zernio.json && git add -f studio/renders/*/result.json
-          git commit -qm "zernio ${{ inputs.cmd }} ${{ inputs.a }} [skip ci]" && git pull -q --rebase && git push || true
+          git commit -qm "zernio ${{ inputs.cmd }} ${{ inputs.a }} [skip ci]" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push && exit 0; sleep 8; done; echo "::error::result.json not pushed: post state lost"; exit 1

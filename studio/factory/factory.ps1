@@ -96,6 +96,9 @@ $ins
 # RECENT VIDEOS (variety: differ from the last two)
 $recent
 
+# ACTIVE EXPERIMENTS (apply them in plans, script blocks, thumbnails, titles and Shorts hooks; max 3 run at once)
+$((Experiments | Where-Object { $_ -match '\| active \|' }) -join "`n")
+
 # PLANNED/USED TITLES (never repeat a topic)
 $titles
 
@@ -108,6 +111,17 @@ $($bgs -join "`n")
   $h = [BitConverter]::ToString([Security.Cryptography.SHA1]::Create().ComputeHash($Utf8.GetBytes($txt))).Replace('-', '').Substring(0, 8).ToLower()
   WT "$S\pack.md" $txt; WT "$S\pack.hash" $h; @{ hash = $h; text = $txt }
 }
+
+function Ams { [TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::UtcNow, 'W. Europe Standard Time') }
+function StrategySlot { $d = Ams; if ($d.Hour -ge 20) { $d.ToString('yyyy-MM-dd') + '_pm' } elseif ($d.Hour -ge 8) { $d.ToString('yyyy-MM-dd') + '_am' } else { $d.AddDays(-1).ToString('yyyy-MM-dd') + '_pm' } }
+function VideoRows {
+  $st = RJ "$Repo\studio\yt\status.json"; $rows = @()
+  foreach ($x in @($st.videos)) { $rows += "- $($x.published) | $($x.duration) | views $($x.views) likes $($x.likes) comments $($x.comments) | $($x.title)" }
+  foreach ($x in (VideoMeta | Select-Object -Last 8)) { $rows += "- made: $($x.id) `"$($x.title)`" format $($x.format) thumb `"$($x.thumb.text)`" $($x.thumb.sprite)/$($x.thumb.bg)/$($x.thumb.accent)" }
+  $rows -join "`n"
+}
+$ExpFile = "$F\experiments.md"
+function Experiments { if (Test-Path $ExpFile) { @(Get-Content $ExpFile -Encoding utf8 | Where-Object { $_ -match '^- E\d+ \|' }) } else { @() } }
 
 # ---------- validators ----------
 function Segs($text) { @(($text -replace "`r", '') -split "\n\s*\n" | Where-Object { $_.Trim() } | ForEach-Object { , @($_ -split "`n" | Where-Object { $_.Trim() }) }) }
@@ -149,7 +163,7 @@ function Plan($id) { RJ "$AE\videos\$id.json" }
 function BlockFile($b) { "$F\scripts\$b.txt" }
 function Position($n, $total) { if ($n -eq 1) { 'This is block 1: open with the 15-second gentle hook and the "Tonight, we''ll explore" list (no numbers).' } elseif ($n -eq $total) { 'This is the LAST block: practical takeaways, a callback to the opening moment, a gentle guided wind-down, then an @end segment teasing the next video.' } else { 'Middle block: continue the story with a spoken transition; no greeting, no recap, no ending.' } }
 function Advance($id) {
-  $p = RJ "$S\pipelines\$id.json"; if (-not $p -or $p.adopted -or $p.stage -in 'render_requested', 'rendered', 'blocked') { return }
+  $p = RJ "$S\pipelines\$id.json"; if (-not $p -or $p.adopted -or $p.stage -in 'render_requested', 'rendered', 'blocked', 'stopped') { return }
   if ($p.channel -eq 'religion') { AdvanceRel $p; return }
   $plan = Ensure 'cf_plan' $id @{ id = $id } @() $id
   if (-not (Done $plan)) { return }
@@ -217,12 +231,11 @@ function Prompt($t) {
       Fill 'rel_shorts' @{ ep = $o.ep; title = $o.title; digest = $dg }
     }
     'cf_analyze' {
-      $st = RJ "$Repo\studio\yt\status.json"; $rows = @()
-      foreach ($x in @($st.videos)) { $rows += "- $($x.published) | $($x.duration) | views $($x.views) likes $($x.likes) comments $($x.comments) | $($x.title)" }
-      foreach ($x in (VideoMeta | Select-Object -Last 8)) { $rows += "- made: $($x.id) `"$($x.title)`" format $($x.format) thumb `"$($x.thumb.text)`" $($x.thumb.sprite)/$($x.thumb.bg)/$($x.thumb.accent)" }
       $pr = if (Test-Path "$S\proposals.md") { Get-Content "$S\proposals.md" -Raw -Encoding utf8 } else { 'none' }
-      Fill 'cf_analyze' @{ videos = ($rows -join "`n"); proposals = $pr }
+      $ex = (Experiments | Where-Object { $_ -match '\| active \|' }) -join "`n"; if (-not $ex) { $ex = 'none' }
+      Fill 'cf_analyze' @{ videos = (VideoRows); proposals = $pr; experiments = $ex }
     }
+    'cf_strategy' { Fill 'cf_strategy' @{ date = (Ams).ToString('yyyy-MM-dd HH:mm') + ' Europe/Amsterdam'; videos = (VideoRows) } }
   }
 }
 
@@ -324,7 +337,39 @@ function Accept($t, $body) {
         [IO.File]::AppendAllText("$Repo\studio\insights.md", "`n## $(Today) (factory analyst)`n$ins`n", $Utf8)
         if ($rules -and $rules -notmatch '^none') { $l = Get-Content "$F\learned.md" -Raw -Encoding utf8; WT "$F\learned.md" ($l.TrimEnd() + "`n" + $rules + "`n") }
         if (Test-Path "$S\proposals.md") { Move-Item "$S\proposals.md" "$S\proposals-$(Get-Date -f yyyyMMddHHmm).md" -Force }
+        if ((Test-Path $ExpFile) -and $body -match '(?s)VERDICTS:\s*(.*)$') {
+          $verd = @{}; foreach ($l in ($Matches[1] -split "`n")) { if ($l -match '(E\d+)\W+(keep|drop|running)') { $verd[$Matches[1]] = $Matches[2] } }
+          $lines = @(Get-Content $ExpFile -Encoding utf8); $out = @()
+          foreach ($l in $lines) { if ($l -match '^- (E\d+) \| active \|' -and $verd[$Matches[1]] -in 'keep', 'drop') { $v = $(if ($verd[$Matches[1]] -eq 'keep') { 'kept' } else { 'dropped' }); $l = $l -replace '\| active \|', "| $v $(Today) |" }; $out += $l }
+          $act = @($out | Where-Object { $_ -match '\| active \|' }).Count
+          for ($k = 0; $k -lt $out.Count -and $act -lt 3; $k++) { if ($out[$k] -match '\| queued \|') { $out[$k] = $out[$k] -replace '\| queued \|', "| active |"; $out[$k] = $out[$k] -replace '\| started \S+ \|', "| started $(Today) |"; $act++ } }
+          WT $ExpFile (($out -join "`n") + "`n")
+        }
       }
+    }
+    'cf_strategy' {
+      if ($body -notmatch '(?s)INSIGHTS:\s*(.*?)\s*EXPERIMENTS:\s*(.*?)\s*RULES:\s*(.*?)\s*(PROPOSAL:|$)') { return @('missing INSIGHTS:/EXPERIMENTS:/RULES: sections') }
+      $ins = $Matches[1]; $exp = $Matches[2]; $rul = $Matches[3].Trim()
+      $slot = if ($a.slot) { $a.slot } else { StrategySlot }
+      # owner: ignore insights with confidence low or without a source URL
+      $keep = @($ins -split "`n" | ForEach-Object { $_.Trim() } | Where-Object { $_ -match 'https?://' -and $_ -notmatch '(?i)confidence\W{0,3}low\b|[,|(]\s*low\s*\)?\s*$' })
+      $newExp = @($exp -split "`n" | ForEach-Object { $_.Trim() } | Where-Object { $_ -match '^-\s*(.+?)\s*\|\s*applies to:\s*(.+?)\s*\|\s*measure:\s*(.+)$' })
+      Lock {
+        $rd = "$Repo\studio\research"; New-Item -ItemType Directory -Force $rd | Out-Null
+        WT "$rd\strategy_$slot.md" ("# Brain After Dark strategy run $slot`n`n" + $body.Trim() + "`n")
+        $titles = @($keep | ForEach-Object { '- ' + (($_ -replace '^-\s*', '') -replace 'https?://\S+', '' -replace '\s+', ' ').Trim(' ,|-').Substring(0, [Math]::Min(110, (($_ -replace '^-\s*', '') -replace 'https?://\S+', '' -replace '\s+', ' ').Trim(' ,|-').Length)) })
+        if (-not (Test-Path "$rd\INDEX.md")) { WT "$rd\INDEX.md" "# Strategy research index (cf_strategy runs; newest last; do not repeat these findings)`n" }
+        [IO.File]::AppendAllText("$rd\INDEX.md", "`n## $slot`n" + (($titles + '') -join "`n"), $Utf8)
+        if (-not (Test-Path $ExpFile)) { WT $ExpFile "# Experiments (from cf_strategy; max 3 active; the analyst keeps or drops them on status.json)`n# - id | status | started | change | applies to | measure`n" }
+        $all = @(Experiments); $n = $all.Count; $act = @($all | Where-Object { $_ -match '\| active \|' }).Count
+        foreach ($x in $newExp) {
+          $null = $x -match '^-\s*(.+?)\s*\|\s*applies to:\s*(.+?)\s*\|\s*measure:\s*(.+)$'; $n++
+          $st = if ($act -lt 3) { 'active'; $act++ } else { 'queued' }
+          [IO.File]::AppendAllText($ExpFile, "- E$n | $st | started $(Today) | $($Matches[1]) | applies to: $($Matches[2]) | measure: $($Matches[3])`n", $Utf8)
+        }
+        if ($rul -and $rul -notmatch '^none') { [IO.File]::AppendAllText("$S\proposals.md", (($rul -split "`n" | Where-Object { $_.Trim() } | ForEach-Object { "- $(Today) strategist ($slot): RULE $($_.Trim(' -'))" }) -join "`n") + "`n", $Utf8) }
+      }
+      $script:outWords = $keep.Count
     }
   }
   @()
@@ -541,7 +586,8 @@ function Worker($n) {
     $claimed = $null
     foreach ($t in (Tasks 'pending' | Sort-Object { $_.priority }, { $_.queued })) {
       if (-not (MayTake $ag $t $c $agents)) { continue }
-      try { [IO.File]::Move("$S\queue\pending\$($t.id).json", "$S\queue\active\$($t.id).json"); $claimed = $t; break } catch { }
+      $got = $false; Lock { if (Test-Path "$S\queue\pending\$($t.id).json") { [IO.File]::Move("$S\queue\pending\$($t.id).json", "$S\queue\active\$($t.id).json"); $script:got = $true } }  # claims are serialized: never two agents on one task
+      if ($script:got) { $script:got = $false; $claimed = $t; break }
     }
     if (-not $claimed) { Start-Sleep 10; continue }
     $t = $claimed; $t.agent = $n; $t.started = Now; WJ "$S\queue\active\$($t.id).json" $t
@@ -550,6 +596,7 @@ function Worker($n) {
     if ($pane) { Herdr pane report-agent $pane --source factory --agent $ag.kind --state working --message "$n · $($t.id)" | Out-Null; $lastState = 'working' }
     Ev @{ ev = 'start'; task = $t.id; type = $t.type; agent = $n; kind = $ag.kind }
     $pk = if ((TaskChannel $t) -eq 'religion') { RelPack } else { Pack }; $script:outWords = 0; $script:outShorts = 0
+    if ($c.types[$t.type].nopack) { $pk = @{ hash = $pk.hash; text = '' } }
     try { $body = Prompt $t } catch { $body = $null; $perr = "$_" }
     if (-not $body) { Requeue $t "$S\queue\active\$($t.id).json" $n "prompt build failed: $perr"; continue }
     if ($t.last_errors) { $body += "`n`nA previous attempt (another agent) was rejected. Avoid exactly these problems:`n" + ((@($t.last_errors) | ForEach-Object { "- $_" }) -join "`n") }
@@ -602,7 +649,7 @@ function StartVideo { $id = NextId; WJ "$S\pipelines\$id.json" ([ordered]@{ id =
 function GitPush($paths, $msg) {
   Push-Location $Repo
   try {
-    & $Git add -- @paths 2>$null; & $Git commit -q -m $msg 2>$null | Out-Null
+    foreach ($gp in $paths) { if (Test-Path (Join-Path $Repo $gp)) { & $Git add -- $gp 2>$null } }; & $Git commit -q -m $msg 2>$null | Out-Null
     & $Git pull -q --rebase --autostash 2>$null; & $Git push -q 2>$null; $LASTEXITCODE -eq 0
   } finally { Pop-Location }
 }
@@ -652,7 +699,7 @@ function Tick {
     }
     if ($p.stage -eq 'ready_to_render' -and $p.channel -ne 'religion' -and $c.channels.crazyfacts.push_render) {
       $v = Plan $id; WJ "$F\render\$id.json" ([ordered]@{ id = $id; title = $v.title; parts = $v.parts; requested = (Get-Date).ToString('s') })
-      $paths = @("studio/factory/scripts", "studio/factory/render/$id.json", "studio/assetedit/videos/$id.json", 'studio/assetedit/videos/shorts.json', 'studio/assetedit/videos/series.json', 'studio/factory/learned.md', 'studio/insights.md')
+      $paths = @("studio/factory/scripts", "studio/factory/render/$id.json", "studio/assetedit/videos/$id.json", 'studio/assetedit/videos/shorts.json', 'studio/assetedit/videos/series.json', 'studio/factory/learned.md', 'studio/insights.md', 'studio/research', 'studio/factory/experiments.md')
       if (GitPush $paths "factory: $id `"$($v.title)`" written (Codex/Claude), render requested") { $p.stage = 'render_requested'; $p.pushed = $now; WJ $pf.FullName $p; Ev @{ ev = 'render'; id = $id }; Notify 'Factory: render requested' "$id `"$($v.title)`" pushed to GitHub Actions" }
       else { Write-Host 'git push failed; retry next tick' -ForegroundColor Yellow }
     }
@@ -693,6 +740,12 @@ function Tick {
     if ($h -ne $ctl.analyze_hash) { Ensure 'cf_analyze' (Get-Date -f yyyyMMdd) @{} @() $null | Out-Null; $ctl.analyze_hash = $h }
     $ctl.last_analyze = $now
   }
+  $rs = $c.recurring.cf_strategy
+  if ($rs) {
+    $slot = StrategySlot; $busy = @(@(Tasks 'pending') + @(Tasks 'active') | Where-Object { $_.type -eq 'cf_strategy' }).Count
+    if (-not $busy -and -not (Test-Path "$Repo\studio\research\strategy_$slot.md") -and -not (TPath "cf_strategy-$slot")) { Ensure 'cf_strategy' $slot @{ slot = $slot } @() $null | Out-Null; Write-Host "$(Get-Date -f HH:mm:ss) strategy run $slot queued" -ForegroundColor Cyan }
+  }
+  if ($now - [int]$ctl.research_pushed -gt 3600) { $ctl.research_pushed = $now; GitPush @('studio/research', 'studio/factory/experiments.md', 'studio/factory/learned.md') 'factory: strategy research and experiments' | Out-Null }
   # 7. tell Herdr
   $pend = @(Tasks 'pending').Count; $act = @(Tasks 'active').Count
   $ws = $env:HERDR_WORKSPACE_ID; if ($ws) { Herdr workspace report-metadata $ws --source factory --token "buffer=$($ctl.cf_buffer)" --token "mode=$($ctl.cf_mode)" --token "queue=$pend/$act" | Out-Null }
@@ -768,7 +821,7 @@ switch ($Mode) {
   'tick' { Tick; Write-Host 'tick done' }
   'pack' { $p = Pack; "pack v$($p.hash): $($p.text.Length) chars (~$([int]($p.text.Length / 4)) tokens) -> $S\pack.md" }
   'new-video' { $id = StartVideo; "started pipeline $id" }
-  'enqueue' { $a = $Arg | ConvertFrom-Json -AsHashtable; $k = if ($a.block) { $a.block } elseif ($a.id) { $a.id } else { Get-Date -f MMddHHmmss }; Ensure $Type $k $a @() $a.id }
+  'enqueue' { $a = $Arg | ConvertFrom-Json -AsHashtable; if ($Type -eq 'cf_strategy' -and -not $a.slot) { $a.slot = StrategySlot }; $k = if ($a.block) { $a.block } elseif ($a.id) { $a.id } elseif ($a.slot) { $a.slot } else { Get-Date -f MMddHHmmss }; Ensure $Type $k $a @() $a.id }
   'pause' { $c = Ctl; $c.paused = $true; SaveCtl $c; 'paused: workers finish their current task, then wait' }
   'resume' { $c = Ctl; $c.paused = $false; SaveCtl $c; 'resumed' }
   'retry' { $p = "$S\queue\failed\$Id.json"; $t = RJ $p; $t.attempts = 0; $t.avoid = @(); $t.queued = Now; WJ "$S\queue\pending\$Id.json" $t; Remove-Item $p; "re-queued $Id" }

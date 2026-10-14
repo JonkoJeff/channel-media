@@ -1,57 +1,220 @@
 {
- "repo": "C:\\Users\\jeffr\\channel-media",
- "tick_s": 30,
- "keep_awake": true,
- "codex_delete_chats": true,
- "git_pull_every_s": 600,
- "heartbeat_stale_s": 120,
- "max_attempts": 3,
- "cooldown_after_failures": 3,
- "cooldown_s": 900,
- "ratelimit_cooldown_s": 3600,
- "inbox_max_per_hour": 6,
- "inbox_types": ["cf_fix", "cf_audit", "cf_thumb", "cf_analyze"],
-
- "channels": {
-  "crazyfacts": {
-   "enabled": true,
-   "unit": "long videos ready or in production (scheduled today or later, rendered but unscheduled, or being written)",
-   "low_watermark": 2,
-   "high_watermark": 4,
-   "max_concurrent_pipelines": 2,
-   "max_pipelines_started_per_day": 1,
-   "push_render": true
+  "repo": "C:\\Users\\jeffr\\channel-media",
+  "tick_s": 30,
+  "keep_awake": true,
+  "codex_delete_chats": true,
+  "git_pull_every_s": 600,
+  "heartbeat_stale_s": 120,
+  "max_attempts": 3,
+  "cooldown_after_failures": 3,
+  "cooldown_s": 900,
+  "ratelimit_cooldown_s": 3600,
+  "inbox_max_per_hour": 6,
+  "inbox_types": [
+    "cf_fix",
+    "cf_audit",
+    "cf_thumb",
+    "cf_analyze"
+  ],
+  "channels": {
+    "crazyfacts": {
+      "enabled": true,
+      "unit": "long videos ready or in production (scheduled today or later, rendered but unscheduled, or being written)",
+      "low_watermark": 2,
+      "high_watermark": 4,
+      "max_concurrent_pipelines": 2,
+      "max_pipelines_started_per_day": 1,
+      "push_render": true
+    },
+    "religion": {
+      "enabled": false,
+      "unit": "Belief Through Time episodes (each with 4 Shorts) still to air, rendered, or in production; owner 13 Oct: minimum 5",
+      "low_watermark": 5,
+      "high_watermark": 6,
+      "max_concurrent_pipelines": 2,
+      "max_pipelines_started_per_day": 3,
+      "max_renders_in_flight": 2,
+      "push_render": false,
+      "note": "STOPPED by owner 15 Oct 2026 (focus Brain After Dark). No scripts, no renders."
+    }
   },
-  "religion": {
-   "enabled": true,
-   "unit": "Belief Through Time episodes (each with 4 Shorts) still to air, rendered, or in production; owner 13 Oct: minimum 5",
-   "low_watermark": 5,
-   "high_watermark": 6,
-   "max_concurrent_pipelines": 2,
-   "max_pipelines_started_per_day": 3,
-   "max_renders_in_flight": 2,
-   "push_render": true
-  }
- },
-
- "recurring": {
-  "cf_analyze": {"every_s": 86400, "only_if_changed": "studio/yt/status.json"}
- },
-
- "types": {
-  "cf_plan":    {"prefer": ["codex"],   "fallback": ["claude"], "spill_after_s": 900,  "timeout_s": 1200, "stall_s": 420, "priority": 2},
-  "cf_block":   {"prefer": ["codex"],   "fallback": ["claude"], "spill_after_s": 1200, "timeout_s": 1800, "stall_s": 420, "priority": 3},
-  "cf_fix":     {"prefer": ["codex"],   "fallback": ["claude"], "spill_after_s": 900,  "timeout_s": 1500, "stall_s": 420, "priority": 1},
-  "cf_audit":   {"prefer": ["copilot", "claude"], "fallback": ["codex"], "spill_after_s": 600, "timeout_s": 600, "stall_s": 600, "priority": 1, "claude_model": "haiku"},
-  "cf_shorts":  {"prefer": ["codex"],   "fallback": ["claude"], "spill_after_s": 900,  "timeout_s": 1200, "stall_s": 420, "priority": 2},
-  "cf_thumb":   {"prefer": ["claude"],  "fallback": ["codex"],  "spill_after_s": 900,  "timeout_s": 900,  "stall_s": 600, "priority": 2},
-  "cf_analyze": {"prefer": ["claude"],  "fallback": ["codex"],  "spill_after_s": 3600, "timeout_s": 1200, "stall_s": 600, "priority": 4},
-  "rel_outline": {"prefer": ["codex"],  "fallback": ["claude"], "spill_after_s": 900,  "timeout_s": 1500, "stall_s": 480, "priority": 2},
-  "rel_chapter": {"prefer": ["codex"],  "fallback": ["claude"], "spill_after_s": 1200, "timeout_s": 1500, "stall_s": 480, "priority": 3},
-  "rel_fix":     {"prefer": ["codex"],  "fallback": ["claude"], "spill_after_s": 900,  "timeout_s": 1200, "stall_s": 480, "priority": 1},
-  "rel_audit":   {"prefer": ["copilot", "claude"], "fallback": ["codex"], "spill_after_s": 600, "timeout_s": 600, "stall_s": 600, "priority": 1, "claude_model": "haiku"},
-  "rel_shorts":  {"prefer": ["codex"],  "fallback": ["claude"], "spill_after_s": 900,  "timeout_s": 1200, "stall_s": 480, "priority": 2}
- },
-
- "audit_pass_score": 8
+  "recurring": {
+    "cf_analyze": {
+      "every_s": 86400,
+      "only_if_changed": "studio/yt/status.json"
+    },
+    "cf_strategy": {
+      "every_s": 43200,
+      "at": [
+        "08:00",
+        "20:00"
+      ],
+      "tz": "Europe/Amsterdam",
+      "note": "one run at a time; slot = strategy_<date>_<am|pm>"
+    }
+  },
+  "types": {
+    "cf_plan": {
+      "prefer": [
+        "codex"
+      ],
+      "fallback": [
+        "claude"
+      ],
+      "spill_after_s": 900,
+      "timeout_s": 1200,
+      "stall_s": 420,
+      "priority": 2
+    },
+    "cf_block": {
+      "prefer": [
+        "codex"
+      ],
+      "fallback": [
+        "claude"
+      ],
+      "spill_after_s": 1200,
+      "timeout_s": 1800,
+      "stall_s": 420,
+      "priority": 3
+    },
+    "cf_fix": {
+      "prefer": [
+        "codex"
+      ],
+      "fallback": [
+        "claude"
+      ],
+      "spill_after_s": 900,
+      "timeout_s": 1500,
+      "stall_s": 420,
+      "priority": 1
+    },
+    "cf_audit": {
+      "prefer": [
+        "copilot",
+        "claude"
+      ],
+      "fallback": [
+        "codex"
+      ],
+      "spill_after_s": 600,
+      "timeout_s": 600,
+      "stall_s": 600,
+      "priority": 1,
+      "claude_model": "haiku"
+    },
+    "cf_shorts": {
+      "prefer": [
+        "codex"
+      ],
+      "fallback": [
+        "claude"
+      ],
+      "spill_after_s": 900,
+      "timeout_s": 1200,
+      "stall_s": 420,
+      "priority": 2
+    },
+    "cf_thumb": {
+      "prefer": [
+        "claude"
+      ],
+      "fallback": [
+        "codex"
+      ],
+      "spill_after_s": 900,
+      "timeout_s": 900,
+      "stall_s": 600,
+      "priority": 2
+    },
+    "cf_analyze": {
+      "prefer": [
+        "claude"
+      ],
+      "fallback": [
+        "codex"
+      ],
+      "spill_after_s": 3600,
+      "timeout_s": 1200,
+      "stall_s": 600,
+      "priority": 4
+    },
+    "rel_outline": {
+      "prefer": [
+        "codex"
+      ],
+      "fallback": [
+        "claude"
+      ],
+      "spill_after_s": 900,
+      "timeout_s": 1500,
+      "stall_s": 480,
+      "priority": 2
+    },
+    "rel_chapter": {
+      "prefer": [
+        "codex"
+      ],
+      "fallback": [
+        "claude"
+      ],
+      "spill_after_s": 1200,
+      "timeout_s": 1500,
+      "stall_s": 480,
+      "priority": 3
+    },
+    "rel_fix": {
+      "prefer": [
+        "codex"
+      ],
+      "fallback": [
+        "claude"
+      ],
+      "spill_after_s": 900,
+      "timeout_s": 1200,
+      "stall_s": 480,
+      "priority": 1
+    },
+    "rel_audit": {
+      "prefer": [
+        "copilot",
+        "claude"
+      ],
+      "fallback": [
+        "codex"
+      ],
+      "spill_after_s": 600,
+      "timeout_s": 600,
+      "stall_s": 600,
+      "priority": 1,
+      "claude_model": "haiku"
+    },
+    "rel_shorts": {
+      "prefer": [
+        "codex"
+      ],
+      "fallback": [
+        "claude"
+      ],
+      "spill_after_s": 900,
+      "timeout_s": 1200,
+      "stall_s": 480,
+      "priority": 2
+    },
+    "cf_strategy": {
+      "prefer": [
+        "codex"
+      ],
+      "fallback": [
+        "claude"
+      ],
+      "spill_after_s": 3600,
+      "timeout_s": 1200,
+      "stall_s": 600,
+      "priority": 4,
+      "nopack": true
+    }
+  },
+  "audit_pass_score": 8
 }

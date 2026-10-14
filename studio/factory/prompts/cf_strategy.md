@@ -7,7 +7,7 @@ Do this each run:
 1. Research what is working RIGHT NOW (last 30 to 90 days) for (a) very long calm/sleep/learn style explainers (2h+) and (b) Shorts that feed a long-form channel. Find at least 8 concrete videos or channels in psychology, brain, sleep, calm-learning niches, and general YouTube growth sources. Record the URL for every claim. Never invent numbers; if you cannot verify it, label it "unverified".
 2. Look at: editing (cut rhythm, visual variety, on-screen text and captions, B-roll, pacing, music/ambience), style and character use, thumbnails (text length, contrast, colours, character expression, layout), titles, the first 30 seconds, chapters and descriptions, end screens and playlists, Shorts hooks and length, how Shorts lead to the long video, publish times for a US audience.
 3. Compare with our own numbers: what do our best Shorts and videos have in common, which finding from step 1 explains it or contradicts it.
-4. Do NOT repeat earlier runs: read what studio/research/ already contains and only add what is new or corrected.
+4. Do NOT repeat earlier runs: read only studio/research/INDEX.md (titles of earlier findings) and add only what is new or corrected.
 
 Never copy scripts, transcripts or thumbnails of others; learn structure and patterns only.
 

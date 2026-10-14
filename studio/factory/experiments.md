@@ -1,0 +1,5 @@
+# Experiments (from cf_strategy; max 3 active; the analyst keeps or drops them on status.json)
+# - id | status | started | change | applies to | measure
+- E1 | active | started 2026-10-14 | Open immediately with a concrete memory/perception demonstration; test two demonstration hooks against two explanation hooks daily, keeping 43–53 seconds and existing captions/style | applies to: next 12 Shorts | measure: median views and likes/views in status.json at 72 hours, grouped by hook.
+- E2 | active | started 2026-10-14 | Add “Calm Psychology for Sleep” to accurate topic titles; keep 2.5+ hours, chibi and existing thumbnail treatment | applies to: next 2 long videos | measure: views and likes in status.json at seven days versus the previous two longs at equal age; exploratory, not a CTR test.
+- E3 | active | started 2026-10-14 | End with a brief spoken invitation to the matching long and set its Related Video link | applies to: next 8 Shorts, four daily | measure: linked long’s status.json view increase over 72 hours after each daily batch; directional only, conversion attribution unavailable.

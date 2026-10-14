@@ -149,7 +149,7 @@ for i, sc in enumerate(scenes):
     imgs = find(sc)
     iscard = sc["src"] in ("text-card", "map") or re.match(r"(?i)(minimal )?text card|three-column|four-window|six |seven |card", sc["vis"])
     if not imgs and POOL and not iscard: imgs = POOL[-12 - (i % 5):][::3][:3] or POOL[-1:]   # no match: reuse earlier images of this film (different zoom)
-    if not imgs: c = os.path.join(W, f"card{i}.jpg"); card(re.split(r"[;]", sc["vis"].split(":", 1)[1] if ":" in sc["vis"] else (sc["chap"] or ""))[0].strip(" ."), c); imgs = [c]
+    if not imgs: c = os.path.join(W, f"card{i}.jpg"); card(re.sub(r"(?i)\s*(english )?paraphrase.*$", "", re.split(r"[;]", re.split(r":\s", sc["vis"], maxsplit=1)[-1] if sc["vis"] else (sc["chap"] or ""))[0]).strip(" ."), c); imgs = [c]  # "Quran 41:9-12 ..." kept whole (rel22 showed "9-12 English paraphrase")
     ns = max(1, round(sc["dur"] / 7)); base = sc["frames"] // ns
     for j in range(ns):
         nf = base if j + 1 < ns else sc["frames"] - base * (ns - 1)
@@ -178,7 +178,8 @@ for n, (a, b, title) in enumerate(shorts[:4], 1):
 seen, lines = set(), []
 for a in ATTR:
     if a not in seen: seen.add(a); lines.append(a)
-desc = re.split(r"\s*Estimated chapter", hd.get("DESC", ""), flags=re.I)[0][:3800]  # estimated timestamps are internal notes, never public (rel21) + "\n\nSources: " + hd.get("SOURCES", "").replace("\n", "; ")[:600] + "\n\nNarration is AI-generated (synthetic voice). Images are public-domain / CC0 works from Wikimedia Commons and The Met Open Access; some illustrations are generated text cards. Not made by or affiliated with any religious institution.\n\nImage credits:\n"
+# estimated chapter timestamps are internal notes, never public (rel21)
+desc = re.split(r"\s*Estimated chapter", hd.get("DESC", ""), flags=re.I)[0][:3800] + "\n\nSources: " + hd.get("SOURCES", "").replace("\n", "; ")[:600] + "\n\nNarration is AI-generated (synthetic voice). Images are public-domain / CC0 works from Wikimedia Commons and The Met Open Access; some illustrations are generated text cards. Not made by or affiliated with any religious institution.\n\nImage credits:\n"
 for a in lines:
     if len(desc) + len(a) + 1 > 4850: break
     desc += a + "\n"

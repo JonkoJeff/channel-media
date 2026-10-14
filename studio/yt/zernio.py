@@ -123,8 +123,13 @@ elif cmd == "reslot":   # a = first day YYYY-MM-DD, b = slots "09:00,12:00,15:00
         when = f"{day0 + dt.timedelta(days=n // len(slots))}T{slots[n % len(slots)]}"; n += 1
         r = json.load(open(f)); d = r["shorts_posted"][sid]
         if d["when"] == when: continue
-        try: call("PUT", f"/posts/{d['zernio_id']}", {"scheduledFor": when, "timezone": "Europe/Amsterdam"})
-        except SystemExit as e: print(f"::notice::skip {sid}: {str(e)[:80]}"); continue
+        import time; ok = False
+        for tr in (1, 2, 3, 4):   # Zernio rate limit (429): wait and retry; other errors: skip this one
+            try: call("PUT", f"/posts/{d['zernio_id']}", {"scheduledFor": when, "timezone": "Europe/Amsterdam"}); ok = True; time.sleep(2); break
+            except SystemExit as e:
+                if "429" in str(e) and tr < 4: time.sleep(45); continue
+                print(f"::notice::skip {sid}: {str(e)[:80]}"); break
+        if not ok: continue
         d["when"] = when; json.dump(r, open(f, "w"), indent=1); moved += 1
     print(f"::notice::reslot: {len(items)} pending Shorts, {moved} moved, {len(slots)}/day from {day0} until {day0 + dt.timedelta(days=(n - 1) // len(slots))}")
 elif cmd == "reschedule":  # a = post id, b = local time YYYY-MM-DDTHH:MM

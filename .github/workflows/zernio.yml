@@ -20,7 +20,8 @@ jobs:
         env:
           ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
           ZERNIO_API_KEY_2: ${{ secrets.ZERNIO_API_KEY_2 || secrets.ZERNO_API_KEY_2 }}
-      - run: |
+      - if: always()   # commit result.json even when the step above failed: it is the record that stops a second upload
+        run: |
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
           git add studio/yt/zernio.json && git add -f studio/renders/*/result.json
           git commit -qm "zernio ${{ inputs.cmd }} ${{ inputs.a }} [skip ci]" || exit 0

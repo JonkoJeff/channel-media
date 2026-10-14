@@ -35,6 +35,15 @@ def yt_account(ch="crazyfacts"):  # channel key: crazyfacts (default), moneyatni
     return cfg.get("youtube", {}).get(ch) or sys.exit(f"::error::no YouTube account for {ch} in zernio.json; run 'accounts' after connecting it in Zernio")
 
 
+
+def existing(prefix):   # FAILSAFE: a live (scheduled/publishing/published) post whose content starts with prefix, else None
+    try: _, lp = call("GET", "/posts?limit=100")
+    except SystemExit: return None
+    for x in (lp.get("posts", lp if isinstance(lp, list) else [])):
+        if str(x.get("content", "")).startswith(prefix) and x.get("status") in ("scheduled", "publishing", "published"): return x
+    return None
+
+
 cmd = sys.argv[1]
 if cmd == "accounts" and sys.argv[2:3] == ["2"]:   # second Zernio account (Religion Unfolded)
     KEY = KEY2 or sys.exit("::error::ZERNIO_API_KEY_2 missing"); _, a = call("GET", "/accounts"); acc = a.get("accounts", a if isinstance(a, list) else [])
@@ -64,7 +73,11 @@ elif cmd == "shorts":
     plid = None if ch == "religion" else cfg.get("playlists", {}).get("Money Shorts" if ch == "moneyatnight" else "Psychology Shorts")
     for sid, url in sorted(res.get("shorts", {}).items()):
         if sid in done: continue
-        yt_account(ch); m = meta.get(sid, {}); f = f"/tmp/{sid}.mp4"; os.path.exists(f) or urllib.request.urlretrieve(url, f)
+        yt_account(ch); m = meta.get(sid, {}); f = f"/tmp/{sid}.mp4"
+        pre = f"{m.get('title', '')}\n\n"[:40]
+        ex = existing(pre) if m.get("title") else None   # FAILSAFE: this Short already exists on Zernio -> adopt, never post twice
+        if ex:
+            done[sid] = {"zernio_id": ex.get("_id"), "when": str(ex.get("scheduledFor"))}; json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1); print(f"{sid} already on Zernio, adopted"); continue; os.path.exists(f) or urllib.request.urlretrieve(url, f)
         _, ps = call("POST", "/media/presign", {"filename": sid + ".mp4", "contentType": "video/mp4", "size": os.path.getsize(f)})
         urllib.request.urlopen(urllib.request.Request(ps["uploadUrl"], data=open(f, "rb").read(), method="PUT", headers={"Content-Type": "video/mp4"}), timeout=600).read()
         when = f"{day + dt.timedelta(days=n // len(slots))}T{slots[n % len(slots)]}"
@@ -73,7 +86,12 @@ elif cmd == "shorts":
         body = {"content": f"{m.get('title', '')}\n\n{'Full documentary' if ch == 'religion' else 'Full calm 2.5-hour video'} on the channel: {v['title']}\n\n" + " ".join(m.get("tags", ["#shorts"])) + "\n\nNarration is AI-generated (synthetic voice).",
                 "tags": [t.lstrip("#") for t in m.get("tags", [])], "mediaItems": [{"type": "video", "url": ps["publicUrl"]}],
                 "platforms": [{"platform": "youtube", "accountId": yt_account(ch), "platformSpecificData": psd}], "scheduledFor": when, "timezone": "Europe/Amsterdam"}
-        st, p = call("POST", "/posts", body); post = p.get("post", p)
+        st, p = call("POST", "/posts", body, soft=True)
+        if st is None:   # no answer: the post may exist. Look, never re-post
+            import time; time.sleep(20); ex = existing(body["content"][:40])
+            if not ex: sys.exit(f"::error::{sid}: no answer and no post found; check Zernio before retrying")
+            p = ex
+        post = p.get("post", p)
         if st == 207 or post.get("status") == "failed": print(f"::warning::{sid} failed: {json.dumps(post)[:300]}"); continue
         done[sid] = {"zernio_id": post.get("_id"), "when": when}; n += 1
         json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1); print(f"{sid} -> {when}")
@@ -98,7 +116,13 @@ elif cmd == "reschedule":  # a = post id, b = local time YYYY-MM-DDTHH:MM
 elif cmd == "post":
     vid, when = sys.argv[2], sys.argv[3]
     v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); res = json.load(open(os.path.join(R, vid, "result.json")))
+    if res.get("zernio_id"):   # FAILSAFE 1: result.json says it is already posted -> never post again (delete the post and clear zernio_id on purpose to re-post)
+        print(f"::notice::{vid} already posted ({res['zernio_id']}), nothing to do"); sys.exit(0)
     yt_account(v.get("channel", "crazyfacts")); mp4 = sys.argv[4] if len(sys.argv) > 4 else f"/tmp/{vid}.mp4"   # the workflow downloads the release asset here
+    ex = existing(open(os.path.join(R, vid, "description.txt")).read()[:40])   # FAILSAFE 2: Zernio already has it (earlier run died after posting) -> adopt it
+    if ex:
+        res.update(zernio_id=ex.get("_id"), scheduled=str(ex.get("scheduledFor")), route="zernio"); json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1)
+        print(f"::notice::{vid} already exists on Zernio ({ex.get('_id')}), adopted, not posted again"); sys.exit(0)
     _, ps = call("POST", "/media/presign", {"filename": vid + ".mp4", "contentType": "video/mp4", "size": os.path.getsize(mp4)})
     for attempt in (1, 2, 3):   # big files (1.4 GB at 1080p) can drop mid-upload: retry, and say why in the annotation
         try:

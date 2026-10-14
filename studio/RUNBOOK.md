@@ -199,3 +199,6 @@ Never again any video about money/finance on any channel. Scheduled Money at Nig
 ## VARIETY (owner, 13 Oct)
 Vary thumbnails and videos: rotate characters, backgrounds, layouts, colours, headline styles; no two consecutive uploads with the same look.
 Thumb options in the video JSON (longform.thumbnail): `"mirror": true` = sprite left / text right (background flipped, sprite not, so "?" stays readable); `"accent": "#RRGGBB"` = colour of the word block + rim (use light colours; text on the block is dark). Used: lf09 amber/left, lf11 #FF8FB1/mirror, lf10 #4FD1C5/left.
+
+## NEVER UPLOAD TWICE (owner, 14 Oct)
+zernio.py post/shorts: (1) refuses when result.json already has zernio_id / the Short is in shorts_posted; (2) checks Zernio for an existing live post with the same content and adopts it; (3) on no answer (timeout) it looks for the post instead of retrying; (4) the workflow always commits result.json, even after a failed step. To re-post on purpose: delete the Zernio post, clear zernio_id in result.json, then run again. Never re-run a failed post/shorts run without first running cmd=status or cmd=list.

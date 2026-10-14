@@ -223,3 +223,6 @@ Belief Through Time stopped (see CLAUDE.md FOCUS). The channel formerly called C
 
 ## VOICE FLOW (15 Oct)
 Long-video narration (longform.py voice()): 1-2 sentences per Kokoro take (<170 chars, not across a question), speed 0.93 (calm) with +-3% repeatable variation per take, pause 0.6 s (calm) scaled by take length / question and jittered, 12 ms fades. Voices unchanged (am_michael). Only affects NEW audio (cached *_vo.wav stay). Owner feedback: voice was too robotic.
+
+## US POST TIMES (15 Oct, owner approved)
+Brain After Dark (Europe/Amsterdam): Shorts 15:00, 18:00, 21:00, 23:30 (= 9am/12pm/3pm/5:30pm ET); long video 20:00 (2pm ET). Use `reslot a=<first day> b=15:00,18:00,21:00,23:30` for Shorts and these times for new long posts. Belief Through Time 15 Oct Shorts deleted (rel01).

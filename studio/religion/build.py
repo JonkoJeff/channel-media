@@ -178,7 +178,7 @@ for n, (a, b, title) in enumerate(shorts[:4], 1):
 seen, lines = set(), []
 for a in ATTR:
     if a not in seen: seen.add(a); lines.append(a)
-desc = hd.get("DESC", "")[:3800] + "\n\nSources: " + hd.get("SOURCES", "").replace("\n", "; ")[:600] + "\n\nNarration is AI-generated (synthetic voice). Images are public-domain / CC0 works from Wikimedia Commons and The Met Open Access; some illustrations are generated text cards. Not made by or affiliated with any religious institution.\n\nImage credits:\n"
+desc = re.split(r"\s*Estimated chapter", hd.get("DESC", ""), flags=re.I)[0][:3800]  # estimated timestamps are internal notes, never public (rel21) + "\n\nSources: " + hd.get("SOURCES", "").replace("\n", "; ")[:600] + "\n\nNarration is AI-generated (synthetic voice). Images are public-domain / CC0 works from Wikimedia Commons and The Met Open Access; some illustrations are generated text cards. Not made by or affiliated with any religious institution.\n\nImage credits:\n"
 for a in lines:
     if len(desc) + len(a) + 1 > 4850: break
     desc += a + "\n"

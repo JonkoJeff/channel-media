@@ -16,6 +16,7 @@ The machine adds a rule here every time a published video had a problem. Every n
 - Openverse fallback photos for lf09: 18 of 29 were off-topic or unusable (10 Downing Street letterhead, American Airlines toy, newspapers, identifiable children, Chichen Itza for "a garden path"); they became char scenes. Write AI prompts early in the UTC day, and never fetch more than ~30 AI images per day for all channels together (lf09-lf11 + mn02 in one night used up the quota).
 - Keep max 3 `char` scenes in a row (B3). lf07-lf09 have runs of 5-13 (wind-down 13-22); new scripts must break runs with `list`, `quote`, `stat`, `curve` or `photo` scenes.
 - While long videos go out via Metricool, start the render with input `metricool=1` (720p, max 500 MB); the default encode is Zernio 1080p (~1.5 GB) and Metricool rejects it.
+- Belief Through Time descriptions never contain internal production notes ("Estimated chapters ... align to audio" + estimated timestamps). rel21 went out with them; religion/build.py now strips everything from "Estimated chapter" on in DESC.
 
 ## Checked videos
 checked: [lf01, sh01a, lf06, sh08_01]

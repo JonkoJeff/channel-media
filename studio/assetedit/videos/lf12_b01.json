@@ -1,0 +1,343 @@
+{
+ "id": "lf12_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You peek at the last page, then return to the beginning and keep reading. If the surprise is gone, why does the story still feel worth your time?",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "You know the ending",
+    "sub": "Why keep reading?"
+   }
+  },
+  {
+   "say": "Tonight, we'll explore what knowing an ending might leave intact, what researchers found when they gave readers advance information, and why the way that information arrives deserves a closer look. You can keep your own reading preferences beside you as we go. There is no need to choose a side.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Enjoyment beyond surprise",
+     "What a short-story experiment found",
+     "Why the way an ending is revealed matters"
+    ]
+   }
+  },
+  {
+   "say": "Imagine settling into a chair with a book you have barely started. You already know where its central story goes, perhaps because you looked ahead, perhaps because someone mentioned the ending. Yet there is still a conversation on the opening page that draws you in, and you turn the page.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Back to the beginning",
+    "sub": "The pages are still waiting"
+   }
+  },
+  {
+   "say": "That is the little puzzle we are starting with. You have learned something important, but you have not read everything that leads to it. Think of the difference between being told that two characters eventually meet and sitting with the awkward, tender conversation in which they finally do.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "A small reading puzzle",
+    "sub": "The ending isn't the whole experience"
+   }
+  },
+  {
+   "say": "To move beyond that imagined reading moment, let's look at a published experiment. It gives us something more concrete than arguing about whether looking ahead counts as reading properly. We can ask what happened to enjoyment when researchers supplied information that readers would otherwise discover later.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "Putting the question to a test"
+   }
+  },
+  {
+   "say": "Jonathan Leavitt and Nicholas Christenfeld, at the University of California, San Diego, investigated this question in a paper published in 2011. It appeared in Psychological Science. Their comparison involved short stories with and without information revealing the outcome, followed by readers' ratings of how much they enjoyed what they read.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Leavitt and Christenfeld, 2011",
+    "where": "University of California, San Diego",
+    "what": "Short stories with and without advance spoilers"
+   }
+  },
+  {
+   "say": "Keep that word, enjoyment, close as we go. Imagine finishing a story and being asked how much you liked the experience. You might consider the language, a character, the ending, or simply how the whole thing felt. That is a different question from whether the final reveal caught you off guard.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Enjoyment is the question",
+    "sub": "Would you want to keep reading?"
+   }
+  },
+  {
+   "say": "The research used 12 short stories across three experiments. That gives us a useful collection to examine, while keeping the setting specific. Picture a selection of individual reading experiences, each with its own ending, rather than a claim about every book you could ever take down from a shelf.",
+   "show": {
+    "type": "stat",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "Stories used in the research",
+    "big": "12",
+    "label": "Short stories"
+   }
+  },
+  {
+   "say": "Each experiment used four stories from a different category: ironic twists, mysteries, or more evocative literary stories. Before we look at the outcome, hold onto the mystery category. Would revealing a solution undermine the very thing you came to a mystery for? We will return to that question shortly.",
+   "show": {
+    "type": "bars",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Stories in each category",
+    "unit": "stories",
+    "bars": [
+     [
+      "Ironic twists",
+      4.0
+     ],
+     [
+      "Mysteries",
+      4.0
+     ],
+     [
+      "Literary stories",
+      4.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "For now, imagine an unfamiliar story about someone returning a lost letter. You have been told that the letter reaches its intended reader. You still do not know why it was lost, what the person carrying it hesitates to say, or what happens during the walk to deliver it.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "What remains on the page?",
+    "sub": "Imagine knowing one important fact"
+   }
+  },
+  {
+   "say": "Perhaps you would enjoy that walk. Perhaps the destination was the main attraction, and knowing it would leave you less interested. Either reaction is easy to imagine. Our example cannot settle the question; it simply helps us see why an ending and the experience of reading toward it are worth considering separately.",
+   "show": {
+    "type": "photo",
+    "file": "lf12_b01_01.jpg",
+    "cap": "An ending known, a story unread"
+   }
+  },
+  {
+   "say": "You can ask whether an outcome was surprising and whether the reading was enjoyable without expecting identical answers. In your imagined letter story, the delivery might be completely predictable while a conversation along the way feels moving. Or the final surprise might be exactly what you hoped the story would protect.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Two questions to keep separate",
+    "items": [
+     "Was the outcome a surprise?",
+     "Was the reading enjoyable?"
+    ]
+   }
+  },
+  {
+   "say": "So we should let the experiment answer its own question before making it answer ours. The useful comparison concerns readers given an external spoiler before a story and readers encountering its unaltered version. What would their enjoyment ratings tell us about the idea that advance knowledge necessarily ruins the experience?",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "A fair question",
+    "sub": "What did the comparison show?"
+   }
+  },
+  {
+   "say": "For the externally spoiled stories, average enjoyment ratings were higher than for the unspoiled versions in each of the three story categories. The opening question now has an answer within these experiments: knowing the outcome did not prevent enjoyment, and the externally spoiled versions received higher average ratings.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Leavitt and Christenfeld, 2011",
+    "where": "University of California, San Diego",
+    "what": "Higher average enjoyment with external spoilers"
+   }
+  },
+  {
+   "say": "If you are imagining yourself holding that book, this finding leaves some room around the last-page moment. You do not have to assume that knowing an ending empties every page before it. There might still be something you want to spend time with, even when one important question has already been answered.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "A little room for possibility",
+    "sub": "You can know and still enjoy"
+   }
+  },
+  {
+   "say": "In the announcement of the research, Christenfeld offered the thought, “The pleasure is in the writing.” Try treating that as an invitation to look at a page rather than a rule you must accept. Is there a sentence you would linger over even if someone had already described the final scene?",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "text": "“The pleasure is in the writing.”",
+    "by": "Nicholas Christenfeld, 2011"
+   }
+  },
+  {
+   "say": "Imagine a description of a kitchen where someone has set out an extra cup, although the visitor has not arrived. Being told that the visitor eventually comes would not tell you how that waiting is written. You might want the small details, the silence, or the conversation that follows.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "A sentence worth lingering over",
+    "sub": "What would you stay for?"
+   }
+  },
+  {
+   "say": "Think of this list as a sketch of one possible reading experience, not a measured result. You might find yourself especially interested in a conversation halfway through our imagined story. Your interest could have its own shape, even though the destination was known before you started reading the opening sentence.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "An imagined reading experience",
+    "items": [
+     "A destination already known",
+     "A conversation that draws you in",
+     "Interest along the way"
+    ]
+   }
+  },
+  {
+   "say": "But let's return to the question we left waiting. A lost-letter story is one thing; a mystery seems like a tougher case. Imagine choosing a book specifically because you want to work out who did it. If someone supplies that answer first, what reason would you have to continue?",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Back to the mystery",
+    "sub": "What if the answer is the attraction?"
+   }
+  },
+  {
+   "say": "Picture an invented mystery with a missing key and several people who could have taken it. In one reading position, you try to choose among them. In another, you already know the culprit. You can imagine those experiences feeling different without yet deciding which one would be more enjoyable for you.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Imagine the two reading positions",
+    "items": [
+     "Trying to identify the culprit",
+     "Following events with the culprit already known"
+    ]
+   }
+  },
+  {
+   "say": "The mystery comparison matters because it tests the expectation where it seems especially plausible. If the central appeal were entirely the unknown solution, giving away that solution would seem a straightforward way to remove the appeal. That expectation is exactly why the result deserves our attention.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "The unanswered question",
+    "sub": "Did mysteries follow the pattern?"
+   }
+  },
+  {
+   "say": "Mysteries followed the same pattern in the research: their externally spoiled versions received higher average enjoyment ratings. So the question we set aside has its answer. In this comparison, revealing the solution in advance did not make the mysteries less enjoyable on average. The difference went in the other direction.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Leavitt and Christenfeld, 2011",
+    "where": "University of California, San Diego",
+    "what": "Mysteries also received higher average ratings when externally spoiled"
+   }
+  },
+  {
+   "say": "You can let that result surprise you without immediately changing how you read. Perhaps you would still prefer to protect a mystery's ending. Perhaps you would happily look ahead. For the moment, there is something interesting to sit with: the expected loss of enjoyment did not appear in this comparison.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Let the result stay specific",
+    "sub": "A finding you can consider"
+   }
+  },
+  {
+   "say": "Now imagine being asked a different question: why did you turn to the last page? You might have a reason ready, or you might simply have felt like looking. An enjoyment comparison does not give us your personal answer. We should leave room for your experience instead of supplying one on your behalf.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "What the finding leaves open",
+    "items": [
+     "Your preferred reading experience",
+     "Why you might look ahead",
+     "How a spoiler reaches you"
+    ]
+   }
+  },
+  {
+   "say": "Perhaps, in the moment we imagined, you wanted reassurance about a character. Perhaps you were curious about the final sentence. Those are possible answers you could consider, not explanations we have established about you. The research gives us a finding about supplied spoilers; your own reason for seeking an ending remains yours to describe.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "No personality verdict",
+    "sub": "Keep your own reason"
+   }
+  },
+  {
+   "say": "Return to the quiet table for a moment. You have the beginning in front of you and the ending somewhere in mind. You could close the book now, but in our opening scene you did not. Something on the page still made the next page seem worth reaching.",
+   "show": {
+    "type": "photo",
+    "file": "lf12_b01_02.jpg",
+    "cap": "The destination and the pages between"
+   }
+  },
+  {
+   "say": "You might ask yourself what that something would be. Would you want to hear how a character speaks when embarrassed, watch a misunderstanding unfold, or spend a little longer in the setting? There is no required answer here. It is simply a way to make the original question more concrete.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "What would you read for?",
+    "sub": "A moment to consider"
+   }
+  },
+  {
+   "say": "Now we can look more closely at an important detail in the experiment. We have been talking about an external spoiler, something presented before the story itself. That wording deserves attention, because there is more than one way to give a reader advance information about an ending.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 2,
+    "title": "The detail that changes the question"
+   }
+  },
+  {
+   "say": "Imagine someone telling you an ending before you begin. Then imagine finding that same information in the opening paragraph, presented as part of the story. Both situations could give you knowledge of what comes later. But would they feel like the same invitation to read? That is the next question to examine.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "Where the information appears",
+    "items": [
+     "Before the story",
+     "Within the story's opening"
+    ]
+   }
+  },
+  {
+   "say": "We began with you looking at the last page and still wanting to read. The research has given us a reason to take that possibility seriously. Now let's move closer to the comparison itself, and ask why information offered outside a story might work differently from information woven into its beginning.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "An ending, delivered differently",
+    "sub": "The placement deserves a closer look"
+   }
+  }
+ ]
+}

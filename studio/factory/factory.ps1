@@ -149,7 +149,8 @@ function Plan($id) { RJ "$AE\videos\$id.json" }
 function BlockFile($b) { "$F\scripts\$b.txt" }
 function Position($n, $total) { if ($n -eq 1) { 'This is block 1: open with the 15-second gentle hook and the "Tonight, we''ll explore" list (no numbers).' } elseif ($n -eq $total) { 'This is the LAST block: practical takeaways, a callback to the opening moment, a gentle guided wind-down, then an @end segment teasing the next video.' } else { 'Middle block: continue the story with a spoken transition; no greeting, no recap, no ending.' } }
 function Advance($id) {
-  $p = RJ "$S\pipelines\$id.json"; if (-not $p -or $p.stage -in 'render_requested', 'rendered', 'blocked') { return }
+  $p = RJ "$S\pipelines\$id.json"; if (-not $p -or $p.adopted -or $p.stage -in 'render_requested', 'rendered', 'blocked') { return }
+  if ($p.channel -eq 'religion') { AdvanceRel $p; return }
   $plan = Ensure 'cf_plan' $id @{ id = $id } @() $id
   if (-not (Done $plan)) { return }
   $v = Plan $id; $parts = @($v.parts); $settled = 0
@@ -199,6 +200,21 @@ function Prompt($t) {
     'cf_audit' { $parts = @($v.parts); $n = [array]::IndexOf($parts, $a.block) + 1; Fill 'cf_audit' @{ block = $a.block; title = $v.title; position = (Position $n $parts.Count); outline = @($v.plan)[$n - 1]; text = (Get-Content (BlockFile $a.block) -Raw -Encoding utf8) } }
     'cf_shorts' { Fill 'cf_shorts' @{ id = $a.id; title = $v.title; count = [math]::Min(@($v.parts).Count, 12); digest = (Digest $v) } }
     'cf_thumb' { Fill 'cf_thumb' @{ id = $a.id; title = $v.title; plan = (@($v.plan) -join ' / '); thumb = ($v.thumb | ConvertTo-Json -Compress) } }
+    'rel_outline' { $n = [int]$a.ep; Fill 'rel_outline' @{ ep = $a.ep; title = (RelEpisodes)[$n]; tradition = (RelTradition $n); thumb = (RelThumb $n) } }
+    { $_ -in 'rel_chapter', 'rel_audit', 'rel_fix' } {
+      $o = RJ "$S\out\$($a.id).outline.json"; $ch = @($o.chapters); $i = [int]$a.chapter; $c = $ch[$i - 1]
+      $outline = (1..$ch.Count | ForEach-Object { "$_. $($ch[$_ - 1].name) (~$($ch[$_ - 1].words) words): $($ch[$_ - 1].brief)" }) -join "`n"
+      $pos = if ($i -eq 1) { 'This is the FIRST chapter: open with the calm 20-second hook scene.' } elseif ($i -eq $ch.Count) { 'This is the LAST chapter: end softly with a reflective closing image; one gentle line about the next story is allowed.' } else { 'Middle chapter: start with a spoken transition, no greeting or recap.' }
+      $file = '{0}\out\{1}_c{2:00}.txt' -f $S, $a.id, $i; $txt = if (Test-Path $file) { Get-Content $file -Raw -Encoding utf8 }
+      $v = @{ n = $i; total = $ch.Count; ep = $o.ep; title = $o.title; tradition = (RelTradition ([int]$o.ep)); outline = $outline; names = (@($o.names) -join ', '); name = $c.name; words = $c.words; brief = $c.brief; prev = $(if ($i -gt 1) { $ch[$i - 2].name } else { '(this is the opening)' }); next = $(if ($i -lt $ch.Count) { $ch[$i].name } else { '(this is the end)' }); position = $pos; text = $txt }
+      if ($t.type -eq 'rel_fix') { $r = RJ "$S\out\$($a.from).json"; $v.issues = ((@($r.issues) | ForEach-Object { "- $_" }) -join "`n") }
+      Fill $t.type $v
+    }
+    'rel_shorts' {
+      $sc = RJ "$S\out\$($a.id).scenes.json"; $o = RJ "$S\out\$($a.id).outline.json"
+      $dg = ($sc.scenes | ForEach-Object { "[$($_.ts)] ($($_.secs)s)$(if ($_.chap) { " CHAPTER $($_.chap) |" }) $($_.say)" }) -join "`n"
+      Fill 'rel_shorts' @{ ep = $o.ep; title = $o.title; digest = $dg }
+    }
     'cf_analyze' {
       $st = RJ "$Repo\studio\yt\status.json"; $rows = @()
       foreach ($x in @($st.videos)) { $rows += "- $($x.published) | $($x.duration) | views $($x.views) likes $($x.likes) comments $($x.comments) | $($x.title)" }
@@ -266,6 +282,40 @@ function Accept($t, $body) {
       $th = JsonOf $body; $e = CheckThumb $th; if ($e) { return $e }
       $why = $th.why; $th.Remove('why'); Lock { $v = Plan $a.id; $v.thumb = $th; WJ "$AE\videos\$($a.id).json" $v }
     }
+    'rel_outline' {
+      $o = JsonOf $body; $e = @(); $n = [int]$a.ep
+      $o.ep = $a.ep; $o.title = (RelEpisodes)[$n]
+      foreach ($k in 'desc', 'tags', 'sources', 'chapters') { if (-not $o.$k) { $e += "missing $k" } }
+      $ch = @($o.chapters); if ($ch.Count -lt 12 -or $ch.Count -gt 16) { $e += "$($ch.Count) chapters (need 12-16)" }
+      $tot = ($ch | ForEach-Object { [int]$_.words } | Measure-Object -Sum).Sum; if ($tot -lt 8400 -or $tot -gt 9200) { $e += "chapter words add up to $tot (need 8,500-9,000)" }
+      foreach ($c in $ch) { if (-not $c.name -or -not $c.brief -or [int]$c.words -lt 400) { $e += "chapter '$($c.name)' needs name, brief and words >= 450" } }
+      if ($e) { return $e }
+      WJ "$S\out\$($a.id).outline.json" $o
+    }
+    { $_ -in 'rel_chapter', 'rel_fix' } {
+      $o = RJ "$S\out\$($a.id).outline.json"; $i = [int]$a.chapter; $target = [int]@($o.chapters)[$i - 1].words
+      $parts = $body -split "`n\s*SOURCES:\s*`n?", 2; $txt = $parts[0].Trim()
+      $c = CheckChapter $txt $target ([int]$o.ep); if ($c.errors) { return $c.errors }
+      Lock { WT ('{0}\out\{1}_c{2:00}.txt' -f $S, $a.id, $i) ($txt + "`n"); if ($parts.Count -gt 1) { [IO.File]::AppendAllText("$S\out\$($a.id).sources.txt", (($parts[1] -split "`n" | ForEach-Object { $_.Trim(' -*') } | Where-Object { $_.Length -gt 8 }) -join "`n") + "`n", $Utf8) } }
+      $script:outWords = $c.words
+    }
+    'rel_audit' {
+      $r = JsonOf $body; $r.needs_fix = [bool]($r.fix -and [int]$r.score -lt (Cfg).audit_pass_score -and @($r.issues).Count -gt 0); WJ "$S\out\$($t.id).json" $r
+      if ($r.needs_fix) { Ensure 'rel_fix' ('{0}_c{1:00}' -f $a.id, [int]$a.chapter) @{ id = $a.id; chapter = $a.chapter; from = $t.id } @() $a.id | Out-Null }
+    }
+    'rel_shorts' {
+      $arr = @(JsonOf $body); $sc = RJ "$S\out\$($a.id).scenes.json"; $e = @()
+      $ts = @{}; foreach ($s in $sc.scenes) { $ts[$s.ts] = [double]$s.t }; $ts[(Hms $sc.total)] = [double]$sc.total
+      $ok = @(); foreach ($x in $arr) {
+        if (-not $ts.ContainsKey("$($x.start)") -or -not $ts.ContainsKey("$($x.end)")) { $e += "$($x.start)-$($x.end): start and end must be scene timestamps from the list"; continue }
+        $d = $ts["$($x.end)"] - $ts["$($x.start)"]; if ($d -lt 33 -or $d -gt 60) { $e += "$($x.start)-$($x.end): $([int]$d) s (need 35-58)"; continue }
+        if ($ok | Where-Object { [math]::Abs($ts[$_.start] - $ts["$($x.start)"]) -lt 420 }) { $e += "$($x.start): too close to another Short (8 min apart)"; continue }
+        $ok += @{ start = "$($x.start)"; end = "$($x.end)"; title = ("$($x.title)" -replace '\|', '-').Trim() }
+      }
+      if ($ok.Count -lt 4) { return @("only $($ok.Count) valid Shorts (need 4)") + $e }
+      Lock { RelWrite $a.id ($ok | Select-Object -First 4) }
+      $script:outShorts = 4
+    }
     'cf_analyze' {
       $ins = if ($body -match '(?s)INSIGHTS:\s*(.*?)\s*RULES:') { $Matches[1].Trim() } else { return @('missing INSIGHTS:/RULES: sections') }
       $rules = ($body -split 'RULES:', 2)[1].Trim()
@@ -277,6 +327,144 @@ function Accept($t, $body) {
     }
   }
   @()
+}
+
+# ---------- Belief Through Time (religion) ----------
+$RelDir = "$Repo\studio\channels\religion"
+function RelEpisodes { $h = @{}; foreach ($l in (Get-Content "$RelDir\episode_list.md" -Encoding utf8)) { if ($l -match '^(\d+)\.\s+(.+)$') { $h[[int]$Matches[1]] = ($Matches[2].Trim() -replace '\s+[—–-]\s+', ': ') } }; $h }
+function RelTradition($n) { if ($n -le 10) { 'Hebrew Bible / Genesis-Kings, Jewish and Christian readings' } elseif ($n -le 20) { 'Christianity: the Gospels, Acts and early church history' } elseif ($n -le 30) { 'Quran and classical tafsir' } else { 'Hindu epics / Buddhism' } }
+function RelThumb($n) { if ($n -le 10) { (Get-ChildItem "$RelDir\thumbs" -Filter ('bible_{0:00}_*.jpg' -f $n) | Select-Object -First 1).Name } elseif ($n -ge 21 -and $n -le 30) { $f = 'Q{0:00}.jpg' -f ($n - 20); if (Test-Path "$RelDir\thumbs\$f") { $f } } elseif ($n -ge 301) { if (Test-Path "$RelDir\thumbs\$n.jpg") { "$n.jpg" } } }
+function RelRotation { foreach ($i in 1..10) { $i; 20 + $i; 10 + $i } }
+function RelScript($n) { "$RelDir\stories\{0:00}.txt" -f $n }
+function RelPack {
+  $eps = RelEpisodes; $made = @(foreach ($n in ($eps.Keys | Sort-Object)) { if (Test-Path (RelScript $n)) { "- $n $($eps[$n])" } }) -join "`n"
+  $txt = @"
+# CONTEXT PACK (Belief Through Time): read fully before producing anything. You are one of several agents acting as ONE narrator and ONE editor.
+$(Get-Content "$F\STYLE_religion.md" -Raw -Encoding utf8)
+
+# SCRIPT FORMAT (the machine parses it)
+$(Get-Content "$RelDir\stories\FORMAT.md" -Raw -Encoding utf8)
+
+# OWNER'S PRODUCTION RULES
+$(Section "$RelDir\stories\README.md" '## Production handoff')
+
+# LEARNED RULES
+$(Section "$F\learned_religion.md" '## Rules')
+
+# EPISODES ALREADY MADE (do not repeat their content in depth)
+$made
+"@
+  $h = [BitConverter]::ToString([Security.Cryptography.SHA1]::Create().ComputeHash($Utf8.GetBytes($txt))).Replace('-', '').Substring(0, 8).ToLower()
+  WT "$S\pack-religion.md" $txt; WT "$S\pack-religion.hash" $h; @{ hash = $h; text = $txt }
+}
+function TaskChannel($t) { if ($t.type -like 'rel_*') { 'religion' } else { 'crazyfacts' } }
+function Chapters($text) {
+  # -> @{ name; scenes = @(@{say; vis; src}) }
+  $name = ''; $scenes = @(); $cur = $null
+  foreach ($l in (($text -replace "`r", '') -split "`n")) {
+    if ($l -match '^\s*CHAPTER:\s*(.+)$') { $name = $Matches[1].Trim() }
+    elseif ($l -match '^\s*(\[[\d:]+\]\s*)?NARRATION:\s*(.*)$') { if ($cur) { $scenes += $cur }; $cur = @{ say = $Matches[2].Trim(); vis = ''; src = '' } }
+    elseif ($l -match '^\s*VISUAL:\s*(.*)$' -and $cur) { $cur.vis = $Matches[1].Trim() }
+    elseif ($l -match '^\s*SOURCE:\s*(\S+)' -and $cur) { $cur.src = $Matches[1].Trim().ToLower() }
+    elseif ($l.Trim() -and $cur -and -not $cur.vis) { $cur.say += ' ' + $l.Trim() }
+  }
+  if ($cur) { $scenes += $cur }; @{ name = $name; scenes = $scenes }
+}
+function CheckChapter($text, $target, $ep) {
+  $c = Chapters $text; $e = @(); $w = 0; $i = 0; $vis = @{}
+  if (-not $c.name) { $e += 'first line must be "CHAPTER: <name>"' }
+  foreach ($s in $c.scenes) {
+    $i++; $n = ($s.say -split '\s+' | Where-Object { $_ }).Count; $w += $n
+    if ($n -lt 8 -or $n -gt 60) { $e += "scene ${i}: $n words (13-45 = 6-20 s)" }
+    if (-not $s.vis -or $s.vis.Length -lt 6 -or $s.vis -match '(?i)^(an? )?(ancient|old|historical) (scene|image|picture|painting)') { $e += "scene ${i}: VISUAL missing or too vague: '$($s.vis)'" }
+    if ($s.src -notin 'wikimedia', 'met', 'smithsonian', 'rijksmuseum', 'loc', 'map', 'text-card') { $e += "scene ${i}: SOURCE '$($s.src)' not allowed" }
+    if ($s.vis -match '(?i)muhammad|mohammed') { $e += "scene ${i}: VISUAL may never depict the Prophet Muhammad" }
+    if ($ep -ge 21 -and $ep -le 30 -and $s.vis -match '(?i)\b(prophet|angel|angels|adam|eve|iblis)\b') { $e += "scene ${i}: Quran episode: no prophets, angels or Adam in VISUAL ('$($s.vis)')" }
+    if ($s.say -match '\[\d\d:\d\d|(?i)\bpart (one|two|\d+)\b|in this chapter|chapter (one|two|\d+)') { $e += "scene ${i}: part/chapter numbers or timestamps in NARRATION" }
+    $vis[$s.vis] = 1 + [int]$vis[$s.vis]
+  }
+  foreach ($k in $vis.Keys) { if ($vis[$k] -gt 3) { $e += "VISUAL '$k' used $($vis[$k]) times in one chapter (max 2-3)" } }
+  if ($c.scenes.Count -lt 8) { $e += "only $($c.scenes.Count) scenes" }
+  if ($w -lt 0.92 * $target) { $e += "only $w words (target $target, minimum $([int](0.92 * $target)))" }
+  if ($w -gt 1.6 * $target) { $e += "$w words is far over the target $target" }
+  @{ errors = $e; words = $w; name = $c.name }
+}
+function Hms($s) { $s = [int][math]::Floor($s); '{0:00}:{1:00}:{2:00}' -f [math]::Floor($s / 3600), [math]::Floor(($s % 3600) / 60), ($s % 60) }
+function RelAssemble($id) {
+  # all chapters -> scenes with 130 wpm timestamps (state/out/<id>.scenes.json)
+  $o = RJ "$S\out\$id.outline.json"; $t = 0.0; $rows = @(); $chap = @()
+  for ($i = 1; $i -le @($o.chapters).Count; $i++) {
+    $c = Chapters (Get-Content ("$S\out\{0}_c{1:00}.txt" -f $id, $i) -Raw -Encoding utf8); $first = $true
+    foreach ($s in $c.scenes) {
+      $n = ($s.say -split '\s+' | Where-Object { $_ }).Count
+      $rows += [ordered]@{ t = $t; ts = (Hms $t); secs = [math]::Round($n * 60 / 130, 1); chap = $(if ($first) { $c.name } else { $null }); say = $s.say; vis = $s.vis; src = $s.src }
+      if ($first) { $chap += "$(Hms $t) $($c.name)"; $first = $false }
+      $t += $n * 60 / 130
+    }
+  }
+  WJ "$S\out\$id.scenes.json" ([ordered]@{ total = $t; chapters = $chap; scenes = $rows }); $t
+}
+function RelWrite($id, $shorts) {
+  $o = RJ "$S\out\$id.outline.json"; $a = RJ "$S\out\$id.scenes.json"; $src = @(@($o.sources) + @(Get-Content "$S\out\$id.sources.txt" -Encoding utf8 -ErrorAction SilentlyContinue) | Where-Object { $_ } | Select-Object -Unique)
+  $desc = ("$($o.desc) Chapters: " + ($a.chapters -join '; ')) -replace '\s+', ' '; if ($desc.Length -gt 4000) { $desc = $desc.Substring(0, 3990) }
+  $L = @("TITLE: $($o.title)", "DESC: $desc", "TAGS: $(@($o.tags) -join ', ')", "SOURCES: $(($src -join '; ') -replace '\s+', ' ')", 'SHORTS:')
+  foreach ($x in $shorts) { $L += "$($x.start)-$($x.end) | $($x.title)" }
+  $L += '---'
+  foreach ($s in $a.scenes) { if ($s.chap) { $L += "CHAPTER: $($s.chap)" }; $L += "[$($s.ts)] NARRATION: $($s.say)"; $L += "VISUAL: $($s.vis)"; $L += "SOURCE: $($s.src)" }
+  WT (RelScript ([int]$o.ep)) (($L -join "`n") + "`n")
+}
+function AdvanceRel($p) {
+  $id = $p.id; $ol = Ensure 'rel_outline' $id @{ id = $id; ep = $p.ep } @() $id
+  if (-not (Done $ol)) { return }
+  $o = RJ "$S\out\$id.outline.json"; $n = @($o.chapters).Count; $settled = 0
+  for ($i = 1; $i -le $n; $i++) {
+    $c = '{0}_c{1:00}' -f $id, $i
+    $ct = Ensure 'rel_chapter' $c @{ id = $id; chapter = $i } @($ol) $id
+    if (Done $ct) {
+      $au = Ensure 'rel_audit' $c @{ id = $id; chapter = $i } @($ct) $id
+      if (Done $au) { $r = RJ "$S\out\rel_audit-$c.json"; $fx = "rel_fix-$c"; if (-not $r.needs_fix -or (Done $fx) -or (Test-Path "$S\queue\failed\$fx.json")) { $settled++ } }
+    }
+    if (Test-Path "$S\queue\failed\rel_chapter-$c.json") { $p.stage = 'blocked'; $p.why = "chapter $i failed"; WJ "$S\pipelines\$id.json" $p; Notify 'Factory: episode blocked' "$id chapter $i failed"; return }
+  }
+  $p.blocks = "$settled/$n"
+  if ($settled -eq $n) {
+    if (-not (Test-Path "$S\out\$id.scenes.json")) { $tot = RelAssemble $id; $p.minutes = [int]($tot / 60) }
+    $sh = Ensure 'rel_shorts' $id @{ id = $id } @() $id
+    $p.stage = if (Done $sh) { 'ready_to_render' } else { 'shorts' }
+  } else { $p.stage = 'writing' }
+  WJ "$S\pipelines\$id.json" $p
+}
+function RelInventory {
+  $now = [DateTimeOffset]::Now; $n = 0; $items = @()
+  foreach ($d in (Get-ChildItem "$Repo\studio\renders" -Directory -Filter 'rel*')) {
+    $r = RJ "$($d.FullName)\result.json"; if (-not $r) { continue }
+    if (-not $r.scheduled) { $n++; $items += "$($d.Name) rendered" } elseif ([DateTimeOffset]::Parse($r.scheduled) -gt $now) { $n++; $items += "$($d.Name) airs $(([DateTimeOffset]::Parse($r.scheduled)).ToString('MM-dd HH:mm'))" }
+  }
+  foreach ($pf in (Get-ChildItem "$S\pipelines" -Filter 'rel*.json')) { $pp = RJ $pf.FullName; if ($pp.stage -notin 'rendered', 'blocked' -and -not (Test-Path "$Repo\studio\renders\$($pp.id)\result.json")) { $n++; $items += "$($pp.id) $($pp.stage)" } }
+  @{ count = $n; items = $items }
+}
+function RelPlan($ctl, $cfg) {
+  $eps = RelEpisodes
+  foreach ($n in (RelRotation)) {
+    $id = 'rel{0:00}' -f $n; if (-not $eps[$n] -or -not (RelThumb $n)) { continue }
+    if ((Test-Path (RelScript $n)) -and -not (Test-Path "$Repo\studio\renders\$id\result.json") -and -not (Test-Path "$S\pipelines\$id.json")) {
+      WJ "$S\pipelines\$id.json" ([ordered]@{ id = $id; channel = 'religion'; ep = ('{0:00}' -f $n); created = Now; stage = 'ready_to_render'; adopted = $true }); Ev @{ ev = 'pipeline'; id = $id; why = 'existing script adopted' }
+    }
+  }
+  $inv = RelInventory
+  if ($inv.count -lt $cfg.low_watermark) { $ctl.rel_mode = 'generating' } elseif ($inv.count -ge $cfg.high_watermark) { $ctl.rel_mode = 'paused' }
+  $open = @(Get-ChildItem "$S\pipelines" -Filter 'rel*.json' | ForEach-Object { RJ $_.FullName } | Where-Object { $_.stage -notin 'ready_to_render', 'render_requested', 'rendered', 'blocked' }).Count
+  $key = "religion-$(Today)"; $started = [int]$ctl.started[$key]
+  if ($ctl.rel_mode -eq 'generating' -and $open -lt $cfg.max_concurrent_pipelines -and $started -lt $cfg.max_pipelines_started_per_day) {
+    foreach ($n in (RelRotation)) {
+      $id = 'rel{0:00}' -f $n
+      if ($eps[$n] -and (RelThumb $n) -and -not (Test-Path (RelScript $n)) -and -not (Test-Path "$S\pipelines\$id.json") -and -not (Test-Path "$Repo\studio\renders\$id")) {
+        WJ "$S\pipelines\$id.json" ([ordered]@{ id = $id; channel = 'religion'; ep = ('{0:00}' -f $n); created = Now; stage = 'planning' }); Ev @{ ev = 'pipeline'; id = $id }
+        $ctl.started[$key] = $started + 1; Write-Host "$(Get-Date -f HH:mm:ss) Belief Through Time buffer $($inv.count): started episode $n" -ForegroundColor Cyan; break
+      }
+    }
+  }
+  $ctl.rel_buffer = $inv.count; $ctl.rel_items = $inv.items
 }
 
 # ---------- run one agent headless ----------
@@ -358,7 +546,7 @@ function Worker($n) {
     Write-Host "$(Get-Date -f HH:mm:ss) $n took $($t.id) (attempt $($t.attempts + 1))"
     if ($pane) { Herdr pane report-agent $pane --source factory --agent $ag.kind --state working --message "$n · $($t.id)" | Out-Null; $lastState = 'working' }
     Ev @{ ev = 'start'; task = $t.id; type = $t.type; agent = $n; kind = $ag.kind }
-    $pk = Pack; $script:outWords = 0; $script:outShorts = 0
+    $pk = if ((TaskChannel $t) -eq 'religion') { RelPack } else { Pack }; $script:outWords = 0; $script:outShorts = 0
     try { $body = Prompt $t } catch { $body = $null; $perr = "$_" }
     if (-not $body) { Requeue $t "$S\queue\active\$($t.id).json" $n "prompt build failed: $perr"; continue }
     if ($t.last_errors) { $body += "`n`nA previous attempt (another agent) was rejected. Avoid exactly these problems:`n" + ((@($t.last_errors) | ForEach-Object { "- $_" }) -join "`n") }
@@ -402,7 +590,7 @@ function Inventory {
     $when = if ($r.scheduled) { [DateTimeOffset]::Parse($r.scheduled) }
     if (-not $when) { $n++; $items += "$($d.Name) rendered, not scheduled" } elseif ($when -gt $now) { $n++; $items += "$($d.Name) airs $($when.ToString('MM-dd HH:mm'))" }
   }
-  foreach ($p in (Get-ChildItem "$S\pipelines" -Filter *.json)) { $pp = RJ $p.FullName; if ($pp.stage -ne 'rendered' -and -not (Test-Path "$Repo\studio\renders\$($pp.id)\result.json")) { $n++; $items += "$($pp.id) $($pp.stage)" } }
+  foreach ($p in (Get-ChildItem "$S\pipelines" -Filter 'lf*.json')) { $pp = RJ $p.FullName; if ($pp.stage -ne 'rendered' -and -not (Test-Path "$Repo\studio\renders\$($pp.id)\result.json")) { $n++; $items += "$($pp.id) $($pp.stage)" } }
   @{ count = $n; items = $items }
 }
 function NextId { $m = 0; foreach ($vf in (Get-ChildItem "$AE\videos" -Filter 'lf??.json')) { $m = [math]::Max($m, [int]$vf.BaseName.Substring(2)) }; foreach ($vf in (Get-ChildItem "$S\pipelines" -Filter 'lf*.json')) { $m = [math]::Max($m, [int]$vf.BaseName.Substring(2)) }; 'lf{0:00}' -f ($m + 1) }
@@ -448,7 +636,15 @@ function Tick {
   foreach ($pf in (Get-ChildItem "$S\pipelines" -Filter *.json)) {
     $id = $pf.BaseName; Lock { Advance $id }; $p = RJ $pf.FullName
     if ($p.stage -eq 'render_requested' -and (Test-Path "$Repo\studio\renders\$id\result.json")) { $p.stage = 'rendered'; WJ $pf.FullName $p; Ev @{ ev = 'rendered'; id = $id }; Notify 'Factory: video rendered' "$id is rendered; channel-operator QCs and schedules it" }
-    if ($p.stage -eq 'ready_to_render' -and $c.channels.crazyfacts.push_render) {
+    if ($p.stage -eq 'ready_to_render' -and $p.channel -eq 'religion' -and $c.channels.religion.push_render) {
+      $inFlight = @(Get-ChildItem "$S\pipelines" -Filter 'rel*.json' | ForEach-Object { RJ $_.FullName } | Where-Object { $_.stage -eq 'render_requested' }).Count
+      if ($inFlight -ge $c.channels.religion.max_renders_in_flight) { continue }
+      $ep = $p.ep; $title = ((Get-Content (RelScript ([int]$ep)) -TotalCount 1 -Encoding utf8) -replace '^TITLE:\s*', '')
+      WJ "$F\render\$id.json" ([ordered]@{ id = $id; channel = 'religion'; ep = $ep; title = $title; requested = (Get-Date).ToString('s') })
+      if (GitPush @("studio/channels/religion/stories/$ep.txt", "studio/factory/render/$id.json", 'studio/factory/learned_religion.md') "factory: Belief Through Time episode $ep `"$title`" ready, render requested") { $p.stage = 'render_requested'; $p.pushed = $now; WJ $pf.FullName $p; Ev @{ ev = 'render'; id = $id }; Notify 'Factory: render requested' "$id `"$title`" (Belief Through Time)" }
+      continue
+    }
+    if ($p.stage -eq 'ready_to_render' -and $p.channel -ne 'religion' -and $c.channels.crazyfacts.push_render) {
       $v = Plan $id; WJ "$F\render\$id.json" ([ordered]@{ id = $id; title = $v.title; parts = $v.parts; requested = (Get-Date).ToString('s') })
       $paths = @("studio/factory/scripts", "studio/factory/render/$id.json", "studio/assetedit/videos/$id.json", 'studio/assetedit/videos/shorts.json', 'studio/assetedit/videos/series.json', 'studio/factory/learned.md', 'studio/insights.md')
       if (GitPush $paths "factory: $id `"$($v.title)`" written (Codex/Claude), render requested") { $p.stage = 'render_requested'; $p.pushed = $now; WJ $pf.FullName $p; Ev @{ ev = 'render'; id = $id }; Notify 'Factory: render requested' "$id `"$($v.title)`" pushed to GitHub Actions" }
@@ -460,13 +656,14 @@ function Tick {
   if ($cf.enabled -and -not $ctl.paused) {
     $inv = Inventory
     if ($inv.count -lt $cf.low_watermark) { $ctl.cf_mode = 'generating' } elseif ($inv.count -ge $cf.high_watermark) { $ctl.cf_mode = 'paused' }
-    $open = @(Get-ChildItem "$S\pipelines" -Filter *.json | ForEach-Object { RJ $_.FullName } | Where-Object { $_.stage -notin 'render_requested', 'rendered', 'blocked' }).Count
+    $open = @(Get-ChildItem "$S\pipelines" -Filter 'lf*.json' | ForEach-Object { RJ $_.FullName } | Where-Object { $_.stage -notin 'render_requested', 'rendered', 'blocked' }).Count
     $startedToday = [int]$ctl.started[(Today)]
     if ($ctl.cf_mode -eq 'generating' -and $open -lt $cf.max_concurrent_pipelines -and $startedToday -lt $cf.max_pipelines_started_per_day) {
       $id = StartVideo; $ctl.started[(Today)] = $startedToday + 1; Write-Host "$(Get-Date -f HH:mm:ss) buffer $($inv.count) (refill to $($cf.high_watermark)): started $id" -ForegroundColor Cyan
     }
     $ctl.cf_buffer = $inv.count; $ctl.cf_items = $inv.items
   }
+  if ($c.channels.religion.enabled -and -not $ctl.paused) { RelPlan $ctl $c.channels.religion }
   # 6. recurring analysis, only when there is new data
   $ra = $c.recurring.cf_analyze; $sf = "$Repo\$($ra.only_if_changed)"
   if ($ra -and (Test-Path $sf) -and $now - $ctl.last_analyze -gt $ra.every_s) {
@@ -491,6 +688,8 @@ function Render {
   $o.Add("$Bo CRAZY FACTS FACTORY$X  $(Get-Date -f 'ddd dd MMM HH:mm:ss')   controller $(if ($cOk) { "${G}live$X" } else { "${R}DOWN$X" })   mode $mode   style ${B}v$hash$X")
   $cf = $c.channels.crazyfacts; $bar = ('#' * [int]$ctl.cf_buffer).PadRight($cf.high_watermark, '.')
   $o.Add(" Buffer [$bar] $($ctl.cf_buffer) videos (resume < $($cf.low_watermark), stop at $($cf.high_watermark))  $Dm$(@($ctl.cf_items) -join ' · ')$X")
+  $rc = $c.channels.religion
+  if ($rc.enabled) { $rbar = ('#' * [math]::Min([int]$ctl.rel_buffer, $rc.high_watermark)).PadRight($rc.high_watermark, '.'); $rm = if ($ctl.rel_mode -eq 'generating') { "${G}GENERATING$X" } else { "${Y}IDLE$X" }; $o.Add(" Belief  [$rbar] $($ctl.rel_buffer) episodes x4 Shorts (resume < $($rc.low_watermark), stop at $($rc.high_watermark)) $rm  $Dm$(@($ctl.rel_items) -join ' · ')$X") }
   $o.Add('')
   $o.Add("$Bo AGENTS$X")
   $o.Add(('{0,-10} {1,-8} {2,-10} {3,-26} {4,9} {5,6} {6,6} {7,7} {8,8} {9,8} {10,7}' -f 'name', 'kind', 'state', 'task', 'elapsed', 'done', 'fail', 'ok%', 'tok in', 'tok out', 'cost$'))

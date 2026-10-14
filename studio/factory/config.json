@@ -21,8 +21,14 @@
    "push_render": true
   },
   "religion": {
-   "enabled": false,
-   "note": "Belief Through Time scripts are ~9,000 words per episode; they stay on the CODEX_TASK.md route until a chapter-split task type exists."
+   "enabled": true,
+   "unit": "Belief Through Time episodes (each with 4 Shorts) still to air, rendered, or in production; owner 13 Oct: minimum 5",
+   "low_watermark": 5,
+   "high_watermark": 6,
+   "max_concurrent_pipelines": 2,
+   "max_pipelines_started_per_day": 3,
+   "max_renders_in_flight": 2,
+   "push_render": true
   }
  },
 
@@ -37,7 +43,12 @@
   "cf_audit":   {"prefer": ["copilot", "claude"], "fallback": ["codex"], "spill_after_s": 600, "timeout_s": 600, "stall_s": 600, "priority": 1, "claude_model": "haiku"},
   "cf_shorts":  {"prefer": ["codex"],   "fallback": ["claude"], "spill_after_s": 900,  "timeout_s": 1200, "stall_s": 420, "priority": 2},
   "cf_thumb":   {"prefer": ["claude"],  "fallback": ["codex"],  "spill_after_s": 900,  "timeout_s": 900,  "stall_s": 600, "priority": 2},
-  "cf_analyze": {"prefer": ["claude"],  "fallback": ["codex"],  "spill_after_s": 3600, "timeout_s": 1200, "stall_s": 600, "priority": 4}
+  "cf_analyze": {"prefer": ["claude"],  "fallback": ["codex"],  "spill_after_s": 3600, "timeout_s": 1200, "stall_s": 600, "priority": 4},
+  "rel_outline": {"prefer": ["codex"],  "fallback": ["claude"], "spill_after_s": 900,  "timeout_s": 1500, "stall_s": 480, "priority": 2},
+  "rel_chapter": {"prefer": ["codex"],  "fallback": ["claude"], "spill_after_s": 1200, "timeout_s": 1500, "stall_s": 480, "priority": 3},
+  "rel_fix":     {"prefer": ["codex"],  "fallback": ["claude"], "spill_after_s": 900,  "timeout_s": 1200, "stall_s": 480, "priority": 1},
+  "rel_audit":   {"prefer": ["copilot", "claude"], "fallback": ["codex"], "spill_after_s": 600, "timeout_s": 600, "stall_s": 600, "priority": 1, "claude_model": "haiku"},
+  "rel_shorts":  {"prefer": ["codex"],  "fallback": ["claude"], "spill_after_s": 900,  "timeout_s": 1200, "stall_s": 480, "priority": 2}
  },
 
  "audit_pass_score": 8

@@ -23,8 +23,15 @@ jobs:
         run: |
           if [ -n "${{ inputs.id }}" ]; then ids="${{ inputs.id }}"; else
             ids=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- studio/factory/render/ | xargs -r -n1 basename | sed 's/\.json$//'); fi
-          todo=""; for id in $ids; do [ -f studio/renders/$id/result.json ] || todo="$todo $id"; done
-          echo "ids=$todo" >> "$GITHUB_OUTPUT"; echo "to render:$todo"
+          todo=""; rel=""
+          for id in $ids; do
+            [ -f studio/renders/$id/result.json ] && continue
+            case $id in rel*) rel="$rel ${id#rel}";; *) todo="$todo $id";; esac
+          done
+          echo "ids=$todo" >> "$GITHUB_OUTPUT"; echo "rel=$rel" >> "$GITHUB_OUTPUT"; echo "to render:$todo | Belief Through Time:$rel"
+      - name: Belief Through Time episodes -> religion.yml
+        if: steps.ids.outputs.rel != ''
+        run: for ep in ${{ steps.ids.outputs.rel }}; do gh workflow run religion.yml -f ep=$ep; echo "religion.yml started for episode $ep"; done
       - name: scripts -> block JSON
         if: steps.ids.outputs.ids != ''
         run: |

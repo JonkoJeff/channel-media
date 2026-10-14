@@ -114,6 +114,18 @@ elif cmd == "reslot":   # a = first day YYYY-MM-DD, b = slots "09:00,12:00,15:00
     import datetime as dt, glob
     day0 = dt.date.fromisoformat(sys.argv[2]); slots = (sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] else "09:00,12:00,15:00,20:00").split(",")
     items = []
+    lost = [(f, sid) for f in glob.glob(os.path.join(R, "lf*", "result.json")) for sid, d in json.load(open(f)).get("shorts_posted", {}).items() if not d.get("zernio_id")]
+    if lost:   # earlier runs lost some ids to a push race: recover them from Zernio by title (page through /posts)
+        yt_account("crazyfacts"); meta = {x["id"]: x for x in json.load(open(os.path.join(D, "..", "assetedit", "videos", "shorts.json")))}; seen = {}; first = None
+        for pg in range(1, 8):
+            _, lp = call("GET", f"/posts?limit=100&page={pg}"); ps_ = lp.get("posts", [])
+            if not ps_ or ps_[0].get("_id") == first: break
+            first = ps_[0].get("_id")
+            for x in ps_:
+                if x.get("status") == "scheduled": seen.setdefault(str(x.get("content", "")).split("\n\n")[0], x.get("_id"))
+        for f, sid in lost:
+            t = meta.get(sid, {}).get("title"); r = json.load(open(f))
+            if t and t in seen: r["shorts_posted"][sid]["zernio_id"] = seen[t]; r["shorts_posted"][sid].pop("note", None); json.dump(r, open(f, "w"), indent=1); print(f"::notice::recovered id of {sid}")
     for f in sorted(glob.glob(os.path.join(R, "lf*", "result.json"))):
         r = json.load(open(f))
         for sid, d in r.get("shorts_posted", {}).items():

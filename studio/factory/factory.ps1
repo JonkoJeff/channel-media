@@ -34,7 +34,7 @@ function Agents { @(RJ "$F\agents.json") }
 function Ctl { $c = RJ "$S\control.json"; if (-not $c) { $c = [ordered]@{ paused = $false; cf_mode = 'generating'; started = @{}; last_pull = 0; last_analyze = 0; analyze_hash = '' } }; $c }
 function SaveCtl($c) { WJ "$S\control.json" $c }
 function Ev($h) { $h.ts = Now; [IO.File]::AppendAllText("$S\events.jsonl", ($h | ConvertTo-Json -Compress -Depth 10) + "`n", $Utf8) }
-function Fmt($s) { if ($s -lt 60) { "{0}s" -f [int]$s } elseif ($s -lt 3600) { "{0}m{1:00}s" -f [math]::Floor($s / 60), ($s % 60) } else { "{0}h{1:00}m" -f [math]::Floor($s / 3600), [math]::Floor(($s % 3600) / 60) } }
+function Fmt($sx) { if ($sx -lt 60) { "{0}s" -f [int]$sx } elseif ($sx -lt 3600) { "{0}m{1:00}s" -f [math]::Floor($sx / 60), ($sx % 60) } else { "{0}h{1:00}m" -f [math]::Floor($sx / 3600), [math]::Floor(($sx % 3600) / 60) } }
 function Num($n) { if ($n -ge 1e6) { "{0:0.0}M" -f ($n / 1e6) } elseif ($n -ge 1e3) { "{0:0.0}k" -f ($n / 1e3) } else { "$n" } }
 function Lock([scriptblock]$sb) {
   for ($lockTry = 0; $lockTry -lt 600; $lockTry++) { try { $lockFs = [IO.File]::Open("$S\lock", 'OpenOrCreate', 'ReadWrite', 'None'); break } catch { Start-Sleep -Milliseconds 100 } }
@@ -236,7 +236,7 @@ function Deliverable($raw, $hash) {
   foreach ($l in ($lines | Select-Object -Skip ($i + 1))) { if ($l -match '^\s*(PROPOSAL|REQUEST):') { $extra += $l.Trim() } else { $body += $l } }
   @{ body = ($body -join "`n").Trim(); extra = $extra }
 }
-function JsonOf($s) { $a = $s.IndexOfAny([char[]]'{['); if ($a -lt 0) { throw 'no JSON found' }; $s.Substring($a) | ConvertFrom-Json -AsHashtable }
+function JsonOf($sx) { $a = $sx.IndexOfAny([char[]]'{['); if ($a -lt 0) { throw 'no JSON found' }; $sx.Substring($a) | ConvertFrom-Json -AsHashtable }
 function Accept($t, $body) {
   $a = $t.args
   switch ($t.type) {
@@ -247,7 +247,7 @@ function Accept($t, $body) {
       if (@($v.parts).Count -lt 3 -or @($v.parts).Count -gt 16) { $e += 'between 3 and 16 blocks' }
       $v.id = $a.id; $v.parts = @(1..@($v.parts).Count | ForEach-Object { '{0}_b{1:00}' -f $a.id, $_ }); $v.vibe = 'calm'; $v.voice = 'am_michael'; if (-not $v.sources) { $v.sources = @() }
       $e += CheckThumb $v.thumb; if ($e) { return $e }
-      Lock { WJ "$AE\videos\$($a.id).json" $v; $s = @(RJ "$AE\videos\series.json"); if (-not ($s | Where-Object { $_.id -eq $a.id })) { $s += [ordered]@{ id = $a.id; title = $v.title }; WJ "$AE\videos\series.json" $s } }
+      Lock { WJ "$AE\videos\$($a.id).json" $v; $sx = @(RJ "$AE\videos\series.json"); if (-not ($sx | Where-Object { $_.id -eq $a.id })) { $sx += [ordered]@{ id = $a.id; title = $v.title }; WJ "$AE\videos\series.json" $sx } }
     }
     { $_ -in 'cf_block', 'cf_fix' } {
       $parts = $body -split "`n\s*SOURCES:\s*`n?", 2; $txt = $parts[0].Trim(); $src = @(); if ($parts.Count -gt 1) { $src = @($parts[1] -split "`n" | ForEach-Object { $_.Trim(' -*') } | Where-Object { $_.Length -gt 10 }) }
@@ -306,7 +306,7 @@ function Accept($t, $body) {
     }
     'rel_shorts' {
       $arr = @(JsonOf $body); $sc = RJ "$S\out\$($a.id).scenes.json"; $e = @()
-      $ts = @{}; foreach ($s in $sc.scenes) { $ts[$s.ts] = [double]$s.t }; $ts[(Hms $sc.total)] = [double]$sc.total
+      $ts = @{}; foreach ($sx in $sc.scenes) { $ts[$sx.ts] = [double]$sx.t }; $ts[(Hms $sc.total)] = [double]$sc.total
       $ok = @(); foreach ($x in $arr) {
         if (-not $ts.ContainsKey("$($x.start)") -or -not $ts.ContainsKey("$($x.end)")) { $e += "$($x.start)-$($x.end): start and end must be scene timestamps from the list"; continue }
         $d = $ts["$($x.end)"] - $ts["$($x.start)"]; if ($d -lt 33 -or $d -gt 60) { $e += "$($x.start)-$($x.end): $([int]$d) s (need 35-58)"; continue }
@@ -374,15 +374,15 @@ function Chapters($text) {
 function CheckChapter($text, $target, $ep) {
   $c = Chapters $text; $e = @(); $w = 0; $i = 0; $vis = @{}
   if (-not $c.name) { $e += 'first line must be "CHAPTER: <name>"' }
-  foreach ($s in $c.scenes) {
-    $i++; $n = ($s.say -split '\s+' | Where-Object { $_ }).Count; $w += $n
+  foreach ($sx in $c.scenes) {
+    $i++; $n = ($sx.say -split '\s+' | Where-Object { $_ }).Count; $w += $n
     if ($n -lt 8 -or $n -gt 60) { $e += "scene ${i}: $n words (13-45 = 6-20 s)" }
-    if (-not $s.vis -or $s.vis.Length -lt 6 -or $s.vis -match '(?i)^(an? )?(ancient|old|historical) (scene|image|picture|painting)') { $e += "scene ${i}: VISUAL missing or too vague: '$($s.vis)'" }
-    if ($s.src -notin 'wikimedia', 'met', 'smithsonian', 'rijksmuseum', 'loc', 'map', 'text-card') { $e += "scene ${i}: SOURCE '$($s.src)' not allowed" }
-    if ($s.vis -match '(?i)muhammad|mohammed') { $e += "scene ${i}: VISUAL may never depict the Prophet Muhammad" }
-    if ($ep -ge 21 -and $ep -le 30 -and ($s.vis -replace "(?i)prophet'?s mosque", '') -match '(?i)\b(prophets?|angels?|adam|eve|iblis)\b') { $e += "scene ${i}: Quran episode: no prophets, angels or Adam in VISUAL ('$($s.vis)')" }
-    if ($s.say -match '\[\d\d:\d\d|(?i)\bpart (one|two|\d+)\b|in this chapter|chapter (one|two|\d+)') { $e += "scene ${i}: part/chapter numbers or timestamps in NARRATION" }
-    $vis[$s.vis] = 1 + [int]$vis[$s.vis]
+    if (-not $sx.vis -or $sx.vis.Length -lt 6 -or $sx.vis -match '(?i)^(an? )?(ancient|old|historical) (scene|image|picture|painting)') { $e += "scene ${i}: VISUAL missing or too vague: '$($sx.vis)'" }
+    if ($sx.src -notin 'wikimedia', 'met', 'smithsonian', 'rijksmuseum', 'loc', 'map', 'text-card') { $e += "scene ${i}: SOURCE '$($sx.src)' not allowed" }
+    if ($sx.vis -match '(?i)muhammad|mohammed') { $e += "scene ${i}: VISUAL may never depict the Prophet Muhammad" }
+    if ($ep -ge 21 -and $ep -le 30 -and ($sx.vis -replace "(?i)prophet'?s mosque", '') -match '(?i)\b(prophets?|angels?|adam|eve|iblis)\b') { $e += "scene ${i}: Quran episode: no prophets, angels or Adam in VISUAL ('$($sx.vis)')" }
+    if ($sx.say -match '\[\d\d:\d\d|(?i)\bpart (one|two|\d+)\b|in this chapter|chapter (one|two|\d+)') { $e += "scene ${i}: part/chapter numbers or timestamps in NARRATION" }
+    $vis[$sx.vis] = 1 + [int]$vis[$sx.vis]
   }
   foreach ($k in $vis.Keys) { if ($vis[$k] -gt 4) { $e += "VISUAL '$k' used $($vis[$k]) times in one chapter (max 2-3)" } }
   if ($c.scenes.Count -lt 8) { $e += "only $($c.scenes.Count) scenes" }
@@ -390,15 +390,15 @@ function CheckChapter($text, $target, $ep) {
   if ($w -gt 1.6 * $target) { $e += "$w words is far over the target $target" }
   @{ errors = $e; words = $w; name = $c.name }
 }
-function Hms($s) { $s = [int][math]::Floor($s); '{0:00}:{1:00}:{2:00}' -f [math]::Floor($s / 3600), [math]::Floor(($s % 3600) / 60), ($s % 60) }
+function Hms($sx) { $sx = [int][math]::Floor($sx); '{0:00}:{1:00}:{2:00}' -f [math]::Floor($sx / 3600), [math]::Floor(($sx % 3600) / 60), ($sx % 60) }
 function RelAssemble($id) {
   # all chapters -> scenes with 130 wpm timestamps (state/out/<id>.scenes.json)
   $o = RJ "$S\out\$id.outline.json"; $t = 0.0; $rows = @(); $chap = @()
   for ($i = 1; $i -le @($o.chapters).Count; $i++) {
     $c = Chapters (Get-Content ("$S\out\{0}_c{1:00}.txt" -f $id, $i) -Raw -Encoding utf8); $first = $true
-    foreach ($s in $c.scenes) {
-      $n = ($s.say -split '\s+' | Where-Object { $_ }).Count
-      $rows += [ordered]@{ t = $t; ts = (Hms $t); secs = [math]::Round($n * 60 / 130, 1); chap = $(if ($first) { $c.name } else { $null }); say = $s.say; vis = $s.vis; src = $s.src }
+    foreach ($sx in $c.scenes) {
+      $n = ($sx.say -split '\s+' | Where-Object { $_ }).Count
+      $rows += [ordered]@{ t = $t; ts = (Hms $t); secs = [math]::Round($n * 60 / 130, 1); chap = $(if ($first) { $c.name } else { $null }); say = $sx.say; vis = $sx.vis; src = $sx.src }
       if ($first) { $chap += "$(Hms $t) $($c.name)"; $first = $false }
       $t += $n * 60 / 130
     }
@@ -411,7 +411,7 @@ function RelWrite($id, $shorts) {
   $L = @("TITLE: $($o.title)", "DESC: $desc", "TAGS: $(@($o.tags) -join ', ')", "SOURCES: $(($src -join '; ') -replace '\s+', ' ')", 'SHORTS:')
   foreach ($x in $shorts) { $L += "$($x.start)-$($x.end) | $($x.title)" }
   $L += '---'
-  foreach ($s in $a.scenes) { if ($s.chap) { $L += "CHAPTER: $($s.chap)" }; $L += "[$($s.ts)] NARRATION: $($s.say)"; $L += "VISUAL: $($s.vis)"; $L += "SOURCE: $($s.src)" }
+  foreach ($sx in $a.scenes) { if ($sx.chap) { $L += "CHAPTER: $($sx.chap)" }; $L += "[$($sx.ts)] NARRATION: $($sx.say)"; $L += "VISUAL: $($sx.vis)"; $L += "SOURCE: $($sx.src)" }
   WT (RelScript ([int]$o.ep)) (($L -join "`n") + "`n")
 }
 function AdvanceRel($p) {
@@ -571,7 +571,7 @@ function Worker($n) {
     if (-not $errs) {
       $t.finished = Now; $t.secs = $r.secs; WJ "$S\queue\done\$($t.id).json" $t; Remove-Item "$S\queue\active\$($t.id).json" -ErrorAction SilentlyContinue
       $a.done++; $a.fails = 0; $ev.ok = $true; Ev $ev; Write-Host "$(Get-Date -f HH:mm:ss) $n DONE $($t.id) in $(Fmt $r.secs), tokens in $(Num $r.tin) out $(Num $r.tout)" -ForegroundColor Green
-      if ($t.pipeline) { Lock { Advance $t.pipeline } }
+      if ($t.pipeline) { try { Lock { Advance $t.pipeline } } catch { Ev @{ ev = 'error'; where = "advance $($t.pipeline)"; why = "$_" }; Write-Host "advance error: $_" -ForegroundColor Red } }
     } else {
       $a.failed++; $a.fails++; $ev.ok = $false; $ev.why = ($errs | Select-Object -First 3) -join '; '; Ev $ev
       Write-Host "$(Get-Date -f HH:mm:ss) $n FAILED $($t.id): $($ev.why)" -ForegroundColor Red
@@ -742,7 +742,7 @@ function Render {
   $o.Add('')
   $words = ($evToday | Where-Object { $_.ok } | Measure-Object -Property words -Sum).Sum; $shorts = ($evToday | Where-Object { $_.ok } | Measure-Object -Property shorts -Sum).Sum
   $o.Add("$Bo OUTPUT TODAY$X  script words $([int]$words) · Shorts cut $([int]$shorts) · renders requested $(@($evToday | Where-Object ev -eq 'render').Count) · failovers $(@($evToday | Where-Object ev -eq 'requeued').Count)")
-  $byType = $ev | Where-Object { $_.ev -eq 'end' -and $_.ok } | Group-Object type | ForEach-Object { $s = $_.Group | Measure-Object -Property secs -Average; $tk = $_.Group | ForEach-Object { $_.tin + $_.tout } | Measure-Object -Average; "{0} {1}x avg {2} {3} tok" -f $_.Name, $_.Count, (Fmt $s.Average), (Num ([int]$tk.Average)) }
+  $byType = $ev | Where-Object { $_.ev -eq 'end' -and $_.ok } | Group-Object type | ForEach-Object { $sx = $_.Group | Measure-Object -Property secs -Average; $tk = $_.Group | ForEach-Object { $_.tin + $_.tout } | Measure-Object -Average; "{0} {1}x avg {2} {3} tok" -f $_.Name, $_.Count, (Fmt $sx.Average), (Num ([int]$tk.Average)) }
   if ($byType) { $o.Add("$Dm efficiency per task type: $($byType -join ' | ')$X") }
   $o.Add('')
   $o.Add("$Bo ALERTS / IMPROVEMENTS$X")
@@ -761,8 +761,8 @@ function Render {
 }
 
 switch ($Mode) {
-  'controller' { Pack | Out-Null; Controller }
-  'worker' { if (-not $Name) { throw '-Name required' }; Worker $Name }
+  'controller' { while ($true) { try { Pack | Out-Null; Controller } catch { Write-Host "controller crashed, restarting: $_" -ForegroundColor Red; Start-Sleep 10 } } }
+  'worker' { if (-not $Name) { throw '-Name required' }; while ($true) { try { Worker $Name } catch { Write-Host "$(Get-Date -f HH:mm:ss) worker crashed, restarting: $_" -ForegroundColor Red; Ev @{ ev = 'error'; where = "worker $Name"; why = "$_" }; Start-Sleep 10 } } }
   'dash' { if ($env:HERDR_PANE_ID) { Herdr pane rename $env:HERDR_PANE_ID 'dashboard' | Out-Null }; while ($true) { try { Render } catch { Write-Host "dash: $_" }; Start-Sleep 3 } }
   'status' { Render; Write-Host '' }
   'tick' { Tick; Write-Host 'tick done' }

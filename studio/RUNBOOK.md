@@ -211,3 +211,6 @@ raw.githubusercontent.com URLs no longer work for Zernio/YouTube (repo is privat
 
 ## SHORTS: thumbnail + selection (14 Oct)
 Shorts now get a thumbnail (frame at 1.5 s with the hook text, hosted on Zernio). Select Shorts per studio/factory/learned.md (14 Oct rule: one study + one twist + numbers, never intros/agendas, hook = the surprising claim). 4 per day.
+
+## GROWTH LOOP (owner, 14 Oct: grow per video, quality over volume)
+Daily 05:00 UTC `stats.yml` refreshes studio/yt/status.json (Actions only, no Claude tokens). Once a week (when videos have 7 days of data) run the factory analyst `cf_analyze` on status.json: winners and flops per hook/length/slot/topic -> proposals -> learned.md. Per video: keep only Shorts that follow learned.md; fewer, stronger uploads beat more filler. Trend scan (`trends.yml`) and competitor lookup (`lookup.yml`) stay manual: run them only when the weekly analysis asks for it.

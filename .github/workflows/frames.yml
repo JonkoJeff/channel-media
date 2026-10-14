@@ -18,4 +18,4 @@ jobs:
           for i in $(seq 0 11); do ffmpeg -loglevel error -y -ss $(python3 -c "print(int($D*($i+0.5)/12))") -i v.mp4 -frames:v 1 -vf scale=480:270 f$i.jpg; done
           ffmpeg -loglevel error -y -i f%d.jpg -filter_complex "tile=4x3" -frames:v 1 -q:v 4 studio/renders/${{ inputs.id }}/contact.jpg 2>/dev/null || ffmpeg -loglevel error -y -pattern_type glob -i 'f*.jpg' -vf tile=4x3 -frames:v 1 studio/renders/${{ inputs.id }}/contact.jpg
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
-          git add -f studio/renders/${{ inputs.id }}/contact.jpg && git commit -qm "contact sheet ${{ inputs.id }} [skip ci]" && git pull -q --rebase && git push
+          git add -f studio/renders/${{ inputs.id }}/contact.jpg && git commit -qm "contact sheet ${{ inputs.id }} [skip ci]" && for i in 1 2 3 4; do git pull -q --rebase && git push && break; sleep 7; done

@@ -74,8 +74,8 @@ def voice(v):
             else: chunks.append(sent)
         for ci, sent in enumerate(chunks):
             rng = np.random.default_rng(zlib.crc32(v["id"].encode()) + i * 97 + ci)  # slight, repeatable variation per take
-            base = v.get("speed", 0.93 if calm else 1.0)
-            a = k.speak(sent, v.get("voice", "am_michael" if calm else "am_puck"), base * float(rng.uniform(0.97, 1.03)))
+            base = 0.92 if calm else v.get("speed", 1.0)
+            a = k.speak(sent, "bm_lewis" if calm else v.get("voice", "am_puck"), base * float(rng.uniform(0.97, 1.03)))   # 15 Oct owner: calm (Brain After Dark) uses the same voice as Belief Through Time
             nz = np.nonzero(np.abs(a) > 0.01)[0]; a = a[max(0, nz[0] - 400):nz[-1] + 900].copy()
             f = int(0.012 * k.SR); a[:f] *= np.linspace(0, 1, f); a[-f:] *= np.linspace(1, 0, f)
             # pause depends on how the take ends: question/colon longer, long take longer, small random jitter

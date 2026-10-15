@@ -319,6 +319,7 @@ def music(total, timing, v, path, sr=24000):
     return path
 
 # ---------- outputs ----------
+ACCENTS = [(255, 176, 59), (255, 105, 160), (64, 214, 255), (150, 235, 80), (176, 120, 255), (255, 92, 92), (40, 225, 180), (255, 225, 60), (255, 140, 60), (110, 150, 255)]
 def thumbnail(v, path):
     # MrBeast-style: 1 face big ("rule of big"), <=3 words that add to the title, simple saturated cool background,
     # rim-lit subject, white/yellow text with thick black stroke + hard shadow, top-left text, bottom-right corner free.
@@ -326,7 +327,7 @@ def thumbnail(v, path):
     th = v["thumb"]; img = Image.open(os.path.join(CH, BGS[th["bg"]]["file_path"])).convert("RGB").resize((1280, 720), Image.LANCZOS)
     img = ImageEnhance.Color(img.filter(ImageFilter.GaussianBlur(7))).enhance(1.6)
     calm = v.get("vibe") == "calm"  # calm videos: warm night grade, amber rim, last word on a warm block (trend: text left + one word on a colour block)
-    mir = th.get("mirror"); acc = tuple(int(th["accent"][i:i + 2], 16) for i in (1, 3, 5)) if th.get("accent") else (255, 176, 59)  # variety: text right/sprite left, own block + rim colour
+    mir = th.get("mirror"); acc = tuple(int(th["accent"][i:i + 2], 16) for i in (1, 3, 5)) if th.get("accent") and th.get("accent_lock") else ACCENTS[int(re.sub(r"\D", "", v["id"]) or 0) % len(ACCENTS)]   # 15 Oct owner: every thumbnail its own colour (rim glow + word block)  # variety: text right/sprite left, own block + rim colour
     img = Image.blend(img, Image.new("RGB", img.size, (255, 140, 50) if calm else (24, 110, 190)), 0.22 if calm else 0.28)
     yy, xx = np.mgrid[0:720, 0:1280]; vig = 1 - 0.45 * (((xx - 900) / 900) ** 2 + ((yy - 360) / 520) ** 2).clip(0, 1)
     img = Image.fromarray((np.asarray(img) * vig[..., None]).astype(np.uint8))
@@ -349,7 +350,7 @@ def thumbnail(v, path):
     d = ImageDraw.Draw(img); y = 60; lines = th["text"].split("|")
     for i, ln in enumerate(lines):
         f = font(150 if len(ln) <= 7 else 124, "Black"); last = i == len(lines) - 1; fill = (255, 230, 0) if last else (255, 255, 255)
-        tw = d.textlength(ln, font=f); L = 1280 - 120 - tw if mir else 50  # left edge of the line (right-aligned when mirrored)
+        tw = d.textlength(ln, font=f); L = 1280 - 150 - tw if mir else 50  # left edge of the line (right-aligned when mirrored)
         if calm and last and len(lines) > 1:  # warm block behind the last word
             d.rounded_rectangle((L + 12, y + 34, L + 12 + tw + 56, y + f.size * 1.02 + 34), 22, fill=(0, 0, 0))
             d.rounded_rectangle((L, y + 22, L + tw + 56, y + f.size * 1.02 + 22), 22, fill=acc, outline=(0, 0, 0), width=8)

@@ -14,9 +14,9 @@ def takes(text):
     return out
 
 
-def say(k, text, voice, speed, seed, pause=0.6):
+def say(k, text, voice, speed, seed, pause=0.6, takes_out=None):
     """k = kokoro_tts module; seed makes the variation repeatable (same text -> same audio)."""
-    out = []
+    out, t = [], 0.0   # t = running time; takes_out (optional list) receives (start, end, text) of every spoken take = exact caption timing
     for ci, sent in enumerate(takes(text)):
         rng = np.random.default_rng(seed + ci)
         a = k.speak(sent[:420], voice, speed * float(rng.uniform(0.97, 1.03)))
@@ -25,6 +25,8 @@ def say(k, text, voice, speed, seed, pause=0.6):
         f = int(0.012 * k.SR)
         if len(a) > 2 * f: a[:f] *= np.linspace(0, 1, f); a[-f:] *= np.linspace(1, 0, f)
         ps = pause * (1.25 if sent.rstrip().endswith("?") else 1.0) * (1.15 if len(sent) > 110 else 0.9) * float(rng.uniform(0.85, 1.2))
+        if takes_out is not None: takes_out.append((t, t + len(a) / k.SR, sent))
+        t += len(a) / k.SR + int(ps * k.SR) / k.SR
         out += [a.astype(np.float32), np.zeros(int(ps * k.SR), np.float32)]
     return np.concatenate(out) if out else np.zeros(2400, np.float32)
 

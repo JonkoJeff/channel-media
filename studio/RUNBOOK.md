@@ -243,3 +243,4 @@ GitHub Actions billing failed (private repo minutes) and the owner will not pay:
 ## REPO PUBLIC AGAIN (owner, 15 Oct)
 Owner made the repo public: GitHub Actions is free and unlimited again (private-repo minutes were used up). Scheduled crons (stats, youtube) are back on. Keys stay in GitHub Secrets only (scan 15 Oct: no secrets in code or history). Local posting runner studio/local/post_btt.py stays available.
 - THUMBNAILS (15 Oct, owner: "elke thumbnail een andere kleur"): longform.thumbnail() takes the rim glow + word block colour from ACCENTS[video number % 10] (10 saturated colours), ignoring th.accent unless th.accent_lock=true; mirrored text keeps 150 px from the right edge.
+- THUMBNAILS 2 (15 Oct): no green accents; background rotates among approved backgrounds that allow the sprite emotion (th.bg_lock=true keeps the block value).

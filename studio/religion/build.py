@@ -127,6 +127,27 @@ def card(text, fn, quote=None):
     im.save(fn, quality=92)
 
 
+# ---------- voice ----------
+def speak(s, i):   # same natural flow as Brain After Dark (RUNBOOK VOICE FLOW); voice identity unchanged: bm_lewis 0.92
+    return flow.say(K, s, "bm_lewis", 0.92, zlib.crc32(vid.encode()) + i * 97, pause=0.6)
+audio, jobs, off = [], [], 0.0
+for i, sc in enumerate(scenes):
+    a = speak(sc["say"], i); pad = 0.9 if i + 1 < len(scenes) else 3.5; a = np.concatenate([a, np.zeros(int(24000 * pad), np.float32)])
+    nf = int(np.ceil(len(a) / 24000 * FPS)); a = np.concatenate([a, np.zeros(int(nf / FPS * 24000) - len(a) + 1, np.float32)])[:int(nf / FPS * 24000)]
+    sc.update(frames=nf, start=off, dur=nf / FPS); off += nf / FPS; audio.append(a)
+    if i % 40 == 0: print("voice", i, "/", len(scenes), flush=True)
+vo = np.concatenate(audio); sr = 24000; tt = np.arange(len(vo)) / sr; bed = np.zeros_like(tt)
+for ci, ch in enumerate([(261.6, 329.6, 392.0), (220.0, 261.6, 329.6), (174.6, 220.0, 261.6), (196.0, 246.9, 293.7)] * int(len(vo) / sr / 27.4 + 2)):
+    a0, b0 = int(ci * 6.86 * sr), int((ci + 1) * 6.86 * sr)
+    if a0 >= len(tt): break
+    seg = tt[a0:b0] - tt[a0]; env = np.minimum(1, seg / 1.5) * np.minimum(1, (6.86 - seg) / 1.5)
+    bed[a0:b0] += env * sum(np.sin(2 * np.pi * f / 2 * seg) + 0.3 * np.sin(2 * np.pi * f * seg) for f in ch)
+for i, sc in enumerate(scenes):   # "silence before the reveal": the bed drops out around each new chapter card
+    if i and sc["chap"] and sc["chap"] != scenes[i - 1]["chap"]: bed[max(0, int((sc["start"] - 0.8) * sr)):int((sc["start"] + 0.6) * sr)] = 0.0
+bed = np.convolve(bed, np.ones(60) / 60, "same"); vr = np.sqrt((vo[np.abs(vo) > 0.01] ** 2).mean()) if (np.abs(vo) > 0.01).any() else 0.1
+bed = bed / np.sqrt((bed ** 2).mean() + 1e-9) * vr * 10 ** (-26 / 20)   # ~26 dB under the voice, like Brain After Dark
+K.save((vo + bed).astype(np.float32), os.path.join(W, "voice.wav")); print(f"voice done: {off / 60:.1f} min")
+
 # ---------- video shots ----------
 def shot(args):
     k, img, nf, style, label = args; fn = os.path.join(W, f"s{k:05d}.mp4"); n = max(nf, 2); d = n / FPS
@@ -151,7 +172,7 @@ for i, sc in enumerate(scenes):
         ref = re.sub(r"(?i)^(minimal )?text[- ]card\s*[:\-]?\s*", "", ref).strip()
         first = re.split(r"(?<=[.!?])\s", sc["say"])[0]; q = first if 30 <= len(first) <= 190 else None   # the narration's own first sentence as the pull-quote
         card(ref or (sc["chap"] or ""), c, q); imgs = [c]
-    ns = max(1, round(sc["dur"] / 5.5))   # a new shot every ~5.5 s (was 7): more rhythm; base = sc["frames"] // ns
+    ns = max(1, round(sc["dur"] / 5.5)); base = sc["frames"] // ns   # a new shot every ~5.5 s (was 7): more rhythm
     for j in range(ns):
         nf = base if j + 1 < ns else sc["frames"] - base * (ns - 1)
         tasks.append((k, imgs[j % len(imgs)], nf, k, sc["chap"] if j == 0 else None)); k += 1

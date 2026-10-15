@@ -319,12 +319,15 @@ def music(total, timing, v, path, sr=24000):
     return path
 
 # ---------- outputs ----------
-ACCENTS = [(255, 176, 59), (255, 105, 160), (64, 214, 255), (150, 235, 80), (176, 120, 255), (255, 92, 92), (40, 225, 180), (255, 225, 60), (255, 140, 60), (110, 150, 255)]
+ACCENTS = [(255, 176, 59), (255, 105, 160), (64, 214, 255), (176, 120, 255), (255, 92, 92), (255, 225, 60), (255, 140, 60), (110, 150, 255), (235, 80, 235)]   # no green (owner 15 Oct)
 def thumbnail(v, path):
     # MrBeast-style: 1 face big ("rule of big"), <=3 words that add to the title, simple saturated cool background,
     # rim-lit subject, white/yellow text with thick black stroke + hard shadow, top-left text, bottom-right corner free.
     from PIL import ImageFilter, ImageEnhance, ImageChops
-    th = v["thumb"]; img = Image.open(os.path.join(CH, BGS[th["bg"]]["file_path"])).convert("RGB").resize((1280, 720), Image.LANCZOS)
+    th = v["thumb"]; num = int(re.sub(r"\D", "", v["id"]) or 0)
+    emo = ASSETS[th["sprite"]].get("emotion"); ok_bg = [b for b, x in BGS.items() if x.get("approved") and (emo is None or emo in x["emotions"])]   # owner 15 Oct: now and then another background (only ones the character's emotion is approved on)
+    bgid = th["bg"] if th.get("bg_lock") or not ok_bg else ok_bg[num % len(ok_bg)]
+    img = Image.open(os.path.join(CH, BGS[bgid]["file_path"])).convert("RGB").resize((1280, 720), Image.LANCZOS)
     img = ImageEnhance.Color(img.filter(ImageFilter.GaussianBlur(7))).enhance(1.6)
     calm = v.get("vibe") == "calm"  # calm videos: warm night grade, amber rim, last word on a warm block (trend: text left + one word on a colour block)
     mir = th.get("mirror"); acc = tuple(int(th["accent"][i:i + 2], 16) for i in (1, 3, 5)) if th.get("accent") and th.get("accent_lock") else ACCENTS[int(re.sub(r"\D", "", v["id"]) or 0) % len(ACCENTS)]   # 15 Oct owner: every thumbnail its own colour (rim glow + word block)  # variety: text right/sprite left, own block + rim colour

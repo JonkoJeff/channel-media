@@ -217,7 +217,8 @@
    "gesture": "hands_on_edge",
    "mouth_state": "hidden",
    "eye_state": "open",
-   "anchor_point": "bottom_center"
+   "anchor_point": "bottom_center",
+   "auto": false
   },
   {
    "asset_id": "A19",
@@ -1043,6 +1044,312 @@
    "gesture": "sheet_pose",
    "character": "fawn",
    "anchor_point": "bottom_center"
+  },
+  {
+   "asset_id": "N01",
+   "file_path": "assets/N01.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "smug",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "smug"
+  },
+  {
+   "asset_id": "N02",
+   "file_path": "assets/N02.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "love",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "love",
+   "auto": false
+  },
+  {
+   "asset_id": "N03",
+   "file_path": "assets/N03.png",
+   "approved": true,
+   "emotion": "SAD",
+   "gesture": "hide",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "hide"
+  },
+  {
+   "asset_id": "N04",
+   "file_path": "assets/N04.png",
+   "approved": true,
+   "emotion": "ANGRY",
+   "gesture": "angry",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "angry"
+  },
+  {
+   "asset_id": "N05",
+   "file_path": "assets/N05.png",
+   "approved": true,
+   "emotion": "SAD",
+   "gesture": "plead",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "plead"
+  },
+  {
+   "asset_id": "N06",
+   "file_path": "assets/N06.png",
+   "approved": true,
+   "emotion": "EXCITED",
+   "gesture": "salute",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "salute"
+  },
+  {
+   "asset_id": "N07",
+   "file_path": "assets/N07.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "smug",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "smug"
+  },
+  {
+   "asset_id": "N08",
+   "file_path": "assets/N08.png",
+   "approved": true,
+   "emotion": "SAD",
+   "gesture": "hide",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "hide"
+  },
+  {
+   "asset_id": "N09",
+   "file_path": "assets/N09.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "stretch",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "stretch"
+  },
+  {
+   "asset_id": "N10",
+   "file_path": "assets/N10.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "prop",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "prop"
+  },
+  {
+   "asset_id": "N11",
+   "file_path": "assets/N11.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "love",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "love",
+   "auto": false
+  },
+  {
+   "asset_id": "N12",
+   "file_path": "assets/N12.png",
+   "approved": true,
+   "emotion": "EXCITED",
+   "gesture": "cheer",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "cheer"
+  },
+  {
+   "asset_id": "N13",
+   "file_path": "assets/N13.png",
+   "approved": true,
+   "emotion": "CONFUSED",
+   "gesture": "nervous",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "nervous"
+  },
+  {
+   "asset_id": "N14",
+   "file_path": "assets/N14.png",
+   "approved": true,
+   "emotion": "CONFUSED",
+   "gesture": "think",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "think"
+  },
+  {
+   "asset_id": "N15",
+   "file_path": "assets/N15.png",
+   "approved": true,
+   "emotion": "ANGRY",
+   "gesture": "angry",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "angry"
+  },
+  {
+   "asset_id": "N16",
+   "file_path": "assets/N16.png",
+   "approved": true,
+   "emotion": "EXCITED",
+   "gesture": "cheer",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "cheer"
+  },
+  {
+   "asset_id": "N17",
+   "file_path": "assets/N17.png",
+   "approved": true,
+   "emotion": "SAD",
+   "gesture": "hide",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "hide"
+  },
+  {
+   "asset_id": "N18",
+   "file_path": "assets/N18.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "love",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "love",
+   "auto": false
+  },
+  {
+   "asset_id": "N19",
+   "file_path": "assets/N19.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "love",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "love",
+   "auto": false
+  },
+  {
+   "asset_id": "N20",
+   "file_path": "assets/N20.png",
+   "approved": true,
+   "emotion": "NEUTRAL",
+   "gesture": "think",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "think"
+  },
+  {
+   "asset_id": "N21",
+   "file_path": "assets/N21.png",
+   "approved": true,
+   "emotion": "SAD",
+   "gesture": "stress",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "stress"
+  },
+  {
+   "asset_id": "N22",
+   "file_path": "assets/N22.png",
+   "approved": true,
+   "emotion": "CONFUSED",
+   "gesture": "prop",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "prop"
+  },
+  {
+   "asset_id": "N23",
+   "file_path": "assets/N23.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "prop",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "prop",
+   "auto": false
+  },
+  {
+   "asset_id": "N24",
+   "file_path": "assets/N24.png",
+   "approved": true,
+   "emotion": "SAD",
+   "gesture": "prop",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "prop"
+  },
+  {
+   "asset_id": "N25",
+   "file_path": "assets/N25.png",
+   "approved": true,
+   "emotion": "CONFUSED",
+   "gesture": "dizzy",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "dizzy"
+  },
+  {
+   "asset_id": "N26",
+   "file_path": "assets/N26.png",
+   "approved": true,
+   "emotion": "SAD",
+   "gesture": "prop",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "prop",
+   "auto": false
+  },
+  {
+   "asset_id": "N27",
+   "file_path": "assets/N27.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "smug",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "smug"
+  },
+  {
+   "asset_id": "N28",
+   "file_path": "assets/N28.png",
+   "approved": true,
+   "emotion": "SAD",
+   "gesture": "hide",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "hide"
+  },
+  {
+   "asset_id": "N29",
+   "file_path": "assets/N29.png",
+   "approved": true,
+   "emotion": "HAPPY",
+   "gesture": "hide",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "hide"
+  },
+  {
+   "asset_id": "N30",
+   "file_path": "assets/N30.png",
+   "approved": true,
+   "emotion": "EXCITED",
+   "gesture": "prop",
+   "character": "BAD",
+   "anchor_point": "bottom_center",
+   "family": "prop"
   }
  ],
  "backgrounds": [

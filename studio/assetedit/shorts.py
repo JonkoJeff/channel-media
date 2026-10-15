@@ -3,7 +3,7 @@ Usage: python3 shorts.py videos/shorts.json   -> renders/<short_id>.mp4
 A short = whole segments [first..last] of a long video (cut on voice boundaries), max ~58 s."""
 import json, os, subprocess, sys
 from PIL import Image, ImageDraw
-from longform import font, wrap, INK, CREAM, HERE, ASSETS, BGS, CH, ACCENTS
+from longform import pick_sprite, font, wrap, INK, CREAM, HERE, ASSETS, BGS, CH, ACCENTS
 
 def overlay(top, full_title, path):
     im = Image.new("RGBA", (1080, 1920), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
@@ -20,6 +20,7 @@ def cover(s, v, path):
     from PIL import ImageEnhance, ImageFilter
     sh = v["segments"][s["first"]]["show"]; acc = ACCENTS[zlib.crc32(s["id"].encode()) % len(ACCENTS)]
     bgid = sh.get("bg") if sh.get("bg") in BGS else "bedroom_night"; spr = sh.get("sprite") if sh.get("sprite") in ASSETS else "A10"
+    if spr[0] in "AN": spr = pick_sprite(s["id"], spr)
     bg = Image.open(os.path.join(CH, BGS[bgid]["file_path"])).convert("RGB"); r = max(1080 / bg.width, 1920 / bg.height)
     bg = bg.resize((round(bg.width * r), round(bg.height * r)), Image.LANCZOS); bg = bg.crop(((bg.width - 1080) // 2, (bg.height - 1920) // 2, (bg.width - 1080) // 2 + 1080, (bg.height - 1920) // 2 + 1920))
     img = ImageEnhance.Color(bg.filter(ImageFilter.GaussianBlur(9))).enhance(1.5); img = Image.blend(img, Image.new("RGB", img.size, (255, 140, 50)), 0.2)

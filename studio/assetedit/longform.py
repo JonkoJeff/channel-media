@@ -319,12 +319,31 @@ def music(total, timing, v, path, sr=24000):
     return path
 
 # ---------- outputs ----------
+HIST = os.path.join(HERE, "thumb_history.json")
+def pick_sprite(key, base):
+    """Varied thumbnail/cover pose (owner 15 Oct: never the same kind of pose close together). Same emotion as the scripted sprite `base`,
+    not one of the last 6 sprites and not one of the last 2 pose families used (same key prefix, lower number); remembered per key in thumb_history.json."""
+    import zlib
+    h = json.load(open(HIST)) if os.path.exists(HIST) else {}
+    if h.get(key) in ASSETS: return h[key]
+    num = lambda k: [int(x) for x in re.findall(r"\d+", k)]; pre = re.sub(r"\d.*", "", key)
+    prev = [h[k] for k in sorted(h, key=num) if re.sub(r"\d.*", "", k) == pre and num(k) < num(key) and h[k] in ASSETS]
+    fam = lambda a: ASSETS[a].get("family") or ASSETS[a].get("gesture")
+    emo = ASSETS[base].get("emotion")
+    pool = [a for a, x in ASSETS.items() if x.get("approved") and x.get("auto", True) and a[0] in "AN" and a[1:].isdigit() and x.get("emotion") == emo]
+    for rec, fm in ((prev[-6:], {fam(a) for a in prev[-2:]}), (prev[-6:], set()), (prev[-3:], set()), ([], set())):
+        c = [a for a in pool if a not in rec and fam(a) not in fm]
+        if c: break
+    else: return base
+    c.sort(); a = c[zlib.crc32(key.encode()) % len(c)]; h[key] = a; json.dump(h, open(HIST, "w"), indent=1); return a
+
 ACCENTS = [(255, 176, 59), (255, 105, 160), (64, 214, 255), (176, 120, 255), (255, 92, 92), (255, 225, 60), (255, 140, 60), (110, 150, 255), (235, 80, 235)]   # no green (owner 15 Oct)
 def thumbnail(v, path):
     # MrBeast-style: 1 face big ("rule of big"), <=3 words that add to the title, simple saturated cool background,
     # rim-lit subject, white/yellow text with thick black stroke + hard shadow, top-left text, bottom-right corner free.
     from PIL import ImageFilter, ImageEnhance, ImageChops
     th = v["thumb"]; num = int(re.sub(r"\D", "", v["id"]) or 0)
+    if not th.get("sprite_lock") and th["sprite"][0] in "AN": th = {**th, "sprite": pick_sprite(v["id"], th["sprite"])}
     emo = ASSETS[th["sprite"]].get("emotion"); ok_bg = [b for b, x in BGS.items() if x.get("approved") and (emo is None or emo in x["emotions"])]   # owner 15 Oct: now and then another background (only ones the character's emotion is approved on)
     bgid = th["bg"] if th.get("bg_lock") or not ok_bg else ok_bg[num % len(ok_bg)]
     img = Image.open(os.path.join(CH, BGS[bgid]["file_path"])).convert("RGB").resize((1280, 720), Image.LANCZOS)

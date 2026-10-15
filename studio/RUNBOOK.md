@@ -247,3 +247,6 @@ Owner made the repo public: GitHub Actions is free and unlimited again (private-
 
 ## SHORT COVER FRAME (BAD)
 Every BAD Short now opens with a designed 1.7 s cover (shorts.py `cover()`): character with accent glow + big hook text (`top`), colour per Short id (ACCENTS, no green). Zernio's auto-picked frame (1.5 s) is therefore a real thumbnail. BTT Shorts: same idea still to do.
+
+## POSE VARIETY (BAD thumbnails + Short covers)
+Sprites N01–N30 (owner sheet, 15 Oct) cut + 4x upscaled + registered with emotion and `family`. `longform.pick_sprite(key, base)` swaps the scripted sprite for another of the SAME emotion, never one of the last 6 sprites or last 2 pose families (per prefix lf/sh), remembered in `studio/assetedit/thumb_history.json` (commit it after a render). Lock a pose with `thumb.sprite_lock: true`. Props that only fit a matching story (N02, N11, N18, N19, N23, N26) and A18 have `auto: false`.

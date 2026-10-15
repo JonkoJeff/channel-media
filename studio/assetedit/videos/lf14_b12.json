@@ -1,0 +1,324 @@
+{
+ "id": "lf14_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now, let's follow that explanation into a situation where the same clue becomes harder to use. A picture might offer something distinctive to remember. But what happens when remembering a picture is no longer something you should expect for every item you genuinely encountered? Let's put a few imaginary cards on the table and see what changes.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "n": 32,
+    "title": "When the clue stops helping"
+   }
+  },
+  {
+   "say": "Imagine a little collection of objects laid out on a table. Some come with a photograph, while others come with only a written label. Later, someone asks whether a particular object belonged to the collection. Before you answer, you might search for its photograph. But an empty search would leave a question open.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A picture is not a promise",
+    "sub": "What would its absence mean?"
+   }
+  },
+  {
+   "say": "The object might never have been there. Or it might have been there with only a written label. In this imagined arrangement, the same missing detail fits different possibilities. You cannot settle which possibility applies simply by noticing that no picture comes back. The clue needs a context before it can help you decide.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "An absent picture could mean",
+    "items": [
+     "The item was absent",
+     "The item appeared without a picture"
+    ]
+   }
+  },
+  {
+   "say": "Schacter, Israel, and Racine tested this logic in their second experiment, published in 1999. Instead of assigning picture study and word study to separate groups, they had each participant study some associated lists with pictures and others with visual words. The comparison now happened within the same person's study experience.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "who": "Schacter, Israel, and Racine",
+    "where": "Harvard University and Oxford University affiliations",
+    "what": "Published in 1999"
+   }
+  },
+  {
+   "say": "The experiment included 24 younger adults and 24 older adults. Those are participant counts, rather than measures of how accurate either group was. Keeping that distinction clear matters here, because the question is about a comparison between study conditions, not a score that tells us how dependable any particular person might be.",
+   "show": {
+    "type": "bars",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Experiment 2 participants",
+    "unit": "people",
+    "bars": [
+     [
+      "Younger adults",
+      24.0
+     ],
+     [
+      "Older adults",
+      24.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Picture our imaginary table again, now with the photographs and written labels together. If you knew that every genuine object had been photographed, looking for a photograph would make sense as a general test. Once you know some genuine objects had only labels, that same test becomes less decisive. The arrangement has changed what you can reasonably expect.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "A mixed collection",
+    "sub": "The expectation changes"
+   }
+  },
+  {
+   "say": "The authors' account concerned a decision strategy: expecting distinctive recollection before accepting an item as previously studied. In the mixed arrangement, a general expectation about pictures could not, by itself, distinguish the picture lists from the word lists. Doing that would require information tied to the particular list under consideration.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The proposed decision",
+    "items": [
+     "Expect a distinctive recollection",
+     "Look for that recollection",
+     "Judge what its absence means"
+    ]
+   }
+  },
+  {
+   "say": "In ordinary language, the extra question is something like this: would this particular item have come with a picture? Notice the word particular. It is easy to imagine a general rule about a whole session. It is a more specific demand to identify which kind of encounter should belong to the detail you are considering now.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "The extra question",
+    "sub": "Which list did it belong to?"
+   }
+  },
+  {
+   "say": "Let the cards on this table stand for that distinction. They are an illustration, rather than the experiment's actual materials. Some cards offer a picture; some do not. Looking at the collection makes the reasoning easier to hold: a missing picture cannot automatically tell you that a card was never part of the collection.",
+   "show": {
+    "type": "photo",
+    "file": "lf14_b12_01.jpg",
+    "cap": "Different kinds of encounters"
+   }
+  },
+  {
+   "say": "That gives us a useful question to sit with, without turning it into a rule for all remembering. Would I expect that detail here? An expectation needs a reason. Otherwise, you could demand a kind of evidence that the original experience never offered, then mistake its absence for a meaningful answer.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "text": "Would I expect that detail here?",
+    "by": "A question to consider"
+   }
+  },
+  {
+   "say": "In the first experiment, the groups that studied pictures falsely recognized fewer related, unstudied words than the groups that studied visual words. That was the picture-study suppression advantage. In Experiment 2, with both formats in each person's study experience, there was no significant reduction for picture-studied lists compared with word-studied lists. This supported the authors' explanation that the benefit depended on how people could use the distinctive recollection when deciding.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Experiment 2",
+    "where": "Recognition of related, unstudied words",
+    "what": "No significant picture-study suppression advantage"
+   }
+  },
+  {
+   "say": "Here is the answer to the question we have been circling: an absent picture is less informative when some studied items never came with one. In this experiment, including pictures did not preserve the earlier suppression advantage under the changed arrangement. That is a narrower conclusion than saying pictures never help, and a more informative one than treating pictures as automatic protection.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "The limit comes into focus",
+    "sub": "Vividness alone is no guarantee"
+   }
+  },
+  {
+   "say": "The outcome concerned related words that had not actually been studied. It did not show that every benefit of pictures disappeared. The authors also cautioned that their finding did not establish that list-specific information could never help suppress false recognition under other conditions. Their result identified a limit within the arrangement they tested.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "title": "Keep the comparison precise",
+    "items": [
+     "Picture-studied lists",
+     "Word-studied lists",
+     "False recognition of related lures"
+    ]
+   }
+  },
+  {
+   "say": "To make that limit feel less abstract, imagine trying to identify a cup from a cupboard. Someone offers the clue that it has a handle. That might help if the alternatives include glasses and bowls. If every possible cup has a handle, the clue no longer separates them. Its usefulness depends on the question.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "A clue with a job",
+    "sub": "Ask what it distinguishes"
+   }
+  },
+  {
+   "say": "Across the younger and older groups, that gives us 48 participants in total: 24 plus 24. Each participant encountered both study formats. The handle comparison is our analogy; the evidence comes from their recognition judgments about the lists. Keeping those separate lets a familiar example help explain the finding without standing in for it.",
+   "show": {
+    "type": "stat",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Experiment 2 sample",
+    "big": "48",
+    "label": "participants in total"
+   }
+  },
+  {
+   "say": "Consider how those questions sound when you ask them slowly. Can I picture it? Did I encounter it? Where did I encounter it? They request different answers. An image answers the first question directly. To answer the others, you would want to know what connects that image to the occasion you are trying to remember.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "Different questions",
+    "items": [
+     "Can I picture it?",
+     "Did I encounter it?",
+     "Where did I encounter it?"
+    ]
+   }
+  },
+  {
+   "say": "Suppose you are trying to remember whether a friend used a blue cup during a visit. You can picture the cup beside the window, looking quite at home there. In this hypothetical example, that image could come from the visit, from another visit, or from arranging a plausible scene as you think. For now, leave the answer undecided.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "An everyday possibility",
+    "sub": "The blue cup"
+   }
+  },
+  {
+   "say": "Now give the question a little more shape: what would place the cup at this particular visit? You might look for a connection to something else that happened that afternoon, or for a record whose origin you can check. Neither has been supplied in our little story yet. Instead of asking the image to become sharper, we have a new direction to explore.",
+   "show": {
+    "type": "quote",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "text": "A clear picture leaves a source question",
+    "by": "An illustrative example"
+   }
+  },
+  {
+   "say": "You could keep that uncertainty in the sentence itself: I can picture the blue cup there, but I am unsure whether that belongs to this visit. There is nothing dramatic about that wording. It simply keeps an image and a claim about its origin from becoming interchangeable before you have a reason to connect them.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "No need to force the answer",
+    "sub": "Leave room for uncertainty"
+   }
+  },
+  {
+   "say": "The cup example is an application of the distinction, rather than a procedure tested in this paper. The laboratory question involved associated lists and recognition judgments. Our everyday question involves a visit. Keeping those settings separate lets us borrow the reasoning carefully, without claiming that a laboratory result has already answered every household uncertainty.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "An image and its history",
+    "items": [
+     "What the image contains",
+     "Which encounter it belongs to"
+    ]
+   }
+  },
+  {
+   "say": "Think of the picture advantage as something with conditions attached. To understand it, we need the surrounding arrangement: what was studied, what kind of recollection could be expected, and what decision was requested later. Remove those conditions from the description, and the phrase pictures help becomes too broad to explain what happened.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A protective effect has conditions",
+    "sub": "Look at the arrangement"
+   }
+  },
+  {
+   "say": "There is a quiet lesson in the way the researchers tested their explanation. They changed an arrangement that should matter if the explanation was useful. Then they looked for the predicted difference. Back at our imaginary table, the blue cup can wait patiently while we ask what would actually connect it to the visit.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "n": 33,
+    "title": "What the result leaves open"
+   }
+  },
+  {
+   "say": "Return to the imagined blue cup. Now suppose there is an actual photograph from the visit, clearly showing the table. That would introduce something different into the story: a record you could inspect. You would still need to establish which visit it came from. The photograph's connection to the occasion would be part of its usefulness.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "The photograph and the visit",
+    "sub": "A different kind of evidence"
+   }
+  },
+  {
+   "say": "We do not need to decide the cup's history tonight. We are simply noticing the shape of a better question. Rather than asking only how sharply the cup appears in your mind, you can ask what places it at that table on that occasion. That question makes the origin of the detail relevant again.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "What would connect them?",
+    "items": [
+     "The detail",
+     "The occasion",
+     "The record's origin"
+    ]
+   }
+  },
+  {
+   "say": "A connection might be something you directly remember about the visit, or something you could check. You may also find that no clear connection comes to mind. An uncertain answer leaves room for that. The cup does not need a complete biography tonight; you can let the little scene stay unfinished.",
+   "show": {
+    "type": "quote",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "text": "What connects this detail to that moment?",
+    "by": "A gentle question"
+   }
+  },
+  {
+   "say": "The experiment gives us a reason to resist a simple promise about vivid pictures. It also gives us a more interesting way to think about protection from error. The relevant question includes how the evidence will be used. A potentially helpful detail still needs to fit the decision, rather than merely feel rich or distinctive.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "Keep the finding modest",
+    "sub": "Conditions matter"
+   }
+  },
+  {
+   "say": "You can hold those questions lightly. There is no demand to inspect every passing thought, and the experiment did not test such a demand. We are approaching a smaller, practical possibility: when a particular detail matters, pause long enough to distinguish what feels available from what supports your account of where it came from.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Before making the claim",
+    "items": [
+     "What seems familiar?",
+     "What supports its origin?"
+    ]
+   }
+  },
+  {
+   "say": "So let the laboratory lists give way to the cup, the window, and that ordinary visit. The image can remain clear while its history remains uncertain. From here, we can turn toward that history with a little more care: what you remember directly, what you have filled in, and what might help you tell the difference.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "Back to the ordinary detail",
+    "sub": "Where did it come from?"
+   }
+  }
+ ]
+}

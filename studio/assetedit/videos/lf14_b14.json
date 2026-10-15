@@ -1,0 +1,313 @@
+{
+ "id": "lf14_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "And that brings us back to the small space we left near the beginning: a word that was never spoken, but might still have felt as though it belonged. After following all these different paths through memory, we can return to that moment with a gentler, more useful question. What made it feel remembered?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 36,
+    "title": "Back to the missing word"
+   }
+  },
+  {
+   "say": "If a word came to mind during the opening exercise, you do not need to push yourself to recover exactly how it arrived. Perhaps you seemed to hear it again. Perhaps it simply fit the surrounding words. Perhaps nothing unusual happened at all. Your response was never something you had to get right.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "A familiar feeling",
+    "sub": "A question about its source"
+   }
+  },
+  {
+   "say": "The distinction we have been exploring is between a feeling and the evidence for its source. Something can feel familiar, and you can still ask where that familiarity came from. You can remember a theme while remaining unsure about its exact wording. Those possibilities leave room for curiosity without requiring an immediate verdict.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What can be separated",
+    "items": [
+     "What feels familiar",
+     "What you recall hearing",
+     "What the record contains"
+    ]
+   }
+  },
+  {
+   "say": "In the word-list research by Roediger and McDermott, related words offered a setting in which an absent word could be recalled or accepted on a recognition test. That is the connection to our opening moment. A word fitting the list was not the same thing as a word appearing in it.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Roediger and McDermott",
+    "where": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+    "what": "Related words and an absent associate"
+   }
+  },
+  {
+   "say": "So the answer to our opening puzzle is quite modest. The missing word could feel at home among the words you heard, even though it was absent from the spoken list. The exercise offered a chance to notice that distinction. It could not tell us everything about your memory, and it did not need to.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The small answer",
+    "sub": "Belonging is not a recording"
+   }
+  },
+  {
+   "say": "If you experienced the surprise, you can leave it as a small observation. If you did not, there is nothing to manufacture now. You do not need to make your experience resemble an experiment's result. We can understand what the researchers examined while allowing your own brief experience to remain exactly as it was.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "No particular response required",
+    "items": [
+     "A surprising response",
+     "An uncertain response",
+     "No surprising response"
+    ]
+   }
+  },
+  {
+   "say": "And if you were somewhere in between, that is also a place you can leave unfinished. You might remember considering the word without knowing whether you thought you heard it. There is no need to settle that uncertainty tonight. The useful thing to carry forward is the question about origin, rather than a score for the exercise.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "A little space",
+    "sub": "Before deciding"
+   }
+  },
+  {
+   "say": "That question can stay small enough to use in ordinary life. You might ask it about the wording of a conversation, a detail in a story, or something you thought you put on a list. You are giving yourself a moment to describe what you know before adding what you suppose.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "text": "What am I remembering, and where did it come from?",
+    "by": "A reflection for everyday use"
+   }
+  },
+  {
+   "say": "For example, you could say that you remember discussing a plan but are unsure who suggested it. Or that a detail makes sense, although you cannot place where you learned it. These are ways of expressing uncertainty honestly. They are suggestions for handling a particular question, not a promise that careful wording will make every recollection accurate.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "A gentle distinction",
+    "items": [
+     "Direct recollection",
+     "An inference",
+     "Information heard later"
+    ]
+   }
+  },
+  {
+   "say": "There is something undemanding about allowing a gap to remain a gap. You do not have to fill it with the most plausible answer. You can keep the part you remember, set aside the part you inferred, and decide later whether the difference matters enough to check. Some questions can simply remain open.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Enough for the moment",
+    "sub": "You can leave a gap"
+   }
+  },
+  {
+   "say": "Imagine a plain notebook resting on a table. For this moment, you do not have to open it or write anything down. Let it stand for a question you could return to if you needed to. You are allowed to set that question beside you instead of carrying it through the rest of the evening.",
+   "show": {
+    "type": "photo",
+    "file": "lf14_b14_01.jpg",
+    "cap": "A place to set the question down"
+   }
+  },
+  {
+   "say": "The source-monitoring framework gave us language for thinking about origins: whether information was perceived, imagined, or encountered elsewhere. We do not need to turn that framework into a nightly inspection. Here, it simply supports a useful distinction. Remembering some content and identifying its source are questions we can consider separately.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Johnson, Hashtroudi, and Lindsay",
+    "where": "Psychological Bulletin",
+    "what": "Source-monitoring framework: considering where information came from"
+   }
+  },
+  {
+   "say": "When a detail matters, consulting an independent record is a reasonable option, if a suitable record exists. You might look at the original message rather than rely on a later retelling. That suggestion has limits, too. It is a practical application of tonight's ideas, rather than a method that guarantees the right answer every time.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "When accuracy matters",
+    "sub": "Make room for a check"
+   }
+  },
+  {
+   "say": "You do not need to remember every paper or every distinction we explored. If you want something simple to take away, let it be permission to pause before turning a feeling into certainty. You can describe your recollection, acknowledge what remains unclear, and choose whether further checking would serve the situation in front of you.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "What to carry forward",
+    "items": [
+     "Name your uncertainty",
+     "Consider the source",
+     "Check when it matters"
+    ]
+   }
+  },
+  {
+   "say": "There is no perfect-memory goal waiting at the end of this video. You have not been given a test to pass tomorrow. We have looked at particular tasks, particular findings, and careful interpretations. You can take those ideas seriously without treating every ordinary recollection as a problem that now needs your attention.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "And what to leave behind",
+    "sub": "No perfect score"
+   }
+  },
+  {
+   "say": "Perhaps that sentence is enough for a moment when the details matter. It leaves space for your recollection without making it the final word. Just notice whether its tone feels comfortable: clear about what you remember, open about what you have not yet confirmed.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "text": "I remember it this way, but I could check.",
+    "by": "A suggested phrase"
+   }
+  },
+  {
+   "say": "And now we can let the explanations become quieter. The evening's exploring is drawing to a close. Perhaps your attention is already returning to wherever you are sitting or resting. Follow these suggestions loosely, change anything that does not suit you, or simply listen.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "n": 37,
+    "title": "Let the questions become quiet"
+   }
+  },
+  {
+   "say": "Beneath you is a surface offering support. Perhaps a small adjustment would feel pleasant, or perhaps you are settled as you are. Let that be your choice. For a little while, the details of the studies can recede into the background.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Notice what supports you",
+    "sub": "Settle in your own way"
+   }
+  },
+  {
+   "say": "The opening word list has finished its work here. Let its exact wording become unimportant for this moment. We have already returned to the curiosity it opened, and the exercise belongs earlier in the evening now.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "The exercise is complete",
+    "items": [
+     "A list heard",
+     "A possibility explored",
+     "A question revisited"
+    ]
+   }
+  },
+  {
+   "say": "If it feels comfortable, notice a breath as it comes and goes. Let the next one arrive at its usual pace and depth. If paying attention to breathing does not appeal to you, the room offers another place for your attention to rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "An ordinary breath",
+    "sub": "At your own pace"
+   }
+  },
+  {
+   "say": "Picture a quiet corner with a shelf, a bowl, and a folded piece of cloth. Soft light rests across their surfaces. Let the picture remain simple, or let it fade altogether. Either way, there is no hidden word waiting for you inside it.",
+   "show": {
+    "type": "photo",
+    "file": "lf14_b14_02.jpg",
+    "cap": "A quiet corner"
+   }
+  },
+  {
+   "say": "A thought about tomorrow may appear while you listen. Perhaps it concerns a conversation, an errand, or something still undecided. Notice its arrival, then let your attention settle back into the evening. Its story can continue another time.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Let a thought remain a thought",
+    "sub": "A passing thought"
+   }
+  },
+  {
+   "say": "Choose whatever feels least demanding, if you want a place for your attention to rest. It could be a sound nearby or the feeling of your hand against a surface. Stay with it for a moment, or move gently to something else. These are invitations to settle in your own way.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Choose an easy place for attention",
+    "items": [
+     "The room around you",
+     "A point of contact",
+     "The sound of the voice"
+    ]
+   }
+  },
+  {
+   "say": "Perhaps there is a detail from tonight you would like to remember. Returning to it another time remains an option. For now, let this be an evening when something interesting was explored, with the exploration complete for tonight.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "text": "This can wait until I need it.",
+    "by": "An optional thought"
+   }
+  },
+  {
+   "say": "We began with the possibility that a word could feel remembered despite being absent. We end with a little more room around that feeling: familiarity is something you can notice, while its source is something you can ask about. That answers our opening question without asking you to become certain about every memory you have.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Back to the beginning",
+    "sub": "The gap is answered"
+   }
+  },
+  {
+   "say": "Whether you are listening closely or your attention has wandered, we have reached the quiet end of the story. The studies, the word lists, and the practical suggestions have had their place. Now the familiar room around you can come forward again.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Enough for tonight",
+    "items": [
+     "A question answered",
+     "Some uncertainty allowed",
+     "Time to settle"
+    ]
+   }
+  },
+  {
+   "say": "The last word list is behind us. Let the room be the room around you. Let the next moment arrive without preparation. Rest in whatever way is available to you tonight, allowing that rest to be as ordinary as it is.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Leave the list behind",
+    "sub": "Rest in your own way"
+   }
+  },
+  {
+   "say": "Another evening, we will explore how your brain recognizes familiar places: that quiet sense of knowing a room or a street. That is a question for another evening. Thank you for spending this time with me. Good night.",
+   "show": {
+    "type": "end",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "next": "How Your Brain Recognizes Familiar Places"
+   }
+  }
+ ]
+}

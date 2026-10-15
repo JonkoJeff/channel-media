@@ -1,0 +1,329 @@
+{
+ "id": "lf14_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now the extra detail arrives from outside your own imagination. Someone else was there, and they remember something you do not. You listen, because listening seems sensible. But here is the question to keep beside us: how could something outside your view eventually find its way into your own account?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "n": 19,
+    "title": "When another person adds a detail"
+   }
+  },
+  {
+   "say": "Imagine leaving a gathering with a friend. You remember the room, the doorway, and someone carrying a book. Your friend mentions a small action you cannot place. Neither of you is trying to mislead anyone. You are simply comparing what you think happened.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "A conversation after an event",
+    "sub": "Two accounts meet"
+   }
+  },
+  {
+   "say": "Those questions sound almost interchangeable until you slow them down. An event can contain something you never personally saw. Someone can accurately describe that unseen detail to you afterward. Knowing about it later would still be different from having watched it happen. That difference gives the next experiment its shape.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Separate questions",
+    "items": [
+     "What happened?",
+     "What did you see?",
+     "What did someone tell you?"
+    ]
+   }
+  },
+  {
+   "say": "Fiona Gabbert, Amina Memon, and Kevin Allan published this study in 2003 at the University of Aberdeen. Participants watched different perspectives of an event, then discussed it or worked alone before individual recall.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Gabbert, Memon, and Allan",
+    "where": "University of Aberdeen",
+    "what": "Different views, then recall"
+   }
+  },
+  {
+   "say": "Picture a camera frame as a window. Whatever falls outside that window is unavailable through that particular view. You might make a sensible guess about it, or learn about it afterward. But neither route places the missing action inside the picture you originally watched.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A window onto an event",
+    "sub": "The frame has edges"
+   }
+  },
+  {
+   "say": "A desk can hide the movement of a hand. A doorway can conceal someone leaving. From another seat, those same actions might be easy to see. Sharing a room does not automatically mean sharing every available line of sight.",
+   "show": {
+    "type": "photo",
+    "file": "lf14_b08_01.jpg",
+    "cap": "Different views"
+   }
+  },
+  {
+   "say": "Each film lasted 90 seconds, showing the same sequence from different angles. The difference was access. One person could pay close attention and still miss something that their version never showed. Looking harder cannot reveal an action hidden beyond the frame.",
+   "show": {
+    "type": "stat",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Each film",
+    "big": "90",
+    "label": "seconds"
+   }
+  },
+  {
+   "say": "One view showed the book title and a note thrown into a bin. The other showed a watch check. These details were part of the researchers' films. A small action gives us something concrete to follow: not the whole event, but one piece of it moving between accounts.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "A small action matters",
+    "sub": "Different details on screen"
+   }
+  },
+  {
+   "say": "A detail can reach you through different routes. You might see it on the screen, or hear about it from someone beside you. Later, the sentence you use to describe it might sound the same either way. The words can preserve the action while leaving its source unclear.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "Keep the routes separate",
+    "items": [
+     "Visible in your version",
+     "Visible in their version",
+     "Mentioned afterward"
+    ]
+   }
+  },
+  {
+   "say": "That is the useful feature of controlling the material. Instead of asking us to settle a disagreement between two friends, the design gives an outside reference: the video each person received. Our question becomes specific. Was this detail available in that viewer's film, or did it belong to the partner's perspective?",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "What the researchers could check",
+    "sub": "An outside reference"
+   }
+  },
+  {
+   "say": "The thread to follow is the path of a detail. It begins somewhere, reaches someone, and may become part of what they report. You can keep that path in mind without treating every difference between two accounts as a sign that someone was careless.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Follow the information",
+    "items": [
+     "A particular view",
+     "A conversation",
+     "A later answer"
+    ]
+   }
+  },
+  {
+   "say": "Partners were led to assume they had watched the same clip. Imagine comparing notes under that assumption. A detail you cannot place might sound like something you simply missed. Knowing that your partner had a different view would give you another explanation for the gap.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The hidden difference",
+    "sub": "An assumption about the screen"
+   }
+  },
+  {
+   "say": "Now we reach the space between the original viewing and the later individual account. This is where the witnesses' information could meet. Our opening question becomes a little narrower: how does a detail cross from someone else's view into something you can later describe?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "n": 20,
+    "title": "Between watching and reporting"
+   }
+  },
+  {
+   "say": "Discussion partners prepared collaborative notes; comparison participants worked alone. Thinking back was part of both arrangements. What changed was the opportunity to hear another witness's account. A conversation could bring in something beyond the information available on your own screen.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The comparison",
+    "items": [
+     "Discuss with a partner",
+     "Work through the event alone",
+     "Recall individually later"
+    ]
+   }
+  },
+  {
+   "say": "Suppose your partner mentions the watch check. This exchange is an example, not a recorded conversation from the study. You cannot bring the movement to mind, but their description fits the scene. You might ask about it, accept it provisionally, or leave it out of your own account.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Trying to get it right",
+    "sub": "An illustrative exchange"
+   }
+  },
+  {
+   "say": "Your partner could be entirely right about the action. The difficulty would concern your relationship to it. Saying that someone told you about the watch preserves one history. Presenting the watch check as something you witnessed presents another. The event detail and its claimed origin are separate questions.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "cap": "A detail can be accurate",
+    "sub": "Its source still matters"
+   }
+  },
+  {
+   "say": "That sentence from the paper holds the key to the arrangement. The information was not equally available to everyone. So agreement afterward would not, by itself, mean that both people had independently observed the same thing. Two matching accounts can still have different beginnings.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "text": "Each video contained unique items that were thus seen only by one witness.",
+    "by": "Gabbert, Memon, and Allan, 2003"
+   }
+  },
+  {
+   "say": "A conversation brings separate experiences to the same table. You offer one piece, and someone else offers another. That can make a shared account feel fuller and easier to follow. But when you later speak for yourself, there is still a difference between your own view and what the conversation added.",
+   "show": {
+    "type": "photo",
+    "file": "lf14_b08_02.jpg",
+    "cap": "Where accounts can meet"
+   }
+  },
+  {
+   "say": "After 45 minutes of unrelated tasks, everyone answered individually. The shared notes were no longer the final product. Each witness now had to respond separately, after the opportunity to exchange information had passed.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "The later test",
+    "where": "45 minutes of unrelated tasks",
+    "what": "Individual recall"
+   }
+  },
+  {
+   "say": "Return to that example of the watch. Your partner is no longer beside you, explaining what they saw. If you include the action now, your answer carries it forward on its own. A listener who hears only that answer may have no way to know where the detail first reached you.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Separate answers",
+    "sub": "After the conversation"
+   }
+  },
+  {
+   "say": "The instructions asked participants to report what they remembered witnessing. That is a narrower request than asking for everything they had learned. You can know something about an event without having observed it yourself. The wording of the question makes that boundary matter.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "What the test requested",
+    "items": [
+     "Think back to the video",
+     "Report what you witnessed",
+     "Answer individually"
+    ]
+   }
+  },
+  {
+   "say": "You can now trace the possible route without the original screen changing at all. A detail begins in one person's view. Conversation makes it available to another person. Later, that person may include it in an answer. The information has travelled, even though the camera never moved.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Follow one detail",
+    "sub": "A route through the procedure"
+   }
+  },
+  {
+   "say": "So something outside your view can reach you through another witness. That answers the first part of our puzzle. Encountering information, though, is only the beginning. The next question is whether you carry it into your own account, and whether you keep track of how it arrived.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "Our question has an answer",
+    "items": [
+     "Absent from your film",
+     "Available in conversation",
+     "Possible in a later report"
+    ]
+   }
+  },
+  {
+   "say": "A written answer does not let us look directly inside someone's experience. A person might picture an action, trust a partner's description, or feel uncertain about its source. Those possibilities can lead to similar words on a page. Following the report is useful without assuming we already know everything behind it.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "An answer and an experience",
+    "sub": "They are different questions"
+   }
+  },
+  {
+   "say": "An omitted detail and an added detail tell different stories. So does an ordinary mistake compared with information available only in the other person's view. To follow what happened next, we need to notice which kind of difference appears in an answer.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 21,
+    "title": "What would count?"
+   }
+  },
+  {
+   "say": "Reports were coded as correct, incorrect, or extra co-witness information. That last category connects the answer to its possible route. The question is not simply whether somebody made a mistake. It is whether their account includes something their own film had not shown them.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Reading the accounts",
+    "items": [
+     "Correct information",
+     "Incorrect information",
+     "Extra partner-view information"
+    ]
+   }
+  },
+  {
+   "say": "An otherwise accurate account can still contain an addition worth examining. You do not have to throw away every other sentence to ask where one detail came from. That is a gentler, more useful way to approach a disagreement too: pause over the particular detail instead of declaring the whole memory wrong.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "Not the whole memory",
+    "sub": "One identifiable addition"
+   }
+  },
+  {
+   "say": "The comparison with working alone matters here. Recalling an event already leaves room for omissions and mistakes. To understand what conversation contributes, we need more than one person's unusual answer. We need to compare what follows a discussion with what follows thinking back without a partner.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Two routes back to the event",
+    "sub": "Conversation and individual rehearsal"
+   }
+  },
+  {
+   "say": "We began with a familiar moment: someone remembers something you do not. Now we have a way to follow that detail without assuming either person intended to mislead. The next finding concerns how often information crossed that boundary and appeared in a witness's own report.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "From conversation to an answer",
+    "items": [
+     "Another witness's information",
+     "A later individual account",
+     "A comparison with working alone"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,347 @@
+{
+ "id": "lf14_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now, let's turn toward a different question. Suppose you want to give a familiar feeling something more specific to answer to. What would count as a useful clue? Consider reaching for a memory and asking, very gently, whether it carries the particular detail you would expect from that experience.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 30,
+    "title": "A different kind of evidence"
+   }
+  },
+  {
+   "say": "Picture a little drawing of a watering can on a plain card. You can understand what it represents without remembering any particular occasion when you saw it. Being asked whether that exact card appeared earlier is a different question. Knowing an object's meaning does not, by itself, tell you the history of your encounter with it.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "A familiar object",
+    "sub": "A particular encounter"
+   }
+  },
+  {
+   "say": "These questions can sound almost interchangeable in ordinary conversation. Someone says they recognize something, and we may not ask whether they mean its name, its purpose, or a particular meeting with it. Here, that distinction matters. We are interested in what would support saying that an item belonged to an earlier experience.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "Questions to keep separate",
+    "items": [
+     "Do I understand it?",
+     "Does it feel familiar?",
+     "Do I remember encountering it?"
+    ]
+   }
+  },
+  {
+   "say": "Daniel Schacter, Lana Israel, and Carrie Racine examined false recognition in a paper published in 1999. In their first experiment, younger and older adults heard associated words accompanied by pictures or written words. Later, they judged whether test items had appeared before.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Schacter, Israel, and Racine",
+    "where": "Harvard University and Oxford University",
+    "what": "Published in 1999"
+   }
+  },
+  {
+   "say": "Here is the possibility we will follow: perhaps a picture could matter partly because of what you expect to remember afterward. That is different from the tempting idea that pictures simply make memory accurate. Before we move on, we will give that tempting idea a clear answer, without asking the result to promise more than it can.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "What would you expect?",
+    "sub": "A possibility to explore"
+   }
+  },
+  {
+   "say": "From the participant's seat, there is something to hear, something to look at, and later a decision to make. The important distinction is between an item's relationship to the material and its actual presence earlier. Something can fit the surrounding meaning very comfortably while still being new to that particular encounter.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Study and test",
+    "items": [
+     "Hear associated words",
+     "See pictures or written words",
+     "Make recognition judgments"
+    ]
+   }
+  },
+  {
+   "say": "The experiment included 36 younger adults and 36 older adults. Those are participant counts, not accuracy scores. The equal heights here tell you about the groups taking part. They do not tell you how often anyone answered correctly, or how much a picture changed an answer.",
+   "show": {
+    "type": "bars",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Experiment 1 participants",
+    "unit": "people",
+    "bars": [
+     [
+      "Younger adults",
+      36.0
+     ],
+     [
+      "Older adults",
+      36.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Let's build our own small example, separate from the experiment's actual materials. Suppose you hear names of garden objects while seeing simple drawings of them. A pot, a rake, a watering can. Later, someone asks about a shovel. In this invented example, the shovel was never presented, although it belongs naturally with the other objects.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "An illustrative garden",
+    "sub": "Not the study materials"
+   }
+  },
+  {
+   "say": "You can let the shovel fit the garden without granting it a place in the earlier presentation. Our illustration shows the objects together now, but that is not a record of what appeared in our fictional task. The question is about the earlier encounter, rather than what looks appropriate in the scene before you.",
+   "show": {
+    "type": "photo",
+    "file": "lf14_b11_01.jpg",
+    "cap": "An illustration, not experimental materials"
+   }
+  },
+  {
+   "say": "Suppose you expected an earlier item to bring back its drawing. You might hesitate because no particular drawing comes to mind. The important word is expected. We have constructed a situation where the missing detail would have a reason to matter, rather than treating every missing detail as evidence against every memory.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "A possible response",
+    "sub": "Look for the expected detail"
+   }
+  },
+  {
+   "say": "Try that sentence softly, without treating it as a test you need to pass. What detail would I expect? It asks what would be relevant to the decision. A vivid description you could create now would have a different role from something you recalled from the presentation, even if both concerned exactly the same object.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "text": "What detail would I expect?",
+    "by": "An illustrative question"
+   }
+  },
+  {
+   "say": "You could give our shovel a curved handle or place it beside a clay pot. Those details would make a pleasant illustration, but we would have supplied them ourselves. There is nothing wrong with making a picture. The distinction concerns the job we are asking that picture to do: decorate an example, or support a claim about an earlier event.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Creating and recalling",
+    "sub": "Different jobs"
+   }
+  },
+  {
+   "say": "The authors called their proposed explanation the distinctiveness heuristic: expecting detailed recollection could change what evidence participants required before accepting an item as previously encountered.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "The proposed explanation",
+    "where": "Distinctiveness heuristic",
+    "what": "Requiring detailed recollection before accepting an item"
+   }
+  },
+  {
+   "say": "For an analogy, picture a small checkpoint with a comfortable chair. Familiarity can arrive and take a seat, while the person at the desk asks what supports the answer. A particular detail? A general impression? Something newly created? This is an illustration of a decision, with no need to make the familiar feeling into an unwelcome visitor.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A quiet checkpoint",
+    "sub": "What supports this answer?"
+   }
+  },
+  {
+   "say": "You do not have to settle an uncertain answer just to make the example feel complete. Leaving something unresolved can be a perfectly coherent ending to a fictional scene. Here, the purpose is to understand a possible rule for answering, rather than to demonstrate that the rule always leads to the truth.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "The illustration's purpose",
+    "items": [
+     "Identify the question",
+     "Consider relevant evidence",
+     "Allow uncertainty"
+    ]
+   }
+  },
+  {
+   "say": "The phrase “that makes sense” can describe how well an idea belongs with other ideas. The phrase “that happened earlier” makes a claim about an event. Moving from the first statement to the second requires something more in our example. A smooth connection between meanings is precisely what makes the distinction worth examining.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A useful distinction",
+    "sub": "Meaning and occurrence"
+   }
+  },
+  {
+   "say": "In Experiment 1, picture study reduced false recognition of related items in both age groups. It did not eliminate those errors. That gives the question we raised earlier its answer: pictures did not make every recognition judgment accurate.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Experiment 1 result",
+    "items": [
+     "Picture study reduced related-item false recognition in both age groups",
+     "Errors were not eliminated"
+    ]
+   }
+  },
+  {
+   "say": "A headline saying that pictures make every memory reliable would reach beyond that finding. A quieter claim leaves the boundary visible. You can be interested in a reduction without turning it into a guarantee, just as you can appreciate a useful clue without expecting it to answer every possible question.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Keep the claim its proper size",
+    "sub": "Fewer errors is not perfection"
+   }
+  },
+  {
+   "say": "These questions do different work. The first asks about a comparison, the second asks whether mistakes remained, and the third asks for an explanation. Answering one does not automatically answer the others. Giving each its own space lets us follow the argument without making the conclusion larger at every step.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "Different questions",
+    "items": [
+     "Did errors decrease?",
+     "Did errors disappear?",
+     "What explains the difference?"
+    ]
+   }
+  },
+  {
+   "say": "In our garden story, rejecting the unpresented item would be correct. But we chose both the situation and its ending. That makes the story useful for showing what an explanation means, while leaving its scientific support to the research. A clear example can help you understand a possibility without establishing why an experimental result occurred.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A correct fictional answer",
+    "sub": "An example has limits"
+   }
+  },
+  {
+   "say": "That boundary is useful whenever an explanation feels especially satisfying. You may find an account easy to follow and still ask what would count against it. There is no conflict between understanding an idea and withholding a final judgment. The example helps phrase the question; a comparison must do the harder work of testing it.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "text": "An example can clarify without proving.",
+    "by": "A guide to this illustration"
+   }
+  },
+  {
+   "say": "We can also write a case in which an item really was presented, but its drawing cannot be recalled. Rejecting that item would be a mistake. This possibility belongs to our illustration too. Otherwise, the story would quietly assume that every absent recollection reveals an absent event, which is exactly the guarantee we have avoided giving it.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A different fictional ending",
+    "sub": "Missing does not mean absent"
+   }
+  },
+  {
+   "say": "You do not need to choose which fictional observer resembles you. These are examples, not assessments of your memory. Their purpose is to show why the relevance of a detail and the availability of that detail are different issues. A reason to look for something does not ensure that you will find it.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "In the invented examples",
+    "items": [
+     "An absent item rejected",
+     "A presented item missed",
+     "Neither story is a measured result"
+    ]
+   }
+  },
+  {
+   "say": "Think of placing the question on one blank card and the available evidence on another. There is no need to fill either quickly. The space between them gives us a simple way to ask whether the evidence addresses the question, rather than merely sounding relevant because it concerns the same topic.",
+   "show": {
+    "type": "photo",
+    "file": "lf14_b11_02.jpg",
+    "cap": "A place for the evidence"
+   }
+  },
+  {
+   "say": "A careful explanation can leave an honest gap. We do not need to fill it with a stronger claim simply because a complete story would feel tidier. For tonight, you can follow the distinction without applying it to any important personal memory. Understanding the example is enough; there is no private examination waiting at the end.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "No forced answer",
+    "sub": "Room for uncertainty"
+   }
+  },
+  {
+   "say": "These labels describe the pieces we have been discussing. They are not a proven treatment or a promise that sorting experiences into categories prevents mistakes. Their value here is conversational: they let us say which kind of information we mean, instead of allowing the word “picture” to cover several different things.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "A boundary for the illustration",
+    "items": [
+     "A remembered drawing",
+     "A drawing created now",
+     "A related idea"
+    ]
+   }
+  },
+  {
+   "say": "The paper's second experiment tested the proposed explanation. We can now move from understanding what that explanation means to asking how it might be challenged.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "n": 31,
+    "title": "Putting the explanation to a test"
+   }
+  },
+  {
+   "say": "A good next question gives an explanation something difficult to answer. What conditions would limit the usefulness of the expected detail? We do not need a more elaborate metaphor to approach that question. We need a comparison in which the proposed reason has a different opportunity to influence the decision.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A question worth carrying",
+    "sub": "What makes the clue useful?"
+   }
+  },
+  {
+   "say": "The opening question concerned useful clues. We have given that question a more precise shape: useful for which judgment, and under what expectation? That precision is something we can carry forward without deciding that every vivid detail is trustworthy or every missing detail is a warning.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "Carry the question forward",
+    "items": [
+     "What was presented?",
+     "What would be expected?",
+     "What does the comparison test?"
+    ]
+   }
+  },
+  {
+   "say": "Now let's follow the researchers as they put that explanation under pressure. We have finished with our illustrative objects and can return to the task itself. The next step is to examine a comparison in which the proposed expectation cannot do the same work, and ask what happens to the pattern of answers.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The next comparison",
+    "sub": "Testing the expectation"
+   }
+  }
+ ]
+}

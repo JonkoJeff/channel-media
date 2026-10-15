@@ -1,0 +1,297 @@
+{
+ "id": "lf14_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So, when an everyday detail returns, start with a question about that particular detail: what supports it? There is room between accepting everything immediately and treating every recollection as a problem that needs solving. For the next few moments, we will follow an imagined arrangement with a friend and give each piece of it the attention it deserves.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 34,
+    "title": "Giving a detail its place"
+   }
+  },
+  {
+   "say": "Imagine you are arranging a quiet afternoon with a friend. You remember agreeing to meet near the garden entrance. But now you are unsure about the covered bench. Did your friend actually mention it, or did you picture it because that seemed like a comfortable place to wait? The uncertainty concerns the bench, rather than the whole afternoon.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A small uncertainty",
+    "sub": "Where did that come from?"
+   }
+  },
+  {
+   "say": "For this imagined situation, describe those possibilities separately. You remember agreeing to meet near the garden entrance. You think the bench would make sense. You are uncertain whether it was part of the agreement. None of those sentences needs to become stronger just so the afternoon has a complete story. The arrangement already has a clear center and an unresolved edge.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Leave room for the question",
+    "items": [
+     "What I remember",
+     "What I inferred",
+     "What remains uncertain"
+    ]
+   }
+  },
+  {
+   "say": "That leaves a question worth carrying for a little while. If you pause to examine where a detail came from, are you teaching yourself to distrust everything you remember? Keep that question beside our garden example as we go. We will return to it after looking at the difference between remembering a detail and identifying its source.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Does checking mean distrust?",
+    "sub": "Hold that question gently"
+   }
+  },
+  {
+   "say": "In their review published in 1993, Marcia Johnson, Shahin Hashtroudi, and Stephen Lindsay examined judgments about where memories, knowledge, and beliefs originate. Their source-monitoring framework brings research together rather than testing an everyday checklist. It gives us a useful distinction for our example: the bench coming to mind and judging where that detail came from are related questions, but they are different questions.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "who": "Johnson, Hashtroudi, and Lindsay",
+    "where": "Psychological Bulletin, 1993",
+    "what": "A framework for judging information's origins"
+   }
+  },
+  {
+   "say": "The covered bench is the detail. Hearing your friend name it would be one possible origin; imagining a pleasant meeting place would be another. Holding the detail in mind does not, by itself, settle which description fits. In our example, the task is to keep its presence in your thoughts separate from your judgment about its place in the conversation.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Content and origin",
+    "sub": "Related questions"
+   }
+  },
+  {
+   "say": "These are practical suggestions drawn from the ideas we have explored, rather than a proven routine for preventing false memories. Use them when a particular detail deserves attention. Begin with the recollection, distinguish your interpretation, and look for relevant support. An honest uncertainty is a reasonable stopping place when the evidence does not settle the question.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "A cautious application",
+    "items": [
+     "Separate recollection from inference",
+     "Ask about origin",
+     "Check an independent record"
+    ]
+   }
+  },
+  {
+   "say": "Begin by describing the recollection without adding certainty. For this example, try saying that you remember agreeing to meet near the garden entrance, but are unsure whether the bench was mentioned. That wording does not solve the mystery. It keeps the remembered arrangement and the uncertain detail in their proper places, without presenting your inference as something your friend definitely said.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Start with your wording",
+    "sub": "Keep the uncertainty visible"
+   }
+  },
+  {
+   "say": "Another way to phrase our imagined situation is to say that you remember the place and are unsure about the detail. There is no special sentence to memorize. The useful feature is the boundary it preserves. You are allowing what feels clear to remain clear, while leaving the uncertain piece open, rather than withdrawing the entire conversation because one part is unresolved.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Example wording",
+    "items": [
+     "The entrance feels clear",
+     "The bench remains uncertain"
+    ]
+   }
+  },
+  {
+   "say": "Picture that garden scene just for a moment, as an illustration rather than a memory exercise. The bench belongs comfortably in the setting. But belonging in our example is different from having been included in the imagined conversation. The illustration supplies a setting for our question; it supplies no evidence about what the friend in that example said.",
+   "show": {
+    "type": "photo",
+    "file": "lf14_b13_01.jpg",
+    "cap": "The imagined meeting place"
+   }
+  },
+  {
+   "say": "Next, ask about the route the detail took. Do you remember hearing the bench mentioned, reading it in a message, or suggesting it yourself? Leave those as questions rather than instructions to reconstruct each possibility. If no source comes to mind, the source remains unresolved. The first answer that arrives does not have to become your final account.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Ask about the route",
+    "sub": "Heard, read, or imagined?"
+   }
+  },
+  {
+   "say": "Keep those alternatives plain. There is no need to build a vivid scene around each possibility or search for a particular feeling. For our garden example, a sufficient description is that you do not currently distinguish between something discussed and something considered privately. That statement identifies the limit of your recollection without filling the gap with another imagined exchange.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Possible origins",
+    "items": [
+     "A conversation",
+     "A written message",
+     "My own suggestion"
+    ]
+   }
+  },
+  {
+   "say": "Daniel Schacter, Lana Israel, and Carrie Racine examined false recognition in experiments published in 1999. Participants studied associated words, with pictures included under some conditions, then judged whether test words had appeared before. Their proposed account was that expecting a distinctive recollection helped participants reject similar new items when that recollection was absent. The measure concerned recognition decisions, including false acceptance of related words.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Schacter, Israel, and Racine",
+    "where": "Journal of Memory and Language, 1999",
+    "what": "Rejecting related new words without distinctive recollection"
+   }
+  },
+  {
+   "say": "For our everyday example, ask what kind of support fits the claim. If you are claiming that the bench appeared in a message, the relevant support is the message itself. A pleasant image of the bench answers a different question: what you picture now. This is a practical comparison, rather than a claim that the laboratory task reproduces arranging an afternoon.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "A question suited to the occasion",
+    "sub": "What support would fit?"
+   }
+  },
+  {
+   "say": "Do not turn that laboratory account into a rule that every genuine memory must arrive with a distinctive detail. The experiments do not establish that demand for everyday recollection. We are considering the support available for a particular claim, rather than requiring every memory to pass a test we made up. The distinction matters when the missing detail itself feels troubling.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Keep the limit in view",
+    "items": [
+     "A vivid image is not a guarantee",
+     "Missing detail is not a verdict",
+     "The situation matters"
+    ]
+   }
+  },
+  {
+   "say": "Suppose you do not bring back the exact sound of your friend's voice naming the bench. That absence does not establish that the bench was never mentioned. There is also no need to supply the missing voice in your imagination. Leave the past question open for now, and turn toward a direct way of settling where to wait.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Leave it unresolved",
+    "sub": "No scene to reconstruct"
+   }
+  },
+  {
+   "say": "That brings us to an independent record. In the garden example, imagine there is an original message confirming the meeting place. Looking at it addresses the written arrangement directly. This is our practical application, rather than an outcome tested by the studies we have discussed. We are moving from a question about recollection to a question about the available record.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "n": 35,
+    "title": "Look beyond the recollection"
+   }
+  },
+  {
+   "say": "Suppose the message confirms only the garden entrance as the meeting place. That record supports the entrance as the written arrangement. It does not establish whether the bench appeared in a separate conversation. Read it for the question it answers, and leave the other question open. There is no need to make one message account for every exchange.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Read what is actually there",
+    "sub": "Keep the claim narrow"
+   }
+  },
+  {
+   "say": "An independent record is useful here because you are consulting something other than your present recollection of the agreement. Choose the record with the question in mind. A note you wrote as a guess has a different relationship to the arrangement than the original exchange with your friend. Both are writing, but they document different things in this imagined situation.",
+   "show": {
+    "type": "photo",
+    "file": "lf14_b13_02.jpg",
+    "cap": "A place to check"
+   }
+  },
+  {
+   "say": "Even a written record deserves context. In our example, check that you have the relevant conversation and whether a later message changed the arrangement. Those are ordinary checks on the evidence in front of you. They address where you need to meet, rather than opening an investigation into every note you have ever kept.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "Questions for the record",
+    "items": [
+     "What does it actually say?",
+     "Where did it come from?",
+     "Does it address this detail?"
+    ]
+   }
+  },
+  {
+   "say": "Perhaps the message resolves the entrance but leaves the bench uncertain. The next step is practical: ask where to wait, or send a fresh suggestion. Establishing what to do next does not require a complete history of how the bench entered your thoughts. The remaining uncertainty concerns the past conversation; the new message addresses the arrangement ahead.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "An answer that remains partial",
+    "sub": "Enough for this question"
+   }
+  },
+  {
+   "say": "In this imagined exchange, ask your friend whether to use the bench by the entrance. That question leaves the past open. It neither insists that the bench was already agreed upon nor accuses anyone of forgetting. You are making the current arrangement explicit, which settles the practical question without pretending to settle the memory question.",
+   "show": {
+    "type": "list",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "title": "Example clarification",
+    "items": [
+     "Suggest the bench",
+     "Ask your friend",
+     "Confirm where to wait"
+    ]
+   }
+  },
+  {
+   "say": "Keep the effort proportionate to the decision. Leave a minor detail unresolved when it changes nothing about what you need to do. For a meeting place you need to follow, check the relevant message or ask your friend. These are everyday choices about this example; the research does not prescribe an exact amount of checking for every situation.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Match the effort to the moment",
+    "sub": "A reasonable stopping place"
+   }
+  },
+  {
+   "say": "The purpose is practical: describe the uncertainty clearly and seek support that addresses it. Sometimes that produces an answer, and sometimes the description remains that you are unsure. Neither outcome requires a fixed procedure for every recollection. In our example, the useful endpoint is knowing where to meet, with the unresolved history of the bench left honestly unresolved.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "What these suggestions offer",
+    "items": [
+     "Clearer wording",
+     "Questions about origin",
+     "A route to relevant evidence"
+    ]
+   }
+  },
+  {
+   "say": "And that answers the question we left open. Checking a particular detail does not require distrusting all memory. In our garden example, questioning the bench never required rejecting the remembered plan to meet near the garden entrance. You relied on the arrangement you remembered, identified the uncertain piece, and sought an answer suited to the decision in front of you.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Checking and trust can coexist",
+    "sub": "One detail at a time"
+   }
+  },
+  {
+   "say": "Now set aside the imagined garden and the bench, and return to the opening word list. The question there concerned a word that seemed to belong with the words you heard. Here, it concerned a bench that belonged comfortably in a meeting place. In each example, fitting the setting and having been mentioned are separate questions.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A familiar word",
+    "sub": "Returning to the first question"
+   }
+  }
+ ]
+}

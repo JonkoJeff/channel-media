@@ -1,0 +1,344 @@
+{
+ "id": "lf14_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now we can stay with the connection between the words themselves. The missing word was not tucked quietly into the presentation. Instead, the words that were there were related to something that was absent. That leaves us with a gentle puzzle: if you remember what a list was about, have you necessarily remembered what it actually contained?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "n": 4,
+    "title": "How a meaning takes shape"
+   }
+  },
+  {
+   "say": "A theme can work like a heading above a collection of words. The heading can describe the collection without being a member of it. A page might contain descriptions that suggest a garden, even though nobody has written garden anywhere.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "A theme without its name",
+    "sub": "Meaning and wording"
+   }
+  },
+  {
+   "say": "In the paper published in 1995, Henry Roediger and Kathleen McDermott used lists built around absent target words. Their materials make the distinction unusually clear. The researchers could compare what participants reported with a known list, giving them a clear record against which to check each answer.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Roediger and McDermott",
+    "where": "Rice University, published 1995",
+    "what": "Associated words with an omitted target"
+   }
+  },
+  {
+   "say": "There are different questions here. What connects these words is a question about their relationship. Which words were presented is a question about a particular experience. You can give a sensible answer to the first question without giving a correct answer to the second. Understanding the connection does not settle the record.",
+   "show": {
+    "type": "list",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "title": "Different questions",
+    "items": [
+     "What connects these words?",
+     "Which words were presented?",
+     "Are those answers identical?"
+    ]
+   }
+  },
+  {
+   "say": "Picture a small reading corner: a lamp, a cushion, an open book. You might supply cozy as a heading. That would be a reasonable interpretation. But if the task were to repeat the actual words, cozy would be an addition. A good description and a faithful quotation have different jobs.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Related is not identical",
+    "sub": "An illustration"
+   }
+  },
+  {
+   "say": "This is why the instructions matter so much when we call something a memory error. Adding a useful heading might be welcome in a summarizing task. Adding that same heading to a list of supposedly presented words would be a mistake. The word has not changed its meaning; what changed is the question being answered.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "The task sets the standard",
+    "sub": "What counts as correct?"
+   }
+  },
+  {
+   "say": "So there is no need to treat meaning as the enemy of accuracy. We simply need to keep the two standards visible. A word can fit beautifully and still be absent. Another word can sound less central to your interpretation and still belong on the actual list. Membership is not decided by how elegantly a word completes the theme.",
+   "show": {
+    "type": "list",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "title": "A useful distinction",
+    "items": [
+     "A fitting interpretation",
+     "An accurate report",
+     "Different standards"
+    ]
+   }
+  },
+  {
+   "say": "These shapes leave an inviting space in the center. You might feel that something belongs there. Yet an empty space cannot tell you whether anything ever occupied it. Something suggested by a pattern can feel right at home without having been included.",
+   "show": {
+    "type": "photo",
+    "file": "lf14_b03_01.jpg",
+    "cap": "A space that suggests a center — visual metaphor"
+   }
+  },
+  {
+   "say": "The word association can sound more mysterious than it needs to. Here, we are talking about connections among words: how one can bring another to mind. That does not require every word to mean exactly the same thing. A collection can point toward a shared idea through several kinds of relationship, extending beyond interchangeable synonyms.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "What association means here",
+    "sub": "A connection between words"
+   }
+  },
+  {
+   "say": "A room and the things inside it can be related without being synonyms. So can an activity and something used during it. Even a contrasting idea can belong in a meaningful conversation. There are several ways for words to feel connected, and sharing a definition is only one of them.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Not a row of synonyms",
+    "items": [
+     "Related meanings",
+     "Connected objects",
+     "Contrasting ideas"
+    ]
+   }
+  },
+  {
+   "say": "If a word comes to mind while you consider other words, it has become part of your current thinking. That statement alone says nothing about whether you heard it earlier. We should resist quietly exchanging those descriptions. Came to mind and came from the presentation might feel close in an explanation, but they make different claims.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A direction of thought",
+    "sub": "Not proof of hearing"
+   }
+  },
+  {
+   "say": "Suggested does not mean presented. Keep that little sentence nearby as we explore the researchers' interpretation. It does not tell us to reject every word that fits a theme. It reminds us that fitting the theme, on its own, cannot establish that a word was spoken. For that, the relevant evidence is the presentation itself.",
+   "show": {
+    "type": "quote",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "text": "Suggested does not mean presented.",
+    "by": "A distinction for this discussion"
+   }
+  },
+  {
+   "say": "Now we can separate the observation from the explanation. The observation concerns the answers people gave on the memory tasks. An explanation proposes how those answers came about. Those belong together in a scientific discussion, but they should not be folded into a single sentence that makes a proposed process sound directly observed.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "n": 5,
+    "title": "What the result can tell us"
+   }
+  },
+  {
+   "say": "For a concrete anchor, Experiment 1 used lists containing 12 presented words. The central associate was omitted. That is a feature of the materials, not a theory of the mind. We can describe the list's construction with confidence while remaining more cautious about the mental route from hearing its members to reporting an absent associate.",
+   "show": {
+    "type": "stat",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Experiment 1",
+    "big": "12",
+    "label": "Presented words per list"
+   }
+  },
+  {
+   "say": "A written response gives the researchers something they can check against the list. If an absent word appears on the page, the error is clear. What remains less clear is the route that brought it there. The answer shows what someone reported, while leaving questions about how it came to feel familiar.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "The answer is observable",
+    "sub": "The route needs explanation"
+   }
+  },
+  {
+   "say": "Those levels sit beside each other: the material supplied by the experimenter, the response supplied by the participant, and the account supplied by the researcher. The last level aims to explain the relationship between the others. Calling it an explanation does not diminish it; it tells us what kind of claim we are considering.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "Keep the levels separate",
+    "items": [
+     "The words presented",
+     "The response recorded",
+     "The explanation proposed"
+    ]
+   }
+  },
+  {
+   "say": "Roediger and McDermott discussed an associative account in which related words could activate the absent associate. In ordinary language, hearing the surrounding words might make the missing word more available. That is a proposed explanation for the pattern of responses. It is not a direct measurement of a word lighting up inside someone's mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A proposed account",
+    "sub": "Associative activation"
+   }
+  },
+  {
+   "say": "One idea can seem to lead toward another, like a path approaching a familiar destination. Several related words might bring the same missing word to mind. By the time you reach it, that destination may feel closely connected to everything you heard. The remaining question is how that connection becomes a report about the past.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "Paths between ideas",
+    "sub": "A visual metaphor"
+   }
+  },
+  {
+   "say": "There are still questions inside that picture. When did the absent word become relevant to the response? Was it consciously considered while listening, or did it become a candidate later? How did it come to be accepted? We should leave those as questions wherever the reported observation does not, by itself, choose an answer.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What remains open",
+    "items": [
+     "When did the word arise?",
+     "Was it consciously considered?",
+     "How was it accepted?"
+    ]
+   }
+  },
+  {
+   "say": "In Experiment 1, participants recalled the presented words at an average rate of 65 percent. They also recalled the omitted target on 40 percent of the lists. One measure concerns words that were heard; the other concerns a word that was absent. Both came from the same immediate recall task.",
+   "show": {
+    "type": "bars",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Experiment 1 immediate recall",
+    "unit": "Percent",
+    "bars": [
+     [
+      "Presented words recalled",
+      65.0
+     ],
+     [
+      "Omitted target recalled",
+      40.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "That last distinction is easy to pass over. A presented word belongs somewhere in the sequence, whether or not a participant can recover its place. An omitted word does not acquire a place simply because it fits the subject. We cannot repair that difference by imagining where the word would have sounded most natural.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "No place in the sequence",
+    "sub": "A crucial difference"
+   }
+  },
+  {
+   "say": "So we can return to our earlier question. Does remembering meaning guarantee remembering exact wording? No. The list design makes the reason clear: its members can be related to a target that is not included. Identifying that relationship and identifying the presented words are therefore different achievements, even when they overlap in a person's answer.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 6,
+    "title": "Does meaning preserve the wording?"
+   }
+  },
+  {
+   "say": "A drawer contains envelopes, stamps, and blank cards. Correspondence might be a useful label for it. But the label would not become another object inside the drawer. In the same way, a theme can organize your interpretation without becoming another item in the original material.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A heading is not an inventory",
+    "sub": "Another illustration"
+   }
+  },
+  {
+   "say": "Neither job needs to be dismissed. A summary aims to capture a connection; a detailed report aims to preserve particular content. Trouble enters our explanation when we use success at one job as proof of success at the other. We can appreciate an interpretation while still asking whether each reported word belongs to the presentation.",
+   "show": {
+    "type": "list",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "title": "Two useful jobs",
+    "items": [
+     "Summarize the connection",
+     "Preserve the details",
+     "Say which job you are doing"
+    ]
+   }
+  },
+  {
+   "say": "The separate card can stand for an interpretation sitting beside the original collection. You can place them close together without giving them the same history. There is room for both the content that was supplied and the meaning you draw from it. Keeping them distinct lets you appreciate the connection while preserving the details.",
+   "show": {
+    "type": "photo",
+    "file": "lf14_b03_02.jpg",
+    "cap": "Beside the collection — visual analogy"
+   }
+  },
+  {
+   "say": "The careful conclusion stays close to the experiment. These associated word lists allowed researchers to study reports of omitted words under controlled conditions. That does not turn every meaningful connection into an error, or every remembered conversation into a disguised word-list task. We can take the finding seriously without stretching it into an explanation of everything.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "A narrow conclusion",
+    "sub": "Stay with the task"
+   }
+  },
+  {
+   "say": "A plausible answer still needs the right question. If the question is what the words suggest, a central theme may be entirely appropriate. If the question is what was heard, suggestion is insufficient. The answer can be fluent, coherent, and relevant while still failing to establish that particular piece of history.",
+   "show": {
+    "type": "quote",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "text": "A plausible answer still needs the right question.",
+    "by": "A takeaway from the list design"
+   }
+  },
+  {
+   "say": "There is another question waiting just beyond that distinction. Suppose someone accepts a word as having occurred. What is that acceptance like for them? We have been considering how a word relates to the list. Now we need to consider the person's reported experience of remembering it, leaving room for their answer.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "From connection to experience",
+    "sub": "What did it feel like?"
+   }
+  },
+  {
+   "say": "Does it fit, was it presented, and what do I remember about hearing it are related questions, but they are not interchangeable. The first concerns a connection, the next concerns the record, and the last asks about experience. Keeping them separate gives us a clearer way to approach what the researchers asked participants afterward.",
+   "show": {
+    "type": "list",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "title": "Related questions, separate answers",
+    "items": [
+     "Does it fit?",
+     "Was it presented?",
+     "What do I remember about hearing it?"
+    ]
+   }
+  },
+  {
+   "say": "A word that seems to belong is one starting point. Reporting a recollection of its presentation is another. To explore that difference carefully, we need to look at the test instructions and the response categories. A yes can leave much about the experience unanswered. That brings us to the distinction between familiarity and recollection.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Familiarity and recollection",
+    "sub": "A closer question"
+   }
+  }
+ ]
+}

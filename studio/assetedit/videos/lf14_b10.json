@@ -1,0 +1,324 @@
+{
+ "id": "lf14_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "That leaves a quieter question beneath the matching answers: how did another person's detail become something a witness reported? The answer matters because the same outward response could come from different experiences inside. You might accept someone's account, feel pulled toward agreement, or lose track of where a detail first reached you.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 25,
+    "title": "How agreement happens"
+   }
+  },
+  {
+   "say": "Imagine telling a friend about a walk you took together. Your friend mentions a blue gate near the corner. You cannot clearly picture it, but you include it when describing the walk later. This is an invented example, and we will keep returning to it, because that small addition leaves an important question unanswered.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The same answer",
+    "sub": "Different possible routes"
+   }
+  },
+  {
+   "say": "Perhaps you think your friend saw the gate more clearly. Perhaps disagreeing feels uncomfortable. Or perhaps you now picture the gate without remembering that your friend supplied it. Those possibilities lead to similar words in your account, but they make different claims about your experience. Before we move on, we will separate what matching accounts establish from what they leave open.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What might have happened?",
+    "items": [
+     "Accepting another person's information",
+     "Wanting to agree",
+     "Confusing where a detail came from"
+    ]
+   }
+  },
+  {
+   "say": "In their paper published in 2003, Fiona Gabbert, Amina Memon, and Kevin Allan considered both social and memory-based explanations for the reports they observed. Their discussion offers possible mechanisms, rather than a final diagnosis of each participant. That distinction gives us a careful way to explore the result without pretending to see inside somebody else's recollection.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Gabbert, Memon, and Allan",
+    "where": "University of Aberdeen",
+    "what": "Published in 2003"
+   }
+  },
+  {
+   "say": "Start with accepting another person's information. With the blue gate, you might reason that your friend had a better view. You are uncertain, they sound sure, and you want your account to be accurate. You could decide to include their detail while still knowing perfectly well that it came from them.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "Accepting information",
+    "sub": "Trying to get it right"
+   }
+  },
+  {
+   "say": "Try those sentences gently in your mind. I remember seeing the gate. I believe you when you say there was a gate. I am unsure whether there was a gate. Each sentence can concern the same object, yet each tells the listener something different about the basis of your answer. The wording carries information about your relationship to the detail.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "A useful distinction",
+    "items": [
+     "I remember seeing it",
+     "I believe your account",
+     "I am unsure"
+    ]
+   }
+  },
+  {
+   "say": "Picture yourself talking across this table. Your friend has finished speaking, and you are deciding what you can honestly say. You might answer, I did not see the gate myself, but you mentioned it. In that version, accepting information and identifying its source fit comfortably together. Nothing here requires you to experience a new visual memory.",
+   "show": {
+    "type": "photo",
+    "file": "lf14_b10_01.jpg",
+    "cap": "A quiet conversation"
+   }
+  },
+  {
+   "say": "Gabbert and colleagues discuss the term informational influence for a social influence connected with wanting to be accurate. Your friend's account becomes evidence you use. The question is then whether your later report makes clear that you are relying on somebody else's observation. An answer can conceal that distinction even when a speaker could explain it if asked.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Informational influence",
+    "sub": "Another person as evidence"
+   }
+  },
+  {
+   "say": "Now change the conversation slightly. Suppose you privately doubt the gate was blue, but your friend keeps returning to that description. You would rather let the conversation move on. You say, yes, blue sounds right. Here, the reason for agreeing could concern the interaction itself, rather than a judgment that your friend remembers better.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 26,
+    "title": "The pull toward agreement"
+   }
+  },
+  {
+   "say": "The researchers describe normative influence in terms of a person's need for social approval. Wanting to avoid disagreement illustrates that possibility; it does not tell us what the study's participants felt. You can use the conversation to understand a mechanism while keeping a separate question open: did that mechanism actually produce a particular response?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Social approval",
+    "sub": "A possible explanation"
+   }
+  },
+  {
+   "say": "You can hear how much disappears when all those possibilities become a simple yes. A listener receives agreement, but the reason behind it stays hidden. You might be convinced, accommodating, or recollecting. The spoken answer alone would not let the listener confidently choose among those explanations.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "title": "Similar words, different meanings",
+    "items": [
+     "I think you are correct",
+     "I would rather agree",
+     "I remember it that way"
+    ]
+   }
+  },
+  {
+   "say": "There is a relevant detail in Gabbert and colleagues' interpretation: participants completed the final recall test individually and privately. The authors therefore considered informational influence a more likely explanation than normative influence in this study. They presented that as a hypothesis needing further research, rather than a demonstrated explanation for every borrowed detail.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The setting matters",
+    "sub": "Private and individual"
+   }
+  },
+  {
+   "say": "In Gabbert and colleagues' study, 71% of witnesses who discussed the event later reported at least one detail acquired during that discussion. That gives you a concrete result to keep separate from its explanation. The reports showed information passing between witnesses, but the percentage alone cannot tell you which internal process produced each response.",
+   "show": {
+    "type": "stat",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "After discussing the event",
+    "big": "71%",
+    "label": "Reported at least one detail acquired in discussion"
+   }
+  },
+  {
+   "say": "There is another route to consider, and it brings us back to the origin of information. Return to the blue gate. Suppose that, when telling the story later, you no longer know whether you saw it or heard about it. Your uncertainty now concerns the source of the detail, rather than whether to trust your friend.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "n": 27,
+    "title": "When the source becomes unclear"
+   }
+  },
+  {
+   "say": "In this version, asking whether you believe there was a gate would not resolve everything. You might believe it strongly and still be unable to identify how you learned about it. The question would need to become more specific: what supports the feeling that you personally saw it during the walk?",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Where did that detail begin?",
+    "sub": "Belief and source"
+   }
+  },
+  {
+   "say": "These questions help you explore the situation; they are not a tested checklist. They help you notice what a broad answer leaves unsaid. Saying that a detail seems right does not specify whether you observed it, accepted it from another person, or cannot now distinguish those possibilities. Each answer would invite a different interpretation.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Keep the questions separate",
+    "items": [
+     "Does the detail seem right?",
+     "Where did I encounter it?",
+     "What am I claiming to remember?"
+    ]
+   }
+  },
+  {
+   "say": "This is the central caution for the study. Researchers can identify an erroneous report relative to the version a participant watched. Establishing the particular internal process behind that report requires further evidence. Calling every such response a fully experienced false recollection would go beyond what the response itself establishes.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A report is observable",
+    "sub": "Its origin needs investigation"
+   }
+  },
+  {
+   "say": "Suppose you and your friend each write down the gate description after your conversation. The sheets are physically separate, but that alone would not make the information independent. Your friend could have supplied the detail that both sheets now contain. The important connection would run through the conversation, even though nobody copied from the other person's page.",
+   "show": {
+    "type": "photo",
+    "file": "lf14_b10_02.jpg",
+    "cap": "Tracing the connection"
+   }
+  },
+  {
+   "say": "Here we can answer the question we left open. Matching accounts do not necessarily provide independent confirmation. The shared description could trace back to your friend's observation alone. Your agreement would then add another report of that information, without adding another direct view of the gate.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Matching accounts",
+    "sub": "Ask how they developed"
+   }
+  },
+  {
+   "say": "Notice that we still cannot decide whether the gate was blue. Your friend might be completely right. The point of tracing the connection is to understand what the agreement supports. It would be reasonable to distinguish your friend's observation from your later repetition, even if both sentences happen to describe the world accurately.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "title": "What agreement leaves open",
+    "items": [
+     "Separate observations",
+     "Shared information",
+     "An unclear origin"
+    ]
+   }
+  },
+  {
+   "say": "You could repeat the detail with every intention of being helpful and accurate. That would tell us something about your intention, while leaving the source question unresolved. To evaluate the account, a listener would still need to know whether you were describing your view or relying on your friend's.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Agreement can be sincere",
+    "sub": "Independence is a separate question"
+   }
+  },
+  {
+   "say": "Suppose someone asks you to explain the gate detail more carefully. You might say, now that you ask, I remember my friend mentioning it. Or you might remain uncertain. Those hypothetical replies would offer different evidence about the source question. Neither reply is something we should assume merely because your first account matched your friend's.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 28,
+    "title": "A closer look at the answer"
+   }
+  },
+  {
+   "say": "Gabbert and colleagues suggested that specific source-monitoring instructions could help investigate how information from a partner affected later reports. Their proposal points toward asking about origins more directly. It also reminds us that a study can reveal an important effect while leaving the explanation open enough to guide another experiment.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "What further questions could reveal",
+    "sub": "Possibilities, not guarantees"
+   }
+  },
+  {
+   "say": "There is a gentle discipline in moving through those questions in order. First describe the response. Then consider explanations. Then ask what evidence could separate them. If we skip the last question, an appealing explanation can begin to sound established simply because we have repeated it clearly. Keeping that last question open gives us somewhere useful to go next.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Read the finding carefully",
+    "items": [
+     "What was reported?",
+     "What could explain it?",
+     "What would distinguish those explanations?"
+    ]
+   }
+  },
+  {
+   "say": "For the walk, the most informative description would preserve whatever you actually know about the source. Perhaps you saw the gate yourself. Perhaps your friend told you about it. Perhaps you cannot tell. You do not need to choose a dramatic interpretation when a more precise description of your uncertainty would do.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "Return to the blue gate",
+    "sub": "Keep the account precise"
+   }
+  },
+  {
+   "say": "Compare, there was a blue gate, with, my friend remembers a blue gate, and I do not remember seeing it. The second version gives a listener more of the information available to you. It allows the detail to remain in the conversation while making its basis visible. That is an illustration of careful reporting, rather than a promise of perfect accuracy.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "A small change in wording",
+    "sub": "A clearer basis"
+   }
+  },
+  {
+   "say": "Keep that distinction in mind as we move from shared accounts to recognition decisions. The research gives us a reason to examine different routes to agreement. It does not require us to assume that every conversation changes a memory, or that every shared detail has arrived through the same process.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The question beneath agreement",
+    "items": [
+     "What supports this detail?",
+     "Is that support independent?",
+     "What remains uncertain?"
+    ]
+   }
+  },
+  {
+   "say": "There is a related question waiting nearby. When something feels as though it belongs in your past, what kind of remembered evidence would you expect to accompany it? Asking about a detail's origin concerns where it came from. Asking what you would expect to recollect concerns the basis on which you decide to accept it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 29,
+    "title": "From origins to recognition"
+   }
+  },
+  {
+   "say": "Imagine being offered a familiar-sounding word and pausing before calling it something you encountered earlier. What would you look for in memory beyond that familiar feeling? One approach to reducing false recognition is the distinctiveness heuristic: looking for the detailed recollection you would expect from a studied picture before accepting an item as previously encountered. We can carry that question forward now, into experiments that examined how expecting a distinctive recollection could change a recognition decision.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "What would remembering include?",
+    "sub": "A question for the next experiment"
+   }
+  }
+ ]
+}

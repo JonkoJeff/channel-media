@@ -1,0 +1,366 @@
+{
+ "id": "lf14_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "That question becomes especially interesting when the information began inside your own imagination. Someone mentions a childhood afternoon, and you can picture a room, a window, perhaps a familiar stretch of carpet. A little scene is available to think about. But what, exactly, would make that scene evidence about your past?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A scene made inside",
+    "sub": "Where did it begin?"
+   }
+  },
+  {
+   "say": "You might be able to picture an event without believing it happened. You might believe something happened without being able to picture it. And you might describe the feeling of remembering an experience. Keep those questions gently apart for a moment, because the experiment ahead asks about one of them much more directly than the others.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "Three different questions",
+    "items": [
+     "Can I picture it?",
+     "Do I believe it happened?",
+     "Do I remember experiencing it?"
+    ]
+   }
+  },
+  {
+   "say": "In a paper published in 1996, Maryanne Garry and colleagues studied imagination and confidence about childhood events. Thirty-eight participants completed all phases of the study. Its central question was whether imagining an event could increase confidence that it had happened. Before we follow the procedure, leave a small question open: would increased confidence establish that someone had acquired a detailed memory?",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Garry, Manning, Loftus, and Sherman",
+    "where": "University of Washington participants",
+    "what": "Childhood-event confidence, published in 1996"
+   }
+  },
+  {
+   "say": "There is a difference between asking someone to tell a story and asking them to make a judgment. A story invites a sequence: this happened, then that happened, and here is what the room looked like. A judgment can be much smaller. It can be a quiet decision about how certain an answer feels.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Before the picture",
+    "sub": "Start with the question"
+   }
+  },
+  {
+   "say": "Participants first rated 40 possible events, considering whether each event, or something very similar, had happened before age 10. The scale ran from 1, definitely did not happen, to 8, definitely did happen. The scale gave them somewhere to put an answer. It did not ask them to write an entire childhood scene.",
+   "show": {
+    "type": "stat",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The initial inventory",
+    "big": "40",
+    "label": "possible childhood events"
+   }
+  },
+  {
+   "say": "Between the ends of that scale, there is room for hesitation. In ordinary language, you might say that something seems unlikely, that you are unsure, or that you think it probably happened. Those are different positions to take toward a possibility. None of those sentences, by itself, describes what it feels like to relive an afternoon.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "A position on a scale",
+    "sub": "Room for uncertainty"
+   }
+  },
+  {
+   "say": "A rating is useful because it asks a focused question. But that also limits what the answer can tell us. If I tell you how confident I am, I have not yet told you what information I used. You would need another question to learn whether I was picturing something, recalling something, or making a guess.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "What the mark cannot show alone",
+    "items": [
+     "A scene's details",
+     "The source of those details",
+     "Whether the event occurred"
+    ]
+   }
+  },
+  {
+   "say": "A notebook might hold a simple mark beside a question. The mark is small, but the distinction it represents is worth keeping. You can write, “I think so,” without writing a scene. You can write, “Probably not,” without being able to inspect every afternoon you lived through. A judgment leaves many details unstated.",
+   "show": {
+    "type": "photo",
+    "file": "lf14_b06_01.jpg",
+    "cap": "A judgment, before a story"
+   }
+  },
+  {
+   "say": "The next step gave selected possibilities something more to work with. Not a photograph from a family album, and not a witness arriving with a verified account. The task involved imagination. We can follow those instructions gently, while remembering that a scene someone is asked to create is not automatically a record of their past.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "n": 13,
+    "title": "Giving a possibility a setting"
+   }
+  },
+  {
+   "say": "Two weeks later, participants imagined four selected events. The experimenter supplied a setting, paused for imagination, and later added the action. Participants answered questions about their images along the way. Notice the direction of the task. An instruction can invite you to make a scene without first establishing that the scene belongs to your history.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "who": "The imagination session",
+    "where": "Two weeks after initial ratings",
+    "what": "Four selected events imagined"
+   }
+  },
+  {
+   "say": "For a harmless comparison, we can use a blue envelope resting on a kitchen chair. You could choose the shade of blue, the shape of the chair, and the light in the room. This is simply an illustration, not an exercise from the paper. Its purpose is to make the difference between supplying detail and supplying evidence easy to see.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Making a scene",
+    "sub": "Description becomes a possibility"
+   }
+  },
+  {
+   "say": "If you gave that envelope a folded corner, the corner would belong to the scene you made. It would not become a discovered fact merely because you could describe it. You might make the illustration wonderfully specific. Those extra details would tell us more about your imagined scene. They would not show that it actually happened.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Details supplied by imagination",
+    "items": [
+     "A possible place",
+     "A possible object",
+     "A possible sequence"
+    ]
+   }
+  },
+  {
+   "say": "Now I could ask what you might do after seeing the envelope. You could decide to pick it up, leave it alone, or move it to a table. Each answer would continue the imagined situation. None would require you to claim that you had once stood beside that particular chair and made that particular choice.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "An imagined answer",
+    "sub": "A different kind of information"
+   }
+  },
+  {
+   "say": "That is the little hinge in this story. A description can become richer while its status remains unchanged. You can have more to say about a possibility without having more independent evidence that it happened. Keep the word independent nearby. A detail made inside an exercise is not an outside check on that same exercise.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "text": "A detailed possibility is still a possibility.",
+    "by": "A distinction to keep"
+   }
+  },
+  {
+   "say": "Nobody needs to be careless or trying to deceive anybody for this distinction to matter. Consider what it means simply to cooperate with an imagination task. If you are asked to supply a setting, you supply a setting. If you are asked what might happen next, you offer a possibility. You are doing the requested mental work.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "Following the instruction",
+    "sub": "No accusation required"
+   }
+  },
+  {
+   "say": "The interesting question is what happens when the task changes. While making the image, you are working with an invitation to imagine. When judging your past, you are answering a different question. The scene might still be available to consider, but now you are being asked what happened, rather than what you can picture.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "Keep the steps separate",
+    "items": [
+     "Read a possibility",
+     "Construct an image",
+     "Judge whether it happened"
+    ]
+   }
+  },
+  {
+   "say": "After the imagination exercises, participants completed the inventory again. The researchers could then examine changes in ratings. The return to the questionnaire brought the experiment back to its original question. It was no longer asking for another detail in a scene. It was asking for another judgment about whether an event had occurred.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 14,
+    "title": "Returning to the question"
+   }
+  },
+  {
+   "say": "For an everyday example, someone might first say an event seems very unlikely and later say it seems a little less unlikely. Something about the answer has moved. Yet the later answer still might express doubt. The direction of a change and the final position of an answer are different things to read.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "What changed?",
+    "sub": "Read the answer carefully"
+   }
+  },
+  {
+   "say": "You can hear the difference without any technical language. “I am less doubtful than before” is not the same sentence as “I know this happened.” And neither sentence automatically means, “I can remember being there.” Those phrases sound close, but they tell us different things. Keeping the wording simple helps us keep the meaning clear.",
+   "show": {
+    "type": "quote",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "text": "More confident does not necessarily mean certain.",
+    "by": "Reading a change"
+   }
+  },
+  {
+   "say": "The authors reported imagination inflation: imagining initially unlikely events increased confidence that they had occurred. That is the finding to hold onto. It concerns a judgment about the past. To say someone had gained a detailed recollection, we would also need to ask about their experience of remembering. The confidence rating alone does not settle that question.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "The reported finding",
+    "where": "Initially unlikely events",
+    "what": "Greater confidence after imagination"
+   }
+  },
+  {
+   "say": "We can now answer the question we left waiting. A higher confidence rating does not, by itself, establish a newly formed detailed recollection. A message saying, “I think that probably happened,” would still leave reasonable questions. Does the person remember a scene? Are they reasoning from something else? What supports their answer?",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "The open question",
+    "sub": "What would count as remembering?"
+   }
+  },
+  {
+   "say": "Those questions do not make the rating worthless. They help us understand what it tells us. A measure can reveal something important without answering everything we might want to know. Here, we can stay close to the question participants answered. We do not need a more dramatic description for the result to be interesting.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "What this measure addresses",
+    "items": [
+     "Confidence that an event occurred",
+     "Change between ratings",
+     "A judgment about personal history"
+    ]
+   }
+  },
+  {
+   "say": "An empty frame beside a notebook offers a quiet comparison. The frame gives you a place where a picture could go. The notebook gives you a place where a judgment could be written. They are different containers. In the same way, an answer about whether something happened does not automatically contain a report of reliving it.",
+   "show": {
+    "type": "photo",
+    "file": "lf14_b06_02.jpg",
+    "cap": "An outline is not a complete scene"
+   }
+  },
+  {
+   "say": "You might be tempted to shorten the whole result to, “They imagined something and remembered it.” That sentence is easy to repeat, but it skips the very distinction the procedure asks us to notice. A more careful description keeps the rating in view. The claim becomes less dramatic and more useful because its meaning stays clear.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Two ways to describe an answer",
+    "sub": "Keep the wording modest"
+   }
+  },
+  {
+   "say": "That is a question you can bring to a story about psychology without turning the evening into an examination. When you hear that something increased, ask what increased. A rating? A reported feeling? The number of details in an account? You do not need to answer every possible question at once to notice the difference.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "text": "Ask what the answer actually measures.",
+    "by": "A useful reading habit"
+   }
+  },
+  {
+   "say": "There is also a difference between recording a person's judgment and checking the event against an independent record. Someone might tell you they probably visited a particular garden as a child. Their answer gives you their present view. A dated photograph or another independent record would offer a different kind of evidence about that visit.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Stay with the evidence",
+    "sub": "Leave room around the result"
+   }
+  },
+  {
+   "say": "These questions can sit beside each other without being forced into a single answer. You could believe a childhood visit happened because a record supports it, yet have no scene to describe. You could construct a lovely garden scene while making no claim that it was yours. These examples show why the categories deserve separate names.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Different questions need different evidence",
+    "items": [
+     "What do you believe?",
+     "What do you experience?",
+     "What can be independently checked?"
+    ]
+   }
+  },
+  {
+   "say": "Return to the imagined envelope for a moment. You know why it appeared in our conversation: it was offered as an illustration. That origin matters more than how clearly you pictured its corner. The illustration gives us a quiet way to keep content and source together, without asking you to search for an uncertain childhood event.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A scene and its status",
+    "sub": "Hold both gently"
+   }
+  },
+  {
+   "say": "So we can take the reported change seriously while staying precise about its meaning. There is no need to turn a confidence result into a complete account of someone's inner experience. Nor do we need to dismiss it because it leaves questions open. Knowing that boundary helps us see what to ask next.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The boundary of the finding",
+    "items": [
+     "A change in confidence",
+     "No automatic proof of detailed recollection",
+     "Further questions remain"
+    ]
+   }
+  },
+  {
+   "say": "Each participant imagined four target events, while four other target events were not imagined. That gave the researchers a comparison within the same person. These bars show the task's design, not how many memories changed. Before looking at the outcome, it helps to know what was being compared. Both sets of events received another rating.",
+   "show": {
+    "type": "bars",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "title": "The comparison within each participant",
+    "unit": "target events",
+    "bars": [
+     [
+      "Imagined",
+      4.0
+     ],
+     [
+      "Not imagined",
+      4.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "That comparison matters because a later answer can differ from an earlier one even without an imagination exercise. A simple before-and-after story leaves that possibility open. Looking at the events that were not imagined helps us ask a narrower question: what difference was associated with imagining, beyond whatever happened when people answered the inventory again?",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Look beside the result",
+    "sub": "What is the comparison?"
+   }
+  },
+  {
+   "say": "And that brings us to the distinction waiting just beneath the result. Believing an event happened, picturing a possible scene, and experiencing a recollection are different claims. To understand what this experiment can tell us about their relationship, we need to place its comparison beside its finding and look carefully at the space between them.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "n": 15,
+    "title": "Believing, picturing, remembering"
+   }
+  }
+ ]
+}

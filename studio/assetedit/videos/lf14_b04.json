@@ -1,0 +1,330 @@
+{
+ "id": "lf14_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now the question becomes a little more personal. A word can fit the meaning of a list beautifully, but what does that fit feel like when you meet it again? You pause over a word on a test sheet that seems entirely at home. Are you recognizing something you heard, or recognizing something that belongs?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 7,
+    "title": "The feeling of remembering"
+   }
+  },
+  {
+   "say": "Picture a hypothetical afternoon conversation about a garden. Someone mentions soil, seedlings, watering, and a sunny windowsill. Later, you encounter the word flower and think, yes, that sounds right. Leave aside whether flower was actually spoken for a moment. Notice how different that question is from whether the conversation made you think about flowers.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A familiar arrival",
+    "sub": "Did you hear it?"
+   }
+  },
+  {
+   "say": "Those questions give us a useful way into the next test. Does this word fit the subject? Was this word actually presented? And what experience accompanies my answer? You could agree with the first question while remaining uncertain about the others. A sensible connection between ideas is not, by itself, a record of what somebody said.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Different questions",
+    "items": [
+     "Does it fit?",
+     "Was it presented?",
+     "What do I remember?"
+    ]
+   }
+  },
+  {
+   "say": "In their paper published in 1995, Henry Roediger and Kathleen McDermott examined both recognition decisions and the experiences accompanying them. Before looking at the findings, we need to understand what the responses meant. Otherwise, it would be easy to hear the word recognized and imagine that every participant was describing the same kind of experience.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Roediger and McDermott",
+    "where": "Rice University",
+    "what": "Recognition tests, published 1995"
+   }
+  },
+  {
+   "say": "Think of the instructions as the legend beside a map. Without that legend, a mark on the page can look more informative than it really is. An answer can express a decision, a degree of certainty, or a description of an experience. Those are related questions, so let's keep their meanings beside us as we go.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Read the instructions first",
+    "sub": "What counts as an answer?"
+   }
+  },
+  {
+   "say": "The first experiment used a four-point confidence scale. A rating of one meant sure the word was new; two meant probably new; three meant probably old; and four meant sure it was old. Here, old meant presented during study. It did not mean an ordinary word, a familiar word, or a word the participant already knew.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "Experiment 1 confidence scale",
+    "items": [
+     "1: sure new",
+     "2: probably new",
+     "3: probably old",
+     "4: sure old"
+    ]
+   }
+  },
+  {
+   "say": "That little definition matters. Take the word window. You have probably encountered it before this evening, but that would not answer a question about whether it appeared in a particular list. The test concerns a specific encounter. The everyday familiarity of the word and its membership in that earlier presentation are different things.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Old means presented",
+    "sub": "Not simply familiar"
+   }
+  },
+  {
+   "say": "Counting probably old and sure old together, participants accepted presented words 86 percent of the time. They accepted the critical absent words 84 percent of the time, compared with 2 percent for unrelated absent words. These are response rates for categories of test items, not percentages of people whose memories were wholly accurate or wholly mistaken.",
+   "show": {
+    "type": "bars",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Experiment 1: judged old",
+    "unit": "percent",
+    "bars": [
+     [
+      "Presented words",
+      86.0
+     ],
+     [
+      "Critical absent words",
+      84.0
+     ],
+     [
+      "Unrelated absent words",
+      2.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Let those categories remain separate. The critical absent words were the deliberately selected associates around which the lists were built. An unrelated absent word supplied a different comparison. If we compressed both into the phrase new words, we would lose the feature that makes this result interesting: different kinds of absent items received very different treatment.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Keep the comparison",
+    "sub": "The kind of word matters"
+   }
+  },
+  {
+   "say": "Even restricting the answer to sure old, the rate for critical absent words was 58 percent. That finding answers a narrow question: an incorrect recognition decision in this task did not have to be hesitant. It does not give us permission to take any confident statement in everyday life and declare it mistaken.",
+   "show": {
+    "type": "stat",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "title": "Experiment 1: critical absent words",
+    "big": "58%",
+    "label": "Rated sure old"
+   }
+  },
+  {
+   "say": "There is a large difference between saying that certainty can accompany an error and saying that certainty tells us nothing. You might confidently identify the correct cup on a shelf. A different person's confident mistake would not erase that success. What it would challenge is a rule claiming that confidence makes an error impossible.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Certainty is not a guarantee",
+    "sub": "A narrower lesson"
+   }
+  },
+  {
+   "say": "For our purposes, the gentlest reading is also the most precise. You can let an answer feel convincing while leaving room to check it. Your confident answers can still be correct. The task is to understand the particular judgment, rather than assign a permanent label to the person making it.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Keep the claim small",
+    "items": [
+     "Confidence can accompany an error",
+     "An error does not invalidate every memory",
+     "Check the particular claim"
+    ]
+   }
+  },
+  {
+   "say": "Set the test sheet down beside a cup and try a slightly different question. Instead of how certain are you, ask what is the experience like? Is there a particular moment you seem able to revisit? Or does the word simply arrive with a settled feeling that it was there, without a moment attached? You can linger with that distinction without having to choose an answer for yourself tonight.",
+   "show": {
+    "type": "photo",
+    "file": "lf14_b04_01.jpg",
+    "cap": "A pause before the next question"
+   }
+  },
+  {
+   "say": "That distinction takes us into the second experiment. Its recognition task first asked for an old or new decision. When participants chose old, they then classified their experience as remember or know. We need to keep those labels in their experimental sense, rather than hear them as a contrast between being certain and merely guessing.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "n": 8,
+    "title": "Remembering and knowing"
+   }
+  },
+  {
+   "say": "A remember response meant a recollective experience of the presentation. A know response meant confidence that the word had occurred without that experience of recollection. So know was not simply the weak answer. Both labels followed an old decision, and the additional response described how that accepted word seemed available to memory.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Experiment 2 response sequence",
+    "items": [
+     "Old or new?",
+     "If old: remember or know?"
+    ]
+   }
+  },
+  {
+   "say": "A familiar gathering offers a way to hold the distinction. You might feel certain that a neighbor attended without bringing a particular encounter to mind. Alternatively, you might seem to revisit greeting them near the doorway. These invented examples illustrate the questions; they are not additional findings from the word-list experiment. The contrast is between having an apparent moment to return to and feeling sure without that moment.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A distinction in experience",
+    "sub": "Not a certainty ladder"
+   }
+  },
+  {
+   "say": "The study's instructions offered examples of recollection, including something about the speaker's voice, nearby words, or a thought during presentation. Each example pointed toward the experience of the earlier presentation. The question was whether the participant seemed able to recollect hearing the word on the recording, rather than simply finding the word familiar.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "Examples in the instructions",
+    "items": [
+     "The speaker's voice",
+     "Nearby words",
+     "Thoughts during presentation"
+    ]
+   }
+  },
+  {
+   "say": "A remember response is therefore a report about an experience. It is worth listening to carefully, while keeping another question open: does that experience match the presentation record? Think of two envelopes on a desk, one holding the person's description and one holding what was played. We can examine both without pretending that either envelope contains the other.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "What the label can tell us",
+    "sub": "A reported experience"
+   }
+  },
+  {
+   "say": "That is a useful way to read the labels. Calling an answer remember tells us how the participant classified it under the instructions. It does not independently certify that the word occurred. Equally, calling it know does not independently certify an error. Accuracy still requires comparing the answer with what was actually presented.",
+   "show": {
+    "type": "quote",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "text": "A label describes an answer; it does not certify an event.",
+    "by": "An illustrative distinction"
+   }
+  },
+  {
+   "say": "We can now return to the question waiting underneath the test. Would acceptance of a critical absent word amount only to a feeling of familiarity? Or could it also receive the label intended for recollection? The distinction matters because a bare yes on a recognition test would leave that question unanswered.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The question left open",
+    "sub": "Familiar, or remembered?"
+   }
+  },
+  {
+   "say": "In the condition where lists were followed by recall, 72 percent of the falsely recognized critical words received remember judgments. Notice the denominator: these were critical absent words already accepted as old. The percentage does not describe every test response, every participant, or every memory. It describes the classification of those particular false recognitions.",
+   "show": {
+    "type": "stat",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "Experiment 2: recalled-list condition",
+    "big": "72%",
+    "label": "Of falsely recognized critical words received remember judgments"
+   }
+  },
+  {
+   "say": "The answer is therefore more interesting than simply saying that the absent word seemed appropriate. In this task, acceptance could come with a reported experience of remembering. Yet the presentation record remained separate from that report. The word's place in the list could not be established merely by how the answer felt to the person giving it.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "The missing word can feel remembered",
+    "sub": "Within this task"
+   }
+  },
+  {
+   "say": "It helps to preserve both sides without turning either into a caricature. We do not need to describe the participant as careless, and we do not need to describe the recording as uncertain. The interesting gap is between a sincerely reported experience and a checkable presentation. That gap is exactly what makes the comparison informative.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Two things to preserve",
+    "items": [
+     "What the participant reported",
+     "What the recording contained"
+    ]
+   }
+  },
+  {
+   "say": "Return to our invented garden conversation. Suppose flower feels not only suitable but attached to an apparent moment in the conversation. Even then, asking whether the recording contains flower remains a sensible question. This example does not establish how often such an experience happens outside the laboratory. It simply makes the logical distinction easier to picture.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "An example, not another experiment",
+    "sub": "The garden conversation"
+   }
+  },
+  {
+   "say": "Let's give the result enough room to be interesting without asking it to explain every everyday recollection. A response label, by itself, does not reveal the exact cause of an individual error. A description of what someone experienced and an explanation of how it arose are different kinds of answer. You can understand the finding while leaving that next question open.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Questions the result does not settle",
+    "items": [
+     "Every everyday memory?",
+     "Every confident answer?",
+     "The exact cause of each error?"
+    ]
+   }
+  },
+  {
+   "say": "You can hold this idea without turning an ordinary conversation into an investigation. In our garden example, a misplaced word might have no practical consequence at all. The useful habit of thought is simply to avoid making the feeling do every job. It can describe your experience while leaving a factual question available for checking. There is no need to settle every passing uncertainty before letting the conversation move on.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A comfortable middle ground",
+    "sub": "Curious rather than suspicious"
+   }
+  },
+  {
+   "say": "Even a word that feels remembered still leaves us with the question of whether it was heard. That is the distinction running through these examples: feeling that it belongs is different from establishing that it was heard. This leaves plenty of room for accurate remembering. You can take the experience seriously and still ask what evidence connects it to that particular occasion.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "text": "Feeling that it belongs is different from establishing that it was heard.",
+    "by": "The distinction we are following"
+   }
+  },
+  {
+   "say": "Now the word itself can stay the same while the question around it changes. Perhaps it was spoken, perhaps you read it somewhere nearby, or perhaps you supplied it while following the subject. These are possible histories for our invented example, not conclusions from the response label. Knowing that flower came to mind would still leave its route into the conversation unresolved. So we can gently set aside the question of whether the word belongs and turn toward where it came from. The next question is how we decide which history belongs to it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "n": 9,
+    "title": "Following the origin"
+   }
+  }
+ ]
+}

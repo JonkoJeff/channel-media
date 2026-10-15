@@ -650,7 +650,8 @@ function GitPush($paths, $msg) {
   Push-Location $Repo
   try {
     foreach ($gp in $paths) { if (Test-Path (Join-Path $Repo $gp)) { & $Git add -- $gp 2>$null } }; & $Git commit -q -m $msg 2>$null | Out-Null
-    & $Git pull -q --rebase --autostash 2>$null; & $Git push -q 2>$null; $LASTEXITCODE -eq 0
+    for ($try = 0; $try -lt 3; $try++) { & $Git pull -q --rebase --autostash 2>$null | Out-Null; & $Git push -q 2>$null | Out-Null; if ($LASTEXITCODE -eq 0) { return $true }; Start-Sleep 5 }
+    $false
   } finally { Pop-Location }
 }
 function Controller {
@@ -693,12 +694,12 @@ function Tick {
       $inFlight = @(Get-ChildItem "$S\pipelines" -Filter 'rel*.json' | ForEach-Object { RJ $_.FullName } | Where-Object { $_.stage -eq 'render_requested' }).Count
       if ($inFlight -ge $c.channels.religion.max_renders_in_flight) { continue }
       $ep = $p.ep; $title = ((Get-Content (RelScript ([int]$ep)) -TotalCount 1 -Encoding utf8) -replace '^TITLE:\s*', '')
-      WJ "$F\render\$id.json" ([ordered]@{ id = $id; channel = 'religion'; ep = $ep; title = $title; requested = (Get-Date).ToString('s') })
+      if (-not (Test-Path "$F\render\$id.json")) { WJ "$F\render\$id.json" ([ordered]@{ id = $id; channel = 'religion'; ep = $ep; title = $title; requested = (Get-Date).ToString('s') }) }
       if (GitPush @("studio/channels/religion/stories/$ep.txt", "studio/factory/render/$id.json", 'studio/factory/learned_religion.md') "factory: Belief Through Time episode $ep `"$title`" ready, render requested") { $p.stage = 'render_requested'; $p.pushed = $now; WJ $pf.FullName $p; Ev @{ ev = 'render'; id = $id }; Notify 'Factory: render requested' "$id `"$title`" (Belief Through Time)" }
       continue
     }
     if ($p.stage -eq 'ready_to_render' -and $p.channel -ne 'religion' -and $c.channels.crazyfacts.push_render) {
-      $v = Plan $id; WJ "$F\render\$id.json" ([ordered]@{ id = $id; title = $v.title; parts = $v.parts; requested = (Get-Date).ToString('s') })
+      $v = Plan $id; if (-not (Test-Path "$F\render\$id.json")) { WJ "$F\render\$id.json" ([ordered]@{ id = $id; title = $v.title; parts = $v.parts; requested = (Get-Date).ToString('s') }) }
       $paths = @("studio/factory/scripts", "studio/factory/render/$id.json", "studio/assetedit/videos/$id.json", 'studio/assetedit/videos/shorts.json', 'studio/assetedit/videos/series.json', 'studio/factory/learned.md', 'studio/insights.md', 'studio/research', 'studio/factory/experiments.md')
       if (GitPush $paths "factory: $id `"$($v.title)`" written (Codex/Claude), render requested") { $p.stage = 'render_requested'; $p.pushed = $now; WJ $pf.FullName $p; Ev @{ ev = 'render'; id = $id }; Notify 'Factory: render requested' "$id `"$($v.title)`" pushed to GitHub Actions" }
       else { Write-Host 'git push failed; retry next tick' -ForegroundColor Yellow }

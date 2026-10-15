@@ -9,3 +9,11 @@
 - Our leading Shorts—dread versus pain (269 views), one word changing memory (253), blind spot (106)—offer a con
 - Shorts reach does not establish long-form conversion. [YouTube’s related-video feature]( provides a clickable 
 - INDEX.md contains no earlier findings. Direct YouTube opens were throttled: first 30 seconds, cut rhythm, visu
+
+## 2026-10-15_am
+- Recent comparison: Apex’s [“Why Can’t You Remember Falling Asleep?”]( (August 8: search-index snapshot 91,577 
+- New description pattern: Apex opens with an everyday experience, explains the mechanism, then asks a specific 
+- Long-format reference audit: Queen’s [May psychology video]( and [August psychology video]( are from **2025**,
+- Additional channel references: [@boringscience4sleep]( explicitly advertises monotonous narration, campfire am
+- New length finding from our supplied snapshot: leading Shorts span 43s, 48s and 52s; shorter examples at 35s h
+- New measurement priority: [YouTube recommends testing the first 30 seconds against retention]( Competitor play

@@ -97,7 +97,7 @@ $ins
 $recent
 
 # ACTIVE EXPERIMENTS (apply them in plans, script blocks, thumbnails, titles and Shorts hooks; max 3 run at once)
-$((Experiments | Where-Object { $_ -match '\| active \|' }) -join "`n")
+$((Experiments | Where-Object { $_ -match '\| active \|' -and $_ -notmatch '\[BTT\]' }) -join "`n")
 
 # PLANNED/USED TITLES (never repeat a topic)
 $titles
@@ -121,6 +121,11 @@ function VideoRows {
   $rows -join "`n"
 }
 $ExpFile = "$F\experiments.md"
+$StrategyChannels = @{
+  crazyfacts = @{ name = '"Brain After Dark" (calm psychology explainers, American English, chibi character; long videos of 2.5+ hours, KEEP that format; plus 4 Shorts a day)'; niche = 'psychology, brain, sleep, calm-learning'; tag = ''; index = 'studio/research/INDEX.md' }
+  religion   = @{ name = '"Belief Through Time" (calm, respectful ~1 hour documentaries on Bible, Quran and Christianity stories with public-domain art, American English; plus 4 Shorts a day). Catching up with Brain After Dark (studio/channels/religion/GAP.md)'; niche = 'religion history documentaries, Bible and Quran stories, calm history storytelling'; tag = '[BTT] '; index = 'studio/research/INDEX_btt.md' }
+}
+function RelRows { @(foreach ($d in (Get-ChildItem "$Repo\studio\renders" -Directory -Filter 'rel*')) { $r = RJ "$($d.FullName)\result.json"; if ($r) { "- $($d.Name) | scheduled $($r.scheduled) | Shorts $(@($r.shorts.Keys).Count) | $((Get-Content (RelScript ([int]($d.Name -replace '\D', ''))) -TotalCount 1 -Encoding utf8 -ErrorAction SilentlyContinue))" } }) -join "`n" }
 function Experiments { if (Test-Path $ExpFile) { @(Get-Content $ExpFile -Encoding utf8 | Where-Object { $_ -match '^- E\d+ \|' }) } else { @() } }
 
 # ---------- validators ----------
@@ -235,7 +240,11 @@ function Prompt($t) {
       $ex = (Experiments | Where-Object { $_ -match '\| active \|' }) -join "`n"; if (-not $ex) { $ex = 'none' }
       Fill 'cf_analyze' @{ videos = (VideoRows); proposals = $pr; experiments = $ex }
     }
-    'cf_strategy' { Fill 'cf_strategy' @{ date = (Ams).ToString('yyyy-MM-dd HH:mm') + ' Europe/Amsterdam'; videos = (VideoRows) } }
+    'cf_strategy' {
+      $sc = $StrategyChannels[$(if ($a.channel) { $a.channel } else { 'crazyfacts' })]
+      $rows = if ($a.channel -eq 'religion') { "(no YouTube statistics yet for this channel: its API token is missing; what we made:)`n" + (RelRows) } else { VideoRows }
+      Fill 'cf_strategy' @{ date = (Ams).ToString('yyyy-MM-dd HH:mm') + ' Europe/Amsterdam'; videos = $rows; channel = $sc.name; niche = $sc.niche; index = $sc.index }
+    }
   }
 }
 
@@ -350,22 +359,22 @@ function Accept($t, $body) {
     'cf_strategy' {
       if ($body -notmatch '(?s)INSIGHTS:\s*(.*?)\s*EXPERIMENTS:\s*(.*?)\s*RULES:\s*(.*?)\s*(PROPOSAL:|$)') { return @('missing INSIGHTS:/EXPERIMENTS:/RULES: sections') }
       $ins = $Matches[1]; $exp = $Matches[2]; $rul = $Matches[3].Trim()
-      $slot = if ($a.slot) { $a.slot } else { StrategySlot }
+      $slot = if ($a.slot) { $a.slot } else { StrategySlot }; $sc = $StrategyChannels[$(if ($a.channel) { $a.channel } else { 'crazyfacts' })]; $sfx = if ($a.channel -eq 'religion') { '_btt' } else { '' }
       # owner: ignore insights with confidence low or without a source URL
       $keep = @($ins -split "`n" | ForEach-Object { $_.Trim() } | Where-Object { $_ -match 'https?://' -and $_ -notmatch '(?i)confidence\W{0,3}low\b|[,|(]\s*low\s*\)?\s*$' })
       $newExp = @($exp -split "`n" | ForEach-Object { $_.Trim() } | Where-Object { $_ -match '^-\s*(.+?)\s*\|\s*applies to:\s*(.+?)\s*\|\s*measure:\s*(.+)$' })
       Lock {
         $rd = "$Repo\studio\research"; New-Item -ItemType Directory -Force $rd | Out-Null
-        WT "$rd\strategy_$slot.md" ("# Brain After Dark strategy run $slot`n`n" + $body.Trim() + "`n")
+        WT "$rd\strategy_$slot$sfx.md" ("# Strategy run $slot $($sc.tag)`n`n" + $body.Trim() + "`n")
         $titles = @($keep | ForEach-Object { '- ' + (($_ -replace '^-\s*', '') -replace 'https?://\S+', '' -replace '\s+', ' ').Trim(' ,|-').Substring(0, [Math]::Min(110, (($_ -replace '^-\s*', '') -replace 'https?://\S+', '' -replace '\s+', ' ').Trim(' ,|-').Length)) })
-        if (-not (Test-Path "$rd\INDEX.md")) { WT "$rd\INDEX.md" "# Strategy research index (cf_strategy runs; newest last; do not repeat these findings)`n" }
-        [IO.File]::AppendAllText("$rd\INDEX.md", "`n## $slot`n" + (($titles + '') -join "`n"), $Utf8)
+        $ix = "$Repo\$($sc.index)"; if (-not (Test-Path $ix)) { WT $ix "# Strategy research index $($sc.tag)(cf_strategy runs; newest last; do not repeat these findings)`n" }
+        [IO.File]::AppendAllText($ix, "`n## $slot`n" + (($titles + '') -join "`n"), $Utf8)
         if (-not (Test-Path $ExpFile)) { WT $ExpFile "# Experiments (from cf_strategy; max 3 active; the analyst keeps or drops them on status.json)`n# - id | status | started | change | applies to | measure`n" }
-        $all = @(Experiments); $n = $all.Count; $act = @($all | Where-Object { $_ -match '\| active \|' }).Count
+        $all = @(Experiments); $n = $all.Count; $act = @($all | Where-Object { $_ -match '\| active \|' -and (($_ -match '\[BTT\]') -eq ($a.channel -eq 'religion')) }).Count
         foreach ($x in $newExp) {
           $null = $x -match '^-\s*(.+?)\s*\|\s*applies to:\s*(.+?)\s*\|\s*measure:\s*(.+)$'; $n++
           $st = if ($act -lt 3) { 'active'; $act++ } else { 'queued' }
-          [IO.File]::AppendAllText($ExpFile, "- E$n | $st | started $(Today) | $($Matches[1]) | applies to: $($Matches[2]) | measure: $($Matches[3])`n", $Utf8)
+          [IO.File]::AppendAllText($ExpFile, "- E$n | $st | started $(Today) | $($sc.tag)$($Matches[1]) | applies to: $($Matches[2]) | measure: $($Matches[3])`n", $Utf8)
         }
         if ($rul -and $rul -notmatch '^none') { [IO.File]::AppendAllText("$S\proposals.md", (($rul -split "`n" | Where-Object { $_.Trim() } | ForEach-Object { "- $(Today) strategist ($slot): RULE $($_.Trim(' -'))" }) -join "`n") + "`n", $Utf8) }
       }
@@ -396,6 +405,9 @@ $(Section "$RelDir\stories\README.md" '## Production handoff')
 
 # LEARNED RULES
 $(Section "$F\learned_religion.md" '## Rules')
+
+# ACTIVE EXPERIMENTS FOR THIS CHANNEL (apply them; max 3)
+$((Experiments | Where-Object { $_ -match '\| active \|' -and $_ -match '\[BTT\]' }) -join "`n")
 
 # EPISODES ALREADY MADE (do not repeat their content in depth)
 $made
@@ -744,7 +756,10 @@ function Tick {
   $rs = $c.recurring.cf_strategy
   if ($rs) {
     $slot = StrategySlot; $busy = @(@(Tasks 'pending') + @(Tasks 'active') | Where-Object { $_.type -eq 'cf_strategy' }).Count
-    if (-not $busy -and -not (Test-Path "$Repo\studio\research\strategy_$slot.md") -and -not (TPath "cf_strategy-$slot")) { Ensure 'cf_strategy' $slot @{ slot = $slot } @() $null | Out-Null; Write-Host "$(Get-Date -f HH:mm:ss) strategy run $slot queued" -ForegroundColor Cyan }
+    foreach ($chn in @('crazyfacts') + $(if ($c.channels.religion.enabled) { @('religion') } else { @() })) {
+      $key = if ($chn -eq 'religion') { "$slot-btt" } else { $slot }; $sfx = if ($chn -eq 'religion') { '_btt' } else { '' }
+      if (-not $busy -and -not (Test-Path "$Repo\studio\research\strategy_$slot$sfx.md") -and -not (TPath "cf_strategy-$key")) { Ensure 'cf_strategy' $key @{ slot = $slot; channel = $chn } @() $null | Out-Null; Write-Host "$(Get-Date -f HH:mm:ss) strategy run $key queued" -ForegroundColor Cyan; $busy = 1 }
+    }
   }
   if ($now - [int]$ctl.research_pushed -gt 3600) { $ctl.research_pushed = $now; GitPush @('studio/research', 'studio/factory/experiments.md', 'studio/factory/learned.md') 'factory: strategy research and experiments' | Out-Null }
   # owner: no chat history in Codex at all. Every 5 min delete Codex sessions idle for 15+ min (running ones are kept until they finish).

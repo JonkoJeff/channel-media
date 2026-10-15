@@ -226,3 +226,7 @@ Long-video narration (longform.py voice()): 1-2 sentences per Kokoro take (<170 
 
 ## US POST TIMES (15 Oct, owner approved)
 Brain After Dark (Europe/Amsterdam): Shorts 15:00, 18:00, 21:00, 23:30 (= 9am/12pm/3pm/5:30pm ET); long video 20:00 (2pm ET). Use `reslot a=<first day> b=15:00,18:00,21:00,23:30` for Shorts and these times for new long posts. Belief Through Time 15 Oct Shorts deleted (rel01).
+
+## CAPTIONS + EDITING (15 Oct, owner: editing boring, subtitles wrong)
+- Captions: shorts.sentence_spans() measures real sentence start/end from the voice wav (the n-1 longest silences in a segment = sentence boundaries); only the words inside a sentence are estimated (length + comma weight). Old method (whole segment by letter count, x0.92) drifted by seconds. Used by longform.py and shorts.render. Captions never hang through a pause (word end +0.25 s max).
+- Editing (calm long videos): every sentence re-frames the shot (wide -> toward the text -> close on the character, zoom 1.0/1.07/1.13 + shift, plus slow push-in). Still to do: more scene variety (photo/screen cards, B-roll) per script, see GAP/STYLE.

@@ -273,17 +273,19 @@ def frame_for(seg, lt, dur, beat=0):
     if t == "char": place_sprite(img, sh["sprite"], 1420, 3.1, lt)
     elif t in ("chapter", "end"): place_sprite(img, sh["sprite"], 1560, 2.6, lt)
     else: place_sprite(img, sh["sprite"], 1620, 2.0, lt)
-    z = 1.0
-    if t == "char": z = 1.0 + (0.035 if CALM[0] else 0.025) * min(lt / max(dur, 0.1), 1) + (0 if CALM[0] else (0.07 if beat % 2 else 0))  # slow push-in keeps static shots alive
-    return finish(img, seg, lt, z)
+    z, shift = 1.0, (0, 0)
+    if t == "char" and CALM[0]:  # re-frame on every sentence (wide -> toward the text -> close on the character) so one scene never sits still
+        k = beat % 3; z = (1.0, 1.07, 1.13)[k] + 0.03 * min(lt / max(dur, 0.1), 1); shift = ((0, 0), (-170, 10), (210, 30))[k]
+    elif t == "char": z = 1.0 + 0.025 * min(lt / max(dur, 0.1), 1) + (0.07 if beat % 2 else 0)  # slow push-in keeps static shots alive
+    return finish(img, seg, lt, z, shift)
 
-def finish(img, seg, lt, z=1.0):
+def finish(img, seg, lt, z=1.0, shift=(0, 0)):
     """Motion-graphics layer on every frame: punch-in transition on each new scene, white flash on chapters,
     and a progress bar for the current part (seg['_p'] = [n, title, start, end], set by the render loop)."""
     if CALM[0]:
         if z > 1.001:
-            cw, ch = W / z, H / z
-            img = img.resize((W, H), Image.BILINEAR, box=((W - cw) / 2, (H - ch) / 2, (W + cw) / 2, (H + ch) / 2))
+            cw, ch = W / z, H / z; dx = max(-(W - cw) / 2, min((W - cw) / 2, shift[0])); dy = max(-(H - ch) / 2, min((H - ch) / 2, shift[1]))
+            img = img.resize((W, H), Image.BILINEAR, box=((W - cw) / 2 + dx, (H - ch) / 2 + dy, (W + cw) / 2 + dx, (H + ch) / 2 + dy))
         return warm(img)
     if lt < 0.22: z *= 1 + 0.06 * (1 - ease(lt / 0.22))
     if z > 1.001:
@@ -393,9 +395,9 @@ if __name__ == "__main__":
         if s_.get("_p"): s_["_p"][3] = ends[id(s_["_p"])]
     vf = []
     if v.get("captions", True):
-        from shorts import captions
+        from shorts import captions, sentence_spans
         cap = out[:-4] + ".ass"; captions(v["segments"], timing, 0, total, cap, res=(W, H), size=56 if v.get("vibe") == "calm" else 60, outline=6 if v.get("vibe") == "calm" else 7,
-                                          marginv=40, ml=90, mr=760, calm=v.get("vibe") == "calm"); vf = ["-vf", "ass=" + cap]
+                                          marginv=40, ml=90, mr=760, calm=v.get("vibe") == "calm", spans=sentence_spans(wav, v["segments"], timing)); vf = ["-vf", "ass=" + cap]
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", *vf,
                            "-c:v", "libx264", "-preset", "veryfast", "-crf", "19", "-pix_fmt", "yuv420p", silent], stdin=subprocess.PIPE)
     import wave

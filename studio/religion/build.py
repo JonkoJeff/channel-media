@@ -109,44 +109,32 @@ def find(sc):
         except Exception as e: print("img fail", str(e)[:80])
         if len(got) >= 3: break
     CACHE[q] = got; return got
-def card(text, fn):
+def card(text, fn, quote=None):
+    """Designed card: gold reference/title + (optional) the narration's own line as a pull-quote. Never an empty frame."""
     im = Image.new("RGB", (1920, 1080)); d = ImageDraw.Draw(im)
     for y in range(1080): d.line([(0, y), (1920, y)], fill=(6, 11 + y // 40, 28 + y // 14))
-    rng = np.random.default_rng(abs(hash(text)) % 2**32)
+    rng = np.random.default_rng(zlib.crc32((text or quote or "x").encode()))
     for _ in range(140): x, y = int(rng.integers(0, 1920)), int(rng.integers(0, 1080)); r = int(rng.integers(1, 3)); d.ellipse([x, y, x + r, y + r], fill=(200, 190, 150))
     d.rectangle([140, 120, 1780, 960], outline=(168, 140, 70), width=3); d.rectangle([158, 138, 1762, 942], outline=(110, 92, 50), width=1)
-    lines = [l for p in re.split(r"\s*/\s*| — ", text or "") for l in textwrap.wrap(p.strip(), 38)][:7]
-    f = ImageFont.truetype(FONT, 62 if len(lines) <= 4 else 48); y = 540 - 40 * len(lines)
-    for ln in lines: d.text((960, y), ln, font=f, fill=(232, 195, 106), anchor="mm"); y += 82
+    head = [l for p in re.split(r"\s*/\s*| — ", text or "") for l in textwrap.wrap(p.strip(), 34)][:3]
+    qt = textwrap.wrap(f"\u201c{quote}\u201d", 46)[:5] if quote else []
+    fh, fq = ImageFont.truetype(FONT, 70), ImageFont.truetype(FONT, 46)
+    total = len(head) * 90 + (60 + len(qt) * 66 if qt else 0); y = 540 - total // 2
+    for ln in head: d.text((960, y), ln, font=fh, fill=(232, 195, 106), anchor="mm"); y += 90
+    if qt:
+        d.line([(760, y + 10), (1160, y + 10)], fill=(168, 140, 70), width=2); y += 60
+        for ln in qt: d.text((960, y), ln, font=fq, fill=(240, 232, 214), anchor="mm"); y += 66
     im.save(fn, quality=92)
 
-# ---------- voice ----------
-def speak(s, i):   # same natural flow as Brain After Dark (RUNBOOK VOICE FLOW); voice identity unchanged: bm_lewis 0.92
-    return flow.say(K, s, "bm_lewis", 0.92, zlib.crc32(vid.encode()) + i * 97, pause=0.6)
-audio, jobs, off = [], [], 0.0
-for i, sc in enumerate(scenes):
-    a = speak(sc["say"], i); pad = 0.9 if i + 1 < len(scenes) else 3.5; a = np.concatenate([a, np.zeros(int(24000 * pad), np.float32)])
-    nf = int(np.ceil(len(a) / 24000 * FPS)); a = np.concatenate([a, np.zeros(int(nf / FPS * 24000) - len(a) + 1, np.float32)])[:int(nf / FPS * 24000)]
-    sc.update(frames=nf, start=off, dur=nf / FPS); off += nf / FPS; audio.append(a)
-    if i % 40 == 0: print("voice", i, "/", len(scenes), flush=True)
-vo = np.concatenate(audio); sr = 24000; tt = np.arange(len(vo)) / sr; bed = np.zeros_like(tt)
-for ci, ch in enumerate([(261.6, 329.6, 392.0), (220.0, 261.6, 329.6), (174.6, 220.0, 261.6), (196.0, 246.9, 293.7)] * int(len(vo) / sr / 27.4 + 2)):
-    a0, b0 = int(ci * 6.86 * sr), int((ci + 1) * 6.86 * sr)
-    if a0 >= len(tt): break
-    seg = tt[a0:b0] - tt[a0]; env = np.minimum(1, seg / 1.5) * np.minimum(1, (6.86 - seg) / 1.5)
-    bed[a0:b0] += env * sum(np.sin(2 * np.pi * f / 2 * seg) + 0.3 * np.sin(2 * np.pi * f * seg) for f in ch)
-for i, sc in enumerate(scenes):   # "silence before the reveal": the bed drops out around each new chapter card
-    if i and sc["chap"] and sc["chap"] != scenes[i - 1]["chap"]: bed[max(0, int((sc["start"] - 0.8) * sr)):int((sc["start"] + 0.6) * sr)] = 0.0
-bed = np.convolve(bed, np.ones(60) / 60, "same"); vr = np.sqrt((vo[np.abs(vo) > 0.01] ** 2).mean()) if (np.abs(vo) > 0.01).any() else 0.1
-bed = bed / np.sqrt((bed ** 2).mean() + 1e-9) * vr * 10 ** (-26 / 20)   # ~26 dB under the voice, like Brain After Dark
-K.save((vo + bed).astype(np.float32), os.path.join(W, "voice.wav")); print(f"voice done: {off / 60:.1f} min")
 
 # ---------- video shots ----------
 def shot(args):
     k, img, nf, style, label = args; fn = os.path.join(W, f"s{k:05d}.mp4"); n = max(nf, 2); d = n / FPS
     z = {0: f"z='1+0.14*on/{n}':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2'", 1: f"z='1.14-0.14*on/{n}':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2'",
-         2: f"z=1.16:x='(iw-iw/zoom)*on/{n}':y='ih/2-ih/zoom/2'", 3: f"z=1.16:x='(iw-iw/zoom)*(1-on/{n})':y='ih/2-ih/zoom/2'"}[style % 4]
-    vf = f"scale=2400:1350:force_original_aspect_ratio=increase,crop=2400:1350,zoompan={z}:d={n}:s=1920x1080:fps={FPS},eq=gamma=1.2:saturation=1.05,vignette=PI/6,fade=t=in:st=0:d=0.45,fade=t=out:st={d - 0.45:.2f}:d=0.45"
+         2: f"z=1.16:x='(iw-iw/zoom)*on/{n}':y='ih/2-ih/zoom/2'", 3: f"z=1.16:x='(iw-iw/zoom)*(1-on/{n})':y='ih/2-ih/zoom/2'",
+         4: f"z='1+0.13*on/{n}':x='(iw-iw/zoom)*on/{n}':y='(ih-ih/zoom)*on/{n}'", 5: f"z='1.13-0.13*on/{n}':x='(iw-iw/zoom)*(1-on/{n})':y='(ih-ih/zoom)*(1-on/{n})'",
+         6: f"z='1+0.13*on/{n}':x='(iw-iw/zoom)*(1-on/{n})':y='(ih-ih/zoom)*on/{n}'", 7: f"z='1.13-0.11*on/{n}':x='(iw-iw/zoom)*on/{n}':y='(ih-ih/zoom)*(1-on/{n})'"}[style % 8]   # 8 camera moves, never the same twice in a row
+    vf = f"scale=2400:1350:force_original_aspect_ratio=increase,crop=2400:1350,zoompan={z}:d={n}:s=1920x1080:fps={FPS},eq=gamma=1.2:saturation=1.05,vignette=PI/6,fade=t=in:st=0:d=0.2,fade=t=out:st={d - 0.2:.2f}:d=0.2"
     if label:
         tf = fn[:-4] + ".txt"; open(tf, "w").write(label)
         vf += f",drawtext=fontfile={FONT}:textfile={tf}:fontcolor={GOLD}:fontsize=62:x=(w-text_w)/2:y=h-170:shadowcolor=black:shadowx=3:shadowy=3:enable='lt(t,4)'"
@@ -157,8 +145,13 @@ for i, sc in enumerate(scenes):
     imgs = find(sc)
     iscard = sc["src"] in ("text-card", "map") or re.match(r"(?i)(minimal )?text card|three-column|four-window|six |seven |card", sc["vis"])
     if not imgs and POOL and not iscard: imgs = POOL[-12 - (i % 5):][::3][:3] or POOL[-1:]   # no match: reuse earlier images of this film (different zoom)
-    if not imgs: c = os.path.join(W, f"card{i}.jpg"); card(re.sub(r"(?i)\s*(english )?paraphrase.*$", "", re.split(r"[;]", re.split(r":\s", sc["vis"], maxsplit=1)[-1] if sc["vis"] else (sc["chap"] or ""))[0]).strip(" ."), c); imgs = [c]  # "Quran 41:9-12 ..." kept whole (rel22 showed "9-12 English paraphrase")
-    ns = max(1, round(sc["dur"] / 7)); base = sc["frames"] // ns
+    if not imgs:
+        c = os.path.join(W, f"card{i}.jpg")
+        ref = re.sub(r"(?i)\s*(english )?(paraphrase|verse reference).*$", "", re.split(r"[;]", sc["vis"] or (sc["chap"] or ""))[0]).strip(" .")
+        ref = re.sub(r"(?i)^(minimal )?text[- ]card\s*[:\-]?\s*", "", ref).strip()
+        first = re.split(r"(?<=[.!?])\s", sc["say"])[0]; q = first if 30 <= len(first) <= 190 else None   # the narration's own first sentence as the pull-quote
+        card(ref or (sc["chap"] or ""), c, q); imgs = [c]
+    ns = max(1, round(sc["dur"] / 5.5))   # a new shot every ~5.5 s (was 7): more rhythm; base = sc["frames"] // ns
     for j in range(ns):
         nf = base if j + 1 < ns else sc["frames"] - base * (ns - 1)
         tasks.append((k, imgs[j % len(imgs)], nf, k, sc["chap"] if j == 0 else None)); k += 1

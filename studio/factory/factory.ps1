@@ -746,6 +746,16 @@ function Tick {
     if (-not $busy -and -not (Test-Path "$Repo\studio\research\strategy_$slot.md") -and -not (TPath "cf_strategy-$slot")) { Ensure 'cf_strategy' $slot @{ slot = $slot } @() $null | Out-Null; Write-Host "$(Get-Date -f HH:mm:ss) strategy run $slot queued" -ForegroundColor Cyan }
   }
   if ($now - [int]$ctl.research_pushed -gt 3600) { $ctl.research_pushed = $now; GitPush @('studio/research', 'studio/factory/experiments.md', 'studio/factory/learned.md') 'factory: strategy research and experiments' | Out-Null }
+  # owner: no chat history in Codex at all. Every 5 min delete Codex sessions idle for 15+ min (running ones are kept until they finish).
+  if ($c.codex_history -eq 'none' -and $now - [int]$ctl.codex_sweep -gt 300) {
+    $ctl.codex_sweep = $now
+    foreach ($sess in (Get-ChildItem "$env:USERPROFILE\.codex\sessions" -Recurse -File -Filter *.jsonl -ErrorAction SilentlyContinue)) {
+      if (((Get-Date) - $sess.LastWriteTime).TotalMinutes -lt 15 -or $sess.BaseName -notmatch '([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})$') { continue }
+      & $Exe.codex delete --force $Matches[1] 2>$null | Out-Null
+      if (Test-Path $sess.FullName) { Remove-Item $sess.FullName -ErrorAction SilentlyContinue }
+    }
+    $hj = "$env:USERPROFILE\.codex\history.jsonl"; if ((Test-Path $hj) -and (Get-Item $hj).Length) { Clear-Content $hj -ErrorAction SilentlyContinue }
+  }
   # 7. tell Herdr
   $pend = @(Tasks 'pending').Count; $act = @(Tasks 'active').Count
   $ws = $env:HERDR_WORKSPACE_ID; if ($ws) { Herdr workspace report-metadata $ws --source factory --token "buffer=$($ctl.cf_buffer)" --token "mode=$($ctl.cf_mode)" --token "queue=$pend/$act" | Out-Null }

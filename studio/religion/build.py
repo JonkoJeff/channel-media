@@ -185,7 +185,9 @@ def thumb(base, words, n, path):
         d.text((x0, y), ln, font=f, fill=col, anchor="la" if left else "ra", stroke_width=6, stroke_fill=(0, 0, 0)); y += size + 18
     im.save(path, quality=92)
 words = hd.get("THUMB") or re.split(r"[:—-]", hd.get("TITLE", vid))[-1]
-base = os.environ.get("THUMB") if os.environ.get("THUMB") and os.path.exists(os.environ.get("THUMB", "")) else (POOL[len(POOL) // 3] if POOL else None)
+# approved owner art already carries its own title: keep it unchanged; generate only for episodes without art (e.g. Christianity 11-20)
+owner_art = os.environ.get("THUMB") and os.path.exists(os.environ.get("THUMB", ""))
+base = None if owner_art else (POOL[len(POOL) // 3] if POOL else None)
 if base: thumb(base, words, int(re.sub(r"\D", "", vid) or 0), os.path.join(OUT, "thumb.jpg")); print("thumbnail:", " ".join(words.split()[:4]))
 
 # ---------- Shorts (vertical, cut on scene boundaries, <=58 s) ----------

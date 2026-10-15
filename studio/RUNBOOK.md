@@ -236,3 +236,6 @@ Owner: "STEM IS PERFECT". Belief Through Time uses studio/voice/flow.py (same na
 - VOICE (15 Oct, owner): Brain After Dark long videos (vibe calm) now use the same voice as Belief Through Time: bm_lewis 0.92 (overrides the per-block voice am_michael). Shorts cut from the long audio follow automatically. Revert = restore "am_michael"/0.93 in longform.py voice().
 - WARM VOICE (15 Oct, owner: "beetje meer warmer"): calm long videos get flow.warm() on the final voice wav (+3.5 dB at 160 Hz, +1.5 at 320 Hz, -2.5 dB at 3.8 kHz, lowpass 7.8 kHz). Tune WARM in studio/voice/flow.py; Belief Through Time is untouched (owner: its voice is perfect).
 - VOICE FINAL (15 Oct, owner chose "mid D"): Brain After Dark calm long videos = voice am_onyx+bm_lewis+bm_lewis (blend), speed 0.88, pause 0.7 s, flow.warm(wav, pitch 0.97). Replaces the bm_lewis/0.92 line above. Belief Through Time stays bm_lewis 0.92.
+
+## NO MORE GITHUB ACTIONS SPEND (15 Oct, owner)
+GitHub Actions billing failed (private repo minutes) and the owner will not pay: posting runs LOCALLY with `python studio/local/post_btt.py` (key in env ZERNIO_API_KEY, never in repo; releases are free to download). Scheduled crons (stats, youtube) are commented out; workflow_dispatch stays. Rendering still needs a free place to run (local machine) until billing is fixed.

@@ -5,6 +5,7 @@
   python3 studio/yt/zernio.py shorts lfNN 2026-10-13         -> schedules all Shorts of lfNN, 3 a day (09:00, 13:00, 21:00) from that date
 The YouTube account id and playlist ids live in studio/yt/zernio.json (not secret)."""
 import json, os, sys, urllib.request
+TMP = os.environ.get("ZTMP", "/tmp")   # local runs (Windows): set ZTMP to a temp folder
 API = "https://zernio.com/api/v1"; KEY = os.environ["ZERNIO_API_KEY"]; KEY2 = os.environ.get("ZERNIO_API_KEY_2", "")  # KEY2 = second Zernio account (channel "religion")
 D = os.path.dirname(os.path.abspath(__file__)); CFG = os.path.join(D, "zernio.json"); R = os.path.join(D, "..", "renders")
 cfg = json.load(open(CFG)) if os.path.exists(CFG) else {}
@@ -84,14 +85,14 @@ elif cmd == "shorts":
     plid = None if ch == "religion" else cfg.get("playlists", {}).get("Money Shorts" if ch == "moneyatnight" else "Psychology Shorts")
     for sid, url in sorted(res.get("shorts", {}).items()):
         if sid in done: continue
-        yt_account(ch); m = meta.get(sid, {}); f = f"/tmp/{sid}.mp4"
+        yt_account(ch); m = meta.get(sid, {}); f = os.path.join(TMP, f"{sid}.mp4")
         pre = f"{m.get('title', '')}\n\n"[:40]
         ex = existing(pre) if m.get("title") else None   # FAILSAFE: this Short already exists on Zernio -> adopt, never post twice
         if ex:
             done[sid] = {"zernio_id": ex.get("_id"), "when": str(ex.get("scheduledFor"))}; json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1); print(f"{sid} already on Zernio, adopted"); continue; os.path.exists(f) or urllib.request.urlretrieve(url, f)
         th = None   # Short thumbnail = a frame ~1.5 s in (hook text is on screen), hosted on Zernio media; failure here must never block the post
         try:
-            import subprocess; jf = f"/tmp/{sid}.jpg"
+            import subprocess; jf = os.path.join(TMP, f"{sid}.jpg")
             subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", "1.5", "-i", f, "-frames:v", "1", "-q:v", "2", jf], check=True, timeout=60)
             _, tp = call("POST", "/media/presign", {"filename": sid + ".jpg", "contentType": "image/jpeg", "size": os.path.getsize(jf)})
             urllib.request.urlopen(urllib.request.Request(tp["uploadUrl"], data=open(jf, "rb").read(), method="PUT", headers={"Content-Type": "image/jpeg"}), timeout=120).read(); th = tp["publicUrl"]
@@ -188,7 +189,7 @@ elif cmd == "post":
     v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); res = json.load(open(os.path.join(R, vid, "result.json")))
     if res.get("zernio_id"):   # FAILSAFE 1: result.json says it is already posted -> never post again (delete the post and clear zernio_id on purpose to re-post)
         print(f"::notice::{vid} already posted ({res['zernio_id']}), nothing to do"); sys.exit(0)
-    yt_account(v.get("channel", "crazyfacts")); mp4 = sys.argv[4] if len(sys.argv) > 4 else f"/tmp/{vid}.mp4"   # the workflow downloads the release asset here
+    yt_account(v.get("channel", "crazyfacts")); mp4 = sys.argv[4] if len(sys.argv) > 4 else os.path.join(TMP, f"{vid}.mp4")   # the workflow downloads the release asset here
     ex = existing(open(os.path.join(R, vid, "description.txt")).read()[:40])   # FAILSAFE 2: Zernio already has it (earlier run died after posting) -> adopt it
     if ex:
         res.update(zernio_id=ex.get("_id"), scheduled=str(ex.get("scheduledFor")), route="zernio"); json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1)

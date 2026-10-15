@@ -75,12 +75,12 @@ def voice(v):
             else: chunks.append(sent)
         for ci, sent in enumerate(chunks):
             rng = np.random.default_rng(zlib.crc32(v["id"].encode()) + i * 97 + ci)  # slight, repeatable variation per take
-            base = 0.92 if calm else v.get("speed", 1.0)
-            a = k.speak(sent, "bm_lewis" if calm else v.get("voice", "am_puck"), base * float(rng.uniform(0.97, 1.03)))   # 15 Oct owner: calm (Brain After Dark) uses the same voice as Belief Through Time
+            base = 0.88 if calm else v.get("speed", 1.0)
+            a = k.speak(sent, "am_onyx+bm_lewis+bm_lewis" if calm else v.get("voice", "am_puck"), base * float(rng.uniform(0.97, 1.03)))   # 15 Oct owner: calm (Brain After Dark) = "mid D": 1/3 am_onyx + 2/3 bm_lewis, speed 0.88, pitch 0.97, warm EQ
             nz = np.nonzero(np.abs(a) > 0.01)[0]; a = a[max(0, nz[0] - 400):nz[-1] + 900].copy()
             f = int(0.012 * k.SR); a[:f] *= np.linspace(0, 1, f); a[-f:] *= np.linspace(1, 0, f)
             # pause depends on how the take ends: question/colon longer, long take longer, small random jitter
-            base_ps = v.get("pause", 0.6 if calm else 0.3)
+            base_ps = v.get("pause", 0.7 if calm else 0.3)
             ps = base_ps * (1.25 if sent.rstrip().endswith("?") else 1.0) * (1.15 if len(sent) > 110 else 0.9) * float(rng.uniform(0.85, 1.2))
             out += [a, np.zeros(int(ps * k.SR), np.float32)]; t += len(a) / k.SR + ps
         gap = {"chapter": 0.9, "end": 2.0}.get(s["show"]["type"], 0.5)
@@ -89,7 +89,7 @@ def voice(v):
         print(f"voice {i + 1}/{len(v['segments'])}", flush=True)
     a = np.concatenate(out); a = a / np.abs(a).max() * 0.89
     os.makedirs(os.path.dirname(wav), exist_ok=True); k.save(a, wav)
-    if calm_all(v): import flow; flow.warm(wav)   # warmer voice for calm (Brain After Dark) videos
+    if calm_all(v): import flow; flow.warm(wav, 0.97)   # warmer voice for calm (Brain After Dark) videos
     json.dump(timing, open(tim, "w"), indent=1)
     return wav, timing
 

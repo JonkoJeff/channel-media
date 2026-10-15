@@ -70,7 +70,7 @@ jobs:
             [ -f "$f" ] || continue
             wf=$(jq -r .workflow "$f"); key=$(jq -r '(.inputs.cmd // "") + (.inputs.ep // "")' "$f")
             case "$wf:$key" in
-              zernio.yml:list|zernio.yml:status|zernio.yml:reslot|zernio.yml:rethumb|religion.yml:test|stats.yml:) ;;
+              zernio.yml:list|zernio.yml:status|zernio.yml:reslot|zernio.yml:rethumb|religion.yml:test|religion.yml:[0-9][0-9]|religion.yml:[0-9][0-9][0-9]|stats.yml:) ;;   # religion.yml ep = (re-)render only, never posts
               *) echo "::error::$f: $wf $key is not allowed through ops"; continue;;
             esac
             args=$(jq -r '.inputs // {} | to_entries[] | "-f \(.key)=\(.value)"' "$f")

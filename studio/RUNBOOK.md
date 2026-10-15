@@ -230,3 +230,6 @@ Brain After Dark (Europe/Amsterdam): Shorts 15:00, 18:00, 21:00, 23:30 (= 9am/12
 ## CAPTIONS + EDITING (15 Oct, owner: editing boring, subtitles wrong)
 - Captions: shorts.sentence_spans() measures real sentence start/end from the voice wav (the n-1 longest silences in a segment = sentence boundaries); only the words inside a sentence are estimated (length + comma weight). Old method (whole segment by letter count, x0.92) drifted by seconds. Used by longform.py and shorts.render. Captions never hang through a pause (word end +0.25 s max).
 - Editing (calm long videos): every sentence re-frames the shot (wide -> toward the text -> close on the character, zoom 1.0/1.07/1.13 + shift, plus slow push-in). Still to do: more scene variety (photo/screen cards, B-roll) per script, see GAP/STYLE.
+
+## BTT VOICE APPROVED (owner, 15 Oct)
+Owner: "STEM IS PERFECT". Belief Through Time uses studio/voice/flow.py (same natural flow as Brain After Dark, voice bm_lewis 0.92) + quiet music bed. Unpublished episodes rel03, rel04, rel22, rel23, rel24 are re-rendered with it; published ones (rel01, rel21) stay as they are.

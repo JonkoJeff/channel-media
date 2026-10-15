@@ -116,9 +116,14 @@ elif cmd == "shorts":
     print(f"::notice::{vid}: {len(done)} Shorts scheduled")
 elif cmd == "list":   # a = channel key (religion|crazyfacts|moneyatnight): recent posts of that account, to avoid duplicates after a timeout
     yt_account(sys.argv[2] if len(sys.argv) > 2 and sys.argv[2] else "crazyfacts"); st, p = call("GET", "/posts?limit=100"); ps = p.get("posts", p if isinstance(p, list) else [])
+    seen_ = {x.get("_id") for x in ps}
+    for pg in range(2, 12):   # all pages: the account may have more than 100 posts
+        _, lp = call("GET", f"/posts?limit=100&page={pg}"); more = [x for x in lp.get("posts", []) if x.get("_id") not in seen_]
+        if not more: break
+        ps += more; seen_ |= {x.get("_id") for x in more}
     print("::notice::raw " + json.dumps(p)[:1200].replace("\n", " "))
     for x in ps[:100]: print(f"::notice::{x.get('_id')} acc={str([q.get('accountId') for q in x.get('platforms', [])])[-9:]} {x.get('status')} {x.get('scheduledFor')} {str(x.get('content', ''))[:50]!r}")
-    json.dump([{"id": x.get("_id"), "account": str([q.get("accountId") for q in x.get("platforms", [])]), "status": x.get("status"), "when": x.get("scheduledFor"), "text": str(x.get("content", ""))[:80]} for x in ps[:100]],
+    json.dump([{"id": x.get("_id"), "account": str([q.get("accountId") for q in x.get("platforms", [])]), "status": x.get("status"), "when": x.get("scheduledFor"), "text": str(x.get("content", ""))[:80]} for x in ps],
               open(os.path.join(D, f"list_{sys.argv[2] if len(sys.argv) > 2 and sys.argv[2] else 'crazyfacts'}.json"), "w"), indent=1)
 elif cmd == "delete":   # a = comma-separated Zernio post ids (duplicates created by a timed-out retry)
     yt_account(sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] else "crazyfacts")

@@ -17,3 +17,10 @@
 - Additional channel references: [@boringscience4sleep]( explicitly advertises monotonous narration, campfire am
 - New length finding from our supplied snapshot: leading Shorts span 43s, 48s and 52s; shorter examples at 35s h
 - New measurement priority: [YouTube recommends testing the first 30 seconds against retention]( Competitor play
+
+## 2026-10-15_pm
+- Explicit listening purpose is a packaging hypothesis worth testing while keeping 2.5+ hours: [Nap Academy’s 2 
+- Calm delivery appears in descriptions, not verified playback: [10 Hours—Psychology Facts]( and [Relaxing Facts
+- Chapters can make long listening sessions navigable: Nap Academy lists sections around memory, emotion, and pe
+- Our supplied snapshot favors concrete mechanisms and felt consequences: “one word rewrites a memory” has 256 v
+- Shorts need a measurable path onward: YouTube supports a [clickable Related video]( subject to advanced-featur

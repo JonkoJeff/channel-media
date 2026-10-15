@@ -38,10 +38,15 @@ def yt_account(ch="crazyfacts"):  # channel key: crazyfacts (default), moneyatni
 
 
 def existing(prefix):   # FAILSAFE: a live (scheduled/publishing/published) post whose content starts with prefix, else None
-    try: _, lp = call("GET", "/posts?limit=100")
-    except SystemExit: return None
-    for x in (lp.get("posts", lp if isinstance(lp, list) else [])):
-        if str(x.get("content", "")).startswith(prefix) and x.get("status") in ("scheduled", "publishing", "published"): return x
+    seen = set()
+    for pg in range(1, 12):   # all pages: a post created during a timed-out request is not always on page 1 (rel22, 15 Oct)
+        try: _, lp = call("GET", f"/posts?limit=100&page={pg}")
+        except SystemExit: return None
+        ps = [x for x in lp.get("posts", lp if isinstance(lp, list) else []) if x.get("_id") not in seen]
+        if not ps: return None
+        for x in ps:
+            seen.add(x.get("_id"))
+            if str(x.get("content", "")).startswith(prefix) and x.get("status") in ("scheduled", "publishing", "published", "processing", "pending"): return x
     return None
 
 

@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
     inputs:
       check_only: {description: "Only test the connection", type: boolean, default: true}
-  # schedule:
-    # - cron: '30 6 * * *'
+  schedule:
+    - cron: '30 6 * * *'
   push:
     paths: ["studio/yt/queue.json"]
 permissions:

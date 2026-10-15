@@ -239,3 +239,6 @@ Owner: "STEM IS PERFECT". Belief Through Time uses studio/voice/flow.py (same na
 
 ## NO MORE GITHUB ACTIONS SPEND (15 Oct, owner)
 GitHub Actions billing failed (private repo minutes) and the owner will not pay: posting runs LOCALLY with `python studio/local/post_btt.py` (key in env ZERNIO_API_KEY, never in repo; releases are free to download). Scheduled crons (stats, youtube) are commented out; workflow_dispatch stays. Rendering still needs a free place to run (local machine) until billing is fixed.
+
+## REPO PUBLIC AGAIN (owner, 15 Oct)
+Owner made the repo public: GitHub Actions is free and unlimited again (private-repo minutes were used up). Scheduled crons (stats, youtube) are back on. Keys stay in GitHub Secrets only (scan 15 Oct: no secrets in code or history). Local posting runner studio/local/post_btt.py stays available.

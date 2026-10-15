@@ -12,6 +12,7 @@ Deliverable: ONE JSON object (no fences):
  "tags": ["...", "Religion Unfolded", "Belief Through Time"],
  "sources": ["real passages and real scholarly/museum sources"],
  "names": ["exact spellings and transliterations every writer must use"],
+ "thumb": "2-4 word thumbnail headline: the emotional twist or surprising claim, adds to the title, never repeats it",
  "chapters": [
   {"name": "chapter title (shown in the description)", "words": 600, "brief": "what this chapter covers: passages, tradition, history, open questions, 2-3 concrete VISUAL ideas, and how it hands over to the next chapter"}
  ]

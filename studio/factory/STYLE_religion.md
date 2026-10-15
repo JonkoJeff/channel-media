@@ -25,7 +25,12 @@ Brand in scripts: Religion Unfolded. YouTube channel: Belief Through Time. Every
 - Never invent quotes, dates, names, events, eyewitnesses or sources. Unsure -> leave it out or say it is uncertain.
 - Real passages and real scholarly/museum sources only; list them under SOURCES.
 
+## 5a. Hooks (Brain After Dark standard, owner 15 Oct)
+- The first 15 seconds state ONE concrete surprise from the episode (a real detail of the text, a find, a date, two readings of one verse) as a claim, then the question. Never a generic "welcome", never invented.
+- Every chapter opens on a concrete image or detail before the explanation.
+
 ## 5. Shorts (4 per episode, cut from the finished narration)
+- Brain After Dark rule: ONE surprising fact + ONE concrete detail/number + the payoff, 40-50 s, never the intro or an agenda, the Short title = the surprising claim itself.
 - Each 35-58 s, starting and ending on scene timestamps, from four different parts of the episode (at least 8 minutes apart).
 - Pick self-contained moments with a clear question and payoff: a surprising detail in the text, a striking historical find, two traditions reading one verse differently, a vivid place. Start on the hook sentence.
 - Title: max ~55 characters, calm curiosity, no clickbait, no "shocking".

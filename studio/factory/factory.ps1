@@ -453,7 +453,7 @@ function RelAssemble($id) {
 function RelWrite($id, $shorts) {
   $o = RJ "$S\out\$id.outline.json"; $a = RJ "$S\out\$id.scenes.json"; $src = @(@($o.sources) + @(Get-Content "$S\out\$id.sources.txt" -Encoding utf8 -ErrorAction SilentlyContinue) | Where-Object { $_ } | Select-Object -Unique)
   $desc = ("$($o.desc) Chapters: " + ($a.chapters -join '; ')) -replace '\s+', ' '; if ($desc.Length -gt 4000) { $desc = $desc.Substring(0, 3990) }
-  $L = @("TITLE: $($o.title)", "DESC: $desc", "TAGS: $(@($o.tags) -join ', ')", "SOURCES: $(($src -join '; ') -replace '\s+', ' ')", 'SHORTS:')
+  $L = @("TITLE: $($o.title)") + $(if ($o.thumb) { @("THUMB: $($o.thumb)") } else { @() }) + @("DESC: $desc", "TAGS: $(@($o.tags) -join ', ')", "SOURCES: $(($src -join '; ') -replace '\s+', ' ')", 'SHORTS:')
   foreach ($x in $shorts) { $L += "$($x.start)-$($x.end) | $($x.title)" }
   $L += '---'
   foreach ($sx in $a.scenes) { if ($sx.chap) { $L += "CHAPTER: $($sx.chap)" }; $L += "[$($sx.ts)] NARRATION: $($sx.say)"; $L += "VISUAL: $($sx.vis)"; $L += "SOURCE: $($sx.src)" }

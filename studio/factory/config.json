@@ -27,15 +27,15 @@
       "push_render": true
     },
     "religion": {
-      "enabled": false,
+      "enabled": true,
       "unit": "Belief Through Time episodes (each with 4 Shorts) still to air, rendered, or in production; owner 13 Oct: minimum 5",
       "low_watermark": 5,
       "high_watermark": 6,
       "max_concurrent_pipelines": 2,
       "max_pipelines_started_per_day": 3,
       "max_renders_in_flight": 2,
-      "push_render": false,
-      "note": "STOPPED by owner 15 Oct 2026 (focus Brain After Dark). No scripts, no renders."
+      "push_render": true,
+      "note": "Back on (owner 15 Oct): 1 long 20:00 + 4 Shorts/day like Brain After Dark; GAP.md lists the catch-up."
     }
   },
   "recurring": {

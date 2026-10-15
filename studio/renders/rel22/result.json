@@ -1,52 +1,70 @@
 {
-  "id": "rel22",
-  "video": "https://github.com/JonkoJeff/channel-media/releases/download/rel22/rel22.mp4",
-  "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/channels/religion/thumbs/Q02.jpg",
-  "shorts": {
-    "rel22_s1": "https://github.com/JonkoJeff/channel-media/releases/download/rel22/rel22_s1.mp4",
-    "rel22_s2": "https://github.com/JonkoJeff/channel-media/releases/download/rel22/rel22_s2.mp4",
-    "rel22_s3": "https://github.com/JonkoJeff/channel-media/releases/download/rel22/rel22_s3.mp4",
-    "rel22_s4": "https://github.com/JonkoJeff/channel-media/releases/download/rel22/rel22_s4.mp4"
+ "id": "rel22",
+ "video": "https://github.com/JonkoJeff/channel-media/releases/download/rel22/rel22.mp4",
+ "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/channels/religion/thumbs/Q02.jpg",
+ "shorts": {
+  "rel22_s1": "https://github.com/JonkoJeff/channel-media/releases/download/rel22/rel22_s1.mp4",
+  "rel22_s2": "https://github.com/JonkoJeff/channel-media/releases/download/rel22/rel22_s2.mp4",
+  "rel22_s3": "https://github.com/JonkoJeff/channel-media/releases/download/rel22/rel22_s3.mp4",
+  "rel22_s4": "https://github.com/JonkoJeff/channel-media/releases/download/rel22/rel22_s4.mp4"
+ },
+ "shorts_meta": {
+  "rel22_s1": {
+   "title": "Six Days and the Meaning of Time",
+   "tags": [
+    "#shorts",
+    "#Quran",
+    "#Islam",
+    "#creation"
+   ]
   },
-  "shorts_meta": {
-    "rel22_s1": {
-      "title": "Six Days and the Meaning of Time",
-      "tags": [
-        "#shorts",
-        "#Quran",
-        "#Islam",
-        "#creation"
-      ]
-    },
-    "rel22_s2": {
-      "title": "When the Quran Describes Smoke",
-      "tags": [
-        "#shorts",
-        "#Quran",
-        "#Islam",
-        "#creation"
-      ]
-    },
-    "rel22_s3": {
-      "title": "The World as a Sign",
-      "tags": [
-        "#shorts",
-        "#Quran",
-        "#Islam",
-        "#creation"
-      ]
-    },
-    "rel22_s4": {
-      "title": "What Science Can and Cannot Tell Us",
-      "tags": [
-        "#shorts",
-        "#Quran",
-        "#Islam",
-        "#creation"
-      ]
-    }
+  "rel22_s2": {
+   "title": "When the Quran Describes Smoke",
+   "tags": [
+    "#shorts",
+    "#Quran",
+    "#Islam",
+    "#creation"
+   ]
   },
-  "zernio_id": "6ad11b2aa2d8072aa335dc75",
-  "scheduled": "2026-10-17T20:00+02:00",
-  "route": "zernio"
+  "rel22_s3": {
+   "title": "The World as a Sign",
+   "tags": [
+    "#shorts",
+    "#Quran",
+    "#Islam",
+    "#creation"
+   ]
+  },
+  "rel22_s4": {
+   "title": "What Science Can and Cannot Tell Us",
+   "tags": [
+    "#shorts",
+    "#Quran",
+    "#Islam",
+    "#creation"
+   ]
+  }
+ },
+ "zernio_id": "6ad11b2aa2d8072aa335dc75",
+ "scheduled": "2026-10-17T20:00+02:00",
+ "route": "zernio",
+ "shorts_posted": {
+  "rel22_s1": {
+   "zernio_id": "6ad11cf252d796117397b2d4",
+   "when": "2026-10-17T15:00"
+  },
+  "rel22_s2": {
+   "zernio_id": "6ad11cfb2401d022c1f37dca",
+   "when": "2026-10-17T18:00"
+  },
+  "rel22_s3": {
+   "zernio_id": "6ad11d01004b5a273060e9b8",
+   "when": "2026-10-17T21:00"
+  },
+  "rel22_s4": {
+   "zernio_id": "6ad11d0752d796117397b33a",
+   "when": "2026-10-17T23:30"
+  }
+ }
 }

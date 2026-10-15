@@ -1,0 +1,343 @@
+{
+ "id": "lf13_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "And sometimes, the person you miss is an earlier version of yourself. You find an old notebook and recognize the handwriting immediately, yet the person behind those sentences feels strangely far away. How can that have been you? And could remembering bring that person a little closer without asking you to become them again?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "n": 14,
+    "title": "The person you used to be"
+   }
+  },
+  {
+   "say": "You open it on an ordinary evening. There is a drawing in the margin, a plan you abandoned, a description of someone you once knew. Perhaps you feel affection for its writer. Perhaps you want to offer them a kinder explanation of how things turned out.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Familiar handwriting",
+    "sub": "An unfamiliar distance"
+   }
+  },
+  {
+   "say": "What has changed since you wrote those pages? And what, if anything, still feels like you? The answers need not cancel each other out. You might have a very different daily life and still recognize the care behind a small, almost forgotten gesture.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Two different questions",
+    "items": [
+     "What has changed?",
+     "What still feels like you?"
+    ]
+   }
+  },
+  {
+   "say": "Keep that gesture in mind. We will return to it after looking at research on nostalgia and identity. The question waiting underneath is a gentle one: could a memory connect you with your earlier self while leaving room for everything that has happened since?",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A connection through change",
+    "sub": "What might remain?"
+   }
+  },
+  {
+   "say": "Constantine Sedikides, Tim Wildschut, Clay Routledge, and Jamie Arndt investigated this question in a paper published in 2015. Their subject was self-continuity: feeling connected with your earlier self.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Sedikides and colleagues",
+    "where": "European Journal of Social Psychology, 2015",
+    "what": "Self-discontinuity and nostalgia"
+   }
+  },
+  {
+   "say": "Study 2 randomly assigned 88 Southampton undergraduates to essays framing university as disruptive change, positive change, or stability. Participants then rated how much they currently missed aspects of their past. Nostalgia was higher after the disruptive framing than after either alternative.",
+   "show": {
+    "type": "stat",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Study 2",
+    "big": "88",
+    "label": "Southampton undergraduates"
+   }
+  },
+  {
+   "say": "So far, the researchers had asked whether a particular way of describing change could stir nostalgia. But you might be wondering about the other direction. Once a memory draws you in, does it change how close you feel to the person you used to be?",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "What came first?",
+    "items": [
+     "Reading about university life",
+     "Reporting nostalgia afterward"
+    ]
+   }
+  },
+  {
+   "say": "Picture yourself standing outside a new room. It might represent possibility, or distance from everything familiar. Perhaps it holds a little of both. The doorway stays where it is, while the meaning of stepping through it can feel quite different.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The same doorway",
+    "sub": "Different meanings"
+   }
+  },
+  {
+   "say": "A box of familiar belongings sits beside the door, with a worn notebook resting on top. You do not have to decide whether the move was entirely good or entirely difficult to understand the question. You can simply wonder which pieces of your earlier life you would want to unpack.",
+   "show": {
+    "type": "photo",
+    "file": "lf13_b07_01.jpg",
+    "cap": "A place between then and now"
+   }
+  },
+  {
+   "say": "Now, begin with a personally meaningful memory. You spend a little time recalling it, perhaps noticing a detail you had almost forgotten. Afterward, would your earlier self feel any less distant? That was the next question the researchers explored.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 15,
+    "title": "When remembering comes first"
+   }
+  },
+  {
+   "say": "Study 3 assigned 127 Missouri undergraduates to nostalgic or ordinary recollection. Nostalgic recall increased reported personal continuity. A separate measure of whether past and present flowed together showed no significant difference.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Sedikides and colleagues",
+    "where": "Study 3, University of Missouri–Columbia",
+    "what": "Nostalgic versus ordinary remembering"
+   }
+  },
+  {
+   "say": "You can recognize something of yourself in those pages while also feeling that the years between then and now were complicated. Those thoughts can sit beside each other. Recognizing the writer need not mean describing every intervening chapter as smooth or inevitable.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "Two ideas to separate",
+    "items": [
+     "Recognizing yourself",
+     "Feeling that life flowed smoothly"
+    ]
+   }
+  },
+  {
+   "say": "Perhaps there is a plan that never happened. You do not have to invent a tidy reason for its disappearance. You could leave that page unresolved and still feel tenderness toward the person who wrote it. A connection does not require an explanation for everything.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The missing chapters",
+    "sub": "Leave room for them"
+   }
+  },
+  {
+   "say": "You might also wonder how that feeling would hold up tomorrow, or during a difficult month. Feeling closer to your past just after remembering is one thing. Finding that closeness again during an ordinary, untidy week is another question, and this finding does not settle it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "How long might it last?",
+    "sub": "Another question"
+   }
+  },
+  {
+   "say": "There is also an obvious question to put beside any comforting memory. What if an enjoyable recollection would do just as well? Think of an old moment of belonging beside an afternoon that was simply pleasant. Would both leave you feeling equally connected with your earlier self?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Another possible explanation",
+    "sub": "Was it simply pleasant?"
+   }
+  },
+  {
+   "say": "Study 4 assigned 60 Southampton undergraduates to nostalgic, positive, or ordinary recollection. Nostalgic recollection produced greater reported self-continuity than either comparison, including after accounting statistically for happiness.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "who": "Sedikides and colleagues",
+    "where": "Study 4, Southampton",
+    "what": "Nostalgic, positive, and ordinary memories"
+   }
+  },
+  {
+   "say": "These were separate groups answering different questions, rather than the same people followed through a lasting recovery. The results concern feelings reported around the experiments. They do not establish permanent identity change, or promise what any particular memory will do for you.",
+   "show": {
+    "type": "bars",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Separate experiments",
+    "unit": "participants",
+    "bars": [
+     [
+      "Study 2",
+      88.0
+     ],
+     [
+      "Study 3",
+      127.0
+     ],
+     [
+      "Study 4",
+      60.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "With that distinction in mind, return to the scene we pictured earlier. You turn a page and find a description of walking home with a friend. Nothing especially dramatic happens. You stop somewhere because neither of you wants the conversation to finish.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Back to the familiar pages",
+    "sub": "A small moment"
+   }
+  },
+  {
+   "say": "Perhaps you had expected to miss the place. Instead, what catches your attention is the care you gave that friend. You had time to ask another question. You wanted to hear the answer. That is the small gesture we left waiting earlier.",
+   "show": {
+    "type": "photo",
+    "file": "lf13_b07_02.jpg",
+    "cap": "Something small worth keeping"
+   }
+  },
+  {
+   "say": "You might recognize that interest in other people as something you still value. Or a different detail might catch your eye: the playfulness of the drawing, the patience in a description, the willingness to try something unfamiliar. There is no correct thing to retrieve.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "What do you recognize?",
+    "sub": "Let the answer stay small"
+   }
+  },
+  {
+   "say": "You can value that without becoming that person again. Perhaps you miss how freely you made things, while feeling relieved that you no longer need everyone to approve of them. Affection for an earlier self can leave room for the changes you are glad you made.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Affection and permission",
+    "sub": "Room to change"
+   }
+  },
+  {
+   "say": "Trying to rebuild the entire afternoon would ask much more of you. You would need the old room, the old routine, perhaps a person who now lives somewhere else. But the meaning of the conversation is something you can consider without recreating its surroundings.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "No need to recreate the scene",
+    "items": [
+     "The same room",
+     "The same routine",
+     "The same version of you"
+    ]
+   }
+  },
+  {
+   "say": "Maybe your present life has less open space in it. You cannot walk the old route or spend hours talking. You might still want to be someone who listens carefully. Wanting that does not require pretending that your circumstances, responsibilities, or relationships have remained the same.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "A different present",
+    "sub": "An ordinary possibility"
+   }
+  },
+  {
+   "say": "You could ask whether the thing you recognize still matters now. You could also discover that its meaning has changed. Perhaps an old ambition no longer fits. Perhaps a friendship taught you something you would describe differently today. Remembering can leave room for revision as well as recognition.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Questions, rather than instructions",
+    "items": [
+     "What mattered there?",
+     "Does it matter now?",
+     "Has its meaning changed?"
+    ]
+   }
+  },
+  {
+   "say": "And you need not make your earlier self perfect. A page might contain an opinion you would now question, followed by an unexpectedly thoughtful observation. You can disagree with the first and appreciate the second. The person on those pages is allowed to be unfinished, just as you are.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "No perfect former self",
+    "sub": "Read with kindness"
+   }
+  },
+  {
+   "say": "The researchers' description leaves room for change: a connection between past and present. You might picture a thread joining two very different pieces of fabric. They do not have to match for the connection to be there.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "text": "a sense of connection between one’s past and one’s present",
+    "by": "Sedikides and colleagues, 2015"
+   }
+  },
+  {
+   "say": "That image asks a smaller question than whether you could rebuild your former life. Is there something here you would still choose to hold? You are free to answer yes, no, or only a little. An old interest can feel familiar without becoming an obligation.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Something you still value",
+    "sub": "Without rebuilding the past"
+   }
+  },
+  {
+   "say": "The younger person who wrote those pages can remain less informed and different from you. You might still recognize something they cared about that deserves attention now. Perhaps it is the willingness to linger and listen, or the pleasure of making something simply because you wanted to try.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What might carry forward?",
+    "items": [
+     "Care",
+     "Curiosity",
+     "Making something by hand"
+    ]
+   }
+  },
+  {
+   "say": "And noticing what still matters opens another question: how might remembering the past shape the way you picture what comes next?",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "From remembering to possibility",
+    "sub": "A question about what comes next"
+   }
+  },
+  {
+   "say": "And that turns our attention gently toward tomorrow. You need not return to the life around that memory. You can leave the earlier scene where it belongs and consider whether one small thing from it still deserves a place in the day ahead.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A little room for tomorrow",
+    "sub": "Carrying something valued"
+   }
+  }
+ ]
+}

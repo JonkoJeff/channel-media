@@ -1,0 +1,382 @@
+{
+ "id": "lf13_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "And sometimes the person inside a memory seems especially welcome because of how the present evening feels. Imagine putting away a cup, switching off the kitchen light, and realizing you wish someone were there to hear an ordinary little story. Nothing dramatic has happened. You simply miss having someone to tell.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "n": 6,
+    "title": "When the room feels quiet"
+   }
+  },
+  {
+   "say": "Perhaps the story is barely a story at all. Something funny happened while you were making dinner, or you finally found the thing you had misplaced. In this imagined evening, what you want is a familiar response: a laugh, a question, the particular way someone would say your name.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "An ordinary evening",
+    "sub": "A familiar absence"
+   }
+  },
+  {
+   "say": "Then an old scene comes to mind: a crowded table, a shared walk, someone talking while you washed the dishes. Here is the question worth keeping open. Did remembering that company make the evening feel lonely, or did feeling lonely help bring the memory forward? Those possibilities point in different directions.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "title": "What came first?",
+    "items": [
+     "Feeling alone",
+     "Remembering company",
+     "Missing someone"
+    ]
+   }
+  },
+  {
+   "say": "Picture that empty chair for a moment. It could mean many things inside a story. Someone might be arriving shortly, someone might have moved away, or the chair might simply be spare furniture. The scene alone cannot tell us what its owner feels. We need more than an evocative picture.",
+   "show": {
+    "type": "photo",
+    "file": "lf13_b03_01.jpg",
+    "cap": "A place at the table"
+   }
+  },
+  {
+   "say": "The same care helps when thinking about your own evening. An old memory need not become a verdict about your life today. You can describe the moment more gently: I remembered someone, and I felt their absence. That leaves room to wonder about the order without pretending you already know it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "A memory is not a verdict",
+    "sub": "Start with a question"
+   }
+  },
+  {
+   "say": "Wildschut and his colleagues moved from people's reported triggers to experimental tests in Studies 3 and 4, published in 2006. That distinction matters. Describing when nostalgia seems to happen is different from changing a situation and asking whether nostalgia follows.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Wildschut and colleagues, 2006",
+    "where": "University of Southampton",
+    "what": "Reports of triggers led to experiments"
+   }
+  },
+  {
+   "say": "Imagine asking someone why an old friend came to mind. They might offer a thoughtful explanation: the evening felt empty, so they remembered being together. That answer is valuable as their account of the experience. But an experiment asks a narrower question that a remembered explanation cannot settle by itself.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "title": "Two different questions",
+    "items": [
+     "What do people report?",
+     "What follows an experimental change?"
+    ]
+   }
+  },
+  {
+   "say": "Suppose you notice an open umbrella beside a wet coat. You would hesitate before saying the umbrella caused the rain. With feelings, the order can be less visible than that. Remembering, missing, and feeling alone can be difficult to untangle simply by looking back over an evening.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "Follow the direction",
+    "sub": "Before and after"
+   }
+  },
+  {
+   "say": "So the useful move is to change the starting point. Instead of waiting for someone to describe a lonely evening afterward, researchers can arrange different experiences before asking about the past. Think of this as turning the question around, carefully enough that the comparison becomes something you can actually inspect.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "n": 7,
+    "title": "Changing the starting point"
+   }
+  },
+  {
+   "say": "Study 3 involved 62 female Southampton undergraduates, randomly assigned to negative, neutral, or positive mood conditions through news stories. They then completed nostalgia measures. The negative condition scored higher than both comparison conditions; the positive and neutral conditions did not differ significantly.",
+   "show": {
+    "type": "stat",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "title": "Study 3 sample",
+    "big": "62",
+    "label": "Female undergraduate volunteers"
+   }
+  },
+  {
+   "say": "When hearing an experiment described, it is tempting to picture only its most emotional scene. The comparison group matters just as much. Without it, we cannot tell whether the response differs from what happens under another condition. Comparing the groups gives a higher score a clear reference point.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "More than a sad story",
+    "sub": "A comparison matters"
+   }
+  },
+  {
+   "say": "Another useful question is what a result actually answers. If your question concerns nostalgia after a mood manipulation, the answer should stay close to that sequence. You would need a different comparison to establish whether remembering afterward improved the mood.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Read the result carefully",
+    "items": [
+     "Compare the conditions",
+     "Name the measure",
+     "Keep the question narrow"
+    ]
+   }
+  },
+  {
+   "say": "Now return to the imaginary kitchen. You might describe its mood as low, but that description leaves something out. In this scene, the missing piece is company. You want someone across the table, someone to share the unimportant story with. That makes loneliness the more precise question to investigate.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "A more specific feeling",
+    "sub": "Missing company"
+   }
+  },
+  {
+   "say": "Study 4 randomly assigned 43 Southampton undergraduates to high or low loneliness conditions. Differently worded questionnaires and false feedback formed the manipulation. Participants then reported current loneliness and completed an 18-item inventory measuring how much they missed aspects of their past.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Wildschut and colleagues, 2006",
+    "where": "Study 4, Southampton",
+    "what": "Randomized loneliness comparison"
+   }
+  },
+  {
+   "say": "The sample contained 40 women and 3 men. Keep those people in view when imagining what the experiment can tell us. A roomful of student volunteers is a particular setting, rather than a miniature version of every person who has ever missed someone on a quiet evening.",
+   "show": {
+    "type": "bars",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Study 4 sample",
+    "unit": "participants",
+    "bars": [
+     [
+      "Women",
+      40.0
+     ],
+     [
+      "Men",
+      3.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The feedback was part of the experiment, rather than a genuine discovery about each participant. An official-looking message about your social life might send you searching for examples that seemed to fit. That is an imagined response, but it helps make the procedure intelligible.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A staged message",
+    "sub": "Not a personal diagnosis"
+   }
+  },
+  {
+   "say": "The experimental experience came before the questions about missing the past. For our open question, that order is the hinge. We began by wondering whether loneliness merely sat beside nostalgia. Now there is a comparison arranged to examine whether changing the starting experience changes what follows.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Keep the sequence visible",
+    "items": [
+     "Questionnaire and feedback",
+     "Current loneliness",
+     "Missing the past"
+    ]
+   }
+  },
+  {
+   "say": "The researchers compared the average responses in the high and low loneliness conditions. That comparison matters more to the experimental question than any individual account. A vivid personal story might stay with you longer, but it cannot tell us whether the conditions produced different results across the groups.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "The question becomes testable",
+    "sub": "Look across the groups"
+   }
+  },
+  {
+   "say": "The average nostalgia-inventory scores were 3.01 in the high loneliness condition and 2.56 in the low loneliness condition, on a scale from 1 to 5. This supports loneliness eliciting nostalgia under the tested conditions. It does not establish that nostalgia subsequently relieved loneliness.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "title": "Study 4 nostalgia inventory",
+    "items": [
+     "High loneliness: 3.01",
+     "Low loneliness: 2.56",
+     "Scale: 1 to 5"
+    ]
+   }
+  },
+  {
+   "say": "That gives our question an answer without turning it into a rule for your next evening. Can is a spacious word here. Always would be much more demanding. You can recognize the possibility in a familiar experience while leaving room for occasions when an old memory arrives for an entirely different reason.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "An answer with room around it",
+    "sub": "Can, rather than always"
+   }
+  },
+  {
+   "say": "Back in the imaginary kitchen, perhaps the first thing you notice is the silence, and only afterward do you remember a voice. Perhaps, in a different imagined evening, you discover a photograph first. The point is to keep both stories available, rather than forcing every memory through the same doorway.",
+   "show": {
+    "type": "list",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "title": "Could missing company bring company to mind?",
+    "items": [
+     "Feeling the silence first",
+     "Finding a photograph first"
+    ]
+   }
+  },
+  {
+   "say": "It also helps to listen to the wording of a measure. Missing an aspect of your past leaves room for many possible scenes: a person, a place, a way an afternoon used to unfold. Before translating a score into a richer emotional story, pause and ask how much of that story the question actually captured.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Stay close to what was asked",
+    "sub": "Missing the past"
+   }
+  },
+  {
+   "say": "Two people could give the same rating while thinking about entirely different things. One pictures a lively meal; another pictures a quiet walk. Their matching answers would not make those experiences identical. A scale can make comparison possible while leaving the texture of a particular memory undescribed.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Questions a score cannot answer alone",
+    "items": [
+     "Which memory appeared?",
+     "What did it feel like?",
+     "What happened afterward?"
+    ]
+   }
+  },
+  {
+   "say": "You do not have to turn your own memories into a questionnaire while listening. If someone has come to mind, there is no assignment hidden here. There may simply be a place you associate with them: across a table, beside you on a path, halfway through a conversation you would like to continue.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "No need to inspect yourself",
+    "sub": "Let the example stay gentle"
+   }
+  },
+  {
+   "say": "Those two cups might belong to an unremarkable afternoon. No celebration, no carefully arranged occasion, just enough time to sit together. If that were your memory, what would you want back: the cups, the room, the afternoon, or the ease of having someone there? There is no required answer.",
+   "show": {
+    "type": "photo",
+    "file": "lf13_b03_02.jpg",
+    "cap": "The conversation you remember"
+   }
+  },
+  {
+   "say": "You might choose the ease. In the imagined conversation, you would not need to explain every name or begin every story at the beginning. Perhaps the other person already knew the small details. That is one way to picture what remembered company could mean, without treating the picture as another experimental finding.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "An ordinary kind of importance",
+    "sub": "Someone who would understand"
+   }
+  },
+  {
+   "say": "And now we reach a distinction that is easy to lose in ordinary conversation. The feeling that starts an experience and the feeling inside the experience need not be described with the same word. Asking why you opened a letter is different from asking how you felt while reading it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "n": 8,
+    "title": "The trigger and the experience"
+   }
+  },
+  {
+   "say": "You might open a letter because you miss its writer, feel a little warmer at a familiar joke, then feel the absence again as you put it down. This is an imagined emotional journey, not a measured pattern or a prediction about you. The smile would not erase the missing, and the missing would not make the smile false. It would simply give the scene more than one feeling to hold.",
+   "show": {
+    "type": "curve",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "An imagined moment, not measured data",
+    "x": "Time reading a letter",
+    "y": "Warmth of feeling",
+    "peak": 0.5,
+    "label": "A familiar joke"
+   }
+  },
+  {
+   "say": "Our experimental question concerned the arrival of nostalgia. The question waiting beyond it concerns its emotional shape. It would be premature to answer that second question merely because the first comparison worked. Finding what opens a door does not yet tell you what the room beyond it contains.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "An unfinished explanation",
+    "sub": "The next question is different"
+   }
+  },
+  {
+   "say": "You could miss being there and feel glad it happened without correcting yourself. Missing makes room for absence. Gratitude makes room for what mattered. Neither requires you to declare that every detail of the earlier time was better.",
+   "show": {
+    "type": "list",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "title": "Room for both feelings",
+    "items": [
+     "Missing an earlier time",
+     "Feeling grateful it happened"
+    ]
+   }
+  },
+  {
+   "say": "Back at the imaginary table, the room is still quiet. The remembered person has not walked through the door. But perhaps the scene you are considering includes a clumsy joke, an interrupted sentence, or an ordinary kindness. Those details belong to the story without deciding how you should feel.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Return to the quiet table",
+    "sub": "Let the memory have detail"
+   }
+  },
+  {
+   "say": "You might find yourself wondering how the ache and the value fit together. Does the remembered kindness soften the absence, or make it sharper, or leave you holding both? Rather than choosing an answer in advance, we can turn toward the way people describe the movement inside their nostalgic stories.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Two feelings can frame a question",
+    "items": [
+     "The ache of absence",
+     "The value of what happened"
+    ]
+   }
+  },
+  {
+   "say": "That is where the puzzle becomes especially interesting. A lonely starting point can lead us toward a memory, but why might that memory contain comfort as well as longing? To understand that turn, let's look more closely at how a difficult feeling and a valued experience can inhabit the same story.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "From missing to meaning",
+    "sub": "Follow the turn"
+   }
+  }
+ ]
+}

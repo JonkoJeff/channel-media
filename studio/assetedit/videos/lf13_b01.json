@@ -1,0 +1,357 @@
+{
+ "id": "lf13_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Picture yourself finding an old photograph while looking for something else. There is someone you miss, caught halfway through a smile. For a moment, they feel unexpectedly close. Here is the gentle puzzle: remembering another time can become something you feel right now.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "An old photograph",
+    "sub": "A feeling in the present"
+   }
+  },
+  {
+   "say": "Tonight, we'll explore what makes a memory nostalgic, why an ordinary scene might matter so much, and how missing something can sit beside feeling grateful for it. We'll also follow a rather curious question about warmth. Could remembering a meaningful moment change how warm a room seems? We'll reach that question a little later.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "What makes a memory nostalgic",
+     "Why ordinary scenes matter",
+     "Sadness and comfort together",
+     "A question about warmth"
+    ]
+   }
+  },
+  {
+   "say": "The photograph rests inside an open album on the table. You had meant to find a spare envelope, perhaps, or the instructions for something you no longer own. Now you have stopped searching. The drawer is still open, but your attention has settled on a detail near the edge of the picture.",
+   "show": {
+    "type": "photo",
+    "file": "lf13_b01_01.jpg",
+    "cap": "Something you weren't looking for"
+   }
+  },
+  {
+   "say": "Perhaps it is a familiar sleeve, an uneven garden chair, or the corner of a table where everyone used to gather. Nothing especially remarkable is happening. There is no ceremony to explain why you kept the photograph. Someone simply took a picture, and this small afternoon survived.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The detail at the edge",
+    "sub": "A small afternoon"
+   }
+  },
+  {
+   "say": "You might recognize the place immediately. You might also remember who took the picture and what happened just afterward. But suppose something else arrives alongside those details: tenderness, a little longing, and the wish to stay with the image. That feeling is the question we are beginning with tonight.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Looking and feeling",
+    "items": [
+     "Recognizing the scene",
+     "Remembering the occasion",
+     "Feeling its significance"
+    ]
+   }
+  },
+  {
+   "say": "Let's make a little room around that question. When we say nostalgia, what are we actually describing? Is it simply remembering something old, or is there a difference between retrieving an event and feeling drawn toward it? Before asking what nostalgia does, we need to know what we mean by it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 1,
+    "title": "Remembering with a feeling"
+   }
+  },
+  {
+   "say": "Tim Wildschut, Constantine Sedikides, Jamie Arndt, and Clay Routledge examined nostalgia in a paper published in 2006 in the Journal of Personality and Social Psychology. Their questions concerned its content, its triggers, and its possible functions. That gives us a useful starting point: looking closely at the experience before deciding what it means.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Wildschut and colleagues",
+    "where": "Southampton and Missouri researchers",
+    "what": "Nostalgia: Content, Triggers, Functions, published in 2006"
+   }
+  },
+  {
+   "say": "The paper brought together seven studies. We will meet particular findings when they belong in the story. For now, there is no need to hold a collection of results in your head. We only need an opening distinction, something simple enough to carry back to the photograph on the table.",
+   "show": {
+    "type": "stat",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "The research programme",
+    "big": "7",
+    "label": "studies in the 2006 paper"
+   }
+  },
+  {
+   "say": "If someone asks what you had for lunch yesterday, you might picture a bowl, remember where you sat, and supply an answer. Perhaps the recollection feels quite neutral. You have found a detail from your past without wanting to linger over it or feeling that it says much about your life.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "An ordinary recollection",
+    "sub": "Finding a detail"
+   }
+  },
+  {
+   "say": "Now think of a different lunch, long ago, with someone whose company you loved. You picture the way they moved a cup aside to make room for you. The meal itself barely matters. What holds your attention is the small kindness, and what being there with that person meant to you.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "The same table, another feeling",
+    "items": [
+     "A remembered lunch",
+     "A familiar companion",
+     "Something personally meaningful"
+    ]
+   }
+  },
+  {
+   "say": "Your memories need not resemble either lunch. Perhaps your photograph would show a school corridor, a quiet kitchen, or a footpath after rain. You do not need to search for a grand occasion. For our question, the important thing is whether the remembered scene carries personal feeling.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Let the memory stay small",
+    "sub": "No perfect memory required"
+   }
+  },
+  {
+   "say": "The paper cites a dictionary definition of nostalgia as “a sentimental longing for the past.” That wording leaves room for pleasure and for distance. You can be glad that something happened while also wishing you could step into it again. Looking at the photograph, you may find room for both feelings.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "text": "A sentimental longing for the past",
+    "by": "New Oxford Dictionary of English, 1998, cited by Wildschut et al., 2006"
+   }
+  },
+  {
+   "say": "The researchers organized their investigation around those different questions: what people remember, what brings nostalgia on, and what follows it. We will take our time with each. First, though, let's stay beside the open album, before turning a private feeling into a tidy explanation.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Three research questions",
+    "items": [
+     "Content: what do people remember?",
+     "Triggers: what brings nostalgia on?",
+     "Functions: what follows it?"
+    ]
+   }
+  },
+  {
+   "say": "Suppose the person in the picture is someone you still speak to. You could send them a message this evening. Even so, that particular afternoon is unavailable. The old chair might be gone, the garden changed, and both of you older. You can welcome the connection while feeling the distance around it.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Close, and out of reach",
+    "sub": "Connection and distance"
+   }
+  },
+  {
+   "say": "You might find yourself smiling at the photograph and then growing quiet. There is nothing you have to solve about that change. The smile does not cancel the longing, and the longing does not make the smile insincere. You do not have to choose a single emotional colour for the moment.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "title": "Two feelings can fit",
+    "items": [
+     "Glad it happened",
+     "Wishing for it again",
+     "Aware that life has moved"
+    ]
+   }
+  },
+  {
+   "say": "This brings us to a useful word: bittersweet. Wildschut and colleagues describe nostalgia as personally relevant and predominantly positive, while allowing for negative feeling within it. For tonight, hold onto that combination. The remembered moment matters to you, and the pleasure of revisiting it can carry an edge of missing it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 2,
+    "title": "The bittersweet part"
+   }
+  },
+  {
+   "say": "Look again at the photograph. Perhaps the afternoon included a delayed bus, uncomfortable shoes, and an argument over directions. Those details could belong to the same day as the tenderness. You do not have to turn the whole occasion into a perfect afternoon to understand why one small moment feels precious.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "What the picture leaves outside",
+    "sub": "An imperfect afternoon"
+   }
+  },
+  {
+   "say": "You can take those questions one at a time as you look at the picture. You are not filling out a questionnaire, and there are no correct answers waiting underneath. They simply let you approach the scene from different directions. The event, its significance, and your present response each offer something to consider.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "A question worth keeping",
+    "items": [
+     "What happened?",
+     "What mattered to me?",
+     "What am I feeling now?"
+    ]
+   }
+  },
+  {
+   "say": "You might know exactly when the photograph was taken and feel very little about it. Or you might be unsure of the date while caring deeply about the person beside you. Knowing when something happened is different from knowing why it matters to you. Tonight, we are following that second question.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "More than the date",
+    "sub": "What matters to you"
+   }
+  },
+  {
+   "say": "Another picture in the album shows two empty chairs after everyone has gone indoors. One chair has been pulled a little closer to the table. You could describe the scene entirely through furniture and light. But you remember who sat there, and the empty place takes on a different meaning.",
+   "show": {
+    "type": "photo",
+    "file": "lf13_b01_02.jpg",
+    "cap": "The place beside you"
+   }
+  },
+  {
+   "say": "Are you drawn to the garden itself, the conversation that happened there, or the version of your life that surrounded it? There is no need to decide yet. Let the question remain beside the picture. Soon, we will look at what people actually included when they described meaningful scenes from their own past.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "What are you missing?",
+    "sub": "Keep the question open"
+   }
+  },
+  {
+   "say": "What would you mention first if someone asked you to describe a nostalgic memory? You might begin with a person, a place, or something that happened there. As we move into the research, we will keep track of what people were asked to do and what their answers can reasonably tell us.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "Before we look closer",
+    "items": [
+     "What people were asked",
+     "What they described",
+     "What their answers can tell us"
+    ]
+   }
+  },
+  {
+   "say": "And if an old photograph leaves you feeling nothing in particular, you do not have to supply an emotion. You can simply follow the question. Perhaps another memory will feel familiar, or perhaps you will enjoy understanding an experience that someone else describes. Either is a comfortable place to listen from.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A gentle boundary",
+    "sub": "Nothing you have to feel"
+   }
+  },
+  {
+   "say": "For now, you have moved from a small object to a larger question about meaning. You began with paper, a face, and a familiar scene. You paused over the feeling that arrived with them. Next, we will look inside remembered scenes rather than leaving nostalgia as a soft, unnamed mood.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "From the picture to its meaning",
+    "items": [
+     "A small object",
+     "A feeling in the present",
+     "A personally meaningful scene"
+    ]
+   }
+  },
+  {
+   "say": "Before we do, keep one unusual question in mind. When someone calls a memory warm, could there be anything beyond a pleasing figure of speech? Could remembering affect how warm a room seems? Later, we will examine that question carefully, including the difference between feeling warmer and changing your body's temperature.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "A question about warmth",
+    "sub": "For a little later"
+   }
+  },
+  {
+   "say": "Calling a memory warm leaves something unanswered: do you mean affection, physical comfort, or both? To explore the temperature question, we will need to look at what researchers actually measured. Until we reach it, you can keep enjoying the garden scene while leaving that question open.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Keep the question precise",
+    "items": [
+     "Remembered warmth",
+     "Perceived room temperature",
+     "Different kinds of measurement"
+    ]
+   }
+  },
+  {
+   "say": "Return to the photograph for a moment. The room around you is still the room you were in before you found it. The envelope is still missing. Yet you are now thinking tenderly about someone who was not on your mind when you opened the drawer.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Back beside the drawer",
+    "sub": "A quiet pause"
+   }
+  },
+  {
+   "say": "Perhaps your answer would be a person's patience, a feeling of welcome, or the pleasure of having nowhere else to be. Perhaps you would choose something entirely different. You need not do anything with the answer tonight. For now, noticing what gives the picture its importance to you is enough.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "text": "What matters in this picture?",
+    "by": "A question for reflection"
+   }
+  },
+  {
+   "say": "We can now give the opening feeling a little shape. Nostalgia is more specific than merely locating an old event. In the account we are following, it is a personally meaningful emotion, often pleasant, with room for longing and sadness. That is the bittersweet quality we wanted to understand before going further.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "Our starting point",
+    "items": [
+     "A personal past",
+     "Emotional significance",
+     "Sweetness with an edge of longing"
+    ]
+   }
+  },
+  {
+   "say": "You can set the photograph down without settling everything it brings up. Our first question has an answer broad enough to begin with: the picture matters to you because remembering it is also a feeling. Now we can ask a more concrete question about the scene that feeling gathers around.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Let the photograph rest",
+    "sub": "The question becomes clearer"
+   }
+  },
+  {
+   "say": "Look once more at the chair, the table, and the familiar sleeve near the edge. Which detail would you mention if you were telling someone why this afternoon stayed with you? Let's turn to people's own accounts, and look closely at what they remembered, who appeared there, and what those remembered moments meant.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 3,
+    "title": "The people inside the memory"
+   }
+  }
+ ]
+}

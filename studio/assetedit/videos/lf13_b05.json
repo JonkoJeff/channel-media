@@ -1,0 +1,335 @@
+{
+ "id": "lf13_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "That brings us to the warmth itself. An old photograph rests in your hands while the room around you feels a little chilly. The memory might soften the evening, but could it also change how warm the room seems? To explore that possibility, we need to separate the feeling in the memory from the temperature we would read on a thermometer.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 10,
+    "title": "When warmth becomes a question"
+   }
+  },
+  {
+   "say": "A remembered kitchen might come with someone you love moving between the table and the counter. Perhaps there was a particular cup, a familiar chair, or a voice calling you over. You can imagine those details without claiming that they have changed anything around you. The interesting question begins when someone asks you to judge the room you are actually sitting in.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "A warmer memory",
+    "sub": "A colder room"
+   }
+  },
+  {
+   "say": "There are several possible meanings hiding inside the phrase feeling warmer. You might estimate a higher room temperature. You might find a cold sensation easier to tolerate. Or a measurement might show that your core temperature changed. Those would be different findings, and a good story about nostalgia needs to keep them separate rather than letting one quietly stand in for another.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "title": "Keep these separate",
+    "items": [
+     "Estimated room temperature",
+     "Time tolerating cold",
+     "Measured core temperature"
+    ]
+   }
+  },
+  {
+   "say": "A paper published in 2012 by Xinyue Zhou and colleagues tested the first two possibilities in separate experiments. Both involved undergraduate volunteers at Sun Yat-Sen University in China. The researchers compared recalling a nostalgic event with recalling an ordinary autobiographical event. That comparison matters: the question was about the kind of remembering, rather than remembering versus doing nothing.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "who": "Zhou and colleagues, 2012",
+    "where": "Sun Yat-Sen University",
+    "what": "Nostalgic versus ordinary recollection"
+   }
+  },
+  {
+   "say": "The room-temperature experiment involved 64 volunteers. They sat in a room controlled at 16 degrees Celsius, recalled their assigned kind of event, and later estimated the room temperature. Keep that little sequence in mind. A memory came first, then a judgment about the surroundings, giving the researchers a way to ask whether those two things were connected.",
+   "show": {
+    "type": "stat",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "title": "The room-judgment experiment",
+    "big": "64",
+    "label": "undergraduate volunteers"
+   }
+  },
+  {
+   "say": "For an imagined ordinary memory, you might think about putting away groceries or walking along a familiar corridor. For an imagined nostalgic one, you might choose a personally meaningful afternoon from years ago. Those are examples to help picture the comparison, rather than the volunteers' reported memories. The important detail is that both groups were looking backward into their own lives.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "An ordinary memory counts too",
+    "sub": "The comparison matters"
+   }
+  },
+  {
+   "say": "Participants listed four keywords related to their event and briefly reflected on it and their feelings. The researchers also checked how nostalgic participants felt before asking for their temperature estimate. This was a short recollection task, followed by a specific judgment. It was not a test of spending an entire winter surrounded by old photographs.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The memory task",
+    "items": [
+     "Recall an event",
+     "List four relevant keywords",
+     "Reflect on the event and feelings"
+    ]
+   }
+  },
+  {
+   "say": "The average estimate was 19.81 degrees after nostalgic recollection and 17.44 degrees after ordinary recollection. Those are estimates of the room, not readings of the participants' bodies. Both averages were above the controlled temperature. The finding concerns the difference between the groups, rather than one group discovering the room's exact temperature.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "title": "Average room estimates",
+    "items": [
+     "Nostalgic recall: 19.81°C",
+     "Ordinary recall: 17.44°C",
+     "Controlled room: 16°C"
+    ]
+   }
+  },
+  {
+   "say": "An imaginary thermostat on the wall helps separate the two. The thermostat setting is the reference; your estimate is your judgment of the room. In this experiment, the nostalgic group gave the higher average estimate. Calling that a warmer judgment preserves the result without adding an unmeasured claim about heat appearing inside the body.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The room stayed the reference",
+    "sub": "The estimate was the outcome"
+   }
+  },
+  {
+   "say": "Return to the photograph for a moment. You might describe its memory as warm because of the person in it, the welcome you remember, or the way you imagine that afternoon. The experiment gives us a more specific possibility to consider alongside that everyday language. Remembering nostalgically was followed by a warmer estimate of a cool room.",
+   "show": {
+    "type": "photo",
+    "file": "lf13_b05_01.jpg",
+    "cap": "The photograph and the room"
+   }
+  },
+  {
+   "say": "That is already an interesting answer to the question we left open. The warmth was not explored only as a poetic description. It was also examined through a temperature judgment. But another question is waiting underneath it: does this make nostalgia a dependable source of comfort for everyone, whenever they need it?",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "text": "A warmer estimate is a judgment.",
+    "by": "Reading the experiment"
+   }
+  },
+  {
+   "say": "Before answering that, consider a separate test. Estimating a room asks what the environment seems like. Keeping your hand in cold water asks how long you continue with an uncomfortable experience. Those answers might move together, or they might come apart. That is why the researchers needed another experiment rather than treating the room judgment as the whole story.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "A different question",
+    "sub": "What can someone tolerate?"
+   }
+  },
+  {
+   "say": "The separate cold-tolerance experiment involved 80 volunteers. Again, the comparison was nostalgic versus ordinary autobiographical recollection. Afterwards, participants placed their dominant hand in water maintained at 4 degrees Celsius. They were instructed to withdraw it when the sensations became too uncomfortable, and an experimenter timed how long the immersion lasted.",
+   "show": {
+    "type": "stat",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "title": "The cold-tolerance experiment",
+    "big": "80",
+    "label": "undergraduate volunteers"
+   }
+  },
+  {
+   "say": "The person timing the immersion did not know which recollection condition a participant had received. That detail kept the memory assignment out of the timer's knowledge. The outcome was elapsed time until withdrawal. This was a narrowly defined behavioral measure: how long a participant kept a hand immersed under those particular instructions and conditions.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "who": "Zhou and colleagues, 2012",
+    "where": "Separate cold-pressor experiment",
+    "what": "Timed immersion at 4°C"
+   }
+  },
+  {
+   "say": "The nostalgic group's average immersion time was 25.94 seconds, compared with 19.71 seconds in the ordinary-recollection group. These are group averages from that experiment. They are not a prediction of how long you would last, and they do not tell us that every nostalgic participant stayed immersed longer than every participant in the comparison group.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "title": "Average immersion duration",
+    "items": [
+     "Nostalgic recall: 25.94 seconds",
+     "Ordinary recall: 19.71 seconds"
+    ]
+   }
+  },
+  {
+   "say": "Now we have two different outcomes to hold side by side. One concerns an estimate of room temperature. The other concerns the duration of a cold-water immersion. It would be easy to compress both into a sentence about memories heating the body. Keeping the actual measures in view gives us a more faithful, and more interesting, account.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Two findings, two measures",
+    "sub": "Keep their meanings intact"
+   }
+  },
+  {
+   "say": "Neither of these experiments established an increase in measured core temperature. That missing measurement matters because the words physical warmth can invite a stronger picture than the methods support. You can appreciate a change in experience or behavior without supplying an unseen thermometer reading. The result stays meaningful when we let it remain the result that was actually measured.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "title": "What these tests measured",
+    "items": [
+     "A room-temperature estimate",
+     "A timed withdrawal",
+     "No core-temperature outcome"
+    ]
+   }
+  },
+  {
+   "say": "There is no personal challenge tucked inside those immersion times. You do not need to imagine proving the finding with your own hand, or matching either group's average. For our purposes, the useful exercise is simply understanding the comparison. What changed between conditions was the recollection task; what the researchers recorded afterwards was the time until withdrawal.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "No personal performance target",
+    "sub": "A laboratory comparison"
+   }
+  },
+  {
+   "say": "The cold-tolerance experiment also included measures of positive and negative affect. The group difference remained statistically significant when the researchers included those measures in a further analysis. That addresses a possible explanation involving general mood. It still leaves room for questions about precisely how the recollection task produced the observed difference.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "who": "A further analysis",
+    "where": "Positive and negative affect",
+    "what": "The difference remained statistically significant"
+   }
+  },
+  {
+   "say": "An experiment can give you an outcome without showing every step that led to it. A door opening on the other side of a room offers a simple comparison: you know the door moved, but you might still need a closer look at the latch. Here, the judgments and immersion times are the visible outcomes. A complete explanation of the mechanism requires more than those outcomes alone.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "An outcome is not a mechanism",
+    "sub": "Leave room for questions"
+   }
+  },
+  {
+   "say": "So we can return to the question about a universal benefit. These experiments support a narrower claim about particular recollection tasks and immediate outcomes in undergraduate volunteers. They do not establish that every person will feel comforted by every old memory. They also do not tell us how long any effect would continue after the experimental session.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Read the finding at its scale",
+    "items": [
+     "These volunteers",
+     "These recollection tasks",
+     "These immediate outcomes"
+    ]
+   }
+  },
+  {
+   "say": "Sometimes a box of photographs might bring to mind one you would rather put aside. Nothing in these comparisons requires you to turn that photograph into comfort. The laboratory task is a way of studying an emotion, rather than an instruction about how you should respond to your own history. You are allowed to leave an imagined photograph in its box.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Choose the memory in your imagination",
+    "sub": "No required feeling"
+   }
+  },
+  {
+   "say": "That boundary gives the research room to be useful. You can hear that a nostalgic recollection changed an average outcome without wondering whether you have failed if your own evening feels different. We are following evidence about a comparison. We are not setting a standard for the correct emotional response to a memory.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "text": "A group finding is not a personal promise.",
+    "by": "Keeping the conclusion modest"
+   }
+  },
+  {
+   "say": "There is also a published correction attached to this paper. The notice identifies an incorrect last sentence, supplies its replacement, and states that all versions of the article have been corrected. Checking that notice keeps the account anchored to the corrected publication.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "title": "The published correction",
+    "items": [
+     "Last sentence corrected",
+     "All versions corrected"
+    ]
+   }
+  },
+  {
+   "say": "The answer to our temperature question is therefore specific. Nostalgic recollection was followed by a higher average room-temperature estimate in one experiment and longer average cold-water immersion in another. That takes us beyond warmth as a figure of speech. It stops short of showing that memories raised core temperature or offered a universal benefit.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The modest answer",
+    "sub": "Warmth beyond a metaphor"
+   }
+  },
+  {
+   "say": "Those open questions do not erase what was observed. They tell us where the observation ends. Think of drawing a small circle around the evidence rather than stretching it to cover every possible experience. Inside that circle are the comparisons we have just followed. Outside it are questions that deserve their own measurements.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What remains open",
+    "items": [
+     "The exact mechanism",
+     "Effects beyond these conditions",
+     "How long a change might last"
+    ]
+   }
+  },
+  {
+   "say": "Now let the imaginary thermometer fade from the picture. Return instead to that remembered kitchen, the chair beside the table, and the person who called you over. If you describe that scene as warm, which detail are you reaching for? Perhaps the important thing in your imagined memory is the welcome, rather than anything you could measure in degrees.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Back to the remembered kitchen",
+    "sub": "What made it welcoming?"
+   }
+  },
+  {
+   "say": "This gives us a different question to carry forward. A room-temperature estimate concerns how the surroundings seem. A sense of connection concerns how close or supported someone feels. The cold experiments cannot answer that social question for us. To explore it, we need research that asks about connection directly, rather than borrowing the answer from a temperature task.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "A different kind of warmth",
+    "items": [
+     "Feeling welcomed",
+     "Feeling included",
+     "Feeling connected"
+    ]
+   }
+  },
+  {
+   "say": "The photograph can rest back on the table with that distinction in mind. We have followed the question about physical warmth as far as these experiments allow. Now attention can settle on the person in the picture. Can recalling their company influence your sense of connection in the present, even while the photograph remains a photograph and the earlier afternoon remains in the past?",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "From degrees to connection",
+    "sub": "The person inside the memory"
+   }
+  }
+ ]
+}

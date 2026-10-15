@@ -1,0 +1,336 @@
+{
+ "id": "lf13_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now, let’s stay with what comes back when you remember. Picture a chipped cup in an old kitchen. You might describe its colour before you mention anything else. But what happens if you remove the cup from the kitchen, from the conversation, from the person who always put it in your hands?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 4,
+    "title": "The people inside the memory"
+   }
+  },
+  {
+   "say": "Would you miss the cup in quite the same way? Perhaps you would. An object can matter in its own right. But as you linger over the memory, someone else might enter the scene. That gives us a question to carry for a little while: are you missing a thing, or a relationship gathered around it?",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "A familiar object",
+    "sub": "An open question"
+   }
+  },
+  {
+   "say": "To explore that question, we need to look closely at what people actually wrote. Think of reading a memory with several different questions in mind. What is the story about? Who appears in it? And is the person remembering standing at the edge of the scene, or taking part in what happens?",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "title": "Looking inside a memory",
+    "items": [
+     "What happened",
+     "Who was there",
+     "Where you were in the story"
+    ]
+   }
+  },
+  {
+   "say": "In their paper published in 2006, Tim Wildschut and colleagues examined 42 autobiographical narratives from the periodical Nostalgia. These were published personal accounts, rather than memories collected from a representative population survey. That distinction matters whenever we put a number beside a story.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Wildschut and colleagues, 2006",
+    "where": "Southampton and Missouri research team",
+    "what": "Study 1: autobiographical narratives"
+   }
+  },
+  {
+   "say": "Forty-two is the number of narratives examined here. It is not the number of people whose memories yours should resemble. A small shelf of personal stories offers a useful comparison: you could describe what appears on those pages, while still leaving room for many different stories beyond the shelf.",
+   "show": {
+    "type": "stat",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Study 1 material",
+    "big": "42",
+    "label": "Published autobiographical narratives"
+   }
+  },
+  {
+   "say": "A written account also gives us a particular viewpoint. Suppose you describe an afternoon with an old friend. You might include the conversation and leave out the journey there. Someone reading your account would have access to what you chose to tell. They would not have a recording of the whole afternoon.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "Reading with care",
+    "sub": "What a story can show"
+   }
+  },
+  {
+   "say": "Two trained judges coded the accounts independently. Their categories were chosen beforehand and refined after inspecting a sample of 10 narratives; remaining disagreements were discussed. Coding means applying a shared set of questions to the writing, rather than simply collecting whichever passages feel moving.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "title": "How the narratives were examined",
+    "items": [
+     "Independent reading",
+     "Defined categories",
+     "Discussion of disagreements"
+    ]
+   }
+  },
+  {
+   "say": "One question concerned the storyteller’s place in the scene. Take a celebration as an example. You could write about watching from a doorway, helping someone prepare, or being the person everyone gathered around. Those would be different positions within a story, even if the room and the occasion stayed exactly the same.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The person remembering",
+    "sub": "Participant or spectator?"
+   }
+  },
+  {
+   "say": "The researchers distinguished those kinds of roles. In the Study 1 narratives, the self most often occupied a major role. That describes the storyteller’s place within these accounts, rather than establishing how people appear in every nostalgic memory.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The storyteller’s place",
+    "items": [
+     "Sole actor",
+     "Major role",
+     "Minor role",
+     "Outside observer"
+    ]
+   }
+  },
+  {
+   "say": "For an everyday illustration, picture yourself carrying plates to a table while a friend makes room. Nothing especially dramatic needs to happen in this imagined afternoon. You exchange a look, someone moves a chair, and you sit down. You are part of the occasion, with other people answering your presence.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Inside the scene",
+    "sub": "An imagined afternoon"
+   }
+  },
+  {
+   "say": "Return to the cup for a moment. Replace it, just in your mind, with an identical one in an unfamiliar room. The shape would be there. The colour would be there. Yet, in this little thought experiment, the person who handed it to you would still be missing. What would you want to bring back first?",
+   "show": {
+    "type": "photo",
+    "file": "lf13_b02_01.jpg",
+    "cap": "What belongs around the cup?"
+   }
+  },
+  {
+   "say": "In Study 1, persons were the most common category for the object of nostalgia. Here, “object” means what the nostalgic account centres on; it does not necessarily mean a physical possession. A person, an occasion, or a setting can be the focus of a story.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Wildschut and colleagues, 2006",
+    "where": "Study 1 content analysis",
+    "what": "Persons were the most common object category"
+   }
+  },
+  {
+   "say": "The chart reports persons at 33 percent and tangible objects at 12 percent. These figures describe coding within this collection. They do not tell us the percentage of all nostalgic memories that involve people, or how much more important a person should feel than a possession.",
+   "show": {
+    "type": "bars",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "What Study 1 accounts centred on",
+    "unit": "Percent of narratives",
+    "bars": [
+     [
+      "Persons",
+      33.0
+     ],
+     [
+      "Tangibles",
+      12.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "A category still leaves plenty open. A story centred on a place could still contain a friend. A story centred on an object could still include a gift being given. When we call something the focus, we have not necessarily listed everything else that gives the scene its meaning.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Categories need context",
+    "sub": "Read beyond the label"
+   }
+  },
+  {
+   "say": "A house you once knew offers another everyday example. You might begin with the narrow hallway or the uneven step outside. Then, as you continue your invented description, a person appears at the door. The setting gives you somewhere to stand; the arrival gives you something to wait for.",
+   "show": {
+    "type": "list",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "title": "A place can hold company",
+    "items": [
+     "A doorway",
+     "A table",
+     "Someone arriving"
+    ]
+   }
+  },
+  {
+   "say": "That is an illustration, rather than another finding. To see whether the research pattern extended beyond the published accounts, the authors needed another collection of memories. Reading a magazine and asking people directly are different ways of opening the question, each with its own invitation about what to share.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Another collection of memories",
+    "sub": "A different invitation"
+   }
+  },
+  {
+   "say": "Study 2 involved 172 University of Southampton undergraduates, explicitly asked to describe a personally meaningful nostalgic experience. Persons and momentous events again featured prominently. This was a different sample and a more specific prompt, giving the researchers another view of nostalgic content.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Wildschut and colleagues, 2006",
+    "where": "University of Southampton",
+    "what": "Study 2: 172 undergraduates"
+   }
+  },
+  {
+   "say": "Consider the invitation itself. Being asked for a meaningful nostalgic experience gives you a different task from being asked what you did yesterday. You might pause over which memory to choose. Whatever you chose would be an answer to that invitation, rather than a complete inventory of your remembered life.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "What the invitation asks",
+    "sub": "One meaningful experience"
+   }
+  },
+  {
+   "say": "So we can keep our reading precise without losing the interesting part. We can ask what appears in the accounts and how the accounts were obtained. We can also leave other questions open. Describing remembered company, for example, is a different task from testing what remembering that company does to someone afterward.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "title": "Keep the question precise",
+    "items": [
+     "What these accounts contain",
+     "How they were elicited",
+     "What remains untested"
+    ]
+   }
+  },
+  {
+   "say": "Another invented scene might be a small celebration after a difficult week. You could describe the room, the food, or the weather outside. But if you were telling a friend why this particular evening mattered, where would your attention go? It might settle on the person who made room for you beside them.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "A celebration in the mind",
+    "sub": "Who makes it yours?"
+   }
+  },
+  {
+   "say": "You can try that question gently, without searching for the perfect memory. Leave every object in the scene exactly where it was, just for a moment, while removing the people. Would the occasion still feel like the occasion you meant? There is no required answer. The question simply helps us look more closely at what we value.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "text": "What would be missing if the people vanished?",
+    "by": "A question to consider"
+   }
+  },
+  {
+   "say": "Your own answer might include an animal, a landscape, or a quiet experience you had alone. You do not need to add a person to make a memory count. The research offers a pattern in particular accounts. It does not give you a checklist that your private experience must satisfy.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Different memories are welcome",
+    "sub": "No required cast"
+   }
+  },
+  {
+   "say": "You could keep a smooth pebble from a walk. Someone else could pick up the same pebble and see only a small stone. In your imagined story, you might remember who walked beside you. Or you might remember enjoying the quiet by yourself. The stone does not have to explain its significance to anyone.",
+   "show": {
+    "type": "photo",
+    "file": "lf13_b02_02.jpg",
+    "cap": "An ordinary keepsake"
+   }
+  },
+  {
+   "say": "Those layers give us a useful way to hold our opening question. There is the thing you can point to, the occasion you describe, and the meaning you give it now. You can be interested in all of them without assuming that one completely explains the others.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "Separate the layers",
+    "items": [
+     "The keepsake",
+     "The remembered occasion",
+     "Its personal meaning"
+    ]
+   }
+  },
+  {
+   "say": "So, do we miss the object or the relationship attached to it? The interpersonal themes in these narratives make room for the second possibility. A seemingly ordinary detail can belong to a story about being with someone. That is a more careful answer than saying every cherished object secretly stands for a person.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "The relationship attached to it",
+    "sub": "A modest answer"
+   }
+  },
+  {
+   "say": "And now the question begins to shift. We have been looking at who appears when someone describes the past. Set the keepsake down in your mind and look around your present room. The remembered conversation has company in it. The room around you might be quiet. What happens at the meeting point between those two scenes?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 5,
+    "title": "Remembered company"
+   }
+  },
+  {
+   "say": "The person in your imagined memory might live far away. Or your schedules may simply have stopped overlapping. You could miss a very ordinary kind of company: someone knowing where you put the cups, or understanding a reference without an explanation. There need not be a grand occasion in that remembered scene.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "From then to now",
+    "sub": "A quiet evening"
+   }
+  },
+  {
+   "say": "But finding people inside nostalgic accounts does not, by itself, explain why those accounts come to mind. We have reached a new question. Is remembered company something you happen to encounter on a lonely evening, or can the feeling of loneliness help bring that company into view?",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "title": "Two different questions",
+    "items": [
+     "Who appears in the memory?",
+     "What brings the memory to mind?"
+    ]
+   }
+  },
+  {
+   "say": "Let’s follow that question into the quiet room. The old cup is still on the table, and the remembered conversation belongs to another time. To understand why it might return tonight, we need to turn from the contents of the memory toward the circumstances in which nostalgia arrives.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The room around the memory",
+    "sub": "What calls it back?"
+   }
+  }
+ ]
+}

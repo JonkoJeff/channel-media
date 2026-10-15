@@ -1,0 +1,312 @@
+{
+ "id": "lf13_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "There is another kind of warmth to consider now: the feeling that someone has a place for you. Imagine remembering a kitchen where a friend always pulled out a chair before you asked. The chair is a small detail. The question it opens is larger. Can remembering that welcome influence how connected you feel here, after the scene itself has gone?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "n": 11,
+    "title": "Remembering company"
+   }
+  },
+  {
+   "say": "Tonight, that kitchen might come to mind while you sit in a quiet room. Nobody has entered your room, and no invitation has arrived. Yet the memory offers something more personal than the shape of the furniture. In this imagined moment, you remember being expected. Keep that distinction nearby, because it gives us a way to ask what an experiment actually needs to measure.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "An empty chair",
+    "sub": "A remembered welcome"
+   }
+  },
+  {
+   "say": "Feeling connected, liking yourself, and feeling happy sound like close neighbours. Still, you could imagine them coming apart. You might enjoy a peaceful afternoon alone without thinking about anyone else. You might feel proud of finishing something difficult while also feeling tired and cross. So a useful question is whether nostalgic remembering touches belonging specifically, alongside those other feelings.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "Different questions",
+    "items": [
+     "Feeling connected",
+     "Feeling good about yourself",
+     "Feeling pleasant emotions"
+    ]
+   }
+  },
+  {
+   "say": "What would happen if that remembered welcome became a simple recall task? Wildschut and colleagues examined nostalgia’s effects in Studies 5 through 7, published in 2006. Study 5 offers a place to begin: a comparison between nostalgic and ordinary remembering.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Wildschut and colleagues",
+    "where": "University of Southampton",
+    "what": "Published in 2006"
+   }
+  },
+  {
+   "say": "Study 5 involved 52 undergraduate volunteers. Random assignment determined whether they recalled a nostalgic event from their life or an ordinary event from the previous week. They wrote four keywords about their chosen event, spent a few moments thinking about it and how it made them feel, and then completed feeling ratings. The ordinary-memory group matters here: both groups remembered something, so this was more informative than comparing remembering with doing nothing.",
+   "show": {
+    "type": "stat",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Study 5 sample",
+    "big": "52",
+    "label": "Undergraduate volunteers"
+   }
+  },
+  {
+   "say": "After the recall task, the nostalgia group reported stronger social bonding, more positive self-regard, and more positive affect. Negative affect did not differ significantly. Those are findings about reported feelings after the task, rather than a count of new friendships. That gives us a partial answer to the question we opened with: recalling the past can influence a present feeling of connection, without anyone new arriving.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "who": "Study 5",
+    "where": "Nostalgic versus ordinary recall",
+    "what": "Immediate self-reported feelings"
+   }
+  },
+  {
+   "say": "Social bonding was assessed through feeling loved and protected; other items addressed self-regard and affect. Consider what those questions ask of you. Being asked whether you feel loved is different from being asked whether you enjoyed the memory. It directs attention toward your place in relation to other people, rather than simply whether the remembered afternoon was pleasant.",
+   "show": {
+    "type": "list",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "title": "What the ratings covered",
+    "items": [
+     "Loved and protected",
+     "Worthwhile in your own eyes",
+     "Happy and content"
+    ]
+   }
+  },
+  {
+   "say": "In our kitchen example, the welcome might be a friend noticing that you had gone quiet and leaving room for you to speak. You could describe the scene without making any claim about your social life tonight. The remembered welcome and tonight’s circumstances belong to different moments. That is why it helps to keep the feeling of connection separate from the number of people around you.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A feeling, not a head count",
+    "sub": "Keep the distinction"
+   }
+  },
+  {
+   "say": "Look at this imagined table as a visual metaphor, rather than a picture of the experiment. There are no participants here, and these cups prove nothing. They simply give our question a shape. What would you remember about a place like this: the objects, the conversation, or the sense that you did not need to earn your chair?",
+   "show": {
+    "type": "photo",
+    "file": "lf13_b06_01.jpg",
+    "cap": "A place at the table"
+   }
+  },
+  {
+   "say": "There is a temptation to turn a finding like this into a much bigger sentence: remember something lovely, and your relationships will improve. That would move beyond the question being tested. A rating after a recall task cannot tell us whether someone later made a difficult phone call, repaired an argument, or felt the same way the following morning.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "title": "Keep the comparison in view",
+    "items": [
+     "Different recall instructions",
+     "Feelings reported afterward",
+     "No long-term follow-up here"
+    ]
+   }
+  },
+  {
+   "say": "Nor do you owe a particular feeling to a memory. If our kitchen scene brings someone to mind and the strongest feeling is simply missing them, you have not answered incorrectly. We are following a research comparison, not setting an emotional assignment. You can listen to what the experiment suggests without asking your own memories to produce the same result on command.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Leave room for your experience",
+    "sub": "No required response"
+   }
+  },
+  {
+   "say": "The later experiments approached the question with different measures. Study 6 used more immersive recall and established questionnaires; the nostalgic group reported higher self-esteem and positive affect, and lower attachment anxiety. The avoidance difference was only marginal, and negative affect again showed no significant difference. That unevenness deserves to stay visible rather than being smoothed into a promise that everything improved.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 12,
+    "title": "Looking beyond the first measure"
+   }
+  },
+  {
+   "say": "These distinctions can sound technical until they touch an ordinary conversation. Worrying that someone cares less than you do is one question. Feeling comfortable letting them close is another. Feeling worthwhile yourself is another still. You do not need to remember the questionnaire names. The useful habit is to ask which experience a result actually describes before deciding what it means.",
+   "show": {
+    "type": "quote",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "text": "I worry that romantic partners won’t care about me as much as I care about them",
+    "by": "Attachment-anxiety questionnaire item used in Study 6"
+   }
+  },
+  {
+   "say": "A careful sentence may feel less satisfying than a sweeping one, but it gives you something firmer to hold. You can be interested in a difference in reported anxiety without treating it as a permanent change in someone’s relationships. And you can leave an uncertain finding uncertain. There is no need to make the evidence sound tidier than it is.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "A narrower sentence can help",
+    "sub": "Keep its edges"
+   }
+  },
+  {
+   "say": "Study 7 widened the social question beyond romantic relationships. Compared with ordinary recall, nostalgic recall produced higher reported confidence in starting relationships, sharing personal information, and offering emotional support. Notice the word confidence. The outcome concerned participants’ assessments of their abilities, rather than an observer watching them begin a friendship or comfort someone in distress.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "who": "Study 7",
+    "where": "Everyday relationships",
+    "what": "Perceived interpersonal competence"
+   }
+  },
+  {
+   "say": "Think of those as different doorways into company. In an imagined gathering, one person wonders how to introduce themselves. Another already knows everyone but wonders whether to admit they have had a difficult week. Someone else wants to help a friend and is unsure what to say. These examples illustrate the questions; they are not accounts of what the participants did.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "Different ways to connect",
+    "items": [
+     "Starting a conversation",
+     "Saying something personal",
+     "Listening with care"
+    ]
+   }
+  },
+  {
+   "say": "At that gathering, feeling able to speak and actually speaking are easy to distinguish. You could feel ready and decide to listen instead. You could feel awkward and say hello anyway. So we should let a confidence measure answer a confidence question, while leaving the next action open. That keeps the human scene larger than the score.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Confidence and action",
+    "sub": "Related questions, separate answers"
+   }
+  },
+  {
+   "say": "Taken together, these experiments invite a broader question about what remembered relationships mean in the present. They do not require us to blend their samples or pretend their measures were interchangeable. We can keep each window separate. One looks toward immediate feelings, another toward questionnaire responses, and another toward perceived social abilities. The view changes slightly as we move between them.",
+   "show": {
+    "type": "list",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "title": "Separate experiments",
+    "items": [
+     "Study 5: brief feeling ratings",
+     "Study 6: established questionnaires",
+     "Study 7: perceived social abilities"
+    ]
+   }
+  },
+  {
+   "say": "Return to our imagined kitchen for a moment. Perhaps the detail you choose is not a wonderful speech or a special occasion. Perhaps it is someone sliding the bread toward you without interrupting the conversation. If that were your memory, what would make it worth keeping? You might choose the gesture itself, or the ease of being included without a fuss.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Return to the kitchen",
+    "sub": "What mattered there?"
+   }
+  },
+  {
+   "say": "There is no need to decide that every ordinary kindness conceals a psychological mechanism. We can stay with the simpler question of meaning. In this example, passing the bread could stand for being considered. In another person’s story, it might be an unremarkable detail. The interpretation belongs to the person remembering, which is why an invented scene should remain an illustration.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "title": "A way to read the example",
+    "items": [
+     "The remembered gesture",
+     "Its personal meaning",
+     "Your present response"
+    ]
+   }
+  },
+  {
+   "say": "And our imagined kitchen does not need to become perfect. You can picture a conversation that wandered, a meal that was slightly overcooked, and a friend who interrupted before remembering to listen. Nothing in the example requires an ideal household. The question is whether there was something in that particular relationship you valued, even inside a thoroughly ordinary afternoon.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Company without a perfect past",
+    "sub": "Let the scene stay human"
+   }
+  },
+  {
+   "say": "There is also a boundary worth keeping around the example. Remembering a kind moment does not decide what you should do about a relationship now. That is a different question, with a present-day context we have not examined. You can acknowledge that something mattered without using the memory as an instruction. A warm recollection need not become a demand to return.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "n": 13,
+    "title": "What the memory cannot decide"
+   }
+  },
+  {
+   "say": "Perhaps the sentence that fits is simply: I valued being listened to there. That sentence makes no prediction about tomorrow. It does not tell you who to contact or what to forgive. It simply names what you are considering in the scene. We will leave practical choices for later, rather than asking a remembered afternoon to settle them all.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Something mattered",
+    "sub": "No decision required"
+   }
+  },
+  {
+   "say": "That remembered welcome gives us a way into the question of present connectedness. The experiments suggest that remembered people need not be physically present for a difference in related feelings to appear. How long that difference lasts, and what someone does afterward, remain separate questions. But there is another relationship inside the memory to look at: your relationship with the person you were.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Our local question",
+    "items": [
+     "Can recall affect present connectedness?",
+     "Evidence supports a limited yes",
+     "Lasting change remains a separate question"
+    ]
+   }
+  },
+  {
+   "say": "But look again at the scene you have been imagining. There is someone else at the table besides the friend who made room. There is you, as you were then. Perhaps, in your version, you were more talkative, or less certain, or still learning how to accept a kindness. The question begins to shift from missing their company to recognising your own.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Another person in the picture",
+    "sub": "You, back then"
+   }
+  },
+  {
+   "say": "Imagine an old photograph of someone you barely recognise, and then seeing that it is you. You know where you were standing. You might even remember what happened just outside the frame. Yet you wonder how that earlier person belongs to the life you are living now. That is a different distance from an empty chair across the table.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "A different kind of distance",
+    "items": [
+     "The person beside you",
+     "The person you were",
+     "The person remembering now"
+    ]
+   }
+  },
+  {
+   "say": "So let us stay with that earlier version of you for a little longer. The connection now runs between the person in that photograph and the person looking at it. What happens when the person you miss is your earlier self, and you are trying to find the thread between you?",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "When you miss your earlier self",
+    "sub": "A new question"
+   }
+  }
+ ]
+}

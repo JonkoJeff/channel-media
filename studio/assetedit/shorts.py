@@ -3,7 +3,7 @@ Usage: python3 shorts.py videos/shorts.json   -> renders/<short_id>.mp4
 A short = whole segments [first..last] of a long video (cut on voice boundaries), max ~58 s."""
 import json, os, subprocess, sys
 from PIL import Image, ImageDraw
-from longform import font, wrap, INK, CREAM, HERE
+from longform import font, wrap, INK, CREAM, HERE, ASSETS, BGS, CH, ACCENTS
 
 def overlay(top, full_title, path):
     im = Image.new("RGBA", (1080, 1920), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
@@ -11,6 +11,41 @@ def overlay(top, full_title, path):
     for ln in wrap(d, top, f, 960):
         d.text((540 - d.textlength(ln, font=f) / 2, y), ln, font=f, fill=CREAM, stroke_width=10, stroke_fill=INK); y += 96
     im.save(path)
+
+def cover(s, v, path):
+    """Thumbnail-style opening frame (first 1.7 s): the character with a coloured glow + big hook text, so any auto-picked frame (Zernio takes 1.5 s) is a real thumbnail.
+    Own colour per Short (ACCENTS), background and sprite from the Short's first scene."""
+    import zlib
+    import numpy as np
+    from PIL import ImageEnhance, ImageFilter
+    sh = v["segments"][s["first"]]["show"]; acc = ACCENTS[zlib.crc32(s["id"].encode()) % len(ACCENTS)]
+    bgid = sh.get("bg") if sh.get("bg") in BGS else "bedroom_night"; spr = sh.get("sprite") if sh.get("sprite") in ASSETS else "A10"
+    bg = Image.open(os.path.join(CH, BGS[bgid]["file_path"])).convert("RGB"); r = max(1080 / bg.width, 1920 / bg.height)
+    bg = bg.resize((round(bg.width * r), round(bg.height * r)), Image.LANCZOS); bg = bg.crop(((bg.width - 1080) // 2, (bg.height - 1920) // 2, (bg.width - 1080) // 2 + 1080, (bg.height - 1920) // 2 + 1920))
+    img = ImageEnhance.Color(bg.filter(ImageFilter.GaussianBlur(9))).enhance(1.5); img = Image.blend(img, Image.new("RGB", img.size, (255, 140, 50)), 0.2)
+    yy, xx = np.mgrid[0:1920, 0:1080]; img = Image.fromarray((np.asarray(img) * (1 - 0.5 * (((xx - 540) / 700) ** 2 + ((yy - 1100) / 1300) ** 2).clip(0, 1))[..., None]).astype(np.uint8))
+    hd = os.path.join(CH, "assets_hd", os.path.basename(ASSETS[spr]["file_path"])); k = 4 if os.path.exists(hd) else 1
+    sp = Image.open(hd if k == 4 else os.path.join(CH, ASSETS[spr]["file_path"])).convert("RGBA"); sc = 1000 / sp.width * k
+    sp = ImageEnhance.Color(sp.resize((1000, round(sp.height * sc / k)), Image.LANCZOS)).enhance(1.25)
+    al = np.asarray(sp.split()[-1]).astype(float); h, w = al.shape; F = 60; ramp = np.linspace(0, 1, F)
+    if al[:, 0].max() > 0: al[:, :F] *= ramp[None, :]
+    if al[0, :].max() > 0: al[:F, :] *= ramp[:, None]
+    if al[:, -1].max() > 0: al[:, -F:] *= ramp[::-1][None, :]
+    P = 40; a = Image.new("L", (w + 2 * P, h + 2 * P)); a.paste(Image.fromarray(al.astype(np.uint8)), (P, P)); sp.putalpha(Image.fromarray(al.astype(np.uint8)))
+    x0, y0 = 40, 1920 - h + 120
+    for grow, col in ((22, acc), (10, (255, 255, 255))):  # glow in the Short's colour, then white sticker edge
+        rim = Image.new("RGBA", a.size, col + (0,)); rim.putalpha(a.point(lambda p: 255 if p > 128 else 0).filter(ImageFilter.MaxFilter(grow * 2 + 1)))
+        if grow > 12: rim = rim.filter(ImageFilter.GaussianBlur(6))
+        img.paste(rim, (x0 - P, y0 - P), rim)
+    img.paste(sp, (x0, y0), sp)
+    d = ImageDraw.Draw(img); f = font(132, "Black"); lines = wrap(d, s["top"].rstrip(":").upper(), f, 980)[:4]; y = 150
+    for i, ln in enumerate(lines):
+        tw = d.textlength(ln, font=f); L = (1080 - tw) / 2
+        if i == len(lines) - 1 and len(lines) > 1:  # last line on a colour block
+            d.rounded_rectangle((L - 18 + 10, y + 22 + 10, L + tw + 28 + 10, y + 150 + 10), 24, fill=(0, 0, 0)); d.rounded_rectangle((L - 28, y + 10, L + tw + 28, y + 150), 24, fill=acc, outline=(0, 0, 0), width=8)
+            d.text((L, y), ln, font=f, fill=(28, 20, 14)); y += 150; continue
+        d.text((L + 8, y + 8), ln, font=f, fill=(0, 0, 0), stroke_width=14, stroke_fill=(0, 0, 0)); d.text((L, y), ln, font=f, fill=(255, 255, 255), stroke_width=14, stroke_fill=(0, 0, 0)); y += 150
+    img.save(path)
 
 def sentence_spans(wav, segs, timing):
     """Real sentence times, measured from the audio: inside each segment the (n-1) longest silences are the sentence boundaries.
@@ -81,14 +116,15 @@ def render(s):
     b = t[last]["end"]
     v = json.load(open(os.path.join(HERE, "videos", s["src"] + ".json"))); full = v.get("title", "")
     ov = os.path.join(HERE, "renders", s["id"] + "_ov.png"); overlay(s["top"], full, ov)
+    cv = os.path.join(HERE, "renders", s["id"] + "_cover.png"); cover(s, v, cv)
     cap = os.path.join(HERE, "renders", s["id"] + ".ass"); captions(v["segments"], t, a, b, cap, spans=sentence_spans(os.path.join(HERE, "audio", s["src"] + "_vo.wav"), v["segments"], t))
     out = os.path.join(HERE, "renders", s["id"] + ".mp4")
     fc = ("[0:v]split[a][b];[a]scale=-2:1920,crop=1080:1920,gblur=sigma=28,eq=brightness=-0.18[bg];"
-          "[b]scale=1080:-2[fg];[bg][fg]overlay=0:(H-h)/2[v];[v][1:v]overlay=0:0,ass=" + cap + ",fade=t=in:d=0.15[out]")
+          "[b]scale=1080:-2[fg];[bg][fg]overlay=0:(H-h)/2[v];[v][1:v]overlay=0:0[v2];[v2][2:v]overlay=0:0:enable='lt(t,1.7)',ass=" + cap + "[out]")   # cover (thumbnail look) on screen for the first 1.7 s
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{a:.3f}", "-to", f"{b:.3f}", "-i", os.path.join(HERE, "renders", s["src"] + ".mp4"),
-                    "-i", ov, "-filter_complex", fc, "-map", "[out]", "-map", "0:a", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
+                    "-i", ov, "-i", cv, "-filter_complex", fc, "-map", "[out]", "-map", "0:a", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
                     "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", out], check=True)
-    os.remove(ov); os.remove(cap)
+    os.remove(ov); os.remove(cv); os.remove(cap)
     assert b - a <= 60, f"{s['id']} too long for a Short: {b - a:.1f}s"
     print(f"{s['id']}: {s['src']} segs {s['first']}-{last}, {b - a:.1f}s")
     return out

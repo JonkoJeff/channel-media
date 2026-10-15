@@ -234,3 +234,4 @@ Brain After Dark (Europe/Amsterdam): Shorts 15:00, 18:00, 21:00, 23:30 (= 9am/12
 ## BTT VOICE APPROVED (owner, 15 Oct)
 Owner: "STEM IS PERFECT". Belief Through Time uses studio/voice/flow.py (same natural flow as Brain After Dark, voice bm_lewis 0.92) + quiet music bed. Unpublished episodes rel03, rel04, rel22, rel23, rel24 are re-rendered with it; published ones (rel01, rel21) stay as they are.
 - VOICE (15 Oct, owner): Brain After Dark long videos (vibe calm) now use the same voice as Belief Through Time: bm_lewis 0.92 (overrides the per-block voice am_michael). Shorts cut from the long audio follow automatically. Revert = restore "am_michael"/0.93 in longform.py voice().
+- WARM VOICE (15 Oct, owner: "beetje meer warmer"): calm long videos get flow.warm() on the final voice wav (+3.5 dB at 160 Hz, +1.5 at 320 Hz, -2.5 dB at 3.8 kHz, lowpass 7.8 kHz). Tune WARM in studio/voice/flow.py; Belief Through Time is untouched (owner: its voice is perfect).

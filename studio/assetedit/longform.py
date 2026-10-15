@@ -59,6 +59,7 @@ def validate(v):
     if errs: sys.exit("BLOCKED:\n" + "\n".join(errs))
 
 # ---------- voice ----------
+def calm_all(v): return v.get("vibe") == "calm"
 def voice(v):
     wav, tim = os.path.join(HERE, "audio", v["id"] + "_vo.wav"), os.path.join(HERE, "audio", v["id"] + "_timing.json")
     if os.path.exists(wav) and os.path.exists(tim): return wav, json.load(open(tim))
@@ -87,7 +88,9 @@ def voice(v):
         timing.append({"seg": i, "start": round(start, 3), "end": round(t, 3)})
         print(f"voice {i + 1}/{len(v['segments'])}", flush=True)
     a = np.concatenate(out); a = a / np.abs(a).max() * 0.89
-    os.makedirs(os.path.dirname(wav), exist_ok=True); k.save(a, wav); json.dump(timing, open(tim, "w"), indent=1)
+    os.makedirs(os.path.dirname(wav), exist_ok=True); k.save(a, wav)
+    if calm_all(v): import flow; flow.warm(wav)   # warmer voice for calm (Brain After Dark) videos
+    json.dump(timing, open(tim, "w"), indent=1)
     return wav, timing
 
 # ---------- drawing ----------

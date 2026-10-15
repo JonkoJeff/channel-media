@@ -27,3 +27,14 @@ def say(k, text, voice, speed, seed, pause=0.6):
         ps = pause * (1.25 if sent.rstrip().endswith("?") else 1.0) * (1.15 if len(sent) > 110 else 0.9) * float(rng.uniform(0.85, 1.2))
         out += [a.astype(np.float32), np.zeros(int(ps * k.SR), np.float32)]
     return np.concatenate(out) if out else np.zeros(2400, np.float32)
+
+
+WARM = "equalizer=f=160:t=q:w=0.9:g=3.5,equalizer=f=320:t=q:w=1:g=1.5,equalizer=f=3800:t=q:w=1:g=-2.5,lowpass=f=7800"
+
+
+def warm(path):
+    """Warmer voice (owner 15 Oct, Brain After Dark): body +3.5 dB around 160 Hz, a little less 3-4 kHz edge, soft top. No timing change."""
+    import os, subprocess
+    tmp = path + ".w.wav"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", path, "-af", WARM + ",alimiter=limit=0.89", tmp], check=True)
+    os.replace(tmp, path)

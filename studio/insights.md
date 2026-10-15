@@ -14,3 +14,10 @@ One dated block per weekly run: numbers per video, then what worked / what didn'
 - Shorts outdraw the long videos in views per upload (avg about 6 vs about 9 for long, but longs have more days). No like-for-like age comparison is possible yet, so do not shift the format mix.
 - Thumbnails: lf06 (A19/bedroom_night, "IT NEVER|SLEEPS") is ahead of lf07 (A10/bedroom_night); 4 of the last 8 long videos use the bedroom_night background. No view difference is attributable to thumbnail or sprite. Keep varying the background, since variety is cheap.
 - Change: wait until videos have 7 days of age before rules. Next review should compare Shorts by hook type once at least 10 Shorts have 3+ days of data.
+
+## 2026-10-14 (factory analyst)
+- Two Shorts dominate: "Why dread is worse than pain" (269 views) and "How one word rewrites a memory" (253). Next is "Your eye's blind spot" (106), then "Would you notice if someone changed?" (21). Every other Short is at 16 or below, and 7 of 20 uploads have 3 views or fewer. The pattern is one study with a counter-intuitive result and hard numbers. This matches the 2026-10-14 learned rule, which is still unproven.
+- Weak Shorts are the waiting/queue series: "Why the other lane seems faster" (3), "The people behind you in line" (1), "Why unfair waits feel longer" (0), and "Why waiting feels so long" (4). They are general topic overviews with no single study. Topic repetition (5 waiting/line Shorts in 3 days) also looks like a drag.
+- Long videos (2.5 h) get 4-18 views each: lf06 18, lf08 11, lf07 4, lf09 4, and lf01 (8m36s) 6. There is no length effect, and the short 8.6 min video is on par. Longs have about 10x fewer views than the best Shorts. The 2.5 h videos come out around 15:00, so the long rows show no like-for-like age comparison against Shorts.
+- Likes are near zero everywhere (max 2) and comments are 0. Thumbnails cannot be separated from views: all long videos used bedroom_night, so there is no basis for judging text, sprite or accent.
+- Slot timing is not decisive: the hits ran at 19:00, 13:00 and 09:00, and the duds at 07:00, 11:00 and 17:00. With 1 hit per slot, it is noise.

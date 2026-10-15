@@ -118,6 +118,8 @@ elif cmd == "list":   # a = channel key (religion|crazyfacts|moneyatnight): rece
     yt_account(sys.argv[2] if len(sys.argv) > 2 and sys.argv[2] else "crazyfacts"); st, p = call("GET", "/posts?limit=100"); ps = p.get("posts", p if isinstance(p, list) else [])
     print("::notice::raw " + json.dumps(p)[:1200].replace("\n", " "))
     for x in ps[:100]: print(f"::notice::{x.get('_id')} acc={str([q.get('accountId') for q in x.get('platforms', [])])[-9:]} {x.get('status')} {x.get('scheduledFor')} {str(x.get('content', ''))[:50]!r}")
+    json.dump([{"id": x.get("_id"), "account": str([q.get("accountId") for q in x.get("platforms", [])]), "status": x.get("status"), "when": x.get("scheduledFor"), "text": str(x.get("content", ""))[:80]} for x in ps[:100]],
+              open(os.path.join(D, f"list_{sys.argv[2] if len(sys.argv) > 2 and sys.argv[2] else 'crazyfacts'}.json"), "w"), indent=1)
 elif cmd == "delete":   # a = comma-separated Zernio post ids (duplicates created by a timed-out retry)
     yt_account(sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] else "crazyfacts")
     for pid in sys.argv[2].split(","):
@@ -128,13 +130,15 @@ elif cmd == "status":  # a = comma-separated Zernio post ids, b = channel key (r
     for pid in sys.argv[2].split(","):
         st, p = call("GET", f"/posts/{pid}"); post = p.get("post", p)
         print(f"::notice::{pid} {post.get('status')} {post.get('scheduledFor')} " + json.dumps([{k: v for k, v in x.items() if k not in ("accountId", "_id")} for x in post.get("platforms", [])])[:700])
-elif cmd == "reslot":   # a = first day YYYY-MM-DD, b = slots "09:00,12:00,15:00,20:00": re-time every still-pending Crazy Facts Short so exactly len(slots) go out per day, in the existing order
+elif cmd == "reslot":   # a = first day YYYY-MM-DD, b = slots "15:00,18:00,21:00,23:30", c = channel prefix: lf (Brain After Dark, default) | rel (Belief Through Time). Re-times every still-pending Short of that channel so exactly len(slots) go out per day, in the existing order
     import datetime as dt, glob
-    day0 = dt.date.fromisoformat(sys.argv[2]); slots = (sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] else "09:00,12:00,15:00,20:00").split(",")
+    day0 = dt.date.fromisoformat(sys.argv[2]); slots = (sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] else "15:00,18:00,21:00,23:30").split(",")
+    pre = sys.argv[4] if len(sys.argv) > 4 and sys.argv[4] else "lf"; ch = "religion" if pre.startswith("rel") else "crazyfacts"
     items = []
-    lost = [(f, sid) for f in glob.glob(os.path.join(R, "lf*", "result.json")) for sid, d in json.load(open(f)).get("shorts_posted", {}).items() if not d.get("zernio_id")]
+    lost = [(f, sid) for f in glob.glob(os.path.join(R, pre + "*", "result.json")) for sid, d in json.load(open(f)).get("shorts_posted", {}).items() if not d.get("zernio_id")]
     if lost:   # earlier runs lost some ids to a push race: recover them from Zernio by title (page through /posts)
-        yt_account("crazyfacts"); meta = {x["id"]: x for x in json.load(open(os.path.join(D, "..", "assetedit", "videos", "shorts.json")))}; seen = {}; first = None
+        yt_account(ch); meta = {x["id"]: x for x in json.load(open(os.path.join(D, "..", "assetedit", "videos", "shorts.json")))}; seen = {}; first = None
+        for f, _ in lost: meta.update({k: v for k, v in json.load(open(f)).get("shorts_meta", {}).items()})   # BTT Short titles live in result.json
         for pg in range(1, 8):
             _, lp = call("GET", f"/posts?limit=100&page={pg}"); ps_ = lp.get("posts", [])
             if not ps_ or ps_[0].get("_id") == first: break
@@ -144,11 +148,11 @@ elif cmd == "reslot":   # a = first day YYYY-MM-DD, b = slots "09:00,12:00,15:00
         for f, sid in lost:
             t = meta.get(sid, {}).get("title"); r = json.load(open(f))
             if t and t in seen: r["shorts_posted"][sid]["zernio_id"] = seen[t]; r["shorts_posted"][sid].pop("note", None); json.dump(r, open(f, "w"), indent=1); print(f"::notice::recovered id of {sid}")
-    for f in sorted(glob.glob(os.path.join(R, "lf*", "result.json"))):
+    for f in sorted(glob.glob(os.path.join(R, pre + "*", "result.json"))):
         r = json.load(open(f))
         for sid, d in r.get("shorts_posted", {}).items():
             if d.get("zernio_id") and d["when"][:10] >= str(day0): items.append((d["when"], f, sid))
-    items.sort(); yt_account("crazyfacts"); n = 0; moved = 0
+    items.sort(); yt_account(ch); n = 0; moved = 0
     for _, f, sid in items:
         when = f"{day0 + dt.timedelta(days=n // len(slots))}T{slots[n % len(slots)]}"; n += 1
         r = json.load(open(f)); d = r["shorts_posted"][sid]
@@ -161,7 +165,7 @@ elif cmd == "reslot":   # a = first day YYYY-MM-DD, b = slots "09:00,12:00,15:00
                 print(f"::notice::skip {sid}: {str(e)[:80]}"); break
         if not ok: continue
         d["when"] = when; json.dump(r, open(f, "w"), indent=1); moved += 1
-    print(f"::notice::reslot: {len(items)} pending Shorts, {moved} moved, {len(slots)}/day from {day0} until {day0 + dt.timedelta(days=(n - 1) // len(slots))}")
+    print(f"::notice::reslot {pre}: {len(items)} pending Shorts, {moved} moved, {len(slots)}/day from {day0} until {day0 + dt.timedelta(days=(n - 1) // len(slots))}")
 elif cmd == "rethumb":   # a = comma-separated video ids (lf09,rel01): re-attach the thumbnail (hosted on Zernio) to the existing scheduled post. Published posts cannot be changed: set the thumbnail in YouTube Studio.
     for vid in sys.argv[2].split(","):
         v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); res = json.load(open(os.path.join(R, vid, "result.json"))); yt_account(v.get("channel", "crazyfacts"))

@@ -5,6 +5,7 @@ on:
       cmd: {description: "accounts | playlist | post", required: true, default: accounts}
       a: {description: "post: video id (lf08) / playlist: title", required: false}
       b: {description: "post: local time 2026-10-13T17:00 / playlist: description", required: false}
+      c: {description: "reslot: channel prefix lf (Brain After Dark) | rel (Belief Through Time)", required: false, default: ""}
 permissions:
   contents: write
 concurrency: zernio
@@ -16,13 +17,13 @@ jobs:
       - if: inputs.cmd == 'post' || inputs.cmd == 'shorts'
         env: {GH_TOKEN: "${{ github.token }}"}
         run: gh release download "${{ inputs.a }}" --repo ${{ github.repository }} --pattern "*.mp4" --dir /tmp --clobber
-      - run: python3 studio/yt/zernio.py "${{ inputs.cmd }}" "${{ inputs.a }}" "${{ inputs.b }}"
+      - run: python3 studio/yt/zernio.py "${{ inputs.cmd }}" "${{ inputs.a }}" "${{ inputs.b }}" "${{ inputs.c }}"
         env:
           ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
           ZERNIO_API_KEY_2: ${{ secrets.ZERNIO_API_KEY_2 || secrets.ZERNO_API_KEY_2 }}
       - if: always()   # commit result.json even when the step above failed: it is the record that stops a second upload
         run: |
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
-          git add studio/yt/zernio.json && git add -f studio/renders/*/result.json
+          git add studio/yt/zernio.json studio/yt/list_*.json 2>/dev/null; git add -f studio/renders/*/result.json
           git commit -qm "zernio ${{ inputs.cmd }} ${{ inputs.a }} [skip ci]" || exit 0
           for i in 1 2 3 4 5; do git pull -q --rebase && git push && exit 0; sleep 8; done; echo "::error::result.json not pushed: post state lost"; exit 1

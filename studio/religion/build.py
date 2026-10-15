@@ -1,13 +1,14 @@
 """Belief Through Time / Religion Unfolded: script file (stories/FORMAT.md) -> 1080p documentary + 4 Shorts. No tokens: runs in GitHub Actions.
 python3 build.py <episode file> <id> [--test]   -> out/<id>.mp4, out/<id>_s1..4.mp4, out/result files (see publish step in religion.yml)
 Images: ONLY public-domain / CC0 (Wikimedia Commons, The Met Open Access), searched from the VISUAL line; fallback = navy/gold text card.
-Voice: Kokoro bm_lewis 0.92 (same for every episode). Ken-Burns stills, dip fades, chapter cards, loudnorm -16 LUFS."""
+Voice: Kokoro bm_lewis 0.92 with the shared natural flow (studio/voice/flow.py, same as Brain After Dark). Ken-Burns stills, chapter cards,
+quiet music bed that drops before each chapter reveal, own thumbnail (out/thumb.jpg), loudnorm -16 LUFS."""
 import json, os, re, subprocess, sys, hashlib, time, urllib.request, urllib.parse, html, wave, glob, textwrap
 from concurrent.futures import ThreadPoolExecutor
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 H = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.join(H, "..", "..")
-sys.path.insert(0, os.path.join(ROOT, "studio", "voice")); import kokoro_tts as K
+sys.path.insert(0, os.path.join(ROOT, "studio", "voice")); import kokoro_tts as K, flow, zlib
 src, vid = sys.argv[1], sys.argv[2]; OUT = os.path.join(ROOT, "out"); W = os.path.join(OUT, "work"); os.makedirs(W, exist_ok=True)
 UA = {"User-Agent": "ReligionUnfoldedBot/1.0 (https://github.com/JonkoJeff/channel-media)"}; FPS = 25
 FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"; GOLD = "0xE8C36A"
@@ -25,7 +26,7 @@ def secs(t):
 txt = open(src, encoding="utf-8").read().replace("\r", ""); head, _, body = txt.partition("\n---")
 hd, key = {}, None
 for ln in head.splitlines():
-    m = re.match(r"(TITLE|DESC|TAGS|SOURCES|SHORTS):\s*(.*)", ln)
+    m = re.match(r"(TITLE|DESC|TAGS|SOURCES|SHORTS|THUMB):\s*(.*)", ln)
     if m: key = m[1]; hd[key] = m[2]
     elif key and ln.strip(): hd[key] += "\n" + ln.strip()
 shorts = []
@@ -120,18 +121,25 @@ def card(text, fn):
     im.save(fn, quality=92)
 
 # ---------- voice ----------
-def speak(s):
-    parts, out = re.split(r"(?<=[.!?])\s+", s), []
-    for p in parts:
-        if p.strip(): out += [K.speak(p.strip()[:420], "bm_lewis", 0.92), np.zeros(int(24000 * 0.32), np.float32)]
-    return np.concatenate(out) if out else np.zeros(2400, np.float32)
+def speak(s, i):   # same natural flow as Brain After Dark (RUNBOOK VOICE FLOW); voice identity unchanged: bm_lewis 0.92
+    return flow.say(K, s, "bm_lewis", 0.92, zlib.crc32(vid.encode()) + i * 97, pause=0.6)
 audio, jobs, off = [], [], 0.0
 for i, sc in enumerate(scenes):
-    a = speak(sc["say"]); pad = 0.9 if i + 1 < len(scenes) else 3.5; a = np.concatenate([a, np.zeros(int(24000 * pad), np.float32)])
+    a = speak(sc["say"], i); pad = 0.9 if i + 1 < len(scenes) else 3.5; a = np.concatenate([a, np.zeros(int(24000 * pad), np.float32)])
     nf = int(np.ceil(len(a) / 24000 * FPS)); a = np.concatenate([a, np.zeros(int(nf / FPS * 24000) - len(a) + 1, np.float32)])[:int(nf / FPS * 24000)]
     sc.update(frames=nf, start=off, dur=nf / FPS); off += nf / FPS; audio.append(a)
     if i % 40 == 0: print("voice", i, "/", len(scenes), flush=True)
-K.save(np.concatenate(audio), os.path.join(W, "voice.wav")); print(f"voice done: {off / 60:.1f} min")
+vo = np.concatenate(audio); sr = 24000; tt = np.arange(len(vo)) / sr; bed = np.zeros_like(tt)
+for ci, ch in enumerate([(261.6, 329.6, 392.0), (220.0, 261.6, 329.6), (174.6, 220.0, 261.6), (196.0, 246.9, 293.7)] * int(len(vo) / sr / 27.4 + 2)):
+    a0, b0 = int(ci * 6.86 * sr), int((ci + 1) * 6.86 * sr)
+    if a0 >= len(tt): break
+    seg = tt[a0:b0] - tt[a0]; env = np.minimum(1, seg / 1.5) * np.minimum(1, (6.86 - seg) / 1.5)
+    bed[a0:b0] += env * sum(np.sin(2 * np.pi * f / 2 * seg) + 0.3 * np.sin(2 * np.pi * f * seg) for f in ch)
+for i, sc in enumerate(scenes):   # "silence before the reveal": the bed drops out around each new chapter card
+    if i and sc["chap"] and sc["chap"] != scenes[i - 1]["chap"]: bed[max(0, int((sc["start"] - 0.8) * sr)):int((sc["start"] + 0.6) * sr)] = 0.0
+bed = np.convolve(bed, np.ones(60) / 60, "same"); vr = np.sqrt((vo[np.abs(vo) > 0.01] ** 2).mean()) if (np.abs(vo) > 0.01).any() else 0.1
+bed = bed / np.sqrt((bed ** 2).mean() + 1e-9) * vr * 10 ** (-26 / 20)   # ~26 dB under the voice, like Brain After Dark
+K.save((vo + bed).astype(np.float32), os.path.join(W, "voice.wav")); print(f"voice done: {off / 60:.1f} min")
 
 # ---------- video shots ----------
 def shot(args):
@@ -159,6 +167,26 @@ with ThreadPoolExecutor(4) as ex: files = list(ex.map(shot, tasks))
 open(os.path.join(W, "list.txt"), "w").write("".join(f"file '{f}'\n" for f in files))
 sh("ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", os.path.join(W, "list.txt"), "-i", os.path.join(W, "voice.wav"),
    "-af", "acompressor=threshold=-20dB:ratio=2:attack=20:release=250,loudnorm=I=-16:TP=-1.5:LRA=7", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", os.path.join(OUT, vid + ".mp4"))
+
+# ---------- thumbnail: own headline per episode (GAP 2): base image + max 4 big words, high contrast, accent/side rotate per episode ----------
+def thumb(base, words, n, path):
+    im = Image.open(base).convert("RGB"); r = 1280 / 720
+    w, h = im.size; im = im.crop(((w - h * r) / 2, 0, (w + h * r) / 2, h) if w / h > r else (0, (h - w / r) / 2, w, (h + w / r) / 2)).resize((1280, 720))
+    left = n % 2 == 0; acc = [(232, 195, 106), (255, 179, 71), (127, 227, 216), (244, 167, 185), (242, 230, 201)][n % 5]
+    ov = Image.new("L", (1280, 720)); d = ImageDraw.Draw(ov)
+    for x in range(1280): d.line([(x, 0), (x, 720)], fill=int(235 * max(0, 1 - (x if left else 1279 - x) / 760) ** 1.3))
+    im = Image.composite(Image.new("RGB", (1280, 720), (8, 10, 22)), im, ov); d = ImageDraw.Draw(im)
+    ws = [x for x in re.sub(r"[^\w' -]", " ", words).upper().split() if x and (hd.get("THUMB") or x not in ("THE", "OF", "AND", "A", "AN", "IN", "TO", "WHEN", "WERE", "IS", "AS"))][:4]; lines = [" ".join(ws[:2]), " ".join(ws[2:])] if len(ws) > 2 else ws
+    size = 150
+    while size > 70 and max(ImageFont.truetype(FONT, size).getlength(l) for l in lines) > 640: size -= 6
+    f = ImageFont.truetype(FONT, size); x0 = 60 if left else 1220; y = 360 - (len(lines) * (size + 18)) // 2
+    for k2, ln in enumerate(lines):
+        col = acc if k2 == len(lines) - 1 else (250, 246, 236)
+        d.text((x0, y), ln, font=f, fill=col, anchor="la" if left else "ra", stroke_width=6, stroke_fill=(0, 0, 0)); y += size + 18
+    im.save(path, quality=92)
+words = hd.get("THUMB") or re.split(r"[:—-]", hd.get("TITLE", vid))[-1]
+base = os.environ.get("THUMB") if os.environ.get("THUMB") and os.path.exists(os.environ.get("THUMB", "")) else (POOL[len(POOL) // 3] if POOL else None)
+if base: thumb(base, words, int(re.sub(r"\D", "", vid) or 0), os.path.join(OUT, "thumb.jpg")); print("thumbnail:", " ".join(words.split()[:4]))
 
 # ---------- Shorts (vertical, cut on scene boundaries, <=58 s) ----------
 meta = {}

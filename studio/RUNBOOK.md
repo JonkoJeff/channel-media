@@ -218,8 +218,8 @@ Daily 05:00 UTC `stats.yml` refreshes studio/yt/status.json (Actions only, no Cl
 ## LANGUAGES (owner, 15 Oct): main language American English, plus translated titles/descriptions
 Every long Crazy Facts video gets localized title + short description in: es, pt-BR, hi, id, fr, de, ar, tr, ru, it, ja, ko (YouTube shows them by viewer language; audio stays English, viewers use YouTube's auto-translated subtitles). After a long video goes live: add its YouTube id and the translated titles to studio/yt/localize.json (Codex translates, Claude checks) and run `localize.yml`. Needs the Crazy Facts YouTube token; Belief Through Time (Zernio-only) has to be done in Studio.
 
-## FOCUS (owner, 15 Oct): only Brain After Dark
-Belief Through Time stopped (see CLAUDE.md FOCUS). The channel formerly called Crazy Facts is now "Brain After Dark". Priority list now: 1 Brain After Dark. No religion builds.
+## BOTH CHANNELS (owner, 15 Oct, replaces "FOCUS: only Brain After Dark")
+Both channels active: Brain After Dark (formerly Crazy Facts) and Belief Through Time, each 1 long video at 20:00 + 4 Shorts at 15:00, 18:00, 21:00, 23:30 (Europe/Amsterdam). BAD is the standard; BTT catches up per studio/channels/religion/GAP.md. Pending Shorts: `zernio.yml cmd=reslot a=<first day> b=15:00,18:00,21:00,23:30 c=<lf|rel>`.
 
 ## VOICE FLOW (15 Oct)
 Long-video narration (longform.py voice()): 1-2 sentences per Kokoro take (<170 chars, not across a question), speed 0.93 (calm) with +-3% repeatable variation per take, pause 0.6 s (calm) scaled by take length / question and jittered, 12 ms fades. Voices unchanged (am_michael). Only affects NEW audio (cached *_vo.wav stay). Owner feedback: voice was too robotic.

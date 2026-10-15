@@ -36,17 +36,22 @@ jobs:
           D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 out/reltest.mp4)
           for i in $(seq 0 11); do ffmpeg -loglevel error -y -ss $(python3 -c "print(int($D*($i+0.5)/12))") -i out/reltest.mp4 -frames:v 1 -vf scale=480:270 /tmp/f$i.jpg; done
           ffmpeg -loglevel error -y -i /tmp/f%d.jpg -vf tile=4x3 -frames:v 1 studio/religion/fixtures/preview.jpg
-          git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com; git add -f studio/religion/fixtures/preview.jpg && git commit -qm "test preview [skip ci]" && git pull -q --rebase && git push
+          ffmpeg -loglevel error -y -t 75 -i out/reltest.mp4 -vn -c:a libmp3lame -b:a 128k studio/religion/fixtures/voice_test.mp3   # owner listens to the new voice
+          [ -f out/thumb.jpg ] && cp out/thumb.jpg studio/religion/fixtures/thumb_test.jpg
+          git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com; git add -f studio/religion/fixtures/preview.jpg studio/religion/fixtures/voice_test.mp3 studio/religion/fixtures/thumb_test.jpg 2>/dev/null; git commit -qm "test preview, voice sample, thumbnail [skip ci]" && git pull -q --rebase && git push
       - name: publish release + result files
         if: inputs.ep != 'test'
         env: {GH_TOKEN: "${{ github.token }}"}
         run: |
           python3 - <<'PY'
           import json, os, glob
+          import shutil
           i = os.environ["ID"]; m = json.load(open("out/meta.json")); d = f"studio/renders/{i}"; os.makedirs(d, exist_ok=True)
+          th = os.environ["THUMB"]
+          if os.path.exists("out/thumb.jpg"): shutil.copy("out/thumb.jpg", d + "/thumb.jpg"); th = d + "/thumb.jpg"   # own headline thumbnail (GAP 2)
           rel = f"https://github.com/JonkoJeff/channel-media/releases/download/{i}/"
           sh = {os.path.basename(f)[:-4]: rel + os.path.basename(f) for f in sorted(glob.glob(f"out/{i}_s*.mp4"))}
-          json.dump({"id": i, "video": rel + i + ".mp4", "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/" + os.environ["THUMB"], "shorts": sh, "shorts_meta": m["shorts_meta"]}, open(d + "/result.json", "w"), indent=1)
+          json.dump({"id": i, "video": rel + i + ".mp4", "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/" + th, "shorts": sh, "shorts_meta": m["shorts_meta"]}, open(d + "/result.json", "w"), indent=1)
           open(d + "/description.txt", "w").write(m["desc"])
           json.dump({"id": i, "title": m["title"], "channel": "religion", "tags": m["tags"], "playlists": []}, open(f"studio/assetedit/videos/{i}.json", "w"), indent=1)
           PY

@@ -4,7 +4,7 @@ name: factory
 # Publishing stays with channel-operator (QC first).
 on:
   push:
-    paths: ["studio/factory/render/*.json"]
+    paths: ["studio/factory/render/*.json", "studio/factory/ops/*.json"]
   workflow_dispatch:
     inputs:
       id: {description: "Video id (lf12)", required: true}
@@ -56,3 +56,23 @@ jobs:
       - name: start renders
         if: steps.ids.outputs.ids != ''
         run: for id in ${{ steps.ids.outputs.ids }}; do gh workflow run render-long.yml -f id=$id; echo "render-long started for $id"; done
+  ops:
+    # Local factory has no gh: a pushed studio/factory/ops/<name>.json {"workflow": ..., "inputs": {...}} starts ONE allow-listed workflow.
+    # Never post or delete through this route.
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    env: {GH_TOKEN: "${{ github.token }}"}
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - run: |
+          for f in $(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- studio/factory/ops/ | grep '\.json$'); do
+            [ -f "$f" ] || continue
+            wf=$(jq -r .workflow "$f"); key=$(jq -r '(.inputs.cmd // "") + (.inputs.ep // "")' "$f")
+            case "$wf:$key" in
+              zernio.yml:list|zernio.yml:status|zernio.yml:reslot|zernio.yml:rethumb|religion.yml:test|stats.yml:) ;;
+              *) echo "::error::$f: $wf $key is not allowed through ops"; continue;;
+            esac
+            args=$(jq -r '.inputs // {} | to_entries[] | "-f \(.key)=\(.value)"' "$f")
+            gh workflow run "$wf" $args && echo "::notice::ops $f -> $wf $args"
+          done

@@ -32,9 +32,9 @@ def say(k, text, voice, speed, seed, pause=0.6):
 WARM = "equalizer=f=160:t=q:w=0.9:g=3.5,equalizer=f=320:t=q:w=1:g=1.5,equalizer=f=3800:t=q:w=1:g=-2.5,lowpass=f=7800"
 
 
-def warm(path):
+def warm(path, pitch=1.0):
     """Warmer voice (owner 15 Oct, Brain After Dark): body +3.5 dB around 160 Hz, a little less 3-4 kHz edge, soft top. No timing change."""
     import os, subprocess
     tmp = path + ".w.wav"
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", path, "-af", WARM + ",alimiter=limit=0.89", tmp], check=True)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", path, "-af", (f"asetrate={int(24000 * pitch)},aresample=24000,atempo={1 / pitch:.4f}," if pitch != 1.0 else "") + WARM + ",alimiter=limit=0.89", tmp], check=True)
     os.replace(tmp, path)

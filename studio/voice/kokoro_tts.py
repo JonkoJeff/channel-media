@@ -26,7 +26,7 @@ def speak(text, voice="am_puck", speed=1.0):
         _voices = np.load(os.path.join(HERE, "voices.bin"))
     ph = phonemize(text)
     toks = [VOCAB[c] for c in ph][:510]
-    style = _voices[voice][len(toks) - 1]
+    style = np.mean([_voices[v][len(toks) - 1] for v in voice.split('+')], axis=0)   # 'am_onyx+bm_lewis' = blended voice
     audio = _sess.run(None, {"tokens": np.array([[0, *toks, 0]], np.int64), "style": style.astype(np.float32),
                              "speed": np.array([speed], np.float32)})[0].ravel()
     return audio

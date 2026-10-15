@@ -17,9 +17,9 @@ def save(msg):
     if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode == 0: return
     sh("git", "commit", "-qm", msg + " [skip ci]")
     for _ in range(5):
-        if subprocess.run(["git", "pull", "-q", "--rebase"], cwd=ROOT).returncode == 0 and subprocess.run(["git", "push", "-q"], cwd=ROOT).returncode == 0: return
+        if subprocess.run(["git", "pull", "-q", "--rebase", "--autostash"], cwd=ROOT).returncode == 0 and subprocess.run(["git", "push", "-q"], cwd=ROOT).returncode == 0: return
     sys.exit("result.json not pushed: fix git, do NOT re-run posting before it is pushed")
-sh("git", "pull", "-q", "--rebase")
+sh("git", "pull", "-q", "--rebase", "--autostash")
 for vid, day in PLAN:
     print(f"== {vid} {day}", flush=True)
     sh("gh", "release", "download", vid, "--pattern", "*.mp4", "--dir", TMP, "--clobber")

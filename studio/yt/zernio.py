@@ -194,7 +194,7 @@ elif cmd == "post":
     v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); res = json.load(open(os.path.join(R, vid, "result.json")))
     if res.get("zernio_id"):   # FAILSAFE 1: result.json says it is already posted -> never post again (delete the post and clear zernio_id on purpose to re-post)
         print(f"::notice::{vid} already posted ({res['zernio_id']}), nothing to do"); sys.exit(0)
-    yt_account(v.get("channel", "crazyfacts")); mp4 = sys.argv[4] if len(sys.argv) > 4 else os.path.join(TMP, f"{vid}.mp4")   # the workflow downloads the release asset here
+    yt_account(v.get("channel", "crazyfacts")); mp4 = (sys.argv[4] if len(sys.argv) > 4 else "") or os.path.join(TMP, f"{vid}.mp4")   # the workflow downloads the release asset here
     ex = existing(open(os.path.join(R, vid, "description.txt")).read()[:40])   # FAILSAFE 2: Zernio already has it (earlier run died after posting) -> adopt it
     if ex:
         res.update(zernio_id=ex.get("_id"), scheduled=str(ex.get("scheduledFor")), route="zernio"); json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1)

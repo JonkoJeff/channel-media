@@ -250,3 +250,6 @@ Every BAD Short now opens with a designed 1.7 s cover (shorts.py `cover()`): cha
 
 ## POSE VARIETY (BAD thumbnails + Short covers)
 Sprites N01–N30 (owner sheet, 15 Oct) cut + 4x upscaled + registered with emotion and `family`. `longform.pick_sprite(key, base)` swaps the scripted sprite for another of the SAME emotion, never one of the last 6 sprites or last 2 pose families (per prefix lf/sh), remembered in `studio/assetedit/thumb_history.json` (commit it after a render). Lock a pose with `thumb.sprite_lock: true`. Props that only fit a matching story (N02, N11, N18, N19, N23, N26) and A18 have `auto: false`.
+
+## AUTOPLAN (owner 16 Oct: planning must be automatic, never ask)
+`.github/workflows/autoplan.yml` (after every render + every 3 h) runs `studio/yt/autoplan.py --run`: every rendered video without Zernio post gets scheduled: long 20:00 on the first free day after the last long (<= 14 days ahead), Shorts 15/18/21/23:30 (BTT on the long video's day, BAD after the last scheduled Short, <= 35 days ahead). Posting stays in zernio.py (failsafes). Dry run: `python3 studio/yt/autoplan.py`. Do not ask the owner when to plan: the plan is the rule above.

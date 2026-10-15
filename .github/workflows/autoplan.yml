@@ -1,0 +1,30 @@
+name: autoplan
+# Schedules every rendered-but-unscheduled video on Zernio by itself (studio/yt/autoplan.py). Runs after each render and every 3 hours; does nothing when there is nothing to plan.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_run:
+    workflows: [render-long, religion]
+    types: [completed]
+permissions:
+  contents: write
+concurrency: zernio
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+      - run: python3 studio/yt/autoplan.py --run
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+          ZERNIO_API_KEY_2: ${{ secrets.ZERNIO_API_KEY_2 || secrets.ZERNO_API_KEY_2 }}
+      - if: always()   # result.json is the record that stops a second upload: always commit it
+        run: |
+          git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
+          git add studio/yt/zernio.json 2>/dev/null; git add -f studio/renders/*/result.json
+          git commit -qm "autoplan [skip ci]" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push && exit 0; sleep 8; done; echo "::error::result.json not pushed: post state lost"; exit 1

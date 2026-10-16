@@ -387,7 +387,7 @@ def description(v, timing, series, path):
     idx = [x["id"] for x in series].index(v["id"])
     nxt = series[idx + 1:idx + 4]
     lines = [v["desc"]] + (["", "\u23f1 Chapters"] + [f"{a} {b}" for a, b in chap] if v.get("vibe") != "calm" else []) + (["", "\U0001f52e Coming up next on the channel:"] if nxt else [])  # no empty header when nothing is planned
-    lines += [f"\u25b8 {x['title']}" for x in nxt] + ["", "\U0001f4da Sources"] + [f"\u2022 {s}" for s in v["sources"]]
+    lines += [f"\u25b8 {x['title']}" for x in nxt] + ["", "\U0001f4da Sources"] + [f"\u2022 {s}" for s in dict.fromkeys(f"{x['title']}: {x.get('url', '')}" if isinstance(x, dict) else x for x in v["sources"])]  # no raw dicts, no duplicates (lf13)
     cpath = os.path.join(CH, "photos", "credits.json"); used = [s["show"]["file"] for s in v["segments"] if s["show"]["type"] == "photo"]
     if used and os.path.exists(cpath):
         cr = json.load(open(cpath)); real = [f for f in dict.fromkeys(used) if f in cr and not cr[f].get("ai")]

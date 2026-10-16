@@ -24,3 +24,9 @@
 - Chapters can make long listening sessions navigable: Nap Academy lists sections around memory, emotion, and pe
 - Our supplied snapshot favors concrete mechanisms and felt consequences: “one word rewrites a memory” has 256 v
 - Shorts need a measurable path onward: YouTube supports a [clickable Related video]( subject to advanced-featur
+
+## 2026-10-16_am
+- Recent topic signal: Apex Psychology’s [“Why Can’t You Remember Falling Asleep?”]( published August 8, shows 9
+- Long-form packaging benchmarks: [Nap Academy’s 2 Hours of Psychology]( pairs an explicit sleep promise with ch
+- Our supplied snapshot supports testing specificity: “one word rewrites a memory” has 257 views versus 4 for “f
+- A Shorts funnel needs a clickable related-video link; YouTube supports this below the channel handle, but does

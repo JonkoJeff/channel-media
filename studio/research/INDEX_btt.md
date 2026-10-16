@@ -11,3 +11,8 @@
 - Recent Christian history reference: [Eriugena—The Most Dangerous Idea of the Dark Ages]( published August 6, s
 - Two recent audio-format references distinguish useful alternatives: [Scripture at Night’s October 3 Matthew re
 - Correct the measurement framework: YouTube reports that public views across formats began counting at playback
+
+## 2026-10-16_am
+- Editing hypothesis: [Quiet History]( explicitly describes approximately two-hour episodes, unhurried narration
+- Shorts conversion needs an actual destination: YouTube’s [Related Video feature]( supplies a clickable link be
+- Measurement correction: [YouTube’s current documentation]( says views count starts across formats from August 

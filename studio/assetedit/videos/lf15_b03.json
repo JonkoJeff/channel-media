@@ -1,0 +1,293 @@
+{
+ "id": "lf15_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now we reach the final stage of our case file. Pleasant contact had failed. So Sherif tried something different. He created problems that mattered to everyone, and that neither group could solve on its own.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "n": 9,
+    "title": "Stage three: shared problems"
+   }
+  },
+  {
+   "say": "Psychologists call these superordinate goals. A superordinate goal is a goal that both groups want, but that neither can reach alone. It sits above the rivalry. To get it, the two sides have no choice but to work together.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A shared goal",
+    "sub": "Bigger than either team"
+   }
+  },
+  {
+   "say": "The first problem was water. The camp's water supply suddenly stopped. The staff had quietly blocked it, with a sack stuffed into the faucet. For a group of thirsty boys in an Oklahoma summer, this was not a game anymore.",
+   "show": {
+    "type": "photo",
+    "file": "lf15_b03_01.jpg",
+    "cap": "The water stops"
+   }
+  },
+  {
+   "say": "Boys from both groups went looking for the problem, and they worked on it together. According to the account of the study, it took over forty five minutes to clear. When the water finally ran again, the Eagles, who had no canteens with them, were allowed to drink first. Nobody fought about it.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Working side by side",
+    "sub": "Over 45 minutes"
+   }
+  },
+  {
+   "say": "The next problem was a film. The boys had to choose between two films, Treasure Island and Kidnapped, and they chose Treasure Island. The film cost fifteen dollars, which was more than the camp would pay alone. Each group put in three dollars and fifty cents, and the camp covered the rest. To watch together, they had to pay together.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "title": "The film night",
+    "items": [
+     "Treasure Island or Kidnapped",
+     "The film cost 15 dollars",
+     "Each group paid 3 dollars and 50 cents",
+     "The camp paid the rest"
+    ]
+   }
+  },
+  {
+   "say": "The last problem was a truck. The truck that was supposed to bring food for both groups wouldn't start. The boys pulled it with the same tug of war rope they had once used against each other. The rope had not changed. What had changed was which direction everyone was pulling.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A truck that won't start",
+    "sub": "Everyone pulls the same rope"
+   }
+  },
+  {
+   "say": "And the results were striking. By the end of the camp, roughly two thirds of the boys' friendship choices crossed group lines, according to the study's account. The rivals had become friends. And when it was time to leave, the boys asked to go home together, on a single bus.",
+   "show": {
+    "type": "stat",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "title": "Friendship choices at the end",
+    "big": "about 2 in 3",
+    "label": "crossed group lines, by the study's account"
+   }
+  },
+  {
+   "say": "That is how the story is usually told in textbooks. Conflict was created, and then it was solved. Gina Perry described the message like this: it was a very optimistic message for its time, because it said peace could be engineered. But our case file isn't quite closed yet.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "A happy ending",
+    "sub": "Peace, engineered"
+   }
+  },
+  {
+   "say": "At the start, I asked you to keep one thing in mind. A different camp, one year earlier, that almost nobody heard about for decades. Now it's time to open that file.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N14",
+    "bg": "conspiracy_board",
+    "n": 10,
+    "title": "The camp before the camp"
+   }
+  },
+  {
+   "say": "In 1953, Sherif ran a very similar camp in Middle Grove, in the state of New York. Again there were two groups of boys. Again there was a tournament, with knives as the prize. And according to reporting on Gina Perry's book, the staff even split up friendships to encourage the rivalry.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Muzafer Sherif's team",
+    "where": "Middle Grove, New York",
+    "what": "An earlier camp study, summer 1953"
+   }
+  },
+  {
+   "say": "At Middle Grove, the plan did not work. The tournament became fierce, and one boy, Doug Griset, was knocked out by a baseball. Later, he was sent home because he was so homesick. And the other boys began to sense that the adults were behind the trouble.",
+   "show": {
+    "type": "char",
+    "sprite": "N13",
+    "bg": "conspiracy_board",
+    "cap": "The boys noticed",
+    "sub": "Something didn't add up"
+   }
+  },
+  {
+   "say": "Instead of turning on each other, the two groups turned toward each other, and united against the adults. The experiment collapsed. It was abandoned, and for decades it was barely mentioned. Perry brought it back to light in her book, The Lost Boys, published in 2018.",
+   "show": {
+    "type": "char",
+    "sprite": "N22",
+    "bg": "conspiracy_board",
+    "cap": "The groups united",
+    "sub": "Against the adults"
+   }
+  },
+  {
+   "say": "Years later, Doug Griset looked back on it with clear eyes. He said the counsellors had set up a plan to prove a point, rather than letting things play out. In his words: smart adults manipulating ten and eleven year old children, way too easy.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "text": "Smart adults manipulating 10 and 11-year-old children, way too easy.",
+    "by": "Doug Griset, looking back"
+   }
+  },
+  {
+   "say": "So let's return to the question from earlier. Was the rivalry at Robbers Cave natural? The honest answer is that it was helped along. The staff rigged the tournament, staged the picnic, blocked the water and stalled the truck.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 11,
+    "title": "Rethinking the case"
+   }
+  },
+  {
+   "say": "Critics point to several problems. The conflict was engineered, with no real dispute behind it. The boys were deceived, and some were exposed to fights and theft. The sample was small, just twenty two very similar boys. And the researchers were not neutral observers. They were part of the story.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The main criticisms",
+    "items": [
+     "The conflict was engineered",
+     "The boys were deceived",
+     "Only 22 very similar boys",
+     "The researchers were part of the story"
+    ]
+   }
+  },
+  {
+   "say": "Other research also complicated the picture. In work published in 1979, Henri Tajfel and John Turner argued that competition is not even needed. Simply being sorted into a group can be enough for people to favour their own side. You may remember how the Robbers Cave boys wanted to challenge the others before any prize existed.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "who": "Henri Tajfel and John Turner",
+    "where": "Social identity theory",
+    "what": "Published in 1979"
+   }
+  },
+  {
+   "say": "And what about bringing groups together? A review by Elizabeth Levy Paluck and colleagues, published in 2019, looked again at twenty seven experiments that randomly assigned contact and measured prejudice at least a day later. The effects were weaker for ethnic and racial prejudice. And the largest, most careful studies tended to show the smallest effects.",
+   "show": {
+    "type": "study",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "who": "Paluck, Green and Green",
+    "where": "A review of contact experiments",
+    "what": "Published in 2019"
+   }
+  },
+  {
+   "say": "A study by Tyerman and Spencer, published in 1983, looked at English boy scouts. Unlike the Robbers Cave boys, these scouts already knew each other, they were split into four patrols, and they had a cooperative leader. Under competition, they stayed friendly. So the people, their history and their leaders seem to matter too.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "who": "Tyerman and Spencer",
+    "where": "English scout groups",
+    "what": "Published in 1983"
+   }
+  },
+  {
+   "say": "Another researcher, Wetherell, writing in 1982, found that Polynesian children in New Zealand were far more welcoming towards other groups. Results like these suggest that what happened at Robbers Cave was not a universal law. It was one group of boys, in one place, in one particular decade.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Not the same everywhere",
+    "sub": "Culture matters"
+   }
+  },
+  {
+   "say": "And there is a human side to the story. When Perry spoke with former campers decades later, she found that the memories had not simply faded. In her words: they carry those experiments round with them for the rest of their lives. The boys were not just data. They were children having a summer they would never forget.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "text": "They carry those experiments round with them for the rest of their lives.",
+    "by": "Gina Perry, on the former campers"
+   }
+  },
+  {
+   "say": "Not everyone agrees with Perry's tough verdict. The psychologist Nick Haslam, reviewing her book, praised it but felt that parts of her treatment of Sherif were a little ungenerous, and that 1950s research should not simply be judged by today's ethical rules. Both views can help us read the study more wisely.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Two views of Sherif",
+    "sub": "Fair criticism, or too harsh?"
+   }
+  },
+  {
+   "say": "So is Robbers Cave just a broken story? Not quite. Some of its lessons hold up well, if we hold them gently, as ideas rather than laws of nature.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "n": 12,
+    "title": "What we can still take from it"
+   }
+  },
+  {
+   "say": "The rope is a good picture to keep. When people pull against each other for one prize, every small thing becomes a reason to resent the other side. When they share a goal that matters to all of them, the same people can pull in the same direction.",
+   "show": {
+    "type": "photo",
+    "file": "lf15_b03_02.jpg",
+    "cap": "The same rope, a different direction"
+   }
+  },
+  {
+   "say": "Here are a few ideas to take with you. Notice when a situation sets people against each other, at school, at work or online. Remember that simply putting people in the same room may not be enough. Look for a goal both sides really share. And sometimes, ask who benefits from keeping the rivalry going.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Ideas you can use",
+    "items": [
+     "Notice when a situation sets people against each other",
+     "Contact alone may not be enough",
+     "Look for a goal both sides really share",
+     "Ask who benefits from the rivalry"
+    ]
+   }
+  },
+  {
+   "say": "One well known example is the jigsaw classroom, developed by the psychologist Elliot Aronson to ease tensions in desegregated American schools. Each student holds one piece of the lesson, so the group only succeeds when everyone shares. It is a quiet echo of that rope in Oklahoma.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "The jigsaw classroom",
+    "sub": "Shared goals in practice"
+   }
+  },
+  {
+   "say": "Let's go back to where we started. A summer camp in the hills, with cabins, a creek and a ball field. Twenty two boys who arrived as strangers, became rivals, and left on a single bus. And another group of boys, a year earlier, who saw through the adults and stood together instead. Both stories say something hopeful about us.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Back at the camp",
+    "sub": "The boys on the bus"
+   }
+  },
+  {
+   "say": "Next time, we'll explore why familiar places can feel different when you return to them. Thank you for opening this case file with me. Take care of each other, and I'll see you soon.",
+   "show": {
+    "type": "end",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "next": "Why Familiar Places Feel Different"
+   }
+  }
+ ]
+}

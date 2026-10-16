@@ -1,0 +1,261 @@
+{
+ "id": "lf15_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now, our case file moves to its second stage. The researchers had two strong teams, each proud of its name. What would happen if those teams had to compete for something only one of them could win?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "n": 4,
+    "title": "Stage two: the tournament"
+   }
+  },
+  {
+   "say": "The staff announced a tournament. There were games such as baseball and tug of war, and the points were added up over several days. On paper, it was the kind of friendly competition you'd find at any summer camp. But the prize changed everything.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "title": "The contests",
+    "items": [
+     "Baseball",
+     "Tug of war",
+     "Points added up day by day"
+    ]
+   }
+  },
+  {
+   "say": "The winning group would receive a trophy. Each boy on the winning side would also get a medal and a pocket knife with several blades. The losers would get nothing at all, no consolation prize. For an eleven year old in the 1950s, a pocket knife was a serious prize.",
+   "show": {
+    "type": "photo",
+    "file": "lf15_b02_01.jpg",
+    "cap": "A trophy, medals and pocket knives"
+   }
+  },
+  {
+   "say": "This was the heart of Sherif's theory, often called realistic conflict theory. When two groups compete for something scarce, something only one of them can have, hostility follows. Not because the people are bad, but because the situation sets them against each other.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Only one winner",
+    "sub": "The heart of the theory"
+   }
+  },
+  {
+   "say": "You don't need a summer camp to see this idea at work. Imagine two teams at work that share one meeting room and one fixed schedule. Every hour one team gets is an hour the other team loses. Even kind, reasonable people can start to see the other team as a threat. That is the situation Sherif wanted to recreate, in a small and controlled way.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Everyday versions",
+    "sub": "One room, two teams"
+   }
+  },
+  {
+   "say": "Sherif himself pointed to the wider world. One example he used was unemployment. When jobs are scarce, he argued, prejudice between groups can rise, because the groups are now competing for the same limited thing. The summer camp was a tiny model of a much bigger pattern.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "title": "Sherif's real-world example",
+    "items": [
+     "Jobs become scarce",
+     "Groups compete for them",
+     "Prejudice can rise"
+    ]
+   }
+  },
+  {
+   "say": "And the tension did rise. What began as games quickly turned into grudges. Boys taunted each other across the field. Each side started to describe the other in harsher and harsher words. The friendly part of the friendly competition was fading fast.",
+   "show": {
+    "type": "char",
+    "sprite": "N13",
+    "bg": "conspiracy_board",
+    "cap": "Tension rises",
+    "sub": "Games become grudges"
+   }
+  },
+  {
+   "say": "Then came one of the most famous moments of the whole study. Remember the flags with each team's name? A flag had become more than a piece of cloth.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N14",
+    "bg": "conspiracy_board",
+    "n": 5,
+    "title": "The flag"
+   }
+  },
+  {
+   "say": "The Rattlers had claimed the ball field as their own territory, and they planted their flag on it. Several Rattlers warned that anyone who touched it would be in trouble. The Eagles noticed. And the Eagles decided to answer.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "A claimed field",
+    "sub": "Hands off our flag"
+   }
+  },
+  {
+   "say": "The Eagles took down the Rattlers' flag and burned it. For the Rattlers, it was an insult to the whole group. From there, things escalated. This is the point where a summer camp starts to look less like a holiday and more like a small war.",
+   "show": {
+    "type": "photo",
+    "file": "lf15_b02_02.jpg",
+    "cap": "The Eagles respond"
+   }
+  },
+  {
+   "say": "Why would a flag matter so much to a group of boys who had only just met? Because a symbol carries the whole group inside it. An insult to the flag feels like an insult to every member. Think of how people react when someone mocks their team's colours or their hometown. It's never really about the cloth.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Why a flag matters",
+    "sub": "Symbols carry the group"
+   }
+  },
+  {
+   "say": "The researchers did not only watch. They also arranged situations to raise the pressure. One of these was a picnic, and it was planned so that one group would feel cheated.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "n": 6,
+    "title": "A rigged picnic"
+   }
+  },
+  {
+   "say": "The staff arranged things so that one group arrived late to a picnic. By the time they got there, the other group had already eaten much of the food. Imagine how that would feel after days of insults and lost games. Of course, the hungry group blamed the other boys, not the adults who set it up.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Late on purpose",
+    "sub": "Someone ate the food"
+   }
+  },
+  {
+   "say": "Notice something about that picnic. The real cause was hidden, and the other group was right there in front of them, holding the food. When something goes wrong, we tend to blame whoever we can see. That makes rivalry very easy to steer from behind the scenes, and the boys had no way of knowing who was steering.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Blaming the visible",
+    "sub": "The hidden hand"
+   }
+  },
+  {
+   "say": "Look at the pattern here. There was a prize for only one side. There were points that kept the race tense. And there was a picnic timed to cause trouble. These were not natural events. They were part of the design.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "How the staff raised the pressure",
+    "items": [
+     "A prize for only one side",
+     "Points that kept the race close",
+     "A picnic timed to cause trouble"
+    ]
+   }
+  },
+  {
+   "say": "After several days of contests, the Eagles won the tournament. But according to later accounts, the result was not left entirely to chance. The counsellors had quietly encouraged them along the way.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N13",
+    "bg": "conspiracy_board",
+    "n": 7,
+    "title": "The tournament ends"
+   }
+  },
+  {
+   "say": "The Rattlers did not take the loss quietly. They raided the Eagles' cabin, turned over beds and took personal belongings. The Eagles, of course, wanted revenge. At several points, the staff had to physically step in and pull the groups apart.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The losers strike back",
+    "sub": "A cabin turned upside down"
+   }
+  },
+  {
+   "say": "After the tournament, there were two days to let tempers cool. During that time, the researchers asked the boys to describe both groups. Each group rated its own members favourably, and the other group unfavourably. Their own side looked good. The other side looked bad, even though the two groups had been matched to be as alike as possible.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "who": "Sherif and colleagues",
+    "where": "The cooling-off days",
+    "what": "How each group described itself and the other"
+   }
+  },
+  {
+   "say": "Think about what that means. The boys had been matched to be as similar as possible. Yet, after a few days of competition, each group saw itself as the good side and the other as the problem. The difference was not in the boys themselves. It was in the story each group was now telling about the other.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The power of a label",
+    "sub": "Same boys, different stories"
+   }
+  },
+  {
+   "say": "The psychologist Roger Brown, writing in 1986, called Robbers Cave the most successful field experiment ever conducted on intergroup conflict. And you can see why. In under two weeks, two groups of very similar boys had become bitter rivals.",
+   "show": {
+    "type": "quote",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "text": "The most successful field experiment ever conducted on intergroup conflict.",
+    "by": "Roger Brown, 1986"
+   }
+  },
+  {
+   "say": "Now came the question that mattered most to Sherif. Once the hostility existed, how could it be undone? The first thing the researchers tried is the thing most of us would try.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "n": 8,
+    "title": "Can you just bring them together?"
+   }
+  },
+  {
+   "say": "They brought the groups together in pleasant situations. They tried activities like a bean collecting contest, watching a film together, and a firecracker show on the Fourth of July. The idea was simple: if the boys just spent nice time in the same place, surely they would get along.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "title": "The first attempts",
+    "items": [
+     "A bean collecting contest",
+     "Watching a film together",
+     "Fireworks on the Fourth of July"
+    ]
+   }
+  },
+  {
+   "say": "It barely helped. The tension between the groups hardly went down. Being in the same room was not enough to undo days of rivalry. That is an important lesson, and it still holds up in later research. Simply putting rivals side by side does not automatically make them friends.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "It barely helped",
+    "sub": "Contact alone was not enough"
+   }
+  },
+  {
+   "say": "So here our case file reaches a turning point. The rivalry was real, the grudges were real, and pleasant contact had failed. Sherif needed something stronger. And his answer was a set of problems that neither group could solve alone.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The open question",
+    "sub": "What would actually work?"
+   }
+  }
+ ]
+}

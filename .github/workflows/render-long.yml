@@ -76,7 +76,7 @@ jobs:
                      "shorts": {s[:-4]: f"https://github.com/JonkoJeff/channel-media/releases/download/{i}/{s}" for s in sh}},
                     open(f"studio/renders/{i}/result.json", "w"), indent=1)
           PY
-          cp $R/${ID}_thumb.png $D/thumb.png; cp $R/${ID}_description.txt $D/description.txt; cp -r $R/${ID}_frames $D/frames
+          cp $R/${ID}_thumb.png $D/thumb.png; cp $R/${ID}_description.txt $D/description.txt; rm -rf $D/frames; cp -r $R/${ID}_frames $D/frames
           gh release delete $ID -y --cleanup-tag 2>/dev/null || true
           gh release create $ID $R/$ID.mp4 $(ls $R/sh*.mp4 2>/dev/null) --title "$ID" --notes "Rendered video files for the channel."
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com

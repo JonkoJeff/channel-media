@@ -30,3 +30,8 @@
 - Long-form packaging benchmarks: [Nap Academy’s 2 Hours of Psychology]( pairs an explicit sleep promise with ch
 - Our supplied snapshot supports testing specificity: “one word rewrites a memory” has 257 views versus 4 for “f
 - A Shorts funnel needs a clickable related-video link; YouTube supports this below the channel handle, but does
+
+## 2026-10-16_pm
+- Eight concrete references reviewed through indexed metadata: the two Sleepy Science videos above; SleepWise’s 
+- Our supplied snapshot favors concrete psychological surprises: dread versus pain, 271 views; one word rewritin
+- Shorts need an explicit destination: [YouTube supports a related-video link]( requiring advanced feature acces

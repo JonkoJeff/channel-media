@@ -16,3 +16,10 @@
 - Editing hypothesis: [Quiet History]( explicitly describes approximately two-hour episodes, unhurried narration
 - Shorts conversion needs an actual destination: YouTube’s [Related Video feature]( supplies a clickable link be
 - Measurement correction: [YouTube’s current documentation]( says views count starts across formats from August 
+
+## 2026-10-16_pm
+- Recent compilation opportunity: [Chat History’s two-hour collection]( published July 26, shows 2,192,404 views
+- Narrative continuity is another packaging option: [The Sleep Bible’s four-Gospel compilation]( August 9, shows
+- Three additional references complete eight concrete examples, but fall outside the requested recent-publicatio
+- New Shorts workflow finding: YouTube’s [Clips and Shorts tool]( can extract existing footage, customize automa
+- A universal US publishing hour is unsupported: [YouTube says]( timing may help early viewing but is not known 

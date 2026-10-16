@@ -200,7 +200,7 @@ function CfCovers($id, $v, $only) {
   $sa = (@((RJ "$AE\manifest.json").assets) | Where-Object { $_.asset_id -eq $v.thumb.sprite }).file_path
   $spr = if ($sa -and (Test-Path "$AE\assets_hd\$(Split-Path $sa -Leaf)")) { "studio/assetedit/assets_hd/$(Split-Path $sa -Leaf)" } elseif ($sa) { "studio/assetedit/$sa" }
   $k = 0
-  foreach ($s in @(RJ "$AE\videos\shorts.json" | Where-Object { $_.src -like "$($id)_*" })) { if ($only -and $only -notcontains $s.id) { $k++; continue }; Ensure 'cf_cover' $s.id @{ id = $id; sid = $s.id; accent = $CfAccents[$k++ % $CfAccents.Count]; refs = @($ref, $spr) } @() $id }
+  foreach ($sx in @(RJ "$AE\videos\shorts.json" | Where-Object { $_.src -like "$($id)_*" })) { if ($only -and $only -notcontains $sx.id) { $k++; continue }; Ensure 'cf_cover' $sx.id @{ id = $id; sid = $sx.id; accent = $CfAccents[$k++ % $CfAccents.Count]; refs = @($ref, $spr) } @() $id }
 }
 
 # ---------- pipeline (one Crazy Facts video) ----------
@@ -261,10 +261,10 @@ function Prompt($t) {
     'cf_shorts' { Fill 'cf_shorts' @{ id = $a.id; title = $v.title; count = [math]::Min(@($v.parts).Count, 12); digest = (Digest $v) } }
     'cf_thumb' { Fill 'cf_thumb' @{ id = $a.id; title = $v.title; plan = (@($v.plan) -join ' / '); thumb = ($v.thumb | ConvertTo-Json -Compress) } }
     'cf_cover' {
-      $s = @(RJ "$AE\videos\shorts.json" | Where-Object { $_.id -eq $a.sid })[0]; if (-not $s) { throw "Short $($a.sid) not in shorts.json" }
-      $segs = @(Segs (Get-Content (BlockFile $s.src) -Raw -Encoding utf8) | Where-Object { -not $_[0].StartsWith('#') }); $last = if ($null -ne $s.last) { [int]$s.last } else { [int]$s.first + 3 }
-      $say = (@($segs[[int]$s.first..[math]::Min($last, $segs.Count - 1)] | ForEach-Object { ($_ | Select-Object -Skip 1) -join ' ' }) -join ' ')
-      Fill 'cf_cover' @{ id = $a.id; sid = $a.sid; title = $v.title; short = $s.title; hook = "$($s.top)".TrimEnd(':', ' ').ToUpper(); accent = $a.accent; bg = ("$($v.thumb.bg)" -replace '_', ' '); say = $say.Substring(0, [math]::Min(900, $say.Length)) }
+      $sx = @(RJ "$AE\videos\shorts.json" | Where-Object { $_.id -eq $a.sid })[0]; if (-not $sx) { throw "Short $($a.sid) not in shorts.json" }
+      $segs = @(Segs (Get-Content (BlockFile $sx.src) -Raw -Encoding utf8) | Where-Object { -not $_[0].StartsWith('#') }); $last = if ($null -ne $sx.last) { [int]$sx.last } else { [int]$sx.first + 3 }
+      $say = (@($segs[[int]$sx.first..[math]::Min($last, $segs.Count - 1)] | ForEach-Object { ($_ | Select-Object -Skip 1) -join ' ' }) -join ' ')
+      Fill 'cf_cover' @{ id = $a.id; sid = $a.sid; title = $v.title; short = $sx.title; hook = "$($sx.top)".TrimEnd(':', ' ').ToUpper(); accent = $a.accent; bg = ("$($v.thumb.bg)" -replace '_', ' '); say = $say.Substring(0, [math]::Min(900, $say.Length)) }
     }
     'rel_outline' { $n = [int]$a.ep; $th = RelThumb $n; if (-not $th) { $th = 'none yet: Codex paints it from your "thumb" headline' }; Fill 'rel_outline' @{ ep = $a.ep; title = (RelEpisodes)[$n]; tradition = (RelTradition $n); thumb = $th } }
     'rel_thumb' {

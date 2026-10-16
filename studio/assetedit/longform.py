@@ -278,7 +278,7 @@ def frame_for(seg, lt, dur, beat=0):
     else: place_sprite(img, sh["sprite"], 1620, 2.0, lt)
     z, shift = 1.0, (0, 0)
     if t == "char" and CALM[0]:  # re-frame on every sentence (wide -> toward the text -> close on the character) so one scene never sits still
-        k = beat % 3; z = (1.0, 1.07, 1.13)[k] + 0.03 * min(lt / max(dur, 0.1), 1); shift = ((0, 0), (-170, 10), (210, 30))[k]
+        k = beat % 3; z = (1.0, 1.07, 1.11)[k] + 0.03 * min(lt / max(dur, 0.1), 1); shift = ((0, 0), (-170, 10), (-400, 40))[k]  # never crop the left caption card (lf13: close shot cut the text)
     elif t == "char": z = 1.0 + 0.025 * min(lt / max(dur, 0.1), 1) + (0.07 if beat % 2 else 0)  # slow push-in keeps static shots alive
     return finish(img, seg, lt, z, shift)
 

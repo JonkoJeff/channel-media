@@ -19,7 +19,7 @@ for pre in ("lf", "rel"):
     nxt_long = max(longs + [today]) + dt.timedelta(days=1); nxt_short = max(shorts + [today]) + dt.timedelta(days=1)
     for i in sorted(mine, key=num):
         r = mine[i][2]
-        if not r.get("video"): continue
+        if not r.get("video") or r.get("hold"): continue  # hold = failed QC, waiting for a re-render
         todo_long = not r.get("zernio_id") and not r.get("scheduled"); todo_sh = bool(r.get("shorts")) and len(r.get("shorts_posted", {})) < len(r["shorts"]) and (r.get("zernio_id") or r.get("scheduled") or todo_long)
         if not (todo_long or todo_sh): continue
         if todo_long:

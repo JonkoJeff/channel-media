@@ -253,3 +253,6 @@ Sprites N01–N30 (owner sheet, 15 Oct) cut + 4x upscaled + registered with emot
 
 ## AUTOPLAN (owner 16 Oct: planning must be automatic, never ask)
 `.github/workflows/autoplan.yml` (after every render + every 3 h) runs `studio/yt/autoplan.py --run`: every rendered video without Zernio post gets scheduled: long 20:00 on the first free day after the last long (<= 14 days ahead), Shorts 15/18/21/23:30 (BTT on the long video's day, BAD after the last scheduled Short, <= 35 days ahead). Posting stays in zernio.py (failsafes). Dry run: `python3 studio/yt/autoplan.py`. Do not ask the owner when to plan: the plan is the rule above.
+
+## BTT SHORT COVER FRAME
+build.py now opens every Belief Through Time Short with a designed 1.7 s cover (`studio/religion/cover.py`: artwork of the Short's first scene, dark gradient, big serif hook, last line on a colour block, colour rotates per Short and episode). Zernio's 1.5 s frame is therefore a real thumbnail. Applies to newly rendered episodes; already rendered/scheduled Shorts (rel01-04, rel21-24) keep their old look (re-rendering means delete + repost: only on explicit owner order).

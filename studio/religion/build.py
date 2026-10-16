@@ -213,9 +213,12 @@ for n, (a, b, title) in enumerate(shorts[:4], 1):
         if s["start"] + s["dur"] - st > 58: break
         en = s["start"] + s["dur"]
     en = min(max(en, st + 20), st + 58); sid = f"{vid}_s{n}"; tf = os.path.join(W, sid + ".txt"); open(tf, "w").write("\n".join(textwrap.wrap(title, 22)[:3]))
-    fc = ("[0:v]split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5[bg];[b]scale=1080:-2[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,"
-          f"drawtext=fontfile={FONT}:textfile={tf}:fontcolor={GOLD}:fontsize=60:x=(w-text_w)/2:y=230:line_spacing=12:shadowcolor=black:shadowx=3:shadowy=3:enable='lt(t,5)'")
-    sh("ffmpeg", "-y", "-loglevel", "error", "-ss", f"{st:.2f}", "-t", f"{en - st:.2f}", "-i", os.path.join(OUT, vid + ".mp4"), "-filter_complex", fc, "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", os.path.join(OUT, sid + ".mp4"))
+    cf, cv = os.path.join(W, sid + "_f.jpg"), os.path.join(W, sid + "_cover.jpg")   # cover = thumbnail frame for the first 1.7 s (Zernio takes the frame at 1.5 s)
+    sh("ffmpeg", "-y", "-loglevel", "error", "-ss", f"{st + 1:.2f}", "-i", os.path.join(OUT, vid + ".mp4"), "-frames:v", "1", "-q:v", "2", cf)
+    import cover as _cv; _cv.cover(cf, title, n, cv, int(re.sub(r"\D", "", vid) or 0))
+    fc = ("[0:v]split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5[bg];[b]scale=1080:-2[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2[v0];[v0][1:v]overlay=0:0:enable='lt(t,1.7)',"
+          f"drawtext=fontfile={FONT}:textfile={tf}:fontcolor={GOLD}:fontsize=60:x=(w-text_w)/2:y=230:line_spacing=12:shadowcolor=black:shadowx=3:shadowy=3:enable='between(t,1.7,5)'")
+    sh("ffmpeg", "-y", "-loglevel", "error", "-ss", f"{st:.2f}", "-t", f"{en - st:.2f}", "-i", os.path.join(OUT, vid + ".mp4"), "-loop", "1", "-t", f"{en - st:.2f}", "-i", cv, "-filter_complex", fc, "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", os.path.join(OUT, sid + ".mp4"))
     meta[sid] = {"title": title, "tags": ["#shorts"] + ["#" + re.sub(r"\W", "", t) for t in hd.get("TAGS", "").split(",")[:3] if t.strip()]}
 
 # ---------- metadata ----------

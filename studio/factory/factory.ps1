@@ -185,7 +185,13 @@ function TakeImage($w, $h, $dst) {
     $ar = $im.Width / $im.Height; if ([math]::Abs([math]::Log($ar / ($w / $h))) -gt 0.25) { return @("image is $($im.Width)x$($im.Height); it must be $(if ($w -gt $h) { 'landscape (1536x1024)' } else { 'portrait (1024x1536)' })") }
     if ($ar -gt $w / $h) { $ch = $im.Height; $cw = [int]($ch * $w / $h) } else { $cw = $im.Width; $ch = [int]($cw * $h / $w) }
     $bm = [Drawing.Bitmap]::new($w, $h); $g = [Drawing.Graphics]::FromImage($bm); $g.InterpolationMode = 'HighQualityBicubic'; $g.PixelOffsetMode = 'HighQuality'
-    $g.DrawImage($im, [Drawing.Rectangle]::new(0, 0, $w, $h), [Drawing.Rectangle]::new([int](($im.Width - $cw) / 2), [int](($im.Height - $ch) / 2), $cw, $ch), [Drawing.GraphicsUnit]::Pixel)
+    $full = [Drawing.Rectangle]::new(0, 0, $w, $h); $crop = [Drawing.Rectangle]::new([int](($im.Width - $cw) / 2), [int](($im.Height - $ch) / 2), $cw, $ch)
+    if ($h -gt $w) {
+      # portrait: never crop the sides (the hook would lose letters). Whole image at full width, the strips above/below = blurred, darkened copy
+      $sm = [Drawing.Bitmap]::new(27, 48); $gs = [Drawing.Graphics]::FromImage($sm); $gs.InterpolationMode = 'HighQualityBilinear'; $gs.DrawImage($im, [Drawing.Rectangle]::new(0, 0, 27, 48), $crop, [Drawing.GraphicsUnit]::Pixel); $gs.Dispose()
+      $g.DrawImage($sm, [Drawing.Rectangle]::new(-20, -20, $w + 40, $h + 40)); $sm.Dispose(); $g.FillRectangle([Drawing.SolidBrush]::new([Drawing.Color]::FromArgb(110, 0, 0, 0)), $full)
+      $fh = [int]($w * $im.Height / $im.Width); $g.DrawImage($im, [Drawing.Rectangle]::new(0, [int](($h - $fh) * 0.45), $w, $fh))
+    } else { $g.DrawImage($im, $full, $crop, [Drawing.GraphicsUnit]::Pixel) }
     $enc = [Drawing.Imaging.ImageCodecInfo]::GetImageEncoders() | Where-Object MimeType -eq 'image/jpeg'; $ep = [Drawing.Imaging.EncoderParameters]::new(1); $ep.Param[0] = [Drawing.Imaging.EncoderParameter]::new([Drawing.Imaging.Encoder]::Quality, [long]92)
     New-Item -ItemType Directory -Force (Split-Path $dst) | Out-Null; $bm.Save($dst, $enc, $ep); $g.Dispose(); $bm.Dispose()
   } finally { $im.Dispose() }

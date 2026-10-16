@@ -256,3 +256,6 @@ Sprites N01–N30 (owner sheet, 15 Oct) cut + 4x upscaled + registered with emot
 
 ## BTT SHORT COVER FRAME
 build.py now opens every Belief Through Time Short with a designed 1.7 s cover (`studio/religion/cover.py`: artwork of the Short's first scene, dark gradient, big serif hook, last line on a colour block, colour rotates per Short and episode). Zernio's 1.5 s frame is therefore a real thumbnail. Applies to newly rendered episodes; already rendered/scheduled Shorts (rel01-04, rel21-24) keep their old look (re-rendering means delete + repost: only on explicit owner order).
+
+## BTT LONG THUMBNAILS (bible_01..10 posters)
+The Bible posters are portrait art on blurred bars (showed as a small strip on phones). `studio/religion/poster16.py` rebuilds them as 16:9: poster with rim glow on one side (alternates per episode), big squeezed serif hook on the other side (hook words from `studio/channels/religion/thumb_heads.json`, NOT the poster's own title). build.py uses it automatically for `bible_*` art; Quran/Hinduism/Christianity art is already 16:9 and stays untouched. Scheduled posts: `zernio.py rethumb relNN`; published ones (rel01, rel02): upload studio/renders/relNN/thumb.jpg in YouTube Studio.

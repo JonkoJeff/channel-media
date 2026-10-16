@@ -202,6 +202,8 @@ words = hd.get("THUMB") or re.split(r"[:—-]", hd.get("TITLE", vid))[-1]
 # approved owner art already carries its own title: keep it unchanged; generate only for episodes without art (e.g. Christianity 11-20)
 owner_art = os.environ.get("THUMB") and os.path.exists(os.environ.get("THUMB", ""))
 base = None if owner_art else (POOL[len(POOL) // 3] if POOL else None)
+if owner_art and os.path.basename(os.environ["THUMB"]).startswith("bible_"):   # portrait poster art on blurred bars: rebuild as a real 16:9 thumbnail with a big hook (poster16.py)
+    import poster16; poster16.make(os.environ["THUMB"], vid, os.path.join(OUT, "thumb.jpg")); print("thumbnail: poster16")
 if base: thumb(base, words, int(re.sub(r"\D", "", vid) or 0), os.path.join(OUT, "thumb.jpg")); print("thumbnail:", " ".join(words.split()[:4]))
 
 # ---------- Shorts (vertical, cut on scene boundaries, <=58 s) ----------

@@ -11,3 +11,13 @@ VERDICTS:
 - E1: running (started 2026-10-14, 72 h not yet reached; early signal: the memory demonstration "How one word rewrites a memory" got 253 views, but "Memory is rebuilt every time" got 0 at under 24 h, so there is no clean demonstration-vs-explanation split yet)
 - E2: running (applies to the next 2 long videos; none has been published with the added title text, and the seven-day measure is not available yet)
 - E3: running (needs 72 h after each daily batch plus the Related Video link; no linked-long delta recorded, and the 2.5 h longs are in the 4-18 view range as the baseline)
+- 2026-10-15: Treat status.json views as exposure only; do not claim retention, watch-time or Shorts-to-long conversion gains, and promote creative rules only when the matching metric exists (evidence: all 24 uploads have 0-2 likes and 0 comments; no impressions/CTR/retention in status.json).
+- 2026-10-15: A block with no measured numbers or no continuous relationship may omit stat, bars and curve scenes; fill the variety with list, quote, photo or char scenes instead of inventing figures (evidence: codex proposals for lf13_b08, lf14_b11, lf14_b12, lf14_b13; consistent with the Facts rule in STYLE section 9).
+
+VERDICTS:
+- E1: running (Shorts since 14 Oct: 257 for the memory demonstration hook, 4 and 8 for the 15 Oct demonstration-type Shorts; fewer than 12 Shorts and under 72 h for most, no clean split)
+- E2: running (lf14 is the first long with the added title text, uploaded under 7 days ago; no 7-day data; previous longs are at 4-14 views)
+- E3: running (no linked-long delta recorded; 72 h has not passed for the 15 Oct batch; attribution is not available)
+- E7: running (BTT, started 15 Oct, no published video with the rule and no 7-day views)
+- E8: running (BTT, started 15 Oct, no Shorts with the format yet; 0 of 8 published)
+- E9: running (BTT, started 15 Oct, no titled video has 7 days of data)

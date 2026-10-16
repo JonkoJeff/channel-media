@@ -11,6 +11,7 @@ Runs locally in Herdr (workspace "CrazyFacts HQ"). Start: `pwsh -File studio/fac
 | Fix after a failed audit (one round) | Codex | Claude | |
 | Shorts: exact segment ranges, hooks, titles, ranked by virality | Codex | Claude | segment boundaries are the exact cut points |
 | Final thumbnail spec | Claude | Codex | variety + trend rules + learned rules |
+| BTT long thumbnail without owner art (`rel_thumb`), cover frame per Short (`rel_cover`, `cf_cover`) | Codex (image generation) | none: a failed cover falls back to the drawn one | same look as the channel's long-form thumbnails; `codex_covers` in config.json switches covers off |
 | Performance analysis -> learned rules for everyone | Claude | Codex | the single gatekeeper of style changes |
 | Block JSON, B-roll, render | GitHub Actions (`factory.yml` -> `render-long.yml`) | | no tokens |
 | QC + scheduling + posting | channel-operator (Claude) | | never delegated |
@@ -28,7 +29,7 @@ Runs locally in Herdr (workspace "CrazyFacts HQ"). Start: `pwsh -File studio/fac
 - A validator checks every block (allowed sprite/background pairs, scene fields, char runs, photos, length, no part numbers) and an audit checks tone and structure before anything is rendered.
 
 ## Commands (`pwsh -File studio/factory/factory.ps1 <mode>`)
-`status` · `dash` · `controller` · `worker -Name codex1` · `new-video` · `enqueue -Type cf_audit -Arg '{"id":"lf12","block":"lf12_b03"}'` · `add-agent -Name codex3 -Kind codex` · `pause` · `resume` · `retry -Id <task>` · `kill -Id <task>` · `pack`
+`status` · `dash` · `controller` · `worker -Name codex1` · `new-video` · `covers -Id lf15,rel24` (Codex covers for already scheduled Shorts, pushed and re-attached via zernio rethumb) · `enqueue -Type cf_audit -Arg '{"id":"lf12","block":"lf12_b03"}'` · `add-agent -Name codex3 -Kind codex` · `pause` · `resume` · `retry -Id <task>` · `kill -Id <task>` · `pack`
 
 ## Adding an agent
 `factory.ps1 add-agent -Name codex3 -Kind codex` (or `claude` with `-Model haiku|sonnet`): it is added to agents.json and, when HQ runs, gets its own pane in the Workers tab. New kinds need one `switch` branch in `Run` (factory.ps1).

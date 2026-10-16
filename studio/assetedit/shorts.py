@@ -117,7 +117,9 @@ def render(s):
     b = t[last]["end"]
     v = json.load(open(os.path.join(HERE, "videos", s["src"] + ".json"))); full = v.get("title", "")
     ov = os.path.join(HERE, "renders", s["id"] + "_ov.png"); overlay(s["top"], full, ov)
-    cv = os.path.join(HERE, "renders", s["id"] + "_cover.png"); cover(s, v, cv)
+    cx = os.path.join(HERE, "..", "covers", s["id"] + ".jpg")   # cover painted by Codex (factory cf_cover), else the drawn one
+    cv = cx if os.path.exists(cx) else os.path.join(HERE, "renders", s["id"] + "_cover.png")
+    if cv != cx: cover(s, v, cv)
     cap = os.path.join(HERE, "renders", s["id"] + ".ass"); captions(v["segments"], t, a, b, cap, spans=sentence_spans(os.path.join(HERE, "audio", s["src"] + "_vo.wav"), v["segments"], t))
     out = os.path.join(HERE, "renders", s["id"] + ".mp4")
     fc = ("[0:v]split[a][b];[a]scale=-2:1920,crop=1080:1920,gblur=sigma=28,eq=brightness=-0.18[bg];"
@@ -125,7 +127,8 @@ def render(s):
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{a:.3f}", "-to", f"{b:.3f}", "-i", os.path.join(HERE, "renders", s["src"] + ".mp4"),
                     "-i", ov, "-i", cv, "-filter_complex", fc, "-map", "[out]", "-map", "0:a", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
                     "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", out], check=True)
-    os.remove(ov); os.remove(cv); os.remove(cap)
+    os.remove(ov); os.remove(cap)
+    if cv != cx: os.remove(cv)
     assert b - a <= 60, f"{s['id']} too long for a Short: {b - a:.1f}s"
     print(f"{s['id']}: {s['src']} segs {s['first']}-{last}, {b - a:.1f}s")
     return out

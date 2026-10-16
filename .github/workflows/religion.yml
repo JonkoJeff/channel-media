@@ -21,7 +21,8 @@ jobs:
       - name: thumbnail exists?
         run: |
           E=${{ inputs.ep }}; [ "$E" = test ] && { echo "THUMB=studio/channels/religion/thumbs/Q01.jpg" >> $GITHUB_ENV; exit 0; }; N=$((10#$E))
-          if [ $N -le 10 ]; then T=$(ls studio/channels/religion/thumbs/bible_$(printf %02d $N)_*.jpg); elif [ $N -ge 21 ] && [ $N -le 30 ]; then T=studio/channels/religion/thumbs/Q$(printf %02d $((N-20))).jpg; elif [ $N -ge 301 ]; then T=studio/channels/religion/thumbs/$N.jpg; else echo "::error::no thumbnail for episode $N"; exit 1; fi
+          T=""; if [ $N -le 10 ]; then T=$(ls studio/channels/religion/thumbs/bible_$(printf %02d $N)_*.jpg 2>/dev/null | head -1); elif [ $N -ge 21 ] && [ $N -le 30 ]; then T=studio/channels/religion/thumbs/Q$(printf %02d $((N-20))).jpg; fi
+          [ -f "$T" ] || T=studio/channels/religion/thumbs/$E.jpg   # 301-310, or painted by Codex (factory rel_thumb), e.g. 11.jpg
           test -f "$T" && echo "THUMB=$T" >> $GITHUB_ENV || { echo "::error::no thumbnail for episode $N"; exit 1; }
       - name: build
         run: |

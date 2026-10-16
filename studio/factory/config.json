@@ -202,6 +202,40 @@
       "stall_s": 480,
       "priority": 2
     },
+    "rel_thumb": {
+      "prefer": [
+        "codex"
+      ],
+      "fallback": [],
+      "spill_after_s": 900,
+      "timeout_s": 900,
+      "stall_s": 600,
+      "priority": 2,
+      "nopack": true,
+      "note": "image tasks: only Codex can paint (image generation tool)"
+    },
+    "rel_cover": {
+      "prefer": [
+        "codex"
+      ],
+      "fallback": [],
+      "spill_after_s": 900,
+      "timeout_s": 900,
+      "stall_s": 600,
+      "priority": 2,
+      "nopack": true
+    },
+    "cf_cover": {
+      "prefer": [
+        "codex"
+      ],
+      "fallback": [],
+      "spill_after_s": 900,
+      "timeout_s": 900,
+      "stall_s": 600,
+      "priority": 2,
+      "nopack": true
+    },
     "cf_strategy": {
       "prefer": [
         "codex"
@@ -216,6 +250,8 @@
       "nopack": true
     }
   },
+  "codex_covers": true,
+  "codex_covers_note": "owner 16 Oct: Codex paints a cover frame per Short (studio/covers) in the long-form thumbnail style of the channel; false = old drawn covers. BTT long thumbnails without owner art are always painted by Codex (rel_thumb).",
   "audit_pass_score": 8,
   "codex_history": "none"
 }

@@ -21,6 +21,6 @@ Run Claude Code inside a herdr pane; herdr only lets agents control herdr from i
 - Codex/ChatGPT: scripts `studio/channels/religion/stories/NN.txt` (FORMAT.md), titles, descriptions, tags, Short hooks, thumbnail text, fact check with sources.
 - Copilot (free, weaker): queue/list upkeep, JSON metadata, small script edits that Claude reviews.
 - Each task = one self-contained instruction (input file, output file, format, forbidden topics) and one file back. Claude validates with a script, samples content, allows ONE correction, then takes over or reports.
-- No other agent gets keys or may publish/delete. Keys only as GitHub Actions secrets (never in repo or CLAUDE.md). Codex/Copilot cannot make images: thumbnails come from the existing pipeline.
+- No other agent gets keys or may publish/delete. Keys only as GitHub Actions secrets (never in repo or CLAUDE.md). Images (owner 16 Oct 2026): Codex paints the BTT long thumbnails that have no owner art (factory `rel_thumb` -> studio/channels/religion/thumbs/NN.jpg) and the cover frame of every Short of both channels in that channel's long-form thumbnail style (`rel_cover`/`cf_cover` -> studio/covers/<short id>.jpg: first 1.7 s of the Short + post thumbnail). BAD long thumbnails stay the drawn pipeline (approved sprites). Copilot cannot make images.
 - Model: Sonnet by default (`/model`); Opus only for a real design decision. Rendering runs in GitHub Actions: start, wait in one loop, read one line.
 - Never any money/finance content. Only channels: Belief Through Time (priority) and Crazy Facts.

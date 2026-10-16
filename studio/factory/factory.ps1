@@ -5,6 +5,7 @@ Crazy Facts factory: one queue, many agents, one style.
   factory.ps1 dash                  live overview of agents, queue, pipelines, tokens, alerts
   factory.ps1 status                one-shot overview
   factory.ps1 new-video             start a video pipeline now (ignores the watermarks)
+  factory.ps1 covers -Id lf15,rel24 Codex covers for the still scheduled Shorts of rendered videos (pushed + re-attached to the posts)
   factory.ps1 enqueue -Type cf_audit -Arg '{"block":"lf12_b03"}'
   factory.ps1 add-agent -Name codex3 -Kind codex [-Model sonnet]
   factory.ps1 pause | resume | retry -Id <task> | kill -Id <task>
@@ -163,6 +164,45 @@ function CheckThumb($th) {
   $e
 }
 
+# ---------- images made by Codex (owner 16 Oct: Codex paints BTT thumbnails and the cover frame of every Short) ----------
+# A cover = studio/covers/<short id>.jpg (1080x1920): shorts.py / build.py show it for the first 1.7 s, zernio.py uploads it as the post thumbnail.
+# No cover (task failed 3x or codex_covers off) -> the old drawn cover is used, so a cover never blocks a video.
+function CoverFile($sid) { "$Repo\studio\covers\$sid.jpg" }
+function Settled($id) { (Done $id) -or (Test-Path "$S\queue\failed\$id.json") }
+function TakeImage($w, $h, $dst) {
+  # newest image of the run -> centre crop to w:h, resize, JPEG 92 (System.Drawing: no Python on this machine)
+  $img = @($script:runImages)[-1]; if (-not $img) { return @('no image was generated: use the image generation tool') }
+  Add-Type -AssemblyName System.Drawing
+  $im = [Drawing.Image]::FromFile($img)
+  try {
+    $ar = $im.Width / $im.Height; if ([math]::Abs([math]::Log($ar / ($w / $h))) -gt 0.25) { return @("image is $($im.Width)x$($im.Height); it must be $(if ($w -gt $h) { 'landscape (1536x1024)' } else { 'portrait (1024x1536)' })") }
+    if ($ar -gt $w / $h) { $ch = $im.Height; $cw = [int]($ch * $w / $h) } else { $cw = $im.Width; $ch = [int]($cw * $h / $w) }
+    $bm = [Drawing.Bitmap]::new($w, $h); $g = [Drawing.Graphics]::FromImage($bm); $g.InterpolationMode = 'HighQualityBicubic'; $g.PixelOffsetMode = 'HighQuality'
+    $g.DrawImage($im, [Drawing.Rectangle]::new(0, 0, $w, $h), [Drawing.Rectangle]::new([int](($im.Width - $cw) / 2), [int](($im.Height - $ch) / 2), $cw, $ch), [Drawing.GraphicsUnit]::Pixel)
+    $enc = [Drawing.Imaging.ImageCodecInfo]::GetImageEncoders() | Where-Object MimeType -eq 'image/jpeg'; $ep = [Drawing.Imaging.EncoderParameters]::new(1); $ep.Param[0] = [Drawing.Imaging.EncoderParameter]::new([Drawing.Imaging.Encoder]::Quality, [long]92)
+    New-Item -ItemType Directory -Force (Split-Path $dst) | Out-Null; $bm.Save($dst, $enc, $ep); $g.Dispose(); $bm.Dispose()
+  } finally { $im.Dispose() }
+  @()
+}
+$CfAccents = '#FFB03B', '#FF69A0', '#40D6FF', '#B078FF', '#FF5C5C', '#FFE13C', '#FF8C3C', '#6E96FF', '#EB50EB'   # longform.py ACCENTS (no green)
+function Backfill($id) {
+  # covers for an already rendered video: only its Shorts that air in 2+ hours; the controller pushes them and re-attaches them to the scheduled posts
+  $r = RJ "$Repo\studio\renders\$id\result.json"; if (-not $r) { throw "$id is not rendered" }
+  $soon = (Ams).AddHours(2); $want = @($r.shorts_posted.Keys | Where-Object { [datetime]::Parse($r.shorts_posted[$_].when) -gt $soon -and -not (Test-Path (CoverFile $_)) } | Sort-Object)
+  if (-not $want) { return "$($id): no scheduled Shorts without a cover" }
+  $ts = if ($id -like 'rel*') { $ep = $id.Substring(3); $art = RelThumb ([int]$ep); @($want | ForEach-Object { Ensure 'rel_cover' $_ @{ id = $id; ep = $ep; n = [int]($_ -replace '^.*_s', ''); refs = @("studio/channels/religion/thumbs/$art") } @() $null }) } else { @(CfCovers $id (Plan $id) $want) }
+  Lock { $bf = @(RJ "$S\covers_backfill.json" | Where-Object { $_ -and $_.id -ne $id }); WJ "$S\covers_backfill.json" @($bf + @{ id = $id; tasks = $ts }) }
+  "$($id): $($ts.Count) cover tasks queued ($($want -join ', '))"
+}
+function CfCovers($id, $v, $only) {
+  # one cf_cover task per Short of this video; style reference = the newest rendered long-form thumbnail + the video's approved thumbnail sprite
+  $ref = Get-ChildItem "$Repo\studio\renders" -Directory -Filter 'lf*' | Sort-Object Name -Descending | ForEach-Object { "studio/renders/$($_.Name)/thumb.png" } | Where-Object { Test-Path "$Repo\$_" } | Select-Object -First 1
+  $sa = (@((RJ "$AE\manifest.json").assets) | Where-Object { $_.asset_id -eq $v.thumb.sprite }).file_path
+  $spr = if ($sa -and (Test-Path "$AE\assets_hd\$(Split-Path $sa -Leaf)")) { "studio/assetedit/assets_hd/$(Split-Path $sa -Leaf)" } elseif ($sa) { "studio/assetedit/$sa" }
+  $k = 0
+  foreach ($s in @(RJ "$AE\videos\shorts.json" | Where-Object { $_.src -like "$($id)_*" })) { if ($only -and $only -notcontains $s.id) { $k++; continue }; Ensure 'cf_cover' $s.id @{ id = $id; sid = $s.id; accent = $CfAccents[$k++ % $CfAccents.Count]; refs = @($ref, $spr) } @() $id }
+}
+
 # ---------- pipeline (one Crazy Facts video) ----------
 function Plan($id) { RJ "$AE\videos\$id.json" }
 function BlockFile($b) { "$F\scripts\$b.txt" }
@@ -185,7 +225,8 @@ function Advance($id) {
   $p.blocks = "$settled/$($parts.Count)"
   if ($settled -eq $parts.Count) {
     $sh = Ensure 'cf_shorts' $id @{ id = $id } @() $id
-    if ((Done $sh) -and (Done $thumb)) { $p.stage = 'ready_to_render' } else { $p.stage = 'shorts' }
+    $cov = if ((Done $sh) -and (Done $thumb) -and (Cfg).codex_covers) { @(CfCovers $id (Plan $id)) } else { @() }
+    if ((Done $sh) -and (Done $thumb) -and -not @($cov | Where-Object { -not (Settled $_) })) { $p.stage = 'ready_to_render' } else { $p.stage = 'shorts' }
   } else { $p.stage = 'writing' }
   WJ "$S\pipelines\$id.json" $p
 }
@@ -219,7 +260,25 @@ function Prompt($t) {
     'cf_audit' { $parts = @($v.parts); $n = [array]::IndexOf($parts, $a.block) + 1; Fill 'cf_audit' @{ block = $a.block; title = $v.title; position = (Position $n $parts.Count); outline = @($v.plan)[$n - 1]; text = (Get-Content (BlockFile $a.block) -Raw -Encoding utf8) } }
     'cf_shorts' { Fill 'cf_shorts' @{ id = $a.id; title = $v.title; count = [math]::Min(@($v.parts).Count, 12); digest = (Digest $v) } }
     'cf_thumb' { Fill 'cf_thumb' @{ id = $a.id; title = $v.title; plan = (@($v.plan) -join ' / '); thumb = ($v.thumb | ConvertTo-Json -Compress) } }
-    'rel_outline' { $n = [int]$a.ep; Fill 'rel_outline' @{ ep = $a.ep; title = (RelEpisodes)[$n]; tradition = (RelTradition $n); thumb = (RelThumb $n) } }
+    'cf_cover' {
+      $s = @(RJ "$AE\videos\shorts.json" | Where-Object { $_.id -eq $a.sid })[0]; if (-not $s) { throw "Short $($a.sid) not in shorts.json" }
+      $segs = @(Segs (Get-Content (BlockFile $s.src) -Raw -Encoding utf8) | Where-Object { -not $_[0].StartsWith('#') }); $last = if ($null -ne $s.last) { [int]$s.last } else { [int]$s.first + 3 }
+      $say = (@($segs[[int]$s.first..[math]::Min($last, $segs.Count - 1)] | ForEach-Object { ($_ | Select-Object -Skip 1) -join ' ' }) -join ' ')
+      Fill 'cf_cover' @{ id = $a.id; sid = $a.sid; title = $v.title; short = $s.title; hook = "$($s.top)".TrimEnd(':', ' ').ToUpper(); accent = $a.accent; bg = ("$($v.thumb.bg)" -replace '_', ' '); say = $say.Substring(0, [math]::Min(900, $say.Length)) }
+    }
+    'rel_outline' { $n = [int]$a.ep; $th = RelThumb $n; if (-not $th) { $th = 'none yet: Codex paints it from your "thumb" headline' }; Fill 'rel_outline' @{ ep = $a.ep; title = (RelEpisodes)[$n]; tradition = (RelTradition $n); thumb = $th } }
+    'rel_thumb' {
+      $n = [int]$a.ep; $o = RJ "$S\out\$($a.id).outline.json"; if (-not $o -and (Test-Path (RelScript $n))) { $o = RelStory $n }; if (-not $o) { $o = @{ title = (RelEpisodes)[$n]; desc = '' } }
+      $own = RelOwnerThumb $n; $chs = (@($o.chapters) | ForEach-Object { $_.name }) -join '; '
+      $vis = if ($own) { $own.visual } else { "the single most iconic, respectful moment of this episode (chapters: $chs)" }
+      $hl = if ($own) { $own.headline } elseif ($o.thumb) { "$($o.thumb)".ToUpper() } else { (RelEpisodes)[$n].ToUpper() }
+      Fill 'rel_thumb' @{ ep = $a.ep; title = $o.title; tradition = (RelTradition $n); headline = $hl; visual = $vis; desc = $o.desc; extra = (RelExtra $n) }
+    }
+    'rel_cover' {
+      $n = [int]$a.ep; $st = RelStory $n; $x = $st.shorts[[int]$a.n - 1]; if (-not $x) { throw "episode $($a.ep) has no Short $($a.n)" }
+      $sel = @($st.scenes | Where-Object { $_.ts -ge $x.start -and $_.ts -lt $x.end }); $say = (@($sel | ForEach-Object { $_.say }) -join ' ')
+      Fill 'rel_cover' @{ ep = $a.ep; title = $st.title; n = $a.n; short = $x.title; visual = $(if ($sel) { $sel[0].vis } else { 'the key moment of this Short' }); say = $say.Substring(0, [math]::Min(900, $say.Length)); extra = (RelExtra $n) }
+    }
     { $_ -in 'rel_chapter', 'rel_audit', 'rel_fix' } {
       $o = RJ "$S\out\$($a.id).outline.json"; $ch = @($o.chapters); $i = [int]$a.chapter; $c = $ch[$i - 1]
       $outline = (1..$ch.Count | ForEach-Object { "$_. $($ch[$_ - 1].name) (~$($ch[$_ - 1].words) words): $($ch[$_ - 1].brief)" }) -join "`n"
@@ -301,6 +360,9 @@ function Accept($t, $body) {
       Lock { $all = @(RJ "$AE\videos\shorts.json" | Where-Object { $_.src -notlike "$($a.id)_*" }); WJ "$AE\videos\shorts.json" @($all + $keep) }
       $script:outShorts = $keep.Count
     }
+    'cf_cover' { $null = JsonOf $body; $e = TakeImage 1080 1920 (CoverFile $a.sid); if ($e) { return $e } }
+    'rel_cover' { $null = JsonOf $body; $e = TakeImage 1080 1920 (CoverFile ('rel{0}_s{1}' -f $a.ep, $a.n)); if ($e) { return $e } }
+    'rel_thumb' { $null = JsonOf $body; $e = TakeImage 1280 720 "$RelDir\thumbs\$($a.ep).jpg"; if ($e) { return $e } }
     'cf_thumb' {
       $th = JsonOf $body; $e = CheckThumb $th; if ($e) { return $e }
       $why = $th.why; $th.Remove('why'); Lock { $v = Plan $a.id; $v.thumb = $th; WJ "$AE\videos\$($a.id).json" $v }
@@ -386,9 +448,24 @@ function Accept($t, $body) {
 
 # ---------- Belief Through Time (religion) ----------
 $RelDir = "$Repo\studio\channels\religion"
+$RelRefs = @('studio/channels/religion/thumbs/301.jpg', 'studio/channels/religion/thumbs/Q01.jpg')   # style references for rel_thumb (approved family)
 function RelEpisodes { $h = @{}; foreach ($l in (Get-Content "$RelDir\episode_list.md" -Encoding utf8)) { if ($l -match '^(\d+)\.\s+(.+)$') { $h[[int]$Matches[1]] = ($Matches[2].Trim() -replace '\s+[—–-]\s+', ': ') } }; $h }
 function RelTradition($n) { if ($n -le 10) { 'Hebrew Bible / Genesis-Kings, Jewish and Christian readings' } elseif ($n -le 20) { 'Christianity: the Gospels, Acts and early church history' } elseif ($n -le 30) { 'Quran and classical tafsir' } else { 'Hindu epics / Buddhism' } }
-function RelThumb($n) { if ($n -le 10) { (Get-ChildItem "$RelDir\thumbs" -Filter ('bible_{0:00}_*.jpg' -f $n) | Select-Object -First 1).Name } elseif ($n -ge 21 -and $n -le 30) { $f = 'Q{0:00}.jpg' -f ($n - 20); if (Test-Path "$RelDir\thumbs\$f") { $f } } elseif ($n -ge 301) { if (Test-Path "$RelDir\thumbs\$n.jpg") { "$n.jpg" } } }
+function RelThumb($n) { $own = RelArt $n; if ($own) { $own } elseif (Test-Path ("$RelDir\thumbs\{0:00}.jpg" -f $n)) { '{0:00}.jpg' -f $n } }   # owner art first, else the Codex-painted NN.jpg (rel_thumb)
+function RelOwnerThumb($n) { foreach ($l in (Get-Content "$RelDir\thumbs\README.md" -Encoding utf8)) { if ($l -match "^\|\s*$n\s*\|[^|]+\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|") { return @{ headline = $Matches[1]; visual = $Matches[2] } } } }   # owner's headline + visual direction (Christianity 11-20)
+function RelExtra($n) { if ($n -ge 21 -and $n -le 30) { '; Quran episode: no prophets, angels, Adam or Eve as figures (show cosmos, landscapes, light, architecture), no Arabic calligraphy' } else { '' } }
+function RelStory($n) {
+  # header (TITLE/THUMB/DESC, SHORTS in order = _s1.._s4) and scenes [ts] NARRATION/VISUAL of a written episode
+  $h = @{ shorts = @(); scenes = @(); chapters = @() }; $cur = $null; $inBody = $false
+  foreach ($l in (Get-Content (RelScript $n) -Encoding utf8)) {
+    if (-not $inBody) { if ($l -eq '---') { $inBody = $true } elseif ($l -match '^(TITLE|THUMB|DESC):\s*(.*)$') { $h[$Matches[1].ToLower()] = $Matches[2] } elseif ($l -match '^\s*(\d+:\d\d:\d\d)\s*-\s*(\d+:\d\d:\d\d)\s*\|\s*(.+)$') { $h.shorts += @{ start = $Matches[1]; end = $Matches[2]; title = $Matches[3].Trim() } }; continue }
+    if ($l -match '^CHAPTER:\s*(.+)$') { $h.chapters += @{ name = $Matches[1] } }
+    elseif ($l -match '^\[(\d+:\d\d:\d\d)\]\s*NARRATION:\s*(.*)$') { $cur = @{ ts = $Matches[1]; say = $Matches[2]; vis = '' }; $h.scenes += $cur }
+    elseif ($l -match '^VISUAL:\s*(.*)$' -and $cur) { $cur.vis = $Matches[1] }
+  }
+  $h
+}
+function RelArt($n) { if ($n -le 10) { (Get-ChildItem "$RelDir\thumbs" -Filter ('bible_{0:00}_*.jpg' -f $n) | Select-Object -First 1).Name } elseif ($n -ge 21 -and $n -le 30) { $f = 'Q{0:00}.jpg' -f ($n - 20); if (Test-Path "$RelDir\thumbs\$f") { $f } } elseif ($n -ge 301) { if (Test-Path "$RelDir\thumbs\$n.jpg") { "$n.jpg" } } }
 function RelRotation { foreach ($i in 1..10) { $i; 20 + $i; 10 + $i } }
 function RelScript($n) { "$RelDir\stories\{0:00}.txt" -f $n }
 function RelPack {
@@ -474,6 +551,8 @@ function RelWrite($id, $shorts) {
 function AdvanceRel($p) {
   $id = $p.id; $ol = Ensure 'rel_outline' $id @{ id = $id; ep = $p.ep } @() $id
   if (-not (Done $ol)) { return }
+  $ep = [int]$p.ep; $th = $null; if (-not (RelThumb $ep)) { $th = Ensure 'rel_thumb' $id @{ id = $id; ep = $p.ep; refs = $RelRefs } @($ol) $id }   # no owner art: Codex paints it while the chapters are written
+  if ($th -and (Test-Path "$S\queue\failed\$th.json")) { $p.stage = 'blocked'; $p.why = 'thumbnail failed'; WJ "$S\pipelines\$id.json" $p; Notify 'Factory: episode blocked' "$id thumbnail failed"; return }
   $o = RJ "$S\out\$id.outline.json"; $n = @($o.chapters).Count; $settled = 0
   for ($i = 1; $i -le $n; $i++) {
     $c = '{0}_c{1:00}' -f $id, $i
@@ -488,7 +567,9 @@ function AdvanceRel($p) {
   if ($settled -eq $n) {
     if (-not (Test-Path "$S\out\$id.scenes.json")) { $tot = RelAssemble $id; $p.minutes = [int]($tot / 60) }
     $sh = Ensure 'rel_shorts' $id @{ id = $id } @() $id
-    $p.stage = if (Done $sh) { 'ready_to_render' } else { 'shorts' }
+    $art = RelThumb $ep
+    $cov = if ((Done $sh) -and $art -and (Cfg).codex_covers) { @(1..4 | ForEach-Object { Ensure 'rel_cover' "$($id)_s$_" @{ id = $id; ep = $p.ep; n = $_; refs = @("studio/channels/religion/thumbs/$art") } @() $id }) } else { @() }
+    $p.stage = if ((Done $sh) -and $art -and -not @($cov | Where-Object { -not (Settled $_) })) { 'ready_to_render' } else { 'shorts' }
   } else { $p.stage = 'writing' }
   WJ "$S\pipelines\$id.json" $p
 }
@@ -516,7 +597,7 @@ function RelPlan($ctl, $cfg) {
   if ($ctl.rel_mode -eq 'generating' -and $open -lt $cfg.max_concurrent_pipelines -and $started -lt $cfg.max_pipelines_started_per_day) {
     foreach ($n in (RelRotation)) {
       $id = 'rel{0:00}' -f $n
-      if ($eps[$n] -and (RelThumb $n) -and -not (Test-Path (RelScript $n)) -and -not (Test-Path "$S\pipelines\$id.json") -and -not (Test-Path "$Repo\studio\renders\$id")) {
+      if ($eps[$n] -and -not (Test-Path (RelScript $n)) -and -not (Test-Path "$S\pipelines\$id.json") -and -not (Test-Path "$Repo\studio\renders\$id")) {
         WJ "$S\pipelines\$id.json" ([ordered]@{ id = $id; channel = 'religion'; ep = ('{0:00}' -f $n); created = Now; stage = 'planning' }); Ev @{ ev = 'pipeline'; id = $id }
         $ctl.started[$key] = $started + 1; Write-Host "$(Get-Date -f HH:mm:ss) Belief Through Time buffer $($inv.count): started episode $n" -ForegroundColor Cyan; break
       }
@@ -531,7 +612,7 @@ function Run($ag, $t, $prompt) {
   WT "$base.prompt.md" $prompt
   $kind = $ag.kind; $model = if ($kind -eq 'claude' -and $tc.claude_model) { $tc.claude_model } else { $ag.model }
   switch ($kind) {
-    'codex' { $exe = $Exe.codex; $al = @('exec', '--json', '--skip-git-repo-check', '--ephemeral', '-s', 'read-only', '-C', "`"$Repo`"", '-c', 'web_search="live"', '-o', "`"$base.last.txt`"", '-') }
+    'codex' { $exe = $Exe.codex; $ia = @(); foreach ($x in @($t.args.refs | Where-Object { $_ -and (Test-Path "$Repo\$_") })) { $ia += @('-i', "`"$Repo\$x`"") }; $al = @('exec') + $ia + @('--json', '--skip-git-repo-check', '--ephemeral', '-s', 'read-only', '-C', "`"$Repo`"", '-c', 'web_search="live"', '-o', "`"$base.last.txt`"", '-') }
     'claude' { $exe = $Exe.claude; $al = @('-p', '--output-format', 'stream-json', '--verbose', '--allowedTools', 'Read', 'Glob', 'Grep', 'WebSearch', 'WebFetch'); if ($model) { $al += @('--model', $model) } }
     'copilot' { $exe = $Exe.copilot; $al = @('-s', '--no-color') }
   }
@@ -550,7 +631,7 @@ function Run($ag, $t, $prompt) {
   }
   Write-Host ''
   $log = Get-Content "$base.log" -Raw -Encoding utf8 -ErrorAction SilentlyContinue; $err = Get-Content "$base.err" -Raw -Encoding utf8 -ErrorAction SilentlyContinue
-  $r = @{ ok = $false; text = ''; tin = 0; tout = 0; cached = 0; cost = 0.0; why = $why; secs = (Now) - $t0; rate = $false }
+  $r = @{ ok = $false; text = ''; tin = 0; tout = 0; cached = 0; cost = 0.0; why = $why; secs = (Now) - $t0; rate = $false; images = @() }
   # only real error events count as a rate limit (Claude logs an informational rate_limit_event on every run)
   $errEv = @("$log" -split "`n" | Where-Object { $_ -match '"type":"(error|turn\.failed)"|"is_error":true' -and $_ -notmatch 'hook timeout' }) -join ' '
   if ("$err $errEv" -match '(?i)rate.?limit|usage limit|quota exceeded|too many requests|\b429\b|hit your (usage )?limit|credit balance|out of credits|add credits|insufficient_quota|billing' -or "$log" -match '"rate_limit_event".{0,80}"status":"(rejected|blocked)"') { $r.rate = $true }
@@ -558,8 +639,12 @@ function Run($ag, $t, $prompt) {
     'codex' {
       foreach ($l in ($log -split "`n")) { if ($l -match '"turn.completed"') { $u = ($l | ConvertFrom-Json -AsHashtable).usage; $r.tin += $u.input_tokens - $u.cached_input_tokens; $r.cached += $u.cached_input_tokens; $r.tout += $u.output_tokens + $u.reasoning_output_tokens } }
       if (Test-Path "$base.last.txt") { $r.text = Get-Content "$base.last.txt" -Raw -Encoding utf8 }
+      $tid = if ("$log" -match '"thread_id":"([0-9a-f-]{36})"') { $Matches[1] }
+      # images from Codex's image generation tool (thumbnails, Short covers): copy them next to the run before the chat is deleted
+      $gi = "$env:USERPROFILE\.codex\generated_images\$tid"
+      if ($tid -and (Test-Path $gi)) { $k = 0; $r.images = @(Get-ChildItem $gi -File | Sort-Object LastWriteTime | ForEach-Object { $k++; Copy-Item $_.FullName "$base.img$k$($_.Extension)"; "$base.img$k$($_.Extension)" }); Remove-Item $gi -Recurse -Force -ErrorAction SilentlyContinue }
       # owner: delete the Codex/ChatGPT chat once its text is received (the Desktop app daemon keeps it despite --ephemeral)
-      if ($c.codex_delete_chats -and "$log" -match '"thread_id":"([0-9a-f-]{36})"') { & $exe delete --force $Matches[1] 2>$null | Out-Null }
+      if ($c.codex_delete_chats -and $tid) { & $exe delete --force $tid 2>$null | Out-Null }
     }
     'claude' {
       $res = $null; foreach ($l in ($log -split "`n")) { if ($l -match '"type":"result"' -and $l -match '"usage"') { try { $j = $l | ConvertFrom-Json -AsHashtable; if ($j.type -eq 'result') { $res = $j } } catch {} } }
@@ -619,6 +704,7 @@ function Worker($n) {
     if ($r.ok) {
       $d = Deliverable $r.text $pk.hash
       if ($d.err) { $errs = @($d.err) } else {
+        $script:runImages = @($r.images)
         try { $errs = @(Accept $t $d.body) } catch { $errs = @("could not use the deliverable: $_") }
         foreach ($x in $d.extra) {
           if ($x -match '^PROPOSAL:\s*(.+)') { [IO.File]::AppendAllText("$S\proposals.md", "- $(Today) $n ($($t.id)): $($Matches[1])`n", $Utf8) }
@@ -707,12 +793,12 @@ function Tick {
       if ($inFlight -ge $c.channels.religion.max_renders_in_flight) { continue }
       $ep = $p.ep; $title = ((Get-Content (RelScript ([int]$ep)) -TotalCount 1 -Encoding utf8) -replace '^TITLE:\s*', '')
       if (-not (Test-Path "$F\render\$id.json")) { WJ "$F\render\$id.json" ([ordered]@{ id = $id; channel = 'religion'; ep = $ep; title = $title; requested = (Get-Date).ToString('s') }) }
-      if (GitPush @("studio/channels/religion/stories/$ep.txt", "studio/factory/render/$id.json", 'studio/factory/learned_religion.md') "factory: Belief Through Time episode $ep `"$title`" ready, render requested") { $p.stage = 'render_requested'; $p.pushed = $now; WJ $pf.FullName $p; Ev @{ ev = 'render'; id = $id }; Notify 'Factory: render requested' "$id `"$title`" (Belief Through Time)" }
+      if (GitPush @("studio/channels/religion/stories/$ep.txt", "studio/channels/religion/thumbs/$ep.jpg", 'studio/covers', "studio/factory/render/$id.json", 'studio/factory/learned_religion.md') "factory: Belief Through Time episode $ep `"$title`" ready, render requested") { $p.stage = 'render_requested'; $p.pushed = $now; WJ $pf.FullName $p; Ev @{ ev = 'render'; id = $id }; Notify 'Factory: render requested' "$id `"$title`" (Belief Through Time)" }
       continue
     }
     if ($p.stage -eq 'ready_to_render' -and $p.channel -ne 'religion' -and $c.channels.crazyfacts.push_render) {
       $v = Plan $id; if (-not (Test-Path "$F\render\$id.json")) { WJ "$F\render\$id.json" ([ordered]@{ id = $id; title = $v.title; parts = $v.parts; requested = (Get-Date).ToString('s') }) }
-      $paths = @("studio/factory/scripts", "studio/factory/render/$id.json", "studio/assetedit/videos/$id.json", 'studio/assetedit/videos/shorts.json', 'studio/assetedit/videos/series.json', 'studio/factory/learned.md', 'studio/insights.md', 'studio/research', 'studio/factory/experiments.md')
+      $paths = @("studio/factory/scripts", 'studio/covers', "studio/factory/render/$id.json", "studio/assetedit/videos/$id.json", 'studio/assetedit/videos/shorts.json', 'studio/assetedit/videos/series.json', 'studio/factory/learned.md', 'studio/insights.md', 'studio/research', 'studio/factory/experiments.md')
       if (GitPush $paths "factory: $id `"$($v.title)`" written (Codex/Claude), render requested") { $p.stage = 'render_requested'; $p.pushed = $now; WJ $pf.FullName $p; Ev @{ ev = 'render'; id = $id }; Notify 'Factory: render requested' "$id `"$($v.title)`" pushed to GitHub Actions" }
       else { Write-Host 'git push failed; retry next tick' -ForegroundColor Yellow }
     }
@@ -732,6 +818,15 @@ function Tick {
     if ([int]$p.retries -ge 3 -or ($now - [int]$p.blocked_at) -lt 1200) { continue }
     foreach ($ft in (Tasks 'failed' | Where-Object { $_.pipeline -eq $p.id })) { $ft.attempts = 0; $ft.avoid = @(); $ft.queued = $now; WJ "$S\queue\pending\$($ft.id).json" $ft; Remove-Item "$S\queue\failed\$($ft.id).json" }
     $p.stage = 'writing'; $p.retries = [int]$p.retries + 1; $p.Remove('blocked_at'); WJ $pf.FullName $p; Ev @{ ev = 'retry'; id = $p.id; round = $p.retries }
+  }
+  # 4c. Codex covers made for already scheduled Shorts (factory.ps1 covers -Id): push them, zernio rethumb re-attaches them to the scheduled posts
+  if (Test-Path "$S\covers_backfill.json") {
+    $left = @(); foreach ($b in @(RJ "$S\covers_backfill.json" | Where-Object { $_ })) {
+      if (@($b.tasks | Where-Object { -not (Settled $_) })) { $left += $b; continue }
+      $of = "studio/factory/ops/$(Get-Date -f yyyyMMddHHmm)-rethumb-$($b.id).json"; WT "$Repo\$of" (@{ workflow = 'zernio.yml'; inputs = @{ cmd = 'rethumb'; a = $b.id } } | ConvertTo-Json -Compress)
+      if (GitPush @('studio/covers', $of) "factory: Codex covers for the $($b.id) Shorts, re-attach to the scheduled posts") { Ev @{ ev = 'covers'; id = $b.id } } else { $left += $b }
+    }
+    if ($left) { WJ "$S\covers_backfill.json" @($left) } else { Remove-Item "$S\covers_backfill.json" }
   }
   # 5. watermarks: generate only when the buffer runs low, stop when it is full
   $cf = $c.channels.crazyfacts
@@ -847,6 +942,7 @@ switch ($Mode) {
   'tick' { Tick; Write-Host 'tick done' }
   'pack' { $p = Pack; "pack v$($p.hash): $($p.text.Length) chars (~$([int]($p.text.Length / 4)) tokens) -> $S\pack.md" }
   'new-video' { $id = StartVideo; "started pipeline $id" }
+  'covers' { foreach ($x in ($Id -split ',')) { Backfill $x.Trim() } }
   'enqueue' { $a = $Arg | ConvertFrom-Json -AsHashtable; if ($Type -eq 'cf_strategy' -and -not $a.slot) { $a.slot = StrategySlot }; $k = if ($a.block) { $a.block } elseif ($a.id) { $a.id } elseif ($a.slot) { $a.slot } else { Get-Date -f MMddHHmmss }; Ensure $Type $k $a @() $a.id }
   'pause' { $c = Ctl; $c.paused = $true; SaveCtl $c; 'paused: workers finish their current task, then wait' }
   'resume' { $c = Ctl; $c.paused = $false; SaveCtl $c; 'resumed' }

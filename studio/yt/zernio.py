@@ -55,6 +55,14 @@ def host_thumb(url):   # repo is PRIVATE: Zernio/YouTube cannot fetch raw.github
     rel = url.split("/main/", 1)[-1] if "raw.githubusercontent.com" in url else None
     f = os.path.join(D, "..", "..", rel) if rel else None
     if not f or not os.path.exists(f): sys.exit(f"::error::thumbnail file not found for {url}")
+    return host_file(f)
+
+
+def cover(sid):   # Short cover painted by Codex (factory cf_cover / rel_cover), if there is one
+    f = os.path.join(D, "..", "covers", sid + ".jpg"); return f if os.path.exists(f) else None
+
+
+def host_file(f):
     ct = "image/png" if f.lower().endswith(".png") else "image/jpeg"
     _, ps = call("POST", "/media/presign", {"filename": os.path.basename(f), "contentType": ct, "size": os.path.getsize(f)})
     urllib.request.urlopen(urllib.request.Request(ps["uploadUrl"], data=open(f, "rb").read(), method="PUT", headers={"Content-Type": ct}), timeout=300).read()
@@ -95,10 +103,12 @@ elif cmd == "shorts":
         ex = existing(pre) if m.get("title") else None   # FAILSAFE: this Short already exists on Zernio -> adopt, never post twice
         if ex:
             done[sid] = {"zernio_id": ex.get("_id"), "when": str(ex.get("scheduledFor"))}; json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1); print(f"{sid} already on Zernio, adopted"); continue; os.path.exists(f) or urllib.request.urlretrieve(url, f)
-        th = None   # Short thumbnail = a frame ~1.5 s in (hook text is on screen), hosted on Zernio media; failure here must never block the post
+        th = None   # Short thumbnail = the Codex cover, else a frame ~1.5 s in (hook text is on screen), hosted on Zernio media; failure here must never block the post
         try:
-            import subprocess; jf = os.path.join(TMP, f"{sid}.jpg")
-            subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", "1.5", "-i", f, "-frames:v", "1", "-q:v", "2", jf], check=True, timeout=60)
+            jf = cover(sid)
+            if not jf:
+                import subprocess; jf = os.path.join(TMP, f"{sid}.jpg")
+                subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", "1.5", "-i", f, "-frames:v", "1", "-q:v", "2", jf], check=True, timeout=60)
             _, tp = call("POST", "/media/presign", {"filename": sid + ".jpg", "contentType": "image/jpeg", "size": os.path.getsize(jf)})
             urllib.request.urlopen(urllib.request.Request(tp["uploadUrl"], data=open(jf, "rb").read(), method="PUT", headers={"Content-Type": "image/jpeg"}), timeout=120).read(); th = tp["publicUrl"]
         except BaseException as e: print(f"::warning::{sid}: no thumbnail ({type(e).__name__})")
@@ -180,12 +190,15 @@ elif cmd == "reslot":   # a = first day YYYY-MM-DD, b = slots "15:00,18:00,21:00
 elif cmd == "rethumb":   # a = comma-separated video ids (lf09,rel01): re-attach the thumbnail (hosted on Zernio) to the existing scheduled post. Published posts cannot be changed: set the thumbnail in YouTube Studio.
     for vid in sys.argv[2].split(","):
         v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); res = json.load(open(os.path.join(R, vid, "result.json"))); yt_account(v.get("channel", "crazyfacts"))
-        _, p = call("GET", f"/posts/{res['zernio_id']}"); post = p.get("post", p)
-        if post.get("status") != "scheduled": print(f"::notice::{vid}: status {post.get('status')}, not changeable: set the thumbnail in YouTube Studio"); continue
-        mi = [dict(x) for x in post.get("mediaItems", [])]
-        for x in mi: x.pop("_id", None); x["thumbnail"] = host_thumb(res["thumb"]) if x.get("type") == "video" else x.get("thumbnail")
-        try: call("PUT", f"/posts/{res['zernio_id']}", {"mediaItems": mi}); print(f"::notice::{vid}: thumbnail re-attached")
-        except SystemExit as e: print(f"::notice::{vid}: {str(e)[:200]}")
+        # the long video's thumbnail, then the Codex cover of every Short that has one (studio/covers/<short id>.jpg)
+        for key, pid, th in [(vid, res.get("zernio_id"), lambda: host_thumb(res["thumb"]))] + [(s, x.get("zernio_id"), lambda s=s: host_file(cover(s))) for s, x in sorted(res.get("shorts_posted", {}).items()) if cover(s)]:
+            if not pid: continue
+            _, p = call("GET", f"/posts/{pid}"); post = p.get("post", p)
+            if post.get("status") != "scheduled": print(f"::notice::{key}: status {post.get('status')}, not changeable: set the thumbnail in YouTube Studio"); continue
+            mi = [dict(x) for x in post.get("mediaItems", [])]; url = th()
+            for x in mi: x.pop("_id", None); x["thumbnail"] = url if x.get("type") == "video" else x.get("thumbnail")
+            try: call("PUT", f"/posts/{pid}", {"mediaItems": mi}); print(f"::notice::{key}: thumbnail re-attached")
+            except SystemExit as e: print(f"::notice::{key}: {str(e)[:200]}")
 elif cmd == "reschedule":  # a = post id, b = local time YYYY-MM-DDTHH:MM
     st, p = call("PUT", f"/posts/{sys.argv[2]}", {"scheduledFor": sys.argv[3], "timezone": "Europe/Amsterdam"}); post = p.get("post", p)
     print(f"::notice::{st} {post.get('status')} {post.get('scheduledFor')} {json.dumps(p)[:300]}")

@@ -17,6 +17,8 @@ The machine adds a rule here every time a published video had a problem. Every n
 - Keep max 3 `char` scenes in a row (B3). lf07-lf09 have runs of 5-13 (wind-down 13-22); new scripts must break runs with `list`, `quote`, `stat`, `curve` or `photo` scenes.
 - While long videos go out via Metricool, start the render with input `metricool=1` (720p, max 500 MB); the default encode is Zernio 1080p (~1.5 GB) and Metricool rejects it.
 - Belief Through Time descriptions never contain internal production notes ("Estimated chapters ... align to audio" + estimated timestamps). rel21 went out with them; religion/build.py now strips everything from "Estimated chapter" on in DESC.
+- Brain After Dark: the calm re-frame must never crop the left caption card. lf13 (render 15 Oct) had 4 of 12 review frames with the caption cut off by the close shot (z 1.13, shift +210); longform.py close shot is now left-anchored (z 1.11, shift -400). A render with a cut caption in any review frame fails QC: set "hold" in result.json (autoplan skips it) and re-render.
+- Brain After Dark descriptions: Sources must be one clean line per source (no raw {'title':...} dicts, no duplicates). lf13's description had 21 duplicated/raw lines; fixed by hand before scheduling.
 
 ## Checked videos
 checked: [lf01, sh01a, lf06, sh08_01]

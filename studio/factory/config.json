@@ -222,7 +222,7 @@
       "spill_after_s": 900,
       "timeout_s": 900,
       "stall_s": 600,
-      "priority": 2,
+      "priority": 5,
       "nopack": true
     },
     "cf_cover": {
@@ -233,7 +233,7 @@
       "spill_after_s": 900,
       "timeout_s": 900,
       "stall_s": 600,
-      "priority": 2,
+      "priority": 5,
       "nopack": true
     },
     "cf_strategy": {
@@ -251,6 +251,8 @@
     }
   },
   "codex_covers": true,
+  "cover_wait_s": 1800,
+  "cover_wait_note": "owner 16 Oct: images never delay the schedule; after this many seconds a video renders without its Codex covers/thumbnail (drawn fallback)",
   "codex_covers_note": "owner 16 Oct: Codex paints a cover frame per Short (studio/covers) in the long-form thumbnail style of the channel; false = old drawn covers. BTT long thumbnails without owner art are always painted by Codex (rel_thumb).",
   "audit_pass_score": 8,
   "codex_history": "none"

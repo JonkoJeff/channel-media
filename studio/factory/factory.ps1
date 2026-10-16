@@ -168,7 +168,14 @@ function CheckThumb($th) {
 # A cover = studio/covers/<short id>.jpg (1080x1920): shorts.py / build.py show it for the first 1.7 s, zernio.py uploads it as the post thumbnail.
 # No cover (task failed 3x or codex_covers off) -> the old drawn cover is used, so a cover never blocks a video.
 function CoverFile($sid) { "$Repo\studio\covers\$sid.jpg" }
+$ImageTypes = 'rel_thumb', 'rel_cover', 'cf_cover'
 function Settled($id) { (Done $id) -or (Test-Path "$S\queue\failed\$id.json") }
+function CoversDone($p, $ids, [switch]$Force) {
+  # owner 16 Oct: images never delay the schedule. True when every image task is done/failed, or cover_wait_s after the pipeline first waited for them.
+  if (-not $Force -and -not @($ids | Where-Object { $_ -and -not (Settled $_) })) { return $true }
+  if (-not $p.img_wait) { $p.img_wait = Now }
+  ((Now) - [int]$p.img_wait) -gt [int](Cfg).cover_wait_s
+}
 function TakeImage($w, $h, $dst) {
   # newest image of the run -> centre crop to w:h, resize, JPEG 92 (System.Drawing: no Python on this machine)
   $img = @($script:runImages)[-1]; if (-not $img) { return @('no image was generated: use the image generation tool') }
@@ -182,6 +189,7 @@ function TakeImage($w, $h, $dst) {
     $enc = [Drawing.Imaging.ImageCodecInfo]::GetImageEncoders() | Where-Object MimeType -eq 'image/jpeg'; $ep = [Drawing.Imaging.EncoderParameters]::new(1); $ep.Param[0] = [Drawing.Imaging.EncoderParameter]::new([Drawing.Imaging.Encoder]::Quality, [long]92)
     New-Item -ItemType Directory -Force (Split-Path $dst) | Out-Null; $bm.Save($dst, $enc, $ep); $g.Dispose(); $bm.Dispose()
   } finally { $im.Dispose() }
+  try { New-Item -ItemType Directory -Force 'C:\afbeeldingen' | Out-Null; Copy-Item $dst "C:\afbeeldingen\$(Split-Path $dst -Leaf)" -Force } catch {}   # owner: local copy to look at; the repo file is the one that is used
   @()
 }
 $CfAccents = '#FFB03B', '#FF69A0', '#40D6FF', '#B078FF', '#FF5C5C', '#FFE13C', '#FF8C3C', '#6E96FF', '#EB50EB'   # longform.py ACCENTS (no green)
@@ -226,7 +234,7 @@ function Advance($id) {
   if ($settled -eq $parts.Count) {
     $sh = Ensure 'cf_shorts' $id @{ id = $id } @() $id
     $cov = if ((Done $sh) -and (Done $thumb) -and (Cfg).codex_covers) { @(CfCovers $id (Plan $id)) } else { @() }
-    if ((Done $sh) -and (Done $thumb) -and -not @($cov | Where-Object { -not (Settled $_) })) { $p.stage = 'ready_to_render' } else { $p.stage = 'shorts' }
+    if ((Done $sh) -and (Done $thumb) -and (CoversDone $p $cov)) { $p.stage = 'ready_to_render' } else { $p.stage = 'shorts' }
   } else { $p.stage = 'writing' }
   WJ "$S\pipelines\$id.json" $p
 }
@@ -551,9 +559,7 @@ function RelWrite($id, $shorts) {
 function AdvanceRel($p) {
   $id = $p.id; $ol = Ensure 'rel_outline' $id @{ id = $id; ep = $p.ep } @() $id
   if (-not (Done $ol)) { return }
-  $ep = [int]$p.ep; $th = $null; if (-not (RelThumb $ep)) { $th = Ensure 'rel_thumb' $id @{ id = $id; ep = $p.ep; refs = $RelRefs } @($ol) $id }   # no owner art: Codex paints it while the chapters are written
-  if ($th -and (Test-Path "$S\queue\failed\$th.json")) { $p.stage = 'blocked'; $p.why = 'thumbnail failed'; WJ "$S\pipelines\$id.json" $p; Notify 'Factory: episode blocked' "$id thumbnail failed"; return }
-  $o = RJ "$S\out\$id.outline.json"; $n = @($o.chapters).Count; $settled = 0
+  $ep = [int]$p.ep; $th = $null; if (-not (RelThumb $ep)) { $th = Ensure 'rel_thumb' $id @{ id = $id; ep = $p.ep; refs = $RelRefs } @($ol) $id }   # no owner art: Codex paints it while the chapters are written  $o = RJ "$S\out\$id.outline.json"; $n = @($o.chapters).Count; $settled = 0
   for ($i = 1; $i -le $n; $i++) {
     $c = '{0}_c{1:00}' -f $id, $i
     $ct = Ensure 'rel_chapter' $c @{ id = $id; chapter = $i } @($ol) $id
@@ -569,7 +575,8 @@ function AdvanceRel($p) {
     $sh = Ensure 'rel_shorts' $id @{ id = $id } @() $id
     $art = RelThumb $ep
     $cov = if ((Done $sh) -and $art -and (Cfg).codex_covers) { @(1..4 | ForEach-Object { Ensure 'rel_cover' "$($id)_s$_" @{ id = $id; ep = $p.ep; n = $_; refs = @("studio/channels/religion/thumbs/$art") } @() $id }) } else { @() }
-    $p.stage = if ((Done $sh) -and $art -and -not @($cov | Where-Object { -not (Settled $_) })) { 'ready_to_render' } else { 'shorts' }
+    # owner 16 Oct: the schedule never waits for images. After cover_wait_s without Codex art the episode renders anyway (build.py draws its own thumbnail, drawn covers)
+    $p.stage = if ((Done $sh) -and ($art -or (CoversDone $p @($th) -Force)) -and (CoversDone $p $cov)) { 'ready_to_render' } else { 'shorts' }
   } else { $p.stage = 'writing' }
   WJ "$S\pipelines\$id.json" $p
 }
@@ -659,6 +666,7 @@ function Run($ag, $t, $prompt) {
 # ---------- worker ----------
 function MayTake($ag, $t, $c, $agents) {
   $tc = $c.types[$t.type]; if (-not $tc) { return $false }
+  if ($t.type -in $ImageTypes -and [int](Ctl).images_off_until -gt (Now)) { return $false }
   if ($t.avoid -contains $ag.name) { $others = $agents | Where-Object { $_.enabled -and $_.name -ne $ag.name -and ($tc.prefer + $tc.fallback) -contains $_.kind -and $t.avoid -notcontains $_.name }; if ($others) { return $false } }
   foreach ($d in $t.deps) { if (-not (Done $d)) { return $false } }
   if ($tc.prefer -contains $ag.kind) { return $true }
@@ -720,7 +728,9 @@ function Worker($n) {
     } else {
       $a.failed++; $a.fails++; $ev.ok = $false; $ev.why = ($errs | Select-Object -First 3) -join '; '; Ev $ev
       Write-Host "$(Get-Date -f HH:mm:ss) $n FAILED $($t.id): $($ev.why)" -ForegroundColor Red
-      if ($r.rate) { $a.cooldown_until = (Now) + $c.ratelimit_cooldown_s; Ev @{ ev = 'cooldown'; agent = $n; why = 'rate limit' } }
+      # an image limit must never stop the agent's script work (owner 16 Oct: the schedule goes first): only image tasks pause for an hour
+      if ($r.rate -and $t.type -in $ImageTypes) { $ictl = Ctl; $ictl.images_off_until = (Now) + $c.ratelimit_cooldown_s; SaveCtl $ictl; Ev @{ ev = 'images_off'; agent = $n; why = 'image limit' } }
+      elseif ($r.rate) { $a.cooldown_until = (Now) + $c.ratelimit_cooldown_s; Ev @{ ev = 'cooldown'; agent = $n; why = 'rate limit' } }
       elseif ($a.fails -ge $c.cooldown_after_failures) { $a.cooldown_until = (Now) + $c.cooldown_s; $a.fails = 0; Ev @{ ev = 'cooldown'; agent = $n; why = "$($c.cooldown_after_failures) failures in a row" } }
       # failed validation of a block: the next attempt gets the errors as a fix list
       if ($r.rate) { Requeue $t "$S\queue\active\$($t.id).json" $n "agent limit/credits: $($errs | Select-Object -First 1)" -Free; SaveA $a; continue }
@@ -819,12 +829,13 @@ function Tick {
     foreach ($ft in (Tasks 'failed' | Where-Object { $_.pipeline -eq $p.id })) { $ft.attempts = 0; $ft.avoid = @(); $ft.queued = $now; WJ "$S\queue\pending\$($ft.id).json" $ft; Remove-Item "$S\queue\failed\$($ft.id).json" }
     $p.stage = 'writing'; $p.retries = [int]$p.retries + 1; $p.Remove('blocked_at'); WJ $pf.FullName $p; Ev @{ ev = 'retry'; id = $p.id; round = $p.retries }
   }
-  # 4c. Codex covers made for already scheduled Shorts (factory.ps1 covers -Id): push them, zernio rethumb re-attaches them to the scheduled posts
+  # 4c. Codex covers made for already scheduled Shorts (factory.ps1 covers -Id): push them; covers.yml (own workflow, never in the posting queue) re-attaches them to the scheduled posts
   if (Test-Path "$S\covers_backfill.json") {
-    $left = @(); foreach ($b in @(RJ "$S\covers_backfill.json" | Where-Object { $_ })) {
-      if (@($b.tasks | Where-Object { -not (Settled $_) })) { $left += $b; continue }
-      $of = "studio/factory/ops/$(Get-Date -f yyyyMMddHHmm)-rethumb-$($b.id).json"; WT "$Repo\$of" (@{ workflow = 'zernio.yml'; inputs = @{ cmd = 'rethumb'; a = $b.id } } | ConvertTo-Json -Compress)
-      if (GitPush @('studio/covers', $of) "factory: Codex covers for the $($b.id) Shorts, re-attach to the scheduled posts") { Ev @{ ev = 'covers'; id = $b.id } } else { $left += $b }
+    $all = @(RJ "$S\covers_backfill.json" | Where-Object { $_ }); $left = @(); $ready = @()
+    foreach ($b in $all) { if (@($b.tasks | Where-Object { -not (Settled $_) })) { $left += $b } else { $ready += $b.id } }
+    if ($ready) {
+      # the push itself starts covers.yml (never factory.yml/zernio.yml, so no render or posting run is ever queued behind or cancelled)
+      if (GitPush @('studio/covers') "factory: Codex covers for the Shorts of $($ready -join ', '), re-attach to the scheduled posts") { Ev @{ ev = 'covers'; id = ($ready -join ',') } } else { $left = $all }
     }
     if ($left) { WJ "$S\covers_backfill.json" @($left) } else { Remove-Item "$S\covers_backfill.json" }
   }

@@ -23,7 +23,7 @@ jobs:
           E=${{ inputs.ep }}; [ "$E" = test ] && { echo "THUMB=studio/channels/religion/thumbs/Q01.jpg" >> $GITHUB_ENV; exit 0; }; N=$((10#$E))
           T=""; if [ $N -le 10 ]; then T=$(ls studio/channels/religion/thumbs/bible_$(printf %02d $N)_*.jpg 2>/dev/null | head -1); elif [ $N -ge 21 ] && [ $N -le 30 ]; then T=studio/channels/religion/thumbs/Q$(printf %02d $((N-20))).jpg; fi
           [ -f "$T" ] || T=studio/channels/religion/thumbs/$E.jpg   # 301-310, or painted by Codex (factory rel_thumb), e.g. 11.jpg
-          test -f "$T" && echo "THUMB=$T" >> $GITHUB_ENV || { echo "::error::no thumbnail for episode $N"; exit 1; }
+          test -f "$T" && echo "THUMB=$T" >> $GITHUB_ENV || echo "::warning::no thumbnail art for episode $N: build.py draws its own (the schedule never waits for art)"
       - name: build
         run: |
           E=${{ inputs.ep }}; F=studio/channels/religion/stories/$E.txt; ID=rel$E
@@ -48,7 +48,7 @@ jobs:
           import json, os, glob
           import shutil
           i = os.environ["ID"]; m = json.load(open("out/meta.json")); d = f"studio/renders/{i}"; os.makedirs(d, exist_ok=True)
-          th = os.environ["THUMB"]
+          th = os.environ.get("THUMB", "")
           if os.path.exists("out/thumb.jpg"): shutil.copy("out/thumb.jpg", d + "/thumb.jpg"); th = d + "/thumb.jpg"   # own headline thumbnail (GAP 2)
           rel = f"https://github.com/JonkoJeff/channel-media/releases/download/{i}/"
           sh = {os.path.basename(f)[:-4]: rel + os.path.basename(f) for f in sorted(glob.glob(f"out/{i}_s*.mp4"))}

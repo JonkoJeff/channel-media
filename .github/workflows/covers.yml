@@ -1,0 +1,30 @@
+name: covers
+# Pushed Codex covers (studio/covers/<short id>.jpg) -> re-attach them as thumbnail to the matching Shorts that are still scheduled (zernio.py rethumb).
+# Own workflow, no concurrency group, not started through factory.yml/zernio.yml: a cover run can never queue behind, delay or cancel a render or posting run
+# (owner 16 Oct: the schedule always goes first). Only changes thumbnails of scheduled posts; never posts, moves or deletes.
+on:
+  push:
+    paths: ["studio/covers/*.jpg"]
+  workflow_dispatch:
+    inputs:
+      a: {description: "comma-separated video ids (lf15,rel24)", required: true}
+permissions:
+  contents: read
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - id: ids
+        run: |
+          if [ -n "${{ inputs.a }}" ]; then echo "a=${{ inputs.a }}" >> "$GITHUB_OUTPUT"; exit 0; fi
+          sids=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- studio/covers/ | xargs -r -n1 basename | sed 's/\.jpg$//' | tr '\n' ' ')
+          a=$(python3 -c "import json,glob,sys; s=set(sys.argv[1:]); print(','.join(sorted({f.split('/')[-2] for f in glob.glob('studio/renders/*/result.json') if s & set(json.load(open(f)).get('shorts_posted', {}))})))" $sids)
+          echo "covers: $sids -> posted videos: ${a:-none (not posted yet: zernio shorts uses the cover when it posts)}"; echo "a=$a" >> "$GITHUB_OUTPUT"
+      - if: steps.ids.outputs.a != ''
+        run: python3 studio/yt/zernio.py rethumb "${{ steps.ids.outputs.a }}" || echo "::warning::rethumb failed; the posts keep their old thumbnail"
+        env:
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+          ZERNIO_API_KEY_2: ${{ secrets.ZERNIO_API_KEY_2 || secrets.ZERNO_API_KEY_2 }}

@@ -1,25 +1,49 @@
 {
- "updated": "2026-10-15T18:18Z",
- "checked_at": "2026-10-15T18:18Z",
+ "updated": "2026-10-16T09:33Z",
+ "checked_at": "2026-10-16T09:33Z",
  "channels": [
   {
    "key": "default",
    "id": "UCynthMQNy9uDsuHcewQDERg",
    "title": "Brain After Dark",
    "viewCount": 488,
-   "subscriberCount": 3,
-   "videoCount": 23
+   "subscriberCount": 4,
+   "videoCount": 25
   }
  ],
  "videos": [
+  {
+   "channel": "Brain After Dark",
+   "id": "U5L9PINrjcw",
+   "title": "Why your brain makes up memories #shorts",
+   "published": "2026-10-15 21:30",
+   "duration": "PT51S",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "seconds": 51,
+   "type": "Short"
+  },
+  {
+   "channel": "Brain After Dark",
+   "id": "W_hOauBGm58",
+   "title": "Would you rather shock yourself or think? #shorts",
+   "published": "2026-10-15 19:00",
+   "duration": "PT53S",
+   "views": 1,
+   "likes": 0,
+   "comments": 0,
+   "seconds": 53,
+   "type": "Short"
+  },
   {
    "channel": "Brain After Dark",
    "id": "OtfUKWCOtOI",
    "title": "Why We Get Bored, Explained",
    "published": "2026-10-15 18:00",
    "duration": "PT2H34M22S",
-   "views": 0,
-   "likes": 0,
+   "views": 14,
+   "likes": 1,
    "comments": 0,
    "seconds": 9262,
    "type": "Long"
@@ -30,7 +54,7 @@
    "title": "How false memories are planted #shorts",
    "published": "2026-10-15 16:00",
    "duration": "PT42S",
-   "views": 4,
+   "views": 15,
    "likes": 0,
    "comments": 0,
    "seconds": 42,
@@ -42,7 +66,7 @@
    "title": "Why watching the clock makes time crawl #shorts",
    "published": "2026-10-15 13:00",
    "duration": "PT50S",
-   "views": 8,
+   "views": 9,
    "likes": 0,
    "comments": 0,
    "seconds": 50,
@@ -54,7 +78,7 @@
    "title": "Why the other lane seems faster #shorts",
    "published": "2026-10-14 19:00",
    "duration": "PT53S",
-   "views": 5,
+   "views": 6,
    "likes": 0,
    "comments": 0,
    "seconds": 53,
@@ -78,7 +102,7 @@
    "title": "Why We Procrastinate, Explained",
    "published": "2026-10-14 15:00",
    "duration": "PT2H35M44S",
-   "views": 4,
+   "views": 3,
    "likes": 1,
    "comments": 0,
    "seconds": 9344,
@@ -126,7 +150,7 @@
    "title": "Why unfair waits feel longer #shorts",
    "published": "2026-10-14 07:00",
    "duration": "PT53S",
-   "views": 0,
+   "views": 1,
    "likes": 0,
    "comments": 0,
    "seconds": 53,
@@ -162,7 +186,7 @@
    "title": "The Psychology of Waiting, Explained",
    "published": "2026-10-13 15:14",
    "duration": "PT2H31M43S",
-   "views": 14,
+   "views": 16,
    "likes": 1,
    "comments": 0,
    "seconds": 9103,
@@ -340,6 +364,27 @@
    "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/renders/lf12/thumb.png"
   },
   {
+   "id": "lf13",
+   "title": "What Nostalgia Does to Your Brain",
+   "scheduled": "2026-10-20T20:00+02:00",
+   "length": null,
+   "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/renders/lf13/thumb.png"
+  },
+  {
+   "id": "lf14",
+   "title": "False Memories | Calm Psychology for Sleep",
+   "scheduled": "2026-10-18T20:00+02:00",
+   "length": null,
+   "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/renders/lf14/thumb.png"
+  },
+  {
+   "id": "lf15",
+   "title": "The Strange Case of Robbers Cave",
+   "scheduled": "2026-10-19T20:00+02:00",
+   "length": null,
+   "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/renders/lf15/thumb.png"
+  },
+  {
    "id": "mn01",
    "title": "How Money Really Works, Explained",
    "scheduled": "2026-10-12T18:55+02:00",
@@ -370,14 +415,14 @@
   {
    "id": "rel03",
    "title": "Noah and the Great Flood",
-   "scheduled": null,
+   "scheduled": "2026-10-18T20:00+02:00",
    "length": null,
    "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/channels/religion/thumbs/bible_03_the_great_flood.jpg"
   },
   {
    "id": "rel04",
    "title": "The Tower of Babel: When Humanity Was Divided",
-   "scheduled": null,
+   "scheduled": "2026-10-20T20:00+02:00",
    "length": null,
    "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/channels/religion/thumbs/bible_04_tower_of_babel.jpg"
   },
@@ -391,37 +436,30 @@
   {
    "id": "rel22",
    "title": "The Six Stages of Creation",
-   "scheduled": null,
+   "scheduled": "2026-10-17T20:00+02:00",
    "length": null,
    "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/channels/religion/thumbs/Q02.jpg"
   },
   {
    "id": "rel23",
    "title": "When the Heavens and Earth Were Joined",
-   "scheduled": null,
+   "scheduled": "2026-10-19T20:00+02:00",
    "length": null,
    "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/channels/religion/thumbs/Q03.jpg"
   },
   {
    "id": "rel24",
    "title": "The Heavens as Smoke",
-   "scheduled": null,
+   "scheduled": "2026-10-21T20:00+02:00",
    "length": null,
    "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/channels/religion/thumbs/Q04.jpg"
   }
  ],
  "in_progress": [],
  "approved": false,
- "views24": 757,
+ "views24": 63,
  "subs24": 1,
  "schedule": [
-  {
-   "status": "gepland",
-   "title": "Why We Get Bored, Explained",
-   "time": "17:00",
-   "length": null,
-   "date": "2026-10-15"
-  },
   {
    "status": "gepland",
    "title": "Your Brain on Habits, Explained",
@@ -437,41 +475,51 @@
    "date": "2026-10-17"
   },
   {
-   "status": "open",
-   "title": "nog leeg \u00b7 de machine vult dit automatisch",
-   "time": "17:00",
+   "status": "gepland",
+   "title": "False Memories | Calm Psychology for Sleep",
+   "time": "20:00",
+   "length": null,
    "date": "2026-10-18"
   },
   {
-   "status": "open",
-   "title": "nog leeg \u00b7 de machine vult dit automatisch",
-   "time": "17:00",
+   "status": "gepland",
+   "title": "The Strange Case of Robbers Cave",
+   "time": "20:00",
+   "length": null,
    "date": "2026-10-19"
   },
   {
-   "status": "open",
-   "title": "nog leeg \u00b7 de machine vult dit automatisch",
-   "time": "17:00",
+   "status": "gepland",
+   "title": "What Nostalgia Does to Your Brain",
+   "time": "20:00",
+   "length": null,
    "date": "2026-10-20"
+  },
+  {
+   "status": "gepland",
+   "title": "The Heavens as Smoke",
+   "time": "20:00",
+   "length": null,
+   "date": "2026-10-21"
   },
   {
    "status": "open",
    "title": "nog leeg \u00b7 de machine vult dit automatisch",
    "time": "17:00",
-   "date": "2026-10-21"
+   "date": "2026-10-22"
   }
  ],
- "metricool_used": 35,
+ "metricool_used": 45,
  "workflows": {
   "render-long.yml": {
    "status": "completed",
    "conclusion": "success",
-   "at": "2026-10-14T07:55Z"
+   "at": "2026-10-16T08:18Z"
   },
   "stats.yml": {
    "status": "in_progress",
    "conclusion": null,
-   "at": "2026-10-15T18:17Z"
+   "at": "2026-10-16T09:33Z"
   },
   "trends.yml": {
    "status": "completed",
@@ -481,7 +529,7 @@
   "screenshots.yml": {
    "status": "completed",
    "conclusion": "success",
-   "at": "2026-10-14T07:53Z"
+   "at": "2026-10-16T07:58Z"
   },
   "youtube.yml": {
    "status": "completed",

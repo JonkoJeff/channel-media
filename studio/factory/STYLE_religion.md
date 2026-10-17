@@ -11,7 +11,7 @@ Brand in scripts: Religion Unfolded. YouTube channel: Belief Through Time. Every
 
 ## 2. Episode shape (~60-68 min, 8,000-9,000 spoken words at 130 wpm)
 - 12-16 chapters, each a mini-documentary: a concrete image or place -> the text -> how tradition read it -> what history/archaeology adds -> what remains open -> a soft bridge to the next chapter.
-- First scene: a calm 20-second hook (an image the viewer can picture + the question of the episode). No "welcome back", no channel plug.
+- First scene: the hook of section 5a: within the first 15 seconds ONE concrete surprise from this episode stated as a claim (a real detail of the text, a find, a date, two readings of one verse), then an image the viewer can picture and the question of the episode. No "welcome back", no channel plug, never an invented fact.
 - Last scene ends softly: a reflective closing image, no call to action shouting; one gentle line inviting the viewer to the next story is allowed.
 - Never "Part one" / "In this chapter" / episode numbers in narration; spoken transitions only.
 

@@ -17,4 +17,4 @@ Deliverable: ONE JSON object (no fences):
   {"name": "chapter title (shown in the description)", "words": 600, "brief": "what this chapter covers: passages, tradition, history, open questions, 2-3 concrete VISUAL ideas, and how it hands over to the next chapter"}
  ]
 }
-12-16 chapters; words per chapter 450-800; total 8,200-8,800. Chapter 1 opens with the 20-second hook; the last chapter ends softly.
+12-16 chapters; words per chapter 450-800; total 8,200-8,800. Chapter 1 opens with the hook (STYLE 5a): its brief names the ONE concrete, real surprise stated within the first 15 seconds; the last chapter ends softly.

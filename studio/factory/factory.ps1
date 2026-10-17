@@ -296,7 +296,7 @@ function Prompt($t) {
     { $_ -in 'rel_chapter', 'rel_audit', 'rel_fix' } {
       $o = RJ "$S\out\$($a.id).outline.json"; $ch = @($o.chapters); $i = [int]$a.chapter; $c = $ch[$i - 1]
       $outline = (1..$ch.Count | ForEach-Object { "$_. $($ch[$_ - 1].name) (~$($ch[$_ - 1].words) words): $($ch[$_ - 1].brief)" }) -join "`n"
-      $pos = if ($i -eq 1) { 'This is the FIRST chapter: open with the calm 20-second hook scene.' } elseif ($i -eq $ch.Count) { 'This is the LAST chapter: end softly with a reflective closing image; one gentle line about the next story is allowed.' } else { 'Middle chapter: start with a spoken transition, no greeting or recap.' }
+      $pos = if ($i -eq 1) { 'This is the FIRST chapter: open with the hook of STYLE 5a: within 15 seconds ONE concrete surprise of this episode as a claim (real, from the outline/sources, never invented), then the image and the question.' } elseif ($i -eq $ch.Count) { 'This is the LAST chapter: end softly with a reflective closing image; one gentle line about the next story is allowed.' } else { 'Middle chapter: start with a spoken transition, no greeting or recap.' }
       $file = '{0}\out\{1}_c{2:00}.txt' -f $S, $a.id, $i; $txt = if (Test-Path $file) { Get-Content $file -Raw -Encoding utf8 }
       if ($t.type -ne 'rel_chapter' -and -not "$txt".Trim()) { throw "chapter file $file is missing" }
       $v = @{ n = $i; total = $ch.Count; ep = $o.ep; title = $o.title; tradition = (RelTradition ([int]$o.ep)); outline = $outline; names = (@($o.names) -join ', '); name = $c.name; words = $c.words; brief = $c.brief; prev = $(if ($i -gt 1) { $ch[$i - 2].name } else { '(this is the opening)' }); next = $(if ($i -lt $ch.Count) { $ch[$i].name } else { '(this is the end)' }); position = $pos; text = $txt }

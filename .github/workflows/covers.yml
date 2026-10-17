@@ -24,6 +24,8 @@ jobs:
           a=$(python3 -c "import json,glob,sys; s=set(sys.argv[1:]); print(','.join(sorted({f.split('/')[-2] for f in glob.glob('studio/renders/*/result.json') if s & set(json.load(open(f)).get('shorts_posted', {}))})))" $sids)
           echo "covers: $sids -> posted videos: ${a:-none (not posted yet: zernio shorts uses the cover when it posts)}"; echo "a=$a" >> "$GITHUB_OUTPUT"
       - if: steps.ids.outputs.a != ''
+        run: which ffmpeg || (sudo apt-get update -q && sudo apt-get install -y -q ffmpeg)   # BTT drawn-cover fallback grabs a frame
+      - if: steps.ids.outputs.a != ''
         run: python3 studio/yt/zernio.py rethumb "${{ steps.ids.outputs.a }}" || echo "::warning::rethumb failed; the posts keep their old thumbnail"
         env:
           ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}

@@ -195,7 +195,7 @@ function TakeImage($w, $h, $dst) {
     $enc = [Drawing.Imaging.ImageCodecInfo]::GetImageEncoders() | Where-Object MimeType -eq 'image/jpeg'; $ep = [Drawing.Imaging.EncoderParameters]::new(1); $ep.Param[0] = [Drawing.Imaging.EncoderParameter]::new([Drawing.Imaging.Encoder]::Quality, [long]92)
     New-Item -ItemType Directory -Force (Split-Path $dst) | Out-Null; $bm.Save($dst, $enc, $ep); $g.Dispose(); $bm.Dispose()
   } finally { $im.Dispose() }
-  try { New-Item -ItemType Directory -Force 'C:\afbeeldingen' | Out-Null; Copy-Item $dst "C:\afbeeldingen\$(Split-Path $dst -Leaf)" -Force } catch {}   # owner: local copy to look at; the repo file is the one that is used
+  if ($dst -notlike '*.cand.jpg') { try { New-Item -ItemType Directory -Force 'C:\afbeeldingen' | Out-Null; Copy-Item $dst "C:\afbeeldingen\$(Split-Path $dst -Leaf)" -Force } catch {} }   # owner: local copy to look at; the repo file is the one that is used
   @()
 }
 $CfAccents = '#FFB03B', '#FF69A0', '#40D6FF', '#B078FF', '#FF5C5C', '#FFE13C', '#FF8C3C', '#6E96FF', '#EB50EB'   # longform.py ACCENTS (no green)
@@ -204,7 +204,7 @@ function Backfill($id) {
   $r = RJ "$Repo\studio\renders\$id\result.json"; if (-not $r) { throw "$id is not rendered" }
   $soon = (Ams).AddHours(2); $want = @($r.shorts_posted.Keys | Where-Object { [datetime]::Parse($r.shorts_posted[$_].when) -gt $soon -and -not (Test-Path (CoverFile $_)) } | Sort-Object)
   if (-not $want) { return "$($id): no scheduled Shorts without a cover" }
-  $ts = if ($id -like 'rel*') { $ep = $id.Substring(3); $art = RelThumb ([int]$ep); @($want | ForEach-Object { Ensure 'rel_cover' $_ @{ id = $id; ep = $ep; n = [int]($_ -replace '^.*_s', ''); refs = @("studio/channels/religion/thumbs/$art") } @() $null }) } else { @(CfCovers $id (Plan $id) $want) }
+  $ts = if ($id -like 'rel*') { $ep = $id.Substring(3); $art = RelThumb ([int]$ep); @($want | ForEach-Object { Ensure 'rel_cover' $_ @{ id = $id; ep = $ep; n = [int]($_ -replace '^.*_s', ''); refs = (RelCoverRefs $id $art) } @() $null }) } else { @(CfCovers $id (Plan $id) $want) }
   Lock { $bf = @(RJ "$S\covers_backfill.json" | Where-Object { $_ -and $_.id -ne $id }); WJ "$S\covers_backfill.json" @($bf + @{ id = $id; tasks = $ts }) }
   "$($id): $($ts.Count) cover tasks queued ($($want -join ', '))"
 }
@@ -375,8 +375,8 @@ function Accept($t, $body) {
       $script:outShorts = $keep.Count
     }
     'cf_cover' { $null = JsonOf $body; $e = TakeImage 1080 1920 (CoverFile $a.sid); if ($e) { return $e } }
-    'rel_cover' { $null = JsonOf $body; $e = TakeImage 1080 1920 (CoverFile ('rel{0}_s{1}' -f $a.ep, $a.n)); if ($e) { return $e } }
-    'rel_thumb' { $null = JsonOf $body; $e = TakeImage 1280 720 "$RelDir\thumbs\$($a.ep).jpg"; if ($e) { return $e } }
+    'rel_cover' { $null = JsonOf $body; $e = GatedImage $t 1080 1920 (CoverFile ('rel{0}_s{1}' -f $a.ep, $a.n)) 'cover'; if ($e) { return $e } }
+    'rel_thumb' { $null = JsonOf $body; $e = GatedImage $t 1280 720 "$RelDir\thumbs\$($a.ep).jpg" 'thumb'; if ($e) { return $e } }
     'cf_thumb' {
       $th = JsonOf $body; $e = CheckThumb $th; if ($e) { return $e }
       $why = $th.why; $th.Remove('why'); Lock { $v = Plan $a.id; $v.thumb = $th; WJ "$AE\videos\$($a.id).json" $v }
@@ -462,7 +462,54 @@ function Accept($t, $body) {
 
 # ---------- Belief Through Time (religion) ----------
 $RelDir = "$Repo\studio\channels\religion"
-$RelRefs = @('studio/channels/religion/thumbs/301.jpg', 'studio/channels/religion/thumbs/Q01.jpg')   # style references for rel_thumb (approved family)
+$RelRefs = @('studio/channels/religion/thumbs/Q01.jpg', 'studio/channels/religion/thumbs/Q05.jpg', 'studio/channels/religion/thumbs/303.jpg')   # owner 17 Oct: these 3 approved references in EVERY BTT image task
+function LogReject($line) {
+  # learned.md, own section BEFORE "## Rules" (Brain After Dark's context pack reads only "## Rules", the analyst appends at the end)
+  $lf = "$F\learned.md"; $tx = Get-Content $lf -Raw -Encoding utf8; $head = '## Belief Through Time: image gate rejections'
+  if (-not $tx.Contains($head)) { $tx = $tx.Replace('## Rules', "$head`n(written by the Claude gate; the BTT prompts rel_thumb.md / rel_cover.md are improved from these)`n`n## Rules") }
+  WT $lf $tx.Replace("`n`n## Rules", "`n- $(Today) Belief Through Time: $line`n`n## Rules")
+}
+function Gate($img, $kind, $refs) {
+  # owner 17 Oct, Claude gate: Claude looks at every BTT Codex image before it is used -> @{ pass; issues; down }
+  $lim = if ($kind -eq 'thumb') { 'headline max 3 words, cap height at least 14% of the image height' } else { 'hook max 4 words, letters at least 12% of the image height' }
+  $q = @"
+You are the strict image gate of the YouTube channel Belief Through Time. Use the Read tool to open the candidate image: $img
+Then open the approved style references: $((@($refs) | ForEach-Object { "$Repo\$($_ -replace '/', '\')" }) -join ' , ')
+Check the candidate ($(if ($kind -eq 'thumb') { 'a 16:9 long-video thumbnail' } else { 'a 9:16 Short cover' })):
+1. spelling of every word on it;
+2. no extra text: only the headline/hook plus at most a small "BELIEF THROUGH TIME" mark. Any verse/quote box, scripture reference, citation, number, badge, caption or second sentence = fail;
+3. $lim, and readable when the image is shown only 200 px wide;
+4. all text inside the safe margins (not cut at an edge$(if ($kind -ne 'thumb') { ', bottom 8% free' }));
+5. same family as the references: one focal subject, one painted cinematic scene, amber/gold light on deep navy shadows, carved gold serif capitals like the references;
+6. respectful: no gore, no caricature, no depiction of the Prophet Muhammad.
+Reply with ONLY one JSON object, no fences: {"pass": true or false, "text_on_image": "exact text you read", "issues": ["one precise fix instruction per failed check"]}
+"@
+  $base = "$S\runs\gate-$(Split-Path $img -LeafBase)-$(Get-Date -f HHmmss)"; WT "$base.prompt.md" $q
+  try {
+    $p = Start-Process -FilePath $Exe.claude -ArgumentList @('-p', '--output-format', 'json', '--model', 'sonnet', '--allowedTools', 'Read') -WorkingDirectory $Repo -RedirectStandardInput "$base.prompt.md" -RedirectStandardOutput "$base.log" -RedirectStandardError "$base.err" -NoNewWindow -PassThru
+    if (-not $p.WaitForExit(300000)) { & taskkill /PID $p.Id /T /F 2>$null | Out-Null; return @{ down = 'gate timeout' } }
+    $res = Get-Content "$base.log" -Raw -Encoding utf8 | ConvertFrom-Json -AsHashtable
+    if ($res.is_error) { return @{ down = "gate error: $("$($res.result)".Substring(0, [math]::Min(120, "$($res.result)".Length)))" } }
+    $v = JsonOf "$($res.result)"; @{ pass = [bool]$v.pass; issues = @($v.issues); text = $v.text_on_image }
+  } catch { @{ down = "gate unavailable: $_" } }
+}
+function GatedImage($t, $w, $h, $dst, $kind) {
+  # Codex image -> candidate -> Claude gate. Pass: use it. Fail: ONE regeneration with the exact fix list (task re-queued with these errors).
+  # Second fail or gate down: no Codex image; the drawn fallback is used (build.py thumb()/poster16.py, cover.py) and the task is done. Never blocks the schedule.
+  $cand = "$S\out\$($t.id).cand.jpg"; $e = TakeImage $w $h $cand; if ($e) { return $e }
+  $gv = Gate $cand $kind $t.args.refs; $name = Split-Path $dst -Leaf
+  if ($gv.pass) { Move-Item $cand $dst -Force; try { Copy-Item $dst "C:\afbeeldingen\$name" -Force } catch {}; return @() }
+  $why = if ($gv.down) { $gv.down } else { "text `"$($gv.text)`": $(@($gv.issues) -join '; ')" }
+  if (-not $gv.down -and [int]$t.attempts -lt 1) { LogReject "$name rejected (try 1, regenerating): $why"; return @(@($gv.issues) | ForEach-Object { "image gate: $_" }) }
+  LogReject "$name rejected ($(if ($gv.down) { 'gate down' } else { 'try 2' })): $why -> drawn fallback"
+  Remove-Item $cand, $dst -Force -ErrorAction SilentlyContinue; Remove-Item "C:\afbeeldingen\$name" -ErrorAction SilentlyContinue
+  @()
+}
+function RelCoverRefs($id, $art) {
+  # the 3 references + this episode's long thumbnail (the rendered one that is posted, else the art file)
+  $long = if (Test-Path "$Repo\studio\renders\$id\thumb.jpg") { "studio/renders/$id/thumb.jpg" } else { "studio/channels/religion/thumbs/$art" }
+  @($RelRefs) + @($long)
+}
 function RelEpisodes { $h = @{}; foreach ($l in (Get-Content "$RelDir\episode_list.md" -Encoding utf8)) { if ($l -match '^(\d+)\.\s+(.+)$') { $h[[int]$Matches[1]] = ($Matches[2].Trim() -replace '\s+[—–-]\s+', ': ') } }; $h }
 function RelTradition($n) { if ($n -le 10) { 'Hebrew Bible / Genesis-Kings, Jewish and Christian readings' } elseif ($n -le 20) { 'Christianity: the Gospels, Acts and early church history' } elseif ($n -le 30) { 'Quran and classical tafsir' } else { 'Hindu epics / Buddhism' } }
 function RelThumb($n) { $own = RelArt $n; if ($own) { $own } elseif (Test-Path ("$RelDir\thumbs\{0:00}.jpg" -f $n)) { '{0:00}.jpg' -f $n } }   # owner art first, else the Codex-painted NN.jpg (rel_thumb)
@@ -565,7 +612,9 @@ function RelWrite($id, $shorts) {
 function AdvanceRel($p) {
   $id = $p.id; $ol = Ensure 'rel_outline' $id @{ id = $id; ep = $p.ep } @() $id
   if (-not (Done $ol)) { return }
-  $ep = [int]$p.ep; $th = $null; if (-not (RelThumb $ep)) { $th = Ensure 'rel_thumb' $id @{ id = $id; ep = $p.ep; refs = $RelRefs } @($ol) $id }   # no owner art: Codex paints it while the chapters are written  $o = RJ "$S\out\$id.outline.json"; $n = @($o.chapters).Count; $settled = 0
+  $ep = [int]$p.ep; $th = $null; if (-not (RelThumb $ep)) { $th = Ensure 'rel_thumb' $id @{ id = $id; ep = $p.ep; refs = $RelRefs } @($ol) $id }   # no owner art: Codex paints it while the chapters are written
+  $o = RJ "$S\out\$id.outline.json"; $n = @($o.chapters).Count; $settled = 0
+  if (-not $n) { return }
   for ($i = 1; $i -le $n; $i++) {
     $c = '{0}_c{1:00}' -f $id, $i
     $ct = Ensure 'rel_chapter' $c @{ id = $id; chapter = $i } @($ol) $id
@@ -580,7 +629,7 @@ function AdvanceRel($p) {
     if (-not (Test-Path "$S\out\$id.scenes.json")) { $tot = RelAssemble $id; $p.minutes = [int]($tot / 60) }
     $sh = Ensure 'rel_shorts' $id @{ id = $id } @() $id
     $art = RelThumb $ep
-    $cov = if ((Done $sh) -and $art -and (Cfg).codex_covers) { @(1..4 | ForEach-Object { Ensure 'rel_cover' "$($id)_s$_" @{ id = $id; ep = $p.ep; n = $_; refs = @("studio/channels/religion/thumbs/$art") } @() $id }) } else { @() }
+    $cov = if ((Done $sh) -and $art -and (Cfg).codex_covers) { @(1..4 | ForEach-Object { Ensure 'rel_cover' "$($id)_s$_" @{ id = $id; ep = $p.ep; n = $_; refs = (RelCoverRefs $id $art) } @() $id }) } else { @() }
     # owner 16 Oct: the schedule never waits for images. After cover_wait_s without Codex art the episode renders anyway (build.py draws its own thumbnail, drawn covers)
     $p.stage = if ((Done $sh) -and ($art -or (CoversDone $p @($th) -Force)) -and (CoversDone $p $cov)) { 'ready_to_render' } else { 'shorts' }
   } else { $p.stage = 'writing' }

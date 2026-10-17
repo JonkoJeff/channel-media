@@ -191,11 +191,19 @@ elif cmd == "rethumb":   # a = comma-separated video ids (lf09,rel01): re-attach
     for vid in sys.argv[2].split(","):
         v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); res = json.load(open(os.path.join(R, vid, "result.json"))); yt_account(v.get("channel", "crazyfacts"))
         # the long video's thumbnail, then the Codex cover of every Short that has one (studio/covers/<short id>.jpg)
-        for key, pid, th in [(vid, res.get("zernio_id"), lambda: host_thumb(res["thumb"]))] + [(s, x.get("zernio_id"), lambda s=s: host_file(cover(s))) for s, x in sorted(res.get("shorts_posted", {}).items()) if cover(s)]:
+        # Belief Through Time only: a Short whose Codex cover failed the image gate (file removed) gets its drawn cover back = the frame at 1.5 s of the rendered Short (cover.py)
+        def drawn(s):
+            import subprocess; mp, jf = os.path.join(TMP, s + ".mp4"), os.path.join(TMP, s + "_drawn.jpg")
+            os.path.exists(mp) or urllib.request.urlretrieve(res["shorts"][s], mp)
+            subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", "1.5", "-i", mp, "-frames:v", "1", "-q:v", "2", jf], check=True, timeout=120); return host_file(jf)
+        rel = v.get("channel") == "religion"
+        for key, pid, th in [(vid, res.get("zernio_id"), lambda: host_thumb(res["thumb"]))] + [(s, x.get("zernio_id"), (lambda s=s: host_file(cover(s))) if cover(s) else (lambda s=s: drawn(s))) for s, x in sorted(res.get("shorts_posted", {}).items()) if cover(s) or (rel and s in res.get("shorts", {}))]:
             if not pid: continue
             _, p = call("GET", f"/posts/{pid}"); post = p.get("post", p)
             if post.get("status") != "scheduled": print(f"::notice::{key}: status {post.get('status')}, not changeable: set the thumbnail in YouTube Studio"); continue
-            mi = [dict(x) for x in post.get("mediaItems", [])]; url = th()
+            try: url = th()
+            except BaseException as e: print(f"::warning::{key}: no thumbnail file ({type(e).__name__}), post unchanged"); continue
+            mi = [dict(x) for x in post.get("mediaItems", [])]
             for x in mi: x.pop("_id", None); x["thumbnail"] = url if x.get("type") == "video" else x.get("thumbnail")
             try: call("PUT", f"/posts/{pid}", {"mediaItems": mi}); print(f"::notice::{key}: thumbnail re-attached")
             except SystemExit as e: print(f"::notice::{key}: {str(e)[:200]}")

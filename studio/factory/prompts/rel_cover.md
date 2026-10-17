@@ -7,6 +7,7 @@ Attached: 3 approved thumbnails of this channel (Q01, Q05, 303: copy their FAMIL
 HARD RULES (an image that breaks one is rejected):
 1. ONE focal subject, ONE painted cinematic scene: painted-photoreal, warm amber/golden rim light against deep navy and charcoal shadows. The subject sits in the middle 70% of the width, in the middle/lower part.
 2. Hook in the top third: MAX 4 WORDS, huge carved GOLD SERIF capitals exactly like the attachments, letters at least 12% of the image height and readable when the image is only 200 px wide; on a dark clean zone, centred, inside the safe margins.
+   Size is the most common reason for rejection: prefer 2-3 words on 2 lines so each line can fill about 85% of the width and be about 1/6 of the image height tall; 4 words only when every line still reaches 12%.
    Write the hook yourself: the single most surprising claim of this Short as 2-4 plain words or a short question (e.g. "WAS EVE FIRST?", "A RIB OR SIDE?"). One phrase, no two sentences, no punctuation tricks, never an invented fact.
 3. The ONLY other text allowed is a small serif mark "BELIEF THROUGH TIME" (max 5% of the image height) just above the bottom 8%. The bottom 8% stays empty (YouTube UI). NOTHING else: no verse or quote boxes, no scripture references, no citations, no numbers, no badges, no captions, no logos, no watermarks, no frames or panels.
 4. Spell every word exactly.

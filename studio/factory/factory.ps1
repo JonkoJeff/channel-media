@@ -465,9 +465,9 @@ $RelDir = "$Repo\studio\channels\religion"
 $RelRefs = @('studio/channels/religion/thumbs/Q01.jpg', 'studio/channels/religion/thumbs/Q05.jpg', 'studio/channels/religion/thumbs/303.jpg')   # owner 17 Oct: these 3 approved references in EVERY BTT image task
 function LogReject($line) {
   # learned.md, own section BEFORE "## Rules" (Brain After Dark's context pack reads only "## Rules", the analyst appends at the end)
-  $lf = "$F\learned.md"; $tx = Get-Content $lf -Raw -Encoding utf8; $head = '## Belief Through Time: image gate rejections'
+  $lf = "$F\learned.md"; $tx = (Get-Content $lf -Raw -Encoding utf8) -replace "`r`n", "`n"; $head = '## Belief Through Time: image gate rejections'   # git on Windows may turn the file into CRLF
   if (-not $tx.Contains($head)) { $tx = $tx.Replace('## Rules', "$head`n(written by the Claude gate; the BTT prompts rel_thumb.md / rel_cover.md are improved from these)`n`n## Rules") }
-  WT $lf $tx.Replace("`n`n## Rules", "`n- $(Today) Belief Through Time: $line`n`n## Rules")
+  $tx = [regex]::Replace($tx, "\n+## Rules", "`n- $(Today) Belief Through Time: $($line -replace '\$', '$$$$')`n`n## Rules", 1); WT $lf $tx
 }
 function Gate($img, $kind, $refs) {
   # owner 17 Oct, Claude gate: Claude looks at every BTT Codex image before it is used -> @{ pass; issues; down }

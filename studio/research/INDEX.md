@@ -35,3 +35,11 @@
 - Eight concrete references reviewed through indexed metadata: the two Sleepy Science videos above; SleepWise’s 
 - Our supplied snapshot favors concrete psychological surprises: dread versus pain, 271 views; one word rewritin
 - Shorts need an explicit destination: [YouTube supports a related-video link]( requiring advanced feature acces
+
+## 2026-10-17_am
+- New recent comparison: Apex’s [dream types]( August 24, and [nightmares]( September 7, outperform its [dream d
+- Counterexample to sleep-title optimism: [University of Nap’s psychology video]( shows just 39 views in indexed
+- Correct the assumption that all calm-learning channels demonstrate Shorts conversion: Apex’s [sample]( contain
+- New timing finding: [YouTube reports no known long-term performance advantage from publish time]( Our supplied
+- New thumbnail measurement correction: [YouTube’s thumbnail testing evaluates watch-time share]( and limited im
+- Playback and visual audit remain unverified: [direct YouTube access]( was throttled. Cut rhythm, B-roll, capti

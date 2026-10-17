@@ -23,3 +23,9 @@
 - Three additional references complete eight concrete examples, but fall outside the requested recent-publicatio
 - New Shorts workflow finding: YouTube’s [Clips and Shorts tool]( can extract existing footage, customize automa
 - A universal US publishing hour is unsupported: [YouTube says]( timing may help early viewing but is not known 
+
+## 2026-10-17_am
+- Three additional recent references offer different editorial structures: [Bedtime & Historian’s Jesus document
+- New funnel correction: YouTube says cross-format viewing is possible but **not common**. Four daily Shorts the
+- The actual status.json contains Brain After Dark only. Its leading Shorts, [dread versus pain]( and [one word 
+- Visual and audio findings remain unverified: no reliable playback audit of cut rhythm, B-roll, captions, music

@@ -21,3 +21,12 @@ VERDICTS:
 - E7: running (BTT, started 15 Oct, no published video with the rule and no 7-day views)
 - E8: running (BTT, started 15 Oct, no Shorts with the format yet; 0 of 8 published)
 - E9: running (BTT, started 15 Oct, no titled video has 7 days of data)
+- 2026-10-17: Do not publish a second Short on a study that already has a Short on the channel; pick a new named study (evidence: the shock-vs-think Short, a re-cut of the dread study, got 1 view vs 271 for the original; n=1, direction only).
+
+VERDICTS:
+- E1: running (Shorts since 14 Oct: 257 for the memory demonstration hook, 15 for false memories planted; 0-9 for the rest; no clean demonstration vs explanation split, under 12 Shorts at 72 h)
+- E2: running (lf14 has the added title text but is under 7 days old and has no 7-day data; previous longs are at 3-23 views)
+- E3: running (no linked-long delta recorded and no attribution; 72 h has not passed for the 15 Oct batch)
+- E7: running (BTT, started 15 Oct, no published video with the rule and no 7-day views)
+- E8: running (BTT, started 15 Oct, 0 of 8 Shorts published with the format)
+- E9: running (BTT, started 15 Oct, no titled video has 7 days of data)

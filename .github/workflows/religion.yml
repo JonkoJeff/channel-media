@@ -39,7 +39,8 @@ jobs:
           ffmpeg -loglevel error -y -i /tmp/f%d.jpg -vf tile=4x3 -frames:v 1 studio/religion/fixtures/preview.jpg
           ffmpeg -loglevel error -y -t 75 -i out/reltest.mp4 -vn -c:a libmp3lame -b:a 128k studio/religion/fixtures/voice_test.mp3   # owner listens to the new voice
           [ -f out/thumb.jpg ] && cp out/thumb.jpg studio/religion/fixtures/thumb_test.jpg
-          git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com; git add -f studio/religion/fixtures/preview.jpg studio/religion/fixtures/voice_test.mp3 studio/religion/fixtures/thumb_test.jpg 2>/dev/null; git commit -qm "test preview, voice sample, thumbnail [skip ci]" && git pull -q --rebase && git push
+          S=out/reltest_s1.mp4; if [ -f $S ]; then SD=$(ffprobe -v error -show_entries format=duration -of csv=p=0 $S); for i in 0 1 2 3 4 5; do ffmpeg -loglevel error -y -ss $(python3 -c "print(round(0.8+($SD-1.5)*$i/5,2))") -i $S -frames:v 1 -vf scale=270:480 /tmp/v$i.jpg; done; ffmpeg -loglevel error -y -i /tmp/v%d.jpg -vf tile=6x1 -frames:v 1 studio/religion/fixtures/short_preview.jpg; fi   # Short: cover, captions, vertical framing
+          git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com; git add -f studio/religion/fixtures/preview.jpg studio/religion/fixtures/voice_test.mp3 studio/religion/fixtures/thumb_test.jpg studio/religion/fixtures/short_preview.jpg 2>/dev/null; git commit -qm "test preview, voice sample, thumbnail [skip ci]" && git pull -q --rebase && git push
       - name: publish release + result files
         if: inputs.ep != 'test'
         env: {GH_TOKEN: "${{ github.token }}"}

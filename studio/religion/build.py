@@ -128,13 +128,20 @@ def card(text, fn, quote=None):
 
 
 # ---------- voice ----------
-def speak(s, i):   # same natural flow as Brain After Dark (RUNBOOK VOICE FLOW); voice identity unchanged: bm_lewis 0.92
-    return flow.say(K, s, "bm_lewis", 0.92, zlib.crc32(vid.encode()) + i * 97, pause=0.6)
+def speak(s, i, tk):   # same natural flow as Brain After Dark (RUNBOOK VOICE FLOW); voice identity unchanged: bm_lewis 0.92
+    return flow.say(K, s, "bm_lewis", 0.92, zlib.crc32(vid.encode()) + i * 97, pause=0.6, takes_out=tk)
+def sentences(tk, t0):
+    """Spoken takes (start, end, text) -> one (start, end, text) per sentence, absolute times; inside a take split by length."""
+    out = []
+    for a, b, txt in tk:
+        ss = [x for x in re.split(r"(?<=[.!?])\s+", txt.strip()) if x]; tot = sum(len(x) for x in ss) or 1; c = a
+        for x in ss: d = (b - a) * len(x) / tot; out.append((t0 + c, t0 + c + d, x)); c += d
+    return out
 audio, jobs, off = [], [], 0.0
 for i, sc in enumerate(scenes):
-    a = speak(sc["say"], i); pad = 0.9 if i + 1 < len(scenes) else 3.5; a = np.concatenate([a, np.zeros(int(24000 * pad), np.float32)])
+    tk = []; a = speak(sc["say"], i, tk); pad = 0.9 if i + 1 < len(scenes) else 3.5; a = np.concatenate([a, np.zeros(int(24000 * pad), np.float32)])
     nf = int(np.ceil(len(a) / 24000 * FPS)); a = np.concatenate([a, np.zeros(int(nf / FPS * 24000) - len(a) + 1, np.float32)])[:int(nf / FPS * 24000)]
-    sc.update(frames=nf, start=off, dur=nf / FPS); off += nf / FPS; audio.append(a)
+    sc.update(frames=nf, start=off, dur=nf / FPS, sents=sentences(tk, off)); off += nf / FPS; audio.append(a)
     if i % 40 == 0: print("voice", i, "/", len(scenes), flush=True)
 vo = np.concatenate(audio); sr = 24000; tt = np.arange(len(vo)) / sr; bed = np.zeros_like(tt)
 for ci, ch in enumerate([(261.6, 329.6, 392.0), (220.0, 261.6, 329.6), (174.6, 220.0, 261.6), (196.0, 246.9, 293.7)] * int(len(vo) / sr / 27.4 + 2)):
@@ -149,34 +156,72 @@ bed = bed / np.sqrt((bed ** 2).mean() + 1e-9) * vr * 10 ** (-26 / 20)   # ~26 dB
 K.save((vo + bed).astype(np.float32), os.path.join(W, "voice.wav")); print(f"voice done: {off / 60:.1f} min")
 
 # ---------- video shots ----------
+def timeline(chs, cur, fn):
+    """Designed timeline card (scene variety): the episode's chapters as a gold timeline, the current one lit."""
+    im = Image.new("RGB", (1920, 1080)); d = ImageDraw.Draw(im)
+    for y in range(1080): d.line([(0, y), (1920, y)], fill=(6, 11 + y // 40, 28 + y // 14))
+    i = chs.index(cur) if cur in chs else 0; show = chs[max(0, i - 2):max(0, i - 2) + 5]; n = len(show)
+    f, fb = ImageFont.truetype(FONT, 34), ImageFont.truetype(FONT, 44); y0 = 560; xs = [960 + (k - (n - 1) / 2) * 340 for k in range(n)]
+    d.line([(xs[0] - 120, y0), (xs[-1] + 120, y0)], fill=(168, 140, 70), width=4)
+    for k, (x, c) in enumerate(zip(xs, show)):
+        on = c == cur; r = 22 if on else 12; d.ellipse([x - r, y0 - r, x + r, y0 + r], fill=(232, 195, 106) if on else (110, 92, 50))
+        for j, ln in enumerate(textwrap.wrap(c, 16)[:3]): d.text((x, y0 + (60 if k % 2 == 0 else -150) + j * 46), ln, font=fb if on else f, fill=(232, 195, 106) if on else (190, 180, 150), anchor="mm")
+    im.save(fn, quality=92)
+FOCAL = [(0.5, 0.45), (0.36, 0.42), (0.64, 0.42)]   # where the camera moves toward: centre or a third (per image, repeatable)
+def framing(img, j):
+    """Brain After Dark re-framing: every sentence a new framing of the same image: wide -> toward the focal point -> close (zoom 1.02/1.08/1.14 + shift)."""
+    if os.path.basename(img).startswith(("card", "tl")): return 1.0, 0.03, (0.5, 0.5)   # cards: never cut text
+    fx, fy = FOCAL[zlib.crc32(img.encode()) % 3]; z = (1.02, 1.08, 1.14)[j % 3]; t = (j % 3) / 2
+    return z, 0.025, (0.5 + (fx - 0.5) * t, 0.5 + (fy - 0.5) * t)
 def shot(args):
-    k, img, nf, style, label = args; fn = os.path.join(W, f"s{k:05d}.mp4"); n = max(nf, 2); d = n / FPS
-    z = {0: f"z='1+0.14*on/{n}':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2'", 1: f"z='1.14-0.14*on/{n}':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2'",
-         2: f"z=1.16:x='(iw-iw/zoom)*on/{n}':y='ih/2-ih/zoom/2'", 3: f"z=1.16:x='(iw-iw/zoom)*(1-on/{n})':y='ih/2-ih/zoom/2'",
-         4: f"z='1+0.13*on/{n}':x='(iw-iw/zoom)*on/{n}':y='(ih-ih/zoom)*on/{n}'", 5: f"z='1.13-0.13*on/{n}':x='(iw-iw/zoom)*(1-on/{n})':y='(ih-ih/zoom)*(1-on/{n})'",
-         6: f"z='1+0.13*on/{n}':x='(iw-iw/zoom)*(1-on/{n})':y='(ih-ih/zoom)*on/{n}'", 7: f"z='1.13-0.11*on/{n}':x='(iw-iw/zoom)*on/{n}':y='(ih-ih/zoom)*(1-on/{n})'"}[style % 8]   # 8 camera moves, never the same twice in a row
-    vf = f"scale=2400:1350:force_original_aspect_ratio=increase,crop=2400:1350,zoompan={z}:d={n}:s=1920x1080:fps={FPS},eq=gamma=1.2:saturation=1.05,vignette=PI/6,fade=t=in:st=0:d=0.2,fade=t=out:st={d - 0.2:.2f}:d=0.2"
-    if label:
+    k, img, nf, fr, label, fin, fout, vert = args; fn = os.path.join(W, f"{'v' if vert else 's'}{k:05d}.mp4"); n = max(nf, 2); d = n / FPS
+    z0, dz, (fx, fy) = fr; z = f"z='{z0}+{dz}*on/{n}':x='(iw-iw/zoom)*{fx}':y='(ih-ih/zoom)*{fy}'"
+    fade = (",fade=t=in:st=0:d=0.25" if fin else "") + (f",fade=t=out:st={d - 0.25:.2f}:d=0.25" if fout else "")   # fade only where the image changes; re-framing = hard cut
+    loop = []
+    if vert and os.path.basename(img).startswith(("card", "tl")):   # vertical card: whole card readable, blurred copy behind
+        loop = ["-loop", "1"]; vf = f"split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5[bg];[b]scale=1080:-2[fg];[bg][fg]overlay=0:(H-h)/2,fps={FPS}{fade}"
+    elif vert:   # vertical-native: the 9:16 part of the image around its focal point, Ken-Burns on that (no 16:9 strip on bars)
+        vf = (f"scale=1350:2400:force_original_aspect_ratio=increase,crop=1350:2400:(iw-1350)*{fx}:(ih-2400)/2,"
+              f"zoompan=z='{z0}+{dz}*on/{n}':x='(iw-iw/zoom)*0.5':y='(ih-ih/zoom)*{fy}':d={n}:s=1080x1920:fps={FPS},eq=gamma=1.2:saturation=1.05,vignette=PI/6{fade}")
+    else:
+        vf = f"scale=2400:1350:force_original_aspect_ratio=increase,crop=2400:1350,zoompan={z}:d={n}:s=1920x1080:fps={FPS},eq=gamma=1.2:saturation=1.05,vignette=PI/6{fade}"
+    if label and not vert:
         tf = fn[:-4] + ".txt"; open(tf, "w").write(label)
         vf += f",drawtext=fontfile={FONT}:textfile={tf}:fontcolor={GOLD}:fontsize=62:x=(w-text_w)/2:y=h-170:shadowcolor=black:shadowx=3:shadowy=3:enable='lt(t,4)'"
-    sh("ffmpeg", "-y", "-loglevel", "error", "-threads", "1", "-i", img, "-vf", vf + ",format=yuv420p", "-c:v", "libx264", "-preset", "veryfast", "-crf", "24", "-maxrate", "3500k", "-bufsize", "7000k", "-r", str(FPS), "-frames:v", str(n), fn)
+    sh("ffmpeg", "-y", "-loglevel", "error", "-threads", "1", *loop, "-i", img, "-vf", vf + ",format=yuv420p", "-c:v", "libx264", "-preset", "veryfast", "-crf", "24", "-maxrate", "3500k", "-bufsize", "7000k", "-r", str(FPS), "-frames:v", str(n), fn)
     return fn
-tasks, k = [], 0
+CHS = [c for i, c in enumerate(sc["chap"] for sc in scenes) if c and c not in [s["chap"] for s in scenes[:i]]]
+rng = np.random.default_rng(zlib.crc32(vid.encode())); next_design = float(rng.uniform(60, 90)); design_n = 0
+plan, k = [], 0   # plan = (k, img, frames, framing, label, scene start in s) per shot, in order
 for i, sc in enumerate(scenes):
     imgs = find(sc)
     iscard = sc["src"] in ("text-card", "map") or re.match(r"(?i)(minimal )?text card|three-column|four-window|six |seven |card", sc["vis"])
     if not imgs and POOL and not iscard: imgs = POOL[-12 - (i % 5):][::3][:3] or POOL[-1:]   # no match: reuse earlier images of this film (different zoom)
+    first = re.split(r"(?<=[.!?])\s", sc["say"])[0]
     if not imgs:
         c = os.path.join(W, f"card{i}.jpg")
         ref = re.sub(r"(?i)\s*(english )?(paraphrase|verse reference).*$", "", re.split(r"[;]", sc["vis"] or (sc["chap"] or ""))[0]).strip(" .")
         ref = re.sub(r"(?i)^(minimal )?text[- ]card\s*[:\-]?\s*", "", ref).strip()
-        first = re.split(r"(?<=[.!?])\s", sc["say"])[0]; q = first if 30 <= len(first) <= 190 else None   # the narration's own first sentence as the pull-quote
+        q = first if 30 <= len(first) <= 190 else None   # the narration's own first sentence as the pull-quote
         card(ref or (sc["chap"] or ""), c, q); imgs = [c]
-    ns = max(1, round(sc["dur"] / 5.5)); base = sc["frames"] // ns   # a new shot every ~5.5 s (was 7): more rhythm
-    for j in range(ns):
-        nf = base if j + 1 < ns else sc["frames"] - base * (ns - 1)
-        tasks.append((k, imgs[j % len(imgs)], nf, k, sc["chap"] if j == 0 else None)); k += 1
+    dcard = None
+    if os.path.basename(imgs[0]).startswith("card"): next_design = sc["start"] + float(rng.uniform(60, 90))
+    elif sc["start"] >= next_design and i > 2:   # scene variety (BAD: scene type changes every 60-90 s): a designed card on this scene's first sentence
+        design_n += 1; cur = next((s["chap"] for s in scenes[i::-1] if s["chap"]), None)
+        if design_n % 2 and len(CHS) > 1: dcard = os.path.join(W, f"tl{i}.jpg"); timeline(CHS, cur, dcard)   # timeline card
+        else: dcard = os.path.join(W, f"card{i}_d.jpg"); card(cur or "", dcard, first if 30 <= len(first) <= 190 else None)   # quote card
+        next_design = sc["start"] + float(rng.uniform(60, 90))
+    # one shot per sentence (sentences < 2.2 s join the next); the image changes every 3 sentences, or after the designed card
+    cuts = [0]
+    for a, b, _ in sc["sents"][1:]:
+        f0 = int(round((a - sc["start"]) * FPS))
+        if f0 - cuts[-1] >= 2.2 * FPS and sc["frames"] - f0 >= 2.2 * FPS: cuts.append(f0)
+    cuts.append(sc["frames"])
+    for j in range(len(cuts) - 1):
+        im = (dcard if j == 0 else imgs[(j - 1) // 3 % len(imgs)]) if dcard else imgs[j // 3 % len(imgs)]
+        plan.append((k, im, cuts[j + 1] - cuts[j], framing(im, j), sc["chap"] if j == 0 else None, sc["start"] + cuts[j] / FPS)); k += 1
     if i % 25 == 0: print("images", i, "/", len(scenes), flush=True)
+tasks = [(p[0], p[1], p[2], p[3], p[4], j == 0 or plan[j - 1][1] != p[1], j + 1 == len(plan) or plan[j + 1][1] != p[1], False) for j, p in enumerate(plan)]
 with ThreadPoolExecutor(4) as ex: files = list(ex.map(shot, tasks))
 open(os.path.join(W, "list.txt"), "w").write("".join(f"file '{f}'\n" for f in files))
 sh("ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", os.path.join(W, "list.txt"), "-i", os.path.join(W, "voice.wav"),
@@ -206,7 +251,36 @@ if owner_art and os.path.basename(os.environ["THUMB"]).startswith("bible_"):   #
     import poster16; poster16.make(os.environ["THUMB"], vid, os.path.join(OUT, "thumb.jpg")); print("thumbnail: poster16")
 if base: thumb(base, words, int(re.sub(r"\D", "", vid) or 0), os.path.join(OUT, "thumb.jpg")); print("thumbnail:", " ".join(words.split()[:4]))
 
-# ---------- Shorts (vertical, cut on scene boundaries, <=58 s) ----------
+# ---------- Shorts (vertical-native, cut on scene boundaries, <=58 s, word-by-word captions) ----------
+def captions(a, b, path):
+    """Brain After Dark captions in the BTT look: word by word on the measured sentence timings (flow.say takes), chunks of 3 words,
+    current word gold, serif; nothing during the cover (first 1.7 s) and no caption through a pause."""
+    def ts(x): x = max(0, x); return f"{int(x // 3600)}:{int(x % 3600 // 60):02d}:{x % 60:05.2f}"
+    ev = []
+    for s0, s1, txt in [x for sc in scenes for x in sc["sents"] if x[1] > a and x[0] < b]:
+        ws = txt.split(); w8 = [len(re.sub(r"\W", "", w)) + 2 + (3 if re.search(r"[,;:]$", w) else 0) for w in ws]; tot = sum(w8) or 1
+        st_ = [s0 + (s1 - s0) * sum(w8[:r]) / tot for r in range(len(ws) + 1)]
+        for c in range(0, len(ws), 3):
+            ch = ws[c:c + 3]
+            for q in range(len(ch)):
+                t0, t1 = st_[c + q] - a, (st_[c + q + 1] if q < len(ch) - 1 else st_[min(c + 3, len(ws))]) - a
+                t0 = max(t0, 1.75); t1 = min(t1, b - a)
+                if t1 - t0 < 0.08: continue
+                line = " ".join(("{\\c&H6AC3E8&}" + w + "{\\c&HFFFFFF&}") if j == q else w for j, w in enumerate(ch))
+                ev.append(f"Dialogue: 0,{ts(t0)},{ts(t1)},W,,0,0,0,,{line}")
+    open(path, "w").write("[Script Info]\nScriptType: v4.00+\nPlayResX: 1080\nPlayResY: 1920\n\n[V4+ Styles]\n"
+        "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\n"
+        "Style: W,DejaVu Serif,74,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,1,0,0,0,100,100,0,0,1,7,2,2,70,70,560,1\n\n[Events]\n"
+        "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n" + "\n".join(ev) + "\n")
+starts = np.cumsum([0] + [p[2] for p in plan]) / FPS   # start of every shot in the long video
+def vertical(a, b, sid):
+    """The Short's picture rebuilt in 9:16 from the same images and framings (not a crop of the 16:9 film)."""
+    idx = [j for j, p in enumerate(plan) if starts[j] < b and starts[j + 1] > a]
+    vt = [(plan[j][0], plan[j][1], plan[j][2], plan[j][3], None, j == idx[0] or plan[j - 1][1] != plan[j][1], j == idx[-1] or plan[j + 1][1] != plan[j][1], True) for j in idx]
+    with ThreadPoolExecutor(4) as ex: vf = list(ex.map(shot, vt))
+    lf = os.path.join(W, sid + "_v.txt"); open(lf, "w").write("".join(f"file '{f}'\n" for f in vf)); out = os.path.join(W, sid + "_v.mp4")
+    sh("ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lf, "-ss", f"{a - starts[idx[0]]:.2f}", "-t", f"{b - a:.2f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-an", out)
+    return out
 meta = {}
 for n, (a, b, title) in enumerate(shorts[:4], 1):
     sel = [s for s in scenes if s["t"] >= a and s["t"] < b] or [s for s in scenes if s["t"] >= a][:1]
@@ -220,9 +294,11 @@ for n, (a, b, title) in enumerate(shorts[:4], 1):
     cx = os.path.join(ROOT, "studio", "covers", sid + ".jpg")   # cover painted by Codex (factory rel_cover), else the drawn one
     if os.path.exists(cx): cv = cx
     else: import cover as _cv; _cv.cover(cf, title, n, cv, int(re.sub(r"\D", "", vid) or 0))
-    fc = ("[0:v]split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:5[bg];[b]scale=1080:-2[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2[v0];[v0][1:v]overlay=0:0:enable='lt(t,1.7)',"
-          f"drawtext=fontfile={FONT}:textfile={tf}:fontcolor={GOLD}:fontsize=60:x=(w-text_w)/2:y=230:line_spacing=12:shadowcolor=black:shadowx=3:shadowy=3:enable='between(t,1.7,5)'")
-    sh("ffmpeg", "-y", "-loglevel", "error", "-ss", f"{st:.2f}", "-t", f"{en - st:.2f}", "-i", os.path.join(OUT, vid + ".mp4"), "-loop", "1", "-t", f"{en - st:.2f}", "-i", cv, "-filter_complex", fc, "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", os.path.join(OUT, sid + ".mp4"))
+    vv = vertical(st, en, sid); cap = os.path.join(W, sid + ".ass"); captions(st, en, cap)
+    fc = ("[0:v][1:v]overlay=0:0:enable='lt(t,1.7)',"
+          f"drawtext=fontfile={FONT}:textfile={tf}:fontcolor={GOLD}:fontsize=60:x=(w-text_w)/2:y=230:line_spacing=12:shadowcolor=black:shadowx=3:shadowy=3:enable='between(t,1.7,5)',ass={cap}[v]")
+    sh("ffmpeg", "-y", "-loglevel", "error", "-i", vv, "-loop", "1", "-t", f"{en - st:.2f}", "-i", cv, "-ss", f"{st:.2f}", "-t", f"{en - st:.2f}", "-i", os.path.join(OUT, vid + ".mp4"),
+       "-filter_complex", fc, "-map", "[v]", "-map", "2:a", "-shortest", "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", os.path.join(OUT, sid + ".mp4"))
     meta[sid] = {"title": title, "tags": ["#shorts"] + ["#" + re.sub(r"\W", "", t) for t in hd.get("TAGS", "").split(",")[:3] if t.strip()]}
 
 # ---------- metadata ----------

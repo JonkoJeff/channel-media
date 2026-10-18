@@ -43,3 +43,9 @@
 - New timing finding: [YouTube reports no known long-term performance advantage from publish time]( Our supplied
 - New thumbnail measurement correction: [YouTube’s thumbnail testing evaluates watch-time share]( and limited im
 - Playback and visual audit remain unverified: [direct YouTube access]( was throttled. Cut rhythm, B-roll, capti
+
+## 2026-10-18_am
+- Sleep intent is explicit in these five reference titles: Nap Academy’s [2 Hours of Psychology]( Sleepy Science
+- Three additional references favor modular organization: SleepWise’s [Darkest Psychology]( and [100 Biggest Ide
+- Your supplied snapshot suggests specific mechanisms outperform broad labels: “one word rewrites a memory” has 
+- Shorts need a measurable bridge: [Related Video supplies a clickable link beneath the handle]( but status.json

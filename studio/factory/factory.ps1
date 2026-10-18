@@ -471,7 +471,7 @@ function LogReject($line) {
 }
 function Gate($img, $kind, $refs) {
   # owner 17 Oct, Claude gate: Claude looks at every BTT Codex image before it is used -> @{ pass; issues; down }
-  $lim = if ($kind -eq 'thumb') { 'headline max 3 words, cap height at least 14% of the image height' } else { 'hook max 4 words, letters at least 12% of the image height' }
+  $lim = if ($kind -eq 'thumb') { 'headline max 3 words, cap height at least 14% of the image height' } else { 'hook max 3 words stacked, capitals at least 7% of the image height (owner 18 Oct: do not fail a good picture on size alone)' }
   $q = @"
 You are the strict image gate of the YouTube channel Belief Through Time. Use the Read tool to open the candidate image: $img
 Then open the approved style references: $((@($refs) | ForEach-Object { "$Repo\$($_ -replace '/', '\')" }) -join ' , ')

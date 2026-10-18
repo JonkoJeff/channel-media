@@ -267,4 +267,4 @@ The Bible posters are portrait art on blurred bars (showed as a small strip on p
 Never the same character pose on BAD Short covers. `shorts.cover()` picks from all ~43 poses (least-used rotation, `thumb_history.json`), 10 approved backgrounds, colour gradients, varied layout. `shorts.render()` always (re)draws `studio/covers/<id>.jpg`; Codex `cf_cover` must NOT be used for BAD (all its covers had the same peeking pose). After rendering new Shorts, run `zernio.yml rethumb <video ids>`.
 
 ## BTT Short covers (owner 18 Oct)
-Codex paints text-free art (rel_cover); `studio/religion/cover_text.py` draws the hook in the long thumbnails' lettering (Cinzel cream-gold, ornament rules, brand mark). The drawn fallback (cover.py) uses the same lettering. Hooks: 1-3 words, ideally <=6 letters each. Only Shorts rendered/covered after 18 Oct have it; older baked covers stay.
+Only the Codex picture, no text added by us (no overlay). Lettering inside the picture exactly like the long thumbnail (stacked cream-gold serif, ornament rules); gate minimum 7% cap height. Drawn cover.py stays the fallback.

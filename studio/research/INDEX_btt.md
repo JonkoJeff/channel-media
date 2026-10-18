@@ -29,3 +29,10 @@
 - New funnel correction: YouTube says cross-format viewing is possible but **not common**. Four daily Shorts the
 - The actual status.json contains Brain After Dark only. Its leading Shorts, [dread versus pain]( and [one word 
 - Visual and audio findings remain unverified: no reliable playback audit of cut rhythm, B-roll, captions, music
+
+## 2026-10-18_am
+- Recent packaging reference: [The FULL STORY of the QUR’AN]( indexed as published two months ago, combines subj
+- Five additional references complete eight examples: [Divine Rest—Exodus]( [Rest In Faith—Deuteronomy]( [Parabl
+- Thumbnail experiment correction: YouTube’s native comparison evaluates simultaneous variants by watch-time sha
+- A spoken next-story tease needs an interactive destination: YouTube permits video or playlist end-screen eleme
+- New measurement constraint: the October 18 status snapshot contains views, likes and comments, but no retentio

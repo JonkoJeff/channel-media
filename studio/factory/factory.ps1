@@ -375,7 +375,7 @@ function Accept($t, $body) {
       $script:outShorts = $keep.Count
     }
     'cf_cover' { $null = JsonOf $body; $e = TakeImage 1080 1920 (CoverFile $a.sid); if ($e) { return $e } }
-    'rel_cover' { $cj = JsonOf $body; $e = GatedImage $t 1080 1920 (CoverFile ('rel{0}_s{1}' -f $a.ep, $a.n)) 'cover' ([string]$cj.hook); if ($e) { return $e } }
+    'rel_cover' { $null = JsonOf $body; $e = GatedImage $t 1080 1920 (CoverFile ('rel{0}_s{1}' -f $a.ep, $a.n)) 'cover'; if ($e) { return $e } }
     'rel_thumb' { $null = JsonOf $body; $e = GatedImage $t 1280 720 "$RelDir\thumbs\$($a.ep).jpg" 'thumb'; if ($e) { return $e } }
     'cf_thumb' {
       $th = JsonOf $body; $e = CheckThumb $th; if ($e) { return $e }
@@ -471,7 +471,7 @@ function LogReject($line) {
 }
 function Gate($img, $kind, $refs) {
   # owner 17 Oct, Claude gate: Claude looks at every BTT Codex image before it is used -> @{ pass; issues; down }
-  $lim = if ($kind -eq 'thumb') { 'headline max 3 words, cap height at least 14% of the image height' } else { 'hook max 3 words stacked one per line (the lettering is drawn by us in the long-thumbnail style: judge only spelling, fit and legibility), capital height at least 6% of the image height' }
+  $lim = if ($kind -eq 'thumb') { 'headline max 3 words, cap height at least 14% of the image height' } else { 'hook max 4 words, letters at least 12% of the image height' }
   $q = @"
 You are the strict image gate of the YouTube channel Belief Through Time. Use the Read tool to open the candidate image: $img
 Then open the approved style references: $((@($refs) | ForEach-Object { "$Repo\$($_ -replace '/', '\')" }) -join ' , ')
@@ -493,14 +493,10 @@ Reply with ONLY one JSON object, no fences: {"pass": true or false, "text_on_ima
     $v = JsonOf "$($res.result)"; @{ pass = [bool]$v.pass; issues = @($v.issues); text = $v.text_on_image }
   } catch { @{ down = "gate unavailable: $_" } }
 }
-function GatedImage($t, $w, $h, $dst, $kind, $hook = '') {
+function GatedImage($t, $w, $h, $dst, $kind) {
   # Codex image -> candidate -> Claude gate. Pass: use it. Fail: ONE regeneration with the exact fix list (task re-queued with these errors).
   # Second fail or gate down: no Codex image; the drawn fallback is used (build.py thumb()/poster16.py, cover.py) and the task is done. Never blocks the schedule.
   $cand = "$S\out\$($t.id).cand.jpg"; $e = TakeImage $w $h $cand; if ($e) { return $e }
-  if ($kind -eq 'cover' -and $hook) {   # owner 18 Oct: Codex paints the text-free art, the lettering is drawn in the long thumbnails' style (studio/religion/cover_text.py): always spelled right and big
-    $art = "$S\out\$($t.id).art.jpg"; Copy-Item $cand $art -Force; $o = & python "$Repo\studio
-eligion\cover_text.py" $art $hook $cand 2>&1
-    if ($LASTEXITCODE -ne 0) { return @("cover lettering failed: $($o | Select-Object -Last 1)") } }
   $gv = Gate $cand $kind $t.args.refs; $name = Split-Path $dst -Leaf
   if ($gv.pass) { Move-Item $cand $dst -Force; try { Copy-Item $dst "C:\afbeeldingen\$name" -Force } catch {}; return @() }
   $why = if ($gv.down) { $gv.down } else { "text `"$($gv.text)`": $(@($gv.issues) -join '; ')" }

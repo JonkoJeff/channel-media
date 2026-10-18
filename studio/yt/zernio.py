@@ -152,7 +152,7 @@ elif cmd == "status":  # a = comma-separated Zernio post ids, b = channel key (r
         st, p = call("GET", f"/posts/{pid}"); post = p.get("post", p)
         print(f"::notice::{pid} {post.get('status')} {post.get('scheduledFor')} " + json.dumps([{k: v for k, v in x.items() if k not in ("accountId", "_id")} for x in post.get("platforms", [])])[:700])
 elif cmd == "reslot":   # a = first day YYYY-MM-DD, b = slots "15:00,18:00,21:00,23:30", c = channel prefix: lf (Brain After Dark, default) | rel (Belief Through Time). Re-times every still-pending Short of that channel so exactly len(slots) go out per day, in the existing order
-    import datetime as dt, glob
+    import datetime as dt, glob, re
     day0 = dt.date.fromisoformat(sys.argv[2]); slots = (sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] else "15:00,18:00,21:00,23:30").split(",")
     pre = sys.argv[4] if len(sys.argv) > 4 and sys.argv[4] else "lf"; ch = "religion" if pre.startswith("rel") else "crazyfacts"
     items = []
@@ -173,7 +173,8 @@ elif cmd == "reslot":   # a = first day YYYY-MM-DD, b = slots "15:00,18:00,21:00
         r = json.load(open(f))
         for sid, d in r.get("shorts_posted", {}).items():
             if d.get("zernio_id") and d["when"][:10] >= str(day0): items.append((d["when"], f, sid))
-    items.sort(); yt_account(ch); n = 0; moved = 0
+    NEW_VOICE_FROM = 13   # Brain After Dark: lf13+ carry the new warm voice (15 Oct 10:59); lf07-lf12 still have the old one -> new-voice Shorts go out first (owner 18 Oct)
+    items.sort(key=lambda t: (0 if pre == "lf" and int((re.search(r"lf(\d+)", t[1]) or [0, 0])[1]) >= NEW_VOICE_FROM else 1, t[0])); yt_account(ch); n = 0; moved = 0
     for _, f, sid in items:
         when = f"{day0 + dt.timedelta(days=n // len(slots))}T{slots[n % len(slots)]}"; n += 1
         r = json.load(open(f)); d = r["shorts_posted"][sid]

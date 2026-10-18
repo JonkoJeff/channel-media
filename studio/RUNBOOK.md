@@ -259,3 +259,6 @@ build.py now opens every Belief Through Time Short with a designed 1.7 s cover (
 
 ## BTT LONG THUMBNAILS (bible_01..10 posters)
 The Bible posters are portrait art on blurred bars (showed as a small strip on phones). `studio/religion/poster16.py` rebuilds them as 16:9: poster with rim glow on one side (alternates per episode), big squeezed serif hook on the other side (hook words from `studio/channels/religion/thumb_heads.json`, NOT the poster's own title). build.py uses it automatically for `bible_*` art; Quran/Hinduism/Christianity art is already 16:9 and stays untouched. Scheduled posts: `zernio.py rethumb relNN`; published ones (rel01, rel02): upload studio/renders/relNN/thumb.jpg in YouTube Studio.
+
+## NEW VOICE FIRST (owner 18 Oct)
+`zernio.py reslot` (lf) now orders still-pending BAD Shorts with the new warm voice (lf13+) before the old-voice ones (lf07-lf12). Shorts carry the voice of the long video they are cut from, so a changed voice only reaches Shorts of videos rendered after the change. Check: pitch of a Short (new ~92-97 Hz, centroid ~1300 Hz; old ~116 Hz, ~2200 Hz).

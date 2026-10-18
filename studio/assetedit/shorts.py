@@ -55,7 +55,12 @@ def cover(s, v, path):
         if grow > 12: rim = rim.filter(ImageFilter.GaussianBlur(6))
         img.paste(rim, (x0 - P, y0 - P), rim)
     img.paste(sp, (x0, y0), sp)
-    d = ImageDraw.Draw(img); fs = (132, 120, 148, 126)[lay]; f = font(fs, "Black"); lines = wrap(d, s["top"].rstrip(":").upper(), f, 900)[:4]; y = (150, 170, 260, 150)[lay]; step = int(fs * 1.14)
+    d = ImageDraw.Draw(img); fs = (132, 120, 148, 126)[lay]; txt = s["top"].rstrip(":").upper()
+    while True:
+        f = font(fs, "Black"); lines = wrap(d, txt, f, 900)[:4]
+        if max(d.textlength(l, font=f) for l in lines) <= 930 or fs < 70: break
+        fs -= 8
+    y = (150, 170, 260, 150)[lay]; step = int(fs * 1.14)
     align = ("c", "l", "c", "r")[lay]
     for i, ln in enumerate(lines):
         tw = d.textlength(ln, font=f); L = {"c": (1080 - tw) / 2, "l": 70, "r": 1010 - tw}[align]

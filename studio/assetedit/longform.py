@@ -1,3 +1,4 @@
+import collections
 """Long-form (16:9) explainer renderer: approved character sprites + approved backgrounds + infographic cards, cut on the voice.
 Usage: python3 longform.py videos/lf01.json        -> renders/<id>.mp4, <id>_thumb.png, <id>_description.txt
 Voice is cached in audio/<id>_vo.wav (+ _timing.json); delete it to re-voice."""
@@ -335,7 +336,8 @@ def pick_sprite(key, base, anyemo=False):
         c = [a for a in pool if a not in rec and fam(a) not in fm]
         if c: break
     else: return base
-    c.sort(); a = c[zlib.crc32(key.encode()) % len(c)]; h[key] = a; json.dump(h, open(HIST, "w"), indent=1); return a
+    use = collections.Counter(h[k] for k in h if re.sub(r"\d.*", "", k) == pre)
+    c.sort(); lo = min(use[a] for a in c); c = [a for a in c if use[a] == lo]; a = c[zlib.crc32(key.encode()) % len(c)]; h[key] = a; json.dump(h, open(HIST, "w"), indent=1); return a
 
 ACCENTS = [(255, 176, 59), (255, 105, 160), (64, 214, 255), (176, 120, 255), (255, 92, 92), (255, 225, 60), (255, 140, 60), (110, 150, 255), (235, 80, 235)]   # no green (owner 15 Oct)
 def thumbnail(v, path):

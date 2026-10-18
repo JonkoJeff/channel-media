@@ -140,8 +140,8 @@ def render(s):
     v = json.load(open(os.path.join(HERE, "videos", s["src"] + ".json"))); full = v.get("title", "")
     ov = os.path.join(HERE, "renders", s["id"] + "_ov.png"); overlay(s["top"], full, ov)
     cx = os.path.join(HERE, "..", "covers", s["id"] + ".jpg")   # cover painted by Codex (factory cf_cover), else the drawn one
-    cv = cx if os.path.exists(cx) else os.path.join(HERE, "renders", s["id"] + "_cover.png")
-    if cv != cx: cover(s, v, cv)
+    cv = cx   # owner 18 Oct: BAD covers are always the drawn varied ones (Codex covers all had the same peeking pose) -> written to studio/covers/<id>.jpg, also used as the post thumbnail
+    cover(s, v, cv)
     cap = os.path.join(HERE, "renders", s["id"] + ".ass"); captions(v["segments"], t, a, b, cap, spans=sentence_spans(os.path.join(HERE, "audio", s["src"] + "_vo.wav"), v["segments"], t))
     out = os.path.join(HERE, "renders", s["id"] + ".mp4")
     fc = ("[0:v]split[a][b];[a]scale=-2:1920,crop=1080:1920,gblur=sigma=28,eq=brightness=-0.18[bg];"

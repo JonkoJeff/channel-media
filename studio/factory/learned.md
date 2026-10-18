@@ -72,3 +72,4 @@ VERDICTS:
 - E7: running (BTT, started 15 Oct, no published video with the rule and no 7-day views)
 - E8: running (BTT, started 15 Oct, 0 of 8 Shorts published with the format)
 - E9: running (BTT, started 15 Oct, no titled video has 7 days of data)
+- BAD Short covers: drawn only, never the same pose twice close together (owner 18 Oct 2026). Codex cf_cover is off for BAD.

@@ -262,3 +262,6 @@ The Bible posters are portrait art on blurred bars (showed as a small strip on p
 
 ## NEW VOICE FIRST (owner 18 Oct)
 `zernio.py reslot` (lf) now orders still-pending BAD Shorts with the new warm voice (lf13+) before the old-voice ones (lf07-lf12). Shorts carry the voice of the long video they are cut from, so a changed voice only reaches Shorts of videos rendered after the change. Check: pitch of a Short (new ~92-97 Hz, centroid ~1300 Hz; old ~116 Hz, ~2200 Hz).
+
+## BAD SHORT COVERS = DRAWN ONLY (owner 18 Oct 2026)
+Never the same character pose on BAD Short covers. `shorts.cover()` picks from all ~43 poses (least-used rotation, `thumb_history.json`), 10 approved backgrounds, colour gradients, varied layout. `shorts.render()` always (re)draws `studio/covers/<id>.jpg`; Codex `cf_cover` must NOT be used for BAD (all its covers had the same peeking pose). After rendering new Shorts, run `zernio.yml rethumb <video ids>`.

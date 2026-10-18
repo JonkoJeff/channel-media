@@ -36,3 +36,10 @@
 - Thumbnail experiment correction: YouTube’s native comparison evaluates simultaneous variants by watch-time sha
 - A spoken next-story tease needs an interactive destination: YouTube permits video or playlist end-screen eleme
 - New measurement constraint: the October 18 status snapshot contains views, likes and comments, but no retentio
+
+## 2026-10-18_pm
+- Historical benchmarks, not current winners: Sleepless Historian’s [Medieval Times]( and [Crusades]( descriptio
+- Four additional religion benchmarks: Smooth Gospel Hub’s [seven-hour collection]( Bible Stories For Sleep’s [t
+- Completing eight concrete video benchmarks: Fall of Civilizations’ [Sumerians visual edition]( and [audio edit
+- Shorts need an explicit viewing route: YouTube’s [related-video feature]( places a clickable link below the ha
+- Measurement correction: [Shorts views include starts and replays; engaged views measure continued watching]( [

@@ -49,3 +49,10 @@
 - Three additional references favor modular organization: SleepWise’s [Darkest Psychology]( and [100 Biggest Ide
 - Your supplied snapshot suggests specific mechanisms outperform broad labels: “one word rewrites a memory” has 
 - Shorts need a measurable bridge: [Related Video supplies a clickable link beneath the handle]( but status.json
+
+## 2026-10-18_pm
+- Sleep positioning is an established packaging pattern across five concrete references: [Nap Academy—2 Hours of
+- Three further references: [Sleep Learning Academy—Neurochemistry]( [Relaxing Psychology Facts]( and [Confidenc
+- Our supplied snapshot favors concrete psychological contradictions: dread versus pain (268 views), one word ch
+- Shorts need a usable bridge: YouTube’s [Related Video feature]( places a clickable destination below the handl
+- US timing is a test variable, not an established explanation. YouTube says [publish time is not known to affec

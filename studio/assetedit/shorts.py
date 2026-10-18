@@ -13,39 +13,56 @@ def overlay(top, full_title, path):
     im.save(path)
 
 def cover(s, v, path):
-    """Thumbnail-style opening frame (first 1.7 s): the character with a coloured glow + big hook text, so any auto-picked frame (Zernio takes 1.5 s) is a real thumbnail.
-    Own colour per Short (ACCENTS), background and sprite from the Short's first scene."""
+    """Thumbnail-style opening frame (first 1.7 s): character with a coloured glow + big hook text, so any auto-picked frame (Zernio takes 1.5 s) is a real thumbnail.
+    Owner 18 Oct: they all looked alike -> per Short (crc of its id) a different approved background (mirrored or not, own tint), pose (pick_sprite), side, size, tilt,
+    text alignment/size, spotlight and accent colour."""
     import zlib
     import numpy as np
     from PIL import ImageEnhance, ImageFilter
-    sh = v["segments"][s["first"]]["show"]; acc = ACCENTS[zlib.crc32(s["id"].encode()) % len(ACCENTS)]
-    bgid = sh.get("bg") if sh.get("bg") in BGS else "bedroom_night"; spr = sh.get("sprite") if sh.get("sprite") in ASSETS else "A10"
-    if spr[0] in "AN": spr = pick_sprite(s["id"], spr)
-    bg = Image.open(os.path.join(CH, BGS[bgid]["file_path"])).convert("RGB"); r = max(1080 / bg.width, 1920 / bg.height)
-    bg = bg.resize((round(bg.width * r), round(bg.height * r)), Image.LANCZOS); bg = bg.crop(((bg.width - 1080) // 2, (bg.height - 1920) // 2, (bg.width - 1080) // 2 + 1080, (bg.height - 1920) // 2 + 1920))
-    img = ImageEnhance.Color(bg.filter(ImageFilter.GaussianBlur(9))).enhance(1.5); img = Image.blend(img, Image.new("RGB", img.size, (255, 140, 50)), 0.2)
+    crc = zlib.crc32(s["id"].encode()); acc = ACCENTS[crc % len(ACCENTS)]; lay = (crc >> 7) % 4
+    sh = v["segments"][s["first"]]["show"]; spr = sh.get("sprite") if sh.get("sprite") in ASSETS else "A10"
+    if spr[0] in "AN": spr = pick_sprite(s["id"], spr, True)
+    emo = ASSETS[spr].get("emotion"); ok = sorted(b for b, x in BGS.items() if x.get("approved") and (emo is None or emo in x["emotions"])) or ["bedroom_night"]
+    bgid = ok[(crc >> 3) % len(ok)]
+    bg = Image.open(os.path.join(CH, BGS[bgid]["file_path"])).convert("RGB")
+    if (crc >> 5) & 1: bg = bg.transpose(Image.FLIP_LEFT_RIGHT)
+    r = max(1080 / bg.width, 1920 / bg.height) * (1.0 + 0.12 * ((crc >> 9) % 3))   # zoom 1.0 / 1.12 / 1.24 on another part of the room
+    bg = bg.resize((round(bg.width * r), round(bg.height * r)), Image.LANCZOS); ox = ((bg.width - 1080) * (((crc >> 11) % 3) / 2)); bg = bg.crop((int(ox), (bg.height - 1920) // 2, int(ox) + 1080, (bg.height - 1920) // 2 + 1920))
+    tint = [(255, 140, 50), (60, 110, 255), (170, 60, 200), (255, 90, 120), (40, 170, 150), (240, 200, 40), (220, 50, 70)][(crc >> 13) % 7]
+    img = ImageEnhance.Color(bg.filter(ImageFilter.GaussianBlur(6))).enhance(2.0)
+    tint2 = [(255, 140, 50), (60, 110, 255), (170, 60, 200), (255, 90, 120), (40, 170, 150), (240, 200, 40), (220, 50, 70)][(crc >> 17) % 7]
+    gr = np.clip((yy_ := np.mgrid[0:1920, 0:1080][0]) / 1920.0, 0, 1)[..., None]
+    tg = np.array(tint)[None, None, :] * (1 - gr) + np.array(tint2)[None, None, :] * gr
+    img = Image.fromarray((np.asarray(img) * 0.6 + tg * 0.4).clip(0, 255).astype(np.uint8))
     yy, xx = np.mgrid[0:1920, 0:1080]; img = Image.fromarray((np.asarray(img) * (1 - 0.5 * (((xx - 540) / 700) ** 2 + ((yy - 1100) / 1300) ** 2).clip(0, 1))[..., None]).astype(np.uint8))
     hd = os.path.join(CH, "assets_hd", os.path.basename(ASSETS[spr]["file_path"])); k = 4 if os.path.exists(hd) else 1
-    sp = Image.open(hd if k == 4 else os.path.join(CH, ASSETS[spr]["file_path"])).convert("RGBA"); sc = 1000 / sp.width * k
-    sp = ImageEnhance.Color(sp.resize((1000, round(sp.height * sc / k)), Image.LANCZOS)).enhance(1.25)
+    sp = Image.open(hd if k == 4 else os.path.join(CH, ASSETS[spr]["file_path"])).convert("RGBA"); W0 = (900, 1000, 1080, 940)[lay]; sc = W0 / sp.width * k
+    sp = ImageEnhance.Color(sp.resize((W0, round(sp.height * sc / k)), Image.LANCZOS)).enhance(1.25)
+    tilt = 0   # owner 18 Oct: no flying/tilted characters, they stand on the bottom edge
+    if tilt:
+        sp = sp.rotate(tilt, expand=True, resample=Image.BICUBIC)
     al = np.asarray(sp.split()[-1]).astype(float); h, w = al.shape; F = 60; ramp = np.linspace(0, 1, F)
     if al[:, 0].max() > 0: al[:, :F] *= ramp[None, :]
     if al[0, :].max() > 0: al[:F, :] *= ramp[:, None]
     if al[:, -1].max() > 0: al[:, -F:] *= ramp[::-1][None, :]
     P = 40; a = Image.new("L", (w + 2 * P, h + 2 * P)); a.paste(Image.fromarray(al.astype(np.uint8)), (P, P)); sp.putalpha(Image.fromarray(al.astype(np.uint8)))
-    x0, y0 = 40, 1920 - h + 120
+    x0 = (40, 1080 - w - 40, (1080 - w) // 2, 1080 - w - 20)[lay]; y0 = 1920 - h + 90
+    cx, cy = x0 + w // 2, y0 + h // 3   # spotlight in the accent colour behind the character
+    spot = np.clip(1 - np.hypot((xx - cx) / 560, (yy - cy) / 640), 0, 1) ** 1.6 * 0.55
+    img = Image.fromarray((np.asarray(img) * (1 - spot[..., None]) + np.array(acc) * spot[..., None]).clip(0, 255).astype(np.uint8))
     for grow, col in ((22, acc), (10, (255, 255, 255))):  # glow in the Short's colour, then white sticker edge
         rim = Image.new("RGBA", a.size, col + (0,)); rim.putalpha(a.point(lambda p: 255 if p > 128 else 0).filter(ImageFilter.MaxFilter(grow * 2 + 1)))
         if grow > 12: rim = rim.filter(ImageFilter.GaussianBlur(6))
         img.paste(rim, (x0 - P, y0 - P), rim)
     img.paste(sp, (x0, y0), sp)
-    d = ImageDraw.Draw(img); f = font(132, "Black"); lines = wrap(d, s["top"].rstrip(":").upper(), f, 980)[:4]; y = 150
+    d = ImageDraw.Draw(img); fs = (132, 120, 148, 126)[lay]; f = font(fs, "Black"); lines = wrap(d, s["top"].rstrip(":").upper(), f, 900)[:4]; y = (150, 170, 260, 150)[lay]; step = int(fs * 1.14)
+    align = ("c", "l", "c", "r")[lay]
     for i, ln in enumerate(lines):
-        tw = d.textlength(ln, font=f); L = (1080 - tw) / 2
+        tw = d.textlength(ln, font=f); L = {"c": (1080 - tw) / 2, "l": 70, "r": 1010 - tw}[align]
         if i == len(lines) - 1 and len(lines) > 1:  # last line on a colour block
-            d.rounded_rectangle((L - 18 + 10, y + 22 + 10, L + tw + 28 + 10, y + 150 + 10), 24, fill=(0, 0, 0)); d.rounded_rectangle((L - 28, y + 10, L + tw + 28, y + 150), 24, fill=acc, outline=(0, 0, 0), width=8)
-            d.text((L, y), ln, font=f, fill=(28, 20, 14)); y += 150; continue
-        d.text((L + 8, y + 8), ln, font=f, fill=(0, 0, 0), stroke_width=14, stroke_fill=(0, 0, 0)); d.text((L, y), ln, font=f, fill=(255, 255, 255), stroke_width=14, stroke_fill=(0, 0, 0)); y += 150
+            d.rounded_rectangle((L - 18 + 10, y + 22 + 10, L + tw + 28 + 10, y + step + 10), 24, fill=(0, 0, 0)); d.rounded_rectangle((L - 28, y + 10, L + tw + 28, y + step), 24, fill=acc, outline=(0, 0, 0), width=8)
+            d.text((L, y), ln, font=f, fill=(28, 20, 14)); y += step; continue
+        d.text((L + 8, y + 8), ln, font=f, fill=(0, 0, 0), stroke_width=14, stroke_fill=(0, 0, 0)); d.text((L, y), ln, font=f, fill=(255, 255, 255), stroke_width=14, stroke_fill=(0, 0, 0)); y += step
     img.save(path)
 
 def sentence_spans(wav, segs, timing):

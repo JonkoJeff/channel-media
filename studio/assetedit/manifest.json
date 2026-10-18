@@ -1394,6 +1394,73 @@
     "EXCITED"
    ],
    "use": "explaining the 'why', facts, reveals"
+  },
+  {
+   "bg_id": "cafe_sunset",
+   "file_path": "backgrounds/cafe_sunset.png",
+   "approved": true,
+   "emotions": [
+    "HAPPY",
+    "NEUTRAL",
+    "EXCITED"
+   ],
+   "use": "warm calm explaining, relief, coffee-chat tone"
+  },
+  {
+   "bg_id": "cabin_fireplace",
+   "file_path": "backgrounds/cabin_fireplace.png",
+   "approved": true,
+   "emotions": [
+    "SAD",
+    "NEUTRAL",
+    "HAPPY"
+   ],
+   "use": "cosy, comfort, slow reflection"
+  },
+  {
+   "bg_id": "rooftop_dusk",
+   "file_path": "backgrounds/rooftop_dusk.png",
+   "approved": true,
+   "emotions": [
+    "NEUTRAL",
+    "EXCITED",
+    "HAPPY",
+    "SAD"
+   ],
+   "use": "big-picture thoughts, dusk, city"
+  },
+  {
+   "bg_id": "neon_alley_rain",
+   "file_path": "backgrounds/neon_alley_rain.png",
+   "approved": true,
+   "emotions": [
+    "CONFUSED",
+    "EXCITED",
+    "SAD"
+   ],
+   "use": "mystery, dark twists, late-night tension"
+  },
+  {
+   "bg_id": "autumn_overlook",
+   "file_path": "backgrounds/autumn_overlook.png",
+   "approved": true,
+   "emotions": [
+    "HAPPY",
+    "EXCITED",
+    "NEUTRAL"
+   ],
+   "use": "energy, outdoors, change of scene"
+  },
+  {
+   "bg_id": "attic_rain",
+   "file_path": "backgrounds/attic_rain.png",
+   "approved": true,
+   "emotions": [
+    "SAD",
+    "CONFUSED",
+    "NEUTRAL"
+   ],
+   "use": "vulnerable, rainy night thoughts, study"
   }
  ],
  "backgrounds_note": "Uitgesneden uit het aangeleverde 2x2-blad, geschaald naar 1920x1080, Gaussian blur 3.5 px."

@@ -320,7 +320,7 @@ def music(total, timing, v, path, sr=24000):
 
 # ---------- outputs ----------
 HIST = os.path.join(HERE, "thumb_history.json")
-def pick_sprite(key, base):
+def pick_sprite(key, base, anyemo=False):
     """Varied thumbnail/cover pose (owner 15 Oct: never the same kind of pose close together). Same emotion as the scripted sprite `base`,
     not one of the last 6 sprites and not one of the last 2 pose families used (same key prefix, lower number); remembered per key in thumb_history.json."""
     import zlib
@@ -330,8 +330,8 @@ def pick_sprite(key, base):
     prev = [h[k] for k in sorted(h, key=num) if re.sub(r"\d.*", "", k) == pre and num(k) < num(key) and h[k] in ASSETS]
     fam = lambda a: ASSETS[a].get("family") or ASSETS[a].get("gesture")
     emo = ASSETS[base].get("emotion")
-    pool = [a for a, x in ASSETS.items() if x.get("approved") and x.get("auto", True) and a[0] in "AN" and a[1:].isdigit() and x.get("emotion") == emo]
-    for rec, fm in ((prev[-6:], {fam(a) for a in prev[-2:]}), (prev[-6:], set()), (prev[-3:], set()), ([], set())):
+    pool = [a for a, x in ASSETS.items() if x.get("approved") and x.get("auto", True) and a[0] in "AN" and a[1:].isdigit() and (anyemo or x.get("emotion") == emo)]
+    for rec, fm in (((prev[-24:], {fam(a) for a in prev[-3:]}), (prev[-14:], {fam(a) for a in prev[-2:]}), (prev[-8:], set()), (prev[-3:], set()), ([], set())) if anyemo else ((prev[-6:], {fam(a) for a in prev[-2:]}), (prev[-6:], set()), (prev[-3:], set()), ([], set()))):
         c = [a for a in pool if a not in rec and fam(a) not in fm]
         if c: break
     else: return base

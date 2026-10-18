@@ -15,12 +15,18 @@ import traceback
 def _hook(t, e, tb): print("::error::" + " | ".join("".join(traceback.format_exception(t, e, tb)).splitlines())[-900:]); sys.exit(1)
 sys.excepthook = _hook
 
+_retry = [0]
 def call(method, path, body=None, soft=False):
+    body_ = body
     req = urllib.request.Request(API + path, method=method, data=json.dumps(body).encode() if body is not None else None,
                                  headers={"Authorization": "Bearer " + KEY, "Content-Type": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=600) as r: return r.status, json.loads(r.read() or b"{}")
-    except urllib.error.HTTPError as e: sys.exit(f"::error::Zernio {method} {path}: {e.code} {e.read()[:800]}")
+    except urllib.error.HTTPError as e:
+        body = e.read()[:800]
+        if e.code == 429 and _retry[0] < 40:   # rate limit 60/min: wait the advised time and retry (bulk rethumb)
+            import re as _re, time as _t; _retry[0] += 1; _t.sleep(int((_re.search(rb"retryAfterSeconds\\?\"?:\s*(\d+)", body) or [0, b"30"])[1]) + 2); return call(method, path, body_, soft)
+        sys.exit(f"::error::Zernio {method} {path}: {e.code} {body}")
     except Exception as e:
         if soft: print(f"::warning::{method} {path} no answer ({type(e).__name__}); checking whether the post exists"); return None, None
         sys.exit(f"::error::Zernio {method} {path}: {type(e).__name__} {str(e)[:300]}")

@@ -358,14 +358,15 @@ def thumbnail(v, path):
     if mir: img = img.transpose(Image.FLIP_LEFT_RIGHT)  # mirror only the background: sprites carry symbols ("?") that must not flip
     hd = os.path.join(CH, "assets_hd", os.path.basename(ASSETS[th["sprite"]]["file_path"])); k = 4 if os.path.exists(hd) else 1  # sharp 4x sprite when available
     sp = Image.open(hd if k == 4 else os.path.join(CH, ASSETS[th["sprite"]]["file_path"])).convert("RGBA")
-    sp = ImageEnhance.Color(sp.resize((round(sp.width * 3.15 / k), round(sp.height * 3.15 / k)), Image.LANCZOS)).enhance(1.25)
+    sc = min(640 / sp.height, 760 / sp.width)   # owner 18 Oct: the whole face must be visible (was 3.15x = half the head cut off) -> fit inside the frame, bleed only ~50px at the bottom
+    sp = ImageEnhance.Color(sp.resize((round(sp.width * sc), round(sp.height * sc)), Image.LANCZOS)).enhance(1.25)
     # sprites are cropped at their image border: fade those cut edges so no straight lines show
     al = np.asarray(sp.split()[-1]).astype(float); h, w = al.shape; F = 60; ramp = np.linspace(0, 1, F)
     if al[:, 0].max() > 0: al[:, :F] *= ramp[None, :]
     if al[0, :].max() > 0: al[:F, :] *= ramp[:, None]
     if al[:, -1].max() > 0: al[:, -F:] *= ramp[::-1][None, :]
     P = 40; a = Image.new("L", (w + 2 * P, h + 2 * P)); a.paste(Image.fromarray(al.astype(np.uint8)), (P, P))
-    sp.putalpha(Image.fromarray(al.astype(np.uint8))); x0, y0 = (10 if mir else 1280 - w - 10), 720 - h + 150
+    sp.putalpha(Image.fromarray(al.astype(np.uint8))); x0, y0 = (30 if mir else 1280 - w - 30), 720 - h + 50
     for grow, col in ((22, (acc if th.get("accent") else (255, 186, 80)) if calm else (0, 230, 255)), (10, (255, 255, 255))):  # rim light, then white sticker edge
         rim = Image.new("RGBA", a.size, col + (0,)); rim.putalpha(a.point(lambda p: 255 if p > 128 else 0).filter(ImageFilter.MaxFilter(grow * 2 + 1)))
         if grow > 12: rim = rim.filter(ImageFilter.GaussianBlur(6))

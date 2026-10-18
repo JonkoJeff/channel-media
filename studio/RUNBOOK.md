@@ -268,3 +268,5 @@ Never the same character pose on BAD Short covers. `shorts.cover()` picks from a
 
 ## BTT Short covers (owner 18 Oct)
 Only the Codex picture, no text added by us (no overlay). Lettering inside the picture exactly like the long thumbnail (stacked cream-gold serif, ornament rules); gate minimum 7% cap height. Drawn cover.py stays the fallback.
+## LONG THUMBNAIL FACE FULLY VISIBLE (owner 18 Oct 2026)
+`longform.thumbnail()` fits the sprite inside the frame (max 640 px high / 760 px wide, ~50 px bleed at the bottom). Never crop half the face. Check every new thumbnail by looking at it before posting.

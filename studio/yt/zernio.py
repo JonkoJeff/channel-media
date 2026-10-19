@@ -85,7 +85,12 @@ elif cmd == "accounts":
     _, a = call("GET", "/accounts"); acc = a.get("accounts", a if isinstance(a, list) else [])
     cfg["accounts"] = [{k: x.get(k) for k in ("_id", "id", "platform", "username", "displayName", "name")} for x in acc]
     yt = [x for x in cfg["accounts"] if x["platform"] == "youtube"]
-    cfg["youtube"] = {("crazyfacts" if "crazy" in (x.get("username") or "").lower() else "religion"): x.get("_id") or x.get("id") for x in yt}
+    def chan(x):   # map an account to our channel key by its name (BAD was renamed from Crazy Facts, 19 Oct)
+        n = f"{x.get('username') or ''} {x.get('displayName') or ''}".lower()
+        return "crazyfacts" if ("crazy" in n or "brain" in n) else "cosmozibs" if "cosmo" in n else "religion" if ("belief" in n or "religion" in n) else None
+    cfg["youtube"] = {chan(x): x.get("_id") or x.get("id") for x in yt if chan(x)}
+    tt = [x for x in cfg["accounts"] if x["platform"] == "tiktok" and chan(x)]
+    if tt: cfg["tiktok"] = {chan(x): x.get("_id") or x.get("id") for x in tt}
     save(); print("::notice::Zernio accounts: " + ", ".join(f"{x['platform']}:{x.get('username') or x.get('displayName') or x.get('name')}" for x in cfg["accounts"]))
 elif cmd == "playlist":   # a = "Title|Title2" (prefix "moneyatnight:" for Money at Night), b = shared description
     for t in sys.argv[2].split("|"):

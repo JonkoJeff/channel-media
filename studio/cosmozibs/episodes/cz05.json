@@ -1,0 +1,690 @@
+{
+ "id": "cz05",
+ "title": "The Biggest and Fastest Things in Space",
+ "theme": "Space Records",
+ "next": "Tomorrow: how astronauts really live!",
+ "sources": [
+  "https://www.space.com/20133-olympus-mons-giant-mountain-of-mars.html",
+  "https://space.com/neutron-star-4U182030-speed-demon-fastest-star",
+  "https://www.esa.int/Science_Exploration/Space_Science/Extreme_space/Coldest_place_in_the_Universe",
+  "https://science.nasa.gov/missions/hubble/hubble-solves-mystery-of-monster-stars-dimming/",
+  "https://science.nasa.gov/sun/facts/"
+ ],
+ "thumb": {
+  "text": "SO HUGE?!",
+  "planet": "giant",
+  "mood": "scared",
+  "fx": [],
+  "char": "bolt",
+  "bg": [
+   "#2a0a14",
+   "#e2433a"
+  ]
+ },
+ "description": "A volcano 3 times taller than Mount Everest. A star that spins 716 times a second. A cloud colder than empty space. And a star so big our Sun looks like a dot! The Cosmozibs crew hunts the biggest, fastest and coldest records in space.\n\n{{chapters}}\n\nA new episode every day. Join the crew: https://www.youtube.com/@Cosmozibs?sub_confirmation=1\n\nVoices in this video are AI-generated. Every fact is checked with the sources below.\n\n#space #spacefacts #spacerecords",
+ "tags": [
+  "space records",
+  "Olympus Mons",
+  "neutron star",
+  "Boomerang Nebula",
+  "biggest star",
+  "space facts for kids"
+ ],
+ "segments": [
+  {
+   "id": "intro",
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "Hey, space cadets! Today we're hunting space records. The biggest, the fastest, and the coldest!",
+     "show": {
+      "type": "title",
+      "text": "SPACE RECORDS!"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "A volcano bigger than any mountain on Earth. A star that spins like crazy."
+    },
+    {
+     "who": "bolt",
+     "say": "The coldest place we know of. And a star so big, our Sun looks like a crumb next to it!",
+     "show": {
+      "type": "lineup"
+     }
+    },
+    {
+     "who": "rocky",
+     "say": "Records? I hold the record for the longest nap in the asteroid belt."
+    },
+    {
+     "who": "cosmo",
+     "say": "Four records, four surprises, and a quiz after each one."
+    },
+    {
+     "who": "zib",
+     "say": "I'm going to set a record for the most right answers!"
+    },
+    {
+     "who": "tik",
+     "say": "Let's see about that! Ready, set... tick tock, let's go!"
+    }
+   ]
+  },
+  {
+   "id": "volcano",
+   "short": {
+    "title": "The Biggest Volcano Isn't on Earth",
+    "end": 6,
+    "cover": {
+     "text": "3 EVERESTS?!",
+     "planet": "mars",
+     "mood": "scared",
+     "fx": [],
+     "char": "rocky",
+     "bg": [
+      "#2a1410",
+      "#b5573a"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "The tallest mountain on Earth is Mount Everest. Almost nine kilometers high!",
+     "show": {
+      "type": "planet",
+      "kind": "earth",
+      "label": "EVEREST: 8.8 KM"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "But on Mars, there's a volcano called Olympus Mons. It's about twenty five kilometers tall!",
+     "show": {
+      "type": "volcano",
+      "value": "25 KM!",
+      "label": "OLYMPUS MONS"
+     },
+     "sfx": "riser"
+    },
+    {
+     "who": "zib",
+     "say": "Wait... WHAT? Three times taller than Everest?! How could this happen?!",
+     "sfx": "scratch"
+    },
+    {
+     "who": "bolt",
+     "say": "Yep! You could stack about three Mount Everests and still not reach the top.",
+     "show": {
+      "type": "daybar",
+      "a": "EVEREST",
+      "av": 9,
+      "b": "OLYMPUS",
+      "bv": 25,
+      "unit": "kilometers tall",
+      "label": "ABOUT 3x TALLER!"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "And it's super wide too. About six hundred kilometers across. That's about the size of the state of Arizona!"
+    },
+    {
+     "who": "tik",
+     "say": "So wide that if you hiked it, the slope would feel almost flat. You'd walk and walk... and walk!"
+    },
+    {
+     "who": "rocky",
+     "say": "Finally, a mountain worth climbing. Wake me up when we get to the top.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! On Earth, the ground slowly slides around. On Mars, it stays put. So lava kept piling up in the same spot for a very long time!",
+     "show": {
+      "type": "planet",
+      "kind": "mars",
+      "label": "LAVA PILE-UP"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Like a giant ice cream cone that never stops getting scoops!"
+    },
+    {
+     "who": "bolt",
+     "say": "And Mars has weaker gravity than Earth. That helps such a huge mountain stand without sinking.",
+     "show": {
+      "type": "planet",
+      "kind": "mars",
+      "label": "WEAK GRAVITY"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "It's the biggest volcano we know of in the whole solar system. And it's quiet now, so no lava party today."
+    },
+    {
+     "who": "zib",
+     "say": "Aww. I brought marshmallows and everything."
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! About how many Mount Everests tall is Olympus Mons? One, three, or ten?",
+     "show": {
+      "type": "quiz",
+      "q": "How many Everests tall is Olympus Mons?",
+      "options": [
+       "1",
+       "3",
+       "10"
+      ],
+      "answer": 1
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "About three! Twenty five kilometers of Martian mountain.",
+     "show": {
+      "type": "volcano",
+      "value": "x3!",
+      "label": "OLYMPUS MONS"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "cosmo",
+     "say": "Next record: something that spins faster than anything you've ever seen!"
+    }
+   ]
+  },
+  {
+   "id": "pulsar",
+   "short": {
+    "title": "This Star Spins 716 Times a Second",
+    "end": 6,
+    "cover": {
+     "text": "716 SPINS?!",
+     "planet": "pulsar",
+     "mood": "scared",
+     "fx": [
+      "streaks"
+     ],
+     "char": "zib",
+     "bg": [
+      "#0b1440",
+      "#3a5cc4"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "When a giant star explodes, sometimes a tiny leftover is left behind. It's called a neutron star.",
+     "show": {
+      "type": "pulsar",
+      "label": "NEUTRON STAR"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Some of them spin incredibly fast. One spins about seven hundred and sixteen times every second!",
+     "show": {
+      "type": "pulsar",
+      "value": "716 PER SECOND",
+      "label": "SPIN SPIN SPIN!",
+      "fast": true
+     },
+     "sfx": "riser"
+    },
+    {
+     "who": "zib",
+     "say": "Wait... WHAT? Seven hundred spins in one second?! How could this happen?!",
+     "sfx": "scratch"
+    },
+    {
+     "who": "cosmo",
+     "say": "Think of an ice skater. When she pulls her arms in, she spins faster. A neutron star is a whole star squeezed super small, so it spins super fast!"
+    },
+    {
+     "who": "bolt",
+     "say": "How small? About twenty kilometers across. That's about the size of a city!",
+     "show": {
+      "type": "bignum",
+      "value": "20 KM",
+      "label": "WIDE. A WHOLE STAR!"
+     }
+    },
+    {
+     "who": "tik",
+     "say": "But it's so heavy! One teaspoon of it would weigh about ten million tons. That's like eighty five thousand blue whales!",
+     "show": {
+      "type": "bignum",
+      "value": "85,000",
+      "label": "BLUE WHALES IN A SPOON"
+     }
+    },
+    {
+     "who": "rocky",
+     "say": "A teaspoon that heavy? Good luck stirring your hot chocolate.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! Some neutron stars shoot beams of light that sweep around like a lighthouse. We call them pulsars!",
+     "show": {
+      "type": "pulsar",
+      "label": "PULSAR!"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "When the first pulsar was found in nineteen sixty seven, its beeps were so regular that the team jokingly nicknamed it Little Green Men!"
+    },
+    {
+     "who": "zib",
+     "say": "Little green men? Hey! I'm little and green! Was it me?"
+    },
+    {
+     "who": "bolt",
+     "say": "Sorry, Zib. It turned out to be a spinning star, not aliens. But what a cool mix-up!"
+    },
+    {
+     "who": "rocky",
+     "say": "Mystery solved. Zib is not a star. Nobody tell him."
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! About how many times per second can the fastest neutron stars spin? Seven, seventy, or seven hundred and sixteen?",
+     "show": {
+      "type": "quiz",
+      "q": "How fast can a neutron star spin?",
+      "options": [
+       "7 / SECOND",
+       "70 / SECOND",
+       "716 / SECOND"
+      ],
+      "answer": 2
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "Seven hundred and sixteen times every second! Faster than a kitchen blender.",
+     "show": {
+      "type": "pulsar",
+      "value": "716 / S",
+      "label": "RECORD SPINNER",
+      "fast": true
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "cosmo",
+     "say": "Next record: brrr... the coldest place we know of!"
+    }
+   ]
+  },
+  {
+   "id": "coldest",
+   "short": {
+    "title": "The Coldest Place in the Universe",
+    "end": 6,
+    "cover": {
+     "text": "-272°C?!",
+     "planet": "uranus",
+     "mood": "scared",
+     "fx": [],
+     "char": "bolt",
+     "bg": [
+      "#0b2a3a",
+      "#2f8ab0"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "Space is cold. But where is the coldest place we've ever found? It's not Antarctica, and it's not Pluto.",
+     "show": {
+      "type": "freeze",
+      "label": "WHERE?"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "It's a cloud of gas called the Boomerang Nebula. It's about minus two hundred seventy two degrees Celsius!",
+     "show": {
+      "type": "freeze",
+      "value": "-272°C",
+      "label": "BOOMERANG NEBULA"
+     },
+     "sfx": "riser"
+    },
+    {
+     "who": "zib",
+     "say": "Wait... WHAT? Colder than a freezer times a thousand?! How could this happen?!",
+     "sfx": "scratch"
+    },
+    {
+     "who": "bolt",
+     "say": "It's only one degree warmer than absolute zero. And nothing can ever get colder than absolute zero!"
+    },
+    {
+     "who": "cosmo",
+     "say": "Here's the weird part. It's even colder than the empty space around it. Empty space is about minus two hundred seventy degrees.",
+     "show": {
+      "type": "daybar",
+      "a": "SPACE",
+      "av": 270,
+      "b": "BOOMERANG",
+      "bv": 272,
+      "unit": "degrees below zero °C",
+      "label": "EVEN COLDER!"
+     }
+    },
+    {
+     "who": "tik",
+     "say": "Why? A dying star in the middle blows out gas super fast. And when gas spreads out quickly, it cools down."
+    },
+    {
+     "who": "rocky",
+     "say": "Like when you spray a spray can and it gets cold in your hand. Even rocks know that one.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! It's about five thousand light years away, so you don't need a jacket right now.",
+     "show": {
+      "type": "bignum",
+      "value": "5,000",
+      "label": "LIGHT YEARS AWAY"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "And scientists on Earth, and on the space station, have made tiny things in their labs that are even colder!"
+    },
+    {
+     "who": "zib",
+     "say": "So the coldest place in the universe might be... a science lab?!"
+    },
+    {
+     "who": "bolt",
+     "say": "For man-made cold, yes! For natural places we know of, the Boomerang Nebula is the champion."
+    },
+    {
+     "who": "rocky",
+     "say": "I'm still not visiting. My toes are cold just hearing about it."
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! Which is the coldest place we know of in nature? Antarctica, Pluto, or the Boomerang Nebula?",
+     "show": {
+      "type": "quiz",
+      "q": "Coldest known natural place?",
+      "options": [
+       "ANTARCTICA",
+       "PLUTO",
+       "BOOMERANG NEBULA"
+      ],
+      "answer": 2
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "The Boomerang Nebula! About minus two hundred seventy two degrees.",
+     "show": {
+      "type": "freeze",
+      "value": "-272°C",
+      "label": "COLD CHAMPION"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "cosmo",
+     "say": "And now, the biggest star of today's show. Literally!"
+    }
+   ]
+  },
+  {
+   "id": "bigstar",
+   "short": {
+    "title": "This Star Makes Our Sun Look Tiny",
+    "end": 6,
+    "cover": {
+     "text": "SUN = DOT?!",
+     "planet": "giant",
+     "mood": "scared",
+     "fx": [],
+     "char": "cosmo",
+     "bg": [
+      "#2a0a14",
+      "#a8243a"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "Our Sun is huge. About one hundred and nine Earths would fit across it!",
+     "show": {
+      "type": "planet",
+      "kind": "sun",
+      "label": "109 EARTHS WIDE"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "But meet VY Canis Majoris. A red hypergiant star. One of the biggest stars ever found!",
+     "show": {
+      "type": "bigstar",
+      "label": "VY CANIS MAJORIS",
+      "value": "RED HYPERGIANT"
+     },
+     "sfx": "riser"
+    },
+    {
+     "who": "zib",
+     "say": "Wait... WHAT? A star even bigger than the Sun?! How could this happen?!",
+     "sfx": "scratch"
+    },
+    {
+     "who": "bolt",
+     "say": "If you put it where our Sun is, it would stretch past Jupiter, almost all the way out to Saturn!",
+     "show": {
+      "type": "bigstar",
+      "label": "PAST JUPITER!",
+      "value": "ALMOST TO SATURN"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "Earth, Mars and Jupiter would all be inside the star. Our Sun would look like a tiny dot next to it."
+    },
+    {
+     "who": "tik",
+     "say": "And it shines about three hundred thousand times brighter than our Sun!",
+     "show": {
+      "type": "bignum",
+      "value": "300,000x",
+      "label": "BRIGHTER THAN THE SUN"
+     }
+    },
+    {
+     "who": "rocky",
+     "say": "Three hundred thousand times brighter? Somebody hand that star some sunglasses.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! It's so puffy that it keeps throwing off giant clouds of dust. Now it's hard to see without a telescope!"
+    },
+    {
+     "who": "zib",
+     "say": "A star that's so big it hides behind its own dust? That's like hiding behind your own blanket!"
+    },
+    {
+     "who": "bolt",
+     "say": "Big stars like this don't live very long. Scientists think one day it could end in a huge explosion called a supernova."
+    },
+    {
+     "who": "cosmo",
+     "say": "Don't worry, it's very far away. And who knows, its leftover could become a speedy neutron star, like the one we just met!",
+     "show": {
+      "type": "pulsar",
+      "label": "FROM BIG TO TINY"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "From the biggest to the tiniest! Space is so weird!"
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! If this star replaced our Sun, where would it reach? Mercury, the Moon, or past Jupiter?",
+     "show": {
+      "type": "quiz",
+      "q": "Where would the star reach?",
+      "options": [
+       "MERCURY",
+       "THE MOON",
+       "PAST JUPITER"
+      ],
+      "answer": 2
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "Past Jupiter! Almost to Saturn. That's one giant star.",
+     "show": {
+      "type": "bigstar",
+      "label": "GIANT!",
+      "value": "PAST JUPITER"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "cosmo",
+     "say": "Okay, record hunters, time to speed things up!"
+    }
+   ]
+  },
+  {
+   "id": "speed",
+   "lines": [
+    {
+     "who": "tik",
+     "say": "Speed round! Five quick facts. Ready? Go!",
+     "show": {
+      "type": "speed",
+      "n": 0,
+      "text": "SPEED ROUND!"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "bolt",
+     "say": "One! Olympus Mons is about six hundred kilometers wide, about the size of Arizona.",
+     "show": {
+      "type": "speed",
+      "n": 1,
+      "planet": "mars",
+      "text": "600 KM WIDE"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Two! A neutron star is about twenty kilometers across. Smaller than many cities!",
+     "show": {
+      "type": "speed",
+      "n": 2,
+      "planet": "pulsar",
+      "text": "STAR = 20 KM"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Three! Absolute zero is the coldest anything can ever be. About minus two hundred seventy three degrees.",
+     "show": {
+      "type": "speed",
+      "n": 3,
+      "planet": "uranus",
+      "text": "-273°C = ZERO"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Four! About one hundred and nine Earths fit across our Sun.",
+     "show": {
+      "type": "speed",
+      "n": 4,
+      "planet": "sun",
+      "text": "109 EARTHS WIDE"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Five! Light from the Sun takes about eight minutes to reach us.",
+     "show": {
+      "type": "speed",
+      "n": 5,
+      "planet": "earth",
+      "text": "SUNLIGHT: 8 MIN"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Whoa. That's a record number of facts!",
+     "show": {
+      "type": "lineup"
+     }
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "Those are four space records! Which one blew your mind the most?",
+     "show": {
+      "type": "lineup"
+     }
+    },
+    {
+     "who": "tik",
+     "say": "Think about it! The giant volcano, the spinning star, the coldest cloud, or the monster star?",
+     "show": {
+      "type": "pick"
+     },
+     "pause": 4
+    },
+    {
+     "who": "rocky",
+     "say": "The volcano. Big, rocky, and quiet. Just like me."
+    },
+    {
+     "who": "tik",
+     "say": "Here's a challenge. Ask someone at home what the biggest volcano is. Bet they say Earth!"
+    },
+    {
+     "who": "zib",
+     "say": "Tomorrow: how astronauts really live in space!",
+     "show": {
+      "type": "title",
+      "text": "TOMORROW: LIFE IN SPACE!"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "Subscribe and join the crew. See you tomorrow, space cadets!"
+    }
+   ]
+  }
+ ]
+}

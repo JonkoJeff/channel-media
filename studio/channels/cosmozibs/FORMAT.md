@@ -28,11 +28,11 @@ rocky = grumpy punchline at the end of each Short · tik = bonus facts, quiz, tr
 | title | text | big title with 4 planets |
 | lineup | – | the crew big in the middle |
 | map | hi: "venus,jupiter" or "none" | solar system, highlighted planets |
-| planet | kind, label, zoom? | big planet with face; kinds: mercury venus earth mars jupiter saturn uranus neptune exo moon ganymede sun star blackhole oumuamua |
+| planet | kind, label, zoom? | big planet with face; kinds: mercury venus earth mars jupiter saturn uranus neptune exo moon ganymede sun star blackhole oumuamua pulsar giant |
 | versus | a, b, win?, label | two bodies side by side, crown on winner |
 | thermo | value, label, compare | thermometer + oven |
 | pressure | value, label | diver sinking with depth meter |
-| daybar | a, av, b, bv, unit | two growing bars |
+| daybar | a, av, b, bv, unit, label? | two growing bars |
 | quiz | q, options[3], answer | question cards + countdown |
 | sunrise | – | sun rising in the west |
 | dive | – | ship sinking into gas bands, CRUNCH |
@@ -51,6 +51,10 @@ rocky = grumpy punchline at the end of each Short · tik = bonus facts, quiz, tr
 | blackhole | label | black hole, stars stretch and spiral in |
 | calendar | date ("SEP 9"), label, kind? | calendar page + year bar sliding to the date |
 | clock | value ("23:50"), label | Dec 31 clock ticking toward midnight |
+| volcano | value, label | tiny Everest next to Olympus Mons |
+| pulsar | value, label, fast? | spinning neutron star with beams |
+| freeze | value, label | thermometer dropping, ice crystals |
+| bigstar | value, label | giant star, tiny Sun, orbits of Earth/Jupiter/Saturn |
 A new scene type = a new function in `engine/scenes.part` (Claude adds it, never Codex).
 
 ## Thumbnails (`thumb` and `short.cover`)

@@ -1,8 +1,8 @@
 """Validates a Cosmozibs episode JSON against FORMAT.md. Usage: python3 validate.py ../episodes/czNN.json  (exit 1 on errors)"""
 import json, sys, re
 SCENES = {"title", "lineup", "crew", "map", "planet", "versus", "thermo", "pressure", "daybar", "quiz", "sunrise", "dive", "fill", "bignum", "wind",
-          "sunlight", "glassrain", "blanket", "poof", "tides", "tilt", "car", "nomoon", "acid", "nightsky", "math", "voyager", "daynight", "speed", "pick", "signal", "lightcurve", "visitor", "blackhole", "calendar", "clock"}
-KINDS = {"mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune", "exo", "moon", "ganymede", "sun", "star", "blackhole", "oumuamua"}
+          "sunlight", "glassrain", "blanket", "poof", "tides", "tilt", "car", "nomoon", "acid", "nightsky", "math", "voyager", "daynight", "speed", "pick", "signal", "lightcurve", "visitor", "blackhole", "calendar", "clock", "volcano", "pulsar", "freeze", "bigstar"}
+KINDS = {"mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune", "exo", "moon", "ganymede", "sun", "star", "blackhole", "oumuamua", "pulsar", "giant"}
 WHO = {"cosmo", "zib", "bolt", "rocky", "tik"}; FX = {"flames", "shards", "streaks", "rocket"}
 ep = json.load(open(sys.argv[1])); err = []; warn = []
 def thumb(t, where):

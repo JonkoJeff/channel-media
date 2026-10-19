@@ -62,7 +62,7 @@ def build(lines, name):
         if ln.get("show") and i: t += SCENE_GAP - GAP
         if ln.get("show"): fx.append((t - .3, "whoosh"))
         st = t; t += len(a) / SR
-        tl.append({"i": i, "who": ln["who"], "say": ln["say"], "start": round(st, 3), "end": round(t, 3), "show": ln.get("show"), "seg": ln.get("seg")})
+        tl.append({"i": i, "who": ln["who"], "say": ln["say"], "start": round(st, 3), "end": round(t, 3), "show": ln.get("show"), "seg": ln.get("seg"), "sfx": ln.get("sfx")})
         voice_parts.append((st, a))
         if ln.get("sfx"): fx.append((st - (.35 if ln["sfx"] == "scratch" else 0), ln["sfx"]))
         if ln.get("pause"):

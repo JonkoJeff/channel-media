@@ -6,7 +6,7 @@
 The YouTube account id and playlist ids live in studio/yt/zernio.json (not secret)."""
 import json, os, sys, urllib.request
 TMP = os.environ.get("ZTMP", "/tmp")   # local runs (Windows): set ZTMP to a temp folder
-API = "https://zernio.com/api/v1"; KEY = os.environ["ZERNIO_API_KEY"]; KEY2 = os.environ.get("ZERNIO_API_KEY_2", "")  # KEY2 = second Zernio account (channel "religion")
+API = "https://zernio.com/api/v1"; KEY = os.environ["ZERNIO_API_KEY"]; KEY2 = os.environ.get("ZERNIO_API_KEY_2", ""); KEY3 = os.environ.get("ZERNIO_API_KEY_3", "")  # KEY2 = second Zernio account (channel "religion")
 D = os.path.dirname(os.path.abspath(__file__)); CFG = os.path.join(D, "zernio.json"); R = os.path.join(D, "..", "renders")
 cfg = json.load(open(CFG)) if os.path.exists(CFG) else {}
 
@@ -37,7 +37,8 @@ def save(): json.dump(cfg, open(CFG, "w"), indent=1)
 
 def yt_account(ch="crazyfacts"):  # channel key: crazyfacts (default), moneyatnight or religion (own Zernio account / key)
     global KEY
-    if ch == "religion2": KEY = KEY2; return "-"   # old key-2 account: only for delete/status of leftovers
+    if ch == "religion2": KEY = KEY2; return "-"
+    if ch == "cosmozibs" and KEY3: KEY = KEY3   # Cosmozibs (YouTube + TikTok) lives on its own Zernio account (owner 19 Oct)   # old key-2 account: only for delete/status of leftovers
     if ch == "religion" and cfg.get("religion_key") == 2: KEY = KEY2 or sys.exit("::error::ZERNIO_API_KEY_2 missing")   # default: religion = 2nd YouTube account of key 1 (owner, 13 Oct)
     return cfg.get("youtube", {}).get(ch) or sys.exit(f"::error::no YouTube account for {ch} in zernio.json; run 'accounts' after connecting it in Zernio")
 
@@ -76,21 +77,25 @@ def host_file(f):
 
 
 cmd = sys.argv[1]
+if cmd == "accounts" and sys.argv[2:3] == ["3"]: KEY = KEY3 or sys.exit("::error::ZERNIO_API_KEY_3 missing")   # Cosmozibs account: then fall through to the normal listing
 if cmd == "accounts" and sys.argv[2:3] == ["2"]:   # second Zernio account (Religion Unfolded)
     KEY = KEY2 or sys.exit("::error::ZERNIO_API_KEY_2 missing"); _, a = call("GET", "/accounts"); acc = a.get("accounts", a if isinstance(a, list) else [])
     yt = [x for x in acc if x.get("platform") == "youtube"]
     if yt: cfg.setdefault("youtube", {})["religion"] = yt[0].get("_id") or yt[0].get("id"); save()
     print(f"::notice::Zernio account 2: {len(acc)} accounts, {len(yt)} youtube")
 elif cmd == "accounts":
-    _, a = call("GET", "/accounts"); acc = a.get("accounts", a if isinstance(a, list) else [])
+    old_acc = cfg.get("accounts", []); _, a = call("GET", "/accounts"); acc = a.get("accounts", a if isinstance(a, list) else [])
     cfg["accounts"] = [{k: x.get(k) for k in ("_id", "id", "platform", "username", "displayName", "name")} for x in acc]
     yt = [x for x in cfg["accounts"] if x["platform"] == "youtube"]
     def chan(x):   # map an account to our channel key by its name (BAD was renamed from Crazy Facts, 19 Oct)
         n = f"{x.get('username') or ''} {x.get('displayName') or ''}".lower()
         return "crazyfacts" if ("crazy" in n or "brain" in n) else "cosmozibs" if "cosmo" in n else "religion" if ("belief" in n or "religion" in n) else None
-    cfg["youtube"] = {chan(x): x.get("_id") or x.get("id") for x in yt if chan(x)}
+    merge = sys.argv[2:3] == ["3"]   # key 3 (Cosmozibs): add its accounts, never drop the channels of key 1
+    ytm = {chan(x): x.get("_id") or x.get("id") for x in yt if chan(x)}
+    cfg["youtube"] = {**cfg.get("youtube", {}), **ytm} if merge else ytm
     tt = [x for x in cfg["accounts"] if x["platform"] == "tiktok" and chan(x)]
-    if tt: cfg["tiktok"] = {chan(x): x.get("_id") or x.get("id") for x in tt}
+    if tt: cfg["tiktok"] = {**cfg.get("tiktok", {}), **{chan(x): x.get("_id") or x.get("id") for x in tt}}
+    if merge: cfg["accounts_3"] = cfg["accounts"]; cfg["accounts"] = old_acc
     save(); print("::notice::Zernio accounts: " + ", ".join(f"{x['platform']}:{x.get('username') or x.get('displayName') or x.get('name')}" for x in cfg["accounts"]))
 elif cmd == "playlist":   # a = "Title|Title2" (prefix "moneyatnight:" for Money at Night), b = shared description
     for t in sys.argv[2].split("|"):

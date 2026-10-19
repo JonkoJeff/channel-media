@@ -228,29 +228,69 @@ function drawChar(who, x, y, s, st, t, b) {
   if (st.talk > .15) g += `<g transform="translate(${r1(x)},${r1(y)}) scale(${s * .62})"><ellipse cx="9" cy="-246" rx="13" ry="${r1(4 + st.talk * 9)}" fill="#c9503f" stroke="${INK}" stroke-width="5"/></g>`;
   return g;
 }
-function crewRow(cx, footY, s, t, b, ctx, gap) {
-  let g = '';
-  CREW.forEach((w, i) => {
-    const on = ctx.who === w, x = cx + (i - 2) * gap;
-    const bob = on ? Math.abs(Math.sin(t * 8)) * 12 * s : Math.sin(t * 2 + i) * 2;
-    const sc = on ? 1.12 : 1;
-    const st = { talk: on ? ctx.talk : 0, armR: on ? -45 + Math.sin(t * 6) * 18 : undefined, armL: undefined, look: on ? [0, 0] : [x < cx + (CREW.indexOf(ctx.who) - 2) * gap ? .6 : -.6, -.1] };
-    if (st.armR === undefined) delete st.armR; delete st.armL;
-    if (on) g += `<ellipse cx="${x}" cy="${footY + 6}" rx="${70 * s}" ry="${12 * s}" fill="${YEL}" opacity=".55"/>`;
-    const jx = (rnd(b * 3 + i) - .5) * 3, jy = (rnd(b * 5 + i) - .5) * 3, jr = (rnd(b * 7 + i) - .5) * 1.2;
-    g += `<g transform="translate(${r1(x + jx)},${r1(footY + jy)}) rotate(${r1(jr)}) scale(${sc}) translate(${-x},${-footY})">${drawChar(w, x, footY - bob, s * .55, st, t, b)}</g>`;
+/* ---------- dynamic layer: actors, listeners, backgrounds, camera ---------- */
+const SIDE = { cosmo: -1, tik: -1, zib: 1, bolt: 1, rocky: 1 };
+const excited = (say) => /\?!|!\?|WHAT|crazy|CRAZY|Whoa|Wow|BOOM|HUGE/.test(say) || (say.match(/!/g) || []).length >= 2;
+function crewRow(cx, footY, s, t, b, ctx, gap, skip) {   // listeners: idle sway, look at the speaker, small reactions
+  let g = ''; const others = CREW.filter(w => w !== skip);
+  others.forEach((w, i) => {
+    const x = cx + (i - (others.length - 1) / 2) * gap;
+    const sway = Math.sin(t * 2.2 + i * 1.3) * 4, hop = w === ctx.who ? Math.abs(Math.sin(t * 6)) * 22 * s : ctx.react && rnd(ctx.li * 7 + i) > .45 ? Math.max(0, Math.sin(Math.min(1, ctx.since / .5) * Math.PI)) * 26 * s : 0;
+    const me = w === ctx.who, st = { talk: me ? ctx.talk : 0, look: [skip ? (SIDE[skip] < 0 ? -.7 : .7) : 0, -.2], armR: me ? -40 + Math.sin(t * 5.5) * 30 : 50 + Math.sin(t * 1.7 + i) * 10, armL: me ? 215 - Math.sin(t * 5.5) * 30 : 130 - Math.sin(t * 1.9 + i) * 10 };
+    if (w === 'tik') { st.armR = 40; st.armL = 140; }
+    const jx = (rnd(b * 3 + i) - .5) * 3, jy = (rnd(b * 5 + i) - .5) * 3, jr = (rnd(b * 7 + i) - .5) * 1.2 + sway * .4;
+    g += `<g transform="translate(${r1(x + jx)},${r1(footY + jy - hop)}) rotate(${r1(jr)}) translate(${-x},${-footY})">${drawChar(w, x, footY, s * .55, st, t, b)}</g>`;
+    if (ctx.react && ctx.since < 1.3 && rnd(ctx.li * 13 + i) > .5) {   // reaction bubble
+      const sym = ['!', '?', '♥', '★', '!!'][Math.floor(rnd(ctx.li * 3 + i) * 5)], p = eoBack(clamp(ctx.since / .25)) * (1 - clamp((ctx.since - 1) / .3));
+      g += txt(sym, x + 30 * s, footY - 230 * s - hop, 54 * s, sym === '♥' ? '#ff6b8b' : YEL, 'middle', .22, rnd(i) * 20 - 10, p);
+    }
   });
   return g;
 }
+function actor(who, x, footY, s, T, b, ctx) {   // the speaker, big, entering and gesturing
+  const side = SIDE[who], ts = ctx.since, e = eoBack(clamp(ts / .35));
+  const ex = excited(ctx.say), hop = ex ? Math.max(0, Math.sin(ts * 7)) * 40 * s * Math.exp(-ts * .8) : Math.abs(Math.sin(T * 3.2)) * 6 * s;
+  const fl = who === 'cosmo' ? Math.sin(T * 2.1) * 14 * s : 0;   // Cosmo floats on his jetpack
+  const x0 = x - side * 520 * (1 - e), rollIn = who === 'rocky' ? (1 - e) * 360 * -side : 0;
+  const sq = 1 + .045 * Math.sin(T * 13) * ctx.talk;
+  const wave = Math.sin(T * 5.5) * 32, point = side < 0 ? -18 + Math.sin(T * 2) * 8 : 198 - Math.sin(T * 2) * 8;
+  const st = { talk: ctx.talk, look: [side < 0 ? .7 : -.7, -.1] };
+  if (side < 0) { st.armR = point; st.armL = 210 + wave; } else { st.armL = point; st.armR = -30 - wave; }
+  if (ex) { st.armL = 215 + wave * .5; st.armR = -35 - wave * .5; }
+  let g = `<ellipse cx="${r1(x0)}" cy="${footY + 8}" rx="${95 * s}" ry="${16 * s}" fill="#000" opacity=".25"/>`;
+  if (who === 'cosmo') g += `<path d="M${r1(x0 - 22 * s)},${r1(footY - 40 * s - fl)} l${r1(22 * s)},${r1((60 + Math.sin(T * 30) * 12) * s)} l${r1(22 * s)},${r1(-(60 + Math.cos(T * 27) * 12) * s)}z" fill="#ffb347" stroke="${INK}" stroke-width="4"/>`;
+  g += `<g transform="translate(${r1(x0)},${r1(footY - hop - fl)}) rotate(${r1(rollIn + Math.sin(T * 2.4) * 3)}) scale(${r1(1 / sq * 100) / 100},${r1(sq * 100) / 100}) translate(${-x0},${-footY})">${drawChar(who, x0, footY, s * .55, st, T, b)}</g>`;
+  if (ex && ts < 1.4) g += txt('?!', x0 + side * -10 + 70 * s, footY - 330 * s - hop, 80 * s, YEL, 'middle', .2, side * -12, eoBack(clamp(ts / .25)));
+  return g;
+}
+const BG = { intro: ['#1f2a52', '#3b2470'], outro: ['#1f2a52', '#3b2470'], speed: ['#2a1f5c', '#6a2470'], venus: ['#3a1c2a', '#93421f'], jupiter: ['#2b1d14', '#7a4a2a'], neptune: ['#0b2152', '#1f5cb5'], glass: ['#0d1440', '#2f3fa0'] };
+function background(seg, W2, H2, T, b) {
+  const c = BG[seg] || BG.intro;
+  let g = `<defs><linearGradient id="bgg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${c[0]}"/><stop offset="1" stop-color="${c[1]}"/></linearGradient></defs><rect width="${W2}" height="${H2}" fill="url(#bgg)"/>`;
+  for (let L = 0; L < 2; L++) for (let i = 0; i < 45; i++) {   // two parallax star layers drifting left
+    const sp = L ? 38 : 14, x = ((rnd(i * 3.1 + L) * (W2 + 200) - T * sp) % (W2 + 200) + W2 + 200) % (W2 + 200) - 100, y = rnd(i * 7.7 + L * 5) * H2, tw = .5 + .5 * Math.sin(T * 3 + i);
+    g += `<circle cx="${r1(x)}" cy="${r1(y)}" r="${r1((L ? 2.5 : 1.5) + tw * 2)}" fill="#fff6c8" opacity="${r1(.25 + tw * .5)}"/>`;
+  }
+  const sh = (T % 4.3) / 4.3; if (sh < .22) { const k = sh / .22, x = W2 * (1.1 - k * 1.3), y = H2 * (.08 + .1 * Math.floor(T / 4.3) % 3); g += `<line x1="${r1(x)}" y1="${r1(y)}" x2="${r1(x + 160)}" y2="${r1(y - 40)}" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity="${r1(1 - k)}"/>`; }
+  if (seg === 'venus') for (let i = 0; i < 26; i++) { const x = rnd(i) * W2, y = H2 - ((T * (40 + rnd(i * 3) * 60) + rnd(i * 5) * H2) % H2); g += `<circle cx="${r1(x + Math.sin(T + i) * 20)}" cy="${r1(y)}" r="${r1(3 + rnd(i * 2) * 5)}" fill="${i % 2 ? '#ffb347' : '#ff6a3d'}" opacity=".7"/>`; }
+  if (seg === 'jupiter') for (let i = 0; i < 6; i++) { const y = 120 + i * H2 / 6, o = (T * 30 * (i % 2 ? 1 : -1)) % 400; g += `<path d="M${-400 + o},${y} q200,40 400,0 t400,0 t400,0 t400,0 t400,0 t400,0" fill="none" stroke="${i % 2 ? '#c98a5a' : '#f3d2ae'}" stroke-width="26" opacity=".14"/>`; }
+  if (seg === 'neptune') for (let i = 0; i < 16; i++) { const y = rnd(i) * H2, x = ((T * (500 + rnd(i * 3) * 400) + rnd(i * 5) * W2) % (W2 + 300)) - 150; g += `<path d="M${r1(x)},${r1(y)} q60,-10 140,0" fill="none" stroke="#bfe0ff" stroke-width="6" stroke-linecap="round" opacity=".45"/>`; }
+  if (seg === 'glass') for (let i = 0; i < 14; i++) { const y = rnd(i) * H2, x = ((T * (380 + rnd(i * 3) * 300) + rnd(i * 5) * W2) % (W2 + 300)) - 150; g += `<polygon points="${r1(x)},${r1(y)} ${r1(x + 30)},${r1(y + 5)} ${r1(x + 6)},${r1(y + 15)}" fill="#e8f8ff" opacity=".55"/>`; }
+  if (['intro', 'outro', 'speed'].includes(seg)) { const x = W2 * .86 + Math.sin(T * .3) * 20, y = H2 * .18; g += `<g opacity=".35">${planet('saturn', x, y, 70, T, b)}</g>`; }
+  return g;
+}
 
-/* ---------- captions: 2-4 word chunks timed over the line ---------- */
+/* ---------- captions: chunks, current word highlighted ---------- */
 function chunks(say) { const w = say.split(' '), out = []; let cur = []; for (const x of w) { cur.push(x); if (cur.length >= 3 || /[.!?,]$/.test(x)) { out.push(cur.join(' ')); cur = []; } } if (cur.length) out.push(cur.join(' ')); return out; }
 function caption(line, T, x, y, size) {
   if (!line || T > line.end + .25) return '';
-  const cs = chunks(line.say), tot = cs.reduce((a, c) => a + c.length, 0); let acc = 0, cur = cs[0], st = line.start;
-  for (const c of cs) { const d = (line.end - line.start) * c.length / tot; if (T >= line.start + acc) { cur = c; st = line.start + acc; } acc += d; }
+  const cs = chunks(line.say), tot = cs.reduce((a, c) => a + c.length, 0); let acc = 0, cur = cs[0], st = line.start, dur = 1;
+  for (const c of cs) { const d = (line.end - line.start) * c.length / tot; if (T >= line.start + acc) { cur = c; st = line.start + acc; dur = d; } acc += d; }
+  const ws = cur.split(' '), wl = ws.reduce((a, w) => a + w.length + 1, 0); let a2 = 0, wi = 0;
+  ws.forEach((w, k) => { if (T >= st + dur * a2 / wl) wi = k; a2 += w.length + 1; });
   const pop = lerp(.75, 1, eoBack((T - st) / .14)), sz = Math.min(size, size * 16 / Math.max(10, cur.length));
-  return `<g transform="translate(${x},${y}) scale(${r1(pop * 100) / 100})"><text text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="${r1(sz)}" fill="#fff" stroke="${INK}" stroke-width="${r1(sz * .2)}" paint-order="stroke" stroke-linejoin="round" letter-spacing="3">${cur.toUpperCase().replace(/&/g, '&amp;')}</text></g>`;
+  const spans = ws.map((w, k) => `<tspan fill="${k === wi || /\d|[A-Z]{3,}/.test(w) ? YEL : '#fff'}">${w.toUpperCase().replace(/&/g, '&amp;')}</tspan>`).join(' ');
+  return `<g transform="translate(${x},${y}) scale(${r1(pop * 100) / 100}) rotate(${r1(Math.sin(st * 7) * 1.5)})"><text text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="${r1(sz)}" stroke="${INK}" stroke-width="${r1(sz * .2)}" paint-order="stroke" stroke-linejoin="round" letter-spacing="3">${spans}</text></g>`;
 }
 
 /* ---------- frame ---------- */
@@ -262,23 +302,39 @@ window.renderFrame = function (f) {
   const L = TL.lines; let li = -1, si = 0;
   for (let i = 0; i < L.length; i++) { if (T >= L[i].start - .3) li = i; if (L[i].show && T >= L[i].start - .3) si = i; }
   const line = li >= 0 ? L[li] : null, sl = L[si], show = sl.show || { type: 'crew' };
-  const speaking = line && T >= line.start && T <= line.end + .15;
-  const ctx = { who: speaking ? line.who : null, talk: speaking ? (TL.talk[f] || 0) : 0, lineEnd: sl.end - sl.start + .3 };
-  ctx.revealed = show.type === 'quiz' && false;
+  const speaking = line && T >= line.start - .1 && T <= line.end + .25;
+  const ctx = { who: speaking ? line.who : null, talk: speaking ? (TL.talk[f] || 0) : 0, lineEnd: sl.end - sl.start + .3, li, since: line ? T - line.start : 9, say: line ? line.say : '', react: !!line };
   const t = T - (sl.start - .3);
-  const W2 = LAYOUT === 'long' ? 1920 : 1080, H2 = LAYOUT === 'long' ? 1080 : 1920;
-  const box = LAYOUT === 'long' ? { x: 335, y: 8, s: 1.25 } : { x: 25, y: 370, s: 1.03 };
-  let inner = (SC[show.type] || SC.crew)(show, t, b, ctx);
-  let g = starsBox(W2, H2, LAYOUT === 'long' ? 90 : 110, T, 3);
-  g += `<g transform="translate(${box.x},${box.y}) scale(${box.s})">${inner}</g>`;
-  if (!['lineup', 'crew'].includes(show.type)) g += LAYOUT === 'long' ? crewRow(960, 1066, .95, T, b, ctx, 190) : crewRow(540, 1530, 1.15, T, b, ctx, 205);
-  let cap = speaking || (line && T < line.end + .25) ? caption(line, T, W2 / 2, LAYOUT === 'long' ? 815 : 1135, LAYOUT === 'long' ? 62 : 80) : '';
-  let top = '';
-  if (LAYOUT === 'short' && SHORT_TITLE) {
-    const ws = SHORT_TITLE.toUpperCase().split(' '), ls = ['']; for (const w of ws) { if ((ls.at(-1) + ' ' + w).trim().length > 18) ls.push(w); else ls[ls.length - 1] = (ls.at(-1) + ' ' + w).trim(); }
-    ls.forEach((l, i) => top += txt(l, 540, 190 + i * 78 - (ls.length - 1) * 20, 66, i ? YEL : '#fff', 'middle', .2, -2));
+  const long = LAYOUT === 'long', W2 = long ? 1920 : 1080, H2 = long ? 1080 : 1920;
+  const box = long ? { x: 430, y: 18, s: 1.06 } : { x: 25, y: 330, s: 1.03 };
+  const crewScene = ['lineup', 'crew'].includes(show.type);
+  // camera: slide-in + punch on scene change, slow push-in, shake on surprises
+  const dir = si % 2 ? 1 : -1, tin = eo3(clamp(t / .32));
+  let cx = (1 - tin) * 300 * dir, cy = 0, zoom = 1.07 - .07 * tin + .05 * clamp((t - .3) / 7);
+  const shk = line && (line.sfx === 'scratch' || /BOOM|CRUNCH/i.test(line.say)) ? 16 * Math.exp(-Math.max(0, T - line.start) * 5) : 0;
+  if (show.type === 'quiz' && t > ctx.lineEnd && t < ctx.lineEnd + 4) zoom += .03 * Math.sin((t - ctx.lineEnd) * Math.PI * 2);
+  cx += (rnd(f * 3) - .5) * shk; cy += (rnd(f * 5) - .5) * shk;
+  const bw = 1000 * box.s, bh = 600 * box.s, mx = box.x + bw / 2, my = box.y + bh / 2;
+  let g = background(line ? line.seg : 'intro', W2, H2, T, b);
+  if (t < .32) g += [0, 1, 2, 3, 4].map(k => `<line x1="${r1(W2 * (k / 5) + (1 - tin) * 400 * dir)}" y1="${r1(H2 * (.15 + k * .17))}" x2="${r1(W2 * (k / 5) + 260 + (1 - tin) * 400 * dir)}" y2="${r1(H2 * (.15 + k * .17))}" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="${r1((1 - tin) * .6)}"/>`).join('');
+  g += `<g transform="translate(${r1(mx + cx)},${r1(my + cy)}) scale(${r1(zoom * 1000) / 1000}) translate(${-mx},${-my})"><g transform="translate(${box.x},${box.y}) scale(${box.s})">${(SC[show.type] || SC.crew)(show, t, b, ctx)}</g></g>`;
+  if (!crewScene) {
+    const who = ctx.who;
+    if (long) {
+      g += crewRow(960, 1068, .62, T, b, ctx, 150, who);
+      if (who) g += actor(who, SIDE[who] < 0 ? 215 : 1705, 1000, 1.5, T, b, ctx);
+    } else {
+      g += crewRow(540, 1735, .62, T, b, ctx, 150, who);
+      if (who) g += actor(who, SIDE[who] < 0 ? 300 : 780, 1555, 1.7, T, b, ctx);
+    }
   }
-  stage.innerHTML = `<rect width="${W2}" height="${H2}" fill="${SPACE}"/><image href="${PAPER}" x="0" y="0" width="${W2}" height="${H2}" preserveAspectRatio="none"/>${g}` + cap + top;
+  let cap = speaking ? caption(line, T, W2 / 2, long ? 760 : 1060, long ? 62 : 82) : '';
+  let top = '';
+  if (!long && SHORT_TITLE) {
+    const ws = SHORT_TITLE.toUpperCase().split(' '), ls = ['']; for (const w of ws) { if ((ls.at(-1) + ' ' + w).trim().length > 18) ls.push(w); else ls[ls.length - 1] = (ls.at(-1) + ' ' + w).trim(); }
+    ls.forEach((l, i) => top += txt(l, 540, 170 + i * 78 - (ls.length - 1) * 20 + Math.sin(T * 2.5) * 4, 66, i ? YEL : '#fff', 'middle', .2, -2 + Math.sin(T * 1.7) * 1.2));
+  }
+  stage.innerHTML = `${g}<image href="${PAPER}" x="0" y="0" width="${W2}" height="${H2}" preserveAspectRatio="none"/>` + cap + top;
 };
 await document.fonts.ready;
 window.ready = true;

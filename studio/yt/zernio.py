@@ -111,13 +111,14 @@ elif cmd == "shorts":
             done[sid] = {"zernio_id": ex.get("_id"), "when": str(ex.get("scheduledFor"))}; json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1); print(f"{sid} already on Zernio, adopted"); continue; os.path.exists(f) or urllib.request.urlretrieve(url, f)
         th = None   # Short thumbnail = the Codex cover, else a frame ~1.5 s in (hook text is on screen), hosted on Zernio media; failure here must never block the post
         try:
+            if ch == "religion": raise RuntimeError("BTT: no thumbnails (owner 19 Oct)")
             jf = cover(sid)
             if not jf:
                 import subprocess; jf = os.path.join(TMP, f"{sid}.jpg")
                 subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", "1.5", "-i", f, "-frames:v", "1", "-q:v", "2", jf], check=True, timeout=60)
             _, tp = call("POST", "/media/presign", {"filename": sid + ".jpg", "contentType": "image/jpeg", "size": os.path.getsize(jf)})
             urllib.request.urlopen(urllib.request.Request(tp["uploadUrl"], data=open(jf, "rb").read(), method="PUT", headers={"Content-Type": "image/jpeg"}), timeout=120).read(); th = tp["publicUrl"]
-        except BaseException as e: print(f"::warning::{sid}: no thumbnail ({type(e).__name__})")
+        except BaseException as e: print(f"::notice::{sid}: no thumbnail ({type(e).__name__})")
         _, ps = call("POST", "/media/presign", {"filename": sid + ".mp4", "contentType": "video/mp4", "size": os.path.getsize(f)})
         urllib.request.urlopen(urllib.request.Request(ps["uploadUrl"], data=open(f, "rb").read(), method="PUT", headers={"Content-Type": "video/mp4"}), timeout=600).read()
         when = f"{day + dt.timedelta(days=n // len(slots))}T{slots[n % len(slots)]}"
@@ -197,6 +198,7 @@ elif cmd == "reslot":   # a = first day YYYY-MM-DD, b = slots "15:00,18:00,21:00
 elif cmd == "rethumb":   # a = comma-separated video ids (lf09,rel01): re-attach the thumbnail (hosted on Zernio) to the existing scheduled post. Published posts cannot be changed: set the thumbnail in YouTube Studio.
     for vid in sys.argv[2].split(","):
         v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); res = json.load(open(os.path.join(R, vid, "result.json"))); yt_account(v.get("channel", "crazyfacts"))
+        if v.get("channel") == "religion": print(f"::notice::{vid}: BTT has no thumbnails (owner 19 Oct), skipped"); continue
         # the long video's thumbnail, then the Codex cover of every Short that has one (studio/covers/<short id>.jpg)
         # Belief Through Time only: a Short whose Codex cover failed the image gate (file removed) gets its drawn cover back = the frame at 1.5 s of the rendered Short (cover.py)
         def drawn(s):
@@ -240,7 +242,7 @@ elif cmd == "post":
     pl = [cfg.get("playlists", {}).get(t) for t in v.get("playlists", [])]
     if pl and pl[0]: psd["playlistId"] = pl[0]
     body = {"content": open(os.path.join(R, vid, "description.txt")).read(), "tags": [t.lstrip("#") for t in v.get("tags", [])],
-            "mediaItems": [{"type": "video", "url": ps["publicUrl"], "thumbnail": host_thumb(res["thumb"])}],
+            "mediaItems": [{"type": "video", "url": ps["publicUrl"], **({} if v.get("channel") == "religion" else {"thumbnail": host_thumb(res["thumb"])})}],   # BTT: no thumbnail (owner 19 Oct)
             "platforms": [{"platform": "youtube", "accountId": yt_account(v.get("channel", "crazyfacts")), "platformSpecificData": psd}],
             "scheduledFor": when, "timezone": "Europe/Amsterdam"}
     st, p = call("POST", "/posts", body, soft=True)

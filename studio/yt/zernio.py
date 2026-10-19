@@ -107,13 +107,18 @@ elif cmd == "playlist":   # a = "Title|Title2" (prefix "moneyatnight:" for Money
 elif cmd == "shorts":
     import datetime as dt
     # b = "YYYY-MM-DD" (3/day at 09/13/21, continuing after earlier posts) or "YYYY-MM-DD@11:00,15:00,19:00" (own slots, from that day)
+    step = None
+    if "T" in sys.argv[3]:   # b = "YYYY-MM-DDTHH:MM+60": first Short at that time, then one every 60 minutes (owner 19 Oct: Cosmozibs hourly)
+        st0, _, mins = sys.argv[3].partition("+"); start, step = dt.datetime.fromisoformat(st0), int(mins or 60); sys.argv[3] = st0[:10]
     day, _, sl = sys.argv[3].partition("@"); vid, day = sys.argv[2], dt.date.fromisoformat(day); res = json.load(open(os.path.join(R, vid, "result.json")))
     v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); ch = v.get("channel", "crazyfacts")
     meta = {x["id"]: x for x in json.load(open(os.path.join(D, "..", "assetedit", "videos", "shorts.json")))}
     done = res.setdefault("shorts_posted", {}); slots = sl.split(",") if sl else ["09:00", "12:00", "15:00", "20:00"]; n = 0 if sl else len(done)
     plid = None if ch == "religion" else cfg.get("playlists", {}).get("Cosmozibs Shorts") if ch == "cosmozibs" else cfg.get("playlists", {}).get("Money Shorts" if ch == "moneyatnight" else "Psychology Shorts")   # never another channel's playlist
+    k = -1
     for sid, url in sorted(res.get("shorts", {}).items()):
         if sid in done: continue
+        k += 1
         yt_account(ch); m = meta.get(sid, {}); f = os.path.join(TMP, f"{sid}.mp4")
         pre = f"{m.get('title', '')}\n\n"[:40]
         ex = existing(pre) if m.get("title") else None   # FAILSAFE: this Short already exists on Zernio -> adopt, never post twice
@@ -131,7 +136,7 @@ elif cmd == "shorts":
         except BaseException as e: print(f"::notice::{sid}: no thumbnail ({type(e).__name__})")
         _, ps = call("POST", "/media/presign", {"filename": sid + ".mp4", "contentType": "video/mp4", "size": os.path.getsize(f)})
         urllib.request.urlopen(urllib.request.Request(ps["uploadUrl"], data=open(f, "rb").read(), method="PUT", headers={"Content-Type": "video/mp4"}), timeout=600).read()
-        when = f"{day + dt.timedelta(days=n // len(slots))}T{slots[n % len(slots)]}"
+        when = (start + dt.timedelta(minutes=step * k)).strftime("%Y-%m-%dT%H:%M") if step else f"{day + dt.timedelta(days=n // len(slots))}T{slots[n % len(slots)]}"
         psd = {"title": (m.get("title") or v["title"])[:90] + " #shorts", "visibility": "public", "categoryId": "27", "madeForKids": False, "containsSyntheticMedia": True}
         if plid: psd["playlistId"] = plid
         body = {"content": f"{m.get('title', '')}\n\n{'Full documentary' if ch == 'religion' else 'Full episode' if ch == 'cosmozibs' else 'Full calm 2.5-hour video'} on the channel: {v['title']}\n\n" + " ".join(m.get("tags", ["#shorts"])) + "\n\nNarration is AI-generated (synthetic voice).",

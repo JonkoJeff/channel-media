@@ -9,23 +9,40 @@
   "youtube_account": "fill in after zernio.yml cmd=accounts"
  },
  "cadence": {
-  "phase1_first_14_days": {
-   "long_per_day": 1,
-   "shorts_per_day": 2
-  },
-  "phase2": {
-   "long_per_day": 1,
-   "shorts_per_day": 4
-  },
-  "times_europe_amsterdam": {
-   "long": "17:00",
-   "shorts": [
-    "09:00",
-    "12:00",
-    "15:00",
-    "19:30"
+  "timezone": "America/New_York",
+  "why": "post 2-4 h before the after-school / early-evening peak (3-8 PM ET) and the weekend-morning peak; Shorts 1-1.5 h before micro-peaks, never within 4 h after the long video (vidIQ 40M videos, AIR kids schedule, Flowshorts)",
+  "weekday": {
+   "long": "14:00",
+   "shorts_minutes_after_long": [
+    270,
+    420,
+    660,
+    1020
+   ],
+   "shorts_clock": [
+    "18:30",
+    "21:00",
+    "01:00 (next day)",
+    "07:00 (next day)"
    ]
-  }
+  },
+  "weekend": {
+   "long": "08:00",
+   "shorts_minutes_after_long": [
+    270,
+    420,
+    660,
+    1020
+   ],
+   "shorts_clock": [
+    "12:30",
+    "15:00",
+    "19:00",
+    "01:00 (next day)"
+   ]
+  },
+  "zernio_shorts_arg": "b=YYYY-MM-DDTHH:MM@270,420,660,1020 (the long video's time, US Eastern)",
+  "rule": "re-check with YouTube Studio > Audience > 'When your viewers are on YouTube' after 28 days; own data beats this default"
  },
  "length": {
   "long_min_seconds": 485,

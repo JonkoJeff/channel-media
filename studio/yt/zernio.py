@@ -35,6 +35,10 @@ def call(method, path, body=None, soft=False):
 def save(): json.dump(cfg, open(CFG, "w"), indent=1)
 
 
+def tz(ch):   # Cosmozibs is planned in US Eastern time (owner 19 Oct: American audience); the other channels in Amsterdam time
+    return "America/New_York" if ch == "cosmozibs" else "Europe/Amsterdam"
+
+
 def yt_account(ch="crazyfacts"):  # channel key: crazyfacts (default), moneyatnight or religion (own Zernio account / key)
     global KEY
     if ch == "religion2": KEY = KEY2; return "-"
@@ -108,7 +112,10 @@ elif cmd == "shorts":
     import datetime as dt
     # b = "YYYY-MM-DD" (3/day at 09/13/21, continuing after earlier posts) or "YYYY-MM-DD@11:00,15:00,19:00" (own slots, from that day)
     step = None
-    if "T" in sys.argv[3]:   # b = "YYYY-MM-DDTHH:MM+60": first Short at that time, then one every 60 minutes (owner 19 Oct: Cosmozibs hourly)
+    offs = None
+    if "T" in sys.argv[3] and "@" in sys.argv[3]:   # b = "YYYY-MM-DDTHH:MM@270,420,660,1020": Shorts at these minutes after the long video (Cosmozibs rhythm)
+        st0, _, ol = sys.argv[3].partition("@"); start, offs = dt.datetime.fromisoformat(st0), [int(x) for x in ol.split(",")]; sys.argv[3] = st0[:10]
+    elif "T" in sys.argv[3]:   # b = "YYYY-MM-DDTHH:MM+60": first Short at that time, then one every 60 minutes
         st0, _, mins = sys.argv[3].partition("+"); start, step = dt.datetime.fromisoformat(st0), int(mins or 60); sys.argv[3] = st0[:10]
     day, _, sl = sys.argv[3].partition("@"); vid, day = sys.argv[2], dt.date.fromisoformat(day); res = json.load(open(os.path.join(R, vid, "result.json")))
     v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); ch = v.get("channel", "crazyfacts")
@@ -136,12 +143,13 @@ elif cmd == "shorts":
         except BaseException as e: print(f"::notice::{sid}: no thumbnail ({type(e).__name__})")
         _, ps = call("POST", "/media/presign", {"filename": sid + ".mp4", "contentType": "video/mp4", "size": os.path.getsize(f)})
         urllib.request.urlopen(urllib.request.Request(ps["uploadUrl"], data=open(f, "rb").read(), method="PUT", headers={"Content-Type": "video/mp4"}), timeout=600).read()
-        when = (start + dt.timedelta(minutes=step * k)).strftime("%Y-%m-%dT%H:%M") if step else f"{day + dt.timedelta(days=n // len(slots))}T{slots[n % len(slots)]}"
+        if offs and k >= len(offs): print(f"::notice::{sid}: no slot left in this run"); continue
+        when = (start + dt.timedelta(minutes=offs[k])).strftime("%Y-%m-%dT%H:%M") if offs else (start + dt.timedelta(minutes=step * k)).strftime("%Y-%m-%dT%H:%M") if step else f"{day + dt.timedelta(days=n // len(slots))}T{slots[n % len(slots)]}"
         psd = {"title": (m.get("title") or v["title"])[:90] + " #shorts", "visibility": "public", "categoryId": "27", "madeForKids": False, "containsSyntheticMedia": True}
         if plid: psd["playlistId"] = plid
         body = {"content": f"{m.get('title', '')}\n\n{'Full documentary' if ch == 'religion' else 'Full episode' if ch == 'cosmozibs' else 'Full calm 2.5-hour video'} on the channel: {v['title']}\n\n" + " ".join(m.get("tags", ["#shorts"])) + "\n\nNarration is AI-generated (synthetic voice).",
                 "tags": [t.lstrip("#") for t in m.get("tags", [])], "mediaItems": [{"type": "video", "url": ps["publicUrl"], **({"thumbnail": th} if th else {})}],
-                "platforms": [{"platform": "youtube", "accountId": yt_account(ch), "platformSpecificData": psd}], "scheduledFor": when, "timezone": "Europe/Amsterdam"}
+                "platforms": [{"platform": "youtube", "accountId": yt_account(ch), "platformSpecificData": psd}], "scheduledFor": when, "timezone": tz(ch)}
         tt = cfg.get("tiktok", {}).get(ch)   # same Short also to TikTok (owner 19 Oct, Cosmozibs): only for channels with a TikTok account in zernio.json
         if tt:
             body["platforms"].append({"platform": "tiktok", "accountId": tt})
@@ -236,8 +244,9 @@ elif cmd == "rethumb":   # a = comma-separated video ids (lf09,rel01): re-attach
             for x in mi: x.pop("_id", None); x["thumbnail"] = url if x.get("type") == "video" else x.get("thumbnail")
             try: call("PUT", f"/posts/{pid}", {"mediaItems": mi}); print(f"::notice::{key}: thumbnail re-attached")
             except SystemExit as e: print(f"::notice::{key}: {str(e)[:200]}")
-elif cmd == "reschedule":  # a = post id, b = local time YYYY-MM-DDTHH:MM
-    st, p = call("PUT", f"/posts/{sys.argv[2]}", {"scheduledFor": sys.argv[3], "timezone": "Europe/Amsterdam"}); post = p.get("post", p)
+elif cmd == "reschedule":  # a = post id, b = local time YYYY-MM-DDTHH:MM, c = channel (cosmozibs: its own key + US Eastern time)
+    ch = sys.argv[4] if len(sys.argv) > 4 and sys.argv[4] else "crazyfacts"; yt_account(ch)
+    st, p = call("PUT", f"/posts/{sys.argv[2]}", {"scheduledFor": sys.argv[3], "timezone": tz(ch)}); post = p.get("post", p)
     print(f"::notice::{st} {post.get('status')} {post.get('scheduledFor')} {json.dumps(p)[:300]}")
 elif cmd == "post":
     vid, when = sys.argv[2], sys.argv[3]
@@ -264,7 +273,7 @@ elif cmd == "post":
     body = {"content": open(os.path.join(R, vid, "description.txt")).read(), "tags": [t.lstrip("#") for t in v.get("tags", [])],
             "mediaItems": [{"type": "video", "url": ps["publicUrl"], **({} if v.get("channel") == "religion" else {"thumbnail": host_thumb(res["thumb"])})}],   # BTT: no thumbnail (owner 19 Oct)
             "platforms": [{"platform": "youtube", "accountId": yt_account(v.get("channel", "crazyfacts")), "platformSpecificData": psd}],
-            "scheduledFor": when, "timezone": "Europe/Amsterdam"}
+            "scheduledFor": when, "timezone": tz(v.get("channel", "crazyfacts"))}
     st, p = call("POST", "/posts", body, soft=True)
     if st is None:   # big video: Zernio creates the post but may not answer in time. NEVER post again: find it.
         import time; time.sleep(20); _, lp = call("GET", "/posts?limit=100"); key = body["content"][:40]

@@ -26,7 +26,7 @@ function thumbScene(spec, long, b) {
   const who = spec.char || 'zib';
   const cs = { cosmo: 1.9, zib: 2.3, bolt: 2.2, rocky: 1.9, tik: 1.5 }[who] * (long ? 1 : .95);
   g += long ? `<g transform="translate(255,730) rotate(-6)">${charAt(who, 0, 0, cs, b, [.7, -.2])}</g>` : `<g transform="translate(300,1720) rotate(-5)">${charAt(who, 0, 0, cs, b, [.6, -.5])}</g>`;
-  g += long ? tTxt(spec.text, 640, 130, spec.text.length > 9 ? 100 : 120, '#ffe14a', -4) : tTxt(spec.text, 540, 330, spec.text.length > 10 ? 130 : 170, '#ffe14a', -3);
+  g += long ? tTxt(spec.text, 640, 130, Math.min(120, Math.round(1150 / (spec.text.length * .7))), '#ffe14a', -4) : tTxt(spec.text, 540, 330, Math.min(170, Math.round(960 / (spec.text.length * .7))), '#ffe14a', -3);
   return g + `<rect width="${W2}" height="${H2}" fill="url(#vig)"/>`;
 }
 window.renderThumbSpec = (spec, long) => {

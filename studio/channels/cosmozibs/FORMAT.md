@@ -28,7 +28,7 @@ rocky = grumpy punchline at the end of each Short · tik = bonus facts, quiz, tr
 | title | text | big title with 4 planets |
 | lineup | – | the crew big in the middle |
 | map | hi: "venus,jupiter" or "none" | solar system, highlighted planets |
-| planet | kind, label, zoom? | big planet with face; kinds: mercury venus earth mars jupiter saturn uranus neptune exo moon ganymede sun |
+| planet | kind, label, zoom? | big planet with face; kinds: mercury venus earth mars jupiter saturn uranus neptune exo moon ganymede sun star blackhole oumuamua |
 | versus | a, b, win?, label | two bodies side by side, crown on winner |
 | thermo | value, label, compare | thermometer + oven |
 | pressure | value, label | diver sinking with depth meter |
@@ -45,6 +45,10 @@ rocky = grumpy punchline at the end of each Short · tik = bonus facts, quiz, tr
 | blanket · nomoon · acid · nightsky(label) · math · voyager(label) · daynight | – | special pictures |
 | speed | n (0 = title card), planet, text | speed-round card |
 | pick | – | 4 numbered planets |
+| signal | label | 1977 printout, code circled, "Wow!" |
+| lightcurve | dip (percent, 0 = flat), label | dimming star + brightness graph |
+| visitor | label | 'Oumuamua flying past the Sun |
+| blackhole | label | black hole, stars stretch and spiral in |
 A new scene type = a new function in `engine/scenes.part` (Claude adds it, never Codex).
 
 ## Thumbnails (`thumb` and `short.cover`)

@@ -8,8 +8,20 @@ const star5 = (cx, cy, r, f = YEL) => { const p = []; for (let i = 0; i < 10; i+
 function starsBox(w, h, n, t, seed = 1) { let g = ''; for (let i = 0; i < n; i++) { const tw = .5 + .5 * Math.sin(t * 3 + i * 1.7); g += `<circle cx="${r1(rnd(i * 3.1 + seed) * w)}" cy="${r1(rnd(i * 7.7 + seed) * h)}" r="${r1(1.5 + tw * 3)}" fill="#fff6c8" opacity="${r1(.3 + tw * .6)}"/>`; } return g; }
 
 /* ---------- planets ---------- */
-const PCOL = { venus: '#f2c77a', jupiter: '#e8b98a', neptune: '#4a7fe0', exo: '#2f56c9', earth: '#6fa8e8', mercury: '#a9a39b', ganymede: '#b8a891', sun: YEL, mars: '#e0764a', saturn: '#ead08a', uranus: '#9fe0e6', moon: '#d8d4cc' };
+const PCOL = { venus: '#f2c77a', jupiter: '#e8b98a', neptune: '#4a7fe0', exo: '#2f56c9', earth: '#6fa8e8', mercury: '#a9a39b', ganymede: '#b8a891', sun: YEL, star: '#ffb347', mars: '#e0764a', saturn: '#ead08a', uranus: '#9fe0e6', moon: '#d8d4cc' };
 function planet(kind, cx, cy, r, t, boil, opt = {}) {
+  if (kind === 'blackhole') {   // dark hole with a glowing, spinning disk
+    let g = `<ellipse cx="${cx}" cy="${cy}" rx="${r * 1.55}" ry="${r * .42}" fill="none" stroke="#ff9a3c" stroke-width="${r * .22}" opacity=".9"/>`;
+    for (let i = 0; i < 8; i++) { const a = t * 2.2 + i * .785, x = cx + Math.cos(a) * r * 1.55, y = cy + Math.sin(a) * r * .42; g += `<circle cx="${r1(x)}" cy="${r1(y)}" r="${r1(r * .06)}" fill="${YEL}"/>`; }
+    g += roughSVG('circle', [cx, cy, r * 1.6], { fill: '#06040d', fillStyle: 'solid', stroke: '#ffcf6b', strokeWidth: Math.max(4, r * .05), roughness: 1.1 }, boil);
+    return g + `<path d="M${cx - r * 1.55},${cy} A${r * 1.55},${r * .42} 0 0 0 ${cx + r * 1.55},${cy}" fill="none" stroke="#ffb347" stroke-width="${r * .22}"/>`;
+  }
+  if (kind === 'oumuamua') {   // long reddish cigar-shaped rock, tumbling
+    const rot = Math.sin(t * 1.3) * 25 - 15;
+    let g = `<g transform="rotate(${r1(rot)} ${cx} ${cy})">` + roughSVG('ellipse', [cx, cy, r * 2.4, r * .42], { fill: '#b5654a', fillStyle: 'solid', stroke: INK, strokeWidth: Math.max(4, r * .04), roughness: 1.4 }, boil);
+    [[-.6, -.02, .08], [.1, .05, .06], [.6, -.03, .05]].forEach(([dx, dy, rr]) => g += `<circle cx="${cx + dx * r}" cy="${cy + dy * r}" r="${rr * r}" fill="rgba(0,0,0,.18)" stroke="${INK}" stroke-width="3"/>`);
+    return g + '</g>';
+  }
   const id = 'pc' + kind + Math.round(cx) + Math.round(cy);
   let g = roughSVG('circle', [cx, cy, r * 2], { fill: PCOL[kind] || '#ccc', fillStyle: 'solid', stroke: INK, strokeWidth: Math.max(4, r * .04), roughness: 1.1 }, boil);
   g += `<clipPath id="${id}"><circle cx="${cx}" cy="${cy}" r="${r - 3}"/></clipPath><g clip-path="url(#${id})">`;
@@ -244,6 +256,38 @@ SC.daynight = (s, t, b) => {
   g += `<path d="M640,110 A190,190 0 0 1 640,490 Z" fill="#0b1026" opacity=".75"/>`;
   return g + txt('DAY', 540, 310, 54, YEL, 'middle', .22) + txt('NIGHT', 740, 310, 54, '#c9d3ff', 'middle', .22) + txt(s.label || 'FOREVER!', 640, 570, 54, '#fff', 'middle', .22, -2, eoBack(P(t, .8, 1.1)));
 };
+SC.signal = (s, t, b) => {   // the 1977 computer printout, a code gets circled and "Wow!" written next to it
+  let g = `<g transform="rotate(-3 500 320)">` + roughSVG('rectangle', [180, 60, 640, 500], { fill: '#fdfcf7', fillStyle: 'solid', stroke: INK, strokeWidth: 7 }, b);
+  for (let r = 0; r < 9; r++) for (let c = 0; c < 6; c++) { const hot = c === 3 && r >= 2 && r <= 7;
+    const ch = hot ? '6EQUJ5'[r - 2] : ' 1 1  2 1 1 3  1 '.charAt((r * 7 + c * 3) % 17).trim() || '1';
+    g += `<text x="${250 + c * 95}" y="${120 + r * 52}" font-family="monospace" font-weight="700" font-size="40" fill="${hot ? RED : '#555'}">${ch}</text>`; }
+  const k = ease(P(t, .8, 1.8)); g += roughSVG('ellipse', [547, 342, 92, 330], { stroke: RED, strokeWidth: 8, roughness: 2 }, b + 1, Math.max(k, .001)) + '</g>';
+  return g + txt('Wow!', 760, 220, 80, RED, 'middle', .12, -12, eoBack(P(t, 1.6, 2))) + txt(s.label || '', 500, 590, 46, '#fff', 'middle', .22);
+};
+SC.lightcurve = (s, t, b) => {   // a star with a brightness graph that suddenly dips
+  const dim = s.dip ? Math.max(0, Math.sin(clamp((t - 1.2) / 1.6) * Math.PI)) * s.dip / 100 : 0;
+  let g = `<g opacity="${r1(1 - dim * 1.6)}">` + planet('star', 230, 280, 150, t, b, { face: true }) + '</g>';
+  g += roughSVG('rectangle', [440, 120, 520, 330], { fill: '#fdfcf7', fillStyle: 'solid', stroke: INK, strokeWidth: 6 }, b + 1);
+  let d = 'M460,180'; const n = Math.floor(ease(P(t, .2, 3)) * 48);
+  for (let i = 1; i <= n; i++) { const x = 460 + i * 10, f = s.dip ? Math.max(0, Math.sin(clamp((i - 20) / 14) * Math.PI)) : 0; d += ` L${x},${r1(180 + f * s.dip * 10 + Math.sin(i * 1.7) * 3)}`; }
+  g += `<path d="${d}" fill="none" stroke="${RED}" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>` + txt('BRIGHTNESS', 700, 440, 30, INK, 'middle', 0);
+  return g + txt(s.label || '', 500, 70, 56, YEL, 'middle', .2, -2, eoBack(P(t, .3, .6)));
+};
+SC.visitor = (s, t, b) => {   // 'Oumuamua zooming past the Sun and back out of the solar system
+  const p = clamp(t / 5), x = -150 + p * 1300, y = 520 - Math.sin(p * Math.PI) * 330;
+  let g = planet('sun', 500, 330, 90, t, b);
+  g += `<path d="M-150,520 Q500,-140 1150,520" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="14 12" opacity=".5"/>`;
+  for (let i = 1; i < 6; i++) g += `<line x1="${r1(x - i * 36)}" y1="${r1(y + i * 10)}" x2="${r1(x - i * 36 - 26)}" y2="${r1(y + i * 10 + 6)}" stroke="#fff" stroke-width="5" opacity="${r1(.6 - i * .1)}" stroke-linecap="round"/>`;
+  g += planet('oumuamua', x, y, 70, t, b + 1);
+  return g + txt(s.label || '', 500, 70, 56, YEL, 'middle', .2, -2, eoBack(P(t, .3, .6)));
+};
+SC.blackhole = (s, t, b) => {   // things spiral in and stretch like spaghetti
+  let g = planet('blackhole', 500, 320, 150, t, b);
+  for (let i = 0; i < 5; i++) { const ph = ((t * .35 + i * .2) % 1), a = i * 1.3 + ph * 5, rr = 420 * (1 - ph) + 60;
+    const x = 500 + Math.cos(a) * rr, y = 320 + Math.sin(a) * rr * .5, st = 1 + ph * 2.5;
+    g += `<g transform="translate(${r1(x)},${r1(y)}) rotate(${r1(a * 57.3 + 90)}) scale(${r1(1 / st)},${r1(st)})" opacity="${r1(1 - ph * .8)}">` + star5(0, 0, 26, i % 2 ? YEL : '#9fe0e6') + '</g>'; }
+  return g + txt(s.label || '', 500, 70, 56, YEL, 'middle', .2, -2, eoBack(P(t, .3, .6)));
+};
 /* ---------- crew ---------- */
 const CREW = ['cosmo', 'zib', 'bolt', 'rocky', 'tik'];
 function drawChar(who, x, y, s, st, t, b) {
@@ -290,7 +334,7 @@ function actor(who, x, footY, s, T, b, ctx) {   // the speaker, big, entering an
   if (ex && ts < 1.4) g += txt('?!', x0 + side * -10 + 70 * s, footY - 330 * s - hop, 80 * s, YEL, 'middle', .2, side * -12, eoBack(clamp(ts / .25)));
   return g;
 }
-const BG = { intro: ['#1f2a52', '#3b2470'], outro: ['#1f2a52', '#3b2470'], speed: ['#2a1f5c', '#6a2470'], venus: ['#3a1c2a', '#93421f'], jupiter: ['#2b1d14', '#7a4a2a'], neptune: ['#0b2152', '#1f5cb5'], glass: ['#0d1440', '#2f3fa0'] };
+const BG = { moon: ['#1d1a5c', '#4a3fb0'], spin: ['#0b2152', '#1f8a8a'], sunoff: ['#2b1a0a', '#c4561e'], car: ['#1f2a52', '#d2366b'], wow: ['#0f2a1c', '#2f7a4a'], oumuamua: ['#2a1410', '#8a3a24'], tabby: ['#2b1a0a', '#b5651e'], blackhole: ['#05030c', '#3a1858'], intro: ['#1f2a52', '#3b2470'], outro: ['#1f2a52', '#3b2470'], speed: ['#2a1f5c', '#6a2470'], venus: ['#3a1c2a', '#93421f'], jupiter: ['#2b1d14', '#7a4a2a'], neptune: ['#0b2152', '#1f5cb5'], glass: ['#0d1440', '#2f3fa0'] };
 function background(seg, W2, H2, T, b) {
   const c = BG[seg] || BG.intro;
   let g = `<defs><linearGradient id="bgg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${c[0]}"/><stop offset="1" stop-color="${c[1]}"/></linearGradient></defs><rect width="${W2}" height="${H2}" fill="url(#bgg)"/>`;

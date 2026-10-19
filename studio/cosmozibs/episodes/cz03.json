@@ -1,0 +1,682 @@
+{
+ "id": "cz03",
+ "title": "4 Space Mysteries Nobody Can Solve",
+ "theme": "Space Mysteries",
+ "next": "Tomorrow: the history of the universe in one year!",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Wow!_signal",
+  "https://www.mentalfloss.com/article/67295/6equj5-wow-signal",
+  "https://science.nasa.gov/solar-system/comets/oumuamua/",
+  "https://www.space.com/oumuamua.html",
+  "https://science.nasa.gov/solar-system/comets/3i-atlas/",
+  "https://www.space.com/38536-tabbys-star-mystery-9-nasa-theories.html",
+  "https://en.wikipedia.org/wiki/Tabby%27s_Star",
+  "https://science.nasa.gov/universe/black-holes/"
+ ],
+ "thumb": {
+  "text": "NOBODY KNOWS?!",
+  "planet": "blackhole",
+  "mood": "scared",
+  "fx": [],
+  "char": "zib",
+  "bg": [
+   "#05030c",
+   "#2f7a4a"
+  ]
+ },
+ "description": "A signal from space that lasted 72 seconds. A cigar-shaped rock from another star. A star that dims for no clear reason. And what's inside a black hole? The Cosmozibs crew investigates 4 space mysteries that real scientists still can't solve!\n\n{{chapters}}\n\nA new episode every day. Join the crew: https://www.youtube.com/@Cosmozibs?sub_confirmation=1\n\nVoices in this video are AI-generated. Every fact is checked with the sources below.\n\n#space #spacefacts #spacemysteries",
+ "tags": [
+  "space mysteries",
+  "Wow signal",
+  "Oumuamua",
+  "Tabby's star",
+  "black hole for kids",
+  "space facts for kids"
+ ],
+ "segments": [
+  {
+   "id": "intro",
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "Hey, space cadets! Today we're going on a mystery hunt!",
+     "show": {
+      "type": "title",
+      "text": "SPACE MYSTERIES!"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "A strange signal from deep space. A weird rock from another star."
+    },
+    {
+     "who": "bolt",
+     "say": "A star that dims for no clear reason. And the darkest mystery of all: what's inside a black hole?",
+     "show": {
+      "type": "lineup"
+     }
+    },
+    {
+     "who": "rocky",
+     "say": "Mysteries? The only mystery I care about is who ate my space cookies."
+    },
+    {
+     "who": "cosmo",
+     "say": "Here's the plan. Four mysteries, four clues, and a quiz after each one."
+    },
+    {
+     "who": "zib",
+     "say": "I'm the best detective in the galaxy! Probably!"
+    },
+    {
+     "who": "tik",
+     "say": "Real scientists still can't solve these. Maybe one day you will! Tick tock, let's go!"
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "short": {
+    "title": "The Space Signal Nobody Can Explain",
+    "end": 6,
+    "cover": {
+     "text": "ALIENS?!",
+     "planet": "earth",
+     "mood": "scared",
+     "fx": [],
+     "char": "zib",
+     "bg": [
+      "#0f2a1c",
+      "#2f7a4a"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "In the summer of nineteen seventy seven, a giant radio telescope heard something from deep space.",
+     "show": {
+      "type": "planet",
+      "kind": "earth",
+      "label": "AUGUST 1977"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "A super strong signal. It lasted for seventy two seconds. Then it was gone.",
+     "show": {
+      "type": "bignum",
+      "value": "72 s",
+      "label": "THE SIGNAL"
+     },
+     "sfx": "riser"
+    },
+    {
+     "who": "zib",
+     "say": "Wait... WHAT? A message from space?! How could this happen?!",
+     "sfx": "scratch"
+    },
+    {
+     "who": "cosmo",
+     "say": "A scientist named Jerry Ehman found it on a computer printout. He circled it in red pen and wrote one word next to it.",
+     "show": {
+      "type": "signal",
+      "label": "6EQUJ5"
+     }
+    },
+    {
+     "who": "tik",
+     "say": "Wow! That's why everyone calls it the Wow signal!",
+     "sfx": "pop"
+    },
+    {
+     "who": "bolt",
+     "say": "It seemed to come from the direction of the Sagittarius stars. Scientists listened there again and again, but they never heard it a second time."
+    },
+    {
+     "who": "rocky",
+     "say": "Typical. Somebody calls once, and then never calls back.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! The telescope was called Big Ear. It wasn't a dish. It was a huge, flat metal field!",
+     "show": {
+      "type": "planet",
+      "kind": "earth",
+      "label": "BIG EAR"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "So was it aliens? Please say it was aliens!"
+    },
+    {
+     "who": "cosmo",
+     "say": "Nobody knows! Some scientists think a cloud of gas in space suddenly glowed very bright, for a moment."
+    },
+    {
+     "who": "bolt",
+     "say": "Others think it was something we just don't understand yet. That's why it's still a mystery!"
+    },
+    {
+     "who": "zib",
+     "say": "Hello, space! If that was you, please call again!"
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! How long did the Wow signal last? Seven seconds, seventy two seconds, or seven hours?",
+     "show": {
+      "type": "quiz",
+      "q": "How long did the Wow! signal last?",
+      "options": [
+       "7 SECONDS",
+       "72 SECONDS",
+       "7 HOURS"
+      ],
+      "answer": 1
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "Seventy two seconds! Just over one minute, and then silence.",
+     "show": {
+      "type": "bignum",
+      "value": "72 s",
+      "label": "THEN SILENCE"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "cosmo",
+     "say": "Next mystery: a visitor from another star!"
+    }
+   ]
+  },
+  {
+   "id": "oumuamua",
+   "short": {
+    "title": "A Rock From Another Star Visited Us",
+    "end": 6,
+    "cover": {
+     "text": "ALIEN ROCK?",
+     "planet": "oumuamua",
+     "mood": "scared",
+     "fx": [
+      "streaks"
+     ],
+     "char": "bolt",
+     "bg": [
+      "#2a1410",
+      "#8a3a24"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "In twenty seventeen, a telescope in Hawaii spotted something zooming past the Sun.",
+     "show": {
+      "type": "visitor",
+      "label": "2017"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "It wasn't from our solar system at all. It came from another star! The first visitor like that we had ever confirmed.",
+     "show": {
+      "type": "planet",
+      "kind": "oumuamua",
+      "label": "FROM ANOTHER STAR"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Wait... WHAT? A rock from another star?! How could this happen?!",
+     "sfx": "scratch"
+    },
+    {
+     "who": "cosmo",
+     "say": "Scientists named it Oumuamua. In Hawaiian, that means a messenger from afar arriving first."
+    },
+    {
+     "who": "bolt",
+     "say": "And it was a weird shape. Long and thin, like a cigar. About ten times longer than it was wide!",
+     "show": {
+      "type": "bignum",
+      "value": "400 m",
+      "label": "LONG AND THIN"
+     }
+    },
+    {
+     "who": "tik",
+     "say": "It was racing at about three hundred thousand kilometers per hour, close to the Sun!",
+     "show": {
+      "type": "wind",
+      "value": "315,000 km/h",
+      "label": "SUPER FAST"
+     }
+    },
+    {
+     "who": "rocky",
+     "say": "Hey, it's a rock like me. Finally, someone famous in my family!",
+     "sfx": "boing"
+    },
+    {
+     "who": "bolt",
+     "say": "But here's the strange part. As it left, it sped up a tiny bit. Like a comet, which pushes out gas. But nobody saw a comet tail!"
+    },
+    {
+     "who": "zib",
+     "say": "A rock with a secret engine? Was it a spaceship?!"
+    },
+    {
+     "who": "cosmo",
+     "say": "Most scientists think it was just a natural rock or a piece of ice. But it left too fast for us to check up close.",
+     "show": {
+      "type": "visitor",
+      "label": "BYE BYE!"
+     }
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! It wasn't the last visitor. In twenty twenty five, astronomers spotted a third one, called three I ATLAS!",
+     "show": {
+      "type": "planet",
+      "kind": "oumuamua",
+      "label": "VISITOR #3"
+     }
+    },
+    {
+     "who": "rocky",
+     "say": "More rocks? This is the best day of my life."
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! What shape was Oumuamua? Round like a ball, long like a cigar, or flat like a pancake?",
+     "show": {
+      "type": "quiz",
+      "q": "What shape was 'Oumuamua?",
+      "options": [
+       "ROUND BALL",
+       "LONG CIGAR",
+       "FLAT PANCAKE"
+      ],
+      "answer": 1
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "Long like a cigar! About ten times longer than it was wide.",
+     "show": {
+      "type": "planet",
+      "kind": "oumuamua",
+      "label": "CIGAR ROCK"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "cosmo",
+     "say": "Next mystery: a star that keeps fading!"
+    }
+   ]
+  },
+  {
+   "id": "tabby",
+   "short": {
+    "title": "The Star That Dims for No Clear Reason",
+    "end": 6,
+    "cover": {
+     "text": "DIMMED?!",
+     "planet": "star",
+     "mood": "scared",
+     "fx": [],
+     "char": "cosmo",
+     "bg": [
+      "#2b1a0a",
+      "#b5651e"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "Far away, there's a star that does something really odd. Sometimes it gets much darker!",
+     "show": {
+      "type": "lightcurve",
+      "dip": 0,
+      "label": "A NORMAL STAR"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "The Kepler space telescope watched it for years. Some days, its light dropped by up to twenty two percent!",
+     "show": {
+      "type": "lightcurve",
+      "dip": 22,
+      "label": "UP TO 22% DIMMER!"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Wait... WHAT? Who turned down the lights?! How could this happen?!",
+     "sfx": "scratch"
+    },
+    {
+     "who": "cosmo",
+     "say": "When a planet passes in front of a star, the star dims a tiny bit. But a planet blocks maybe one percent. Not twenty two!"
+    },
+    {
+     "who": "bolt",
+     "say": "And the dips came at random times. No pattern at all!",
+     "show": {
+      "type": "lightcurve",
+      "dip": 15,
+      "label": "NO PATTERN"
+     }
+    },
+    {
+     "who": "tik",
+     "say": "Scientists call it Tabby's star, after Tabetha Boyajian, the astronomer who led the team that studied it.",
+     "sfx": "pop"
+    },
+    {
+     "who": "rocky",
+     "say": "A star that keeps hiding? Smart. I hide from homework too.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! The first people to spot those weird dips weren't professors. They were volunteers, checking telescope data from home!"
+    },
+    {
+     "who": "zib",
+     "say": "Some people even said: maybe aliens built something giant around it!"
+    },
+    {
+     "who": "bolt",
+     "say": "Fun idea! But later telescopes found clues. The dimming was stronger in some colors of light than others."
+    },
+    {
+     "who": "cosmo",
+     "say": "That points to clouds of tiny dust grains drifting in front of the star. But where all that dust comes from is still a mystery!",
+     "show": {
+      "type": "lightcurve",
+      "dip": 10,
+      "label": "DUST?"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "So it's not aliens. It's space dust. I'm a little sad, but also a little amazed."
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! How much did Tabby's star dim? One percent, twenty two percent, or one hundred percent?",
+     "show": {
+      "type": "quiz",
+      "q": "How much did Tabby's star dim?",
+      "options": [
+       "1%",
+       "UP TO 22%",
+       "100%"
+      ],
+      "answer": 1
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "Up to twenty two percent! Way too much for a planet.",
+     "show": {
+      "type": "bignum",
+      "value": "22%",
+      "label": "DIMMER!"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "cosmo",
+     "say": "And now, the biggest mystery of all."
+    }
+   ]
+  },
+  {
+   "id": "blackhole",
+   "short": {
+    "title": "What's Inside a Black Hole?",
+    "end": 6,
+    "cover": {
+     "text": "INSIDE?!",
+     "planet": "blackhole",
+     "mood": "scared",
+     "fx": [],
+     "char": "rocky",
+     "bg": [
+      "#05030c",
+      "#3a1858"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "What is inside a black hole? The answer is... nobody knows!",
+     "show": {
+      "type": "blackhole",
+      "label": "BLACK HOLE"
+     },
+     "sfx": "riser"
+    },
+    {
+     "who": "bolt",
+     "say": "A black hole has so much gravity that nothing can escape. Not even light!",
+     "show": {
+      "type": "planet",
+      "kind": "blackhole",
+      "label": "NO ESCAPE"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Wait... WHAT? Not even light?! How could this happen?!",
+     "sfx": "scratch"
+    },
+    {
+     "who": "cosmo",
+     "say": "Around it is a border called the event horizon. It's not a surface you can stand on. It's more like a point of no return."
+    },
+    {
+     "who": "bolt",
+     "say": "Anything that crosses it can never come back out. So we can't look inside, and no signal can tell us what's in there."
+    },
+    {
+     "who": "tik",
+     "say": "If something got too close, gravity would stretch it long and thin. Scientists really call this spaghettification!",
+     "show": {
+      "type": "blackhole",
+      "label": "SPAGHETTI!"
+     },
+     "sfx": "boing"
+    },
+    {
+     "who": "rocky",
+     "say": "Spaghetti? Now I'm hungry. Thanks a lot, universe.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! In the middle of our own galaxy sits a giant black hole called Sagittarius A star.",
+     "show": {
+      "type": "bignum",
+      "value": "4,000,000",
+      "label": "× THE SUN'S MASS"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "It has about four million times the mass of our Sun. But don't worry, it's very, very far away from Earth."
+    },
+    {
+     "who": "zib",
+     "say": "Phew! Nobody is getting spaghettified today!"
+    },
+    {
+     "who": "cosmo",
+     "say": "Scientists have even taken pictures of the glowing ring of gas around black holes. The middle stays dark.",
+     "show": {
+      "type": "planet",
+      "kind": "blackhole",
+      "label": "REAL PHOTOS!"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "What happens to matter deep inside? Our best science can't explain it yet. Maybe a future space cadet will crack it!"
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! What can escape from a black hole? Light, rockets, or nothing at all?",
+     "show": {
+      "type": "quiz",
+      "q": "What can escape a black hole?",
+      "options": [
+       "LIGHT",
+       "ROCKETS",
+       "NOTHING"
+      ],
+      "answer": 2
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "Nothing! Once something crosses the event horizon, it can't come back. Not even light.",
+     "show": {
+      "type": "blackhole",
+      "label": "NOTHING!"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "cosmo",
+     "say": "Wow. Okay, detectives, time to speed things up!"
+    }
+   ]
+  },
+  {
+   "id": "speed",
+   "lines": [
+    {
+     "who": "tik",
+     "say": "Speed round! Five quick facts. Ready? Go!",
+     "show": {
+      "type": "speed",
+      "n": 0,
+      "text": "SPEED ROUND!"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "bolt",
+     "say": "One! The Wow signal was never heard again, even after many searches.",
+     "show": {
+      "type": "speed",
+      "n": 1,
+      "planet": "earth",
+      "text": "WOW! = 72 SECONDS"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Two! Oumuamua was about four hundred meters long. That's as long as four soccer fields!",
+     "show": {
+      "type": "speed",
+      "n": 2,
+      "planet": "oumuamua",
+      "text": "ABOUT 400 M LONG"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Three! Tabby's star was found in data from the Kepler space telescope.",
+     "show": {
+      "type": "speed",
+      "n": 3,
+      "planet": "star",
+      "text": "KEPLER FOUND IT"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Four! Black holes are invisible, but we can spot them by the glowing gas and stars around them.",
+     "show": {
+      "type": "speed",
+      "n": 4,
+      "planet": "blackhole",
+      "text": "SEEN BY THE GLOW"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Five! Light from the Sun reaches Earth in about eight minutes. A black hole would never let it go!",
+     "show": {
+      "type": "speed",
+      "n": 5,
+      "planet": "sun",
+      "text": "LIGHT: 8 MIN"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Whoa. My detective brain is full!",
+     "show": {
+      "type": "lineup"
+     }
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "That's four space mysteries! Which one do you want scientists to solve first?",
+     "show": {
+      "type": "lineup"
+     }
+    },
+    {
+     "who": "tik",
+     "say": "Think about it! The Wow signal, the cigar rock, the fading star, or the black hole?",
+     "show": {
+      "type": "pick"
+     },
+     "pause": 4
+    },
+    {
+     "who": "rocky",
+     "say": "The cigar rock. Obviously. It's family."
+    },
+    {
+     "who": "tik",
+     "say": "Here's a challenge. Tell a friend your best guess for one mystery. Real scientists start with a guess too!"
+    },
+    {
+     "who": "zib",
+     "say": "Tomorrow: the whole history of the universe, squeezed into one year!",
+     "show": {
+      "type": "title",
+      "text": "TOMORROW: UNIVERSE IN 1 YEAR!"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "Subscribe and join the crew. See you tomorrow, space cadets!"
+    }
+   ]
+  }
+ ]
+}

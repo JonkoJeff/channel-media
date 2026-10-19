@@ -111,7 +111,7 @@ elif cmd == "shorts":
     v = json.load(open(os.path.join(D, "..", "assetedit", "videos", vid + ".json"))); ch = v.get("channel", "crazyfacts")
     meta = {x["id"]: x for x in json.load(open(os.path.join(D, "..", "assetedit", "videos", "shorts.json")))}
     done = res.setdefault("shorts_posted", {}); slots = sl.split(",") if sl else ["09:00", "12:00", "15:00", "20:00"]; n = 0 if sl else len(done)
-    plid = None if ch == "religion" else cfg.get("playlists", {}).get("Money Shorts" if ch == "moneyatnight" else "Psychology Shorts")
+    plid = None if ch == "religion" else cfg.get("playlists", {}).get("Cosmozibs Shorts") if ch == "cosmozibs" else cfg.get("playlists", {}).get("Money Shorts" if ch == "moneyatnight" else "Psychology Shorts")   # never another channel's playlist
     for sid, url in sorted(res.get("shorts", {}).items()):
         if sid in done: continue
         yt_account(ch); m = meta.get(sid, {}); f = os.path.join(TMP, f"{sid}.mp4")

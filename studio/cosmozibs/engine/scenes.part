@@ -322,10 +322,10 @@ window.renderFrame = function (f) {
     const who = ctx.who;
     if (long) {
       g += crewRow(960, 1068, .62, T, b, ctx, 150, who);
-      if (who) g += actor(who, SIDE[who] < 0 ? 215 : 1705, 1000, 1.5, T, b, ctx);
+      if (who) g += actor(who, SIDE[who] < 0 ? 215 : 1705, 1010, 2.05, T, b, ctx);
     } else {
       g += crewRow(540, 1735, .62, T, b, ctx, 150, who);
-      if (who) g += actor(who, SIDE[who] < 0 ? 300 : 780, 1555, 1.7, T, b, ctx);
+      if (who) g += actor(who, SIDE[who] < 0 ? 290 : 790, 1570, 2.2, T, b, ctx);
     }
   }
   let cap = speaking ? caption(line, T, W2 / 2, long ? 760 : 1060, long ? 62 : 82) : '';

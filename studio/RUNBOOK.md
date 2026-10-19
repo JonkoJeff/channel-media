@@ -273,3 +273,6 @@ Only the Codex picture, no text added by us (no overlay). Lettering inside the p
 
 ## BTT: NO THUMBNAILS (owner 19 Oct 2026)
 Belief Through Time gets no custom thumbnails at all, long or Shorts: no Codex `rel_thumb` / `rel_cover` tasks, nothing attached by `zernio.py` (post, shorts, rethumb skip religion). YouTube picks the frame. Already scheduled posts keep what they have; change them only on explicit owner instruction. BAD is unchanged.
+
+## 5 SHORTS PER DAY (owner 20 Oct 2026)
+New days get 5 Shorts per channel: 12:00, 15:00, 18:00, 21:00, 23:30 (autoplan `SLOTS`). Days that are already planned keep their 4. Review the effect after one week (views per Short, subscribers); go back to 4 if the extra Short only dilutes.

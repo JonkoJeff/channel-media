@@ -1,10 +1,10 @@
 """Auto-plan: schedule every rendered-but-unscheduled video (lf = Brain After Dark, rel = Belief Through Time) on Zernio. No chat needed.
-Long video: 20:00 on the first free day after the last scheduled long video (at most 14 days ahead). Shorts 15:00/18:00/21:00/23:30:
+Long video: 20:00 on the first free day after the last scheduled long video (at most 14 days ahead). Shorts 12:00/15:00/18:00/21:00/23:30 (5 per day since 20 Oct, owner):
 BTT on the same days as the long video, BAD after the last scheduled Short (at most 35 days ahead). Posting itself stays in zernio.py (failsafes: no double upload).
 python3 studio/yt/autoplan.py          -> print the plan
 python3 studio/yt/autoplan.py --run    -> execute it (needs ZERNIO_API_KEY)"""
 import datetime as dt, glob, json, os, re, subprocess, sys
-D = os.path.dirname(os.path.abspath(__file__)); R = os.path.join(D, "..", "renders"); TMP = os.environ.get("ZTMP", "/tmp"); SLOTS = "15:00,18:00,21:00,23:30"
+D = os.path.dirname(os.path.abspath(__file__)); R = os.path.join(D, "..", "renders"); TMP = os.environ.get("ZTMP", "/tmp"); SLOTS = "12:00,15:00,18:00,21:00,23:30"
 today = dt.datetime.now(dt.timezone(dt.timedelta(hours=2 if dt.datetime.now(dt.timezone.utc).replace(tzinfo=None) < dt.datetime(2026, 10, 25, 1) else 1))).date()
 res = {}
 for f in glob.glob(os.path.join(R, "*", "result.json")):

@@ -5,7 +5,7 @@ For any scheduled or manual run: follow `studio/RUNBOOK.md` exactly. Use the pon
 ## BOTH CHANNELS ACTIVE (owner, 15 Oct 2026, replaces the earlier "FOCUS: Brain After Dark only")
 Beide kanalen actief: 1 lange video + 4 Shorts per dag per kanaal, geen geld/finance-content, nooit twee keer uploaden. BAD is de standaard, BTT wordt ernaar opgetrokken.
 - Brain After Dark (BAD, formerly "Crazy Facts", Zernio key 1, zernio.json youtube.crazyfacts) and Belief Through Time (BTT, religion, second YouTube account of Zernio key 1, zernio.json youtube.religion).
-- Schedule for both (Europe/Amsterdam): long video 20:00, Shorts 15:00, 18:00, 21:00, 23:30. Never schedule beyond the buffer.
+- Schedule for both (Europe/Amsterdam): long video 20:00, Shorts 12:00, 15:00, 18:00, 21:00, 23:30 (5 per day from 20 Oct 2026; days already planned keep 4). Never schedule beyond the buffer.
 - BTT catches up with BAD per studio/channels/religion/GAP.md (voice, thumbnails, editing, hooks, variety, growth loop, localization).
 - Codex/ChatGPT writes texts and researches growth; Claude validates, renders, QC, posts and turns findings into rules in studio/factory/learned.md (with the channel name).
 

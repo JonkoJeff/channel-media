@@ -41,6 +41,7 @@ rocky = grumpy punchline at the end of each Short · tik = bonus facts, quiz, tr
 | wind | value, label | speed dial + wind streaks |
 | sunlight | label | light beam Sun → far planet |
 | glassrain | – | sideways glass rain |
+| poof(kind,label) · tides(a,b) · tilt(label) · car(value,label) · daynight(kind,label) | – | special pictures |
 | blanket · nomoon · acid · nightsky(label) · math · voyager(label) · daynight | – | special pictures |
 | speed | n (0 = title card), planet, text | speed-round card |
 | pick | – | 4 numbered planets |

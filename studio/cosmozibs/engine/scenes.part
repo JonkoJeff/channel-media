@@ -184,12 +184,7 @@ SC.voyager = (s, t, b) => {
   g += `<g transform="translate(${r1(x)},${r1(y)}) rotate(-10)">` + stick(-80, 0, 80, 0, 6) + stick(0, 0, 0, 70, 5) + `<path d="M-50,-60 A70,70 0 0 0 50,-60 Z" fill="#f4f4f0" stroke="${INK}" stroke-width="6"/>` + `<rect x="-22" y="-20" width="44" height="40" fill="#d6b45a" stroke="${INK}" stroke-width="5"/></g>`;
   return g + txt(s.label, 500, 80, 60, YEL, 'middle', .2, -2, eoBack(P(t, .4, .7)));
 };
-SC.daynight = (s, t, b) => {
-  let g = planet('sun', 60, 300, 200, t, b);
-  g += planet('exo', 640, 300, 190, t, b + 1);
-  g += `<path d="M640,110 A190,190 0 0 1 640,490 Z" fill="#0b1026" opacity=".75"/>`;
-  return g + txt('DAY', 540, 310, 54, YEL, 'middle', .22) + txt('NIGHT', 740, 310, 54, '#c9d3ff', 'middle', .22) + txt('FOREVER!', 640, 570, 54, '#fff', 'middle', .22, -2, eoBack(P(t, .8, 1.1)));
-};
+
 SC.speed = (s, t, b) => {
   if (!s.n) { let g = ''; for (let i = 0; i < 3; i++) g += pen(jitter([[300 + i * 160, 100], [250 + i * 160, 300], [330 + i * 160, 300], [270 + i * 160, 500]], b + i, 2), ease(P(t, i * .1, .3 + i * .1)), 22, YEL); return g + txt(s.text, 500, 340, 110, '#fff', 'middle', .16, -4, eoBack(P(t, .1, .5))); }
   let g = `<g transform="translate(500,300) rotate(${(s.n % 2 ? -2 : 2)}) scale(${eoBack(P(t, 0, .35))})">` + roughSVG('rectangle', [-430, -230, 860, 460], { fill: '#fdfcf7', fillStyle: 'solid', stroke: INK, strokeWidth: 8 }, b) + '</g>';
@@ -217,6 +212,38 @@ SC.pick = (s, t, b) => {
   return g;
 };
 
+SC.poof = (s, t, b) => {   // a body vanishes in a puff
+  const k = clamp((t - 1) / .5), sc = (1 - k) * eoBack(P(t, 0, .4));
+  let g = planet(s.kind || 'moon', 500, 300, 180 * sc + .01, t, b, { face: k < .5 });
+  if (k > 0) for (let i = 0; i < 10; i++) { const a = i / 10 * Math.PI * 2, r = 120 + k * 160; g += `<circle cx="${r1(500 + Math.cos(a) * r)}" cy="${r1(300 + Math.sin(a) * r)}" r="${r1(50 * (1 - k * .6))}" fill="#e8e4f0" stroke="${INK}" stroke-width="5" opacity="${r1(1 - k * .8)}"/>`; }
+  if (k >= 1) g += txt('POOF!', 500, 330, 120, YEL, 'middle', .16, -6, eoBack(P(t, 1.5, 1.8)));
+  return g + txt(s.label || '', 500, 70, 58, '#fff', 'middle', .22, -2);
+};
+SC.tides = (s, t, b) => {   // two waves: with and without the Moon
+  const fa = ease(P(t, .2, 1.4)), fb = ease(P(t, .8, 2));
+  const wave = (x0, y0, h, ph) => { let d = `M${x0},${y0}`; for (let i = 0; i <= 20; i++) d += ` L${x0 + i * 19},${r1(y0 - h * (.5 + .5 * Math.sin(i * .6 + t * 3 + ph)))}`; return `<path d="${d} L${x0 + 380},540 L${x0},540Z" fill="#3b88c3" stroke="${INK}" stroke-width="6" stroke-linejoin="round"/>`; };
+  let g = wave(60, 470, 230 * fa, 0) + wave(560, 470, 90 * fb, 1);
+  g += planet('moon', 250, 110, 50, t, b) + `<g opacity="${r1(1 - fb)}">${planet('moon', 750, 110, 50, t, b)}</g>` + txt('?', 750, 130, 70, YEL, 'middle', .2, 0, fb);
+  return g + txt(s.a, 250, 590, 40, '#fff', 'middle', .22) + txt(s.b, 750, 590, 40, '#fff', 'middle', .22);
+};
+SC.tilt = (s, t, b) => {   // Earth's axis wobbling more and more
+  const amp = 8 + ease(P(t, .5, 3)) * 35, a = 23.4 + Math.sin(t * 2.6) * amp;
+  let g = planet('sun', 90, 300, 90, t, b) + `<g transform="rotate(${r1(a)} 600 300)">` + `<line x1="600" y1="60" x2="600" y2="540" stroke="${RED}" stroke-width="10" stroke-linecap="round" stroke-dasharray="26 14"/>` + planet('earth', 600, 300, 170, t, b) + '</g>';
+  return g + txt(s.label || 'WOBBLE!', 600, 80, 58, YEL, 'middle', .2, -2, eoBack(P(t, .3, .6)));
+};
+SC.car = (s, t, b) => {   // a car driving from Earth to the Sun with a time counter
+  const p = ease(P(t, .3, 4)), x = 200 + p * 520;
+  let g = planet('earth', 110, 320, 70, t, b) + planet('sun', 1000, 320, 230, t, b);
+  g += `<line x1="180" y1="400" x2="780" y2="400" stroke="#fff" stroke-width="5" stroke-dasharray="20 16" opacity=".6"/>`;
+  g += `<g transform="translate(${r1(x)},${r1(370 + Math.sin(t * 20) * 2)})">` + roughSVG('rectangle', [-60, -30, 120, 40], { fill: RED, fillStyle: 'solid', stroke: INK, strokeWidth: 5 }, b) + roughSVG('rectangle', [-35, -58, 70, 32], { fill: '#bfe3f5', fillStyle: 'solid', stroke: INK, strokeWidth: 5 }, b + 1) + `<circle cx="-35" cy="12" r="15" fill="${INK}"/><circle cx="35" cy="12" r="15" fill="${INK}"/></g>`;
+  return g + txt(s.value, 450, 160, 90, YEL, 'middle', .16, -3, eoBack(P(t, 3.6, 4))) + txt(s.label || '', 450, 540, 44, '#fff', 'middle', .22);
+};
+SC.daynight = (s, t, b) => {
+  let g = planet('sun', 60, 300, 200, t, b);
+  g += planet(s.kind || 'exo', 640, 300, 190, t, b + 1);
+  g += `<path d="M640,110 A190,190 0 0 1 640,490 Z" fill="#0b1026" opacity=".75"/>`;
+  return g + txt('DAY', 540, 310, 54, YEL, 'middle', .22) + txt('NIGHT', 740, 310, 54, '#c9d3ff', 'middle', .22) + txt(s.label || 'FOREVER!', 640, 570, 54, '#fff', 'middle', .22, -2, eoBack(P(t, .8, 1.1)));
+};
 /* ---------- crew ---------- */
 const CREW = ['cosmo', 'zib', 'bolt', 'rocky', 'tik'];
 function drawChar(who, x, y, s, st, t, b) {

@@ -1,0 +1,716 @@
+{
+ "id": "cz02",
+ "title": "What If the Moon Disappeared? (And 3 More What Ifs)",
+ "theme": "What If...?",
+ "next": "Tomorrow: 4 space mysteries nobody can solve!",
+ "sources": [
+  "https://science.nasa.gov/moon/tides/",
+  "https://www.space.com/what-would-happen-if-the-moon-disappeared",
+  "https://space.com/what-if-earth-stopped-spinning",
+  "https://science.nasa.gov/earth/facts/",
+  "https://howthingsfly.si.edu/ask-an-explainer/how-long-does-it-take-light-sun-get-earth"
+ ],
+ "thumb": {
+  "text": "MOON GONE?!",
+  "planet": "earth",
+  "mood": "scared",
+  "fx": [
+   "shards"
+  ],
+  "char": "zib",
+  "bg": [
+   "#1d1a5c",
+   "#6a2fb0"
+  ]
+ },
+ "description": "What if the Moon just... disappeared? What if Earth stopped spinning, or the Sun switched off? The Cosmozibs crew answers 4 wild space questions!\n\n{{chapters}}\n\nA new episode every day. Join the crew: https://www.youtube.com/@Cosmozibs?sub_confirmation=1\n\nVoices in this video are AI-generated. Every fact is checked with the sources below.\n\n#space #spacefacts #sciencefacts",
+ "tags": [
+  "what if",
+  "Moon",
+  "Sun",
+  "Earth",
+  "space questions for kids"
+ ],
+ "segments": [
+  {
+   "id": "intro",
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "Hey, space cadets! Today we ask the wildest questions in the universe!",
+     "show": {
+      "type": "title",
+      "text": "WHAT IF...?"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "What if the Moon disappeared? What if Earth stopped spinning?"
+    },
+    {
+     "who": "bolt",
+     "say": "What if the Sun switched off? And what if you drove a car all the way to the Sun?",
+     "show": {
+      "type": "lineup"
+     }
+    },
+    {
+     "who": "rocky",
+     "say": "What if we skipped the questions and went straight to snacks?"
+    },
+    {
+     "who": "cosmo",
+     "say": "Here's the plan. Four big questions, four wild answers, and a quiz after each one."
+    },
+    {
+     "who": "zib",
+     "say": "I love quizzes! I'm going to win every single one!"
+    },
+    {
+     "who": "tik",
+     "say": "Nice try, Rocky. Stay until the end, every story has a quiz! Tick tock, let's go!"
+    }
+   ]
+  },
+  {
+   "id": "moon",
+   "short": {
+    "title": "What If the Moon Disappeared?!",
+    "end": 6,
+    "cover": {
+     "text": "MOON GONE?!",
+     "planet": "moon",
+     "mood": "scared",
+     "fx": [],
+     "char": "zib",
+     "bg": [
+      "#1d1a5c",
+      "#4a3fb0"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "What if, one night, the Moon just... vanished?",
+     "show": {
+      "type": "poof",
+      "kind": "moon",
+      "label": "THE MOON"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "zib",
+     "say": "Wait... WHAT? No more Moon?! How could this happen?!",
+     "sfx": "scratch"
+    },
+    {
+     "who": "cosmo",
+     "say": "Don't worry, it won't really happen. But let's imagine it!"
+    },
+    {
+     "who": "bolt",
+     "say": "First, the oceans would change. The Moon's gravity drives Earth's tides!",
+     "show": {
+      "type": "tides",
+      "a": "WITH MOON",
+      "b": "NO MOON"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "The Sun pulls on the oceans too, but with a little less than half the Moon's tide power. So the tides would get much smaller."
+    },
+    {
+     "who": "zib",
+     "say": "Smaller waves? The surfers are going to be sad!"
+    },
+    {
+     "who": "rocky",
+     "say": "Hmph. Finally, a beach day without the water chasing me.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! Some birds use moonlight to help them travel at night.",
+     "show": {
+      "type": "nightsky",
+      "label": "MOONLIGHT"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "And on the Great Barrier Reef, corals time their spawning with the rising Moon!"
+    },
+    {
+     "who": "cosmo",
+     "say": "There's an even bigger problem. Right now, Earth's axis is tilted about twenty three degrees, and it only wobbles a little.",
+     "show": {
+      "type": "tilt",
+      "label": "23.4° TILT"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Without the Moon, scientists think that wobble could get wild. Our seasons could stop being predictable!"
+    },
+    {
+     "who": "zib",
+     "say": "Summer in the morning, winter by lunch? That's crazy!"
+    },
+    {
+     "who": "bolt",
+     "say": "And without moonlight, nights would be darker. Only the stars would light up the sky."
+    },
+    {
+     "who": "cosmo",
+     "say": "Good news: the real Moon isn't going anywhere. You can wave at it tonight!"
+    },
+    {
+     "who": "rocky",
+     "say": "I waved at it once. It didn't wave back."
+    },
+    {
+     "who": "tik",
+     "say": "So tonight, go outside with a grown-up and look for the Moon. Can you spot it?"
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! What drives most of Earth's tides? The Sun, the Moon, or the wind?",
+     "show": {
+      "type": "quiz",
+      "q": "What drives most of Earth's tides?",
+      "options": [
+       "THE SUN",
+       "THE MOON",
+       "THE WIND"
+      ],
+      "answer": 1
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "The Moon! Its gravity pulls the oceans into bulges, and that makes high tides.",
+     "show": {
+      "type": "planet",
+      "kind": "moon",
+      "label": "TIDE BOSS"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "cosmo",
+     "say": "Next question: what if Earth stopped spinning?"
+    }
+   ]
+  },
+  {
+   "id": "spin",
+   "short": {
+    "title": "What If Earth Stopped Spinning?",
+    "end": 6,
+    "cover": {
+     "text": "STOP?!",
+     "planet": "earth",
+     "mood": "scared",
+     "fx": [
+      "streaks"
+     ],
+     "char": "cosmo",
+     "bg": [
+      "#0b2152",
+      "#1f8a8a"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "What if our planet slowly stopped spinning?",
+     "show": {
+      "type": "planet",
+      "kind": "earth",
+      "label": "STOP SPINNING?"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Stop?! But I'm still dizzy from the last spin!"
+    },
+    {
+     "who": "bolt",
+     "say": "Right now, Earth spins once every twenty three point nine hours. That's why we have day and night."
+    },
+    {
+     "who": "cosmo",
+     "say": "If it stopped, one day would last half a year. And the night would last half a year too!",
+     "show": {
+      "type": "daynight",
+      "kind": "earth",
+      "label": "6 MONTHS EACH!"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Six months of night? That's the longest bedtime ever!"
+    },
+    {
+     "who": "tik",
+     "say": "Imagine having only one sunrise every year!"
+    },
+    {
+     "who": "zib",
+     "say": "I'd set my alarm clock for next year!"
+    },
+    {
+     "who": "bolt",
+     "say": "The day side would get super hot, the night side super cold, and strong winds would rush between them.",
+     "show": {
+      "type": "wind",
+      "value": "WIND!",
+      "label": "HOT SIDE → COLD SIDE"
+     }
+    },
+    {
+     "who": "rocky",
+     "say": "Great. A planet with a bad hair day for six months.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! Earth's spinning helps turn the molten iron inside it into a giant magnet.",
+     "show": {
+      "type": "planet",
+      "kind": "earth",
+      "label": "GIANT MAGNET"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "That magnetic shield protects us from radiation from space. Some birds even use it to find their way!"
+    },
+    {
+     "who": "zib",
+     "say": "So the spinning Earth is like a big protective bubble? Cool!"
+    },
+    {
+     "who": "cosmo",
+     "say": "Exactly! Spinning keeps us safe, and it gives us a sunrise and a sunset every single day."
+    },
+    {
+     "who": "cosmo",
+     "say": "And here's a real fact. Earth's day is getting longer, very, very slowly.",
+     "show": {
+      "type": "bignum",
+      "value": "+1 s",
+      "label": "EVERY 50,000 YEARS"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "About one second longer every fifty thousand years. So don't wait up!"
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! How long does Earth take to spin once? About twelve hours, twenty four hours, or one week?",
+     "show": {
+      "type": "quiz",
+      "q": "How long is one Earth spin?",
+      "options": [
+       "12 HOURS",
+       "24 HOURS",
+       "1 WEEK"
+      ],
+      "answer": 1
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "About twenty four hours! To be exact, twenty three point nine.",
+     "show": {
+      "type": "bignum",
+      "value": "23.9 h",
+      "label": "ONE SPIN OF EARTH"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "cosmo",
+     "say": "Next... what if someone switched off the Sun?"
+    }
+   ]
+  },
+  {
+   "id": "sunoff",
+   "short": {
+    "title": "What If the Sun Switched Off?",
+    "end": 6,
+    "cover": {
+     "text": "8 MINUTES?!",
+     "planet": "sun",
+     "mood": "scared",
+     "fx": [],
+     "char": "bolt",
+     "bg": [
+      "#2b1a0a",
+      "#c4561e"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "What if the Sun switched off, right now?",
+     "show": {
+      "type": "poof",
+      "kind": "sun",
+      "label": "THE SUN"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "zib",
+     "say": "Everything goes dark instantly, right?"
+    },
+    {
+     "who": "bolt",
+     "say": "Nope! We would still see the Sun shining for about eight minutes and twenty seconds!",
+     "show": {
+      "type": "bignum",
+      "value": "8:20",
+      "label": "MINUTES OF SUNLIGHT LEFT"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Wait... WHAT? How could this happen?!",
+     "sfx": "scratch"
+    },
+    {
+     "who": "bolt",
+     "say": "Because sunlight needs time to travel. The Sun is about one hundred and fifty million kilometers away!",
+     "show": {
+      "type": "sunlight",
+      "label": "8 MIN 20 S"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "The light that hits your face right now left the Sun about eight minutes ago!"
+    },
+    {
+     "who": "rocky",
+     "say": "So the Sun is basically always late. Just like me.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! Light is the fastest thing there is. It zooms at about one billion kilometers per hour!",
+     "show": {
+      "type": "wind",
+      "value": "1,079,000,000 km/h",
+      "label": "SPEED OF LIGHT"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Even at that speed, the trip from the Sun to us still takes eight minutes. That's how far away it is!"
+    },
+    {
+     "who": "zib",
+     "say": "So when I look at the Sun... wait, should I look at the Sun?"
+    },
+    {
+     "who": "cosmo",
+     "say": "Never look straight at the Sun! It can hurt your eyes. Scientists always use special protection."
+    },
+    {
+     "who": "bolt",
+     "say": "Sunlight also gives plants the energy to grow. That's where lots of our food comes from!"
+    },
+    {
+     "who": "cosmo",
+     "say": "Without the Sun, Earth would slowly get colder and colder. So let's keep it switched on!",
+     "show": {
+      "type": "planet",
+      "kind": "sun",
+      "label": "STAY ON, SUN!"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "I promise I'll never complain about sunburn again!"
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! How long does sunlight take to reach Earth? Eight seconds, eight minutes, or eight hours?",
+     "show": {
+      "type": "quiz",
+      "q": "How long does sunlight take to reach us?",
+      "options": [
+       "8 SECONDS",
+       "8 MINUTES",
+       "8 HOURS"
+      ],
+      "answer": 1
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "About eight minutes! Eight minutes and twenty seconds, to be exact.",
+     "show": {
+      "type": "bignum",
+      "value": "8 min",
+      "label": "SUN → EARTH"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "cosmo",
+     "say": "And now, the silliest question of all. Buckle up!"
+    }
+   ]
+  },
+  {
+   "id": "car",
+   "short": {
+    "title": "How Long to Drive to the Sun?",
+    "end": 6,
+    "cover": {
+     "text": "171 YEARS!",
+     "planet": "sun",
+     "mood": "happy",
+     "fx": [
+      "rocket"
+     ],
+     "char": "rocky",
+     "bg": [
+      "#1f2a52",
+      "#d2366b"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "What if you could drive a car all the way to the Sun?",
+     "show": {
+      "type": "car",
+      "value": "?",
+      "label": "EARTH → SUN"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Road trip! Are we there yet?"
+    },
+    {
+     "who": "bolt",
+     "say": "Let's do the math! The Sun is about one hundred and fifty million kilometers away."
+    },
+    {
+     "who": "bolt",
+     "say": "If you drive one hundred kilometers per hour, without stopping, you would arrive after about one hundred and seventy one years!",
+     "show": {
+      "type": "car",
+      "value": "171 YEARS",
+      "label": "AT 100 KM/H, NON-STOP"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "One hundred and seventy one years?! That's crazy! I'd need so many snacks!"
+    },
+    {
+     "who": "cosmo",
+     "say": "Your great, great, great grandkids would be the ones who arrive!"
+    },
+    {
+     "who": "rocky",
+     "say": "And when they arrive, the Sun is way too hot to park. Bad plan.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! What if you walked there instead, at five kilometers per hour?",
+     "show": {
+      "type": "bignum",
+      "value": "3,400+",
+      "label": "YEARS OF WALKING"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "That would take more than three thousand four hundred years! You'd need a LOT of shoes."
+    },
+    {
+     "who": "zib",
+     "say": "Can we take a rocket instead?"
+    },
+    {
+     "who": "bolt",
+     "say": "Rockets are way faster than cars. But even rockets need months to reach other planets!"
+    },
+    {
+     "who": "rocky",
+     "say": "Months? I've been floating around for ages. Amateurs."
+    },
+    {
+     "who": "cosmo",
+     "say": "So for now, we explore the Sun with telescopes and spacecraft. Much faster, and much safer!"
+    },
+    {
+     "who": "cosmo",
+     "say": "And sunlight makes the same trip in just eight minutes. Light is the champion!",
+     "show": {
+      "type": "versus",
+      "a": "earth",
+      "b": "sun",
+      "label": "LIGHT: 8 MIN"
+     }
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! About how far away is the Sun? One thousand kilometers, one million kilometers, or one hundred and fifty million kilometers?",
+     "show": {
+      "type": "quiz",
+      "q": "How far away is the Sun?",
+      "options": [
+       "1,000 KM",
+       "1 MILLION KM",
+       "150 MILLION KM"
+      ],
+      "answer": 2
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "One hundred and fifty million kilometers! Really, really far.",
+     "show": {
+      "type": "bignum",
+      "value": "150,000,000",
+      "label": "KM TO THE SUN"
+     },
+     "sfx": "ding"
+    }
+   ]
+  },
+  {
+   "id": "speed",
+   "lines": [
+    {
+     "who": "tik",
+     "say": "Speed round! Five quick facts. Ready? Go!",
+     "show": {
+      "type": "speed",
+      "n": 0,
+      "text": "SPEED ROUND!"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "bolt",
+     "say": "One! The Sun has about twenty seven million times more mass than the Moon.",
+     "show": {
+      "type": "speed",
+      "n": 1,
+      "planet": "sun",
+      "text": "27 MILLION × THE MOON"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Two! But the Sun is about three hundred and ninety times farther away from us.",
+     "show": {
+      "type": "speed",
+      "n": 2,
+      "planet": "moon",
+      "text": "SUN: 390 × FARTHER"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Three! Earth's axis is tilted about twenty three point four degrees.",
+     "show": {
+      "type": "speed",
+      "n": 3,
+      "planet": "earth",
+      "text": "TILT: 23.4°"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Four! One year on Earth is three hundred sixty five and a quarter days.",
+     "show": {
+      "type": "speed",
+      "n": 4,
+      "planet": "earth",
+      "text": "1 YEAR = 365.25 DAYS"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Five! Light zooms at more than one billion kilometers per hour.",
+     "show": {
+      "type": "speed",
+      "n": 5,
+      "planet": "sun",
+      "text": "1 BILLION+ KM/H"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Whoa. My brain needs a nap now!",
+     "show": {
+      "type": "lineup"
+     }
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "That's four wild what ifs! Which one surprised you the most?",
+     "show": {
+      "type": "lineup"
+     }
+    },
+    {
+     "who": "tik",
+     "say": "Think about it! Moon gone, Earth stopped, Sun off, or the road trip?",
+     "show": {
+      "type": "pick"
+     },
+     "pause": 4
+    },
+    {
+     "who": "rocky",
+     "say": "The road trip. Obviously. I love snacks."
+    },
+    {
+     "who": "tik",
+     "say": "Here's a challenge. Tell a friend one fact you learned today. That's what real space cadets do!"
+    },
+    {
+     "who": "zib",
+     "say": "Tomorrow: four space mysteries nobody can solve!",
+     "show": {
+      "type": "title",
+      "text": "TOMORROW: SPACE MYSTERIES!"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "Subscribe and join the crew. See you tomorrow, space cadets!"
+    }
+   ]
+  }
+ ]
+}

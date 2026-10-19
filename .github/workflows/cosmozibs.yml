@@ -35,7 +35,7 @@ jobs:
           python3 - <<'PY'
           import json, os, shutil
           i = os.environ.get("ID") or "${{ inputs.ep }}"; B = f"studio/cosmozibs/engine/build/{i}"; ep = json.load(open(f"studio/cosmozibs/episodes/{i}.json"))
-          d = f"studio/renders/{i}"; os.makedirs(d, exist_ok=True); shutil.copy(f"{B}/thumbs/{i}_long.jpg", d + "/thumb.jpg")
+          d = f"studio/renders/{i}"; os.makedirs(d, exist_ok=True); art = f"studio/channels/cosmozibs/thumbs/{i}.jpg"; shutil.copy(art if os.path.exists(art) else f"{B}/thumbs/{i}_long.jpg", d + "/thumb.jpg")   # Codex-painted thumbnail wins (owner 19 Oct), drawn one is the fallback
           tl = json.load(open(f"{B}/long.json")); rel = f"https://github.com/JonkoJeff/channel-media/releases/download/{i}/"
           # chapters from the timeline: first line of every segment
           seen, ch = set(), []
@@ -53,7 +53,7 @@ jobs:
           for s in ep["segments"]:
               if "short" not in s: continue
               sid = f"{i}_{s['id']}"; shorts[sid] = rel + sid + ".mp4"; meta[sid] = {"title": s["short"]["title"]}
-              shutil.copy(f"{B}/thumbs/{i}_short_{s['id']}.jpg", f"studio/covers/{sid}.jpg")
+              os.path.exists(f"studio/covers/{sid}.jpg") or shutil.copy(f"{B}/thumbs/{i}_short_{s['id']}.jpg", f"studio/covers/{sid}.jpg")   # keep a Codex-painted cover
               allm = [x for x in allm if x.get("id") != sid] + [{"id": sid, "title": s["short"]["title"], "tags": ["#space", "#spacefacts", "#shorts"]}]
           json.dump(allm, open(sj, "w"), indent=1)
           json.dump({"id": i, "video": rel + i + ".mp4", "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/" + d + "/thumb.jpg", "shorts": shorts, "shorts_meta": meta}, open(d + "/result.json", "w"), indent=1)

@@ -16,7 +16,8 @@ Werk met de ponytail-skill: kleinste complete wijziging, hergebruik wat er is. G
 | Script: complete aflevering-JSON met bronnen, beschrijving, tags, thumbnail- en cover-specs | Codex | `cz_episode` (prompt staat klaar) |
 | Redactie: validator + feitencheck + toon, max. 1 fix-ronde | Claude (haiku) | `cz_audit` (prompt staat klaar) |
 | Fix na een afgekeurde audit | Codex | `cz_fix` (maak naar het voorbeeld van `rel_fix`) |
-| Renderen: video, 4 Shorts, thumbnail, 4 covers | GitHub Actions | `cosmozibs.yml` (staat klaar, nul tokens) |
+| Thumbnail (16:9) en 4 Short-covers (9:16) schilderen, stijl van `refs/thumb_example.jpg` | Codex | `cz_thumb`, `cz_cover` (prompts staan klaar) |
+| Renderen: video en 4 Shorts | GitHub Actions | `cosmozibs.yml` (staat klaar, nul tokens) |
 | QC, inplannen en posten via Zernio | channel-operator (Claude) | bestaande route |
 
 ## Stappen
@@ -28,6 +29,14 @@ Werk met de ponytail-skill: kleinste complete wijziging, hergebruik wat er is. G
 6. **Leren.** Dagelijks: de cijfers van Cosmozibs naar `studio/channels/cosmozibs/insights.md`, gecontroleerde video's en regels naar `lessons.md`. Een stijlwijziging komt alleen als `PROPOSAL:` binnen en wordt alleen door de Claude-analist naar `studio/factory/learned_cosmozibs.md` gepromoveerd. Voeg in `studio/trends/topics.json` drie regels toe voor cosmozibs (space facts for kids long · space facts short · what if space).
 7. **Testen vóór main.** GitHub start een workflow pas als die op `main` staat. Zet daarom eerst alleen `.github/workflows/cosmozibs.yml` op main; dat raakt de andere kanalen niet. Start dan `cosmozibs.yml` met `ep=cz01` en ref `cosmozibs`, en controleer de release: een lange video van 8:05-8:20, 4 Shorts onder de 58 seconden, `thumb.jpg` en 4 covers in `studio/covers/`. Laat daarna één volledige ronde `cz_episode` → `cz_audit` → render lopen voor `cz02`. Pas als beide goed zijn: merge `cosmozibs` naar `main` en zet de dagelijkse taak aan.
 8. **Doorlopen zonder einde.** Het kanaal stopt niet: zodra de buffer onder 3 komt, genereert de controller nieuwe afleveringen. Zodra `series.json` minder dan 7 open afleveringen heeft, plant `cz_research` de volgende week.
+
+## Thumbnails (eigenaar 19 okt 2026, vervangt de getekende thumbnails)
+- Codex schildert met zijn image-tool elke lange thumbnail (`cz_thumb` → `studio/channels/cosmozibs/thumbs/czNN.jpg`) en elke Short-cover (`cz_cover` → `studio/covers/czNN_<seg>.jpg`). Voeg ze in `studio/factory/config.json` toe zoals `rel_thumb`/`cf_cover` (prefer codex, geen fallback, `nopack`) en zet ze in `$ImageTypes` in `factory.ps1`.
+- Stijlbron: `studio/channels/cosmozibs/refs/thumb_example.jpg` (16:9, 1672x941). Platte handgetekende doodle, één groot thema-object met gezicht, klein reagerend crewlid, tekst met de hand getekend in de tekening (bubbelletters wit + geel). Nooit geplakte tekst of tekstvakken.
+- Volgorde: `cz_episode` → `cz_audit` → `cz_thumb` + 4× `cz_cover` → commit de jpg's → pas dan `cosmozibs.yml`. De workflow gebruikt de geschilderde versies; de getekende zijn alleen nog de nood-fallback.
+- Claude controleert elk beeld (spelling, max 3 woorden, stijl, niets in de gecropte rand) en keurt één keer af; daarna maakt Codex het opnieuw.
+- Voor een al ingeplande post: commit de nieuwe jpg en draai `zernio.yml cmd=rethumb a=czNN`. Een al gepubliceerde video krijgt de thumbnail via YouTube Studio.
+- Kanaal is (nog) niet geverifieerd (eigenaar 19 okt): YouTube toont dan geen eigen thumbnail bij lange video's. Upload ze toch via Zernio; zodra het kanaal ooit geverifieerd is, draai `rethumb` voor wat nog gepland staat. Shorts: de cover staat ook als eerste beeld in de Short en als TikTok-cover.
 
 ## Harde regels
 - Keys alleen als GitHub Actions-secret, nooit in de repo, CLAUDE.md of een log. De repo is publiek.

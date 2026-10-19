@@ -49,6 +49,8 @@ rocky = grumpy punchline at the end of each Short · tik = bonus facts, quiz, tr
 | lightcurve | dip (percent, 0 = flat), label | dimming star + brightness graph |
 | visitor | label | 'Oumuamua flying past the Sun |
 | blackhole | label | black hole, stars stretch and spiral in |
+| calendar | date ("SEP 9"), label, kind? | calendar page + year bar sliding to the date |
+| clock | value ("23:50"), label | Dec 31 clock ticking toward midnight |
 A new scene type = a new function in `engine/scenes.part` (Claude adds it, never Codex).
 
 ## Thumbnails (`thumb` and `short.cover`)

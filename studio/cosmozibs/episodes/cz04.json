@@ -1,0 +1,725 @@
+{
+ "id": "cz04",
+ "title": "The Whole Universe in One Year",
+ "theme": "Cosmic History",
+ "next": "Tomorrow: the biggest and fastest things in space!",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Cosmic_Calendar",
+  "https://science.nasa.gov/sun/facts/",
+  "https://www.nationalgeographic.com/animals/article/160405-dinosaurs-feathers-birds-museum-new-york-science"
+ ],
+ "thumb": {
+  "text": "WE'RE LAST?!",
+  "planet": "earth",
+  "mood": "scared",
+  "fx": [],
+  "char": "rocky",
+  "bg": [
+   "#0b2152",
+   "#a83a7a"
+  ]
+ },
+ "description": "What if the whole history of the universe fit into one calendar year? The Big Bang on January 1, our Sun in September, dinosaurs at Christmas, and humans... just minutes before midnight! The Cosmozibs crew squeezes 13.8 billion years into 12 months.\n\n{{chapters}}\n\nA new episode every day. Join the crew: https://www.youtube.com/@Cosmozibs?sub_confirmation=1\n\nVoices in this video are AI-generated. Every fact is checked with the sources below.\n\n#space #cosmiccalendar #spacefacts",
+ "tags": [
+  "cosmic calendar",
+  "history of the universe",
+  "Big Bang for kids",
+  "dinosaurs",
+  "space facts for kids"
+ ],
+ "segments": [
+  {
+   "id": "intro",
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "Hey, space cadets! Today we're squeezing the whole history of the universe into one single year!",
+     "show": {
+      "type": "title",
+      "text": "THE UNIVERSE IN ONE YEAR"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "The whole universe? In one year? My calendar is going to explode!"
+    },
+    {
+     "who": "bolt",
+     "say": "January first is the very beginning. Midnight on New Year's Eve is right now, today.",
+     "show": {
+      "type": "lineup"
+     }
+    },
+    {
+     "who": "rocky",
+     "say": "So when do rocks show up? Asking for a friend. The friend is me."
+    },
+    {
+     "who": "cosmo",
+     "say": "Four big moments, four surprises, and a quiz after each one."
+    },
+    {
+     "who": "zib",
+     "say": "I'm ready! Where's my party hat?"
+    },
+    {
+     "who": "tik",
+     "say": "Time is my thing! Grab your calendar. Tick tock, let's go!"
+    }
+   ]
+  },
+  {
+   "id": "bigbang",
+   "short": {
+    "title": "The Whole Universe Squeezed Into One Year",
+    "end": 6,
+    "cover": {
+     "text": "JANUARY 1st",
+     "planet": "sun",
+     "mood": "happy",
+     "fx": [
+      "streaks"
+     ],
+     "char": "tik",
+     "bg": [
+      "#1a0f3a",
+      "#a83a7a"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "The universe is about thirteen point eight billion years old. That's way too long to imagine!",
+     "show": {
+      "type": "bignum",
+      "value": "13.8 BILLION",
+      "label": "YEARS OLD"
+     }
+    },
+    {
+     "who": "tik",
+     "say": "So let's squeeze all of it into one calendar year. January first, at midnight: the Big Bang!",
+     "show": {
+      "type": "calendar",
+      "date": "JAN 1",
+      "label": "THE BIG BANG",
+      "kind": "sun"
+     },
+     "sfx": "riser"
+    },
+    {
+     "who": "zib",
+     "say": "Wait... WHAT? The whole universe started on New Year's Day?! How could this happen?!",
+     "sfx": "scratch"
+    },
+    {
+     "who": "bolt",
+     "say": "Everything was super hot and packed tightly together. Then it started to expand, and it's still growing today!"
+    },
+    {
+     "who": "cosmo",
+     "say": "On this calendar, every single day stands for about thirty eight million years!",
+     "show": {
+      "type": "bignum",
+      "value": "1 DAY",
+      "label": "= 38 MILLION YEARS"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "And one second on the calendar? That's more than four hundred years!"
+    },
+    {
+     "who": "rocky",
+     "say": "Four hundred years for one second? That's how long I like to nap.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! For the first few weeks, there are no galaxies yet. The first galaxies show up around the end of January.",
+     "show": {
+      "type": "calendar",
+      "date": "JAN 26",
+      "label": "FIRST GALAXIES",
+      "kind": "exo"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "And our home galaxy, the Milky Way, forms around March.",
+     "show": {
+      "type": "calendar",
+      "date": "MAR 1",
+      "label": "THE MILKY WAY",
+      "kind": "exo"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "March? Then what happens in April, May, June, July?"
+    },
+    {
+     "who": "bolt",
+     "say": "Stars are born, and stars burn out. Many big stars blow up and spread out new stuff. Some of it will later make planets, and even you!"
+    },
+    {
+     "who": "zib",
+     "say": "I'm made of old stars? That's the coolest thing ever!"
+    },
+    {
+     "who": "cosmo",
+     "say": "It's true! The stuff in your bones was made inside stars, long, long ago."
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! How old is the universe? Thirteen point eight million years, billion years, or trillion years?",
+     "show": {
+      "type": "quiz",
+      "q": "How old is the universe?",
+      "options": [
+       "13.8 MILLION",
+       "13.8 BILLION",
+       "13.8 TRILLION"
+      ],
+      "answer": 1
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "Thirteen point eight billion years! That's our whole calendar year.",
+     "show": {
+      "type": "bignum",
+      "value": "13.8 BILLION",
+      "label": "= 1 CALENDAR YEAR"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "cosmo",
+     "say": "Now, when does our Sun finally show up?"
+    }
+   ]
+  },
+  {
+   "id": "sunearth",
+   "short": {
+    "title": "Our Sun Wasn't Born Until September?!",
+    "end": 6,
+    "cover": {
+     "text": "NO SUN?!",
+     "planet": "sun",
+     "mood": "scared",
+     "fx": [],
+     "char": "zib",
+     "bg": [
+      "#2b1a0a",
+      "#c4561e"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "January, February, all through the summer. And our Sun? Still not there!",
+     "show": {
+      "type": "calendar",
+      "date": "AUG 31",
+      "label": "STILL NO SUN!"
+     }
+    },
+    {
+     "who": "tik",
+     "say": "Our Sun is finally born in early September. Around September ninth!",
+     "show": {
+      "type": "calendar",
+      "date": "SEP 9",
+      "label": "THE SUN IS BORN!",
+      "kind": "sun"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "zib",
+     "say": "Wait... WHAT? The Sun missed most of the year?! How could this happen?!",
+     "sfx": "scratch"
+    },
+    {
+     "who": "bolt",
+     "say": "The universe had been around for billions of years already. The Sun is a newcomer!"
+    },
+    {
+     "who": "cosmo",
+     "say": "A few days later, around September fourteenth, Earth and the Moon are born.",
+     "show": {
+      "type": "calendar",
+      "date": "SEP 14",
+      "label": "EARTH AND MOON",
+      "kind": "earth"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "And about one week later, the first tiny life appears in Earth's oceans. Microbes, way too small to see!",
+     "show": {
+      "type": "calendar",
+      "date": "SEP 21",
+      "label": "FIRST LIFE",
+      "kind": "earth"
+     }
+    },
+    {
+     "who": "rocky",
+     "say": "And the first rocks? Before September. Rocks rule.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! Our Sun is about four point six billion years old. For a star like it, that's about middle age!",
+     "show": {
+      "type": "planet",
+      "kind": "sun",
+      "label": "MIDDLE-AGED!"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Happy birthday, Sun! You don't look a day over four billion!"
+    },
+    {
+     "who": "bolt",
+     "say": "Then, around the end of October, tiny ocean life starts filling the air with oxygen.",
+     "show": {
+      "type": "calendar",
+      "date": "OCT 29",
+      "label": "OXYGEN!",
+      "kind": "earth"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "That's the air we breathe today. Thank you, tiny ocean friends!"
+    },
+    {
+     "who": "bolt",
+     "say": "But even with all that oxygen, life stays tiny for a very long time. No animals yet, just slime and microbes."
+    },
+    {
+     "who": "rocky",
+     "say": "Slime. Finally, a time period I can relate to."
+    },
+    {
+     "who": "zib",
+     "say": "So Earth spends autumn getting ready. What about animals?"
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! In which month is our Sun born? March, September, or December?",
+     "show": {
+      "type": "quiz",
+      "q": "When is the Sun born?",
+      "options": [
+       "MARCH",
+       "SEPTEMBER",
+       "DECEMBER"
+      ],
+      "answer": 1
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "September! Most of the year happens before our Sun even exists.",
+     "show": {
+      "type": "calendar",
+      "date": "SEP 9",
+      "label": "THE SUN!",
+      "kind": "sun"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "cosmo",
+     "say": "Next: the dinosaurs finally show up!"
+    }
+   ]
+  },
+  {
+   "id": "dinos",
+   "short": {
+    "title": "Dinosaurs Only Got About 5 Days",
+    "end": 6,
+    "cover": {
+     "text": "DEC 30?!",
+     "planet": "earth",
+     "mood": "scared",
+     "fx": [
+      "rocket"
+     ],
+     "char": "rocky",
+     "bg": [
+      "#0f2a1c",
+      "#4a7a2f"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "For months, life on Earth stays tiny. Bigger living things only show up in early December!",
+     "show": {
+      "type": "calendar",
+      "date": "DEC 5",
+      "label": "BIGGER LIFE",
+      "kind": "earth"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Plants move onto land around December nineteenth. And dinosaurs? They arrive on Christmas Day!",
+     "show": {
+      "type": "calendar",
+      "date": "DEC 25",
+      "label": "DINOSAURS!",
+      "kind": "earth"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "zib",
+     "say": "Wait... WHAT? Dinosaurs only show up at Christmas?! How could this happen?!",
+     "sfx": "scratch"
+    },
+    {
+     "who": "tik",
+     "say": "Then, on the morning of December thirtieth, a giant space rock hits Earth.",
+     "show": {
+      "type": "calendar",
+      "date": "DEC 30",
+      "label": "SPACE ROCK!",
+      "kind": "earth"
+     },
+     "sfx": "scratch"
+    },
+    {
+     "who": "bolt",
+     "say": "The sky got dark and the climate changed. After that, the big dinosaurs disappeared."
+    },
+    {
+     "who": "cosmo",
+     "say": "So the dinosaurs got only about five days on our calendar."
+    },
+    {
+     "who": "rocky",
+     "say": "Hey, don't look at me! That was a distant cousin. Very distant.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! Not all dinosaurs vanished. Birds come from dinosaurs, so the pigeon outside your window has dinosaur family!",
+     "show": {
+      "type": "bignum",
+      "value": "BIRDS",
+      "label": "= LIVING DINOSAURS"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "A pigeon is a tiny dinosaur? I'm never looking at pigeons the same way again!"
+    },
+    {
+     "who": "bolt",
+     "say": "But five calendar days is still a lot of real time. About one hundred sixty five million years!",
+     "show": {
+      "type": "bignum",
+      "value": "165,000,000",
+      "label": "YEARS OF DINOSAURS"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "After the dinosaurs, mammals get their turn. Bigger and bigger, all through December thirtieth and thirty first."
+    },
+    {
+     "who": "bolt",
+     "say": "Small furry animals survived, and over time they grew into elephants, whales, and many more."
+    },
+    {
+     "who": "zib",
+     "say": "So where are the humans? The year is almost over!"
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! On which day do the big dinosaurs disappear? December first, December thirtieth, or January first?",
+     "show": {
+      "type": "quiz",
+      "q": "When do the big dinosaurs vanish?",
+      "options": [
+       "DEC 1",
+       "DEC 30",
+       "JAN 1"
+      ],
+      "answer": 1
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "December thirtieth! Just one day before New Year's Eve.",
+     "show": {
+      "type": "calendar",
+      "date": "DEC 30",
+      "label": "BYE, DINOS!",
+      "kind": "earth"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "cosmo",
+     "say": "And now, the very last day of the year."
+    }
+   ]
+  },
+  {
+   "id": "humans",
+   "short": {
+    "title": "Humans Showed Up Minutes Before Midnight?!",
+    "end": 6,
+    "cover": {
+     "text": "LAST MINUTE?!",
+     "planet": "earth",
+     "mood": "scared",
+     "fx": [],
+     "char": "cosmo",
+     "bg": [
+      "#0b2152",
+      "#1f5cb5"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "It's New Year's Eve, December thirty first. And still... no humans!",
+     "show": {
+      "type": "clock",
+      "value": "23:00",
+      "label": "STILL NO HUMANS"
+     }
+    },
+    {
+     "who": "tik",
+     "say": "The first humans like us only show up in the last few minutes. Around ten minutes before midnight!",
+     "show": {
+      "type": "clock",
+      "value": "23:50",
+      "label": "HUMANS ARRIVE!"
+     },
+     "sfx": "riser"
+    },
+    {
+     "who": "zib",
+     "say": "Wait... WHAT? We're the last ones to the party?! How could this happen?!",
+     "sfx": "scratch"
+    },
+    {
+     "who": "bolt",
+     "say": "And all of written history? Pyramids, castles, all the kings and queens? It fits in the last thirteen seconds!",
+     "show": {
+      "type": "clock",
+      "value": "23:59",
+      "label": "LAST 13 SECONDS"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "The very first people walking on the Moon? That's a tiny part of the very last second."
+    },
+    {
+     "who": "bolt",
+     "say": "And your whole life so far fits into much less than one blink!"
+    },
+    {
+     "who": "rocky",
+     "say": "So I've been around since September and nobody throws me a party? Typical.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! The story isn't over. Our Sun still has billions of years to go. The calendar keeps going into next year!",
+     "show": {
+      "type": "planet",
+      "kind": "sun",
+      "label": "MORE TO COME"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "So we're new, but we have a lot of time to explore?"
+    },
+    {
+     "who": "cosmo",
+     "say": "Exactly! Humans just arrived, and we've already sent robots to other planets."
+    },
+    {
+     "who": "bolt",
+     "say": "Not bad for a species that showed up at the very last minute!"
+    },
+    {
+     "who": "cosmo",
+     "say": "Think about it. Every person you have ever heard of lived in the last tiny slice of the calendar!"
+    },
+    {
+     "who": "rocky",
+     "say": "Even the most famous people? Squeezed into a few seconds? Ha!"
+    },
+    {
+     "who": "zib",
+     "say": "Best New Year's party in the universe!"
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! When do humans appear on the cosmic calendar? January first, July fourth, or December thirty first?",
+     "show": {
+      "type": "quiz",
+      "q": "When do humans appear?",
+      "options": [
+       "JAN 1",
+       "JULY 4",
+       "DEC 31"
+      ],
+      "answer": 2
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "December thirty first, just minutes before midnight!",
+     "show": {
+      "type": "clock",
+      "value": "23:50",
+      "label": "THAT'S US!"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "cosmo",
+     "say": "Okay, space cadets, it's time to speed things up!"
+    }
+   ]
+  },
+  {
+   "id": "speed",
+   "lines": [
+    {
+     "who": "tik",
+     "say": "Speed round! Five quick facts. Ready? Go!",
+     "show": {
+      "type": "speed",
+      "n": 0,
+      "text": "SPEED ROUND!"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "bolt",
+     "say": "One! The universe is about thirteen point eight billion years old.",
+     "show": {
+      "type": "speed",
+      "n": 1,
+      "planet": "exo",
+      "text": "13.8 BILLION YEARS"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Two! One second on our cosmic calendar is more than four hundred real years.",
+     "show": {
+      "type": "speed",
+      "n": 2,
+      "planet": "earth",
+      "text": "1 SECOND = 438 YEARS"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Three! Our Sun is about four point six billion years old.",
+     "show": {
+      "type": "speed",
+      "n": 3,
+      "planet": "sun",
+      "text": "SUN: 4.6 BILLION"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Four! Earth and the Moon formed at almost the same time, just days apart on our calendar.",
+     "show": {
+      "type": "speed",
+      "n": 4,
+      "planet": "moon",
+      "text": "EARTH + MOON"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Five! Birds come from dinosaurs. Dinosaurs are still around, with feathers!",
+     "show": {
+      "type": "speed",
+      "n": 5,
+      "planet": "earth",
+      "text": "BIRDS = DINOSAURS"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Whoa. My calendar needs a nap now!",
+     "show": {
+      "type": "lineup"
+     }
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "That's the universe in one year! Which moment surprised you the most?",
+     "show": {
+      "type": "lineup"
+     }
+    },
+    {
+     "who": "tik",
+     "say": "Think about it! The Big Bang, the Sun's birthday, the dinosaurs, or humans at the last minute?",
+     "show": {
+      "type": "pick"
+     },
+     "pause": 4
+    },
+    {
+     "who": "rocky",
+     "say": "The rocks. They were there first. I'm just saying."
+    },
+    {
+     "who": "tik",
+     "say": "Here's a challenge. Tell someone at home that humans showed up minutes before midnight. Watch their face!"
+    },
+    {
+     "who": "zib",
+     "say": "Tomorrow: the biggest and fastest things in space!",
+     "show": {
+      "type": "title",
+      "text": "TOMORROW: BIGGEST AND FASTEST!"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "Subscribe and join the crew. See you tomorrow, space cadets!"
+    }
+   ]
+  }
+ ]
+}

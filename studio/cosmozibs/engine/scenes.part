@@ -288,6 +288,29 @@ SC.blackhole = (s, t, b) => {   // things spiral in and stretch like spaghetti
     g += `<g transform="translate(${r1(x)},${r1(y)}) rotate(${r1(a * 57.3 + 90)}) scale(${r1(1 / st)},${r1(st)})" opacity="${r1(1 - ph * .8)}">` + star5(0, 0, 26, i % 2 ? YEL : '#9fe0e6') + '</g>'; }
   return g + txt(s.label || '', 500, 70, 56, YEL, 'middle', .2, -2, eoBack(P(t, .3, .6)));
 };
+const MON = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+SC.calendar = (s, t, b) => {   // tear-off calendar page + a year bar with a marker sliding to the date
+  const [m, d] = s.date.split(' '), mi = Math.max(0, MON.indexOf(m.slice(0, 3).toUpperCase())), pos = (mi + (+d || 1) / 31) / 12;
+  const flip = eoBack(P(t, 0, .45));
+  let g = `<g transform="translate(330,280) rotate(-3) scale(${flip}) translate(-330,-280)">` + roughSVG('rectangle', [170, 90, 320, 330], { fill: '#fdfcf7', fillStyle: 'solid', stroke: INK, strokeWidth: 7 }, b);
+  g += `<rect x="170" y="90" width="320" height="80" fill="${RED}" stroke="${INK}" stroke-width="7"/>` + txt(m.toUpperCase(), 330, 148, 50, '#fff', 'middle', .12) + txt(d || '', 330, 340, 150, INK, 'middle', 0) + '</g>';
+  if (s.kind) g += planet(s.kind, 760, 250, 130, t, b + 2, { face: true });
+  g += `<rect x="60" y="500" width="880" height="26" rx="13" fill="#fff" opacity=".25"/>`;
+  MON.forEach((mm, i) => g += txt(mm[0], 60 + (i + .5) * 880 / 12, 572, 28, '#fff', 'middle', .2));
+  const x = 60 + 880 * pos * ease(P(t, .3, 1.6));
+  g += `<rect x="60" y="500" width="${r1(x - 60)}" height="26" rx="13" fill="${YEL}" stroke="${INK}" stroke-width="4"/>` + star5(x, 513, 30 + 4 * Math.sin(t * 6));
+  return g + txt(s.label || '', 760, 450, 46, YEL, 'middle', .22, -2, eoBack(P(t, .4, .7)));
+};
+SC.clock = (s, t, b) => {   // Dec 31 clock ticking toward midnight
+  const [hh, mm] = (s.value || '23:50').split(':').map(Number), go = ease(P(t, .2, 1.8)), mins = 60 * 11 + (hh - 12) * 60 * 0 + mm * go;
+  let g = roughSVG('circle', [380, 300, 440], { fill: '#fdfcf7', fillStyle: 'solid', stroke: INK, strokeWidth: 9 }, b);
+  for (let i = 0; i < 12; i++) { const a = i / 12 * Math.PI * 2; g += `<line x1="${r1(380 + Math.sin(a) * 180)}" y1="${r1(300 - Math.cos(a) * 180)}" x2="${r1(380 + Math.sin(a) * 200)}" y2="${r1(300 - Math.cos(a) * 200)}" stroke="${INK}" stroke-width="8"/>`; }
+  const am = (mm * go) / 60 * Math.PI * 2, ah = ((hh % 12) + mm * go / 60) / 12 * Math.PI * 2;
+  g += `<line x1="380" y1="300" x2="${r1(380 + Math.sin(ah) * 110)}" y2="${r1(300 - Math.cos(ah) * 110)}" stroke="${INK}" stroke-width="16" stroke-linecap="round"/>`;
+  g += `<line x1="380" y1="300" x2="${r1(380 + Math.sin(am) * 170)}" y2="${r1(300 - Math.cos(am) * 170)}" stroke="${RED}" stroke-width="10" stroke-linecap="round"/><circle cx="380" cy="300" r="14" fill="${INK}"/>`;
+  g += txt('DEC 31', 790, 200, 70, '#fff', 'middle', .2, -3) + txt(s.value || '', 790, 320, 90, YEL, 'middle', .16, -3, eoBack(P(t, 1.6, 2)));
+  return g + txt(s.label || '', 790, 430, 40, '#fff', 'middle', .22);
+};
 /* ---------- crew ---------- */
 const CREW = ['cosmo', 'zib', 'bolt', 'rocky', 'tik'];
 function drawChar(who, x, y, s, st, t, b) {
@@ -334,7 +357,7 @@ function actor(who, x, footY, s, T, b, ctx) {   // the speaker, big, entering an
   if (ex && ts < 1.4) g += txt('?!', x0 + side * -10 + 70 * s, footY - 330 * s - hop, 80 * s, YEL, 'middle', .2, side * -12, eoBack(clamp(ts / .25)));
   return g;
 }
-const BG = { moon: ['#1d1a5c', '#4a3fb0'], spin: ['#0b2152', '#1f8a8a'], sunoff: ['#2b1a0a', '#c4561e'], car: ['#1f2a52', '#d2366b'], wow: ['#0f2a1c', '#2f7a4a'], oumuamua: ['#2a1410', '#8a3a24'], tabby: ['#2b1a0a', '#b5651e'], blackhole: ['#05030c', '#3a1858'], intro: ['#1f2a52', '#3b2470'], outro: ['#1f2a52', '#3b2470'], speed: ['#2a1f5c', '#6a2470'], venus: ['#3a1c2a', '#93421f'], jupiter: ['#2b1d14', '#7a4a2a'], neptune: ['#0b2152', '#1f5cb5'], glass: ['#0d1440', '#2f3fa0'] };
+const BG = { bigbang: ['#1a0f3a', '#a83a7a'], sunearth: ['#2b1a0a', '#c4561e'], dinos: ['#0f2a1c', '#4a7a2f'], humans: ['#0b2152', '#1f5cb5'], moon: ['#1d1a5c', '#4a3fb0'], spin: ['#0b2152', '#1f8a8a'], sunoff: ['#2b1a0a', '#c4561e'], car: ['#1f2a52', '#d2366b'], wow: ['#0f2a1c', '#2f7a4a'], oumuamua: ['#2a1410', '#8a3a24'], tabby: ['#2b1a0a', '#b5651e'], blackhole: ['#05030c', '#3a1858'], intro: ['#1f2a52', '#3b2470'], outro: ['#1f2a52', '#3b2470'], speed: ['#2a1f5c', '#6a2470'], venus: ['#3a1c2a', '#93421f'], jupiter: ['#2b1d14', '#7a4a2a'], neptune: ['#0b2152', '#1f5cb5'], glass: ['#0d1440', '#2f3fa0'] };
 function background(seg, W2, H2, T, b) {
   const c = BG[seg] || BG.intro;
   let g = `<defs><linearGradient id="bgg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${c[0]}"/><stop offset="1" stop-color="${c[1]}"/></linearGradient></defs><rect width="${W2}" height="${H2}" fill="url(#bgg)"/>`;

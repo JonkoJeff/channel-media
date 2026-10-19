@@ -1,0 +1,294 @@
+{
+ "id": "lf16_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We've met six popular ideas tonight, and every one of them was reasonable to believe. That's the interesting part. These weren't beliefs held by careless people. They were beliefs held by teachers, parents, doctors and friends. So why do they stick so well?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "n": 8,
+    "title": "Why myths feel so true"
+   }
+  },
+  {
+   "say": "A myth is usually easier to hold than the truth. \"You are left-brained or right-brained\" fits in a sentence. \"Many networks lean slightly one way, and they work together all the time\" does not. Our minds like tidy stories, and a tidy story spreads faster than a careful one.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "The first reason",
+    "sub": "They are simple"
+   }
+  },
+  {
+   "say": "Many myths also give us something we like. A hidden ninety percent suggests you have enormous untapped talent. A learning style suggests that you are special, and that if only the lesson matched you, it would be easy. These ideas feel like good news, and good news is easy to accept.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "The second reason",
+    "sub": "They flatter us"
+   }
+  },
+  {
+   "say": "There is a third reason, and it's the most surprising of all. It has to do with what happens when we simply hear something again and again.",
+   "show": {
+    "type": "photo",
+    "file": "lf16_b04_01.jpg",
+    "cap": "A quiet place to think it over"
+   }
+  },
+  {
+   "say": "In 1977, Lynn Hasher, David Goldstein and Thomas Toppino asked people to rate how likely a series of statements were to be true. Over several sessions, some statements came back again. The statements that were repeated were rated as more likely to be true than the ones seen only once.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Lynn Hasher, David Goldstein and Thomas Toppino",
+    "where": "Temple University and Villanova University",
+    "what": "Frequency and the conference of referential validity, published in 1977"
+   }
+  },
+  {
+   "say": "Researchers call this the illusory truth effect. When something is familiar, it becomes easier for the mind to process. And ease can feel a lot like truth. We don't consciously decide that a repeated claim is correct. We just notice that it feels right.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A strange feeling",
+    "sub": "Familiar means true"
+   }
+  },
+  {
+   "say": "And knowing better is not a full shield. In 2015, Lisa Fazio and colleagues found that repetition raised people's belief in statements even when those people actually knew the correct answers. Hearing a wrong statement again and again can make it feel more acceptable, even if you once knew it was wrong.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "who": "Lisa Fazio, Nadia Brashier, Keith Payne and Elizabeth Marsh",
+    "where": "Vanderbilt University and other universities",
+    "what": "Knowledge does not protect against illusory truth, published in 2015"
+   }
+  },
+  {
+   "say": "That should make us gentle with ourselves and with each other. Believing a myth is not a sign of a weak mind. It's a sign of a normal one, living in a world where the same few ideas get repeated everywhere, from classroom posters to television shows.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "What this means",
+    "sub": "It is not about intelligence"
+   }
+  },
+  {
+   "say": "So how do you update an idea that has lived in your head for years? Researchers who study misinformation have collected some practical advice. One of the best known summaries came from Stephan Lewandowsky and colleagues, in a review published in 2012.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "n": 9,
+    "title": "How to let a myth go"
+   }
+  },
+  {
+   "say": "The reviewers pointed out that simply saying \"that's false\" is not very effective. A gap in your thinking is uncomfortable, and the mind prefers a wrong explanation to no explanation. So the best correction replaces the myth with a better one, a story that fills the same space.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What helps a correction land",
+    "items": [
+     "Lead with the true fact",
+     "Warn before repeating the myth",
+     "Explain why the myth was wrong",
+     "Offer a better story to replace it"
+    ]
+   }
+  },
+  {
+   "say": "There's a gentle warning for anyone who corrects a myth. In 2005, Ian Skurnik and colleagues showed older adults flyers listing health claims marked as true or false. Three days later, many of them remembered some of the false claims as true. Repeating the myth, even to deny it, can leave the myth behind.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "who": "Ian Skurnik, Carolyn Yoon, Denise Park and Norbert Schwarz",
+    "where": "University of Toronto and other universities",
+    "what": "How warnings about false claims become recommendations, published in 2005"
+   }
+  },
+  {
+   "say": "For instance, instead of just dropping the left-brain, right-brain idea, you can swap in the better one. Your brain works as a team, and your strengths come from practice and interest. That sentence does the same job as the myth, helping you understand yourself, only now it matches the evidence.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "cap": "An example",
+    "sub": "The left-brain idea, replaced"
+   }
+  },
+  {
+   "say": "Learning styles can be replaced in the same way. Instead of \"I am a visual learner\", try \"this material suits a diagram, and that material suits practice\". Then add the habits with good support: testing yourself, spacing your study, and explaining ideas in your own words.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "And a second example",
+    "sub": "Learning styles, replaced"
+   }
+  },
+  {
+   "say": "And for venting, swap \"let it all out\" for \"calm the body first, then talk it through\". It's a small change, and it gives you a plan for the next time you are upset. That plan is much more useful than the myth ever was.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "And a third",
+    "sub": "Venting, replaced"
+   }
+  },
+  {
+   "say": "Let's gather everything into a few ideas you can carry with you. They are small, and none of them needs any equipment.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "n": 10,
+    "title": "Takeaways for tomorrow"
+   }
+  },
+  {
+   "say": "Here is the whole evening in six lines. Your brain works as a team. You already use all of it. The content decides the best way to learn. Music can lift your mood, though not your intelligence. Calm your body before you talk about anger. And hold your memories lightly, because they are rebuilt each time.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Six myths, six replacements",
+    "items": [
+     "Your brain works as a team, not as two halves",
+     "You already use all of your brain",
+     "Content decides the best way to learn",
+     "Music can lift your mood, not your IQ",
+     "Calm the body before you talk about anger",
+     "Memory is rebuilt, so hold it lightly"
+    ]
+   }
+  },
+  {
+   "say": "Here are three questions that fit in your pocket. Where does this claim come from? Was it tested in a fair way? And does it say more than the evidence can carry? You will be surprised how many confident claims fall quiet after the second question.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Three questions to ask",
+    "items": [
+     "Where does this claim come from",
+     "Was it tested in a fair way",
+     "Does it say more than the evidence can carry"
+    ]
+   }
+  },
+  {
+   "say": "There is also one small habit that protects against all of these. When you hear a surprising claim about the brain, quietly ask where it comes from. A study, a review, a person who tested it. If nobody can say, you can hold the claim loosely, without having to argue with anyone.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "A habit to try",
+    "sub": "Ask for the source"
+   }
+  },
+  {
+   "say": "And if you used to believe some of these myths, that is perfectly fine. You believed what you were taught, as nearly everyone does. Changing your mind when new evidence arrives is not a defeat. It's exactly what a healthy, curious mind is supposed to do.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Be kind to your past self",
+    "sub": "You believed what you were told"
+   }
+  },
+  {
+   "say": "If you look back at all six, the same four steps appear. A real finding at the start, a simplification along the way, a tidy story at the end, and a belief that feels like common sense. Once you can see that pattern, you start to notice it everywhere.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The pattern behind all six",
+    "items": [
+     "A real finding at the start",
+     "A simplification along the way",
+     "A tidy story at the end",
+     "A belief that feels like common sense"
+    ]
+   }
+  },
+  {
+   "say": "Remember the notebook and the lamp from the start? We opened it with a small confession, that we all carry facts about the brain that feel solid and that we never checked. Now a few of those facts have been checked. Some became a little smaller, and some became a little more interesting.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Back to the notebook",
+    "sub": "Where we began"
+   }
+  },
+  {
+   "say": "So here is what you are allowed to leave behind tonight. The need to be a certain type of person, the hope of a hidden switch in your brain, the pressure to let every feeling out loudly, and the belief that your memory never changes. Setting those down makes room for something calmer and more accurate.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "title": "What you can leave behind tonight",
+    "items": [
+     "The need to be a certain type",
+     "The hope of a hidden switch",
+     "The pressure to let it all out",
+     "The belief that memory never changes"
+    ]
+   }
+  },
+  {
+   "say": "As we finish, let's slow down for a moment. You don't need to remember any of the details tonight. Let the studies fade into the background, and keep only one feeling. It's fine to not know. It's fine to check. And it's fine to change your mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Slowing down",
+    "sub": "Let the day settle"
+   }
+  },
+  {
+   "say": "If you like, take one slow breath in, and let it out a little longer than it came in. That small habit, a long, gentle exhale, is one of the simplest ways to calm your body. You don't need a myth to explain why it feels good. You can simply notice that it does.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "One easy breath",
+    "sub": "In, and out"
+   }
+  },
+  {
+   "say": "Thank you for spending this time with me, and for being willing to look at ideas that felt comfortable. Curiosity like that is a real strength. Whatever comes next, I hope you carry a little more patience for your own mind, and for how it works.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "cap": "Thank you",
+    "sub": "For checking with me"
+   }
+  },
+  {
+   "say": "Next time, we'll explore why a familiar face can suddenly feel strange. Until then, take care of yourself, drink some water, rest well, and I'll see you soon.",
+   "show": {
+    "type": "end",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "next": "Why Familiar Faces Feel Different"
+   }
+  }
+ ]
+}

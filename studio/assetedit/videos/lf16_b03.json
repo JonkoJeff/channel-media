@@ -1,0 +1,294 @@
+{
+ "id": "lf16_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now, a myth about feelings. When you are angry, the advice is almost automatic. Don't bottle it up. Let it out. Hit a pillow, scream into the car, punch a bag, and you will feel better. It sounds like common sense, and it has been repeated for generations.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "autumn_overlook",
+    "n": 6,
+    "title": "Does venting calm you down?"
+   }
+  },
+  {
+   "say": "Behind this advice is a picture of anger as steam inside a pressure cooker. If you do not release it, the pressure builds, and something will explode. Releasing the steam, so the story goes, brings relief. The scientific word for the idea is catharsis.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "autumn_overlook",
+    "cap": "The idea",
+    "sub": "Anger as pressure"
+   }
+  },
+  {
+   "say": "The word is very old. It comes from ancient Greek, and was used for a kind of emotional cleansing. In the 1890s, Josef Breuer and Sigmund Freud brought a version of it into psychology, in their book Studies on Hysteria, published in 1895. The idea that strong feelings need an outlet then spread far beyond therapy.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "An old word",
+    "sub": "Catharsis"
+   }
+  },
+  {
+   "say": "It is a powerful image. A kettle, steam rising, pressure released. But a feeling is not a kettle, and we should test whether letting off steam really lowers anger. The psychologist Brad Bushman decided to do exactly that.",
+   "show": {
+    "type": "photo",
+    "file": "lf16_b03_01.jpg",
+    "cap": "Letting off steam, as a picture"
+   }
+  },
+  {
+   "say": "Bushman ran an experiment with college students, and published it in 2002 in the journal Personality and Social Psychology Bulletin. The question was in the title: does venting anger feed the flame, or extinguish it?",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Brad Bushman",
+    "where": "Iowa State University",
+    "what": "Does venting anger feed or extinguish the flame? Published in 2002"
+   }
+  },
+  {
+   "say": "The students first wrote an essay and received harsh criticism, so that everyone was a little angry. Then they were split into groups. One group hit a punching bag while thinking about the person who had criticised them. Another hit it while thinking about fitness. A third did nothing. Finally, everyone got a chance to play a competitive game in which the winner could blast the loser with loud noise.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "How the experiment worked",
+    "items": [
+     "Students wrote an essay and received harsh feedback",
+     "Some then hit a punching bag, thinking of the person who criticised them",
+     "Others hit it thinking about getting fit",
+     "Others did nothing",
+     "Everyone then had a chance to blast a stranger with noise"
+    ]
+   }
+  },
+  {
+   "say": "If the pressure cooker idea were right, the group that hit the bag while thinking about the critic should have let out its anger, and should have been the calmest. They should have blasted the stranger the least. That's what the common sense advice predicts.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The prediction",
+    "sub": "Less anger?"
+   }
+  },
+  {
+   "say": "The result was the opposite. The students who hit the bag while thinking about the person who had angered them were the angriest and the most aggressive afterwards. They gave louder noise blasts than the other groups. Venting while staying focused on the anger kept the anger going.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "The result",
+    "sub": "The opposite"
+   }
+  },
+  {
+   "say": "So a better picture may be a fire. Hitting and shouting while you think about what upset you can be like feeding the fire with fresh wood. Bushman's own conclusion was that venting does not reduce anger, and may increase aggression. It keeps your mind rehearsing the offence.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "A better picture",
+    "sub": "A fire, not a kettle"
+   }
+  },
+  {
+   "say": "Is there anything better? Researchers in this area generally point to activities that lower your arousal, so your body calms down first. Slow breathing, a short walk, or a change of scene can help. Then, once you feel steadier, you can talk about what happened, which is a very different thing from raging about it.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What tends to help instead",
+    "items": [
+     "Calming the body with slow breathing",
+     "Taking a pause before you respond",
+     "Moving your attention to something else",
+     "Talking about it calmly, when you are ready"
+    ]
+   }
+  },
+  {
+   "say": "There is an earlier study that points the same way. In 1999, Bushman, Roy Baumeister and Angela Stack gave people a text that praised venting as helpful, or a text that did not. Afterwards, those who believed in venting and then hit a punching bag were the ones who went on to behave most aggressively.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Brad Bushman, Roy Baumeister and Angela Stack",
+    "where": "Iowa State University and Case Western Reserve University",
+    "what": "Catharsis, aggression, and persuasive influence, published in 1999"
+   }
+  },
+  {
+   "say": "This does not mean you should bury your feelings. Ignoring anger isn't the point, and neither is pretending you are fine. It simply means that dramatic, rage-fuelled venting is not the cure it is made out to be. Naming what you feel, calmly, is a better first step than acting it out.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "A gentle caution",
+    "sub": "Feelings still matter"
+   }
+  },
+  {
+   "say": "There's one more myth to look at tonight, and it's about the thing that makes you who you are. Memory. Many of us imagine our memory as a video camera. Everything we see and hear is recorded, and if we could only press play, we would see exactly what happened.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "n": 7,
+    "title": "Is memory a camera?"
+   }
+  },
+  {
+   "say": "In 2011, Daniel Simons and Christopher Chabris published a survey in the journal PLoS ONE, asking a representative group of adults in the United States what they believed about memory. About sixty three percent agreed with the statement that human memory works like a video camera, accurately recording the events we see and hear so we can review them later.",
+   "show": {
+    "type": "bars",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Agreed that memory is like a video camera",
+    "unit": "percent",
+    "bars": [
+     [
+      "People who agreed",
+      63.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "It is such an appealing picture. But scientists who study memory describe it very differently. Remembering seems less like replaying a recording, and more like rebuilding a scene from pieces. And when you rebuild something, the new details can shape what you think you saw.",
+   "show": {
+    "type": "photo",
+    "file": "lf16_b03_02.jpg",
+    "cap": "A camera, which memory is not"
+   }
+  },
+  {
+   "say": "One of the most famous demonstrations came from Elizabeth Loftus and John Palmer, in 1974. They showed students short films of car accidents. Afterwards, they asked how fast the cars were going when they hit each other. But for different groups, they changed one word in the question.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "who": "Elizabeth Loftus and John Palmer",
+    "where": "University of Washington",
+    "what": "Reconstruction of automobile destruction, published in 1974"
+   }
+  },
+  {
+   "say": "The students who heard the word \"smashed\" estimated the highest speed, about forty one miles an hour. Those who heard \"contacted\" gave the lowest, about thirty two. The same film, and the same eyes, but one word moved the estimate.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The one-word change",
+    "items": [
+     "When the cars \"smashed\": about 41 miles per hour",
+     "When the cars \"hit\": about 34 miles per hour",
+     "When the cars \"contacted\": about 32 miles per hour"
+    ]
+   }
+  },
+  {
+   "say": "Perhaps people were only guessing under pressure. So the researchers came back a week later. They asked a new question: did you see any broken glass? In the film, there was none.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "But was it only a guess?",
+    "sub": "A week later"
+   }
+  },
+  {
+   "say": "About thirty two percent of the people who had heard the word \"smashed\" said yes, they remembered broken glass. Among those who had heard \"hit\", it was only about fourteen percent. A single word, heard a week earlier, had quietly added a detail to their memory.",
+   "show": {
+    "type": "bars",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Remembering broken glass that was never there",
+    "unit": "percent",
+    "bars": [
+     [
+      "\"Smashed\" group",
+      32.0
+     ],
+     [
+      "\"Hit\" group",
+      14.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Memory can even build whole events. In 1995, Elizabeth Loftus and Jacqueline Pickrell gave adult volunteers short stories from childhood, supplied by family members. One story, about being lost in a shopping mall, was invented. About a quarter of the volunteers came to remember it, and some added details of their own.",
+   "show": {
+    "type": "stat",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "A memory that never happened",
+    "big": "About 25%",
+    "label": "Of adults in a 1995 study who came to remember a childhood event that was invented"
+   }
+  },
+  {
+   "say": "This doesn't mean memory is useless. Most of what we remember is broadly right. But it shows that remembering is an act of reconstruction, and that suggestions, questions and later information can slip into the picture without us noticing. The feeling of certainty isn't a good guide to accuracy.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "What this tells us",
+    "sub": "Memory is rebuilt"
+   }
+  },
+  {
+   "say": "That matters in courtrooms, where eyewitnesses are often trusted because they sound sure. It matters at family dinners, where two people remember the same holiday differently. And it matters in a gentler way for you. If your memory of an argument is different from someone else's, neither of you is necessarily lying.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Why it matters",
+    "sub": "Eyewitnesses and family stories"
+   }
+  },
+  {
+   "say": "There are some simple ways to live with a rebuilt memory. You can say, as I remember it, instead of, it happened exactly like this. You can ask other people how they remember the same day. And for the things that truly matter, you can write them down soon after they happen. None of this takes any effort, and it makes your conversations kinder.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Ways to hold a memory lightly",
+    "items": [
+     "Say \"as I remember it\" instead of \"it happened exactly like this\"",
+     "Ask others how they remember the same day",
+     "Write important things down soon after they happen",
+     "Notice that confidence is not the same as accuracy"
+    ]
+   }
+  },
+  {
+   "say": "There's some comfort here too. If memory is rebuilt each time, then it is flexible, and it can adapt. It can keep the gist of what matters, even when the details fade. A camera records everything and understands nothing. Your memory keeps what makes sense of your life.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "A kinder reading",
+    "sub": "Forgetting is not failure"
+   }
+  },
+  {
+   "say": "We have now looked at the left-brain myth, the ten percent myth, learning styles, the Mozart effect, venting and the camera. Different topics, but they share a hidden pattern. In the last part of tonight, let's look at why such ideas stick so well, and what we can do about it.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Six myths, one pattern",
+    "sub": "Almost there"
+   }
+  }
+ ]
+}

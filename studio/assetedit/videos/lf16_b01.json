@@ -1,0 +1,285 @@
+{
+ "id": "lf16_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a small confession. Most of us carry around a handful of facts about the brain that feel completely solid. We heard them at school, or from a friend, or in a documentary, and we never thought to check. Tonight, we're going to check them, gently, one at a time.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A quiet confession",
+    "sub": "Things we all \"know\""
+   }
+  },
+  {
+   "say": "Tonight, we'll take six popular ideas about the mind and see what the research actually says. Some turn out to be half true. Some turn out to be quietly harmful. And a few will probably make you smile, because you will recognise yourself in them. There's no test at the end, only a calmer, more accurate picture of the brain you live in.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Are you a left-brain or a right-brain person",
+     "Do we really use only a fraction of our brain",
+     "Is there a learning style that suits you best",
+     "Does classical music make babies smarter",
+     "Does letting off steam calm you down",
+     "Is memory a camera"
+    ]
+   }
+  },
+  {
+   "say": "Before we start, one thing worth knowing. These ideas are called neuromyths. Researchers use that word for popular beliefs about the brain that sound scientific but do not match the evidence. They are not stupid beliefs. They usually begin with a real finding, and then get simplified a little more every time somebody retells them.",
+   "show": {
+    "type": "photo",
+    "file": "lf16_b01_01.jpg",
+    "cap": "A notebook and a lamp, ready for some checking"
+   }
+  },
+  {
+   "say": "Think of it like a game of telephone. A careful scientist reports a narrow result. A book summarises it. A magazine turns it into a headline. By the time it reaches a poster on a classroom wall, the careful part has fallen off and only the tidy story is left.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "How a myth is born",
+    "sub": "A true seed, a tidy story"
+   }
+  },
+  {
+   "say": "Let's begin with the most famous myth of all. You have probably seen the idea. Left-brain people are logical, analytical and good with numbers. Right-brain people are creative, emotional and artistic. Take a quiz, find out which one you are, and suddenly your whole personality has a neat explanation.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "Are you a left-brain or right-brain person?"
+   }
+  },
+  {
+   "say": "It's a lovely idea, because it is simple. But does your brain actually divide its work that way? To answer that, we need to meet a real discovery, because this myth does have a real seed.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The question",
+    "sub": "Is it true?"
+   }
+  },
+  {
+   "say": "Your brain has two halves, called hemispheres, joined by a thick bundle of nerve fibres known as the corpus callosum. That much is true. And it is also true that some jobs lean to one side. In most right handed people, for example, the core machinery for language sits mostly in the left hemisphere.",
+   "show": {
+    "type": "photo",
+    "file": "lf16_b01_02.jpg",
+    "cap": "A model of the brain, two halves and a bridge"
+   }
+  },
+  {
+   "say": "The seed of the myth comes from the work of Roger Sperry and his colleagues. They studied patients whose corpus callosum had been cut, a treatment used for severe epilepsy. In careful experiments, they showed that each half could handle information a little differently when the two halves could no longer talk to each other. Sperry received a Nobel Prize in 1981 for this work.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Roger Sperry and colleagues",
+    "where": "California Institute of Technology",
+    "what": "Split-brain research, 1960s to 1970s"
+   }
+  },
+  {
+   "say": "Notice what that research actually says. It says the two halves have some specialisations, and that they normally work together all the time. In a healthy brain, the bridge between them is busy. It carries messages back and forth constantly, so you never feel the seam.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "What Sperry found",
+    "sub": "Specialised, yet connected"
+   }
+  },
+  {
+   "say": "Those were people whose halves had been surgically separated, so the results tell us what happens when the bridge is gone. It is a long way from saying that healthy people are either a logical type or an artistic type.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Two halves, one bridge",
+    "sub": "Not two separate people"
+   }
+  },
+  {
+   "say": "Somewhere along the way, the story jumped. From two halves with different strengths, to two kinds of people. From a result in a small group of patients, to a personality test you could take in a magazine. The jump feels natural, but nobody ever showed it.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "The leap",
+    "sub": "From a surgery to a personality"
+   }
+  },
+  {
+   "say": "Eventually, somebody tested it directly. A team led by Jared Nielsen analysed brain scans from 1,011 people between the ages of 7 and 29, looking at the networks that connect different areas. The idea was simple. If some people were truly left-brained or right-brained, one side's networks should be consistently stronger in those people.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "who": "Jared Nielsen and colleagues",
+    "where": "University of Utah",
+    "what": "Resting brain scans of 1,011 people aged 7 to 29, published in 2013"
+   }
+  },
+  {
+   "say": "They did find that some networks lean to one side, just as expected. But they did not find that a person who leans left in one network leans left in the others. There was no sign of an overall left-brained or right-brained person. The authors concluded that the popular picture is a myth about how the brain is organised.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "What they found",
+    "sub": "Not one tidy type"
+   }
+  },
+  {
+   "say": "Put plainly, some functions do lean to one side. But the brain is a team, and creative tasks and logical tasks both recruit many regions across both hemispheres. If you are a gifted painter or a careful accountant, that is a fact about your training, your interests and your habits. It's not a fact about one half of your head.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "In plain words",
+    "items": [
+     "Some functions do lean to one hemisphere",
+     "Both halves work together on almost everything",
+     "No evidence of an overall left-brain or right-brain person",
+     "Creative and logical skills use many regions"
+    ]
+   }
+  },
+  {
+   "say": "So why does the idea feel so right? Partly because people really are different. Some of us love spreadsheets and some of us love sketching. The myth gives those differences a simple home. But the home is in the wrong place. The difference lies in your experience and your interests, and it can change over time.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Why it still feels true",
+    "sub": "You do have a style"
+   }
+  },
+  {
+   "say": "There is also something hopeful here. If you ever told yourself \"I'm just not a maths person, I'm a right-brain type\", you can set that sentence down. Nothing about your anatomy says you cannot learn to do either. It may take practice, but the equipment is already there on both sides.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "cap": "A kinder way to see it",
+    "sub": "You are not half a brain"
+   }
+  },
+  {
+   "say": "Now to the second myth, which might be the most repeated sentence in all of popular psychology. We only use ten percent of our brains. The implication is thrilling. Somewhere inside you is a huge, unused reservoir of talent, just waiting for the right trick to switch it on.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "n": 2,
+    "title": "Do we really use only ten percent?"
+   }
+  },
+  {
+   "say": "Nobody can point to one exact moment where this started, and the stories about its origin are hard to verify. So let's skip the detective work about the past, and check the claim against what we know today. And what we know today is a lot.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "neon_alley_rain",
+    "cap": "Where it comes from",
+    "sub": "Nobody quite knows"
+   }
+  },
+  {
+   "say": "The neuroscientist Barry Beyerstein collected the main arguments against the claim in a chapter published in 1999. He pointed to several lines of evidence. When he wrote it, brain imaging already showed that activity appears in virtually all regions over the course of a day, even during sleep.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Barry Beyerstein",
+    "where": "University of British Columbia",
+    "what": "Why we only use ten percent of our brains is a myth, 1999"
+   }
+  },
+  {
+   "say": "Here's another clue, from the study of energy. In a well known review published in 2002, the neuroscientists Marcus Raichle and Debra Gusnard looked at the brain's energy budget. The adult brain makes up only about two percent of body weight, yet it uses roughly twenty percent of the body's energy.",
+   "show": {
+    "type": "stat",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The energy bill",
+    "big": "About 20%",
+    "label": "Share of the body's energy used by a brain that weighs about 2% of the body"
+   }
+  },
+  {
+   "say": "An organ that costly would not survive if ninety percent of it did nothing. Nature does not usually keep a huge, expensive, unused machine around for millions of years. Bodies are thrifty. If most of the brain were idle, evolution would long ago have trimmed it.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "cap": "Think about that",
+    "sub": "Evolution does not waste"
+   }
+  },
+  {
+   "say": "There's another simple test. If ninety percent of the brain were spare, damage to most areas should make no difference. But the opposite is true. Even a small injury to the right place can affect speech, movement, memory or attention. That tells us that very few parts of the brain are truly unused.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The damage test",
+    "sub": "Small injuries, big effects"
+   }
+  },
+  {
+   "say": "So what is the truth? You use all of your brain. Not all at once, and not all at full effort, in the same way you do not use every muscle in your body at the same moment. But over a day, nearly every region does real work. There's no hidden ninety percent waiting to be unlocked.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What brain imaging shows",
+    "items": [
+     "Activity appears in virtually all regions over a day",
+     "Different tasks light up different areas",
+     "Even sleep keeps much of the brain working",
+     "Small injuries can change skills"
+    ]
+   }
+  },
+  {
+   "say": "That might sound disappointing at first, but there is a gentler way to see it. You are not leaving most of your mind switched off. Your brain is already doing a remarkable amount of work, right now, as you listen to this. Noticing, predicting, remembering and caring, all at once.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "The good news",
+    "sub": "Your brain is already busy"
+   }
+  },
+  {
+   "say": "You can still get better at things, of course. People learn new languages, instruments and skills at every age. But that growth comes from practice and rest, which strengthen the connections you already have. There is no secret switch, and the honest route is also the kinder one.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "And yet you can improve",
+    "sub": "Through use, not through tricks"
+   }
+  },
+  {
+   "say": "So, two myths checked. Your personality does not live in one half of your head, and you are already using the whole thing. Next, we'll look at a belief that's even more widespread, and one that quietly shapes how many of us study and learn.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "A pause before the next one",
+    "sub": "Two myths down"
+   }
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+name: cosmozibs
+# Cosmozibs: episode JSON (studio/cosmozibs/episodes/czNN.json, written by Codex) -> 8-min video + 4 Shorts + thumbnail + 4 covers
+# -> release czNN + studio/renders/czNN/result.json (same shape as the other channels, so zernio.yml can post it). No Claude tokens.
+on:
+  workflow_dispatch:
+    inputs:
+      ep: {description: "Episode id, e.g. cz01", required: true}
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        with: {path: studio/voice/*.onnx, key: kokoro-v1}
+      - uses: actions/cache@v4
+        with: {path: studio/voice/voices.bin, key: kokoro-voices-v1}
+      - uses: actions/setup-node@v4
+        with: {node-version: 22}
+      - run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg && pip install onnxruntime numpy scipy pillow
+      - run: bash studio/setup.sh
+      - name: browser
+        working-directory: studio/cosmozibs/engine
+        run: npm i --no-save playwright@1.55.0 && npx playwright install --with-deps chromium
+      - name: validate
+        run: python3 studio/cosmozibs/engine/validate.py studio/cosmozibs/episodes/${{ inputs.ep }}.json
+      - name: render
+        run: bash studio/cosmozibs/engine/build.sh ${{ inputs.ep }} 4
+      - name: publish release + result files
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          ID=${{ inputs.ep }}; B=studio/cosmozibs/engine/build/$ID
+          python3 - <<'PY'
+          import json, os, shutil
+          i = os.environ.get("ID") or "${{ inputs.ep }}"; B = f"studio/cosmozibs/engine/build/{i}"; ep = json.load(open(f"studio/cosmozibs/episodes/{i}.json"))
+          d = f"studio/renders/{i}"; os.makedirs(d, exist_ok=True); shutil.copy(f"{B}/thumbs/{i}_long.jpg", d + "/thumb.jpg")
+          tl = json.load(open(f"{B}/long.json")); rel = f"https://github.com/JonkoJeff/channel-media/releases/download/{i}/"
+          # chapters from the timeline: first line of every segment
+          seen, ch = set(), []
+          for l in tl["lines"]:
+              if l["seg"] not in seen:
+                  seen.add(l["seg"]); t = max(0, int(l["start"] - .5)); name = {"intro": "Intro", "speed": "Speed round", "outro": "Your turn!"}.get(l["seg"])
+                  if not name: name = next(s["short"]["title"] for s in ep["segments"] if s["id"] == l["seg"])
+                  ch.append(f"{t // 60}:{t % 60:02d} {name}")
+          ch[0] = "0:00 " + ch[0].split(" ", 1)[1]
+          desc = ep.get("description", ep["title"]).replace("{{chapters}}", "\n".join(ch))
+          if "{{chapters}}" not in ep.get("description", "{{chapters}}") and "0:00" not in desc: desc += "\n\n" + "\n".join(ch)
+          desc += "\n\nSources:\n" + "\n".join(ep["sources"]) if "Sources:" not in desc else ""
+          open(d + "/description.txt", "w").write(desc)
+          shorts, meta, sj = {}, {}, "studio/assetedit/videos/shorts.json"; allm = json.load(open(sj)) if os.path.exists(sj) else []
+          for s in ep["segments"]:
+              if "short" not in s: continue
+              sid = f"{i}_{s['id']}"; shorts[sid] = rel + sid + ".mp4"; meta[sid] = {"title": s["short"]["title"]}
+              shutil.copy(f"{B}/thumbs/{i}_short_{s['id']}.jpg", f"studio/covers/{sid}.jpg")
+              allm = [x for x in allm if x.get("id") != sid] + [{"id": sid, "title": s["short"]["title"], "tags": ["#space", "#spacefacts", "#shorts"]}]
+          json.dump(allm, open(sj, "w"), indent=1)
+          json.dump({"id": i, "video": rel + i + ".mp4", "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/" + d + "/thumb.jpg", "shorts": shorts, "shorts_meta": meta}, open(d + "/result.json", "w"), indent=1)
+          json.dump({"id": i, "title": ep["title"], "channel": "cosmozibs", "tags": ep.get("tags", []) + ["Cosmozibs", "space for kids", "space facts"], "playlists": [ep.get("theme", "")]}, open(f"studio/assetedit/videos/{i}.json", "w"), indent=1)
+          PY
+          mkdir -p out && cp $B/${ID}_long.mp4 out/$ID.mp4 && for f in $B/${ID}_short_*.mp4; do s=$(basename $f .mp4); cp $f out/${ID}_${s#${ID}_short_}.mp4; done
+          gh release delete $ID -y --cleanup-tag 2>/dev/null || true
+          gh release create $ID out/*.mp4 --title "$ID" --notes "Cosmozibs $ID rendered files."
+          git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
+          git add -f studio/renders/$ID studio/assetedit/videos/$ID.json studio/assetedit/videos/shorts.json studio/covers/${ID}_*.jpg && git commit -qm "Rendered $ID [skip ci]" && git pull -q --rebase && git push

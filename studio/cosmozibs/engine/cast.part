@@ -1,0 +1,71 @@
+/* ================= SPACE CAST (doodle) ================= */
+const mouthShape = (x, y, w, open) => open > .15
+  ? `<ellipse cx="${x}" cy="${y + 2}" rx="${r1(w * .55)}" ry="${r1(4 + open * 12)}" fill="#c9503f" stroke="${INK}" stroke-width="5"/>`
+  : `<path d="M${x - w / 2},${y} q${w / 2},${w * .45} ${w},0" fill="none" stroke="${INK}" stroke-width="5" stroke-linecap="round"/>`;
+
+function cosmo({ x, y, s = 1, armL = 120, armR = 60, talk = 0, look = [0, 0], tilt = 0 }) {
+  const W_ = '#f4f4f0', O = '#f08a2c';
+  let g = `<g transform="translate(${r1(x)},${r1(y)}) scale(${s})">`;
+  g += `<rect x="-78" y="-250" width="156" height="150" rx="22" fill="#b8bcc4" stroke="${INK}" stroke-width="${LW}"/>`; // backpack
+  g += limb(-34, -96, -38, -26, 34, W_) + limb(34, -96, 38, -26, 34, W_);
+  g += `<ellipse cx="-44" cy="-14" rx="34" ry="18" fill="#7d8492" stroke="${INK}" stroke-width="6"/><ellipse cx="44" cy="-14" rx="34" ry="18" fill="#7d8492" stroke="${INK}" stroke-width="6"/>`;
+  const sh = (sx, deg) => { const a = deg * Math.PI / 180; return limb(sx, -205, sx + Math.cos(a) * 80, -205 + Math.sin(a) * 80, 30, W_) + `<circle cx="${r1(sx + Math.cos(a) * 92)}" cy="${r1(-205 + Math.sin(a) * 92)}" r="20" fill="${O}" stroke="${INK}" stroke-width="6"/>`; };
+  g += sh(-62, armL) + sh(62, armR);
+  g += `<path d="M-70,-230 Q-76,-120 -66,-92 L66,-92 Q76,-120 70,-230 Q0,-252 -70,-230Z" fill="${W_}" stroke="${INK}" stroke-width="${LW}" stroke-linejoin="round"/>`;
+  g += `<rect x="-36" y="-196" width="72" height="54" rx="10" fill="${O}" stroke="${INK}" stroke-width="5"/><circle cx="-14" cy="-169" r="8" fill="#e2433a"/><circle cx="14" cy="-169" r="8" fill="#3fae9e"/>`;
+  g += `<g transform="rotate(${r1(tilt)} 0 -240)">`;
+  g += `<circle cx="0" cy="-310" r="86" fill="${W_}" stroke="${INK}" stroke-width="${LW}"/>`;
+  g += `<rect x="-66" y="-366" width="132" height="104" rx="46" fill="#2a3d6b" stroke="${INK}" stroke-width="6"/>`;
+  g += `<path d="M-44,-350 q14,-10 30,-6" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".7"/>`;
+  g += `<circle cx="${-22 + look[0] * 6}" cy="${-318 + look[1] * 5}" r="10" fill="#fff"/><circle cx="${24 + look[0] * 6}" cy="${-318 + look[1] * 5}" r="10" fill="#fff"/>`;
+  g += talk > .15 ? `<ellipse cx="0" cy="-286" rx="12" ry="${r1(4 + talk * 9)}" fill="#fff"/>` : `<path d="M-14,-290 q14,12 28,0" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>`;
+  g += stick(30, -392, 40, -430, 5) + `<circle cx="40" cy="-436" r="9" fill="#e2433a" stroke="${INK}" stroke-width="4"/>`;
+  return g + '</g></g>';
+}
+
+function zib({ x, y, s = 1, armL = 150, armR = 30, talk = 0, look = [0, 0], tilt = 0 }) {
+  const G = '#8fe27a';
+  let g = `<g transform="translate(${r1(x)},${r1(y)}) scale(${s})">`;
+  g += stick(-22, -40, -28, -10) + stick(22, -40, 28, -10) + shoe(-34, -6) + shoe(34, -6);
+  g += armAt(-54, -120, 70, armL, G) + armAt(54, -120, 70, armR, G);
+  g += `<g transform="rotate(${r1(tilt)} 0 -60)">`;
+  g += `<path d="M-60,-40 C-80,-120 -70,-230 0,-240 C70,-230 80,-120 60,-40 Q0,-22 -60,-40Z" fill="${G}" stroke="${INK}" stroke-width="${LW}" stroke-linejoin="round"/>`;
+  g += `<path d="M-10,-236 Q-30,-290 -50,-300" fill="none" stroke="${INK}" stroke-width="6" stroke-linecap="round"/><circle cx="-52" cy="-304" r="14" fill="#f9d65c" stroke="${INK}" stroke-width="5"/>`;
+  g += `<path d="M14,-236 Q30,-280 52,-286" fill="none" stroke="${INK}" stroke-width="6" stroke-linecap="round"/><circle cx="56" cy="-290" r="11" fill="#f59ac0" stroke="${INK}" stroke-width="5"/>`;
+  g += `<ellipse cx="0" cy="-160" rx="44" ry="40" fill="#fff" stroke="${INK}" stroke-width="6"/><circle cx="${look[0] * 14}" cy="${-158 + look[1] * 12}" r="17" fill="#7a3fd6"/><circle cx="${look[0] * 14 + 6}" cy="${-164 + look[1] * 12}" r="5" fill="#fff"/>`;
+  g += mouthShape(0, -92, 34, talk);
+  g += `<circle cx="-38" cy="-100" r="5" fill="#5aa055"/><circle cx="40" cy="-80" r="6" fill="#5aa055"/>`;
+  return g + '</g></g>';
+}
+
+function bolt({ x, y, s = 1, armL = 140, armR = 40, talk = 0, look = [0, 0], tilt = 0 }) {
+  const M = '#c3ccd6';
+  let g = `<g transform="translate(${r1(x)},${r1(y)}) scale(${s})">`;
+  g += `<rect x="-60" y="-40" width="120" height="34" rx="16" fill="#7d8492" stroke="${INK}" stroke-width="6"/><circle cx="-36" cy="-6" r="16" fill="#555" stroke="${INK}" stroke-width="5"/><circle cx="36" cy="-6" r="16" fill="#555" stroke="${INK}" stroke-width="5"/>`;
+  g += armAt(-56, -110, 70, armL, '#f2c443') + armAt(56, -110, 70, armR, '#f2c443');
+  g += `<rect x="-56" y="-150" width="112" height="112" rx="14" fill="${M}" stroke="${INK}" stroke-width="${LW}"/><circle cx="0" cy="-94" r="16" fill="#e2433a" stroke="${INK}" stroke-width="5"/>`;
+  g += `<g transform="rotate(${r1(tilt)} 0 -150)">`;
+  g += `<rect x="-74" y="-290" width="148" height="128" rx="20" fill="${M}" stroke="${INK}" stroke-width="${LW}"/>`;
+  g += `<rect x="-56" y="-272" width="112" height="90" rx="12" fill="#1f2a52" stroke="${INK}" stroke-width="5"/>`;
+  g += `<path d="M${-36 + look[0] * 5},${-232 + look[1] * 4} l10,-12 l10,12 M${16 + look[0] * 5},${-232 + look[1] * 4} l10,-12 l10,12" fill="none" stroke="#7df2ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>`;
+  g += talk > .15 ? `<rect x="-18" y="-212" width="36" height="${r1(6 + talk * 12)}" rx="4" fill="#7df2ff"/>` : `<line x1="-18" y1="-206" x2="18" y2="-206" stroke="#7df2ff" stroke-width="6" stroke-linecap="round"/>`;
+  g += stick(0, -290, 0, -326, 6) + `<circle cx="0" cy="-334" r="11" fill="#7df2ff" stroke="${INK}" stroke-width="5"/>`;
+  g += `<rect x="-90" y="-250" width="16" height="44" rx="6" fill="#7d8492" stroke="${INK}" stroke-width="4"/><rect x="74" y="-250" width="16" height="44" rx="6" fill="#7d8492" stroke="${INK}" stroke-width="4"/>`;
+  return g + '</g></g>';
+}
+
+function rocky({ x, y, s = 1, armL = 160, armR = 20, talk = 0, look = [0, 0], tilt = 0, boil = 1 }) {
+  let g = `<g transform="translate(${r1(x)},${r1(y)}) scale(${s})">`;
+  g += stick(-30, -60, -40, -10) + stick(30, -60, 40, -10) + shoe(-48, -6) + shoe(48, -6);
+  g += armAt(-96, -150, 70, armL, '#9a8c80') + armAt(96, -150, 70, armR, '#9a8c80');
+  g += `<g transform="rotate(${r1(tilt)} 0 -150)">`;
+  const pts = []; for (let i = 0; i < 11; i++) { const a = i / 11 * Math.PI * 2, r = 110 + (rnd(i * 4.7) - .5) * 34; pts.push([Math.cos(a) * r, -150 + Math.sin(a) * r * .9]); }
+  g += roughSVG('polygon', [pts], { fill: '#9a8c80', fillStyle: 'solid', stroke: INK, strokeWidth: 7, roughness: 1.4 }, boil);
+  g += `<circle cx="-62" cy="-96" r="16" fill="#7a6c60"/><circle cx="66" cy="-210" r="12" fill="#7a6c60"/><circle cx="58" cy="-90" r="9" fill="#7a6c60"/>`;
+  g += `<circle cx="${-30 + look[0] * 6}" cy="${-170 + look[1] * 5}" r="20" fill="#fff" stroke="${INK}" stroke-width="5"/><circle cx="${32 + look[0] * 6}" cy="${-170 + look[1] * 5}" r="20" fill="#fff" stroke="${INK}" stroke-width="5"/>`;
+  g += `<circle cx="${-26 + look[0] * 9}" cy="${-168 + look[1] * 8}" r="7" fill="${INK}"/><circle cx="${36 + look[0] * 9}" cy="${-168 + look[1] * 8}" r="7" fill="${INK}"/>`;
+  g += stick(-54, -206, -10, -192, 9) + stick(56, -206, 12, -192, 9);
+  g += talk > .15 ? `<ellipse cx="0" cy="-118" rx="22" ry="${r1(5 + talk * 12)}" fill="#c9503f" stroke="${INK}" stroke-width="5"/>` : `<path d="M-22,-112 q22,-14 44,0" fill="none" stroke="${INK}" stroke-width="6" stroke-linecap="round"/>`;
+  return g + '</g></g>';
+}
+

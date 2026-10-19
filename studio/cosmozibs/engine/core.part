@@ -1,0 +1,71 @@
+import rough from './libs/rough/rough.js';
+import { getStroke } from 'perfect-freehand';
+
+const gen = rough.generator();
+const svgNS = 'http://www.w3.org/2000/svg';
+const stage = document.getElementById('stage');
+const tmp = document.createElementNS(svgNS, 'svg');
+const rs = rough.svg(tmp);
+
+/* ---- helpers ---- */
+const P = (t, a, b) => clamp((t - a) / (b - a));
+// rough shape -> svg string, with draw-on (0..1) and boil seed
+function roughSVG(kind, args, opts, seed, draw = 1) {
+  const node = rs[kind](...args, { seed, ...opts });
+  node.querySelectorAll('path').forEach(p => {
+    if (draw < 1) { p.setAttribute('pathLength', '1'); p.setAttribute('stroke-dasharray', '1'); p.setAttribute('stroke-dashoffset', String(1 - draw)); }
+  });
+  return node.outerHTML;
+}
+// perfect-freehand line, drawn up to fraction p
+function pen(points, p, size = 16, color = INK) {
+  const n = Math.max(2, Math.floor(points.length * clamp(p)));
+  if (p <= 0) return '';
+  const o = getStroke(points.slice(0, n), { size, thinning: .55, smoothing: .5, streamline: .4, simulatePressure: true, last: p >= 1 });
+  if (!o.length) return '';
+  return `<path d="${o.reduce((a, [x, y], i) => a + (i ? 'L' : 'M') + r1(x) + ',' + r1(y), '')}Z" fill="${color}"/>`;
+}
+const jitter = (pts, seed, amt = 2) => pts.map(([x, y], i) => [x + (rnd(seed * 13 + i) - .5) * amt, y + (rnd(seed * 7 + i * 3) - .5) * amt]);
+const word = (s, x, y, size, fill = INK, sc = 1, rot = 0, op = 1) =>
+  `<g transform="translate(${x},${y}) rotate(${rot}) scale(${r1(sc * 100) / 100})" opacity="${op}"><text text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="${size}" fill="${fill}" stroke="#fdfcf7" stroke-width="${size * .14}" paint-order="stroke" stroke-linejoin="round" letter-spacing="2">${s}</text></g>`;
+
+/* ---- rigged doodle characters (parts with pivots) ---- */
+const LW = 7;
+const stick = (x1, y1, x2, y2, w = LW) => `<line x1="${r1(x1)}" y1="${r1(y1)}" x2="${r1(x2)}" y2="${r1(y2)}" stroke="${INK}" stroke-width="${w}" stroke-linecap="round"/>`;
+const handC = (x, y, f, r = 11) => `<circle cx="${r1(x)}" cy="${r1(y)}" r="${r}" fill="${f}" stroke="${INK}" stroke-width="5"/>`;
+const shoe = (x, y) => `<ellipse cx="${r1(x)}" cy="${r1(y)}" rx="20" ry="10" fill="#6b4a33" stroke="${INK}" stroke-width="5"/>`;
+const armAt = (sx, sy, len, deg, f) => { const a = deg * Math.PI / 180, ex = sx + Math.cos(a) * len, ey = sy + Math.sin(a) * len; return stick(sx, sy, ex, ey) + handC(ex, ey, f); };
+
+function tik({ x, y, s, armL = 140, armR = 40, lean = 0, look = [0, 0], blink = false }) {
+  const legPh = 0;
+  let g = `<g transform="translate(${r1(x)},${r1(y)}) rotate(${r1(lean)}) scale(${s})">`;
+  g += stick(-30, -48, -34, -12) + stick(30, -48, 34, -12) + shoe(-40, -8) + shoe(40, -8);
+  g += armAt(-50, -240, 84, armL, '#bfe3f5') + armAt(50, -240, 84, armR, '#bfe3f5');
+  g += `<path d="M-62,-330 L62,-330 C62,-260 12,-224 12,-200 C12,-176 72,-140 72,-74 L-72,-74 C-72,-140 -12,-176 -12,-200 C-12,-224 -62,-260 -62,-330Z" fill="#cfeaf8" stroke="${INK}" stroke-width="${LW}" stroke-linejoin="round"/>`;
+  g += `<path d="M-60,-76 C-56,-126 -24,-148 -4,-160 L4,-160 C24,-148 56,-126 60,-76Z" fill="#f4c542"/><line x1="0" y1="-200" x2="0" y2="-160" stroke="#f4c542" stroke-width="6"/>`;
+  g += `<rect x="-86" y="-356" width="172" height="28" rx="8" fill="#a8743f" stroke="${INK}" stroke-width="${LW}"/><rect x="-90" y="-78" width="180" height="28" rx="8" fill="#a8743f" stroke="${INK}" stroke-width="${LW}"/>`;
+  if (blink) g += stick(-36, -282, -2, -282, 6) + stick(10, -280, 38, -280, 6);
+  else g += `<circle cx="-18" cy="-282" r="22" fill="#fff" stroke="${INK}" stroke-width="6"/><circle cx="24" cy="-280" r="18" fill="#fff" stroke="${INK}" stroke-width="6"/>` +
+    `<circle cx="${-12 + look[0] * 8}" cy="${-280 + look[1] * 8}" r="6" fill="${INK}"/><circle cx="${29 + look[0] * 7}" cy="${-278 + look[1] * 7}" r="5" fill="${INK}"/>`;
+  g += `<path d="M-6,-248 q14,12 30,0" fill="none" stroke="${INK}" stroke-width="5" stroke-linecap="round"/>`;
+  return g + '</g>';
+}
+
+function nova({ x, y, s, armL = 120, armR = 60, tilt = 0, mouth = 'smile', look = [0, 0] }) {
+  const skin = '#ffd2b8', hr = 62, top = 34, bot = 56, h = 100, hipY = -32, topY = hipY - h, headY = topY - hr + 6;
+  let g = `<g transform="translate(${r1(x)},${r1(y)}) scale(${s})">`;
+  g += stick(-17, hipY, -18, -8) + stick(17, hipY, 18, -8) + shoe(-24, -6) + shoe(24, -6);
+  g += armAt(-top * .9, topY + 20, 62, armL, skin) + armAt(top * .9, topY + 20, 62, armR, skin);
+  g += `<path d="M${-top},${topY} L${top},${topY} L${bot},${hipY} L${-bot},${hipY}Z" fill="#f6b23c" stroke="${INK}" stroke-width="${LW}" stroke-linejoin="round"/>`;
+  g += stick(-top * .6, topY + 6, bot * .45, hipY - h * .35, 5);
+  g += `<g transform="rotate(${r1(tilt)} 0 ${topY})">`;
+  g += `<circle cx="0" cy="${headY}" r="${hr}" fill="${skin}" stroke="${INK}" stroke-width="${LW}"/>`;
+  g += `<path d="M${-hr * .55},${headY - hr * .78} q-14,-30 12,-34 q4,-24 28,-12 q22,-18 30,10 q20,4 8,30" fill="#7a4b2a" stroke="${INK}" stroke-width="5" stroke-linejoin="round"/>`;
+  g += `<circle cx="${-hr * .3}" cy="${headY - 4}" r="${hr * .38}" fill="#fff" stroke="${INK}" stroke-width="6"/><circle cx="${hr * .36}" cy="${headY - 2}" r="${hr * .33}" fill="#fff" stroke="${INK}" stroke-width="6"/>`;
+  g += `<circle cx="${-hr * .2 + look[0] * 9}" cy="${headY + look[1] * 9}" r="6" fill="${INK}"/><circle cx="${hr * .44 + look[0] * 8}" cy="${headY + 2 + look[1] * 8}" r="5.5" fill="${INK}"/>`;
+  g += mouth === 'o' ? `<ellipse cx="${hr * .12}" cy="${headY + hr * .56}" rx="11" ry="13" fill="#c9503f" stroke="${INK}" stroke-width="5"/>`
+                     : `<path d="M${-hr * .05},${headY + hr * .52} q${hr * .2},${hr * .2} ${hr * .42},0" fill="none" stroke="${INK}" stroke-width="5" stroke-linecap="round"/>`;
+  g += `<circle cx="${-hr * .62}" cy="${headY + hr * .4}" r="8" fill="#f2a1a1" opacity=".7"/>`;
+  return g + '</g></g>';
+}
+

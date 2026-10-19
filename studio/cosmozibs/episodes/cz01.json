@@ -1,0 +1,795 @@
+{
+ "id": "cz01",
+ "title": "4 Planets You Could Never Visit",
+ "theme": "Weird Worlds",
+ "next": "Tomorrow: What if the Moon disappeared?",
+ "sources": [
+  "https://science.nasa.gov/venus/venus-facts/",
+  "https://science.nasa.gov/jupiter/jupiter-facts/",
+  "https://science.nasa.gov/neptune/neptune-facts/",
+  "https://www.nasa.gov/image-article/rains-of-terror-exoplanet-hd-189733b/",
+  "https://www.nasa.gov/news-release/nasa-hubble-finds-a-true-blue-planet/"
+ ],
+ "segments": [
+  {
+   "id": "intro",
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "Hey, space cadets! Captain Cosmo here, with the whole Cosmozibs crew!",
+     "show": {
+      "type": "title",
+      "text": "4 PLANETS YOU COULD NEVER VISIT"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Bolt here! I bring the numbers!"
+    },
+    {
+     "who": "tik",
+     "say": "And I'm Tik! Stay until the end, because every planet has a quiz!"
+    },
+    {
+     "who": "zib",
+     "say": "Today we visit four planets you could never, ever visit!"
+    },
+    {
+     "who": "cosmo",
+     "say": "One is hotter than an oven. One has no ground at all. One has the wildest winds. And one... might rain glass!",
+     "show": {
+      "type": "lineup"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "Here's our map! Venus is the second planet from the Sun.",
+     "show": {
+      "type": "map",
+      "hi": "venus"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "Jupiter is number five. And Neptune is all the way out at number eight!",
+     "show": {
+      "type": "map",
+      "hi": "jupiter,neptune"
+     }
+    },
+    {
+     "who": "tik",
+     "say": "And our last planet is so far away, it's not even on this map!",
+     "show": {
+      "type": "map",
+      "hi": "none"
+     }
+    },
+    {
+     "who": "rocky",
+     "say": "Hmph. Sounds like a terrible holiday."
+    },
+    {
+     "who": "tik",
+     "say": "Tick tock, let's go!"
+    }
+   ]
+  },
+  {
+   "id": "venus",
+   "short": {
+    "title": "This Planet Is Hotter Than an Oven!",
+    "end": 7,
+    "cover": {
+     "text": "467\u00b0C?!",
+     "planet": "venus",
+     "mood": "scared",
+     "fx": [
+      "flames"
+     ],
+     "char": "zib",
+     "bg": [
+      "#3a1c71",
+      "#e8553b"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "This planet is hotter than an oven... and it's not even the closest to the Sun!",
+     "show": {
+      "type": "planet",
+      "kind": "venus",
+      "label": "VENUS"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Wait... WHAT? How could this happen?!",
+     "sfx": "scratch"
+    },
+    {
+     "who": "cosmo",
+     "say": "Meet Venus! It's almost the same size as Earth. It's our next-door neighbor!"
+    },
+    {
+     "who": "bolt",
+     "say": "But Venus is wrapped in a super thick blanket of clouds. And that blanket traps the heat, like a car parked in the sun!",
+     "show": {
+      "type": "blanket"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "I did the math! The ground on Venus is about four hundred and sixty seven degrees Celsius!",
+     "show": {
+      "type": "thermo",
+      "value": "467\u00b0C",
+      "label": "ON VENUS",
+      "compare": "KITCHEN OVEN"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "That's way hotter than the oven in my kitchen!"
+    },
+    {
+     "who": "cosmo",
+     "say": "It's even hotter than Mercury, the planet closest to the Sun!",
+     "show": {
+      "type": "versus",
+      "a": "mercury",
+      "b": "venus",
+      "win": "b",
+      "label": "HOTTER"
+     }
+    },
+    {
+     "who": "rocky",
+     "say": "Hmph. Still not as hot as me after a crash.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! The air on Venus pushes down really, really hard.",
+     "show": {
+      "type": "pressure",
+      "value": "930 m",
+      "label": "UNDER THE SEA"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Standing there would feel like being more than nine hundred meters deep in the ocean!"
+    },
+    {
+     "who": "zib",
+     "say": "My ears hurt just thinking about it!"
+    },
+    {
+     "who": "tik",
+     "say": "Want more? Venus has no moon at all!",
+     "show": {
+      "type": "nomoon"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "No moon? Who does it play with at night?"
+    },
+    {
+     "who": "bolt",
+     "say": "And its clouds are not made of water. They are made of sulfuric acid!",
+     "show": {
+      "type": "acid"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Acid clouds? Nope, nope, nope!"
+    },
+    {
+     "who": "cosmo",
+     "say": "But here's the cool part. You can see Venus from your own window! After the Sun and the Moon, it's the brightest thing in our sky.",
+     "show": {
+      "type": "nightsky",
+      "label": "VENUS"
+     }
+    },
+    {
+     "who": "tik",
+     "say": "And here's the weirdest part. One day on Venus is longer than one whole year on Venus!",
+     "show": {
+      "type": "daybar",
+      "a": "1 DAY",
+      "av": 243,
+      "b": "1 YEAR",
+      "bv": 225,
+      "unit": "Earth days"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "One spin takes two hundred and forty three Earth days. One trip around the Sun takes two hundred and twenty five."
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! On Venus, where does the Sun rise? In the east... in the west... or never?",
+     "show": {
+      "type": "quiz",
+      "q": "Where does the Sun rise on Venus?",
+      "options": [
+       "EAST",
+       "WEST",
+       "NEVER"
+      ],
+      "answer": 1
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "In the west! Venus spins backwards, so the Sun rises in the west.",
+     "show": {
+      "type": "sunrise"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "cosmo",
+     "say": "Next stop: a planet where you can't even stand up!"
+    }
+   ]
+  },
+  {
+   "id": "jupiter",
+   "short": {
+    "title": "You Can't Land on This Planet!",
+    "end": 7,
+    "cover": {
+     "text": "NO GROUND?!",
+     "planet": "jupiter",
+     "mood": "none",
+     "fx": [
+      "rocket"
+     ],
+     "char": "cosmo",
+     "bg": [
+      "#1f2a52",
+      "#8a4b2a"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "If you tried to land on this planet... there would be nowhere to land!",
+     "show": {
+      "type": "planet",
+      "kind": "jupiter",
+      "label": "JUPITER"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "No ground? How could this happen?!",
+     "sfx": "scratch"
+    },
+    {
+     "who": "cosmo",
+     "say": "This is Jupiter, the biggest planet in our solar system."
+    },
+    {
+     "who": "bolt",
+     "say": "Jupiter is a gas giant. It has no real surface. Just swirling gases and liquids!",
+     "show": {
+      "type": "dive"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "A spaceship that dived in would get crushed and melted long before it reached the middle."
+    },
+    {
+     "who": "bolt",
+     "say": "And it's HUGE! About one thousand Earths could fit inside Jupiter!",
+     "show": {
+      "type": "fill",
+      "count": 1000,
+      "label": "1,000 EARTHS"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "One thousand?! That's crazy!"
+    },
+    {
+     "who": "rocky",
+     "say": "Finally, a planet big enough for my ego.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! See that red spot? It's a giant storm!",
+     "show": {
+      "type": "planet",
+      "kind": "jupiter",
+      "label": "GREAT RED SPOT",
+      "zoom": true
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "The Great Red Spot is about twice as wide as Earth. And people have watched it for more than three hundred years!"
+    },
+    {
+     "who": "zib",
+     "say": "A storm older than my grandma's grandma!"
+    },
+    {
+     "who": "tik",
+     "say": "Jupiter also has a LOT of moons. One hundred and fifteen of them!",
+     "show": {
+      "type": "bignum",
+      "value": "115",
+      "label": "MOONS OF JUPITER"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Its biggest moon, Ganymede, is the biggest moon in the whole solar system. It's even bigger than the planet Mercury!",
+     "show": {
+      "type": "versus",
+      "a": "mercury",
+      "b": "ganymede",
+      "win": "b",
+      "label": "BIGGER"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "A moon bigger than a planet? That's crazy!"
+    },
+    {
+     "who": "rocky",
+     "say": "Hmph. Show-off."
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! How long is one day on Jupiter? Ten hours, twenty four hours, or one hundred hours?",
+     "show": {
+      "type": "quiz",
+      "q": "How long is a day on Jupiter?",
+      "options": [
+       "10 HOURS",
+       "24 HOURS",
+       "100 HOURS"
+      ],
+      "answer": 0
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "About ten hours! Jupiter has the shortest day of any planet.",
+     "show": {
+      "type": "bignum",
+      "value": "9.9 h",
+      "label": "ONE DAY ON JUPITER"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "cosmo",
+     "say": "Hold on to your helmets. Next up: the windiest world!"
+    }
+   ]
+  },
+  {
+   "id": "neptune",
+   "short": {
+    "title": "The Windiest Planet in the Solar System!",
+    "end": 6,
+    "cover": {
+     "text": "2,000 KM/H!",
+     "planet": "neptune",
+     "mood": "none",
+     "fx": [
+      "streaks"
+     ],
+     "char": "rocky",
+     "bg": [
+      "#0f1d4d",
+      "#3a7bd5"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "This planet has the wildest winds in the whole solar system!",
+     "show": {
+      "type": "planet",
+      "kind": "neptune",
+      "label": "NEPTUNE"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Windier than my hair dryer?"
+    },
+    {
+     "who": "cosmo",
+     "say": "Way windier! This is Neptune, the farthest planet from the Sun."
+    },
+    {
+     "who": "bolt",
+     "say": "Its winds blow at more than two thousand kilometers per hour!",
+     "show": {
+      "type": "wind",
+      "value": "2,000+ km/h",
+      "label": "NEPTUNE WINDS"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "That's about three times stronger than the winds on Jupiter."
+    },
+    {
+     "who": "zib",
+     "say": "That's crazy! You'd fly away like a kite!"
+    },
+    {
+     "who": "rocky",
+     "say": "Finally, something faster than me.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! Neptune is so far away, sunlight needs about four hours to get there.",
+     "show": {
+      "type": "sunlight",
+      "label": "4 HOURS"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "To reach Earth, sunlight only needs about eight minutes!"
+    },
+    {
+     "who": "tik",
+     "say": "Here's a cool story. Neptune was found with math!",
+     "show": {
+      "type": "math"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Scientists calculated where a hidden planet should be. In eighteen forty six, Johann Galle looked there... and found Neptune on his very first night!"
+    },
+    {
+     "who": "zib",
+     "say": "Math found a planet? I'm doing my homework right now!"
+    },
+    {
+     "who": "bolt",
+     "say": "And Neptune looks blue because a gas called methane soaks up the other colors and bounces back blue.",
+     "show": {
+      "type": "planet",
+      "kind": "neptune",
+      "label": "WHY BLUE? METHANE!"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "Only one spacecraft has ever flown past Neptune. Voyager Two, in nineteen eighty nine!",
+     "show": {
+      "type": "voyager",
+      "label": "VOYAGER 2 \u00b7 1989"
+     }
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! How long is one year on Neptune? One year, sixty five years, or one hundred and sixty five years?",
+     "show": {
+      "type": "quiz",
+      "q": "How long is a year on Neptune?",
+      "options": [
+       "1 YEAR",
+       "65 YEARS",
+       "165 YEARS"
+      ],
+      "answer": 2
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "One hundred and sixty five Earth years! Nobody alive today is even one Neptune year old!",
+     "show": {
+      "type": "bignum",
+      "value": "165",
+      "label": "EARTH YEARS = 1 NEPTUNE YEAR"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "cosmo",
+     "say": "And now... the strangest planet of them all."
+    }
+   ]
+  },
+  {
+   "id": "glass",
+   "short": {
+    "title": "On This Planet It Rains Glass Sideways!",
+    "end": 6,
+    "cover": {
+     "text": "GLASS RAIN?!",
+     "planet": "exo",
+     "mood": "none",
+     "fx": [
+      "shards"
+     ],
+     "char": "bolt",
+     "bg": [
+      "#101a4a",
+      "#2f56c9"
+     ]
+    }
+   },
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "On this planet, it might rain glass... sideways!",
+     "show": {
+      "type": "planet",
+      "kind": "exo",
+      "label": "HD 189733 b"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Glass?! SIDEWAYS?! How could this happen?!",
+     "sfx": "scratch"
+    },
+    {
+     "who": "cosmo",
+     "say": "This planet is not in our solar system. It's an alien world going around another star!"
+    },
+    {
+     "who": "bolt",
+     "say": "Scientists think its high clouds are full of tiny bits of glassy stuff called silicates.",
+     "show": {
+      "type": "glassrain"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "And the winds blow up to eight thousand seven hundred kilometers per hour!",
+     "show": {
+      "type": "wind",
+      "value": "8,700 km/h",
+      "label": "WINDS ON HD 189733 b"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "So the glass rain flies sideways! Ouch!",
+     "show": {
+      "type": "glassrain"
+     }
+    },
+    {
+     "who": "rocky",
+     "say": "Note to self. Never go on holiday there.",
+     "sfx": "boing"
+    },
+    {
+     "who": "tik",
+     "say": "Bonus fact! From far away, this planet looks deep blue, a bit like Earth.",
+     "show": {
+      "type": "versus",
+      "a": "earth",
+      "b": "exo",
+      "label": "BOTH BLUE?"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "But that blue comes from a hazy, burning hot sky. Not from an ocean!"
+    },
+    {
+     "who": "tik",
+     "say": "This planet is about sixty three light years away from us.",
+     "show": {
+      "type": "bignum",
+      "value": "63",
+      "label": "LIGHT YEARS AWAY"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "And it's super hot. In the daytime it's more than a thousand degrees Celsius!",
+     "show": {
+      "type": "thermo",
+      "value": "1,000\u00b0C+",
+      "label": "DAYTIME",
+      "compare": "KITCHEN OVEN"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "It's so close to its star that one side always faces the star, and the other side is always dark!",
+     "show": {
+      "type": "daynight"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Always daytime on one side? I'd never have to go to bed!"
+    },
+    {
+     "who": "rocky",
+     "say": "You'd melt first, buddy."
+    },
+    {
+     "who": "tik",
+     "say": "Quiz time! Which is the hottest planet in our solar system? Mercury, Venus, or Jupiter?",
+     "show": {
+      "type": "quiz",
+      "q": "Which planet is the hottest?",
+      "options": [
+       "MERCURY",
+       "VENUS",
+       "JUPITER"
+      ],
+      "answer": 1
+     },
+     "pause": 4
+    },
+    {
+     "who": "tik",
+     "say": "Venus! Did you remember it from the start?",
+     "show": {
+      "type": "planet",
+      "kind": "venus",
+      "label": "VENUS WINS"
+     },
+     "sfx": "ding"
+    }
+   ]
+  },
+  {
+   "id": "speed",
+   "lines": [
+    {
+     "who": "tik",
+     "say": "Speed round! Five quick facts. Ready? Go!",
+     "show": {
+      "type": "speed",
+      "n": 0,
+      "text": "SPEED ROUND!"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "bolt",
+     "say": "One! Venus is named after the Roman goddess of love and beauty.",
+     "show": {
+      "type": "speed",
+      "n": 1,
+      "planet": "venus",
+      "text": "GODDESS OF LOVE"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Two! Jupiter is named after the king of the gods.",
+     "show": {
+      "type": "speed",
+      "n": 2,
+      "planet": "jupiter",
+      "text": "KING OF THE GODS"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Three! Neptune is named after the Roman god of the sea.",
+     "show": {
+      "type": "speed",
+      "n": 3,
+      "planet": "neptune",
+      "text": "GOD OF THE SEA"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Four! One year on Jupiter takes about twelve Earth years.",
+     "show": {
+      "type": "speed",
+      "n": 4,
+      "planet": "jupiter",
+      "text": "1 YEAR = 12 EARTH YEARS"
+     }
+    },
+    {
+     "who": "bolt",
+     "say": "Five! Jupiter has rings too! Voyager One discovered them in nineteen seventy nine.",
+     "show": {
+      "type": "speed",
+      "n": 5,
+      "planet": "jupiter",
+      "text": "RINGS! FOUND IN 1979"
+     }
+    },
+    {
+     "who": "zib",
+     "say": "Whoa. My brain is full of space now!",
+     "show": {
+      "type": "lineup"
+     }
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "lines": [
+    {
+     "who": "cosmo",
+     "say": "That's four planets you could never visit! Which one was your favorite?",
+     "show": {
+      "type": "lineup"
+     }
+    },
+    {
+     "who": "tik",
+     "say": "Now it's your turn! If you HAD to visit one of these planets, which one would you pick? Think about it!",
+     "show": {
+      "type": "pick"
+     },
+     "pause": 4
+    },
+    {
+     "who": "rocky",
+     "say": "I'd pick the one with the biggest crater. Obviously."
+    },
+    {
+     "who": "zib",
+     "say": "Tomorrow: what if the Moon disappeared?!",
+     "show": {
+      "type": "title",
+      "text": "TOMORROW: WHAT IF THE MOON DISAPPEARED?"
+     }
+    },
+    {
+     "who": "cosmo",
+     "say": "Subscribe and join the crew. See you tomorrow, space cadets!"
+    }
+   ]
+  }
+ ],
+ "thumb": {
+  "text": "DON'T GO!",
+  "planet": "venus",
+  "mood": "scared",
+  "fx": [
+   "flames",
+   "shards"
+  ],
+  "char": "zib",
+  "bg": [
+   "#3a1c71",
+   "#d2366b"
+  ]
+ },
+ "description": "Could YOU survive on these 4 planets? The Cosmozibs crew visits an oven-hot planet, a planet with no ground, the windiest world and a planet where it might rain glass sideways!\n\n{{chapters}}\n\nA new episode every day. Join the crew: https://www.youtube.com/@Cosmozibs?sub_confirmation=1\n\nVoices in this video are AI-generated. Every fact is checked with the sources below.\n\n#space #spacefacts #sciencefacts",
+ "tags": [
+  "Venus",
+  "Jupiter",
+  "Neptune",
+  "exoplanet",
+  "planets for kids"
+ ]
+}

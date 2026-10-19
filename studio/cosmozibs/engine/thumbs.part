@@ -1,0 +1,36 @@
+
+/* =============== THUMBNAILS (long 1280x720, Short covers 1080x1920) =============== */
+function burst(cx, cy, r1_, r2_, n, col, rot = 0) { const p = []; for (let i = 0; i < n * 2; i++) { const a = rot + i * Math.PI / n, r = i % 2 ? r1_ : r2_; p.push([cx + Math.cos(a) * r, cy + Math.sin(a) * r]); } return poly(p, col, 8); }
+function glow(cx, cy, r, col) { return `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${col}" opacity=".35"/><circle cx="${cx}" cy="${cy}" r="${r * .75}" fill="${col}" opacity=".35"/>`; }
+const tTxt = (s, x, y, size, fill, rot = 0) => `<g transform="translate(${x},${y}) rotate(${rot})"><text text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="${size}" fill="#000" opacity=".55" transform="translate(8,10)">${s}</text><text text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="${size}" fill="${fill}" stroke="${INK}" stroke-width="${size * .16}" paint-order="stroke" stroke-linejoin="round" letter-spacing="2">${s}</text></g>`;
+function bgGrad(w, h, a, b2) { return `<defs><linearGradient id="tg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${a}"/><stop offset="1" stop-color="${b2}"/></linearGradient><radialGradient id="vig" cx=".5" cy=".5" r=".75"><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".45"/></radialGradient></defs><rect width="${w}" height="${h}" fill="url(#tg)"/>`; }
+function flames(cx, cy, r, b) { let g = ''; for (let i = 0; i < 14; i++) { const a = i / 14 * Math.PI * 2, x = cx + Math.cos(a) * r * .95, y = cy + Math.sin(a) * r * .95; g += `<path d="M${r1(x - Math.sin(a) * 38)},${r1(y + Math.cos(a) * 38)} Q${r1(x + Math.cos(a) * 150)},${r1(y + Math.sin(a) * 150 - 40)} ${r1(x + Math.sin(a) * 38)},${r1(y - Math.cos(a) * 38)}Z" fill="${i % 2 ? '#ff8a2a' : '#ffd23f'}" stroke="${INK}" stroke-width="5" stroke-linejoin="round"/>`; } return g; }
+function shards(x0, y0, w, h, n, seed) { let g = ''; for (let i = 0; i < n; i++) { const x = x0 + rnd(i + seed) * w, y = y0 + rnd(i * 3 + seed) * h, s = 1 + rnd(i * 7) * 1.4; g += `<polygon points="${r1(x)},${r1(y)} ${r1(x + 46 * s)},${r1(y + 9 * s)} ${r1(x + 10 * s)},${r1(y + 26 * s)}" fill="#e8f8ff" stroke="${INK}" stroke-width="4"/><line x1="${r1(x - 80 * s)}" y1="${r1(y + 10 * s)}" x2="${r1(x - 10)}" y2="${r1(y + 12 * s)}" stroke="#fff" stroke-width="4" opacity=".7"/>`; } return g; }
+function streaks(x0, y0, w, h, n, seed, col = '#d8ecff') { let g = ''; for (let i = 0; i < n; i++) { const x = x0 + rnd(i + seed) * w, y = y0 + rnd(i * 5 + seed) * h; g += `<path d="M${r1(x)},${r1(y)} q60,-10 140,0" fill="none" stroke="${col}" stroke-width="10" stroke-linecap="round"/>`; } return g; }
+
+
+/* Data-driven thumbnails. spec = {text, planet, mood: scared|happy|none, fx: [flames|shards|streaks|rocket], char: cosmo|zib|bolt|rocky|tik, bg: [c1, c2]} */
+function scaredFace(cx, cy, r) { return `<circle cx="${cx - r * .32}" cy="${cy - r * .15}" r="${r * .15}" fill="#fff" stroke="${INK}" stroke-width="${r * .035}"/><circle cx="${cx + r * .32}" cy="${cy - r * .15}" r="${r * .15}" fill="#fff" stroke="${INK}" stroke-width="${r * .035}"/><circle cx="${cx - r * .29}" cy="${cy - r * .12}" r="${r * .05}" fill="${INK}"/><circle cx="${cx + r * .29}" cy="${cy - r * .12}" r="${r * .05}" fill="${INK}"/><ellipse cx="${cx}" cy="${cy + r * .32}" rx="${r * .18}" ry="${r * .14}" fill="#7a1f1f" stroke="${INK}" stroke-width="${r * .035}"/><path d="M${cx + r * .62},${cy - r * .5} q-${r * .07},${r * .15} 0,${r * .2} q${r * .07},-${r * .05} 0,-${r * .2}z" fill="#bfe9f8" stroke="${INK}" stroke-width="${r * .02}"/>`; }
+function charAt(who, x, y, s, b, look) { const st = { talk: 1, armL: 212, armR: -60, look }; return drawChar(who, x, y, s, st, 0, b); }
+function rocket(x, y, s) { return `<g transform="translate(${x},${y}) rotate(25) scale(${s})">` + poly([[0, -70], [36, -10], [36, 50], [-36, 50], [-36, -10]], '#f4f4f0', 6) + `<circle cx="0" cy="0" r="16" fill="#7fd3f3" stroke="${INK}" stroke-width="5"/><path d="M-30,50 l-10,40 M0,50 l0,50 M30,50 l10,40" stroke="#ff8a2a" stroke-width="12" stroke-linecap="round"/></g>`; }
+function thumbScene(spec, long, b) {
+  const W2 = long ? 1280 : 1080, H2 = long ? 720 : 1920, bg = spec.bg || ['#3a1c71', '#d2366b'], fx = spec.fx || [];
+  const px = long ? 900 : 540, py = long ? 360 : 830, pr = long ? 220 : 320;
+  let g = bgGrad(W2, H2, bg[0], bg[1]) + starsBox(W2, H2, long ? 40 : 50, 1, 5);
+  if (fx.includes('streaks')) g += streaks(-80, py - pr * 1.2, W2 + 200, pr * 2.6, 20, 9);
+  if (fx.includes('flames')) g += glow(px, py, pr * 1.38, '#ffb347') + flames(px, py, pr * .98, b);
+  g += planet(spec.planet || 'earth', px, py, pr, 0, b, { face: false });
+  if (spec.mood === 'scared') g += scaredFace(px, py, pr); else if (spec.mood === 'happy') g += `<circle cx="${px - pr * .25}" cy="${py - pr * .1}" r="${pr * .06}" fill="${INK}"/><circle cx="${px + pr * .25}" cy="${py - pr * .1}" r="${pr * .06}" fill="${INK}"/><path d="M${px - pr * .2},${py + pr * .18} q${pr * .2},${pr * .18} ${pr * .4},0" fill="none" stroke="${INK}" stroke-width="${pr * .04}" stroke-linecap="round"/>`;
+  if (fx.includes('shards')) g += long ? shards(620, 60, 250, 520, 7, 3) : shards(0, 520, 1000, 900, 14, 11);
+  if (fx.includes('rocket')) g += rocket(px + 20, py - pr * .35, long ? 1.2 : 1.6);
+  const who = spec.char || 'zib';
+  const cs = { cosmo: 1.9, zib: 2.3, bolt: 2.2, rocky: 1.9, tik: 1.5 }[who] * (long ? 1 : .95);
+  g += long ? `<g transform="translate(255,730) rotate(-6)">${charAt(who, 0, 0, cs, b, [.7, -.2])}</g>` : `<g transform="translate(300,1720) rotate(-5)">${charAt(who, 0, 0, cs, b, [.6, -.5])}</g>`;
+  g += long ? tTxt(spec.text, 640, 130, spec.text.length > 9 ? 100 : 120, '#ffe14a', -4) : tTxt(spec.text, 540, 330, spec.text.length > 10 ? 130 : 170, '#ffe14a', -3);
+  return g + `<rect width="${W2}" height="${H2}" fill="url(#vig)"/>`;
+}
+window.renderThumbSpec = (spec, long) => {
+  const W2 = long ? 1280 : 1080, H2 = long ? 720 : 1920;
+  stage.setAttribute('width', W2); stage.setAttribute('height', H2); stage.setAttribute('viewBox', `0 0 ${W2} ${H2}`);
+  stage.innerHTML = `<defs><filter id="wob" x="-2%" y="-2%" width="104%" height="104%"><feTurbulence type="fractalNoise" baseFrequency="0.016" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="5" xChannelSelector="R" yChannelSelector="G"/></filter></defs><g filter="url(#wob)">${thumbScene(spec, long, 4)}</g>`;
+};

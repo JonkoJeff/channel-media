@@ -1,0 +1,95 @@
+{
+ "channel": "cosmozibs",
+ "name": "Cosmozibs",
+ "handle": "@Cosmozibs",
+ "language": "en",
+ "niche": "space and cosmic history for curious kids (9-15) and families",
+ "zernio": {
+  "key_secret": "ZERNIO_API_KEY_3 (fallback ZERNIO_API_KEY)",
+  "youtube_account": "fill in after zernio.yml cmd=accounts"
+ },
+ "cadence": {
+  "phase1_first_14_days": {
+   "long_per_day": 1,
+   "shorts_per_day": 2
+  },
+  "phase2": {
+   "long_per_day": 1,
+   "shorts_per_day": 4
+  },
+  "times_europe_amsterdam": {
+   "long": "17:00",
+   "shorts": [
+    "09:00",
+    "12:00",
+    "15:00",
+    "19:30"
+   ]
+  }
+ },
+ "length": {
+  "long_min_seconds": 485,
+  "long_target_seconds": 495,
+  "short_max_seconds": 58
+ },
+ "voices": {
+  "cosmo": [
+   "am_puck",
+   1.06,
+   1.14
+  ],
+  "zib": [
+   "am_liam",
+   1.08,
+   1.24
+  ],
+  "bolt": [
+   "am_echo",
+   1.06,
+   1.15
+  ],
+  "rocky": [
+   "am_fenrir",
+   1.0,
+   1.05
+  ],
+  "tik": [
+   "am_michael",
+   1.06,
+   1.14
+  ]
+ },
+ "week_themes": {
+  "mon": "Weird Worlds",
+  "tue": "What If...?",
+  "wed": "Space Mysteries",
+  "thu": "Time Machine with Tik",
+  "fri": "Biggest, Fastest, Weirdest",
+  "sat": "Astronaut Life",
+  "sun": "Space Myths Busted"
+ },
+ "youtube": {
+  "category": "EDUCATION",
+  "made_for_kids": "OWNER DECIDES (see account-setup doc)",
+  "ai_disclosure": true,
+  "default_tags": [
+   "Cosmozibs",
+   "space for kids",
+   "space facts",
+   "science for kids",
+   "astronomy",
+   "solar system",
+   "planets",
+   "universe",
+   "fun facts for kids",
+   "educational video"
+  ]
+ },
+ "rules": [
+  "every number needs a source URL in the episode JSON",
+  "no scary deaths or accidents with victims",
+  "never reuse a script with only the topic swapped (inauthentic content)",
+  "never copy titles, thumbnails or scripts of other channels: patterns only",
+  "no voice effects: no robot voices"
+ ]
+}

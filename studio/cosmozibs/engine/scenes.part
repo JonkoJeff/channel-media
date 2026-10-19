@@ -1,0 +1,284 @@
+
+/* =============== COSMOZIBS EPISODE RENDERER =============== */
+const SPACE = '#1f2a52', SAND = '#e6c99f', OK = '#3fae9e', RED = '#e2433a', YEL = '#f9d65c';
+const ease = (t) => eio(clamp(t));
+const txt = (s, x, y, size, fill = '#fff', anchor = 'middle', sw = .2, rot = 0, sc = 1) =>
+  `<g transform="translate(${r1(x)},${r1(y)}) rotate(${rot}) scale(${r1(sc * 100) / 100})"><text text-anchor="${anchor}" font-family="Poppins, sans-serif" font-weight="700" font-size="${size}" fill="${fill}" stroke="${INK}" stroke-width="${r1(size * sw)}" paint-order="stroke" stroke-linejoin="round" letter-spacing="${r1(size * .03)}">${String(s).replace(/&/g, '&amp;')}</text></g>`;
+const star5 = (cx, cy, r, f = YEL) => { const p = []; for (let i = 0; i < 10; i++) { const a = -Math.PI / 2 + i * Math.PI / 5, rr = i % 2 ? r * .45 : r; p.push([cx + Math.cos(a) * rr, cy + Math.sin(a) * rr]); } return poly(p, f, 5); };
+function starsBox(w, h, n, t, seed = 1) { let g = ''; for (let i = 0; i < n; i++) { const tw = .5 + .5 * Math.sin(t * 3 + i * 1.7); g += `<circle cx="${r1(rnd(i * 3.1 + seed) * w)}" cy="${r1(rnd(i * 7.7 + seed) * h)}" r="${r1(1.5 + tw * 3)}" fill="#fff6c8" opacity="${r1(.3 + tw * .6)}"/>`; } return g; }
+
+/* ---------- planets ---------- */
+const PCOL = { venus: '#f2c77a', jupiter: '#e8b98a', neptune: '#4a7fe0', exo: '#2f56c9', earth: '#6fa8e8', mercury: '#a9a39b', ganymede: '#b8a891', sun: YEL, mars: '#e0764a', saturn: '#ead08a', uranus: '#9fe0e6', moon: '#d8d4cc' };
+function planet(kind, cx, cy, r, t, boil, opt = {}) {
+  const id = 'pc' + kind + Math.round(cx) + Math.round(cy);
+  let g = roughSVG('circle', [cx, cy, r * 2], { fill: PCOL[kind] || '#ccc', fillStyle: 'solid', stroke: INK, strokeWidth: Math.max(4, r * .04), roughness: 1.1 }, boil);
+  g += `<clipPath id="${id}"><circle cx="${cx}" cy="${cy}" r="${r - 3}"/></clipPath><g clip-path="url(#${id})">`;
+  if (kind === 'jupiter') {
+    [[-.62, '#c98a5a'], [-.3, '#f3d2ae'], [-.05, '#c98a5a'], [.22, '#f3d2ae'], [.5, '#b9784c'], [.75, '#f3d2ae']].forEach(([dy, c], i) => {
+      g += `<path d="M${cx - r},${cy + dy * r} q${r * .5},${Math.sin(t * 2 + i) * 8} ${r},0 t${r},0" fill="none" stroke="${c}" stroke-width="${r * .16}"/>`; });
+    g += `<ellipse cx="${cx + r * .32}" cy="${cy + r * .36}" rx="${r * .26}" ry="${r * .14}" fill="#d9573f" stroke="${INK}" stroke-width="${Math.max(3, r * .025)}"/>`;
+  } else if (kind === 'venus') {
+    for (let i = 0; i < 5; i++) g += `<path d="M${cx - r + ((t * 30 + i * 70) % (r * 2.2)) - r * .2},${cy - r * .6 + i * r * .3} q${r * .3},${-r * .12} ${r * .6},0" fill="none" stroke="#fbe3b0" stroke-width="${r * .08}" stroke-linecap="round"/>`;
+  } else if (kind === 'neptune' || kind === 'exo') {
+    for (let i = 0; i < 6; i++) { const x0 = cx - r + ((t * (kind === 'exo' ? 260 : 160) + i * 90) % (r * 2.6)) - r * .3, y0 = cy - r * .7 + i * r * .28; g += `<line x1="${r1(x0)}" y1="${r1(y0)}" x2="${r1(x0 + r * .4)}" y2="${r1(y0)}" stroke="#bfe0ff" stroke-width="${r * .05}" stroke-linecap="round" opacity=".8"/>`; }
+    if (kind === 'neptune') g += `<ellipse cx="${cx - r * .3}" cy="${cy - r * .1}" rx="${r * .18}" ry="${r * .09}" fill="#2c4f9e"/>`;
+  } else if (kind === 'earth') {
+    const off = (t * 20) % (r * 2);
+    [[-.4, -.3, .5, .35], [.35, .2, .45, .5], [-.1, .55, .3, .2]].forEach(([dx, dy, rx, ry]) => { for (const o of [-r * 2, 0]) g += `<ellipse cx="${r1(cx + dx * r + off + o)}" cy="${r1(cy + dy * r)}" rx="${r1(rx * r)}" ry="${r1(ry * r)}" fill="#7cc576" stroke="${INK}" stroke-width="4"/>`; });
+  } else if (kind === 'mercury' || kind === 'ganymede' || kind === 'moon') {
+    [[-.3, -.2, .18], [.35, .3, .14], [.1, -.45, .1], [-.4, .4, .1]].forEach(([dx, dy, rr]) => g += `<circle cx="${cx + dx * r}" cy="${cy + dy * r}" r="${rr * r}" fill="rgba(0,0,0,.14)" stroke="${INK}" stroke-width="3"/>`);
+  }
+  g += '</g>';
+  if (opt.face) g += `<circle cx="${cx - r * .22}" cy="${cy - r * .05}" r="${r * .07}" fill="${INK}"/><circle cx="${cx + r * .22}" cy="${cy - r * .05}" r="${r * .07}" fill="${INK}"/><path d="M${cx - r * .18},${cy + r * .2} q${r * .18},${r * .16} ${r * .36},0" fill="none" stroke="${INK}" stroke-width="${r * .04}" stroke-linecap="round"/>`;
+  return g;
+}
+
+/* ---------- scenes: local box 1000 x 600 ---------- */
+const SC = {};
+SC.title = (s, t, b) => {
+  let g = planet('venus', 140, 140, 70, t, b) + planet('jupiter', 860, 150, 95, t, b) + planet('neptune', 150, 470, 60, t, b + 1) + planet('exo', 860, 470, 70, t, b + 2);
+  const words = s.text.split(' '), lines = ['']; for (const w of words) { if ((lines.at(-1) + ' ' + w).trim().length > 13) lines.push(w); else lines[lines.length - 1] = (lines.at(-1) + ' ' + w).trim(); }
+  lines.forEach((l, i) => g += txt(l, 500, 300 - (lines.length - 1) * 38 + i * 76 + 26, 64, i % 2 ? YEL : '#fff', 'middle', .2, -2, eoBack(P(t, .1 + i * .15, .45 + i * .15))));
+  return g;
+};
+SC.lineup = SC.crew = (s, t, b, ctx) => crewRow(500, 520, 1.25, t, b, ctx, 190);
+SC.planet = (s, t, b) => {
+  const sc = eoBack(P(t, 0, .5)), z = s.zoom ? 1 + ease(P(t, .2, 1.5)) * .9 : 1;
+  const r = 210 * sc * z, cx = s.zoom ? 500 - 160 * (z - 1) : 500, cy = s.zoom ? 330 - 170 * (z - 1) : 330;
+  let g = planet(s.kind, cx, cy, r, t, b, { face: !s.zoom && !['exo', 'jupiter'].includes(s.kind) });
+  if (s.kind === 'exo') for (let i = 0; i < 14; i++) { const x = ((t * 520 + i * 160) % 1200) - 100, y = 90 + rnd(i) * 440; g += `<polygon points="${r1(x)},${r1(y)} ${r1(x + 34)},${r1(y + 6)} ${r1(x + 8)},${r1(y + 16)}" fill="#dff4ff" stroke="${INK}" stroke-width="3"/>`; }
+  if (s.label) g += txt(s.label, 500, 70, 64, '#fff', 'middle', .2, -2, eoBack(P(t, .3, .6)));
+  return g;
+};
+SC.blanket = (s, t, b) => {
+  let g = planet('venus', 500, 320, 170, t, b);
+  g += roughSVG('circle', [500, 320, 470], { stroke: '#fbe3b0', strokeWidth: 30, roughness: 2.2, fill: 'none' }, b) + roughSVG('circle', [500, 320, 470], { stroke: INK, strokeWidth: 5, roughness: 2.2 }, b + 3);
+  for (let i = 0; i < 6; i++) { const a = i / 6 * Math.PI * 2 + t * 1.5, r0 = 175 + ((t * 120 + i * 30) % 50); g += pen(jitter([[500 + Math.cos(a) * r0, 320 + Math.sin(a) * r0], [500 + Math.cos(a + .15) * (r0 + 30), 320 + Math.sin(a + .15) * (r0 + 30)], [500 + Math.cos(a + .3) * (r0 + 5), 320 + Math.sin(a + .3) * (r0 + 5)]], b + i, 2), 1, 9, RED); }
+  return g + txt('HEAT TRAPPED!', 500, 70, 60, YEL, 'middle', .2, -2, eoBack(P(t, .4, .7)));
+};
+SC.thermo = (s, t, b) => {
+  const f = ease(P(t, .2, 1.8)), ov = f > .98 ? Math.sin(t * 30) * 4 : 0;
+  let g = `<g transform="translate(${330 + ov},0)">`;
+  g += roughSVG('rectangle', [-38, 60, 76, 400], { fill: '#fff', fillStyle: 'solid', stroke: INK, strokeWidth: 7 }, b) + roughSVG('circle', [0, 500, 120], { fill: RED, fillStyle: 'solid', stroke: INK, strokeWidth: 7 }, b + 1);
+  g += `<rect x="-20" y="${r1(460 - 380 * f)}" width="40" height="${r1(380 * f + 20)}" fill="${RED}"/>`;
+  for (let i = 0; i < 8; i++) g += stick(38, 100 + i * 45, 60, 100 + i * 45, 5);
+  g += '</g>' + txt(s.value, 700, 260, 120, RED, 'middle', .16, -3, eoBack(P(t, 1.2, 1.6))) + txt(s.label, 700, 340, 46, '#fff', 'middle', .22, 0, eoBack(P(t, 1.3, 1.7)));
+  // oven doodle
+  g += `<g transform="translate(700,450) scale(${eoBack(P(t, .6, 1))})">` + roughSVG('rectangle', [-80, -60, 160, 110], { fill: '#cfd3da', fillStyle: 'solid', stroke: INK, strokeWidth: 6 }, b) + roughSVG('rectangle', [-60, -35, 120, 65], { fill: '#2a2a2a', fillStyle: 'solid', stroke: INK, strokeWidth: 5 }, b + 2) + `<circle cx="-50" cy="-48" r="6" fill="${INK}"/><circle cx="-28" cy="-48" r="6" fill="${INK}"/></g>`;
+  return g + txt(s.compare + ': WAY LESS', 700, 560, 30, '#fff', 'middle', .25);
+};
+SC.versus = (s, t, b) => {
+  const pa = eoBack(P(t, 0, .4)), pb = eoBack(P(t, .3, .7));
+  const ra = s.win === 'a' ? 160 : 110, rb = s.win === 'b' ? 160 : 110;
+  let g = planet(s.a, 270, 320, ra * pa, t, b) + planet(s.b, 730, 320, rb * pb, t, b + 1);
+  g += txt(s.a.toUpperCase(), 270, 540, 44, '#fff', 'middle', .22) + txt(s.b.toUpperCase(), 730, 540, 44, '#fff', 'middle', .22);
+  g += txt('VS', 500, 340, 70, YEL, 'middle', .2, 0, eoBack(P(t, .5, .8)));
+  if (s.win) { const wx = s.win === 'a' ? 270 : 730, wr = s.win === 'a' ? ra : rb; g += `<g transform="translate(${wx},${320 - wr - 30}) scale(${eoBack(P(t, 1, 1.3))})">` + poly([[-50, 20], [-50, -30], [-25, 0], [0, -40], [25, 0], [50, -30], [50, 20]], YEL, 6) + '</g>'; }
+  if (s.label) g += txt(s.label, 500, 80, 60, YEL, 'middle', .2, -2, eoBack(P(t, 1.1, 1.4)));
+  return g;
+};
+SC.pressure = (s, t, b) => {
+  let g = roughSVG('rectangle', [120, 40, 760, 540], { fill: '#3b88c3', fillStyle: 'solid', stroke: INK, strokeWidth: 7 }, b);
+  g += `<rect x="124" y="44" width="752" height="40" fill="#8fd3ff"/>`;
+  const d = ease(P(t, .2, 2.5)), y = 110 + d * 380;
+  g += `<g transform="translate(420,${r1(y)})">` + roughSVG('circle', [0, 0, 70], { fill: '#f6f6f2', fillStyle: 'solid', stroke: INK, strokeWidth: 5 }, b) + `<circle cx="0" cy="0" r="22" fill="#2a3d6b"/><circle cx="-7" cy="-3" r="5" fill="#fff"/><circle cx="8" cy="-3" r="5" fill="#fff"/>` + '</g>';
+  for (let i = 0; i < 5; i++) { const by = 560 - ((t * 90 + i * 110) % 480); g += `<circle cx="${450 + Math.sin(by / 30 + i) * 12}" cy="${r1(by)}" r="${6 + i % 3 * 3}" fill="none" stroke="#dff4ff" stroke-width="3"/>`; }
+  g += stick(700, 90, 700, 560, 6); for (let i = 0; i <= 5; i++) g += stick(690, 90 + i * 94, 715, 90 + i * 94, 5);
+  g += txt(Math.round(d * 930) + ' m', 760, r1(y) + 16, 46, '#fff', 'start', .22);
+  return g + txt(s.label, 500, 30, 44, YEL, 'middle', .22);
+};
+SC.daybar = (s, t, b) => {
+  const m = Math.max(s.av, s.bv), fa = ease(P(t, .2, 1.6)), fb = ease(P(t, .7, 2.1));
+  let g = txt(s.a, 160, 230, 52, '#fff', 'middle', .22) + txt(s.b, 160, 410, 52, '#fff', 'middle', .22);
+  g += roughSVG('rectangle', [280, 180, 640 * s.av / m * fa + 1, 80], { fill: YEL, fillStyle: 'solid', stroke: INK, strokeWidth: 6 }, b);
+  g += roughSVG('rectangle', [280, 360, 640 * s.bv / m * fb + 1, 80], { fill: OK, fillStyle: 'solid', stroke: INK, strokeWidth: 6 }, b + 1);
+  g += txt(Math.round(s.av * fa), 300 + 640 * s.av / m * fa, 238, 46, '#fff', 'start', .22) + txt(Math.round(s.bv * fb), 300 + 640 * s.bv / m * fb, 418, 46, '#fff', 'start', .22);
+  return g + txt(s.unit.toUpperCase(), 500, 540, 40, '#c9d3ff', 'middle', .22) + txt('DAY > YEAR?!', 500, 90, 64, YEL, 'middle', .2, -2, eoBack(P(t, 2, 2.3)));
+};
+SC.quiz = (s, t, b, ctx) => {
+  let g = txt('QUIZ TIME!', 500, 70, 58, YEL, 'middle', .2, -3, eoBack(P(t, 0, .3))) + txt(s.q, 500, 160, 46, '#fff', 'middle', .22, 0, eoBack(P(t, .2, .5)));
+  s.options.forEach((o, i) => { const x = 180 + i * 320, p = eoBack(P(t, .4 + i * .2, .7 + i * .2)), win = ctx.revealed && i === s.answer;
+    g += `<g transform="translate(${x},350) scale(${p * (win ? 1.12 : 1)})">` + roughSVG('rectangle', [-140, -70, 280, 140], { fill: win ? OK : '#fff', fillStyle: 'solid', stroke: INK, strokeWidth: 7 }, b + i) + `<circle cx="-110" cy="-50" r="26" fill="${YEL}" stroke="${INK}" stroke-width="5"/>` + txt('ABC'[i], -110, -38, 32, INK, 'middle', 0) + txt(o, 0, 18, o.length > 8 ? 34 : 44, win ? '#fff' : INK, 'middle', win ? .2 : 0) + '</g>'; });
+  const cd = ctx.lineEnd !== undefined ? t - ctx.lineEnd : -1;
+  if (cd > 0 && cd < 4) { const n = 4 - Math.floor(cd); g += `<g transform="translate(500,520) scale(${1.4 - (cd % 1) * .4})">` + `<circle r="50" fill="${RED}" stroke="${INK}" stroke-width="7"/>` + txt(n, 0, 20, 60, '#fff', 'middle', 0) + '</g>'; }
+  return g;
+};
+SC.sunrise = (s, t, b) => {
+  const up = ease(P(t, .2, 2.2));
+  let g = `<rect x="0" y="0" width="1000" height="600" fill="#f39a5c" opacity="${r1(up * .6)}"/>`;
+  g += planet('sun', 230, 470 - up * 260, 90, t, b);
+  g += roughSVG('rectangle', [-20, 440, 1040, 180], { fill: '#c9894e', fillStyle: 'solid', stroke: INK, strokeWidth: 7 }, b);
+  g += txt('W', 230, 560, 70, '#fff', 'middle', .2) + txt('E', 780, 560, 70, '#fff', 'middle', .2);
+  return g + txt('SUNRISE IN THE WEST!', 500, 80, 60, YEL, 'middle', .2, -2, eoBack(P(t, 1.2, 1.5)));
+};
+SC.dive = (s, t, b) => {
+  let g = '';
+  for (let i = 0; i < 7; i++) g += `<path d="M-20,${60 + i * 80} q260,${Math.sin(t * 2 + i) * 30} 520,0 t520,0" fill="none" stroke="${['#c98a5a', '#f3d2ae', '#b9784c'][i % 3]}" stroke-width="70" opacity=".9"/>`;
+  const d = ease(P(t, .2, 3)), y = 40 + d * 470, sq = d > .85 ? 1 - (d - .85) * 3 : 1;
+  g += `<g transform="translate(500,${r1(y)}) scale(${r1(1 + (1 - sq) * .6)},${r1(sq)})">` + poly([[0, -70], [36, -10], [36, 50], [-36, 50], [-36, -10]], '#f4f4f0', 6) + `<circle cx="0" cy="0" r="16" fill="#7fd3f3" stroke="${INK}" stroke-width="5"/>` + '</g>';
+  if (d > .85) g += txt('CRUNCH!', 500, 300, 90, RED, 'middle', .18, -6, eoBack(P(d, .85, .95)));
+  return g + txt('NO SURFACE!', 500, 70, 60, '#fff', 'middle', .22, -2, eoBack(P(t, .3, .6)));
+};
+SC.fill = (s, t, b) => {
+  let g = roughSVG('circle', [500, 330, 520], { stroke: INK, strokeWidth: 8, fill: 'rgba(232,185,138,.25)', fillStyle: 'solid' }, b);
+  const f = ease(P(t, .3, 3.2)), n = 330, show = Math.floor(n * f);
+  for (let i = 0; i < show; i++) { const a = i * 2.39996, rr = 240 * Math.sqrt((i + .5) / n); g += `<circle cx="${r1(500 + Math.cos(a) * rr)}" cy="${r1(330 + Math.sin(a) * rr)}" r="9" fill="#6fa8e8" stroke="${INK}" stroke-width="2"/>`; }
+  return g + txt(Math.round(s.count * f).toLocaleString('en-US'), 500, 350, 120, YEL, 'middle', .16) + txt(s.label, 500, 50, 58, '#fff', 'middle', .22, -2, eoBack(P(t, .2, .5)));
+};
+SC.bignum = (s, t, b) => {
+  let g = '';
+  for (let i = 0; i < 16; i++) { const a = i / 16 * Math.PI * 2 + t * .4; g += `<line x1="${500 + Math.cos(a) * 170}" y1="${290 + Math.sin(a) * 170}" x2="${500 + Math.cos(a) * 300}" y2="${290 + Math.sin(a) * 300}" stroke="${YEL}" stroke-width="10" stroke-linecap="round" opacity=".5"/>`; }
+  return g + txt(s.value, 500, 340, 170, YEL, 'middle', .14, -3, eoBack(P(t, .1, .5))) + txt(s.label, 500, 500, 48, '#fff', 'middle', .22, 0, eoBack(P(t, .4, .7)));
+};
+SC.wind = (s, t, b) => {
+  let g = '';
+  for (let i = 0; i < 18; i++) { const y = 40 + rnd(i) * 520, x = ((t * (900 + rnd(i * 3) * 600) + rnd(i * 5) * 1200) % 1300) - 200; g += pen(jitter([[x, y], [x + 80, y - 6], [x + 160, y]], b + i, 2), 1, 8, '#bfe0ff'); }
+  const p = ease(P(t, .2, 1.4)), a = Math.PI * (1 + p * .95) + (p > .95 ? Math.sin(t * 40) * .03 : 0);
+  g += `<path d="M300,420 A200,200 0 0 1 700,420" fill="#fff" stroke="${INK}" stroke-width="8"/>`;
+  for (let i = 0; i <= 8; i++) { const aa = Math.PI * (1 + i / 8); g += stick(500 + Math.cos(aa) * 170, 420 + Math.sin(aa) * 170, 500 + Math.cos(aa) * 195, 420 + Math.sin(aa) * 195, i > 6 ? 8 : 5); }
+  g += `<line x1="500" y1="420" x2="${r1(500 + Math.cos(a) * 170)}" y2="${r1(420 + Math.sin(a) * 170)}" stroke="${RED}" stroke-width="12" stroke-linecap="round"/><circle cx="500" cy="420" r="18" fill="${INK}"/>`;
+  return g + txt(s.value, 500, 530, 80, YEL, 'middle', .18, -2, eoBack(P(t, 1, 1.3))) + txt(s.label, 500, 80, 50, '#fff', 'middle', .22);
+};
+SC.sunlight = (s, t, b) => {
+  let g = planet('sun', 90, 300, 110, t, b) + planet('earth', 300, 300, 30, t, b) + planet('neptune', 900, 300, 60, t, b + 1);
+  const p = ease(P(t, .4, 3.4)); g += `<line x1="200" y1="300" x2="${r1(200 + 630 * p)}" y2="300" stroke="${YEL}" stroke-width="16" stroke-linecap="round" stroke-dasharray="30 18"/>`;
+  return g + txt('8 MIN', 300, 400, 40, '#fff', 'middle', .22, 0, eoBack(P(t, .6, .9))) + txt(s.label, 900, 420, 56, YEL, 'middle', .2, 0, eoBack(P(t, 3.2, 3.5))) + txt('SUNLIGHT TRAVEL TIME', 500, 90, 48, '#fff', 'middle', .22);
+};
+SC.glassrain = (s, t, b) => {
+  let g = roughSVG('rectangle', [0, 0, 1000, 600], { fill: '#2f56c9', fillStyle: 'solid', stroke: 'none' }, b);
+  for (let i = 0; i < 4; i++) g += roughSVG('ellipse', [150 + i * 240, 90 + (i % 2) * 30, 260, 90], { fill: '#8fb0ff', fillStyle: 'solid', stroke: INK, strokeWidth: 5 }, b + i);
+  for (let i = 0; i < 26; i++) { const y = 170 + rnd(i) * 400, x = ((t * 700 + rnd(i * 7) * 1300) % 1300) - 150; g += `<polygon points="${r1(x)},${r1(y)} ${r1(x + 46)},${r1(y + 8)} ${r1(x + 10)},${r1(y + 22)}" fill="#e8f8ff" stroke="${INK}" stroke-width="3"/>` + `<line x1="${r1(x - 70)}" y1="${r1(y + 8)}" x2="${r1(x - 10)}" y2="${r1(y + 10)}" stroke="#fff" stroke-width="3" opacity=".6"/>`; }
+  return g + txt('GLASS RAIN →', 500, 570, 54, YEL, 'middle', .2, -2);
+};
+SC.nomoon = (s, t, b) => {
+  let g = planet('venus', 500, 320, 150, t, b, { face: true });
+  g += `<ellipse cx="500" cy="320" rx="330" ry="120" fill="none" stroke="#fff" stroke-width="5" stroke-dasharray="18 14" opacity=".7"/>`;
+  const a = t * 1.2; g += txt('?', 500 + Math.cos(a) * 330, 340 + Math.sin(a) * 120, 80, YEL, 'middle', .18);
+  return g + txt('NO MOON!', 500, 80, 64, YEL, 'middle', .2, -2, eoBack(P(t, .3, .6)));
+};
+SC.acid = (s, t, b) => {
+  let g = '';
+  for (let i = 0; i < 3; i++) g += roughSVG('ellipse', [220 + i * 280, 200, 300, 150], { fill: '#d9e36a', fillStyle: 'solid', stroke: INK, strokeWidth: 6 }, b + i);
+  for (let i = 0; i < 14; i++) { const x = 120 + (i * 61) % 760, y = 270 + ((t * 220 + i * 47) % 300); g += `<path d="M${x},${y} q-12,22 0,28 q12,-6 0,-28z" fill="#9be15d" stroke="${INK}" stroke-width="4"/>`; }
+  return g + txt('ACID CLOUDS!', 500, 80, 64, '#9be15d', 'middle', .2, -2, eoBack(P(t, .3, .6)));
+};
+SC.nightsky = (s, t, b) => {
+  let g = roughSVG('rectangle', [0, 0, 1000, 600], { fill: '#141b38', fillStyle: 'solid', stroke: 'none' }, b) + starsBox(1000, 420, 40, t, 9);
+  g += planet('moon', 790, 140, 60, t, b);
+  const tw = 1 + Math.sin(t * 6) * .15; g += `<g transform="translate(260,170) scale(${tw})">` + star5(0, 0, 34, '#fff7c2') + '</g>';
+  g += txt(s.label, 260, 260, 46, YEL, 'middle', .22, 0, eoBack(P(t, .6, .9)));
+  g += roughSVG('rectangle', [-20, 470, 1040, 150], { fill: '#2b3a2e', fillStyle: 'solid', stroke: INK, strokeWidth: 6 }, b);
+  g += `<g transform="translate(560,470)">` + poly([[-90, 0], [-90, -110], [0, -180], [90, -110], [90, 0]], '#c9894e', 6) + `<rect x="-40" y="-90" width="50" height="50" fill="#f9d65c" stroke="${INK}" stroke-width="5"/></g>`;
+  return g;
+};
+SC.math = (s, t, b) => {
+  let g = roughSVG('rectangle', [60, 40, 880, 420], { fill: '#2f5b45', fillStyle: 'solid', stroke: '#8a5a34', strokeWidth: 18 }, b);
+  const eq = ['x + y = ?', 'orbit ≠ predicted', '→ hidden planet!'];
+  eq.forEach((e, i) => g += `<text x="120" y="${130 + i * 100}" font-family="Poppins, sans-serif" font-weight="500" font-size="54" fill="#f2f2e8" opacity="${r1(clamp(P(t, i * .6, i * .6 + .3)))}">${e}</text>`);
+  g += planet('neptune', 800, 250, 70 * eoBack(P(t, 2, 2.4)), t, b);
+  return g + txt('FOUND WITH MATH · 1846', 500, 550, 52, YEL, 'middle', .2, -2, eoBack(P(t, 2.2, 2.5)));
+};
+SC.voyager = (s, t, b) => {
+  let g = planet('neptune', 720, 330, 170, t, b);
+  const x = -150 + ((t * 120) % 1300), y = 200 + Math.sin(t) * 20;
+  g += `<g transform="translate(${r1(x)},${r1(y)}) rotate(-10)">` + stick(-80, 0, 80, 0, 6) + stick(0, 0, 0, 70, 5) + `<path d="M-50,-60 A70,70 0 0 0 50,-60 Z" fill="#f4f4f0" stroke="${INK}" stroke-width="6"/>` + `<rect x="-22" y="-20" width="44" height="40" fill="#d6b45a" stroke="${INK}" stroke-width="5"/></g>`;
+  return g + txt(s.label, 500, 80, 60, YEL, 'middle', .2, -2, eoBack(P(t, .4, .7)));
+};
+SC.daynight = (s, t, b) => {
+  let g = planet('sun', 60, 300, 200, t, b);
+  g += planet('exo', 640, 300, 190, t, b + 1);
+  g += `<path d="M640,110 A190,190 0 0 1 640,490 Z" fill="#0b1026" opacity=".75"/>`;
+  return g + txt('DAY', 540, 310, 54, YEL, 'middle', .22) + txt('NIGHT', 740, 310, 54, '#c9d3ff', 'middle', .22) + txt('FOREVER!', 640, 570, 54, '#fff', 'middle', .22, -2, eoBack(P(t, .8, 1.1)));
+};
+SC.speed = (s, t, b) => {
+  if (!s.n) { let g = ''; for (let i = 0; i < 3; i++) g += pen(jitter([[300 + i * 160, 100], [250 + i * 160, 300], [330 + i * 160, 300], [270 + i * 160, 500]], b + i, 2), ease(P(t, i * .1, .3 + i * .1)), 22, YEL); return g + txt(s.text, 500, 340, 110, '#fff', 'middle', .16, -4, eoBack(P(t, .1, .5))); }
+  let g = `<g transform="translate(500,300) rotate(${(s.n % 2 ? -2 : 2)}) scale(${eoBack(P(t, 0, .35))})">` + roughSVG('rectangle', [-430, -230, 860, 460], { fill: '#fdfcf7', fillStyle: 'solid', stroke: INK, strokeWidth: 8 }, b) + '</g>';
+  g += `<g transform="translate(500,300) scale(${eoBack(P(t, 0, .35))}) translate(-500,-300)">` + planet(s.planet, 300, 300, 140, t, b + 2) + txt('#' + s.n, 720, 200, 100, RED, 'middle', .12) + '</g>';
+  const words = s.text.split(' '), lines = ['']; for (const w of words) { if ((lines.at(-1) + ' ' + w).trim().length > 12) lines.push(w); else lines[lines.length - 1] = (lines.at(-1) + ' ' + w).trim(); }
+  lines.forEach((l, i) => g += txt(l, 690, 310 + i * 64, 52, INK, 'middle', 0, 0, eoBack(P(t, .3, .6))));
+  return g;
+};
+const ORDER8 = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune'];
+SC.map = (s, t, b) => {
+  let g = planet('sun', -60, 300, 160, t, b);
+  const hi = (s.hi || '').split(',');
+  ORDER8.forEach((k, i) => { const x = 170 + i * 108, r = [14, 22, 23, 17, 46, 40, 30, 30][i];
+    g += `<ellipse cx="-60" cy="300" rx="${x + 60}" ry="${r1((x + 60) * .55)}" fill="none" stroke="#fff" stroke-width="2" opacity=".25"/>`;
+    const on = hi.includes(k), pop = on ? 1 + .15 * Math.sin(t * 6) : 1;
+    g += `<g transform="translate(${x},300) scale(${pop}) translate(${-x},-300)">` + planet(k, x, 300, r, t, b + i) + '</g>';
+    if (on) g += `<circle cx="${x}" cy="300" r="${r + 22}" fill="none" stroke="${YEL}" stroke-width="7"/>` + txt(k.toUpperCase(), x, 300 + r + 60, 30, YEL, 'middle', .25) + txt('#' + (i + 1), x, 300 - r - 32, 34, '#fff', 'middle', .25);
+  });
+  if (s.hi === 'none') g += txt('→ EVEN FURTHER!', 860, 120, 46, YEL, 'middle', .22, -3, eoBack(P(t, .3, .6)));
+  return g;
+};
+SC.pick = (s, t, b) => {
+  let g = txt('WHICH ONE WOULD YOU PICK?', 500, 70, 50, YEL, 'middle', .22, -2);
+  ['venus', 'jupiter', 'neptune', 'exo'].forEach((k, i) => { const x = 140 + i * 240, p = eoBack(P(t, .2 + i * .2, .5 + i * .2)); g += `<g transform="translate(${x},300) scale(${p}) translate(${-x},-300)">` + planet(k, x, 300, 90, t, b + i) + '</g>' + txt(String(i + 1), x, 470, 64, '#fff', 'middle', .2, 0, p); });
+  return g;
+};
+
+/* ---------- crew ---------- */
+const CREW = ['cosmo', 'zib', 'bolt', 'rocky', 'tik'];
+function drawChar(who, x, y, s, st, t, b) {
+  if (who === 'cosmo') return cosmo({ x, y, s: s * .78, ...st });
+  if (who === 'zib') return zib({ x, y, s: s * .95, ...st });
+  if (who === 'bolt') return bolt({ x, y, s: s * .9, ...st });
+  if (who === 'rocky') return rocky({ x, y, s: s * .78, ...st, boil: b });
+  let g = tik({ x, y, s: s * .62, armL: st.armL, armR: st.armR, look: st.look || [0, 0] });
+  if (st.talk > .15) g += `<g transform="translate(${r1(x)},${r1(y)}) scale(${s * .62})"><ellipse cx="9" cy="-246" rx="13" ry="${r1(4 + st.talk * 9)}" fill="#c9503f" stroke="${INK}" stroke-width="5"/></g>`;
+  return g;
+}
+function crewRow(cx, footY, s, t, b, ctx, gap) {
+  let g = '';
+  CREW.forEach((w, i) => {
+    const on = ctx.who === w, x = cx + (i - 2) * gap;
+    const bob = on ? Math.abs(Math.sin(t * 8)) * 12 * s : Math.sin(t * 2 + i) * 2;
+    const sc = on ? 1.12 : 1;
+    const st = { talk: on ? ctx.talk : 0, armR: on ? -45 + Math.sin(t * 6) * 18 : undefined, armL: undefined, look: on ? [0, 0] : [x < cx + (CREW.indexOf(ctx.who) - 2) * gap ? .6 : -.6, -.1] };
+    if (st.armR === undefined) delete st.armR; delete st.armL;
+    if (on) g += `<ellipse cx="${x}" cy="${footY + 6}" rx="${70 * s}" ry="${12 * s}" fill="${YEL}" opacity=".55"/>`;
+    const jx = (rnd(b * 3 + i) - .5) * 3, jy = (rnd(b * 5 + i) - .5) * 3, jr = (rnd(b * 7 + i) - .5) * 1.2;
+    g += `<g transform="translate(${r1(x + jx)},${r1(footY + jy)}) rotate(${r1(jr)}) scale(${sc}) translate(${-x},${-footY})">${drawChar(w, x, footY - bob, s * .55, st, t, b)}</g>`;
+  });
+  return g;
+}
+
+/* ---------- captions: 2-4 word chunks timed over the line ---------- */
+function chunks(say) { const w = say.split(' '), out = []; let cur = []; for (const x of w) { cur.push(x); if (cur.length >= 3 || /[.!?,]$/.test(x)) { out.push(cur.join(' ')); cur = []; } } if (cur.length) out.push(cur.join(' ')); return out; }
+function caption(line, T, x, y, size) {
+  if (!line || T > line.end + .25) return '';
+  const cs = chunks(line.say), tot = cs.reduce((a, c) => a + c.length, 0); let acc = 0, cur = cs[0], st = line.start;
+  for (const c of cs) { const d = (line.end - line.start) * c.length / tot; if (T >= line.start + acc) { cur = c; st = line.start + acc; } acc += d; }
+  const pop = lerp(.75, 1, eoBack((T - st) / .14)), sz = Math.min(size, size * 16 / Math.max(10, cur.length));
+  return `<g transform="translate(${x},${y}) scale(${r1(pop * 100) / 100})"><text text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="${r1(sz)}" fill="#fff" stroke="${INK}" stroke-width="${r1(sz * .2)}" paint-order="stroke" stroke-linejoin="round" letter-spacing="3">${cur.toUpperCase().replace(/&/g, '&amp;')}</text></g>`;
+}
+
+/* ---------- frame ---------- */
+let TL = null, LAYOUT = 'long', SHORT_TITLE = '', PAPER = '';
+function makePaper(w, h) { const c = document.createElement('canvas'); c.width = w / 2; c.height = h / 2; const x = c.getContext('2d'), d = x.createImageData(c.width, c.height); for (let i = 0; i < d.data.length; i += 4) { const v = Math.random(); d.data[i] = d.data[i + 1] = 235; d.data[i + 2] = 220; d.data[i + 3] = v > .5 ? (v - .5) * 34 : 0; } x.putImageData(d, 0, 0); return c.toDataURL('image/png'); }
+window.setup = (tl, layout, shortTitle) => { TL = tl; LAYOUT = layout; SHORT_TITLE = shortTitle || ''; const W2 = layout === 'long' ? 1920 : 1080, H2 = layout === 'long' ? 1080 : 1920; stage.setAttribute('width', W2); stage.setAttribute('height', H2); stage.setAttribute('viewBox', `0 0 ${W2} ${H2}`); PAPER = makePaper(W2, H2); };
+window.renderFrame = function (f) {
+  const T = f / TL.fps, b = Math.floor(f * 2 / 3) + 1;
+  const L = TL.lines; let li = -1, si = 0;
+  for (let i = 0; i < L.length; i++) { if (T >= L[i].start - .3) li = i; if (L[i].show && T >= L[i].start - .3) si = i; }
+  const line = li >= 0 ? L[li] : null, sl = L[si], show = sl.show || { type: 'crew' };
+  const speaking = line && T >= line.start && T <= line.end + .15;
+  const ctx = { who: speaking ? line.who : null, talk: speaking ? (TL.talk[f] || 0) : 0, lineEnd: sl.end - sl.start + .3 };
+  ctx.revealed = show.type === 'quiz' && false;
+  const t = T - (sl.start - .3);
+  const W2 = LAYOUT === 'long' ? 1920 : 1080, H2 = LAYOUT === 'long' ? 1080 : 1920;
+  const box = LAYOUT === 'long' ? { x: 335, y: 8, s: 1.25 } : { x: 25, y: 370, s: 1.03 };
+  let inner = (SC[show.type] || SC.crew)(show, t, b, ctx);
+  let g = starsBox(W2, H2, LAYOUT === 'long' ? 90 : 110, T, 3);
+  g += `<g transform="translate(${box.x},${box.y}) scale(${box.s})">${inner}</g>`;
+  if (!['lineup', 'crew'].includes(show.type)) g += LAYOUT === 'long' ? crewRow(960, 1066, .95, T, b, ctx, 190) : crewRow(540, 1530, 1.15, T, b, ctx, 205);
+  let cap = speaking || (line && T < line.end + .25) ? caption(line, T, W2 / 2, LAYOUT === 'long' ? 815 : 1135, LAYOUT === 'long' ? 62 : 80) : '';
+  let top = '';
+  if (LAYOUT === 'short' && SHORT_TITLE) {
+    const ws = SHORT_TITLE.toUpperCase().split(' '), ls = ['']; for (const w of ws) { if ((ls.at(-1) + ' ' + w).trim().length > 18) ls.push(w); else ls[ls.length - 1] = (ls.at(-1) + ' ' + w).trim(); }
+    ls.forEach((l, i) => top += txt(l, 540, 190 + i * 78 - (ls.length - 1) * 20, 66, i ? YEL : '#fff', 'middle', .2, -2));
+  }
+  stage.innerHTML = `<rect width="${W2}" height="${H2}" fill="${SPACE}"/><image href="${PAPER}" x="0" y="0" width="${W2}" height="${H2}" preserveAspectRatio="none"/>${g}` + cap + top;
+};
+await document.fonts.ready;
+window.ready = true;

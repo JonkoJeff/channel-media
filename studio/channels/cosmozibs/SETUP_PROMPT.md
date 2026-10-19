@@ -36,7 +36,7 @@ Werk met de ponytail-skill: kleinste complete wijziging, hergebruik wat er is. G
 - Volgorde: `cz_episode` → `cz_audit` → `cz_thumb` + 4× `cz_cover` → commit de jpg's → pas dan `cosmozibs.yml`. De workflow gebruikt de geschilderde versies; de getekende zijn alleen nog de nood-fallback.
 - Claude controleert elk beeld (spelling, max 3 woorden, stijl, niets in de gecropte rand) en keurt één keer af; daarna maakt Codex het opnieuw.
 - Voor een al ingeplande post: commit de nieuwe jpg en draai `zernio.yml cmd=rethumb a=czNN`. Een al gepubliceerde video krijgt de thumbnail via YouTube Studio.
-- Kanaal is (nog) niet geverifieerd (eigenaar 19 okt): YouTube toont dan geen eigen thumbnail bij lange video's. Upload ze toch via Zernio; zodra het kanaal ooit geverifieerd is, draai `rethumb` voor wat nog gepland staat. Shorts: de cover staat ook als eerste beeld in de Short en als TikTok-cover.
+- Kanaal is (nog) niet geverifieerd (eigenaar 19 okt): YouTube toont dan geen eigen thumbnail bij lange video's. Upload ze toch via Zernio; zodra het kanaal ooit geverifieerd is, draai `rethumb` voor wat nog gepland staat. Shorts: de cover gaat mee als post-thumbnail (ook TikTok).
 
 ## Harde regels
 - Keys alleen als GitHub Actions-secret, nooit in de repo, CLAUDE.md of een log. De repo is publiek.

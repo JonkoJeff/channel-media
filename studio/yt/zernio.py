@@ -283,5 +283,5 @@ elif cmd == "post":
     else:
         post = p.get("post", p)
         if st == 207 or post.get("status") == "failed": sys.exit(f"::error::Zernio post failed: {json.dumps(post)[:800]}")
-    res.update(zernio_id=post.get("_id"), scheduled=when + "+02:00", route="zernio"); json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1)
+    res.update(zernio_id=post.get("_id"), scheduled=f"{when} {tz(v.get('channel', 'crazyfacts'))}", route="zernio"); json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1)
     print(f"::notice::{vid} scheduled via Zernio for {when}: post {post.get('_id')}")

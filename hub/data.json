@@ -1,17 +1,77 @@
 {
- "updated": "2026-10-18T09:22Z",
- "checked_at": "2026-10-18T09:22Z",
+ "updated": "2026-10-19T10:34Z",
+ "checked_at": "2026-10-19T10:34Z",
  "channels": [
   {
    "key": "default",
    "id": "UCynthMQNy9uDsuHcewQDERg",
    "title": "Brain After Dark",
-   "viewCount": 884,
+   "viewCount": 919,
    "subscriberCount": 4,
-   "videoCount": 35
+   "videoCount": 40
   }
  ],
  "videos": [
+  {
+   "channel": "Brain After Dark",
+   "id": "RFKKtZs2SeU",
+   "title": "The interpreter in your head #shorts",
+   "published": "2026-10-18 21:30",
+   "duration": "PT49S",
+   "views": 1,
+   "likes": 0,
+   "comments": 0,
+   "seconds": 49,
+   "type": "Short"
+  },
+  {
+   "channel": "Brain After Dark",
+   "id": "9nVb1K1C0vA",
+   "title": "The marshmallow test was really about trust #shorts",
+   "published": "2026-10-18 19:00",
+   "duration": "PT51S",
+   "views": 4,
+   "likes": 0,
+   "comments": 0,
+   "seconds": 51,
+   "type": "Short"
+  },
+  {
+   "channel": "Brain After Dark",
+   "id": "ByELXcbMerU",
+   "title": "False Memories | Calm Psychology for Sleep",
+   "published": "2026-10-18 18:00",
+   "duration": "PT2H32M31S",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "seconds": 9151,
+   "type": "Long"
+  },
+  {
+   "channel": "Brain After Dark",
+   "id": "Vnjz6srh8t4",
+   "title": "The split brain experiment #shorts",
+   "published": "2026-10-18 16:00",
+   "duration": "PT48S",
+   "views": 1,
+   "likes": 0,
+   "comments": 0,
+   "seconds": 48,
+   "type": "Short"
+  },
+  {
+   "channel": "Brain After Dark",
+   "id": "ZeKK2sn-dng",
+   "title": "The marshmallow test secret #shorts",
+   "published": "2026-10-18 13:00",
+   "duration": "PT57S",
+   "views": 10,
+   "likes": 0,
+   "comments": 0,
+   "seconds": 57,
+   "type": "Short"
+  },
   {
    "channel": "Brain After Dark",
    "id": "FLZYCP0v4o8",
@@ -42,7 +102,7 @@
    "title": "Why Some People Read the Ending First",
    "published": "2026-10-17 18:00",
    "duration": "PT1H4M44S",
-   "views": 7,
+   "views": 21,
    "likes": 0,
    "comments": 0,
    "seconds": 3884,
@@ -54,7 +114,7 @@
    "title": "Choice blindness #shorts",
    "published": "2026-10-17 16:00",
    "duration": "PT55S",
-   "views": 2,
+   "views": 1,
    "likes": 0,
    "comments": 0,
    "seconds": 55,
@@ -547,6 +607,27 @@
    "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/renders/rel04/thumb.jpg"
   },
   {
+   "id": "rel11",
+   "title": "The Birth of Jesus: Bethlehem and the Beginning",
+   "scheduled": "2026-10-22T20:00+02:00",
+   "length": null,
+   "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/channels/religion/thumbs/11.jpg"
+  },
+  {
+   "id": "rel12",
+   "title": "Jesus in the Wilderness: The Forty Days of Temptation",
+   "scheduled": "2026-10-23T20:00+02:00",
+   "length": null,
+   "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/channels/religion/thumbs/12.jpg"
+  },
+  {
+   "id": "rel13",
+   "title": "The Sermon on the Mount: The Teachings That Changed the World",
+   "scheduled": "2026-10-24T20:00+02:00",
+   "length": null,
+   "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/channels/religion/thumbs/13.jpg"
+  },
+  {
    "id": "rel21",
    "title": "Before Humanity: The Creation of the Heavens and Earth",
    "scheduled": "2026-10-13T10:00+02:00",
@@ -575,18 +656,17 @@
    "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/studio/channels/religion/thumbs/Q04.jpg"
   }
  ],
- "in_progress": [],
+ "in_progress": [
+  {
+   "id": "lf16",
+   "title": "Brain Myths You Probably Still Believe",
+   "blocks": "4/4"
+  }
+ ],
  "approved": false,
- "views24": 25,
+ "views24": 29,
  "subs24": 0,
  "schedule": [
-  {
-   "status": "gepland",
-   "title": "False Memories | Calm Psychology for Sleep",
-   "time": "20:00",
-   "length": null,
-   "date": "2026-10-18"
-  },
   {
    "status": "gepland",
    "title": "The Strange Case of Robbers Cave",
@@ -609,35 +689,45 @@
    "date": "2026-10-21"
   },
   {
-   "status": "open",
-   "title": "nog leeg \u00b7 de machine vult dit automatisch",
-   "time": "17:00",
+   "status": "gepland",
+   "title": "The Birth of Jesus: Bethlehem and the Beginning",
+   "time": "20:00",
+   "length": null,
    "date": "2026-10-22"
   },
   {
-   "status": "open",
-   "title": "nog leeg \u00b7 de machine vult dit automatisch",
-   "time": "17:00",
+   "status": "gepland",
+   "title": "Jesus in the Wilderness: The Forty Days of Temptation",
+   "time": "20:00",
+   "length": null,
    "date": "2026-10-23"
   },
   {
-   "status": "open",
-   "title": "nog leeg \u00b7 de machine vult dit automatisch",
-   "time": "17:00",
+   "status": "gepland",
+   "title": "The Sermon on the Mount: The Teachings That Changed the World",
+   "time": "20:00",
+   "length": null,
    "date": "2026-10-24"
+  },
+  {
+   "status": "in de maak",
+   "title": "Brain Myths You Probably Still Believe",
+   "time": "17:00",
+   "blocks": "4/4",
+   "date": "2026-10-25"
   }
  ],
- "metricool_used": 55,
+ "metricool_used": 63,
  "workflows": {
   "render-long.yml": {
    "status": "completed",
-   "conclusion": "success",
-   "at": "2026-10-16T08:18Z"
+   "conclusion": "failure",
+   "at": "2026-10-19T07:58Z"
   },
   "stats.yml": {
    "status": "in_progress",
    "conclusion": null,
-   "at": "2026-10-18T09:22Z"
+   "at": "2026-10-19T10:34Z"
   },
   "trends.yml": {
    "status": "completed",
@@ -647,12 +737,12 @@
   "screenshots.yml": {
    "status": "completed",
    "conclusion": "success",
-   "at": "2026-10-16T07:58Z"
+   "at": "2026-10-19T07:57Z"
   },
   "youtube.yml": {
    "status": "completed",
    "conclusion": "success",
-   "at": "2026-10-17T11:01Z"
+   "at": "2026-10-18T11:30Z"
   },
   "upscale.yml": {
    "status": "completed",

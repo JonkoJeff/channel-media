@@ -91,5 +91,12 @@
   "never reuse a script with only the topic swapped (inauthentic content)",
   "never copy titles, thumbnails or scripts of other channels: patterns only",
   "no voice effects: no robot voices"
- ]
+ ],
+ "tiktok": {
+  "enabled": true,
+  "how": "every Short goes to YouTube Shorts and TikTok in one Zernio post",
+  "zernio_account": "fill in tiktok.cosmozibs in studio/yt/zernio.json after zernio.yml cmd=accounts",
+  "settings": "public, comments/duet/stitch on, AI-generated label on",
+  "limit": "max 15 videos per 24 h per TikTok account (Zernio holds the rest)"
+ }
 }

@@ -124,9 +124,14 @@ elif cmd == "shorts":
         when = f"{day + dt.timedelta(days=n // len(slots))}T{slots[n % len(slots)]}"
         psd = {"title": (m.get("title") or v["title"])[:90] + " #shorts", "visibility": "public", "categoryId": "27", "madeForKids": False, "containsSyntheticMedia": True}
         if plid: psd["playlistId"] = plid
-        body = {"content": f"{m.get('title', '')}\n\n{'Full documentary' if ch == 'religion' else 'Full calm 2.5-hour video'} on the channel: {v['title']}\n\n" + " ".join(m.get("tags", ["#shorts"])) + "\n\nNarration is AI-generated (synthetic voice).",
+        body = {"content": f"{m.get('title', '')}\n\n{'Full documentary' if ch == 'religion' else 'Full episode' if ch == 'cosmozibs' else 'Full calm 2.5-hour video'} on the channel: {v['title']}\n\n" + " ".join(m.get("tags", ["#shorts"])) + "\n\nNarration is AI-generated (synthetic voice).",
                 "tags": [t.lstrip("#") for t in m.get("tags", [])], "mediaItems": [{"type": "video", "url": ps["publicUrl"], **({"thumbnail": th} if th else {})}],
                 "platforms": [{"platform": "youtube", "accountId": yt_account(ch), "platformSpecificData": psd}], "scheduledFor": when, "timezone": "Europe/Amsterdam"}
+        tt = cfg.get("tiktok", {}).get(ch)   # same Short also to TikTok (owner 19 Oct, Cosmozibs): only for channels with a TikTok account in zernio.json
+        if tt:
+            body["platforms"].append({"platform": "tiktok", "accountId": tt})
+            body["tiktokSettings"] = {"privacy_level": "PUBLIC_TO_EVERYONE", "allow_comment": True, "allow_duet": True, "allow_stitch": True, "commercial_content_type": "none",
+                                      "content_preview_confirmed": True, "express_consent_given": True, "media_type": "video", "auto_add_music": False, "video_made_with_ai": True}
         st, p = call("POST", "/posts", body, soft=True)
         if st is None:   # no answer: the post may exist. Look, never re-post
             import time; time.sleep(20); ex = existing(body["content"][:40])

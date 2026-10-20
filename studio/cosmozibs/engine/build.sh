@@ -3,7 +3,7 @@
 set -euo pipefail
 ID=$1; N=${2:-4}; MODE=${3:-full}; D=build/$ID; HERE=$(cd "$(dirname "$0")" && pwd); cd "$HERE"
 EP=../episodes/$ID.json; [ -f ../../channels/faith/episodes/$ID.json ] && EP=../../channels/faith/episodes/$ID.json   # Faith Doodles (TikTok only)
-cat core.part cast.part scenes.part > engine.js; cat core.part cast.part scenes.part thumbs.part > thumbs.js
+cat core.part cast.part scenes.part puppet.part > engine.js; cat core.part cast.part scenes.part thumbs.part > thumbs.js
 if [ "$MODE" = tiktok ]; then :; elif [ "$MODE" = clips ]; then python3 voice.py "$EP" clips; else python3 voice.py "$EP"; node thumbs.mjs "$D/thumbs" "$EP"; fi
 render() { # timeline layout outname title
   local TL=$1 LAY=$2 OUT=$3 TITLE=${4:-}; local FR=$(python3 -c "import json;print(len(json.load(open('$TL'))['talk']))")

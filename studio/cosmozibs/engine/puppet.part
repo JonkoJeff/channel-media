@@ -1,0 +1,122 @@
+/* ================= Faith Doodles cut-out puppet with a skeleton (owner 20 Oct: "make the in-betweens yourself, correct theory and anatomy")
+   Every frame is computed: walk cycle with planted feet (contact / down / passing / up), 2-bone IK legs and arms, arcs,
+   slow-in/slow-out, anticipation, follow-through and overlapping action (hair, bag, tunic hem on damped springs), squash & stretch. */
+const PK = { skin: '#f2a37b', tunic: '#f2b14d', tunicD: '#d9902f', hair: '#4a2c1a', bag: '#a0703d', sandal: '#7a4a2a', W: 7 };
+const ik = (hx, hy, fx, fy, L1, L2, dir) => {   // returns knee/elbow; dir +1 bends toward +x
+  let dx = fx - hx, dy = fy - hy, d = Math.hypot(dx, dy); const m = L1 + L2 - .5; if (d > m) { fx = hx + dx / d * m; fy = hy + dy / d * m; dx = fx - hx; dy = fy - hy; d = m; }
+  const a = Math.atan2(dy, dx), al = Math.acos(clamp((L1 * L1 + d * d - L2 * L2) / (2 * L1 * d), -1, 1));
+  return [hx + Math.cos(a - al * dir) * L1, hy + Math.sin(a - al * dir) * L1, fx, fy];
+};
+const bone = (pts, w, fill) => { const d = 'M' + pts.map(p => r1(p[0]) + ',' + r1(p[1])).join(' L');
+  return `<path d="${d}" fill="none" stroke="${INK}" stroke-width="${w + PK.W * 2}" stroke-linecap="round" stroke-linejoin="round"/><path d="${d}" fill="none" stroke="${fill}" stroke-width="${w}" stroke-linecap="round" stroke-linejoin="round"/>`; };
+function puppetDavid(P) {   // P: hip, lean, feet[2], arms[2] (hand targets), head, face, sling, hem, bag, hair
+  const { hx, hy, lean } = P, rot = (x, y) => { const a = lean * Math.PI / 180, dx = x - hx, dy = y - hy; return [hx + dx * Math.cos(a) - dy * Math.sin(a), hy + dx * Math.sin(a) + dy * Math.cos(a)]; };
+  const [sx, sy] = rot(hx + 4, hy - 112), [nx, ny] = rot(hx + 6, hy - 128);   // shoulder, neck
+  const leg = (f, back) => { const [kx, ky, ax, ay] = ik(hx + (back ? -10 : 10), hy, f[0], f[1] - 8, 70, 66, 1);
+    return bone([[hx + (back ? -10 : 10), hy], [kx, ky], [ax, ay]], 26, back ? '#e2916a' : PK.skin) +
+      `<g transform="translate(${r1(ax + 12)},${r1(ay + 8)}) rotate(${r1(f[2] || 0)})"><ellipse rx="25" ry="10" fill="${PK.sandal}" stroke="${INK}" stroke-width="${PK.W - 1}"/><path d="M-6,-8 l10,-10" stroke="${INK}" stroke-width="5"/></g>`; };
+  const arm = (hand, back) => { const ox = back ? -8 : 10, [ex, ey, wx, wy] = ik(sx + ox, sy, hand[0], hand[1], 50, 48, -1);
+    return bone([[sx + ox, sy], [ex, ey], [wx, wy]], 22, back ? '#e2916a' : PK.skin) + `<circle cx="${r1(wx)}" cy="${r1(wy)}" r="15" fill="${back ? '#e2916a' : PK.skin}" stroke="${INK}" stroke-width="${PK.W}"/>`; };
+  let g = arm(P.arms[1], 1) + leg(P.feet[1], 1);
+  // tunic: shoulders to hem, hem lags behind (overlap)
+  const [l1x, l1y] = rot(hx - 40, hy - 118), [r1x, r1y] = rot(hx + 44, hy - 118), [l2x, l2y] = rot(hx - 50 + P.hem * .5, hy + 34), [r2x, r2y] = rot(hx + 52 + P.hem, hy + 30);
+  g += `<path d="M${r1(l1x)},${r1(l1y)} Q${r1((l1x + r1x) / 2)},${r1(l1y - 14)} ${r1(r1x)},${r1(r1y)} L${r1(r2x)},${r1(r2y)} Q${r1((l2x + r2x) / 2 + P.hem * .3)},${r1((l2y + r2y) / 2 + 12)} ${r1(l2x)},${r1(l2y)}Z" fill="${PK.tunic}" stroke="${INK}" stroke-width="${PK.W}" stroke-linejoin="round"/>`;
+  const [b1x, b1y] = rot(hx - 46, hy - 6), [b2x, b2y] = rot(hx + 48, hy - 6);
+  g += `<path d="M${r1(b1x)},${r1(b1y)} L${r1(b2x)},${r1(b2y)}" stroke="${INK}" stroke-width="16" stroke-linecap="round"/><path d="M${r1(b1x)},${r1(b1y)} L${r1(b2x)},${r1(b2y)}" stroke="#b07a3a" stroke-width="9" stroke-linecap="round"/>`;
+  // shoulder strap + bag on a pendulum
+  const [bx, by] = rot(hx - 18, hy + 8), ba = P.bag;
+  g += `<path d="M${r1(sx + 26)},${r1(sy - 2)} L${r1(bx)},${r1(by)}" stroke="${INK}" stroke-width="7"/>`;
+  g += `<g transform="translate(${r1(bx)},${r1(by)}) rotate(${r1(ba)})"><rect x="-20" y="0" width="40" height="34" rx="8" fill="${PK.bag}" stroke="${INK}" stroke-width="${PK.W - 1}"/><path d="M-20,8 Q0,16 20,8" fill="none" stroke="${INK}" stroke-width="4"/></g>`;
+  g += leg(P.feet[0], 0);
+  // head: on the neck, delayed bob, tilt
+  const hc = [nx + 8 + P.head[0], ny - 62 + P.head[1]], ht = P.head[2];
+  g += `<g transform="translate(${r1(hc[0])},${r1(hc[1])}) rotate(${r1(ht)})">`;
+  g += `<path d="M-74,6 C-92,-50 -60,-92 -8,-90 C40,-102 84,-62 70,-18 C64,-40 50,-52 34,-50 C30,-66 0,-70 -12,-58 C-30,-70 -52,-56 -50,-38 C-66,-36 -74,-20 -74,6Z" fill="${PK.hair}" stroke="${INK}" stroke-width="${PK.W}" stroke-linejoin="round" transform="translate(${r1(P.hair * -.5)},0) rotate(${r1(P.hair * .3)})"/>`;
+  g += `<path d="M-62,-30 C-74,10 -64,52 -20,64 C20,74 64,56 70,10 C74,-20 64,-44 40,-50 C10,-58 -40,-58 -62,-30Z" fill="${PK.skin}" stroke="${INK}" stroke-width="${PK.W}" stroke-linejoin="round"/>`;
+  g += `<path d="M-74,-6 C-86,-40 -64,-74 -20,-74 C6,-82 30,-74 44,-58 C26,-60 6,-54 -6,-44 C-26,-52 -46,-40 -46,-24 C-60,-24 -66,-16 -74,-6Z" fill="${PK.hair}" stroke="${INK}" stroke-width="${PK.W}" stroke-linejoin="round"/>`;   // curly fringe
+  g += `<ellipse cx="-40" cy="8" rx="11" ry="15" fill="${PK.skin}" stroke="${INK}" stroke-width="6"/>`;   // ear
+  const F = P.face, lk = F.look || [0, 0];
+  if (F.blink) g += `<path d="M6,-6 q18,8 36,0 M38,-8 q16,8 30,0" stroke="${INK}" stroke-width="6" fill="none" stroke-linecap="round"/>`;
+  else {
+    const sq = F.squint ? .55 : 1;
+    g += `<ellipse cx="24" cy="-8" rx="24" ry="${r1(28 * sq)}" fill="#fff" stroke="${INK}" stroke-width="6"/><ellipse cx="56" cy="-10" rx="19" ry="${r1(24 * sq)}" fill="#fff" stroke="${INK}" stroke-width="6"/>`;
+    g += `<circle cx="${r1(30 + lk[0] * 8)}" cy="${r1(-6 + lk[1] * 8)}" r="9" fill="${INK}"/><circle cx="${r1(60 + lk[0] * 6)}" cy="${r1(-8 + lk[1] * 8)}" r="8" fill="${INK}"/>`;
+    if (F.squint) g += `<path d="M2,-34 l40,10 M40,-30 l32,4" stroke="${INK}" stroke-width="7" stroke-linecap="round"/>`;
+  }
+  g += `<path d="M66,10 q12,6 4,16" fill="none" stroke="${INK}" stroke-width="6" stroke-linecap="round"/>`;   // nose
+  g += F.mouth === 'o' ? `<ellipse cx="44" cy="40" rx="9" ry="11" fill="#8a2f2f" stroke="${INK}" stroke-width="5"/>` : F.mouth === 'grit' ? `<path d="M30,40 h30" stroke="${INK}" stroke-width="7" stroke-linecap="round"/>` : `<path d="M28,36 q16,14 32,0" fill="none" stroke="${INK}" stroke-width="6" stroke-linecap="round"/>`;
+  g += '</g>';
+  // sling: strap from the hand to the stone pouch
+  if (P.sling) { const [hx2, hy2, stx, sty] = P.sling; g += `<path d="M${r1(hx2)},${r1(hy2)} L${r1(stx)},${r1(sty)}" stroke="#7a5a3a" stroke-width="6" stroke-linecap="round"/><ellipse cx="${r1(stx)}" cy="${r1(sty)}" rx="13" ry="10" fill="#8a6a4a" stroke="${INK}" stroke-width="5"/>`; }
+  g += arm(P.arms[0], 0);
+  return g;
+}
+/* ---- the 5 s demo: walk in, stop, anticipation, wind-up, release, follow-through ---- */
+function davidDemo(t) {
+  const G = 950, T = .84, v = 230, tStop = 2.3, x0 = -120, base = G - 138;
+  const walkX = (tt) => x0 + v * Math.min(tt, tStop) + (tt > tStop ? v * .16 * (1 - Math.exp(-(tt - tStop) * 8)) : 0);   // ease to a stop
+  const xStopped = walkX(9);
+  let hx = walkX(t), hy = base, lean = 3, feet, arms, head = [0, 0, 0], face = { look: [.3, 0] }, sling = null, hemTarget = 0;
+  const S = v * T / 2;
+  const footAt = (p, front) => { p = ((p % 1) + 1) % 1; if (p < .5) return [hx + 8 + S / 2 - S * (p / .5), G, 0];
+    const u = (p - .5) / .5, lift = Math.sin(Math.PI * u) * 30; return [hx + 8 - S / 2 + S * eio(u), G - lift, -12 * Math.sin(Math.PI * u)]; };
+  if (t < tStop) {   // walk cycle
+    const p = t / T; hy = base + 9 * Math.cos(4 * Math.PI * (p - .06)); lean = 5 + 2 * Math.sin(4 * Math.PI * p);
+    feet = [footAt(p, 1), footAt(p + .5, 0)];
+    const sw = Math.cos(2 * Math.PI * p);
+    arms = [[hx + 10 - 34 * sw, hy - 40 + 10 * Math.abs(sw)], [hx - 8 + 34 * sw, hy - 40 + 10 * Math.abs(sw)]];
+    head = [0, 5 * Math.cos(4 * Math.PI * (p - .14)), 3 * Math.sin(2 * Math.PI * p)];
+    face.blink = (t % 1.7) > 1.62;
+  } else {   // stop, settle, then the sling
+    const ts = t - tStop, st = clamp(ts / .3);
+    const pEnd = tStop / T, fA = footAt(pEnd, 1), fB = footAt(pEnd + .5, 0);
+    feet = [[lerp(fA[0], xStopped + 34, eio(st)), G - Math.sin(Math.PI * st) * (fA[1] < G ? 20 : 0), 0], [lerp(fB[0], xStopped - 30, eio(st)), G - Math.sin(Math.PI * st) * (fB[1] < G ? 20 : 0), 0]];
+    lean = 3 + 7 * Math.exp(-ts * 6) * Math.cos(ts * 14);   // overshoot forward, settle
+    arms = [[hx + 18, hy - 34], [hx - 12, hy - 34]];
+    face.look = [.5, -.1];
+    const A0 = .45, A1 = .75, W0 = A1, W1 = 1.85, R = 1.95;   // anticipation, wind-up, release (s after stop)
+    if (ts > A0) {   // anticipation: crouch, sling arm cocks low and back, determined face
+      const k = eio(clamp((ts - A0) / (A1 - A0)));
+      hy = base + 24 * k; lean = 3 - 8 * k; face = { look: [.6, -.2], squint: 1, mouth: 'grit' };
+      arms = [[lerp(hx + 18, hx - 40, k), lerp(hy - 34, hy - 10, k)], [lerp(hx - 12, hx + 30, k), lerp(hy - 34, hy - 60, k)]];
+      head = [-4 * k, 6 * k, -6 * k];
+    }
+    if (ts > W0) {   // wind-up: the hand circles above the head, accelerating (slow-in), the stone trails on the strap
+      const k = clamp((ts - W0) / (W1 - W0)), ang = -Math.PI / 2 + 2 * Math.PI * 2.2 * k * k, cx = hx - 6, cy = hy - 250, rr = 34 + 10 * k;
+      const hand = [cx + Math.cos(ang) * rr, cy + Math.sin(ang) * rr * .55];
+      arms[0] = hand; const lag = .6 + .4 * k, sa = ang - lag, L = 78;
+      sling = [hand[0], hand[1], hand[0] + Math.cos(sa) * L, hand[1] + Math.sin(sa) * L * .55 + 10 * (1 - k)];
+      hy = base + 24 - 10 * k; lean = -5 + 3 * Math.sin(ang);
+      face = { look: [.7, -.2], squint: 1, mouth: 'grit' };
+    }
+    if (ts > W1) {   // release + follow-through: body whips forward, arm swings through and down across the body, back heel lifts
+      const k = clamp((ts - W1) / (R - W1)), f = clamp((ts - R) / .9);
+      lean = lerp(-2, 14, eo3(k)) - 10 * eo3(f) + 3 * Math.exp(-f * 5) * Math.sin(f * 16);
+      hy = base + 10 - 14 * eo3(k) + 18 * eo3(f) * (1 - f);
+      const a = lerp(-1.2, .9, eo3(k)) + .6 * eo3(f);   // arm angle from up-forward to down-across
+      arms[0] = [hx + 30 + Math.cos(a) * 110, hy - 120 + Math.sin(a) * 110 + 40 * f];
+      sling = [arms[0][0], arms[0][1], arms[0][0] - 20 + 30 * f, arms[0][1] + 70];
+      feet[1] = [feet[1][0] + 10 * eo3(k), G - 14 * Math.sin(Math.PI * clamp(k + f * .6)), -22 * Math.sin(Math.PI * clamp(k + f * .6))];
+      face = { look: [1, -.3], mouth: f > .3 ? 'smile' : 'o' };
+      head = [10 * eo3(k) - 6 * f, 0, 8 * eo3(k) - 6 * f];
+    }
+  }
+  // overlapping action: damped springs for hem, bag and hair, simulated from t=0 (deterministic per frame)
+  let h = 0, hv = 0, b = 0, bv = 0, r = 0, rv = 0, px = walkX(0), pv = 0;
+  for (let tt = 0; tt <= t; tt += 1 / 120) { const xx = walkX(tt), vel = (xx - px) * 120, acc = (vel - pv) * 120; px = xx; pv = vel;
+    hv += (-90 * h - 9 * hv - acc * .02) / 120; h += hv / 120; bv += (-60 * b - 5 * bv - acc * .05) / 120; b += bv / 120; rv += (-80 * r - 7 * rv - acc * .03) / 120; r += rv / 120; }
+  const swing = t > tStop + .75 ? Math.sin((t - tStop) * 9) * 8 * clamp((t - tStop - .75) / .5) * (1 - clamp((t - tStop - 1.9) / .8)) : 0;
+  const P = { hx, hy, lean, feet, arms, head, face, sling, hem: clamp(h, -30, 30) - (t < tStop ? 6 : 0) + swing * .6, bag: clamp(b, -40, 40) + swing, hair: clamp(r, -14, 14) + swing * .4 };
+  let g = puppetDavid(P);
+  // the stone flies off on the tangent after release, with speed lines
+  if (t > tStop + 1.85) { const k = (t - tStop - 1.85) / .5, x = hx + 60 + k * 900, y = hy - 230 + k * 120 - Math.sin(Math.min(1, k) * Math.PI) * 40;
+    if (k < 1.2) { g += `<circle cx="${r1(x)}" cy="${r1(y)}" r="14" fill="#8a8a8a" stroke="${INK}" stroke-width="5"/>`; for (let i = 1; i < 6; i++) g += `<line x1="${r1(x - i * 30)}" y1="${r1(y - i * 4)}" x2="${r1(x - i * 30 - 22)}" y2="${r1(y - i * 5)}" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity="${r1(.9 - i * .15)}"/>`; } }
+  if (t > tStop + .75 && t < tStop + 1.85) { const k = (t - tStop - .75) / 1.1; for (let i = 0; i < 3; i++) g += `<path d="M${r1(hx - 70)},${r1(hy - 300 + i * 8)} A80,40 0 0 1 ${r1(hx + 60)},${r1(hy - 290 + i * 8)}" fill="none" stroke="#fff" stroke-width="${6 - i * 1.5}" stroke-linecap="round" opacity="${r1(.25 + k * .5)}"/>`; }
+  return g;
+}
+window.puppetFrame = async (f, fps = 24) => {
+  const t = f / fps, b = Math.floor(t * 8) + 1, W2 = 1080, H2 = 1920;
+  const set = SC.stage({ set: 'valley', cast: [] }, t, b);
+  stage.setAttribute('width', W2); stage.setAttribute('height', H2); stage.setAttribute('viewBox', `0 0 ${W2} ${H2}`);
+  stage.innerHTML = `<g transform="translate(0,470) scale(1.08)">${set}${davidDemo(t)}</g>` + txt('IN-BETWEEN TEST', 540, 230, 54, '#fff', 'middle', .2, -2);
+};

@@ -1,0 +1,190 @@
+/* ================= Coded frame-by-frame rigs in the owner's sheet style (owner 20 Oct: "code the animation frame by frame")
+   One fixed model per character + shared motion data. Characters are drawn on twos (12 drawings/s), fast actions on ones.
+   Local coords: hip at x=0, ground at y=0, facing right; world placement/flip/rotation is applied outside. */
+const RK = '#2a1e18', RW = 8;
+const rbone = (pts, w, fill) => { const d = 'M' + pts.map(p => r1(p[0]) + ',' + r1(p[1])).join(' L');
+  return `<path d="${d}" fill="none" stroke="${RK}" stroke-width="${w + RW * 2}" stroke-linecap="round" stroke-linejoin="round"/><path d="${d}" fill="none" stroke="${fill}" stroke-width="${w}" stroke-linecap="round" stroke-linejoin="round"/>`; };
+const rpath = (d, fill, sw = RW) => `<path d="${d}" fill="${fill}" stroke="${RK}" stroke-width="${sw}" stroke-linejoin="round" stroke-linecap="round"/>`;
+const rot2 = (x, y, ox, oy, deg) => { const a = deg * Math.PI / 180, dx = x - ox, dy = y - oy; return [ox + dx * Math.cos(a) - dy * Math.sin(a), oy + dx * Math.sin(a) + dy * Math.cos(a)]; };
+const pts2d = (arr) => arr.map(p => r1(p[0]) + ',' + r1(p[1])).join(' ');
+function rigFace(F, ex, ey, er, big) {   // one big side-view eye (sheet style), pupils, brow, mouth
+  let g = '';
+  if (F.eyes === 'dizzy') { g += `<circle cx="${ex}" cy="${ey}" r="${er}" fill="#fff" stroke="${RK}" stroke-width="6"/><path d="M${ex - er * .55},${ey} a${er * .55},${er * .55} 0 1 1 ${er * .4},${er * .3} a${er * .3},${er * .3} 0 1 0 ${-er * .2},${-er * .35}" fill="none" stroke="${RK}" stroke-width="5"/>`; }
+  else if (F.blink) g += `<path d="M${ex - er},${ey + 2} q${er},${er * .45} ${er * 2},0" fill="none" stroke="${RK}" stroke-width="7" stroke-linecap="round"/>`;
+  else { const lk = F.look || [0, 0], h = F.wide ? 1.15 : 1;
+    g += `<ellipse cx="${ex}" cy="${ey}" rx="${er}" ry="${r1(er * h)}" fill="#fff" stroke="${RK}" stroke-width="6"/><circle cx="${r1(ex + lk[0] * er * .45)}" cy="${r1(ey + lk[1] * er * .45)}" r="${r1(er * (F.wide ? .22 : .28))}" fill="${RK}"/>`; }
+  const b = F.brow || 0;   // -1 angry, +1 surprised
+  g += `<path d="M${ex - er * .9},${r1(ey - er * 1.25 - b * 8 + (b < 0 ? -10 : 0))} L${ex + er * .8},${r1(ey - er * 1.25 - b * 8 + (b < 0 ? 12 : 0))}" stroke="${RK}" stroke-width="8" stroke-linecap="round"/>`;
+  return g;
+}
+function rigMouth(m, x, y, s) {
+  if (m === 'o') return `<ellipse cx="${x}" cy="${y}" rx="${9 * s}" ry="${12 * s}" fill="#7a2626" stroke="${RK}" stroke-width="5"/>`;
+  if (m === 'laugh') return `<path d="M${x - 16 * s},${y - 6 * s} q${16 * s},${30 * s} ${32 * s},0 z" fill="#7a2626" stroke="${RK}" stroke-width="5" stroke-linejoin="round"/>`;
+  if (m === 'grin') return `<path d="M${x - 18 * s},${y - 4 * s} q${18 * s},${24 * s} ${36 * s},0 z" fill="#fff" stroke="${RK}" stroke-width="5" stroke-linejoin="round"/>`;
+  if (m === 'grit') return `<path d="M${x - 14 * s},${y} h${28 * s}" stroke="${RK}" stroke-width="7" stroke-linecap="round"/>`;
+  if (m === 'flat') return `<path d="M${x - 10 * s},${y + 2} q${10 * s},${-5 * s} ${20 * s},0" fill="none" stroke="${RK}" stroke-width="6" stroke-linecap="round"/>`;
+  return `<path d="M${x - 14 * s},${y - 2} q${14 * s},${12 * s} ${28 * s},0" fill="none" stroke="${RK}" stroke-width="6" stroke-linecap="round"/>`;
+}
+/* ---------- David (shepherd boy) ---------- */
+const DV = { skin: '#d48a5f', skinB: '#c07650', tunic: '#e2a845', tunicB: '#c98f30', belt: '#7a4a2a', bag: '#8a5a34', hair: '#3a2216', th: 58, sh: 56, ua: 44, fa: 40 };
+function drawDavid(P) {   // P: y (hip, local), lean, feet [[x,y,ang]x2], hands [[x,y]x2], head {tilt,dx,dy}, face, hem, bag, sling
+  const hy = P.y, L = (x, y) => rot2(x, y, 0, hy, P.lean);
+  const [shx, shy] = L(4, hy - 100), [nx, ny] = L(10, hy - 110);
+  const leg = (f, back) => { const hx = back ? -9 : 9, [kx, ky, ax, ay] = ik(hx, hy, f[0], f[1] - 10, DV.th, DV.sh, 1);
+    return rbone([[hx, hy], [kx, ky], [ax, ay]], 25, back ? DV.skinB : DV.skin) + `<g transform="translate(${r1(ax + 10)},${r1(ay + 6)}) rotate(${r1(f[2] || 0)})">${rpath('M-20,4 Q-20,-10 -4,-10 L18,-6 Q30,-2 26,6 Z', back ? DV.skinB : DV.skin, 6)}</g>`; };
+  const arm = (h, back) => { const sx = shx + (back ? -10 : 8), [ex, ey, wx, wy] = ik(sx, shy, h[0], h[1], DV.ua, DV.fa, -1);
+    return rbone([[sx, shy], [ex, ey]], 28, back ? DV.tunicB : DV.tunic) + rbone([[ex, ey], [wx, wy]], 20, back ? DV.skinB : DV.skin) + `<circle cx="${r1(wx)}" cy="${r1(wy)}" r="14" fill="${back ? DV.skinB : DV.skin}" stroke="${RK}" stroke-width="${RW - 1}"/>`; };
+  let g = arm(P.hands[1], 1) + leg(P.feet[1], 1) + leg(P.feet[0], 0);
+  const T = [L(-32, hy - 106), L(34, hy - 106), L(50 + P.hem, hy + 44), L(-48 + P.hem * .6, hy + 46)];
+  g += `<path d="M${pts2d([T[0]])} Q${pts2d([L(2, hy - 118)])} ${pts2d([T[1]])} L${pts2d([T[2]])} Q${pts2d([L(2 + P.hem * .8, hy + 58)])} ${pts2d([T[3]])} Z" fill="${DV.tunic}" stroke="${RK}" stroke-width="${RW}" stroke-linejoin="round"/>`;
+  const B = [L(-42, hy - 4), L(46, hy - 4)]; g += `<path d="M${pts2d([B[0]])} L${pts2d([B[1]])}" stroke="${RK}" stroke-width="17" stroke-linecap="round"/><path d="M${pts2d([B[0]])} L${pts2d([B[1]])}" stroke="${DV.belt}" stroke-width="9" stroke-linecap="round"/>`;
+  const S0 = L(28, hy - 100), S1 = L(-16, hy + 6); g += `<path d="M${pts2d([S0])} L${pts2d([S1])}" stroke="${RK}" stroke-width="11" stroke-linecap="round"/><path d="M${pts2d([S0])} L${pts2d([S1])}" stroke="${DV.belt}" stroke-width="5" stroke-linecap="round"/>`;
+  g += `<g transform="translate(${pts2d([S1])}) rotate(${r1(P.bag)})">${rpath('M-20,-2 h36 q6,0 6,8 v20 q0,12 -12,12 h-18 q-12,0 -12,-12 v-20 q0,-8 6,-8z', DV.bag, 6)}<path d="M-18,8 h34" stroke="${RK}" stroke-width="4"/></g>`;
+  // head (rounded-rect, big eye, curly hair cloud)
+  const H = P.head || {}, hx = nx + 14 + (H.dx || 0), hyy = ny - 62 + (H.dy || 0);
+  g += `<g transform="translate(${r1(hx)},${r1(hyy)}) rotate(${r1((H.tilt || 0) + P.lean * .4)})">`;
+  const hair = [[-50, -40, 30], [-20, -58, 30], [14, -60, 28], [44, -48, 24], [-62, -6, 28], [-58, 28, 24], [-36, 44, 18]];
+  g += hair.map(([x, y, r]) => `<circle cx="${x}" cy="${y}" r="${r + RW / 2}" fill="${RK}"/>`).join('') + hair.map(([x, y, r]) => `<circle cx="${x}" cy="${y}" r="${r - RW / 2}" fill="${DV.hair}"/>`).join('');
+  g += rpath('M-40,-46 Q8,-56 50,-40 Q66,-20 64,14 Q62,52 26,58 Q-14,62 -36,48 Q-50,30 -44,0 Z', DV.skin);
+  g += hair.slice(0, 4).map(([x, y, r]) => `<circle cx="${x}" cy="${y}" r="${r - RW / 2}" fill="${DV.hair}"/>`).join('');
+  g += `<path d="M-44,-40 Q0,-34 30,-46" fill="none" stroke="${RK}" stroke-width="6" stroke-linecap="round"/>`;
+  g += `<ellipse cx="-24" cy="12" rx="10" ry="14" fill="${DV.skinB}" stroke="${RK}" stroke-width="6"/>`;
+  g += rigFace(P.face || {}, 30, -2, 28) + `<path d="M62,8 q10,4 2,12" fill="none" stroke="${RK}" stroke-width="6" stroke-linecap="round"/>` + rigMouth((P.face || {}).mouth, 34, 38, 1);
+  g += '</g>';
+  if (P.sling) { const [a, b, c, d] = P.sling; g += `<path d="M${r1(a)},${r1(b)} L${r1(c)},${r1(d)}" stroke="#6a4a2a" stroke-width="6" stroke-linecap="round"/>` + (P.stoneInSling ? `<circle cx="${r1(c)}" cy="${r1(d)}" r="11" fill="#9a9a9a" stroke="${RK}" stroke-width="5"/>` : `<ellipse cx="${r1(c)}" cy="${r1(d)}" rx="11" ry="8" fill="#6a4a2a" stroke="${RK}" stroke-width="4"/>`); }
+  g += arm(P.hands[0], 0);
+  return g;
+}
+/* ---------- Goliath (giant warrior) ---------- */
+const GL = { skin: '#d4895f', skinB: '#bd7550', armor: '#8d8a83', armorB: '#77746e', bracer: '#5a4636', gold: '#d9a441', skirt: '#6e3a3c', boot: '#4a3a2e', helm: '#c98a45', shield: '#8a8780', th: 92, sh: 86, ua: 76, fa: 68 };
+function drawGoliath(P) {
+  const hy = P.y, L = (x, y) => rot2(x, y, 0, hy, P.lean);
+  const [shx, shy] = L(6, hy - 176), [nx, ny] = L(12, hy - 190);
+  const leg = (f, back) => { const hx = back ? -26 : 26, [kx, ky, ax, ay] = ik(hx, hy, f[0], f[1] - 16, GL.th, GL.sh, 1), c = back ? GL.skinB : GL.skin;
+    return rbone([[hx, hy], [kx, ky]], 50, c) + rbone([[kx + (ax - kx) * .25, ky + (ay - ky) * .25], [ax, ay]], 54, GL.boot) +
+      `<circle cx="${r1(kx + (ax - kx) * .45)}" cy="${r1(ky + (ay - ky) * .45)}" r="12" fill="${GL.gold}" stroke="${RK}" stroke-width="5"/>` +
+      `<g transform="translate(${r1(ax + 14)},${r1(ay + 8)}) rotate(${r1(f[2] || 0)})">${rpath('M-40,10 Q-40,-16 -10,-18 L30,-12 Q48,-6 44,10 Z', GL.boot, 7)}</g>`; };
+  const arm = (h, back) => { const sx = shx + (back ? -34 : 30), [ex, ey, wx, wy] = ik(sx, shy, h[0], h[1], GL.ua, GL.fa, -1), c = back ? GL.skinB : GL.skin;
+    return rbone([[sx, shy], [ex, ey], [wx, wy]], 44, c) + rbone([[ex + (wx - ex) * .25, ey + (wy - ey) * .25], [ex + (wx - ex) * .7, ey + (wy - ey) * .7]], 50, GL.bracer) +
+      `<circle cx="${r1(ex + (wx - ex) * .48)}" cy="${r1(ey + (wy - ey) * .48)}" r="10" fill="${GL.gold}" stroke="${RK}" stroke-width="5"/><circle cx="${r1(wx)}" cy="${r1(wy)}" r="27" fill="${c}" stroke="${RK}" stroke-width="${RW}"/>`; };
+  let g = '';
+  if (P.shield) { const [sx, sy] = P.hands[1]; g += `<g transform="translate(${r1(sx)},${r1(sy)}) rotate(${r1(P.shieldRot || 0)})">${rpath('M-46,-110 Q0,-122 46,-110 L46,110 Q0,122 -46,110 Z', GL.shield)}${[[-28, -88], [28, -88], [-28, 88], [28, 88], [0, 0]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="6" fill="none" stroke="${RK}" stroke-width="4"/>`).join('')}</g>`; }
+  g += arm(P.hands[1], 1) + leg(P.feet[1], 1) + leg(P.feet[0], 0);
+  const sk = [L(-70, hy - 10), L(72, hy - 10), L(84, hy + 66), L(-82, hy + 66)];
+  g += `<polygon points="${pts2d(sk)}" fill="${GL.skirt}" stroke="${RK}" stroke-width="${RW}" stroke-linejoin="round"/>`;
+  for (let i = 1; i < 7; i++) { const a = L(-70 + i * 20, hy - 6), b = L(-80 + i * 23.5, hy + 62); g += `<path d="M${pts2d([a])} L${pts2d([b])}" stroke="${RK}" stroke-width="4" opacity=".6"/>`; }
+  const V = [L(-74, hy - 186), L(76, hy - 186), L(80, hy - 10), L(-78, hy - 10)];
+  g += `<path d="M${pts2d([V[0]])} Q${pts2d([L(0, hy - 204)])} ${pts2d([V[1]])} L${pts2d([V[2]])} L${pts2d([V[3]])} Z" fill="${GL.armor}" stroke="${RK}" stroke-width="${RW}" stroke-linejoin="round"/>`;
+  const bl = [L(-80, hy - 24), L(82, hy - 24)]; g += `<path d="M${pts2d([bl[0]])} L${pts2d([bl[1]])}" stroke="${RK}" stroke-width="30" stroke-linecap="round"/><path d="M${pts2d([bl[0]])} L${pts2d([bl[1]])}" stroke="${GL.bracer}" stroke-width="18" stroke-linecap="round"/>`;
+  const gc = L(6, hy - 24); g += `<circle cx="${r1(gc[0])}" cy="${r1(gc[1])}" r="20" fill="${GL.gold}" stroke="${RK}" stroke-width="6"/>`;
+  const pad = L(-50, hy - 176); g += `<ellipse cx="${r1(pad[0])}" cy="${r1(pad[1])}" rx="40" ry="30" fill="${GL.armorB}" stroke="${RK}" stroke-width="${RW}"/>`;
+  // head: bronze helmet with cheek guards, big eye, angry brow
+  const H = P.head || {}, hx = nx + 8 + (H.dx || 0), hyy = ny - 66 + (H.dy || 0);
+  g += `<g transform="translate(${r1(hx)},${r1(hyy)}) rotate(${r1((H.tilt || 0) + P.lean * .3)})">`;
+  g += rpath('M-56,-30 Q-56,56 -10,62 L44,62 Q66,40 64,0 Q60,-46 10,-50 Q-40,-50 -56,-30Z', GL.skin);
+  g += rigFace(P.face || {}, 26, -4, 26) + rigMouth((P.face || {}).mouth, 34, 40, 1.15);
+  g += rpath('M-66,-20 Q-66,-74 0,-80 Q60,-78 70,-24 L70,-10 L-66,-10 Z', GL.helm) + rpath('M-6,-80 q6,-22 12,0', GL.helm, 6);
+  g += rpath('M-66,-12 L-34,-12 L-30,66 Q-60,64 -66,40 Z', GL.helm);
+  g += '</g>';
+  g += arm(P.hands[0], 0) + `<ellipse cx="${r1(L(54, hy - 176)[0])}" cy="${r1(L(54, hy - 176)[1])}" rx="38" ry="28" fill="${GL.armor}" stroke="${RK}" stroke-width="${RW}"/>`;
+  return g;
+}
+/* ---------- the scene (8 s) ---------- */
+const spring = (f, k, d) => { let x = 0, v = 0, out = []; return { step(a) { v += (-k * x - d * v - a) / 120; x += v / 120; return x; } }; };
+function dgRigScene(T) {
+  const t = Math.floor(T * 12) / 12, tf = T;   // characters on twos, fx on ones
+  const G = 950, xD0 = -60, xD1 = 330, xG = 720, Tw = .8, tW0 = .4, tW1 = 2.4;
+  const v = (xD1 - xD0) / (tW1 - tW0), S = v * Tw / 2;
+  const dX = (tt) => tt < tW0 ? xD0 : tt < tW1 ? xD0 + v * (tt - tW0) : xD1;
+  // ---- David ----
+  const dx = dX(t); let D = { y: -112, lean: 4, hem: 0, bag: 0, face: { look: [.6, -.2] }, head: { tilt: 0 } }, feetW;
+  const footW = (p) => { p = ((p % 1) + 1) % 1; if (p < .5) return [dx + 6 + S / 2 - S * (p / .5), 0, 0]; const u = (p - .5) / .5; return [dx + 6 - S / 2 + S * eio(u), -Math.sin(Math.PI * u) * 26, -14 * Math.sin(Math.PI * u)]; };
+  if (t < tW1) {
+    const p = Math.max(0, t - tW0) / Tw; feetW = [footW(p), footW(p + .5)];
+    if (t < tW0) feetW = [[dx + 20, 0, 0], [dx - 14, 0, 0]];
+    D.y = -112 + 7 * Math.cos(4 * Math.PI * (p - .06)); D.lean = 6 + 2 * Math.sin(4 * Math.PI * p);
+    const sw = Math.cos(2 * Math.PI * p); D.hands = [[34 * -sw + 8, D.y + 48 + 6 * Math.abs(sw)], [34 * sw - 8, D.y + 48 + 6 * Math.abs(sw)]];
+    D.head = { tilt: 3 * Math.sin(2 * Math.PI * p), dy: 4 * Math.cos(4 * Math.PI * (p - .15)) };
+  } else {
+    const ts = t - tW1, st = clamp(ts / .25), pE = (tW1 - tW0) / Tw, a = footW(pE), b = footW(pE + .5);
+    feetW = [[lerp(a[0], dx + 22, eio(st)), a[1] * (1 - st), 0], [lerp(b[0], dx - 16, eio(st)), b[1] * (1 - st), 0]];
+    D.lean = 4 + 8 * Math.exp(-ts * 7) * Math.cos(ts * 16); D.hands = [[16, D.y + 52], [-14, D.y + 52]];
+  }
+  const q = (a, b) => clamp((t - a) / (b - a));
+  if (t >= 2.7 && t < 3.0) { const k = eio(q(2.7, 3.0)); D.y = -112 + 20 * k; D.lean = 4 - 10 * k; D.face = { look: [.8, -.3], brow: -1, mouth: 'grit' }; D.hands = [[lerp(16, -40, k), D.y + lerp(52, 30, k)], [lerp(-14, 30, k), D.y + lerp(52, 20, k)]]; D.head = { tilt: -6 * k, dy: 4 * k }; }
+  let slingFree = true;
+  if (t >= 3.0 && t < 4.5) {   // wind-up: hand circles over the head, accelerating; stone trails on the strap
+    const k = q(3.0, 4.5), ang = -Math.PI / 2 + 2 * Math.PI * 2.2 * k * k, cx = -4, cy = D.y - 175 - 0, rr = 32 + 12 * k;
+    D.y = -92 - 6 * k; D.lean = -6 + 3 * Math.sin(ang); D.face = { look: [.9, -.4], brow: -1, mouth: 'grit' }; D.head = { tilt: -5 };
+    D.hands = [[cx + Math.cos(ang) * rr, cy + Math.sin(ang) * rr * .5], [30, D.y + 40]];
+    const sa = ang - (.6 + .5 * k), Ls = 70; D.sling = [D.hands[0][0], D.hands[0][1], D.hands[0][0] + Math.cos(sa) * Ls, D.hands[0][1] + Math.sin(sa) * Ls * .5 + 8]; D.stoneInSling = true;
+  }
+  if (t >= 4.5) {   // release (on ones) + follow-through
+    const tt = T, k = clamp((tt - 4.5) / .15), f = clamp((tt - 4.65) / .8);
+    D.y = -98 + 12 * eo3(f) * (1 - f); D.lean = lerp(-4, 16, eo3(k)) - 12 * eo3(f) + 3 * Math.exp(-f * 5) * Math.sin(f * 14);
+    const a = lerp(-1.3, .8, eo3(k)) + .7 * eo3(f); D.hands = [[26 + Math.cos(a) * 90, D.y - 70 + Math.sin(a) * 90], [-20, D.y + 44]];
+    D.sling = [D.hands[0][0], D.hands[0][1], D.hands[0][0] - 10 + 20 * f, D.hands[0][1] + 64]; D.stoneInSling = false;
+    D.face = { look: [1, -.3], mouth: f > .2 ? 'o' : 'grit', wide: f > .2 }; D.head = { tilt: 6 * eo3(k) - 4 * f };
+    feetW[1] = [feetW[1][0] + 8 * eo3(k), -12 * Math.sin(Math.PI * clamp(k + f * .5)), -20 * Math.sin(Math.PI * clamp(k + f * .5))];
+  }
+  let jump = 0;
+  if (t >= 6.0) {   // cheer: anticipation crouch, launch with stretch, airborne, land with squash, settle
+    const c = q(6.0, 6.2), up = q(6.2, 6.5), dn = q(6.5, 6.75), land = clamp((t - 6.75) / .35);
+    D.y = -98 + 22 * eio(c) * (1 - up) + 18 * Math.sin(Math.PI * land) * (land < 1 ? 1 : 0);
+    jump = (t < 6.2 ? 0 : t < 6.5 ? 95 * Math.sin(up * Math.PI / 2) : t < 6.75 ? 95 * Math.cos(dn * Math.PI / 2) : 0);
+    D.lean = 2; D.face = { look: [.6, -.5], mouth: 'grin' }; D.sling = null;
+    const arms = t < 6.2 ? [[-30, D.y + 40], [-40, D.y + 36]] : [[30, D.y - 190], [-10, D.y - 196]];
+    D.hands = arms; D.head = { tilt: t > 6.2 && t < 6.75 ? -8 : 0, dy: t > 6.75 ? 6 * Math.sin(Math.PI * land) : 0 };
+    D.sq = t < 6.2 ? 1 - .06 * eio(c) : t < 6.4 ? 1.1 : t > 6.75 && t < 6.95 ? .9 : 1;
+  }
+  if ([1.25, 5.8, 7.5].some(b => t >= b && t < b + .12)) D.face = { ...D.face, blink: true };
+  // overlap springs (hem, bag) from the world motion, simulated from 0 -> deterministic
+  { let h = 0, hv = 0, bb = 0, bv = 0, px = dX(0), pv = 0, py = 0, pvy = 0;
+    for (let tt = 0; tt <= t; tt += 1 / 120) { const xx = dX(tt), vel = (xx - px) * 120, acc = (vel - pv) * 120; px = xx; pv = vel;
+      const jy = tt >= 6.2 && tt < 6.75 ? (tt < 6.5 ? 95 * Math.sin((tt - 6.2) / .3 * Math.PI / 2) : 95 * Math.cos((tt - 6.5) / .25 * Math.PI / 2)) : 0, vy = (jy - py) * 120, ay = (vy - pvy) * 120; py = jy; pvy = vy;
+      hv += (-110 * h - 9 * hv - acc * .02) / 120; h += hv / 120; bv += (-70 * bb - 6 * bv - acc * .05 - ay * .02) / 120; bb += bv / 120; }
+    D.hem = clamp(h, -26, 26) - (t < tW1 ? 5 : 0); D.bag = clamp(bb, -40, 40) + (t >= 3 && t < 4.6 ? 10 * Math.sin(T * 9) : 0); }
+  D.feet = feetW.map(([x, y, a]) => [x - dx, y, a]);
+  // ---- Goliath (faces left) ----
+  let Gp = { y: -180, lean: 0, feet: [[30, 0, 0], [-34, 0, 0]], hands: [[44, -150], [-60, -190]], face: { look: [.6, 0], brow: -1, mouth: 'flat' }, head: { tilt: 0 }, shield: true, shieldRot: 0 };
+  Gp.y = -180 + 3 * Math.sin(T * 2.4); Gp.hands = [[60, Gp.y + 150], [-86, Gp.y + 120]];
+  if (t < .4) Gp.face.look = [.2, 0];
+  if (t >= 1.8 && t < 2.9) { const k = q(1.8, 2.9), bounce = Math.abs(Math.sin(t * 14)) * 8 * Math.sin(Math.PI * k); Gp.y = -180 + bounce; Gp.lean = -8 * Math.sin(Math.PI * k);
+    Gp.face = { look: [.4, -.6], blink: k > .1 && k < .9, mouth: 'laugh', brow: 1 }; Gp.head = { tilt: -14 * Math.sin(Math.PI * k), dy: -bounce }; Gp.hands = [[30, Gp.y + 120], [-60, Gp.y + 120]]; }
+  if (t >= 2.9 && t < 4.85) { const k = eio(q(2.9, 3.3)); Gp.hands = [[lerp(30, 150, k), lerp(Gp.y + 120, Gp.y + 20, k)], [-86, Gp.y + 120]]; Gp.face = { look: [.7, .1], brow: -1, mouth: 'flat' }; Gp.lean = 4 * k; if (t > 4.3) Gp.face = { look: [.8, -.6], brow: 1, mouth: 'o', wide: true }; }
+  let fallA = 0, pivot = [-50, 0];
+  if (T >= 4.85) {   // hit (on ones): head snaps back, arms fly up, stagger step back, then sit down hard (kid-friendly), bounce, dizzy
+    const k = clamp((T - 4.85) / .25), st = clamp((T - 5.0) / .35), sd = clamp((T - 5.35) / .4), ld = clamp((T - 5.75) / .45);
+    Gp.face = { eyes: 'dizzy', brow: 1, mouth: 'o' }; Gp.head = { tilt: -26 * eo3(k) + 18 * sd, dx: -10 * k };
+    Gp.lean = -12 * eo3(k) + 4 * st;
+    Gp.hands = [[lerp(150, 110, k) - 30 * st, lerp(Gp.y + 20, Gp.y - 170, eo3(k))], [lerp(-86, -150, k), lerp(Gp.y + 120, Gp.y - 130, eo3(k))]]; Gp.shieldRot = -50 * eo3(k) - 30 * sd;
+    Gp.feet = [[30 - 30 * st, -36 * Math.sin(Math.PI * st), 0], [-34 - 60 * eio(st), 0, 0]];
+    if (T >= 5.35) {   // sit: hip drops in an arc (gravity: ease-in), legs swing forward, lands with squash + bounce
+      const fall = sd * sd, bounce = ld > 0 ? 22 * Math.exp(-ld * 7) * Math.abs(Math.sin(ld * 12)) : 0;
+      Gp.y = lerp(-180, -48, fall) - bounce; Gp.lean = lerp(-8, -14, fall);
+      Gp.feet = [[lerp(0, 150, eo3(sd)), -lerp(0, 40, Math.sin(Math.PI * sd)) - 10 * (ld > 0 && ld < 1 ? Math.sin(ld * Math.PI) : 0), lerp(0, -30, sd)], [lerp(-94, 110, eo3(sd)), -lerp(0, 20, Math.sin(Math.PI * sd)), lerp(0, -20, sd)]];
+      Gp.hands = [[lerp(80, -40, eo3(sd)) + 10 * Math.sin(T * 3), lerp(Gp.y - 170, Gp.y + 150, eo3(sd))], [lerp(-150, -150, sd), lerp(Gp.y - 130, Gp.y + 160, eo3(sd))]];
+      Gp.head = { tilt: lerp(-8, 6, sd) + 6 * Math.sin(T * 3) * ld, dy: 0 };
+    }
+  }
+  // ---- compose (stage coords: ground 950) ----
+  let g = '';
+  const goli = `<g transform="translate(${xG},${G}) scale(-1,1) rotate(${r1(fallA)} ${r1(pivot[0])} 0)">${drawGoliath(Gp)}</g>`;
+  const davidSq = D.sq || 1, dav = `<g transform="translate(${r1(dx)},${r1(G - jump)}) scale(${r1(100 / davidSq) / 100},${r1(davidSq * 100) / 100})">${drawDavid(D)}</g>`;
+  g += `<ellipse cx="${xG}" cy="${G + 6}" rx="130" ry="20" fill="#000" opacity=".16"/><ellipse cx="${r1(dx)}" cy="${G + 6}" rx="${r1(70 * (1 - jump / 200))}" ry="13" fill="#000" opacity=".16"/>`;
+  g += goli + dav;
+  // stone flight (on ones) + BONK + landing dust + dizzy stars
+  if (T >= 4.6 && T < 4.85) { const k = (T - 4.6) / .25, x0 = dx + 120, y0 = G - 300, x1 = xG - 40, y1 = G - 480, x = lerp(x0, x1, k), y = lerp(y0, y1, k) - Math.sin(Math.PI * k) * 60;
+    g += `<ellipse cx="${r1(x - 18)}" cy="${r1(y + 3)}" rx="34" ry="9" fill="#9a9a9a" opacity=".5"/><circle cx="${r1(x)}" cy="${r1(y)}" r="13" fill="#9a9a9a" stroke="${RK}" stroke-width="5"/>`; for (let i = 1; i < 5; i++) g += `<line x1="${r1(x - 20 - i * 26)}" y1="${r1(y + i * 3)}" x2="${r1(x - 36 - i * 26)}" y2="${r1(y + i * 3)}" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="${r1(.9 - i * .18)}"/>`; }
+  if (T >= 4.85 && T < 5.4) { const k = (T - 4.85) / .55; g += star5(xG - 40, G - 485, 60 * eoBack(clamp(k * 3)) * (1 - k * .5), YEL) + txt('BONK!', xG - 60, G - 600, 96, RED, 'middle', .15, -12, eoBack(clamp(k * 3))); }
+  if (T >= 5.75 && T < 7.1) { const k = (T - 5.75) / 1.35; for (let i = 0; i < 12; i++) { const a = Math.PI * (i / 11), r = 60 + k * 300, x = xG - 20 + Math.cos(a) * r * 1.3, y = G - Math.sin(a) * r * .32, rr = 30 * (1 - k) + 6;
+    g += `<circle cx="${r1(x)}" cy="${r1(y)}" r="${r1(rr)}" fill="#ecd6a8" stroke="${RK}" stroke-width="4" opacity="${r1(1 - k)}"/>`; } }
+  if (T >= 5.9) for (let i = 0; i < 3; i++) { const a = T * 4 + i * 2.1; g += star5(xG - 40 + Math.cos(a) * 70, G - 410 + Math.sin(a) * 20, 18, YEL); }
+  return { g, shake: T >= 5.75 && T < 6.3 ? 18 * Math.exp(-(T - 5.75) * 8) * Math.sin((T - 5.75) * 70) : 0, push: 1 + .05 * eio(clamp((T - 3) / 1.5)) - .05 * eio(clamp((T - 4.9) / .8)) };
+}
+window.rigFrame = async (f, fps = 24) => {
+  const T = f / fps, b = Math.floor(T * 12) + 1, W2 = 1080, H2 = 1920;   // line boil on twos
+  stage.setAttribute('width', W2); stage.setAttribute('height', H2); stage.setAttribute('viewBox', `0 0 ${W2} ${H2}`);
+  const set = SC.stage({ set: 'valley', cast: [] }, T, b), sc = dgRigScene(T), z = sc.push;
+  stage.innerHTML = `<g transform="translate(540,1000) scale(${r1(z * 1000) / 1000}) translate(-540,${r1(-1000 + sc.shake)})"><g transform="translate(-190,140) scale(1.45)">${set}${sc.g}</g></g>` + txt('DAVID & GOLIATH', 540, 230, 56, '#fff', 'middle', .2, -2);
+};

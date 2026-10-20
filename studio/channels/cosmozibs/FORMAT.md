@@ -60,3 +60,8 @@ A new scene type = a new function in `engine/scenes.part` (Claude adds it, never
 ## Thumbnails (`thumb` and `short.cover`)
 `{"text": "<= 3 words, adds to the title, never repeats it", "planet": kind, "mood": scared|happy|none, "fx": [flames|shards|streaks|rocket], "char": cosmo|zib|bolt|rocky|tik, "bg": ["#hex", "#hex"]}`
 Rules (research 19 Oct 2026): one big shocked face, max 3 elements, high contrast against YouTube's white/dark UI, readable at 320 px wide, curiosity gap (question, not answer), text top, character bottom-left, bottom-right kept free.
+
+## TikTok search keywords (owner 20 Oct 2026)
+- Every story `short` has `"kw"`: the phrase kids/parents type into TikTok search (2-5 words, lowercase, e.g. "inside a black hole", "neptune facts"). The episode has a top-level `"kw"` for the speed round.
+- Pick it from TikTok Creator Search Insights (Science/Education) when available, else the plainest search phrase for the topic.
+- The engine speaks it in the first line of the TikTok-only clip, shows it as the on-screen title, and the caption starts with it.

@@ -13,3 +13,5 @@ Follow studio/channels/cosmozibs/FORMAT.md exactly (it is in your context pack) 
 
 Deliverable: the JSON only, no fences, first line of your answer is `STYLE {{style_hash}}` and then the JSON.
 Add `PROPOSAL:` lines after the JSON only if a rule or a missing scene type would clearly help.
+
+- Add `"kw"` (TikTok search keyword, 2-5 lowercase words, no digits) to every story `short` and one top-level `"kw"` for the episode (FORMAT.md, "TikTok search keywords").

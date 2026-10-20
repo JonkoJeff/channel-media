@@ -40,7 +40,7 @@ jobs:
           import json
           i = "${{ inputs.ep }}"; f = f"studio/renders/{i}/result.json"; r = json.load(open(f)); rel = f"https://github.com/JonkoJeff/channel-media/releases/download/{i}/"
           cl = json.load(open(f"studio/cosmozibs/engine/build/{i}/clips.json"))
-          r["tiktok_clips"] = {f"{i}_tt_{c['id']}": rel + f"{i}_tt_{c['id']}.mp4" for c in cl}; r["tiktok_meta"] = {f"{i}_tt_{c['id']}": {"title": c["title"]} for c in cl}
+          r["tiktok_clips"] = {f"{i}_tt_{c['id']}": rel + f"{i}_tt_{c['id']}.mp4" for c in cl}; r["tiktok_meta"] = {f"{i}_tt_{c['id']}": {"title": c["title"], "kw": c.get("kw", "")} for c in cl}
           json.dump(r, open(f, "w"), indent=1)
           PY
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
@@ -76,7 +76,7 @@ jobs:
           json.dump(allm, open(sj, "w"), indent=1)
           cl = json.load(open(f"{B}/clips.json")) if os.path.exists(f"{B}/clips.json") else []
           json.dump({"id": i, "video": rel + i + ".mp4", "thumb": "https://raw.githubusercontent.com/JonkoJeff/channel-media/main/" + d + "/thumb.jpg", "shorts": shorts, "shorts_meta": meta,
-                     "tiktok_clips": {f"{i}_tt_{c['id']}": rel + f"{i}_tt_{c['id']}.mp4" for c in cl}, "tiktok_meta": {f"{i}_tt_{c['id']}": {"title": c["title"]} for c in cl}}, open(d + "/result.json", "w"), indent=1)
+                     "tiktok_clips": {f"{i}_tt_{c['id']}": rel + f"{i}_tt_{c['id']}.mp4" for c in cl}, "tiktok_meta": {f"{i}_tt_{c['id']}": {"title": c["title"], "kw": c.get("kw", "")} for c in cl}}, open(d + "/result.json", "w"), indent=1)
           json.dump({"id": i, "title": ep["title"], "channel": "cosmozibs", "tags": ep.get("tags", []) + ["Cosmozibs", "space for kids", "space facts"], "playlists": [ep.get("theme", "")]}, open(f"studio/assetedit/videos/{i}.json", "w"), indent=1)
           PY
           mkdir -p out && cp $B/${ID}_long.mp4 out/$ID.mp4 && for f in $B/${ID}_short_*.mp4; do s=$(basename $f .mp4); cp $f out/${ID}_${s#${ID}_short_}.mp4; done && for f in $B/${ID}_clip_*.mp4; do s=$(basename $f .mp4); cp $f out/${ID}_tt_${s#${ID}_clip_}.mp4; done

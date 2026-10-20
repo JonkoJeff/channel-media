@@ -81,7 +81,7 @@
     "title": "This Planet Is Hotter Than an Oven!",
     "end": 7,
     "cover": {
-     "text": "467\u00b0C?!",
+     "text": "467°C?!",
      "planet": "venus",
      "mood": "scared",
      "fx": [
@@ -92,7 +92,8 @@
       "#3a1c71",
       "#e8553b"
      ]
-    }
+    },
+    "kw": "venus facts"
    },
    "lines": [
     {
@@ -125,7 +126,7 @@
      "say": "I did the math! The ground on Venus is about four hundred and sixty seven degrees Celsius!",
      "show": {
       "type": "thermo",
-      "value": "467\u00b0C",
+      "value": "467°C",
       "label": "ON VENUS",
       "compare": "KITCHEN OVEN"
      }
@@ -259,7 +260,8 @@
       "#1f2a52",
       "#8a4b2a"
      ]
-    }
+    },
+    "kw": "jupiter facts"
    },
    "lines": [
     {
@@ -403,7 +405,8 @@
       "#0f1d4d",
       "#3a7bd5"
      ]
-    }
+    },
+    "kw": "neptune facts"
    },
    "lines": [
     {
@@ -486,7 +489,7 @@
      "say": "Only one spacecraft has ever flown past Neptune. Voyager Two, in nineteen eighty nine!",
      "show": {
       "type": "voyager",
-      "label": "VOYAGER 2 \u00b7 1989"
+      "label": "VOYAGER 2 · 1989"
      }
     },
     {
@@ -537,7 +540,8 @@
       "#101a4a",
       "#2f56c9"
      ]
-    }
+    },
+    "kw": "planet where it rains glass"
    },
    "lines": [
     {
@@ -614,7 +618,7 @@
      "say": "And it's super hot. In the daytime it's more than a thousand degrees Celsius!",
      "show": {
       "type": "thermo",
-      "value": "1,000\u00b0C+",
+      "value": "1,000°C+",
       "label": "DAYTIME",
       "compare": "KITCHEN OVEN"
      }
@@ -791,5 +795,6 @@
   "Neptune",
   "exoplanet",
   "planets for kids"
- ]
+ ],
+ "kw": "planet facts"
 }

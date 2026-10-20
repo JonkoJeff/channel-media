@@ -191,20 +191,22 @@ elif cmd == "tiktok":   # owner 20 Oct: Cosmozibs TikTok one video per hour. a =
         free = 7 <= h.hour <= last_h and day_n < CAP and all(abs((x - h).total_seconds()) >= 45 * 60 for x in taken)
         pick = next((x for x in todo if x[0] <= h), None) if free else None
         if pick:
-            e, cid = pick[1], pick[2]; r = res[e]; title = r.get("tiktok_meta", {}).get(cid, {}).get("title", cid); when = h.strftime("%Y-%m-%dT%H:%M")
-            ex = existing(title[:40])   # FAILSAFE: never post twice
+            e, cid = pick[1], pick[2]; r = res[e]; tm = r.get("tiktok_meta", {}).get(cid, {}); title = tm.get("title", cid); kw = tm.get("kw", ""); when = h.strftime("%Y-%m-%dT%H:%M")
+            cap = title[:1] + title[1:].lower()   # = the search keyword first (owner 20 Oct, TikTok search tip), e.g. "Inside a black hole (part 2)"
+            ex = existing(cap[:40])   # FAILSAFE: never post twice
             if ex: r["tiktok_posted"][cid] = {"zernio_id": ex.get("_id"), "when": str(ex.get("scheduledFor"))[:16]}; print(f"{cid} already on Zernio, adopted")
             else:
                 f = os.path.join(TMP, cid + ".mp4"); os.path.exists(f) or urllib.request.urlretrieve(r["tiktok_clips"][cid], f)
                 _, ps = call("POST", "/media/presign", {"filename": cid + ".mp4", "contentType": "video/mp4", "size": os.path.getsize(f)})
                 urllib.request.urlopen(urllib.request.Request(ps["uploadUrl"], data=open(f, "rb").read(), method="PUT", headers={"Content-Type": "video/mp4"}), timeout=600).read()
-                body = {"content": f"{title}\n\nFull episode on YouTube: Cosmozibs\n\n#space #spacefacts #science #learnontiktok #cosmozibs\n\nVoices are AI-generated.", "mediaItems": [{"type": "video", "url": ps["publicUrl"]}],
+                tags = " ".join(dict.fromkeys(["#" + kw.replace(" ", "").replace("'", "")] * bool(kw) + ["#space", "#spacefacts", "#science", "#learnontiktok", "#cosmozibs"]))
+                body = {"content": f"{cap}\n\nFull episode on YouTube: Cosmozibs\n\n{tags}\n\nVoices are AI-generated.", "mediaItems": [{"type": "video", "url": ps["publicUrl"]}],
                         "platforms": [{"platform": "tiktok", "accountId": tt}], "scheduledFor": when, "timezone": tz(ch),
                         "tiktokSettings": {"privacy_level": "PUBLIC_TO_EVERYONE", "allow_comment": True, "allow_duet": True, "allow_stitch": True, "commercial_content_type": "none",
                                            "content_preview_confirmed": True, "express_consent_given": True, "media_type": "video", "auto_add_music": False, "video_made_with_ai": True}}
                 st, p = call("POST", "/posts", body, soft=True)
                 if st is None:
-                    import time; time.sleep(20); p = existing(title[:40]) or sys.exit(f"::error::{cid}: no answer and no post found; check Zernio before retrying")
+                    import time; time.sleep(20); p = existing(cap[:40]) or sys.exit(f"::error::{cid}: no answer and no post found; check Zernio before retrying")
                 post = p.get("post", p)
                 if st == 207 or post.get("status") == "failed": print(f"::warning::{cid} failed: {json.dumps(post)[:300]}"); todo.remove(pick); continue
                 r["tiktok_posted"][cid] = {"zernio_id": post.get("_id"), "when": when}; print(f"{cid} -> {when} ET"); n += 1

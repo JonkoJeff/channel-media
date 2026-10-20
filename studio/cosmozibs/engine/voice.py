@@ -80,8 +80,8 @@ def sfx(kind):
         n = int(1.0 * SR); x = np.arange(n) / SR; return np.sin(2 * np.pi * (300 + 600 * x * x) * x) * (x / 1.0) * .18
     return np.zeros(1)
 
-def build(lines, name):
-    t = 0.5; tl = []; voice_parts = []; fx = []
+def build(lines, name, t0=0.5):
+    t = t0; tl = []; voice_parts = []; fx = []
     prev_show = None
     for i, ln in enumerate(lines):
         a = line_wav(ln["who"], ln["say"])
@@ -111,6 +111,7 @@ def build(lines, name):
     return total
 
 # long: all segments in order; mark segment ids. argv[2] == "clips": only the TikTok-only clips (owner 20 Oct: TikTok hourly)
+HOOKS = ["BET YOU CAN'T PASS THIS QUIZ", "WAIT FOR THE QUIZ...", "ONLY SPACE NERDS KNOW THIS", "THIS PART IS WILD"]
 def clips(ep):   # extra TikTok clips: part 2 of every story (bonus + quiz, without the hand-over line) and the speed round.
     # owner 20 Oct (TikTok search tip): the search keyword ("kw") is spoken in the first line, is the on-screen title and leads the caption
     out = []
@@ -121,11 +122,12 @@ def clips(ep):   # extra TikTok clips: part 2 of every story (bonus + quiz, with
             pic = next((l["show"] for l in reversed(s["lines"][:s["short"]["end"] + 1]) if l.get("show")), {"type": "crew"})   # open on the story's last picture, not the crew line-up
             if not ls[0].get("show"): ls[0]["show"] = pic
             ls.insert(0, {"who": "tik", "say": f"{kw[0].upper() + kw[1:]}, part two! Here's what most people don't know.", "show": pic, "sfx": "pop"})
-            out.append((s["id"] + "2", f"{kw.upper()} (PART 2)"[:60], ls, s["id"], kw))
+            hook = s["short"].get("tthook") or HOOKS[len(out) % len(HOOKS)]   # 3-6 word open loop shown big in the first 1.6 s
+            out.append((s["id"] + "2", f"{kw.upper()} (PART 2)"[:60], ls, s["id"], kw, hook))
         if s["id"] == "speed":
             kw = ep.get("kw") or ep.get("theme", "space facts"); ls = [dict(l) for l in s["lines"]]
             ls[0]["say"] = f"{kw[0].upper() + kw[1:]}! Five quick facts. Ready? Go!"
-            out.append(("speed", f"{kw.upper()}: 5 IN 40 SECONDS"[:60], ls, "speed", kw))
+            out.append(("speed", f"{kw.upper()}: 5 IN 40 SECONDS"[:60], ls, "speed", kw, ep.get("tthook_speed") or "5 FACTS IN 40 SECONDS. GO!"))
     return out
 CLIPS_ONLY = sys.argv[2:3] == ["clips"]
 if not CLIPS_ONLY:
@@ -138,8 +140,8 @@ if not CLIPS_ONLY:
             ls = [{**ln, "seg": s["id"]} for ln in s["lines"][:s["short"]["end"] + 1]]
             if not ls[0].get("show"): ls[0]["show"] = {"type": "crew"}
             Ts = build(ls, "short_" + s["id"]); print("short", s["id"], round(Ts, 1), "s")
-for cid, title, lines, seg, kw in clips(ep):
+for cid, title, lines, seg, kw, hook in clips(ep):
     ls = [{**ln, "seg": seg} for ln in lines]
     if not ls[0].get("show"): ls[0]["show"] = {"type": "crew"}
-    Tc = build(ls, "clip_" + cid); print("clip", cid, round(Tc, 1), "s")
-json.dump([{"id": c, "title": t, "kw": k} for c, t, _, _, k in clips(ep)], open(f"{OUT}/clips.json", "w"))
+    Tc = build(ls, "clip_" + cid, .15); print("clip", cid, round(Tc, 1), "s")   # TikTok: voice starts at once (hook)
+json.dump([{"id": c, "title": t, "kw": k, "hook": h} for c, t, _, _, k, h in clips(ep)], open(f"{OUT}/clips.json", "w"))

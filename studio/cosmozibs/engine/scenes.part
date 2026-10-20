@@ -423,7 +423,9 @@ function caption(line, T, x, y, size) {
 /* ---------- frame ---------- */
 let TL = null, LAYOUT = 'long', SHORT_TITLE = '', PAPER = '';
 function makePaper(w, h) { const c = document.createElement('canvas'); c.width = w / 2; c.height = h / 2; const x = c.getContext('2d'), d = x.createImageData(c.width, c.height); for (let i = 0; i < d.data.length; i += 4) { const v = Math.random(); d.data[i] = d.data[i + 1] = 235; d.data[i + 2] = 220; d.data[i + 3] = v > .5 ? (v - .5) * 34 : 0; } x.putImageData(d, 0, 0); return c.toDataURL('image/png'); }
-window.setup = (tl, layout, shortTitle) => { TL = tl; LAYOUT = layout; SHORT_TITLE = shortTitle || ''; const W2 = layout === 'long' ? 1920 : 1080, H2 = layout === 'long' ? 1080 : 1920; stage.setAttribute('width', W2); stage.setAttribute('height', H2); stage.setAttribute('viewBox', `0 0 ${W2} ${H2}`); PAPER = makePaper(W2, H2); };
+let HOOK = '';
+window.setup = (tl, layout, shortTitle) => { TL = tl; LAYOUT = layout; [SHORT_TITLE, HOOK] = (shortTitle || '').split('|').concat(['']);   // tiktok layout: "title|hook"
+  const W2 = layout === 'long' ? 1920 : 1080, H2 = layout === 'long' ? 1080 : 1920; stage.setAttribute('width', W2); stage.setAttribute('height', H2); stage.setAttribute('viewBox', `0 0 ${W2} ${H2}`); PAPER = makePaper(W2, H2); };
 window.renderFrame = function (f) {
   const T = f / TL.fps, b = Math.floor(f * 2 / 3) + 1;
   const L = TL.lines; let li = -1, si = 0;
@@ -432,14 +434,15 @@ window.renderFrame = function (f) {
   const speaking = line && T >= line.start - .1 && T <= line.end + .25;
   const ctx = { who: speaking ? line.who : null, talk: speaking ? (TL.talk[f] || 0) : 0, lineEnd: sl.end - sl.start + .3, li, since: line ? T - line.start : 9, say: line ? line.say : '', react: !!line };
   const t = T - (sl.start - .3);
-  const long = LAYOUT === 'long', W2 = long ? 1920 : 1080, H2 = long ? 1080 : 1920;
-  const box = long ? { x: 430, y: 18, s: 1.06 } : { x: 25, y: 330, s: 1.03 };
+  const long = LAYOUT === 'long', tk = LAYOUT === 'tiktok', W2 = long ? 1920 : 1080, H2 = long ? 1080 : 1920;
+  const box = long ? { x: 430, y: 18, s: 1.06 } : tk ? { x: 25, y: 390, s: 1.03 } : { x: 25, y: 330, s: 1.03 };
   const crewScene = ['lineup', 'crew'].includes(show.type);
   // camera: slide-in + punch on scene change, slow push-in, shake on surprises
   const dir = si % 2 ? 1 : -1, tin = eo3(clamp(t / .32));
   let cx = (1 - tin) * 300 * dir, cy = 0, zoom = 1.07 - .07 * tin + .05 * clamp((t - .3) / 7);
   const shk = line && (line.sfx === 'scratch' || /BOOM|CRUNCH/i.test(line.say)) ? 16 * Math.exp(-Math.max(0, T - line.start) * 5) : 0;
   if (show.type === 'quiz' && t > ctx.lineEnd && t < ctx.lineEnd + 4) zoom += .03 * Math.sin((t - ctx.lineEnd) * Math.PI * 2);
+  if (tk) { const ph = T % 2.8, lp = line ? T - line.start : 9; zoom += .05 * Math.exp(-ph * 4) + .06 * Math.exp(-Math.max(0, lp) * 5); }   // TikTok: pattern interrupt every 2.8 s + punch on every line
   cx += (rnd(f * 3) - .5) * shk; cy += (rnd(f * 5) - .5) * shk;
   const bw = 1000 * box.s, bh = 600 * box.s, mx = box.x + bw / 2, my = box.y + bh / 2;
   let g = background(line ? line.seg : 'intro', W2, H2, T, b);
@@ -450,14 +453,27 @@ window.renderFrame = function (f) {
     if (long) {
       g += crewRow(960, 1068, .62, T, b, ctx, 150, who);
       if (who) g += actor(who, SIDE[who] < 0 ? 215 : 1705, 1010, 2.05, T, b, ctx);
+    } else if (tk) {   // TikTok: keep the bottom 22% and the right edge free for TikTok's UI; no listener row
+      if (who) g += actor(who, SIDE[who] < 0 ? 280 : 760, 1480, 2.2, T, b, ctx);
     } else {
       g += crewRow(540, 1735, .62, T, b, ctx, 150, who);
       if (who) g += actor(who, SIDE[who] < 0 ? 290 : 790, 1570, 2.2, T, b, ctx);
     }
   }
-  let cap = speaking ? caption(line, T, W2 / 2, long ? 760 : 1060, long ? 62 : 82) : '';
+  let cap = speaking ? caption(line, T, tk ? 520 : W2 / 2, long ? 760 : tk ? 1095 : 1060, long ? 62 : tk ? 96 : 82) : '';
   let top = '';
-  if (!long && SHORT_TITLE) {
+  if (tk) {   // TikTok edit (owner 20 Oct): hook card in the first 1.6 s, keyword title + progress bar, loop back to the hook in the last 0.7 s
+    const end = TL.total, hk = T < 1.6 ? 1 - clamp((T - 1.3) / .3) : T > end - .7 ? clamp((T - (end - .7)) / .25) : 0;
+    const ws = SHORT_TITLE.toUpperCase().split(' '), ls = ['']; for (const w of ws) { if ((ls.at(-1) + ' ' + w).trim().length > 20) ls.push(w); else ls[ls.length - 1] = (ls.at(-1) + ' ' + w).trim(); }
+    ls.forEach((l, i) => top += txt(l, 520, 200 + i * 56, 50, i ? YEL : '#fff', 'middle', .2, -1.5));
+    top += `<rect x="90" y="${180 + ls.length * 56}" width="860" height="14" rx="7" fill="#000" opacity=".35"/><rect x="90" y="${180 + ls.length * 56}" width="${r1(860 * clamp(T / end))}" height="14" rx="7" fill="${YEL}"/>`;
+    if (hk > 0 && HOOK) {
+      const hw = HOOK.toUpperCase().split(' '), hl = ['']; for (const w of hw) { if ((hl.at(-1) + ' ' + w).trim().length > 12) hl.push(w); else hl[hl.length - 1] = (hl.at(-1) + ' ' + w).trim(); }
+      top += `<rect width="${W2}" height="${H2}" fill="#0b0820" opacity="${r1(hk * .78)}"/>`;
+      hl.forEach((l, i) => top += txt(l, 520, 860 - (hl.length - 1) * 60 + i * 120 + (rnd(f) - .5) * 6 * hk, 118, i % 2 ? YEL : '#fff', 'middle', .16, -3 + i * 2, eoBack(clamp(T / .2)) * (.9 + .1 * hk)));
+      cap = '';
+    }
+  } else if (!long && SHORT_TITLE) {
     const ws = SHORT_TITLE.toUpperCase().split(' '), ls = ['']; for (const w of ws) { if ((ls.at(-1) + ' ' + w).trim().length > 18) ls.push(w); else ls[ls.length - 1] = (ls.at(-1) + ' ' + w).trim(); }
     ls.forEach((l, i) => top += txt(l, 540, 170 + i * 78 - (ls.length - 1) * 20 + Math.sin(T * 2.5) * 4, 66, i ? YEL : '#fff', 'middle', .2, -2 + Math.sin(T * 1.7) * 1.2));
   }

@@ -23,6 +23,6 @@ done
 fi
 # TikTok-only clips (owner 20 Oct): part 2 of every story + the speed round
 for c in $(python3 -c "import json;print(' '.join(x['id'] for x in json.load(open('$D/clips.json'))))"); do
-  T=$(python3 -c "import json;print([x for x in json.load(open('$D/clips.json')) if x['id']=='$c'][0]['title'])")
-  render "$D/clip_$c.json" short "${ID}_clip_$c" "$T"
+  T=$(python3 -c "import json;x=[x for x in json.load(open('$D/clips.json')) if x['id']=='$c'][0];print(x['title']+'|'+x.get('hook',''))")
+  render "$D/clip_$c.json" tiktok "${ID}_clip_$c" "$T"
 done

@@ -1,0 +1,85 @@
+{
+ "id": "fddp01",
+ "title": "David and Goliath",
+ "tiktok": {
+  "title": "DAVID AND GOLIATH",
+  "hook": "SHEPHERD BOY VS GIANT?!",
+  "kw": "david and goliath"
+ },
+ "sources": [
+  "https://www.biblegateway.com/passage/?search=1+Samuel+17"
+ ],
+ "segments": [
+  {
+   "id": "elah",
+   "lines": [
+    {
+     "who": "sam",
+     "say": "A giant warrior challenged a whole army. And nobody dared to fight him.",
+     "panel": "dg_01.png",
+     "cam": "tiltup",
+     "focus": [
+      0.62,
+      0.25
+     ]
+    },
+    {
+     "who": "sam",
+     "say": "For forty days, Goliath shouted: send me your best fighter!",
+     "panel": "dg_w1.png",
+     "cam": "pushin",
+     "layout": "card",
+     "focus": [
+      0.75,
+      0.4
+     ]
+    },
+    {
+     "who": "sam",
+     "say": "Then a young shepherd named David stepped up, with just a sling and five smooth stones.",
+     "panel": "dg_w2.png",
+     "cam": "panright",
+     "layout": "card",
+     "focus": [
+      0.4,
+      0.5
+     ]
+    },
+    {
+     "who": "sam",
+     "say": "He swung it, and... whoosh!",
+     "panel": "dg_w2.png",
+     "cam": "pushin",
+     "layout": "card",
+     "focus": [
+      0.2,
+      0.32
+     ],
+     "sfx": "riser"
+    },
+    {
+     "who": "sam",
+     "say": "The giant came crashing down!",
+     "panel": "dg_w3.png",
+     "cam": "shake",
+     "layout": "card",
+     "focus": [
+      0.62,
+      0.6
+     ],
+     "sfx": "scratch"
+    },
+    {
+     "who": "sam",
+     "say": "The smallest one won. Follow for more Bible stories!",
+     "panel": "dg_01.png",
+     "cam": "pushin",
+     "focus": [
+      0.2,
+      0.66
+     ]
+    }
+   ]
+  }
+ ]
+}

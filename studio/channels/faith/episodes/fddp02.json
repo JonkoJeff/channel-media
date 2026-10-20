@@ -1,0 +1,165 @@
+{
+ "id": "fddp02",
+ "title": "11 Bible Stories in 60 Seconds",
+ "tiktok": {
+  "title": "11 BIBLE STORIES IN 60 SECONDS",
+  "hook": "11 STORIES. 60 SECONDS. GO!",
+  "kw": "bible stories"
+ },
+ "sources": [
+  "https://www.biblegateway.com/passage/?search=Genesis+2",
+  "https://www.biblegateway.com/passage/?search=Genesis+7",
+  "https://www.biblegateway.com/passage/?search=Genesis+28%3A10-17",
+  "https://www.biblegateway.com/passage/?search=Genesis+45",
+  "https://www.biblegateway.com/passage/?search=Exodus+2%3A1-10",
+  "https://www.biblegateway.com/passage/?search=Exodus+14",
+  "https://www.biblegateway.com/passage/?search=Joshua+6",
+  "https://www.biblegateway.com/passage/?search=1+Samuel+17",
+  "https://www.biblegateway.com/passage/?search=Jonah+1",
+  "https://www.biblegateway.com/passage/?search=Luke+15%3A11-32",
+  "https://www.biblegateway.com/passage/?search=Matthew+14%3A22-33"
+ ],
+ "segments": [
+  {
+   "id": "bible",
+   "lines": [
+    {
+     "who": "sam",
+     "say": "Eleven famous Bible stories, in about one minute. Ready? Let's go!",
+     "panel": "david_sling.png",
+     "cam": "pushin",
+     "focus": [
+      0.6,
+      0.35
+     ],
+     "sfx": "riser"
+    },
+    {
+     "who": "sam",
+     "say": "In the very beginning, the Bible says God made a beautiful garden, and the first people, Adam and Eve.",
+     "panel": "adam_eve.png",
+     "cam": "pushin",
+     "focus": [
+      0.4,
+      0.55
+     ]
+    },
+    {
+     "who": "sam",
+     "say": "When a great flood was coming, Noah built a giant ark, and the animals walked in, two by two.",
+     "panel": "noah_ark.png",
+     "cam": "panright",
+     "focus": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "who": "sam",
+     "say": "Jacob fell asleep on a rock, and dreamed of a stairway to heaven, with angels going up and down.",
+     "panel": "jacob_ladder.png",
+     "cam": "tiltup",
+     "focus": [
+      0.7,
+      0.18
+     ]
+    },
+    {
+     "who": "sam",
+     "say": "Joseph's brothers sold him as a slave. Years later he ruled in Egypt, and forgave them all.",
+     "panel": "joseph_brothers.png",
+     "cam": "pushin",
+     "focus": [
+      0.5,
+      0.42
+     ]
+    },
+    {
+     "who": "sam",
+     "say": "Baby Moses floated in a basket on the river Nile, until a princess of Egypt found him.",
+     "panel": "baby_moses.png",
+     "cam": "pushin",
+     "focus": [
+      0.35,
+      0.62
+     ]
+    },
+    {
+     "who": "sam",
+     "say": "When he grew up, Moses led his people out of Egypt, and the sea split in two!",
+     "panel": "red_sea.png",
+     "cam": "tiltup",
+     "focus": [
+      0.6,
+      0.3
+     ],
+     "sfx": "riser"
+    },
+    {
+     "who": "sam",
+     "say": "At Jericho, the people marched and blew their horns, and the great walls came tumbling down!",
+     "panel": "jericho.png",
+     "cam": "shake",
+     "focus": [
+      0.55,
+      0.45
+     ],
+     "sfx": "scratch"
+    },
+    {
+     "who": "sam",
+     "say": "Young David faced the giant Goliath, with nothing but a sling, and won!",
+     "panel": "david_sling.png",
+     "cam": "panright",
+     "focus": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "who": "sam",
+     "say": "Jonah ran away from his mission, and got swallowed by a huge fish!",
+     "panel": "jonah_fish.png",
+     "cam": "pushin",
+     "focus": [
+      0.45,
+      0.5
+     ],
+     "layers": false,
+     "sfx": "boing"
+    },
+    {
+     "who": "sam",
+     "say": "Jesus told a story about a son who ran away, and a father who welcomed him home with open arms.",
+     "panel": "prodigal_son.png",
+     "cam": "pushin",
+     "focus": [
+      0.45,
+      0.45
+     ]
+    },
+    {
+     "who": "sam",
+     "say": "And when Peter stepped out of a boat, the Bible says he walked on water, toward Jesus.",
+     "panel": "peter_water.png",
+     "cam": "pullout",
+     "focus": [
+      0.45,
+      0.5
+     ],
+     "layers": false
+    },
+    {
+     "who": "sam",
+     "say": "Which story is your favorite? Tell me in the comments, and follow for the full stories!",
+     "panel": "adam_eve.png",
+     "cam": "pullout",
+     "focus": [
+      0.45,
+      0.5
+     ]
+    }
+   ]
+  }
+ ]
+}

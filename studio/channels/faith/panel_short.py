@@ -19,8 +19,26 @@ def load(name, layout):
         card = cv2.resize(im, (1300, int(im.shape[0] * 1300 / im.shape[1])), interpolation=cv2.INTER_LANCZOS4)
         cache[name] = ("card", bg, card)
     else:
-        im = cv2.resize(im, (W, int(im.shape[0] * W / im.shape[1])), interpolation=cv2.INTER_CUBIC); cache[name] = ("full", im)
+        im = cv2.resize(im, (W, int(im.shape[0] * W / im.shape[1])), interpolation=cv2.INTER_CUBIC); ih = im.shape[0]; a = im.astype(int)
+        from scipy import ndimage as nd
+        top = np.arange(ih)[:, None] < ih * .45
+        sky = (a[..., 2] > 200) & (a[..., 0] < 175) & (a[..., 2] - a[..., 0] > 70) & top
+        cl = (a.min(2) > 228) & top
+        lab, _ = nd.label(sky | cl); keep = set(np.unique(lab[:12])) - {0}; conn = np.isin(lab, list(keep))
+        sky &= conn; cl &= conn; cl = cv2.morphologyEx(cl.astype(np.uint8), cv2.MORPH_CLOSE, np.ones((9, 9), np.uint8)).astype(bool)
+        rows = [im[y][sky[y]].mean(0) if sky[y].sum() > 20 else None for y in range(ih)]; last = np.array([118, 212, 251.]); plate = np.zeros_like(im, dtype=np.float32)
+        for y in range(ih): last = rows[y] if rows[y] is not None else last; plate[y] = last
+        rocks = (np.arange(ih)[:, None] > ih * .84) & (a.max(2) < 120); rocks = cv2.dilate(rocks.astype(np.uint8), np.ones((5, 5), np.uint8)).astype(bool)
+        A = lambda m: np.dstack([im, (m * 255).astype(np.uint8)])
+        cache[name] = ("full", im, plate.astype(np.uint8), A(cl), A(~sky & ~cl), A(rocks), bool(sky.sum() > ih * W * .04))
     return cache[name]
+def place(layer, z, cx, cy, canvas, dx=0, dy=0):   # layer (rgba or rgb) scaled by z around panel point (cx, cy) in 0-1 -> screen centre
+    ih, iw = layer.shape[:2]; s = max(W / iw, H / ih) * z; px, py = cx * iw, cy * ih
+    hw, hh = W / 2 / s, H / 2 / s; px = min(max(px, hw), iw - hw); py = min(max(py, hh), ih - hh)
+    M = np.float32([[s, 0, W / 2 - px * s + dx], [0, s, H / 2 - py * s + dy]])
+    wp = cv2.warpAffine(layer, M, (W, H), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE if layer.shape[2] == 3 else cv2.BORDER_CONSTANT, borderValue=(0, 0, 0, 0))
+    if wp.shape[2] == 3: canvas[:] = wp; return
+    al = wp[..., 3:4] / 255.; canvas[:] = canvas * (1 - al) + wp[..., :3] * al
 def cam_params(cam, u, focus):
     fx, fy = focus
     if cam == "tiltup": return 1 + .25 * u, .5 + (fx - .5) * u, .62 - (.62 - fy) * u
@@ -38,7 +56,7 @@ def view(img, z, cx, cy, ow, oh):   # crop a window of the image (zoom z, centre
 font = ImageFont.truetype(FONT, 84); tfont = ImageFont.truetype(FONT, 48); hfont = ImageFont.truetype(FONT, 118)
 title, hook = ep["tiktok"]["title"], ep["tiktok"].get("hook", "")
 fdir = f"/tmp/ps_{ep['id']}"; os.makedirs(fdir, exist_ok=True)
-nfr = int(total * FPS)
+total = max(total, 61.0); nfr = int(total * FPS)   # owner 21 Oct: never shorter than 1 minute
 for f in range(nfr):
     t = f / FPS; li = max([i for i, l in enumerate(T) if t >= l["start"] - .25] or [0]); L, M = T[li], lines[li]
     t0 = T[li]["start"] - .25; t1 = T[li + 1]["start"] - .25 if li + 1 < len(T) else total; u = ease(min(1, max(0, (t - t0) / max(.5, t1 - t0))))
@@ -46,7 +64,13 @@ for f in range(nfr):
     sh = 0
     if M.get("cam") == "shake" and t - t0 < .6: k = t - t0; sh = 22 * np.exp(-k * 7) * np.sin(k * 70)
     lay = load(M["panel"], M.get("layout", "full"))
-    if lay[0] == "full": fr = view(lay[1], z, cx, cy + sh / 2000, W, H)
+    if lay[0] == "full":
+        _, im0, plate, Lc, Ls, Lr, layered = lay; can = np.zeros((H, W, 3), np.float32)
+        if layered and M.get("layers", True):   # parallax: sky slower, clouds drift, scene breathes, foreground rocks faster
+            place(plate, z * .97, cx, cy, can, 0, sh); place(Lc, z * .98, cx, cy, can, -t * 16, sh)
+            place(Ls, z * (1 + .004 * np.sin(t * 2.2)), cx, cy, can, 0, sh); place(Lr, z * 1.06, cx, cy, can, (cx - .5) * -60, sh + 30 * u)
+        else: place(im0, z * (1 + .004 * np.sin(t * 2.2)), cx, cy, can, 0, sh)
+        fr = np.clip(can, 0, 255).astype(np.uint8)
     else:
         fr = lay[1].copy(); cw, ch = 1000, 640; card = view(lay[2], z, cx, cy, cw, ch)
         y0 = 560 + int(sh); x0 = (W - cw) // 2
@@ -85,6 +109,6 @@ for f in range(nfr):
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", "24", "-i", f"{fdir}/f%05d.jpg",
   "-f", "lavfi", "-i", "color=c=0x808080:s=36x64:r=12,noise=c0s=60:allf=t,lutyuv=y=128+(val-128)*0.03,scale=1080:1920:flags=bicubic,fps=24",
   "-f", "lavfi", "-i", "color=c=0x808080:s=36x64:r=12,noise=c0s=60:allf=t+u,lutyuv=y=128+(val-128)*0.03,scale=1080:1920:flags=bicubic,fps=24",
-  "-i", wav, "-filter_complex", "[0:v][1:v][2:v]displace=edge=smear,format=yuv420p[v]", "-map", "[v]", "-map", "3:a",
+  "-i", wav, "-filter_complex", "[0:v][1:v][2:v]displace=edge=smear,format=yuv420p[v];[3:a]apad[a]", "-map", "[v]", "-map", "[a]",
   "-c:v", "libx264", "-crf", "22", "-preset", "medium", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", out], check=True)
 print("done", out, nfr / FPS)

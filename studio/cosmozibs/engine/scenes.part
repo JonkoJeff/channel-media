@@ -397,13 +397,21 @@ SC.place = (s, t, b) => {   // where in the world: a spinning doodle globe, a pi
   if (t > 1) for (let i = 0; i < 8; i++) { const a = i / 8 * Math.PI * 2, r = 40 + clamp((t - 1) / .4) * 60; g += `<line x1="${r1(560 + Math.cos(a) * r)}" y1="${r1(210 + Math.sin(a) * r)}" x2="${r1(560 + Math.cos(a) * (r + 18))}" y2="${r1(210 + Math.sin(a) * (r + 18))}" stroke="${YEL}" stroke-width="6" stroke-linecap="round" opacity="${r1(1 - clamp((t - 1.2) / .5))}"/>`; }
   return g + txt(s.label || '', 500, 70, 58, YEL, 'middle', .2, -2, eoBack(P(t, .2, .5))) + txt(s.today || '', 500, 565, 46, '#fff', 'middle', .25, 0, eoBack(P(t, 1.1, 1.5)));
 };
+const ICON = {   // symbols for the compare cards (no people)
+  tablet: () => `<rect x="-60" y="-80" width="120" height="150" rx="10" fill="#c9a57a" stroke="${INK}" stroke-width="6"/>`,
+  boat: (t, b) => boat(0, 20, .55, t, b),
+  fish: () => `<path d="M-90,0 Q-30,-60 60,0 Q-30,60 -90,0Z" fill="#f2a33a" stroke="${INK}" stroke-width="7"/><circle cx="-50" cy="-8" r="9" fill="${INK}"/>`,
+  star6: () => `<path d="M0,-80 L69,40 L-69,40Z M0,80 L-69,-40 L69,-40Z" fill="none" stroke="#2b7bd6" stroke-width="14" stroke-linejoin="round"/>`,
+  cross: () => `<rect x="-14" y="-80" width="28" height="160" rx="6" fill="#c98a45" stroke="${INK}" stroke-width="6"/><rect x="-55" y="-45" width="110" height="28" rx="6" fill="#c98a45" stroke="${INK}" stroke-width="6"/>`,
+  crescent: () => `<circle r="70" fill="#2bb39a" stroke="${INK}" stroke-width="6"/><circle cx="28" cy="-14" r="62" fill="#fdfcf7"/>`,
+};
 SC.compare = (s, t, b) => {   // three columns: one symbol per tradition, ticked one by one
   const cols = s.items || [];
   let g = '';
   cols.forEach((c, i) => { const x = 180 + i * 320, p = eoBack(P(t, .2 + i * .35, .5 + i * .35));
     g += `<g transform="translate(${x},300) scale(${p})">` + roughSVG('rectangle', [-140, -170, 280, 400], { fill: '#fdfcf7', fillStyle: 'solid', stroke: INK, strokeWidth: 7 }, b + i) + '</g>';
     g += txt(c, x, 575, 34, '#fff', 'middle', .25, 0, p);
-    g += `<g transform="translate(${x},300) scale(${p})">` + (i === 0 ? `<rect x="-60" y="-80" width="120" height="150" rx="10" fill="#c9a57a" stroke="${INK}" stroke-width="6"/>` : i === 1 ? boat(0, 20, .55, t).replace('<g', '<g') : `<path d="M-90,0 Q-30,-60 60,0 Q-30,60 -90,0Z" fill="#f2a33a" stroke="${INK}" stroke-width="7"/><circle cx="-50" cy="-8" r="9" fill="${INK}"/>`) + '</g>';
+    g += `<g transform="translate(${x},300) scale(${p})">` + ICON[(s.icons || ['tablet', 'boat', 'fish'])[i]](t, b) + '</g>';
     if (t > 1.6 + i * .3) g += txt('✓', x + 100, 180, 90, OK, 'middle', .15, 0, eoBack(P(t, 1.6 + i * .3, 1.9 + i * .3)));
   });
   return g + txt(s.label || '', 500, 70, 52, YEL, 'middle', .2, -2, eoBack(P(t, .1, .4)));

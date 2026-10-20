@@ -1,0 +1,97 @@
+{
+ "id": "fddp03",
+ "title": "Noah's Ark",
+ "tiktok": {
+  "title": "NOAH'S ARK",
+  "hook": "A BOAT FOR EVERY ANIMAL?!",
+  "kw": "noahs ark"
+ },
+ "sources": [
+  "https://www.biblegateway.com/passage/?search=Genesis+6-9"
+ ],
+ "panels_needed": "noah_01..12",
+ "segments": [
+  {
+   "id": "noah",
+   "lines": [
+    {
+     "who": "sam",
+     "say": "Imagine building a boat so big that every kind of animal fits inside. That's the story of Noah!",
+     "panel": "noah_01.png",
+     "cam": "pushin",
+     "sfx": "riser"
+    },
+    {
+     "who": "sam",
+     "say": "The Bible says God told Noah: a great flood is coming. Build an ark!",
+     "panel": "noah_02.png",
+     "cam": "tiltup"
+    },
+    {
+     "who": "sam",
+     "say": "So Noah grabbed his hammer and started building. Day after day, plank after plank.",
+     "panel": "noah_03.png",
+     "cam": "pushin"
+    },
+    {
+     "who": "sam",
+     "say": "His neighbors laughed at him. A giant boat, far away from the sea?",
+     "panel": "noah_04.png",
+     "cam": "panright",
+     "sfx": "boing"
+    },
+    {
+     "who": "sam",
+     "say": "Then the animals came. Elephants, giraffes, lions and sheep, walking in two by two!",
+     "panel": "noah_05.png",
+     "cam": "panleft"
+    },
+    {
+     "who": "sam",
+     "say": "Dark clouds rolled in, and the first drops of rain began to fall.",
+     "panel": "noah_06.png",
+     "cam": "tiltup"
+    },
+    {
+     "who": "sam",
+     "say": "It rained for forty days and forty nights, and the ark floated on a stormy sea.",
+     "panel": "noah_07.png",
+     "cam": "shake",
+     "sfx": "scratch"
+    },
+    {
+     "who": "sam",
+     "say": "Inside, Noah, his family and all the animals waited together.",
+     "panel": "noah_08.png",
+     "cam": "pushin"
+    },
+    {
+     "who": "sam",
+     "say": "When the rain finally stopped, Noah sent out a dove to look for dry land.",
+     "panel": "noah_09.png",
+     "cam": "tiltup"
+    },
+    {
+     "who": "sam",
+     "say": "The dove came back with an olive leaf in its beak. Land was near!",
+     "panel": "noah_10.png",
+     "cam": "pushin",
+     "sfx": "ding"
+    },
+    {
+     "who": "sam",
+     "say": "The ark came to rest on the mountains of Ararat, and everyone stepped out.",
+     "panel": "noah_11.png",
+     "cam": "pullout"
+    },
+    {
+     "who": "sam",
+     "say": "And God put a rainbow in the sky, as a promise. Follow for more Bible stories!",
+     "panel": "noah_12.png",
+     "cam": "tiltup",
+     "sfx": "ding"
+    }
+   ]
+  }
+ ]
+}

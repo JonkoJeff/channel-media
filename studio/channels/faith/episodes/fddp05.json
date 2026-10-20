@@ -1,0 +1,98 @@
+{
+ "id": "fddp05",
+ "title": "Moses and the Red Sea",
+ "tiktok": {
+  "title": "MOSES AND THE RED SEA",
+  "hook": "THE SEA SPLIT IN TWO?!",
+  "kw": "moses red sea"
+ },
+ "sources": [
+  "https://www.biblegateway.com/passage/?search=Exodus+2-3",
+  "https://www.biblegateway.com/passage/?search=Exodus+14"
+ ],
+ "panels_needed": "moses_01..12",
+ "segments": [
+  {
+   "id": "moses",
+   "lines": [
+    {
+     "who": "sam",
+     "say": "A baby in a basket, a king, and a sea that splits in two. This is the story of Moses!",
+     "panel": "moses_01.png",
+     "cam": "pushin",
+     "sfx": "riser"
+    },
+    {
+     "who": "sam",
+     "say": "To keep him safe, his mother hid baby Moses in a basket on the river Nile.",
+     "panel": "moses_02.png",
+     "cam": "pushin"
+    },
+    {
+     "who": "sam",
+     "say": "A princess of Egypt found the basket, and raised him in the palace.",
+     "panel": "moses_03.png",
+     "cam": "tiltup"
+    },
+    {
+     "who": "sam",
+     "say": "When he grew up, Moses became a shepherd in the desert.",
+     "panel": "moses_04.png",
+     "cam": "panright"
+    },
+    {
+     "who": "sam",
+     "say": "One day he saw a bush on fire, but it didn't burn up. And God spoke to him from the bush.",
+     "panel": "moses_05.png",
+     "cam": "tiltup",
+     "sfx": "riser"
+    },
+    {
+     "who": "sam",
+     "say": "Moses went to Pharaoh and said: let my people go!",
+     "panel": "moses_06.png",
+     "cam": "pushin"
+    },
+    {
+     "who": "sam",
+     "say": "Finally, the people left Egypt. Thousands of families, walking into the desert.",
+     "panel": "moses_07.png",
+     "cam": "panleft"
+    },
+    {
+     "who": "sam",
+     "say": "But Pharaoh changed his mind, and sent his chariots after them!",
+     "panel": "moses_08.png",
+     "cam": "shake",
+     "sfx": "scratch"
+    },
+    {
+     "who": "sam",
+     "say": "They were trapped at the sea. So Moses raised his staff.",
+     "panel": "moses_09.png",
+     "cam": "tiltup"
+    },
+    {
+     "who": "sam",
+     "say": "And the sea split in two! Two giant walls of water.",
+     "panel": "moses_10.png",
+     "cam": "pushin",
+     "sfx": "riser"
+    },
+    {
+     "who": "sam",
+     "say": "The people walked through on dry ground, and the water closed behind them.",
+     "panel": "moses_11.png",
+     "cam": "pullout"
+    },
+    {
+     "who": "sam",
+     "say": "On the other side, they sang and danced. Free at last! Follow for more Bible stories!",
+     "panel": "moses_12.png",
+     "cam": "pullout",
+     "sfx": "ding"
+    }
+   ]
+  }
+ ]
+}

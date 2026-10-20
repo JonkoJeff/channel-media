@@ -1,0 +1,97 @@
+{
+ "id": "fddp06",
+ "title": "David and Goliath",
+ "tiktok": {
+  "title": "DAVID AND GOLIATH",
+  "hook": "SHEPHERD BOY VS GIANT?!",
+  "kw": "david and goliath"
+ },
+ "sources": [
+  "https://www.biblegateway.com/passage/?search=1+Samuel+17"
+ ],
+ "panels_needed": "david_01..12",
+ "segments": [
+  {
+   "id": "david",
+   "lines": [
+    {
+     "who": "sam",
+     "say": "A shepherd boy against a giant warrior. Who wins? Let's find out!",
+     "panel": "david_01.png",
+     "cam": "pushin",
+     "sfx": "riser"
+    },
+    {
+     "who": "sam",
+     "say": "David was the youngest son in his family. He looked after his father's sheep.",
+     "panel": "david_02.png",
+     "cam": "pushin"
+    },
+    {
+     "who": "sam",
+     "say": "One day, two armies faced each other on the hills, ready for battle.",
+     "panel": "david_03.png",
+     "cam": "panright"
+    },
+    {
+     "who": "sam",
+     "say": "And every day a giant named Goliath stepped out and shouted: send me your best fighter!",
+     "panel": "david_04.png",
+     "cam": "tiltup",
+     "sfx": "boing"
+    },
+    {
+     "who": "sam",
+     "say": "Nobody dared. The soldiers hid behind their shields, for forty days.",
+     "panel": "david_05.png",
+     "cam": "panleft"
+    },
+    {
+     "who": "sam",
+     "say": "Then David arrived, bringing food for his brothers. He said: I'll fight him!",
+     "panel": "david_06.png",
+     "cam": "pushin"
+    },
+    {
+     "who": "sam",
+     "say": "The king gave David his armor. But it was way too big and heavy!",
+     "panel": "david_07.png",
+     "cam": "pullout",
+     "sfx": "boing"
+    },
+    {
+     "who": "sam",
+     "say": "So David picked five smooth stones from a stream, and took his sling.",
+     "panel": "david_08.png",
+     "cam": "pushin"
+    },
+    {
+     "who": "sam",
+     "say": "He ran forward, spinning the sling above his head.",
+     "panel": "david_09.png",
+     "cam": "panright"
+    },
+    {
+     "who": "sam",
+     "say": "The stone flew, and hit the giant right on the forehead!",
+     "panel": "david_10.png",
+     "cam": "pushin",
+     "sfx": "scratch"
+    },
+    {
+     "who": "sam",
+     "say": "Down came Goliath like a falling tree, and the whole army cheered!",
+     "panel": "david_11.png",
+     "cam": "shake"
+    },
+    {
+     "who": "sam",
+     "say": "The smallest one won. That's why we still say: a David and Goliath story. Follow for more!",
+     "panel": "david_12.png",
+     "cam": "pullout",
+     "sfx": "ding"
+    }
+   ]
+  }
+ ]
+}

@@ -246,6 +246,44 @@ elif cmd == "dropyt":   # owner 21 Oct: Cosmozibs YouTube blocked, YouTube line 
             r["shorts_posted"][sid] = {"zernio_id": np_.get("_id"), "when": when, "tiktok_only": True}; print(f"{sid} -> TikTok only {when}")
             json.dump(r, open(f, "w"), indent=1)
         json.dump(r, open(f, "w"), indent=1)
+elif cmd == "faith":   # owner 21 Oct: Faith Doodles TikTok-only (Zernio key 2), 10 a day. a = video ids "fddp03,fddp04" (release <id>/<id>.mp4, episode studio/channels/faith/episodes/<id>.json),
+    # b = optional first slot "YYYY-MM-DDTHH:MM" (ET). Fills the next free slots of SLOTS; state in studio/channels/faith/posted.json (never posts an id twice).
+    import datetime as dt
+    ch = "faith"; yt_account(ch); tt = cfg.get("tiktok", {}).get(ch) or sys.exit("::error::no TikTok account 'faith' in zernio.json; run accounts 2")
+    SLOTS = ["07:00", "08:30", "10:00", "11:30", "13:00", "15:00", "17:00", "19:00", "20:30", "22:00"]   # ET, 10 a day
+    FD = os.path.join(D, "..", "channels", "faith"); PF = os.path.join(FD, "posted.json"); posted = json.load(open(PF)) if os.path.exists(PF) else {}
+    from zoneinfo import ZoneInfo; now = dt.datetime.now(ZoneInfo("America/New_York")).replace(tzinfo=None) + dt.timedelta(minutes=40)
+    taken = {v["when"] for v in posted.values()}
+    start = max([now] + [dt.datetime.fromisoformat(v["when"]) for v in posted.values()] + ([dt.datetime.fromisoformat(sys.argv[3])] if len(sys.argv) > 3 and sys.argv[3] else []))
+    def slots_from(t0):
+        d = t0.date()
+        while True:
+            for sl in SLOTS:
+                w = dt.datetime.fromisoformat(f"{d}T{sl}")
+                if w >= t0 and w.strftime("%Y-%m-%dT%H:%M") not in taken: yield w
+            d += dt.timedelta(days=1)
+    gen = slots_from(start)
+    for vid in [x for x in sys.argv[2].split(",") if x]:
+        if vid in posted: print(f"{vid} already scheduled {posted[vid]['when']}"); continue
+        e = json.load(open(os.path.join(FD, "episodes", vid + ".json"))); tk = e.get("tiktok", {}); kw = tk.get("kw", "")
+        cap = f"{e['title']}"; ex = existing(cap[:40])
+        if ex: posted[vid] = {"zernio_id": ex.get("_id"), "when": str(ex.get("scheduledFor"))[:16]}; print(f"{vid} already on Zernio, adopted"); json.dump(posted, open(PF, "w"), indent=1); continue
+        f = os.path.join(TMP, vid + ".mp4"); os.path.exists(f) or sys.exit(f"::error::{vid}.mp4 missing")
+        w = next(gen).strftime("%Y-%m-%dT%H:%M")
+        _, ps = call("POST", "/media/presign", {"filename": vid + ".mp4", "contentType": "video/mp4", "size": os.path.getsize(f)})
+        urllib.request.urlopen(urllib.request.Request(ps["uploadUrl"], data=open(f, "rb").read(), method="PUT", headers={"Content-Type": "video/mp4"}), timeout=600).read()
+        tags = " ".join(dict.fromkeys(["#" + kw.replace(" ", "").replace("'", "")] * bool(kw) + ["#bible", "#biblestories", "#faith", "#christiantiktok", "#learnontiktok", "#faithdoodles"]))
+        body = {"content": f"{cap} {tk.get('hook', '').title()}\n\n{tags}\n\nVoice is AI-generated.", "mediaItems": [{"type": "video", "url": ps["publicUrl"]}],
+                "platforms": [{"platform": "tiktok", "accountId": tt}], "scheduledFor": w, "timezone": "America/New_York",
+                "tiktokSettings": {"privacy_level": "PUBLIC_TO_EVERYONE", "allow_comment": True, "allow_duet": True, "allow_stitch": True, "commercial_content_type": "none",
+                                   "content_preview_confirmed": True, "express_consent_given": True, "media_type": "video", "auto_add_music": False, "video_made_with_ai": True}}
+        st, p = call("POST", "/posts", body, soft=True)
+        if st is None:
+            import time; time.sleep(20); p = existing(cap[:40]) or sys.exit(f"::error::{vid}: no answer and no post found; check Zernio before retrying")
+        post = p.get("post", p)
+        if st == 207 or post.get("status") == "failed": print(f"::warning::{vid} failed: {json.dumps(post)[:300]}"); continue
+        posted[vid] = {"zernio_id": post.get("_id"), "when": w}; taken.add(w); json.dump(posted, open(PF, "w"), indent=1); print(f"{vid} -> {w} ET")
+    print(f"::notice::Faith Doodles: {len(posted)} TikToks planned")
 elif cmd == "list":   # a = channel key (religion|crazyfacts|moneyatnight): recent posts of that account, to avoid duplicates after a timeout
     yt_account(sys.argv[2] if len(sys.argv) > 2 and sys.argv[2] else "crazyfacts"); st, p = call("GET", "/posts?limit=100"); ps = p.get("posts", p if isinstance(p, list) else [])
     seen_ = {x.get("_id") for x in ps}

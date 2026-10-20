@@ -17,6 +17,9 @@ jobs:
       - if: inputs.cmd == 'post' || inputs.cmd == 'shorts'
         env: {GH_TOKEN: "${{ github.token }}"}
         run: gh release download "${{ inputs.a }}" --repo ${{ github.repository }} --pattern "*.mp4" --dir /tmp --clobber
+      - if: inputs.cmd == 'faith'
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: for e in $(echo "${{ inputs.a }}" | tr ',' ' '); do gh release download "$e" --repo ${{ github.repository }} --pattern "$e.mp4" --dir /tmp --clobber; done
       - if: inputs.cmd == 'dropyt'
         env: {GH_TOKEN: "${{ github.token }}"}
         run: for e in $(echo "${{ inputs.a }}" | tr ',' ' '); do gh release download "$e" --repo ${{ github.repository }} --pattern "*.mp4" --dir /tmp --clobber; done
@@ -31,6 +34,6 @@ jobs:
       - if: always()   # commit result.json even when the step above failed: it is the record that stops a second upload
         run: |
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
-          git add studio/yt/zernio.json studio/yt/list_*.json 2>/dev/null; git add -f studio/renders/*/result.json
+          git add studio/yt/zernio.json studio/yt/list_*.json 2>/dev/null; git add studio/channels/faith/posted.json 2>/dev/null; git add -f studio/renders/*/result.json
           git commit -qm "zernio ${{ inputs.cmd }} ${{ inputs.a }} [skip ci]" || exit 0
           for i in 1 2 3 4 5; do git pull -q --rebase && git push && exit 0; sleep 8; done; echo "::error::result.json not pushed: post state lost"; exit 1

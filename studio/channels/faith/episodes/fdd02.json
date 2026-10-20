@@ -1,0 +1,289 @@
+{
+ "id": "fdd02",
+ "title": "David and Goliath",
+ "tiktok": {
+  "title": "DAVID AND GOLIATH",
+  "hook": "SHEPHERD BOY VS GIANT?!",
+  "kw": "david and goliath"
+ },
+ "sources": [
+  "https://www.biblegateway.com/passage/?search=1+Samuel+17",
+  "https://quran.com/2/251",
+  "https://en.wikipedia.org/wiki/Goliath"
+ ],
+ "segments": [
+  {
+   "id": "elah",
+   "lines": [
+    {
+     "who": "sam",
+     "say": "A shepherd boy against a giant warrior. Who wins? Let's find out!",
+     "show": {
+      "type": "stage",
+      "set": "valley",
+      "cast": [
+       {
+        "c": "david",
+        "a": "stand",
+        "x": 260
+       },
+       {
+        "c": "goliath",
+        "a": "laugh",
+        "x": 760,
+        "flip": true
+       }
+      ]
+     },
+     "sfx": "riser"
+    },
+    {
+     "who": "sam",
+     "say": "This story comes from the Bible, about three thousand years ago, in the Valley of Elah.",
+     "show": {
+      "type": "place",
+      "label": "VALLEY OF ELAH",
+      "today": "TODAY: ISRAEL"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "sam",
+     "say": "Two armies faced each other. And every single day, a huge warrior named Goliath stepped out and shouted.",
+     "show": {
+      "type": "stage",
+      "set": "valley",
+      "cast": [
+       {
+        "c": "goliath",
+        "a": "walk",
+        "x": 700,
+        "flip": true,
+        "from": 1250,
+        "dur": 2.2
+       }
+      ]
+     }
+    },
+    {
+     "who": "goliath",
+     "say": "Send me your best fighter! Who dares to fight me?",
+     "show": {
+      "type": "stage",
+      "set": "valley",
+      "cast": [
+       {
+        "c": "goliath",
+        "a": "point",
+        "x": 700,
+        "flip": true
+       }
+      ]
+     }
+    },
+    {
+     "who": "sam",
+     "say": "Some old texts say he was almost three meters tall. For forty days, nobody dared!",
+     "show": {
+      "type": "stage",
+      "set": "valley",
+      "cast": [
+       {
+        "c": "goliath",
+        "a": "hips",
+        "x": 700,
+        "flip": true
+       }
+      ]
+     },
+     "sfx": "boing"
+    },
+    {
+     "who": "sam",
+     "say": "Then a young shepherd named David came by, bringing food for his brothers.",
+     "show": {
+      "type": "stage",
+      "set": "valley",
+      "cast": [
+       {
+        "c": "david",
+        "a": "walk",
+        "x": 260,
+        "from": -250,
+        "dur": 2.2
+       },
+       {
+        "c": "goliath",
+        "a": "cross",
+        "x": 760,
+        "flip": true
+       }
+      ]
+     }
+    },
+    {
+     "who": "david",
+     "say": "I'll fight him!",
+     "show": {
+      "type": "stage",
+      "set": "valley",
+      "cast": [
+       {
+        "c": "david",
+        "a": "point",
+        "x": 260
+       },
+       {
+        "c": "goliath",
+        "a": "shocked",
+        "x": 760,
+        "flip": true
+       }
+      ]
+     },
+     "sfx": "scratch"
+    },
+    {
+     "who": "sam",
+     "say": "The king offered David his heavy armor. But David said: no thanks! He picked five smooth stones from a stream.",
+     "show": {
+      "type": "stage",
+      "set": "valley",
+      "cast": [
+       {
+        "c": "david",
+        "a": "pick",
+        "x": 260
+       },
+       {
+        "c": "goliath",
+        "a": "look",
+        "x": 760,
+        "flip": true
+       }
+      ]
+     }
+    },
+    {
+     "who": "goliath",
+     "say": "A little boy? Are you serious?",
+     "show": {
+      "type": "stage",
+      "set": "valley",
+      "cast": [
+       {
+        "c": "david",
+        "a": "stand",
+        "x": 260
+       },
+       {
+        "c": "goliath",
+        "a": "laugh",
+        "x": 760,
+        "flip": true
+       }
+      ]
+     },
+     "sfx": "boing"
+    },
+    {
+     "who": "sam",
+     "say": "David ran forward, swung his sling, and... whoosh!",
+     "show": {
+      "type": "stage",
+      "set": "valley",
+      "cast": [
+       {
+        "c": "david",
+        "a": "sling",
+        "x": 260
+       },
+       {
+        "c": "goliath",
+        "a": "stand",
+        "x": 760,
+        "flip": true
+       }
+      ],
+      "fx": "stone"
+     }
+    },
+    {
+     "who": "sam",
+     "say": "The stone hit the giant right on the forehead, and down he went. Boom!",
+     "show": {
+      "type": "stage",
+      "set": "valley",
+      "cast": [
+       {
+        "c": "david",
+        "a": "cheer",
+        "x": 260
+       },
+       {
+        "c": "goliath",
+        "a": "fall",
+        "x": 760,
+        "flip": true
+       }
+      ],
+      "fx": "boom"
+     },
+     "sfx": "scratch"
+    },
+    {
+     "who": "sam",
+     "say": "The smallest one won! That's why people still call it a David and Goliath story, when an underdog wins.",
+     "show": {
+      "type": "stage",
+      "set": "valley",
+      "cast": [
+       {
+        "c": "david",
+        "a": "cheer",
+        "x": 260
+       },
+       {
+        "c": "goliath",
+        "a": "dizzy",
+        "x": 760,
+        "flip": true
+       }
+      ]
+     }
+    },
+    {
+     "who": "sam",
+     "say": "Fun fact: the Quran mentions this moment too. There, David is called Dawud, and Goliath is called Jalut.",
+     "show": {
+      "type": "bignum",
+      "value": "DAWUD & JALUT",
+      "label": "IN THE QURAN"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "sam",
+     "say": "Would you have been brave enough? Tell me in the comments!",
+     "show": {
+      "type": "stage",
+      "set": "valley",
+      "cast": [
+       {
+        "c": "david",
+        "a": "stand",
+        "x": 260
+       },
+       {
+        "c": "goliath",
+        "a": "scratch",
+        "x": 760,
+        "flip": true
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

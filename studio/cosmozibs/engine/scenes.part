@@ -408,6 +408,65 @@ SC.compare = (s, t, b) => {   // three columns: one symbol per tradition, ticked
   });
   return g + txt(s.label || '', 500, 70, 52, YEL, 'middle', .2, -2, eoBack(P(t, .1, .4)));
 };
+/* ---------- Faith Doodles sprite stage (owner 20 Oct): owner-drawn pose sheets, animated pose-to-pose ----------
+   show = {type:"stage", set:"valley", cast:[{c:"david", a:"walk", x:260, from:-250, flip:false}, ...], fx:"stone"|"boom"|null}
+   Respect rule: prophets are only drawn in stories told from the Bible; never God, never the Prophet Muhammad, never during an Islamic retelling. */
+const SPR = {};   // "david/01" -> {url, w, h}, preloaded in setup
+const SPRITE_DIR = '../../channels/faith/sprites/';
+const ACT = {   // frames (pose numbers), seconds per frame, loop?, height in stage units
+  david: { h: 430, stand: [['01'], .5, 1], walk: [['02', '01'], .22, 1], run: [['03', '02'], .14, 1], point: [['04'], .5, 1], cheer: [['04', '01'], .3, 1],
+           pick: [['08'], .5, 1], sling: [['05', '06', '07'], .35, 0] },
+  goliath: { h: 600, stand: [['01'], .5, 1], hips: [['02'], .5, 1], cross: [['03'], .5, 1], point: [['04'], .5, 1], laugh: [['05', '02'], .28, 1],
+             walk: [['06', '07', '08', '09'], .2, 1], block: [['12', '14'], .4, 0], look: [['16'], .5, 1], shocked: [['17'], .5, 1],
+             fall: [['18', '19', '20', '22'], .2, 0], dizzy: [['22', '23'], .7, 1], scratch: [['23'], .5, 1], shrug: [['25'], .5, 1] },
+  noah: { h: 470, stand: [['01'], .5, 1], walk: [['02', '01'], .25, 1], point: [['03'], .5, 1], wave: [['04', '01'], .4, 1], hammer: [['05', '07'], .25, 1], welcome: [['06'], .5, 1], pray: [['08'], .5, 1] },
+  jonah: { h: 450, stand: [['01'], .5, 1], walk: [['02', '01'], .22, 1], run: [['03', '02'], .14, 1], scared: [['04'], .5, 1], hide: [['05'], .5, 1], swim: [['06'], .5, 1], sit: [['07'], .5, 1], pray: [['08'], .5, 1] } };
+function spriteCast(c, t) {   // -> drawing for this moment, incl. the previous drawing for the in-between (owner 20 Oct: fluid, frame-by-frame feel)
+  const A = ACT[c.c], [frames, spf, loop] = A[c.a] || A.stand;
+  const k = Math.floor(t / spf), fi = loop ? k % frames.length : Math.min(k, frames.length - 1);
+  const pk = Math.max(0, k - 1), pi = loop ? pk % frames.length : Math.min(pk, frames.length - 1);
+  const since = (loop || k < frames.length) ? t - k * spf : 9, tr = k === 0 ? 1 : clamp(since / .11);   // 0.11 s blend from the previous drawing
+  const sp = SPR[c.c + '/' + frames[fi]] || {}, pp = SPR[c.c + '/' + frames[pi]] || sp;
+  const hh = A.h * (c.s || 1), ww = hh * (sp.w || 1) / (sp.h || 1), pw = hh * (pp.w || 1) / (pp.h || 1);
+  // travel: anticipation (dip back), move with overshoot, settle; velocity drives the lean
+  const D = c.dur || 1.4, u = c.from != null ? clamp((t - .15) / D) : 1;
+  const ease = (v) => v < 1 ? 1 - Math.pow(1 - v, 3) + Math.sin(v * Math.PI) * .06 : 1;
+  const x = c.from != null ? (t < .15 ? c.from - (c.x - c.from) * .04 * Math.sin(t / .15 * Math.PI) : lerp(c.from, c.x, ease(u))) : c.x;
+  const vel = c.from != null && u < 1 ? (c.x - c.from) / D * 3 * Math.pow(1 - u, 2) : 0;
+  const settle = c.from != null && u >= 1 ? Math.exp(-(t - .15 - D) * 6) * Math.sin((t - .15 - D) * 18) : 0;
+  const walking = c.a === 'walk' || c.a === 'run';
+  const bob = walking ? Math.abs(Math.sin(t * Math.PI / spf)) * 12 : Math.sin(t * 2.6 + c.x) * 3;
+  const lean = Math.max(-14, Math.min(14, vel * .012)) * (c.flip ? -1 : 1) + settle * 5 + (walking ? Math.sin(t * Math.PI / spf) * 2.5 : 0);
+  const sq = 1 + .09 * Math.exp(-since * 16) - (walking ? Math.abs(Math.sin(t * Math.PI / spf)) * .035 : 0) + Math.sin(t * 2.4 + c.x) * .012;
+  return { url: sp.url, purl: pp.url, tr, x, y: 950 - bob, w: ww, pw, h: hh, sq, lean, flip: !!c.flip, moving: Math.abs(vel) > 40 };
+}
+SC.stage = (s, t, b) => {   // full-height doodle set + animated cast
+  const pal = { valley: ['#8fd3ff', '#f2c46d', '#e3a857'], sea: ['#7cc8f0', '#2f7ac0', '#1f5a9a'], ark: ['#9ab8d8', '#d9b77a', '#8a6a4a'] }[s.set || 'valley'];
+  const bb = Math.floor(b / 2);
+  let g = `<rect x="-200" y="-500" width="1400" height="1300" fill="${pal[0]}"/>`;
+  g += roughSVG('rectangle', [-200, -500, 1400, 1300], { fill: '#ffffff', fillStyle: 'hachure', hachureGap: 30, hachureAngle: -30, fillWeight: 10, stroke: 'none', roughness: 2.6 }, bb).replace('<g', '<g opacity=".25"');
+  for (let i = 0; i < 3; i++) { const cx = ((i * 380 + t * 18) % 1500) - 250, cy = 160 + i * 70; g += roughSVG('ellipse', [cx, cy, 220, 70], { fill: '#fff', fillStyle: 'solid', stroke: INK, strokeWidth: 4, roughness: 1.4 }, bb + i); }
+  g += roughSVG('path', ['M-200,620 Q150,420 420,560 Q700,690 1000,500 Q1150,430 1200,520 L1200,1500 L-200,1500Z'], { fill: pal[2], fillStyle: 'hachure', hachureGap: 12, fillWeight: 5, stroke: INK, strokeWidth: 6, roughness: 1.8 }, bb + 4);
+  g += roughSVG('path', ['M-200,820 Q300,760 600,800 Q900,840 1200,780 L1200,1500 L-200,1500Z'], { fill: pal[1], fillStyle: 'solid', stroke: INK, strokeWidth: 6, roughness: 1.6 }, bb + 5);
+  for (let i = 0; i < 7; i++) { const x = rnd(i * 3.3) * 1000, y = 860 + rnd(i * 1.7) * 160; g += roughSVG('ellipse', [x, y, 26, 12], { fill: '#b9a27a', fillStyle: 'solid', stroke: INK, strokeWidth: 3 }, bb + 9 + i); }
+  for (const c of s.cast || []) {
+    const q = spriteCast(c, t); if (!q.url) continue;
+    g += `<ellipse cx="${r1(q.x)}" cy="${r1(q.y + 8)}" rx="${r1(q.w * .42 * (2 - q.sq))}" ry="16" fill="#000" opacity=".18"/>`;
+    const body = (url, w, op, extra) => `<g transform="translate(${r1(q.x)},${r1(q.y)}) skewX(${r1(-q.lean)}) scale(${q.flip ? -1 : 1},1) scale(${r1(100 / q.sq) / 100},${r1(q.sq * 100) / 100})${extra}" opacity="${r1(op)}"><image href="${url}" x="${r1(-w / 2)}" y="${r1(-q.h)}" width="${r1(w)}" height="${r1(w * 0 + q.h)}"/></g>`;
+    const blend = q.tr < 1 && q.purl !== q.url;
+    if (blend) g += body(q.purl, q.pw, 1 - q.tr, ` skewX(${r1(8 * (1 - q.tr))})`);   // in-between: old drawing smears out while the new one pops in
+    g += body(q.url, q.w, blend ? .35 + .65 * q.tr : 1, blend ? ` scale(${r1(1 + .05 * (1 - q.tr))},${r1(1 - .05 * (1 - q.tr))})` : '');
+    if (q.moving) for (let i = 0; i < 3; i++) { const yy = q.y - q.h * (.3 + i * .22), dx = (q.flip ? 1 : -1) * (q.w * .5 + 20); g += `<line x1="${r1(q.x + dx)}" y1="${r1(yy)}" x2="${r1(q.x + dx + (q.flip ? 1 : -1) * (60 + i * 20))}" y2="${r1(yy)}" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".7"/>`; }
+  }
+  if (s.fx === 'stone') {   // a stone flies from the first cast member to the second one's head
+    const [a, z] = (s.cast || []).map(c => spriteCast(c, t)); const k = clamp((t - 1.1) / .45);
+    if (a && z && k > 0 && k < 1) { const x = lerp(a.x + 60, z.x - 20, k), y = lerp(a.y - a.h * .8, z.y - z.h * .82, k) - Math.sin(k * Math.PI) * 120;
+      g += `<circle cx="${r1(x)}" cy="${r1(y)}" r="16" fill="#8a8a8a" stroke="${INK}" stroke-width="5"/>`; for (let i = 1; i < 5; i++) g += `<line x1="${r1(x - i * 24)}" y1="${r1(y + i * 4)}" x2="${r1(x - i * 24 - 16)}" y2="${r1(y + i * 4)}" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="${r1(.8 - i * .15)}"/>`; }
+  }
+  if (s.fx === 'boom' && t < 1.2) { const z = spriteCast((s.cast || [])[1] || {}, t), k = clamp(t / .5);
+    if (z.url) { g += star5(z.x - 10, z.y - z.h * .85, 70 * eoBack(k), YEL) + txt('BONK!', z.x - 40, z.y - z.h - 40, 90, RED, 'middle', .16, -10, eoBack(k)); } }
+  return g;
+};
 /* ---------- crew ---------- */
 const CREW = ['cosmo', 'zib', 'bolt', 'rocky', 'tik'];
 function drawChar(who, x, y, s, st, t, b) {
@@ -460,8 +519,8 @@ function actor(who, x, footY, s, T, b, ctx) {   // the speaker, big, entering an
   if (ex && ts < 1.4) g += txt('?!', x0 + side * -10 + 70 * s, footY - 330 * s - hop, 80 * s, YEL, 'middle', .2, side * -12, eoBack(clamp(ts / .25)));
   return g;
 }
-const BG = { flood: ['#2b7bd6', '#6ec6ff', '#ffd23f'], mesopotamia: ['#f08a4b', '#ffcf70', '#2ec4b6'], bible: ['#7a5cff', '#b9a7ff', '#ffd23f'], hindu: ['#ff5d8f', '#ffb347', '#29c7d8'], quran: ['#2bb39a', '#7be0b0', '#ff7a6b'], fddend: ['#9b6bff', '#ff9ecb', '#ffd23f'], volcano: ['#2a1410', '#b5573a'], pulsar: ['#0b1440', '#3a5cc4'], coldest: ['#0b2a3a', '#2f8ab0'], bigstar: ['#2a0a14', '#a8243a'], bigbang: ['#1a0f3a', '#a83a7a'], sunearth: ['#2b1a0a', '#c4561e'], dinos: ['#0f2a1c', '#4a7a2f'], humans: ['#0b2152', '#1f5cb5'], moon: ['#1d1a5c', '#4a3fb0'], spin: ['#0b2152', '#1f8a8a'], sunoff: ['#2b1a0a', '#c4561e'], car: ['#1f2a52', '#d2366b'], wow: ['#0f2a1c', '#2f7a4a'], oumuamua: ['#2a1410', '#8a3a24'], tabby: ['#2b1a0a', '#b5651e'], blackhole: ['#05030c', '#3a1858'], intro: ['#1f2a52', '#3b2470'], outro: ['#1f2a52', '#3b2470'], speed: ['#2a1f5c', '#6a2470'], venus: ['#3a1c2a', '#93421f'], jupiter: ['#2b1d14', '#7a4a2a'], neptune: ['#0b2152', '#1f5cb5'], glass: ['#0d1440', '#2f3fa0'] };
-const FAITH = new Set(['flood', 'mesopotamia', 'bible', 'hindu', 'quran', 'fddend']);
+const BG = { elah: ['#e3a857', '#8fd3ff', '#ff7a6b'], flood: ['#2b7bd6', '#6ec6ff', '#ffd23f'], mesopotamia: ['#f08a4b', '#ffcf70', '#2ec4b6'], bible: ['#7a5cff', '#b9a7ff', '#ffd23f'], hindu: ['#ff5d8f', '#ffb347', '#29c7d8'], quran: ['#2bb39a', '#7be0b0', '#ff7a6b'], fddend: ['#9b6bff', '#ff9ecb', '#ffd23f'], volcano: ['#2a1410', '#b5573a'], pulsar: ['#0b1440', '#3a5cc4'], coldest: ['#0b2a3a', '#2f8ab0'], bigstar: ['#2a0a14', '#a8243a'], bigbang: ['#1a0f3a', '#a83a7a'], sunearth: ['#2b1a0a', '#c4561e'], dinos: ['#0f2a1c', '#4a7a2f'], humans: ['#0b2152', '#1f5cb5'], moon: ['#1d1a5c', '#4a3fb0'], spin: ['#0b2152', '#1f8a8a'], sunoff: ['#2b1a0a', '#c4561e'], car: ['#1f2a52', '#d2366b'], wow: ['#0f2a1c', '#2f7a4a'], oumuamua: ['#2a1410', '#8a3a24'], tabby: ['#2b1a0a', '#b5651e'], blackhole: ['#05030c', '#3a1858'], intro: ['#1f2a52', '#3b2470'], outro: ['#1f2a52', '#3b2470'], speed: ['#2a1f5c', '#6a2470'], venus: ['#3a1c2a', '#93421f'], jupiter: ['#2b1d14', '#7a4a2a'], neptune: ['#0b2152', '#1f5cb5'], glass: ['#0d1440', '#2f3fa0'] };
+const FAITH = new Set(['elah', 'flood', 'mesopotamia', 'bible', 'hindu', 'quran', 'fddend']);
 function paperBg(seg, W2, H2, T, b) {   // hand-made look (owner 20 Oct): cream paper, loose crayon washes that boil, a few doodled stars/sparkles
   const c = BG[seg] || BG.flood, bb = Math.floor(b / 2);
   let g = `<rect width="${W2}" height="${H2}" fill="#f1e6cf"/>`;
@@ -505,9 +564,12 @@ function caption(line, T, x, y, size) {
 let TL = null, LAYOUT = 'long', SHORT_TITLE = '', PAPER = '';
 function makePaper(w, h) { const c = document.createElement('canvas'); c.width = w / 2; c.height = h / 2; const x = c.getContext('2d'), d = x.createImageData(c.width, c.height); for (let i = 0; i < d.data.length; i += 4) { const v = Math.random(); d.data[i] = d.data[i + 1] = 235; d.data[i + 2] = 220; d.data[i + 3] = v > .5 ? (v - .5) * 34 : 0; } x.putImageData(d, 0, 0); return c.toDataURL('image/png'); }
 let HOOK = '';
-window.setup = (tl, layout, shortTitle) => { TL = tl; LAYOUT = layout; [SHORT_TITLE, HOOK] = (shortTitle || '').split('|').concat(['']);   // tiktok layout: "title|hook"
-  const W2 = layout === 'long' ? 1920 : 1080, H2 = layout === 'long' ? 1080 : 1920; stage.setAttribute('width', W2); stage.setAttribute('height', H2); stage.setAttribute('viewBox', `0 0 ${W2} ${H2}`); PAPER = makePaper(W2, H2); };
-window.renderFrame = function (f) {
+window.setup = async (tl, layout, shortTitle) => { TL = tl; LAYOUT = layout; [SHORT_TITLE, HOOK] = (shortTitle || '').split('|').concat(['']);   // tiktok layout: "title|hook"
+  const W2 = layout === 'long' ? 1920 : 1080, H2 = layout === 'long' ? 1080 : 1920; stage.setAttribute('width', W2); stage.setAttribute('height', H2); stage.setAttribute('viewBox', `0 0 ${W2} ${H2}`); PAPER = makePaper(W2, H2);
+  const need = new Set(); for (const l of tl.lines) for (const c of (l.show && l.show.cast) || []) { const A = ACT[c.c]; if (A) for (const k in A) if (Array.isArray(A[k])) A[k][0].forEach(f => need.add(c.c + '/' + f)); }
+  await Promise.all([...need].map(n => new Promise(res => { const im = new Image(); im.onload = () => { SPR[n] = { url: im.src, w: im.naturalWidth, h: im.naturalHeight }; res(); }; im.onerror = () => res(); im.src = SPRITE_DIR + n + '.png'; })));
+};
+window.renderFrame = async function (f) {
   const T = f / TL.fps, b = Math.floor(T * 8) + 1;   // line boil 8x per second at any fps
   const L = TL.lines; let li = -1, si = 0;
   for (let i = 0; i < L.length; i++) { if (T >= L[i].start - .3) li = i; if (L[i].show && T >= L[i].start - .3) si = i; }
@@ -516,8 +578,8 @@ window.renderFrame = function (f) {
   const ctx = { who: speaking ? line.who : null, talk: speaking ? (TL.talk[f] || 0) : 0, lineEnd: sl.end - sl.start + .3, li, since: line ? T - line.start : 9, say: line ? line.say : '', react: !!line };
   const t = T - (sl.start - .3);
   const long = LAYOUT === 'long', tk = LAYOUT === 'tiktok', W2 = long ? 1920 : 1080, H2 = long ? 1080 : 1920;
-  const box = long ? { x: 430, y: 18, s: 1.06 } : tk ? { x: 25, y: 390, s: 1.03 } : { x: 25, y: 330, s: 1.03 };
-  const crewScene = ['lineup', 'crew'].includes(show.type);
+  const box = long ? { x: 430, y: 18, s: 1.06 } : tk ? (show.type === 'stage' ? { x: 0, y: 470, s: 1.08 } : { x: 25, y: 390, s: 1.03 }) : { x: 25, y: 330, s: 1.03 };
+  const crewScene = ['lineup', 'crew', 'stage'].includes(show.type);
   // camera: slide-in + punch on scene change, slow push-in, shake on surprises
   const dir = si % 2 ? 1 : -1, tin = eo3(clamp(t / .32));
   let cx = (1 - tin) * 300 * dir, cy = 0, zoom = 1.07 - .07 * tin + .05 * clamp((t - .3) / 7);
@@ -544,7 +606,7 @@ window.renderFrame = function (f) {
       if (who) g += actor(who, SIDE[who] < 0 ? 290 : 790, 1570, 2.2, T, b, ctx);
     }
   }
-  let cap = speaking ? caption(line, T, tk ? 520 : W2 / 2, long ? 760 : tk ? 1095 : 1060, long ? 62 : tk ? 96 : 82) : '';
+  let cap = speaking ? caption(line, T, tk ? 520 : W2 / 2, long ? 760 : tk ? (show.type === 'stage' ? 400 : 1095) : 1060, long ? 62 : tk ? 96 : 82) : '';
   let top = '';
   if (tk) {   // TikTok edit (owner 20 Oct): hook card in the first 1.6 s, keyword title + progress bar, loop back to the hook in the last 0.7 s
     const end = TL.total, hk = T < 1.6 ? 1 - clamp((T - 1.3) / .3) : T > end - .7 ? clamp((T - (end - .7)) / .25) : 0;
@@ -562,6 +624,7 @@ window.renderFrame = function (f) {
     ls.forEach((l, i) => top += txt(l, 540, 170 + i * 78 - (ls.length - 1) * 20 + Math.sin(T * 2.5) * 4, 66, i ? YEL : '#fff', 'middle', .2, -2 + Math.sin(T * 1.7) * 1.2));
   }
   stage.innerHTML = `${g}<image href="${PAPER}" x="0" y="0" width="${W2}" height="${H2}" preserveAspectRatio="none"/>` + cap + top;
+  await Promise.all([...stage.querySelectorAll('image')].map(im => im.decode ? im.decode().catch(() => 0) : 0));   // sprites painted before the screenshot
 };
 await document.fonts.ready;
 window.ready = true;

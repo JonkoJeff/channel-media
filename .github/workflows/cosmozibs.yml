@@ -38,10 +38,11 @@ jobs:
         run: bash studio/cosmozibs/engine/build.sh ${{ inputs.ep }} 4 ${{ inputs.mode || 'full' }}
       - name: publish Faith Doodles TikTok
         if: inputs.mode == 'tiktok'
+        env: {GH_TOKEN: "${{ github.token }}"}
         run: |
-          ID=${{ inputs.ep }}; mkdir -p studio/channels/faith/videos && cp studio/cosmozibs/engine/build/$ID/${ID}_tiktok.mp4 studio/channels/faith/videos/$ID.mp4
-          git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
-          git add -f studio/channels/faith/videos/$ID.mp4 && git commit -qm "Faith Doodles $ID [skip ci]" && for k in 1 2 3 4 5; do git pull -q --rebase && git push && exit 0; sleep 8; done; exit 1
+          ID=${{ inputs.ep }}; mkdir -p out && cp studio/cosmozibs/engine/build/$ID/${ID}_tiktok.mp4 out/$ID.mp4 && ls -la out
+          gh release delete $ID -y --cleanup-tag 2>/dev/null || true
+          gh release create $ID out/$ID.mp4 --title "$ID" --notes "Faith Doodles $ID (TikTok)."
       - name: voice test (Chatterbox)
         if: inputs.mode == 'voicetest'
         run: |

@@ -41,7 +41,7 @@ def tz(ch):   # Cosmozibs is planned in US Eastern time (owner 19 Oct: American 
 
 def yt_account(ch="crazyfacts"):  # channel key: crazyfacts (default), moneyatnight or religion (own Zernio account / key)
     global KEY
-    if ch == "religion2": KEY = KEY2; return "-"
+    if ch in ("religion2", "faith"): KEY = KEY2 or sys.exit("::error::ZERNIO_API_KEY_2 missing"); return "-"   # faith = religion TikTok-only account on key 2
     if ch == "cosmozibs" and KEY3: KEY = KEY3   # Cosmozibs (YouTube + TikTok) lives on its own Zernio account (owner 19 Oct)   # old key-2 account: only for delete/status of leftovers
     if ch == "religion" and cfg.get("religion_key") == 2: KEY = KEY2 or sys.exit("::error::ZERNIO_API_KEY_2 missing")   # default: religion = 2nd YouTube account of key 1 (owner, 13 Oct)
     return cfg.get("youtube", {}).get(ch) or sys.exit(f"::error::no YouTube account for {ch} in zernio.json; run 'accounts' after connecting it in Zernio")
@@ -82,11 +82,12 @@ def host_file(f):
 
 cmd = sys.argv[1]
 if cmd == "accounts" and sys.argv[2:3] == ["3"]: KEY = KEY3 or sys.exit("::error::ZERNIO_API_KEY_3 missing")   # Cosmozibs account: then fall through to the normal listing
-if cmd == "accounts" and sys.argv[2:3] == ["2"]:   # second Zernio account (Religion Unfolded)
+if cmd == "accounts" and sys.argv[2:3] == ["2"]:   # key 2 (owner 20 Oct: home of the religion TikTok-only account): list only, never remap youtube.religion (BTT stays on key 1)
     KEY = KEY2 or sys.exit("::error::ZERNIO_API_KEY_2 missing"); _, a = call("GET", "/accounts"); acc = a.get("accounts", a if isinstance(a, list) else [])
-    yt = [x for x in acc if x.get("platform") == "youtube"]
-    if yt: cfg.setdefault("youtube", {})["religion"] = yt[0].get("_id") or yt[0].get("id"); save()
-    print(f"::notice::Zernio account 2: {len(acc)} accounts, {len(yt)} youtube")
+    cfg["accounts_2"] = [{k: x.get(k) for k in ("_id", "id", "platform", "username", "displayName", "name")} for x in acc]
+    tt = [x for x in cfg["accounts_2"] if x["platform"] == "tiktok"]
+    if tt: cfg.setdefault("tiktok", {})["faith"] = tt[0].get("_id") or tt[0].get("id")   # religion TikTok channel key = faith
+    save(); print("::notice::Zernio key 2: " + (", ".join(f"{x['platform']}:{x.get('username') or x.get('displayName') or x.get('name')}" for x in cfg["accounts_2"]) or "no accounts"))
 elif cmd == "accounts":
     old_acc = cfg.get("accounts", []); _, a = call("GET", "/accounts"); acc = a.get("accounts", a if isinstance(a, list) else [])
     cfg["accounts"] = [{k: x.get(k) for k in ("_id", "id", "platform", "username", "displayName", "name")} for x in acc]

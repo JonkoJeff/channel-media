@@ -344,6 +344,52 @@ SC.bigstar = (s, t, b) => {   // a giant red star with our tiny Sun at its heart
   g += planet('sun', 330, 320, 9, t, b + 1);
   return g + txt(s.label || '', 800, 280, 50, YEL, 'middle', .2, -2, eoBack(P(t, 1.4, 1.8))) + txt(s.value || '', 800, 360, 38, '#fff', 'middle', .22, 0, eoBack(P(t, 1.6, 2)));
 };
+/* ---------- Faith Doodles scenes (owner 20 Oct). Respect rule: never draw God or a prophet; tell stories with objects, places and symbols ---------- */
+const wave = (y, amp, ph, col, t) => { let d = `M-20,${y}`; for (let i = 0; i <= 26; i++) d += ` L${-20 + i * 40},${r1(y - amp * (.5 + .5 * Math.sin(i * .7 + t * 3 + ph)))}`; return `<path d="${d} L1020,640 L-20,640Z" fill="${col}" stroke="${INK}" stroke-width="6" stroke-linejoin="round"/>`; };
+const boat = (x, y, s, t) => `<g transform="translate(${r1(x)},${r1(y + Math.sin(t * 2.4) * 8)}) rotate(${r1(Math.sin(t * 1.8) * 4)}) scale(${s})"><path d="M-170,-10 L170,-10 L120,60 L-120,60Z" fill="#a8683a" stroke="${INK}" stroke-width="8" stroke-linejoin="round"/><rect x="-90" y="-80" width="180" height="70" fill="#c98a5a" stroke="${INK}" stroke-width="7"/><path d="M-110,-80 L0,-130 L110,-80Z" fill="#8a4f2a" stroke="${INK}" stroke-width="7" stroke-linejoin="round"/><circle cx="-40" cy="-46" r="12" fill="#3a2418"/><circle cx="40" cy="-46" r="12" fill="#3a2418"/></g>`;
+SC.flood = (s, t, b) => {   // rain and rising water, a boat riding the waves
+  let g = ''; for (let i = 0; i < 40; i++) { const x = rnd(i) * 1000, y = (t * 600 + rnd(i * 3) * 600) % 640 - 40; g += `<line x1="${r1(x)}" y1="${r1(y)}" x2="${r1(x - 10)}" y2="${r1(y + 34)}" stroke="#bfe0ff" stroke-width="5" stroke-linecap="round" opacity=".7"/>`; }
+  const h = 120 + ease(P(t, 0, 3)) * 160;
+  g += wave(640 - h, 50, 0, '#2f6fb0', t) + boat(500, 600 - h - 40, .9, t) + wave(660 - h * .6, 40, 2, '#3b88c3', t);
+  return g + txt(s.label || '', 500, 70, 58, YEL, 'middle', .2, -2, eoBack(P(t, .3, .6)));
+};
+SC.tablet = (s, t, b) => {   // a cracked clay tablet with wedge writing
+  let g = `<g transform="translate(500,320) rotate(-4) scale(${eoBack(P(t, 0, .45))})">` + roughSVG('rectangle', [-200, -230, 400, 460], { fill: '#c9a57a', fillStyle: 'solid', stroke: INK, strokeWidth: 8, roughness: 2.4 }, b);
+  for (let r = 0; r < 9; r++) for (let c = 0; c < 7; c++) if (rnd(r * 9 + c) > .2) { const x = -160 + c * 52, y = -190 + r * 46; g += `<path d="M${x},${y} l18,8 l-18,8z M${x + 22},${y + 2} l10,12" fill="#7a5a3a" stroke="#5a3e24" stroke-width="3"/>`; }
+  g += `<path d="M120,-230 l-30,90 l40,60 l-20,80" fill="none" stroke="${INK}" stroke-width="5"/></g>`;
+  return g + txt(s.label || '', 500, 590, 50, '#fff', 'middle', .22, -2, eoBack(P(t, .5, .8)));
+};
+SC.fish = (s, t, b) => {   // a small fish grows huge and tows the boat
+  const gr = .4 + ease(P(t, .4, 2.4)) * 1.1, x = 640 + Math.sin(t * 2) * 20;
+  let g = wave(470, 40, 0, '#2f6fb0', t) + boat(260, 420, .6, t);
+  g += `<line x1="350" y1="400" x2="${r1(x - 120 * gr)}" y2="${r1(470 - 10 * gr)}" stroke="${INK}" stroke-width="6"/>`;
+  g += `<g transform="translate(${r1(x)},470) scale(${r1(gr * 100) / 100})"><path d="M-120,0 Q-40,-80 80,0 Q-40,80 -120,0Z" fill="#f2a33a" stroke="${INK}" stroke-width="8"/><path d="M70,0 L140,-50 L130,0 L140,50Z" fill="#e2433a" stroke="${INK}" stroke-width="7" stroke-linejoin="round"/><circle cx="-70" cy="-12" r="11" fill="${INK}"/><path d="M-30,-56 l10,-40 l20,36" fill="#e2433a" stroke="${INK}" stroke-width="6"/></g>`;
+  return g + wave(520, 30, 2, '#3b88c3', t) + txt(s.label || '', 500, 70, 58, YEL, 'middle', .2, -2, eoBack(P(t, .3, .6)));
+};
+SC.birds = (s, t, b) => {   // birds sent out from the boat, a dove returns with a twig
+  let g = wave(520, 30, 0, '#3b88c3', t) + boat(250, 480, .7, t);
+  const k = clamp(t / 3), bx = 300 + Math.sin(k * Math.PI) * 500, by = 380 - Math.sin(k * Math.PI) * 260;
+  const flap = Math.sin(t * 14) * 30;
+  g += `<g transform="translate(${r1(bx)},${r1(by)}) scale(${k < .5 ? 1 : -1},1)"><ellipse cx="0" cy="0" rx="46" ry="26" fill="#fff" stroke="${INK}" stroke-width="6"/><path d="M-10,-10 L-40,${r1(-50 - flap)} L20,-14Z" fill="#fff" stroke="${INK}" stroke-width="6" stroke-linejoin="round"/><circle cx="34" cy="-8" r="5" fill="${INK}"/><path d="M44,0 l18,4 l-18,6z" fill="#f2a33a" stroke="${INK}" stroke-width="3"/>${k > .5 ? `<path d="M56,6 q20,10 34,4" stroke="#4a8a3a" stroke-width="6" fill="none"/><ellipse cx="80" cy="4" rx="10" ry="5" fill="#7cc576" stroke="${INK}" stroke-width="3"/>` : ''}</g>`;
+  return g + txt(s.label || '', 500, 70, 58, YEL, 'middle', .2, -2, eoBack(P(t, .3, .6)));
+};
+SC.mountain = (s, t, b) => {   // the boat resting on a mountain as the water goes down
+  const w = ease(P(t, .2, 2.5));
+  let g = poly([[120, 600], [500, 140], [880, 600]], '#7a8a6a', 8) + poly([[420, 236], [500, 140], [580, 236], [530, 220], [500, 240], [470, 222]], '#f4f4f0', 5);
+  g += boat(500, 190, .55, t * .2) + wave(600 - 260 * (1 - w), 30, 0, '#3b88c3', t);
+  return g + txt(s.label || '', 500, 70, 58, YEL, 'middle', .2, -2, eoBack(P(t, .3, .6)));
+};
+SC.compare = (s, t, b) => {   // three columns: one symbol per tradition, ticked one by one
+  const cols = s.items || [];
+  let g = '';
+  cols.forEach((c, i) => { const x = 180 + i * 320, p = eoBack(P(t, .2 + i * .35, .5 + i * .35));
+    g += `<g transform="translate(${x},300) scale(${p})">` + roughSVG('rectangle', [-140, -170, 280, 400], { fill: '#fdfcf7', fillStyle: 'solid', stroke: INK, strokeWidth: 7 }, b + i) + '</g>';
+    g += txt(c, x, 575, 34, '#fff', 'middle', .25, 0, p);
+    g += `<g transform="translate(${x},300) scale(${p})">` + (i === 0 ? `<rect x="-60" y="-80" width="120" height="150" rx="10" fill="#c9a57a" stroke="${INK}" stroke-width="6"/>` : i === 1 ? boat(0, 20, .55, t).replace('<g', '<g') : `<path d="M-90,0 Q-30,-60 60,0 Q-30,60 -90,0Z" fill="#f2a33a" stroke="${INK}" stroke-width="7"/><circle cx="-50" cy="-8" r="9" fill="${INK}"/>`) + '</g>';
+    if (t > 1.6 + i * .3) g += txt('✓', x + 100, 180, 90, OK, 'middle', .15, 0, eoBack(P(t, 1.6 + i * .3, 1.9 + i * .3)));
+  });
+  return g + txt(s.label || '', 500, 70, 52, YEL, 'middle', .2, -2, eoBack(P(t, .1, .4)));
+};
 /* ---------- crew ---------- */
 const CREW = ['cosmo', 'zib', 'bolt', 'rocky', 'tik'];
 function drawChar(who, x, y, s, st, t, b) {
@@ -351,12 +397,13 @@ function drawChar(who, x, y, s, st, t, b) {
   if (who === 'zib') return zib({ x, y, s: s * .95, ...st });
   if (who === 'bolt') return bolt({ x, y, s: s * .9, ...st });
   if (who === 'rocky') return rocky({ x, y, s: s * .78, ...st, boil: b });
+  if (who === 'sam') return sam({ x, y, s: s * .8, ...st });
   let g = tik({ x, y, s: s * .62, armL: st.armL, armR: st.armR, look: st.look || [0, 0] });
   if (st.talk > .15) g += `<g transform="translate(${r1(x)},${r1(y)}) scale(${s * .62})"><ellipse cx="9" cy="-246" rx="13" ry="${r1(4 + st.talk * 9)}" fill="#c9503f" stroke="${INK}" stroke-width="5"/></g>`;
   return g;
 }
 /* ---------- dynamic layer: actors, listeners, backgrounds, camera ---------- */
-const SIDE = { cosmo: -1, tik: -1, zib: 1, bolt: 1, rocky: 1 };
+const SIDE = { cosmo: -1, tik: -1, zib: 1, bolt: 1, rocky: 1, sam: -1 };
 const excited = (say) => /\?!|!\?|WHAT|crazy|CRAZY|Whoa|Wow|BOOM|HUGE/.test(say) || (say.match(/!/g) || []).length >= 2;
 function crewRow(cx, footY, s, t, b, ctx, gap, skip) {   // listeners: idle sway, look at the speaker, small reactions
   let g = ''; const others = CREW.filter(w => w !== skip);
@@ -390,7 +437,7 @@ function actor(who, x, footY, s, T, b, ctx) {   // the speaker, big, entering an
   if (ex && ts < 1.4) g += txt('?!', x0 + side * -10 + 70 * s, footY - 330 * s - hop, 80 * s, YEL, 'middle', .2, side * -12, eoBack(clamp(ts / .25)));
   return g;
 }
-const BG = { volcano: ['#2a1410', '#b5573a'], pulsar: ['#0b1440', '#3a5cc4'], coldest: ['#0b2a3a', '#2f8ab0'], bigstar: ['#2a0a14', '#a8243a'], bigbang: ['#1a0f3a', '#a83a7a'], sunearth: ['#2b1a0a', '#c4561e'], dinos: ['#0f2a1c', '#4a7a2f'], humans: ['#0b2152', '#1f5cb5'], moon: ['#1d1a5c', '#4a3fb0'], spin: ['#0b2152', '#1f8a8a'], sunoff: ['#2b1a0a', '#c4561e'], car: ['#1f2a52', '#d2366b'], wow: ['#0f2a1c', '#2f7a4a'], oumuamua: ['#2a1410', '#8a3a24'], tabby: ['#2b1a0a', '#b5651e'], blackhole: ['#05030c', '#3a1858'], intro: ['#1f2a52', '#3b2470'], outro: ['#1f2a52', '#3b2470'], speed: ['#2a1f5c', '#6a2470'], venus: ['#3a1c2a', '#93421f'], jupiter: ['#2b1d14', '#7a4a2a'], neptune: ['#0b2152', '#1f5cb5'], glass: ['#0d1440', '#2f3fa0'] };
+const BG = { flood: ['#14243a', '#2f5f8a'], mesopotamia: ['#3a2410', '#b5783a'], bible: ['#1d1a3c', '#4a3f80'], hindu: ['#3a1a10', '#c4561e'], quran: ['#0f2a24', '#2f7a64'], fddend: ['#1d1a3c', '#a83a7a'], volcano: ['#2a1410', '#b5573a'], pulsar: ['#0b1440', '#3a5cc4'], coldest: ['#0b2a3a', '#2f8ab0'], bigstar: ['#2a0a14', '#a8243a'], bigbang: ['#1a0f3a', '#a83a7a'], sunearth: ['#2b1a0a', '#c4561e'], dinos: ['#0f2a1c', '#4a7a2f'], humans: ['#0b2152', '#1f5cb5'], moon: ['#1d1a5c', '#4a3fb0'], spin: ['#0b2152', '#1f8a8a'], sunoff: ['#2b1a0a', '#c4561e'], car: ['#1f2a52', '#d2366b'], wow: ['#0f2a1c', '#2f7a4a'], oumuamua: ['#2a1410', '#8a3a24'], tabby: ['#2b1a0a', '#b5651e'], blackhole: ['#05030c', '#3a1858'], intro: ['#1f2a52', '#3b2470'], outro: ['#1f2a52', '#3b2470'], speed: ['#2a1f5c', '#6a2470'], venus: ['#3a1c2a', '#93421f'], jupiter: ['#2b1d14', '#7a4a2a'], neptune: ['#0b2152', '#1f5cb5'], glass: ['#0d1440', '#2f3fa0'] };
 function background(seg, W2, H2, T, b) {
   const c = BG[seg] || BG.intro;
   let g = `<defs><linearGradient id="bgg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${c[0]}"/><stop offset="1" stop-color="${c[1]}"/></linearGradient></defs><rect width="${W2}" height="${H2}" fill="url(#bgg)"/>`;
@@ -454,7 +501,7 @@ window.renderFrame = function (f) {
       g += crewRow(960, 1068, .62, T, b, ctx, 150, who);
       if (who) g += actor(who, SIDE[who] < 0 ? 215 : 1705, 1010, 2.05, T, b, ctx);
     } else if (tk) {   // TikTok: keep the bottom 22% and the right edge free for TikTok's UI; no listener row
-      if (who) g += actor(who, SIDE[who] < 0 ? 280 : 760, 1480, 2.2, T, b, ctx);
+      if (who) g += actor(who, SIDE[who] < 0 ? 280 : 760, 1540, 2.2, T, b, ctx);
     } else {
       g += crewRow(540, 1735, .62, T, b, ctx, 150, who);
       if (who) g += actor(who, SIDE[who] < 0 ? 290 : 790, 1570, 2.2, T, b, ctx);

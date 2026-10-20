@@ -5,7 +5,7 @@ import numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, '..', '..', 'voice')); import kokoro_tts as k
 SR, FPS = 24000, 12
 VOICES = {"cosmo": ("am_puck", 1.06, 1.14), "zib": ("am_liam", 1.08, 1.24), "bolt": ("am_echo", 1.06, 1.15),
-          "rocky": ("am_fenrir", 1.0, 1.05), "tik": ("am_michael", 1.06, 1.14)}
+          "rocky": ("am_fenrir", 1.0, 1.05), "tik": ("am_michael", 1.06, 1.14), "sam": ("am_puck", 1.1, 1.0)}
 GAP, SCENE_GAP = 0.42, 0.8
 ep = json.load(open(sys.argv[1])); OUT = os.path.join(HERE, "build", ep["id"]); os.makedirs(OUT + "/lines", exist_ok=True)
 
@@ -15,7 +15,7 @@ def load(p):
 # owner 20 Oct: natural voices. VOICE_ENGINE=chatterbox (GitHub Actions) re-voices every line with Chatterbox (MIT), using the character's own
 # Kokoro voice as the timbre reference (never a real person). Kokoro stays the fallback for local runs.
 ENGINE = os.environ.get("VOICE_ENGINE", "kokoro")
-CB = {"cosmo": (.6, .4), "zib": (.8, .3), "bolt": (.55, .4), "rocky": (.45, .5), "tik": (.65, .4)}   # exaggeration, cfg weight per character
+CB = {"cosmo": (.6, .4), "zib": (.8, .3), "bolt": (.55, .4), "rocky": (.45, .5), "tik": (.65, .4), "sam": (.75, .3)}   # exaggeration, cfg weight per character
 _cb = None
 def cb_line(who, text, p):
     global _cb

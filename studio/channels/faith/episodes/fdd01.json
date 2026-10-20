@@ -1,0 +1,142 @@
+{
+ "id": "fdd01",
+ "title": "Noah's Ark in 4 Faiths",
+ "tiktok": {
+  "title": "NOAH'S ARK IN 4 FAITHS",
+  "hook": "SAME STORY IN 4 FAITHS?!",
+  "kw": "noah's ark"
+ },
+ "sources": [
+  "https://en.wikipedia.org/wiki/Gilgamesh_flood_myth",
+  "https://www.biblegateway.com/passage/?search=Genesis+7-8",
+  "https://quran.com/11/44",
+  "https://en.wikipedia.org/wiki/Matsya",
+  "https://en.wikipedia.org/wiki/Flood_myth"
+ ],
+ "segments": [
+  {
+   "id": "flood",
+   "lines": [
+    {
+     "who": "sam",
+     "say": "Four ancient traditions. Different holy books. And they all tell almost the same flood story. Coincidence?",
+     "show": {
+      "type": "flood",
+      "label": "THE GREAT FLOOD"
+     },
+     "sfx": "riser"
+    }
+   ]
+  },
+  {
+   "id": "mesopotamia",
+   "lines": [
+    {
+     "who": "sam",
+     "say": "First stop: ancient Mesopotamia. Over three thousand years ago, a poem called the Epic of Gilgamesh was pressed into clay tablets.",
+     "show": {
+      "type": "tablet",
+      "label": "EPIC OF GILGAMESH"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "sam",
+     "say": "A god warns a man named Utnapishtim: build a giant boat, and save your family and the animals!",
+     "show": {
+      "type": "flood",
+      "label": "UTNAPISHTIM'S BOAT"
+     }
+    },
+    {
+     "who": "sam",
+     "say": "When the storm ends, he sends out birds. A dove, a swallow and a raven, looking for dry land.",
+     "show": {
+      "type": "birds",
+      "label": "DOVE, SWALLOW, RAVEN"
+     }
+    }
+   ]
+  },
+  {
+   "id": "bible",
+   "lines": [
+    {
+     "who": "sam",
+     "say": "Sound familiar? In the book of Genesis, Noah builds an ark for his family and the animals.",
+     "show": {
+      "type": "flood",
+      "label": "NOAH'S ARK"
+     },
+     "sfx": "scratch"
+    },
+    {
+     "who": "sam",
+     "say": "It rains for forty days and forty nights. Then Noah sends out a raven and a dove, and the dove comes back with an olive leaf!",
+     "show": {
+      "type": "birds",
+      "label": "AN OLIVE LEAF!"
+     }
+    }
+   ]
+  },
+  {
+   "id": "quran",
+   "lines": [
+    {
+     "who": "sam",
+     "say": "The Quran tells it too. The prophet Nuh, peace be upon him, builds the ark, and it comes to rest on Mount Judi.",
+     "show": {
+      "type": "mountain",
+      "label": "MOUNT JUDI"
+     },
+     "sfx": "pop"
+    }
+   ]
+  },
+  {
+   "id": "hindu",
+   "lines": [
+    {
+     "who": "sam",
+     "say": "And in ancient Hindu texts, a man named Manu saves a tiny fish. The fish grows huge, and warns him: a great flood is coming!",
+     "show": {
+      "type": "fish",
+      "label": "MANU AND THE FISH"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "sam",
+     "say": "Manu builds a boat, and the fish pulls it safely to a mountain. Later stories say the fish was Matsya, a form of the god Vishnu.",
+     "show": {
+      "type": "fish",
+      "label": "MATSYA"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fddend",
+   "lines": [
+    {
+     "who": "sam",
+     "say": "So why do so many traditions share this story? Scholars still discuss it, and every faith reads it in its own way.",
+     "show": {
+      "type": "compare",
+      "items": [
+       "GILGAMESH",
+       "BIBLE & QURAN",
+       "HINDU TEXTS"
+      ],
+      "label": "SAME STORY?"
+     }
+    },
+    {
+     "who": "sam",
+     "say": "Which version did you hear first? Tell me in the comments!"
+    }
+   ]
+  }
+ ]
+}

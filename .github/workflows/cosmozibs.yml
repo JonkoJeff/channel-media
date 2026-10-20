@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       ep: {description: "Episode id, e.g. cz01", required: true}
-      mode: {description: "full | clips (only the TikTok-only clips of an already rendered episode) | voicetest (Chatterbox voice samples)", required: false, default: full}
+      mode: {description: "full | tiktok (Faith Doodles TikTok, studio/channels/faith/episodes) | clips (only the TikTok-only clips of an already rendered episode) | voicetest (Chatterbox voice samples)", required: false, default: full}
 permissions:
   contents: write
 jobs:
@@ -26,12 +26,22 @@ jobs:
         if: inputs.mode != 'voicetest'
         working-directory: studio/cosmozibs/engine
         run: npm i --no-save playwright@1.55.0 && npx playwright install --with-deps chromium
-      - name: validate
+      - name: natural voices (Chatterbox, owner 20 Oct)
         if: inputs.mode != 'voicetest'
+        run: pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu && pip install chatterbox-tts
+      - name: validate
+        if: inputs.mode != 'voicetest' && inputs.mode != 'tiktok'
         run: python3 studio/cosmozibs/engine/validate.py studio/cosmozibs/episodes/${{ inputs.ep }}.json
       - name: render
         if: inputs.mode != 'voicetest'
+        env: {VOICE_ENGINE: chatterbox}
         run: bash studio/cosmozibs/engine/build.sh ${{ inputs.ep }} 4 ${{ inputs.mode || 'full' }}
+      - name: publish Faith Doodles TikTok
+        if: inputs.mode == 'tiktok'
+        run: |
+          ID=${{ inputs.ep }}; mkdir -p studio/channels/faith/videos && cp studio/cosmozibs/engine/build/$ID/${ID}_tiktok.mp4 studio/channels/faith/videos/$ID.mp4
+          git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
+          git add -f studio/channels/faith/videos/$ID.mp4 && git commit -qm "Faith Doodles $ID [skip ci]" && for k in 1 2 3 4 5; do git pull -q --rebase && git push && exit 0; sleep 8; done; exit 1
       - name: voice test (Chatterbox)
         if: inputs.mode == 'voicetest'
         run: |
@@ -63,7 +73,7 @@ jobs:
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
           git add -f studio/renders/$ID/result.json && git commit -qm "TikTok clips $ID [skip ci]" && for k in 1 2 3 4 5; do git pull -q --rebase && git push && exit 0; sleep 8; done; exit 1
       - name: publish release + result files
-        if: inputs.mode != 'clips' && inputs.mode != 'voicetest'
+        if: inputs.mode != 'clips' && inputs.mode != 'voicetest' && inputs.mode != 'tiktok'
         env: {GH_TOKEN: "${{ github.token }}"}
         run: |
           ID=${{ inputs.ep }}; B=studio/cosmozibs/engine/build/$ID

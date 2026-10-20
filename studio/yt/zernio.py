@@ -219,8 +219,9 @@ elif cmd == "dropyt":   # owner 21 Oct: Cosmozibs YouTube blocked, YouTube line 
     ch = "cosmozibs"; yt_account(ch); tt = cfg.get("tiktok", {}).get(ch) or sys.exit("::error::no TikTok account for cosmozibs")
     now = dt.datetime.now(dt.timezone.utc)
     def status(pid):
-        st, p = call("GET", f"/posts/{pid}", soft=True); post = (p or {}).get("post", p or {})
-        return post.get("status") or "gone"
+        try: st, p = call("GET", f"/posts/{pid}", soft=True)
+        except SystemExit: return "gone"   # 404: already deleted
+        post = (p or {}).get("post", p or {}); return post.get("status") or "gone"
     pending = lambda pid: status(pid) in ("scheduled", "pending", "draft")
     for e in [x for x in sys.argv[2].split(",") if x]:
         f = os.path.join(R, e, "result.json"); r = json.load(open(f)); meta = r.get("shorts_meta", {})

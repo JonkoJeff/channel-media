@@ -57,7 +57,7 @@ font = ImageFont.truetype(FONT, 84); tfont = ImageFont.truetype(FONT, 48); hfont
 title, hook = ep["tiktok"]["title"], ep["tiktok"].get("hook", "")
 fdir = f"/tmp/ps_{ep['id']}"; os.makedirs(fdir, exist_ok=True)
 total = max(total, 61.0); nfr = int(total * FPS)   # owner 21 Oct: never shorter than 1 minute
-for f in range(nfr):
+for f in (range(nfr) if not os.environ.get("ONLY") else [int(x) for x in os.environ["ONLY"].split(",")]):
     t = f / FPS; li = max([i for i, l in enumerate(T) if t >= l["start"] - .25] or [0]); L, M = T[li], lines[li]
     t0 = T[li]["start"] - .25; t1 = T[li + 1]["start"] - .25 if li + 1 < len(T) else total; u = ease(min(1, max(0, (t - t0) / max(.5, t1 - t0))))
     z, cx, cy = cam_params(M.get("cam", "pushin"), u, M.get("focus", [.5, .45]))
@@ -110,5 +110,5 @@ subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", "24", "-i", 
   "-f", "lavfi", "-i", "color=c=0x808080:s=36x64:r=12,noise=c0s=60:allf=t,lutyuv=y=128+(val-128)*0.03,scale=1080:1920:flags=bicubic,fps=24",
   "-f", "lavfi", "-i", "color=c=0x808080:s=36x64:r=12,noise=c0s=60:allf=t+u,lutyuv=y=128+(val-128)*0.03,scale=1080:1920:flags=bicubic,fps=24",
   "-i", wav, "-filter_complex", "[0:v][1:v][2:v]displace=edge=smear,format=yuv420p[v];[3:a]apad[a]", "-map", "[v]", "-map", "[a]",
-  "-c:v", "libx264", "-crf", "22", "-preset", "medium", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", out], check=True)
+  "-c:v", "libx264", "-crf", "22", "-preset", "medium", "-c:a", "aac", "-b:a", "160k", "-t", f"{total:.2f}", "-movflags", "+faststart", out], check=True)   # explicit length: apad + endless noise inputs would never end
 print("done", out, nfr / FPS)

@@ -17,6 +17,9 @@ jobs:
       - if: inputs.cmd == 'post' || inputs.cmd == 'shorts'
         env: {GH_TOKEN: "${{ github.token }}"}
         run: gh release download "${{ inputs.a }}" --repo ${{ github.repository }} --pattern "*.mp4" --dir /tmp --clobber
+      - if: inputs.cmd == 'dropyt'
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: for e in $(echo "${{ inputs.a }}" | tr ',' ' '); do gh release download "$e" --repo ${{ github.repository }} --pattern "*.mp4" --dir /tmp --clobber; done
       - if: inputs.cmd == 'tiktok'
         env: {GH_TOKEN: "${{ github.token }}"}
         run: for e in $(echo "${{ inputs.a }}" | tr ',' ' '); do gh release download "$e" --repo ${{ github.repository }} --pattern "*_tt_*.mp4" --dir /tmp --clobber; done

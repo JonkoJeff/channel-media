@@ -7,7 +7,8 @@ SR, FPS = 24000, 12
 VOICES = {"cosmo": ("am_puck", 1.06, 1.14), "zib": ("am_liam", 1.08, 1.24), "bolt": ("am_echo", 1.06, 1.15),
           "rocky": ("am_fenrir", 1.0, 1.05), "tik": ("am_michael", 1.06, 1.14), "sam": ("am_puck", 1.1, 1.0)}
 GAP, SCENE_GAP = 0.42, 0.8
-ep = json.load(open(sys.argv[1])); OUT = os.path.join(HERE, "build", ep["id"]); os.makedirs(OUT + "/lines", exist_ok=True)
+ep = json.load(open(sys.argv[1])); FPS = 24 if ep.get("tiktok") else FPS   # Faith Doodles: smooth 24 fps (owner 20 Oct)
+OUT = os.path.join(HERE, "build", ep["id"]); os.makedirs(OUT + "/lines", exist_ok=True)
 
 def load(p):
     with wave.open(p) as w: return np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(np.float32) / 32767

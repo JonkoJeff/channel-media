@@ -71,9 +71,9 @@ function rocky({ x, y, s = 1, armL = 160, armR = 20, talk = 0, look = [0, 0], ti
 
 
 /* ================= FAITH DOODLES host (owner 20 Oct): Sam, curious young explainer with a sketchbook ================= */
-function sam({ x, y, s = 1, armL = 120, armR = 60, talk = 0, look = [0, 0], tilt = 0 }) {
-  const HO = '#e8743b', SK = '#c98b62', HA = '#3a2418';
-  let g = `<g transform="translate(${r1(x)},${r1(y)}) scale(${s})">`;
+function sam({ x, y, s = 1, armL = 120, armR = 60, talk = 0, look = [0, 0], tilt = 0, brow = 0, T = 0 }) {
+  const HO = '#e8743b', SK = '#c98b62', HA = '#3a2418', br = 1 + Math.sin(T * 2.4) * .012, blink = (T % 3.4) < .13;
+  let g = `<g transform="translate(${r1(x)},${r1(y)}) scale(${s}) scale(${r1(br * 1000) / 1000},${r1((2 - br) * 1000) / 1000})">`;
   g += limb(-26, -100, -30, -24, 30, '#3b4a6b') + limb(26, -100, 30, -24, 30, '#3b4a6b');   // jeans
   g += `<ellipse cx="-38" cy="-14" rx="32" ry="16" fill="#f4f4f0" stroke="${INK}" stroke-width="6"/><ellipse cx="38" cy="-14" rx="32" ry="16" fill="#f4f4f0" stroke="${INK}" stroke-width="6"/>`;
   const arm = (sx, deg, book) => { const a = deg * Math.PI / 180, ex = sx + Math.cos(a) * 84, ey = -200 + Math.sin(a) * 84;
@@ -86,9 +86,10 @@ function sam({ x, y, s = 1, armL = 120, armR = 60, talk = 0, look = [0, 0], tilt
   g += `<g transform="rotate(${r1(tilt)} 0 -250)">`;
   g += `<circle cx="0" cy="-318" r="80" fill="${SK}" stroke="${INK}" stroke-width="${LW}"/>`;
   g += `<path d="M-82,-322 C-96,-400 -30,-430 10,-414 C60,-430 104,-380 80,-318 C70,-350 50,-366 30,-360 C10,-384 -30,-372 -40,-356 C-60,-370 -74,-350 -82,-322Z" fill="${HA}" stroke="${INK}" stroke-width="6" stroke-linejoin="round"/>`;   // messy hair
-  g += `<circle cx="${-26 + look[0] * 7}" cy="${-318 + look[1] * 6}" r="11" fill="${INK}"/><circle cx="${26 + look[0] * 7}" cy="${-318 + look[1] * 6}" r="11" fill="${INK}"/>`;
-  g += `<circle cx="${-22 + look[0] * 7}" cy="${-322 + look[1] * 6}" r="3.5" fill="#fff"/><circle cx="${30 + look[0] * 7}" cy="${-322 + look[1] * 6}" r="3.5" fill="#fff"/>`;
-  g += `<path d="M-44,-346 q16,-10 30,-2 M14,-348 q16,-8 30,2" fill="none" stroke="${INK}" stroke-width="6" stroke-linecap="round"/>`;
+  if (blink) g += `<path d="M-36,-318 h20 M16,-318 h20" stroke="${INK}" stroke-width="6" stroke-linecap="round"/>`;
+  else g += `<circle cx="${-26 + look[0] * 7}" cy="${-318 + look[1] * 6}" r="11" fill="${INK}"/><circle cx="${26 + look[0] * 7}" cy="${-318 + look[1] * 6}" r="11" fill="${INK}"/><circle cx="${-22 + look[0] * 7}" cy="${-322 + look[1] * 6}" r="3.5" fill="#fff"/><circle cx="${30 + look[0] * 7}" cy="${-322 + look[1] * 6}" r="3.5" fill="#fff"/>`;
+  const by = -brow * 10;
+  g += `<path d="M-44,${-346 + by} q16,${-10 - brow * 4} 30,-2 M14,${-348 + by} q16,${-8 - brow * 4} 30,2" fill="none" stroke="${INK}" stroke-width="6" stroke-linecap="round"/>`;
   g += mouthShape(0, -276, 34, talk) + `<circle cx="-50" cy="-290" r="9" fill="#e8846b" opacity=".5"/><circle cx="50" cy="-290" r="9" fill="#e8846b" opacity=".5"/>`;
   g += `<g transform="translate(70,-370) rotate(30)"><rect x="-5" y="-30" width="10" height="56" fill="#f9d65c" stroke="${INK}" stroke-width="4"/><path d="M-5,26 L0,40 L5,26Z" fill="${INK}"/></g>`;   // pencil behind ear
   return g + '</g></g>';

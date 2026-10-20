@@ -33,12 +33,21 @@
    "lines": [
     {
      "who": "sam",
-     "say": "First stop: ancient Mesopotamia. Over three thousand years ago, a poem called the Epic of Gilgamesh was pressed into clay tablets.",
+     "say": "First stop: ancient Mesopotamia. That's mostly where Iraq is today!",
+     "show": {
+      "type": "place",
+      "label": "MESOPOTAMIA",
+      "today": "TODAY: IRAQ"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "sam",
+     "say": "Over three thousand years ago, people there pressed a poem into clay tablets. It's called the Epic of Gilgamesh.",
      "show": {
       "type": "tablet",
       "label": "EPIC OF GILGAMESH"
-     },
-     "sfx": "pop"
+     }
     },
     {
      "who": "sam",
@@ -63,7 +72,7 @@
    "lines": [
     {
      "who": "sam",
-     "say": "Sound familiar? In the book of Genesis, Noah builds an ark for his family and the animals.",
+     "say": "Sound familiar? Genesis, the very first book of the Bible, tells how Noah builds an ark for his family and the animals.",
      "show": {
       "type": "flood",
       "label": "NOAH'S ARK"
@@ -85,7 +94,7 @@
    "lines": [
     {
      "who": "sam",
-     "say": "The Quran tells it too. The prophet Nuh, peace be upon him, builds the ark, and it comes to rest on Mount Judi.",
+     "say": "The Quran, the holy book of Islam, tells it too. The prophet Nuh, peace be upon him, builds the ark, and it comes to rest on Mount Judi.",
      "show": {
       "type": "mountain",
       "label": "MOUNT JUDI"
@@ -99,7 +108,17 @@
    "lines": [
     {
      "who": "sam",
-     "say": "And in ancient Hindu texts, a man named Manu saves a tiny fish. The fish grows huge, and warns him: a great flood is coming!",
+     "say": "Now let's travel to ancient India!",
+     "show": {
+      "type": "place",
+      "label": "ANCIENT INDIA",
+      "today": "TODAY: INDIA"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "sam",
+     "say": "In very old Hindu texts, a man named Manu saves a tiny fish. The fish grows huge, and warns him: a great flood is coming!",
      "show": {
       "type": "fish",
       "label": "MANU AND THE FISH"

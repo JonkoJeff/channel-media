@@ -345,12 +345,20 @@ SC.bigstar = (s, t, b) => {   // a giant red star with our tiny Sun at its heart
   return g + txt(s.label || '', 800, 280, 50, YEL, 'middle', .2, -2, eoBack(P(t, 1.4, 1.8))) + txt(s.value || '', 800, 360, 38, '#fff', 'middle', .22, 0, eoBack(P(t, 1.6, 2)));
 };
 /* ---------- Faith Doodles scenes (owner 20 Oct). Respect rule: never draw God or a prophet; tell stories with objects, places and symbols ---------- */
-const wave = (y, amp, ph, col, t) => { let d = `M-20,${y}`; for (let i = 0; i <= 26; i++) d += ` L${-20 + i * 40},${r1(y - amp * (.5 + .5 * Math.sin(i * .7 + t * 3 + ph)))}`; return `<path d="${d} L1020,640 L-20,640Z" fill="${col}" stroke="${INK}" stroke-width="6" stroke-linejoin="round"/>`; };
-const boat = (x, y, s, t) => `<g transform="translate(${r1(x)},${r1(y + Math.sin(t * 2.4) * 8)}) rotate(${r1(Math.sin(t * 1.8) * 4)}) scale(${s})"><path d="M-170,-10 L170,-10 L120,60 L-120,60Z" fill="#a8683a" stroke="${INK}" stroke-width="8" stroke-linejoin="round"/><rect x="-90" y="-80" width="180" height="70" fill="#c98a5a" stroke="${INK}" stroke-width="7"/><path d="M-110,-80 L0,-130 L110,-80Z" fill="#8a4f2a" stroke="${INK}" stroke-width="7" stroke-linejoin="round"/><circle cx="-40" cy="-46" r="12" fill="#3a2418"/><circle cx="40" cy="-46" r="12" fill="#3a2418"/></g>`;
+const wave = (y, amp, ph, col, t, b = 1) => {   // smooth crayon water: curved crest, hachure fill, sketchy outline that boils
+  let d = `M-40,${r1(y)}`; for (let i = 0; i < 12; i++) { const x0 = -40 + i * 95, yy = (k) => y - amp * (.5 + .5 * Math.sin(k * .9 + t * 2.6 + ph)); d += ` Q${r1(x0 + 47)},${r1(yy(i + .5) - amp * .35)} ${r1(x0 + 95)},${r1(yy(i + 1))}`; }
+  d += ' L1100,700 L-40,700Z';
+  return roughSVG('path', [d], { fill: col, fillStyle: 'solid', stroke: 'none', roughness: 1.2 }, b) + roughSVG('path', [d], { fill: '#ffffff', fillStyle: 'hachure', hachureGap: 22, hachureAngle: -20, fillWeight: 3, stroke: INK, strokeWidth: 6, roughness: 1.6, bowing: 2 }, b + 3).replace('<g', '<g opacity=".9"');
+};
+const boat = (x, y, s, t, b = 1) => `<g transform="translate(${r1(x)},${r1(y + Math.sin(t * 2.4) * 8)}) rotate(${r1(Math.sin(t * 1.8) * 4)}) scale(${s})">`
+  + roughSVG('path', ['M-170,-10 Q0,6 170,-10 Q150,30 120,60 L-120,60 Q-150,30 -170,-10Z'], { fill: '#a8683a', fillStyle: 'hachure', hachureGap: 9, fillWeight: 4, stroke: INK, strokeWidth: 7, roughness: 1.5 }, b)
+  + roughSVG('rectangle', [-90, -80, 180, 70], { fill: '#d9a06a', fillStyle: 'cross-hatch', hachureGap: 12, fillWeight: 2.5, stroke: INK, strokeWidth: 6, roughness: 1.6 }, b + 1)
+  + roughSVG('path', ['M-110,-80 L0,-132 L110,-80Z'], { fill: '#8a4f2a', fillStyle: 'hachure', hachureGap: 8, fillWeight: 4, stroke: INK, strokeWidth: 6, roughness: 1.5 }, b + 2)
+  + `<circle cx="-40" cy="-46" r="12" fill="#3a2418"/><circle cx="40" cy="-46" r="12" fill="#3a2418"/></g>`;
 SC.flood = (s, t, b) => {   // rain and rising water, a boat riding the waves
   let g = ''; for (let i = 0; i < 40; i++) { const x = rnd(i) * 1000, y = (t * 600 + rnd(i * 3) * 600) % 640 - 40; g += `<line x1="${r1(x)}" y1="${r1(y)}" x2="${r1(x - 10)}" y2="${r1(y + 34)}" stroke="#bfe0ff" stroke-width="5" stroke-linecap="round" opacity=".7"/>`; }
   const h = 120 + ease(P(t, 0, 3)) * 160;
-  g += wave(640 - h, 50, 0, '#2f6fb0', t) + boat(500, 600 - h - 40, .9, t) + wave(660 - h * .6, 40, 2, '#3b88c3', t);
+  g += wave(640 - h, 50, 0, '#2f6fb0', t, b) + boat(500, 600 - h - 40, .9, t, b) + wave(660 - h * .6, 40, 2, '#3b88c3', t, b);
   return g + txt(s.label || '', 500, 70, 58, YEL, 'middle', .2, -2, eoBack(P(t, .3, .6)));
 };
 SC.tablet = (s, t, b) => {   // a cracked clay tablet with wedge writing
@@ -361,13 +369,13 @@ SC.tablet = (s, t, b) => {   // a cracked clay tablet with wedge writing
 };
 SC.fish = (s, t, b) => {   // a small fish grows huge and tows the boat
   const gr = .4 + ease(P(t, .4, 2.4)) * 1.1, x = 640 + Math.sin(t * 2) * 20;
-  let g = wave(470, 40, 0, '#2f6fb0', t) + boat(260, 420, .6, t);
+  let g = wave(470, 40, 0, '#2f6fb0', t, b) + boat(260, 420, .6, t, b);
   g += `<line x1="350" y1="400" x2="${r1(x - 120 * gr)}" y2="${r1(470 - 10 * gr)}" stroke="${INK}" stroke-width="6"/>`;
   g += `<g transform="translate(${r1(x)},470) scale(${r1(gr * 100) / 100})"><path d="M-120,0 Q-40,-80 80,0 Q-40,80 -120,0Z" fill="#f2a33a" stroke="${INK}" stroke-width="8"/><path d="M70,0 L140,-50 L130,0 L140,50Z" fill="#e2433a" stroke="${INK}" stroke-width="7" stroke-linejoin="round"/><circle cx="-70" cy="-12" r="11" fill="${INK}"/><path d="M-30,-56 l10,-40 l20,36" fill="#e2433a" stroke="${INK}" stroke-width="6"/></g>`;
-  return g + wave(520, 30, 2, '#3b88c3', t) + txt(s.label || '', 500, 70, 58, YEL, 'middle', .2, -2, eoBack(P(t, .3, .6)));
+  return g + wave(520, 30, 2, '#3b88c3', t, b) + txt(s.label || '', 500, 70, 58, YEL, 'middle', .2, -2, eoBack(P(t, .3, .6)));
 };
 SC.birds = (s, t, b) => {   // birds sent out from the boat, a dove returns with a twig
-  let g = wave(520, 30, 0, '#3b88c3', t) + boat(250, 480, .7, t);
+  let g = wave(520, 30, 0, '#3b88c3', t, b) + boat(250, 480, .7, t, b);
   const k = clamp(t / 3), bx = 300 + Math.sin(k * Math.PI) * 500, by = 380 - Math.sin(k * Math.PI) * 260;
   const flap = Math.sin(t * 14) * 30;
   g += `<g transform="translate(${r1(bx)},${r1(by)}) scale(${k < .5 ? 1 : -1},1)"><ellipse cx="0" cy="0" rx="46" ry="26" fill="#fff" stroke="${INK}" stroke-width="6"/><path d="M-10,-10 L-40,${r1(-50 - flap)} L20,-14Z" fill="#fff" stroke="${INK}" stroke-width="6" stroke-linejoin="round"/><circle cx="34" cy="-8" r="5" fill="${INK}"/><path d="M44,0 l18,4 l-18,6z" fill="#f2a33a" stroke="${INK}" stroke-width="3"/>${k > .5 ? `<path d="M56,6 q20,10 34,4" stroke="#4a8a3a" stroke-width="6" fill="none"/><ellipse cx="80" cy="4" rx="10" ry="5" fill="#7cc576" stroke="${INK}" stroke-width="3"/>` : ''}</g>`;
@@ -375,9 +383,19 @@ SC.birds = (s, t, b) => {   // birds sent out from the boat, a dove returns with
 };
 SC.mountain = (s, t, b) => {   // the boat resting on a mountain as the water goes down
   const w = ease(P(t, .2, 2.5));
-  let g = poly([[120, 600], [500, 140], [880, 600]], '#7a8a6a', 8) + poly([[420, 236], [500, 140], [580, 236], [530, 220], [500, 240], [470, 222]], '#f4f4f0', 5);
-  g += boat(500, 190, .55, t * .2) + wave(600 - 260 * (1 - w), 30, 0, '#3b88c3', t);
+  let g = roughSVG('path', ['M120,600 Q300,330 500,140 Q700,330 880,600Z'], { fill: '#6fbf73', fillStyle: 'hachure', hachureGap: 10, fillWeight: 4, stroke: INK, strokeWidth: 7, roughness: 1.6 }, b) + poly([[420, 236], [500, 140], [580, 236], [530, 220], [500, 240], [470, 222]], '#f4f4f0', 5);
+  g += boat(500, 190, .55, t * .2, b) + wave(600 - 260 * (1 - w), 30, 0, '#3b88c3', t, b);
   return g + txt(s.label || '', 500, 70, 58, YEL, 'middle', .2, -2, eoBack(P(t, .3, .6)));
+};
+SC.place = (s, t, b) => {   // where in the world: a spinning doodle globe, a pin drops, "today: <country>"
+  const sp = eoBack(P(t, 0, .5)), pin = eoBack(P(t, .8, 1.2));
+  let g = `<g transform="translate(500,330) scale(${sp})">` + roughSVG('circle', [0, 0, 440], { fill: '#6ec6ff', fillStyle: 'solid', stroke: INK, strokeWidth: 8, roughness: 1.3 }, b);
+  const off = (t * 25) % 120;
+  [[-120, -60, 120, 70], [40, -20, 150, 110], [-60, 110, 90, 50], [130, 120, 60, 40]].forEach(([x, y, w, h], i) => g += roughSVG('ellipse', [x - 60 + off * (i % 2 ? .3 : .2), y, w, h], { fill: '#7cc576', fillStyle: 'hachure', hachureGap: 7, fillWeight: 3, stroke: INK, strokeWidth: 5, roughness: 2 }, b + i));
+  g += '</g>';
+  g += `<g transform="translate(560,${r1(260 - 200 * (1 - pin))}) scale(${pin})"><path d="M0,0 C-40,-50 -40,-100 0,-100 C40,-100 40,-50 0,0Z" fill="${RED}" stroke="${INK}" stroke-width="6"/><circle cx="0" cy="-66" r="14" fill="#fff" stroke="${INK}" stroke-width="4"/></g>`;
+  if (t > 1) for (let i = 0; i < 8; i++) { const a = i / 8 * Math.PI * 2, r = 40 + clamp((t - 1) / .4) * 60; g += `<line x1="${r1(560 + Math.cos(a) * r)}" y1="${r1(210 + Math.sin(a) * r)}" x2="${r1(560 + Math.cos(a) * (r + 18))}" y2="${r1(210 + Math.sin(a) * (r + 18))}" stroke="${YEL}" stroke-width="6" stroke-linecap="round" opacity="${r1(1 - clamp((t - 1.2) / .5))}"/>`; }
+  return g + txt(s.label || '', 500, 70, 58, YEL, 'middle', .2, -2, eoBack(P(t, .2, .5))) + txt(s.today || '', 500, 565, 46, '#fff', 'middle', .25, 0, eoBack(P(t, 1.1, 1.5)));
 };
 SC.compare = (s, t, b) => {   // three columns: one symbol per tradition, ticked one by one
   const cols = s.items || [];
@@ -397,7 +415,7 @@ function drawChar(who, x, y, s, st, t, b) {
   if (who === 'zib') return zib({ x, y, s: s * .95, ...st });
   if (who === 'bolt') return bolt({ x, y, s: s * .9, ...st });
   if (who === 'rocky') return rocky({ x, y, s: s * .78, ...st, boil: b });
-  if (who === 'sam') return sam({ x, y, s: s * .8, ...st });
+  if (who === 'sam') return sam({ x, y, s: s * .8, ...st, T: t });
   let g = tik({ x, y, s: s * .62, armL: st.armL, armR: st.armR, look: st.look || [0, 0] });
   if (st.talk > .15) g += `<g transform="translate(${r1(x)},${r1(y)}) scale(${s * .62})"><ellipse cx="9" cy="-246" rx="13" ry="${r1(4 + st.talk * 9)}" fill="#c9503f" stroke="${INK}" stroke-width="5"/></g>`;
   return g;
@@ -430,6 +448,11 @@ function actor(who, x, footY, s, T, b, ctx) {   // the speaker, big, entering an
   const wave = Math.sin(T * 5.5) * 32, point = side < 0 ? -18 + Math.sin(T * 2) * 8 : 198 - Math.sin(T * 2) * 8;
   const st = { talk: ctx.talk, look: [side < 0 ? .7 : -.7, -.1] };
   if (side < 0) { st.armR = point; st.armL = 210 + wave; } else { st.armL = point; st.armR = -30 - wave; }
+  if (who === 'sam') {   // organic gestures: a new pose on every beat, eased in (no metronome waving)
+    const bt = T * 1.9, k = Math.floor(bt), fr = eio(bt - k), pose = (n) => [150 + rnd(n * 3.3) * 110, -60 + rnd(n * 5.7) * 120];
+    const [a0, b0] = pose(k), [a1, b1] = pose(k + 1); st.armL = lerp(a0, a1, fr); st.armR = lerp(b0, b1, fr);
+    st.tilt = Math.sin(T * 1.3) * 5 + ctx.talk * 5 * Math.sin(T * 7); st.brow = ex ? 1 : ctx.talk * .4; st.look = [Math.sin(T * .7) * .3 + .5, Math.sin(T * 1.1) * .2];
+  }
   if (ex) { st.armL = 215 + wave * .5; st.armR = -35 - wave * .5; }
   let g = `<ellipse cx="${r1(x0)}" cy="${footY + 8}" rx="${95 * s}" ry="${16 * s}" fill="#000" opacity=".25"/>`;
   if (who === 'cosmo') g += `<path d="M${r1(x0 - 22 * s)},${r1(footY - 40 * s - fl)} l${r1(22 * s)},${r1((60 + Math.sin(T * 30) * 12) * s)} l${r1(22 * s)},${r1(-(60 + Math.cos(T * 27) * 12) * s)}z" fill="#ffb347" stroke="${INK}" stroke-width="4"/>`;
@@ -437,8 +460,19 @@ function actor(who, x, footY, s, T, b, ctx) {   // the speaker, big, entering an
   if (ex && ts < 1.4) g += txt('?!', x0 + side * -10 + 70 * s, footY - 330 * s - hop, 80 * s, YEL, 'middle', .2, side * -12, eoBack(clamp(ts / .25)));
   return g;
 }
-const BG = { flood: ['#14243a', '#2f5f8a'], mesopotamia: ['#3a2410', '#b5783a'], bible: ['#1d1a3c', '#4a3f80'], hindu: ['#3a1a10', '#c4561e'], quran: ['#0f2a24', '#2f7a64'], fddend: ['#1d1a3c', '#a83a7a'], volcano: ['#2a1410', '#b5573a'], pulsar: ['#0b1440', '#3a5cc4'], coldest: ['#0b2a3a', '#2f8ab0'], bigstar: ['#2a0a14', '#a8243a'], bigbang: ['#1a0f3a', '#a83a7a'], sunearth: ['#2b1a0a', '#c4561e'], dinos: ['#0f2a1c', '#4a7a2f'], humans: ['#0b2152', '#1f5cb5'], moon: ['#1d1a5c', '#4a3fb0'], spin: ['#0b2152', '#1f8a8a'], sunoff: ['#2b1a0a', '#c4561e'], car: ['#1f2a52', '#d2366b'], wow: ['#0f2a1c', '#2f7a4a'], oumuamua: ['#2a1410', '#8a3a24'], tabby: ['#2b1a0a', '#b5651e'], blackhole: ['#05030c', '#3a1858'], intro: ['#1f2a52', '#3b2470'], outro: ['#1f2a52', '#3b2470'], speed: ['#2a1f5c', '#6a2470'], venus: ['#3a1c2a', '#93421f'], jupiter: ['#2b1d14', '#7a4a2a'], neptune: ['#0b2152', '#1f5cb5'], glass: ['#0d1440', '#2f3fa0'] };
+const BG = { flood: ['#2b7bd6', '#6ec6ff', '#ffd23f'], mesopotamia: ['#f08a4b', '#ffcf70', '#2ec4b6'], bible: ['#7a5cff', '#b9a7ff', '#ffd23f'], hindu: ['#ff5d8f', '#ffb347', '#29c7d8'], quran: ['#2bb39a', '#7be0b0', '#ff7a6b'], fddend: ['#9b6bff', '#ff9ecb', '#ffd23f'], volcano: ['#2a1410', '#b5573a'], pulsar: ['#0b1440', '#3a5cc4'], coldest: ['#0b2a3a', '#2f8ab0'], bigstar: ['#2a0a14', '#a8243a'], bigbang: ['#1a0f3a', '#a83a7a'], sunearth: ['#2b1a0a', '#c4561e'], dinos: ['#0f2a1c', '#4a7a2f'], humans: ['#0b2152', '#1f5cb5'], moon: ['#1d1a5c', '#4a3fb0'], spin: ['#0b2152', '#1f8a8a'], sunoff: ['#2b1a0a', '#c4561e'], car: ['#1f2a52', '#d2366b'], wow: ['#0f2a1c', '#2f7a4a'], oumuamua: ['#2a1410', '#8a3a24'], tabby: ['#2b1a0a', '#b5651e'], blackhole: ['#05030c', '#3a1858'], intro: ['#1f2a52', '#3b2470'], outro: ['#1f2a52', '#3b2470'], speed: ['#2a1f5c', '#6a2470'], venus: ['#3a1c2a', '#93421f'], jupiter: ['#2b1d14', '#7a4a2a'], neptune: ['#0b2152', '#1f5cb5'], glass: ['#0d1440', '#2f3fa0'] };
+const FAITH = new Set(['flood', 'mesopotamia', 'bible', 'hindu', 'quran', 'fddend']);
+function paperBg(seg, W2, H2, T, b) {   // hand-made look (owner 20 Oct): cream paper, loose crayon washes that boil, a few doodled stars/sparkles
+  const c = BG[seg] || BG.flood, bb = Math.floor(b / 2);
+  let g = `<rect width="${W2}" height="${H2}" fill="#f1e6cf"/>`;
+  g += roughSVG('rectangle', [-40, -40, W2 + 80, H2 * .62], { fill: c[1], fillStyle: 'hachure', hachureGap: 26, hachureAngle: -38, fillWeight: 14, stroke: 'none', roughness: 2.8 }, bb).replace('<g', '<g opacity=".42"');
+  g += roughSVG('rectangle', [-40, H2 * .5, W2 + 80, H2 * .6], { fill: c[0], fillStyle: 'hachure', hachureGap: 30, hachureAngle: 52, fillWeight: 14, stroke: 'none', roughness: 2.8 }, bb + 7).replace('<g', '<g opacity=".28"');
+  for (let i = 0; i < 9; i++) { const x = rnd(i * 4.1) * W2, y = rnd(i * 2.7) * H2 * .9, r = 10 + rnd(i) * 10, k = .7 + .3 * Math.sin(T * 2 + i);
+    g += `<path d="M${r1(x - r * k)},${r1(y)} L${r1(x + r * k)},${r1(y)} M${r1(x)},${r1(y - r * k)} L${r1(x)},${r1(y + r * k)}" stroke="${i % 3 ? '#fff8e6' : (c[2] || YEL)}" stroke-width="6" stroke-linecap="round" opacity=".9"/>`; }
+  return g;
+}
 function background(seg, W2, H2, T, b) {
+  if (FAITH.has(seg)) return paperBg(seg, W2, H2, T, b);
   const c = BG[seg] || BG.intro;
   let g = `<defs><linearGradient id="bgg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${c[0]}"/><stop offset="1" stop-color="${c[1]}"/></linearGradient></defs><rect width="${W2}" height="${H2}" fill="url(#bgg)"/>`;
   for (let L = 0; L < 2; L++) for (let i = 0; i < 45; i++) {   // two parallax star layers drifting left
@@ -474,7 +508,7 @@ let HOOK = '';
 window.setup = (tl, layout, shortTitle) => { TL = tl; LAYOUT = layout; [SHORT_TITLE, HOOK] = (shortTitle || '').split('|').concat(['']);   // tiktok layout: "title|hook"
   const W2 = layout === 'long' ? 1920 : 1080, H2 = layout === 'long' ? 1080 : 1920; stage.setAttribute('width', W2); stage.setAttribute('height', H2); stage.setAttribute('viewBox', `0 0 ${W2} ${H2}`); PAPER = makePaper(W2, H2); };
 window.renderFrame = function (f) {
-  const T = f / TL.fps, b = Math.floor(f * 2 / 3) + 1;
+  const T = f / TL.fps, b = Math.floor(T * 8) + 1;   // line boil 8x per second at any fps
   const L = TL.lines; let li = -1, si = 0;
   for (let i = 0; i < L.length; i++) { if (T >= L[i].start - .3) li = i; if (L[i].show && T >= L[i].start - .3) si = i; }
   const line = li >= 0 ? L[li] : null, sl = L[si], show = sl.show || { type: 'crew' };
@@ -493,6 +527,9 @@ window.renderFrame = function (f) {
   cx += (rnd(f * 3) - .5) * shk; cy += (rnd(f * 5) - .5) * shk;
   const bw = 1000 * box.s, bh = 600 * box.s, mx = box.x + bw / 2, my = box.y + bh / 2;
   let g = background(line ? line.seg : 'intro', W2, H2, T, b);
+  if (tk && t < .45 && FAITH.has(line ? line.seg : '')) { const k = clamp(t / .45);
+    g += `<path d="M${r1(-200 + k * 1500)},0 l-260,${H2} l-180,0 l260,-${H2}z" fill="#fff8e6" opacity="${r1((1 - k) * .7)}"/>`;
+    for (let i = 0; i < 12; i++) { const a = i / 12 * Math.PI * 2, r = 120 + k * 380, x = 540 + Math.cos(a) * r, y = 700 + Math.sin(a) * r * .8; g += star5(x, y, 18 * (1 - k) + 4, i % 2 ? YEL : '#ff7ab6').replace('<polygon', `<polygon opacity="${r1(1 - k)}"`); } }
   if (t < .32) g += [0, 1, 2, 3, 4].map(k => `<line x1="${r1(W2 * (k / 5) + (1 - tin) * 400 * dir)}" y1="${r1(H2 * (.15 + k * .17))}" x2="${r1(W2 * (k / 5) + 260 + (1 - tin) * 400 * dir)}" y2="${r1(H2 * (.15 + k * .17))}" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="${r1((1 - tin) * .6)}"/>`).join('');
   g += `<g transform="translate(${r1(mx + cx)},${r1(my + cy)}) scale(${r1(zoom * 1000) / 1000}) translate(${-mx},${-my})"><g transform="translate(${box.x},${box.y}) scale(${box.s})">${(SC[show.type] || SC.crew)(show, t, b, ctx)}</g></g>`;
   if (!crewScene) {

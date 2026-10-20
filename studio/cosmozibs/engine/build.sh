@@ -10,8 +10,17 @@ render() { # timeline layout outname title
   rm -rf "$D/frames_$OUT"; local Q=$(( (FR + N - 1) / N )); local pids=()
   for ((w=0; w<N; w++)); do node render.mjs "$TL" "$LAY" "$D/frames_$OUT" $((w*Q)) $(((w+1)*Q)) "$TITLE" & pids+=($!); done
   for p in "${pids[@]}"; do wait $p; done
-  ffmpeg -y -loglevel error -framerate 12 -pattern_type glob -i "$D/frames_$OUT/*.jpg" -i "${TL%.json}.wav" -vf fps=24,format=yuv420p \
+  local FPSI=$(python3 -c "import json;print(json.load(open('$TL'))['fps'])"); local VF="fps=24,format=yuv420p"
+  if [ "$LAY" = tiktok ] && [ "$FPSI" = 24 ]; then VF="[0:v][1:v][2:v]displace=edge=smear,format=yuv420p[v]"; fi   # hand-drawn line boil on twos (owner 20 Oct)
+  if [ "$LAY" = tiktok ] && [ "$FPSI" = 24 ]; then
+  ffmpeg -y -loglevel error -framerate 24 -pattern_type glob -i "$D/frames_$OUT/*.jpg" \
+    -f lavfi -i "color=c=0x808080:s=36x64:r=12,noise=c0s=60:allf=t,lutyuv=y=128+(val-128)*0.05,scale=1080:1920:flags=bicubic,fps=24" \
+    -f lavfi -i "color=c=0x808080:s=36x64:r=12,noise=c0s=60:allf=t+u,lutyuv=y=128+(val-128)*0.05,scale=1080:1920:flags=bicubic,fps=24" \
+    -i "${TL%.json}.wav" -filter_complex "$VF" -map "[v]" -map 3:a -c:v libx264 -crf 20 -preset veryfast -c:a aac -b:a 160k -shortest -movflags +faststart "$D/$OUT.mp4"
+  else
+  ffmpeg -y -loglevel error -framerate $FPSI -pattern_type glob -i "$D/frames_$OUT/*.jpg" -i "${TL%.json}.wav" -vf $VF \
     -c:v libx264 -crf 20 -preset veryfast -c:a aac -b:a 160k -shortest -movflags +faststart "$D/$OUT.mp4"
+  fi
   rm -rf "$D/frames_$OUT"; echo "done $OUT $(ffprobe -v error -show_entries format=duration -of csv=p=0 "$D/$OUT.mp4")"
 }
 if [ "$MODE" = tiktok ]; then python3 voice.py "$EP"; T=$(python3 -c "import json;t=json.load(open('$EP'))['tiktok'];print(t['title']+'|'+t['hook'])"); render "$D/long.json" tiktok "${ID}_tiktok" "$T"; exit 0; fi

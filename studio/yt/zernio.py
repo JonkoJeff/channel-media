@@ -218,9 +218,10 @@ elif cmd == "dropyt":   # owner 21 Oct: Cosmozibs YouTube blocked, YouTube line 
     import datetime as dt
     ch = "cosmozibs"; yt_account(ch); tt = cfg.get("tiktok", {}).get(ch) or sys.exit("::error::no TikTok account for cosmozibs")
     now = dt.datetime.now(dt.timezone.utc)
-    def pending(pid):
+    def status(pid):
         st, p = call("GET", f"/posts/{pid}", soft=True); post = (p or {}).get("post", p or {})
-        return post if post.get("status") in ("scheduled", "pending", "draft") else None
+        return post.get("status") or "gone"
+    pending = lambda pid: status(pid) in ("scheduled", "pending", "draft")
     for e in [x for x in sys.argv[2].split(",") if x]:
         f = os.path.join(R, e, "result.json"); r = json.load(open(f)); meta = r.get("shorts_meta", {})
         if r.get("zernio_id") and not r.get("yt_dropped"):
@@ -228,19 +229,20 @@ elif cmd == "dropyt":   # owner 21 Oct: Cosmozibs YouTube blocked, YouTube line 
             r["yt_dropped"] = True
         for sid, d in r.get("shorts_posted", {}).items():
             if d.get("tiktok_only"): continue
-            post = pending(d["zernio_id"])
-            if not post: continue
+            when = str(d["when"]).split(" ")[0]; stt = status(d["zernio_id"])
+            if stt in ("published", "publishing", "failed") or dt.datetime.fromisoformat(when) < dt.datetime.now() - dt.timedelta(hours=4): continue
+            post = stt in ("scheduled", "pending", "draft")
             fpath = os.path.join(TMP, f"{sid}.mp4"); os.path.exists(fpath) or sys.exit(f"::error::{sid}.mp4 missing")
-            call("DELETE", f"/posts/{d['zernio_id']}")
+            if post: call("DELETE", f"/posts/{d['zernio_id']}")
             _, ps = call("POST", "/media/presign", {"filename": sid + ".mp4", "contentType": "video/mp4", "size": os.path.getsize(fpath)})
             urllib.request.urlopen(urllib.request.Request(ps["uploadUrl"], data=open(fpath, "rb").read(), method="PUT", headers={"Content-Type": "video/mp4"}), timeout=600).read()
             m = meta.get(sid, {}); title = m.get("title", sid)
             body = {"content": f"{title}\n\n#space #spacefacts #science #learnontiktok #cosmozibs\n\nVoices are AI-generated.", "mediaItems": [{"type": "video", "url": ps["publicUrl"]}],
-                    "platforms": [{"platform": "tiktok", "accountId": tt}], "scheduledFor": d["when"], "timezone": tz(ch),
+                    "platforms": [{"platform": "tiktok", "accountId": tt}], "scheduledFor": when, "timezone": tz(ch),
                     "tiktokSettings": {"privacy_level": "PUBLIC_TO_EVERYONE", "allow_comment": True, "allow_duet": True, "allow_stitch": True, "commercial_content_type": "none",
                                        "content_preview_confirmed": True, "express_consent_given": True, "media_type": "video", "auto_add_music": False, "video_made_with_ai": True}}
-            st, p = call("POST", "/posts", body, soft=True); np_ = (p or {}).get("post", p or {})
-            r["shorts_posted"][sid] = {"zernio_id": np_.get("_id"), "when": d["when"], "tiktok_only": True}; print(f"{sid} -> TikTok only {d['when']}")
+            st, p = call("POST", "/posts", body); np_ = (p or {}).get("post", p or {})
+            r["shorts_posted"][sid] = {"zernio_id": np_.get("_id"), "when": when, "tiktok_only": True}; print(f"{sid} -> TikTok only {when}")
             json.dump(r, open(f, "w"), indent=1)
         json.dump(r, open(f, "w"), indent=1)
 elif cmd == "list":   # a = channel key (religion|crazyfacts|moneyatnight): recent posts of that account, to avoid duplicates after a timeout

@@ -1,3 +1,5 @@
+> **STOPPED (owner, 21 Oct 2026): the Cosmozibs YouTube channel is blocked and this factory line is scrapped. See STATUS.md. Do not run this setup.**
+
 # Opdracht voor Claude Code: zet de Cosmozibs-fabriek op
 
 Plak alles onder de streep in Claude Code, gestart in een herdr-pane in de map van `channel-media`

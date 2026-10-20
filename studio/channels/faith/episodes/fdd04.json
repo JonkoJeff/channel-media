@@ -1,0 +1,91 @@
+{
+ "id": "fdd04",
+ "title": "Why Muslims Fast in Ramadan",
+ "tiktok": {
+  "title": "WHY MUSLIMS FAST IN RAMADAN",
+  "hook": "NO FOOD ALL DAY?!",
+  "kw": "ramadan"
+ },
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ramadan",
+  "https://www.britannica.com/topic/Ramadan",
+  "https://en.wikipedia.org/wiki/Iftar"
+ ],
+ "segments": [
+  {
+   "id": "ramadan",
+   "lines": [
+    {
+     "who": "sam",
+     "say": "No food. No water. From sunrise to sunset, for a whole month! Why do millions of Muslims do this?",
+     "show": {
+      "type": "crescent",
+      "label": "RAMADAN"
+     },
+     "sfx": "riser"
+    },
+    {
+     "who": "sam",
+     "say": "Ramadan is the ninth month of the Islamic calendar. It starts when the new crescent moon is seen.",
+     "show": {
+      "type": "crescent",
+      "label": "A NEW MOON"
+     }
+    },
+    {
+     "who": "sam",
+     "say": "It lasts twenty nine or thirty days, and fasting in Ramadan is one of the Five Pillars of Islam.",
+     "show": {
+      "type": "bignum",
+      "value": "29-30",
+      "label": "DAYS OF FASTING"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "sam",
+     "say": "Muslims believe it's the month the Quran was first revealed. Fasting helps them feel closer to God, and remember people who are hungry.",
+     "show": {
+      "type": "crescent",
+      "label": "A HOLY MONTH"
+     }
+    },
+    {
+     "who": "sam",
+     "say": "Kids, people who are sick, and travelers don't have to fast.",
+     "show": {
+      "type": "bignum",
+      "value": "NOT FOR KIDS",
+      "label": "OR THE SICK"
+     }
+    },
+    {
+     "who": "sam",
+     "say": "At sunset, families break the fast together, often with dates and water. That meal is called iftar!",
+     "show": {
+      "type": "dates",
+      "label": "IFTAR"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "sam",
+     "say": "And at the end of the month comes a big celebration: Eid al Fitr!",
+     "show": {
+      "type": "crescent",
+      "label": "EID AL-FITR"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "sam",
+     "say": "Did you know about iftar? Tell me in the comments!",
+     "show": {
+      "type": "dates",
+      "label": "IFTAR"
+     }
+    }
+   ]
+  }
+ ]
+}

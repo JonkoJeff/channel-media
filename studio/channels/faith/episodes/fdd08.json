@@ -1,0 +1,82 @@
+{
+ "id": "fdd08",
+ "title": "The Weighing of the Heart",
+ "tiktok": {
+  "title": "EGYPT: WEIGHING OF THE HEART",
+  "hook": "YOUR HEART VS A FEATHER?!",
+  "kw": "ancient egypt"
+ },
+ "sources": [
+  "https://en.wikipedia.org/wiki/Weighing_of_souls",
+  "https://www.britishmuseum.org/collection/death-and-memory/book-dead",
+  "https://en.wikipedia.org/wiki/Maat"
+ ],
+ "segments": [
+  {
+   "id": "egypt",
+   "lines": [
+    {
+     "who": "sam",
+     "say": "In ancient Egypt, people believed your heart would be weighed against a feather!",
+     "show": {
+      "type": "scale",
+      "label": "HEART VS FEATHER"
+     },
+     "sfx": "riser"
+    },
+    {
+     "who": "sam",
+     "say": "This idea comes from the Book of the Dead, more than three thousand years ago.",
+     "show": {
+      "type": "place",
+      "label": "ANCIENT EGYPT",
+      "today": "TODAY: EGYPT"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "sam",
+     "say": "Egyptians believed that after death, your heart remembered everything good and bad you did.",
+     "show": {
+      "type": "scale",
+      "label": "THE HEART"
+     }
+    },
+    {
+     "who": "sam",
+     "say": "The heart was placed on a scale, against the feather of Maat, the goddess of truth and justice.",
+     "show": {
+      "type": "scale",
+      "label": "MAAT'S FEATHER"
+     }
+    },
+    {
+     "who": "sam",
+     "say": "If the heart was as light as the feather, you could go on to a happy afterlife.",
+     "show": {
+      "type": "scale",
+      "label": "BALANCED!"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "sam",
+     "say": "The jackal-headed god Anubis watched the scale, and Thoth, the god of writing, wrote down the result.",
+     "show": {
+      "type": "bignum",
+      "value": "ANUBIS",
+      "label": "+ THOTH THE WRITER"
+     }
+    },
+    {
+     "who": "sam",
+     "say": "Would your heart be as light as a feather? Tell me in the comments!",
+     "show": {
+      "type": "scale",
+      "label": "YOUR HEART?"
+     }
+    }
+   ]
+  }
+ ]
+}

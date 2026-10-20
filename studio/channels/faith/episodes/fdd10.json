@@ -1,0 +1,94 @@
+{
+ "id": "fdd10",
+ "title": "Abraham: One Man, Three Faiths",
+ "tiktok": {
+  "title": "ABRAHAM: 1 MAN, 3 FAITHS",
+  "hook": "HALF THE WORLD?!",
+  "kw": "abraham"
+ },
+ "sources": [
+  "https://en.wikipedia.org/wiki/Abraham",
+  "https://en.wikipedia.org/wiki/Abrahamic_religions",
+  "https://www.biblegateway.com/passage/?search=Genesis+15%3A5",
+  "https://www.pewresearch.org/religion/2022/12/21/key-findings-from-the-global-religious-futures-project/"
+ ],
+ "segments": [
+  {
+   "id": "abraham",
+   "lines": [
+    {
+     "who": "sam",
+     "say": "One man is honored by Jews, Christians and Muslims. More than half the people on Earth! Who is he?",
+     "show": {
+      "type": "starsky",
+      "label": "ABRAHAM"
+     },
+     "sfx": "riser"
+    },
+    {
+     "who": "sam",
+     "say": "His name is Abraham. In Islam, he is called Ibrahim.",
+     "show": {
+      "type": "bignum",
+      "value": "IBRAHIM",
+      "label": "IN ISLAM"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "sam",
+     "say": "The stories say he lived in the ancient Middle East, about four thousand years ago, and traveled with his tents and animals.",
+     "show": {
+      "type": "place",
+      "label": "MIDDLE EAST",
+      "today": "ABOUT 4,000 YEARS AGO"
+     }
+    },
+    {
+     "who": "sam",
+     "say": "He believed in one God, and in the Bible, God tells him: look at the sky. Your family will be as many as the stars!",
+     "show": {
+      "type": "starsky",
+      "label": "AS MANY AS THE STARS"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "sam",
+     "say": "That's why these three are called Abrahamic religions. They all see him as a great example of faith.",
+     "show": {
+      "type": "compare",
+      "items": [
+       "JUDAISM",
+       "CHRISTIANITY",
+       "ISLAM"
+      ],
+      "label": "ABRAHAMIC FAITHS",
+      "icons": [
+       "star6",
+       "cross",
+       "crescent"
+      ]
+     }
+    },
+    {
+     "who": "sam",
+     "say": "In Islam, Ibrahim and his son Ismail are remembered for building the Kaaba in Mecca.",
+     "show": {
+      "type": "place",
+      "label": "MECCA",
+      "today": "THE KAABA"
+     }
+    },
+    {
+     "who": "sam",
+     "say": "Did you know these faiths share so much? Tell me in the comments!",
+     "show": {
+      "type": "starsky",
+      "label": "ONE FAMILY TREE"
+     }
+    }
+   ]
+  }
+ ]
+}

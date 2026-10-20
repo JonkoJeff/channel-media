@@ -1,0 +1,86 @@
+{
+ "id": "fdd06",
+ "title": "Why Hanukkah Has Eight Nights",
+ "tiktok": {
+  "title": "WHY HANUKKAH HAS 8 NIGHTS",
+  "hook": "1 DAY OF OIL, 8 NIGHTS?!",
+  "kw": "hanukkah"
+ },
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hanukkah",
+  "https://www.britannica.com/topic/Hanukkah"
+ ],
+ "segments": [
+  {
+   "id": "hanukkah",
+   "lines": [
+    {
+     "who": "sam",
+     "say": "Why do Jewish families light candles for eight nights in a row? It starts with a jar of oil.",
+     "show": {
+      "type": "menorah",
+      "label": "HANUKKAH",
+      "n": 0
+     },
+     "sfx": "riser"
+    },
+    {
+     "who": "sam",
+     "say": "More than two thousand years ago, the Temple in Jerusalem was taken over.",
+     "show": {
+      "type": "place",
+      "label": "JERUSALEM",
+      "today": "OVER 2,000 YEARS AGO"
+     }
+    },
+    {
+     "who": "sam",
+     "say": "A small group called the Maccabees won it back, and wanted to light the Temple's lamp again.",
+     "show": {
+      "type": "menorah",
+      "label": "THE MACCABEES",
+      "n": 1
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "sam",
+     "say": "But they found only enough pure oil for one day. And the story says it burned for eight days!",
+     "show": {
+      "type": "bignum",
+      "value": "1 → 8",
+      "label": "DAYS OF LIGHT"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "sam",
+     "say": "So on Hanukkah, families light one more candle each night. The extra candle in the middle is the helper, called the shamash.",
+     "show": {
+      "type": "menorah",
+      "label": "8 NIGHTS"
+     }
+    },
+    {
+     "who": "sam",
+     "say": "They also play with a spinning top called a dreidel, and eat food fried in oil, like potato pancakes and jelly donuts!",
+     "show": {
+      "type": "bignum",
+      "value": "DREIDEL",
+      "label": "+ LATKES & DONUTS"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "sam",
+     "say": "Which would you try first? Tell me in the comments!",
+     "show": {
+      "type": "menorah",
+      "label": "HAPPY HANUKKAH!",
+      "n": 8
+     }
+    }
+   ]
+  }
+ ]
+}

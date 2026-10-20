@@ -1,0 +1,82 @@
+{
+ "id": "fdd07",
+ "title": "Why Buddhist Monks Wear Orange",
+ "tiktok": {
+  "title": "WHY MONKS WEAR ORANGE",
+  "hook": "WHY ORANGE?!",
+  "kw": "buddhist monks"
+ },
+ "sources": [
+  "https://en.wikipedia.org/wiki/Kasaya_(clothing)",
+  "https://www.britannica.com/topic/Buddhism"
+ ],
+ "segments": [
+  {
+   "id": "monks",
+   "lines": [
+    {
+     "who": "sam",
+     "say": "Why do so many Buddhist monks wear orange? The answer is... spices and wood!",
+     "show": {
+      "type": "robe",
+      "label": "MONK ROBES"
+     },
+     "sfx": "riser"
+    },
+    {
+     "who": "sam",
+     "say": "Long ago, monks made robes from simple pieces of cloth, sewn together.",
+     "show": {
+      "type": "robe",
+      "label": "PATCHWORK"
+     }
+    },
+    {
+     "who": "sam",
+     "say": "To color them, they used what nature gave them, like turmeric, saffron, or the wood of the jackfruit tree.",
+     "show": {
+      "type": "robe",
+      "label": "NATURAL DYES"
+     },
+     "sfx": "pop"
+    },
+    {
+     "who": "sam",
+     "say": "Those dyes gave yellow, orange and brown colors. Today, the robes stand for a simple life, without fancy clothes.",
+     "show": {
+      "type": "robe",
+      "label": "A SIMPLE LIFE"
+     }
+    },
+    {
+     "who": "sam",
+     "say": "But not every monk wears orange! In Tibet many wear dark red, and in Japan many wear black or gray.",
+     "show": {
+      "type": "robe",
+      "label": "TIBET: DARK RED",
+      "color": "#9b2335"
+     },
+     "sfx": "scratch"
+    },
+    {
+     "who": "sam",
+     "say": "So the color can tell you where a monk comes from!",
+     "show": {
+      "type": "place",
+      "label": "ASIA",
+      "today": "MANY TRADITIONS"
+     },
+     "sfx": "ding"
+    },
+    {
+     "who": "sam",
+     "say": "Which color did you think was the only one? Tell me in the comments!",
+     "show": {
+      "type": "robe",
+      "label": "WHICH COLOR?"
+     }
+    }
+   ]
+  }
+ ]
+}

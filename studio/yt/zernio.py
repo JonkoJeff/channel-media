@@ -166,6 +166,51 @@ elif cmd == "shorts":
         done[sid] = {"zernio_id": post.get("_id"), "when": when}; n += 1
         json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1); print(f"{sid} -> {when}")
     print(f"::notice::{vid}: {len(done)} Shorts scheduled")
+elif cmd == "tiktok":   # owner 20 Oct: Cosmozibs TikTok one video per hour. a = episode ids "cz01,cz02,..", b = first hour "YYYY-MM-DDTHH:00" (ET), c = last hour "HH" of each day (default 23)
+    import datetime as dt
+    ch = "cosmozibs"; yt_account(ch); tt = cfg.get("tiktok", {}).get(ch) or sys.exit("::error::no TikTok account for cosmozibs")
+    CAP, first, last_h = 15, dt.datetime.fromisoformat(sys.argv[3]), int(sys.argv[4] or 23)   # TikTok accepts about 15 API posts per account per day
+    eps = [e for e in sys.argv[2].split(",") if e]; res = {e: json.load(open(os.path.join(R, e, "result.json"))) for e in eps}
+    pt = lambda w: dt.datetime.fromisoformat(str(w)[:16])
+    taken = []   # every Cosmozibs TikTok already planned (Shorts go to TikTok too) -> never two in the same hour, max CAP per day
+    for d0 in os.listdir(R):
+        f = os.path.join(R, d0, "result.json")
+        if d0.startswith("cz") and os.path.exists(f):
+            r0 = json.load(open(f)); taken += [pt(x["when"]) for x in list(r0.get("shorts_posted", {}).values()) + list(r0.get("tiktok_posted", {}).values())]
+    todo = []   # (earliest time, episode, clip id): part 2 never before its own Short, the speed round never before the long video
+    for e, r in res.items():
+        done = r.setdefault("tiktok_posted", {})
+        for cid in r.get("tiktok_clips", {}):
+            if cid in done: continue
+            seg = cid.split("_tt_")[1]; ref = r.get("shorts_posted", {}).get(f"{e}_{seg[:-1]}", {}).get("when") if seg != "speed" else str(r.get("scheduled", ""))[:16]
+            if not ref: print(f"::notice::{cid}: its Short/long is not scheduled yet, skipped"); continue
+            todo.append((pt(ref) + dt.timedelta(minutes=60), e, cid))
+    todo.sort(); h = first; n = 0
+    while todo and h < first + dt.timedelta(days=14):
+        day_n = sum(1 for x in taken if x.date() == h.date())
+        free = 7 <= h.hour <= last_h and day_n < CAP and all(abs((x - h).total_seconds()) >= 45 * 60 for x in taken)
+        pick = next((x for x in todo if x[0] <= h), None) if free else None
+        if pick:
+            e, cid = pick[1], pick[2]; r = res[e]; title = r.get("tiktok_meta", {}).get(cid, {}).get("title", cid); when = h.strftime("%Y-%m-%dT%H:%M")
+            ex = existing(title[:40])   # FAILSAFE: never post twice
+            if ex: r["tiktok_posted"][cid] = {"zernio_id": ex.get("_id"), "when": str(ex.get("scheduledFor"))[:16]}; print(f"{cid} already on Zernio, adopted")
+            else:
+                f = os.path.join(TMP, cid + ".mp4"); os.path.exists(f) or urllib.request.urlretrieve(r["tiktok_clips"][cid], f)
+                _, ps = call("POST", "/media/presign", {"filename": cid + ".mp4", "contentType": "video/mp4", "size": os.path.getsize(f)})
+                urllib.request.urlopen(urllib.request.Request(ps["uploadUrl"], data=open(f, "rb").read(), method="PUT", headers={"Content-Type": "video/mp4"}), timeout=600).read()
+                body = {"content": f"{title}\n\nFull episode on YouTube: Cosmozibs\n\n#space #spacefacts #science #learnontiktok #cosmozibs\n\nVoices are AI-generated.", "mediaItems": [{"type": "video", "url": ps["publicUrl"]}],
+                        "platforms": [{"platform": "tiktok", "accountId": tt}], "scheduledFor": when, "timezone": tz(ch),
+                        "tiktokSettings": {"privacy_level": "PUBLIC_TO_EVERYONE", "allow_comment": True, "allow_duet": True, "allow_stitch": True, "commercial_content_type": "none",
+                                           "content_preview_confirmed": True, "express_consent_given": True, "media_type": "video", "auto_add_music": False, "video_made_with_ai": True}}
+                st, p = call("POST", "/posts", body, soft=True)
+                if st is None:
+                    import time; time.sleep(20); p = existing(title[:40]) or sys.exit(f"::error::{cid}: no answer and no post found; check Zernio before retrying")
+                post = p.get("post", p)
+                if st == 207 or post.get("status") == "failed": print(f"::warning::{cid} failed: {json.dumps(post)[:300]}"); todo.remove(pick); continue
+                r["tiktok_posted"][cid] = {"zernio_id": post.get("_id"), "when": when}; print(f"{cid} -> {when} ET"); n += 1
+            json.dump(r, open(os.path.join(R, e, "result.json"), "w"), indent=1); taken.append(h); todo.remove(pick)
+        h += dt.timedelta(hours=1)
+    print(f"::notice::{n} TikTok clips scheduled, {len(todo)} left")
 elif cmd == "list":   # a = channel key (religion|crazyfacts|moneyatnight): recent posts of that account, to avoid duplicates after a timeout
     yt_account(sys.argv[2] if len(sys.argv) > 2 and sys.argv[2] else "crazyfacts"); st, p = call("GET", "/posts?limit=100"); ps = p.get("posts", p if isinstance(p, list) else [])
     seen_ = {x.get("_id") for x in ps}

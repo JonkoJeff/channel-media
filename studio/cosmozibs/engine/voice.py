@@ -84,13 +84,29 @@ def build(lines, name):
     json.dump({"fps": FPS, "total": total, "lines": tl, "talk": talk, "title": ep["title"]}, open(f"{OUT}/{name}.json", "w"))
     return total
 
-# long: all segments in order; mark segment ids
-allines = []
-for s in ep["segments"]:
-    for j, ln in enumerate(s["lines"]): allines.append({**ln, "seg": s["id"]})
-T = build(allines, "long"); print("long", round(T, 1), "s")
-for s in ep["segments"]:
-    if "short" in s:
-        ls = [{**ln, "seg": s["id"]} for ln in s["lines"][:s["short"]["end"] + 1]]
-        if not ls[0].get("show"): ls[0]["show"] = {"type": "crew"}
-        Ts = build(ls, "short_" + s["id"]); print("short", s["id"], round(Ts, 1), "s")
+# long: all segments in order; mark segment ids. argv[2] == "clips": only the TikTok-only clips (owner 20 Oct: TikTok hourly)
+def clips(ep):   # extra TikTok clips: part 2 of every story (bonus + quiz, without the hand-over line) and the speed round
+    out = []
+    for s in ep["segments"]:
+        if "short" in s and len(s["lines"]) - s["short"]["end"] - 2 >= 3:
+            ls = [dict(l) for l in s["lines"][s["short"]["end"] + 1:-1]]
+            if not ls[0].get("show"): ls[0]["show"] = next((l["show"] for l in reversed(s["lines"][:s["short"]["end"] + 1]) if l.get("show")), {"type": "crew"})   # open on the story's last picture, not the crew line-up
+            out.append((s["id"] + "2", ("Part 2: " + s["short"]["title"])[:60], ls, s["id"]))
+        if s["id"] == "speed": out.append(("speed", (ep.get("theme", "Space") + ": 5 Facts in 40 Seconds!")[:60], s["lines"], "speed"))
+    return out
+CLIPS_ONLY = sys.argv[2:3] == ["clips"]
+if not CLIPS_ONLY:
+    allines = []
+    for s in ep["segments"]:
+        for j, ln in enumerate(s["lines"]): allines.append({**ln, "seg": s["id"]})
+    T = build(allines, "long"); print("long", round(T, 1), "s")
+    for s in ep["segments"]:
+        if "short" in s:
+            ls = [{**ln, "seg": s["id"]} for ln in s["lines"][:s["short"]["end"] + 1]]
+            if not ls[0].get("show"): ls[0]["show"] = {"type": "crew"}
+            Ts = build(ls, "short_" + s["id"]); print("short", s["id"], round(Ts, 1), "s")
+for cid, title, lines, seg in clips(ep):
+    ls = [{**ln, "seg": seg} for ln in lines]
+    if not ls[0].get("show"): ls[0]["show"] = {"type": "crew"}
+    Tc = build(ls, "clip_" + cid); print("clip", cid, round(Tc, 1), "s")
+json.dump([{"id": c, "title": t} for c, t, _, _ in clips(ep)], open(f"{OUT}/clips.json", "w"))

@@ -251,7 +251,8 @@ elif cmd == "faith":   # owner 21 Oct: Faith Doodles TikTok-only (Zernio key 2),
     import datetime as dt
     ch = "faith"; yt_account(ch); tt = cfg.get("tiktok", {}).get(ch) or sys.exit("::error::no TikTok account 'faith' in zernio.json; run accounts 2")
     SLOTS = ["07:00", "08:30", "10:00", "11:30", "13:00", "15:00", "17:00", "19:00", "20:30", "22:00"]   # ET, 10 a day
-    FD = os.path.join(D, "..", "channels", "faith"); PF = os.path.join(FD, "posted.json"); posted = json.load(open(PF)) if os.path.exists(PF) else {}
+    FD = os.path.join(D, "..", "channels", "faith"); os.path.exists(os.path.join(FD, "APPROVED")) or sys.exit("::error::Faith Doodles not approved by the owner yet (studio/channels/faith/APPROVED missing): nothing posted")
+    PF = os.path.join(FD, "posted.json"); posted = json.load(open(PF)) if os.path.exists(PF) else {}
     from zoneinfo import ZoneInfo; now = dt.datetime.now(ZoneInfo("America/New_York")).replace(tzinfo=None) + dt.timedelta(minutes=40)
     taken = {v["when"] for v in posted.values()}
     start = max([now] + [dt.datetime.fromisoformat(v["when"]) for v in posted.values()] + ([dt.datetime.fromisoformat(sys.argv[3])] if len(sys.argv) > 3 and sys.argv[3] else []))

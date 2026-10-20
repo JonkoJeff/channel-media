@@ -10,7 +10,8 @@ Read `studio/channels/faith/codex_requests/BATCH_01.md`. Start one Codex agent t
 For each episode whose 12 panels are pushed: `gh workflow run cosmozibs.yml --ref cosmozibs -f ep=<id> -f mode=panels` (one at a time is fine, they can run in parallel). It renders the 60+ s TikTok with the Chatterbox voice, layered camera animation and captions, and publishes release `<id>` with `<id>.mp4`.
 Download one with `gh api -H "Accept: application/octet-stream" repos/JonkoJeff/channel-media/releases/assets/<asset id>` and spot-check it (duration >= 60 s, 1080x1920, voice + captions in sync).
 
-## 3. Schedule on TikTok (10 a day)
+## 3. Schedule on TikTok (10 a day), ONLY after the owner approved
+Never post anything until the file `studio/channels/faith/APPROVED` exists (the owner approves the first video himself; Claude in the cloud creates the file only on his explicit OK). Until then: render, send the owner the first finished video, and stop.
 `gh workflow run zernio.yml --ref cosmozibs -f cmd=faith -f a=fddp02,fddp03,fddp04,fddp05,fddp06,fddp07` (ids with a finished release only). It fills the next free slots (10 a day, US Eastern) and records them in `studio/channels/faith/posted.json`; an id is never posted twice. Wait for each zernio run before starting the next (concurrency group).
 
 ## 4. Keep it running (daily)

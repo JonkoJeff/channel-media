@@ -36,7 +36,14 @@ jobs:
         if: inputs.mode == 'voicetest'
         run: |
           pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu && pip install chatterbox-tts
-          python3 studio/voice/chatterbox_test.py
+          python3 - <<'PY'
+          import json
+          ep = json.load(open("studio/cosmozibs/episodes/cz03.json")); segs = {s["id"]: s for s in ep["segments"]}
+          wow = dict(segs["wow"]); wow.pop("short"); wow["lines"] = wow["lines"][:8]
+          json.dump({"id": "czvt", "title": "voice test", "segments": [segs["intro"], wow]}, open("/tmp/czvt.json", "w"))
+          PY
+          time VOICE_ENGINE=chatterbox python3 studio/cosmozibs/engine/voice.py /tmp/czvt.json
+          mkdir -p studio/channels/faith/voice_tests && ffmpeg -y -loglevel error -i studio/cosmozibs/engine/build/czvt/long.wav -c:a libmp3lame -q:a 3 studio/channels/faith/voice_tests/cosmozibs_crew_test.mp3
           git config user.name channel-bot && git config user.email jeffrey.vastenhout@gmail.com
           git add -f studio/channels/faith/voice_tests && git commit -qm "voice test samples [skip ci]" && for k in 1 2 3 4 5; do git pull -q --rebase && git push && exit 0; sleep 8; done; exit 1
       - name: publish TikTok clips only

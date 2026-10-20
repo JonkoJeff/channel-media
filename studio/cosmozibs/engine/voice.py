@@ -12,8 +12,34 @@ ep = json.load(open(sys.argv[1])); OUT = os.path.join(HERE, "build", ep["id"]); 
 def load(p):
     with wave.open(p) as w: return np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(np.float32) / 32767
 
+# owner 20 Oct: natural voices. VOICE_ENGINE=chatterbox (GitHub Actions) re-voices every line with Chatterbox (MIT), using the character's own
+# Kokoro voice as the timbre reference (never a real person). Kokoro stays the fallback for local runs.
+ENGINE = os.environ.get("VOICE_ENGINE", "kokoro")
+CB = {"cosmo": (.6, .4), "zib": (.8, .3), "bolt": (.55, .4), "rocky": (.45, .5), "tik": (.65, .4)}   # exaggeration, cfg weight per character
+_cb = None
+def cb_line(who, text, p):
+    global _cb
+    import torch, torchaudio as ta
+    if _cb is None:
+        from chatterbox.tts import ChatterboxTTS; torch.set_num_threads(os.cpu_count() or 4); _cb = ChatterboxTTS.from_pretrained(device="cpu")
+    ref = f"{OUT}/ref_{who}.wav"
+    if not os.path.exists(ref): kokoro_line(who, "Hey everybody! Today we are going on a big adventure through space, and it is going to be amazing. Are you ready?", ref)
+    ex, cfg = CB[who]; w = _cb.generate(text, audio_prompt_path=ref, exaggeration=ex, cfg_weight=cfg)
+    if _cb.sr != SR: w = ta.functional.resample(w, _cb.sr, SR)
+    k.save(w.squeeze(0).numpy(), p + ".raw.wav")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", p + ".raw.wav", "-af", "silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse", p], check=True); os.remove(p + ".raw.wav")
+
+def kokoro_line(who, text, p):
+    v, sp, pitch = VOICES[who]
+    raw = p + ".raw.wav"; k.save(k.speak(text, v, sp), raw)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-af", f"asetrate={SR}*{pitch},aresample={SR},atempo={1/pitch:.4f},equalizer=f=3000:t=q:w=1:g=2.5", p], check=True); os.remove(raw)
+
 def line_wav(who, text):
     v, sp, pitch = VOICES[who]
+    if ENGINE == "chatterbox":
+        h = hashlib.md5(f"cb|{who}|{CB[who]}|{text}".encode()).hexdigest()[:12]; p = f"{OUT}/lines/{h}.wav"
+        if not os.path.exists(p): cb_line(who, text, p)
+        a = load(p); return a / (np.abs(a).max() + 1e-6) * .9
     h = hashlib.md5(f"{who}|{v}|{sp}|{pitch}|{text}".encode()).hexdigest()[:12]; p = f"{OUT}/lines/{h}.wav"
     if not os.path.exists(p):
         raw = p + ".raw.wav"; k.save(k.speak(text, v, sp), raw)

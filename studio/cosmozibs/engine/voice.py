@@ -100,9 +100,10 @@ def build(lines, name, t0=0.5):
     voice = np.zeros(int(total * SR))
     for st, a in voice_parts: voice[int(st * SR):int(st * SR) + len(a)] += a
     env = np.convolve(np.abs(voice), np.ones(4800) / 4800, "same"); duck = 1 - .6 * np.clip(env * 12, 0, 1)
-    mix = voice + music(total) * duck
+    QUIET = .3 if ep.get("tiktok") else 1   # owner 20 Oct: effects much quieter on the TikTok stories (music + sfx well under the voice)
+    mix = voice + music(total) * duck * (.6 if QUIET < 1 else 1)
     for at, kd in fx:
-        s = sfx(kd); i0 = int(max(0, at) * SR); mix[i0:i0 + len(s)] += s[:max(0, len(mix) - i0)]
+        s = sfx(kd); i0 = int(max(0, at) * SR); mix[i0:i0 + len(s)] += s[:max(0, len(mix) - i0)] * QUIET
     mix = mix / (np.abs(mix).max() + 1e-6) * .95
     k.save(mix.astype(np.float32), f"{OUT}/{name}.wav")
     nfr = int(total * FPS); talk = []

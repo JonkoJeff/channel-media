@@ -408,6 +408,82 @@ SC.compare = (s, t, b) => {   // three columns: one symbol per tradition, ticked
   });
   return g + txt(s.label || '', 500, 70, 52, YEL, 'middle', .2, -2, eoBack(P(t, .1, .4)));
 };
+
+const flame = (x, y, s, t, i = 0) => { const f = 1 + .12 * Math.sin(t * 18 + i * 2.3), w = .9 + .1 * Math.sin(t * 13 + i);
+  return `<g transform="translate(${r1(x)},${r1(y)}) scale(${r1(s * w * 100) / 100},${r1(s * f * 100) / 100})"><path d="M0,0 C-14,-10 -10,-30 0,-48 C10,-30 14,-10 0,0Z" fill="#ffb347" stroke="${INK}" stroke-width="4"/><path d="M0,-4 C-6,-10 -4,-22 0,-30 C4,-22 6,-10 0,-4Z" fill="#fff1a8"/></g>`; };
+const glow = (x, y, r, c = '#ffd27a', o = .35) => `<circle cx="${r1(x)}" cy="${r1(y)}" r="${r1(r)}" fill="${c}" opacity="${o}"/>`;
+SC.menorah = (s, t, b) => {   // hanukkiah: 8 candles + the higher helper candle; one more lit per beat
+  const n = s.n == null ? Math.min(8, Math.floor(t / .35)) : s.n; let g = '';
+  g += roughSVG('rectangle', [180, 520, 640, 40], { fill: '#d9a441', fillStyle: 'solid', stroke: INK, strokeWidth: 7 }, b) + roughSVG('rectangle', [470, 400, 60, 130], { fill: '#d9a441', fillStyle: 'solid', stroke: INK, strokeWidth: 7 }, b + 1);
+  for (let i = 0; i < 9; i++) { const helper = i === 4, x = 200 + i * 75, top = helper ? 250 : 320;
+    g += roughSVG('rectangle', [x - 14, top, 28, 400 - top + 120], { fill: helper ? '#f4f4f0' : ['#6ec6ff', '#f4f4f0'][i % 2], fillStyle: 'solid', stroke: INK, strokeWidth: 5 }, b + 2 + i);
+    const k = i < 4 ? i + 1 : i - 4, lit = helper || k <= n; if (lit) g += glow(x, top - 22, 38) + flame(x, top, 1, t, i); }
+  return g + txt(s.label || '', 500, 70, 56, YEL, 'middle', .2, -2, eoBack(P(t, .2, .5)));
+};
+SC.lamps = (s, t, b) => {   // diyas (clay oil lamps) light up one by one on a rangoli pattern
+  let g = roughSVG('ellipse', [500, 470, 760, 170], { fill: '#ff5d8f', fillStyle: 'hachure', hachureGap: 10, fillWeight: 4, stroke: INK, strokeWidth: 6, roughness: 1.6 }, b);
+  for (let i = 0; i < 8; i++) { const a = i / 8 * Math.PI * 2; g += roughSVG('circle', [500 + Math.cos(a) * 250, 470 + Math.sin(a) * 52, 40], { fill: ['#ffd23f', '#29c7d8'][i % 2], fillStyle: 'solid', stroke: INK, strokeWidth: 4 }, b + i); }
+  for (let i = 0; i < 7; i++) { const x = 140 + i * 120, y = 330 + (i % 2) * 30, on = t > .2 + i * .25;
+    if (on) g += glow(x, y - 40, 60 * eoBack(clamp((t - .2 - i * .25) / .3)));
+    g += rpathish(x, y, b + 20 + i) + (on ? flame(x + 22, y - 16, .9, t, i) : ''); }
+  return g + txt(s.label || '', 500, 70, 56, YEL, 'middle', .2, -2, eoBack(P(t, .2, .5)));
+};
+const rpathish = (x, y, b) => roughSVG('path', [`M${x - 46},${y - 14} Q${x},${y + 40} ${x + 46},${y - 14} Q${x + 30},${y - 8} ${x + 22},${y - 16} L${x - 46},${y - 14}Z`], { fill: '#c45a2a', fillStyle: 'solid', stroke: INK, strokeWidth: 6, roughness: 1.2 }, b);
+SC.crescent = (s, t, b) => {   // night sky, a thin new crescent moon appears, a lantern swings
+  let g = `<rect x="-30" y="-30" width="1060" height="680" rx="30" fill="#1d2a5c"/>` + starsBox(1000, 600, 30, t, 7);
+  const m = eoBack(P(t, .3, .9)); g += `<g transform="translate(700,170) scale(${m})"><circle r="90" fill="#ffe7a0" stroke="${INK}" stroke-width="7"/><circle cx="38" cy="-20" r="84" fill="#1d2a5c"/></g>`;
+  const sw = Math.sin(t * 2.2) * 10; g += `<g transform="translate(250,40) rotate(${r1(sw)})"><line x1="0" y1="0" x2="0" y2="150" stroke="${INK}" stroke-width="5"/>` + roughSVG('rectangle', [-50, 150, 100, 150], { fill: '#d9a441', fillStyle: 'solid', stroke: INK, strokeWidth: 6 }, b) + glow(0, 225, 70) + flame(0, 250, 1.2, t) + `<path d="M-60,150 L0,110 L60,150Z" fill="#b5651e" stroke="${INK}" stroke-width="6"/></g>`;
+  return g + txt(s.label || '', 600, 560, 54, YEL, 'middle', .2, -2, eoBack(P(t, .4, .7)));
+};
+SC.dates = (s, t, b) => {   // breaking the fast: a plate of dates and a glass of water
+  let g = roughSVG('ellipse', [500, 420, 560, 150], { fill: '#f4f4f0', fillStyle: 'solid', stroke: INK, strokeWidth: 7 }, b);
+  for (let i = 0; i < 5; i++) { const p = eoBack(P(t, .2 + i * .12, .5 + i * .12)); g += `<g transform="translate(${360 + i * 60},${410 + (i % 2) * 14}) scale(${p}) rotate(${i * 20 - 40})"><ellipse rx="34" ry="18" fill="#7a3a1a" stroke="${INK}" stroke-width="5"/><path d="M-20,-6 q20,-6 36,0" stroke="#a85a2a" stroke-width="4" fill="none"/></g>`; }
+  g += roughSVG('path', ['M720,210 L820,210 L805,420 L735,420Z'], { fill: '#bfe3f5', fillStyle: 'solid', stroke: INK, strokeWidth: 7 }, b + 9) + `<rect x="736" y="${r1(270 + Math.sin(t * 3) * 4)}" width="68" height="${r1(148 - Math.sin(t * 3) * 4)}" fill="#6ec6ff" opacity=".6"/>`;
+  return g + txt(s.label || '', 500, 70, 56, YEL, 'middle', .2, -2, eoBack(P(t, .2, .5)));
+};
+SC.robe = (s, t, b) => {   // a saffron robe on a line, natural dyes (turmeric, jackfruit wood) in bowls
+  const sw = Math.sin(t * 1.8) * 4;
+  let g = `<line x1="80" y1="90" x2="920" y2="90" stroke="${INK}" stroke-width="6"/>`;
+  g += `<g transform="translate(500,90) rotate(${r1(sw)})">` + roughSVG('path', ['M-170,0 L170,0 L200,330 Q0,360 -200,330Z'], { fill: s.color || '#f08a2c', fillStyle: 'solid', stroke: INK, strokeWidth: 8, roughness: 1.5 }, b) + roughSVG('path', ['M-170,0 L170,0 L200,330 Q0,360 -200,330Z'], { fill: '#d96a1a', fillStyle: 'hachure', hachureGap: 18, fillWeight: 3, stroke: 'none' }, b + 1);
+  for (let i = 1; i < 4; i++) g += `<path d="M${-190 + i * 95},10 L${-200 + i * 100},330" stroke="${INK}" stroke-width="4" opacity=".5"/>`;
+  g += '</g>';
+  [['#f2c12e', 'TURMERIC'], ['#e07a1f', 'JACKFRUIT'], ['#c2410c', 'SAFFRON']].forEach(([c, n], i) => { const x = 220 + i * 280, p = eoBack(P(t, .6 + i * .25, .9 + i * .25));
+    g += `<g transform="translate(${x},520) scale(${p})">` + roughSVG('path', ['M-80,-30 L80,-30 Q70,40 0,44 Q-70,40 -80,-30Z'], { fill: '#a0703d', fillStyle: 'solid', stroke: INK, strokeWidth: 6 }, b + 3 + i) + `<ellipse cx="0" cy="-30" rx="80" ry="16" fill="${c}" stroke="${INK}" stroke-width="5"/></g>` + txt(n, x, 600, 26, '#fff', 'middle', .3, 0, p); });
+  return g;
+};
+SC.scale = (s, t, b) => {   // ancient Egyptian balance: a heart against a feather; settles level
+  const tilt = 14 * Math.exp(-t * 1.2) * Math.cos(t * 4), a = tilt * Math.PI / 180;
+  let g = roughSVG('rectangle', [485, 140, 30, 420], { fill: '#d9a441', fillStyle: 'solid', stroke: INK, strokeWidth: 7 }, b) + roughSVG('rectangle', [380, 545, 240, 40], { fill: '#d9a441', fillStyle: 'solid', stroke: INK, strokeWidth: 7 }, b + 1);
+  const L = [500 - Math.cos(a) * 280, 150 - Math.sin(a) * 280], R = [500 + Math.cos(a) * 280, 150 + Math.sin(a) * 280];
+  g += `<line x1="${r1(L[0])}" y1="${r1(L[1])}" x2="${r1(R[0])}" y2="${r1(R[1])}" stroke="${INK}" stroke-width="18" stroke-linecap="round"/><line x1="${r1(L[0])}" y1="${r1(L[1])}" x2="${r1(R[0])}" y2="${r1(R[1])}" stroke="#d9a441" stroke-width="8" stroke-linecap="round"/>`;
+  const pan = ([x, y], inner) => `<line x1="${r1(x)}" y1="${r1(y)}" x2="${r1(x - 60)}" y2="${r1(y + 170)}" stroke="${INK}" stroke-width="4"/><line x1="${r1(x)}" y1="${r1(y)}" x2="${r1(x + 60)}" y2="${r1(y + 170)}" stroke="${INK}" stroke-width="4"/><path d="M${r1(x - 80)},${r1(y + 170)} Q${r1(x)},${r1(y + 230)} ${r1(x + 80)},${r1(y + 170)}Z" fill="#d9a441" stroke="${INK}" stroke-width="6"/><g transform="translate(${r1(x)},${r1(y + 160)})">${inner}</g>`;
+  g += pan(L, `<path d="M0,10 C-40,-20 -30,-60 0,-40 C30,-60 40,-20 0,10Z" fill="${RED}" stroke="${INK}" stroke-width="5"/>`);
+  g += pan(R, `<path d="M-10,0 Q20,-60 40,-90 Q10,-40 -10,0Z" fill="#f4f4f0" stroke="${INK}" stroke-width="5"/><path d="M-10,0 L30,-80" stroke="${INK}" stroke-width="3"/>`);
+  return g + txt(s.label || '', 500, 70, 56, YEL, 'middle', .2, -2, eoBack(P(t, .2, .5)));
+};
+SC.river = (s, t, b) => {   // the Ganges at dusk: steps (ghats), temples, floating lamps drifting
+  let g = `<rect x="-30" y="-30" width="1060" height="330" fill="#ff9e6b"/>` + glow(780, 180, 90, '#ffe7a0', .9);
+  for (let i = 0; i < 5; i++) g += roughSVG('rectangle', [60 + i * 180, 120 - (i % 2) * 40, 120, 180 + (i % 2) * 40], { fill: '#e8c38a', fillStyle: 'solid', stroke: INK, strokeWidth: 5 }, b + i) + `<path d="M${60 + i * 180},${120 - (i % 2) * 40} L${120 + i * 180},${70 - (i % 2) * 40} L${180 + i * 180},${120 - (i % 2) * 40}Z" fill="#c45a2a" stroke="${INK}" stroke-width="5"/>`;
+  for (let i = 0; i < 4; i++) g += `<rect x="-30" y="${300 + i * 22}" width="1060" height="22" fill="${i % 2 ? '#d9b07a' : '#e8c38a'}" stroke="${INK}" stroke-width="3"/>`;
+  g += wave(470, 26, 0, '#2f6fb0', t, b);
+  for (let i = 0; i < 7; i++) { const x = ((rnd(i) * 1000 + t * (30 + i * 6)) % 1100) - 50, y = 500 + rnd(i * 3) * 90; g += glow(x, y - 16, 34) + `<path d="M${r1(x - 22)},${r1(y)} q22,14 44,0z" fill="#7cc576" stroke="${INK}" stroke-width="4"/>` + flame(x, y - 4, .6, t, i); }
+  return g + txt(s.label || '', 500, 40, 52, '#fff', 'middle', .2, -2, eoBack(P(t, .2, .5)));
+};
+SC.starsky = (s, t, b) => {   // desert night: a tent under countless stars, more appear
+  let g = `<rect x="-30" y="-30" width="1060" height="700" rx="30" fill="#151d44"/>`;
+  const n = Math.min(160, Math.floor(t * 70));
+  for (let i = 0; i < n; i++) { const x = rnd(i * 1.3) * 1000, y = rnd(i * 2.9) * 430, tw = .6 + .4 * Math.sin(t * 4 + i); g += `<circle cx="${r1(x)}" cy="${r1(y)}" r="${r1(2 + rnd(i) * 4 * tw)}" fill="#fff6c8"/>`; }
+  g += roughSVG('path', ['M-30,560 Q300,470 600,530 Q850,580 1030,500 L1030,700 L-30,700Z'], { fill: '#c98a45', fillStyle: 'solid', stroke: INK, strokeWidth: 6 }, b);
+  g += roughSVG('path', ['M300,540 L420,400 L540,540Z'], { fill: '#e8c38a', fillStyle: 'hachure', hachureGap: 9, fillWeight: 3, stroke: INK, strokeWidth: 6 }, b + 1) + `<path d="M420,400 L420,540" stroke="${INK}" stroke-width="5"/>` + glow(420, 520, 40);
+  return g + txt(s.label || '', 500, 60, 54, YEL, 'middle', .2, -2, eoBack(P(t, .2, .5)));
+};
+SC.whale = (s, t, b) => {   // stormy sea, a huge friendly fish surfaces and swallows (no harm shown)
+  let g = wave(380, 60, 0, '#1f5a9a', t, b);
+  const up = eoBack(P(t, .3, 1.2)), x = 560, y = 520 - 220 * up, open = s.open ? .5 + .5 * Math.sin(Math.min(1, t / .6) * Math.PI / 2) : 0;
+  g += `<g transform="translate(${x},${r1(y)})">` + roughSVG('path', ['M-260,40 Q-200,-160 80,-140 Q260,-120 300,40 Q120,120 -260,40Z'], { fill: '#3b6fb5', fillStyle: 'solid', stroke: INK, strokeWidth: 8 }, b) + `<circle cx="180" cy="-70" r="22" fill="#fff" stroke="${INK}" stroke-width="6"/><circle cx="186" cy="-66" r="9" fill="${INK}"/>` + `<path d="M300,40 L${r1(160)},${r1(20 + 60 * open)} " stroke="${INK}" stroke-width="7"/>` + '</g>';
+  return g + wave(460, 50, 2, '#2f7ac0', t, b + 5) + txt(s.label || '', 500, 70, 56, YEL, 'middle', .2, -2, eoBack(P(t, .2, .5)));
+};
+
 /* ---------- Faith Doodles sprite stage (owner 20 Oct): owner-drawn pose sheets, animated pose-to-pose ----------
    show = {type:"stage", set:"valley", cast:[{c:"david", a:"walk", x:260, from:-250, flip:false}, ...], fx:"stone"|"boom"|null}
    Respect rule: prophets are only drawn in stories told from the Bible; never God, never the Prophet Muhammad, never during an Islamic retelling. */
@@ -453,7 +529,7 @@ SC.stage = (s, t, b) => {   // full-height doodle set + animated cast
     const q = spriteCast(c, t); if (!q.url) continue;
     g += `<ellipse cx="${r1(q.x)}" cy="${r1(q.y + 8)}" rx="${r1(q.w * .42 * (2 - q.sq))}" ry="16" fill="#000" opacity=".18"/>`;
     const body = (url, w, op, extra) => `<g transform="translate(${r1(q.x)},${r1(q.y)}) skewX(${r1(-q.lean)}) scale(${q.flip ? -1 : 1},1) scale(${r1(100 / q.sq) / 100},${r1(q.sq * 100) / 100})${extra}" opacity="${r1(op)}"><image href="${url}" x="${r1(-w / 2)}" y="${r1(-q.h)}" width="${r1(w)}" height="${r1(w * 0 + q.h)}"/></g>`;
-    const blend = q.tr < 1 && q.purl !== q.url;
+    const blend = false;   // owner 20 Oct: never cross-fade between poses; the new drawing pops in with a squash
     if (blend) g += body(q.purl, q.pw, 1 - q.tr, ` skewX(${r1(8 * (1 - q.tr))})`);   // in-between: old drawing smears out while the new one pops in
     g += body(q.url, q.w, blend ? .35 + .65 * q.tr : 1, blend ? ` scale(${r1(1 + .05 * (1 - q.tr))},${r1(1 - .05 * (1 - q.tr))})` : '');
     if (q.moving) for (let i = 0; i < 3; i++) { const yy = q.y - q.h * (.3 + i * .22), dx = (q.flip ? 1 : -1) * (q.w * .5 + 20); g += `<line x1="${r1(q.x + dx)}" y1="${r1(yy)}" x2="${r1(q.x + dx + (q.flip ? 1 : -1) * (60 + i * 20))}" y2="${r1(yy)}" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".7"/>`; }
@@ -519,8 +595,8 @@ function actor(who, x, footY, s, T, b, ctx) {   // the speaker, big, entering an
   if (ex && ts < 1.4) g += txt('?!', x0 + side * -10 + 70 * s, footY - 330 * s - hop, 80 * s, YEL, 'middle', .2, side * -12, eoBack(clamp(ts / .25)));
   return g;
 }
-const BG = { elah: ['#e3a857', '#8fd3ff', '#ff7a6b'], flood: ['#2b7bd6', '#6ec6ff', '#ffd23f'], mesopotamia: ['#f08a4b', '#ffcf70', '#2ec4b6'], bible: ['#7a5cff', '#b9a7ff', '#ffd23f'], hindu: ['#ff5d8f', '#ffb347', '#29c7d8'], quran: ['#2bb39a', '#7be0b0', '#ff7a6b'], fddend: ['#9b6bff', '#ff9ecb', '#ffd23f'], volcano: ['#2a1410', '#b5573a'], pulsar: ['#0b1440', '#3a5cc4'], coldest: ['#0b2a3a', '#2f8ab0'], bigstar: ['#2a0a14', '#a8243a'], bigbang: ['#1a0f3a', '#a83a7a'], sunearth: ['#2b1a0a', '#c4561e'], dinos: ['#0f2a1c', '#4a7a2f'], humans: ['#0b2152', '#1f5cb5'], moon: ['#1d1a5c', '#4a3fb0'], spin: ['#0b2152', '#1f8a8a'], sunoff: ['#2b1a0a', '#c4561e'], car: ['#1f2a52', '#d2366b'], wow: ['#0f2a1c', '#2f7a4a'], oumuamua: ['#2a1410', '#8a3a24'], tabby: ['#2b1a0a', '#b5651e'], blackhole: ['#05030c', '#3a1858'], intro: ['#1f2a52', '#3b2470'], outro: ['#1f2a52', '#3b2470'], speed: ['#2a1f5c', '#6a2470'], venus: ['#3a1c2a', '#93421f'], jupiter: ['#2b1d14', '#7a4a2a'], neptune: ['#0b2152', '#1f5cb5'], glass: ['#0d1440', '#2f3fa0'] };
-const FAITH = new Set(['elah', 'flood', 'mesopotamia', 'bible', 'hindu', 'quran', 'fddend']);
+const BG = { jonah: ['#2b7bd6', '#6ec6ff', '#ffd23f'], ramadan: ['#2bb39a', '#7be0b0', '#ffd23f'], diwali: ['#ff5d8f', '#ffb347', '#29c7d8'], hanukkah: ['#2b7bd6', '#b9d8ff', '#ffd23f'], monks: ['#f08a2c', '#ffcf70', '#7a5cff'], egypt: ['#f08a4b', '#ffcf70', '#2ec4b6'], ganges: ['#ff7a6b', '#ffcf70', '#2b7bd6'], abraham: ['#7a5cff', '#b9a7ff', '#ffd23f'], elah: ['#e3a857', '#8fd3ff', '#ff7a6b'], flood: ['#2b7bd6', '#6ec6ff', '#ffd23f'], mesopotamia: ['#f08a4b', '#ffcf70', '#2ec4b6'], bible: ['#7a5cff', '#b9a7ff', '#ffd23f'], hindu: ['#ff5d8f', '#ffb347', '#29c7d8'], quran: ['#2bb39a', '#7be0b0', '#ff7a6b'], fddend: ['#9b6bff', '#ff9ecb', '#ffd23f'], volcano: ['#2a1410', '#b5573a'], pulsar: ['#0b1440', '#3a5cc4'], coldest: ['#0b2a3a', '#2f8ab0'], bigstar: ['#2a0a14', '#a8243a'], bigbang: ['#1a0f3a', '#a83a7a'], sunearth: ['#2b1a0a', '#c4561e'], dinos: ['#0f2a1c', '#4a7a2f'], humans: ['#0b2152', '#1f5cb5'], moon: ['#1d1a5c', '#4a3fb0'], spin: ['#0b2152', '#1f8a8a'], sunoff: ['#2b1a0a', '#c4561e'], car: ['#1f2a52', '#d2366b'], wow: ['#0f2a1c', '#2f7a4a'], oumuamua: ['#2a1410', '#8a3a24'], tabby: ['#2b1a0a', '#b5651e'], blackhole: ['#05030c', '#3a1858'], intro: ['#1f2a52', '#3b2470'], outro: ['#1f2a52', '#3b2470'], speed: ['#2a1f5c', '#6a2470'], venus: ['#3a1c2a', '#93421f'], jupiter: ['#2b1d14', '#7a4a2a'], neptune: ['#0b2152', '#1f5cb5'], glass: ['#0d1440', '#2f3fa0'] };
+const FAITH = new Set(['jonah', 'ramadan', 'diwali', 'hanukkah', 'monks', 'egypt', 'ganges', 'abraham', 'elah', 'flood', 'mesopotamia', 'bible', 'hindu', 'quran', 'fddend']);
 function paperBg(seg, W2, H2, T, b) {   // hand-made look (owner 20 Oct): cream paper, loose crayon washes that boil, a few doodled stars/sparkles
   const c = BG[seg] || BG.flood, bb = Math.floor(b / 2);
   let g = `<rect width="${W2}" height="${H2}" fill="#f1e6cf"/>`;

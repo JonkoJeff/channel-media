@@ -8,6 +8,7 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
+      - run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
       - env: {GH_TOKEN: "${{ github.token }}"}
         run: |
           for i in ${{ inputs.ids }}; do

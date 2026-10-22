@@ -1,0 +1,17 @@
+name: probe
+# Prints the duration (minutes) of a rendered release video: RUNBOOK check "BAD long videos >= 120 min".
+on:
+  workflow_dispatch:
+    inputs:
+      ids: {description: "space-separated video ids, e.g. lf17 lf18", required: true}
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          for i in ${{ inputs.ids }}; do
+            u=$(gh api repos/${{ github.repository }}/releases/tags/$i --jq ".assets[]|select(.name==\"$i.mp4\")|.browser_download_url")
+            d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$u")
+            echo "::notice::$i duration_min=$(python3 -c "print(round($d/60,1))")"
+          done

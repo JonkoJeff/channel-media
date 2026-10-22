@@ -351,7 +351,7 @@ def thumbnail(v, path):
     img = Image.open(os.path.join(CH, BGS[bgid]["file_path"])).convert("RGB").resize((1280, 720), Image.LANCZOS)
     img = ImageEnhance.Color(img.filter(ImageFilter.GaussianBlur(7))).enhance(1.6)
     calm = v.get("vibe") == "calm"  # calm videos: warm night grade, amber rim, last word on a warm block (trend: text left + one word on a colour block)
-    mir = th.get("mirror"); acc = tuple(int(th["accent"][i:i + 2], 16) for i in (1, 3, 5)) if th.get("accent") and th.get("accent_lock") else ACCENTS[int(re.sub(r"\D", "", v["id"]) or 0) % len(ACCENTS)]   # 15 Oct owner: every thumbnail its own colour (rim glow + word block)  # variety: text right/sprite left, own block + rim colour
+    mir = True; acc = tuple(int(th["accent"][i:i + 2], 16) for i in (1, 3, 5)) if th.get("accent") and th.get("accent_lock") else ACCENTS[int(re.sub(r"\D", "", v["id"]) or 0) % len(ACCENTS)]   # 15 Oct owner: every thumbnail its own colour (rim glow + word block)  # variety: text right/sprite left, own block + rim colour
     img = Image.blend(img, Image.new("RGB", img.size, (255, 140, 50) if calm else (24, 110, 190)), 0.22 if calm else 0.28)
     yy, xx = np.mgrid[0:720, 0:1280]; vig = 1 - 0.45 * (((xx - 900) / 900) ** 2 + ((yy - 360) / 520) ** 2).clip(0, 1)
     img = Image.fromarray((np.asarray(img) * vig[..., None]).astype(np.uint8))

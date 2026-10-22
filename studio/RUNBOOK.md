@@ -282,3 +282,5 @@ Overrides VARIETY for Brain After Dark: every long video is at least 120 minutes
 
 ## RESERVE LONG VIDEOS (owner, 23 Oct 2026)
 Always keep at least 2 finished, scheduled-or-ready BAD long videos in reserve (rendered, >= 120 min, QC'd) beyond the one that goes live next, so a failed render or an empty day never happens again (22 Oct had no long video). Every run: count the reserve; if < 2, write and render the next video straight away (Claude is the failover writer when the factory/Codex is down). Render ONE video at a time (concurrent render-long runs collide on the final git push). Check `probe.yml` (dispatch with `ids`) for the real duration; autoplan refuses lf videos under 120 min.
+
+- THUMBNAIL SIDE (owner, 23 Oct 2026): sprite ALWAYS on the left, text on the right, because the duration badge covers the bottom-right corner. longform.thumbnail() forces mirror; the `mirror` key in video JSON is ignored.

@@ -47,7 +47,7 @@ Segments are separated by a blank line. Line 1 = header, following lines = the v
 
 ## 7. Thumbnails
 - `thumb` = `{text: "LINE1|LINE2", sprite, bg, mirror?, accent?}`. Max 3 words in total, 2 lines; the text is the emotional twist and ADDS to the title, never repeats it ("IT NEVER|SLEEPS", "SO|BORED").
-- One big expressive sprite whose emotion matches the twist; it may hold the topic as a metaphor (trend R7). Text left by default; `mirror: true` puts the sprite left.
+- One big expressive sprite whose emotion matches the twist; it may hold the topic as a metaphor (trend R7). Sprite ALWAYS left, text right (owner 23 Oct 2026: the YouTube duration badge sits bottom-right and covered the sprite); longform.thumbnail() forces this, `mirror` is ignored.
 - Variety: never the same sprite, background, accent colour or layout as the previous upload. Use light accent colours (text on the block is dark). Recently used ones are in the context pack.
 
 ## 8. Shorts (cut from the long video at render time)

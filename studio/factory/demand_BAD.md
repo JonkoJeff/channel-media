@@ -15,3 +15,8 @@ Use these as topic / title / tag input for new BAD long videos and Shorts. Facts
 - "psychology of social media marketing": money angle, owner rule says no money/finance content.
 ## Rule
 Put the searched phrase (or a close natural version) in the video title/description and first Short hook when it is true to the content. Re-check this list monthly.
+
+## Trend check, owner screenshot 23 Oct 2026 (competitors' recent videos, 47-92K views each in 10-21 days)
+Title patterns that work right now: "Psychology of <topic>: <promise>" (PsychToons "Psychology of Self-Transformation: Change Your Life S...", Mindplicit "Psychology of Intelligence: Learn Anything So Fast It..."), "The Hidden Reason Why <feeling> ..." (Psychology Studio "Why Unspoken Connections Feel So Intense"), "The Hidden Danger of <idea>" (Brain Psyche). Thumbnails: one big 1-3 word hook, high contrast, one strong subject.
+We follow the topics, never the content: own research with named studies, own title wording, no money/finance, no copying of titles word for word, no mystical claims.
+Queue (next BAD long videos): lf20 Psychology of Intelligence / learn anything faster; lf21 Psychology of Self-Transformation (identity, habits, personality change); lf22 Why unspoken connections feel so intense (attraction, synchrony, attachment, limerence).

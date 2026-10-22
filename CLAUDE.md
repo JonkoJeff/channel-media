@@ -25,3 +25,4 @@ Run Claude Code inside a herdr pane; herdr only lets agents control herdr from i
 - Model: Sonnet by default (`/model`); Opus only for a real design decision. Rendering runs in GitHub Actions: start, wait in one loop, read one line.
 - Never any money/finance content. Only channels: Belief Through Time (priority) and Crazy Facts.
 - BTT: no thumbnails/covers any more (owner 19 Oct 2026). Overrides the Images line above for BTT; BAD unchanged.
+- Reserve (owner, 23 Oct 2026): always keep 2 finished BAD long videos in reserve (see RUNBOOK RESERVE LONG VIDEOS); keep producing.

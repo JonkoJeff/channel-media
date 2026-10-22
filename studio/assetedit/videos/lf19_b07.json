@@ -1,0 +1,313 @@
+{
+ "id": "lf19_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Ask a room of people how to tell when someone is lying, and the answers come quickly. They avoid your eyes. They fidget. They touch their nose, or their face. They hesitate, or tell too much. It's a confident chorus, and you'll hear it from friends, from television detectives and even from people who interview suspects for a living.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "n": 20,
+    "title": "Spotting a liar"
+   }
+  },
+  {
+   "say": "The belief runs deep. Parents say they can always tell when a child is fibbing, and managers believe that they can read a candidate's honesty in the first few minutes. We feel that deception must leak out somewhere, in the face, the voice or the body. The question is whether the leaks are really there.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The belief",
+    "sub": "Liars give themselves away"
+   }
+  },
+  {
+   "say": "In a survey of people in seventy-five countries, researchers asked a simple question: how can you tell when someone is lying? By far the most common answer, in country after country, was that liars look away. Nearly two-thirds of the people gave that answer. It's one of the most universal beliefs about human behaviour ever recorded.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Global Deception Research Team",
+    "where": "Journal of Cross-Cultural Psychology, 2006",
+    "what": "A world of lies"
+   }
+  },
+  {
+   "say": "It's a striking agreement across cultures. And yet, when researchers studied real liars, the link with eye contact was very weak. Skilled liars tend to look you straight in the eye. And honest people, especially when they're nervous or concentrating, often look away.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Said liars avoid eye contact",
+    "big": "About 64%",
+    "label": "in a survey covering 58 countries, the most common answer by far"
+   }
+  },
+  {
+   "say": "Psychologists have been testing people's ability to detect lies for more than fifty years. In a typical experiment, volunteers watch videos of people telling the truth or lying, and judge which is which. Some of the participants are students. Some are police officers, judges, customs officers or secret service agents.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The research",
+    "sub": "Decades of tests"
+   }
+  },
+  {
+   "say": "Charles Bond and Bella DePaulo combined the results of two hundred and six studies, with over twenty-four thousand judges, in a huge meta-analysis. People were right, on average, about fifty-four percent of the time. If you guessed at random, you'd get fifty percent. The difference is tiny, about the width of a coin flip with a slightly weighted edge.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Bond & DePaulo",
+    "where": "Personality and Social Psychology Review, 2006",
+    "what": "Accuracy of deception judgments"
+   }
+  },
+  {
+   "say": "That is a remarkable result, because it applies to nearly everyone. Professionals did not do much better. In some studies, police officers and others whose jobs involve lie detection were no more accurate than students, but they were often more confident.",
+   "show": {
+    "type": "stat",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "title": "Average accuracy at spotting lies",
+    "big": "54%",
+    "label": "across 206 studies, where pure guessing gives 50%"
+   }
+  },
+  {
+   "say": "The trouble is that none of these cues are reliable. They are sometimes seen in liars, but they're equally seen in people who are telling the truth and who are anxious about being doubted. A nervous honest person looks like a liar, and a calm liar looks honest.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Cues people think matter",
+    "items": [
+     "Gaze aversion",
+     "Fidgeting",
+     "Nervousness",
+     "A change in voice"
+    ]
+   }
+  },
+  {
+   "say": "There's one more twist. People are not only poor at spotting lies, they're also biased. In most studies, people are more likely to judge that someone is telling the truth than lying. This is called the truth bias, and it makes sense, because most of what people say to us most of the time is true.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 21,
+    "title": "The truth bias"
+   }
+  },
+  {
+   "say": "Imagine if we treated every remark as suspicious. Conversation would be exhausting. Social life depends on a default of trust. We lose a little accuracy with the occasional liar, but we gain a world in which we can cooperate, make plans and believe the bus timetable.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Why that helps",
+    "sub": "Trust makes society work"
+   }
+  },
+  {
+   "say": "Timothy Levine at the University of Alabama at Birmingham has argued that we begin from a default assumption of honesty, and that we only change this when something clearly triggers doubt. His research suggests that the best way to detect a lie is not to read someone's body, but to look at the content: does what they say fit with the facts that you can check?",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Levine",
+    "where": "Communication Theory, 2014",
+    "what": "Truth-default theory: a theory of human deception and deception detection"
+   }
+  },
+  {
+   "say": "It's far more reliable to examine what is said than how it's said. A story that doesn't match the evidence is a better sign than a shifty glance. It's less cinematic, but it works better.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What does help",
+    "items": [
+     "Checking facts",
+     "Asking for specific details",
+     "Looking for contradictions with known evidence",
+     "Not relying on body language"
+    ]
+   }
+  },
+  {
+   "say": "That brings us to the machine that is meant to do the job. The polygraph, popularly known as the lie detector, measures heart rate, breathing and sweating while someone answers questions. The idea is that lying causes stress, and stress causes a measurable response. It's been used for nearly a century, especially in the United States.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 22,
+    "title": "The polygraph"
+   }
+  },
+  {
+   "say": "In 2003, the National Research Council in the United States published a review of the research. It found that the polygraph can pick up differences between people who are lying and people who are not at rates better than chance, but far from perfect, and that the evidence for its accuracy was weaker than people assumed. Its accuracy in real-world screening was poorly established.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "National Research Council",
+    "where": "The Polygraph and Lie Detection, 2003",
+    "what": "A review of the scientific evidence on polygraph testing"
+   }
+  },
+  {
+   "say": "The deep problem is that the polygraph measures arousal, not deception. An innocent person who is frightened of being accused can show the same reaction as a guilty person. And a calm, practised liar, or a person who has learned some countermeasures, may show no reaction at all. That's why polygraph results are not accepted as evidence in most courts.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The problem",
+    "sub": "Stress is not lying"
+   }
+  },
+  {
+   "say": "That's a sober list, and it's the reason why scientific bodies have been so cautious. The machine is a useful tool for getting people to talk, in some settings, but as a literal detector of lies, it's not a reliable one.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What the polygraph can and can't do",
+    "items": [
+     "It can detect stress and arousal",
+     "It cannot tell the reason for it",
+     "Innocent people can fail",
+     "Some guilty people can pass"
+    ]
+   }
+  },
+  {
+   "say": "So are there any better methods? Aldert Vrij at the University of Portsmouth and others have argued that lying is mentally demanding, and that we can make it harder, so that liars show more signs of strain. This is called the cognitive load approach.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "n": 23,
+    "title": "New approaches"
+   }
+  },
+  {
+   "say": "In experiments, interviewers asked people to tell their story in reverse order, or to maintain eye contact while they spoke. Telling a made-up story backwards is harder than telling a true one, because a true story is anchored in memory. Observers were then better at telling who was lying, though still far from perfect.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Vrij, Fisher, Mann & Leal",
+    "where": "Trends in Cognitive Sciences, 2006",
+    "what": "Detecting deception by manipulating cognitive load"
+   }
+  },
+  {
+   "say": "The improvement was real, and it's encouraging, but the accuracy figures were still around the sixty to seventy percent range in the best cases. And these studies are done in labs, with low stakes. We shouldn't expect to find a way of reading people's minds. A realistic aim is to improve the odds a little.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A modest result",
+    "sub": "Better, but not magic"
+   }
+  },
+  {
+   "say": "For most of us, the practical lesson is a humbling one. We aren't very good at telling when other people are lying, and we shouldn't trust our hunches too much. A friend who avoids your eyes may be shy, or sad, or thinking about something else. Better to ask, and to listen.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "In daily life",
+    "sub": "Don't play detective"
+   }
+  },
+  {
+   "say": "These are good habits in friendship as well as in an interview room. Assuming the worst is rarely helpful, and being curious, and checking where it counts, is a gentler and more accurate approach.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "A kinder approach",
+    "items": [
+     "Ask open questions",
+     "Let silence do some of the work",
+     "Check facts when they matter",
+     "Remember that nerves aren't guilt"
+    ]
+   }
+  },
+  {
+   "say": "Two chairs and a table. It's the stage of many tense conversations, and it's useful to remember that what happens on it is hard to read. A glance away, a pause, a shift in the seat. They tell us less than we like to think.",
+   "show": {
+    "type": "photo",
+    "file": "lf19_b07_01.jpg",
+    "cap": "Two chairs, a table, a conversation"
+   }
+  },
+  {
+   "say": "There's something quietly kind in the research. Because we're poor at spotting lies, it's wiser not to accuse on the strength of a feeling. Giving someone the benefit of the doubt isn't naive. It's an accurate reading of how little a glance can tell us.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Give people the benefit of the doubt"
+   }
+  },
+  {
+   "say": "So what did we learn? That people everywhere believe liars avoid eye contact, and the evidence doesn't back it. That across two hundred and six studies, we spot lies about fifty-four percent of the time. That the polygraph measures stress, not deceit. And that checking facts beats reading faces.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the lie research taught us"
+   }
+  },
+  {
+   "say": "These findings matter well beyond parlour games. Judges, juries and police officers often rely on a witness's demeanour, treating a confident or calm manner as a sign of honesty. Research suggests that such judgements are unreliable, and that the way people behave when they tell the truth varies a great deal. That is one reason why many legal systems rely on evidence that can be checked, instead of on impressions.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Where it matters",
+    "sub": "Courts and interviews"
+   }
+  },
+  {
+   "say": "Some programmes claim to train people in reading microexpressions, tiny facial movements that supposedly reveal hidden emotions. Reviews of the evidence have found little support for the claim that these can be used to spot lies reliably. A 2019 review of research on nonverbal cues by Aldert Vrij and colleagues concluded that nonverbal cues to deceit are faint and unreliable. Careful listening to content works better.",
+   "show": {
+    "type": "quote",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "text": "Trained experts",
+    "by": "A related finding"
+   }
+  },
+  {
+   "say": "Think back to a time when someone doubted your honesty, even though you were telling the truth. How did it feel? The research suggests that this happens often, because the signs of nervousness and the signs of lying overlap so much. That memory is a useful guide. The next time you feel that someone is lying, remember how it felt to be on the other side of the doubt.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A reflective moment",
+    "sub": "When you were doubted"
+   }
+  },
+  {
+   "say": "Next, we turn to the meeting room. For more than seventy years, companies and schools have used group brainstorming, in the belief that a roomful of people will come up with more ideas than the same people working alone. The research says something very different.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "The brainstorming myth"
+   }
+  }
+ ]
+}

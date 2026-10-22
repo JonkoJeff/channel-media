@@ -1,0 +1,286 @@
+{
+ "id": "lf19_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine a world in which you could learn a language while you slept. You'd put on a recording at bedtime, drift off, and wake up in the morning knowing a hundred new words. It sounds wonderful, and it has been sold in various forms for nearly a century, from gramophone records in the 1920s to apps and audio tracks today.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "n": 13,
+    "title": "Learning in your sleep"
+   }
+  },
+  {
+   "say": "The appeal is obvious. We spend about a third of our lives asleep, and it seems such a waste. If the brain is working away at night, couldn't it be given something useful to do? The idea has been tried in schools, in military training and in self-help programmes. And, early on, it was tested.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The dream",
+    "sub": "Learning without effort"
+   }
+  },
+  {
+   "say": "Charles Simon and William Emmons at the University of California tested the idea in the 1950s with proper brain recordings. They played sentences to sleeping volunteers and monitored their brainwaves, to see if they were really asleep. Afterwards, they tested whether the volunteers remembered the material.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Simon & Emmons",
+    "where": "Journal of Experimental Psychology, 1956",
+    "what": "Learning during sleep?"
+   }
+  },
+  {
+   "say": "The finding was that people didn't remember anything that was played while the brainwave recordings showed that they were truly asleep. They only recalled material that had been heard during moments when they were drowsy or awake. In other words, sleep learning only worked when people weren't really sleeping.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The result",
+    "sub": "Nothing got through"
+   }
+  },
+  {
+   "say": "This was a lesson in method as well. Earlier claims that sleep learning worked often relied on people who had not been properly monitored. When researchers measured sleep properly, the effect vanished.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What the early studies found",
+    "items": [
+     "Nothing was learned during deep sleep",
+     "Material heard while half-awake was remembered",
+     "Sleep-teaching tapes were no better than rest",
+     "The brain recordings made the difference clear"
+    ]
+   }
+  },
+  {
+   "say": "But the story doesn't end there. In recent years, neuroscientists have discovered that the sleeping brain is not entirely closed. It can, under specific conditions, respond to the world and even use information to improve what it has learned while awake. The key is not to teach new things, but to strengthen old ones.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 14,
+    "title": "The surprise"
+   }
+  },
+  {
+   "say": "In 2012, a team at Northwestern University taught volunteers two short piano-like melodies, each linked to a different sound. Then, while the volunteers napped, they played one of the two sounds, softly. When they woke and were tested, they played the melody whose sound had been replayed more accurately than the other one.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Antony, Gobel, O'Hare, Reber & Paller",
+    "where": "Nature Neuroscience, 2012",
+    "what": "Cued memory reactivation during sleep influences skill learning"
+   }
+  },
+  {
+   "say": "The idea is that during deep sleep, the brain replays what it has recently learned, and moves it into longer-term storage. A sound that was linked to the learning can nudge the brain to replay that particular item. It's called targeted memory reactivation, and it's a lot more modest than learning a language overnight. The material had to be learned first.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "What happened",
+    "sub": "Replay in the night"
+   }
+  },
+  {
+   "say": "It's worth keeping the size of this in proportion. These are laboratory studies with small groups, and the improvements are modest. A later review, a meta-analysis by Hu and colleagues in 2020, found that cueing during sleep gives a small to moderate improvement in memory across many studies. It's not magic, but it's real.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "A gentle benefit",
+    "big": "Small but real",
+    "label": "the cued melody was played more accurately than the uncued one"
+   }
+  },
+  {
+   "say": "This doesn't rescue the sleep-learning tape. The studies work because the person learned the material when awake, and a sound was used to remind the brain during sleep. Playing something unfamiliar, and hoping that it sinks in, remains unsupported. The research is about consolidating, not about acquiring.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A caution",
+    "sub": "Don't buy the tape"
+   }
+  },
+  {
+   "say": "Another group made a surprising discovery, using smell. In 2012, Anat Arzi and colleagues at the Weizmann Institute in Israel paired a tone with a pleasant or unpleasant smell, while people were asleep. When they were tested after waking, the volunteers sniffed less in response to the tone that had been paired with a bad smell.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 15,
+    "title": "Smells, too"
+   }
+  },
+  {
+   "say": "This was a form of conditioning, in the style of Pavlov, and it was done without waking the volunteers. It suggests that some very simple associations, linked to smell, can be formed during sleep. The learning was basic, it involved sniffing and not vocabulary, and the participants had no memory of it.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Arzi et al.",
+    "where": "Nature Neuroscience, 2012",
+    "what": "Humans can learn new information during sleep"
+   }
+  },
+  {
+   "say": "This is a long way from learning a language. The brain seems to be capable of forming simple associations while we sleep, especially with smell. But complex information, such as words, grammar or facts, isn't something the sleeping brain can absorb, as far as the evidence shows.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "What it means",
+    "sub": "Simple links, not facts"
+   }
+  },
+  {
+   "say": "That's a useful summary. The sleeping brain is busy, but it's busy with housekeeping, not schooling. Its job is to sort the day's experiences, to strengthen what matters, and to let go of what doesn't.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What the sleeping brain can and can't do",
+    "items": [
+     "Replay and strengthen things you learned while awake",
+     "Form very simple smell-and-sound associations",
+     "Not learn new facts or words",
+     "Not follow a teacher"
+    ]
+   }
+  },
+  {
+   "say": "So if you can't learn in your sleep, why does sleep matter? Because it helps you to keep what you learned before. In study after study, people who sleep after learning something remember it better than those who stay awake for the same period of time.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 16,
+    "title": "Sleep still matters for learning"
+   }
+  },
+  {
+   "say": "One of the earliest studies of this was in 1924, by John Jenkins and Karl Dallenbach at Cornell. Two students learned lists of nonsense syllables, and then either slept or stayed awake for several hours. Those who slept remembered much more. The researchers concluded that forgetting is partly a matter of interference from new experiences.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Jenkins & Dallenbach",
+    "where": "American Journal of Psychology, 1924",
+    "what": "Obliviscence during sleep and waking"
+   }
+  },
+  {
+   "say": "Modern studies, using brain recordings, suggest that the slow waves of deep sleep and the bursts of activity called sleep spindles are linked to how well memories are retained. The details are still being worked out, but the broad message is robust. Sleep after learning helps.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "A modern echo",
+    "sub": "Sleep and the day's learning"
+   }
+  },
+  {
+   "say": "The last one matters. Many students stay up all night before an exam. But the research suggests that a night's sleep after studying does more for memory than the extra hours of cramming. Sleep is a kind of study partner.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "How to use sleep for learning",
+    "items": [
+     "Study before bed, not through it",
+     "Review something you learned that day",
+     "Keep a regular sleep time",
+     "Don't give up sleep to cram"
+    ]
+   }
+  },
+  {
+   "say": "There's something lovely in this. The idea that rest is part of learning, and not the opposite of it. When you sleep after a hard day of study, your brain is quietly replaying the work, and a good night's rest is the final step in the lesson.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A modest conclusion",
+    "sub": "Rest is part of learning"
+   }
+  },
+  {
+   "say": "A book, a lamp and a bed. It isn't a very dramatic scene, and yet it holds the best practical advice from decades of sleep research. Read something worth remembering, then turn off the light and let the night do its quiet work.",
+   "show": {
+    "type": "photo",
+    "file": "lf19_b05_01.jpg",
+    "cap": "A book by the bed"
+   }
+  },
+  {
+   "say": "If you've ever worried that you're wasting time by sleeping, you can let that go. Sleep is one of the most productive things that your brain does. It stores, sorts and strengthens. You don't need a tape. You only need to turn out the light.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Trust the night"
+   }
+  },
+  {
+   "say": "So what did we learn? That early sleep-teaching didn't work when sleep was properly measured. That the sleeping brain can replay and strengthen what was learned awake. That simple smell associations may form in sleep. And that the best use of sleep is to follow a good day of learning.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What sleep learning taught us"
+   }
+  },
+  {
+   "say": "Studies of rats have shown that the patterns of brain activity that occurred while they ran a maze are replayed during sleep, in the same order, only faster. In humans, brain imaging studies have found similar replay in the hippocampus after learning a task. It's like a quiet rehearsal at night, which helps the brain to decide what is worth keeping. This is the kind of process that cueing studies try to give a nudge.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Dreams and learning",
+    "sub": "What the night rehearses"
+   }
+  },
+  {
+   "say": "There are many apps and gadgets today that claim to improve learning or memory during sleep. Some are based on genuine laboratory methods, but most have not been properly tested outside the lab. A sensible approach is to be wary of any product that promises to teach you in your sleep, and to put your effort into the things that are known to work, which are regular sleep, good study habits and a few minutes of review before bed.",
+   "show": {
+    "type": "quote",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "text": "Beware the apps",
+    "by": "A fair warning"
+   }
+  },
+  {
+   "say": "Naps seem to help as well. Studies by Sara Mednick and others have found that a short nap after learning can improve memory, and the Northwestern cueing study that we described used naps, not full nights. A twenty to ninety minute nap, taken after studying, can boost recall for some people. It's not essential, but it's a pleasant bit of evidence for anyone who enjoys an afternoon rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A restful thought",
+    "sub": "Naps count too"
+   }
+  },
+  {
+   "say": "For our next claim, we turn to the brain itself. Many of us were told at school that we're born with all the brain cells we'll ever have, and that they only die off. It's a bleak idea, and the real story is a good deal more hopeful, and a good deal more argued over.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Can adults grow new brain cells?"
+   }
+  }
+ ]
+}

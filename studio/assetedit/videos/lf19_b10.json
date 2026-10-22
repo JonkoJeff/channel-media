@@ -1,0 +1,277 @@
+{
+ "id": "lf19_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You've probably felt it. After a long day of making decisions and resisting temptations, you get home, and find yourself eating a whole packet of biscuits, or scrolling for an hour, or snapping at someone you love. It feels as though your willpower has simply run out, like the charge on a phone. For about fifteen years, many psychologists thought that this was literally true.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "n": 31,
+    "title": "Does willpower run out?"
+   }
+  },
+  {
+   "say": "The idea was called ego depletion, and it was proposed by the social psychologist Roy Baumeister and his colleagues. The central claim was that self-control depends on a limited store of mental energy. Each time you use it, such as resisting a temptation or controlling an emotion, there's less left for the next task.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The theory",
+    "sub": "Self-control as a limited resource"
+   }
+  },
+  {
+   "say": "The classic experiment is a memorable one. Participants were brought into a room that smelled of freshly baked chocolate chip cookies. On the table, there was a plate of warm cookies and a bowl of radishes. Some were told to eat only radishes, and some were allowed to eat the cookies.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "cap": "The famous experiment",
+    "sub": "Radishes and cookies"
+   }
+  },
+  {
+   "say": "Afterwards, everyone was given a frustrating puzzle that was, without their knowledge, impossible to solve. The researchers measured how long they kept trying. The radish-eaters, who had had to resist the cookies, gave up after about eight minutes. The cookie-eaters kept going for about nineteen.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Baumeister, Bratslavsky, Muraven & Tice",
+    "where": "Journal of Personality and Social Psychology, 1998",
+    "what": "Ego depletion: is the active self a limited resource?"
+   }
+  },
+  {
+   "say": "It was a vivid result, and it was easy to explain. The radish group had used up some of their self-control resisting the cookies, and so had less left for the puzzle. The paper, and a large number of studies that followed, showed the same kind of pattern with many different tasks.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Persistence on the puzzle",
+    "big": "8 vs 19 minutes",
+    "label": "radish eaters gave up much sooner than cookie eaters, in the 1998 study"
+   }
+  },
+  {
+   "say": "After one of these, people did worse on a second, unrelated test of self-control. It seemed to be a general effect, and by the 2010s, there were more than two hundred studies. A meta-analysis in 2010 by Martin Hagger and colleagues found a medium-sized effect. The theory looked secure.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The kind of tasks used",
+    "items": [
+     "Resisting tempting food",
+     "Suppressing emotions",
+     "Doing a boring task",
+     "Making a series of choices"
+    ]
+   }
+  },
+  {
+   "say": "The theory also acquired a physical explanation. In 2007, Matthew Gailliot, Baumeister and colleagues suggested that self-control might use up glucose, the sugar in the blood. In some of their studies, they found that a sugary drink restored people's self-control, while a sweetener, without calories, did not.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 32,
+    "title": "The glucose idea"
+   }
+  },
+  {
+   "say": "The glucose idea was attractive. It gave the metaphor of fuel a literal meaning. It also led to advice that was popular in the media: if you need willpower, eat something sweet. But, as the years went by, the glucose story ran into trouble. Other researchers pointed out that the brain uses only a small amount of extra energy for such tasks.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Gailliot et al.",
+    "where": "Journal of Personality and Social Psychology, 2007",
+    "what": "Self-control relies on glucose as a limited energy source"
+   }
+  },
+  {
+   "say": "A study by Martin Hagger and Nikos Chatzisarantis in 2013 found that simply rinsing the mouth with a sugary drink, without swallowing, could help people on a self-control task. That suggested that the effect might be about motivation or reward, and not about fuel. The glucose idea has not held up well.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A different view",
+    "sub": "The taste, not the calories"
+   }
+  },
+  {
+   "say": "By the mid-2010s, doubts about the whole theory were growing. Some of the early studies were small, and some analyses showed signs that unfavourable results hadn't been published. So, in 2016, a very large collaboration decided to settle it with a test that was designed in advance and run in many laboratories.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 33,
+    "title": "The big test"
+   }
+  },
+  {
+   "say": "Twenty-three laboratories around the world took part, with a total of over two thousand participants. They all followed the same protocol, which used a computer task to deplete self-control, and then a second task to measure it. The results were published in 2016, and they were stark.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Hagger et al.",
+    "where": "Perspectives on Psychological Science, 2016",
+    "what": "A multilab preregistered replication of the ego-depletion effect"
+   }
+  },
+  {
+   "say": "The overall effect was almost nothing. It was so small that the researchers couldn't tell it from zero. The finding was a heavy blow to the theory in its original form. If willpower really ran down like a battery, this test should have shown it clearly.",
+   "show": {
+    "type": "stat",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "title": "Participants across 23 labs",
+    "big": "2,141",
+    "label": "with an overall effect close to zero"
+   }
+  },
+  {
+   "say": "Not everyone agreed. Baumeister and others argued that the protocol that had been chosen was not a good test, and that the theory still held in other tasks. Further studies followed. A second large collaboration, run by Kathleen Vohs and colleagues in 2021, used a different procedure with more than three thousand participants, and found a very small effect.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The reaction",
+    "sub": "A fierce debate"
+   }
+  },
+  {
+   "say": "That's a fair summary. The picture of willpower as a tank that you drain, with a clear and dependable effect, isn't supported by the best evidence we have. But the sense that effort can be tiring is real, and researchers are looking for better explanations.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Where things stand",
+    "items": [
+     "The strong version of ego depletion is not supported",
+     "Small or no effects in the largest tests",
+     "The glucose story has fallen away",
+     "The debate is not fully over"
+    ]
+   }
+  },
+  {
+   "say": "If it isn't a tank, then why do we feel worn out after a long day of effort? One alternative view, proposed by Michael Inzlicht and Brandon Schmeichel, is that it's about motivation and attention. After working hard, we become less interested in more effort, and more drawn to rewards. We don't run out of ability. We shift our priorities.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 34,
+    "title": "What might be going on"
+   }
+  },
+  {
+   "say": "On this view, the feeling of depletion is a signal. It's a nudge from the brain to rest, switch tasks or seek something rewarding. It's a more flexible idea than a fuel gauge, and it fits with experience: you can often summon extra effort for something that really matters to you.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Inzlicht & Schmeichel",
+    "where": "Perspectives on Psychological Science, 2012",
+    "what": "What is ego depletion? Toward a mechanistic revision of the resource model of self-control"
+   }
+  },
+  {
+   "say": "That fits with how many of us feel at the end of a long day. It isn't that the tank is empty. It's that the brain says, you've worked hard, now it's time for something pleasant. If we understand that, we can plan for it, by making the right choices easy and the poor ones a little harder.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "An everyday echo",
+    "sub": "The urge to reward yourself"
+   }
+  },
+  {
+   "say": "None of these relies on willpower as a muscle. They work by changing the environment, which is something that the research on habits supports. It's easier to resist a biscuit that's in another room than one that's in front of you.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Ways to help self-control",
+    "items": [
+     "Make good choices the default",
+     "Remove temptations from sight",
+     "Plan what to do when you slip",
+     "Rest and reward in a planned way"
+    ]
+   }
+  },
+  {
+   "say": "Radishes on one side, warm cookies on the other. For fifteen years, this image stood for a whole theory of the mind. Today it stands for something just as valuable: the way that big ideas are tested, and sometimes set aside.",
+   "show": {
+    "type": "photo",
+    "file": "lf19_b10_01.jpg",
+    "cap": "Radishes and cookies"
+   }
+  },
+  {
+   "say": "There's something comforting in this. If willpower isn't a tank, then feeling tired after a long day isn't a sign that you've failed or used up your character. It may only mean that you've worked hard, and that your mind is asking for a change. A rest is not a defeat.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "You are not out of fuel"
+   }
+  },
+  {
+   "say": "So what did we learn? That ego depletion was a hugely influential theory. That the glucose explanation fell away. That a preregistered test in twenty-three labs found almost no effect. And that the experience of mental fatigue is real, even if the tank is not.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the radish study taught us"
+   }
+  },
+  {
+   "say": "Another line of research suggests that what people believe about willpower may matter. In 2010, Veronika Job, Carol Dweck and Gregory Walton found that people who believed that willpower is limited showed ego depletion effects, while people who believed that it isn't did not. This was a small set of studies, and later ones have been mixed, but it illustrates how beliefs about the mind can shape the mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The mindset angle",
+    "sub": "Do beliefs about willpower matter?"
+   }
+  },
+  {
+   "say": "One of the best-supported tools for self-control isn't about willpower at all. It's an if-then plan, which Peter Gollwitzer has studied since the 1990s. You decide in advance, if it's three o'clock and I'm tired, then I'll drink a glass of water before I look at my phone. A meta-analysis of ninety-four studies in 2006 found that such plans have a medium to large effect on reaching goals.",
+   "show": {
+    "type": "quote",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "text": "If-then plans",
+    "by": "An everyday tool"
+   }
+  },
+  {
+   "say": "Notice the time of day when your self-control tends to dip. For many people it's late afternoon or evening. Then plan for it. Put the healthy snack where the biscuits were. Set out your running shoes the night before. Make the helpful choice easy, and the unhelpful one a bit awkward. It's a quiet way of looking after your future self, and the evidence is on its side.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A reflective moment",
+    "sub": "Plan for the slump"
+   }
+  },
+  {
+   "say": "For our next claim, we turn to the family. First-borns are responsible, middle children are peacemakers, and the youngest are rebels. It's a story we tell about ourselves and others, and it was put to a very large test.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Birth order"
+   }
+  }
+ ]
+}

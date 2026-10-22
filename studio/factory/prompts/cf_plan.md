@@ -1,7 +1,7 @@
 TASK cf_plan: plan the next Crazy Facts long video `{{id}}`.
 
 Pick ONE topic that is new (not in "Recent videos" or "Planned/used titles" in the pack), fits the channel promise, and follows learned rules and trends. Prefer a bigger cousin of what our numbers show works.
-Choose the next format (F01-F15) that differs from the last two videos in length AND structure.
+Choose the next format ONLY from F01, F02, F10, F15 (owner 22 Oct 2026: every BAD long video is at least 120 minutes, 11+ blocks); it must differ from the last two videos in structure. Never a format shorter than 120 min.
 
 Deliverable: ONE JSON object (no fences), exactly these keys:
 {

@@ -276,3 +276,6 @@ Belief Through Time gets no custom thumbnails at all, long or Shorts: no Codex `
 
 ## 5 SHORTS PER DAY (owner 20 Oct 2026)
 New days get 5 Shorts per channel: 12:00, 15:00, 18:00, 21:00, 23:30 (autoplan `SLOTS`). Days that are already planned keep their 4. Review the effect after one week (views per Short, subscribers); go back to 4 if the extra Short only dilutes.
+
+## BAD LONG VIDEOS: MINIMUM 2 HOURS (owner 22 Oct 2026)
+Overrides VARIETY for Brain After Dark: every long video is at least 120 minutes (11+ blocks of ~11 min). Allowed formats: F01 (150), F02 (120), F10 (120), F15 (150). F03-F09 and F11-F14 are retired for BAD (lf15 ~24 min and lf16 ~36 min came from short formats and must not happen again). Vary the structure/topic, not the length below 2 h. Check the finished render's duration (ffprobe) before it is scheduled: under 120 min = not scheduled, re-plan/extend instead. BTT is unaffected.

@@ -98,3 +98,4 @@ VERDICTS:
 - E9: running (BTT, started 15 Oct, no titled video has 7 days of data)
 - BAD Short covers: drawn only, never the same pose twice close together (owner 18 Oct 2026). Codex cf_cover is off for BAD.
 - BAD demand (owner 22 Oct 2026): plan new BAD topics from studio/factory/demand_BAD.md (YouTube most-searched terms); use the phrases in titles/hooks only when true to the content.
+- BAD long videos: minimum 120 min, formats F01/F02/F10/F15 only (owner 22 Oct 2026).

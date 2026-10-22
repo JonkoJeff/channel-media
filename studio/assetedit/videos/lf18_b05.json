@@ -1,0 +1,311 @@
+{
+ "id": "lf18_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a small experiment that nearly anyone can feel in a minute or two. You sit at a table, and your left arm rests on it, hidden behind a screen. In front of you, where you can see it, lies a rubber hand, placed so that it looks like it belongs at the end of your arm. A researcher takes two small paintbrushes, and begins to stroke the hidden hand and the rubber hand at the same time.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "n": 16,
+    "title": "A hand that isn't yours"
+   }
+  },
+  {
+   "say": "After a minute or so, many people report something peculiar. They feel the touch on the rubber hand, as if it were coming from the rubber hand itself. Some say that it feels as if the rubber hand belongs to them, as if it were part of their body. It's a strange, quiet moment, and it's been felt by many hundreds of people in laboratories.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The surprise",
+    "sub": "Something shifts"
+   }
+  },
+  {
+   "say": "The experiment was published in 1998 by Matthew Botvinick and Jonathan Cohen at the University of Pittsburgh and Carnegie Mellon. They asked ten volunteers about the experience, and found that when the brushstrokes were in sync, most agreed with statements like, I felt as if the rubber hand were my hand. When the strokes were out of sync, they mostly didn't.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Botvinick & Cohen",
+    "where": "Nature, 1998",
+    "what": "Rubber hands feel touch that eyes see"
+   }
+  },
+  {
+   "say": "That detail is the heart of the matter. The brain is constantly trying to work out what belongs to the body. It uses clues: what you see, what you feel, and where you sense your limbs to be. When vision and touch agree in space and time, the brain concludes that the thing it sees must be the thing it feels.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The key",
+    "sub": "Timing matters"
+   }
+  },
+  {
+   "say": "The last one matters as well. People don't feel the illusion with a wooden block, or when the rubber hand is rotated into an impossible angle. The brain has expectations about what a body can be, and it doesn't hand out ownership of anything at random.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Clues the brain uses to claim a limb",
+    "items": [
+     "What you see touching it",
+     "What you feel touching it",
+     "Whether the two happen together",
+     "Whether it looks like it could be part of you"
+    ]
+   }
+  },
+  {
+   "say": "Later studies measured the effect in other ways. In some experiments, researchers threatened the rubber hand, for example by suddenly pretending to stab it, and recorded the volunteers' skin response, a measure of fear. People who had experienced the illusion showed a stronger reaction than those who had not. Their bodies reacted as if a limb of their own were in danger.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A surprising test",
+    "sub": "Threatening the rubber hand"
+   }
+  },
+  {
+   "say": "That study, by Kimberley Armel and Vilayanur Ramachandran, suggested that the illusion wasn't just words. The body responded as though the illusion were real. It's hard to overstate how odd this is. A piece of rubber, after a minute of coordinated stroking, was treated by the nervous system as if it were a part of the self.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Armel & Ramachandran",
+    "where": "Proceedings of the Royal Society B, 2003",
+    "what": "Projecting sensations to external objects: evidence from skin conductance response"
+   }
+  },
+  {
+   "say": "A few years later, other researchers asked a bigger question. If you can borrow a hand, can you borrow a whole body? In 2007, two teams, one led by Henrik Ehrsson in Sweden and the other by Bigna Lenggenhager and Olaf Blanke in Switzerland, found that you could, in a way.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 17,
+    "title": "The whole body"
+   }
+  },
+  {
+   "say": "In Ehrsson's version, volunteers wore a headset showing the view from a camera placed behind them, so they seemed to be looking at their own back. Then the researcher touched their chest, while a second person touched the air below the camera at the same moment. Many people reported feeling as if they were standing behind their physical body.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Ehrsson",
+    "where": "Science, 2007",
+    "what": "The experimental induction of out-of-body experiences"
+   }
+  },
+  {
+   "say": "In the Swiss version, people felt as if the virtual body in front of them was their own, and judged their own position as being closer to it. These studies suggest that the feeling of being located inside your body is something the brain constructs, using the same basic recipe: seeing and feeling touch together.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A sense of location",
+    "sub": "Where am I?"
+   }
+  },
+  {
+   "say": "This is a quiet, profound point. The feeling that my body is mine, and I am inside it, doesn't arrive as a fact. It's a conclusion drawn from evidence, and sometimes the evidence can be edited.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What these illusions suggest",
+    "items": [
+     "The sense of ownership is built from the senses",
+     "It can be shifted by simple tricks",
+     "It depends on timing and plausibility",
+     "It usually works so well that you never notice it"
+    ]
+   }
+  },
+  {
+   "say": "That brings us to a very different place, a hospital clinic, and to one of the most remarkable stories in modern neuroscience. Many people who lose a limb continue to feel it as if it were still there. This is called a phantom limb, and for some people it comes with intense pain, which can be very hard to treat.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 18,
+    "title": "The mirror box"
+   }
+  },
+  {
+   "say": "Some patients describe a phantom hand that is clenched tightly in a fist, with the nails seeming to dig into the palm. They are in real pain, and there's no hand to open. For years, it seemed there was little to be done. Then, in the 1990s, Vilayanur Ramachandran had a very simple idea.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The mystery",
+    "sub": "A hand that was gone"
+   }
+  },
+  {
+   "say": "He placed a mirror upright in a box, so that when a patient looked into it, the reflection of their healthy hand appeared where the missing one would be. When the patient moved the healthy hand, it looked as if the phantom hand was moving too. And some patients reported that they could feel it unclench, and their pain eased.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Ramachandran & Rogers-Ramachandran",
+    "where": "Proceedings of the Royal Society B, 1996",
+    "what": "Synaesthesia in phantom limbs induced with mirrors"
+   }
+  },
+  {
+   "say": "It's important to be careful here. Early reports were small and often from single cases. Later, larger trials of mirror therapy for phantom limb pain, and for pain after strokes, have shown benefits for some people, but the results vary, and researchers continue to debate how well it works and why.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A careful reading",
+    "sub": "Promising, not magic"
+   }
+  },
+  {
+   "say": "It fits well with the rubber hand. In both cases, vision is powerful enough to change what the body seems to be feeling. The brain's map of the self is not a fixed fact, but a working draft.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What we can fairly say about mirror therapy",
+    "items": [
+     "It has helped some patients",
+     "The evidence is mixed in larger trials",
+     "It's low-risk and cheap",
+     "The brain's picture of the body can be changed by what the eyes report"
+    ]
+   }
+  },
+  {
+   "say": "This also hints at the way the brain keeps a map of the body. In the 1930s and 1940s, the neurosurgeon Wilder Penfield, working in Montreal, stimulated the surface of patients' brains during surgery and noted where they felt touch. He drew a famous map, with the hands and lips taking up large areas, and the back and legs only small ones.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A clue from the brain",
+    "sub": "Mapping the body"
+   }
+  },
+  {
+   "say": "That map isn't fixed either. After an amputation, the area that once handled the lost limb can be taken over by neighbouring regions. Ramachandran suggested that this might explain why some people feel touches on the face as touches on the phantom hand. It's a fascinating idea, though the details are still being studied.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The map can change",
+    "sub": "Plasticity"
+   }
+  },
+  {
+   "say": "Estimates vary between studies, but a large majority of amputees report phantom sensations at some time. It's a vivid demonstration that the felt body is something the brain produces, and that it can continue to produce it when the physical part has gone.",
+   "show": {
+    "type": "stat",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "title": "How common phantom sensations are",
+    "big": "Up to 80%",
+    "label": "of people with an amputated limb report feeling it afterwards"
+   }
+  },
+  {
+   "say": "There's one more thing worth noting. The sense of being inside your own body, and the sense that it's yours, is deeply tied to emotion. Neuroscientists like Anil Seth have argued that the experience of being a self depends on the brain's constant monitoring of the body's inner state, the heartbeat, the breath and the gut, a sense called interoception.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The body in the mind",
+    "sub": "Feeling inside the skin"
+   }
+  },
+  {
+   "say": "These quiet signals shape mood and the feeling of being alive. Some research suggests that people differ in how accurately they sense their own heartbeat, and that this may relate to how strongly they feel their emotions, though the findings are still being worked out.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "The inner senses",
+    "items": [
+     "Heartbeat",
+     "Breathing",
+     "Hunger and thirst",
+     "Temperature and the feeling of being at ease"
+    ]
+   }
+  },
+  {
+   "say": "A table, a screen, two brushes and a rubber hand. It's among the most modest laboratory setups you could imagine, and yet it opens a door onto some of the deepest questions about what it means to have a body.",
+   "show": {
+    "type": "photo",
+    "file": "lf18_b05_01.jpg",
+    "cap": "Paintbrushes and a pretend hand"
+   }
+  },
+  {
+   "say": "Looking across the rubber hand, the full-body illusion and the mirror box, the pattern is the same. The brain combines senses to decide what belongs to the body. When the cues agree in time and place, ownership follows. When they don't, it fades. It's a tidy principle, and it explains a surprising range of experiences.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What the body illusions have in common",
+    "items": [
+     "They mix sight and touch",
+     "They depend on good timing",
+     "They fade when the cues disagree",
+     "They reveal how ownership is inferred"
+    ]
+   }
+  },
+  {
+   "say": "Four words from the body chapter. Ownership is the feeling that a body part is yours. Multisensory integration is the blending of the senses. A phantom limb is a felt limb that is no longer there. And interoception is the sense of the body's inner state. They describe how the sense of self is built from signals.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Words for what you just learned",
+    "items": [
+     "Ownership",
+     "Multisensory integration",
+     "Phantom limb",
+     "Interoception"
+    ]
+   }
+  },
+  {
+   "say": "That might sound unsettling, but it can also be comforting. If the feeling of owning a body is built from signals, then it can also be soothed and trained. Slow breathing, a warm bath, a stretch, a quiet walk: these are ways of giving the brain gentler evidence about how you are.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Your body is a story you tell"
+   }
+  },
+  {
+   "say": "So what did the rubber hand teach us? That ownership of the body is a conclusion, not a given. That sight and touch can fool it, and that timing and plausibility matter. That the same principles apply to phantom limbs and mirror therapy. And that the self feels solid because the brain is very good at its work.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the rubber hand taught us"
+   }
+  },
+  {
+   "say": "Next we're going to listen to someone say one thing, while we watch their lips say another, and discover that what you hear depends partly on what you see.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "A sound that changes with a face"
+   }
+  }
+ ]
+}

@@ -1,0 +1,335 @@
+{
+ "id": "lf18_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's an experiment you can do right now, with a pen and a sheet of paper. Draw a small cross on the left side of the page, and a round dot about ten centimetres to the right of it. Cover your left eye, and look at the cross with your right. Slowly move the page closer, and at some point, the dot will vanish.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 4,
+    "title": "The hole in your vision"
+   }
+  },
+  {
+   "say": "It doesn't blur, and it doesn't fade. It disappears, and the paper looks perfectly ordinary where it used to be. You've just found your blind spot. It's a patch in each eye where you cannot see at all, and under normal circumstances, you have no idea that it's there.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The vanishing dot",
+    "sub": "A hole you never knew about"
+   }
+  },
+  {
+   "say": "The reason is built into the eye. Light is detected by cells at the back of the retina, the rods and the cones. Their signals have to leave the eye along the optic nerve, a cable of about a million fibres, and the place where the cable passes out through the retina has no light-sensitive cells at all. That gap is the optic disc.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The anatomy",
+    "sub": "Where the nerve leaves the eye"
+   }
+  },
+  {
+   "say": "In terms of what you can see, the gap is bigger than most people expect. It's about five degrees wide, enough to hide ten full moons side by side, and it sits about fifteen degrees away from the centre of where you're looking. And yet the world doesn't have a hole in it.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "The size of the gap",
+    "big": "About 5 degrees",
+    "label": "roughly the width of ten full moons in your visual field"
+   }
+  },
+  {
+   "say": "There's a curious detail about this. The human retina is wired, in a sense, backwards. The nerve fibres run across the front surface of the retina, in the path of the light, and then dive through it to leave. An octopus eye has no blind spot because its design is the other way round. Evolution isn't an engineer starting with a clean sheet. It works with what it has.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A strange design",
+    "sub": "Wired backwards"
+   }
+  },
+  {
+   "say": "There are two reasons you're not bothered by this. The first is that the blind spots of your two eyes fall in different places, so what one eye misses, the other sees. But even with one eye closed, the gap stays hidden. For that, the brain does something cleverer.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Why you don't see it",
+    "sub": "Two reasons"
+   }
+  },
+  {
+   "say": "In 1991, Vilayanur Ramachandran and Richard Gregory showed that the brain fills in missing regions with its best guess. They created artificial gaps in a field of moving visual noise, and found that after a few seconds, the gap was filled with the surrounding texture. The brain wasn't seeing the area. It was inventing it, from the neighbours.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Ramachandran & Gregory",
+    "where": "Nature, 1991",
+    "what": "Perceptual filling in of artificially produced scotomas in human vision"
+   }
+  },
+  {
+   "say": "Here's an everyday version. If you look at a wall covered in a regular pattern, and place the blind spot over a bit of it, you'll see the pattern continue straight across. If you place it over a face, you may find that part of the face just vanishes, because the brain has little to copy. Filling in works best when the neighbourhood is simple and regular.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Filling in",
+    "sub": "A patch of wallpaper"
+   }
+  },
+  {
+   "say": "Notice that last one. The brain doesn't leave a hole and then plaster over it with a rule. It reconstructs the likeliest picture from context. It's the same kind of inference that produces the dress, only now it's covering up a piece of the hardware.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What the brain copies into the hole",
+    "items": [
+     "Colours nearby",
+     "Lines that continue",
+     "Textures and patterns",
+     "Whatever seems most likely to be there"
+    ]
+   }
+  },
+  {
+   "say": "The blind spot is a startling case, but it's not the only place where the picture is thinner than it seems. Your sharp, colourful vision comes from a tiny part of the retina called the fovea, which covers only about two degrees of your visual field, roughly the width of your thumbnail at arm's length.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 5,
+    "title": "Even where you can see"
+   }
+  },
+  {
+   "say": "Everything outside that tiny window is much blurrier, and much less colourful than you think. You can test this. Look straight ahead, and hold a coloured card out to the side, out of sight, then slowly bring it into view. You'll notice the shape of it well before you can tell what colour it is.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The small window",
+    "sub": "A thumbnail of clarity"
+   }
+  },
+  {
+   "say": "So how does the world look sharp everywhere? You move your eyes, about three or four times every second, in quick jumps called saccades. Each jump aims the fovea at something new, and the brain stitches the scraps into a single, stable-looking scene. You are not seeing the whole room at once. You are visiting it, bit by bit.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The trick",
+    "sub": "You keep moving your eyes"
+   }
+  },
+  {
+   "say": "It adds up to a staggering number of jumps in an ordinary day. And every time your eye jumps, the image on your retina smears across it at high speed. If a camera did that, the footage would be a blur. So why doesn't your world blur?",
+   "show": {
+    "type": "stat",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "title": "How often you look around",
+    "big": "3 to 4 times a second",
+    "label": "roughly 250,000 eye movements in a day"
+   }
+  },
+  {
+   "say": "The answer is that your brain turns down the signal during the jump. This is called saccadic suppression. Studies since the 1960s have shown that sensitivity drops sharply just before and during a saccade. You can see an effect of this in a mirror. Look at your left eye, then your right, and you'll never see your own eyes move.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Saccadic suppression",
+    "where": "Research from the 1960s onward",
+    "what": "Vision is dulled during rapid eye movements"
+   }
+  },
+  {
+   "say": "There's an odd consequence. Each day, you spend a surprising amount of time effectively blind, for tens of minutes in total, during the jumps. And yet you've never noticed a gap in the footage. The brain edits those moments out, and the result feels continuous.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "An odd consequence",
+    "sub": "The missing moments"
+   }
+  },
+  {
+   "say": "In 2001, Kielan Yarrow and colleagues at University College London discovered a curious illusion that you've probably experienced. You glance at a clock, and the second hand seems to hang there for longer than a second before it moves on. They called it chronostasis, from the Greek for time standing still.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 6,
+    "title": "The stopped clock"
+   }
+  },
+  {
+   "say": "In their experiments, people looked quickly from one spot to another, where a number counted up on a screen. The first number they saw seemed to last longer than the later ones, as though it had been present before the eyes landed. The brain, it seems, backdates the new image to the start of the eye movement, filling the gap with the new view.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Yarrow, Haggard, Heal, Brown & Rothwell",
+    "where": "Nature, 2001",
+    "what": "Illusory perceptions of space and time preserve cross-saccadic perceptual continuity"
+   }
+  },
+  {
+   "say": "In other words, the brain fills in time as well as space. To avoid a confusing gap during the eye movement, it extends the first moment of the new view backwards in time. It's a clever fix, and it comes at the cost of a small distortion that you can sometimes catch in the act.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The explanation",
+    "sub": "Patching the gap"
+   }
+  },
+  {
+   "say": "That's a neat summary of how the visual system keeps the story smooth. It's a continuous editing job, done without any sense of effort. And it's a reminder that what you experience as the present moment is something your brain has put together just slightly after the fact.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Three kinds of patching",
+    "items": [
+     "Space: filling the blind spot",
+     "Detail: building a rich picture from small glimpses",
+     "Time: backdating the first sight after a jump",
+     "All of them: invisible unless you look for them"
+    ]
+   }
+  },
+  {
+   "say": "Most of us carry the assumption that perception works like a window. The world is out there, and we simply look through the glass. What the blind spot, the fovea and the stopped clock suggest is that perception is closer to a studio, with an editor at work, trimming and patching, in time to be broadcast to you.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A common idea",
+    "sub": "We see the world as it is"
+   }
+  },
+  {
+   "say": "It would be a mistake to think that all this makes vision unreliable. The editing is what makes it usable. Imagine a world in which you saw the gaps, the blurring and the blackouts. It would be exhausting and confusing. The brain's edit is, for most purposes, a gift.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A caution",
+    "sub": "Not a reason to distrust everything"
+   }
+  },
+  {
+   "say": "There's another reason you don't notice the gaps. You rarely look at the areas where they appear. What you see depends not only on where your eyes point, but on what your attention picks out. And attention, as we're about to see, is much narrower than we imagine.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "n": 7,
+    "title": "Looking without seeing"
+   }
+  },
+  {
+   "say": "Try this the next time you're in a room. Pick a colour, say red, and count every red object you can see. Then close your eyes, and try to recall every blue one. Most people can list the reds, and draw a blank on the blues, even though both were in plain view the whole time.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "An everyday test",
+    "sub": "Counting something"
+   }
+  },
+  {
+   "say": "That list leads straight into the next story. What happens when your attention is occupied with a task, and something truly unexpected walks through the scene? The answer made one of the most famous videos in psychology.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Things your eyes receive but your attention may skip",
+    "items": [
+     "Objects in the colour you're not looking for",
+     "Details in a familiar room",
+     "Changes during a blink or a glance",
+     "Anything unexpected in the middle of a task"
+    ]
+   }
+  },
+  {
+   "say": "It's one of the simplest experiments in science, and you can do it in thirty seconds. A cross, a dot, one open eye and a little patience. And if you do it, take a moment to notice what you feel when the dot disappears. For most people, it's a small wave of astonishment, at how much has been hidden all along.",
+   "show": {
+    "type": "photo",
+    "file": "lf18_b02_01.jpg",
+    "cap": "A dot, a cross and a sheet of paper"
+   }
+  },
+  {
+   "say": "These three tests take less than a minute each. The dot and the cross finds your blind spot. The mirror shows saccadic suppression, because you never catch your own eyes moving. And the second hand shows the stopped clock effect. None of them needs equipment, and each is a way of watching your brain edit the world while you look.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Three small tests",
+    "items": [
+     "The dot and the cross on paper",
+     "Looking at your own eyes in a mirror",
+     "Watching a second hand after a glance"
+    ]
+   }
+  },
+  {
+   "say": "Here are four more terms to carry. The blind spot is where the optic nerve leaves the eye. The fovea is the tiny pit of sharp vision. A saccade is a rapid jump of the eyes. And filling in is the brain's way of covering a gap with its best guess. Together, they describe how a hole, a thumbnail of clarity and a flicker of blindness become a smooth, seamless world.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Words for what you just learned",
+    "items": [
+     "Blind spot",
+     "Fovea",
+     "Saccade",
+     "Filling in"
+    ]
+   }
+  },
+  {
+   "say": "It's worth remembering that the editing is meant to help you. Your brain is not trying to deceive you. It's trying to give you a stable, useful picture of a world that is constantly shifting. A good editor hides the cuts, and yours has been doing it so well that you needed a pen and paper to catch it.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "The editor is on your side"
+   }
+  },
+  {
+   "say": "So what did we find in the hole in your vision? That your eye has a gap, and your brain fills it. That your sharp vision is a thumbnail, and your eyes jump to build the rest. That vision is dulled during every jump, and that even time can be patched. And that none of it spoils the show.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the hole taught us"
+   }
+  },
+  {
+   "say": "In our next story, a group of people are asked to count basketball passes. Partway through, someone in a gorilla suit walks into the middle of the scene, beats their chest and leaves. And about half of the viewers never see it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "The gorilla nobody saw"
+   }
+  }
+ ]
+}

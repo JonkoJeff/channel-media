@@ -1,0 +1,343 @@
+{
+ "id": "lf18_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Take a look at two horizontal lines, one with arrowheads pointing inwards at both ends, the other with arrowheads pointing outwards. The lines are exactly the same length, and you can prove it with a ruler. But for most people, the one with the outward-pointing fins looks longer. It's called the Müller-Lyer illusion, after the German sociologist Franz Carl Müller-Lyer, who described it in 1889.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "n": 23,
+    "title": "Illusions that depend on where you grew up"
+   }
+  },
+  {
+   "say": "It's among the most famous illusions in all of psychology, and it appears in nearly every textbook. For well over a century, it was taken as an example of the way our visual system works, the same in everyone. If it's built into the brain, then it should work the same on anyone with a normal pair of eyes. And then, in the 1960s, somebody decided to check.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The classic",
+    "sub": "Two lines, the same length"
+   }
+  },
+  {
+   "say": "Marshall Segall, Donald Campbell and Melville Herskovits tested people in several places in Africa, the Philippines and the United States, with a set of classic illusions. They found that susceptibility to the Müller-Lyer illusion varied a great deal from group to group. And some groups barely saw it at all.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Segall, Campbell & Herskovits",
+    "where": "The Influence of Culture on Visual Perception, 1966",
+    "what": "Illusion tests in fourteen societies, including the United States"
+   }
+  },
+  {
+   "say": "The result was a shock. If the illusion were purely built into the visual system, it should have been the same everywhere. Instead, people from some communities saw the lines as nearly equal, while others, including American and European samples, saw the difference strongly. That suggested that experience mattered.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The surprise",
+    "sub": "Not the same for everyone"
+   }
+  },
+  {
+   "say": "The researchers offered an explanation, which they called the carpentered world hypothesis. People who live in cities full of straight walls, right angles and rectangular rooms learn, over many years, to interpret certain lines as corners. The arrowhead shapes of the illusion look like the corners of a building, and the brain scales the lengths accordingly.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The idea",
+    "sub": "The carpentered world"
+   }
+  },
+  {
+   "say": "It's an elegant story, and it has some support. But it's not the whole picture, and later researchers have argued about it for decades. It's worth looking at the numbers that the later reanalysis produced.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The carpentered world idea",
+    "items": [
+     "Modern cities are full of right angles",
+     "The brain learns to read angles as depth",
+     "The illusion exploits that habit",
+     "People raised in open or round environments might read it differently"
+    ]
+   }
+  },
+  {
+   "say": "In 2010, three psychologists at the University of British Columbia, Joseph Henrich, Steven Heine and Ara Norenzayan, published a paper in Behavioral and Brain Sciences with a pointed title, The Weirdest People in the World? They pointed out that most psychology experiments are done on people from Western, Educated, Industrialised, Rich and Democratic societies, which spells WEIRD.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 24,
+    "title": "The weird sample"
+   }
+  },
+  {
+   "say": "Their argument was that these societies, which make up a small slice of humanity, are often unusual on the measures psychologists care about. They included the Müller-Lyer illusion as their very first example, because it showed so clearly that something we assumed to be universal in vision varied between groups.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Henrich, Heine & Norenzayan",
+    "where": "Behavioral and Brain Sciences, 2010",
+    "what": "The weirdest people in the world?"
+   }
+  },
+  {
+   "say": "According to the data that they reviewed, American undergraduates needed the line with the outward fins to be roughly a fifth shorter before they judged the two as equal. For members of a San community of the Kalahari, the effect was close to zero. Other groups lay between the two.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "How different the lines had to be",
+    "big": "About 20%",
+    "label": "for American undergraduates to judge the two lines as equal, versus close to 0% for San foragers"
+   }
+  },
+  {
+   "say": "It's important to be careful. These comparisons involve small groups and different testing methods, and later studies have complicated the picture. Some researchers argue that age matters, that children show the effect more strongly than adults in some places, and that differences in schooling and in how pictures are used could play a role. The carpentered world story is an influential idea, not a settled fact.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A caution",
+    "sub": "Not so simple"
+   }
+  },
+  {
+   "say": "The last point is the bigger one. If a basic feature of vision can differ with experience, then how many other results from psychology that we've treated as universal might depend on who was in the room?",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What we can fairly say",
+    "items": [
+     "People differ in how strongly they see the illusion",
+     "Differences seem to be related to experience",
+     "The exact reasons are still debated",
+     "A single sample of students does not represent everyone"
+    ]
+   }
+  },
+  {
+   "say": "It isn't only illusions. A famous set of studies has suggested that people from different cultures may spend their attention in different ways. In 2001, Takahiko Masuda and Richard Nisbett at the University of Michigan showed Japanese and American students animated underwater scenes with a big fish and some smaller ones, along with plants, rocks and bubbles.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 25,
+    "title": "Looking at the whole or the parts"
+   }
+  },
+  {
+   "say": "When asked to describe what they'd seen, the American students tended to start with the large fish in the foreground, while the Japanese students were more likely to start with the setting, the water, the rocks and the plants. They also made about sixty percent more statements about background elements.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Masuda & Nisbett",
+    "where": "Journal of Personality and Social Psychology, 2001",
+    "what": "Attending holistically versus analytically: comparing the context sensitivity of Japanese and Americans"
+   }
+  },
+  {
+   "say": "The researchers suggested that people in East Asian societies, on average, tend to attend to the whole context, while Americans on average focus on the main object. They linked it to differences in how societies emphasise individuals and groups. It was an attractive idea, and it inspired a good deal of follow-up work.",
+   "show": {
+    "type": "stat",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "title": "Statements about the background",
+    "big": "About 60% more",
+    "label": "by Japanese than American participants in the fish scenes"
+   }
+  },
+  {
+   "say": "In 2005, Hannah Faye Chua, Julie Boland and Nisbett recorded the eye movements of Americans and Chinese people looking at photographs of an animal in a natural scene. The Americans fixated on the focal object sooner and for longer, while the Chinese participants made more eye movements to the background.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "Looking at eye tracking",
+    "sub": "Where the eyes went"
+   }
+  },
+  {
+   "say": "This is useful, because it measures where people actually looked, not only what they said. It suggests that the habit of attending to the main object or the setting can show up very early in perception. Again, the differences are averages and are not rules that can be applied to any one person.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Chua, Boland & Nisbett",
+    "where": "Proceedings of the National Academy of Sciences, 2005",
+    "what": "Cultural variation in eye movements during scene perception"
+   }
+  },
+  {
+   "say": "This is the point where we have to be gentle with ourselves and with the research. Differences between groups, on average, don't tell you anything about how an individual will behave. Plenty of Americans attend to context, and plenty of Japanese people attend to the focus. And some later studies have found smaller or less consistent differences than the early ones.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The fair note",
+    "sub": "Averages, not stereotypes"
+   }
+  },
+  {
+   "say": "That is a reasonable reading. Culture can influence habits of attention, and it's worth knowing, but it's not a set of boxes that people fit into. The most important consequence is the one about research itself: we need to test more kinds of people before declaring something a fact about human beings.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "How to hold these findings",
+    "items": [
+     "They describe averages",
+     "They depend on the task and the setting",
+     "Some replications found smaller effects",
+     "They suggest culture can shape attention"
+    ]
+   }
+  },
+  {
+   "say": "You don't have to travel to see this. Anyone who has moved to a new city or a new country knows that the world seems different at first. The pace of walking, the loudness of conversation, how close people stand, whether eye contact is friendly or rude. You've been trained, quietly, since birth, in your own culture's way of reading the scene.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 26,
+    "title": "Close to home"
+   }
+  },
+  {
+   "say": "Some of the training is deeply specific. For example, a study in the 1960s suggested that people raised in places with few long straight roads and buildings had weaker responses to some kinds of illusions. Other training is more subtle, such as learning to read, which changes the way the brain processes letters and faces, as researchers like Stanislas Dehaene have shown.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "Everyday training",
+    "sub": "You learned how to look"
+   }
+  },
+  {
+   "say": "Dehaene's team scanned the brains of people who learned to read as adults, and of people who had never learned. They found that reading changes the way visual and language areas respond, and that it takes over some territory in the brain that once helped with other kinds of recognition. Experience literally reshapes the machinery of seeing.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Dehaene et al.",
+    "where": "Science, 2010",
+    "what": "How learning to read changes the cortical networks for vision and language"
+   }
+  },
+  {
+   "say": "It's a hopeful kind of finding. The brain is not fixed. The things we do, read and look at in daily life shape what we notice. That means the same eyes in a different life would see the same world in a subtly different way. And it means that we can still learn new ways of looking.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The learning brain",
+    "sub": "Plastic and personal"
+   }
+  },
+  {
+   "say": "One practical use of this is in the simple act of listening to someone who has had a different life. They may not be exaggerating, and they may not be missing the obvious. They may be seeing a scene organised around different habits of attention. Asking what they notice can be a quiet act of generosity.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A practical idea",
+    "sub": "Seeing through other eyes"
+   }
+  },
+  {
+   "say": "None of those require a laboratory. A walk with a friend who is a gardener, an architect or a birdwatcher will show you things in the same street that you never noticed. Their training has changed their seeing, and yours can change too.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Ways to see more",
+    "items": [
+     "Visit unfamiliar places",
+     "Ask others what they noticed",
+     "Learn a new skill that trains the eye",
+     "Hold your own view a little loosely"
+    ]
+   }
+  },
+  {
+   "say": "Two lines and a ruler. It's one of the oldest tools in psychology, and it's still a lovely one. Measure the lines and they match. Look at them and they don't. And depending on where your life has taken you, the gap between the two might be larger or smaller.",
+   "show": {
+    "type": "photo",
+    "file": "lf18_b07_01.jpg",
+    "cap": "Two lines and a ruler"
+   }
+  },
+  {
+   "say": "The cross-cultural work gives us four good questions for any psychology claim. Who took part? Might it differ in other places or ages? Has it been tested elsewhere? And does it describe averages or everyone? With those four in mind, you can read headlines about the mind with a good deal more confidence.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Questions to ask before trusting a result",
+    "items": [
+     "Who were the participants?",
+     "Could the result depend on culture or age?",
+     "Has it been repeated in other places?",
+     "Is this about averages or about every person?"
+    ]
+   }
+  },
+  {
+   "say": "Four terms from the cultural chapter. The carpentered world is the idea that lives full of right angles shape how we see. WEIRD samples are the narrow slice of humanity that most studies use. Holistic attention is looking at the whole scene. And plasticity is the brain's ability to be reshaped by experience.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Words for what you just learned",
+    "items": [
+     "Carpentered world",
+     "WEIRD samples",
+     "Holistic attention",
+     "Plasticity"
+    ]
+   }
+  },
+  {
+   "say": "There's something quietly moving about this. Your way of seeing is not just a product of your eyes. It's a trace of the rooms, the streets, the books and the people that have been around you. It's partly yours and partly borrowed, and none of it is final.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Your seeing has a history"
+   }
+  },
+  {
+   "say": "So what did the two lines teach us? That a basic illusion can vary between groups. That experience may help set how strongly it works. That most of psychology's samples have come from a narrow slice of the world. And that culture can nudge attention, a little, without putting people into boxes.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the lines taught us"
+   }
+  },
+  {
+   "say": "In our next story, we step back from single illusions and ask the big question behind them. What if the brain isn't mainly receiving the world, but predicting it, and what we call seeing is the prediction being corrected?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "The brain as a prediction machine"
+   }
+  }
+ ]
+}

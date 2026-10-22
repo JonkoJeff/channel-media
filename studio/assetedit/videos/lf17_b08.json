@@ -1,0 +1,286 @@
+{
+ "id": "lf17_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In the 1890s, in St Petersburg, a Russian physiologist named Ivan Pavlov was studying digestion in dogs. It was serious, careful work, and it would win him a Nobel Prize in 1904, but not for what he's best remembered for. What made him famous was something he noticed almost by accident, something that interrupted his experiments.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "n": 20,
+    "title": "A dog, a bell and a white rat"
+   }
+  },
+  {
+   "say": "Pavlov measured how much saliva dogs produced when they were given food. But he noticed that the dogs began to salivate before the food arrived. They drooled at the sight of the assistant who fed them, at the sound of his footsteps, even at the sound of the door. At first, Pavlov found it irritating. It was getting in the way of his results.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The annoying discovery",
+    "sub": "Dogs that drooled too early"
+   }
+  },
+  {
+   "say": "But then Pavlov did what good scientists do. He turned the irritation into the question. These dogs were not born knowing that footsteps meant dinner. They had learned it. And if learning could be seen in the drip of saliva, perhaps it could be measured, controlled and studied in detail.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A better question",
+    "sub": "Why would a dog do that?"
+   }
+  },
+  {
+   "say": "Here's the basic design. Food naturally makes a dog salivate, which Pavlov called an unconditioned response. A bell, at first, means nothing to the dog. But if you ring the bell just before the food again and again, the bell alone eventually makes the dog salivate. Pavlov called that a conditioned response.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Ivan Pavlov",
+    "where": "Institute of Experimental Medicine, St Petersburg, 1900s",
+    "what": "Dogs trained to salivate to a neutral signal"
+   }
+  },
+  {
+   "say": "It can sound like a dry list, but it describes something deeply familiar. We all have bells. The sound of a message alert, the smell of a certain kitchen, the song that was playing at a particular time. Our bodies learn to expect, and they prepare before anything happens.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Pavlov's vocabulary",
+    "items": [
+     "Food: the unconditioned stimulus",
+     "Salivation to food: the unconditioned response",
+     "The bell: the conditioned stimulus",
+     "Salivation to the bell: the conditioned response"
+    ]
+   }
+  },
+  {
+   "say": "There's a small piece of trivia that's worth knowing. Historians have pointed out that Pavlov's famous bell is mostly a legend. In his laboratory, he often used a metronome, a buzzer or other stimuli, and the bell became the popular image in later textbooks. It doesn't change the idea, but it's a good example of how a story simplifies.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A small correction",
+    "sub": "The bell may not have been a bell"
+   }
+  },
+  {
+   "say": "It's also worth remembering that Pavlov regarded himself as a physiologist, not a psychologist, and he was not entirely comfortable with the way his work was used. But what he had found was a new tool for studying learning, and by the 1910s, it was at the heart of a new school called behaviourism.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Nobel Prize",
+    "big": "1904",
+    "label": "awarded to Pavlov for his work on digestion"
+   }
+  },
+  {
+   "say": "That brings us to Baltimore, in 1920, and to the most troubling part of this story. John B. Watson, a leading behaviourist at Johns Hopkins University, wanted to show that human emotions could be conditioned in the same way. With his graduate student Rosalie Rayner, he designed an experiment using a nine-month-old baby.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 21,
+    "title": "A baby, a rat and a loud noise"
+   }
+  },
+  {
+   "say": "The baby was known as Albert B., and in later writing he's called Little Albert. At first, he was shown a white rat, a rabbit, a dog and some other objects, and he showed no fear of any of them. He reached out for the rat, curious. Then the researchers began to pair the rat with a sudden, loud noise made by striking a steel bar behind his head.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Watson & Rayner",
+    "where": "Johns Hopkins University, 1920",
+    "what": "A baby conditioned to fear a white rat"
+   }
+  },
+  {
+   "say": "After several pairings, Albert began to cry and turn away at the sight of the rat, even when there was no noise. Watson and Rayner reported that the fear also spread to other furry things, such as a rabbit, a dog and a fur coat, an effect they called generalisation. The study was published in 1920 in the Journal of Experimental Psychology.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "What happened",
+    "sub": "Fear spreading"
+   }
+  },
+  {
+   "say": "It's hard to read this without discomfort. A baby was deliberately frightened, and as far as is known, Watson and Rayner made no attempt to remove the fear afterwards. The child left the hospital with his mother before they could try. By modern standards, the experiment would never be approved, and it's now treated mainly as a warning.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "The ethics",
+    "sub": "Never possible today"
+   }
+  },
+  {
+   "say": "For decades, nobody knew what had happened to Albert. In 2009, a team led by Hall Beck at Appalachian State University proposed that he was a child named Douglas Merritte, who died at the age of six. In 2012, another team led by Russell Powell argued that he was more likely a child named William Barger, who lived to old age.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The mystery",
+    "sub": "Who was Little Albert?"
+   }
+  },
+  {
+   "say": "The two teams disagreed, and in 2014, Powell and colleagues argued that the first identification had serious problems, including doubts about whether Douglas Merritte had been healthy at the time. The question has not been fully settled, and that, too, is part of the story. A famous experiment about fear is shadowed by a missing child.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Beck, Levinson & Irons",
+    "where": "American Psychologist, 2009",
+    "what": "A proposed identity for Little Albert"
+   }
+  },
+  {
+   "say": "It's worth noticing how many things we don't know. Textbooks often tell a neat tale, in which a baby was taught to fear rats, and fears spread. But the original evidence was thin, based on a single child, with few controls and a good deal of interpretation.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What we can fairly say about Albert",
+    "items": [
+     "The experiment was badly designed by modern standards",
+     "The fear may not have lasted",
+     "The identity of the child is still debated",
+     "The ethical failure is clear"
+    ]
+   }
+  },
+  {
+   "say": "Setting aside the problems with Little Albert, conditioning itself is a real and robust phenomenon, and it's been studied in many species, from sea slugs to humans. It's one of the foundations of how psychologists understand habits, cravings, anxiety and even some kinds of learning at school.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "n": 22,
+    "title": "What Pavlov really gave us"
+   }
+  },
+  {
+   "say": "Think about the way a song from your teenage years can bring back a mood, or the way the smell of a hospital can make you tense, or a notification sound can make your stomach tighten before you've even read the message. None of this is irrational. It's your nervous system doing what Pavlov's dogs did: predicting what comes next.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "Everyday conditioning",
+    "sub": "Sounds, smells and songs"
+   }
+  },
+  {
+   "say": "The good news is that conditioning can run in reverse. Mary Cover Jones, a student of Watson's, showed in the 1920s that a young boy's fear of a rabbit could be gradually reduced by pairing the rabbit with pleasant things, at a safe distance. This was an early form of what we now call exposure therapy.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "cap": "A hopeful side",
+    "sub": "Fear can be unlearned"
+   }
+  },
+  {
+   "say": "Modern exposure therapy for phobias and anxiety works along very similar lines, and it is one of the most thoroughly studied treatments in psychology. Done gently, with a trained therapist, it can transform lives. That's a good legacy for an idea that began with a dog's dinner.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "How fear is unlearned",
+    "items": [
+     "Meet the feared thing gradually",
+     "Keep it safe and pleasant",
+     "Repeat many times",
+     "Let the old association fade"
+    ]
+   }
+  },
+  {
+   "say": "Pavlov himself found that if you keep ringing the bell without giving food, the dog gradually stops salivating. He called it extinction. But he also noticed that the old response could sometimes return after a rest, a spontaneous recovery, which is why old fears can appear again, unexpectedly, and why therapy takes practice.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Extinction",
+    "where": "Pavlov's own finding",
+    "what": "Conditioned responses fade when the signal stops predicting the reward"
+   }
+  },
+  {
+   "say": "Conditioning is also what advertisers hope for when they pair a product with a pleasant feeling, a catchy tune or a happy face. It works best in a quiet, repeated way, and not always as strongly as marketers hope. But it's one reason why brands put so much effort into the moods that surround their name.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Modern uses",
+    "sub": "Advertising and habits"
+   }
+  },
+  {
+   "say": "A bell and an empty bowl. It's a simple picture, but it holds two stories. One is a scientist who learned to listen to what annoyed him. The other is a reminder that learning leaves traces in the body, and that what is learned can, with patience and care, be learned in a different way.",
+   "show": {
+    "type": "photo",
+    "file": "lf17_b08_01.jpg",
+    "cap": "A bell and an empty bowl"
+   }
+  },
+  {
+   "say": "It's a rather comforting thought that we can influence our own bells. We can pair a difficult task with a favourite drink, a stressful commute with a good podcast, a morning routine with a particular song. Small associations, repeated gently, can quietly shift the way a day feels.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Choose your bells"
+   }
+  },
+  {
+   "say": "So what did Pavlov and Watson leave us? A powerful way of understanding how our bodies learn to expect, a cautionary tale about the harm that careless research can do, and a gentle reminder that what is learned can often be unlearned. The science continues, though it has left some of its early methods behind.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the bell and the rat taught us"
+   }
+  },
+  {
+   "say": "Pavlov's work opened the door for another famous line of research. B. F. Skinner, working at Harvard, studied how consequences shape behaviour. In his experiments, rats and pigeons learned to press a lever or peck a key because it brought food. This became known as operant conditioning, and it explained how behaviours that are rewarded tend to be repeated, and those that are not tend to fade.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Skinner's box",
+    "sub": "Rewards and habits"
+   }
+  },
+  {
+   "say": "You can see this in the design of many apps. An unpredictable reward, such as a new message or a surprising video, keeps people checking, because we can never be sure when the next good thing will arrive. Psychologists call it a variable reward schedule, and it's among the strongest ways to keep a habit going. Knowing that doesn't break the spell, but it can help you decide when to switch the phone off.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "Everyday rewards",
+    "sub": "Why apps keep you scrolling"
+   }
+  },
+  {
+   "say": "Next we're moving from fear to memory. A German scholar sat alone in a room and spent years memorising meaningless syllables, and in doing so he discovered something about forgetting that you can use on your very next study session.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "The forgetting curve"
+   }
+  }
+ ]
+}

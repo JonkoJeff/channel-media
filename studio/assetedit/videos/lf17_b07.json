@@ -1,0 +1,311 @@
+{
+ "id": "lf17_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In the early 1970s, a Stanford psychologist named David Rosenhan asked a question that made many doctors uncomfortable. If a perfectly healthy person walked into a psychiatric hospital and said they were hearing voices, would anyone notice that they were not ill? And if they were admitted, how long would it take to be let out again?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 17,
+    "title": "Eight healthy people at the hospital door"
+   }
+  },
+  {
+   "say": "It sounds like a provocative prank, but it grew out of a serious debate. At the time, psychiatric diagnosis was in a messy state. Different doctors often gave different labels to the same patient, and some critics argued that mental illness was less a fact about a person than a label that doctors attached to them. Rosenhan wanted to test that claim in the most direct way he could think of.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The question",
+    "sub": "Can doctors tell the sane from the insane?"
+   }
+  },
+  {
+   "say": "He recruited eight people, himself included. There were a psychology graduate student, three psychologists, a paediatrician, a psychiatrist, a painter and a housewife. They were all healthy. Each of them was asked to phone a psychiatric hospital for an appointment, and to arrive complaining of one symptom only: hearing a voice that said words like empty, hollow and thud.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The plan",
+    "sub": "Eight pseudo-patients"
+   }
+  },
+  {
+   "say": "The pseudo-patients were told to give false names and jobs, but otherwise to tell the truth about their lives. They were to say that the voice was the only thing wrong. And once they were admitted, they were to stop pretending, behave normally, and tell the staff they felt fine. The aim was to get out, using nothing but their own good behaviour.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "David Rosenhan",
+    "where": "Stanford University, Science, 1973",
+    "what": "Healthy volunteers admitted to twelve psychiatric hospitals"
+   }
+  },
+  {
+   "say": "All eight were admitted. Seven were diagnosed with schizophrenia, and one with manic depression. The hospitals were scattered across five states, some old and shabby, some new and well funded. In every case, the people who had said only that they heard a thudding voice found themselves behind locked doors, with a diagnosis written in their file.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "What happened at the door",
+    "sub": "Admitted, every one"
+   }
+  },
+  {
+   "say": "Getting out turned out to be much harder than getting in. The stays ranged from seven to fifty-two days, with an average of about nineteen. None of the staff identified the impostors, and in the end, every one of them was discharged with a diagnosis of schizophrenia in remission. In other words, the label stuck, even when the symptoms had supposedly gone.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Length of stay",
+    "big": "7 to 52 days",
+    "label": "the average was about 19 days"
+   }
+  },
+  {
+   "say": "Here is one of the most quoted details. The pseudo-patients took notes, openly, to record their experience. And one nurse's report read that the patient engages in writing behaviour. A perfectly ordinary action was now evidence. Rosenhan argued that, once the label was in place, everything the patient did was read through it.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Normal behaviour, abnormal reading",
+    "sub": "Writing things down"
+   }
+  },
+  {
+   "say": "That is the heart of his argument, and it applies far beyond hospitals. When we know what category a person belongs to, we tend to see everything they do as proof of it. A shy person is aloof, a quiet colleague is hiding something, a cheerful patient is in denial.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "Once labelled, behaviour is seen as a symptom",
+    "by": "Rosenhan's central argument, paraphrased"
+   }
+  },
+  {
+   "say": "There's one more detail in the paper that people love to quote. While the staff did not notice, many of the other patients did. In the first three hospitals, Rosenhan reported that out of a hundred and eighteen patients on the wards, thirty-five voiced doubts. Some said things like, you're not crazy, you're a journalist, or a professor.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 18,
+    "title": "Who noticed?"
+   }
+  },
+  {
+   "say": "It's a striking contrast. The people who lived on the ward saw something the professionals didn't. Rosenhan took this to mean that the doctors were too bound up in the diagnostic frame to see what was in front of them, and that the setting, not the person, shaped what they concluded.",
+   "show": {
+    "type": "bars",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "title": "Patients who suspected a pseudo-patient",
+    "unit": "Patients on the wards",
+    "bars": [
+     [
+      "Voiced doubts",
+      35.0
+     ],
+     [
+      "Did not",
+      83.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The paper had a sequel. A well-known teaching hospital heard about the results and said that this could not happen to them. Rosenhan agreed to a challenge. Over the next three months, he told them, one or more pseudo-patients would try to be admitted. Staff were asked to rate each new patient on how likely they were to be an impostor.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The second experiment",
+    "sub": "The hospital that was challenged"
+   }
+  },
+  {
+   "say": "Out of a hundred and ninety-three genuine patients, forty-one were judged to be impostors by at least one member of staff. And then came the twist. Rosenhan revealed that he hadn't sent anyone at all. The hospital had been so alert to the possibility of mistakes that it had made them in the other direction.",
+   "show": {
+    "type": "stat",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "title": "New patients judged likely impostors",
+    "big": "41",
+    "label": "out of 193 admissions, by at least one staff member"
+   }
+  },
+  {
+   "say": "Rosenhan's conclusion was that psychiatric diagnosis couldn't reliably distinguish the sane from the insane. The title of his paper, On Being Sane in Insane Places, made the point plainly. And it had a real impact. Many people read it as a reason to rethink institutionalisation and diagnosis, and the psychiatric profession was shaken.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "What he said it proved",
+    "sub": "Diagnosis is fragile"
+   }
+  },
+  {
+   "say": "Within a few years, the American Psychiatric Association published a more systematic manual of diagnosis, the DSM-III in 1980, with more explicit criteria for each condition. Many historians see Rosenhan's paper as one of the pressures behind that reform. It was also part of a wider mood that led to the closing of many large psychiatric hospitals.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The effect",
+    "sub": "A profession reconsidered"
+   }
+  },
+  {
+   "say": "But, as with so many famous experiments, there is a second chapter, and in this case it's a dramatic one. In 2019, the journalist Susannah Cahalan, who is the author of a memoir about her own brain illness, published a book called The Great Pretender. She spent years investigating Rosenhan's work, and what she found was troubling.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "n": 19,
+    "title": "The second chapter"
+   }
+  },
+  {
+   "say": "She reported that she could identify only some of the pseudo-patients, and that the accounts in Rosenhan's paper didn't match his own notes in several ways. She questioned whether certain details were embellished, and whether some of the patients behaved as normally as the paper claimed. She also found that Rosenhan himself had been reluctant to share names and data.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Susannah Cahalan",
+    "where": "The Great Pretender, 2019",
+    "what": "An investigation of Rosenhan's archive and participants"
+   }
+  },
+  {
+   "say": "One of the most serious claims was that a pseudo-patient described in the paper didn't quite match what the hospital records said, and that the data used to support the argument was more selective than it seemed. Rosenhan died in 2012, and so he can't answer. Some people defend him, and some think the criticisms go too far.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The most serious claim",
+    "sub": "Were the notes different?"
+   }
+  },
+  {
+   "say": "That is the safest summary. It would be wrong to say that the entire thing was invented, because the problem of unreliable diagnosis was real and was documented by other researchers at the time. But it would also be wrong to quote the study as a tidy proof, when a careful journalist has raised doubts about how it was done.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What we can fairly say",
+    "items": [
+     "The paper was hugely influential",
+     "Some of its details are now seriously doubted",
+     "Psychiatric diagnosis really was inconsistent in the 1970s",
+     "Modern criteria are much more systematic"
+    ]
+   }
+  },
+  {
+   "say": "There's a nice irony in all this. A study about how labels can distort what we see has itself been labelled, over the years, as a classic that couldn't be questioned. It's a good reminder to treat a famous result the way Rosenhan asked us to treat a diagnosis: as something worth checking.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A lesson in itself",
+    "sub": "Check the source"
+   }
+  },
+  {
+   "say": "Think of a time that someone decided what kind of person you were, and then read everything you did through that decision. Maybe a teacher, a manager or a stranger. The experience of being misread through a label is one that many people recognise, and it's the part of the study that doesn't depend on any one table of numbers.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "Labels in everyday life",
+    "sub": "Seeing through the frame"
+   }
+  },
+  {
+   "say": "None of these are dramatic. They're what careful clinicians, teachers and friends do all the time. They keep a label as a working guess, not a verdict, and they stay curious about the person underneath it.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Small habits that help",
+    "items": [
+     "Notice what you assumed before you looked",
+     "Ask what else could explain the same behaviour",
+     "Hear the person before the category",
+     "Be willing to change your mind"
+    ]
+   }
+  },
+  {
+   "say": "It's also fair to say that things have changed. Modern diagnosis uses explicit criteria, structured interviews and ongoing review, and studies of agreement between clinicians, while imperfect, are better than they were. That doesn't mean mistakes are impossible, and it doesn't mean labels are harmless, but the situation Rosenhan described is not the present.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Mental health today",
+    "where": "Modern diagnosis",
+    "what": "Explicit criteria and structured interviews"
+   }
+  },
+  {
+   "say": "It's an ordinary corridor, and perhaps that's the point. The drama in this story is not in any dramatic event. It's in the quiet moment when a person is handed a label, and everything after that is read in its light. A clipboard can be a powerful thing.",
+   "show": {
+    "type": "photo",
+    "file": "lf17_b07_01.jpg",
+    "cap": "A corridor, a chair, a clipboard"
+   }
+  },
+  {
+   "say": "So the next time you form a firm opinion about someone, you might try the small experiment of looking a second time. What would you notice if you didn't know what you thought you knew? That's a skill that doesn't need a laboratory, and it's one that Rosenhan, whatever the flaws in his paper, wanted us to practise.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Look twice"
+   }
+  },
+  {
+   "say": "So what did eight healthy people teach us? That labels change how we read behaviour, that systems can be slow to notice their own mistakes, and that even the most famous studies deserve a second look. All three are useful, and none depends on whether every detail in the original paper was right.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the pseudo-patients taught us"
+   }
+  },
+  {
+   "say": "Rosenhan's paper also raises a question that psychology has wrestled with ever since: when is it acceptable to deceive people for the sake of research? In his case, hospital staff were deceived and, in the second study, were misled about who would be admitted. Modern ethics committees would ask whether the knowledge gained is worth the harm and whether people can later be told the truth.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The ethics of the lie",
+    "sub": "Deception in research"
+   }
+  },
+  {
+   "say": "And it's worth remembering the people on the other side of the study. Patients and staff on those wards were real, with real pain and real jobs. The best reading of Rosenhan's legacy may be the humane one: that people in distress deserve to be listened to as individuals, not summarised by a label, and that the places meant to help them should be places of dignity.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "The ward",
+    "sub": "Behind the doors"
+   }
+  },
+  {
+   "say": "Next we're going back to a laboratory in Russia, and then to a hospital in Baltimore, to look at how a dog's dinner bell became one of the most important ideas in psychology, and how a baby, a rat and a very loud noise became one of its most troubling.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "A dog, a bell and a white rat"
+   }
+  }
+ ]
+}

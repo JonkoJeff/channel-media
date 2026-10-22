@@ -1,0 +1,285 @@
+{
+ "id": "lf17_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let me describe the most boring experiment you can imagine. A young man, a student at Stanford University in the late 1950s, arrives at a laboratory. He's told that the study is about performance. He is given a board covered with wooden pegs, and told to turn each one a quarter turn. Then another. Then another, for half an hour.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 29,
+    "title": "A boring task and a dollar"
+   }
+  },
+  {
+   "say": "After the pegs, he's given a second task, which is to take spools off a tray, put them back and take them off again, for another half hour. It's tedious in a way that's hard to describe, and that is exactly what the researchers wanted. They needed every participant to find the task dull, because what happened next depended on it.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The task",
+    "sub": "Thirty minutes of pegs"
+   }
+  },
+  {
+   "say": "The researchers were Leon Festinger and James Carlsmith. Festinger had recently proposed a theory called cognitive dissonance, which said that people feel an uncomfortable tension when their beliefs and actions don't match, and that they are driven to reduce it. This experiment was designed to put that theory to a surprising test.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Festinger & Carlsmith",
+    "where": "Stanford University, 1959",
+    "what": "Paid to say a boring task was fun"
+   }
+  },
+  {
+   "say": "After the dull hour, the experimenter explained that the study compared people who had been told beforehand that the tasks were enjoyable with people who had not. The next participant, he said, was waiting outside, and the assistant who usually told them it was fun was unavailable. Would the participant do it instead, and say that the pegs were fun and interesting?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The twist",
+    "sub": "A small lie"
+   }
+  },
+  {
+   "say": "Some participants were offered one dollar to tell this small lie. Others were offered twenty dollars, which in 1959 was a significant sum. A control group wasn't asked to lie at all. Nearly everyone agreed. They told the waiting person, often a young woman who was actually part of the experiment, that the task had been enjoyable.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "The offer",
+    "sub": "One dollar or twenty"
+   }
+  },
+  {
+   "say": "At the end, a different person, supposedly from the psychology department, asked each participant how much they had enjoyed the task, how much they had learned, and how willing they would be to take part in a similar one. It was a simple survey, and it contained the whole point of the study.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The three groups",
+    "items": [
+     "Paid twenty dollars to tell the lie",
+     "Paid one dollar to tell the lie",
+     "Control group: never asked to lie",
+     "All rated the task afterwards"
+    ]
+   }
+  },
+  {
+   "say": "This is the result that surprised everyone. The group paid only one dollar rated the task as more enjoyable than the group paid twenty. The twenty-dollar group's rating was about the same as the control group's, close to zero, which was a mild dislike. The one-dollar liars had talked themselves into it.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Rating of how enjoyable the task was",
+    "big": "+1.35",
+    "label": "the one-dollar group, against -0.05 for the twenty-dollar group"
+   }
+  },
+  {
+   "say": "Here is how Festinger explained it. The twenty-dollar group had a perfectly good reason for what they said. They were paid well, so the lie made sense. There was no tension. But the one-dollar group had a problem. They had said something false for almost no reward, and that was uncomfortable.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 30,
+    "title": "Why it happened"
+   }
+  },
+  {
+   "say": "One way out of the discomfort was to change what they believed. If the task had in fact been a little interesting, then they weren't lying at all. So, without realising it, they adjusted their view of the task to fit what they had done. The attitude followed the behaviour, instead of the other way round.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The tension",
+    "sub": "I'm not a liar"
+   }
+  },
+  {
+   "say": "That is the core of cognitive dissonance. We like to think we choose our beliefs and then act on them. Much of the time, the reverse happens. We act, and then we build the story that makes the action seem sensible. Sometimes it's a good story, and sometimes it's a convenient one.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "When we cannot justify what we did, we change what we think",
+    "by": "A summary of Festinger's idea, paraphrased"
+   }
+  },
+  {
+   "say": "Festinger had already studied dissonance in a very different setting. In the mid-1950s, he and his colleagues infiltrated a small group that believed a flood would destroy the world on a particular date. When the day passed and nothing happened, some members didn't abandon their belief. They became more committed and began trying to convince others.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Where it began",
+    "sub": "When prophecy fails"
+   }
+  },
+  {
+   "say": "It's one of the most famous case studies in social psychology, though it's been criticised for how the researchers took part in the group, and how the evidence was gathered. It remains a vivid picture of how hard it can be to give up a belief when a lot has been invested in it.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Festinger, Riecken & Schachter",
+    "where": "When Prophecy Fails, 1956",
+    "what": "A study of a group whose predicted disaster did not come"
+   }
+  },
+  {
+   "say": "Like all the studies in this video, this one has its critics. The experiment was small, with only a few dozen participants split across the conditions. Some of the data was set aside, and some participants had doubts or suspicions about the setup. And the results have not been easy to reproduce in exactly the same form.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "n": 31,
+    "title": "The doubts"
+   }
+  },
+  {
+   "say": "Other psychologists have offered different explanations. One idea, from Daryl Bem in the 1960s, was that we don't feel any tension at all. We simply look at what we did and infer what we must believe, the way an outsider would. Another is that people were trying to look consistent in front of the experimenter.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A fair question",
+    "sub": "Is it really dissonance?"
+   }
+  },
+  {
+   "say": "Over the following decades, researchers ran many variations, and a large body of evidence suggests that the basic effect is real, at least when people feel personally responsible for an action that goes against their beliefs. Studies in this area have been done in many countries, and with many kinds of choices, although the details are still argued over.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "cap": "The debate",
+    "sub": "Decades of follow-up"
+   }
+  },
+  {
+   "say": "That last point is the most useful. Paying someone a lot to do something they dislike leaves them with a ready excuse, and so it doesn't change their mind. Paying them a little, or nothing, leaves them to find the reason inside, and sometimes they find one that wasn't there before.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "When dissonance is strongest",
+    "items": [
+     "We chose freely, nobody forced us",
+     "The action was public",
+     "It clashes with how we see ourselves",
+     "We had no good external excuse"
+    ]
+   }
+  },
+  {
+   "say": "Think of a time you spent a lot on something and then found yourself defending it. Or of the way people become fond of a difficult job, a long climb or an expensive membership. The harder it was to get, the more we tend to value it. Effort is a kind of cost, and we like to believe our costs were worth it.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "Everyday dissonance",
+    "sub": "The expensive purchase"
+   }
+  },
+  {
+   "say": "In a related study the same year, Elliot Aronson and Judson Mills found that women who had gone through an embarrassing initiation to join a discussion group rated that group as more interesting than those who had gone through a mild one, even though the group was deliberately dull. It's the same idea: we justify what we paid.",
+   "show": {
+    "type": "stat",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "title": "Aronson & Mills",
+    "big": "1959",
+    "label": "people who went through a harsher initiation rated their group more highly"
+   }
+  },
+  {
+   "say": "That has a darker side. Once we have made a decision publicly, we're tempted to defend it, even when evidence appears against it. Investors hold on to failing bets, managers pour money into failed projects and people stay in situations they'd be better off leaving, because admitting the mistake would mean admitting the cost.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The darker side",
+    "sub": "Sticking with mistakes"
+   }
+  },
+  {
+   "say": "These are small, but they matter. If changing your mind feels like a defeat, you'll tend to avoid it. If it feels like an ordinary part of learning, you'll do it more often. A good team, or a good friendship, makes the second kind of feeling easier.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Ways to notice dissonance in yourself",
+    "items": [
+     "Notice when you're defending, not asking",
+     "Ask what you'd advise a friend",
+     "Separate the decision from your identity",
+     "Make it safe to change your mind"
+    ]
+   }
+  },
+  {
+   "say": "A pegboard doesn't look like a doorway to a big idea. But sometimes the dullest scene holds the cleverest question. How much do our actions shape what we believe about ourselves? More, it turns out, than we would like to admit.",
+   "show": {
+    "type": "photo",
+    "file": "lf17_b11_01.jpg",
+    "cap": "A pegboard and a half hour"
+   }
+  },
+  {
+   "say": "There's a gentle side to this as well. When we notice dissonance, we can respond with curiosity rather than shame. The version of you who made that choice was doing the best they could with what they knew. You can learn from it without having to defend it or to punish yourself for it.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Kindness to your past self"
+   }
+  },
+  {
+   "say": "So what did the pegs and the dollar teach us? That we are storytellers, that we rewrite our own reasons, and that a small push can change how we feel about what we've done. Knowing that doesn't make us immune, but it gives us a chance to catch ourselves in the act.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the pegs taught us"
+   }
+  },
+  {
+   "say": "Dissonance shows up in some very important places. People who smoke, for example, often come up with reasons why the risks don't apply to them. Voters who have supported a candidate may defend that candidate more strongly after a scandal. Researchers who've studied the thing have found that when people are shown evidence against a choice they've made, some respond by doubling down instead of changing course.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "In the wild",
+    "sub": "Dissonance and big choices"
+   }
+  },
+  {
+   "say": "One of the most useful responses is also the simplest. Say it out loud: I was wrong about that, and I've changed my mind. It sounds like a loss, but those who do it are usually trusted more, not less. The people we admire most are often those who can update gracefully. Learning to be one of them is a skill, and like any skill, it grows with practice.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A way out",
+    "sub": "The humble reset"
+   }
+  },
+  {
+   "say": "For our last story, we turn to a famous idea that most people think they understand, and which is perhaps more subtle than the internet suggests. It's about confidence, skill, and the strange difficulty of seeing our own blind spots.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "The people who think they are above average"
+   }
+  }
+ ]
+}

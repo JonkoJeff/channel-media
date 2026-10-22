@@ -1,0 +1,288 @@
+{
+ "id": "lf17_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Picture a bright playroom at a university nursery school in the late 1950s and early 1960s. There are crayons, a few toys, and in one corner, a large inflatable doll, about the height of a child, with a weighted bottom so that it always springs back up. It was called a Bobo doll. And it became one of the most famous props in psychology.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "n": 9,
+    "title": "A doll that got punched"
+   }
+  },
+  {
+   "say": "The psychologist behind the experiment was Albert Bandura at Stanford University. He wanted to test an idea that, at the time, was not very popular. Many psychologists believed that learning only happened through rewards and punishments you personally received. Bandura suspected that children also learn simply by watching other people.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The question",
+    "sub": "Do children learn by watching?"
+   }
+  },
+  {
+   "say": "The first study appeared in 1961 in the Journal of Abnormal and Social Psychology. Seventy-two children took part, thirty-six boys and thirty-six girls, aged between about three and a half and five and a half. They were divided into groups, and each group saw something different.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Bandura, Ross & Ross",
+    "where": "Stanford University, 1961",
+    "what": "Children watched an adult behave aggressively or calmly toward a Bobo doll"
+   }
+  },
+  {
+   "say": "In one version, a child sat in a room and watched an adult play quietly with some toys, ignoring the Bobo doll completely. In another, the adult attacked it. She hit it with a mallet, kicked it, threw it in the air, and shouted phrases like sock him in the nose. Then the adult left, and the child was taken to a different room full of attractive toys.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "What the children saw",
+    "sub": "Two kinds of adult"
+   }
+  },
+  {
+   "say": "There's an important detail here. Before the child was left alone with the doll, the researchers let them begin to play with some especially nice toys, and then told them these were reserved for other children. It was a mild, brief frustration, designed to make aggression more likely. Only then was the child taken to the room with the Bobo doll.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A little frustration",
+    "sub": "Taking the toys away"
+   }
+  },
+  {
+   "say": "The researchers watched through a one-way mirror and counted how often each child did these things. And the difference was clear. Children who had seen the adult attack the doll were much more likely to attack it themselves, sometimes copying the exact words, the exact swings and the exact kicks.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What the researchers measured",
+    "items": [
+     "Hitting the doll with a mallet",
+     "Kicking it",
+     "Repeating the adult's words",
+     "Other aggressive play that was not copied"
+    ]
+   }
+  },
+  {
+   "say": "Children who had seen a calm adult, or no adult at all, did not behave this way. Bandura also noticed that boys were generally more physically aggressive than girls, and that children were more likely to copy a model of their own sex. These were findings about a particular group of children, in a particular playroom, but they were striking.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Children in the aggressive group",
+    "big": "Copied it",
+    "label": "many of the adult's exact actions and words"
+   }
+  },
+  {
+   "say": "In 1963, Bandura and his colleagues repeated the experiment, but this time some of the children saw the aggression on film instead of in person. Some saw a human on film, some saw a cartoon character dressed as a cat. And children in all three groups showed more aggression than children who saw nothing.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "A second step",
+    "sub": "The film version"
+   }
+  },
+  {
+   "say": "Now for one of the most important parts of the story. In 1965, Bandura ran another version, and in it the children saw the adult being either rewarded, punished or ignored after attacking the doll. The children who saw the adult punished imitated her less. That sounds like a simple lesson, but there was a twist.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 10,
+    "title": "What was really learned"
+   }
+  },
+  {
+   "say": "When the researcher offered the children a reward, a sticker and a fruit juice, for showing what they remembered, children from all three groups could reproduce the adult's behaviour just as well. They had learned the actions whether or not they chose to perform them. Learning and doing, in other words, are two different things.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The twist",
+    "sub": "They had learned it anyway"
+   }
+  },
+  {
+   "say": "Notice how modern that sounds. A child can learn something by seeing it, store it, and show it years later when the situation seems right. Bandura called this observational learning, and it became part of what is known as social learning theory.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Bandura's lesson",
+    "items": [
+     "We learn by watching",
+     "We notice who is rewarded or punished",
+     "We may not copy what we have learned",
+     "Learning and doing are different"
+    ]
+   }
+  },
+  {
+   "say": "It mattered because it changed how psychologists talked about children, and about people in general. Instead of being blank sheets shaped only by their own rewards and punishments, we are watchers. We study how others handle the world, we notice what works for them, and we quietly keep notes.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "cap": "Why it mattered",
+    "sub": "A different picture of learning"
+   }
+  },
+  {
+   "say": "And that watching goes both ways. In later research, Bandura and others showed that children also imitate calm, patient, generous behaviour. A child who sees a parent apologise, share or comfort someone has a chance of absorbing that too. The same mechanism that can copy a punch can also copy a kindness.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "And the other direction",
+    "sub": "Kindness is catchy too"
+   }
+  },
+  {
+   "say": "As with every famous experiment, there is a second chapter. Critics have pointed out that a Bobo doll is designed to be hit. It bounces back, it's meant to be punched, and a child might see hitting it as simply the game. So is it really evidence of aggression, or only evidence that children copy playful actions?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "n": 11,
+    "title": "The criticisms"
+   }
+  },
+  {
+   "say": "It's a fair question, and psychologists have debated it for decades. Hitting an inflatable doll is not the same as hurting another person, and the lab was an unusual place. The adult actors were also strangers who seemed to give permission, which could have made the children feel it was allowed.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A fair question",
+    "sub": "What counts as aggression?"
+   }
+  },
+  {
+   "say": "Later, the question grew into a larger and noisier debate about violent films and games. Some reviews, such as one by Craig Anderson and Brad Bushman in 2001, concluded that violent media increases aggression slightly in the short term. Others, including researchers like Christopher Ferguson, have argued that the effects are very small and hard to separate from other factors.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Anderson & Bushman",
+    "where": "Psychological Science, 2001",
+    "what": "A review of studies on violent media and aggression"
+   }
+  },
+  {
+   "say": "An honest summary is that the field has not settled on one answer. What seems safest to say is this. Children do learn from models, especially models they admire, and watching matters. But whether a particular film or game changes real-world behaviour is a harder question, and the evidence is not as dramatic as headlines suggest.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Where that leaves us",
+    "sub": "Small effects, real questions"
+   }
+  },
+  {
+   "say": "These are qualitative impressions rather than exact numbers, and so we won't pretend to measure them. What's worth remembering is that the original experiment answered one narrow question very well: can children copy what they see? It did not answer every question about television or games, and Bandura never claimed that it did.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "title": "A rough picture of the debate",
+    "items": [
+     "Short-term lab aggression: small effect",
+     "Everyday real-world violence: very small",
+     "Kind and helpful behaviour copied: real"
+    ]
+   }
+  },
+  {
+   "say": "The setting itself was almost cheerful. Bright toys, soft light, a doll that springs back every time. That contrast is one reason the study is so memorable. It reminds us that what shapes a child is not only what they are told, but what they quietly watch in a room that seems perfectly ordinary.",
+   "show": {
+    "type": "photo",
+    "file": "lf17_b04_01.jpg",
+    "cap": "An empty playroom, a springy doll"
+   }
+  },
+  {
+   "say": "Think about the small habits you picked up from watching someone. The way you hold a cup, the way you say sorry, how you react when you're frustrated. Most of us have never been taught these things directly. We watched, we absorbed, and we reproduced them. That, in a sentence, is what Bandura set out to show.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "An everyday echo",
+    "sub": "The watching eyes"
+   }
+  },
+  {
+   "say": "It can sound like a lot of pressure, and it isn't meant to. Nobody models perfect behaviour. But it can be reassuring to know that repair counts too. When we apologise, or we say we handled something badly and want to try again, that is also something a child can watch and keep.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Small things that children copy",
+    "items": [
+     "How we talk when we're frustrated",
+     "How we apologise",
+     "How we treat strangers",
+     "How we speak about ourselves"
+    ]
+   }
+  },
+  {
+   "say": "So what did the doll teach us? That children learn by watching, that learning and acting are separate, and that models matter. And it taught researchers to be careful, because even a very famous result can be a narrow one. The best response is neither to worship it nor to dismiss it.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the doll taught us"
+   }
+  },
+  {
+   "say": "If you ever worry that someone is watching and learning from your worst moment, remember that they are also watching your repairs. Children, friends and colleagues notice how we recover. A good apology may be the most useful lesson you can model all week.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "You are being watched kindly"
+   }
+  },
+  {
+   "say": "If we take Bandura seriously, the most powerful lessons children receive may not be the ones we say out loud. A parent who talks calmly about a disagreement is giving a lesson. A teacher who admits a mistake is giving a lesson. An older sibling who is patient with a younger one is giving a lesson. None of these has a script. They are simply behaviours, in view of a child, day after day.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "In the home",
+    "sub": "Models in everyday life"
+   }
+  },
+  {
+   "say": "Today, many of those models are on screens. Children watch streamers, vlogs, cartoons and games, and they pick up phrases, gestures and attitudes from them. The question that Bandura asked in a nursery is still the right one: who is being watched, and what are they showing? It's a more useful question than simply how many hours, and it's one that adults can often answer by watching alongside.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "Models online",
+    "sub": "Who children watch now"
+   }
+  },
+  {
+   "say": "Next, we're going to meet two very different kinds of mother, neither of them real. This story is a gentle one at first, and then a sad one, and it changed how people think about love, comfort and what a baby really needs.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Two mothers made of wire and cloth"
+   }
+  }
+ ]
+}

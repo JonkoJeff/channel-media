@@ -1,0 +1,294 @@
+{
+ "id": "lf17_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine you walk into a quiet room for what you've been told is a simple vision test. Seven other people are already seated around a table. The researcher shows everyone a card with a single line on it, and then another card with three lines of different lengths. Your task is easy: say which of the three matches the first.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 4,
+    "title": "The room with the wrong answers"
+   }
+  },
+  {
+   "say": "This is the setup of one of the most famous experiments in social psychology. It was run by Solomon Asch, a psychologist at Swarthmore College in Pennsylvania, in the early 1950s. The lines were not tricky. When people did the task alone, they got it right almost every time.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The setup",
+    "sub": "Swarthmore College, 1951"
+   }
+  },
+  {
+   "say": "But here is what you don't know. Every other person at that table is working with the researcher. They are actors, and they have agreed in advance what to say. You sit near the end, so you hear everyone else answer first. And on certain rounds, one after another, they all give the same wrong answer.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The catch",
+    "sub": "Everyone else is in on it"
+   }
+  },
+  {
+   "say": "There were eighteen rounds in total. On twelve of them, the group gave a wrong answer on purpose. These were called the critical trials. The question Asch asked is a plain one. When the evidence of your own eyes says one thing, and a whole room says another, which do you trust?",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Solomon Asch",
+    "where": "Swarthmore College, 1951",
+    "what": "Participants judged line lengths after a unanimous, wrong group"
+   }
+  },
+  {
+   "say": "Asch himself believed people would mostly stay independent. He thought of conformity as something that happened when a situation was truly confusing, not when the answer was this obvious. The task was meant to be a fair test of whether our eyes would win. They did not always win.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "What he expected",
+    "sub": "Surely people would hold firm"
+   }
+  },
+  {
+   "say": "About three quarters of the people tested gave the group's wrong answer at least once. Across all the critical rounds, around a third of the answers were wrong in the same direction as the group. And roughly a quarter of the participants never went along at all. The group was not a wall, but it was a strong wind.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Went along at least once",
+    "big": "About 75%",
+    "label": "of participants in the classic study"
+   }
+  },
+  {
+   "say": "Notice that the results were never all or nothing. This is something the legend tends to flatten. The experiment did not show that people are sheep. It showed that people are social creatures who can feel real pressure, and that they respond to it in very different ways.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What people did",
+    "items": [
+     "About a quarter never went along",
+     "Most gave the wrong answer at least once",
+     "A few went along nearly every time",
+     "Many looked visibly uncomfortable"
+    ]
+   }
+  },
+  {
+   "say": "Asch interviewed his participants afterwards, and this is where the study becomes very human. Some people said they truly began to doubt their own eyes. Some said they knew the group was wrong, but didn't want to be the odd one out. And some said they assumed the others must know something they didn't.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "After the test",
+    "sub": "Why they said it"
+   }
+  },
+  {
+   "say": "Those are very different reasons, and psychologists give them different names. When you change your mind because you trust the group's information, it's often called informational influence. When you go along to be liked or accepted, it's called normative influence. Asch's room had both, and they're hard to pull apart.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "I did not want to appear different",
+    "by": "A participant, paraphrased from Asch's interviews"
+   }
+  },
+  {
+   "say": "Now for the part of this experiment that I find the most hopeful. Asch ran many versions. In one of them, a single actor at the table gave the correct answer. Just one. And when that happened, the pressure fell dramatically. The wrong answers dropped to a small fraction of what they had been.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 5,
+    "title": "A single ally"
+   }
+  },
+  {
+   "say": "Think about what that means. The participant was still outnumbered. Nearly everyone in the room still disagreed with them. But once they knew they were not alone, they felt much freer to say what they saw. It didn't even matter if the ally agreed with them for the right reasons. Simply being unanimous was what had been so strong.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "One voice",
+    "sub": "The power of company"
+   }
+  },
+  {
+   "say": "In another version, a second actor also disagreed with the majority, but gave a different wrong answer. And that also reduced conformity. It seems that what mattered was less about being right, and more about breaking the feeling that everyone in the room was one voice.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Even a different wrong answer",
+    "sub": "Breaking the spell"
+   }
+  },
+  {
+   "say": "These versions show that conformity is not a fixed trait. It changes with the situation. A meeting where everyone must speak aloud will often feel different from one where people write their thoughts first. That's a small design choice, and it can change what a group ends up deciding.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What loosened the group's grip",
+    "items": [
+     "One person who gave the correct answer",
+     "One person who disagreed in any way",
+     "Answering in writing instead of out loud",
+     "Having a break before answering"
+    ]
+   }
+  },
+  {
+   "say": "Over the years, many researchers repeated Asch's experiment, and they found that the story changes with time and place. A large review of a hundred and thirty-three studies from seventeen countries, published by Rod Bond and Peter Smith in 1996, found that conformity tended to be higher in cultures that emphasise group harmony.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "n": 6,
+    "title": "Does it work everywhere?"
+   }
+  },
+  {
+   "say": "The same review found that, in the United States, conformity in this kind of task had fallen since the 1950s. That's a good reminder that these experiments are not describing a law of nature. They are describing people in a particular era, who were answering a particular kind of question, in a particular kind of room.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Bond & Smith",
+    "where": "Psychological Bulletin, 1996",
+    "what": "A review of 133 studies across 17 countries"
+   }
+  },
+  {
+   "say": "In 2005, a team led by Gregory Berns at Emory University tried a brain-scanning version of a similar task, with shapes to mentally rotate instead of lines to compare. When people went along with a wrong group, activity changed in areas linked to perception and space. When they stood alone, areas associated with emotion were more active.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "cap": "A modern echo",
+    "sub": "What the brain did"
+   }
+  },
+  {
+   "say": "That finding is intriguing, but it comes from a small study, and nobody should treat it as the final word. A sensible reading is this. Going along might sometimes change how we see the problem, not just what we say about it. And standing apart might actually feel like something, which would explain why it's hard.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A careful reading",
+    "sub": "Not a final answer"
+   }
+  },
+  {
+   "say": "There's one more complication worth holding onto. Asch used strangers, in a short, artificial task, with nothing at stake. Real life is different. In real life, the group might be our family, our colleagues or our friends, the stakes might be high, and the cost of disagreeing might be a real one.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A complication",
+    "sub": "Not every group is the same"
+   }
+  },
+  {
+   "say": "Think of the last meeting you attended where someone senior spoke first. Did the next person agree a little more readily than they might otherwise have? Perhaps they did, and perhaps for good reasons. But it can be useful to know the effect exists, so that you can choose when to follow, and when to gently say what you see.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "An everyday version",
+    "sub": "The meeting"
+   }
+  },
+  {
+   "say": "None of these are dramatic. They're quiet habits. And the beauty of the original experiment is that it also contains the cure. If one voice can change the room, then you can sometimes be that voice, and you can notice when someone else needs one.",
+   "show": {
+    "type": "list",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "title": "Small ways to stay independent",
+    "items": [
+     "Write your view down before you hear the group",
+     "Ask the quietest person first",
+     "Look for one ally, or be one",
+     "Remember that unanimous does not mean correct"
+    ]
+   }
+  },
+  {
+   "say": "It is easy to forget how simple the original task was. Three lines, one obvious answer. And yet a room full of people was enough to make some of us hesitate. That's not a sign that anyone was foolish. It's a reminder of how much of our thinking happens in company.",
+   "show": {
+    "type": "photo",
+    "file": "lf17_b02_01.jpg",
+    "cap": "Three lines, one obvious answer"
+   }
+  },
+  {
+   "say": "So what did Asch show? Not that humans are sheep, and not that the group always wins. He showed that unanimity has a pull, that it can be loosened by a single ally, and that most people, most of the time, feel the tension between what they see and what they are expected to say.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What Asch really showed"
+   }
+  },
+  {
+   "say": "If you take one thing away from this story, let it be the ally. The next time you're in a room where everyone is nodding, and someone quietly hesitates, you may be the single voice that makes it easier for them to speak. And when you're the one who hesitates, you may find that someone else is already on your side.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Be someone's ally"
+   }
+  },
+  {
+   "say": "If you want to feel a little of what Asch's participants felt, try a gentle version. The next time a group is choosing a restaurant, or a film, or a name for something, say nothing for a moment and watch how quickly the first confident opinion becomes the group's opinion. Notice how few people say what they privately think. And then notice how much easier the second person finds it to speak once the first has dared. It isn't a laboratory, but you'll see the same quiet machinery, running on friendship and politeness.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Try it yourself",
+    "sub": "A tiny experiment at home"
+   }
+  },
+  {
+   "say": "It's also worth saying that conformity is not always a flaw. If everyone on a mountain path turns back, they may know something about the weather. If a whole street avoids a restaurant, they may be right. Following others is often a sensible shortcut, because other people carry information. The difficulty is that the shortcut works just as smoothly when the group is wrong. So the skill is not to resist every crowd, but to notice when you are following it without having asked yourself why, and to check, if the stakes are high.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why it makes sense",
+    "sub": "Agreeing is often wise"
+   }
+  },
+  {
+   "say": "Asch's study helped open a whole field. Researchers began to ask how groups shape what we say, what we buy, what we believe and even what we remember. Later work showed that people can misremember events after hearing a confident companion describe them differently. None of it suggests that we are puppets. It suggests that human beings are built to learn from each other, and that this great strength has a few predictable weak spots.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "cap": "The wider legacy",
+    "sub": "Peer pressure in the lab and beyond"
+   }
+  },
+  {
+   "say": "Our next story is a much darker one. It asks how far ordinary people will go when a calm, official voice tells them to continue. It's one of the most disturbing experiments ever run, and it's one that psychologists are still arguing about today.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "A man in a grey coat"
+   }
+  }
+ ]
+}

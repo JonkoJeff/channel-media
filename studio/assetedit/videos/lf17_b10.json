@@ -1,0 +1,294 @@
+{
+ "id": "lf17_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In August 1971, a newspaper advertisement in Palo Alto offered fifteen dollars a day for volunteers to take part in a psychological study of prison life. Dozens of young men responded. Within days, a basement corridor in the psychology building at Stanford University had been turned into a pretend jail, with cell doors, a closet for solitary confinement and a hidden camera.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 26,
+    "title": "A basement at Stanford"
+   }
+  },
+  {
+   "say": "The researcher was Philip Zimbardo, a social psychologist at Stanford. He had been thinking about how situations shape behaviour, and he wanted to see what would happen when ordinary, healthy young men were put into the roles of prisoners and guards. He planned for the study to last two weeks.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The man in charge",
+    "sub": "Philip Zimbardo"
+   }
+  },
+  {
+   "say": "Twenty-four young men were selected after tests and interviews that screened out anyone with psychological problems or a record of crime. Then, by the toss of a coin, half became guards and half became prisoners. In theory, the two groups were the same kind of person. Only the role was different.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The selection",
+    "sub": "Flip of a coin"
+   }
+  },
+  {
+   "say": "The prisoners were arrested at their homes by real police officers, fingerprinted, blindfolded and brought to the basement. They were stripped, given smocks and numbers instead of names, and a chain around one ankle. The guards received khaki uniforms, batons and mirrored sunglasses, which meant that nobody could meet their eyes.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Philip Zimbardo",
+    "where": "Stanford University, 1971",
+    "what": "Volunteers assigned to play prisoners and guards in a mock prison"
+   }
+  },
+  {
+   "say": "It's said that nothing happened at first. The guards were unsure how to behave, and the prisoners treated the whole thing as a bit of a joke. But on the second day, the prisoners rebelled, barricading their cells with beds. The guards, humiliated, responded in a way that Zimbardo later described as the turning point.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The first day",
+    "sub": "Nothing happened"
+   }
+  },
+  {
+   "say": "According to Zimbardo's account, the guards used fire extinguishers to break the barricade, forced prisoners to strip, took their beds away and made them do push-ups and clean toilets with their hands. Some of the guards seemed to enjoy their power. Some of the prisoners became anxious, depressed or withdrawn, and one had an emotional breakdown after only thirty-six hours.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "How it went",
+    "sub": "Harsh rules, small cruelties"
+   }
+  },
+  {
+   "say": "The experiment was supposed to run for two weeks, but it ended after six days. The one who stopped it was Christina Maslach, a young psychologist and Zimbardo's partner, who was shocked at what she saw when she visited the basement. She told him that what he was doing to those boys was terrible, and he decided to stop.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Planned length",
+    "big": "14 days",
+    "label": "ended after only 6"
+   }
+  },
+  {
+   "say": "That, at least, is the story as it has been often told. And it reached a vast audience. The study became the subject of books, a documentary and a feature film, and Zimbardo spent decades arguing that it showed how situations, not personalities, can make good people do bad things.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "What is terrible is not what is happening to the prisoners, it is what is happening to you",
+    "by": "Christina Maslach, as later recalled"
+   }
+  },
+  {
+   "say": "But over the years, the story has come under strong pressure. Researchers began to ask how much of the behaviour in the basement was spontaneous, and how much the guards had been coached to perform. The key was in the recordings and the documents, and a French researcher named Thibault Le Texier spent years going through them.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 27,
+    "title": "The pushback"
+   }
+  },
+  {
+   "say": "Le Texier's paper reported that, before the study began, the guards were given instructions. They were told, for instance, that they could create boredom, fear and a sense of powerlessness, and that the prisoners had no privacy and no freedom of action. Some guards reportedly pushed harsher behaviour only after being encouraged by the experimenters.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Thibault Le Texier",
+    "where": "American Psychologist, 2019",
+    "what": "Debunking the Stanford Prison Experiment"
+   }
+  },
+  {
+   "say": "One of the most notorious guards, nicknamed John Wayne by the prisoners, was Dave Eshleman. He later said that he had decided to play a character, partly based on a film, to see what would happen. In an interview, he said he'd been trying to help the experiment by acting the way he thought a tough guard would act.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The guard who acted",
+    "sub": "Dave Eshleman"
+   }
+  },
+  {
+   "say": "Another disputed moment was the early breakdown of a prisoner who was released after thirty-six hours. Later, the same man said that he had been, in part, acting, because he wanted to leave and to get back to study for an exam. He reported he hadn't been told that he could simply quit, and he felt his only way out was to appear to be falling apart.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The breakdown",
+    "sub": "Was it real?"
+   }
+  },
+  {
+   "say": "Those four points are the core of the criticism. They don't mean that nothing real happened, but they do mean that the basement may have been more of a staged drama than a spontaneous natural experiment, and that the lessons drawn from it may have been overstated.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What the critics say",
+    "items": [
+     "Guards were told what kind of behaviour was expected",
+     "Some behaviour may have been acting",
+     "Prisoners were not told they could leave easily",
+     "The sample was small and not representative"
+    ]
+   }
+  },
+  {
+   "say": "Zimbardo has defended the study. He has said that the guards were free to behave as they chose, that the instructions were general, and that the experiment still shows how powerful a role can be. Some of the guards, he points out, were kinder, and some were unusually cruel, and that variety is part of the point.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Zimbardo's reply",
+    "sub": "A defence"
+   }
+  },
+  {
+   "say": "In 2002, two British psychologists, Alexander Haslam and Stephen Reicher, ran a different version for the BBC, with a more carefully monitored mock prison. Fifteen men were divided into guards and prisoners. And they found that the guards, in general, did not take to their roles. They didn't become tyrants. They were uncomfortable with authority, and the prisoners eventually took control.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "An alternative test",
+    "sub": "The BBC Prison Study"
+   }
+  },
+  {
+   "say": "The BBC study had its own limits, because the participants knew that cameras were rolling and that the situation was artificial. But it offered a different lesson. People don't automatically slide into cruelty because of a uniform. How they behave depends on whether they identify with the group, and on whether they believe in what they are being asked to do.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Haslam & Reicher",
+    "where": "British Journal of Social Psychology, 2006",
+    "what": "The BBC Prison Study"
+   }
+  },
+  {
+   "say": "This is a loose picture, not a measurement, and it would be unfair to put numbers on it. But it shows a shift in how many psychologists now see the story. The simple claim that situations turn good people cruel has been replaced by a more careful one, which says that roles matter, and so do leaders, beliefs and choices.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "title": "A rough comparison",
+    "items": [
+     "Stanford 1971 as told: harsh guards",
+     "BBC 2002: guards resisted the role",
+     "Real-world research: mixed"
+    ]
+   }
+  },
+  {
+   "say": "Why, then, did this study become so famous, if it was so shaky? The answer is partly that it's a great story. It has a villain's mirror, a rescue, a dramatic ending and an easy moral. And that moral, that anyone could do this, is both frightening and oddly comforting. It lets us off the hook.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "n": 28,
+    "title": "Why the story lasted"
+   }
+  },
+  {
+   "say": "If the situation does everything, then no one is quite responsible. But the evidence from real life tells a different story. People in the same difficult circumstances often make very different choices. Some resist, some quietly refuse, and some use their power gently. The room matters, but so does the person in it.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A comforting idea",
+    "sub": "If it was the situation, not me"
+   }
+  },
+  {
+   "say": "This is a smaller and more careful list than the original claims. It's a lesson about influence, and not a law that rules us. And if we take it seriously, it points to something more useful: if roles can shape us, then the people who design the roles, and the rules around them, are the ones with the greatest responsibility.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What survives of the study",
+    "items": [
+     "Roles and uniforms can shape how we act",
+     "Leaders can encourage or discourage cruelty",
+     "People often act as they think the authority wants",
+     "Individuals can still choose differently"
+    ]
+   }
+  },
+  {
+   "say": "You don't need a mock prison to see this at work. A shop assistant with a name badge, a parking attendant, a manager with a new title. Small amounts of power can change how people behave, sometimes for the worse and sometimes for the better. It's worth noticing when you're on either side of it.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A modern echo",
+    "sub": "Power in everyday life"
+   }
+  },
+  {
+   "say": "Many people ask what they would have done in the basement, as a guard or a prisoner. It's a natural question, but perhaps a more useful one is this: what would I do tomorrow, if I were given a role with a little power? Would I ask what the rules are for, and who they protect?",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "cap": "A better question",
+    "sub": "What would I do?"
+   }
+  },
+  {
+   "say": "It's a plain corridor with a few doors, and yet it has stood for half a century as a symbol of how roles can change us. What we now know is that the picture is more complicated than the one in the textbooks. Which makes it a better story, even if it's a less tidy one.",
+   "show": {
+    "type": "photo",
+    "file": "lf17_b10_01.jpg",
+    "cap": "An empty corridor, a bare bulb"
+   }
+  },
+  {
+   "say": "It's worth remembering that the guards in that basement were nineteen- and twenty-year-old students with a few days of acting. We are not destined to be the worst version of any role. We can ask questions, and we can quietly decline the part that someone else has written for us.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Roles are not destiny"
+   }
+  },
+  {
+   "say": "So what did the basement teach us? Perhaps less than we once thought about human nature, and more about how science works. A vivid story can outrun its evidence, and a careful second look is part of the process. That doesn't make the study useless. It makes it a lesson twice over.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the basement taught us"
+   }
+  },
+  {
+   "say": "The story of the basement is also a story about how science should work. A study is not finished when it is published. Others need to be able to check the records, ask the participants and run it again in a different way. In this case, that checking took decades, and it changed the picture. Many psychologists see this as a healthy sign, and it is one reason the field has put so much effort lately into sharing data and registering studies in advance.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why it matters for science",
+    "sub": "Replication and honesty"
+   }
+  },
+  {
+   "say": "Our next experiment is a quieter one. It's about a boring task, a small amount of money, and a lie. And it helps explain why we sometimes end up believing the things we've said, even when we didn't believe them at first.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "A boring task and a dollar"
+   }
+  }
+ ]
+}

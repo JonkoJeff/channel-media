@@ -1,0 +1,284 @@
+{
+ "id": "lf17_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In March 1964, a young woman named Kitty Genovese was attacked and killed near her home in Queens, in New York City. A couple of weeks later, a newspaper article claimed that thirty-eight people had watched or heard, and that not one of them had called the police. The story shocked the country, and it launched a famous line of research.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 15,
+    "title": "A seizure nobody helped"
+   }
+  },
+  {
+   "say": "The headline was powerful, and it seemed to say something terrible about city life. How could so many people look on and do nothing? Two young social psychologists, John Darley at New York University and Bibb Latané at Columbia, wondered whether the answer was not that people were heartless, but something about the crowd itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The headline",
+    "sub": "Thirty-eight witnesses"
+   }
+  },
+  {
+   "say": "Their idea was almost the opposite of what most people expected. The more people who are present, they suggested, the less likely any one person is to help. Each person assumes someone else will act, or looks around and sees others doing nothing and concludes that nothing is wrong. They called one part of this diffusion of responsibility.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A new idea",
+    "sub": "Many witnesses, less help"
+   }
+  },
+  {
+   "say": "Here is how they tested it. Students were asked to join a discussion about the pressures of college life. To keep everyone anonymous, they sat in separate rooms and talked through an intercom, taking turns. One of the voices, which belonged to an actor, said he sometimes had seizures, especially under stress.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Darley & Latané",
+    "where": "Journal of Personality and Social Psychology, 1968",
+    "what": "Students heard a fellow participant have a seizure over an intercom"
+   }
+  },
+  {
+   "say": "During the discussion, the actor's voice began to sound distressed. He said he felt a seizure coming on, asked for help, and stumbled over his words, until the intercom went quiet. The real participant, sitting alone in a small room, now had to decide what to do. They could leave the room and tell someone, or they could wait.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The moment",
+    "sub": "A voice in distress"
+   }
+  },
+  {
+   "say": "The key to the experiment was that some participants believed they were the only person who could hear him. Others believed that one, or four, other people were also listening. In every case, the participant could not see anyone else, or know what the others were doing. The only thing that changed was how many people they thought were there.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "The twist",
+    "sub": "Different numbers of listeners"
+   }
+  },
+  {
+   "say": "This is the heart of the study. When people thought they were the only one, eighty-five percent helped before the seizure ended. When they thought four others could hear, just thirty-one percent did. Almost everyone eventually acted in the alone group, but many in the larger groups never did before the end.",
+   "show": {
+    "type": "bars",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "title": "Reported the emergency during the seizure",
+    "unit": "%",
+    "bars": [
+     [
+      "Believed they were alone",
+      85.0
+     ],
+     [
+      "Believed one other was listening",
+      62.0
+     ],
+     [
+      "Believed four others were listening",
+      31.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "What's easy to miss is how the participants behaved. The researchers noted that many of the people who didn't act appeared nervous. They were sweating, fidgeting, and asking whether someone was getting help. They weren't indifferent. They were stuck between wanting to help and not knowing whether it was their job.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Not indifferent",
+    "sub": "They were worried"
+   }
+  },
+  {
+   "say": "Look at that list and ask yourself whether you've ever felt any of those four. A loud noise in a shop, someone looking unwell on a train, a quarrel on the street. It's very human to glance around first to see how everyone else is reacting. And everyone else is glancing too.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Why a crowd can freeze us",
+    "items": [
+     "Responsibility feels shared",
+     "Everyone looks calm, so it must be fine",
+     "We fear looking foolish if we are wrong",
+     "We assume someone else knows what to do"
+    ]
+   }
+  },
+  {
+   "say": "Now for the second chapter. In 2007, three psychologists, Rachel Manning, Mark Levine and Alan Collins, went back to the original Genovese case. They examined court records and newspaper archives, and they found that the legend of thirty-eight silent witnesses was considerably exaggerated.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 16,
+    "title": "The story behind the story"
+   }
+  },
+  {
+   "say": "They found that the attack had happened in several stages, in different places, and that most neighbours had heard only fragments, not a clear view of a murder. Some did call the police. At least one person did go to help, and Kitty Genovese reportedly died in the arms of a neighbour. The picture of a street full of watching, passive people was not right.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Manning, Levine & Collins",
+    "where": "American Psychologist, 2007",
+    "what": "A re-examination of the Kitty Genovese case"
+   }
+  },
+  {
+   "say": "That does not mean the bystander effect isn't real. The seizure study and many that followed are solid. But it shows how a vivid story can reshape what we think we know. The story was easy to remember, and it matched a certain idea about city life. The truth was messier.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A cautionary tale",
+    "sub": "Even the legend was not simple"
+   }
+  },
+  {
+   "say": "In 2011, a large review led by Peter Fischer pulled together a hundred and five studies of bystander behaviour, with more than seven thousand participants. It confirmed that the bystander effect exists, but it also found something important. In clearly dangerous situations, where a victim is in obvious trouble, the effect was much weaker, and sometimes disappeared.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "A big review",
+    "sub": "Many studies together"
+   }
+  },
+  {
+   "say": "That makes sense when you think about it. If it's ambiguous whether something is an emergency, a crowd makes it easier to dismiss. If it's obviously serious, people are far more likely to step in. The effect is stronger when the situation is unclear, and weaker when the danger is plain.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Studies in the 2011 review",
+    "big": "105",
+    "label": "covering more than 7,000 participants"
+   }
+  },
+  {
+   "say": "Perhaps the most hopeful finding comes from a study published in 2020 by Richard Philpot and colleagues. They analysed camera footage of two hundred and nineteen real public conflicts, in the cities of Amsterdam, Cape Town and Lancaster in England. They wanted to know how often bystanders actually did something.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Real streets",
+    "sub": "What cameras show"
+   }
+  },
+  {
+   "say": "In ninety-one percent of the conflicts, at least one person intervened. People stepped in, calmed things down, pulled someone away, or comforted a victim. And, interestingly, the more people who were present, the more likely it was that someone would help. The bystander effect, in the real world, looks different from the one in the lab.",
+   "show": {
+    "type": "stat",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "title": "Conflicts where someone helped",
+    "big": "91%",
+    "label": "in 219 incidents in three cities"
+   }
+  },
+  {
+   "say": "How can both be true? Laboratory studies catch one moment, a person alone in a room with an unclear situation. Real streets are full of clear signals, other people's eyes and the ability to coordinate silently. It's a nice reminder that psychology has to keep going back and forth between the lab and life.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "How to read that",
+    "sub": "Hopeful, but not simple"
+   }
+  },
+  {
+   "say": "Those four are used in many first-aid courses. The most effective one is probably the third. Instead of saying someone should call an ambulance, you point at one person and say, you, in the blue coat, please call an ambulance. It's a way of breaking the spell of shared responsibility.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What you can do in a crowd",
+    "items": [
+     "Assume it is your job, not someone else's",
+     "Say out loud what you see",
+     "Ask one specific person to call for help",
+     "Start with a simple question, are you okay"
+    ]
+   }
+  },
+  {
+   "say": "It's an ordinary scene. A bench, a lamp, a corner. But somewhere on a street like this, someone will, tonight, notice that a stranger looks unwell and will have a choice. Knowing that the pause we feel is common, not a character flaw, can make it a little easier to move.",
+   "show": {
+    "type": "photo",
+    "file": "lf17_b06_01.jpg",
+    "cap": "A quiet street at dusk"
+   }
+  },
+  {
+   "say": "Think about the last time you hesitated to help. Maybe you weren't sure whether it was your business. Maybe you assumed someone closer would step in. That pause is the same one the students felt in the little rooms. And the difference between a pause and a refusal is often a single small action.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "An everyday echo",
+    "sub": "The quiet pause"
+   }
+  },
+  {
+   "say": "So what do we take from this? That crowds can quiet us, that being unsure makes the effect stronger, and that the legend of cold, passive city dwellers was wrong. Most people, most of the time, do something. The more we understand why we hesitate, the more likely we are to act.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the seizure taught us"
+   }
+  },
+  {
+   "say": "It's often said that the first person to act makes it easier for the second. That's true in the research, and true in life. If you're ever the first to speak up, or to ask a stranger if they're all right, you aren't just helping them. You're making it easier for everyone else to move.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Be the first"
+   }
+  },
+  {
+   "say": "Since those early studies, many programmes have tried to turn the research into something practical. Bystander training in schools and universities teaches people to notice situations, to recognise that they might be responsible, to decide to act and to know how. Evaluations suggest that such training can increase people's willingness to intervene, though how long the effect lasts is still being studied.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "In practice",
+    "sub": "Teaching people to step in"
+   }
+  },
+  {
+   "say": "A few simple phrases can make it easier. Hey, are you okay? Can I sit with you for a minute? I'm going to call someone, is that all right? None of them is heroic. They are small, ordinary sentences, and they work precisely because they are small. You don't need to solve the whole problem. You only need to be the person who made it a little less lonely, and who made the next person's step easier.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A small script",
+    "sub": "Words that help"
+   }
+  },
+  {
+   "say": "For our next story, we're going to follow eight perfectly healthy people who walked into psychiatric hospitals in the early 1970s, and asked how anyone could tell whether they were sane. It's a famous paper, and one with a surprising second chapter.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Eight healthy people at the hospital door"
+   }
+  }
+ ]
+}

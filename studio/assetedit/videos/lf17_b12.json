@@ -1,0 +1,340 @@
+{
+ "id": "lf17_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In 1999, a paper appeared in the Journal of Personality and Social Psychology with one of the best titles in the field. It was called Unskilled and Unaware of It: How Difficulties in Recognizing One's Own Incompetence Lead to Inflated Self-Assessments. The authors were two psychologists at Cornell University, David Dunning and Justin Kruger.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 32,
+    "title": "The people who think they are above average"
+   }
+  },
+  {
+   "say": "The story of how they came to the idea is a good one. In 1995, a man named McArthur Wheeler robbed two banks in Pittsburgh in broad daylight, with his face covered in lemon juice. He believed that, because lemon juice is used as invisible ink, it would make him invisible to the cameras. He was arrested the same evening.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The origin",
+    "sub": "A bank robber in lemon juice"
+   }
+  },
+  {
+   "say": "Dunning read about the case and asked himself an interesting question. It wasn't only that the man was wrong. It was that he was so confident. Could it be that the skills you need to do something well are the same skills you need to tell whether you're doing it well?",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The question",
+    "sub": "Why so sure?"
+   }
+  },
+  {
+   "say": "They tested this in four studies. Students at Cornell took short tests of humour, logical reasoning and English grammar. Afterwards, they were asked to estimate how well they had done, in comparison with others. Then the researchers compared each person's estimate with their actual score.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Kruger & Dunning",
+    "where": "Cornell University, 1999",
+    "what": "Students rated their own ability in humour, logic and grammar"
+   }
+  },
+  {
+   "say": "The pattern was striking. The students who scored in the bottom quarter, on average, rated themselves as above average, somewhere around the sixtieth percentile. Their real performance was much lower, around the twelfth. They weren't just wrong, they were wrong in a flattering direction.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "The lowest scorers",
+    "big": "Bottom 25%",
+    "label": "estimated themselves at about the 60th percentile"
+   }
+  },
+  {
+   "say": "The best performers made the opposite mistake. The top quarter estimated themselves a little below their real position. Dunning and Kruger suggested that because the task was easy for them, they assumed it was easy for everyone else too. They weren't lacking confidence. They simply thought others were as good as they were.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The top end",
+    "sub": "Experts underestimate"
+   }
+  },
+  {
+   "say": "These figures are rounded and based on the paper's first study. The most important thing to notice is that, although everyone guessed in the middle to upper range, the real scores were widely spread. Those who knew the least had the least information about how much there was to know.",
+   "show": {
+    "type": "bars",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "title": "How people rated themselves",
+    "unit": "Average self-estimate (percentile)",
+    "bars": [
+     [
+      "Bottom quarter",
+      58.0
+     ],
+     [
+      "Second quarter",
+      60.0
+     ],
+     [
+      "Third quarter",
+      67.0
+     ],
+     [
+      "Top quarter",
+      70.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Dunning and Kruger called it a double burden. People who lack skill make mistakes, and then can't recognise them. And there was a hopeful second half of the story. In one of their studies, they gave poor performers a short training course in logical reasoning. After it, the participants became much better at judging how badly they had done before.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 33,
+    "title": "The double burden"
+   }
+  },
+  {
+   "say": "That might be the most useful finding of all. Getting better doesn't only make you more skilled, it makes you better at seeing your limits. Think of the beginner who says that they don't know how little they know, and the expert who says that the more they learn, the more there is to learn.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The gentle point",
+    "sub": "Learning shows you what you don't know"
+   }
+  },
+  {
+   "say": "You may have met a graph that's circulated online. It has a peak of confidence at the start, a deep valley of doubt, and a slow climb after that. It's called the Dunning-Kruger curve, and it's very popular. But it's worth knowing that it doesn't come from the original paper.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A familiar feeling",
+    "sub": "The curve of confidence"
+   }
+  },
+  {
+   "say": "That's a fair summary. The original finding was a more modest one than the memes suggest. The bottom group overestimated, the top group slightly underestimated, and everyone was better at spotting skill in others once they'd learned it themselves. There was no claim that stupid people are the most sure of everything.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What the popular version gets wrong",
+    "items": [
+     "The famous mountain-and-valley curve is not in the 1999 paper",
+     "The paper didn't say that fools are the most confident people",
+     "It showed a gap between estimates and results",
+     "The gap was biggest at low skill"
+    ]
+   }
+  },
+  {
+   "say": "Like every study in this video, this one has been challenged. And in this case, the criticisms are interesting, because some of them are about statistics. In the 2000s and 2010s, several researchers argued that part of the pattern could appear for reasons that have nothing to do with skill or self-awareness.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "n": 34,
+    "title": "The criticisms"
+   }
+  },
+  {
+   "say": "One argument is that when you plot people's own estimates against their scores, you will tend to see the bottom group overestimate and the top group underestimate, even if the data were random. This is a statistical effect known as regression to the mean, along with a general tendency for people to rate themselves as above average.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Nuhfer et al.",
+    "where": "Numeracy, 2016",
+    "what": "Statistical arguments about self-assessment data"
+   }
+  },
+  {
+   "say": "Dunning and others have answered that the basic effect holds even when you control for these things. And studies in the years since, across different tasks and countries, have found that people with low skill generally overestimate how well they've done. But how much of the pattern is true self-blindness, and how much is statistical, is still debated.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The reply",
+    "sub": "Part of the pattern is real"
+   }
+  },
+  {
+   "say": "There's also evidence that people are not hopeless at judging themselves. In many tasks, people's estimates track their real ability to a moderate degree. We're better judges of ourselves in areas where we get quick, clear feedback, such as sports, and worse where feedback is vague, such as leadership, humour or social skills.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A cross-check",
+    "sub": "Do people ever know?"
+   }
+  },
+  {
+   "say": "That makes sense. If you shoot a basketball, you immediately see if it goes in. But if you tell a joke, or give a speech, or manage a team, the feedback can be mixed, delayed or polite. And so our picture of ourselves can drift away from the facts, in either direction.",
+   "show": {
+    "type": "stat",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "title": "Where we misjudge most",
+    "big": "Fuzzy skills",
+    "label": "where feedback is slow, rare or unclear"
+   }
+  },
+  {
+   "say": "It's also worth saying that the effect isn't about other people. Each of us is a beginner at most things, and in those areas we are all likely to be a bit too sure or a bit too unsure. A kinder way of reading the research is that blind spots are normal, and the sensible response is to go and look for them.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "The kinder reading",
+    "sub": "Everyone has blind spots"
+   }
+  },
+  {
+   "say": "None of these is complicated. And the most important one might be the last. The feeling of certainty isn't evidence. It's a feeling, and it can be as strong when we're wrong as when we're right.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Ways to see your blind spots",
+    "items": [
+     "Ask for specific feedback from someone you trust",
+     "Test yourself against a clear standard",
+     "Learn a little more about the field",
+     "Notice when you feel certain and rarely check"
+    ]
+   }
+  },
+  {
+   "say": "Glasses, a mirror and a book, an odd little still life, and yet it describes the whole idea. To see ourselves clearly, we need something to look through, something to look into, and something to learn from. Self-knowledge is a skill, and like any skill, it improves with practice.",
+   "show": {
+    "type": "photo",
+    "file": "lf17_b12_01.jpg",
+    "cap": "Glasses, a mirror, an open book"
+   }
+  },
+  {
+   "say": "We've covered a lot of ground. We began with a child and a marshmallow, and ended with a robber and some lemon juice. In between, we met rooms full of people giving wrong answers, a calm voice asking others to go on, a doll, two mothers made of wire and cloth, a crowd, a hospital ward, a dog, a baby, a forgotten list, a basement and a boring task.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 35,
+    "title": "What twelve experiments leave us"
+   }
+  },
+  {
+   "say": "That's a long list, and it's quite a human one. These aren't really lessons about strange laboratories. They're about the ordinary things we do every day, among people we know. And they're a good reminder that psychology is a conversation, not a set of final answers.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Twelve experiments, twelve lessons",
+    "items": [
+     "Waiting: self-control depends on trust and context",
+     "Asch: one ally can break the group's spell",
+     "Milgram: authority is powerful, and so is refusing",
+     "Bobo: children learn by watching",
+     "Harlow: comfort is a need",
+     "Bystanders: say it out loud, ask one person",
+     "Rosenhan: labels distort what we see",
+     "Pavlov: what's learned can be unlearned",
+     "Ebbinghaus: space it out, test yourself",
+     "Stanford: roles are not destiny",
+     "Festinger: we justify what we do",
+     "Dunning and Kruger: look for your blind spots"
+    ]
+   }
+  },
+  {
+   "say": "If there is one thread that ties them together, it's that we aren't isolated minds. We watch, we copy, we belong, we justify, we label and we are labelled. We're shaped by the rooms we're in and the people in them. And, at the same time, we have more choice than we often think.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "A thread through them",
+    "sub": "We are social, storytelling creatures"
+   }
+  },
+  {
+   "say": "There's a second thread, and it's a more sobering one. Many of the most famous experiments in psychology have been challenged, corrected or complicated, from the marshmallow test to the Stanford basement. That doesn't make psychology worthless. It makes it a science that notices its own mistakes, which is how a science should be.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The other thread",
+    "sub": "Be careful with famous results"
+   }
+  },
+  {
+   "say": "So the habit I'd suggest is this: when you hear that a study has proved something about human nature, ask who was studied, how big the study was, whether anyone has repeated it, and what the effect really was. It takes only a moment, and it protects you against a great many confident headlines.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A habit worth keeping",
+    "sub": "Hold ideas loosely"
+   }
+  },
+  {
+   "say": "And there's a gentle habit too. If we know that situations pull on people, that labels distort, that groups press and that confidence misleads, we can afford to be a little kinder, to others and to ourselves. Most of us are doing the best we can, in rooms we didn't design.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "And a kinder habit",
+    "sub": "Be gentle with people"
+   }
+  },
+  {
+   "say": "If you would like to take something away, pick one experiment, and one small habit, and try it this week. Write down what you want to remember and test yourself tomorrow. Be the ally in a meeting. Ask a stranger if they're okay. Look twice before you label someone. Small things, repeated gently, are how people change.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A last thought",
+    "sub": "Pick one"
+   }
+  },
+  {
+   "say": "Before we finish, it's worth asking which of the twelve stayed with you most. Was it the quiet power of one ally in the room of wrong answers? The reminder that a baby needs comfort as well as food? The idea that our reasons for doing things are sometimes written after the fact? The one that lingers is probably the one that touches something in your own life, and that is a good place to start thinking.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "cap": "Your turn",
+    "sub": "Which one stayed with you?"
+   }
+  },
+  {
+   "say": "Thank you for spending this time with me. If any of these stories surprised you, you're welcome to tell me which one, and which experiment you'd like us to look at next. There are many more waiting, and some of them are even stranger than these.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Thank you",
+    "sub": "For watching to the end"
+   }
+  },
+  {
+   "say": "That's all for now. Sleep well, stay curious, and I'll see you in the next one.",
+   "show": {
+    "type": "end",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "next": "12 Psychology Experiments You Can't Unsee"
+   }
+  }
+ ]
+}

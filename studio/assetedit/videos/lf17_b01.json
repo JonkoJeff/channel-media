@@ -1,0 +1,303 @@
+{
+ "id": "lf17_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Welcome back. Get comfortable, dim the lights if you like, because tonight we're going to revisit twelve of the most famous experiments in the history of psychology. Some of them are gentle. Some of them are unsettling. And almost all of them have a second chapter that most people never hear, the part where later researchers went back and asked how solid the story really was.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Settle in",
+    "sub": "Twelve famous experiments"
+   }
+  },
+  {
+   "say": "Twelve stories, told slowly, with the numbers checked. You can listen with your eyes closed. Nothing here needs you to do anything except notice how familiar some of these ideas already feel, because they have quietly shaped how we talk about ourselves.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Four-year-olds and a marshmallow",
+     "A room where everyone gave the wrong answer",
+     "A man in a grey coat and a shock machine",
+     "A doll that got punched",
+     "Monkeys and two artificial mothers",
+     "A seizure nobody helped with",
+     "Eight healthy people who walked into hospitals",
+     "A bell, a dog and a baby",
+     "A list of nonsense syllables",
+     "A basement prison",
+     "A boring afternoon with wooden spools",
+     "People who were sure they were above average"
+    ]
+   }
+  },
+  {
+   "say": "A quick promise before we begin. We'll name the researchers, the year and the place, and when a famous result was later questioned, we'll say so plainly. Good science is not a set of legends. It's a set of careful claims that get tested again and again, and that is a story worth hearing slowly.",
+   "show": {
+    "type": "photo",
+    "file": "lf17_b01_01.jpg",
+    "cap": "One treat on one plate"
+   }
+  },
+  {
+   "say": "Our first experiment takes place in a small room at a nursery school. It's the late 1960s and early 1970s, and the psychologist Walter Mischel is working at Stanford University. He wants to understand something every parent has watched happen: how a very small child manages to wait.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "One treat now, or two later"
+   }
+  },
+  {
+   "say": "Here's how it went. A child, around four or five years old, is shown a treat. Often it was a marshmallow, though some children chose a pretzel or a cookie. The researcher explains the deal. You can ring a bell and eat this one now. But if you wait until I come back, you can have two.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The setup",
+    "sub": "Bing Nursery School, Stanford"
+   }
+  },
+  {
+   "say": "Then the researcher leaves the room. And now a four-year-old is alone with a treat they badly want, and a rule they have understood but which feels very, very far away. The waiting could last up to about fifteen minutes. Some children rang the bell almost at once. Some lasted the whole time.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "Then he leaves",
+    "sub": "Alone with the plate"
+   }
+  },
+  {
+   "say": "The first scientific write-up of this appeared in 1972, in the Journal of Personality and Social Psychology. Notice what the researchers were actually asking. They were not mainly asking which children were strong or weak. They were asking what a child does with their mind while they wait.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Mischel, Ebbesen & Zeiss",
+    "where": "Stanford, 1972",
+    "what": "Preschoolers chose a smaller treat now or a larger one later"
+   }
+  },
+  {
+   "say": "And what the children did is wonderful to read about. They covered their eyes. They turned their chairs around. They hummed and sang to themselves, they invented little games with their own fingers, and a few of them tried to go to sleep. Anything, really, to make the treat stop being the only thing in the room.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "What the children did",
+    "sub": "Singing, hiding, peeking"
+   }
+  },
+  {
+   "say": "In the 1972 study, the pattern was clear. When the treat was out of sight, children waited longer. When they were encouraged to think about something fun instead, they waited longer. And when they were told to think about how delicious the treat tasted, how sweet and soft it would be, they gave in far sooner.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "The trick that worked",
+    "sub": "Making it less tempting"
+   }
+  },
+  {
+   "say": "It's a small list, but notice how practical it is. None of these tricks require a child to be extraordinary. They are simply ways of moving attention. And that's an important detail, because the version of this story that spread across the world later skipped past it.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What helped a child wait",
+    "items": [
+     "Looking away from the treat",
+     "Thinking about something cheerful",
+     "Pretending the treat was only a picture",
+     "Singing or inventing a game"
+    ]
+   }
+  },
+  {
+   "say": "In the late 1980s, Mischel and his colleagues, including Yuichi Shoda and Philip Peake, followed up with some of the children who had taken part years earlier. The result that made headlines was this: preschoolers who waited longer tended to be described by their parents, years later, as more able to cope with stress and frustration.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 2,
+    "title": "The follow-up"
+   }
+  },
+  {
+   "say": "A 1990 paper reported that the children who had waited longer also tended to score higher on the SAT, the American college entrance exam, in their teens. The effect was modest, and the group studied was small, around a hundred children from families connected to a university. But the idea was irresistible.",
+   "show": {
+    "type": "study",
+    "sprite": "A11",
+    "bg": "neon_alley_rain",
+    "who": "Shoda, Mischel & Peake",
+    "where": "Developmental Psychology, 1990",
+    "what": "Waiting time at age four predicted later parent-rated coping and test scores"
+   }
+  },
+  {
+   "say": "You can guess what happened next. Books, talks and school programmes turned a modest correlation into a simple moral. Wait for the marshmallow, and your whole life goes better. Fail to wait, and you are in trouble. It sounds like destiny. And a four-year-old, of course, never signed up for destiny.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "cap": "How it became a legend",
+    "sub": "A tidy story"
+   }
+  },
+  {
+   "say": "Take a breath here. The original researchers never claimed that a few minutes in a nursery school room decide a person's future. Mischel himself spent much of his later career arguing the opposite: that self-control is a set of skills, strategies and settings, and that those can be learned and changed.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle pause",
+    "sub": "What the study did not say"
+   }
+  },
+  {
+   "say": "In 2018, three researchers, Tyler Watts, Greg Duncan and Haonan Quan, ran a much larger version of the follow-up. They used data from more than nine hundred children in a long-running American study. And crucially, they could take into account things the original small sample could not, such as family income, the mother's education and the child's early thinking skills.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 3,
+    "title": "A second look"
+   }
+  },
+  {
+   "say": "Here's what they found. The link between waiting and later achievement was still there, but it was about half the size of the original. And after accounting for family background and early cognitive ability, much of the remaining link shrank to almost nothing. The researchers were careful, saying the findings do not prove that self-control does not matter.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Watts, Duncan & Quan",
+    "where": "Psychological Science, 2018",
+    "what": "A larger sample, with family background taken into account"
+   }
+  },
+  {
+   "say": "So the honest summary is gentler than the legend. Waiting is related to later outcomes, but a good deal of that relationship is explained by the life a child already has. A child from a home where promises are reliably kept may rationally decide that waiting is not a bargain.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Compared with the original",
+    "big": "About half",
+    "label": "the size of the link in the larger 2018 sample"
+   }
+  },
+  {
+   "say": "That last idea comes from a later experiment by Celeste Kidd and her colleagues at the University of Rochester, published in 2013. Before the waiting test, some children met a researcher who kept a promise, and some met one who broke it. The children who had been let down were far less willing to wait.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "A different reading",
+    "sub": "Trust, not just willpower"
+   }
+  },
+  {
+   "say": "Four ideas, none of them frightening. If you've ever put your phone in another room so you can focus, you've used the same trick as a four-year-old turning her chair around. It is not a sign of weak character. It is simply clever.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What the marshmallow can teach us",
+    "items": [
+     "Attention can be steered",
+     "Out of sight helps",
+     "Waiting is easier when you trust the promise",
+     "A single moment does not fix a life"
+    ]
+   }
+  },
+  {
+   "say": "If you'd like to try something with this tonight, nothing dramatic is needed. Pick one small temptation, perhaps your phone or a snack, and notice what happens when you put it out of sight for just ten minutes. You may find that wanting is not a wall. Often it's more like weather, and it changes.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "cap": "A small experiment",
+    "sub": "At home, tonight"
+   }
+  },
+  {
+   "say": "It's worth asking why this experiment, of all the experiments of that era, is the one that escaped the lab. Part of the answer is that you can see it. A child, a plate, a closed door, a long wait. You don't need a statistics course to feel your own stomach tighten as you imagine being in that room.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Why this one became famous",
+    "sub": "A story you can picture"
+   }
+  },
+  {
+   "say": "And notice that adults do the very same dance, just with different treats. The email you tell yourself you will answer later. The episode you promise to watch after you finish your work. The sweet thing in the cupboard. Almost every day, you're a small child at a small table, trying to decide whether the second marshmallow is real.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The grown-up version",
+    "sub": "We do this too"
+   }
+  },
+  {
+   "say": "Here's a question the later research quietly raises. Is waiting always the clever choice? If you live somewhere where promises are broken, where food runs out, where the person who says they'll come back often doesn't, then eating the marshmallow now is not a failure of character. It is a sensible reading of the world.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A question worth asking",
+    "sub": "Is waiting always wise?"
+   }
+  },
+  {
+   "say": "That reading matters for how we treat children, and how we treat ourselves. When we say someone has no willpower, we often skip a more useful question: what has this person learned to expect? Change the expectation, build a little trust, and the same child, or the same adult, can suddenly wait a very long time.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Kinder to children",
+    "sub": "And to ourselves"
+   }
+  },
+  {
+   "say": "So the marshmallow experiment survives, but not as a prophecy. It survives as a reminder that attention can be steered, that context matters, and that a child who waits is often a child who feels safe. That is a better lesson than the one the legend gave us.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "A kinder legend"
+   }
+  },
+  {
+   "say": "Part of the reason the marshmallow test became so famous is how easy it is to picture. A child, a sweet, a closed door and a clock. You don't need a statistics degree to feel the tension in that room. It made an abstract idea, self-control, into something you could watch, and perhaps that's why it ended up in parenting books, school programmes and speeches. Simple stories travel fast, and sometimes faster than the evidence that supports them. That is worth keeping in mind through everything that follows in this video.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why it spread",
+    "sub": "A test anyone could understand"
+   }
+  },
+  {
+   "say": "In our next story, the question is not how long you can wait. It's what you do when everyone around you says something you can see is wrong. And the answer, you may be surprised to learn, depends on how many of them there are, and whether even one of them agrees with you.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Up next",
+    "sub": "A room of wrong answers"
+   }
+  }
+ ]
+}

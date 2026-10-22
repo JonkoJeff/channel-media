@@ -1,0 +1,269 @@
+{
+ "id": "lf18_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In the year 2000, a young researcher at the University of Bordeaux, Frédéric Brochet, invited fifty-four students of wine-making to a tasting. These were not amateurs. They were trained in the vocabulary of wine, with years of study behind them. He gave them a glass of white wine and asked them to describe it, and they used all the words that you would expect for a white wine.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "n": 31,
+    "title": "Expectation, taste and pain"
+   }
+  },
+  {
+   "say": "A little later, he gave them a second glass. It was the same white wine, but it had been coloured red with a tasteless dye. Now the students described it using the language of red wine, with words like berry, tobacco and spice. Not one of them said that it tasted like a white wine. Their eyes had told their tongues what to find.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The same wine",
+    "sub": "In a different colour"
+   }
+  },
+  {
+   "say": "The study was published in 2001, with Gil Morrot and Denis Dubourdieu, as The Color of Odors. It's a small study, and it hasn't been exactly repeated in the same form by many other groups. But it fits a long line of findings showing that taste and smell are not pure senses. They're heavily influenced by sight and expectation.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Morrot, Brochet & Dubourdieu",
+    "where": "Brain and Language, 2001",
+    "what": "The color of odors"
+   }
+  },
+  {
+   "say": "That's partly because what we call flavour is not just taste. The tongue only detects a handful of basic tastes, like sweet, sour, salty, bitter and savoury. Most of what we think of as flavour comes through smell, from the back of the nose as we chew. Add sight, sound, touch and temperature, and you have a recipe that the brain mixes for you.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "What flavour really is",
+    "sub": "Many senses at once"
+   }
+  },
+  {
+   "say": "That last ingredient is the sneaky one. When you expect a food to be delicious, your brain adds a little to the experience. When you expect it to be bad, it can subtract. It's one of the most useful and least noticed of the factors that shape what we enjoy.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Ingredients in a flavour",
+    "items": [
+     "The basic tastes on the tongue",
+     "Smells from the back of the nose",
+     "The look of the food",
+     "The feel and temperature in the mouth",
+     "What you expect to be eating"
+    ]
+   }
+  },
+  {
+   "say": "In 2008, a team led by Hilke Plassmann at the California Institute of Technology wanted to find out if a label could change how good a wine tastes, and whether it would show up in the brain. Volunteers lay in a scanner and sipped five wines through a tube. They were told the prices of the wines, ranging from cheap to expensive.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 32,
+    "title": "The label effect"
+   }
+  },
+  {
+   "say": "Two of the five samples were actually the same wine, but were labelled with different prices. People rated the one with the higher label as more pleasant. And scans showed more activity in a part of the brain linked to experienced pleasure, the medial orbitofrontal cortex, when they thought the wine was the more expensive one.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Plassmann, O'Doherty, Shiv & Rangel",
+    "where": "Proceedings of the National Academy of Sciences, 2008",
+    "what": "Marketing actions can modulate neural representations of experienced pleasantness"
+   }
+  },
+  {
+   "say": "It's important to keep that number in view. Twenty is a small sample, and the study should be read as an interesting demonstration and not as a proof of anything big. But the result matches what many other studies of expectations have found, and it's a good example of how a belief can change the experience, not only the report.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Number of volunteers",
+    "big": "20",
+    "label": "a small study, with a notable result about the brain"
+   }
+  },
+  {
+   "say": "It's natural to wonder if people were just saying what they thought they should say. That's what makes the brain scan interesting. The activity suggested that the experience itself had changed. Whether you call that real or imagined, the person drinking really did get more pleasure from the wine with the higher label.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A fair question",
+    "sub": "Is the pleasure real?"
+   }
+  },
+  {
+   "say": "A study by Alia Crum and colleagues at Yale, published in 2011, gave people a milkshake on two occasions. One time they were told it was a high-calorie indulgence, and the other that it was a low-calorie sensible shake. The shake was identical. But the level of a hunger hormone called ghrelin fell more sharply when people believed it was the indulgent one.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The same idea in food",
+    "sub": "The milkshake study"
+   }
+  },
+  {
+   "say": "This is an intriguing result, and it's from a small study of around forty-six people. It would be wrong to say that your thoughts can change how many calories you absorb. What the research suggests is that beliefs may modify bodily responses to food, which are one step removed from digestion itself.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Crum, Corbin, Brownell & Salovey",
+    "where": "Health Psychology, 2011",
+    "what": "Mind over milkshakes: mindsets, not just nutrients, determine ghrelin response"
+   }
+  },
+  {
+   "say": "Now to a more serious area. If expectation can change taste, can it change pain? It certainly seems to. The placebo effect, in which an inactive treatment leads to real improvement, has been studied for decades, and one of the clearest places it shows up is in the experience of pain.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "n": 33,
+    "title": "Expectation and pain"
+   }
+  },
+  {
+   "say": "In 2004, Tor Wager and colleagues applied painful heat to volunteers' arms. Then they applied a cream that they said was a powerful painkiller, but which was just a harmless cream. People reported less pain with the cream, and brain scans showed reduced activity in areas that respond to pain, including the thalamus, insula and anterior cingulate cortex.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Wager et al.",
+    "where": "Science, 2004",
+    "what": "Placebo-induced changes in fMRI in the anticipation and experience of pain"
+   }
+  },
+  {
+   "say": "Other studies suggest that placebo pain relief can involve the brain's own natural painkillers, the endorphins. In experiments by Fabrizio Benedetti and others, a drug that blocks those chemicals, naloxone, can reduce the placebo effect. That suggests that the belief triggers a real biological process, and doesn't just change what people say.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The mechanism",
+    "sub": "The brain's own relief"
+   }
+  },
+  {
+   "say": "That last point is important. The placebo effect is not magic. It works best for experiences that depend on the brain's own processing, like pain, and not for hard measures such as the size of a growth.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What placebo research suggests",
+    "items": [
+     "Expectation can change pain",
+     "It works through real brain processes",
+     "The effects are strongest for things like pain, nausea and mood",
+     "It doesn't shrink tumours or cure infections"
+    ]
+   }
+  },
+  {
+   "say": "A large review by Asbjørn Hróbjartsson and Peter Gøtzsche in 2010 found that, across many conditions, placebo had little effect on objective outcomes, but there was a modest effect on subjective ones, especially pain and nausea. That fits what we've discussed. The treatment of belief works on the experience of the person, much more than on the disease.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Hróbjartsson & Gøtzsche",
+    "where": "Cochrane Database of Systematic Reviews, 2010",
+    "what": "Placebo interventions for all clinical conditions"
+   }
+  },
+  {
+   "say": "In 2010, Ted Kaptchuk at Harvard and his colleagues ran a trial with people with irritable bowel syndrome. Some were given an honest placebo. The bottle was labelled placebo pills, and they were told that these were made of an inert substance, but that placebos can help through mind-body processes. And they still did better than those who got no treatment.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The surprising twist",
+    "sub": "Honest placebos"
+   }
+  },
+  {
+   "say": "It was a small study of eighty people over three weeks, and a larger body of evidence is needed. In that trial, around sixty percent of the placebo group reported adequate symptom relief, against about thirty-five percent of the no-treatment group. It was a surprising finding, and it has been followed by other trials of open-label placebo, with mixed but interesting results.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Kaptchuk et al.",
+    "where": "PLoS ONE, 2010",
+    "what": "Placebos without deception: a randomized controlled trial in irritable bowel syndrome"
+   }
+  },
+  {
+   "say": "There's also the reverse. When people expect something to hurt or to cause side effects, it often does. This is called the nocebo effect. Patients who are warned about side effects of a drug report more of them, even when they've been given an inactive pill. The words we use around treatment can shape what the body feels.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The shadow side",
+    "sub": "The nocebo"
+   }
+  },
+  {
+   "say": "That last line is vital. If pain responds to expectation, it doesn't mean that it's all in the head, as people sometimes say unkindly. Pain is always produced by the brain. The research simply shows that the brain uses context as one of its inputs, and that context is something that kind people can influence.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What this suggests for everyday life",
+    "items": [
+     "The way a treatment is described matters",
+     "Kind, clear communication can help",
+     "Fear can make a discomfort worse",
+     "None of this means that symptoms are imaginary"
+    ]
+   }
+  },
+  {
+   "say": "It's the plainest of scenes, a glass and a pill bottle. But the research suggests that around that small table, a good deal of invisible medicine is at work: the room, the voice, the trust and the hope. The experience of relief is built from many things, and some of them are kindness.",
+   "show": {
+    "type": "photo",
+    "file": "lf18_b09_01.jpg",
+    "cap": "A glass of water by the bed"
+   }
+  },
+  {
+   "say": "If you ever look after someone who is unwell, it's worth knowing that what you say may matter. Calm, honest reassurance, a clear explanation and a steady tone can change how a person feels, without any trickery. It's a small, powerful kind of help, and it costs nothing.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Words are part of care"
+   }
+  },
+  {
+   "say": "So what did we learn about expectation? That sight changes taste. That labels can alter pleasure, even in the brain. That belief can change pain through real mechanisms. That honest placebos might still help, and that kindness is part of the effect. All of them are examples of the brain building the experience from many sources.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the wine and the pill taught us"
+   }
+  },
+  {
+   "say": "In our next story, we turn to the strangest sense of all. A sense that has no organ, and yet can speed up, slow down and sometimes seem to stop. How does your brain keep time, and how often does it get it wrong?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "The strange stretch of time"
+   }
+  }
+ ]
+}

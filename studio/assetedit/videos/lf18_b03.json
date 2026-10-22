@@ -1,0 +1,317 @@
+{
+ "id": "lf18_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In 1999, two psychologists at Harvard, Daniel Simons and Christopher Chabris, made a short video that would become one of the most famous in the history of psychology. It shows six people in a hallway, three in white shirts and three in black, passing two basketballs among themselves. Viewers are asked to count how many passes the white team makes.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 8,
+    "title": "The gorilla nobody saw"
+   }
+  },
+  {
+   "say": "It's a fairly easy job, but it takes concentration. The players weave around each other, the balls bounce and fly, and the two teams are mixed together. You have to follow the white shirts and ignore the black ones. Most people find that they are fully absorbed, with their eyes glued to the action.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The task",
+    "sub": "Count the passes"
+   }
+  },
+  {
+   "say": "About halfway through, a person in a black gorilla suit walks into the middle of the scene. She stops in the centre, turns to face the camera, thumps her chest, and walks off. The whole thing lasts about nine seconds. She is in plain view, and she is not hiding at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The surprise",
+    "sub": "A gorilla walks through"
+   }
+  },
+  {
+   "say": "When the researchers asked the viewers afterwards whether they had noticed anything unusual, about half said no. Many were stunned when they watched it again, and some were sure the researchers had swapped the tape. The gorilla was there the whole time, and it hadn't registered at all.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Simons & Chabris",
+    "where": "Perception, 1999",
+    "what": "Gorillas in our midst: sustained inattentional blindness for dynamic events"
+   }
+  },
+  {
+   "say": "It's important to be careful with the number. The exact share depended on the version of the video and on how hard the task was, and the scene where people were told to count the white team, and the gorilla was black, was one where the miss rate was highest. When the gorilla was more similar to the team being watched, more people noticed her.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Missed the gorilla",
+    "big": "About 50%",
+    "label": "of the viewers who were counting the passes of the white team"
+   }
+  },
+  {
+   "say": "Psychologists call this inattentional blindness. It means failing to notice something fully visible, because your attention is occupied elsewhere. It's not that your eyes didn't register the gorilla. Your eyes pointed right at it, and some people looked straight at it. It's that the information never reached the level of conscious awareness.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The name",
+    "sub": "Inattentional blindness"
+   }
+  },
+  {
+   "say": "That last one is important, and we'll come back to it. Almost everybody believes they would spot the gorilla. It feels impossible to miss something that big. But that confidence turns out to be a part of the effect.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What makes people miss the unexpected",
+    "items": [
+     "A demanding task",
+     "Something unlike what you're looking for",
+     "No reason to expect it",
+     "Being sure that you would notice"
+    ]
+   }
+  },
+  {
+   "say": "The gorilla video was not the first study of this kind. In the 1970s, the psychologist Ulric Neisser at Cornell University had shown people a film of two teams, one in white and one in black, playing a game of passing balls, with the images overlaid on top of each other like ghosts. Viewers had to follow one team.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 9,
+    "title": "Not a new idea"
+   }
+  },
+  {
+   "say": "In that study, a few people noticed when a different, unexpected event, such as a woman with an umbrella, passed through the overlay. Most did not, and it was surprising how often they missed obvious things in a scene they were looking at directly. The gorilla video, twenty-four years later, made the point unforgettable.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Neisser & Becklen",
+    "where": "Cognitive Psychology, 1975",
+    "what": "Selective looking: attending to visually specified events"
+   }
+  },
+  {
+   "say": "In 2009, Ira Hyman at Western Washington University and his colleagues tried it out in the real world. On a university campus, they placed a clown riding a unicycle on a path where students were walking. The students who were walking alone while talking on a mobile phone were much less likely to notice the clown than those who were walking without a phone.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A similar result",
+    "sub": "The clown on the unicycle"
+   }
+  },
+  {
+   "say": "Looking at it plainly, those figures show that the phone calls took up a large part of the students' attention. Pairs of friends walking together noticed the clown more often, and people listening to music noticed more often than those on the phone. The study, published in 2010 in Applied Cognitive Psychology, also noted that a talking mind is a busy one.",
+   "show": {
+    "type": "stat",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "title": "Noticed the clown",
+    "big": "8% on the phone",
+    "label": "compared with 32% of people walking alone without a phone"
+   }
+  },
+  {
+   "say": "You might hope that experts, with their years of training, would be immune. In 2013, Trafton Drew, Melissa Vo and Jeremy Wolfe at Harvard Medical School tested twenty-four experienced radiologists. They asked them to look through lung scans for small nodules, but placed on one of the images a picture of a gorilla, forty-eight times the size of a typical nodule.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A sobering note",
+    "sub": "Even the experts"
+   }
+  },
+  {
+   "say": "Out of the twenty-four radiologists, twenty did not see the gorilla. Eye tracking showed that many of them had looked straight at it. These were skilled professionals doing a highly practised task, and when attention was set to find nodules, a big gorilla slipped past.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Drew, Vo & Wolfe",
+    "where": "Psychological Science, 2013",
+    "what": "The invisible gorilla strikes again: sustained inattentional blindness in expert observers"
+   }
+  },
+  {
+   "say": "It's a striking result, but it needs reading carefully. The radiologists were not doing anything wrong in the ordinary sense. They were searching for small round shapes, and the gorilla was not one of them. It doesn't mean that experts are unreliable. It shows that attention works like a spotlight, and the spotlight can only be aimed at so much at once.",
+   "show": {
+    "type": "bars",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "title": "Radiologists and the gorilla",
+    "unit": "Number of radiologists",
+    "bars": [
+     [
+      "Did not see it",
+      20.0
+     ],
+     [
+      "Saw it",
+      4.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Let's ask the practical question. When does this go beyond a party trick? One setting where it has been studied is driving. Looked-but-failed-to-see accidents are a well-known category in road safety research, where a driver looks directly at a motorcycle or a cyclist and yet pulls out in front of them.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "n": 10,
+    "title": "Does it matter outside the lab?"
+   }
+  },
+  {
+   "say": "Researchers who study such crashes say that drivers are usually searching for something in particular, such as other cars. A motorcycle is smaller, and unlike what they're looking for, and sometimes it's simply not registered. The driver then says, with complete honesty, that they never saw it.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The road",
+    "sub": "Looked but failed to see"
+   }
+  },
+  {
+   "say": "Studies of this kind don't prove that inattentional blindness is the cause of every collision, and it would be wrong to claim they do. But they illustrate a real pattern. Our sense that we would obviously see whatever is in front of us is not reliable, and the design of roads, lights and vehicles can try to take account of that.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Brown",
+    "where": "Ergonomics, 2002",
+    "what": "Care and attention: looked-but-failed-to-see accidents"
+   }
+  },
+  {
+   "say": "The same thing helps explain why talking on a phone while driving is risky, even with a hands-free kit. Research by David Strayer at the University of Utah has found that drivers on phone calls are slower to respond and more likely to miss things that they look at directly. The problem isn't the hands. It's the shared attention.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Phones and driving",
+    "sub": "The same limit"
+   }
+  },
+  {
+   "say": "These are modest, practical thoughts. None of them requires any special skill. They're about building habits that allow for the limits of attention, instead of pretending that we don't have any.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What helps",
+    "items": [
+     "Slow down when things are busy",
+     "Look for the unexpected, not just the usual",
+     "Put the phone away while driving",
+     "Remember that feeling sure is not the same as having seen"
+    ]
+   }
+  },
+  {
+   "say": "Simons and Chabris later wrote a book about all this, called The Invisible Gorilla, in which they described several everyday illusions. They called them illusions of attention, memory, confidence, knowledge, cause and potential. All of them share a common shape: what we feel sure of, and what is actually the case, come apart.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 11,
+    "title": "The invisible gorilla"
+   }
+  },
+  {
+   "say": "They asked people how likely they thought they would be to notice an unexpected event. In a national survey, the vast majority believed that they'd notice. Nearly everyone said they would see the gorilla. And so the confidence is itself part of the illusion: it comes from not being able to feel the thing that you've missed.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The confidence illusion",
+    "sub": "I would have seen it"
+   }
+  },
+  {
+   "say": "It follows, rather gently, that people who missed something aren't necessarily careless. If a friend tells you they didn't see the cyclist, the sign or the warning, they may be telling the truth. That doesn't excuse every mistake, but it should make us a little slower to say that anyone could have seen it.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A gentle consequence",
+    "sub": "Nobody is careless"
+   }
+  },
+  {
+   "say": "It's also worth saying that this narrow spotlight is a feature, not a flaw. If you took in everything in the room equally, you'd be overwhelmed. Focus lets you read a book in a busy café, follow one voice in a crowd, or lose yourself in a task. The cost is that the unattended goes unseen.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Another side",
+    "sub": "Attention is also a gift"
+   }
+  },
+  {
+   "say": "That final line is worth thinking about. We can't, by definition, notice what we're not noticing. All we can do is learn when the spotlight is likely to be narrow, such as when we're stressed, rushed or very absorbed, and plan for it.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The trade",
+    "items": [
+     "Focus lets you finish a difficult task",
+     "Focus hides things outside the beam",
+     "You can move the beam on purpose",
+     "You can't see where it isn't pointing"
+    ]
+   }
+  },
+  {
+   "say": "It's a plain scene. A hallway, a ball. But on that stage, a quiet experiment showed that something big can pass through the middle of our attention without leaving a mark. It's a gentle reminder to look twice at the places where we feel most certain we've seen everything.",
+   "show": {
+    "type": "photo",
+    "file": "lf18_b03_01.jpg",
+    "cap": "A ball in an empty hallway"
+   }
+  },
+  {
+   "say": "There's something rather tender in this research. Somewhere around you right now, there is likely to be something you haven't seen. A bird outside, a face in a photograph, a pattern on the ceiling. A small, curious walk around your own home can turn up things that have been there for years.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "The things you miss"
+   }
+  },
+  {
+   "say": "So what did the gorilla teach us? That attention is a narrow beam. That the unexpected can go unseen, even when we look straight at it. That experts are not exempt, and that the feeling of certainty hides the gap. And, perhaps, that being a little humble about what we notice is a sign of understanding, not weakness.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the gorilla taught us"
+   }
+  },
+  {
+   "say": "Our next story is about a man asking for directions, a door carried between you and him, and a change of person halfway through the conversation. It asks how much of a scene you really keep in your mind, and the answer is startling.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "A door that changed people"
+   }
+  }
+ ]
+}

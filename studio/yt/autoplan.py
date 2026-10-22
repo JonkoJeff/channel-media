@@ -29,7 +29,7 @@ for pre in ("lf", "rel"):
         if todo_sh:
             sday = lday if pre == "rel" else nxt_short
             if sday > today + dt.timedelta(days=35): print(f"{i}: Shorts buffer full (next free {sday})"); todo_sh = False
-            elif pre == "lf": nxt_short = sday + dt.timedelta(days=-(-len(r["shorts"]) // 4))
+            elif pre == "lf": nxt_short = sday + dt.timedelta(days=-(-len(r["shorts"]) // 5))
         plan.append((i, f"{lday}T20:00" if todo_long else None, f"{sday}@{SLOTS}" if todo_sh else None))
 for i, l, s in plan: print(f"{i}: long {l or 'already'}  shorts {s or 'already/none'}")
 if not plan: print("nothing to plan")

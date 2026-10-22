@@ -38,6 +38,11 @@ if "--run" in sys.argv:
     for i, l, s in plan:
         if l:
             subprocess.run(["gh", "release", "download", i, "--repo", os.environ.get("GITHUB_REPOSITORY", "JonkoJeff/channel-media"), "--pattern", "*.mp4", "--dir", TMP, "--clobber"], check=False)
-            fail += subprocess.run([sys.executable, os.path.join(D, "zernio.py"), "post", i, l, os.path.join(TMP, i + ".mp4")]).returncode != 0
+            mp4 = os.path.join(TMP, i + ".mp4")
+            if i.startswith("lf"):  # RUNBOOK: BAD long videos must be >= 120 min, else do not schedule (re-extend and re-render)
+                try: dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", mp4], capture_output=True, text=True).stdout.strip())
+                except Exception: dur = 0
+                if dur < 7200: print(f"::warning::{i}: only {dur/60:.1f} min (< 120), NOT scheduled"); fail += 1; continue
+            fail += subprocess.run([sys.executable, os.path.join(D, "zernio.py"), "post", i, l, mp4]).returncode != 0
         if s: fail += subprocess.run([sys.executable, os.path.join(D, "zernio.py"), "shorts", i, s]).returncode != 0
     sys.exit(1 if fail else 0)

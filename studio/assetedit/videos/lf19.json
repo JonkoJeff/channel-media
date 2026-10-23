@@ -22,8 +22,9 @@
   "text": "ALL|WRONG",
   "sprite": "A06",
   "bg": "street_day",
-  "mirror": false,
-  "accent": "#FF9A3C"
+  "mirror": true,
+  "accent": "#5CFF8A",
+  "accent_lock": true
  },
  "parts": [
   "lf19_b01",

@@ -1,0 +1,344 @@
+{
+ "id": "lf19_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In June 2012, a Harvard social psychologist named Amy Cuddy stood on a stage at a conference in Edinburgh and gave a talk that would be watched by tens of millions of people. Her message was simple, and it was thrilling. Stand in a powerful pose for two minutes, with your hands on your hips or your arms stretched wide, and your body chemistry will change. You'll feel more powerful, and you'll act more boldly.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 27,
+    "title": "The power pose"
+   }
+  },
+  {
+   "say": "The idea had everything. It was free, it took two minutes, and it needed nothing but a quiet corner. For people who felt nervous before an interview or a presentation, it offered a simple tool. And it was based on a published study in a respectable journal. It's easy to see why it spread so fast.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The appeal",
+    "sub": "A free, quick fix"
+   }
+  },
+  {
+   "say": "Dana Carney, Amy Cuddy and Andy Yap asked forty-two volunteers to hold either two high-power poses or two low-power poses, each for a minute. They measured the levels of two hormones, testosterone and cortisol, from saliva samples, and offered a simple gamble. The high-power group, the authors reported, had more testosterone, less cortisol, and took more risk.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Carney, Cuddy & Yap",
+    "where": "Psychological Science, 2010",
+    "what": "Power posing: brief nonverbal displays affect neuroendocrine levels and risk tolerance"
+   }
+  },
+  {
+   "say": "It's worth underlining how small this was. Forty-two people, divided into two groups, is a thin basis for a claim that a pose changes your hormones. That doesn't make the result wrong. But it means that it needed to be repeated before it could be trusted, and it's the kind of study where random variation can easily produce a striking result.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Participants in the original study",
+    "big": "42",
+    "label": "a very small sample for a claim about hormones and behaviour"
+   }
+  },
+  {
+   "say": "Four linked claims. And, as with all such claims, the way to test them is to run the experiment again, ideally with more people, and see if the same things happen. That's what a team in Sweden did.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The claim",
+    "items": [
+     "Expansive poses raise testosterone",
+     "They lower cortisol",
+     "They make people feel powerful",
+     "They make people take more risks"
+    ]
+   }
+  },
+  {
+   "say": "In 2015, Eva Ranehill and colleagues at the University of Zurich and Stockholm ran a much larger version of the experiment, with two hundred participants. They followed the original procedure closely, and measured the same hormones, the same risk-taking task and the same feeling of power. The experiment was designed in advance and registered publicly.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 28,
+    "title": "The replication"
+   }
+  },
+  {
+   "say": "Their results were clear. Power posing made people feel a little more powerful, but it had no effect on testosterone, no effect on cortisol and no effect on risk-taking. The two bodily claims, which were the most dramatic, did not replicate. The only effect that remained was the feeling.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Ranehill, Dreber, Johannesson, Leiberg, Sul & Weber",
+    "where": "Psychological Science, 2015",
+    "what": "Assessing the robustness of power posing: no effect on hormones and risk tolerance"
+   }
+  },
+  {
+   "say": "That number matters. With two hundred people, the researchers had a much better chance of detecting a real effect if there were one. The fact that they didn't find any hormone changes suggests that the original result was either a fluke, or a very small effect, or something that depends on details that haven't been identified.",
+   "show": {
+    "type": "stat",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "title": "Participants in the replication",
+    "big": "200",
+    "label": "about five times as many as in the original study"
+   }
+  },
+  {
+   "say": "In 2016, something unusual happened in psychology. Dana Carney, the first author of the original paper, published a statement on her website. She wrote that she no longer believed that power poses have real effects, and that she did not think that the effects were real. She listed some of the questionable research practices that she thought might have contributed to the original finding.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A surprising turn",
+    "sub": "The author changes her mind"
+   }
+  },
+  {
+   "say": "It was a rare and brave thing to do, and many people in the field praised it. It's not common for a scientist to publicly retract their own most famous result. It also made the story a case study in the importance of replication and honesty.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What Carney's statement said",
+    "items": [
+     "She doesn't believe the effects are real",
+     "She regrets promoting the finding",
+     "She listed flaws in the original analysis",
+     "She urged others not to study it further"
+    ]
+   }
+  },
+  {
+   "say": "But it wasn't the end of the story, and it's fair to present the other side. Amy Cuddy and her colleagues argued that the replications had differed from the original in important ways, and that there was still some evidence that posing can affect how people feel. In 2018, Cuddy, Schultz and Fosse published a re-analysis of the studies on power posing.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 29,
+    "title": "The other side"
+   }
+  },
+  {
+   "say": "They used a statistical technique called p-curve analysis, and concluded that, across eleven studies, there was evidence that holding expansive poses makes people feel more powerful. Other statisticians, including Joseph Simmons and Uri Simonsohn, who developed the technique, disagreed with how it was applied, and the debate continued.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Cuddy, Schultz & Fosse",
+    "where": "Psychological Science, 2018",
+    "what": "P-curving a more comprehensive body of research on postural feedback reveals clear evidential value for power-posing effects"
+   }
+  },
+  {
+   "say": "A cautious summary of the field is that there's weak and contested evidence that expansive postures may make people feel slightly more confident, an effect on how you feel, not on your hormones or your behaviour. The more dramatic claims, such as changes in testosterone and cortisol or real-world risk-taking, haven't held up.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "Where things stand",
+    "sub": "A small effect on feelings"
+   }
+  },
+  {
+   "say": "That's about the most that can be said. If standing tall makes you feel better, there's no harm in it. But it's unlikely to transform your chemistry or your fortunes, and it shouldn't be sold as if it could.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "A fair summary",
+    "items": [
+     "No reliable effect on hormones",
+     "No reliable effect on risk-taking",
+     "A possible small boost in feeling powerful",
+     "Still debated by researchers"
+    ]
+   }
+  },
+  {
+   "say": "The story of power posing has become a famous example of a larger problem in psychology. Starting around 2011, researchers began to realise that many well-known findings couldn't be reproduced. This became known as the replication crisis, and it changed the way the field works.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 30,
+    "title": "A wider lesson"
+   }
+  },
+  {
+   "say": "In 2015, a team of more than two hundred and fifty researchers tried to repeat one hundred published psychology experiments. About thirty-six percent of the replications produced a statistically significant result, compared with ninety-seven percent of the originals. The effects were also, on average, about half the size.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Open Science Collaboration",
+    "where": "Science, 2015",
+    "what": "Estimating the reproducibility of psychological science"
+   }
+  },
+  {
+   "say": "That number needs careful reading. It doesn't mean that two-thirds of psychology is false. Some failures were due to differences in method, or chance, or small effects. But it showed that a published result is a starting point, not a final truth, and that the field needed better habits.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Replications that found the original effect",
+    "big": "About 36%",
+    "label": "out of 100 studies repeated by the Open Science Collaboration"
+   }
+  },
+  {
+   "say": "These are practical reforms, and they've made psychology more reliable. Many of the studies in this video were done before the reforms, so we've been careful to note which ones have been replicated, and which haven't. It's a healthier science now, and a more honest one.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What changed after the crisis",
+    "items": [
+     "Larger samples",
+     "Preregistered plans",
+     "Shared data and materials",
+     "More replication studies"
+    ]
+   }
+  },
+  {
+   "say": "One feature of the power pose story is that it's a typical case. A small study, a striking result, a charismatic presentation, and a huge audience. Each of those elements can be innocent on its own. But together, they can build a belief that's much larger than the evidence behind it.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "A fair note",
+    "sub": "Small samples, big stories"
+   }
+  },
+  {
+   "say": "So are there ways to feel more confident before a stressful event? Some have better evidence. Preparing well, practising out loud, reappraising nerves as excitement and focusing on the task rather than on yourself have all been studied, with modest but more consistent results.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Feeling confident",
+    "sub": "What does work?"
+   }
+  },
+  {
+   "say": "Alison Wood Brooks at Harvard found that people who told themselves I am excited before a nerve-racking task, such as singing in public or giving a speech, performed better than those who tried to calm down. The idea is that anxiety and excitement are physically similar, and that it's easier to relabel the feeling than to switch it off.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Brooks",
+    "where": "Journal of Experimental Psychology: General, 2014",
+    "what": "Get excited: reappraising pre-performance anxiety as excitement"
+   }
+  },
+  {
+   "say": "An empty stage, one microphone and a pool of light. The place where a pose, a short talk and a big claim once travelled around the world. And a reminder that a good story is a great way to spread a result, and a poor way to test it.",
+   "show": {
+    "type": "photo",
+    "file": "lf19_b09_01.jpg",
+    "cap": "A microphone and a spotlight"
+   }
+  },
+  {
+   "say": "If standing tall helps you feel steady, by all means do it. The research simply suggests that it's a small comfort, not a magic switch. Whether you stand like a superhero or sit like a cat, what matters most is that you've prepared, you're kind to yourself, and you take a breath.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Stand however you like"
+   }
+  },
+  {
+   "say": "So what did we learn? That a small study can make a big splash. That a larger replication found no effect on hormones or risk-taking. That the original author changed her mind in public. And that science grows stronger when it checks its own favourite results.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the power pose taught us"
+   }
+  },
+  {
+   "say": "Even though the dramatic claims haven't held up, there is some evidence that posture can affect mood in small ways. In 2015, a study by Shwetha Nair and colleagues found that people sitting upright reported feeling slightly more positive and less anxious when compared with those who were slumped. Results like this are often small and hard to repeat, but they're a gentle reminder that the body and mind are linked, if not in the big way once claimed.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Body and mind",
+    "sub": "What posture can do"
+   }
+  },
+  {
+   "say": "The power pose story shows science's slow habit of self-correction. A surprising result is published. Others try to repeat it. Larger, preregistered tests follow. And, eventually, the field updates. It can take years, and it can be uncomfortable for everyone involved. But it's the reason we can trust the claims that survive, and it's worth being a little proud of.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Science's habit of self-correction",
+    "items": [
+     "A surprising result is published",
+     "Others try to repeat it",
+     "Larger, preregistered tests follow",
+     "The field updates, and so do the textbooks"
+    ]
+   }
+  },
+  {
+   "say": "Four terms from the power pose chapter. The replication crisis is the discovery that many results didn't repeat. Preregistration is publishing your plan before collecting data. A p-curve is a statistical tool for judging a set of studies. And effect size tells you how big an effect is, not only whether it exists.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Words worth keeping",
+    "items": [
+     "Replication crisis",
+     "Preregistration",
+     "P-curve",
+     "Effect size"
+    ]
+   }
+  },
+  {
+   "say": "When a popular idea falls, there's a quiet cost. People who tried it and felt that it didn't work may blame themselves. And scientists who report a failed replication sometimes face a great deal of criticism. It's worth remembering that the replication of Amy Cuddy's work was done in good faith, and that she faced harsh personal attacks. Science is a human activity, and kindness belongs in it.",
+   "show": {
+    "type": "quote",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "text": "The cost of a failed claim",
+    "by": "A sober point"
+   }
+  },
+  {
+   "say": "Before your next presentation or interview, you could try something that has some support. Prepare thoroughly. Say out loud, I'm excited. Take a few slow breaths. Then walk in. None of it is dramatic, and none of it will change your hormones. But the preparation and the reframing give you something real to stand on, and that is worth more than a pose.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A reflective moment",
+    "sub": "Before the big moment"
+   }
+  },
+  {
+   "say": "Next, we turn to another famous idea from the same era. The notion that self-control is like a muscle, or a tank of fuel, which gets used up. It has been one of the most influential theories in psychology, and it has had a very bumpy ride.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Does willpower run out?"
+   }
+  }
+ ]
+}

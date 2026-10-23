@@ -1,0 +1,334 @@
+{
+ "id": "lf19_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Look at almost any job advertisement, and you'll find it somewhere in the list of desired skills. Able to multitask. It's a phrase that we use with pride. We answer emails during meetings, check our phones while we cook, and talk on the telephone while we drive. We feel busy and capable, and most of us believe that we're quite good at it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 9,
+    "title": "The multitasking myth"
+   }
+  },
+  {
+   "say": "The term multitasking was first used for computers in the 1960s, to describe a processor that appeared to run several programs at once. In fact, early processors did one thing at a time, switching between jobs so quickly that it looked simultaneous. The word later moved to people, and it brought a misleading idea along with it.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The word itself",
+    "sub": "Borrowed from computers"
+   }
+  },
+  {
+   "say": "Psychologists who study attention have long argued that, for most demanding tasks, the human brain works rather like that early computer. It has a narrow channel for deliberate thinking, and when two tasks both need that channel, we don't do them together. We switch between them, and switching has a cost.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The central claim",
+    "sub": "A narrow channel"
+   }
+  },
+  {
+   "say": "Harold Pashler at the University of California, San Diego, studied what happens when people have to respond to two simple things in quick succession, such as a sound followed by a light. He found that the second response was delayed, even though the tasks were very easy. The brain seemed to have a bottleneck at the stage of choosing a response.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Pashler",
+    "where": "Psychological Bulletin, 1994",
+    "what": "Dual-task interference in simple tasks: data and theory"
+   }
+  },
+  {
+   "say": "Each cost is small, but they add up. A person who is jumping between a report and an inbox may feel very productive, but each time they return to the report, they have to remember what they were thinking, and that takes effort.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What switching costs",
+    "items": [
+     "Time to change gears",
+     "Mistakes at the point of switching",
+     "Forgetting where you were",
+     "A sense of being busy without finishing anything"
+    ]
+   }
+  },
+  {
+   "say": "In a set of experiments, these researchers asked people to switch between tasks such as solving maths problems and classifying shapes. They found that every switch cost some time, and that the cost was larger when the tasks were more complicated or less familiar. Switching was never free.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Rubinstein, Meyer & Evans",
+    "where": "Journal of Experimental Psychology: Human Perception and Performance, 2001",
+    "what": "Executive control of cognitive processes in task switching"
+   }
+  },
+  {
+   "say": "Many of us believe that we're the exception. We feel that we can do two things at once, that we're good at it, and that the studies are describing other people. So researchers have asked a pointed question: are the people who multitask the most also the best at it?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 10,
+    "title": "Are some people the exception?"
+   }
+  },
+  {
+   "say": "Eyal Ophir, Clifford Nass and Anthony Wagner at Stanford compared students who said they often used several kinds of media at once with those who rarely did. In a series of tests, the heavy multitaskers were more easily distracted by irrelevant information, and they were slower to switch between tasks. They did worse in the very area where they felt strongest.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Ophir, Nass & Wagner",
+    "where": "Proceedings of the National Academy of Sciences, 2009",
+    "what": "Cognitive control in media multitaskers"
+   }
+  },
+  {
+   "say": "It was an unexpected result. The researchers had assumed that heavy multitaskers would have developed a special skill at handling many streams of information. Instead, they seemed to be less able to filter out the irrelevant. It isn't clear which way the cause runs. Perhaps multitasking affects the habit of attention, or perhaps people who are easily distracted tend to multitask more.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A surprise",
+    "sub": "The heavy multitaskers did worse"
+   }
+  },
+  {
+   "say": "David Sanbonmatsu and colleagues found that the people who multitasked most often also tended to rate themselves as being good at it, and tended to be more impulsive and sensation-seeking. But, on a direct test of multitasking ability, they actually performed worse than those who did it less. The people who felt most capable were the least so.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Sanbonmatsu, Strayer, Medeiros-Ward & Watson",
+    "where": "PLoS ONE, 2013",
+    "what": "Who multi-tasks and why? Multi-tasking ability, perceived multi-tasking ability, impulsivity, and sensation seeking"
+   }
+  },
+  {
+   "say": "This should remind you of the earlier video, where we saw that confidence and accuracy are separate things. Our sense of how well we're coping is a feeling, and it's built from the satisfaction of being busy, not from a measurement of how well we're doing.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "The pattern",
+    "items": [
+     "Heavy multitaskers felt confident",
+     "Heavy multitaskers measured worse",
+     "Impulsiveness predicted multitasking",
+     "Feeling skilled and being skilled are different"
+    ]
+   }
+  },
+  {
+   "say": "Are there any genuine multitaskers? Yes, but they're very rare. In 2010, Jason Watson and David Strayer at the University of Utah tested two hundred people on a driving simulator, while the drivers also had to do a memory task on the phone. Most people got worse at both. But a tiny group did not.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 11,
+    "title": "The rare exceptions"
+   }
+  },
+  {
+   "say": "About three percent of the participants, which is five or six people out of two hundred, performed as well on both tasks together as they did on each alone. The researchers called them supertaskers. It's a fascinating finding, but it also means that the other ninety-seven percent of us, including those who believe that we're in the three percent, are probably not.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Watson & Strayer",
+    "where": "Psychonomic Bulletin & Review, 2010",
+    "what": "Supertaskers: profiles in extraordinary multitasking ability"
+   }
+  },
+  {
+   "say": "That's a useful number to keep in mind. If a hundred people each feel certain that they're a supertasker, about three of them are right. And there's no easy way to tell from the inside which three you are. The sensible approach is to assume that you're not, and plan accordingly.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Supertaskers",
+    "big": "About 3%",
+    "label": "of the 200 participants performed well on both tasks at once"
+   }
+  },
+  {
+   "say": "It's worth noting that supertasking was found in a particular kind of task, in a lab setting, with a small sample. The finding is intriguing, but it doesn't describe the daily reality of most people. It's a reminder that there's variation between people, and that averages can hide interesting exceptions.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A caution",
+    "sub": "Small studies, special tasks"
+   }
+  },
+  {
+   "say": "Even if you aren't doing two things at once, the habit of being interrupted has a cost. In 2008, Gloria Mark and her colleagues at the University of California, Irvine, studied how people respond to interruptions at work. They found that people did often make up the time, by working faster after an interruption.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 12,
+    "title": "What interruptions do"
+   }
+  },
+  {
+   "say": "But there was a price. People who were interrupted reported more stress, frustration, time pressure and effort. They got the work done, but they felt worse doing it. It seems that interruptions don't only cost time, they cost something in how we feel.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Mark, Gudith & Klocke",
+    "where": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 2008",
+    "what": "The cost of interrupted work: more speed and stress"
+   }
+  },
+  {
+   "say": "Another idea comes from Sophie Leroy at the University of Washington, who in 2009 described what she called attention residue. When you switch from one task to another, part of your mind remains with the first one, especially if you didn't finish it. That leftover thought makes it harder to give your full attention to the next job.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "Attention residue",
+    "sub": "The lingering thought"
+   }
+  },
+  {
+   "say": "In her experiments, people who switched from an unfinished task performed worse on the next one than people who had finished the first. The unfinished task kept pulling at their attention. It's a very human thing: an unfinished thought has a way of lingering.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Leroy",
+    "where": "Organizational Behavior and Human Decision Processes, 2009",
+    "what": "Why is it so hard to do my work? The challenge of attention residue when switching between work tasks"
+   }
+  },
+  {
+   "say": "These are all consistent with the research. None of them is complicated, and none of them requires you to be perfect. The idea is simply to make the switches fewer, and to make each one a little less costly.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Ways to reduce the cost",
+    "items": [
+     "Do one thing at a time when it matters",
+     "Finish or note where you stopped before switching",
+     "Put the phone out of sight",
+     "Batch small tasks together"
+    ]
+   }
+  },
+  {
+   "say": "There's even evidence that a phone's presence matters. In 2017, Adrian Ward and colleagues at the University of Texas at Austin found that people did slightly worse on attention tests when their phone was on the desk, face down and silent, than when it was in another room. Later studies have had mixed results, so the finding should be held lightly.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Phones",
+    "sub": "The presence effect"
+   }
+  },
+  {
+   "say": "A fair summary is that the effect of having a phone nearby may exist, but it's small and has been hard to replicate in some studies. The much more solid result is about active switching. When you actually answer a message, you pay a price, and you pay it each time.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The honest summary",
+    "sub": "Mixed, but interesting"
+   }
+  },
+  {
+   "say": "A desk with only one thing on it. It's an image that looks almost old-fashioned. But the research suggests that it's a good way to work. One task, full attention, and a clear point at which to stop.",
+   "show": {
+    "type": "photo",
+    "file": "lf19_b04_01.jpg",
+    "cap": "One task on the desk"
+   }
+  },
+  {
+   "say": "We live in a culture that praises busyness, and it can feel indulgent to do just one thing at a time. But it isn't laziness. It's working with the way the mind is built. Doing one thing at a time, and doing it well, is quite possibly the most effective approach that the research can offer.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Doing one thing is not lazy"
+   }
+  },
+  {
+   "say": "So what did we learn? That most multitasking is really rapid switching, and that each switch costs us something. That the people who multitask most feel confident but test worse. That true supertaskers are about three percent of people. And that interruptions leave a lingering residue.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the multitasking research taught us"
+   }
+  },
+  {
+   "say": "The strongest practical evidence on multitasking comes from driving. In 2006, David Strayer and colleagues at the University of Utah compared drivers in a simulator who were talking on a phone with drivers who had a blood alcohol level at the legal limit in the United States. The drivers on the phone were as impaired as the drunk ones, and in some respects slower to react. Hands-free calls made little difference, which tells us that the problem is the attention and not the hands.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The driving evidence",
+    "sub": "Why phones are risky"
+   }
+  },
+  {
+   "say": "Single-tasking is a skill that can be practised. Decide on the one task for the next half hour. Silence notifications. Keep a notepad beside you for stray thoughts, so that they don't pull you away. Then take a short break before looking at your messages. Most people notice a difference within a week, in both the quality of the work and how tired they feel.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Single-tasking in practice",
+    "items": [
+     "Decide the one task for the next half hour",
+     "Silence notifications",
+     "Keep a note pad for stray thoughts",
+     "Take a short break afterwards"
+    ]
+   }
+  },
+  {
+   "say": "Nobody can work in a monastery all day. A realistic approach is to protect a few short blocks, perhaps twenty-five minutes, in which you do one thing, with notifications off and the phone out of reach. Then take a short break, and check your messages. Many people find that the work gets done faster, and with fewer mistakes, and that they feel less frazzled at the end of the day.",
+   "show": {
+    "type": "quote",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "text": "Single-tasking in small doses",
+    "by": "A realistic habit"
+   }
+  },
+  {
+   "say": "Try this tonight. Think of the three things you most often do at the same time, perhaps eating and scrolling, or working and messaging. Pick one pair, and for a week, separate them. Eat your dinner and just eat. Write your report and just write. Notice how it feels at the end of the week, and whether anything is better. It's a small experiment, and it's yours.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A reflective moment",
+    "sub": "What would you drop?"
+   }
+  },
+  {
+   "say": "Our next claim is a dream for tired students everywhere. Play a recording while you sleep, and wake up knowing a language. It has been a staple of science fiction and late-night advertisements, and the research is a great deal more interesting than the myth.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Learning in your sleep"
+   }
+  }
+ ]
+}

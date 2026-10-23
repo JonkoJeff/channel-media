@@ -1,0 +1,295 @@
+{
+ "id": "lf19_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Picture a children's birthday party. There's a table of sweets, a chocolate cake, bright drinks and a roomful of small people running in circles. A parent leans over and says, with feeling, they're bouncing off the walls, it's all the sugar. It is one of the most widely held beliefs about children, and one of the most thoroughly tested.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 3,
+    "title": "Sugar and the children"
+   }
+  },
+  {
+   "say": "The idea has been popular for decades. Surveys have found that large numbers of parents believe that sugar affects their child's behaviour, making them more excitable, less able to concentrate or harder to manage. Some parents carefully limit sugar for exactly that reason, and some blame it for a whole day's mischief.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The belief",
+    "sub": "Sugar equals hyperactivity"
+   }
+  },
+  {
+   "say": "The belief took hold in the 1970s, when a paediatric allergist in California named Benjamin Feingold suggested that artificial additives and certain foods caused hyperactivity in children. His diet became popular, and the idea that diet drives behaviour spread. Sugar, being everywhere in children's lives, became a favourite suspect.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The origin",
+    "sub": "Diets and doctors"
+   }
+  },
+  {
+   "say": "By 1995, there had been enough controlled experiments for a large review. Mark Wolraich and colleagues gathered twenty-three studies, in which children were given sugar or a sugar-free substitute, without anyone, neither the children, parents nor researchers, knowing which. These studies were the kind of double-blind tests that are the gold standard for this question.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Wolraich, Wilson & White",
+    "where": "Journal of the American Medical Association, 1995",
+    "what": "The effect of sugar on behavior or cognition in children: a meta-analysis"
+   }
+  },
+  {
+   "say": "The conclusion was clear. Sugar did not affect the behaviour or the thinking skills of children. That included children without any diagnosis and children whose parents said that they were sensitive to sugar, as well as children with attention-deficit hyperactivity disorder. The authors noted that their review couldn't rule out a very small effect in a very small group of children.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Studies in the meta-analysis",
+    "big": "23",
+    "label": "double-blind trials of sugar and children's behaviour"
+   }
+  },
+  {
+   "say": "When the labels were hidden, the difference disappeared. And this naturally raises a puzzle. If sugar doesn't change how children act, why do so many parents see it so clearly? The answer, as it turns out, lies in the parents.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What the controlled studies tested",
+    "items": [
+     "Children given real sugar",
+     "Children given a sugar substitute",
+     "Nobody knew which was which",
+     "Behaviour, attention and mood were measured"
+    ]
+   }
+  },
+  {
+   "say": "In 1994, Daniel Hoover and Richard Milich at the University of Kentucky designed a very clever experiment. They recruited thirty-five boys, aged five to seven, whose mothers believed that their sons were sensitive to sugar. All of the boys were given a drink that was sweetened with aspartame, an artificial sweetener, containing no sugar at all.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 4,
+    "title": "The mothers' study"
+   }
+  },
+  {
+   "say": "Half of the mothers were told that their sons had been given a large dose of sugar. The other half were told that it was a sugar-free drink. Then each mother and son were observed playing together. The mothers who thought that their child had been given sugar rated them as significantly more hyperactive, even though the children's behaviour was no different.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Hoover & Milich",
+    "where": "Journal of Abnormal Child Psychology, 1994",
+    "what": "Effects of sugar ingestion expectancies on mother-child interactions"
+   }
+  },
+  {
+   "say": "The researchers also watched how the mothers behaved. Those who believed that their sons had been given sugar stayed closer to them, criticised them more often and made more remarks about their behaviour. In other words, the belief shaped the interaction, and the interaction shaped what the mothers saw.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "What the mothers did",
+    "sub": "They watched more closely"
+   }
+  },
+  {
+   "say": "This is a lovely example of what we saw in the previous long video, where expectation reaches into perception. A parent who expects wildness finds wildness, and a child who is watched closely and told off for it may well behave in a more agitated way. The belief becomes a loop.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What the study suggests",
+    "items": [
+     "Expectation changed what parents saw",
+     "Expectation changed how they acted",
+     "The children's behaviour had not changed",
+     "Beliefs can feed themselves"
+    ]
+   }
+  },
+  {
+   "say": "It's worth pausing on that birthday party. There's a lot more going on than sugar. A group of excited children, a break in routine, loud music, games, noise, the presence of friends, and often a late hour. Every one of those is a well-known cause of boisterous behaviour. Sugar just happens to be the thing on the table.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "So why the party?",
+    "sub": "Everything else is going on"
+   }
+  },
+  {
+   "say": "This doesn't mean that sugar is harmless. High sugar intake is linked to tooth decay and, over the long term, to other health problems. The point of the research is narrow. It says that a sugary treat does not, by itself, cause a short-term spike in children's activity or a drop in their attention. It says nothing in favour of unlimited sweets.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A caution",
+    "sub": "Not a licence for endless sweets"
+   }
+  },
+  {
+   "say": "Other reviews around that time reached similar conclusions. The research on sugar and children's behaviour, from the early 1990s onwards, shows consistently null results when the experiment is properly blinded. What remains is a story about expectation, and one that is well worth knowing about.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Kanarek",
+    "where": "Nutrition Reviews, 1994",
+    "what": "Does sucrose or aspartame cause hyperactivity in children?"
+   }
+  },
+  {
+   "say": "There's something deeper in this story than a single nutritional myth. It shows how a plausible cause, one that fits our common sense, can survive for decades because we see what we expect. A party, a treat and an excited child fit together so neatly that no one looks for a better explanation.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 5,
+    "title": "The wider lesson"
+   }
+  },
+  {
+   "say": "Psychologists call this confirmation bias. We notice the times that the sugar was followed by wildness, and forget the times that it wasn't. We remember the memorable tantrum at the party, and not the quiet day after a chocolate bar. Without careful testing, our memory becomes a collection of confirming examples.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Confirmation",
+    "sub": "We notice what fits"
+   }
+  },
+  {
+   "say": "Four steps, and each is perfectly human. None requires foolishness. It's just how a mind that learns from examples can end up learning something false.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "How a myth keeps itself going",
+    "items": [
+     "We notice the cases that fit",
+     "We forget the cases that don't",
+     "We see what we expect in other people",
+     "Everyone around us repeats it"
+    ]
+   }
+  },
+  {
+   "say": "If you want to examine your own belief, there's a gentle way to do it. Keep a note, for a week or two, of the days when your child had sweets and the days they didn't, and of how they behaved. Most people who try this are surprised by how little pattern there is. It's a tiny experiment of your own.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A practical idea",
+    "sub": "Test it gently"
+   }
+  },
+  {
+   "say": "A plate of biscuits, a few paper cups and some bunting. A quiet scene after the noise has gone. It's easy to blame the sweets for the noise, but the research suggests that the real causes were the excitement, the company and the day itself.",
+   "show": {
+    "type": "photo",
+    "file": "lf19_b02_01.jpg",
+    "cap": "A table after the party"
+   }
+  },
+  {
+   "say": "There's a kind side to this finding. Parents often feel responsible for what a child eats, and guilty when behaviour gets difficult. It may help to know that the occasional treat is not the cause of every difficult afternoon, and that the noise of a party is simply the noise of children enjoying themselves.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Kindness to parents too"
+   }
+  },
+  {
+   "say": "So what did we learn? That twenty-three controlled studies found no effect of sugar on children's behaviour. That parents who thought their child had had sugar saw more hyperactivity, even when they hadn't. And that expectations can quietly shape both what we see and how we act.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the sugar studies taught us"
+   }
+  },
+  {
+   "say": "The story of sugar is part of a larger and more complicated one about food and behaviour. Some studies have suggested that certain artificial colours and preservatives may have a small effect on the behaviour of some children. The best-known was a 2007 study by Donna McCann and colleagues at the University of Southampton. The effects were small and not found in every group, and regulators have debated what to make of them. It's a reminder that the answer for one ingredient isn't the answer for another.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Other food myths",
+    "sub": "Additives and behaviour"
+   }
+  },
+  {
+   "say": "The sugar myth had all four of these. It fitted a general belief that treats are bad for children. It was easy to picture a child wired on cake. It offered something to blame. And everyone around repeated it. A myth with those four qualities can survive a hundred negative studies, because it was never really held up by studies in the first place.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Why we trust a plausible cause",
+    "items": [
+     "It fits something we already believe",
+     "It is easy to picture",
+     "It gives us someone or something to blame",
+     "It is repeated by people we trust"
+    ]
+   }
+  },
+  {
+   "say": "Four terms from the sugar chapter. A double-blind study is one where neither participants nor researchers know who got what. A meta-analysis combines many studies into one answer. Expectancy is what you think will happen. And confirmation bias is noticing what fits what you already believe. They will help you read almost any health claim.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Words worth keeping",
+    "items": [
+     "Double-blind",
+     "Meta-analysis",
+     "Expectancy",
+     "Confirmation bias"
+    ]
+   }
+  },
+  {
+   "say": "If a child seems wound up, it's usually more useful to look at the whole day than at a single food. Have they slept enough, eaten a proper meal, had time to run about outdoors, and been with people they like? These ordinary things have a much clearer link to mood and behaviour than any one sweet, and they are things that a parent can actually change.",
+   "show": {
+    "type": "quote",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "text": "Look at the whole day",
+    "by": "A gentle practical note"
+   }
+  },
+  {
+   "say": "It's important not to blame the parents in the sugar story. They weren't being foolish. They were doing what all of us do, which is to draw a conclusion from what we see, and to match it with what we've been told. The researchers' point is that this ordinary process can lead us astray, and that carefully designed experiments exist precisely to protect us from it. The best response to a surprising result is curiosity, not embarrassment.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "What the parents said",
+    "sub": "A fair reading"
+   }
+  },
+  {
+   "say": "For our next claim, we turn our eyes to the sky. Nurses, police officers, teachers and bar staff all swear that the full moon makes people act strangely. It's an old belief, and it's been tested many times, in many ways.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "The full moon"
+   }
+  }
+ ]
+}

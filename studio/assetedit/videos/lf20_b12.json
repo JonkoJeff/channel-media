@@ -1,0 +1,252 @@
+{
+ "id": "lf20_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "If you've ever seen an advert for a brain training app, you know the promise. A few minutes a day of puzzles and games, and your memory sharpens, your focus improves, and you become a little smarter. It's an appealing idea, and an enormous industry has grown around it. So let's look at what the evidence actually says.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "Can you train your brain to be smarter?"
+   }
+  },
+  {
+   "say": "The scientific idea behind it is called transfer. If you practise a mental skill, such as holding items in working memory, do you improve at other things, like reasoning, reading or remembering your shopping? Many studies have asked this. And the answers have been quite consistent.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The hope",
+    "sub": "Train one skill, gain many"
+   }
+  },
+  {
+   "say": "The excitement began with a study in 2008. Susanne Jaeggi and colleagues had adults practise a demanding working memory game, the dual n-back, for up to nineteen days. They reported that the trainees improved on a test of fluid intelligence, and that those who trained longer improved more. It made headlines worldwide.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Jaeggi, Buschkuehl, Jonides & Perrig",
+    "where": "PNAS, 2008",
+    "what": "Improving fluid intelligence with training on working memory"
+   }
+  },
+  {
+   "say": "But the study was small, and when other teams tried to repeat it, the picture got murkier. Some found an improvement, and many found none. Two large meta-analyses, one in 2013 by Monica Melby-Lervåg and Charles Hulme, and a later one with Thomas Redick, found that working memory training improved performance on the trained tasks and on very similar ones, but didn't produce lasting gains in general intelligence or school skills.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The follow-ups",
+    "sub": "Mixed at best"
+   }
+  },
+  {
+   "say": "The most striking test was the biggest. In 2010, Adrian Owen of the University of Cambridge, with colleagues and the BBC, ran a six-week online experiment, and it was published in Nature.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 2,
+    "title": "The giant experiment"
+   }
+  },
+  {
+   "say": "More than eleven thousand people took part. They were randomly assigned to one of two kinds of online brain training, or to a control group that simply searched the internet for answers to quiz questions. Training lasted at least ten minutes a day, three times a week, for six weeks. Before and after, everyone took a battery of tests.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Owen and colleagues",
+    "where": "Nature, 2010",
+    "what": "Putting brain training to the test"
+   }
+  },
+  {
+   "say": "The people who trained got better at the tasks they trained on, and sometimes by a lot. Practice works, after all. But there was no evidence that this carried over to other tasks, even ones that were very similar. The control group, which just searched online, improved by about as much on the other tests.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "People in the experiment",
+    "big": "11,430",
+    "label": "randomly assigned to brain training or to a control activity for six weeks"
+   }
+  },
+  {
+   "say": "In 2016, a team of psychologists led by Daniel Simons reviewed the evidence behind the claims made by brain training companies, in a long article in Psychological Science in the Public Interest. Their conclusion was that the studies often had weaknesses, and that there was little evidence that these games improve everyday cognitive performance.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The common finding",
+    "items": [
+     "Practice improves the practised game",
+     "Gains on close, similar tasks are small",
+     "Gains on general intelligence are not reliable",
+     "Gains in everyday life are rarely shown"
+    ]
+   }
+  },
+  {
+   "say": "In the same year, 2016, the United States Federal Trade Commission announced that the company behind a well-known brain training app had agreed to settle charges that it had advertised misleadingly, making claims about performance in school and work that the company couldn't support. It was a rare case of a regulator weighing in on a scientific question.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A telling moment",
+    "sub": "The regulator spoke"
+   }
+  },
+  {
+   "say": "It would be unfair to stop there, because some careful work gives a more hopeful note. The largest long-term study of cognitive training in older adults is called ACTIVE, and it followed several thousand people for ten years.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 3,
+    "title": "The other side"
+   }
+  },
+  {
+   "say": "In ACTIVE, adults aged sixty-five and over were randomly assigned to training in memory, reasoning or speed of processing, or to a control group. Ten years later, those who'd had reasoning or speed training still performed better on the abilities they'd trained, and many said that they found daily tasks, such as managing medication, easier. Memory training showed no lasting effect.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Rebok and colleagues",
+    "where": "Journal of the American Geriatrics Society, 2014",
+    "what": "Ten-year effects of the ACTIVE cognitive training trial on cognition and everyday functioning in older adults"
+   }
+  },
+  {
+   "say": "The honest reading is that training can keep specific abilities in shape for years, particularly in older adults, but that the benefits are narrow. You get better at what you train. Another analysis of the same study group, published in 2017, linked speed training to a lower rate of later dementia diagnoses, which is intriguing, though it needs confirming before anyone leans on it.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A careful reading",
+    "sub": "Real but narrow"
+   }
+  },
+  {
+   "say": "If apps are limited, what else is there? The most reliable answers turn out to be rather ordinary. They're not clever, and they're not on sale. They're movement, sleep and, as we've seen all evening, learning real things in effective ways.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 4,
+    "title": "What does help the brain?"
+   }
+  },
+  {
+   "say": "Kirk Erickson and his colleagues randomly assigned a hundred and twenty older adults to either a year of walking, three days a week, or to a control programme of stretching and toning. At the end, the walkers' hippocampus, a brain region crucial for memory, had grown by about two percent. In the stretching group it had shrunk by about one and a half percent, which is the normal change with age.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Erickson and colleagues",
+    "where": "PNAS, 2011",
+    "what": "Exercise training increases size of hippocampus and improves memory"
+   }
+  },
+  {
+   "say": "The walkers also improved on a spatial memory test. It's one study, and the effect on daily life is harder to measure. But it's a randomised trial with a clear result, and it points the same way as many others: moving your body is good for your mind.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Hippocampus size after one year",
+    "big": "+2% vs -1.4%",
+    "label": "walking group against stretching group, in a randomised trial of 120 older adults"
+   }
+  },
+  {
+   "say": "That's a nice contrast. The brain-training industry sells a shortcut. The research suggests that ordinary things, such as brisk walks and enough sleep, do more for the brain than a screen of puzzles.",
+   "show": {
+    "type": "photo",
+    "file": "lf20_b12_01.jpg",
+    "cap": "Shoes, a notebook and a cup of tea"
+   }
+  },
+  {
+   "say": "Exercise isn't a miracle either. The size of the benefit varies, and not every study finds an effect on thinking. But the case is strong enough that, if you had to choose between ten minutes of a puzzle app and ten minutes of a brisk walk, the research would tilt towards the walk.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A fair caution",
+    "sub": "Not a cure-all"
+   }
+  },
+  {
+   "say": "There's one more point that I find hopeful. You can't train your brain in general, but you can train it in particular. Learning a real subject, such as a language or an instrument or a craft, gives you real, lasting skills. And those are the skills that you can use.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 5,
+    "title": "Learning as the best training"
+   }
+  },
+  {
+   "say": "If you want better memory for names, practise remembering names. If you want to write better, write and get feedback. If you want to understand statistics, study statistics, using the methods we've covered. The best brain training is the thing itself, done well.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The takeaway",
+    "sub": "Train what you want"
+   }
+  },
+  {
+   "say": "None of that is glamorous. But none of it requires a subscription, and the evidence for each is a good deal stronger than for a game on a phone.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What actually improves thinking",
+    "items": [
+     "Learning real subjects with effective methods",
+     "Regular physical activity",
+     "Enough sleep",
+     "Time spent with other people who challenge you"
+    ]
+   }
+  },
+  {
+   "say": "There's a certain peace in that conclusion. You don't need a gadget to improve your mind. You need time, attention and a willingness to find things hard. That's available to nearly everyone, and it's the same thing that people have always used to learn.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Nothing to buy"
+   }
+  },
+  {
+   "say": "So, what did we learn? That brain games improve the games, and not general intelligence. That a very large online experiment found no transfer. That some long-term training for older adults helps with the trained skills. And that walking, sleep and real learning have much better evidence than apps.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What training taught us"
+   }
+  },
+  {
+   "say": "Next, we turn to the thing that quietly makes all of it work. Without it, the best methods in the world lose their power. After that, we'll gather everything into a simple plan, and finish the evening gently.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Sleep, and putting it together"
+   }
+  }
+ ]
+}

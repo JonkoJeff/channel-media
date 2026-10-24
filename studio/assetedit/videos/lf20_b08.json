@@ -1,0 +1,326 @@
+{
+ "id": "lf20_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Few ideas in education have travelled as far as the growth mindset. You may have heard it. The suggestion is that if you believe your abilities can grow through effort, you'll learn more than if you believe they're fixed. It's a hopeful idea, and it deserves a careful look, because it has both real findings behind it and real disappointments.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "Mindsets, and what the big studies found"
+   }
+  },
+  {
+   "say": "The idea comes from the psychologist Carol Dweck at Stanford University. She noticed that students differ in what they believe about intelligence. Some think of it as a fixed amount that you either have or you don't. Others think of it as something that develops, like a muscle. She argued that these beliefs shape how people respond to difficulty.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The idea",
+    "sub": "Fixed versus growth"
+   }
+  },
+  {
+   "say": "If you believe ability is fixed, every struggle is a verdict on you. If you believe it can grow, a struggle is information. That difference could, in theory, change how long you persist and how willing you are to take on challenges.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Two ways to meet a hard problem",
+    "items": [
+     "Fixed: this shows I am not good at this, so I should avoid it",
+     "Growth: this shows I need a new strategy, so I should try another way"
+    ]
+   }
+  },
+  {
+   "say": "One of the best-known experiments here is about praise. Claudia Mueller and Carol Dweck, in a paper published in 1998, studied fifth graders, ten and eleven-year-olds, working on puzzles.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 2,
+    "title": "The praise experiment"
+   }
+  },
+  {
+   "say": "After a first set of puzzles, which were fairly easy, each child was told they'd done well. Some were praised for intelligence: you must be smart at this. Others were praised for effort: you must have worked hard. Then the children chose what to do next, a harder puzzle that they might learn from, or an easy one that would show off their success.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Mueller & Dweck",
+    "where": "Journal of Personality and Social Psychology, 1998",
+    "what": "Praise for intelligence can undermine children's motivation and performance"
+   }
+  },
+  {
+   "say": "Most of the children praised for effort chose the challenging puzzle, the one they could learn from. Many of those praised for intelligence chose the safe one. Then came a hard set of puzzles that everyone struggled with. The intelligence-praised group enjoyed them less, and when a final easy set came, they did worse than at the start. The effort-praised group did better.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The choice",
+    "sub": "Praise changed it"
+   }
+  },
+  {
+   "say": "It's worth remembering how modest these experiments were. They used short tasks and a limited number of children, and as with many classic findings in psychology, later work has been more mixed than the first reports. But the direction of the idea is sensible. Telling a child that they succeeded because of a trait gives them something to lose.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A fair note",
+    "sub": "A small experiment"
+   }
+  },
+  {
+   "say": "The big claim was that a short lesson on the growth mindset could raise achievement. The study often cited is one by Lisa Blackwell, Kali Trzesniewski and Carol Dweck, published in 2007.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 3,
+    "title": "The school intervention"
+   }
+  },
+  {
+   "say": "They followed students over the transition into seventh grade in New York. First, they showed that students who believed intelligence could grow got higher maths grades over the next two years, while the grades of those with a fixed view stayed flat or fell. Then they ran an experiment in which some students got eight sessions on the brain and study skills, with a growth message, and others got sessions on memory without it.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Blackwell, Trzesniewski & Dweck",
+    "where": "Child Development, 2007",
+    "what": "Implicit theories of intelligence predict achievement across an adolescent transition"
+   }
+  },
+  {
+   "say": "In the control group, maths grades kept falling. In the growth group, the decline halted and reversed. Teachers, who didn't know which students had been in which group, noticed more motivation in those who got the growth lessons. It was a hopeful result, and it helped launch a movement.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The finding",
+    "sub": "Declining grades turned"
+   }
+  },
+  {
+   "say": "Then researchers asked the standard follow-up question. Does it hold up in larger and more varied samples? Over the following years, the answer turned out to be: partly.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 4,
+    "title": "When big studies were run"
+   }
+  },
+  {
+   "say": "In 2018, Victoria Sisk and colleagues combined the results of many studies. They found that the link between students' mindsets and their achievement was small, and the effect of mindset interventions on achievement was smaller still, close to nothing on average. The effects were somewhat larger for students from low-income backgrounds, and for students at academic risk.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Sisk, Burgoyne, Sun, Butler & Macnamara",
+    "where": "Psychological Science, 2018",
+    "what": "To what extent and under which circumstances are growth mind-sets important to academic achievement?"
+   }
+  },
+  {
+   "say": "That doesn't mean the idea is worthless. An average can hide a lot. But it does mean that the early excitement went beyond the evidence, and that a short motivational lesson is not a switch that you can flip.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Average effect of mindset interventions",
+    "big": "Very small",
+    "label": "in a combined analysis of dozens of studies"
+   }
+  },
+  {
+   "say": "One of the best tests was designed to be as careful as possible. In 2019, David Yeager and a large team reported a national experiment in the United States, published in the journal Nature.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 5,
+    "title": "The national study"
+   }
+  },
+  {
+   "say": "They randomly assigned about twelve and a half thousand ninth graders, in a representative sample of schools, to take either a short online growth mindset lesson, which took about an hour in total, or a control lesson. Then they looked at grades.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Yeager and colleagues",
+    "where": "Nature, 2019",
+    "what": "A national experiment reveals where a growth mindset improves achievement"
+   }
+  },
+  {
+   "say": "Overall, the lesson produced a small improvement in grades for lower-achieving students, about a tenth of a grade point, and not much for the rest. The benefit was largest in schools where classmates also supported challenge-seeking. In other words, the lesson worked best where the environment backed it up.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The result",
+    "sub": "Modest, and uneven"
+   }
+  },
+  {
+   "say": "That's a more modest conclusion than the books suggest. But it's still worth having. A tenth of a grade point, for an hour of time, from a lesson that costs almost nothing to deliver, is a result that many other educational programmes would envy.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What the evidence supports",
+    "items": [
+     "Beliefs about ability do matter somewhat",
+     "Short online lessons have small average effects",
+     "Effects are bigger for struggling students",
+     "The school climate matters as much as the message"
+    ]
+   }
+  },
+  {
+   "say": "There's a related idea that fits this part of the evening well, because it asks what happens if you struggle first, and are taught afterwards. Most lessons run the other way. The teacher explains, and then you practise. A researcher named Manu Kapur wondered what would happen if the order were reversed.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 6,
+    "title": "Struggling before being taught"
+   }
+  },
+  {
+   "say": "Kapur gave students a hard problem about statistics, before they'd been taught the method for it. Without the method, nobody could solve it fully. Some students then had a lesson, while others went through the usual order of lesson first, then practice. He compared what each group understood afterwards.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Kapur",
+    "where": "Cognitive Science, 2014",
+    "what": "Productive failure in learning math"
+   }
+  },
+  {
+   "say": "The students who had struggled first, and failed, did worse at solving the practice problem itself. But on questions that tested a deeper grasp of the concept, and on new problems that they hadn't seen, they did better. Kapur called this productive failure. The struggle seemed to prepare their minds for the explanation, so that it landed on prepared ground.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The result",
+    "sub": "Failure first, understanding later"
+   }
+  },
+  {
+   "say": "A later analysis of dozens of studies by Sinha and Kapur found a modest benefit overall, bigger when the design was carried out carefully, with a good lesson afterwards. The conditions matter. The problem has to be hard but not impossible, and the teaching afterwards must be clear. Struggling and then being left alone is not productive. It's just struggling.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A fair note",
+    "sub": "The conditions matter"
+   }
+  },
+  {
+   "say": "There's an older and simpler version of the same idea, from 1978. Norman Slamecka and Peter Graf asked people to either read word pairs, such as hot and cold, or to generate the second word themselves from a clue, such as hot and c-blank-blank-blank. The people who had generated the words remembered them better afterwards. They called it the generation effect.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Slamecka & Graf",
+    "where": "Journal of Experimental Psychology: Human Learning and Memory, 1978",
+    "what": "The generation effect: delineation of a phenomenon"
+   }
+  },
+  {
+   "say": "Notice what these have in common with testing and with mindset. They all treat a wrong answer as part of learning. When you guess wrongly, and then see the right answer, you've created a small surprise. Surprise is something the memory takes notice of.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Try before you are told",
+    "items": [
+     "Guess the answer before reading it",
+     "Attempt the problem before seeing the solution",
+     "Predict what a chapter will say",
+     "Sketch the idea before looking at the diagram"
+    ]
+   }
+  },
+  {
+   "say": "So what should we take from this, as individual learners? I'd suggest three things. The first is to be careful about the word yet. The second is to treat difficulty as information. And the third is to avoid empty slogans.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 7,
+    "title": "What it means for you"
+   }
+  },
+  {
+   "say": "Adding the word yet, as in, I can't do this yet, changes what a struggle means. It turns a closed door into an unopened one. That's not magic. But it's a helpful habit of speech, and it fits well with the real finding that struggling with effective strategies leads to learning.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "A small word",
+    "sub": "The power of yet"
+   }
+  },
+  {
+   "say": "Dweck herself has pointed out a common mistake. Praising effort alone isn't enough. If a child works hard with a strategy that doesn't work, then telling them to try harder just wastes their time. The best message is about effort and strategy: you worked hard, and now let's see what else you could try.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A caution",
+    "sub": "Effort alone isn't enough"
+   }
+  },
+  {
+   "say": "There's also an uncomfortable piece in the picture. Some ability differences are real, and mindset can't erase them. But within any person's range, most of us are nowhere near the limit of what's possible. Whether it's maths, writing or learning a language, the gains available from good methods are big. That is the part that is worth being optimistic about.",
+   "show": {
+    "type": "photo",
+    "file": "lf20_b08_01.jpg",
+    "cap": "Something growing slowly"
+   }
+  },
+  {
+   "say": "I like to think of the evidence as a kind of gentle permission. It doesn't promise that believing will make it so. It says that a belief that you can improve is a reasonable starting point, and that real improvement comes from the methods we've been exploring all evening: testing, spacing, mixing, explaining and practising with care.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Hope without hype"
+   }
+  },
+  {
+   "say": "So what did we learn? That praising effort rather than intelligence changed children's choices in a classic experiment. That a school lesson seemed to turn around maths grades in a small study. That large combined analyses found small average effects. And that a national experiment found a modest benefit for the students who most needed it.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What mindsets taught us"
+   }
+  },
+  {
+   "say": "Next, we're going to visit one of the oldest memory techniques in history. It was used by ancient orators, and it's still used by memory champions today. It involves walking through a house that exists only in your mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Memory palaces"
+   }
+  }
+ ]
+}

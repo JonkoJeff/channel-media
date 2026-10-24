@@ -1,0 +1,337 @@
+{
+ "id": "lf20_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's come back to something very ordinary. A lecture hall, or a quiet room with a book, and a person trying to make sense of what they hear or read. What should that person do with their hands? Take notes? Highlight? Type? These are everyday questions, and they have been studied surprisingly well.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "Notes, reading and highlighting"
+   }
+  },
+  {
+   "say": "In 2014, two psychologists, Pam Mueller and Daniel Oppenheimer, published a paper with a title that caught the world's attention: The Pen Is Mightier Than the Keyboard. It suggested that taking notes by hand beats taking them on a laptop. It was reported everywhere.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The big debate",
+    "sub": "Pen or keyboard?"
+   }
+  },
+  {
+   "say": "Students watched a short talk, taking notes either with a pen or on a laptop. Later, they answered questions about the talk. On factual questions, there was little difference. But on conceptual questions, the ones that needed understanding, the longhand note-takers did better.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Mueller & Oppenheimer",
+    "where": "Psychological Science, 2014",
+    "what": "The pen is mightier than the keyboard: advantages of longhand over laptop note taking"
+   }
+  },
+  {
+   "say": "The authors' explanation was that typists can write nearly everything the speaker says, almost word for word, without thinking much. Writers by hand can't keep up. So they must listen, decide what matters and put it into their own words. That mental effort is a kind of processing, and it helps understanding.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The explanation",
+    "sub": "Typing is too easy"
+   }
+  },
+  {
+   "say": "It's a neat story, and this is where a good scientist asks whether it holds up. And here, the picture changed. Later researchers tried to repeat the study, with larger samples and more careful designs.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 2,
+    "title": "Does it replicate?"
+   }
+  },
+  {
+   "say": "Their results were much weaker. They did not find the same striking advantage for handwriting. In 2021, another team, led by Heather Urry, ran a large, well-planned replication, in which the sample was larger than the original. They found no reliable difference between longhand and laptop notes in how well students learned.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Morehead, Dunlosky & Rawson",
+    "where": "Educational Psychology Review, 2019",
+    "what": "How much mightier is the pen than the keyboard for note-taking? A replication and extension"
+   }
+  },
+  {
+   "say": "That last line is the practical one. It doesn't matter much if you use a pen or a keyboard. What matters is whether you're thinking while you write, or only transcribing.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What we can fairly say",
+    "items": [
+     "The original finding was not strongly confirmed",
+     "Handwriting may help slightly in some conditions",
+     "Typing word for word is a weak strategy",
+     "What you do with the notes matters more than the device"
+    ]
+   }
+  },
+  {
+   "say": "There's a lesson in the story itself, too. A striking result, reported everywhere, turned out to be weaker than first thought. That doesn't make the original researchers dishonest. It's how science is supposed to work, with each result checked by others. But it's a good reminder to hold even popular findings lightly.",
+   "show": {
+    "type": "photo",
+    "file": "lf20_b10_01.jpg",
+    "cap": "A pen, a page, a laptop"
+   }
+  },
+  {
+   "say": "So how should you take notes? Here the broader research on learning gives us some pointers. A good set of notes is not a transcript. It's a tool for later, built to help you recall and to connect ideas.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 3,
+    "title": "Notes that work"
+   }
+  },
+  {
+   "say": "Notice that most of the value is in what you do afterwards. Notes you never look at again are an expensive way to feel busy. Notes you use for self-testing are a learning tool.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Ways to make notes more useful",
+    "items": [
+     "Write in your own words, not the speaker's",
+     "Leave space and add questions in the margin",
+     "Review within a day, then again after a few days",
+     "Cover the notes and try to recall them before looking"
+    ]
+   }
+  },
+  {
+   "say": "There is a popular system called Cornell notes, developed by Walter Pauk at Cornell University in the 1950s. You divide the page into a narrow left column for cues and questions, a wide right column for notes, and a summary at the bottom. The research evidence for the exact layout is thin. But its design pushes you toward the habits that are supported: writing questions, and covering the page to test yourself.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Pauk & Cornell",
+    "where": "Cornell notes, 1950s",
+    "what": "The Cornell method"
+   }
+  },
+  {
+   "say": "Next, reading. Most of what we learn, at school and afterwards, comes through text. And most of us read the way we've always read, from top to bottom, perhaps with a highlighter, hoping that the ideas will sink in.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 4,
+    "title": "Reading and highlighting"
+   }
+  },
+  {
+   "say": "Highlighting is a favourite. It feels active, and it leaves a satisfying trail of colour on the page. But, as we saw at the start, the big review rated it low in usefulness. A big reason is that people tend to highlight too much, and a page full of yellow doesn't say what's most important. And it takes less thought than summarising.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The highlighting habit",
+    "sub": "Feels productive"
+   }
+  },
+  {
+   "say": "Highlighting isn't useless. In some studies, it helped when students were trained to highlight only the key ideas. And it's a good first pass, to mark what you'd like to return to. The trick is to treat it as a step towards a better method, and not the method itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A kinder use",
+    "sub": "Highlight, then do something"
+   }
+  },
+  {
+   "say": "This routine combines several things that the research favours. The skimming gives you a framework. The closing of the book forces retrieval. The checking gives you feedback. It's slower than a single pass, but it replaces three rereadings with one active session.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "A better reading routine",
+    "items": [
+     "Skim headings first to see the shape of the text",
+     "Read a section, then close the book",
+     "Say or write the main points from memory",
+     "Check what you missed, and try again"
+    ]
+   }
+  },
+  {
+   "say": "This routine is a cousin of a very old method called SQ3R, invented by the educational psychologist Francis Robinson in 1946. It stands for survey, question, read, recite and review.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 5,
+    "title": "The SQ3R method"
+   }
+  },
+  {
+   "say": "Robinson developed it at Ohio State University in the 1940s, and it's still taught today. The research on the exact method is limited. But it's built from parts that are supported: previewing, questioning, retrieval and spacing.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "SQ3R",
+    "items": [
+     "Survey: skim the headings and summaries",
+     "Question: turn each heading into a question",
+     "Read: look for the answer",
+     "Recite: say the answer in your own words",
+     "Review: go back over it later"
+    ]
+   }
+  },
+  {
+   "say": "I should say clearly that no single method is magic. It's also true that overly complicated systems can become a hobby in themselves. Some people spend more time building beautiful notebooks and colour codes than learning. If a method makes you feel organised, but you can't recall anything, it isn't working.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A fair note",
+    "sub": "Methods are not magic"
+   }
+  },
+  {
+   "say": "There's one more finding about reading that is worth knowing. When we read to understand, we build a mental model of the situation described. Researchers have studied this for decades, and one classic experiment makes the point neatly.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 6,
+    "title": "Reading for understanding"
+   }
+  },
+  {
+   "say": "In 1979, Spilich and his colleagues gave people a passage describing a half-inning of baseball. People who knew a lot about baseball remembered much more of it than people who knew little, even when the two groups scored the same on a general memory test. Knowledge is a kind of velcro for new ideas.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The key insight",
+    "sub": "Prior knowledge helps"
+   }
+  },
+  {
+   "say": "That has a practical implication. If a text is hard, start with an easier overview of the same subject, such as a simple article or a short video, and then return to the harder text. Having a rough map makes the details easier to place. It's not cheating. It's using the way that comprehension works.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The practical point",
+    "sub": "Build the background first"
+   }
+  },
+  {
+   "say": "Two more beliefs belong in this chapter, because almost everyone has met them. The first is speed reading. The adverts promise that you can read several times faster with no loss of understanding. The second is the idea of learning styles, that you are a visual learner, or an auditory learner, and should be taught in your own style.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 7,
+    "title": "Speed reading and learning styles"
+   }
+  },
+  {
+   "say": "A team of five reading researchers reviewed the science of reading for this journal. They looked at how the eyes move, how words are recognised, and what the speed-reading courses claim. Their conclusion was clear. There is a trade-off between speed and understanding. Skimming is useful when you only need the gist, but nobody has shown a way to read much faster while understanding in full.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Rayner, Schotter, Masson, Potter & Treiman",
+    "where": "Psychological Science in the Public Interest, 2016",
+    "what": "So much to read, so little time: how do we read, and can speed reading help?"
+   }
+  },
+  {
+   "say": "That does not mean you should read slowly all the time. It means being honest about your purpose. If you only need the main idea, skim and accept that you will miss details. If you need to learn the material, slow down, pause and test yourself. The mistake is to skim and then imagine you've studied.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The practical meaning",
+    "sub": "Skim or study, but know which"
+   }
+  },
+  {
+   "say": "The learning styles review is just as direct. Four psychologists searched for studies that tested the central claim, that students learn better when the teaching matches their preferred style. To count, a study had to sort people by style, randomly assign them to different teaching methods, and then give everyone the same test. Few studies met that standard, and the ones that did mostly contradicted the claim.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Pashler, McDaniel, Rohrer & Bjork",
+    "where": "Psychological Science in the Public Interest, 2008",
+    "what": "Learning styles: concepts and evidence"
+   }
+  },
+  {
+   "say": "That last line is the heart of it. A geography lesson is better with maps, whoever you are. A pronunciation lesson is better with sound. Choosing the format that suits the content works for nearly everyone, and it is more useful than trying to find out your style.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What the review concluded",
+    "items": [
+     "People do have preferences about how they like to learn",
+     "But matching teaching to a preferred style did not improve results",
+     "The best method depends mainly on the material, not on the learner",
+     "Maths is best learned with diagrams and numbers, music with sound, for everyone"
+    ]
+   }
+  },
+  {
+   "say": "None of this says you can't enjoy learning in the way you prefer. If listening to a podcast gets you to turn up, then that is a good reason to listen. The point is only that your preference does not decide what will work best for your memory. The methods in this evening do that, for visual and auditory people alike.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A fair note",
+    "sub": "Preferences are fine"
+   }
+  },
+  {
+   "say": "We live in a world of skimming, where we scroll and swipe and rarely finish a thought. There's something restorative in reading a few pages slowly, pausing to ask what you've understood. It's a small act of attention, and attention, as we've seen, is where most learning begins.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Slow reading"
+   }
+  },
+  {
+   "say": "So, what did we learn? That the famous finding that handwriting beats typing was not strongly confirmed by later replications. That what matters is thinking while you write. That highlighting is better as a first step than as an end point. And that closing the book and recalling the ideas beats a second pass through the text.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What notes and reading taught us"
+   }
+  },
+  {
+   "say": "Next, we look at a limit that affects everything we've discussed: how much your mind can hold at once. It turns out to be remarkably small, and understanding that small number can change how you teach yourself.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "The limits of the mind"
+   }
+  }
+ ]
+}

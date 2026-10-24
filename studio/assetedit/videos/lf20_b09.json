@@ -1,0 +1,276 @@
+{
+ "id": "lf20_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "There's an old story about a banquet in ancient Greece. A poet named Simonides was reciting at a feast in a great hall, when he was called outside by a messenger. While he was out, the roof collapsed, killing everyone inside. The bodies were crushed beyond recognition, and the families couldn't tell who was who.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "Memory palaces"
+   }
+  },
+  {
+   "say": "But Simonides found that he could remember exactly where each guest had been sitting. By picturing the room, seat by seat, he could name each person and give them back to their families. The story comes down to us from the Roman writer Cicero, so it's a legend, and not a documented event. But it gave the world a method.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The legend",
+    "sub": "A poet remembers"
+   }
+  },
+  {
+   "say": "The Latin word locus means place, and so this is called the method of loci. In the ancient world it was a tool for orators, who had no notes. A speaker could place the main points of a speech along a familiar street, and then simply stroll down it while speaking.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The method of loci",
+    "items": [
+     "Pick a place you know very well",
+     "Walk through it in a fixed order",
+     "Place a vivid image of each thing to remember at each spot",
+     "Later, walk through again and collect the images"
+    ]
+   }
+  },
+  {
+   "say": "Imagine you need to remember a shopping list that begins with bread, eggs and oranges. You picture your front door. On the doormat there's a giant loaf of bread, wedged in the doorway so you have to climb over it. In the hallway, eggs are cracking on the floor, and the whole hallway is slippery. In the kitchen, oranges are juggling themselves above the table.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 2,
+    "title": "How it works"
+   }
+  },
+  {
+   "say": "The method combines three things that memory loves. Place, because we're remarkably good at remembering the layout of spaces we know. Order, because walking through a house gives a built-in sequence. And vivid images, because strange, emotional and visual pictures are more memorable than abstract words.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why it sticks",
+    "sub": "Three strong ingredients"
+   }
+  },
+  {
+   "say": "Each room is a shelf, and each image is an object on that shelf. You don't have to memorise the order of the list. You simply remember the order of the house, which you already know.",
+   "show": {
+    "type": "photo",
+    "file": "lf20_b09_01.jpg",
+    "cap": "A corridor with many doors"
+   }
+  },
+  {
+   "say": "Today, the method is the secret behind most of the competitors at the World Memory Championships, where people memorise decks of playing cards, long strings of digits and lists of names in minutes. You might imagine these are people with extraordinary natural brains. Eleanor Maguire, a neuroscientist at University College London, set out to find out.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 3,
+    "title": "The memory champions"
+   }
+  },
+  {
+   "say": "She and her colleagues studied ten people who had finished near the top of the World Memory Championships, and compared them with ten ordinary people matched for age and background. They tested their intelligence and memory, and they scanned their brains.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Maguire, Valentine, Wilding & Kapur",
+    "where": "Nature Neuroscience, 2003",
+    "what": "Routes to remembering: the brains behind superior memory"
+   }
+  },
+  {
+   "say": "The memory champions did not have higher intelligence scores, and their brains showed no obvious structural differences. They weren't special in size or shape. They simply used different strategies. When the champions memorised, their scans showed more activity in regions linked to spatial memory, the same regions that are active when you navigate through a familiar place.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The surprise",
+    "sub": "Ordinary brains"
+   }
+  },
+  {
+   "say": "Nine out of the ten said that they used the method of loci. They weren't gifted. They were trained. Which raises the most interesting question of all. Could an ordinary person learn to do the same thing?",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The champions' own account",
+    "sub": "Nearly all used the loci"
+   }
+  },
+  {
+   "say": "In 2017, a team led by Martin Dresler at Radboud University in the Netherlands tried precisely that. They recruited young men with ordinary memories, and gave some of them a course of mnemonic training.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 4,
+    "title": "Training ordinary people"
+   }
+  },
+  {
+   "say": "The training group practised the method of loci for about thirty minutes a day over six weeks. Another group did a different kind of memory exercise, and a third group did nothing. Before and after, everyone attempted to recall a list of words in order.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Dresler and colleagues",
+    "where": "Neuron, 2017",
+    "what": "Mnemonic training reshapes brain networks to support superior memory"
+   }
+  },
+  {
+   "say": "The group that trained with the method of loci roughly doubled the number of words they could recall. The other groups improved a little, or not at all. And four months later, the trained group still had much of the advantage. The scans also showed that their brain networks had changed to look more like those of the memory champions.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Words recalled by the memory-training group",
+    "big": "Roughly doubled",
+    "label": "after six weeks of practising the method of loci for thirty minutes a day"
+   }
+  },
+  {
+   "say": "This is a lovely result. It says that world-class memory is largely a learnable skill. Joshua Foer, a journalist who went to cover the championships, trained for a year and won the US Memory Championship in 2006, then wrote about it in his book Moonwalking with Einstein. He described himself as having an average memory.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A careful reading",
+    "sub": "Skill, not talent"
+   }
+  },
+  {
+   "say": "So should we all build palaces? The honest answer is: for some jobs, yes. And for others, no. The method of loci excels at remembering ordered lists of separate items: a speech outline, the names of the cranial nerves, the sequence of the planets, a set of items to buy.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 5,
+    "title": "Where it works, and where it doesn't"
+   }
+  },
+  {
+   "say": "It doesn't, however, help with understanding. A palace can hold the names of the causes of the French Revolution, but it won't tell you how they connect. To grasp why things happen, you still need the explaining and testing we've talked about. Palaces store the pieces. Understanding joins them.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Where a memory palace helps",
+    "items": [
+     "Ordered lists of facts",
+     "Names and faces, with a visual hook",
+     "The structure of a speech or argument",
+     "Vocabulary, with a vivid image for each word"
+    ]
+   }
+  },
+  {
+   "say": "There's also a cost. It takes time to construct the images, and the vivid, strange pictures take effort to invent. For a short list that you'll need once, it might not be worth it. For material you'll need for years, or for a performance where you can't look at notes, it pays off.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A fair caution",
+    "sub": "Effort to build"
+   }
+  },
+  {
+   "say": "Let's see how a student could use one for a real task. Take the stages of cell division in biology: prophase, metaphase, anaphase and telophase. You could place four images along your walk to school. At the first lamp post, a professor in a bath, a good picture for prophase. At the postbox, a meteor, for metaphase.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 6,
+    "title": "A palace for a student"
+   }
+  },
+  {
+   "say": "At the bench, an anaconda, for anaphase. At the corner shop, a telephone, for telophase. They're silly, and that's the point. The sillier and more vivid the picture, the more it sticks. And, crucially, the order of your walk gives you the order of the stages.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The images",
+    "sub": "Sounds-like pictures"
+   }
+  },
+  {
+   "say": "Gordon Bower, a psychologist at Stanford University, reviewed the laboratory evidence on the method in 1970. Across experiments, people who were taught to place word lists along a familiar route recalled many more words than people who simply tried to memorise them, and the advantage was especially clear when the items had to come back in order.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Bower",
+    "where": "American Scientist, 1970",
+    "what": "Analysis of a mnemonic device"
+   }
+  },
+  {
+   "say": "A few practical tips come from this research. Use places you know deeply, so that you don't need to think about the route. Place the images in a clear order, and don't use the same rooms for too many lists. Make each image bizarre, moving and emotional. And review the palace after a day, then a week, which is spacing again.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Making it work",
+    "sub": "Use real places"
+   }
+  },
+  {
+   "say": "Notice how this combines everything that's come before. You are retrieving. You are spacing. You are producing something yourself, in your own images. A memory palace isn't a separate technique so much as a clever container for the same principles.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "A starter plan",
+    "items": [
+     "Choose a route of ten spots at home",
+     "Walk it once in your mind to fix the order",
+     "Place ten items from a real list",
+     "Walk through and recall them aloud",
+     "Repeat the next day, and the day after"
+    ]
+   }
+  },
+  {
+   "say": "I find there's something rather lovely about the idea of a place in your mind that is yours alone. A house that no one else can enter, where the things you care about are laid out and waiting. It has been used for more than two thousand years, and every generation has found it again.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "A house in the mind"
+   }
+  },
+  {
+   "say": "So, what did we learn? That the method of loci is an ancient technique, using place, order and vivid imagery. That memory champions were found to have ordinary brains and a trained strategy. That ordinary people roughly doubled their recall in six weeks. And that palaces are best for ordered lists, and not a replacement for understanding.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the palace taught us"
+   }
+  },
+  {
+   "say": "Next, we come back to everyday study, to the notebook and the laptop. How should you take notes? Does it matter whether you type or write by hand? And what about the most common task of all, reading a book?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Notes, reading and highlighting"
+   }
+  }
+ ]
+}

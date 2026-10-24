@@ -1,0 +1,292 @@
+{
+ "id": "lf20_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Welcome. Settle in somewhere comfortable, because tonight we're going to look at one of the most practical questions in all of psychology. How do people actually learn, and how can you learn almost anything faster, and remember it for longer? Not with tricks or hacks, but with what a hundred years of careful experiments have found.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Settle in",
+    "sub": "The psychology of learning anything faster"
+   }
+  },
+  {
+   "say": "Twelve chapters. Each one is built on named studies, with the sample sizes and the doubts left in. Some of what you'll hear will confirm what you already do. Some of it will quietly contradict it, and that's where the interesting part begins.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Why the most popular study habits barely work",
+     "The power of testing yourself",
+     "Why spacing beats cramming",
+     "Mixing things up on purpose",
+     "The trap of feeling like you know it",
+     "Explaining to learn",
+     "Deliberate practice and the ten thousand hour myth",
+     "Mindsets, and what the big studies found",
+     "Memory palaces",
+     "Notes, reading and highlighting",
+     "The limits of working memory",
+     "Can you train your brain to be smarter"
+    ]
+   }
+  },
+  {
+   "say": "Let me make a promise about the way we'll do this. I won't promise that you can learn a language in a weekend, or become a genius overnight. Those claims sell courses, and they don't survive contact with the research. What I can promise is a set of methods that have been tested again and again, in laboratories and in real classrooms, and that work for ordinary people.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A promise",
+    "sub": "Evidence, not hacks"
+   }
+  },
+  {
+   "say": "Let's start with an uncomfortable question. How do you study? Most of us were never taught. We picked up habits from teachers, friends and our own instincts, and then we kept using them for years. In 2009, Jeffrey Karpicke and his colleagues at Purdue University decided to find out what students actually do.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "The study habits that barely work"
+   }
+  },
+  {
+   "say": "They asked a hundred and seventy-seven college students to list the strategies they used when studying. The most common answer, by a long way, was rereading. About eighty-four percent said they read through their notes or textbook again and again. Only about eleven percent said that they practised recalling the material from memory.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Karpicke, Butler & Roediger",
+    "where": "Memory, 2009",
+    "what": "A survey of how college students say they study"
+   }
+  },
+  {
+   "say": "That number should make us stop. The most popular way to study is also, as we'll see, one of the least effective. It feels good. The text becomes more familiar with every pass, and familiarity feels like knowing. But familiarity and knowing are two different things, and the gap between them is the theme of this whole evening.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Students who said they mainly reread",
+    "big": "About 84%",
+    "label": "while only around 11% said they tested themselves on the material"
+   }
+  },
+  {
+   "say": "By the early 2010s, researchers had run hundreds of studies on dozens of study methods. But they were scattered across journals, and no one had put them side by side. So a team of five psychologists took on the job. They reviewed the best evidence on ten of the most popular learning techniques, and rated each one on how useful it really was.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A big question",
+    "sub": "Which methods really work?"
+   }
+  },
+  {
+   "say": "John Dunlosky at Kent State University led the review, working with Katherine Rawson, Elizabeth Marsh, Mitchell Nathan and Daniel Willingham. They looked at ten techniques: practice testing, distributed practice, interleaved practice, self-explanation, elaborative interrogation, summarisation, highlighting, the keyword mnemonic, imagery for text and rereading.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Dunlosky, Rawson, Marsh, Nathan & Willingham",
+    "where": "Psychological Science in the Public Interest, 2013",
+    "what": "Improving students' learning with effective learning techniques"
+   }
+  },
+  {
+   "say": "The verdict was clear. Only two methods earned the top rating: testing yourself, and spreading your practice out over time. Three more got a moderate rating. And the habits that most students rely on, rereading and highlighting, landed at the bottom of the list. They aren't useless, but they give far less for the time you invest.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The ratings",
+    "items": [
+     "High utility: practice testing and distributed practice",
+     "Moderate: interleaved practice, elaborative interrogation and self-explanation",
+     "Low: summarisation, highlighting, the keyword mnemonic, imagery for text and rereading"
+    ]
+   }
+  },
+  {
+   "say": "It's worth saying what the review did not say. It didn't say that highlighting is harmful, or that nobody should reread. It said that, for the time spent, these methods tend to produce less durable learning than testing and spacing. A highlighter can still be useful as a first step, if you then do something harder with the material. The mistake is to stop there.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A fair note",
+    "sub": "Not a ban on highlighting"
+   }
+  },
+  {
+   "say": "So why do so many of us prefer the weaker ones? The answer is a feeling. When you reread a chapter, it flows smoothly. You recognise every sentence. You think, yes, I know this. And that feeling of fluency is a powerful signal, because it's pleasant, and because it seems like evidence that you've learned.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 2,
+    "title": "Why do we prefer the weaker methods?"
+   }
+  },
+  {
+   "say": "But recognising something when you see it is far easier than producing it from memory, which is what a test, a conversation or a real task demands. A face in a crowd looks familiar, but you might not be able to describe it afterwards. A passage that you've reread five times looks familiar, but you might not be able to reconstruct its argument.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The trap",
+    "sub": "Recognising is not recalling"
+   }
+  },
+  {
+   "say": "It's a bit like learning a route. If you only ever follow someone else, you'll recognise the turns, but you'll be lost the moment you have to find the way alone. The best study methods make you drive the route yourself, even when it's hard, and especially when it's hard.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Two different skills",
+    "items": [
+     "Recognition: knowing it when you see it",
+     "Recall: producing it from memory",
+     "Understanding: using it in a new situation",
+     "Most real tasks need recall and understanding"
+    ]
+   }
+  },
+  {
+   "say": "This points to one of the most surprising ideas in the whole field. Learning that feels harder in the moment often lasts longer. The psychologist Robert Bjork at the University of California, Los Angeles, called these desirable difficulties. A difficulty is desirable if it slows you down now, and helps you much more later.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 3,
+    "title": "Effort that pays off"
+   }
+  },
+  {
+   "say": "Bjork argued that conditions that make performance look good during practice are often the ones that fail to produce lasting learning. And conditions that make practice feel awkward, such as spacing it out, mixing topics or testing yourself, produce the best long-term results. It sounds odd, and it runs against our instincts, but the evidence for it is strong.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Bjork",
+    "where": "Metacognition: Knowing about Knowing, 1994",
+    "what": "Memory and metamemory considerations in the training of human beings"
+   }
+  },
+  {
+   "say": "Think of the gym. A weight that feels light doesn't build much strength. The effort is the point. In the same way, when recalling something feels like a struggle, that struggle is the part that strengthens the memory. If you can answer every question easily, you may be practising what you already know, and the learning has stopped.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "An everyday picture",
+    "sub": "The gym comparison"
+   }
+  },
+  {
+   "say": "Four of them, and they're the backbone of the next four chapters. Each is a way of making learning a little harder in the moment, so that it stays with you for much longer. We'll look at the key experiments behind each, and at what the sceptics have said.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Desirable difficulties",
+    "items": [
+     "Testing yourself instead of rereading",
+     "Spacing study sessions out",
+     "Mixing different kinds of problems",
+     "Generating an answer before seeing it"
+    ]
+   }
+  },
+  {
+   "say": "Before we dive in, it helps to know what we mean by learning. Psychologists often divide it into steps. You take something in, you hold it, you store it for the long term, and you retrieve it when you need it. Many study methods help with the first step and neglect the last. But the last step is what matters.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 4,
+    "title": "Learning is not one thing"
+   }
+  },
+  {
+   "say": "There's a deep point here. Retrieving a memory isn't like taking a book off a shelf and putting it back unchanged. Each time you retrieve something, you rebuild it, and the act of rebuilding makes it stronger and easier to reach next time. That means that the very act of remembering is a form of learning, and not just a way of measuring it.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The retrieval insight",
+    "sub": "Remembering changes memory"
+   }
+  },
+  {
+   "say": "That's why a test is better thought of as a learning event than as a measuring stick. Many of us dislike tests because they feel like judgement. But a low-stakes test that you give yourself, with no grade and no audience, is a powerful way to learn. It tells you what you don't know, and it strengthens what you do.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The measuring trap",
+    "sub": "Why tests feel unfair"
+   }
+  },
+  {
+   "say": "Four terms to carry through the evening. Retrieval practice is the act of recalling something from memory. Distributed practice is spreading learning over time. The fluency illusion is the false feeling of knowing that comes from familiarity. And a desirable difficulty is a hurdle that makes learning harder now and better later.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Retrieval practice",
+     "Distributed practice",
+     "Fluency illusion",
+     "Desirable difficulty"
+    ]
+   }
+  },
+  {
+   "say": "A highlighted page on one side, and a blank sheet on the other. It's a neat picture of the whole chapter. One feels productive, and the other makes you do the work. And the research suggests that the blank sheet, the one that asks you to recall, is the one that teaches.",
+   "show": {
+    "type": "photo",
+    "file": "lf20_b01_01.jpg",
+    "cap": "A highlighted page and a blank one"
+   }
+  },
+  {
+   "say": "If you've ever felt that you were bad at studying, it's worth knowing that almost nobody was taught the methods that work. The habits that most of us have are the natural ones, and they feel right. You haven't failed. You've simply been using the tools that everyone uses, and now you can pick better ones.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "You are not bad at learning"
+   }
+  },
+  {
+   "say": "So what did we learn? That most students reread and highlight, and few test themselves. That a large review ranked testing and spacing at the top and rereading at the bottom. That fluency feels like knowledge but isn't. And that desirable difficulties make learning harder now and better later.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the survey and the review taught us"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll look at the single best-supported way of learning anything. It's an experiment that was done with ordinary students and a few short passages, and it showed that the most effective way to remember something is to try to remember it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "The power of testing yourself"
+   }
+  }
+ ]
+}

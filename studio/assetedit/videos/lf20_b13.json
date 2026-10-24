@@ -1,0 +1,336 @@
+{
+ "id": "lf20_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Everything we've covered so far happens while you're awake. Testing, spacing, mixing, explaining, practising. But a surprising amount of learning is finished while you're not doing anything at all. It happens while you sleep. And if you take only one practical thing from this evening, a good case can be made that it should be this.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "Sleep, the quiet part of learning"
+   }
+  },
+  {
+   "say": "The first clear demonstration is also one of the oldest. In 1924, John Jenkins and Karl Dallenbach at Cornell University ran an experiment with two students who volunteered to learn lists of nonsense syllables, and then be tested after different delays.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "An old experiment",
+    "sub": "A very simple design"
+   }
+  },
+  {
+   "say": "The students learned lists and then were tested after one, two, four or eight hours. Sometimes they spent the time awake, going about their normal day. Sometimes they went to bed and slept. The difference was striking, and it held for both of them.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Jenkins & Dallenbach",
+    "where": "American Journal of Psychology, 1924",
+    "what": "Obliviscence during sleep and waking"
+   }
+  },
+  {
+   "say": "After sleep, they remembered considerably more than after the same time awake. Forgetting was steeper when they were up and about. The researchers interpreted it as interference, with new experiences getting in the way of old memories. A better description may be that sleep protects what you have just learned.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The finding",
+    "sub": "Sleep protects memory"
+   }
+  },
+  {
+   "say": "Modern research has added detail. During deep sleep, the brain seems to replay recent experiences. Matthew Wilson and Bruce McNaughton showed this in rats in 1994, in a paper in Science. They recorded neurons in the hippocampus as rats explored a maze, and then again as the rats slept. The same patterns of activity returned during sleep.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 2,
+    "title": "What the brain does at night"
+   }
+  },
+  {
+   "say": "That is the standard picture, though researchers are still debating the details. What is not debated is that sleep helps. And the evidence now comes from human studies, too.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What sleep seems to do for learning",
+    "items": [
+     "Replays new memories, which strengthens them",
+     "Moves information from short-term storage towards long-term storage",
+     "Helps connect new facts to old knowledge",
+     "Clears the way so you can learn again the next day"
+    ]
+   }
+  },
+  {
+   "say": "Matthew Walker and colleagues had people practise a finger-tapping sequence. After a night's sleep, without any more practice, the volunteers were faster and more accurate, by about twenty percent, than they had been at the end of training. Those who stayed awake for the same length of time didn't improve in the same way.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Walker, Brakefield, Morgan, Hobson & Stickgold",
+    "where": "Neuron, 2002",
+    "what": "Practice with sleep makes perfect: sleep-dependent motor skill learning"
+   }
+  },
+  {
+   "say": "It's as though the brain does extra practice by itself overnight. You went to bed good at it, and woke up better. This is part of why the practice session before sleep can be especially valuable, and why a decent night after a hard study session is not a luxury.",
+   "show": {
+    "type": "photo",
+    "file": "lf20_b13_01.jpg",
+    "cap": "A room at the end of the day"
+   }
+  },
+  {
+   "say": "This also explains why the all-night cram is such a bad bargain. You give up the very thing that helps you keep the material. A famous study makes the point rather sharply.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 3,
+    "title": "The cost of cramming"
+   }
+  },
+  {
+   "say": "Steffen Gais and his colleagues in Germany had volunteers learn word pairs, and then either sleep or stay awake for the first part of the next period, with a later test. Those who slept soon after learning remembered more, and the advantage was still visible when they were tested after a night of recovery sleep. The first night after learning was the one that counted.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Gais, Lucas & Born",
+    "where": "Learning and Memory, 2006",
+    "what": "Sleep after learning aids memory recall"
+   }
+  },
+  {
+   "say": "It would be wrong to claim that sleep does everything. The effects differ between kinds of memory. And a few of the most-quoted claims, such as the idea that you can learn a language by listening to recordings as you sleep, have not held up. Learning during sleep is very limited. The helpful part is the consolidation of what you learned while awake.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A fair note",
+    "sub": "Not a magic pill"
+   }
+  },
+  {
+   "say": "Notice that the advice isn't to sleep instead of studying. It's to put sleep in the right place in the plan. Study, sleep, recall, repeat. That rhythm, over days, is exactly what the spacing effect describes, and the nights are doing part of the work.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Sleep and study, in practice",
+    "items": [
+     "Do your hardest study earlier in the day",
+     "Finish with a short recall session in the evening",
+     "Protect a full night's sleep before an exam",
+     "Take a short nap if you are tired, but not too late"
+    ]
+   }
+  },
+  {
+   "say": "All of these methods share one problem. They only work if you actually do them. And the gap between intending to study and sitting down to study is one of the best-documented gaps in psychology. A good deal of research on it comes from Peter Gollwitzer, a psychologist who has spent decades studying how intentions turn into actions.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 4,
+    "title": "Starting is the hard part"
+   }
+  },
+  {
+   "say": "He proposed a very simple device that he called an implementation intention. Instead of just deciding, I will study more, you decide exactly when and where. If it is seven in the evening and I have finished dinner, then I will sit at the desk and test myself for twenty minutes. It's an if-then plan, and it hands the decision to the situation.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The idea",
+    "sub": "If, then"
+   }
+  },
+  {
+   "say": "Gollwitzer and Paschal Sheeran combined the results of ninety-four independent tests, involving thousands of people, and found that if-then plans had a medium to large effect on whether people reached their goals. The plans helped with things as varied as exercising, eating well and finishing tasks.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Gollwitzer & Sheeran",
+    "where": "Advances in Experimental Social Psychology, 2006",
+    "what": "Implementation intentions and goal achievement: a meta-analysis of effects and processes"
+   }
+  },
+  {
+   "say": "One neat example is about exercise. People who had written down when and where they would exercise during the coming week were far more likely to do it than people who had only been encouraged to be motivated. About nine in ten of the planners exercised, against roughly four in ten of the others.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Milne, Orbell & Sheeran",
+    "where": "British Journal of Health Psychology, 2002",
+    "what": "Combining motivational and volitional interventions to promote exercise participation"
+   }
+  },
+  {
+   "say": "The plans are small, and they feel a little silly. But the research suggests that they work because they remove the moment of deciding. By the time the situation arrives, your mind has already chosen what to do.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "An if-then plan for studying",
+    "items": [
+     "If it is after breakfast, then I will test myself on yesterday's notes",
+     "If I feel the urge to check my phone, then I will take three slow breaths and continue",
+     "If I get stuck for five minutes, then I will write down what I do understand",
+     "If I finish a section, then I will close the book and recall it"
+    ]
+   }
+  },
+  {
+   "say": "Before we gather the whole picture, there's one more piece, and it's about the feeling that makes learning easy: curiosity. Most of us notice that we remember best the things that we were eager to find out. In 2014, a team led by Matthias Gruber at the University of California, Davis, tested that carefully.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 5,
+    "title": "Curiosity"
+   }
+  },
+  {
+   "say": "Participants read trivia questions and rated how curious they were about the answers. Then, in a scanner, they waited a few seconds before the answer appeared, while looking at a photo of a face that had nothing to do with the question. Afterwards they were tested on the answers, and on the faces.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Gruber, Gelman & Ranganath",
+    "where": "Neuron, 2014",
+    "what": "States of curiosity modulate hippocampus-dependent learning via the dopaminergic circuit"
+   }
+  },
+  {
+   "say": "People remembered the answers to questions they were curious about much better than those they weren't. And, strikingly, they were also better at recognising the unrelated faces they had seen while they were waiting, as long as their curiosity was high. The scans showed more activity in the brain's reward circuits and the hippocampus.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The result",
+    "sub": "Curiosity boosts memory"
+   }
+  },
+  {
+   "say": "The practical lesson is lovely and simple. Before you start a chapter, ask yourself a few questions about it. What do I think the answer is? What would I like to know? A question creates a small gap, and the brain wants to fill it. You've turned reading into a search, and a search sticks.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "What it means",
+    "sub": "Ask before you read"
+   }
+  },
+  {
+   "say": "This was a small study, with about nineteen people, so it's best treated as a pointer and not as a proof. But it fits with the broader finding that attempting to answer before being told, even wrongly, improves later learning. Curiosity is not a trick. It's a way of making the questions our own.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A fair caution",
+    "sub": "A small sample"
+   }
+  },
+  {
+   "say": "Now let's gather the whole evening into one picture. We began with a gap between what people do and what works. Most people reread, highlight and cram. The research points to something different.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 6,
+    "title": "Putting the pieces together"
+   }
+  },
+  {
+   "say": "Eight ideas, and most of them cost nothing. The common thread is effort at the right time. They ask you to do the mental work yourself, instead of watching it be done. They ask you to leave a little time. And they feel harder in the moment, and better later.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The methods that work",
+    "items": [
+     "Test yourself, and check the answers",
+     "Space your practice over days and weeks",
+     "Mix topics and problem types",
+     "Explain ideas aloud, then check them",
+     "Practise the hard parts, with feedback",
+     "Use memory palaces for lists",
+     "Reduce load, and clear distractions",
+     "Move, and sleep"
+    ]
+   }
+  },
+  {
+   "say": "Here is what a week might look like if you're learning something new, say a language or a subject for an exam. On day one, you read or listen, then close the book and write down what you can recall. On day two, you do a short test on yesterday's material, and learn something new. On day four, you test yourself on both. A week later, you test the first set again. Each time, the gap grows.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The shape of a week",
+    "sub": "A simple plan"
+   }
+  },
+  {
+   "say": "Each session can be short. Half an hour of focused, effortful work, with the phone in another room, will do more than three hours of half-attention. Start with the hardest thing while your mind is fresh. Mix in earlier topics. Stop while you still have energy, and finish by writing what you remember.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "In the session",
+    "sub": "Thirty focused minutes"
+   }
+  },
+  {
+   "say": "And when you forget something, as you will, take it as normal. Forgetting is part of how the method works. The struggle to retrieve something you had almost lost is what makes the memory stronger. A learner who never forgets is a learner who is not being challenged.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A fair reminder",
+    "sub": "You will forget"
+   }
+  },
+  {
+   "say": "I find this a kinder way to think about learning. You don't have to feel brilliant all the time. You don't have to do marathon sessions. You need small, regular, honest efforts, and the patience to let the days do their work.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "A kinder way to study"
+   }
+  },
+  {
+   "say": "So, what did we learn? That students remembered more after sleeping than after the same time awake, in a study from 1924. That sleep seems to replay and strengthen memories. That a night of rest after learning matters more than an all-night cram. And that the best methods fit neatly around a good night's sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What sleep taught us"
+   }
+  },
+  {
+   "say": "In a moment, we'll close the evening gently. We'll return to where we began, with a student and a book, and then we'll let the day settle, slowly, together.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "A slow ending"
+   }
+  }
+ ]
+}

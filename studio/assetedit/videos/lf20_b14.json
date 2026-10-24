@@ -1,0 +1,141 @@
+{
+ "id": "lf20_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's return to the question we began with. At the start of the evening, I asked how people actually learn, and how you could learn almost anything faster and remember it for longer. We've travelled quite a distance since then, from a survey of students in a college library to a trial of brain training with eleven thousand volunteers.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "n": 1,
+    "title": "Coming back to where we began"
+   }
+  },
+  {
+   "say": "If I had to boil it all down, it would come to four truths. The first is that feeling like you know something is not the same as knowing it. The second is that the most effective methods feel harder, and that difficulty is a sign of work being done. The third is that learning needs time, spread across days and across nights. And the fourth is that you can practise a skill, but you can't shortcut it.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The big picture",
+    "sub": "Four simple truths"
+   }
+  },
+  {
+   "say": "None of these is a hack. None of them is a trick. They're ways of working with the mind rather than against it. And every one of them has been tested not once but many times, by researchers who were open about the doubts.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "If you remember only five things",
+    "items": [
+     "Close the book and try to recall",
+     "Come back after a gap, and again after a longer one",
+     "Mix up what you practise",
+     "Explain it to someone, even an imaginary someone",
+     "Sleep after you learn"
+    ]
+   }
+  },
+  {
+   "say": "I want to be honest, too, about what remains uncertain. We don't know the perfect gap for every person. We don't know exactly how much effort is too much. Many of the lab findings are smaller in the messy real world. And most studies measure students and short tests, and not the long, winding learning of a whole life. Research gives you good defaults, not guarantees.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A final honest word",
+    "sub": "What we don't know"
+   }
+  },
+  {
+   "say": "So treat these methods as experiments of your own. Try one for a week. Notice how it feels, and what you remember. The best learning plan is the one that you'll actually follow, and that suits the way you live.",
+   "show": {
+    "type": "photo",
+    "file": "lf20_b14_01.jpg",
+    "cap": "A lamp, a notebook and a cup of tea"
+   }
+  },
+  {
+   "say": "If there's a single idea to take from the evening, it's about that moment of need. A test, a conversation, a decision, a new problem. Real learning is the ability to call up what you know when it matters. Everything we've covered is a way of practising exactly that.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "text": "The question is not what you know, but what you can bring to mind when you need it",
+    "by": "A thought to leave with"
+   }
+  },
+  {
+   "say": "And now, if you've been listening in the evening, perhaps in a darkened room, let's end the way we should, slowly. You don't need to remember anything now. The day's learning is done, and the quiet work of the night is about to begin.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "n": 2,
+    "title": "A gentle wind-down"
+   }
+  },
+  {
+   "say": "Let your shoulders drop, just a little. Let your jaw loosen. Notice where your body is supported, by the bed, the chair or the sofa, and let it take your weight. There's nothing you need to do at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Settle",
+    "sub": "Let it go"
+   }
+  },
+  {
+   "say": "Breathe in through your nose, gently, and let the breath out a little more slowly than it came in. Again. In, and out. You don't have to force anything. Simply let the breath find its own slow rhythm.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Breathe",
+    "sub": "Slowly"
+   }
+  },
+  {
+   "say": "Think back, for a moment, over something small that you learned today. It doesn't have to be anything grand. A name, a word, a way of doing something. Let it come to mind, and then let it rest. Your mind will keep it safe tonight, and sort it, and place it on the shelves where it belongs.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Rest",
+    "sub": "The day is done"
+   }
+  },
+  {
+   "say": "You spent this evening on something kind: understanding how you learn. That is a gift to your future self. Tomorrow, you'll try one small thing, and you'll see what happens. But for now, there's nothing to do except rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Thank you",
+    "sub": "For listening"
+   }
+  },
+  {
+   "say": "Let your breathing slow, and let the quiet settle around you. Whatever you've learned tonight is quietly settling in. Rest easy. Goodnight.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Sleep well",
+    "sub": "Goodnight"
+   }
+  },
+  {
+   "say": "Tomorrow, we'll look at something that seems to trap us all: the way a mind, however clever, can repeat the same mistakes. Until then, sleep well.",
+   "show": {
+    "type": "end",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "next": "Why do we fall for the same mistakes again and again"
+   }
+  }
+ ]
+}

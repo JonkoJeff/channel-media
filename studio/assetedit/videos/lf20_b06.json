@@ -1,0 +1,261 @@
+{
+ "id": "lf20_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here is a small experiment you can do right now, without any equipment. Think of something you use every day, such as a zip fastener, a flush toilet or a bicycle. Ask yourself how well you understand how it works. On a scale of one to seven, how confident are you?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "Explaining to learn"
+   }
+  },
+  {
+   "say": "Most people give themselves a four or a five. Of course I know how a zip works, they think. I use one every day. And that is exactly where a pair of psychologists, Leonid Rozenblit and Frank Keil, found something remarkable.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Try it",
+    "sub": "Rate your understanding"
+   }
+  },
+  {
+   "say": "At Yale University, they asked students to rate how well they understood everyday devices, such as a cylinder lock, a helicopter and a flush toilet. Then they asked them to write out a detailed, step-by-step explanation of how the device works. After writing, the students rated their understanding again. @stat A14 conspiracy_board | What happened to the ratings | They dropped | after people tried to write a step-by-step explanation The ratings fell, often sharply. People discovered, in the act of explaining, that their understanding was much thinner than they believed. They knew what the thing looked like and how to use it. They did not know how it worked. The researchers called this the illusion of explanatory depth.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Rozenblit & Keil",
+    "where": "Cognitive Science, 2002",
+    "what": "The misunderstood limits of folk science: an illusion of explanatory depth"
+   }
+  },
+  {
+   "say": "What this shows is that explaining something is a very honest kind of test. It's a form of retrieval, but a demanding one. You can't hide behind a feeling of familiarity. If there is a gap in the chain, you hit it. And a gap you've found is a gap you can fix.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The key point",
+    "sub": "Explaining is a test"
+   }
+  },
+  {
+   "say": "Psychologists have studied this under a few names. The first is self-explanation, and the best-known work was done by Michelene Chi and her colleagues at the University of Pittsburgh, starting in the late 1980s.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 2,
+    "title": "Self-explanation"
+   }
+  },
+  {
+   "say": "They gave students worked examples from a physics textbook, and recorded them thinking aloud. Some students, the good ones, constantly stopped to explain the steps to themselves. Why is this force drawn here? What does this equation really mean? The poorer performers mostly read the lines and moved on, with comments like, okay, I see.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Chi, Bassok, Lewis, Reimann & Glaser",
+    "where": "Cognitive Science, 1989",
+    "what": "Self-explanations: how students study and use examples in learning to solve problems"
+   }
+  },
+  {
+   "say": "That raised an obvious question. Is self-explaining just a sign of being clever, or does it cause better learning? Five years later, Chi's team tested it. Eighth-grade students read a passage about the human circulatory system. Half were prompted, after each line, to explain to themselves what it meant. The other half just read it twice.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Chi, de Leeuw, Chiu & LaVancher",
+    "where": "Cognitive Science, 1994",
+    "what": "Eliciting self-explanations improves understanding"
+   }
+  },
+  {
+   "say": "The prompted students showed bigger gains, especially on the hard questions that required them to connect ideas. And the students who produced the most explanations gained the most. The act of explaining was not just a symptom of understanding. It was helping to build it.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The result",
+    "sub": "Prompted students understood more"
+   }
+  },
+  {
+   "say": "These are simple questions, and you can ask them of anything. The Dunlosky review that we met earlier rated self-explanation as moderately useful, and it's worth remembering that it takes time. But the time buys you something that rereading doesn't, which is a chain of reasons, and not just a pile of facts.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Questions to ask yourself while reading",
+    "items": [
+     "Why is that true?",
+     "How does this link to what I already know?",
+     "What would happen if this changed?",
+     "Could I say this in my own words?"
+    ]
+   }
+  },
+  {
+   "say": "The second kind of explaining is the one most people think of first. It's explaining to another person. There's an old line, often repeated, that the best way to learn something is to teach it. How well does the research support that?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 3,
+    "title": "Teaching someone else"
+   }
+  },
+  {
+   "say": "In this study, students read a passage. Half were told they would later teach the material to another student. The other half were told they would be tested. In fact, everyone was just tested. But the students who expected to teach recalled more, and organised their recall more neatly, and in particular they remembered the main points better.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Nestojko, Bui, Kornell & Bjork",
+    "where": "Memory and Cognition, 2014",
+    "what": "Expecting to teach enhances learning and recall of text information"
+   }
+  },
+  {
+   "say": "Notice what happened. No one actually taught anyone. The students only expected to. That expectation changed how they read. They looked for the structure, the main ideas and the order in which they'd explain things, because a good lesson needs a beginning, a middle and an end.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A small surprise",
+    "sub": "They never taught"
+   }
+  },
+  {
+   "say": "There's also a second effect. When we teach, we get feedback, because the other person asks, wait, why? Those questions expose the weak points in our own understanding, often in ways we'd never have noticed alone.",
+   "show": {
+    "type": "photo",
+    "file": "lf20_b06_01.jpg",
+    "cap": "Do you really know how it works?"
+   }
+  },
+  {
+   "say": "Logan Fiorella and Richard Mayer at the University of California, Santa Barbara, pulled these ideas apart. Students learned about the Doppler effect. Some prepared to teach it and then actually taught it on camera to no one. Others just studied it. The students who really taught, even to an empty camera, did best on tests that needed them to apply what they'd learned.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Fiorella & Mayer",
+    "where": "Contemporary Educational Psychology, 2013",
+    "what": "The relative benefits of learning by teaching and teaching expectancy"
+   }
+  },
+  {
+   "say": "Researchers think teaching helps for three reasons. It makes you pick out the main ideas and order them. It makes you generate your own examples and explanations, rather than just receive them. And it makes you retrieve what you know without the notes in front of you. That's selecting, organising and retrieving, all at once.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why does it work?",
+    "sub": "Three things at once"
+   }
+  },
+  {
+   "say": "You might be thinking, I don't have anyone to teach. That turns out not to matter very much. Researchers have found that you can get a good deal of the benefit by explaining to a pretend audience, to a mirror, or even to a rubber duck.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 4,
+    "title": "Does it have to be a person?"
+   }
+  },
+  {
+   "say": "Programmers have a tradition called rubber duck debugging. When they're stuck on a bug, they explain their code, line by line, to a small rubber duck on their desk. Surprisingly often, somewhere in the middle of the explanation, they stop and say, oh, that's the problem. The duck says nothing and solves everything.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The rubber duck",
+    "sub": "Programmers' trick"
+   }
+  },
+  {
+   "say": "This is sometimes called the Feynman technique, after the physicist Richard Feynman, though it's worth saying that the exact routine is a modern description, and there's no neat paper by Feynman that laid it out. What we can say is that it combines the things that research does support, which are retrieval, self-explanation and feedback.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "A simple teaching routine",
+    "items": [
+     "Close the book",
+     "Explain the idea aloud, as if to a curious friend",
+     "Notice where you stumble or use vague words",
+     "Go back, fix those gaps, and try again"
+    ]
+   }
+  },
+  {
+   "say": "As ever, the picture has some shading. Explaining takes time, and it's not equally useful for everything. If you're learning a list of vocabulary words, there's not much to explain. And if you're a complete beginner with no background, the explanations you produce might be wrong, with nobody to correct them.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 5,
+    "title": "Where it falls short"
+   }
+  },
+  {
+   "say": "That last point matters. Research on self-explanation shows that incorrect explanations can lock in misunderstandings. So after you explain, check what you said against the source, or against a person who knows. Explaining and then checking is powerful. Explaining without ever checking can leave you very sure of something wrong.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A fair caution",
+    "sub": "Check your explanations"
+   }
+  },
+  {
+   "say": "So here's a practical habit. After a chapter, a lecture or a conversation, spend two minutes explaining the main idea out loud, in plain words, to nobody in particular. If it comes out smoothly, good. If you find yourself saying, you know, the thing, then you've just found the part to review.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The takeaway",
+    "sub": "Say it out loud"
+   }
+  },
+  {
+   "say": "There is something warm in this, too. To explain is to share. Even when you're alone, you imagine another mind, and you try to meet it halfway. Learning stops being a private storage job, and becomes a small act of communication.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Words make it real"
+   }
+  },
+  {
+   "say": "So, what have we learned? That we think we understand everyday things far better than we do. That prompting students to explain to themselves improved understanding in a classic experiment. That simply expecting to teach changes how we read. And that a duck, a mirror or a friend all make fine audiences.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What explaining taught us"
+   }
+  },
+  {
+   "say": "Next, we turn to the question of practice itself. Everyone has heard that mastery takes ten thousand hours. What did the original research really say, and what does it mean for the rest of us?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "The myth of ten thousand hours"
+   }
+  }
+ ]
+}

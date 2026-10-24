@@ -1,0 +1,293 @@
+{
+ "id": "lf20_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's turn to a technique that seems almost backwards at first. Imagine you're learning four different kinds of maths problem. The sensible approach, the one every textbook follows, is to practise one kind until you've mastered it, and only then move on to the next. Twenty problems of the first type, then twenty of the second, and so on. It feels tidy and it feels productive.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "Mixing things up on purpose"
+   }
+  },
+  {
+   "say": "But there is another way to arrange the same practice. You take exactly the same sixty or eighty problems, and you shuffle them, so that every few minutes you're facing a different kind. Researchers call the first approach blocked practice and the second interleaved practice. The total amount of work is identical. Only the order changes.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A strange idea",
+    "sub": "Blocked versus mixed"
+   }
+  },
+  {
+   "say": "Doug Rohrer and Kelli Taylor, then at the University of South Florida, put the two orders head to head. College students learned to find the volume of four unusual solids, a wedge, a spheroid, a spherical cone and a half cone. Everyone got the same worked examples and the same sixteen practice problems. One group did them in blocks, four problems of one solid at a time. The other group had them mixed together.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Rohrer & Taylor",
+    "where": "Instructional Science, 2007",
+    "what": "The shuffling of mathematics problems improves learning"
+   }
+  },
+  {
+   "say": "During practice, the blocked group looked like the clear winners. They got most of the problems right, because once you've worked out the formula for a wedge, the next three wedges are easy. The mixed group made more mistakes, and by the end of the session they probably felt a little less sure of themselves.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The practice phase",
+    "sub": "Blocked felt better"
+   }
+  },
+  {
+   "say": "Then came the surprise. A week later, both groups sat the same test. The students who had practised in a mixed order scored about sixty-three percent. The students who had practised in blocks scored about twenty percent. The group that had struggled during practice was more than three times better when it counted.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Score on a test one week later",
+    "big": "63% vs 20%",
+    "label": "mixed practice against blocked practice, on the same problems"
+   }
+  },
+  {
+   "say": "Why would that happen? It can't be about knowing the formulas, because both groups had seen them equally often. The difference is in what the test demands. On the test, the problems arrive mixed. Before you can use any formula, you first have to work out which problem you're facing.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why the gap?",
+    "sub": "It isn't the formula"
+   }
+  },
+  {
+   "say": "In blocked practice, the first job disappears. When you've just done five wedges, you don't need to think about what the sixth one is. You only practise the second job. Mixed practice forces you to do both, and the first job is exactly the one that real life tests. Nobody hands you a worksheet that says: these are all wedges.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Two jobs hidden inside every problem",
+    "items": [
+     "Deciding which method applies",
+     "Carrying out that method"
+    ]
+   }
+  },
+  {
+   "say": "You might wonder whether this is a quirk of geometry. It isn't. In 2008, Nate Kornell and Robert Bjork at the University of California, Los Angeles, tested it on something entirely different: learning to recognise the style of painters.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 2,
+    "title": "Not just for maths"
+   }
+  },
+  {
+   "say": "Participants studied paintings by twelve landscape artists. For some artists they saw six paintings in a row. For others, paintings by different artists were mixed together. Afterwards they were shown new paintings, ones they had never seen, and asked to say which artist had painted each one. That's a real test of understanding a style, rather than memorising particular pictures.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Kornell & Bjork",
+    "where": "Psychological Science, 2008",
+    "what": "Learning concepts and categories: is spacing the enemy of induction?"
+   }
+  },
+  {
+   "say": "The mixed condition won clearly, about sixty-one percent against about thirty-six percent. And this is the part that matters for all of us. When the researchers asked participants what had helped, most of them said that seeing the paintings by one artist together had been just as good, or better. They were wrong, and they were wrong in the direction of the easier method.",
+   "show": {
+    "type": "bars",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "New paintings assigned to the right artist",
+    "unit": "percent",
+    "bars": [
+     [
+      "Mixed",
+      61.0
+     ],
+     [
+      "Blocked",
+      36.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Mixing works because it makes you compare. When a wedge sits right next to a cone, you notice what makes each one different. When you only see wedges, you can describe a wedge, but you've never really been asked what separates it from anything else.",
+   "show": {
+    "type": "photo",
+    "file": "lf20_b04_01.jpg",
+    "cap": "Different shapes, one table"
+   }
+  },
+  {
+   "say": "There's something quietly human in that. We often understand a thing best by what it's not. A bird looks different to us once we've met a bat. A rule makes more sense once we've seen where it stops working. Interleaving gives your mind those contrasts, over and over, while it's still learning.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Contrast teaches"
+   }
+  },
+  {
+   "say": "Laboratory results are one thing. A full school year is another. So Doug Rohrer and his colleagues took the idea into real maths classes, and the results, published over several years, are some of the most striking in educational psychology.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 3,
+    "title": "In a real classroom"
+   }
+  },
+  {
+   "say": "Seventh-grade students in a school in Florida worked through their normal maths lessons. For some topics the homework was arranged in blocks, as usual. For others, the same problems were interleaved with problems from earlier weeks. The class teachers stayed the same, and so did the content. Only the arrangement of the homework changed.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Rohrer, Dedrick & Stershic",
+    "where": "Journal of Educational Psychology, 2015",
+    "what": "Interleaved practice improves mathematics learning"
+   }
+  },
+  {
+   "say": "When the students were tested a month later, the interleaved topics scored about seventy-two percent, and the blocked topics about thirty-eight. Nearly double. Later, Rohrer's team repeated the idea with many more classes and found the same direction, though the gap was smaller in the larger study, which is what we usually see when an idea moves out of the laboratory and into the messy real world.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Surprise test one month later",
+    "big": "72% vs 38%",
+    "label": "interleaved practice against blocked practice in seventh-grade maths"
+   }
+  },
+  {
+   "say": "So should you shuffle everything? Not quite. A large meta-analysis by Paulina Brunmair and Tobias Richter, published in 2019 in Psychological Bulletin, pulled together dozens of studies. It found that interleaving helps a good deal when you're learning to tell visual categories apart, such as paintings or bird species, and it helps with maths. But for learning plain word lists or vocabulary, the benefit was small or even reversed.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A fair caution",
+    "sub": "Not magic"
+   }
+  },
+  {
+   "say": "The pattern makes sense. Interleaving is a way to practise telling things apart and choosing between them. When the main difficulty is exactly that, it shines. When you're simply trying to memorise isolated items, there's nothing to compare, so there's less to gain.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "When interleaving helps most",
+    "items": [
+     "Categories that look alike: painters, birds, rock types",
+     "Problems that need you to choose a method",
+     "Skills with several different moves, such as sports or music"
+    ]
+   }
+  },
+  {
+   "say": "The same logic shows up in the gym and the practice room. Picture a baseball batter taking practice. The usual way is to hit fifteen fastballs, then fifteen curveballs, then fifteen changeups. A famous study in 2001 by Hall, Domingues and Cavazos had college players do extra batting practice in two ways.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 4,
+    "title": "Mixing in sport and music"
+   }
+  },
+  {
+   "say": "Some players practised each pitch in blocks, while others got the pitches in a random order. When the players were later tested, those who had practised with random pitches hit better, even though the blocked practice had felt smoother. Many sports scientists use this idea now, and call it random practice or contextual interference.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The batting study",
+    "sub": "Random order won"
+   }
+  },
+  {
+   "say": "If you play an instrument, it might sound like this. Instead of repeating one difficult bar twenty times in a row, you play it three times, move to another passage, then another, and then come back. It will feel clumsy. You'll sometimes play the bar worse the second time than the first. That's normal, and it's a good sign, because each return forces your mind to rebuild the movement from scratch.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "A musician's version",
+    "sub": "Switch the passage"
+   }
+  },
+  {
+   "say": "This is a good moment to name something that has been running under every chapter so far. Testing yourself, spacing your practice and mixing it all feel harder than the alternatives. They feel slower. You make more errors. You feel less sure of what you know.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 5,
+    "title": "The feeling of struggle"
+   }
+  },
+  {
+   "say": "Elizabeth and Robert Bjork have a name for this. They call these conditions desirable difficulties. Soderstrom and Bjork wrote that the conditions which make performance improve quickly during practice often fail to support long-term learning, and the opposite is also true.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "text": "Conditions that make performance improve rapidly often fail to support long-term retention",
+    "by": "Soderstrom and Bjork, Perspectives on Psychological Science, 2015"
+   }
+  },
+  {
+   "say": "The word desirable is doing an important job. Not every difficulty helps. If the material is far too hard, or you lack the background, struggling just wastes time. The helpful difficulties are the ones you can overcome with effort. They sit in a zone where you're stretched, but not broken.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Desirable difficulties",
+    "items": [
+     "Spacing: leave gaps between sessions",
+     "Testing: retrieve before you check",
+     "Interleaving: mix the topics",
+     "Generation: try before you are told"
+    ]
+   }
+  },
+  {
+   "say": "There's a deal being offered here. You can feel quick progress today and lose it by next week, or you can feel clumsy progress today and keep it for months. Neither is wrong. But only one of them is learning in the way that matters for the exam, the language or the job you actually want to do.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Slower now, faster later"
+   }
+  },
+  {
+   "say": "So, to bring this together. Mixing problem types made students three times better on a test a week later in one study, and nearly twice as good after a month in a real classroom. It works best when the task is telling things apart. And it feels worse while you're doing it, which is exactly why so few of us choose it.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What mixing taught us"
+   }
+  },
+  {
+   "say": "Next, we'll look more closely at that feeling, the quiet sense of knowing that guides almost every decision we make about studying. It can be badly wrong, and some careful experiments have shown us exactly how.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "The trap of feeling sure"
+   }
+  }
+ ]
+}

@@ -224,9 +224,11 @@
   {
    "say": "Here's another clever trick, from a study published in 2014 by Katherine Milkman, Julia Minson and Kevin Volpp. They gave people gripping audiobooks that they could only listen to at the gym. Pairing something people wanted with something they felt they should do increased gym visits by fifty-one percent in the early weeks, compared with a control group. The researchers called it temptation bundling. The effect faded after a holiday break, but the idea is easy to borrow.",
    "show": {
-    "type": "photo",
-    "file": "lf21_b06_01.jpg",
-    "cap": "Pairing want with should"
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Temptation bundling",
+    "sub": "Pairing want with should"
    }
   },
   {

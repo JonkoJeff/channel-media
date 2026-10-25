@@ -196,9 +196,11 @@
   {
    "say": "Think of the people who have meant the most to you. Very often, they made you feel genuinely noticed, as yourself, not as a type. They remembered the small things you said. They laughed at your particular jokes. They seemed interested in you, specifically. That kind of attention is rare, and we feel it deeply.",
    "show": {
-    "type": "photo",
-    "file": "lf22_b09_01.jpg",
-    "cap": "Being truly seen"
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Being truly seen",
+    "sub": "Noticed as yourself"
    }
   },
   {

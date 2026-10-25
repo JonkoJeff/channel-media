@@ -161,9 +161,11 @@
   {
    "say": "The nod to a neighbour. A chat with the person at the bus stop. A smile with the barista. These moments seem tiny. But they may be part of what makes us feel we belong somewhere, that we're part of a community rather than alone in a crowd.",
    "show": {
-    "type": "photo",
-    "file": "lf22_b12_01.jpg",
-    "cap": "A brief hello"
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A brief hello",
+    "sub": "Small threads"
    }
   },
   {

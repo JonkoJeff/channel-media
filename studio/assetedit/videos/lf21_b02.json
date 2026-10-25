@@ -1,0 +1,255 @@
+{
+ "id": "lf21_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think back ten years. Picture yourself then. What you cared about, what you listened to, who your closest friends were, what worried you at night. Now ask yourself honestly. How much have you changed since then? Most people, when they really think about it, say quite a lot.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "n": 4,
+    "title": "The end of history illusion"
+   }
+  },
+  {
+   "say": "Now try the opposite. Imagine yourself ten years from now. How much do you expect to change between today and then? If you're like most people, something interesting happens. The future version of you looks a lot like the present one. A bit older, maybe a bit wiser, but basically the same person.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Now look forward",
+    "sub": "The next ten years"
+   }
+  },
+  {
+   "say": "In 2013, Jordi Quoidbach, Daniel Gilbert and Timothy Wilson published a study in the journal Science that put numbers on this feeling. They surveyed more than nineteen thousand adults, aged eighteen to sixty-eight. Some were asked how much their personality, values and preferences had changed over the past ten years. Others were asked how much they expected to change over the next ten.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Quoidbach, Gilbert & Wilson",
+    "where": "Science, 2013",
+    "what": "The end of history illusion"
+   }
+  },
+  {
+   "say": "Here's the clever part. They could compare, for example, what forty-year-olds predicted about the decade ahead with what fifty-year-olds reported about the decade just behind them. If people were good at predicting their own change, those numbers should roughly match.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The clever comparison",
+    "sub": "Comparing like with like"
+   }
+  },
+  {
+   "say": "They didn't match. At every age they looked at, people expected to change less in the next ten years than people a decade older said they had actually changed. It held for personality, for core values, and for everyday preferences like favourite foods and favourite music. People recognised that they had changed a lot in the past, and still believed they would change very little in the future.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "They didn't match",
+    "sub": "We underestimate change"
+   }
+  },
+  {
+   "say": "The authors called it the end of history illusion. It's as if each of us believes that history, at least our own personal history, has just now come to an end, and that the person we are today is the finished version.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "text": "Human beings are works in progress that mistakenly think they're finished.",
+    "by": "Daniel Gilbert, TED talk, 2014"
+   }
+  },
+  {
+   "say": "Why would we do this? The researchers offered a few possible reasons. One is simply that imagining change is hard. Remembering how you've changed is easy, because you have the memories. Predicting how you'll change requires imagining something you have no details for, so the mind fills the gap with the present.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Why we do it",
+    "sub": "The present feels final"
+   }
+  },
+  {
+   "say": "Another possible reason is comfort. Most of us like to believe that our current values and tastes are the right ones. If you think your present self has finally got things figured out, it's natural to expect that self to stay put. Whatever the cause, the illusion was found across the whole age range they studied, from young adults to people in their sixties.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "A comforting belief",
+    "sub": "We like who we are now"
+   }
+  },
+  {
+   "say": "And it matters. Many of the big decisions we make, like what to study, where to live or which tattoo to get, are really decisions for a future person. If we assume that future person will want exactly what we want today, we can end up making choices for someone who no longer exists by the time the consequences arrive.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Why it matters",
+    "sub": "Decisions for a stranger"
+   }
+  },
+  {
+   "say": "So people change more than they expect over ten years. What about over a whole lifetime? Here we have one of the most remarkable personality studies ever published, and it comes from Scotland.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "n": 5,
+    "title": "From fourteen to seventy-seven"
+   }
+  },
+  {
+   "say": "In 1950, teachers in Scotland were asked to rate more than a thousand fourteen-year-olds on six characteristics, including self-confidence, perseverance, stability of moods, conscientiousness, originality and the desire to excel. These were teenagers who had also taken part in a national survey of intelligence a few years earlier.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Harris, Brett, Johnson & Deary",
+    "where": "Psychology and Aging, 2016",
+    "what": "Personality stability from age 14 to age 77 years"
+   }
+  },
+  {
+   "say": "More than sixty years later, researchers led by Mathew Harris at the University of Edinburgh set out to find those same people. They managed to trace and test a hundred and seventy-four of them, now around seventy-seven years old. Each person rated themselves on the same six characteristics, and each also nominated someone who knew them well, like a friend or relative, to rate them too.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Sixty-three years later",
+    "sub": "Finding them again"
+   }
+  },
+  {
+   "say": "When the researchers compared the ratings from age fourteen with the ratings at seventy-seven, they found very little connection. Most of the links were weak and not statistically meaningful. The cautious teenager rated in 1950 was not reliably the cautious seventy-seven-year-old of today.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "The result",
+    "sub": "Almost no link"
+   }
+  },
+  {
+   "say": "It's important to hold this result lightly. The two sets of ratings were collected in different ways, by different people. A teacher watching a class is not the same as a friend who has known you for decades. And the people who could be found and tested at seventy-seven may not represent everyone. Still, the authors' conclusion was striking. Over a very long stretch, personality may change far more than we assume.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Reasons for caution",
+    "items": [
+     "Teachers rated the teens, while the older adults rated themselves",
+     "Short rating forms are less precise than full questionnaires",
+     "Only people who lived long and could be found took part",
+     "One region, one generation"
+    ]
+   }
+  },
+  {
+   "say": "Sit with that for a second. The teenager you were, with all their fears and certainties, is connected to you by memory and by a long chain of small days. But they may not be a very good guide to the person you'll be at seventy-seven.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "The teenager you were"
+   }
+  },
+  {
+   "say": "This raises a puzzle that philosophers have enjoyed for more than two thousand years. If a person keeps changing, in what sense are they the same person at all?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 6,
+    "title": "The ship that was rebuilt"
+   }
+  },
+  {
+   "say": "The Greek writer Plutarch told the story of the ship of the hero Theseus, which the people of Athens preserved for generations. As its old planks decayed, they were replaced with new timber, one by one. Eventually, philosophers asked, was it still the same ship? And if not, at what point did it stop being the original?",
+   "show": {
+    "type": "photo",
+    "file": "lf21_b02_01.jpg",
+    "cap": "The ship of Theseus"
+   }
+  },
+  {
+   "say": "You may have heard a modern version of this. People often say that every cell in your body is replaced every seven years, so you're literally a new person. It's a lovely line. But it isn't quite true.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "Replaced, plank by plank",
+    "sub": "A popular myth"
+   }
+  },
+  {
+   "say": "In 2005, Jonas Frisén and his colleagues at the Karolinska Institute in Sweden found a way to estimate the age of human cells. They used a trace left behind by nuclear weapons tests in the 1950s and early 1960s, which raised the level of a form of carbon in the atmosphere. That carbon ended up in the DNA of cells that formed at the time, giving each cell a kind of birth date.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Spalding, Bhardwaj, Buchholz, Druid & Frisen",
+    "where": "Cell, 2005",
+    "what": "Retrospective birth dating of cells in humans"
+   }
+  },
+  {
+   "say": "Different tissues renew at very different speeds. The inner lining of the gut, for example, is known to renew within days. But in this study, the neurons in the outer layer of the brain, the cerebral cortex, turned out to be about as old as the person themselves. There is no single seven-year clock. Some parts of you are rebuilt constantly, and some have been with you since around birth.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "What they found",
+    "sub": "Some old, some new"
+   }
+  },
+  {
+   "say": "So if you're not your cells, what are you? The English philosopher John Locke argued in the late 1600s that personal identity is tied to memory, to the chain of experiences you can look back on. Much later, in 1984, the philosopher Derek Parfit suggested that what really matters is not some fixed core, but the overlapping connections between who you were, who you are and who you will be.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "So what are you?",
+    "sub": "Memory, story, character"
+   }
+  },
+  {
+   "say": "Psychologists have asked ordinary people what they think too. In 2014, Nina Strohminger and Shaun Nichols published a series of studies asking people to imagine someone who changed in different ways, for example losing memories, gaining a new skill or developing a different personality. The change that most made people feel, this is no longer the same person, was a change in moral character, like becoming cruel or dishonest.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Strohminger & Nichols",
+    "where": "Cognition, 2014",
+    "what": "The essential moral self"
+   }
+  },
+  {
+   "say": "That's a fascinating result. Most of us don't feel that our tastes or even many of our memories are the essence of who we are. We feel it's our values, the way we treat others. And that suggests something hopeful. If the heart of who we are is how we choose to act, then change isn't a loss of self. It can be a way of becoming more fully the person you want to be.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The core we sense",
+    "sub": "Not memories, but values"
+   }
+  },
+  {
+   "say": "So far, we've seen that people do change, slowly and often without noticing. But all of that is change that happens to us, through age and life. The bigger question is whether you can steer it. Can you sit down one day, decide you want to be more outgoing or calmer, and actually become that? Researchers have tested exactly that, and that's where we're going next.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Up next",
+    "sub": "Can you choose it?"
+   }
+  }
+ ]
+}

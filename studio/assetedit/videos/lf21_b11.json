@@ -1,0 +1,236 @@
+{
+ "id": "lf21_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's begin by letting the day go. There's nothing more you need to learn tonight, and nothing you need to remember. Whatever happened today has already happened. Whatever tomorrow holds can wait until tomorrow. Right now, there's only this. A quiet voice, a comfortable place, and the slow rhythm of your breathing.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 44,
+    "title": "Settling in"
+   }
+  },
+  {
+   "say": "If you're lying down, let your body sink a little more into whatever is holding you. The mattress, the cushions, the floor. You don't have to hold yourself up anymore. Let the weight of your arms rest. Let the weight of your legs rest. Let your head be heavy, and let something else carry it for a while.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Find your position",
+    "sub": "Let your body be held"
+   }
+  },
+  {
+   "say": "Now, if you like, take a slow breath in through your nose. Not forced, just a little deeper than before. Feel the air arrive, cool and quiet. And then let it go, slowly, through your mouth, as if you were gently fogging a window on a winter morning. That's it. There's no right way to do this. Just a little slower than usual.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "A slow breath",
+    "sub": "In through the nose"
+   }
+  },
+  {
+   "say": "Let's try that a few more times together. Breathe in, slowly, counting to four in your head. Pause, just for a moment, at the top. And breathe out, even more slowly, for six. The out-breath a little longer than the in-breath. Again. In, two, three, four. Pause. And out, two, three, four, five, six.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "A gentle rhythm",
+    "items": [
+     "Breathe in for a slow count of four",
+     "Pause for a moment",
+     "Breathe out for a slow count of six",
+     "Let the next breath come on its own"
+    ]
+   }
+  },
+  {
+   "say": "And now you can stop counting, and let your breathing find its own pace. It knows what to do. It's been doing this for you every moment of your life, through every version of you there has ever been. The child, the teenager, the person you were last year. The same quiet breath, carrying you along.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Let it find its own pace",
+    "sub": "No more counting"
+   }
+  },
+  {
+   "say": "You might notice sounds around you. Perhaps the hum of a fridge, or traffic far away, or rain against a window, or simply the quiet of the room. There's no need to push them away. Let them come, and let them go, like cars passing on a distant road. They don't need anything from you.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Sounds around you",
+    "sub": "Let them come and go"
+   }
+  },
+  {
+   "say": "There's an old saying, often traced back to the Greek thinker Heraclitus, who lived around two and a half thousand years ago. You cannot step into the same river twice. The water you stepped into a moment ago has already flowed on. And the person who stepped in has changed a little too.",
+   "show": {
+    "type": "photo",
+    "file": "lf21_b11_01.jpg",
+    "cap": "A quiet river at dusk"
+   }
+  },
+  {
+   "say": "Let that idea settle for a moment. Not as a lesson, just as a picture. A river, moving slowly through a valley in the evening light. Always the same river, always new water. Always moving, never in a hurry.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "text": "You cannot step into the same river twice.",
+    "by": "Attributed to Heraclitus, as later reported by Plato"
+   }
+  },
+  {
+   "say": "You are a little like that river. The shape of you stays recognisable. Your name, your laugh, the way you hold a cup. But the water is always new. New thoughts, new moments, new small choices. Tonight's version of you is not quite the same as this morning's. And that's not something to fix. It's simply how living things are.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Like the river",
+    "sub": "You are moving too"
+   }
+  },
+  {
+   "say": "Let's bring a little attention to your face now. Notice your forehead. Is there any tightness there, any small frown left over from the day? Imagine a warm hand gently smoothing it out, from the middle towards the temples. Let the skin of your forehead become soft and wide and still.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "title": "Your forehead",
+    "items": [
+     "Notice any tightness",
+     "Smooth it from the middle outwards",
+     "Soft, wide and still"
+    ]
+   }
+  },
+  {
+   "say": "Now your eyes. Let them rest heavy in their sockets, as if they're sinking slightly backwards into soft pillows. Let the small muscles around them unclench. And your jaw. Many of us carry the whole day in our jaw without noticing. Let your teeth part a little. Let your tongue rest loosely in your mouth. Let your jaw hang slack and easy.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Your eyes and jaw",
+    "sub": "Letting go"
+   }
+  },
+  {
+   "say": "And now your shoulders. Notice whether they've crept up towards your ears. Let them drop, just a little. And then a little more. As if someone had lifted a heavy bag from each of them. Feel the space that opens up in your neck. Feel how much lighter it is to simply let them fall.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Your shoulders",
+    "sub": "Dropping down"
+   }
+  },
+  {
+   "say": "Your forehead is soft. Your eyes are heavy. Your jaw is loose. Your shoulders are low. And your breath goes on, slow and easy, in and out, without needing any help from you at all.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Letting the day go",
+    "items": [
+     "Forehead soft and wide",
+     "Eyes heavy and still",
+     "Jaw loose",
+     "Shoulders low",
+     "Breath slow and easy"
+    ]
+   }
+  },
+  {
+   "say": "At some point, thoughts may drift in. Something you forgot to do, something someone said, something you're worried about. That's completely alright. It's what minds do. When you notice a thought, you don't have to argue with it or follow it. Just notice it, the way you might notice a cloud passing across the moon, and let it drift on.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Thoughts may drift in",
+    "sub": "That's alright"
+   }
+  },
+  {
+   "say": "And then, gently, come back to the feeling of your breath. The slight rise of your chest or belly as the air comes in. The soft fall as it leaves. You can come back to this as many times as you need to. There's no score, and no way to get it wrong.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Back to the breath",
+    "sub": "No effort needed"
+   }
+  },
+  {
+   "say": "Here's a small thought to rest on. Whatever you managed today, it was enough for today. Perhaps you did everything you planned. Perhaps you did almost none of it. Either way, the day is finished, and you got through it. That deserves a little kindness, not a list of corrections.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "A thought to rest on",
+    "items": [
+     "Whatever you managed today was enough",
+     "The day is finished",
+     "You got through it"
+    ]
+   }
+  },
+  {
+   "say": "Notice the warmth of where you are. The blanket, or the air, or the gentle weight of your own body. You're safe here. Nothing needs your attention right now. The world can carry on outside without you for a few hours. It will still be there in the morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "The warmth of the room",
+    "sub": "Safe and still"
+   }
+  },
+  {
+   "say": "There's another old line, from the Chinese classic called the Tao Te Ching. A journey of a thousand miles begins with a single step. Tonight, the only step is this breath. And then this one. Nothing more is being asked of you.",
+   "show": {
+    "type": "quote",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "text": "A journey of a thousand miles begins with a single step.",
+    "by": "A common translation of the Tao Te Ching, attributed to Laozi"
+   }
+  },
+  {
+   "say": "So let's just breathe for a little while. In, slowly. And out, even more slowly. In, feeling the air arrive. And out, feeling the body soften a little more each time. One breath, and then another. Like footsteps on a soft path through a quiet wood, going nowhere in particular, in no hurry at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Breathing on",
+    "sub": "One breath, then another"
+   }
+  },
+  {
+   "say": "With each out-breath, you might feel yourself sinking a little deeper. A little heavier. A little warmer. As if you were slowly settling to the bottom of a warm, still pool, where everything is calm and the light is soft and golden above you.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Sinking a little deeper",
+    "sub": "Heavier and warmer"
+   }
+  },
+  {
+   "say": "You can stay here as long as you like. If you fall asleep, the voice will simply keep you company in the background. And if you're still awake, that's fine too. We'll keep going together, slowly, with a few more quiet thoughts about change, and rest, and the gentle way people grow.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Stay as long as you like",
+    "sub": "The voice will keep you company"
+   }
+  }
+ ],
+ "pause": 1.6
+}

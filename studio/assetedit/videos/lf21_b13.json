@@ -1,0 +1,225 @@
+{
+ "id": "lf21_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's take a slow, gentle journey now. Not into the past, and not into anything you have to plan. Just a quiet visit to an ordinary evening, some years from now. There's no pressure in this. You don't need to picture anything perfectly. Just let whatever comes, come.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 46,
+    "title": "A visit to a future evening"
+   }
+  },
+  {
+   "say": "Imagine a door. It can be any door you like. Wooden, painted, old or new. There's warm light coming from the crack underneath it, and a faint, comforting smell, maybe of something baking, or wood smoke, or rain on a garden. You reach out, and the handle is warm in your hand. You open it slowly.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "A doorway",
+    "sub": "Warm light inside"
+   }
+  },
+  {
+   "say": "Inside is a room that feels like home. Perhaps it looks like a home you know. Perhaps it's somewhere you've never been. There's a soft chair, a lamp glowing in the corner, and a window with the evening outside. Everything is calm. Nothing is urgent. The room is waiting for no one but you.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "A familiar room",
+    "sub": "Somewhere that feels like home"
+   }
+  },
+  {
+   "say": "Look around slowly. Notice the small details. A blanket folded over the arm of the chair. A cup on a little table. A few books, a plant on the windowsill, a picture on the wall that you can't quite make out. This is the room of a future evening, some years from now. Your room.",
+   "show": {
+    "type": "photo",
+    "file": "lf21_b13_01.jpg",
+    "cap": "A quiet room in the evening"
+   }
+  },
+  {
+   "say": "And in the chair, there's someone sitting quietly. It's you. A future you. A little older, perhaps with a few more lines around the eyes. They look up as you come in, and they smile, as if they've been expecting you. There's something settled about them. Something unhurried.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Someone in the chair",
+    "sub": "An older, calmer you"
+   }
+  },
+  {
+   "say": "Notice how they sit. Perhaps their shoulders are a little lower than yours are now. Perhaps their hands rest more easily in their lap. Perhaps their face carries the look of someone who has worried less, and laughed more, and learned to be gentle with themselves on the hard days.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Notice them",
+    "sub": "How they hold themselves"
+   }
+  },
+  {
+   "say": "You don't have to decide exactly who they are. You don't need a list of their achievements. Just notice the feeling around them. A calmer way of sitting. An easier smile. Hands that are at rest. The look of someone who is, more or less, at home in themselves.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "What you might notice",
+    "items": [
+     "A calmer way of sitting",
+     "An easier smile",
+     "Hands at rest",
+     "The look of someone at home in themselves"
+    ]
+   }
+  },
+  {
+   "say": "Imagine sitting down near them. There's no need to speak yet. You can just sit together for a while, in the warm lamplight, listening to the evening outside the window. A distant car. A bird settling for the night. The small sounds of an ordinary, peaceful life.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Sit with them",
+    "sub": "No need to speak"
+   }
+  },
+  {
+   "say": "If you like, you can ask them a question. A simple one. What helped? What helped you get here? And just listen for whatever comes. It doesn't have to be wise or clever. It might be a single word. It might be a picture. It might be nothing at all, and that's alright too.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "A question",
+    "sub": "What helped?"
+   }
+  },
+  {
+   "say": "Perhaps they'd say it was the small things. The walks. Going to bed a little earlier. Saying no when you needed to, and yes when it mattered. Calling the people you love. Forgiving yourself for the days when none of that happened. Perhaps they'd say it wasn't one big change at all, but thousands of tiny ones, like grains of sand slowly building a dune.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Small things",
+    "sub": "They might say"
+   }
+  },
+  {
+   "say": "Remember what Daniel Gilbert said. We are works in progress that mistakenly think we're finished. The person in the chair is proof of that. They aren't finished either. They're simply further along the same gentle road you're on right now.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "text": "Human beings are works in progress that mistakenly think they're finished.",
+    "by": "Daniel Gilbert, TED talk, 2014"
+   }
+  },
+  {
+   "say": "And notice something else. They know you completely. They remember being you, exactly as you are tonight, with every worry you're carrying and every hope you hold quietly. They don't look at you with disappointment. They look at you with something like fondness. You were the one who got them here.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "They know you",
+    "sub": "Every version of you"
+   }
+  },
+  {
+   "say": "If they could tell you one thing tonight, what might it be? Perhaps, it's going to be alright. Perhaps, slow down, you have more time than you think. Perhaps, be kind to yourself, you're doing better than you know. Let whatever message feels right settle softly into you, like warmth from a fire.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "A message",
+    "sub": "What would they tell you?"
+   }
+  },
+  {
+   "say": "It's going to be alright. You have more time than you think. Be gentle with yourself. Small steps are enough. You don't need to carry all of it at once.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "A message from further down the road",
+    "items": [
+     "It's going to be alright",
+     "You have more time than you think",
+     "Be gentle with yourself",
+     "Small steps are enough"
+    ]
+   }
+  },
+  {
+   "say": "Now, when you're ready, imagine standing up. The person in the chair smiles again. There's no need for a goodbye, because you'll meet them eventually, one ordinary day at a time. They nod towards the door, as if to say, go and rest now. I'll be here.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Saying goodnight",
+    "sub": "No goodbye needed"
+   }
+  },
+  {
+   "say": "You walk slowly back towards the door, carrying a little of that room's warmth with you. The lamplight. The calm. The feeling of being known and not judged. You step through, and the door closes softly behind you, with a quiet click.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Back through the door",
+    "sub": "Carrying the warmth"
+   }
+  },
+  {
+   "say": "And you're back here, in your own body, in your own bed or chair. Heavy and warm and safe. The future can wait for you, out there, years away. It doesn't need anything from you tonight. Tonight, you only need to rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Back in your body",
+    "sub": "Heavy and safe"
+   }
+  },
+  {
+   "say": "Picture that lamp again, still glowing softly in the corner of a room you haven't reached yet. It's left on for you. There's no hurry to get there. The light will keep. And every gentle day between now and then is part of the way.",
+   "show": {
+    "type": "photo",
+    "file": "lf21_b13_02.jpg",
+    "cap": "A lamp left on"
+   }
+  },
+  {
+   "say": "Let your breath slow down again. In, gently. And out, slowly. Feel the bed or the chair beneath you. Feel the weight of your body, sinking. Feel the quiet of the room around you. Everything is still. Everything is safe.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Breathing slowly",
+    "sub": "In and out"
+   }
+  },
+  {
+   "say": "You can let the picture of the room fade now, like a dream fading in the early morning. You don't need to hold on to it. The feeling will stay with you, even when the details drift away. Calm. Warm. Known.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Let it soften",
+    "sub": "The picture fading"
+   }
+  },
+  {
+   "say": "If you're still listening, we'll carry on together, slowly. And if you've already drifted into sleep, then the rest of this is simply a soft sound in the background of your dreams, keeping you company through the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Drifting on",
+    "sub": "We'll keep going slowly"
+   }
+  }
+ ],
+ "pause": 1.6
+}

@@ -1,0 +1,218 @@
+{
+ "id": "lf21_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We've visited a future evening. Now, very gently, let's turn the other way. Not to dwell on anything difficult, and not to relive any old moments. Just to nod, kindly, to some of the people you have been along the way. Each of them is part of how you got here.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "n": 47,
+    "title": "The people you have been"
+   }
+  },
+  {
+   "say": "Imagine a long, quiet hallway, softly lit, with a warm carpet underfoot. Along each side, there are doors, each one slightly open, with a little light spilling out. You don't have to go into any of the rooms. You can simply walk slowly past and glance in, the way you might walk past the windows of houses on an evening stroll.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A long hallway",
+    "sub": "Doors on either side"
+   }
+  },
+  {
+   "say": "Behind each door, there's a version of you from some time in your life. Perhaps a small child building something on the floor. Perhaps a teenager, lying on a bed, lost in music. Perhaps someone in their first job, or their first home, or someone sitting alone after a hard day. Each of them was doing their best with what they knew.",
+   "show": {
+    "type": "photo",
+    "file": "lf21_b14_01.jpg",
+    "cap": "A softly lit hallway"
+   }
+  },
+  {
+   "say": "Glance into the first room. Imagine a very young version of you, perhaps four or five years old. Curious about everything. Asking why, again and again. Finding wonder in puddles and ants and the shapes of clouds. That curiosity didn't disappear. It's still somewhere in you, perhaps a little quieter now.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "The child",
+    "sub": "Curious and small"
+   }
+  },
+  {
+   "say": "If you could, what would you tell that small child? Perhaps that they are safe. That they are loved. That the things that frighten them now will one day seem small. You don't have to say anything out loud. Just let a feeling of warmth travel from you to them, across all those years.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A small kindness",
+    "sub": "What would you tell them?"
+   }
+  },
+  {
+   "say": "Now walk on a little, and glance into another room. Here's a teenage version of you. Perhaps very sure of some things, and very unsure of others. Perhaps worried about how they looked, or what people thought, or who they were supposed to be. Remember the Scottish study, with the fourteen-year-olds rated by their teachers? That teenager was never a final draft.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "The teenager",
+    "sub": "Certain and uncertain"
+   }
+  },
+  {
+   "say": "If you could tell them one thing, maybe it would be this. You don't have to have it all figured out. The labels people give you now won't last. You'll grow in ways you can't even imagine yet. And some of the things you're most afraid of will turn out to be the doors you walk through.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "For the teenager you were",
+    "items": [
+     "You don't have to have it figured out",
+     "The labels won't last",
+     "You'll grow in ways you can't imagine yet"
+    ]
+   }
+  },
+  {
+   "say": "Walk on, slowly, past a few more doors. Here's a version of you from not very long ago. Perhaps a year ago. Perhaps a few months. Notice how much they didn't yet know. Things you've learned since. People you've met. Small skills, small comforts, small lessons you've picked up along the way, without even noticing.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Further along",
+    "sub": "Someone you were recently"
+   }
+  },
+  {
+   "say": "You've changed since then, even if it doesn't feel that way. That's the illusion we talked about, the feeling that we're finished. But if you look back down the hallway, you can see it. The doors stretch back a long way. And each version of you is different from the one before, in small and quiet ways.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "You changed",
+    "sub": "More than you noticed"
+   }
+  },
+  {
+   "say": "Every one of those rooms holds a work in progress. Not a mistake, not a failure, just a person part of the way along. And here you are, tonight, another work in progress, standing in the softly lit hallway, looking back with kindness.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "title": "Every room holds",
+    "items": [
+     "A work in progress",
+     "Not a mistake",
+     "Someone part of the way along"
+    ]
+   }
+  },
+  {
+   "say": "If you like, you can thank them. All of them. The child, the teenager, the person you were last year. For carrying you this far. For getting up on the hard mornings. For trying, even when they didn't know how. You wouldn't be here, resting, without every one of them.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Thank them",
+    "sub": "A quiet gratitude"
+   }
+  },
+  {
+   "say": "And if there are some rooms you'd rather not look into, that's alright. You can walk past those quietly. But know that the person in each of those rooms didn't yet know what you know now. They did what they could with what they had. They deserve the same kindness you'd offer anyone you love.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Forgive them",
+    "sub": "They didn't know yet"
+   }
+  },
+  {
+   "say": "Thank you for carrying me this far. You did your best with what you knew. I'm still growing. It's alright to rest now. Let those words drift down the hallway, into every room, like warm air through an old house.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "For every version of you",
+    "items": [
+     "Thank you for carrying me",
+     "You did your best with what you knew",
+     "I'm still growing",
+     "It's alright to rest now"
+    ]
+   }
+  },
+  {
+   "say": "Now imagine the doors closing softly, one by one, all along the hallway. Not shut away forever, just closed for the night, so everyone inside can rest too. One after another, with a quiet click, until the hallway is calm and dim and peaceful.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "The doors close softly",
+    "sub": "One by one"
+   }
+  },
+  {
+   "say": "At the end of the hallway is one more door, and this one leads to your own room, tonight. Here, the bed is soft and warm. The light is low. The window shows a calm night sky. You walk in, and lie down, and pull the blanket up around you.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "A comfortable room",
+    "sub": "Your own room tonight"
+   }
+  },
+  {
+   "say": "Your body is heavy now, heavier than before. Your arms and legs are sinking into the bed. Your head is cradled by the pillow. Your breath is slow and soft, barely moving. You are exactly where you need to be.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Heavy and warm",
+    "sub": "Sinking down"
+   }
+  },
+  {
+   "say": "Outside the window, the night sky is clear and deep, scattered with stars. Some of that light left those stars long ago, and is only reaching you now. A little like the people you've been, still quietly shining through who you are tonight.",
+   "show": {
+    "type": "photo",
+    "file": "lf21_b14_02.jpg",
+    "cap": "A calm night sky"
+   }
+  },
+  {
+   "say": "There's nothing left to fix tonight. Nothing left to understand. All the versions of you are resting. The future can wait. The past is quiet. And you are here, in the present, warm and heavy and calm.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Let it all be",
+    "sub": "Nothing left to fix"
+   }
+  },
+  {
+   "say": "Let each breath be a little softer than the last. A little slower. A little quieter. In, and out. In, and out. Like the gentle rise and fall of a boat on a calm sea at night, rocking you softly towards sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Slower still",
+    "sub": "Each breath softer"
+   }
+  },
+  {
+   "say": "You may already be at the edge of sleep, that soft, blurry place where thoughts become pictures and pictures become dreams. If you are, let yourself slip over that edge whenever you're ready. There's nothing you need to stay awake for. I'll keep talking softly for a little while longer.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Almost there",
+    "sub": "The edge of sleep"
+   }
+  }
+ ],
+ "pause": 1.6
+}

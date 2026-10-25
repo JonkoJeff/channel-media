@@ -1,0 +1,252 @@
+{
+ "id": "lf21_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think about how your morning went today. Which side of the bed you got out of. Whether you reached for your phone. How you made your drink, which hand held the cup, the route you took to wherever you went next. How much of it did you actually decide? For most of us, the honest answer is, not very much.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "n": 18,
+    "title": "The life we no longer notice"
+   }
+  },
+  {
+   "say": "That isn't a flaw. It's one of the brain's best tricks. If you had to think carefully about every step of brushing your teeth, you'd have nothing left for anything else. Habits free up attention. But they also mean that a large part of who we are, day to day, runs without our conscious permission.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "On autopilot",
+    "sub": "And that's normal"
+   }
+  },
+  {
+   "say": "In 2002, Wendy Wood and her colleagues asked students to keep diaries. Several times a day, they noted what they were doing, what they were thinking about and how they felt. The researchers then looked at which behaviours were done almost every day in the same place.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Wood, Quinn & Kashy",
+    "where": "Journal of Personality and Social Psychology, 2002",
+    "what": "Habits in everyday life: thought, emotion, and action"
+   }
+  },
+  {
+   "say": "About forty-three percent of the behaviours people logged fitted that description. And during those habitual actions, people's thoughts were often somewhere else entirely. Their bodies were doing one thing while their minds wandered to another.",
+   "show": {
+    "type": "stat",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Everyday actions done as habits",
+    "big": "43%",
+    "label": "of the behaviours people logged were repeated almost daily in the same context"
+   }
+  },
+  {
+   "say": "This matters for anyone hoping to change. If something like four in ten of our daily actions are habits, then a new version of you can't just live in your intentions. It has to make its way into those quiet routines too.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "What this means",
+    "sub": "Change has to reach the routines"
+   }
+  },
+  {
+   "say": "So how long does it take to build a new habit? You may have heard a confident answer. Twenty-one days. It's repeated in articles, apps and talks everywhere. Where does it come from?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 19,
+    "title": "The twenty-one day myth"
+   }
+  },
+  {
+   "say": "The most likely source is a 1960 self-help book called Psycho-Cybernetics, written by Maxwell Maltz, a plastic surgeon. Maltz noticed that his patients seemed to need around three weeks to get used to their new faces, and he suggested a minimum of about twenty-one days for a new self-image to settle. Notice the word minimum. Over time, a minimum turned into a promise.",
+   "show": {
+    "type": "quote",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "text": "It requires a minimum of about 21 days for an old mental image to dissolve and a new one to jell.",
+    "by": "Maxwell Maltz, Psycho-Cybernetics, 1960"
+   }
+  },
+  {
+   "say": "For decades, nobody really checked. Then, in 2010, a team at University College London decided to measure how long habits actually take to form in everyday life.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "Somebody measured it",
+    "sub": "Fifty years later"
+   }
+  },
+  {
+   "say": "Phillippa Lally and her colleagues asked ninety-six volunteers to choose one new healthy behaviour to do every day in the same situation. Things like eating a piece of fruit with lunch, drinking a bottle of water after breakfast, or going for a short run before dinner. Every day for twelve weeks, the volunteers rated how automatic the behaviour felt.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Lally, van Jaarsveld, Potts & Wardle",
+    "where": "European Journal of Social Psychology, 2010",
+    "what": "How are habits formed: modelling habit formation in the real world"
+   }
+  },
+  {
+   "say": "The pattern looked like a curve. In the early days, each repetition made the behaviour feel noticeably more automatic. Then the gains slowed, and the curve gradually levelled off, like climbing a hill that gets gentler near the top.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "title": "How a habit grows",
+    "items": [
+     "Early days: each repetition helps a lot",
+     "Then the gains slow down",
+     "Finally it levels off into a plateau"
+    ]
+   }
+  },
+  {
+   "say": "For the people whose data could be modelled, the median time to get close to that plateau was about sixty-six days. Not twenty-one. And the range was enormous, from eighteen days for some people to an estimated two hundred and fifty-four days for others. Simple habits, like drinking water, tended to become automatic faster than harder ones, like exercise.",
+   "show": {
+    "type": "stat",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Median time to reach the plateau",
+    "big": "66 days",
+    "label": "the range ran from 18 days to 254 days"
+   }
+  },
+  {
+   "say": "And there was one more finding that I think is the kindest of all. Missing a single day didn't meaningfully set people back. Their curve carried on. So if you skip your new habit once, you haven't broken anything. The important thing is to come back to it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The kindest finding",
+    "sub": "One missed day is fine"
+   }
+  },
+  {
+   "say": "So if you've ever felt discouraged that a new routine still felt like hard work after three weeks, you weren't failing. You were simply somewhere on the early part of the curve, where most people are at that point. The feeling of effort isn't a sign that it isn't working. It's often a sign that the path is still being made.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "A gentler timeline",
+    "sub": "Months, not weeks"
+   }
+  },
+  {
+   "say": "Once a habit is built, how strong is it? One study answered that question in a wonderfully memorable way, with a bucket of week-old popcorn.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "n": 20,
+    "title": "The stale popcorn study"
+   }
+  },
+  {
+   "say": "In 2011, David Neal, Wendy Wood and their colleagues gave people popcorn while they watched film clips in a cinema. Some got freshly popped popcorn. Others got popcorn that was a week old, soft and stale. People who rarely ate popcorn at the cinema ate much less of the stale stuff, as you'd expect.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Neal, Wood, Wu & Kurlander",
+    "where": "Personality and Social Psychology Bulletin, 2011",
+    "what": "The pull of the past: when do habits persist despite conflict with motives?"
+   }
+  },
+  {
+   "say": "But people with a strong habit of eating popcorn at the cinema ate about as much stale popcorn as fresh popcorn. They even said they didn't like the stale popcorn. Their hands kept going anyway. The cinema, the darkness, the screen, all of it was cueing the habit, regardless of the taste.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "But the regulars",
+    "sub": "They kept eating"
+   }
+  },
+  {
+   "say": "And here's the clever twist. When the same experiment was run in a meeting room instead of a cinema, the habitual popcorn eaters ate less of the stale popcorn. The habit was tied to the place. In another part of the study, simply asking people to eat with their non-dominant hand also disrupted the habit, because it broke the automatic movement.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Change the setting",
+    "sub": "The habit loosened"
+   }
+  },
+  {
+   "say": "That tells us something important about habits. They aren't mainly driven by what we want in the moment. They're triggered by the context around us. The place, the time of day, the people we're with, the action we just finished. Change the context, and you change the cue.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "The real trigger",
+    "sub": "Context, not desire"
+   }
+  },
+  {
+   "say": "Which suggests that moments when our context changes might be special opportunities. And there's evidence for exactly that.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "autumn_overlook",
+    "n": 21,
+    "title": "A window for change"
+   }
+  },
+  {
+   "say": "In 2005, Wendy Wood and her colleagues followed students who were transferring to a new university. They looked at habits like exercising, watching television and reading the news. When the new setting was similar to the old one, students tended to keep their old habits. But when the cues changed, their behaviour came loose from the old routines and followed their current intentions instead.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Wood, Tam & Witt",
+    "where": "Journal of Personality and Social Psychology, 2005",
+    "what": "Changing circumstances, disrupting habits"
+   }
+  },
+  {
+   "say": "Bas Verplanken and Deborah Roy found something similar in a field experiment published in 2016. People who had recently moved house were more responsive to an intervention encouraging greener everyday habits than people who had been in their homes for longer. They called this the habit discontinuity hypothesis. When life shakes up your routines, there's a brief window where new ones can take root more easily.",
+   "show": {
+    "type": "photo",
+    "file": "lf21_b05_01.jpg",
+    "cap": "Boxes in a new home"
+   }
+  },
+  {
+   "say": "So if you want to build a new habit, attach it to something that already happens every day, like after I pour my morning coffee. Repeat it in the same context. Expect it to take weeks or months. Forgive the missed days. And if your life is changing anyway, a new job, a new home, a new term, that might be the best moment to start.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Using what we know about habits",
+    "items": [
+     "Tie the new habit to a stable cue",
+     "Repeat it in the same place and time",
+     "Expect weeks to months, not days",
+     "Don't panic about one missed day",
+     "Use life changes as a fresh window"
+    ]
+   }
+  },
+  {
+   "say": "You might notice that one word hasn't come up much in this chapter. Willpower. Most of us assume that changing who we are mostly depends on how strong our willpower is. The research on that turns out to be full of surprises, including one of the most famous failed replications in modern psychology. That's next.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Up next",
+    "sub": "What about willpower?"
+   }
+  }
+ ]
+}

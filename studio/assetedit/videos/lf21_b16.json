@@ -1,0 +1,231 @@
+{
+ "id": "lf21_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We're nearing the end of our time together tonight. There's nothing more to explore, nothing more to remember. Just a few last quiet minutes, and then the long, soft rest of the night. Let your body stay exactly as it is. Heavy. Warm. Still.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 49,
+    "title": "Drifting towards sleep"
+   }
+  },
+  {
+   "say": "Everything is slowing down now. Your breath. Your thoughts. Even the world outside seems quieter, as if the whole street, the whole town, has decided to rest at the same time. Lights going out in windows, one by one. Doors closing softly. Everyone settling in for the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Everything is slowing",
+    "sub": "The world outside quiet"
+   }
+  },
+  {
+   "say": "Let's return, one last time, to the river. It's night now. The water is dark and smooth, moving slowly under a sky full of stars. You can hear it softly, a low, steady murmur. It never stops, and it never hurries. It just keeps flowing, all through the night, carrying everything gently along.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "A last image",
+    "sub": "The river at night"
+   }
+  },
+  {
+   "say": "You don't have to do anything to make the river flow. It flows by itself. And the same is true of you. While you sleep, your heart keeps its rhythm. Your breath keeps going. Your body repairs and restores itself. The day's small lessons settle quietly into place. All without any effort from you.",
+   "show": {
+    "type": "photo",
+    "file": "lf21_b16_01.jpg",
+    "cap": "The river at night"
+   }
+  },
+  {
+   "say": "Even now, as you rest, you're changing a little. Not in any way you need to manage or measure. Just in the quiet, natural way that living things change. Growing. Settling. Becoming. The person who wakes up tomorrow will be very slightly different from the one who fell asleep tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "You are changing",
+    "sub": "Even now"
+   }
+  },
+  {
+   "say": "And that's alright. You don't have to hold on to anything tonight. Not the worries of the day, not the plans for tomorrow, not even the person you think you are. You can let all of it rest, like leaves floating on the surface of the river, drifting slowly downstream.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "That's alright",
+    "sub": "Nothing to hold on to"
+   }
+  },
+  {
+   "say": "The day's worries. Tomorrow's plans. The need to get everything right. The idea that you're finished, or fixed, or stuck. Let them all float gently away on the dark water, out of sight, around the bend in the river.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "Things you can let go of tonight",
+    "items": [
+     "The day's worries",
+     "Tomorrow's plans",
+     "The need to get everything right",
+     "The idea that you're finished"
+    ]
+   }
+  },
+  {
+   "say": "What stays is simple. The warmth of the bed. The weight of your body. The slow, soft rhythm of your breath. A feeling of calm, spreading slowly from your chest out to your fingertips and toes. That's all you need right now.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "What stays",
+    "sub": "Calm and warmth"
+   }
+  },
+  {
+   "say": "Let's take a few last breaths together. Slowly in. And slowly out. Slowly in, feeling the cool air. And slowly out, letting the body sink even deeper. Slowly in. And out. Each breath like a small wave, washing the last of the day away.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Breathing",
+    "sub": "Slow and deep"
+   }
+  },
+  {
+   "say": "Your body is so heavy now that it feels almost as if it's melting into the bed. Your arms, your legs, your back, your head. All warm, all supported, all at rest. There's no part of you that needs to hold on. No part of you that needs to be awake.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Heavier still",
+    "sub": "Melting into the bed"
+   }
+  },
+  {
+   "say": "Remember, rest is not idleness. Resting is part of living, and part of growing. Every change you'll ever make will be built on nights like this one, where you simply let yourself stop, and be held, and recover.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "text": "Rest is not idleness.",
+    "by": "John Lubbock, The Use of Life, 1894"
+   }
+  },
+  {
+   "say": "And when tomorrow comes, it can be small. You don't have to become a new person in the morning. You might just take one small step in a direction you care about. A walk. A kind word. A glass of water. An early night. That's how the new paths begin. Quietly. One step at a time.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A gentle thought",
+    "sub": "Tomorrow can be small"
+   }
+  },
+  {
+   "say": "Be kind to the person who wakes up tomorrow. They'll be doing their best, just like every version of you before them. If they slip, let them begin again. If they're tired, let them rest. If they're trying, let them know it counts.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Be kind",
+    "sub": "To the one who wakes"
+   }
+  },
+  {
+   "say": "One small step, in a direction you care about. Begin again whenever you slip. Rest without guilt. That's all. Nothing more is needed.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "For tomorrow, if you like",
+    "items": [
+     "One small step",
+     "In a direction you care about",
+     "Begin again whenever you slip",
+     "Rest without guilt"
+    ]
+   }
+  },
+  {
+   "say": "The stars are out now, all across the sky. They've watched over countless people falling asleep, people who were worried, people who were hopeful, people who were changing. Tonight, they're watching over you too. Quietly. Patiently. Without asking anything at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "The stars",
+    "sub": "Watching quietly"
+   }
+  },
+  {
+   "say": "Somewhere far away, the little cabin by the sea is still warm, its fire glowing low. The meadow lies quiet under the stars. The lamp still glows in the room of a future evening. And the hallway of old doors is dim and peaceful. All the places we visited tonight are resting too, keeping their calm for you.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Far away",
+    "sub": "The sea, the rain, the fire"
+   }
+  },
+  {
+   "say": "Warm. Heavy. Safe. Still. Let those four words drift slowly through you, one after another, like leaves settling on the surface of a quiet pond. Warm. Heavy. Safe. Still.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "Softly now",
+    "items": [
+     "Warm",
+     "Heavy",
+     "Safe",
+     "Still"
+    ]
+   }
+  },
+  {
+   "say": "Each breath now is a little slower than the last. A little softer. A little deeper. The space between your breaths grows longer and more peaceful. There's nowhere to go from here except down, gently, into sleep. And sleep is very close now, waiting for you like a soft bed at the end of a long day.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Slower still",
+    "sub": "Each breath softer"
+   }
+  },
+  {
+   "say": "So let go now. Let your thoughts dissolve into soft colours and shapes. Let the voice fade into the background. Let the river carry you, slowly, gently, all the way down into deep, peaceful sleep. You're safe. You're warm. You're exactly where you need to be.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Let go",
+    "sub": "Into sleep"
+   }
+  },
+  {
+   "say": "Thank you for spending this evening with me. Whatever you're carrying, whatever you hope for, whoever you're becoming, I hope tonight brought you a little peace. Goodnight. Sleep well. And remember, you're still becoming who you'll be.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Goodnight",
+    "sub": "Sleep well"
+   }
+  },
+  {
+   "say": "Next time, we'll explore one of the quietest mysteries of being human. Why some connections feel so intense, even when nothing is said. The glance across a room, the conversation that seems to flow by itself, the feeling of being understood without words. Until then, rest well.",
+   "show": {
+    "type": "end",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "next": "Why Unspoken Connections Feel So Intense"
+   }
+  }
+ ],
+ "pause": 1.6
+}

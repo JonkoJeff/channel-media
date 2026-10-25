@@ -1,0 +1,241 @@
+{
+ "id": "lf21_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Earlier tonight, we imagined a path through a field of tall grass. Let's go back there now, slowly, but this time not to learn anything. Just to walk. Picture a wide meadow in the last light of a summer evening. The grass is long and soft, and it moves in a gentle breeze, like the surface of a slow green sea.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "n": 45,
+    "title": "The path through the grass"
+   }
+  },
+  {
+   "say": "The air is warm, but not too warm. There's a faint smell of cut hay somewhere in the distance, and the sky is turning from pale gold to a soft, deep blue. A few early stars are just beginning to appear. There's no one else here. No one expects anything of you. You can walk as slowly as you like.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The meadow",
+    "sub": "Soft light, slow air"
+   }
+  },
+  {
+   "say": "As you walk, notice your feet. Feel the ground beneath them, slightly springy, cool through the soles of your shoes, or perhaps you're barefoot, and you can feel the soft blades of grass against your skin. Each step is unhurried. Heel, then the arch of the foot, then the toes. And then the next step.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Your feet",
+    "sub": "Feeling the ground"
+   }
+  },
+  {
+   "say": "Ahead of you, there's a faint path through the grass. It isn't a road. It's just a line where the grass is a little flatter, a little thinner, where someone has walked before. Perhaps it was you, long ago. Perhaps you've walked this way many times without noticing.",
+   "show": {
+    "type": "photo",
+    "file": "lf21_b12_01.jpg",
+    "cap": "A meadow at dusk"
+   }
+  },
+  {
+   "say": "Our habits are a little like that path. Ways we go without thinking, because we've gone that way before. Some of them are kind to us. The path to a morning cup of tea, to a friend's voice on the phone, to a walk at lunchtime. Some of them are less kind. But all of them were made the same way. One step, and then another, repeated over time.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Old paths",
+    "sub": "The ways we always go"
+   }
+  },
+  {
+   "say": "And there's no need to blame yourself for any of the old paths. Every one of them made sense once. Each was the easiest way through the grass at some point in your life. Perhaps a habit helped you cope, or rest, or feel safe when you needed to. It was doing its best for you.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "No blame",
+    "sub": "Every path made sense once"
+   }
+  },
+  {
+   "say": "There's a line that's often credited to Aristotle, though it was actually written by the historian Will Durant, summarising Aristotle's ideas. We are what we repeatedly do. It can sound strict. But tonight, let's hear it softly. It means we are not stuck with any one path. We are always, quietly, in the middle of making new ones.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "text": "We are what we repeatedly do.",
+    "by": "Will Durant, The Story of Philosophy, 1926, summarising Aristotle"
+   }
+  },
+  {
+   "say": "So imagine, now, that you step off the old path. Just a few steps to one side, into the taller grass. It's a little harder going here. The grass brushes against your legs. You have to lift your feet a little higher. But it's not difficult. It's just new.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "A new direction",
+    "sub": "Just a few steps"
+   }
+  },
+  {
+   "say": "And if you turn around and look back, you can see the faintest line where you've just walked. Barely there. Tomorrow, it might have faded. But if you walk this way again, and again, the line will grow clearer. Not overnight. Gradually. Until one evening you'll find yourself on it without having decided to be.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "A faint new line"
+   }
+  },
+  {
+   "say": "That's how it works. One step at a time. The same way, again and again. A missed day here and there doesn't erase it. The path is still there, waiting, when you come back. And one evening, without any fanfare, it simply feels like yours.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "How new paths form",
+    "items": [
+     "One step at a time",
+     "The same way, again and again",
+     "Missed days don't erase it",
+     "One evening, it simply feels like yours"
+    ]
+   }
+  },
+  {
+   "say": "Now let's stop walking for a while. Imagine lying down in the soft grass, right where you are. The meadow holds you. The grass rises up around you like a soft green wall, swaying gently, and above you there's nothing but the deepening sky, and a few stars coming out one by one.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Resting in the grass",
+    "sub": "Lie down for a while"
+   }
+  },
+  {
+   "say": "The sky is very wide. Far wider than any worry you might be carrying. Your thoughts can drift up into it like small birds, circling slowly and disappearing into the blue. You don't need to hold on to them. The sky has room for all of them.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The sky above",
+    "sub": "Wide and calm"
+   }
+  },
+  {
+   "say": "Notice your arms now, resting by your sides or on your body. Let them become heavy. Start with your upper arms, then your elbows, your forearms, your wrists. Let the warmth flow down into your hands. Let your fingers uncurl, soft and still, as if they were floating in warm water.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Your arms",
+    "sub": "Heavy and warm"
+   }
+  },
+  {
+   "say": "Your shoulders are soft. Your arms are heavy. Your hands are warm. Your fingers are loose and still. There's nothing they need to hold tonight. Nothing they need to carry, or type, or fix. They can simply rest.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "Letting go, from head to hands",
+    "items": [
+     "Shoulders soft",
+     "Arms heavy",
+     "Hands warm",
+     "Fingers loose and still"
+    ]
+   }
+  },
+  {
+   "say": "Now notice your chest, rising and falling. Your breath is moving on its own, slow and even. With each breath out, imagine a little tension leaving your body, drifting up into the evening air like warmth leaving a cup of tea. Breathing in, calm. Breathing out, letting go.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Your chest",
+    "sub": "The breath moving on its own"
+   }
+  },
+  {
+   "say": "Let your belly be soft too. Many of us hold our stomachs tight all day without knowing it. You don't need to now. Let it rise gently as you breathe in, and fall as you breathe out, like a small wave coming in to a quiet beach, and then drawing back.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Your belly",
+    "sub": "Soft and loose"
+   }
+  },
+  {
+   "say": "And your legs. Let them be heavy. Your hips, your thighs, your knees, your calves, your ankles. Imagine them sinking slightly into the soft earth of the meadow, warm and supported. Your feet, at the very end, loose and resting, finished with walking for today.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Your legs",
+    "sub": "Sinking into the earth"
+   }
+  },
+  {
+   "say": "The Victorian writer John Lubbock once wrote that rest is not idleness. Lying in the grass on a summer day, he said, listening to the water or watching the clouds, is by no means a waste of time. Tonight, resting is exactly the right thing to be doing.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "text": "Rest is not idleness.",
+    "by": "John Lubbock, The Use of Life, 1894"
+   }
+  },
+  {
+   "say": "It might help to know that rest is part of change, not a break from it. While you sleep, your body and brain sort through the day, keeping some things and letting others go. The new paths you walked today are being gently settled in, while you do nothing at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Change happens in rest too",
+    "sub": "The day settles in"
+   }
+  },
+  {
+   "say": "Around you, the meadow is growing darker and softer. The breeze has dropped. The grass is still. Somewhere far off, an owl calls once, and then the evening falls quiet again. Everything is slowing down, settling, getting ready for the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The meadow grows quiet",
+    "sub": "Darker and softer"
+   }
+  },
+  {
+   "say": "You might feel yourself drifting now, the edges of your thoughts becoming blurry and soft. That's alright. You don't have to follow every word. Let the voice become a kind of gentle background, like rain on a roof, or the sound of the sea heard from a distance.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Drifting",
+    "sub": "No need to follow"
+   }
+  },
+  {
+   "say": "There are no paths to choose tonight. No steps to take. Just the meadow, the wide sky, and your slow, easy breath. In, and out. Heavy and warm and safe.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Nothing to do",
+    "items": [
+     "No paths to choose tonight",
+     "No steps to take",
+     "Just the meadow, the sky and your breath"
+    ]
+   }
+  }
+ ],
+ "pause": 1.6
+}

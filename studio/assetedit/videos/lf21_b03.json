@@ -1,0 +1,247 @@
+{
+ "id": "lf21_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine someone hands you a simple form. On it are the five big personality traits we met earlier, and next to each one a question. Would you like to be more of this, less of this, or stay the same? Take a moment and answer it in your head. Would you like to be a little more organised? A bit calmer? More at ease in a room full of strangers?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 7,
+    "title": "Can you choose to change?"
+   }
+  },
+  {
+   "say": "If you'd tick at least one box, you're in good company. When psychologists ask people this question, most say they would like to change something. In a study published in 2014, Nathan Hudson and Brent Roberts found that the students they surveyed mostly wanted to become more extraverted, more conscientious and more emotionally stable. Hardly anyone wanted more worry in their life.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Most of us would tick a box",
+    "sub": "Wanting to change is normal"
+   }
+  },
+  {
+   "say": "But wanting to change and actually changing are two different things. Plenty of us want to be more organised and stay just as messy. So the real scientific question is this. If people set out on purpose to change a trait, does anything happen?",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The real question",
+    "sub": "Wishing versus doing"
+   }
+  },
+  {
+   "say": "In 2015, Nathan Hudson and Chris Fraley at the University of Illinois tested exactly that. They recruited college students, measured their personality, and asked which traits they wanted to change. Then they followed them for sixteen weeks, measuring their personality again and again along the way.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Hudson & Fraley",
+    "where": "Journal of Personality and Social Psychology, 2015",
+    "what": "Volitional personality trait change: can people choose to change their personality traits?"
+   }
+  },
+  {
+   "say": "On average, the traits moved in the direction people wanted. Students who wanted to become more extraverted tended to become a bit more extraverted over the semester. Those who wanted to be more emotionally stable tended to become a bit calmer. The changes were modest, but they were real enough to show up in the data.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "The finding",
+    "sub": "Goals moved the dials"
+   }
+  },
+  {
+   "say": "In one of their studies, some students were also coached to turn their goals into concrete plans, like, when I'm at a party, I'll introduce myself to one new person. Plans like these seemed to help the change along, at least for some traits. A vague wish is easy to forget. A specific plan gives the wish something to hold on to.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Plans helped",
+    "sub": "Turning a wish into steps"
+   }
+  },
+  {
+   "say": "That raised an obvious follow-up question. Was it the wanting that mattered, or the doing? A few years later, the same research line produced an answer, and it's a little sobering.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "n": 8,
+    "title": "You have to follow through"
+   }
+  },
+  {
+   "say": "In a study published in 2019, Nathan Hudson and his colleagues again followed students who wanted to change a trait. This time, each week, the students could choose small behavioural challenges linked to their goal. Someone who wanted to be more extraverted might pick, say hello to a cashier, or, ask a classmate a question after the lecture.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Hudson, Briley, Chopik & Derringer",
+    "where": "Journal of Personality and Social Psychology, 2019",
+    "what": "You have to follow through: attaining behavioral change goals predicts volitional personality change"
+   }
+  },
+  {
+   "say": "The students who actually completed more of their challenges showed more of the trait change they were hoping for. Simply wanting it wasn't enough. And there was a twist. Accepting challenges and then not completing them was linked with change in the opposite direction, as if failing at a goal you set yourself can quietly teach you the wrong lesson about who you are.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "What mattered",
+    "sub": "Doing, not choosing"
+   }
+  },
+  {
+   "say": "There's a gentle, practical lesson in that. If you want to change, it may be far better to choose a small challenge you'll actually finish than a heroic one you'll give up on. Each completed step is a little piece of evidence that you can be the person you're trying to become.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A gentle lesson",
+    "sub": "Small and doable beats big and abandoned"
+   }
+  },
+  {
+   "say": "Those were student studies, over a few months. What about change in the real world, for adults facing real difficulties? Here we can turn to another large review from Brent Roberts and his colleagues.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "n": 9,
+    "title": "Two hundred studies of change"
+   }
+  },
+  {
+   "say": "In 2017, they pulled together two hundred and seven studies in which people received some kind of intervention, mostly psychological therapy, and had their personality measured before and after. Most of the interventions were not designed to change personality at all. They were aimed at problems like anxiety or depression.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Roberts, Luo, Briley, Chow, Su & Hill",
+    "where": "Psychological Bulletin, 2017",
+    "what": "A systematic review of personality trait change through intervention"
+   }
+  },
+  {
+   "say": "And yet personality did change. On average, people became more emotionally stable, the trait most clearly affected, and also somewhat more extraverted. The interventions in these studies lasted about twenty-four weeks on average. And in the studies that checked in later, the changes did not simply vanish when the intervention ended.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Change did happen",
+    "sub": "Especially emotional stability"
+   }
+  },
+  {
+   "say": "As always, there are limits. Many of these people started out under a lot of strain, and feeling better can change how you answer a personality questionnaire. Few studies followed people for many years. But the overall message was hard to ignore. Traits that many people treat as fixed moved within months.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "title": "Holding it carefully",
+    "items": [
+     "Most studies involved people seeking help",
+     "Feeling less distressed can look like a personality change",
+     "Few studies followed people for years",
+     "Still, the traits were not frozen"
+    ]
+   }
+  },
+  {
+   "say": "Here's another idea that softens the picture of fixed traits. It turns out that people are much less consistent from moment to moment than our labels suggest.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "n": 10,
+    "title": "Acting out of character"
+   }
+  },
+  {
+   "say": "In 2001, the psychologist William Fleeson asked people to report how they were acting several times a day, for days on end. How talkative were you just now? How organised? How anxious? He found that the same person varied enormously from one moment to the next. Even people who described themselves as quiet spent plenty of moments being lively and outgoing.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Fleeson",
+    "where": "Journal of Personality and Social Psychology, 2001",
+    "what": "Toward a structure- and process-integrated view of personality: traits as density distributions of states"
+   }
+  },
+  {
+   "say": "In other words, a trait is less like a cage and more like an average. Being an introvert doesn't mean you never act outgoing. It means that, across many moments, your average sits towards the quieter end. And averages can shift, one moment at a time.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "A trait is an average",
+    "sub": "Not a cage"
+   }
+  },
+  {
+   "say": "The psychologist Brian Little has written about this as free traits. A naturally reserved person might act warmly outgoing when giving a talk about something they care about, or when welcoming a friend's family. Little also points out that acting against your nature for long stretches can be tiring, so it helps to have what he calls restorative niches, places and times where you can be your natural self again.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Free traits",
+    "sub": "Acting out of character for what you love"
+   }
+  },
+  {
+   "say": "And sometimes, it's not a goal that changes us, but an experience. Two studies make this point beautifully.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "n": 11,
+    "title": "When life changes you"
+   }
+  },
+  {
+   "say": "In 2013, Julia Zimmermann and Franz Neyer followed German university students. Some went abroad for a semester or a year, and some stayed home. The students who went abroad became more open to experience and more agreeable, and their neuroticism decreased, compared with those who stayed. Living somewhere new, it seems, nudged them in a direction they might not have chosen on a form.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Zimmermann & Neyer",
+    "where": "Journal of Personality and Social Psychology, 2013",
+    "what": "Do we become a different person when hitting the road? Personality development of sojourners"
+   }
+  },
+  {
+   "say": "It isn't magic, of course. Students who choose to study abroad may already differ from those who stay, and the researchers took that into account as best they could. But it fits a broader pattern. New roles and new environments ask new things of us, and in answering them, we slowly change.",
+   "show": {
+    "type": "photo",
+    "file": "lf21_b03_01.jpg",
+    "cap": "A new place, a new routine"
+   }
+  },
+  {
+   "say": "And this isn't just for the young. In 2012, Joshua Jackson and his colleagues gave older adults, many in their sixties and seventies, a sixteen-week programme of reasoning training and puzzles like crosswords and sudoku. Compared with a waiting group, those who took part showed an increase in openness to experience, the trait linked with curiosity and interest in new things.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Jackson, Hill, Payne, Roberts & Stine-Morrow",
+    "where": "Psychology and Aging, 2012",
+    "what": "Can an old dog learn and want to experience new tricks? Cognitive training increases openness to experience in older adults"
+   }
+  },
+  {
+   "say": "So people can change, through life, through effort and through experience. But all of this behaviour has to be stored somewhere. If you become calmer or braver, something in your brain must be different too. What exactly does that mean? And how much of the popular talk about rewiring your brain is true? That's where we'll go next.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Up next",
+    "sub": "The brain behind the change"
+   }
+  }
+ ]
+}

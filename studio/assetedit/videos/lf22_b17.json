@@ -1,0 +1,162 @@
+{
+ "id": "lf22_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now that you're home and warm, let's rest a while longer. Imagine lying down in a soft bed, beneath a window that looks out onto a clear night sky. The room is dark and quiet, and the blankets are heavy and warm around you. Outside, the stars are coming out, one by one.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 56,
+    "title": "Threads of light"
+   }
+  },
+  {
+   "say": "At first there are only a few. One bright star low over the rooftops. Then another, a little higher. Then a scattering of fainter ones, as your eyes grow used to the dark. Before long the whole sky is full of them, more than you could ever count.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Stars appearing",
+    "sub": "One, and then another"
+   }
+  },
+  {
+   "say": "People have always looked up at stars like these and drawn lines between them, joining them into shapes and stories. A hunter, a bear, a swan, a crown. Each star is far away from the others, separated by unimaginable distances. And yet, joined by lines that people have imagined together, they become something more than single points of light.",
+   "show": {
+    "type": "photo",
+    "file": "lf22_b17_01.jpg",
+    "cap": "A sky full of stars"
+   }
+  },
+  {
+   "say": "Perhaps we're a little like that. Each of us is our own small point of light, separate in our own lives, with our own thoughts and our own quiet rooms. And yet, joined by the threads of connection, a friendship here, a family there, a kind word to a stranger, we become part of something larger and more beautiful.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Like people",
+    "sub": "Points of light, joined"
+   }
+  },
+  {
+   "say": "Let yourself imagine your own constellation for a moment. Not as a task, just as a gentle picture. A few bright stars for the people closest to you. Fainter ones for friends you see less often, for neighbours and colleagues, for people you've only met once but remember warmly. All of them, together, making a shape that is uniquely yours.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Your constellation",
+    "sub": "The people who matter"
+   }
+  },
+  {
+   "say": "The brightest stars, closest to you. Fainter ones, a little further away. Lines of warmth running between them. And together, a shape that belongs to you alone. You don't need to count them, or name them. Just let the picture glow softly in the dark.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "Your constellation",
+    "items": [
+     "The brightest stars, closest to you",
+     "Fainter ones, a little further",
+     "Lines of warmth between them",
+     "A shape that is yours alone"
+    ]
+   }
+  },
+  {
+   "say": "Some of the lines may be faint tonight. Perhaps there's someone you've lost touch with, or someone you miss. That's alright. Faint lines are still lines. And new stars can appear in any sky, at any time, often when we least expect them.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Some lines are faint",
+    "sub": "That's alright"
+   }
+  },
+  {
+   "say": "The night is long and quiet and kind. While you rest, the stars keep their places above the rooftops. The people in your constellation are resting too, in their own rooms, under the same sky. You're all part of the same quiet night.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The night is long",
+    "sub": "And kind"
+   }
+  },
+  {
+   "say": "Let your breath slow down even more. In, gently, as if you were breathing in the cool night air. And out, slowly, letting the warmth of the room settle around you. Each breath a little softer, a little deeper, a little slower than the one before.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Breathing slowly",
+    "sub": "Each breath softer"
+   }
+  },
+  {
+   "say": "Let your shoulders go. Let your hands go. Let your jaw go. And let your thoughts go too, drifting up and out through the window, like small birds flying off towards the stars, getting smaller and smaller until they disappear.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Letting go",
+    "items": [
+     "Your shoulders",
+     "Your hands",
+     "Your jaw",
+     "Your thoughts"
+    ]
+   }
+  },
+  {
+   "say": "Your body is heavy now, sinking into the soft bed. Your arms are heavy. Your legs are heavy. Your head rests deep in the pillow. Everything is warm and still and safe. There's nothing at all that you need to do.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Heavy and warm",
+    "sub": "Sinking into rest"
+   }
+  },
+  {
+   "say": "Remember the comfortable silence we talked about. The kind you share with someone you trust, where nothing needs to be said. Let this moment be like that. A comfortable silence, between you and the night. Nothing to fill. Nothing to fix. Just being here.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Comfortable silence",
+    "sub": "Together, without words"
+   }
+  },
+  {
+   "say": "You may be at the edge of sleep now, that soft, blurry place where thoughts turn into pictures and pictures turn into dreams. If you are, let yourself slip gently over that edge whenever you're ready. The stars will keep watch. The night will hold you.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "The edge of sleep",
+    "sub": "Soft and blurry"
+   }
+  },
+  {
+   "say": "Warm. Heavy. Safe. Connected. Warm. Heavy. Safe. Connected. Let the words grow fainter and fainter, like a song heard from far away, until they're just a gentle hum at the edge of sleep.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "Softly",
+    "items": [
+     "Warm",
+     "Heavy",
+     "Safe",
+     "Connected"
+    ]
+   }
+  }
+ ],
+ "pause": 1.6
+}

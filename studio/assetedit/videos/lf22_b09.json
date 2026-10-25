@@ -1,0 +1,240 @@
+{
+ "id": "lf22_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "If someone asked you to describe your ideal partner, or even your ideal friend, you could probably come up with a list. Kind. Funny. Clever. Shares your interests. Maybe some particular look, or style, or background. Most of us feel fairly confident about our list. We've thought about it, after all.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 29,
+    "title": "Myth nine: you know exactly what you want"
+   }
+  },
+  {
+   "say": "But you may also have noticed something odd. The people you've actually been drawn to don't always match the list. Sometimes they're nothing like it. Researchers have studied this gap between what we say we want and who we actually connect with, and what they found is humbling.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The list",
+    "sub": "And real life"
+   }
+  },
+  {
+   "say": "In 2008, Paul Eastwick and Eli Finkel ran speed-dating events for university students. Before the events, the students rated how important various qualities were to them in a partner, things like physical attractiveness, being personable, or being ambitious. Then they had a series of four-minute dates, and afterwards rated how attracted they were to each person they'd met.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Eastwick & Finkel",
+    "where": "Journal of Personality and Social Psychology, 2008",
+    "what": "Sex differences in mate preferences revisited: do people know what they initially desire in a romantic partner?"
+   }
+  },
+  {
+   "say": "When the researchers compared the two, they found that people's stated preferences did a poor job of predicting who they were actually attracted to at the events. Someone who said looks mattered a great deal to them wasn't especially drawn to the best-looking dates, compared with someone who said looks didn't matter much. The lists people carried in their heads didn't seem to guide their real reactions.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The surprise",
+    "sub": "Stated preferences didn't predict much"
+   }
+  },
+  {
+   "say": "Why would that be? One explanation is that when we think about qualities in the abstract, we imagine them separately. But real people come as a whole package. A particular person's warmth, humour and way of looking at you all blend together into a single impression that no list can capture.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "Why the gap?",
+    "sub": "Abstract versus real"
+   }
+  },
+  {
+   "say": "If people can't predict their own attraction from their lists, perhaps a powerful computer could do better, using lots of information about both people. A study in 2017 put that to the test.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "n": 30,
+    "title": "Can a computer predict it?"
+   }
+  },
+  {
+   "say": "Samantha Joel, Paul Eastwick and Eli Finkel gathered more than a hundred measures from people before speed-dating events, including their personality traits, values, preferences and what they were looking for. Then they used machine learning, a kind of computer analysis that searches for patterns, to try to predict who would be attracted to whom.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Joel, Eastwick & Finkel",
+    "where": "Psychological Science, 2017",
+    "what": "Is romantic desire predictable? Machine learning applied to initial romantic attraction"
+   }
+  },
+  {
+   "say": "The computer could predict some general tendencies. It could tell, to some extent, which people would tend to feel attracted to many others, and which people tended to be found attractive by many others. Those are patterns about individuals.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "What it could do",
+    "sub": "General tendencies, yes"
+   }
+  },
+  {
+   "say": "But when it came to the unique part, why this particular person was drawn to that particular person, more than to others, the computer could hardly predict anything. With all those measures, the special spark between two specific people remained largely a mystery.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "What it couldn't",
+    "sub": "The unique spark between two people"
+   }
+  },
+  {
+   "say": "I find that rather wonderful. After all the studies, all the measures, all the computing power, there remains something about why two particular people click that can't be reduced to a list of traits. It emerges in the meeting itself, in the way two people interact, moment by moment.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A lovely mystery",
+    "sub": "Something that can't be listed"
+   }
+  },
+  {
+   "say": "Think about what a list of traits leaves out. The way someone listens. The timing of their laugh. How you feel about yourself when you're around them. What happens in the space between two people. None of that fits neatly on a form, and yet it may be most of what matters.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What a list can't capture",
+    "items": [
+     "The way someone listens",
+     "The timing of their laugh",
+     "How you feel around them",
+     "What happens between you"
+    ]
+   }
+  },
+  {
+   "say": "If our lists don't predict much, what does? One of the strongest ingredients turns out to be very simple. We tend to like people who like us.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 31,
+    "title": "Being liked"
+   }
+  },
+  {
+   "say": "In 1986, Rebecca Curtis and Kim Miller paired up students who didn't know each other, and let them chat briefly. Then the researchers told one person in each pair, falsely, that their partner either liked them or didn't like them. After that, the pairs talked again.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Curtis & Miller",
+    "where": "Journal of Personality and Social Psychology, 1986",
+    "what": "Believing another likes or dislikes you: behaviors making the beliefs come true"
+   }
+  },
+  {
+   "say": "The students who believed they were liked behaved more warmly in the second conversation. They disclosed more about themselves, disagreed less and had a more positive tone. And their partners responded in kind, ending up liking them more. The belief that they were liked, even though it was invented, became true.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "A self-fulfilling belief",
+    "sub": "Warmth returned"
+   }
+  },
+  {
+   "say": "That's a powerful lesson. If you walk into a conversation expecting the other person to like you, you'll probably be warmer and more open. And that warmth tends to come back to you. If you expect to be disliked, you may become guarded, and the other person may pick up on that and respond coolly. Our expectations can quietly write the story.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Expecting warmth",
+    "sub": "And getting it"
+   }
+  },
+  {
+   "say": "But there's an interesting twist to the rule that we like those who like us.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "n": 32,
+    "title": "Not all liking is equal"
+   }
+  },
+  {
+   "say": "In 2007, Paul Eastwick and his colleagues looked at speed-dating data again. They found that people were especially drawn to someone who liked them more than they liked the other people at the event. Being singled out felt special. But people who seemed to like everybody equally were not seen as especially desirable. Their interest didn't feel personal.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Eastwick, Finkel, Mochon & Ariely",
+    "where": "Psychological Science, 2007",
+    "what": "Selective versus unselective romantic desire: not all reciprocity is created equal"
+   }
+  },
+  {
+   "say": "In other words, it's not just being liked that draws us to someone. It's feeling uniquely liked. Feeling that someone sees something particular in us, rather than offering the same enthusiasm to everyone. That sense of being specially seen may be part of why some connections feel so intense.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "Feeling chosen",
+    "sub": "Unique interest"
+   }
+  },
+  {
+   "say": "Think of the people who have meant the most to you. Very often, they made you feel genuinely noticed, as yourself, not as a type. They remembered the small things you said. They laughed at your particular jokes. They seemed interested in you, specifically. That kind of attention is rare, and we feel it deeply.",
+   "show": {
+    "type": "photo",
+    "file": "lf22_b09_01.jpg",
+    "cap": "Being truly seen"
+   }
+  },
+  {
+   "say": "So, do we know exactly what we want? Not as well as we think. Our lists don't predict much. The spark between two particular people is hard to predict even for powerful computers. What matters more is how two people interact, the warmth they exchange, and the feeling of being seen as someone special.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What actually draws us to people",
+    "items": [
+     "Not the list we carry in our heads",
+     "The unique way two people interact",
+     "Feeling liked, which makes us warmer",
+     "Feeling uniquely seen, not generally liked"
+    ]
+   }
+  },
+  {
+   "say": "So it might be worth holding your list a little more loosely. The person who matters most to you might not fit it at all. And the best way to find out isn't to check boxes, but to spend time with people, and notice how you feel around them.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle suggestion",
+    "sub": "Hold your list loosely"
+   }
+  },
+  {
+   "say": "There's one more popular idea about connection that's everywhere right now. Attachment styles. Secure, anxious, avoidant. You may even know which one you think you are. But where did the idea come from, and is your style really fixed for life? Let's find out.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Up next",
+    "sub": "Attachment styles"
+   }
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "id": "lf22_b18",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's stay a little longer in the quiet. Imagine now a house at night, a house full of people you care about, all of them asleep. Not any particular house, unless you'd like it to be. Just a warm, quiet home, with soft carpets and creaking floorboards and the faint glow of a night light in the hallway.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 57,
+    "title": "A quiet house at night"
+   }
+  },
+  {
+   "say": "You're walking slowly along the hallway, in soft socks, making no sound at all. On either side there are doors, each one closed softly for the night. Behind each door, someone you love is sleeping peacefully, warm under their blankets, breathing slowly and evenly.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The hallway",
+    "sub": "Doors softly closed"
+   }
+  },
+  {
+   "say": "Listen to the house. The gentle tick of a clock somewhere downstairs. The soft hum of the fridge in the kitchen. The faint sound of wind around the chimney. And beneath it all, the quiet, steady breathing of people at rest. It's one of the most peaceful sounds there is.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Listening",
+    "sub": "The sounds of a sleeping house"
+   }
+  },
+  {
+   "say": "A clock ticking downstairs. The hum of the fridge. Wind around the chimney. Slow, steady breathing behind every door. Everyone safe. Everyone resting. Nothing that needs your attention tonight.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "The sounds of a sleeping house",
+    "items": [
+     "A clock ticking downstairs",
+     "The hum of the fridge",
+     "Wind around the chimney",
+     "Slow, steady breathing"
+    ]
+   }
+  },
+  {
+   "say": "There's a special kind of peace in knowing that the people you care about are safe and resting. You don't need to watch over them tonight. The house is holding them, just as it's holding you. Everyone is exactly where they should be.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Everyone is safe",
+    "sub": "You can rest too"
+   }
+  },
+  {
+   "say": "At the end of the hallway is your own room. The door is slightly open, and a soft light glows inside. You step in and close the door gently behind you. The bed is turned down, the pillows plumped, the blankets warm. Everything is ready for you.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Your own room",
+    "sub": "At the end of the hall"
+   }
+  },
+  {
+   "say": "You climb into bed and pull the blankets up around your shoulders. The sheets are cool at first, and then quickly warm. The pillow is soft and deep. The small lamp on the bedside table glows low and golden, and outside the window, the night is calm and still.",
+   "show": {
+    "type": "photo",
+    "file": "lf22_b18_01.jpg",
+    "cap": "A warm, quiet room"
+   }
+  },
+  {
+   "say": "When you're ready, imagine reaching over and switching off the lamp. The room goes dark, but it's a soft, friendly darkness. After a moment, your eyes adjust, and you can see the faint shapes of the room, gentle and familiar, and a little silver moonlight on the edge of the curtains.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Switching off the lamp",
+    "sub": "Darkness, soft and kind"
+   }
+  },
+  {
+   "say": "Let your breathing fall into rhythm with the house. Slow and steady, like everyone else sleeping behind those closed doors. In, gently. And out, slowly. As if the whole house were breathing together, one long, calm breath after another.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Breathing with the house",
+    "sub": "In rhythm"
+   }
+  },
+  {
+   "say": "In, slowly. Out, even more slowly. Like everyone else in the house. All resting together. You're part of this quiet rhythm now, one more slow breath among many.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Breathing together",
+    "items": [
+     "In, slowly",
+     "Out, even more slowly",
+     "Like everyone else in the house",
+     "All resting together"
+    ]
+   }
+  },
+  {
+   "say": "Any last thoughts from the day can be set down now, like shoes by the door. Whatever was said, whatever wasn't, whatever went well and whatever didn't, it can all wait outside the bedroom until morning. In here, there's only rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Letting go of the day",
+    "sub": "Nothing left to do"
+   }
+  },
+  {
+   "say": "There's something deeply connecting about sleeping under the same roof as people we care about, or even under the same sky as people far away. Even in sleep, we're not entirely alone. We're part of a great, quiet world of people resting, each of us held by the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Connected in sleep",
+    "sub": "Under the same roof"
+   }
+  },
+  {
+   "say": "Feel yourself sinking deeper into the bed now. Heavier. Warmer. Your arms are heavy. Your legs are heavy. Your eyelids are heavy. Your whole body is melting gently into the soft warmth of the blankets.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Sinking deeper",
+    "sub": "Heavier and warmer"
+   }
+  },
+  {
+   "say": "Heavy. Warm. Safe. Still. Let each word be like a soft step down a staircase, taking you a little further into sleep. Heavy. Warm. Safe. Still.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "Resting now",
+    "items": [
+     "Heavy",
+     "Warm",
+     "Safe",
+     "Still"
+    ]
+   }
+  },
+  {
+   "say": "The house is quiet. The clock ticks on. The wind has dropped. Everyone is sleeping. And you are drifting, slowly, gently, towards the deepest, softest rest of the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The quiet continues",
+    "sub": "Deep into the night"
+   }
+  }
+ ],
+ "pause": 1.6
+}

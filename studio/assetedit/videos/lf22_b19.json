@@ -1,0 +1,128 @@
+{
+ "id": "lf22_b19",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We're coming to the last few minutes of our evening together. There's nothing more to explore and nothing more to remember. Just a little more quiet, a few more slow breaths, and then the long, soft rest of the night. Stay exactly as you are.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 58,
+    "title": "The last few minutes"
+   }
+  },
+  {
+   "say": "Everything is slowing down. Your breath. Your heartbeat. Your thoughts. Even the world outside seems to be slowing, as if the whole town has agreed to rest at the same time. Lights going out in windows, one by one. Streets growing quiet. The night settling over everything like a soft blanket.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Everything is slowing",
+    "sub": "Breath, thoughts, the world"
+   }
+  },
+  {
+   "say": "If you like, let a small feeling of gratitude rise up before you sleep. Not a list, nothing you have to work at. Just a warm, wordless thank you to the people in your life. The ones who make you laugh. The ones who listen. The ones who smile at you in passing. The ones who have held your hand in hard moments.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle gratitude",
+    "sub": "For the people in your life"
+   }
+  },
+  {
+   "say": "To the ones who make you laugh. To the ones who listen. To the ones who smile in passing. To the ones who held your hand. Let the feeling glow softly for a moment, and then let it fade gently into the dark.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "A quiet thank you",
+    "items": [
+     "To the ones who make you laugh",
+     "To the ones who listen",
+     "To the ones who smile in passing",
+     "To the ones who held your hand"
+    ]
+   }
+  },
+  {
+   "say": "And perhaps, a small thank you to yourself as well. Because you're one of the bright points in other people's skies too. Someone, somewhere, is glad you exist. Someone remembers something kind you said. You're part of their constellation, just as they're part of yours.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "And to yourself",
+    "sub": "You are someone's star too"
+   }
+  },
+  {
+   "say": "Morning will come, in its own time, with its own light and its own small chances to connect. A smile, a question, a few words with someone new. But there's no need to think about any of that now. Morning can take care of itself. Tonight is only for rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Morning will come",
+    "sub": "No need to think of it yet"
+   }
+  },
+  {
+   "say": "Look a little longer. Ask one more question. Turn towards a small bid. Remember that you're probably liked more than you think. That's all. Nothing more is needed. And even those can wait until the morning light.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "For tomorrow, if you like",
+    "items": [
+     "Look a little longer",
+     "Ask one more question",
+     "Turn towards a small bid",
+     "Remember you are liked"
+    ]
+   }
+  },
+  {
+   "say": "Now let go completely. Let the last of your thoughts dissolve like sugar in warm tea. Let the voice fade gently into the background. Let the soft dark carry you down, slowly, gently, into deep and peaceful sleep. You're safe. You're warm. You're connected.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Letting go completely",
+    "sub": "Into the soft dark"
+   }
+  },
+  {
+   "say": "Outside, the stars keep their quiet watch over the rooftops. Inside, everyone is sleeping. And you are drifting now, further and further, into the calm and welcoming night, held by all the invisible threads that tie you to the people in your life.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Drifting",
+    "sub": "The stars keep watch"
+   }
+  },
+  {
+   "say": "Thank you for spending this evening with me. I hope you leave it feeling a little more connected, to the people in your life, and to yourself. Goodnight. Sleep well. And remember, you're probably liked more than you know.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Goodnight",
+    "sub": "Sleep well"
+   }
+  },
+  {
+   "say": "Next time, we'll explore a curious corner of the mind. Why telling people not to do something can make them want it more, what psychologists call reactance, and when reverse psychology really works. Until then, rest well.",
+   "show": {
+    "type": "end",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "next": "The Power of Reverse Psychology"
+   }
+  }
+ ],
+ "pause": 1.6
+}

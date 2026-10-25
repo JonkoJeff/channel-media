@@ -1,0 +1,254 @@
+{
+ "id": "lf22_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Maybe you've taken an online quiz. Or a friend has said, oh, you're so anxiously attached. Attachment styles have become one of the most popular ways of talking about relationships. Secure, anxious, avoidant. They can be a helpful language. But they're also often presented as fixed labels, stamped on us in childhood. Let's see where the idea came from, and what the research actually says.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "n": 33,
+    "title": "Myth ten: your attachment style is fixed for life"
+   }
+  },
+  {
+   "say": "The story begins in the middle of the twentieth century, with a question about babies. Why do infants become so attached to the people who care for them? At the time, many experts believed babies loved their mothers mainly because mothers fed them. A few researchers weren't so sure.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Where it started",
+    "sub": "A question about babies"
+   }
+  },
+  {
+   "say": "In 1958, the psychologist Harry Harlow described experiments with infant rhesus monkeys, raised with two artificial mothers. One was made of bare wire but provided milk. The other was covered in soft cloth but provided no food. The infant monkeys spent most of their time clinging to the soft cloth mother, going to the wire mother only to feed. When frightened, they ran to the cloth mother for comfort.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Harry Harlow",
+    "where": "American Psychologist, 1958",
+    "what": "The nature of love"
+   }
+  },
+  {
+   "say": "Harlow concluded that comfort and closeness mattered enormously, not just food. It's worth saying that these experiments caused the monkeys real distress, and they are now widely seen as ethically troubling. But they helped change how scientists thought about love and care.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Comfort, not just food",
+    "sub": "And an ethical shadow"
+   }
+  },
+  {
+   "say": "Around the same time, the British psychiatrist John Bowlby was developing what he called attachment theory. He argued that babies are born with a powerful drive to stay close to a caregiver, because, over human history, staying close meant staying safe. The quality of that early bond, he suggested, shapes how we think about closeness for years to come.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "John Bowlby",
+    "sub": "Attachment theory"
+   }
+  },
+  {
+   "say": "To study these bonds, Bowlby's colleague Mary Ainsworth designed a simple procedure that is still used today.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "n": 34,
+    "title": "The strange situation"
+   }
+  },
+  {
+   "say": "In what she called the Strange Situation, a one-year-old and their parent come into an unfamiliar playroom. Over about twenty minutes, a stranger enters, the parent leaves briefly and then comes back. Ainsworth paid particular attention to how the baby reacted when the parent returned.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Ainsworth, Blehar, Waters & Wall",
+    "where": "Patterns of Attachment, 1978",
+    "what": "Described infant attachment patterns using the Strange Situation procedure"
+   }
+  },
+  {
+   "say": "Most babies were upset when their parent left, and quickly comforted when they came back. Ainsworth called this secure attachment. Some babies showed little distress and seemed to avoid the parent on their return. She called this avoidant. Others were very distressed and hard to comfort, both seeking and resisting contact. She called this anxious or resistant. Later researchers added a fourth pattern, called disorganised.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Ainsworth's patterns",
+    "items": [
+     "Secure: upset when the parent leaves, comforted on return",
+     "Avoidant: little visible distress, avoids the parent on return",
+     "Anxious or resistant: very distressed, hard to comfort on return"
+    ]
+   }
+  },
+  {
+   "say": "For decades, attachment was mostly studied in children. Then two researchers wondered whether the same patterns might show up in adult romantic love.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 35,
+    "title": "A newspaper love quiz"
+   }
+  },
+  {
+   "say": "In 1987, Cindy Hazan and Phillip Shaver printed a love quiz in a local newspaper in the United States. Readers were asked to choose which of three short descriptions best captured how they felt in close relationships. One described being comfortable with closeness. One described discomfort with getting too close. One described worrying that partners didn't really love them.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Hazan & Shaver",
+    "where": "Journal of Personality and Social Psychology, 1987",
+    "what": "Romantic love conceptualized as an attachment process"
+   }
+  },
+  {
+   "say": "About fifty-six percent chose the secure description, around a quarter chose the avoidant one, and about a fifth chose the anxious one. Those proportions were roughly similar to what had been found in studies of infants. And the people's answers were linked to how they described their relationships and their memories of their parents.",
+   "show": {
+    "type": "bars",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "How readers described themselves",
+    "unit": "percent",
+    "bars": [
+     [
+      "Secure",
+      56.0
+     ],
+     [
+      "Avoidant",
+      25.0
+     ],
+     [
+      "Anxious",
+      19.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "It was a big idea. Perhaps romantic love is, in part, the adult version of the bond between a baby and caregiver. The same needs for comfort, safety and closeness, carried forward into the relationships we choose as adults. The study launched an enormous field of research.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "A big idea",
+    "sub": "Love as attachment"
+   }
+  },
+  {
+   "say": "So are we stuck with the pattern we formed as babies? This is where the popular version often goes further than the evidence.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 36,
+    "title": "Fixed for life?"
+   }
+  },
+  {
+   "say": "In 2002, Chris Fraley combined studies that had measured people's attachment more than once, sometimes from infancy into early adulthood. He found that attachment security was moderately stable. There was a real thread of continuity, but there was also plenty of room for change. Early experiences matter, but they don't lock in a destiny.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "R. Chris Fraley",
+    "where": "Personality and Social Psychology Review, 2002",
+    "what": "Attachment stability from infancy to adulthood: meta-analysis and dynamic modeling of developmental mechanisms"
+   }
+  },
+  {
+   "say": "Later work by Fraley and others also suggested that attachment is better described as dimensions than as boxes. Instead of being simply anxious or avoidant, each of us sits somewhere on two sliding scales. How much we worry about being abandoned, and how comfortable we are with closeness. Most people are a blend, not a pure type.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Not boxes",
+    "sub": "Dimensions, not types"
+   }
+  },
+  {
+   "say": "And here's something many people find freeing. Attachment can be different in different relationships. You might feel completely secure with a close friend, and anxious with a new partner. Researchers now often measure attachment relationship by relationship, because people really do vary.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Different with different people",
+    "sub": "Relationships matter"
+   }
+  },
+  {
+   "say": "Perhaps the most hopeful idea in this field has a lovely name. Earned security.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "n": 37,
+    "title": "Earned security"
+   }
+  },
+  {
+   "say": "Researchers have described adults who had difficult early relationships with their caregivers, and yet, as adults, show a secure way of relating to others. In a study published in 2002, Glenn Roisman and his colleagues looked at this group closely. Security, it seems, can be earned later in life, through supportive relationships, reflection and sometimes therapy.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Growing secure",
+    "sub": "Through later relationships"
+   }
+  },
+  {
+   "say": "Research on adult couples also suggests that a consistently responsive partner, one who is reliably there, can help an anxious or avoidant person gradually feel more secure. Like a boat that finds a calm harbour, people can learn, slowly, that closeness can be safe.",
+   "show": {
+    "type": "photo",
+    "file": "lf22_b10_01.jpg",
+    "cap": "A safe harbour"
+   }
+  },
+  {
+   "say": "So, is your attachment style fixed for life? No. Early bonds matter, and patterns can be fairly stable. But they're blends, not boxes. They can differ from one relationship to another. And security can grow, sometimes in surprising ways, through the people who show up for us.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Attachment, as the research sees it",
+    "items": [
+     "Early bonds matter",
+     "Styles are moderately stable, not fixed",
+     "They are blends on two dimensions",
+     "They can differ between relationships",
+     "Security can be earned later"
+    ]
+   }
+  },
+  {
+   "say": "If you've ever labelled yourself as anxious or avoidant, it might help to think of it less as a verdict and more as a description of what you've learned so far about closeness. And what we've learned can, gently and over time, be updated.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A kinder lens",
+    "sub": "Not a verdict"
+   }
+  },
+  {
+   "say": "Which leads us nicely to the next question. If closeness can grow, how exactly does it grow? Is there a way to speed it up? One famous study suggests that thirty-six questions might bring strangers surprisingly close in less than an hour.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Up next",
+    "sub": "How closeness is built"
+   }
+  }
+ ]
+}

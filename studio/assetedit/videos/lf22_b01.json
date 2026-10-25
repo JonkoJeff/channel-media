@@ -1,0 +1,228 @@
+{
+ "id": "lf22_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Welcome. Get comfortable, maybe pour yourself something warm, because tonight we're going to explore one of the quietest mysteries of being human. You meet someone, and within minutes it feels as if you've known them for years. The conversation flows. You laugh at the same moments. And you walk away thinking, what was that?",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "Settle in",
+    "sub": "When it just clicks"
+   }
+  },
+  {
+   "say": "And you've probably felt the opposite too. A perfectly nice person, a perfectly pleasant chat, and yet something never quite connects. No one did anything wrong. It just didn't click. We have lots of words for this. Chemistry. Vibes. Being on the same wavelength. But what is actually going on?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The other side",
+    "sub": "And sometimes, nothing"
+   }
+  },
+  {
+   "say": "We'll take popular beliefs about connection one at a time, and hold each one up against the research. Some will turn out to be myths. Some will turn out to be truer than you'd think. And all along the way, we'll try to understand why some connections feel so intense, even when hardly anything is said.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Is chemistry just magic?",
+     "Love at first sight",
+     "Do opposites attract?",
+     "Brains on the same wavelength",
+     "Why we copy each other",
+     "The power of a look",
+     "When intensity misleads us",
+     "Love hormones and pheromones",
+     "Knowing what you want",
+     "Attachment styles",
+     "How closeness is built",
+     "The liking gap",
+     "Why connection matters so much",
+     "Do introverts need connection?"
+    ]
+   }
+  },
+  {
+   "say": "As always, every claim tonight comes from named studies, with the doubts left in. Some of the most famous findings in this area have had trouble replicating, and I'll tell you when that's the case. Near the end, the pace will slow down into a gentle wind-down, so if you drift off, that's perfectly alright.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "A promise",
+    "sub": "Studies, not slogans"
+   }
+  },
+  {
+   "say": "Let's start with the biggest belief of all. The idea that chemistry between people is a kind of magic. Something mysterious and unexplainable that either happens or doesn't, and that science could never hope to measure.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 1,
+    "title": "Myth one: chemistry is pure magic"
+   }
+  },
+  {
+   "say": "There's something lovely about that belief, and it isn't entirely wrong. Connection is complicated, and no study can capture everything about why two particular people light up around each other. But some of the ingredients of chemistry turn out to be surprisingly measurable. And one of them is timing.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Part of it is true",
+    "sub": "And part of it can be measured"
+   }
+  },
+  {
+   "say": "Think about the best conversations you've had. You probably weren't aware of it at the time, but your bodies were likely doing something remarkable. Nodding at the same moments. Shifting in your seats together. Laughing in sync. Psychologists call this interpersonal synchrony, and they've found ways to create it in the lab.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Moving together",
+    "sub": "The rhythm of a good conversation"
+   }
+  },
+  {
+   "say": "In 2009, Michael Hove and Jane Risen asked people to tap their fingers in time with a visual signal while an experimenter sat beside them, also tapping. For some participants, the experimenter tapped in perfect time with them. For others, the experimenter tapped out of sync.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Hove & Risen",
+    "where": "Social Cognition, 2009",
+    "what": "It's all in the timing: interpersonal synchrony increases affiliation"
+   }
+  },
+  {
+   "say": "Afterwards, people rated how much they liked the experimenter. Those who had tapped in sync liked the experimenter more than those who had tapped out of sync. It's a tiny thing, tapping a finger. And yet moving in time with someone seemed to create a small feeling of connection.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "The finding",
+    "sub": "In sync, more liking"
+   }
+  },
+  {
+   "say": "That same year, Scott Wiltermuth and Chip Heath had groups of people walk around a university campus, either in step with each other or walking normally. In other studies, groups sang or moved along to music together, either in sync or out of sync. Afterwards, the groups played a cooperative game.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Wiltermuth & Heath",
+    "where": "Psychological Science, 2009",
+    "what": "Synchrony and cooperation"
+   }
+  },
+  {
+   "say": "The groups that had moved or sung in synchrony tended to cooperate more in the game afterwards. They also reported feeling more like a team. The researchers suggested that this might be one reason so many human cultures share rituals like marching, dancing and singing together. Moving as one seems to help people feel as one.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Together",
+    "sub": "Synchrony and cooperation"
+   }
+  },
+  {
+   "say": "It makes sense when you think about it. Long before we had words, moving together may have been one of the main ways humans signalled, we're on the same side. A choir, a dance, a crowd clapping in rhythm. That feeling of being swept up together isn't imagined. It's one of the oldest kinds of connection we have.",
+   "show": {
+    "type": "photo",
+    "file": "lf22_b01_01.jpg",
+    "cap": "Moving to the same rhythm"
+   }
+  },
+  {
+   "say": "So is chemistry magic? Not exactly. Part of what we call chemistry may be our bodies and minds falling into rhythm with someone else. But that doesn't make it less wonderful. If anything, it's rather beautiful that a sense of closeness can grow from something as simple as moving to the same beat.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Not quite magic",
+    "sub": "But not quite simple either"
+   }
+  },
+  {
+   "say": "Timing shows up in conversation too. In a study published in 2022 in the journal PNAS, Emma Templeton, Thalia Wheatley and their colleagues recorded conversations between strangers and between friends. They measured something most of us never notice. How long it takes for one person to reply after the other stops talking.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "The flow of talk",
+    "sub": "Timing in conversation"
+   }
+  },
+  {
+   "say": "They found that faster response times went along with feeling more connected. When people later watched recordings of the conversations, they also judged pairs with quicker replies as more connected. The gaps were measured in fractions of a second, far too small to notice consciously. And yet they seemed to carry meaning.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Templeton, Chang, Reynolds, Cone LeBaron & Wheatley",
+    "where": "PNAS, 2022",
+    "what": "Fast response times signal social connection in conversation"
+   }
+  },
+  {
+   "say": "When a conversation really flows, it can feel as if the words leap across the gap without either person having to wait. That fits with what this study found. Part of what we call clicking may simply be two people meeting each other's timing, again and again, in tiny moments that add up.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Words leaping across",
+    "sub": "Not waiting, but meeting"
+   }
+  },
+  {
+   "say": "You might wonder, could you just reply faster and create a connection? It probably doesn't work like that. Quick replies are likely a sign of connection more than a cause of it. When we feel engaged and comfortable, we're paying close attention, and our replies come quickly and naturally. Forcing it would probably feel strange to both people.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Can you fake it?",
+    "items": [
+     "Quick replies are mostly a sign, not a cause",
+     "Engagement makes replies come naturally",
+     "Forcing it would feel strange"
+    ]
+   }
+  },
+  {
+   "say": "Perhaps this is also why some old friendships feel so easy, even after years apart. You meet again, and within minutes you've fallen back into the old rhythm. The same jokes, the same pace, the same easy back and forth. It's as if the timing between you was never lost, only paused, waiting for you both to pick it up again.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Rhythm with old friends",
+    "sub": "Picking up where you left off"
+   }
+  },
+  {
+   "say": "But it's still something lovely to notice. The next time you're in a conversation that feels easy, pay a little attention to the rhythm. The laughter that arrives at the same moment. The way you start nodding together. You're watching connection happen, in real time.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Something to notice",
+    "sub": "The rhythm between you"
+   }
+  },
+  {
+   "say": "So chemistry isn't magic, but it isn't nothing either. Now let's turn to a belief that's even more romantic. The idea that you can know, in a single glance, that someone is meant for you. Love at first sight. Is it real? And what's happening in those first few seconds when we meet someone new?",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Up next",
+    "sub": "Love at first sight"
+   }
+  }
+ ]
+}

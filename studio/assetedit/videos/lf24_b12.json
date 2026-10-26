@@ -1,0 +1,209 @@
+{
+ "id": "lf24_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think of the last time you were somewhere beautiful, a concert, a view, a meal with friends. Did you take a photo? Most of us did. The photo feels like a gift to our future selves, a way to keep the moment. But a group of psychologists asked a question that sounds paradoxical: could taking the photo make you remember less of the thing it was meant to preserve?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 40,
+    "title": "The memory of a photo"
+   }
+  },
+  {
+   "say": "The thought is that when we take a photo, we hand over part of the job of remembering to the camera. Our minds treat the picture as a reminder, and so they may encode the experience less deeply. The idea has a name, the photo-taking impairment effect, and it comes from an experiment at a museum.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The idea",
+    "sub": "Outsourcing the memory"
+   }
+  },
+  {
+   "say": "Linda Henkel at Fairfield University took participants on a tour of a university's art museum. They were asked to look at certain objects, and for some objects they were asked to take a photo, while for others they only observed. The next day, they were tested on what they remembered. People remembered fewer of the objects that they had photographed, and fewer details about them, than the objects they had only looked at.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Henkel",
+    "where": "Psychological Science, 2014",
+    "what": "Point-and-shoot memories: the influence of taking photos on memory for a museum tour"
+   }
+  },
+  {
+   "say": "The proposed reason is that taking a photo means thinking about the camera, the framing and the settings, rather than the thing in front of you. And by trusting that the camera will hold the memory, you may relax the effort of paying attention. Both reduce how deeply the experience is stored.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A simple explanation",
+    "sub": "Attention goes to the camera"
+   }
+  },
+  {
+   "say": "Later work, though, found a more subtle story. Not every photo harms memory. In some cases, photos help, and the effect depends on how the photo is taken. A team at the University of California, Santa Cruz, led by Alixandra Barasch, tested the idea that taking a photo can focus our attention on what we find enjoyable.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 41,
+    "title": "A more hopeful picture"
+   }
+  },
+  {
+   "say": "Across several experiments, people who took photos during an experience, such as a bus tour, tended to remember the visual details better than those who didn't, even if they remembered a little less of what they'd heard. They also enjoyed the experiences more, as taking pictures focused them on what they were seeing. The effect seemed strongest when people chose what to photograph themselves.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Barasch, Diehl, Silverman & Zauberman",
+    "where": "Psychological Science, 2017",
+    "what": "Photographic memory: the effects of volitional photo taking on memory for visual and auditory aspects of an experience"
+   }
+  },
+  {
+   "say": "The upshot is that photos aren't enemies of memory. They are a tool. It matters whether you're using the camera to look more closely, or to avoid looking at all. A moment of real attention first, and then the photo, may give the best of both.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "The photo and memory picture",
+    "items": [
+     "Taking a photo can reduce memory for details",
+     "It can also improve memory for what you saw",
+     "Choosing your own shot seems to help",
+     "Looking at photos later can strengthen memory"
+    ]
+   }
+  },
+  {
+   "say": "The camera is one way we hand over memory. The search engine is another. If you can look up almost anything in seconds, do you bother to remember it? In 2011, Betsy Sparrow, Jenny Liu and Daniel Wegner published a study that gave this question a name: the Google effect.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 42,
+    "title": "When the answer is one search away"
+   }
+  },
+  {
+   "say": "In one experiment, people typed trivia statements into a computer, and were told either that the computer would save them or that it would erase them. Those who believed that the information was saved remembered less of it. In other experiments, when people expected to have future access to information, they remembered where to find it better than they remembered the information itself.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Sparrow, Liu & Wegner",
+    "where": "Science, 2011",
+    "what": "Google effects on memory: cognitive consequences of having information at our fingertips"
+   }
+  },
+  {
+   "say": "Sparrow and her colleagues suggested that the internet has become a form of transactive memory, a concept from Daniel Wegner's earlier work. Couples, for instance, often divide up what to remember: you remember the birthdays and I remember the bills. We rely on partners and tools to hold information, and remember where it is. In that sense, the internet is another partner.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The interpretation",
+    "sub": "A shared memory system"
+   }
+  },
+  {
+   "say": "As with other findings in this video, this one has been questioned. In 2018, a large project in the Many Labs series tried to repeat several famous experiments, and found that an effect linked to the priming in the original study didn't replicate. The broad idea, that we remember where to find things when we expect to have access, remains plausible and has support, but the specific effects are smaller and less certain than first reported.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A fair caution",
+    "sub": "Replication is mixed"
+   }
+  },
+  {
+   "say": "There's an old version of this worry. Socrates, in Plato's Phaedrus, warned that writing would weaken memory, because people would rely on marks on a page. He was partly right, and entirely outweighed. Writing may have changed memory, but it also made possible nearly everything else we know.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Memory in the age of search",
+    "items": [
+     "We remember where to look, as well as what",
+     "We may learn less when we expect to look it up",
+     "Using tools frees capacity for other things",
+     "The size of these effects is still debated"
+    ]
+   }
+  },
+  {
+   "say": "A camera, a map and a notebook: three different ways of keeping the world outside the head. The research suggests that each has costs and benefits, and that the best use is the one in which the tool supports attention, not replaces it.",
+   "show": {
+    "type": "photo",
+    "file": "lf24_b12_01.jpg",
+    "cap": "A camera, a map and a notebook"
+   }
+  },
+  {
+   "say": "If you'd like your photos to help your memory, a few small habits can do it. Look first, for half a minute, and notice the details, the sounds and the feeling. Then take the photo, choosing what to capture yourself. Later, look at it with someone and talk about the moment. Research on memory shows that retelling a memory strengthens it, and that sharing it makes it richer. The photo then becomes a doorway back into the memory, and not a replacement for it.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Remembering on purpose",
+    "items": [
+     "Look at something for thirty seconds before you photograph it",
+     "Say one detail aloud",
+     "Write a line about the moment that night",
+     "Look at old photos with someone and talk about them"
+    ]
+   }
+  },
+  {
+   "say": "Four terms about memory. Photo-taking impairment is remembering less of what you photographed. Transactive memory is sharing the work of remembering with other people or tools. Encoding is the process of storing an experience. And a retrieval cue is anything that helps bring a memory back, such as a photo.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Photo-taking impairment",
+     "Transactive memory",
+     "Encoding",
+     "Retrieval cue"
+    ]
+   }
+  },
+  {
+   "say": "At the next beautiful moment, you might try a small experiment. Look for half a minute without lifting your phone, and notice what you see. Then take your photo, if you still want it. The studies suggest that a bit of real attention before the picture can make the memory better and the photo more meaningful.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Look first, then capture"
+   }
+  },
+  {
+   "say": "So what did we learn? That taking a photo can reduce memory for the details of what you photographed. That choosing your own shots can improve visual memory and enjoyment. That expecting to look things up changes what we store. And that tools can extend memory, if we keep paying attention.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What memory taught us"
+   }
+  },
+  {
+   "say": "In the next chapter, we turn to the hours when the feed is most tempting. What does the phone do to our sleep? And what is the fear of missing out, really?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "The night-time phone"
+   }
+  }
+ ]
+}

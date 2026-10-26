@@ -1,0 +1,242 @@
+{
+ "id": "lf24_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Can a feeling spread from one person to another without them ever speaking? Psychologists call it emotional contagion, and in a room full of people, it's easy to see. A yawn goes round a table. A laugh spreads along a row. One angry person can change the atmosphere of a whole meeting. The question that fascinated researchers was whether it also works through a screen.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "n": 32,
+    "title": "Mood is catching"
+   }
+  },
+  {
+   "say": "In person, emotional contagion often works through small, automatic imitation. We mirror facial expressions, tone of voice and posture, usually without noticing, and the mimicry nudges our own feelings towards the other person's. It's one of the ways that people grow close. It also explains why spending time with a gloomy friend can leave you gloomy.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The old finding",
+    "sub": "We mirror each other"
+   }
+  },
+  {
+   "say": "Elaine Hatfield and her colleagues proposed that people automatically mimic and synchronise their expressions with those of others, and then catch the associated emotions. The idea has been tested in many forms. It suggests that feelings are, in part, a shared social process, and not entirely private events inside one head.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Hatfield, Cacioppo & Rapson",
+    "where": "Current Directions in Psychological Science, 1993",
+    "what": "Emotional contagion"
+   }
+  },
+  {
+   "say": "On a screen, we don't see faces, hear tones or share rooms. Words, emoji and images have to do the work. So does the effect survive? A team at Facebook and Cornell University decided to test it, in an experiment that became one of the most discussed, and criticised, in the history of social media research.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The online question",
+    "sub": "Does it work without faces?"
+   }
+  },
+  {
+   "say": "In January 2012, for one week, researchers at Facebook and Cornell changed the news feeds of about six hundred and eighty-nine thousand people. For some, they reduced the number of posts with positive words that appeared. For others, they reduced posts with negative words. The users didn't know it was happening, and then the researchers measured what the users themselves posted afterwards.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 33,
+    "title": "The Facebook experiment"
+   }
+  },
+  {
+   "say": "Adam Kramer, Jamie Guillory and Jeffrey Hancock reported that when people saw fewer positive posts, they went on to write slightly fewer positive words and slightly more negative words. When they saw fewer negative posts, the opposite pattern appeared. They concluded that emotional states can be transferred, even without direct interaction or non-verbal cues.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Kramer, Guillory & Hancock",
+    "where": "Proceedings of the National Academy of Sciences, 2014",
+    "what": "Experimental evidence of massive-scale emotional contagion through social networks"
+   }
+  },
+  {
+   "say": "The sample was huge, but the effects were tiny. Changes in the words people used were a fraction of a percent. The authors acknowledged that the effect was small, though they argued that across a population as large as Facebook's, small effects could add up. Critics countered that the effects were so small that they had little meaning for any individual.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Facebook users in the experiment",
+    "big": "689,003",
+    "label": "whose news feeds were quietly adjusted for one week in January 2012"
+   }
+  },
+  {
+   "say": "That last point turned out to matter most. When the study was published, it caused public anger. Many people felt that being the subjects of an experiment on their mood, without being asked, was a serious breach of trust. The journal published an expression of concern, and the debate over research ethics in the online world has continued ever since.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The strengths and the doubts",
+    "items": [
+     "A very large randomised experiment",
+     "A real, measurable shift in word choice",
+     "Effects extremely small",
+     "Word counts are not the same as feelings",
+     "The users had not been asked for consent"
+    ]
+   }
+  },
+  {
+   "say": "The episode changed how companies and universities approach this kind of work. It raised questions that still don't have settled answers. Is agreeing to terms of service real consent? Should a platform be allowed to test emotional effects on users? And who decides what is acceptable? Those questions lead directly to the wider issue of how much we should know about what feeds do to us.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 34,
+    "title": "The ethical lesson"
+   }
+  },
+  {
+   "say": "So the study is both a finding and a warning. As a finding, it suggests that the mood of our feeds leaks into our own words, though only by a very small amount. As a warning, it shows that the people who run these systems can, and do, adjust what we see, and that our ability to know when they do so is limited.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "A fair view",
+    "sub": "Both a result and a warning"
+   }
+  },
+  {
+   "say": "We'll end this chapter on a more positive note, with a classic idea about how information moves through people. In 1973, a sociologist named Mark Granovetter published a paper with a title that sounds like a joke: The Strength of Weak Ties. Its argument was surprising, and it has become one of the most cited papers in social science.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 35,
+    "title": "The strength of weak ties"
+   }
+  },
+  {
+   "say": "Granovetter studied how people in Boston found their jobs. He expected to hear that friends and family had helped. Instead, many people said that they found out about the job from an acquaintance, someone they saw only occasionally. His explanation was that our close friends tend to know the same people and things that we do, while acquaintances connect us to different circles and new information.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Granovetter",
+    "where": "American Journal of Sociology, 1973",
+    "what": "The strength of weak ties"
+   }
+  },
+  {
+   "say": "This is probably the single greatest benefit of online networks, and it's easy to overlook in the debate about harms. Feeds make it cheap to stay loosely in touch with hundreds of people, and every so often one of those loose connections leads to a job, an idea, a friend or help.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Strong and weak ties",
+    "items": [
+     "Strong ties: close friends and family, who give support",
+     "Weak ties: acquaintances, who give new information",
+     "Both matter",
+     "Social media is very good at maintaining weak ties"
+    ]
+   }
+  },
+  {
+   "say": "At the same time, there's a limit to how many relationships a person can really keep up. The anthropologist Robin Dunbar has argued that humans can maintain about one hundred and fifty meaningful relationships, in layers of close circles of roughly five, fifteen, fifty and one hundred and fifty. The figure is debated, but the idea of layers is widely accepted.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A limit worth knowing",
+    "sub": "Dunbar's number"
+   }
+  },
+  {
+   "say": "Dunbar noticed that, among primates, the size of the neocortex relates to the size of the social group. Extrapolating to humans, he estimated a typical group size of around one hundred and fifty. Several later studies of online networks found that even on social media, people's active circles remain much smaller than their friend lists suggest, with a few close contacts doing most of the work.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Dunbar",
+    "where": "Journal of Human Evolution, 1992",
+    "what": "Neocortex size as a constraint on group size in primates"
+   }
+  },
+  {
+   "say": "Ripples spreading from a single pebble. It's a good picture of emotional contagion and of weak ties alike: a small change at the centre, moving outwards through people you may never meet, getting fainter with every ring.",
+   "show": {
+    "type": "photo",
+    "file": "lf24_b10_01.jpg",
+    "cap": "Ripples on water"
+   }
+  },
+  {
+   "say": "Four terms from this chapter. Emotional contagion is the spread of feelings between people. Weak ties are loose acquaintances that carry new information. Dunbar's number is the proposed limit on close relationships. And informed consent is the ethical principle that research subjects should know and agree.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Emotional contagion",
+     "Weak ties",
+     "Dunbar's number",
+     "Informed consent"
+    ]
+   }
+  },
+  {
+   "say": "Since moods spread a little, it makes sense to tend your feed like a garden. You can't choose every post, but you can choose the soil. Muting an account that leaves you drained is not unkind, and following a few people who share good things, and ideas worth thinking about, is a small act of self-care. It also helps to be a good source for others. A thoughtful message to someone who seems low costs almost nothing, and the ripple, as we saw in the contagion work, can travel farther than you imagine.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Tending your own feed",
+    "items": [
+     "Mute accounts that make every day feel worse",
+     "Follow a few people who share good news",
+     "Notice which posts change your mood",
+     "Say a real word to someone who seems low"
+    ]
+   }
+  },
+  {
+   "say": "Since moods are a little catching, it makes sense to ask what your feed is feeding you. You can't control everything that appears, but you can choose who to follow, mute or leave. A small, kind change to the people in your feed is one of the most direct forms of self-care that the science supports.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Feed what feeds you"
+   }
+  },
+  {
+   "say": "So what did we learn? That emotions can spread between people, even through text. That a massive Facebook experiment found real but tiny effects, and raised serious ethical questions. That weak ties carry new opportunities. And that our real circle of closeness is small, whatever the friend count.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What contagion taught us"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll ask whether social media traps us in bubbles. And we'll see what happened when Twitter users were paid to follow accounts from the other political side.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Bubbles and echoes"
+   }
+  }
+ ]
+}

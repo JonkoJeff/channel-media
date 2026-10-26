@@ -1,0 +1,256 @@
+{
+ "id": "lf24_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In the 1950s, in a laboratory at Harvard, the psychologist B. F. Skinner was studying how animals learn from rewards. He built a small chamber, now known as the Skinner box, with a lever or a disc that an animal could press or peck, and a mechanism that delivered a pellet of food. The idea was simple: change the rules for when the reward arrives, and see what happens to behaviour.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 3,
+    "title": "The pull to refresh"
+   }
+  },
+  {
+   "say": "Skinner and his colleague Charles Ferster tested many schedules. On a fixed schedule, a pigeon got a reward after every tenth peck, say, or after every minute. On a variable schedule, the reward came after an unpredictable number of pecks, sometimes one, sometimes thirty. The animals' behaviour under each rule was strikingly different.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The experiment",
+    "sub": "Different schedules"
+   }
+  },
+  {
+   "say": "Their book, Schedules of Reinforcement, described many thousands of hours of experiments. The pattern that stood out was this. When rewards came unpredictably, after a varying number of responses, animals kept responding at a high, steady rate, and kept going for a long time even after the rewards stopped. The behaviour was unusually resistant to extinction.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Ferster & Skinner",
+    "where": "Schedules of Reinforcement, 1957",
+    "what": "A systematic study of how the timing and unpredictability of rewards shape behaviour"
+   }
+  },
+  {
+   "say": "Why would unpredictability work so well? One explanation is that when you can't know which action will pay off, every action might be the one. There's never a clear moment to conclude that it's over. A pigeon that gets food every ten pecks learns the rhythm, and stops when the rhythm breaks. A pigeon on a variable schedule has no rhythm to break.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The key idea",
+    "sub": "Unpredictability sustains behaviour"
+   }
+  },
+  {
+   "say": "It's the variable kind that matters for the rest of this chapter. And, as we'll see, a great deal of everyday life runs on it, from fishing to email.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Two kinds of schedules",
+    "items": [
+     "Fixed: a reward after a set number or time",
+     "Variable: a reward after an unpredictable number or time",
+     "Fixed schedules produce pauses after each reward",
+     "Variable schedules produce steady, persistent responding"
+    ]
+   }
+  },
+  {
+   "say": "Now think about what happens when you open a feed. You scroll, and most of what you see is mildly interesting at best. Then, every so often, something good appears: a funny post, a message from a friend, a notification that someone responded to you. You don't know when it will come. That's a variable schedule, running on a screen.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 4,
+    "title": "The machine in your pocket"
+   }
+  },
+  {
+   "say": "The pull-to-refresh gesture makes the comparison almost literal. You drag the screen down, it spins, and new content may or may not appear. It resembles a lever on a slot machine, where each pull might pay out. The comparison is more than a figure of speech, and researchers of gambling have explored it.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The pull to refresh",
+    "sub": "A familiar gesture"
+   }
+  },
+  {
+   "say": "The anthropologist Natasha Dow Schüll spent about fifteen years studying machine gamblers and the engineers who design slot machines. She found that the machines are built to produce a state that players call the zone, a trance of repetitive play, in which the goal is not winning but continuing. Many players described wanting to keep playing simply to stay in that state.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Schüll",
+    "where": "Addiction by Design, 2012",
+    "what": "Machine gambling in Las Vegas, and the design of machines that keep people playing"
+   }
+  },
+  {
+   "say": "Researchers are careful here, and so should we be. A feed is not a casino. People don't lose their savings on a timeline, and the word addiction, in the clinical sense, is contested when it comes to social media use. Most psychologists would say that some features of feeds share a mechanism with gambling, without claiming that the two are the same thing.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A careful comparison",
+    "sub": "Similar, not identical"
+   }
+  },
+  {
+   "say": "These shared features are why the comparison is made. And the point is not that every user is hooked, but that a system with these features pulls on a well-understood part of human learning.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What feeds and slot machines share",
+    "items": [
+     "Unpredictable rewards",
+     "Rapid repetition",
+     "No natural end",
+     "A sense of near misses and almost",
+     "Little effort needed to continue"
+    ]
+   }
+  },
+  {
+   "say": "There is also a reason that unpredictable rewards feel so compelling in the brain. In the 1990s, Wolfram Schultz and his colleagues recorded from individual neurons in monkeys that were being rewarded with drops of juice. They were interested in dopamine, the chemical messenger that is often, and wrongly, called the pleasure molecule.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 5,
+    "title": "What does a surprise do?"
+   }
+  },
+  {
+   "say": "What they found was that dopamine neurons fired most strongly not when a reward arrived, but when it was better than expected. A fully predicted reward produced little response. A surprising reward produced a burst. And when an expected reward failed to arrive, the neurons dipped below their usual rate. In other words, dopamine seems to signal a mismatch between what was expected and what happened.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Schultz, Dayan & Montague",
+    "where": "Science, 1997",
+    "what": "A neural substrate of prediction and reward"
+   }
+  },
+  {
+   "say": "This is an important correction to a popular myth. Dopamine isn't simply the chemical of pleasure. It's closer to a learning and motivation signal, pointing at what is worth wanting, and updating our predictions. Kent Berridge, a neuroscientist at the University of Michigan, has argued for many years that wanting and liking are separate systems, and that one can grow strong while the other doesn't.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "What this means",
+    "sub": "Dopamine is about prediction"
+   }
+  },
+  {
+   "say": "This helps to explain the strange feeling from the start of the evening. Scrolling can be something we want, in the sense of a strong pull, without being something that we especially like. You can feel the tug without feeling the joy.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Wanting and liking",
+    "items": [
+     "Wanting: the pull towards something",
+     "Liking: the enjoyment once you have it",
+     "The two can come apart",
+     "A pull can be strong when the pleasure is small"
+    ]
+   }
+  },
+  {
+   "say": "It follows that some popular advice is misleading. Claims that you can detox your dopamine by avoiding screens for a day don't match the science. Dopamine isn't a toxin that builds up, and you can't flush it out. Taking breaks from your phone can help for other reasons, such as freeing up attention and time, but the language of detox oversells it.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A word of caution",
+    "sub": "Dopamine detox is a myth"
+   }
+  },
+  {
+   "say": "Berridge and Terry Robinson reviewed years of work and proposed that dopamine is most closely linked to incentive salience, the sense that something stands out and is worth pursuing. They argued that this wanting is not the same as pleasure, and that the systems can be separated experimentally. It remains one of the most influential ideas in the field, though researchers still debate the details.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Berridge & Robinson",
+    "where": "Brain Research Reviews, 1998",
+    "what": "What is the role of dopamine in reward: hedonic impact, reward learning, or incentive salience?"
+   }
+  },
+  {
+   "say": "An old lever and a modern screen on the same table. The shapes are very different, but the question they raise is the same: what happens to behaviour when rewards come unpredictably, and nothing says when to stop?",
+   "show": {
+    "type": "photo",
+    "file": "lf24_b02_01.jpg",
+    "cap": "A lever and a screen"
+   }
+  },
+  {
+   "say": "Here is a gentle way to use this chapter. When you feel the urge to refresh, imagine it as a small signal from a prediction system, asking whether something new has arrived. You don't need to obey it, and you don't need to fight it. You can simply notice it, the way you might notice a sound in another room. Studies of mindfulness and urge surfing suggest that cravings rise and fall like waves, and that most pass within a few minutes if they aren't fed. It's a modest skill, but it can be practised, and it makes the pull a little less automatic.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Three ways to use what you just heard",
+    "items": [
+     "Notice when a feed has no natural end",
+     "Ask whether you want the next item or only expect it",
+     "Choose one app and add a step before opening it",
+     "Treat the urge as information, not as an order"
+    ]
+   }
+  },
+  {
+   "say": "Four terms from this chapter. A variable reward arrives after an unpredictable number of actions. A Skinner box is the chamber in which animals learned from rewards. Incentive salience is the sense that something stands out and is worth wanting. And a prediction error is the gap between what we expected and what happened, which dopamine seems to track.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Variable reward",
+     "Skinner box",
+     "Incentive salience",
+     "Prediction error"
+    ]
+   }
+  },
+  {
+   "say": "Knowing how the pull works doesn't make it disappear, but it changes your relationship with it. When you feel the urge to refresh, you can notice it for what it is: a prediction signal, looking for a surprise. That small step back, from I need to check to I'm feeling the urge to check, is a genuine skill, and it can be practised.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Seeing the mechanism helps"
+   }
+  },
+  {
+   "say": "So what did we learn? That unpredictable rewards produce persistent behaviour. That feeds share features with slot machines, though they aren't the same thing. That dopamine signals surprise and wanting, not simply pleasure. And that detox claims oversell a real but more modest story.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the pigeons taught us"
+   }
+  },
+  {
+   "say": "Next, we'll look at the little number under a post. A group of teenagers in a brain scanner at UCLA will show us what happens when a photo gets many likes.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "What a like does"
+   }
+  }
+ ]
+}

@@ -1,0 +1,261 @@
+{
+ "id": "lf24_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here is the question that most people want answered. Is social media bad for our mental health, especially for young people? It's one of the most argued questions in modern psychology, and the honest answer is that careful scientists, looking at the same data, have reached different conclusions. Let's walk through why.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "The big question",
+    "sub": "Is it harming us?"
+   }
+  },
+  {
+   "say": "Start with the argument that has been loudest. In the early 2010s, smartphones and social media spread rapidly among teenagers. In several countries, including the United States, the United Kingdom and Australia, rates of depression, anxiety and self-harm among adolescents appeared to rise around the same time, particularly among girls.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 16,
+    "title": "The case for concern"
+   }
+  },
+  {
+   "say": "Jean Twenge and her colleagues analysed large national surveys of American teenagers. They found that depressive symptoms and suicide-related outcomes rose after about 2012, and that teens who spent more time on screens and social media were more likely to report them. The social psychologist Jonathan Haidt has made a broader version of this argument, in the strongest terms, in public and in a book.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Twenge, Joiner, Rogers & Martin",
+    "where": "Clinical Psychological Science, 2018",
+    "what": "Increases in depressive symptoms, suicide-related outcomes, and suicide rates among U.S. adolescents after 2010 and links to increased new media screen time"
+   }
+  },
+  {
+   "say": "The case for concern rests on timing, on trends across countries, and on the link between heavy use and unhappiness in surveys. It's a serious case, made by serious researchers, and it has driven a lot of public discussion and some legislation. It's right to take it seriously.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The argument in short",
+    "sub": "The timing fits"
+   }
+  },
+  {
+   "say": "But other researchers looked at the same kind of data and saw a different picture. They pointed out that surveys can show a link without showing a cause, that effect sizes seemed small, and that the same data could be analysed in many different ways. Two of the best known are Amy Orben and Andrew Przybylski, at the University of Oxford.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 17,
+    "title": "The case for caution"
+   }
+  },
+  {
+   "say": "They analysed three huge datasets, from the United States and the United Kingdom, covering more than three hundred and fifty thousand adolescents. Instead of choosing one analysis, they tested thousands of reasonable ways of defining and measuring technology use and wellbeing. Across all of them, digital technology use explained at most about 0.4 percent of the variation in adolescent wellbeing.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Orben & Przybylski",
+    "where": "Nature Human Behaviour, 2019",
+    "what": "The association between adolescent well-being and digital technology use"
+   }
+  },
+  {
+   "say": "Their own comparison was memorable. They found that the link with technology use was about the same size as the link between wellbeing and regularly eating potatoes, and smaller than the link with bullying or with getting enough sleep. The authors argued that a link this small, in correlational data, wasn't a good basis for strong claims.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Adolescents in the Orben & Przybylski datasets",
+    "big": "355,358",
+    "label": "across three large surveys in the US and UK"
+   }
+  },
+  {
+   "say": "It's a sobering reading, and a surprising one for many people. But it, too, has been challenged.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The cautious reading",
+    "items": [
+     "The association with wellbeing is small on average",
+     "Surveys can't show cause and effect",
+     "Results change with analysis choices",
+     "Other factors, such as sleep and bullying, matter more"
+    ]
+   }
+  },
+  {
+   "say": "Critics of the cautious reading say that an average can hide a lot. If social media is harmless for most people but quite harmful for a vulnerable minority, then a tiny average effect may disguise a serious problem. They also say that small effects, added up across billions of people, can still matter at the level of a society.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 18,
+    "title": "The counter-argument"
+   }
+  },
+  {
+   "say": "This isn't just rhetoric. In many areas of health, small average effects conceal larger effects in a subgroup. A medicine that helps one in twenty people can look useless in a study of the average. If a subset of young people, for example those who are already struggling, are more affected, a measure of the average would miss them.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A fair point",
+    "sub": "Averages hide groups"
+   }
+  },
+  {
+   "say": "Orben and her colleagues went back to the data, using a large British study that followed tens of thousands of people over time. They found some evidence that the effects of social media use differ with age. Girls seemed more sensitive around ages eleven to thirteen, boys around fourteen to fifteen, and both groups around nineteen. The effects were still small, and the authors stressed that they were tentative.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Orben, Przybylski, Blakemore & Kievit",
+    "where": "Nature Communications, 2022",
+    "what": "Windows of developmental sensitivity to social media"
+   }
+  },
+  {
+   "say": "This kind of work moves the discussion on from does it harm, yes or no, to a better question: for whom, when, and in what way? That's usually where real science ends up. The simple question has no simple answer, and the more specific questions are the ones that might help people.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "What this adds",
+    "sub": "Timing and who"
+   }
+  },
+  {
+   "say": "There are good reasons why this has been so difficult to settle. Self-reported screen time is notoriously inaccurate. Researchers have shown that people's estimates of their own phone use often differ greatly from what their devices record. And much of the most useful data is held by the companies themselves, and isn't easily shared.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 19,
+    "title": "Why it's so hard to know"
+   }
+  },
+  {
+   "say": "This review compared people's own reports of their digital media use with logged data from their devices. It found that self-reports were often inaccurate, with only a modest match with the logs, and that people were especially poor at judging how much time they spent. Much of the research that relies on questionnaires, which means most of it, has therefore measured something blurry.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Parry, Davidson, Sewall, Fisher, Mieczkowski & Quintana",
+    "where": "Nature Human Behaviour, 2021",
+    "what": "A systematic review and meta-analysis of discrepancies between logged and self-reported digital media use"
+   }
+  },
+  {
+   "say": "Each of those is a genuine scientific problem, and none of them is anyone's fault. They explain why serious researchers, looking in good faith at the same literature, can reach different conclusions.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Why the debate continues",
+    "items": [
+     "Self-reports of use are unreliable",
+     "Surveys show links, not causes",
+     "Effects differ between people and ages",
+     "The most informative data sits inside companies"
+    ]
+   }
+  },
+  {
+   "say": "If we try to find the overlap, most researchers would probably agree on a few things. The average effect on wellbeing is small in the studies we have. Some people, and some kinds of use, are more affected than others. Sleep, bullying and certain content seem to matter. And better, longer, more transparent studies are needed.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A fair summary",
+    "sub": "What most researchers would accept"
+   }
+  },
+  {
+   "say": "It leaves us in a middle place, which may be uncomfortable but is honest. We don't have to assume that phones are wrecking a generation, and we don't have to assume that they're harmless. It makes sense to pay attention, particularly to children, to sleep, and to the people who seem to struggle, and to keep asking questions.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "Where that leaves us",
+    "sub": "Care without panic"
+   }
+  },
+  {
+   "say": "A scale, close to level. That's roughly where the evidence stands: a small average effect, some real differences between people, and a lot that we still don't know. A fair picture doesn't tip dramatically in either direction.",
+   "show": {
+    "type": "photo",
+    "file": "lf24_b06_01.jpg",
+    "cap": "A scale in balance"
+   }
+  },
+  {
+   "say": "Because this debate produces so many headlines, a few questions are worth keeping. How many people were in the study, and who were they? Did the researchers measure real use, or ask people to estimate? Was it an experiment, where people were randomly assigned, or a survey, where they weren't? And is the effect large enough to matter in daily life, or only large enough to detect in a huge sample? These questions don't need a statistics degree. They simply slow down the reflex to believe a dramatic claim, which is the best defence against bad science news.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Questions to ask about any headline",
+    "items": [
+     "How big was the study, and who took part?",
+     "Does it show a link or a cause?",
+     "Is the effect large in everyday terms?",
+     "Do other studies agree?"
+    ]
+   }
+  },
+  {
+   "say": "Four terms from this debate. A correlation is a link between two things, which doesn't show that one causes the other. An effect size says how big an effect is, not only whether it exists. A self-report is what people say about themselves, which is often inaccurate. And a sensitive window is a stage of life when an influence may matter more.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Correlation",
+     "Effect size",
+     "Self-report",
+     "Sensitive window"
+    ]
+   }
+  },
+  {
+   "say": "If you're a parent, a teacher or a young person yourself, the useful question isn't whether social media is good or bad. It's how this person is doing, and what this use is doing for them. A quiet check-in and a good night's sleep tell you more than any headline can.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Listen to the person, not the headline"
+   }
+  },
+  {
+   "say": "So what did we learn? That the concern has real data behind it, in trend surveys. That large analyses found a small average link with wellbeing. That averages can hide groups, and that age and timing may matter. And that measurement problems are a big reason the disagreement continues.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the big debate taught us"
+   }
+  },
+  {
+   "say": "Next, we'll look at the most direct way of testing cause and effect: asking people to stop. Several experiments have done exactly that, and what they found was interesting and a little surprising.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "What happens when people quit"
+   }
+  }
+ ]
+}

@@ -1,0 +1,255 @@
+{
+ "id": "lf24_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In 1954, a psychologist named Leon Festinger published a short paper that would shape social psychology for decades. It was called A Theory of Social Comparison Processes. His idea was simple, and it still rings true. When people can't measure themselves against an objective standard, they look at other people, and they use what they see to judge how well they're doing.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "n": 9,
+    "title": "Comparing ourselves"
+   }
+  },
+  {
+   "say": "How good are you at your job? How attractive, how funny, how successful, how happy? There's no ruler for most of these. So we do what Festinger described. We glance sideways and judge by whoever's nearby. The comparison happens automatically, often without noticing, and it affects how we feel.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The core idea",
+    "sub": "We need a yardstick"
+   }
+  },
+  {
+   "say": "The direction matters, and so does how we respond. Seeing someone who's more skilled can be motivating if we feel we can learn from them. It can be painful if we feel it's out of reach. Researchers have found that the same comparison can lift one person and deflate another.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Two directions of comparison",
+    "items": [
+     "Upward: comparing with people who seem better off",
+     "Downward: comparing with people who seem worse off",
+     "Upward can inspire or discourage",
+     "Downward can comfort or feel uncomfortable"
+    ]
+   }
+  },
+  {
+   "say": "Now consider what a feed shows. For most of human history, the people we compared ourselves with were the people around us, whom we saw in good moments and bad, in daylight and in pyjamas. On a feed, we see the moments that people choose to share, edited and posed and filtered. The result is a stream of other people's best days.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 10,
+    "title": "The highlight reel"
+   }
+  },
+  {
+   "say": "There's a phrase that people use for this: comparing your behind-the-scenes with everyone else's highlight reel. It's a catchy summary, and there's real research behind it. It suggests that the people we see online seem happier and more successful than they are, because we only see the moments they choose.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "A familiar phrase",
+    "sub": "Comparing your behind-the-scenes"
+   }
+  },
+  {
+   "say": "Hui-Tzu Grace Chou and Nicholas Edge surveyed university students about Facebook use and their views of other people. Those who spent more time on the site were more likely to agree that others were happier than they were, and that life isn't fair. The authors noted that heavy users also tended to have spent less time with friends in person.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Chou & Edge",
+    "where": "Cyberpsychology, Behavior, and Social Networking, 2012",
+    "what": "They are happier and having better lives than I am: the impact of using Facebook on perceptions of others' lives"
+   }
+  },
+  {
+   "say": "It's important to say that this is a correlation. People who already feel low might spend more time on the site, or might judge others more harshly, and the survey can't tell which comes first. To separate cause from effect, researchers need experiments, where people are assigned to see different things and the effects are measured.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A caution",
+    "sub": "Correlation, not proof"
+   }
+  },
+  {
+   "say": "Erin Vogel and colleagues ran a series of studies. In one experiment, they asked students to view a Facebook profile that was set up to look either more successful or less successful than the average, and then measured their self-esteem. Those who saw the upward profile reported lower self-esteem. In their survey work, they also found that people who used the site more often tended to report lower self-esteem and a greater tendency to compare upward.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Vogel, Rose, Roberts & Eckles",
+    "where": "Psychology of Popular Media Culture, 2014",
+    "what": "Social comparison, social media, and self-esteem"
+   }
+  },
+  {
+   "say": "This work suggests that a feed isn't only a neutral window. What we see in it can nudge our feelings about ourselves, especially when we're prone to compare. But the effects were modest and the experiments were short. They don't show that Facebook, or any feed, lowers everyone's self-esteem for good.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "What it suggests",
+    "sub": "Context shapes the comparison"
+   }
+  },
+  {
+   "say": "One of the most useful findings in this area is that people differ in how much they compare. Researchers have a scale for it, called the Iowa-Netherlands Comparison Orientation Measure, which asks how much people tend to compare their abilities and opinions with others. Some people score high and some score low.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 11,
+    "title": "Not everyone compares the same"
+   }
+  },
+  {
+   "say": "Frederick Gibbons and Bram Buunk developed the scale in the late 1990s. People with a high comparison orientation tend to be more sensitive to other people's performance, and more affected by it, for better or worse. They are often more strongly influenced by what they see on social media, both inspired and discouraged, than those who compare less.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Gibbons & Buunk",
+    "where": "Journal of Personality and Social Psychology, 1999",
+    "what": "Individual differences in social comparison: development of a scale of social comparison orientation"
+   }
+  },
+  {
+   "say": "It doesn't mean that everyone should worry. It means that the effect of a feed depends on the person using it, and on how they relate to what they see. Two people can scroll the same pictures and come away feeling very differently.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Who is more affected?",
+    "items": [
+     "People who compare often",
+     "People with low self-esteem",
+     "People who feel their own lives are uncertain",
+     "People who follow many people they don't know"
+    ]
+   }
+  },
+  {
+   "say": "It's worth ending this chapter on a note of balance. Comparison isn't only a villain. It's also one of the main ways that people learn. We see someone doing something well, and we think that we could try that. Hobbies, careers, recipes and ideas often start with someone else's example.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 12,
+    "title": "Can comparison be useful?"
+   }
+  },
+  {
+   "say": "Rebecca Collins reviewed the research on upward comparison and found that it could be good or bad. When the other person seemed attainable, and the comparer felt able to improve, upward comparison could raise self-evaluations, because it suggested that success was possible. When the other person seemed far out of reach, it tended to deflate. Whether we feel inspired or crushed depends on whether we believe that we can follow.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Collins",
+    "where": "Psychological Bulletin, 1996",
+    "what": "For better or worse: the impact of upward social comparison on self-evaluations"
+   }
+  },
+  {
+   "say": "That suggests an everyday tool. You can't remove comparison from your mind, but you can influence who you compare yourself with. Following people whose success feels achievable and instructive, and fewer whose lives feel like an impossible standard, is a small change that the research supports, at least in principle.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A practical idea",
+    "sub": "Choose your yardsticks"
+   }
+  },
+  {
+   "say": "None of these needs special effort. They just put a little space between seeing something and reacting to it, and that space is where choice lives.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Questions to ask yourself",
+    "items": [
+     "Does this account leave me feeling inspired or smaller?",
+     "Is this person showing a real day or a chosen moment?",
+     "Could I learn something from them?",
+     "Would I follow them if I couldn't see their numbers?"
+    ]
+   }
+  },
+  {
+   "say": "A wall of bright frames, and one that's still empty. Most of what we see online is the framed part, the best of someone's week. The empty frame is the rest of the story, which is only visible if you live it.",
+   "show": {
+    "type": "photo",
+    "file": "lf24_b04_01.jpg",
+    "cap": "A wall of highlight frames"
+   }
+  },
+  {
+   "say": "A habit worth trying comes from the research on upward comparison. When you meet someone who seems to be doing better, try turning the thought around. Instead of asking how you compare, ask what they did that you could try. That small change turns a judgement into a question, and it moves the comparison from threat to learning. Psychologists who study self-compassion, such as Kristin Neff, have found that people who treat themselves kindly tend to feel less threatened by other people's success. It's not a trick, but a posture, and it grows with practice.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Habits of a kinder comparison",
+    "items": [
+     "Ask what you could learn from someone, not how you measure up",
+     "Follow people whose success feels reachable",
+     "Remember that you see their highlights",
+     "Leave a feed that always leaves you smaller"
+    ]
+   }
+  },
+  {
+   "say": "Four terms to remember. Social comparison is judging ourselves by looking at others. Upward comparison means looking at people who seem to be doing better. Downward comparison means looking at people who seem to be doing worse. And comparison orientation describes how strongly a person tends to compare in the first place.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Social comparison",
+     "Upward comparison",
+     "Downward comparison",
+     "Comparison orientation"
+    ]
+   }
+  },
+  {
+   "say": "If a feed has ever made you feel that everyone else is further ahead, it's useful to remember what you're looking at. You're seeing a carefully chosen slice of many different lives, side by side, which no one in history was ever meant to compare in one sitting. Feeling behind in that setting is an understandable reaction to an unusual situation.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "You are not behind"
+   }
+  },
+  {
+   "say": "So what did we learn? That we judge ourselves by looking at others, as Festinger proposed in 1954. That feeds show people's best moments. That experiments found modest drops in self-esteem after upward comparison. And that who we follow, and whether the comparison feels attainable, changes what it does to us.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What comparison taught us"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll ask whether it matters how you use social media, not only how much. A study of Facebook users in Belgium found that the answer might be yes.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Watching or taking part"
+   }
+  }
+ ]
+}

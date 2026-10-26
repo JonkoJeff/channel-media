@@ -1,0 +1,230 @@
+{
+ "id": "lf24_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So far, we've looked at the pulls of the feed. But there's a question that researchers have asked repeatedly, and it's one that most of us can answer from our own experience. Does it matter what you do on social media? Scrolling silently through other people's lives feels different from sending a message to a friend. The science suggests that the difference may be real.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 13,
+    "title": "Watching or taking part"
+   }
+  },
+  {
+   "say": "Researchers draw a distinction between passive use and active use. Passive use means consuming: looking at posts, photos and updates without interacting. Active use means taking part: posting, commenting, messaging and chatting. It's a rough division, and real use is a mixture, but it has turned out to be a helpful one.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Two ways of using",
+    "sub": "Passive and active"
+   }
+  },
+  {
+   "say": "Philippe Verduyn and his colleagues at the University of Michigan ran a set of studies. In an experiment, they asked people to spend time on Facebook either passively, only looking, or actively, interacting. Those assigned to passive use reported a worse mood afterwards than those assigned to active use. In a longitudinal part of the work, passive use over time was linked to lower wellbeing, partly through feelings of envy.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Verduyn, Lee, Park, Shablack, Orvell, Bayer, Ybarra, Jonides & Kross",
+    "where": "Journal of Experimental Psychology: General, 2015",
+    "what": "Passive Facebook usage undermines affective well-being: experimental and longitudinal evidence"
+   }
+  },
+  {
+   "say": "The researchers suggested that passive use may lead to envy, because you see what others are doing without sharing in it. And without any exchange, there's little sense of connection. You're watching people in a window, with no way to step inside. Active use, by contrast, can satisfy the need to belong, because someone is replying to you.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The proposed mechanism",
+    "sub": "Envy and a lack of connection"
+   }
+  },
+  {
+   "say": "It's a tidy story, and it fits a lot of what people report. But as with most tidy stories in psychology, it deserves a second look.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "A simple contrast",
+    "items": [
+     "Passive: looking at other people's posts",
+     "Active: messaging, commenting, sharing",
+     "Passive use linked to envy and lower mood",
+     "Active use linked to connection"
+    ]
+   }
+  },
+  {
+   "say": "In 2016, Moira Burke and Robert Kraut, working with data from Facebook, looked at a very large group of users who had agreed to take part in a study. They combined surveys with real activity logs, so they weren't relying only on what people remembered doing. They asked whether the effects of using the site depended on whom people communicated with.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 14,
+    "title": "Who you talk to matters"
+   }
+  },
+  {
+   "say": "They studied nearly two thousand users, and found that receiving targeted, composed messages from close friends, such as comments and personal messages, was associated with improvements in wellbeing, including feeling less lonely and more supported. Simple, low-effort reactions like likes from weaker ties did less. In short, the people and the kind of contact seemed to matter more than the minutes.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Burke & Kraut",
+    "where": "Journal of Computer-Mediated Communication, 2016",
+    "what": "The relationship between Facebook use and well-being depends on communication type and tie strength"
+   }
+  },
+  {
+   "say": "This supports an intuition we all have. A short, warm message from someone who knows us can lift our mood in a way that dozens of reactions from acquaintances can't. It's the closeness and the effort that count. The platform is only a channel, and what travels down it is what shapes how we feel.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A helpful reading",
+    "sub": "Depth beats volume"
+   }
+  },
+  {
+   "say": "Notice that these are all things that people were doing long before screens, in letters and on the phone. The research suggests that when social media supports those older forms of connection, it tends to be benign, and when it replaces them with passive watching, it may be less so.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What seems to help",
+    "items": [
+     "Messages with people you care about",
+     "Comments that show effort and attention",
+     "Sharing news with close friends",
+     "Keeping in touch with distant relatives"
+    ]
+   }
+  },
+  {
+   "say": "The idea that internet use might affect wellbeing goes back to the beginning of the web. In 1998, a team at Carnegie Mellon University led by Robert Kraut published a study that caused a stir. It was called the Internet Paradox, and it began with a simple question. If the internet connects people, why might it make them lonelier?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 15,
+    "title": "An early warning"
+   }
+  },
+  {
+   "say": "The team followed one hundred and sixty-nine people in seventy-three households in Pittsburgh, who were given computers and internet access for the first time. Over their first year or two online, greater internet use was associated with small declines in communication with family, smaller social circles, and increases in loneliness and depressive mood. At the time, it was widely reported as proof that the net isolates.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Kraut, Patterson, Lundmark, Kiesler, Mukopadhyay & Scherlis",
+    "where": "American Psychologist, 1998",
+    "what": "Internet paradox: a social technology that reduces social involvement and psychological well-being?"
+   }
+  },
+  {
+   "say": "The surprise came a few years later. Kraut and his colleagues followed up with the same people, and with a new, larger group, and published a second paper. It was called the Internet Paradox Revisited, and it reported that the negative effects had mostly faded. People who were more extraverted and had more support seemed to benefit, and the original findings didn't hold up as a general rule.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "People in the Internet Paradox study",
+    "big": "169",
+    "label": "in 73 households, followed for their first year or two online"
+   }
+  },
+  {
+   "say": "There's a wise point in this episode. An early finding, from a small sample at the start of a new technology, was reported as a settled danger, and then the science moved on. The same rhythm has happened with television, with video games, with novels, and with the telephone. It doesn't mean that new worries are always wrong. It means that we should be patient with the evidence.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The lesson",
+    "sub": "Early alarms can fade"
+   }
+  },
+  {
+   "say": "That patience cuts both ways. It would be equally wrong to assume that every new worry will fade. Some will, some won't, and the only honest approach is to look at the best, largest and most careful studies, and to be ready to change our minds. That's what we'll do in the next chapter, with some of the largest studies ever run on the subject.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "A balancing note",
+    "sub": "Not a free pass"
+   }
+  },
+  {
+   "say": "The oldest picture of connection that there is. Two cans, a string, and someone on the other end who's listening. The research on passive and active use keeps coming back to the same point: it isn't the string that matters. It's who's on the other end, and whether they're answering.",
+   "show": {
+    "type": "photo",
+    "file": "lf24_b05_01.jpg",
+    "cap": "Two cans and a string"
+   }
+  },
+  {
+   "say": "Four terms from this chapter. Passive use means looking without interacting. Active use means taking part. Tie strength describes how close two people are. And the Internet Paradox was the early claim that a connecting technology could leave people lonelier.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Passive use",
+     "Active use",
+     "Tie strength",
+     "Internet paradox"
+    ]
+   }
+  },
+  {
+   "say": "If you want to move from passive to active use, start small. A real sentence in reply to a friend's post is worth much more than a like, both to them and, the research suggests, to you. A voice note carries tone, which text lacks, and tone is one of the ways that people feel close. And an invitation to meet, even a short coffee, turns a thin connection into one that can grow. None of this takes long. It only takes the decision to use the screen as a door, and not as a window.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Making a screen a door",
+    "items": [
+     "Reply to one message properly instead of liking ten posts",
+     "Send a voice note to someone far away",
+     "Comment with a real sentence",
+     "Arrange to meet someone you only know online"
+    ]
+   }
+  },
+  {
+   "say": "If you take one habit from this chapter, take this one. When you notice yourself scrolling through other people's lives, try sending one message to one person. It can be small. A line about something that reminded you of them. The research suggests that that single act turns a screen from a window back into a door.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Send the message"
+   }
+  },
+  {
+   "say": "So what did we learn? That passive use was linked to worse mood and envy in experiments. That messages from close friends were linked to better wellbeing. That early alarms, like the Internet Paradox, can fade with better evidence. And that it isn't only how much we use it, but how and with whom.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What use taught us"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll turn to the question that most people actually want answered. Is social media harming our mental health? We'll look at the biggest study of teenagers so far, and at why scientists still disagree.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "The big question"
+   }
+  }
+ ]
+}

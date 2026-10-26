@@ -1,0 +1,230 @@
+{
+ "id": "lf24_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Welcome. Put the phone face down for a while, because tonight we're going to talk about the thing in your hand. Why is it so hard to stop scrolling? What do feeds actually do to attention, mood, memory and the way we see other people? And, just as important, what does the evidence say, once the loud opinions are set aside? We'll go slowly, and we'll keep the doubts in.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Settle in",
+    "sub": "The psychology of the scroll"
+   }
+  },
+  {
+   "say": "Fourteen chapters. Each one rests on named studies, with the sample sizes and the disagreements left in. Some of it will back up what you already suspect. Some of it will quietly say that the loudest claims are weaker than they sound. Both are useful to know.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "The pull of the scroll",
+     "Variable rewards and the pull to refresh",
+     "What a like does in the brain",
+     "Social comparison",
+     "Passive and active use",
+     "Does social media harm wellbeing?",
+     "What happens when people quit",
+     "Attention and interruption",
+     "Emotion and misinformation",
+     "Mood contagion and weak ties",
+     "Echo chambers",
+     "Memory, photos and the offloaded mind",
+     "Sleep and the fear of missing out",
+     "What actually helps"
+    ]
+   }
+  },
+  {
+   "say": "Let me say how this will work. I won't tell you that social media is destroying your brain, and I won't tell you that it's harmless. Both stories sell well, and neither survives a careful look at the research. What I can offer is the middle ground, where careful scientists argue with each other, and where the actual findings are often smaller, stranger and more interesting than the headlines.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A promise",
+    "sub": "Evidence, not panic"
+   }
+  },
+  {
+   "say": "Start with a scene that you probably know. You pick up your phone to check one thing. A message, the time, a quick look at the weather. Twenty minutes later, you're still there, thumb moving, and you can't quite say what you've seen. Nothing in particular held you. And yet you didn't put it down.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "The pull of the scroll"
+   }
+  },
+  {
+   "say": "Here is what makes this psychologically interesting. When people are asked afterwards how they felt, they often say that the time wasn't especially enjoyable. They didn't plan to stay, they don't feel better for it, and they may even feel a little worse. If it isn't pleasure that keeps us there, then something else is going on.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "cap": "The strange part",
+    "sub": "Not enjoyment, exactly"
+   }
+  },
+  {
+   "say": "Wilhelm Hofmann and colleagues gave two hundred and five adults in Germany a small device that beeped at random moments during the day. Each time, people reported what they were desiring and whether they were trying to resist it. Desires for sleep and sex were strong, but the desire to use media, including the internet and television, was among the hardest to resist, and people often gave in.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Hofmann, Vohs & Baumeister",
+    "where": "Psychological Science, 2012",
+    "what": "What people desire, feel conflicted about, and try to resist in everyday life"
+   }
+  },
+  {
+   "say": "That study came from before smartphones filled every pocket, and it still described the pattern. The urge to check something is frequent, it's often in conflict with other goals, and it's easy to yield to, because the tool is always there. A craving that costs almost nothing to satisfy is a craving that gets satisfied again and again.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Adults in the Hofmann study",
+    "big": "205",
+    "label": "beeped seven times a day for a week, reporting desires and conflicts"
+   }
+  },
+  {
+   "say": "That points to a simple principle in behaviour science. What we do depends enormously on how easy it is. A tool that takes one second to open, with no cost and no waiting, will be used far more than the same tool behind a door. A lot of what people call lack of willpower is really a lack of friction, and the best apps are designed to have almost none.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A useful idea",
+    "sub": "Friction matters"
+   }
+  },
+  {
+   "say": "Put together, these features make a very different experience from a book or a film. A book has chapters, a film has an ending, and a newspaper runs out of pages. A feed, by design, never reaches the end, and the lack of an ending is itself a kind of hook.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Why a feed is easy to keep using",
+    "items": [
+     "There is no natural stopping point",
+     "The next item is always one flick away",
+     "Each item is short and quick to judge",
+     "The content changes every time",
+     "The phone is already in your hand"
+    ]
+   }
+  },
+  {
+   "say": "Psychologists who study how people decide to stop doing something have a name for the signals involved. They call them stopping rules. They might be a finished chapter, a full plate, or the last page of a magazine. Researchers have found that when these signals disappear, people tend to continue for longer than they planned.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 2,
+    "title": "Where did stopping cues go?"
+   }
+  },
+  {
+   "say": "Brian Wansink and colleagues, in a study that drew attention for its clever design, gave people soup in bowls that slowly refilled from a hidden tube. People with the bottomless bowls ate far more than those with normal bowls, and didn't report feeling any fuller. A note of caution here: some of Wansink's later work was questioned and retracted, so this finding is best treated as an illustration rather than as settled fact. The idea itself, that missing cues make us keep going, has support from other work.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Wansink, Painter & North",
+    "where": "Obesity Research, 2005",
+    "what": "Bottomless bowls: why visual cues of portion size may influence intake"
+   }
+  },
+  {
+   "say": "If you accept the analogy, an infinite feed is a bottomless bowl for attention. The designers of such features have even said so. Aza Raskin, who created the infinite scroll in the mid-2000s, later said publicly that he regretted how it was used, and compared it to a design choice that takes away a natural moment to pause and ask whether to continue.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The scroll as a bottomless bowl",
+    "sub": "An endless feed"
+   }
+  },
+  {
+   "say": "It's worth keeping some balance. The fact that a feature makes it easier to keep going doesn't mean that people are helpless. Most of us do put our phones down, most of the time. But the point of a design choice is not that it works on everyone every time. It's that a small push, applied to billions of people, adds up to an enormous amount of attention.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "A fair note",
+    "sub": "Design is not destiny"
+   }
+  },
+  {
+   "say": "Four terms to carry through the evening. A stopping rule is a cue that tells you to stop. Friction is the effort it takes to do something. Infinite scroll is a feed with no end. And a desire conflict is when you want something and also want not to want it.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Stopping rule",
+     "Friction",
+     "Infinite scroll",
+     "Desire conflict"
+    ]
+   }
+  },
+  {
+   "say": "A phone on a quiet table. It's a small object that holds an enormous number of pulls, and tonight we're going to take them apart one by one, starting with the oldest psychology of all, the psychology of rewards.",
+   "show": {
+    "type": "photo",
+    "file": "lf24_b01_01.jpg",
+    "cap": "A phone on a dark table"
+   }
+  },
+  {
+   "say": "Here's a small way to make this chapter useful. You don't need an app or a special tool. For one evening, simply notice. Notice what your hand does when there's a gap in the day, when you're waiting for the kettle or standing in a queue. Count the checks, without judging them. Then notice how you feel before and after. Researchers call this self-monitoring, and it's one of the simplest and best supported ways of changing a habit, because you can't change what you haven't seen. Most people are surprised by the number, and a little amused. That surprise is a good place to begin.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Three small tests for tonight",
+    "items": [
+     "Notice the first thing your hand does when you're bored",
+     "Count how many times you check in one hour",
+     "Note how you feel before and after",
+     "Try leaving the phone in another room for one evening"
+    ]
+   }
+  },
+  {
+   "say": "If you've ever felt that you're weak because you can't put the phone down, it's worth knowing that you're up against a very well-tested design, and the pull you feel is normal human psychology doing what it was shaped to do. Understanding the pull is the first step towards choosing when to follow it.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "You are not weak"
+   }
+  },
+  {
+   "say": "So what did we learn? That people often find media hard to resist, and give in. That the lack of a natural stopping point makes it easy to continue. That friction shapes behaviour more than willpower does. And that design is a push, not a prison.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the pull taught us"
+   }
+  },
+  {
+   "say": "In the next chapter, we go back to a laboratory in the 1950s, where pigeons pecking at a disc taught psychologists something that still shapes the screen in your hand.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "The pull to refresh"
+   }
+  }
+ ]
+}

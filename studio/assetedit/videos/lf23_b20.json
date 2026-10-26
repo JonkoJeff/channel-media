@@ -1,0 +1,178 @@
+{
+ "id": "lf23_b20",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We're nearly at the end of our time together tonight. Your body is heavy and warm. Your breathing is slow and easy. And somewhere at the edges of your mind, sleep is already waiting, patient and kind.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Almost asleep",
+    "sub": "Softly now"
+   }
+  },
+  {
+   "say": "Imagine, if you like, that you've come in from the garden to a small room with a fire burning low. The flames are gentle now, just soft orange embers glowing in the grate. Their warmth reaches you slowly, all the way to your hands and feet.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "The fire burning low",
+    "sub": "Warm embers"
+   }
+  },
+  {
+   "say": "Notice the room around you. The soft glow of the embers. The gentle sound of rain beginning to fall on the roof above. A warm blanket wrapped around you. And the lovely feeling of having nowhere else to be.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "title": "In this quiet room",
+    "items": [
+     "The soft glow of embers",
+     "Rain on the roof",
+     "A warm blanket",
+     "Nowhere else to be"
+    ]
+   }
+  },
+  {
+   "say": "Listen to the rain for a while. Steady and soft, tapping on the roof, running gently down the windows. It doesn't ask anything of you. It doesn't need anything from you. It's simply there, keeping you company as you drift.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Listening to the rain",
+    "sub": "Steady and soothing"
+   }
+  },
+  {
+   "say": "Notice your body, resting now. Your eyes soft, perhaps already closed. Your hands open and still. Your breath slow and quiet, rising and falling all by itself. And your heart beating calmly and steadily, the way it always has, carrying you gently through the night.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "title": "A body at rest",
+    "items": [
+     "Eyes soft and closed",
+     "Hands open and still",
+     "Breath slow and quiet",
+     "Heart calm and steady"
+    ]
+   }
+  },
+  {
+   "say": "Let's take one more slow breath together. In, gently, filling your chest with warm, quiet air. A soft pause. And out, slowly, letting go of anything that's left. Let it go completely. Then let your breathing find its own sleepy rhythm.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "One last breath together",
+    "sub": "Slow and deep"
+   }
+  },
+  {
+   "say": "There's nothing left to do now. The day is complete, just as it is. Whatever happened today, whatever didn't happen, it's all finished. You can set it down, the way you'd set down a bag at the end of a long journey.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Nothing left to do",
+    "sub": "The day is complete"
+   }
+  },
+  {
+   "say": "Tonight, you are free. Free from the rules of the day, and from anything you're supposed to do. You are safe. You are warm. You are at rest. Free. Safe. Warm. At rest.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "title": "Tonight you are",
+    "items": [
+     "Free",
+     "Safe",
+     "Warm",
+     "At rest"
+    ]
+   }
+  },
+  {
+   "say": "No one is pushing you anywhere. There's nothing to resist and nothing to prove. That quiet spark of defiance we talked about earlier can rest now too, curled up like a cat by the fire, with nothing left to push against.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "cap": "No one pushing",
+    "sub": "Nothing to resist"
+   }
+  },
+  {
+   "say": "In a moment, this voice will fade away, and you can let it go without a second thought. You don't need to hear the last words. If you're already drifting, follow that drift. It knows exactly where to take you.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Letting the words fade",
+    "sub": "Let them drift away"
+   }
+  },
+  {
+   "say": "Let yourself sink a little deeper. Into the warmth. Into the soft darkness behind your eyes. Into the steady sound of the rain. Each breath carrying you a little further down, gently, safely, all the way into rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Sinking deeper",
+    "sub": "Into soft darkness"
+   }
+  },
+  {
+   "say": "Heavy. Warm. Calm. Asleep. Let those words float slowly by, like embers drifting up from a quiet fire. Heavy. Warm. Calm. Asleep.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "title": "Softly now",
+    "items": [
+     "Heavy",
+     "Warm",
+     "Calm",
+     "Asleep"
+    ]
+   }
+  },
+  {
+   "say": "And somewhere far away, in a story told long ago, a boy rests in the shade beside a freshly whitewashed fence, while his friends happily paint in the sunshine. It's a warm, lazy afternoon. No one there is being forced to do anything. Let that easy summer feeling stay with you as you drift off.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Back to the fence",
+    "sub": "A summer afternoon"
+   }
+  },
+  {
+   "say": "Thank you for spending this evening here, and for letting your curious mind wander with me for a while. Whatever you choose to do tomorrow, may it feel like your own choice, freely made.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Thank you",
+    "sub": "For spending this evening here"
+   }
+  },
+  {
+   "say": "Next time, we'll explore a gentle mystery many of us know well. Why is it so hard to put your phone down and stop scrolling, even when you really want to? We'll look at what's going on in your brain, and how to find a little calm again. But that's for another night. For now, let everything go. Sleep well, and goodnight.",
+   "show": {
+    "type": "end",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "next": "Why Social Media Is So Hard to Put Down"
+   }
+  }
+ ],
+ "pause": 1.6
+}

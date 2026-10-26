@@ -1,0 +1,222 @@
+{
+ "id": "lf23_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So now you know what that little inner voice sounds like, the one that says you can't tell me what to do. Before the evening grows quiet, let's gather up what we've learned tonight, and turn it into something small and useful you can carry with you tomorrow.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 31,
+    "title": "What to take with you"
+   }
+  },
+  {
+   "say": "Everything tonight came back to one simple idea. We care about our freedom, sometimes more than we realise. And when that freedom feels threatened, even in a small way, part of us quietly pushes back. That push has a name. Reactance.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "One simple idea",
+    "sub": "Freedom feels precious"
+   }
+  },
+  {
+   "say": "You saw it in the toddler reaching for the toy behind the barrier. You saw it in the forbidden information that suddenly seemed more interesting, and in the cookies that tasted better when the jar was nearly empty. It's the same quiet move each time. Take something away, or tell us we can't have it, and it starts to shine.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What reactance does",
+    "items": [
+     "A forbidden thing looks more appealing",
+     "A pushy message feels like an attack",
+     "We start arguing back in our heads",
+     "We want to prove we still have a choice"
+    ]
+   }
+  },
+  {
+   "say": "And it isn't only children. Teenagers feel it strongly, of course, but adults do too. Some people feel it more than others, and culture shapes what kind of freedom matters most. But almost all of us have that small spark of defiance somewhere inside.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "Not just a childhood thing",
+    "sub": "It never fully goes away"
+   }
+  },
+  {
+   "say": "We also saw how easily good intentions can go wrong. A sign that shouts at people. A health message full of musts and shoulds. A warning that makes the forbidden thing more tempting. Even a rule we set for ourselves, like trying very hard not to think of a white bear, can turn around and come right back at us.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "When it backfires",
+    "sub": "Good intentions, wrong words"
+   }
+  },
+  {
+   "say": "And reverse psychology itself, the trick of telling someone not to do the thing you secretly want? Sometimes it seems to work, especially with people who already like to resist. But it's a risky game. People notice when they're being steered, and once they notice, trust can quietly slip away.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Gentle honesty",
+    "sub": "Reverse psychology has limits"
+   }
+  },
+  {
+   "say": "So what does work better? The kinder way, it turns out. Offering real choices. Using softer words. Simply reminding someone that they're free to decide. Telling a story rather than issuing a command. When people feel their freedom is respected, they have nothing to defend, and they listen more openly.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "What works better",
+    "items": [
+     "Offer real choices",
+     "Use softer, less controlling words",
+     "Remind people they are free to say no",
+     "Tell a story instead of giving orders"
+    ]
+   }
+  },
+  {
+   "say": "We saw that even small choices can matter a great deal. Choosing a plant to care for. Choosing how to spend an afternoon. Feeling that some part of your life is still in your own hands. That feeling of control isn't a luxury. It's something people seem to need.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Control matters",
+    "sub": "Even small choices count"
+   }
+  },
+  {
+   "say": "And for yourself, there's a simple practice. Notice the little flash of resistance when someone tells you what to do. Ask yourself which freedom feels threatened. Try to separate the message from the way it was delivered. And then make your own choice, calmly, because it's right for you, and not just to push back.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "title": "For your own reactance",
+    "items": [
+     "Notice the flash of resistance",
+     "Ask what freedom feels threatened",
+     "Separate the message from the tone",
+     "Then choose for yourself"
+    ]
+   }
+  },
+  {
+   "say": "Do you remember where we began tonight? With a boy, a bucket of whitewash, and a very long fence.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "n": 32,
+    "title": "Back at the fence"
+   }
+  },
+  {
+   "say": "In The Adventures of Tom Sawyer, published by Mark Twain in 1876, Tom is told to whitewash his aunt's fence on a bright Saturday morning. It's the last thing he wants to do. His friends will soon walk past on their way to have fun, and they'll laugh at him.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "street_day",
+    "cap": "Tom Sawyer",
+    "sub": "A dreaded Saturday chore"
+   }
+  },
+  {
+   "say": "So Tom does something clever. When a friend comes by and teases him, Tom acts as if painting the fence is a rare and special thing. Not just anyone gets to do it, he suggests. It takes skill. His aunt is very particular about this fence.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "street_day",
+    "cap": "A clever turn",
+    "sub": "Work that looks like a privilege"
+   }
+  },
+  {
+   "say": "And slowly, his friend's teasing turns into curiosity, and curiosity turns into longing. Could he try, just a little? Tom hesitates, which only makes it seem more precious. By the end of the afternoon, his friends are asking to paint the fence, and Tom is resting in the shade.",
+   "show": {
+    "type": "photo",
+    "file": "lf23_b16_01.jpg",
+    "cap": "A fence that suddenly looked precious"
+   }
+  },
+  {
+   "say": "Twain put it beautifully in that chapter. Work is whatever we're obliged to do, and play is whatever we're not obliged to do. More than a century before anyone measured it, he understood the very thing we've been exploring tonight. The same fence can feel like a burden or a privilege. It depends on whether it feels like a choice.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Twain understood it",
+    "sub": "Long before the research"
+   }
+  },
+  {
+   "say": "And maybe that's the gentlest lesson of all. You don't need to trick anyone, the way Tom did. But you can remember what he discovered. People rarely want what they're pushed towards. They want what they're invited to, what they're free to choose.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Use it kindly",
+    "sub": "Invite, don't push"
+   }
+  },
+  {
+   "say": "That's true for the way you talk to yourself, too. If your own inner voice is full of musts and shoulds, part of you may quietly rebel. Try offering yourself a choice instead. Not I have to, but I'd like to. Not you must, but you may.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "The same goes for you",
+    "sub": "Be kind to yourself too"
+   }
+  },
+  {
+   "say": "And with that, the ideas can rest now. We've covered a lot of ground tonight. There's nothing more you need to remember, and nothing you need to figure out.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 33,
+    "title": "Slowing down"
+   }
+  },
+  {
+   "say": "Here's something nice to notice. Right now, no one is telling you what to do. There's no barrier, no warning label, no sign. Nothing to push against. And so, perhaps, that little inner voice can finally rest as well.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Nothing to resist",
+    "sub": "No one is asking anything"
+   }
+  },
+  {
+   "say": "Let your shoulders drop, just a little. Let your hands rest wherever they are. You don't have to do any of this. It's only an invitation. Take it if you like. Let the evening soften around you, at your own pace.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "cap": "Your own pace",
+    "sub": "Let the evening soften"
+   }
+  },
+  {
+   "say": "In a moment, we'll slow down even more. There's no fence to paint tonight, and no rules to follow. Just this quiet voice, the soft warmth of the room, and the slow rhythm of your breathing. You're free to listen, and free to drift away.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Free to drift",
+    "sub": "Nothing you have to do"
+   }
+  }
+ ],
+ "pause": 1.3
+}

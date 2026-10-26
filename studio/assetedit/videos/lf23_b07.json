@@ -1,0 +1,230 @@
+{
+ "id": "lf23_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Health messages are everywhere. Posters about smoking, adverts about drinking, gentle reminders to wear sunscreen and eat your vegetables. They're made by people who genuinely want to help. And yet researchers have noticed something uncomfortable about them. Sometimes the people they're meant to reach end up liking the risky behaviour a little more than before.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "autumn_overlook",
+    "n": 13,
+    "title": "When health advice boomerangs"
+   }
+  },
+  {
+   "say": "Picture a sixteen-year-old watching an anti-smoking advert. A serious voice, a stern face, a list of things you must never do. You can almost see the eyes rolling. It's not that the teenager loves smoking. It's that being lectured feels like someone else trying to run their life.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "street_day",
+    "cap": "The teenage eye-roll",
+    "sub": "Don't tell me what to do"
+   }
+  },
+  {
+   "say": "So researchers began to ask a careful question. Is it possible that the way a health message is written, not just what it says, could push some people towards the very thing it warns against? And if so, who is most likely to push back?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "The question",
+    "sub": "Can a warning make it worse?"
+   }
+  },
+  {
+   "say": "In a study published in 2003, Joseph Grandpre and his colleagues showed young people anti-smoking messages that were either very explicit and direct, or more subtle and implicit. Then they measured how much reactance the messages stirred up, and how the young people felt about smoking afterwards.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Grandpre, Alvaro, Burgoon, Miller & Hall",
+    "where": "Health Communication, 2003",
+    "what": "Adolescent reactance and anti-smoking campaigns: a theoretical approach"
+   }
+  },
+  {
+   "say": "The explicit, forceful messages produced more reactance, especially among the older adolescents, the ones closest to adulthood and most protective of their independence. A message that felt like an order seemed to work against itself. The harder it pushed, the more some young people dug in. And this matters, because the teenage years are exactly when many people first try smoking. A message that loses its audience at that moment loses it when it counts most.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "What they found",
+    "sub": "Older teens pushed back harder"
+   }
+  },
+  {
+   "say": "If the force of a message matters this much, then the individual words must matter too. Words like must, should, need to, and have to. They're tiny, but they carry a lot of pressure.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "The words we choose",
+    "sub": "Small words, big pressure"
+   }
+  },
+  {
+   "say": "In 2007, Claude Miller and his colleagues wrote health messages in two styles. One used controlling language, full of musts and shoulds. The other used softer, more autonomy-supportive wording, suggesting rather than demanding. Some messages also ended with a short line reminding readers that the choice was theirs.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Claude Miller and colleagues",
+    "where": "Human Communication Research, 2007",
+    "what": "Psychological reactance and promotional health messages: the effects of controlling language, lexical concreteness, and the restoration of freedom"
+   }
+  },
+  {
+   "say": "The controlling messages caused more reactance. People found them more threatening to their freedom, and they reacted with more irritation. But the gentler wording, and especially that small closing reminder that the decision was up to the reader, softened the reaction. A single sentence that gave the choice back made the whole message easier to hear.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The finding",
+    "sub": "Soft words, less pushback"
+   }
+  },
+  {
+   "say": "You can probably feel it just reading these. Each one sounds like it's closing a door. Put enough of them together and the message stops sounding like advice and starts sounding like a command.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "title": "Words that raise the pressure",
+    "items": [
+     "You must",
+     "You need to",
+     "It is essential that you",
+     "Any sensible person would"
+    ]
+   }
+  },
+  {
+   "say": "But what actually happens inside us when we push back? Earlier we met the idea that reactance is a mix of two things, a flash of anger and a stream of counter-arguments. That idea has since been put to the test across many studies at once.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "Anger and arguments",
+    "sub": "What reactance feels like inside"
+   }
+  },
+  {
+   "say": "In 2013, Stephen Rains gathered the results of many experiments on reactance and analysed them together. He wanted to know whether reactance really was best understood as anger and negative thoughts woven together, rather than as one or the other on its own.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Stephen Rains",
+    "where": "Human Communication Research, 2013",
+    "what": "The nature of psychological reactance revisited: a meta-analytic review"
+   }
+  },
+  {
+   "say": "His analysis supported that intertwined view. When a message threatens our freedom, we tend to feel annoyed and think critical thoughts at the same time, and the two feed each other. It's not a cold, logical rejection. It's a warm, slightly prickly one. Which might explain why it can be so hard to talk yourself out of it. You can't simply reason away a feeling that's already arguing back. Rains also pointed out that the field still had open questions, for example about how best to measure reactance. But the core picture held up well.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Woven together",
+    "sub": "Feelings and thoughts as one"
+   }
+  },
+  {
+   "say": "So the lesson for anyone giving health advice, to a friend, a partner, or a child, is simple and kind. The goal is not to win the argument. It's to keep the door open long enough for the person to choose the healthy path themselves.",
+   "show": {
+    "type": "photo",
+    "file": "lf23_b07_01.jpg",
+    "cap": "A quiet morning routine"
+   }
+  },
+  {
+   "say": "Now let's zoom out from a single message to an entire country. Because one of the clearest examples of a boomerang came from one of the largest health campaigns ever run for young people.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "n": 14,
+    "title": "A campaign on a national scale"
+   }
+  },
+  {
+   "say": "In the United States, around the turn of the century, the government ran a national youth anti-drug media campaign. For several years, adverts on television, radio and elsewhere urged teenagers to stay away from drugs, especially cannabis. It was an enormous, well-meant effort, and it was carefully evaluated.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "A huge effort",
+    "sub": "Years of adverts for teens"
+   }
+  },
+  {
+   "say": "In 2008, Robert Hornik and his colleagues published the results of that evaluation. They followed a large national sample of young people over time, measuring how much of the campaign they had seen, and what they thought and did about drugs afterwards.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Hornik, Jacobsohn, Orwin, Piesse & Kalton",
+    "where": "American Journal of Public Health, 2008",
+    "what": "Effects of the National Youth Anti-Drug Media Campaign on youths"
+   }
+  },
+  {
+   "say": "The campaign did not lower drug use. Worse, there were signs pointing the other way. Young people who saw more of the adverts were, if anything, a little more likely to believe that many other teenagers were using cannabis, and that belief was linked to more interest in trying it themselves. It's important to be careful here. This was a study that followed people over time, not a perfect controlled experiment, so it can't prove the adverts caused that shift. But the pattern was worrying enough that it changed how many researchers think about campaigns like this.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "The disappointing result",
+    "sub": "No help, and maybe a nudge"
+   }
+  },
+  {
+   "say": "Notice how this echoes the signs we met a moment ago. The campaign may have triggered reactance in some teenagers who didn't want to be told what to do. And by talking about drugs so much, it may also have sent a quiet message that drug use was common. Everyone's doing it, said between the lines.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cafe_sunset",
+    "cap": "Two backfires at once",
+    "sub": "Pushback and a hidden norm"
+   }
+  },
+  {
+   "say": "None of this means health campaigns are useless. Many have helped a great deal. But it does mean that how something is said can matter as much as what is said, especially when the listener is young and fiercely independent.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Why health messages can boomerang",
+    "items": [
+     "They sound controlling",
+     "They threaten a sense of freedom",
+     "They hint that the risky behaviour is normal",
+     "They reach people who already feel lectured"
+    ]
+   }
+  },
+  {
+   "say": "The more promising messages tend to share a few qualities. They explain rather than command. They respect the listener's ability to decide. And they show that most people are already making good choices, rather than suggesting that everyone is doing the risky thing. In short, they treat the listener as a capable adult who is perfectly able to choose well, which, for a teenager especially, can make all the difference.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cabin_fireplace",
+    "cap": "What helps instead",
+    "sub": "Respect, choice and honesty"
+   }
+  },
+  {
+   "say": "So far, we've looked at rules that come from outside. Signs, campaigns, people telling us what to do. But some of the most stubborn rules are the ones we set for ourselves. Don't think about it. Don't check your phone. Don't have that last biscuit. And our own minds, it turns out, can push back against those too.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A gentle turn",
+    "sub": "The rules we make for ourselves"
+   }
+  }
+ ]
+}

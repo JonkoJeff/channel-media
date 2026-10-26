@@ -1,0 +1,229 @@
+{
+ "id": "lf23_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think about the last time someone lowered their voice and said, actually, I probably shouldn't tell you this. Or the moment a conversation stopped the second you walked into the room. Whatever was being said, you suddenly wanted to know it far more than if they had just told you outright.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "rooftop_dusk",
+    "cap": "Not for your ears",
+    "sub": "The pull of a secret"
+   }
+  },
+  {
+   "say": "Now scale that up. A talk is cancelled. A film carries a warning. A message is taken down. The people doing it usually hope the message will lose its power. But does it? Or does trying to hide something give it a strange new pull?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "A bigger version",
+    "sub": "When a message is banned"
+   }
+  },
+  {
+   "say": "In the early 1970s, the social psychologist Stephen Worchel ran a series of experiments to find out what censorship does to the people who are kept from hearing.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "n": 7,
+    "title": "Censorship and forbidden information"
+   }
+  },
+  {
+   "say": "In 1973, Worchel and his colleague Arnold told students they were about to hear a speech arguing for a particular position on a campus issue. Some of the students then heard the speech. Others were told that it had been censored, and that they would not be allowed to hear it after all.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Worchel & Arnold",
+    "where": "Journal of Experimental Social Psychology, 1973",
+    "what": "The effects of censorship and attractiveness of the censor on attitude change"
+   }
+  },
+  {
+   "say": "The students who had been kept from the speech wanted to hear it more than the students who expected to hear it. And something even stranger happened. Their own views tended to shift toward the position the banned speech was arguing for, even though they had never heard a single word of it.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "The finding",
+    "sub": "Wanting it more, agreeing more"
+   }
+  },
+  {
+   "say": "Think about how odd that is. Nobody gave them a reason. Nobody made a case. All they knew was that someone didn't want them to hear it. And that alone seemed to make the message more appealing. Censorship had done some of the speaker's persuading for them. It's as if the mind reasons, quietly and without asking us, if they're so keen to stop me hearing it, there must be something to it.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Agreeing with silence",
+    "sub": "A message that was never heard"
+   }
+  },
+  {
+   "say": "Worchel didn't stop there. In 1975, together with Arnold and Baker, he published further experiments on the same question, varying who the censor was and what kind of message was being blocked. Again and again, the act of censoring tended to make the blocked message more wanted, and to pull opinions a little toward it.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Not a one-off",
+    "sub": "A pattern that repeated"
+   }
+  },
+  {
+   "say": "So, in these studies, censorship seemed to backfire in a few quiet ways. It made people want the message more. It nudged their views toward it. It worked even when nobody heard a word. And it turned the act of hiding into a kind of argument of its own.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "What censorship seemed to do",
+    "items": [
+     "Made people want the message more",
+     "Nudged opinions toward it",
+     "Worked without anyone hearing it",
+     "Turned the censor into a reason"
+    ]
+   }
+  },
+  {
+   "say": "It leaves anyone who wants to hide a message in an awkward spot. Say nothing, and the message spreads. Block it, and you may make it more interesting than it ever was. Even the act of hiding sends a signal of its own, that this is something powerful, something worth being kept from you.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "The censor's dilemma",
+    "sub": "Silence speaks too"
+   }
+  },
+  {
+   "say": "But not every warning is a ban. What about the gentle labels we see every day, the ones that tell us a film contains violence, or that viewer discretion is advised?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "n": 8,
+    "title": "Forbidden fruit or tainted fruit"
+   }
+  },
+  {
+   "say": "There are two ways a label like that could work. It could act like tainted fruit, quietly making the thing seem less appealing. Or it could act like forbidden fruit, making it look more tempting precisely because someone is telling us to be careful. Which one wins?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Two possible effects",
+    "sub": "Push away or pull in"
+   }
+  },
+  {
+   "say": "In 1996, Brad Bushman and Angela Stack showed people descriptions of television films, some with warning labels and some without. Some labels were purely informational, simply saying that a film contained violence. Others were more restrictive, suggesting that viewers should use discretion. Then they asked people how much they wanted to watch each film. It was a simple setup, but it went straight to the heart of the question. Does a warning keep people away, or draw them closer?",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Bushman & Stack",
+    "where": "Journal of Experimental Psychology: Applied, 1996",
+    "what": "Forbidden fruit versus tainted fruit: Effects of warning labels on attraction to television violence"
+   }
+  },
+  {
+   "say": "The restrictive labels tended to increase interest in the violent films. The informational ones had much less of that effect. And the pull of the restrictive labels was strongest in people who scored high on a questionnaire measuring how strongly they tend to react against restrictions. The warning had become an invitation, especially for those who dislike being told what to do. Plain facts left people free to choose. Hints of restriction seemed to poke at that freedom.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "The finding",
+    "sub": "Restrictive labels pulled people in"
+   }
+  },
+  {
+   "say": "Seven years later, in 2003, Brad Bushman and Joanne Cantor brought together the results of many studies on age ratings and warnings for films, television and games. They wanted to know whether ratings meant to keep children away actually did so, or whether they sometimes did the very opposite of what parents and policymakers had hoped.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Bushman & Cantor",
+    "where": "American Psychologist, 2003",
+    "what": "Media ratings for violence and sex: Implications for policymakers and parents"
+   }
+  },
+  {
+   "say": "Their review suggested that the answer depends on age. Restrictive ratings tended to make the content more attractive to older children and teenagers, the age when being treated as grown-up matters a great deal. Younger children, on the other hand, were more often put off by the same ratings.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "The finding",
+    "sub": "Age changes the effect"
+   }
+  },
+  {
+   "say": "That fits reactance rather neatly. A young child doesn't yet feel that choosing a film is their freedom to defend. An older child or a teenager very much does. And a label that says this isn't for you lands on exactly the freedom they're trying hardest to claim.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "Why age matters",
+    "sub": "Freedom feels bigger"
+   }
+  },
+  {
+   "say": "There's an old reason why stories so often feature a box that must not be opened, or a room that must never be entered. The moment something is closed off, it gains a pull it never had while it sat in the open. The studies simply put a measure on a feeling storytellers have known about for a very long time.",
+   "show": {
+    "type": "photo",
+    "file": "lf23_b04_01.jpg",
+    "cap": "A closed box"
+   }
+  },
+  {
+   "say": "These were mostly lab studies, with students and ratings on questionnaires, rather than people choosing what to watch at home. Real life is messier, and a label can still be genuinely useful for the many people who want the information. The point isn't that warnings are bad. It's that the way they're worded matters.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A fair caution",
+    "sub": "Labs, not real life"
+   }
+  },
+  {
+   "say": "So here's what this research suggests. Banning a message can raise interest in it. Restrictive wording tends to pull harder than plain information. Simply describing what something contains seems to trigger far less pushback. And the effect is strongest at exactly the age when people most want to decide for themselves.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "title": "Hiding something often backfires",
+    "items": [
+     "Bans can raise interest",
+     "Restrictive wording pulls harder",
+     "Plain information pulls less",
+     "Older kids and teens react most"
+    ]
+   }
+  },
+  {
+   "say": "So if you ever need to warn someone about something, a film, a habit, a place, it may help to inform rather than forbid. Tell them what it is and why it might matter, and then let them decide. You lose a little control over the outcome, but you avoid handing them a reason to rebel.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "What it means for you",
+    "sub": "Inform, don't forbid"
+   }
+  },
+  {
+   "say": "And there's a close cousin of forbidden information that shapes us almost every day. It isn't a ban at all. It's simply the feeling that something is running out. The last one left. The chance that won't come again. Why does scarcity make things feel so precious?",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Rare and precious"
+   }
+  }
+ ]
+}

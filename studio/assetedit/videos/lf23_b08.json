@@ -1,0 +1,233 @@
+{
+ "id": "lf23_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a small experiment you can try right now, from wherever you're listening. For the next few seconds, please don't think about a white bear. Not a polar bear on the ice, not a fluffy white bear in the snow. Any bear at all, really, as long as it's white. Just don't think about it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "n": 15,
+    "title": "The white bear"
+   }
+  },
+  {
+   "say": "So, how did that go? If you're like most people, the bear arrived almost instantly. Maybe it was sitting on a block of ice. Maybe it was looking right at you. The very instruction not to think about it seemed to bring it into the room.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "How did that go?",
+    "sub": "There it is again"
+   }
+  },
+  {
+   "say": "This isn't a new discovery. In 1863, the Russian writer Fyodor Dostoevsky described almost exactly this in a travel essay. Try to set yourself the task of not thinking about a polar bear, he wrote, and you will see that the cursed thing comes to mind every minute. For more than a hundred years, it stayed a clever remark. Then a psychologist decided to take it seriously.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "An old observation",
+    "sub": "A puzzle from 1863"
+   }
+  },
+  {
+   "say": "And it's a fair question for all of us. We give ourselves little mental rules all the time. Don't think about the exam. Don't think about that awkward thing you said. Don't think about the cake in the kitchen. But can we actually switch off a thought on command? Or does trying make it louder?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "The question",
+    "sub": "Can we switch off a thought?"
+   }
+  },
+  {
+   "say": "In 1987, Daniel Wegner and his colleagues asked students to sit alone and say their thoughts out loud for a few minutes. Some were told to try not to think of a white bear, and to ring a small bell every time a white bear came to mind anyway. Afterwards, they were allowed, and even asked, to think about the white bear freely.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Wegner, Schneider, Carter & White",
+    "where": "Journal of Personality and Social Psychology, 1987",
+    "what": "Paradoxical effects of thought suppression"
+   }
+  },
+  {
+   "say": "The students couldn't keep the bear away. They kept ringing the bell, again and again, even while they were trying hard. But the most interesting part came afterwards. When the ban was lifted, the people who had first tried to suppress the thought ended up thinking about the white bear more than people who had been allowed to think about it from the start.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "What they found",
+    "sub": "The bear kept coming back"
+   }
+  },
+  {
+   "say": "Wegner called this a rebound. Pushing a thought away didn't just fail in the moment. It seemed to store it up, so that it came back stronger once you stopped pushing. A thought you try to forbid can become a thought you can't stop having.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The rebound effect",
+    "sub": "Pushed away, it comes back"
+   }
+  },
+  {
+   "say": "You may have felt this with a song stuck in your head, or a worry before sleep. The harder you tell yourself to stop, the more firmly it seems to settle in. It's almost as if the mind treats the rule as a reminder.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "Sound familiar?",
+    "sub": "The song you cannot shake"
+   }
+  },
+  {
+   "say": "We all have our own white bears. Little thoughts we'd rather not have, which seem to grow bolder the more firmly we close the door on them. Keep one of yours in mind, because the explanation for why they behave this way is rather lovely.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "title": "Everyday white bears",
+    "items": [
+     "A worry you try to push away at night",
+     "A song you wish would stop playing in your head",
+     "Something embarrassing you said years ago",
+     "A treat you promised yourself you would not have"
+    ]
+   }
+  },
+  {
+   "say": "So why does this happen? Why can't the mind simply obey? A few years later, Wegner offered an explanation that is still one of the most elegant in psychology.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "n": 16,
+    "title": "Two little helpers"
+   }
+  },
+  {
+   "say": "In 1994, Wegner published his theory of ironic processes. He suggested that whenever we try to control our minds, two processes switch on. One works hard to do what we want, to fill our attention with anything but the forbidden thought. The other quietly keeps watch, checking now and then whether the forbidden thought has slipped in.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Daniel Wegner",
+    "where": "Psychological Review, 1994",
+    "what": "Ironic processes of mental control"
+   }
+  },
+  {
+   "say": "The irony is in that second helper. To check whether you're thinking about the white bear, the monitor has to keep the white bear somewhere close by. It's like a guard who has to keep looking at the door he's meant to forget. Every time he checks, he reminds himself that the door is there.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Two processes in your mind",
+    "items": [
+     "An operator that steers you away",
+     "A monitor that keeps checking for the forbidden thought",
+     "The monitor keeps the thought nearby"
+    ]
+   }
+  },
+  {
+   "say": "Most of the time, the operator does its job well enough. But when we're tired, stressed, rushed or distracted, the operator runs out of steam. The monitor, though, keeps going, because it needs very little effort. And so, under pressure, the forbidden thought slips through more easily than ever.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "When we are tired",
+    "sub": "The watcher wins"
+   }
+  },
+  {
+   "say": "Wegner wanted to see whether the same thing happened with our bodies, not just our thoughts. And he found a beautifully simple way to test it, with a tiny weight on a string. A pendulum is wonderfully sensitive. Even the smallest movements of your hand, ones you don't notice making, show up in the way it swings.",
+   "show": {
+    "type": "photo",
+    "file": "lf23_b08_01.jpg",
+    "cap": "A pendulum at rest"
+   }
+  },
+  {
+   "say": "In 1998, Wegner, Matthew Ansfield and Daniel Pilloff asked people to hold a pendulum and keep it from swinging in one particular direction. Some did this while also doing a demanding mental task, like counting backwards. In another study, golfers were asked to putt a ball and make sure not to overshoot the target.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Wegner, Ansfield & Pilloff",
+    "where": "Psychological Science, 1998",
+    "what": "The putt and the pendulum: ironic effects of the mental control of action"
+   }
+  },
+  {
+   "say": "When people were mentally busy, the pendulum swung more in the very direction they were trying to avoid. And the golfers under pressure were more likely to overshoot, the one thing they had been told not to do. The instruction to avoid something seemed to pull them straight towards it. If you've ever thought, whatever you do, don't drop this, right before dropping it, you've felt the same thing. The warning puts the mistake at the front of your mind, and when your attention is stretched, the body follows the picture rather than the rule.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "The result",
+    "sub": "Moving towards the forbidden"
+   }
+  },
+  {
+   "say": "Of course, one famous study isn't the whole story. Over the years, many researchers tried to repeat the white bear finding, and the results were more mixed than the original suggested.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "How strong is the rebound?",
+    "sub": "A careful second look"
+   }
+  },
+  {
+   "say": "In 2001, Jonathan Abramowitz, David Tolin and Gordon Street pulled together many controlled studies of thought suppression. They found that the rebound effect was real, but modest. It didn't appear in every study, and it was smaller than the dramatic stories sometimes suggest. The effect also seemed to depend on how the studies were set up, for example on how long people suppressed the thought, and how their thoughts were counted afterwards.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Abramowitz, Tolin & Street",
+    "where": "Clinical Psychology Review, 2001",
+    "what": "Paradoxical effects of thought suppression: a meta-analysis of controlled studies"
+   }
+  },
+  {
+   "say": "So the honest summary is this. Trying not to think about something doesn't always backfire, and the backfire isn't usually huge. But it's a real tendency, and it seems to matter most for the thoughts we care about, and at the moments when we're most tired or stressed.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "What this means",
+    "sub": "Real, but not magic"
+   }
+  },
+  {
+   "say": "That's why many therapists now suggest a softer approach. Rather than ordering a thought to leave, you notice it, let it be, and gently turn your attention to something else. Strangely, a thought that's allowed to stay often leaves sooner.",
+   "show": {
+    "type": "list",
+    "sprite": "A20",
+    "bg": "cabin_fireplace",
+    "title": "Gentler ways to handle an unwanted thought",
+    "items": [
+     "Let it pass instead of fighting it",
+     "Choose one specific thing to focus on instead",
+     "Set aside a little time later to think it through"
+    ]
+   }
+  },
+  {
+   "say": "And there's one area of life where these inner rules show up more than almost anywhere else. Food. Don't eat the biscuits. No sweets before dinner. These rules are often set for children by the people who love them most. So what happens to a child, and to a snack, when it's declared off-limits? That's where we're going next.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A bridge",
+    "sub": "When the rule is about food"
+   }
+  }
+ ]
+}

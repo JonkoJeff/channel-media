@@ -1,0 +1,254 @@
+{
+ "id": "lf23_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Welcome. Get comfortable, and let your shoulders drop a little. Tonight begins with a small, very human moment. Someone says, whatever you do, don't look behind you. Or, don't press that button. And suddenly the one thing in the whole world you want to do is look, or press. A second ago you didn't care at all. So what just happened inside your head?",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "Settle in",
+    "sub": "Whatever you do, don't..."
+   }
+  },
+  {
+   "say": "It happens to all of us. A door marked private looks far more interesting than an open one. A friend says you probably wouldn't like a film, and now you simply have to see it. A rule appears, and with it comes a quiet little urge to test it. Psychologists have a name for that urge, and a surprising amount of research behind it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The pull of no",
+    "sub": "Why a ban makes us want"
+   }
+  },
+  {
+   "say": "Tonight, we'll follow that urge wherever it shows up. In playrooms and in love stories. In warning labels, in signs along park paths, in health campaigns, and in the rules we quietly set for ourselves. We'll ask who pushes back the most, whether reverse psychology actually works, and how you might persuade someone without pushing at all.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Forbidden toys",
+     "The Romeo and Juliet effect",
+     "Censorship and forbidden information",
+     "Why scarcity feels precious",
+     "Signs that backfire",
+     "Health messages that boomerang",
+     "The rules we set for ourselves",
+     "Forbidden snacks",
+     "Who pushes back the most",
+     "Teenagers and freedom",
+     "Does reverse psychology work?",
+     "Why a sense of control matters",
+     "Persuading without pushing",
+     "Noticing it in yourself"
+    ]
+   }
+  },
+  {
+   "say": "As always, everything tonight comes from named studies, with the doubts left in. A few famous findings in this area have not held up well when others tried to repeat them, and I'll tell you when that happens. Near the end, the pace will slow into a gentle wind-down, so if you drift off somewhere along the way, that's perfectly alright.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "A promise",
+    "sub": "Studies, with the doubts left in"
+   }
+  },
+  {
+   "say": "Let's begin with one of the most famous scenes in American fiction, because it captures the whole idea in a single summer afternoon.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 1,
+    "title": "A fence on a Saturday"
+   }
+  },
+  {
+   "say": "In 1876, Mark Twain published The Adventures of Tom Sawyer. Early in the book, Tom's Aunt Polly orders him to whitewash a long wooden fence on a bright Saturday morning, while every other boy in town is free to play. It's a punishment, and everyone knows it. So Tom does something rather clever.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "street_day",
+    "cap": "Tom Sawyer's fence",
+    "sub": "A punishment on a sunny day"
+   }
+  },
+  {
+   "say": "When a friend wanders past and teases him about having to work, Tom acts as if painting the fence is a rare pleasure. He doesn't ask for help. He hints that not just anyone could be trusted to do it well. Soon his friend is begging for a turn, and offering him an apple for the chance. By the end of the afternoon, half the boys in town have taken a turn with the brush.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "street_day",
+    "cap": "The trick",
+    "sub": "Make it look like a privilege"
+   }
+  },
+  {
+   "say": "Twain sums it up himself. Work consists of whatever a body is obliged to do, and play consists of whatever a body is not obliged to do. The fence didn't change. The paint didn't change. What changed was whether painting felt like something forced on you, or something you had chosen.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "text": "Work consists of whatever a body is obliged to do, and Play consists of whatever a body is not obliged to do.",
+    "by": "Mark Twain, 1876"
+   }
+  },
+  {
+   "say": "Of course, Tom Sawyer is a story, not an experiment. But about ninety years later, a psychologist set out to explain the very instinct Twain had noticed. Why does being told we can't, or that we must, so often make us lean the other way?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Fiction, not data",
+    "sub": "But a very real instinct"
+   }
+  },
+  {
+   "say": "And that brings us to the idea at the heart of tonight. It has a slightly technical name, but a very familiar feeling.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "n": 2,
+    "title": "What reactance is"
+   }
+  },
+  {
+   "say": "In 1966, the American psychologist Jack Brehm published a short book called A Theory of Psychological Reactance. His starting point was simple. We all carry around a sense of the things we're free to do, to think and to choose. When one of those freedoms is threatened or taken away, we feel an unpleasant push to win it back. Brehm called that push reactance.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Jack Brehm",
+    "where": "Academic Press, 1966",
+    "what": "A Theory of Psychological Reactance"
+   }
+  },
+  {
+   "say": "His idea comes in a few simple steps. First, you have to believe you have a freedom in the first place. Then something threatens it, or takes it away. That stirs up a motivation to get it back. And one of the clearest signs of that motivation is that the forbidden option suddenly looks better than it did before.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "Reactance, step by step",
+    "items": [
+     "You believe you have a freedom",
+     "Something threatens or removes it",
+     "You feel a push to restore it",
+     "The lost option looks more attractive"
+    ]
+   }
+  },
+  {
+   "say": "That last part is the strange one. Reactance often has very little to do with the thing itself. You weren't thinking about the button. You had no plans to look behind you. What you want is to keep the feeling that the choice is yours. The button just happens to be where your freedom was poked.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "Not about the thing",
+    "sub": "It's about the choice"
+   }
+  },
+  {
+   "say": "Here's a quiet experiment about wanting what you can't have. In 1966, Jack Brehm and his colleagues tested the idea with music. People listened to several recordings and rated how much they liked each one, expecting to choose one to keep as a thank-you for taking part. Then some of them were told that one of the recordings would not be available after all, because it hadn't arrived.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Brehm, Stires, Sensenig & Shaban",
+    "where": "Journal of Experimental Social Psychology, 1966",
+    "what": "The attractiveness of an eliminated choice alternative"
+   }
+  },
+  {
+   "say": "When people rated the recordings again, the one that had just been taken off the table tended to rise in their estimation. Nothing about the music had changed. It was the same song, in the same voice. It had simply become the one they could no longer have.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The finding",
+    "sub": "Gone, and suddenly better"
+   }
+  },
+  {
+   "say": "Fifteen years later, in 1981, Sharon Brehm and Jack Brehm expanded the idea into a much larger book, called Psychological Reactance, A Theory of Freedom and Control. By then, researchers had found reactance in all sorts of places, from children's play to persuasive messages. But one question stayed surprisingly hard to answer. What does reactance actually feel like from the inside?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "A bigger picture",
+    "sub": "Freedom and control"
+   }
+  },
+  {
+   "say": "In 2005, the communication researchers James Dillard and Lijiang Shen took on that question. They showed people health messages, some worded gently and some worded in a more forceful, demanding way. Then they measured how people felt while reading, and asked them to write down the thoughts that went through their minds.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Dillard & Shen",
+    "where": "Communication Monographs, 2005",
+    "what": "On the nature of reactance and its role in persuasive health communication"
+   }
+  },
+  {
+   "say": "Their analysis suggested that reactance is made of two things tangled together. A flash of irritation, sometimes real anger. And a stream of silent arguing back, the little voice that says, who are you to tell me that? And the more of this people felt, the less they tended to agree with the message itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Anger and arguing back",
+    "sub": "Two threads woven together"
+   }
+  },
+  {
+   "say": "So if you ever want to catch it in yourself, it tends to arrive as a small cluster. A flicker of annoyance. An argument forming quietly in your head. The forbidden thing glowing a little brighter. And sometimes an urge to do exactly the opposite of what you were asked, just to prove that you can.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "title": "How reactance usually shows up",
+    "items": [
+     "A flicker of annoyance",
+     "An argument forming in your head",
+     "The banned thing glowing brighter",
+     "An urge to do the opposite"
+    ]
+   }
+  },
+  {
+   "say": "And there's something almost touching about it, once you see it clearly. Reactance is a little alarm that protects your sense of being the one who decides. It isn't stubbornness for its own sake. It's the mind guarding the feeling that your life is, at least partly, your own.",
+   "show": {
+    "type": "photo",
+    "file": "lf23_b01_01.jpg",
+    "cap": "A gate left open"
+   }
+  },
+  {
+   "say": "That alarm isn't always wise, of course. Sometimes it pushes us toward the very thing we'd be better off avoiding. Sometimes it makes good advice harder to hear. But it isn't a flaw to be ashamed of. It's one of the most human reflexes we have, and once you know its shape, you start noticing it everywhere.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "Not a flaw",
+    "sub": "A very human reflex"
+   }
+  },
+  {
+   "say": "And perhaps the clearest place to see it is in the very young. Long before anyone can explain what freedom means, a small child already seems to know when a toy has been put just out of reach. So let's start there, in a quiet playroom, with a toy that has suddenly become a little harder to get.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Up next",
+    "sub": "Toys behind a barrier"
+   }
+  }
+ ]
+}

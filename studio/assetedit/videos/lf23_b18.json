@@ -1,0 +1,162 @@
+{
+ "id": "lf23_b18",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now, if you like, let's take a slow walk together in your imagination. There's no destination, and no map. You can turn wherever you want, stop whenever you want, and go back whenever you want. Tonight, there are no rules on this walk.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "An evening walk",
+    "sub": "No map tonight"
+   }
+  },
+  {
+   "say": "Imagine stepping out of a quiet door at the edge of a small town, just as the evening light is fading. The air is mild and still. The sky above you is turning from soft gold to a deep, gentle blue. Somewhere far away, a dog barks once, and then everything is quiet again.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The edge of town",
+    "sub": "The light is fading"
+   }
+  },
+  {
+   "say": "As you start to walk, notice what's around you. The cool air touching your face. The faint smell of stones still warm from the afternoon sun. A soft breeze moving through the trees. And the sound of your own footsteps, slow and unhurried.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "What you notice first",
+    "items": [
+     "Cool air on your face",
+     "The smell of warm stones",
+     "A breeze in the trees",
+     "Your own slow footsteps"
+    ]
+   }
+  },
+  {
+   "say": "There's no one to keep up with. You can walk as slowly as you like. Slower than you've walked all day. Each step a little easier than the one before. Let your arms swing loosely at your sides, and let your breathing match the gentle rhythm of your feet.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Your own pace",
+    "sub": "No one to keep up with"
+   }
+  },
+  {
+   "say": "After a while, the path divides. One way leads along a low stone wall. The other winds gently down towards a meadow. You don't need to think about it. Any way you choose is the right way tonight. Let your feet decide, and follow them.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "A fork in the path",
+    "sub": "Any way is the right way"
+   }
+  },
+  {
+   "say": "The path you've chosen is soft underfoot, a little grassy at the edges. Tall wild grasses sway beside it, silver in the dusk. In the distance, a few small windows glow amber, little squares of warmth in the gathering dark.",
+   "show": {
+    "type": "photo",
+    "file": "lf23_b18_01.jpg",
+    "cap": "A path with no wrong turns"
+   }
+  },
+  {
+   "say": "If you'd like to stop for a moment, you can. Just stand still and listen. The grasses whisper. A small bird calls once from a hedge, then settles for the night. Nothing needs your attention. Nothing needs to be done. You're simply here, and that's enough.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "No hurry",
+    "sub": "Stop whenever you like"
+   }
+  },
+  {
+   "say": "As you walk on, little things appear along the way. A wooden gate, left open, as if inviting you through. A bench beneath an old tree. A few moths drifting slowly around a lantern on a post. And high above, the first faint star of the evening.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "title": "Along the way",
+    "items": [
+     "A gate left open",
+     "A bench under an old tree",
+     "Moths near a lantern",
+     "The first faint star"
+    ]
+   }
+  },
+  {
+   "say": "If you'd like to rest, sit down on the bench beneath the tree. The wood is smooth and still a little warm. Lean back. Let your legs stretch out in front of you. Feel how good it is to stop, with nowhere else you're supposed to be.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "Rest on the bench",
+    "sub": "If you like"
+   }
+  },
+  {
+   "say": "From the bench, watch the sky slowly deepen. Blue becomes darker blue, and darker still. More stars appear, one by one, quietly, without any hurry. No one tells them when to come out. They simply arrive, each in its own time.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "The sky deepens",
+    "sub": "Blue into night"
+   }
+  },
+  {
+   "say": "Let your breathing slow down with the evening. In, softly. Out, even more softly. Each breath a little longer, a little lighter. Like the evening itself, settling, slowly, into night.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Breathing with the evening",
+    "sub": "Slow and easy"
+   }
+  },
+  {
+   "say": "There's nothing to decide here. No plans to make. No pressure from anyone. No rules to follow, or to push against. Only rest. Let those words settle gently, like dust in still air. No plans. No pressure. No rules. Only rest.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "title": "Nothing to decide",
+    "items": [
+     "No plans",
+     "No pressure",
+     "No rules",
+     "Only rest"
+    ]
+   }
+  },
+  {
+   "say": "When you're ready, and only if you want to, rise from the bench and walk on a little further. Your steps are slower now, heavier, relaxed. The path curves gently ahead, leading somewhere soft and quiet, somewhere you'll be glad to find.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "Walking on",
+    "sub": "Slower than before"
+   }
+  },
+  {
+   "say": "Up ahead, there's a low wall with a small gate in it, and beyond the gate, the dark shapes of a quiet garden. The gate swings open easily at your touch. No one is waiting for you to arrive. You're simply free to wander in.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "cap": "Towards a garden",
+    "sub": "A little gate ahead"
+   }
+  }
+ ],
+ "pause": 1.6
+}

@@ -1,0 +1,239 @@
+{
+ "id": "lf23_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "And if there is one stage of life where all of this shows up most clearly, most of us remember it from the inside. The teenage years. The age of the slammed door, the rolled eyes, and the famous words, you can't tell me what to do.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 21,
+    "title": "Teenagers and the closed door"
+   }
+  },
+  {
+   "say": "Picture a fifteen-year-old on a school night. A parent leans in the doorway and says, you're not going out tonight, and you're definitely not seeing that friend again. Before the sentence is even finished, something in the teenager hardens. Not because the friend is so wonderful, but because the choice was just taken away.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "A familiar evening",
+    "sub": "The doorway moment"
+   }
+  },
+  {
+   "say": "For a long time, the easy explanation was that teenagers are simply rebellious by nature. Hormones, moods, a phase they grow out of. But that never quite explained why the same teenager could accept one rule calmly and fight another one with everything they had. So what is really going on behind that closed door?",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "The old explanation",
+    "sub": "Hormones and rebellion?"
+   }
+  },
+  {
+   "say": "A big part of the answer comes from self-determination theory, developed over decades by Edward Deci and Richard Ryan. In a well-known paper published in 2000 in the journal Psychological Inquiry, they described three basic psychological needs that every person has. Autonomy, the sense that what you do comes from you. Competence, the sense that you can handle things. And relatedness, the sense that you belong with other people.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "title": "Three basic needs",
+    "items": [
+     "Autonomy: feeling that your actions are your own",
+     "Competence: feeling capable",
+     "Relatedness: feeling connected to others"
+    ]
+   }
+  },
+  {
+   "say": "Now, autonomy is easy to misunderstand. It doesn't mean doing whatever you like, or never listening to anyone. You can follow advice and still feel autonomous, as long as you understand it and agree with it. What frustrates autonomy is the feeling of being pushed, pressured, or controlled from the outside.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Not about doing whatever you want",
+    "sub": "Autonomy means ownership"
+   }
+  },
+  {
+   "say": "And in the teenage years, that need is turned up loud. A young person is busy working out who they are, separate from their parents. So a rule that feels controlling doesn't just limit an evening. It seems to say, you are not yet your own person. And that's exactly the message a teenager is most sensitive to.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Why teenagers feel it so strongly",
+    "sub": "A self under construction"
+   }
+  },
+  {
+   "say": "So is teenage defiance really about the rules themselves? Or about the way the rules arrive? A team of researchers in Belgium set out to test exactly that.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "n": 22,
+    "title": "Rebels with a cause"
+   }
+  },
+  {
+   "say": "In 2015, Stijn Van Petegem and his colleagues published four studies with nearly fifteen hundred young people in total. They looked at secondary school students, at mothers and their teenagers, and even at a small group of boys in residential mental health care. They measured how controlling the parenting felt, how frustrated the teenagers' need for autonomy was, and how much reactance they showed.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Van Petegem, Soenens, Vansteenkiste & Beyers",
+    "where": "Child Development, 2015",
+    "what": "Rebels with a cause? Adolescent defiance from the perspective of reactance theory and self-determination theory"
+   }
+  },
+  {
+   "say": "The same chain appeared again and again. Controlling parenting went together with more frustration of the need for autonomy. That frustration went together with more reactance, the urge to push back. And reactance, in turn, went together with more problems, both outward ones like rule-breaking and inward ones like low mood.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "The chain they found",
+    "sub": "Control, frustration, defiance"
+   }
+  },
+  {
+   "say": "And this wasn't limited to one kind of teenager. The pattern looked much the same for boys and girls, for younger and older teenagers, whether the teenagers themselves or their mothers did the reporting, and in the clinical group as well as in ordinary schools. Whatever else differs between families, this chain seemed to run through many of them.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Not just one kind of family",
+    "sub": "The pattern held widely"
+   }
+  },
+  {
+   "say": "But here's the part I find most interesting. Simply having rules was mostly not linked to that frustration or defiance. Teenagers could live with rules. What stirred them up was the controlling way rules were sometimes delivered. Guilt, pressure, threats, the sense of being managed rather than spoken to.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "cap": "The surprising part",
+    "sub": "Rules were not the problem"
+   }
+  },
+  {
+   "say": "In their fourth study, the researchers gave teenagers a short scenario. Imagine you come home with poor grades, and your mother asks you to study more. Some read a controlling version of her words, some a neutral version, and some an autonomy-supportive version, one that explained the reason and acknowledged how they might feel.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Van Petegem and colleagues",
+    "where": "Child Development, 2015, vignette study",
+    "what": "The same request, said three different ways"
+   }
+  },
+  {
+   "say": "The request was the same in every version. Study more. Yet the controlling version stirred up more reactance. And the more reactance teenagers felt, the less they intended to actually study. The pressure didn't just feel bad. It worked against the very thing the parent wanted.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "Same message, different reaction",
+    "sub": "Tone changed everything"
+   }
+  },
+  {
+   "say": "The study also echoed what we saw a moment ago about personality. Teenagers who were generally more prone to reactance, the ones who bristle easily at any kind of pressure, felt the controlling version even more strongly. So the same words from the same parent can land very differently on two siblings at the same kitchen table.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Some feel it more",
+    "sub": "A built-in sensitivity"
+   }
+  },
+  {
+   "say": "That is reverse psychology at its most ordinary. Nobody is trying to trick anyone. A worried parent pushes a little harder, and the push itself becomes the reason not to move. Most families have lived some version of this, from both sides of the door.",
+   "show": {
+    "type": "photo",
+    "file": "lf23_b11_01.jpg",
+    "cap": "A quiet corner at home"
+   }
+  },
+  {
+   "say": "So if pushing backfires, how do parents ever know what's going on in a teenager's life? One study turned the usual answer upside down.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "What parents actually know",
+    "sub": "Telling or tracking?"
+   }
+  },
+  {
+   "say": "In 2000, Margaret Kerr and Hakan Stattin in Sweden asked a large group of fourteen-year-olds and their parents about how much parents knew of their teenager's whereabouts, friends and activities, and where that knowledge came from. Was it from asking questions and setting rules? Or from the teenager simply telling them?",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Kerr & Stattin",
+    "where": "Developmental Psychology, 2000",
+    "what": "What parents know, how they know it, and several forms of adolescent adjustment"
+   }
+  },
+  {
+   "say": "Most of what parents knew came from the teenager's own willingness to share. Questioning and control contributed far less. And that willingness to share was connected to a warm, open relationship. In other words, the closed door opens from the inside, and it opens most easily for someone who doesn't try to force it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "The answer",
+    "sub": "Telling, not tracking"
+   }
+  },
+  {
+   "say": "This fits with earlier work by Brian Barber, published in 1996. He separated two kinds of parental control. Behavioural control, meaning clear rules and knowing what's going on, and psychological control, meaning guilt, withdrawing love, and pressure on a child's thoughts and feelings. Psychological control was the kind linked with more difficulties in young people.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "who": "Brian Barber",
+    "where": "Child Development, 1996",
+    "what": "Parental psychological control: revisiting a neglected construct"
+   }
+  },
+  {
+   "say": "So the research points in a fairly gentle direction. Rules are fine. Limits are fine. What helps is the way they're offered. A reason. A chance to be heard. Some real choice within the limit. And a calm tone, rather than guilt or threats.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What helps a teenager say yes",
+    "items": [
+     "A clear reason for the rule",
+     "Room to share their view",
+     "Choice where choice is possible",
+     "Calm words instead of pressure"
+    ]
+   }
+  },
+  {
+   "say": "And if you remember being that teenager, slamming that door, it might be worth looking back a little more kindly. You probably weren't just being difficult. Part of you was protecting something important, the slowly growing sense that your life was your own.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "cap": "If you were that teenager",
+    "sub": "Looking back kindly"
+   }
+  },
+  {
+   "say": "Of course, that need doesn't disappear at eighteen. Adults feel it too, at work, in relationships, even when a friend tells us what we should obviously do. Which raises a fair question. If people push back so reliably, could you turn that around on purpose? Does reverse psychology actually work?",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "autumn_overlook",
+    "cap": "And it never fully leaves",
+    "sub": "The adult version"
+   }
+  }
+ ]
+}

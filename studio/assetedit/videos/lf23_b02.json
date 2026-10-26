@@ -1,0 +1,214 @@
+{
+ "id": "lf23_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "If you've ever spent time with a small child, you may have seen this. A room full of toys, and the child is happily playing with all of them. Then an adult picks one up and puts it on a high shelf. And from that moment on, it's the only toy in the room that matters. The rest might as well be invisible.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "The high shelf",
+    "sub": "Suddenly the only toy"
+   }
+  },
+  {
+   "say": "It's tempting to call that simple curiosity, or a toddler being a toddler. But it raises a real question. Reactance is about feeling that a freedom has been taken away. Can a two-year-old, who can barely say the word mine, already feel that? Researchers decided to find out.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Too young for it?",
+    "sub": "Freedom before words"
+   }
+  },
+  {
+   "say": "The setting they chose was about as simple as an experiment can be. Two toys, one small child, and a clear wall.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 3,
+    "title": "Toys behind a barrier"
+   }
+  },
+  {
+   "say": "In 1977, Sharon Brehm and Marsha Weinraub invited two-year-olds into a playroom with their mothers. Each child was shown two equally appealing toys. One was placed in the open. The other was placed behind a transparent barrier, so the child could still see it clearly and could still get to it, but only with a little more effort.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Brehm & Weinraub",
+    "where": "Journal of Personality and Social Psychology, 1977",
+    "what": "Physical barriers and psychological reactance: 2-yr-olds' responses to threats to freedom"
+   }
+  },
+  {
+   "say": "The boys in the study tended to head for the toy behind the barrier, and spent more time with it, even though an equally appealing toy was sitting right there in the open, no effort required. The girls did not show the same pattern. Why boys and girls differed here, nobody can say for sure from one study.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "The finding",
+    "sub": "The harder toy won"
+   }
+  },
+  {
+   "say": "It's one small study, with a fairly small group of children, so it's best treated as a hint rather than a law. But it's a charming hint. Before children can explain the idea of freedom, some of them already seem to treat a blocked option as a more interesting one. A barrier quietly says, this is not for you. And something in them answers, we'll see about that.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "What it suggests",
+    "sub": "The seeds of reactance"
+   }
+  },
+  {
+   "say": "And yet, every parent knows that forbidding something doesn't always make it irresistible. Sometimes a child is told no, and simply loses interest. So what makes the difference? Two famous experiments from the 1960s offer a surprising answer, and it has to do with how loudly the no is spoken.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "The other direction",
+    "sub": "When forbidding works"
+   }
+  },
+  {
+   "say": "Imagine you have to leave a child alone with a toy they're not allowed to touch. Do you say it gently? Or do you make it very clear what will happen if they disobey?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "n": 4,
+    "title": "A mild word or a stern one"
+   }
+  },
+  {
+   "say": "In 1963, Elliot Aronson and Merrill Carlsmith asked preschool children to rank a set of toys from favourite to least favourite. Then the experimenter said he had to leave the room for a while, on an errand, and that the child could play with any of the toys except one, a toy the child had rated highly.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Aronson & Carlsmith",
+    "where": "Journal of Abnormal and Social Psychology, 1963",
+    "what": "Effect of the severity of threat on the devaluation of forbidden behavior"
+   }
+  },
+  {
+   "say": "For some children, the warning was mild. The experimenter would be a little annoyed if they played with it. For others, the warning was severe. He would be very angry, and would take all the toys away. In both cases, the children left the forbidden toy alone while he was gone.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Two kinds of warning",
+    "sub": "Gentle or severe"
+   }
+  },
+  {
+   "say": "But when the children ranked the toys again afterwards, something interesting appeared. Children who had received only the mild warning tended to like the forbidden toy less than before. Children who had received the severe warning didn't devalue it the same way. If anything, for many of them, it kept its shine.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "The finding",
+    "sub": "The gentle no faded the toy"
+   }
+  },
+  {
+   "say": "The researchers explained this with a related idea, called cognitive dissonance. If someone scares you away from a toy, you know exactly why you didn't play with it. But if the reason was only mild, you need some other explanation for your own good behaviour. And the easiest one, the one that quietly settles the matter, is, I suppose I didn't really want it that much.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Why that happens",
+    "sub": "Finding your own reason"
+   }
+  },
+  {
+   "say": "Does a gentle no last longer than a stern one? Jonathan Freedman set out to test exactly that. In 1965, he told young boys not to play with an especially attractive toy, a battery-powered robot, using either a mild or a severe warning. Then, several weeks later, a different adult came to the school for what seemed like an unrelated task, and left each boy alone in a room with the same toys, with no rules at all.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Jonathan Freedman",
+    "where": "Journal of Experimental Social Psychology, 1965",
+    "what": "Long-term behavioral effects of cognitive dissonance"
+   }
+  },
+  {
+   "say": "Most of the boys who had once received the severe warning went straight for the robot. Far fewer of the boys who had received the mild warning did. A gentle no, given weeks earlier, still seemed to be doing its quiet work, long after the person who said it had gone.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Weeks later",
+    "sub": "The quiet no lasted"
+   }
+  },
+  {
+   "say": "Put these together and a gentle pattern appears. A barrier can make an option look more appealing. A big, frightening threat can stop the behaviour for now, while leaving the desire untouched. And a mild request leaves room for people to decide for themselves that they didn't really want it after all.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "What the toy studies suggest",
+    "items": [
+     "Blocked options can look more appealing",
+     "Severe threats keep the forbidden thing shining",
+     "Mild requests let interest fade",
+     "People like to find their own reasons"
+    ]
+   }
+  },
+  {
+   "say": "It's worth saying that these are older studies, with small groups of children, run in a very different era of research. Not every later attempt has found the effect as cleanly, and psychologists still debate how much of it is reactance, how much is dissonance, and how much is simply children being children. So hold them lightly. They are a starting point for thinking, not the final word.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "A fair caution",
+    "sub": "Old studies, small groups"
+   }
+  },
+  {
+   "say": "Still, they match something many of us recognise. The more dramatic the ban, the more the forbidden thing seems to glow. The quieter the request, the more easily it fades into the background, because the choice to leave it alone starts to feel like our own.",
+   "show": {
+    "type": "photo",
+    "file": "lf23_b02_01.jpg",
+    "cap": "A toy on a high shelf"
+   }
+  },
+  {
+   "say": "And this isn't only about children. Think about the rules that stuck with you, and the ones that made you bristle. A curfew, a dress code at school, a sign at the edge of a lawn. Often, it wasn't the rule itself that mattered. It was how hard it was pressed on you. A rule shouted from above invites pushback. A request that leaves you some room is far easier to accept.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cabin_fireplace",
+    "cap": "For grown-ups too",
+    "sub": "The volume of the no"
+   }
+  },
+  {
+   "say": "So if you ever need to ask someone to leave something alone, a sibling, a friend, a colleague, it may help to ask softly and give a reason, instead of a dramatic warning. The softer request is less likely to trip the alarm, and more likely to let the other person reach the same conclusion on their own.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "Something to try",
+    "sub": "Leave a little room"
+   }
+  },
+  {
+   "say": "But toys are one thing. What happens when the thing that's put out of reach isn't an object at all, but a person? There's a famous idea that when families try to keep two people apart, it only draws them closer together. It even has a name borrowed from Shakespeare, and it's a story almost everyone believes. Let's see whether it holds up when researchers actually go and ask couples.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "A forbidden love"
+   }
+  }
+ ]
+}

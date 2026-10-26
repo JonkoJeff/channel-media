@@ -1,0 +1,250 @@
+{
+ "id": "lf23_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Picture a stranger stopping you on a busy street with a small request. Most of us feel our guard go up straight away. But what if, at the end of the request, the stranger added just a few extra words?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "street_day",
+    "n": 27,
+    "title": "But you are free"
+   }
+  },
+  {
+   "say": "The words are simple. But you are free to say no. It sounds almost too polite to matter. If anything, you might expect it to make refusing easier. After all, the person just handed you permission to walk away.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "A few little words",
+    "sub": "But you are free to refuse"
+   }
+  },
+  {
+   "say": "In 2000, the French researchers Nicolas Gueguen and Alexandre Pascual tested exactly this with passers-by in France. A young researcher approached strangers with a small request. For half of them, the request ended there. For the other half, it ended with a short reminder that they were, of course, free to accept or to refuse.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Gueguen & Pascual",
+    "where": "Current Research in Social Psychology, 2000",
+    "what": "Evocation of freedom and compliance: the but you are free of technique"
+   }
+  },
+  {
+   "say": "The reminder made a big difference. Far more people agreed when they had been told they were free to refuse. Naming their freedom didn't weaken the request. It made it much easier to say yes.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "The result",
+    "sub": "Freedom made people say yes"
+   }
+  },
+  {
+   "say": "You've probably felt this from the other side. Think of a friend who suggests a film and adds, but no pressure, honestly, see what you feel like. Somehow that makes you more open to it, not less. Compare that with the friend who insists you absolutely have to watch it tonight. Same film. Very different feeling.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "You've felt this too",
+    "sub": "The friend who says no pressure"
+   }
+  },
+  {
+   "say": "Of course, a single study in a single town could be a fluke. So the question was whether this little phrase would keep working, again and again, in different places and with different requests.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "One study is one study",
+    "sub": "Did it hold up?"
+   }
+  },
+  {
+   "say": "In 2013, Christopher Carpenter brought together dozens of studies of the technique, involving more than twenty thousand people in total. Requests ranged from filling in surveys to helping a stranger. Across them, adding a reminder of freedom made people noticeably more likely to agree.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Christopher Carpenter",
+    "where": "Communication Studies, 2013",
+    "what": "A meta-analysis of the effectiveness of the but you are free compliance-gaining technique"
+   }
+  },
+  {
+   "say": "The effect seemed strongest when the request was made in person, when you could see the other person's face. That makes sense. A face makes the respect feel real, and harder to dismiss as a formula. Being reminded of your freedom by someone standing right in front of you feels like a small gesture of respect. And respect tends to be returned.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Where it works best",
+    "sub": "Face to face"
+   }
+  },
+  {
+   "say": "Think back to reactance. People push back when they feel their freedom is being threatened. But you are free to say no takes that threat away before it can form. There's nothing to resist. And without resistance, people can simply consider the request on its own merits.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "cap": "Why it works",
+    "sub": "No push to push back against"
+   }
+  },
+  {
+   "say": "This same idea, honoured more deeply and over a longer time, became one of the most widely used approaches to helping people change.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 28,
+    "title": "A conversation, not a lecture"
+   }
+  },
+  {
+   "say": "In 1991, William Miller and Stephen Rollnick published a book called Motivational Interviewing. Their approach was built for people struggling with habits like heavy drinking. Instead of arguing, warning or lecturing, the counsellor listens, asks open questions, and helps the person voice their own reasons for change.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "Motivational interviewing",
+    "sub": "Drawing out, not pushing in"
+   }
+  },
+  {
+   "say": "The core is wonderfully simple. Ask rather than tell. Listen carefully, and reflect back what you hear. Let the person discover their own reasons, in their own words. And respect, openly, that the choice is theirs.",
+   "show": {
+    "type": "list",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "title": "The spirit of motivational interviewing",
+    "items": [
+     "Ask, don't tell",
+     "Listen and reflect back",
+     "Let the person find their own reasons",
+     "Respect their right to choose"
+    ]
+   }
+  },
+  {
+   "say": "Miller and Rollnick also had a lovely phrase for what to do when someone pushes back. Roll with resistance. Instead of arguing harder, the counsellor steps aside, acknowledges the person's doubts, and lets them sit there for a moment. Because when you argue for change, the other person tends to argue against it. And every argument they make against change, they hear themselves say, and come to believe a little more.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Rolling with resistance",
+    "sub": "Don't argue back"
+   }
+  },
+  {
+   "say": "Why does this matter so much? A study published in 1993 by William Miller, Gary Benefield and Scott Tonigan compared two counselling styles for people with drinking problems. One was confrontational and directive. The other was empathic and reflective.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Miller, Benefield & Tonigan",
+    "where": "Journal of Consulting and Clinical Psychology, 1993",
+    "what": "Enhancing motivation for change in problem drinking: a controlled comparison of two therapist styles"
+   }
+  },
+  {
+   "say": "The confrontational style produced more resistance during the sessions. People argued, interrupted, and denied. And the more the counsellor confronted, the more the person tended to drink a year later. Pushing harder didn't just fail. It seemed to push people further away from change.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "cap": "Pushing made it worse",
+    "sub": "Resistance follows pressure"
+   }
+  },
+  {
+   "say": "That's reactance again, in a setting where the stakes are real. When we feel cornered, we defend the very thing we're being told to give up. When we feel heard, we can finally start to question it ourselves. Change, it seems, rarely comes from losing an argument. It tends to come from having the room to think.",
+   "show": {
+    "type": "photo",
+    "file": "lf23_b14_01.jpg",
+    "cap": "Room to think"
+   }
+  },
+  {
+   "say": "There's one more way to persuade without pushing, and it's one humans have used for as long as we've been sitting around fires. Telling a story.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "The power of a story",
+    "sub": "Persuading by fireside"
+   }
+  },
+  {
+   "say": "In 2008, the communication researcher Emily Moyer-Guse brought together research on why stories can change minds when direct messages fail. One key reason, she proposed, is that stories lower reactance. When you're caught up in a narrative, you don't feel like a target. You feel like a listener. And a listener has no reason to put up their defences, because nobody seems to be asking them for anything.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "who": "Emily Moyer-Guse",
+    "where": "Communication Theory, 2008",
+    "what": "Toward a theory of entertainment persuasion: explaining the persuasive effects of entertainment-education messages"
+   }
+  },
+  {
+   "say": "And when you care about a character, you see the world through their eyes for a while. In a later study with Robin Nabi, published in 2010, a television drama storyline about an unplanned pregnancy left viewers feeling less pushed than a more direct message on the same topic. The story did the persuading quietly, without ever lecturing.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "Following a character",
+    "sub": "Lowering the guard"
+   }
+  },
+  {
+   "say": "A lecture says, you should. A story simply says, here's what happened. There's no instruction to resist, no one standing over you, no freedom being taken away. You're left to draw the conclusion yourself, in your own time. And a conclusion you reach on your own is one you rarely feel the need to resist.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "street_day",
+    "cap": "A story asks nothing",
+    "sub": "No one is telling you anything"
+   }
+  },
+  {
+   "say": "So when you really want someone to consider something, the research offers a short, gentle list. Remind them that the choice is theirs, and mean it. Ask questions rather than giving orders. Listen more than you argue. And sometimes, simply tell a story and let it do the rest.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "title": "Persuading without pushing",
+    "items": [
+     "Remind people they are free",
+     "Ask instead of tell",
+     "Listen more than you argue",
+     "Share a story, not a rule"
+    ]
+   }
+  },
+  {
+   "say": "One important thing, though. None of this works as a disguise. If you say you are free while making it very clear there's only one acceptable answer, people notice. The power of these approaches comes from genuinely respecting the other person's choice, including the choice to say no. If you can't honestly accept a no, it's kinder to say so plainly than to pretend the choice is open.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Honesty matters",
+    "sub": "Not a new trick"
+   }
+  },
+  {
+   "say": "So far, we've looked at how to avoid triggering reactance in others. But there's one person whose reactance you meet more than anyone else's, every single day. Your own. And learning to notice it might be the most useful idea of the whole evening. So let's gently turn the lens around, and look inward for a while.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "Turning it around",
+    "sub": "What about your own reactions?"
+   }
+  }
+ ]
+}

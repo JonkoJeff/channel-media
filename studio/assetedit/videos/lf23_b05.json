@@ -1,0 +1,229 @@
+{
+ "id": "lf23_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Picture a plate of biscuits at a gathering. When it's full, you barely notice it. But when only one is left, it suddenly becomes interesting. People glance at it. Someone jokes about who gets the last one. Nothing about that biscuit has changed. It's the same one that sat ignored an hour ago.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "The last one",
+    "sub": "Suddenly it matters"
+   }
+  },
+  {
+   "say": "That's scarcity, and it's a close cousin of everything we've talked about so far. Nobody has forbidden you anything. But when something starts to run out, your freedom to have it is quietly threatened. So does scarcity, all by itself, make things feel more precious? And does it matter why something is running out?",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Running out",
+    "sub": "A close cousin of the ban"
+   }
+  },
+  {
+   "say": "In the mid-1970s, a group of researchers answered that question with one of the most charming experiments in social psychology. It involved two glass jars and some chocolate chip cookies, and it's the kind of study you can almost picture happening at your own kitchen table.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 9,
+    "title": "Why scarcity feels precious"
+   }
+  },
+  {
+   "say": "In 1975, Stephen Worchel and his colleagues Lee and Adewole asked students to take part in what seemed like a simple taste test. Each person was offered a cookie from a glass jar and asked to rate it. For some people, the jar held ten cookies. For others, the jar held only two. The cookies themselves were exactly the same.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Worchel, Lee & Adewole",
+    "where": "Journal of Personality and Social Psychology, 1975",
+    "what": "Effects of supply and demand on ratings of object value"
+   }
+  },
+  {
+   "say": "People who took their cookie from the jar with only two rated it as more desirable than people who took theirs from the jar with ten. Same recipe, same taste, same cookie. The only difference was how many were left, and that alone changed how good it seemed.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "cap": "The first finding",
+    "sub": "Fewer felt better"
+   }
+  },
+  {
+   "say": "Then the researchers added a twist. Some people started with a jar of ten, and then, just before tasting, the jar was swapped for one with only two. For some of them, the reason given was an accident. For others, the reason was that other participants had been eating them, so more were needed elsewhere.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "A twist",
+    "sub": "When plenty becomes few"
+   }
+  },
+  {
+   "say": "The cookies that had just become scarce were rated even more highly than cookies that had always been scarce. And they were rated highest of all when the reason was that other people wanted them. A sudden drop in supply, caused by others' demand, made a plain cookie feel like something special.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "The second finding",
+    "sub": "Losing them felt worse"
+   }
+  },
+  {
+   "say": "So the cookie study left us with three quiet lessons. Scarce things feel better than plentiful ones. Things that have just become scarce feel better still. And things that are scarce because other people want them feel best of all. Through all of it, the cookie itself never changed.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "What the cookie jars showed",
+    "items": [
+     "Scarce felt better than plentiful",
+     "Newly scarce felt better still",
+     "Scarce because others wanted it felt best",
+     "The cookie itself never changed"
+    ]
+   }
+  },
+  {
+   "say": "That last detail is the most revealing. When the cookies vanished by accident, they gained some appeal. But when they vanished because other people had wanted them, they gained the most. It's as if the empty space in the jar carried a message of its own. Others have been here before you, and they thought this was worth having.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "cap": "The pull of others",
+    "sub": "If they want it, so do I"
+   }
+  },
+  {
+   "say": "The cookie study happened in a lab. But just a couple of years earlier, a real city had run a natural version of the same experiment, with something much less exciting than cookies.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "n": 10,
+    "title": "A ban in Miami"
+   }
+  },
+  {
+   "say": "In the early 1970s, Miami in Florida banned laundry detergents containing phosphates, to protect local waterways. In 1973, Michael Mazis and his colleagues Settle and Leslie compared people in Miami with people in Tampa, another Florida city where the detergents were still allowed, asking each group what they thought of phosphate detergents.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Mazis, Settle & Leslie",
+    "where": "Journal of Marketing Research, 1973",
+    "what": "Elimination of phosphate detergents and psychological reactance"
+   }
+  },
+  {
+   "say": "People in Miami, where the detergents had just been banned, tended to rate them more favourably than people in Tampa did. They saw them as better at cleaning, and better at getting clothes properly white. The detergent was the same everywhere. The only thing that differed between the two cities was whether people were still allowed to use it.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "The finding",
+    "sub": "The banned soap seemed better"
+   }
+  },
+  {
+   "say": "There's something wonderfully ordinary about this. Nobody falls in love with laundry detergent. And yet, the moment it was taken away, people in one city came to believe it worked better than people in a city where they could still use it freely. The ban hadn't changed the soap. It had changed how the soap looked.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Laundry, of all things",
+    "sub": "Even the ordinary glows"
+   }
+  },
+  {
+   "say": "A couple of years later, Stephen West found the same pattern in an even less glamorous place. In 1975, he studied students who were told that their university cafeteria would not be serving its usual meals for a while, because of a fire. He then asked students how they felt about the cafeteria food.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Stephen West",
+    "where": "Journal of Applied Psychology, 1975",
+    "what": "Increasing the attractiveness of college cafeteria food: A reactance theory perspective"
+   }
+  },
+  {
+   "say": "Once the food was about to become unavailable, students rated it more favourably. Not because the cooks had changed anything, and not because the menu had improved. Cafeteria food is not famous for inspiring longing. But the moment it was going away, it seemed to taste a little better in people's minds.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The finding",
+    "sub": "Missing the cafeteria"
+   }
+  },
+  {
+   "say": "So whether it's a cookie, a soap or a plate of cafeteria pasta, the same quiet rule seems to apply. When our chance to have something shrinks, our sense of its value grows. Not because the thing has changed, but because our freedom to have it has.",
+   "show": {
+    "type": "photo",
+    "file": "lf23_b05_01.jpg",
+    "cap": "Only two left"
+   }
+  },
+  {
+   "say": "It's fair to say that most of these studies are decades old, and many relied on simple rating scales rather than what people actually did later. Scarcity effects have been studied many times since, and they tend to appear, but they're not always large, and they depend a great deal on context. So again, hold the details lightly.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "A fair caution",
+    "sub": "Old studies, simple measures"
+   }
+  },
+  {
+   "say": "Scarcity probably works for two reasons at once. One is reactance, the feeling that our freedom to have something is slipping away. The other is a simple shortcut. If something is running out, other people must want it, so it's probably good. Both reasons nudge us in the same direction, and when they arrive together, as they did in the cookie jar emptied by other people, the pull is at its strongest.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Why it works",
+    "sub": "Two reasons at once"
+   }
+  },
+  {
+   "say": "So, the next time something feels precious mainly because it's running out, you might try a little check. Has the thing itself changed? Did you want it before it became rare? Notice how much weight words like last, final and only are carrying. And if you can, give yourself a short pause before you act.",
+   "show": {
+    "type": "list",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "title": "Noticing the scarcity pull",
+    "items": [
+     "Ask whether the thing changed",
+     "Ask whether you wanted it before",
+     "Notice the word last",
+     "Give yourself a pause"
+    ]
+   }
+  },
+  {
+   "say": "And there's a gentler side to all this. Scarcity isn't only a trick. A last evening with an old friend, the final warm day of autumn, the short weeks when a child is small. Those things really are scarce. Sometimes the feeling of preciousness is pointing at something true, and it's worth letting it make you slow down and notice.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "cabin_fireplace",
+    "cap": "The gentle side",
+    "sub": "Rare moments matter too"
+   }
+  },
+  {
+   "say": "So far, we've seen reactance stirred up by barriers, by warnings, by bans and by things running out. But sometimes all it takes is a few polite words painted on a sign. Please don't. Keep off. Do not touch. And some of those signs, it turns out, quietly invite the very thing they're trying to prevent.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Signs that backfire"
+   }
+  }
+ ]
+}

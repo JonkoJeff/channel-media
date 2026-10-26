@@ -1,0 +1,221 @@
+{
+ "id": "lf23_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So scarcity can make something feel precious, simply because it's harder to get. Now let's leave the cookie jar behind and step outside, into the world of signs. The little notices on walls, in parks and in hallways that quietly tell us what not to do. Because some of them, it turns out, do the exact opposite of what they were made for.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 11,
+    "title": "Signs that backfire"
+   }
+  },
+  {
+   "say": "Think about how many of these you pass in a single day. Keep off the grass. No ball games. Do not touch. Staff only. Most of the time you hardly notice them. But every now and then, one of them catches you in a certain mood, and a tiny voice inside you says, oh really? Who says?",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "street_day",
+    "cap": "Everywhere you look",
+    "sub": "Do not, please don't, never"
+   }
+  },
+  {
+   "say": "So here's a fair question. If you wanted fewer people to do something, would a stronger sign help? A sterner tone, a bigger warning, a more important name at the bottom? It seems obvious that it should. Two psychologists decided to test that idea in one of the least glamorous places imaginable.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The question",
+    "sub": "Can a sign invite the thing it forbids?"
+   }
+  },
+  {
+   "say": "In a study published in 1976, James Pennebaker and Deborah Sanders placed small signs in the restroom stalls of a university campus. Some signs were mild and polite, asking people not to write on the walls. Others were stern, saying people should not write on the walls under any circumstances. The signs were also signed by different people, some with more authority on campus than others.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Pennebaker & Sanders",
+    "where": "Personality and Social Psychology Bulletin, 1976",
+    "what": "American graffiti: effects of authority and reactance arousal"
+   }
+  },
+  {
+   "say": "Then the researchers simply waited, and came back to count the graffiti. The stern, threatening signs attracted more writing than the polite ones. Some people wrote on the signs themselves. The very message meant to protect the walls had become a little invitation to push back. The firmer the no, the more it seemed to call for an answer.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "What happened",
+    "sub": "The stern signs drew more graffiti"
+   }
+  },
+  {
+   "say": "This is reactance, the idea we met at the very start, showing up in an everyday setting. A polite request leaves your freedom intact. You could write on the wall, you simply choose not to. A stern command takes the choice away, or tries to. And for some people, the easiest way to win that choice back is to do the forbidden thing, right there, in pen.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why it works this way",
+    "sub": "A threat to freedom"
+   }
+  },
+  {
+   "say": "So the problem wasn't the sign itself. It was the tone. Absolute words, commanding phrasing, a sense of being told rather than asked. Those are exactly the ingredients that make the mind reach for its freedom.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "title": "What made the signs backfire",
+    "items": [
+     "A harsh, absolute tone",
+     "Words like never and under any circumstances",
+     "A message that sounds like an order, not a request"
+    ]
+   }
+  },
+  {
+   "say": "But not every sign that backfires does it through reactance. Sometimes a sign goes wrong in a far more surprising way. Not because it pushes too hard, but because of what it accidentally tells us about everyone else.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "autumn_overlook",
+    "n": 12,
+    "title": "A different kind of backfire"
+   }
+  },
+  {
+   "say": "In the American state of Arizona, there's a national park called the Petrified Forest. Millions of years ago, fallen trees there were slowly turned into stone, glittering with colourful minerals. Visitors love it. And for a long time, some visitors loved it a little too much, and quietly slipped small pieces of petrified wood into their pockets on the way out.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "A forest made of stone",
+    "sub": "Wood that turned to crystal"
+   }
+  },
+  {
+   "say": "To fight this, the park put up signs telling people that many past visitors had removed petrified wood, and that this was changing the forest. It sounds sensible. It's honest, it explains the harm, and it appeals to people's care for the place. But a social psychologist named Robert Cialdini suspected that the sign might be sending a second message without meaning to.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "The park's warning",
+    "sub": "Many visitors take wood"
+   }
+  },
+  {
+   "say": "In 2003, Robert Cialdini described an experiment his team ran in the park itself. Along different paths, they placed different signs. One stressed that many past visitors had taken wood. Another simply asked visitors, please, not to remove the petrified wood. Then they placed marked pieces of wood along the paths, and kept track of how many disappeared.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Robert Cialdini and colleagues",
+    "where": "Current Directions in Psychological Science, 2003",
+    "what": "Crafting normative messages to protect the environment"
+   }
+  },
+  {
+   "say": "On the path with the sign saying many visitors took wood, theft was much higher, several times higher than on the path with the simple polite request. The message that was meant to shame people had quietly told them something else. Everyone does this. You'd be one of many.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "The surprise",
+    "sub": "The honest sign made it worse"
+   }
+  },
+  {
+   "say": "Cialdini called this the difference between two kinds of norms. One kind tells us what people should do. The other kind tells us what people actually do. And when a sign says lots of people are doing the wrong thing, the second message can drown out the first. We tend to follow the crowd, even a crowd we're being warned about.",
+   "show": {
+    "type": "photo",
+    "file": "lf23_b06_01.jpg",
+    "cap": "A small piece of the forest"
+   }
+  },
+  {
+   "say": "This idea had been tested years earlier, in research published in 1990. Robert Cialdini, Raymond Reno and Carl Kallgren watched what people did with a flyer that had been tucked under their car windscreen, in places that were either clean or already scattered with litter.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Cialdini, Reno & Kallgren",
+    "where": "Journal of Personality and Social Psychology, 1990",
+    "what": "A focus theory of normative conduct: recycling the concept of norms to reduce littering in public places"
+   }
+  },
+  {
+   "say": "People were more likely to drop the flyer on the ground when the area was already full of litter. In a clean place, they mostly held on to it. The surroundings were a silent sign of their own, telling people what was normal here. A mess said, nobody cares. A clean space said, people look after this.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Clean places stay clean",
+    "sub": "Litter invites litter"
+   }
+  },
+  {
+   "say": "So now we have two very different ways a sign can go wrong. The graffiti signs pushed too hard, and people pushed back. The forest sign meant well, but it made rule-breaking sound normal. One is about freedom. The other is about belonging. Both lead to the same disappointing result.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "title": "Two ways a sign can backfire",
+    "items": [
+     "It sounds like a command and triggers pushback",
+     "It reveals that many people already break the rule",
+     "Either way, the message invites the opposite"
+    ]
+   }
+  },
+  {
+   "say": "You've probably met a small version of this at home. A note on the fridge saying, someone keeps leaving dirty dishes, this has to stop. Notice what it does. It's a little stern, and it also tells everyone that leaving dishes is what people around here already do. It's almost designed to keep the dishes coming.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "cap": "In your own home",
+    "sub": "Notes on the fridge"
+   }
+  },
+  {
+   "say": "So what works better? The research points in a gentle direction. Ask rather than command. Leave a sense of choice. And whenever you can, point to the good behaviour that most people already show, rather than the bad behaviour of a few. Most people put their dishes away, thank you for doing the same, is a much quieter, and often more effective, kind of sign.",
+   "show": {
+    "type": "list",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "title": "Signs that tend to work",
+    "items": [
+     "Ask, don't command",
+     "Leave a sense of choice",
+     "Point to what most people already do well"
+    ]
+   }
+  },
+  {
+   "say": "There's something comforting in this. People aren't stubborn by nature. We just want to feel free, and we want to fit in. A message that respects both of those needs tends to be heard. A message that threatens one of them can quietly turn into its own opposite.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "A small reflection",
+    "sub": "The tone matters as much as the rule"
+   }
+  },
+  {
+   "say": "And that brings us to a place where the stakes are much higher than a scratched wall or a missing stone. What happens when the message is about our health? When a campaign warns young people about smoking or drugs, could the warning itself sometimes push them the other way? Let's take a closer look.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Up next",
+    "sub": "When health advice boomerangs"
+   }
+  }
+ ]
+}

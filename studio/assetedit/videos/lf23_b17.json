@@ -1,0 +1,162 @@
+{
+ "id": "lf23_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The ideas are put away now, like books slipped back onto a shelf. There's nothing left to learn tonight, and nothing to remember. For the rest of this quiet time, there's nothing you have to do at all.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "n": 34,
+    "title": "Nothing you have to do"
+   }
+  },
+  {
+   "say": "Everything from here on is only an invitation. If a suggestion feels good, follow it. If it doesn't, let it pass by. You can listen closely, or let the words become a soft sound in the background. Either way is exactly right.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "No instructions",
+    "sub": "Only invitations"
+   }
+  },
+  {
+   "say": "Let yourself arrive in this moment. Wherever you're lying or sitting, let it hold you. Feel the weight of your body sinking a little deeper into the surface beneath you. You don't need to hold yourself up any longer. Something else is doing that for you now.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Let yourself arrive",
+    "sub": "Right here, right now"
+   }
+  },
+  {
+   "say": "If you'd like, take one slow breath with me. Breathe in, gently, through your nose. Let the breath rest for a moment at the top. And breathe out, slowly, a little longer than you breathed in. Then let the next breath come all on its own. You don't need to manage it.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "A slow breath, if you like",
+    "items": [
+     "Breathe in gently",
+     "Let it pause",
+     "Breathe out slowly",
+     "Let the next one come by itself"
+    ]
+   }
+  },
+  {
+   "say": "Your breathing has been looking after you all day, without you asking. It will look after you all night, too. You can simply notice it, the soft rise, the gentle fall, like waves arriving on a quiet shore and slipping back out again.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Your breath knows the way",
+    "sub": "No effort needed"
+   }
+  },
+  {
+   "say": "Now, if you like, let your attention drift to your face. Let your forehead smooth out. Let the small muscles around your eyes go soft. Let your jaw loosen, so your teeth part just a little. There's no one to look at you, and nothing to show. Your face can simply rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "cap": "Softening",
+    "sub": "Starting with your face"
+   }
+  },
+  {
+   "say": "Let that softness flow down into your neck and shoulders. So much of the day gets carried there. Let your shoulders drop, just a little, and then a little more. Feel the heaviness move down your arms, into your hands, until your fingers rest open and loose.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "Shoulders and arms",
+    "sub": "Letting the day slide off"
+   }
+  },
+  {
+   "say": "If thoughts of the day are still drifting around, that's alright. The things you meant to do. The conversations you had. The plans for tomorrow. You don't have to push them away. Just let them know they can wait. They'll still be there in the morning, and you'll meet them then, rested.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "title": "Let it go",
+    "items": [
+     "The things you meant to do",
+     "The conversations of the day",
+     "Tomorrow's plans",
+     "All of it can wait"
+    ]
+   }
+  },
+  {
+   "say": "Picture a quiet room with nowhere you need to be. A soft chair. A warm blanket folded over its arm. A small lamp glowing low in the corner. The kind of room where time slows down, and no one is waiting for anything.",
+   "show": {
+    "type": "photo",
+    "file": "lf23_b17_01.jpg",
+    "cap": "A room with nowhere to be"
+   }
+  },
+  {
+   "say": "This is the good kind of empty. Not boredom, and not something to fill. Just open time, all yours, with no task attached to it. You're free to do nothing at all, and doing nothing is exactly what this moment is for.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Free time",
+    "sub": "The good kind of empty"
+   }
+  },
+  {
+   "say": "Let the heaviness travel down now, through your chest and your belly, which rise and fall with each easy breath. Down through your hips. Down your legs, which have carried you everywhere today. Let them grow heavy and warm. Let your feet relax, all the way to the tips of your toes.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Your legs and feet",
+    "sub": "Heavy and warm"
+   }
+  },
+  {
+   "say": "Now your whole body can rest together. Face soft. Shoulders low. Arms loose. Legs heavy. Held from below, warm and safe. You don't have to keep anything going. The night will take care of itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Held",
+    "sub": "The whole body resting"
+   }
+  },
+  {
+   "say": "Soft. Heavy. Warm. Free. Let those words drift slowly through your mind, one after another, like leaves floating on still water. Soft. Heavy. Warm. Free.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "title": "Softly now",
+    "items": [
+     "Soft",
+     "Heavy",
+     "Warm",
+     "Free"
+    ]
+   }
+  },
+  {
+   "say": "If your thoughts begin to blur at the edges, let them. If you lose track of the words, that's perfectly fine. You can't get this wrong. There's nowhere to go, nothing to finish, and no one asking anything of you. Just rest, and let the evening carry you a little further.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "Drifting",
+    "sub": "You can let go"
+   }
+  }
+ ],
+ "pause": 1.6
+}

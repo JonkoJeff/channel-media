@@ -1,0 +1,229 @@
+{
+ "id": "lf23_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You already know the story. Two young people from feuding families meet, fall in love, and are told in no uncertain terms that they cannot be together. Every obstacle only seems to bind them closer. It's Romeo and Juliet, of course, and versions of it appear in films, songs and family legends all over the world.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "Star-crossed",
+    "sub": "The oldest forbidden story"
+   }
+  },
+  {
+   "say": "And many people have a friend with a quieter version of the same story. Parents who disapproved of a partner, and a relationship that only grew stronger in defiance. So here's tonight's question. When families push two people apart, does it really pull them closer? Or is that just what makes a good plot?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "A real pattern?",
+    "sub": "Or just a good plot"
+   }
+  },
+  {
+   "say": "In the early 1970s, a team of American psychologists decided to put the legend to the test with real couples.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 5,
+    "title": "The Romeo and Juliet effect"
+   }
+  },
+  {
+   "say": "In 1972, Richard Driscoll, Keith Davis and Milton Lipetz published a study of married couples and dating couples. Each partner filled in questionnaires about how much they loved the other person, how much they trusted them, and how much their parents interfered in the relationship. Several months later, the couples answered the same questions again.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Driscoll, Davis & Lipetz",
+    "where": "Journal of Personality and Social Psychology, 1972",
+    "what": "Parental interference and romantic love: The Romeo and Juliet effect"
+   }
+  },
+  {
+   "say": "The pattern seemed to match Shakespeare. Couples who reported more parental interference also tended to report more romantic love. And for the dating couples, when interference increased over the months, love tended to increase along with it. The researchers named this the Romeo and Juliet effect.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "The finding",
+    "sub": "More interference, more love"
+   }
+  },
+  {
+   "say": "You can see why it caught on. It fits reactance beautifully. If your freedom to choose a partner is threatened, the partner might become more precious, just as the record that wasn't going to arrive suddenly sounded better. For decades, the Romeo and Juliet effect appeared in textbooks as a classic example.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "It fits reactance",
+    "sub": "A love that feels threatened"
+   }
+  },
+  {
+   "say": "But it was one study, from one place, and it was correlational. It showed that interference and love went together, not which one caused the other. And for many years, almost nobody tried to repeat it directly. That changed about forty years later, when a new generation of researchers began asking a simple, slightly uncomfortable question about many classic findings. If we ran this again today, would we get the same result?",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "A small doubt",
+    "sub": "One study, long ago"
+   }
+  },
+  {
+   "say": "In the 2010s, psychology went through a period of rechecking its famous findings. And the Romeo and Juliet effect was one of the stories that got a second look.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "n": 6,
+    "title": "Trying it again"
+   }
+  },
+  {
+   "say": "Does forbidden love really grow stronger? In 2014, Colleen Sinclair, Kristina Hood and Brittany Wright put the famous Romeo and Juliet effect to a fresh test, with a large study of adults in romantic relationships. They used measures based on the original questionnaires, and also asked about the opinions of friends, not just parents. Then they followed up with participants some months later, to see how their relationships had changed. It was the kind of direct test the original finding had been waiting for.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "who": "Sinclair, Hood & Wright",
+    "where": "Social Psychology, 2014",
+    "what": "Revisiting the Romeo and Juliet effect: Reexamining the links between social network opinions and romantic relationship outcomes"
+   }
+  },
+  {
+   "say": "What they found was close to the opposite of the original story. People whose friends and family approved of the relationship tended to report more love, more commitment and more trust. Disapproval went along with less. The researchers called it a social network effect, and they found no sign that disapproval made love stronger.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "The finding",
+    "sub": "The opposite pattern"
+   }
+  },
+  {
+   "say": "So the picture flipped. Approval was linked with more love. Disapproval was linked with less. The views of friends mattered too, not only the views of parents. And the dramatic boost that made the original finding famous simply didn't appear.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "title": "What the replication found",
+    "items": [
+     "Approval went with more love",
+     "Disapproval went with less",
+     "Friends' views mattered a great deal",
+     "No Romeo and Juliet boost"
+    ]
+   }
+  },
+  {
+   "say": "Why might the original study have found something different? Nobody knows for certain. It was a smaller group, from one time and place, and the questions were asked in a particular way. In fairness, some researchers had already suspected the legend was too neat. Long before the replication, other studies of couples had been pointing in a different direction from Shakespeare.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "Not a surprise to everyone",
+    "sub": "Earlier hints"
+   }
+  },
+  {
+   "say": "In 1992, Susan Sprecher and Diane Felmlee followed dating couples over a long stretch of time, asking them several times about their relationship and about how their friends and families felt about it. That let them see which couples stayed together and which ones drifted apart, and whether the opinions of the people around them seemed to make a difference.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Sprecher & Felmlee",
+    "where": "Journal of Marriage and the Family, 1992",
+    "what": "The influence of parents and friends on the quality and stability of romantic relationships: A three-wave longitudinal investigation"
+   }
+  },
+  {
+   "say": "Couples who felt that the people around them supported the relationship tended to be happier in it, and were more likely to still be together later on. It makes a kind of everyday sense. A couple with support has people to talk to, people who invite them both along, people who help them through the hard weeks. Support from the people we care about seemed to work less like an obstacle to push against and more like scaffolding that holds a relationship up.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "The finding",
+    "sub": "Support helps couples last"
+   }
+  },
+  {
+   "say": "So does that mean reactance plays no part in love? Probably not. In the moment, being told that you can't see someone may well bring a flash of defiance, a fierce feeling of, you don't get to decide that. That spark can feel like love. But over months and years, disapproval seems to wear a relationship down more often than it lifts it up.",
+   "show": {
+    "type": "photo",
+    "file": "lf23_b03_01.jpg",
+    "cap": "A quiet balcony"
+   }
+  },
+  {
+   "say": "Part of the reason the legend survives is that we remember the dramatic stories. The couple who defied everyone and stayed together forever becomes family folklore. The many couples who quietly drifted apart under the weight of disapproval don't become stories at all. We simply forget them. And so, without noticing, we end up with a collection of memorable exceptions that feel like a rule.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Why stories mislead",
+    "sub": "We remember the dramatic ones"
+   }
+  },
+  {
+   "say": "So if you're ever on the outside of someone else's relationship, worried about it, the research gives a gentle hint. Loud opposition is unlikely to break it up and may stir up defiance in the moment. Honest care, kept calm and open, tends to leave far more room for people to see clearly for themselves.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "What it means for you",
+    "sub": "Support beats opposition"
+   }
+  },
+  {
+   "say": "So here's where things stand. The original finding was small, and could not show cause and effect. A much larger attempt to repeat it found the opposite pattern. Support from friends and family tends to help couples, not harm them. And whatever flash of defiance disapproval brings seems to flare up and then fade.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "title": "The Romeo and Juliet effect, today",
+    "items": [
+     "The original study was small and correlational",
+     "A large replication found the opposite",
+     "Approval tends to help couples",
+     "Defiance may flare, then fade"
+    ]
+   }
+  },
+  {
+   "say": "And if you've ever felt that flash yourself, being told who you should or shouldn't spend time with, you'll know how real it is. The heat in the chest. The sudden urge to dig in. It's worth noticing, because it can feel exactly like certainty, even when it's really just reactance speaking.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Inside the flare",
+    "sub": "What defiance feels like"
+   }
+  },
+  {
+   "say": "There's a lovely irony in all of this. The Romeo and Juliet effect became famous because it was such a satisfying story. And when researchers checked it carefully, the story turned out to be more satisfying than true. Which is, in its own way, a reminder of how much we enjoy a forbidden tale.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "A lovely irony",
+    "sub": "The legend versus the data"
+   }
+  },
+  {
+   "say": "And that brings us to another kind of forbidden fruit. Not a person this time, and not a toy, but information. A speech that's cancelled. A film with a warning. A message someone has decided you shouldn't hear. Does hiding it make it lose its power, or does it make it shine?",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Up next",
+    "sub": "Forbidden words"
+   }
+  }
+ ]
+}

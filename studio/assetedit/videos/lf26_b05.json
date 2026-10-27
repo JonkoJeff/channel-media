@@ -1,0 +1,195 @@
+{
+ "id": "lf26_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a finding that changed the field. For a long time, many psychologists assumed that anyone who went through a severe loss or a terrible event would need to work through it, and that anyone who didn't show distress was avoiding something, or in denial. Then researchers began to follow people over time, and the picture turned out to be almost the opposite.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 13,
+    "title": "The surprise of resilience"
+   }
+  },
+  {
+   "say": "George Bonanno, a clinical psychologist at Columbia University, spent years studying how people respond to loss and potential trauma. He noticed that, in his own data, a large share of people showed little lasting disruption at all. They felt grief, they had hard days, and yet they carried on functioning. He gave this pattern its proper name: resilience.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The researcher",
+    "sub": "George Bonanno"
+   }
+  },
+  {
+   "say": "Bonanno reviewed research on bereavement and on traumatic events, such as violence and disasters. He argued that resilience, meaning a stable, healthy level of functioning after a stressful event, is common, and more common than researchers had assumed. He also argued that it's not a rare trait of exceptional people, but an ordinary result of many small strengths.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Bonanno",
+    "where": "American Psychologist, 2004",
+    "what": "Loss, trauma, and human resilience: have we underestimated the human capacity to thrive after extremely aversive events?"
+   }
+  },
+  {
+   "say": "This was a significant change of emphasis. It didn't deny that trauma is painful, or that some people suffer deeply. It said that the most common outcome is recovery, or even a stable course with only a brief dip. For many people, the idea that they must be broken by a hard experience is itself a misconception.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A shift in thinking",
+    "sub": "Resilience is the norm"
+   }
+  },
+  {
+   "say": "Isaac Galatzer-Levy, Sandy Huang and Bonanno combined the results of dozens of studies that had followed people over time after potentially traumatic events. They found four common patterns of response. Resilience, with little disruption. Recovery, with distress that fades. Chronic distress that continues. And delayed distress that appears later. The largest group by far, about two thirds on average, was resilient.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Galatzer-Levy, Huang & Bonanno",
+    "where": "Clinical Psychology Review, 2018",
+    "what": "Trajectories of resilience and dysfunction following potential trauma: a review and statistical evaluation"
+   }
+  },
+  {
+   "say": "The numbers vary by event and by study, but the shape is consistent. Roughly two thirds of people were resilient, a fifth recovered over time, and a smaller group, around one in ten, had chronic problems. The delayed pattern was less common still. For anyone who has feared that a hard event will wreck them for good, these findings are a real source of hope.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Four typical paths",
+    "items": [
+     "Resilience: stable functioning throughout",
+     "Recovery: distress that gradually fades",
+     "Chronic: distress that stays high",
+     "Delayed: distress that appears after a delay"
+    ]
+   }
+  },
+  {
+   "say": "It's also worth knowing how common difficult events are. Many people think of trauma as rare. In fact, most adults experience at least one potentially traumatic event in their lives, and most of them do not go on to develop a lasting disorder.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 14,
+    "title": "How common are hard events?"
+   }
+  },
+  {
+   "say": "In a large survey of Americans, about sixty percent of men and fifty percent of women reported at least one traumatic event in their lives, such as an accident, a disaster, an assault or witnessing violence. But only a small share of them, around eight percent of the whole sample over a lifetime, met the criteria for post-traumatic stress disorder. Exposure is common, and the disorder is much less so.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Kessler, Sonnega, Bromet, Hughes & Nelson",
+    "where": "Archives of General Psychiatry, 1995",
+    "what": "Posttraumatic stress disorder in the National Comorbidity Survey"
+   }
+  },
+  {
+   "say": "That gap between exposure and disorder is crucial. It's the statistical form of resilience. It doesn't mean that PTSD is rare in absolute terms, because millions of people live with it. It means that a traumatic event is not a sentence, and that most people find a way through.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Americans reporting a traumatic event in their lifetime",
+    "big": "About 50-60%",
+    "label": "while around 8% developed post-traumatic stress disorder over a lifetime"
+   }
+  },
+  {
+   "say": "If resilience is common, what helps? Researchers have asked this carefully, and found that there's no single ingredient. It seems to come from a mix of factors: flexible thinking, supportive relationships, a sense of purpose, a feeling of some control, and practical resources. Few people have all of them. Most have a few, and that's enough.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 15,
+    "title": "What makes resilience?"
+   }
+  },
+  {
+   "say": "Bonanno called it ordinary magic, borrowing a phrase from another researcher, Ann Masten. It's not about heroic character. It's about the everyday things that help people to cope: friends who show up, habits that steady the day, the ability to see more than one way of reading a situation. These are things that can be built, and they're available to almost everyone.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "A modest conclusion",
+    "sub": "Ordinary strengths"
+   }
+  },
+  {
+   "say": "Four terms from this chapter. Resilience is stable functioning after a stressful event. A trajectory is the path of someone's wellbeing over time. Exposure is going through a potentially traumatic event. And chronic distress is distress that remains high for a long time. Picture this scene. A man loses his job after twenty years, and in the first week he barely leaves the house. He expects to fall apart, and he is surprised to find that he is sleeping, eating and making calls. His wife wonders if he is in denial. He is not. He is doing what most people do, which is to carry on, with sadness alongside. Months later he says that the hardest part was not the loss itself, but the feeling that he ought to be doing worse. The research on resilience gives him a gentler reading: ordinary coping is not a lack of feeling. It is simply what most people are capable of.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Resilience",
+     "Trajectory",
+     "Exposure",
+     "Chronic distress"
+    ]
+   }
+  },
+  {
+   "say": "Here are some small supports that the resilience research points to. Keep a few steady routines, like meals and sleep, since routine is a kind of scaffold. Stay in touch with at least one person who makes you feel safe. Do one small task each day that gives you a sense of control, such as cooking, tidying or a short walk. And let yourself rest, and also let yourself laugh. Laughter after loss isn't disrespect. Bonanno found that genuine laughter and smiling in bereaved people, when talking about the person they'd lost, was linked to better adjustment later.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Small supports for resilience",
+    "items": [
+     "Keep a few steady routines, such as meals and sleep",
+     "Stay in touch with at least one person",
+     "Do one small task that gives a sense of control",
+     "Let yourself rest, and also let yourself laugh"
+    ]
+   }
+  },
+  {
+   "say": "A young tree, bending in the wind but still rooted. It's a common picture of resilience, and it's an accurate one. The tree doesn't resist by being rigid. It survives by being able to move, and by having roots that hold.",
+   "show": {
+    "type": "photo",
+    "file": "lf26_b05_01.jpg",
+    "cap": "A tree bending in the wind"
+   }
+  },
+  {
+   "say": "If you're frightened of what a hard time might do to you, take some comfort from the numbers. Most people who go through terrible things find a way through. It may be slow, and you may be changed, but you are far more likely to be all right than not. That is a fact, and it's worth holding on to.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Most people come through"
+   }
+  },
+  {
+   "say": "So what did we learn? That resilience is the most common response to loss. That about two thirds of people follow a resilient path. That most adults experience a traumatic event, but only a minority develop PTSD. And that resilience comes from ordinary strengths.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What resilience taught us"
+   }
+  },
+  {
+   "say": "In the next chapter, we turn to the work of the mind after a shock: the search for meaning. What is it, how does it help, and when does it become a trap?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Making meaning"
+   }
+  }
+ ]
+}

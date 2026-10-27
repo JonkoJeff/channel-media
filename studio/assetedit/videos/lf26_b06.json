@@ -1,0 +1,199 @@
+{
+ "id": "lf26_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "When something terrible happens, one of the first things that the mind does is ask, why? Why did this happen, why to me, what does it say about the world? This search isn't a weakness. It's one of the deepest human drives. And over the last few decades, psychologists have studied it closely, and learned how it helps, and sometimes how it doesn't.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 16,
+    "title": "Making meaning"
+   }
+  },
+  {
+   "say": "Crystal Park, at the University of Connecticut, proposed a useful way to think about it. She distinguished two levels of meaning. Global meaning is our general view of the world: our beliefs, goals and sense of purpose. Situational meaning is how we understand a particular event. Distress arises when the event doesn't fit our global meaning, and recovery involves reducing that gap.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A framework",
+    "sub": "Global and situational meaning"
+   }
+  },
+  {
+   "say": "Park reviewed a large literature, and proposed that people cope with a discrepancy in one of two ways. They can change how they appraise the event, so that it fits their beliefs better. Or they can change their beliefs, so that they accommodate the event. She found that people who worked on meaning, over time, tended to adjust better, though the effects depended on what kind of meaning they found and how they went about finding it.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Park",
+    "where": "Psychological Bulletin, 2010",
+    "what": "Making sense of the meaning literature: an integrative review of meaning making and its effects on adjustment to stressful life events"
+   }
+  },
+  {
+   "say": "This mirrors Janoff-Bulman's distinction between assimilation and accommodation, and it explains why recovery rarely looks like going back to how you were. It looks like gradually building a version of your beliefs that can contain what happened.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Two ways of closing the gap",
+    "items": [
+     "Change how we see the event",
+     "Change the beliefs and goals",
+     "Both take time",
+     "Both are often partial"
+    ]
+   }
+  },
+  {
+   "say": "There's an important distinction within meaning-making that's been tested directly. A team led by Christopher Davis studied people who had lost a family member. They found that there were two different ways of finding meaning, and that they behaved differently over time.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 17,
+    "title": "Two kinds of meaning"
+   }
+  },
+  {
+   "say": "The researchers distinguished sense-making, which means understanding how the loss fits into one's view of the world, from benefit-finding, which means identifying something positive that has come from the experience. People who had made sense of the loss early on tended to have lower distress later. And people who found benefits tended to be more positive in the longer run. But many people never found a satisfying sense, and not finding it wasn't always a problem.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Davis, Nolen-Hoeksema & Larson",
+    "where": "Journal of Personality and Social Psychology, 1998",
+    "what": "Making sense of loss and benefiting from the experience: two construals of meaning"
+   }
+  },
+  {
+   "say": "This is a relief for many people. Some losses don't make sense, and nothing about them is good. People who accepted that, and didn't keep demanding a reason, often did fine. The search for meaning helped most when it led somewhere. When it went round in circles, it could make things worse.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The finding that matters",
+    "sub": "Not everyone needs an answer"
+   }
+  },
+  {
+   "say": "A great deal depends on the style of thinking. Psychologists distinguish between reflecting and ruminating. Reflection is a curious, problem-solving kind of thought: what can I learn, what could I do now? Rumination is repetitive and passive: why me, why did this happen, I can't stop thinking about it. The first tends to help. The second tends to deepen low mood.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 18,
+    "title": "When searching becomes a trap"
+   }
+  },
+  {
+   "say": "Susan Nolen-Hoeksema found, in longitudinal studies of adults, that people who tended to ruminate in response to low mood had more severe and longer-lasting depressive episodes than those who distracted themselves or took action. Rumination seemed to feed itself, with the repeated thoughts keeping the mood low, and the low mood generating more repeated thoughts.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Nolen-Hoeksema",
+    "where": "Journal of Abnormal Psychology, 2000",
+    "what": "The role of rumination in depressive disorders and mixed anxiety/depressive symptoms"
+   }
+  },
+  {
+   "say": "It's not always easy to tell which one you're doing. A helpful test is whether the thinking is leading anywhere: to a plan, a decision, a new understanding, or a bit of peace. If not, it may be rumination, and a change of activity or a conversation can help to break the loop.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Reflection and rumination",
+    "items": [
+     "Reflection asks: what can I learn or do?",
+     "Rumination asks: why did this happen to me?",
+     "Reflection moves forward",
+     "Rumination goes round in circles"
+    ]
+   }
+  },
+  {
+   "say": "Researchers have found that a small change in wording can help. Asking, why did this happen, tends to lead to rumination. Asking, how can I get through today, or, what small thing would help right now, tends to lead to action. You don't have to stop asking the big question. But it can help to also ask a smaller one.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "A gentle technique",
+    "sub": "Shift from why to how"
+   }
+  },
+  {
+   "say": "Four terms from this chapter. Meaning making is the effort to understand an event in light of our beliefs. Global meaning is our general framework for the world. Sense-making is understanding how a loss fits. And rumination is repetitive, passive thinking about distress. Picture this scene. A teacher has been trying for a year to understand why a close friend cut off contact. She replays every conversation, looking for the mistake. One evening a colleague asks her a different question: what would help you this week? She is startled, because she has been asking only why. She decides to join a choir on Thursdays. The question about the past is still unanswered, and may stay that way, but her days have a little more shape. This is the shift from rumination to action that the research describes, and it does not require solving the puzzle first.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Meaning making",
+     "Global meaning",
+     "Sense-making",
+     "Rumination"
+    ]
+   }
+  },
+  {
+   "say": "Here is a short list of questions, in the spirit of the research. What small thing would help right now? Who could I talk to about this today? What do I still believe, even now? And what matters to me that this hasn't changed? The last two are particularly useful. They remind you that your beliefs haven't been entirely shattered, and that part of the foundation is still there. You can build the next thing from what remains.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "A kind question to try",
+    "items": [
+     "What small thing would help right now?",
+     "Who could I talk to about this today?",
+     "What do I still believe, even now?",
+     "What matters to me that this hasn't changed?"
+    ]
+   }
+  },
+  {
+   "say": "A jigsaw with some pieces missing. Finding meaning after a loss can feel like this. You may never find the missing pieces. What many people do, over time, is learn to see the picture without them, and to make a picture that has room for the gaps.",
+   "show": {
+    "type": "photo",
+    "file": "lf26_b06_01.jpg",
+    "cap": "A puzzle with pieces missing"
+   }
+  },
+  {
+   "say": "If the thing that happened to you doesn't make sense, and perhaps never will, there is nothing wrong with you. The research says that some people reach peace without ever finding a reason. You can let the question rest, and still go on to live well. Peace doesn't require an answer.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "It's allowed to not make sense"
+   }
+  },
+  {
+   "say": "So what did we learn? That we ask why because the event clashes with our beliefs. That sense-making and benefit-finding are different. That rumination can trap us, while reflection can help. And that some events never make sense, and that can be survived.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What meaning taught us"
+   }
+  },
+  {
+   "say": "Next, we'll look at one of the most debated ideas in this field: that suffering can lead to growth. What does the evidence really say, and what are its limits?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Growth after trauma"
+   }
+  }
+ ]
+}

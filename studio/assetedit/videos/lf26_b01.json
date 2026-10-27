@@ -1,0 +1,195 @@
+{
+ "id": "lf26_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Welcome. Settle in somewhere warm and quiet, because tonight we're going to talk about something that touches nearly everyone eventually. The moment when life delivers a shock, a loss, a betrayal, a diagnosis, an accident, and the way you saw the world stops making sense. What does psychology say about what breaks in that moment? And how do people find their way to a new way of seeing? We'll stay close to the evidence, and we'll be gentle.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Settle in",
+    "sub": "When the ground moves"
+   }
+  },
+  {
+   "say": "Sixteen chapters, built on named studies, with the sample sizes and the disagreements left in. A note before we begin. This video is for understanding, not for treatment. If you're going through something painful right now, please know that talking to a doctor, a counsellor or someone you trust is a good and strong thing to do, and we'll come back to that at the end.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "The assumptions we live by",
+     "The just world and why we cling to it",
+     "What happens when the assumptions break",
+     "The myth of the stages",
+     "How common resilience really is",
+     "Making meaning",
+     "Posttraumatic growth, and its critics",
+     "The role of other people",
+     "Writing and talking",
+     "Beliefs that fail in public",
+     "Rebuilding a view of the world",
+     "What helps, and when to seek help"
+    ]
+   }
+  },
+  {
+   "say": "I'll make you one promise. I won't tell you that everything happens for a reason, or that suffering always makes people stronger. Those lines are kind in intention, and the evidence is more complicated. What the research does say is both more modest and more hopeful: that people are far more resilient than they fear, and that there are real, tested ways in which a broken view of the world can be rebuilt.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A promise",
+    "sub": "Honest, not hurried"
+   }
+  },
+  {
+   "say": "Think about a normal morning. You get into a car, expecting to arrive. You say goodbye to someone, expecting to see them later. You eat food, expecting that it's safe. You don't think about any of this. It runs beneath awareness, like the foundations of a house. Psychologists call these deep, mostly unspoken beliefs our assumptive world.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "The assumptions we live by"
+   }
+  },
+  {
+   "say": "The term was used by the British psychiatrist Colin Murray Parkes in the 1970s, to describe the set of beliefs that each of us holds about how the world works and about ourselves. It's our internal map, so deeply taken for granted that we don't know it's there, until something tears it.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "cap": "A useful phrase",
+    "sub": "The assumptive world"
+   }
+  },
+  {
+   "say": "Ronnie Janoff-Bulman, a psychologist at the University of Massachusetts Amherst, developed the idea into a theory. She proposed that most people hold three core assumptions. That the world is benevolent. That the world is meaningful, in the sense that what happens follows some kind of order. And that the self is worthy. A traumatic event, she argued, can shatter all three at once.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Janoff-Bulman",
+    "where": "Social Cognition, 1989",
+    "what": "Assumptive worlds and the stress of traumatic events: applications of the schema construct"
+   }
+  },
+  {
+   "say": "Notice how ordinary these are. Most of us would say yes to all three if asked, even though we've never put them into words. And notice that they are not claims about certainty. They're a kind of background trust, that makes daily life possible.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Three core assumptions",
+    "items": [
+     "The world is mostly a good place",
+     "The world is meaningful: things happen for understandable reasons",
+     "I am a good, worthy person who deserves safety"
+    ]
+   }
+  },
+  {
+   "say": "Why would we hold beliefs that are, strictly speaking, optimistic? The world isn't always benevolent, and it isn't always meaningful. Janoff-Bulman argued that these assumptions are not mistakes. They are a kind of psychological shelter, and they let us act, plan and love without being paralysed by the knowledge of what could go wrong.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 2,
+    "title": "Why we need them"
+   }
+  },
+  {
+   "say": "Shelley Taylor and Jonathon Brown reviewed a large body of research and argued that mentally healthy people tend to hold mildly positive illusions. They see themselves a little more favourably than is strictly accurate, they feel a little more in control, and they're a little optimistic about the future. These small illusions, they argued, are linked to wellbeing and to resilience, not to delusion.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Taylor & Brown",
+    "where": "Psychological Bulletin, 1988",
+    "what": "Illusion and well-being: a social psychological perspective on mental health"
+   }
+  },
+  {
+   "say": "This overturns an old assumption of its own, that mental health means seeing the world exactly as it is. The research suggests that moderately positive beliefs help people to keep going, to try, and to bounce back. The danger is not that we hold them. The danger is how hard they break when reality arrives all at once.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A surprising point",
+    "sub": "Healthy minds are slightly optimistic"
+   }
+  },
+  {
+   "say": "Four terms to carry through the evening. The assumptive world is our set of deep beliefs about how things are. Core assumptions are the three main ones: a benevolent world, a meaningful world and a worthy self. Positive illusions are mildly optimistic beliefs that support wellbeing. And a schema is a mental framework that organises what we expect.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Assumptive world",
+     "Core assumptions",
+     "Positive illusions",
+     "Schema"
+    ]
+   }
+  },
+  {
+   "say": "Here is a small reflection, which you can do right now. Think of what you take for granted on an ordinary day. That the people you love will be there tomorrow. That your body will work. That if you're kind, things will mostly go well. Notice how quiet these beliefs are, and how rarely you've examined them. There's no need to be alarmed by this. It's simply the foundation that we all stand on. And understanding that it's there is the first step to understanding what happens when it shakes, and why the shaking feels so enormous. Picture this scene. A man walks home from work on an ordinary Tuesday and, a few hours later, receives a phone call that changes the shape of his life. In the weeks that follow, he finds that he cannot concentrate, and that the streets he knows feel slightly unreal. He is not weak, and he is not exaggerating. He is a person whose assumptions about safety and order have been knocked sideways, and who has to work out, slowly, what he can still count on. Naming that experience is the first step in recovering from it.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "A small reflection",
+    "items": [
+     "What do you simply assume about the world each day?",
+     "What do you assume about your own safety?",
+     "What would you struggle to imagine being untrue?",
+     "Notice how quiet these beliefs are"
+    ]
+   }
+  },
+  {
+   "say": "The foundations of a house, mostly hidden beneath the ground. We rarely think about them, and yet everything above depends on them. Our deepest assumptions are like this, which is why, when they're disturbed, the whole house of daily life seems to tremble.",
+   "show": {
+    "type": "photo",
+    "file": "lf26_b01_01.jpg",
+    "cap": "The foundations of a house"
+   }
+  },
+  {
+   "say": "If you've been through something that shook your sense of the world, it's worth knowing that this is one of the most human reactions there is. It doesn't mean that you're weak, or broken. It means that you had a world that you trusted, and that something touched it. That trust was healthy, and it can be rebuilt.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "You are not fragile for feeling shaken"
+   }
+  },
+  {
+   "say": "So what did we learn? That we live by deep assumptions, mostly unspoken. That Janoff-Bulman proposed three: a benevolent world, a meaningful world and a worthy self. That mildly positive beliefs seem to support wellbeing. And that these beliefs are a shelter, not a flaw.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the foundations taught us"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll look at the most powerful of these beliefs, the idea that people get what they deserve. A famous experiment in the 1960s showed how far we'll go to protect it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "The just world"
+   }
+  }
+ ]
+}

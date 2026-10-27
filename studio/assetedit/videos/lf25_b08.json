@@ -1,0 +1,224 @@
+{
+ "id": "lf25_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You know the feeling. Your heart pounds, your face is hot, your thoughts narrow, and a minute later you've said something that you'll regret for days. In the middle of a heated argument, something happens to us that's more physical than logical. Researchers have studied this state closely, and what they found explains a lot about why we can't think straight when we most need to.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 22,
+    "title": "When the body takes over"
+   }
+  },
+  {
+   "say": "John Gottman used the word flooding for it. It's the experience of being so overwhelmed by stress during a conflict that the body goes into a state of alarm. Heart rate climbs, muscles tense, and the capacity for careful listening and complex thinking drops. We become more likely to attack, or to withdraw, and less likely to hear.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The state",
+    "sub": "Flooding"
+   }
+  },
+  {
+   "say": "Robert Levenson and John Gottman recorded the heart rate and other physiological signals of couples as they discussed conflicts. They found that, in distressed couples, the partners' physiological states were closely linked, rising and falling together, and that high arousal accompanied negative emotional exchanges. The more aroused the couple, the harder it was for them to stay constructive.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Levenson & Gottman",
+    "where": "Journal of Personality and Social Psychology, 1983",
+    "what": "Marital interaction: physiological linkage and affective exchange"
+   }
+  },
+  {
+   "say": "Gottman suggested that when a person's heart rate rises above a certain level, often cited as around one hundred beats per minute, they're likely to be flooded, and that the most useful thing to do is to take a break. He recommended about twenty minutes. The number is a rule of thumb rather than a result from a controlled test, but the principle is widely used by therapists.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A rough guide",
+    "sub": "When the heart races, pause"
+   }
+  },
+  {
+   "say": "These are useful signs to learn. If you notice them, you're not in a state to have a productive conversation. The kindest and most effective thing is to say so, and to take a break, before the argument does more damage.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Signs that you're flooded",
+    "items": [
+     "Your heart is racing or your chest feels tight",
+     "You can't take in what the other person says",
+     "You want to attack or flee",
+     "Your thoughts keep looping on one point"
+    ]
+   }
+  },
+  {
+   "say": "There's a catch. A break can feel like a rejection if it's done badly. If someone storms out, the other person may feel abandoned. The research on conflict suggests that the way you take a break matters as much as the break itself. A good break comes with a promise to come back.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 23,
+    "title": "How to take a break well"
+   }
+  },
+  {
+   "say": "The last point is important. If you spend the twenty minutes rehearsing your best arguments, your body stays in alarm, and the break doesn't help. Calming activities, such as a walk, slow breathing or listening to music, are more likely to bring your heart rate down.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "A good break",
+    "items": [
+     "Say that you're flooded, not that they're the problem",
+     "Say how long you need",
+     "Promise to come back, and do",
+     "Spend the time calming, not rehearsing arguments"
+    ]
+   }
+  },
+  {
+   "say": "Many couples and teams find it helpful to agree on a signal beforehand, calmly, a word or a phrase that means I need a break and I'll be back. Deciding in advance makes it far easier to use, because it's not an accusation. It's a rule you both chose when you were calm.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "A shared agreement",
+    "sub": "Decide before the storm"
+   }
+  },
+  {
+   "say": "Once you've paused, can you do anything to calm the storm? One of the most interesting findings comes from neuroscience. Matthew Lieberman and his colleagues at the University of California, Los Angeles, found that putting feelings into words can reduce the response of the brain's alarm system.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 24,
+    "title": "Naming it tames it"
+   }
+  },
+  {
+   "say": "In a brain scanning study, participants viewed pictures of faces expressing emotion. When they labelled the emotion in words, such as angry or scared, activity in the amygdala, a region that responds to threat, was lower than when they just looked, and activity in a region of the prefrontal cortex that helps to regulate emotion rose. Naming the feeling seemed to calm the alarm.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Lieberman, Eisenberger, Crockett, Tom, Pfeifer & Way",
+    "where": "Psychological Science, 2007",
+    "what": "Putting feelings into words: affect labeling disrupts amygdala activity in response to affective stimuli"
+   }
+  },
+  {
+   "say": "This suggests a simple tool. When you notice a surge of emotion, try naming it, silently or aloud. I feel hurt. I feel ashamed. I feel scared that this is going to go badly. The effect isn't dramatic, but it's consistent, and it gives your thinking brain a chance to catch up. It also tells the other person what's going on, which they can't guess.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A practical idea",
+    "sub": "Name what you feel"
+   }
+  },
+  {
+   "say": "Ethan Kross and his colleagues found that people who spoke to themselves in the third person, using their own name, as in why is Sam feeling this way, were calmer and less anxious than those who used the first person. Distance from the self seems to help. It's a trick that's easy to try, silently, in the middle of a tough exchange.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Kross, Bruehlman-Senecal, Park, Burson, Dougherty, Shablack, Bremner, Moser & Ayduk",
+    "where": "Journal of Personality and Social Psychology, 2014",
+    "what": "Self-talk as a regulatory mechanism: how you do it matters"
+   }
+  },
+  {
+   "say": "Four terms from this chapter. Flooding is being overwhelmed by stress during a conflict. Affect labelling is naming a feeling in words. Self-distancing is thinking about yourself as if from outside. And a time-out is a pause to calm down, with a promise to return.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Flooding",
+     "Affect labelling",
+     "Self-distancing",
+     "Time-out"
+    ]
+   }
+  },
+  {
+   "say": "Here's a plan to make before you need it. Learn your first sign, whether it's a racing heart, a hot face or a clenched jaw. Choose a phrase to use, and ideally, share it with the people you argue with most. Decide what you'll do to calm down. And agree on when to return. A plan made in a calm moment gives the flooded version of you something to hold on to.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Your own flood plan",
+    "items": [
+     "Learn your first sign of flooding",
+     "Choose a phrase for asking for a break",
+     "Decide on a calming activity",
+     "Agree on when to come back"
+    ]
+   }
+  },
+  {
+   "say": "A lake at dawn, perfectly still. After the storm of an argument, it's a picture of what a good break is for: letting the surface settle, so that you can see what lies beneath it, and speak from there.",
+   "show": {
+    "type": "photo",
+    "file": "lf25_b08_01.jpg",
+    "cap": "Still water"
+   }
+  },
+  {
+   "say": "Here's a small body scan that you can do in the middle of a tense moment, without anyone noticing. First, feel your feet on the floor. It grounds your attention in the present. Second, unclench your jaw and drop your shoulders, because we hold tension there without noticing. Third, let one long breath out, longer than the breath in, which slows the heart a little. And fourth, name one feeling in a word, silently. It might be hurt, afraid, ashamed or angry. The research on affect labelling suggests that this simple act can lower the alarm in the brain. None of these takes more than ten seconds, and together they often give you just enough room to choose your next sentence, and not simply react.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "title": "A body scan for tense moments",
+    "items": [
+     "Feel your feet on the floor",
+     "Unclench your jaw and shoulders",
+     "Let one long breath out",
+     "Name one feeling in a word"
+    ]
+   }
+  },
+  {
+   "say": "If your heart races and your words come out wrong, it doesn't mean that you're bad at conflict. Your body is doing what bodies do under threat. The skill is not to stop it, but to notice it, to give it time, and to return when you can hear again. That's a skill that can be learned at any age.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Your body is not your enemy"
+   }
+  },
+  {
+   "say": "So what did we learn? That a high stress response narrows thinking and listening. That a break, with a promise to return, can help. That naming a feeling reduces the brain's alarm response. And that talking to yourself by name can bring calm.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the body taught us"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll look at the bravest question of all. Can anyone actually change someone else's mind? A set of door-to-door experiments gives us a surprising, and careful, answer.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "How minds change"
+   }
+  }
+ ]
+}

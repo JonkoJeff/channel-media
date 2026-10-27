@@ -1,0 +1,250 @@
+{
+ "id": "lf25_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Perhaps you've heard of the backfire effect. It's the idea that when you present someone with facts that contradict their belief, they don't change their mind. They hold the belief even more strongly. It's a deeply discouraging idea, and it has been used to argue that correcting people is pointless, or even harmful. How good is the evidence?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 31,
+    "title": "The backfire myth"
+   }
+  },
+  {
+   "say": "The idea comes mainly from a study in 2010 by two political scientists, Brendan Nyhan and Jason Reifler. They gave participants news articles that contained a false claim from a politician, followed by a correction. They wanted to know what would happen to people's beliefs after seeing the correction, particularly those who were inclined to believe the claim.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The original study",
+    "sub": "A famous warning"
+   }
+  },
+  {
+   "say": "In some of the experiments, people who were politically motivated to believe the claim, such as that weapons of mass destruction were found in Iraq, ended up more likely to believe it after reading the correction. The authors called this a backfire effect. The result was widely discussed, and it became part of the common wisdom that facts don't change minds.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Nyhan & Reifler",
+    "where": "Political Behavior, 2010",
+    "what": "When corrections fail: the persistence of political misperceptions"
+   }
+  },
+  {
+   "say": "The study was small, the effect appeared only in some of the topics, and the authors themselves described it as a possibility under specific conditions. But the idea was memorable and it resonated with how many people felt about political arguments. It spread through articles, talks and books as if it were a general law of human nature.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The spread of the idea",
+    "sub": "It travelled further than the data"
+   }
+  },
+  {
+   "say": "As with so many findings, the way to find out was to try again, at a larger scale. In 2019, Thomas Wood and Ethan Porter ran what is probably the most thorough test to date. They tested many different issues, and thousands of people, with the aim of finding out whether corrections really make people dig in.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 32,
+    "title": "Testing it again"
+   }
+  },
+  {
+   "say": "They tested corrections on fifty-two issues, with more than ten thousand participants, including topics that are highly charged. In almost every case, corrections moved beliefs in the right direction, even among people who were politically motivated to believe the false claim. They found essentially no evidence of a backfire effect.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Wood & Porter",
+    "where": "Political Behavior, 2019",
+    "what": "The elusive backfire effect: mass attitudes' steadfast factual adherence"
+   }
+  },
+  {
+   "say": "It's a good example of science correcting itself. The original claim was dramatic, so it received attention. The larger test was less dramatic, and received less. But it shifted what most researchers now think: backfire is, at best, rare, and not a general feature of how people respond to facts.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Participants in the Wood & Porter studies",
+    "big": "Over 10,000",
+    "label": "tested on 52 issues, with corrections generally moving beliefs towards the facts"
+   }
+  },
+  {
+   "say": "This review of the research concluded that backfire effects are rare and that, when they appear, they may reflect the way that questions were asked, not a genuine hardening of belief. The authors recommended that the field be cautious in using the term, and that practitioners should not avoid corrections out of fear that they will backfire.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Swire-Thompson, DeGutis & Lazer",
+    "where": "Journal of Applied Research in Memory and Cognition, 2020",
+    "what": "Searching for the backfire effect: measurement and design considerations"
+   }
+  },
+  {
+   "say": "That last line is important. Facts do move people, but not by much, and not on issues where identity is at stake. A person can accept a fact and still keep the overall view. That isn't a backfire. It's what a complicated mind often does.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What the research suggests now",
+    "items": [
+     "Corrections usually work a little",
+     "Real backfire is rare",
+     "People rarely change their view completely",
+     "Beliefs tied to identity are harder to move"
+    ]
+   }
+  },
+  {
+   "say": "There's a related problem that's better established. Even after a false claim has been corrected, it can continue to influence how people think. Psychologists call this the continued influence effect, and it has been demonstrated many times.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 33,
+    "title": "Why corrections fade"
+   }
+  },
+  {
+   "say": "Stephan Lewandowsky and his colleagues reviewed the research. They found that people often continue to rely on a piece of misinformation after they've been told it's false, especially if the correction leaves a gap in their understanding of what happened. A story needs a cause. If you take away the cause without giving a new one, the old one lingers.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Lewandowsky, Ecker, Seifert, Schwarz & Cook",
+    "where": "Psychological Science in the Public Interest, 2012",
+    "what": "Misinformation and its correction: continued influence and successful debiasing"
+   }
+  },
+  {
+   "say": "This explains why a bare correction, that's not true, is often weaker than a correction with an alternative explanation. A story that has lost its cause feels incomplete, and people tend to fall back on the old one. Better corrections give a clear, simple alternative that fills the space.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "A practical lesson",
+    "sub": "Replace, don't just remove"
+   }
+  },
+  {
+   "say": "These principles come from a guide that Lewandowsky and others published, called the Debunking Handbook. They're written for science communication, but they apply just as well at a kitchen table.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "A better correction",
+    "items": [
+     "Lead with the fact, not the myth",
+     "Give a clear alternative explanation",
+     "Keep it simple and repeat it",
+     "Warn gently that a myth is about to be mentioned"
+    ]
+   }
+  },
+  {
+   "say": "Four terms from this chapter. The backfire effect is the claim that corrections strengthen false beliefs, which is now thought to be rare. The continued influence effect is relying on information even after it's been corrected. A correction is an update to a false claim. And motivated reasoning is judging evidence in the light of what we want to be true.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Backfire effect",
+     "Continued influence effect",
+     "Correction",
+     "Motivated reasoning"
+    ]
+   }
+  },
+  {
+   "say": "Here's a gentle way of correcting someone. First, be sure of your facts. Then find something true in their view that you can agree with. Offer the correction as new information, and not as proof that they were foolish. And give them a face-saving way out. That might be as simple as saying, I didn't know that either until recently. People are more willing to update when they don't feel diminished by doing so.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Correcting kindly",
+    "items": [
+     "Check you have the facts right yourself",
+     "Agree with what's true in their view",
+     "Offer the correction as new information",
+     "Give them a way to save face"
+    ]
+   }
+  },
+  {
+   "say": "A chalkboard, half erased and half rewritten. It's a useful picture of how corrections work best: not as a blank space where an old idea used to be, but as a clearer one drawn in its place.",
+   "show": {
+    "type": "photo",
+    "file": "lf25_b11_01.jpg",
+    "cap": "Erased and rewritten"
+   }
+  },
+  {
+   "say": "Picture a friend who shares a claim that you know to be false. You could reply, that's wrong, here's the proof. That might work, since corrections often do. But it might also feel like an attack in front of her friends. A different approach would be to write privately, I looked into this because it surprised me, and found something interesting. Can I send it? She isn't being told she was foolish. She's being offered new information, in private, with a way to update that doesn't cost her face. It's not guaranteed to work, but the research on corrections and on saving face suggests that it's more likely to.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Picture this scene",
+    "items": [
+     "A friend shares a claim she saw online",
+     "You know it's false",
+     "You can start with a correction, or with a question"
+    ]
+   }
+  },
+  {
+   "say": "Here are four reasons why people hold on to a false belief, and none of them is stupidity. The belief may fit a group identity, so giving it up feels like a betrayal. It may provide a story that makes sense of events, and a gap feels worse than a falsehood. They may have repeated or defended it publicly, which raises the cost of changing. And giving it up may feel like losing face. Seeing it this way changes how you respond. Instead of attacking the belief, you can address the need that it meets. Offer a better story, a way out that doesn't cost dignity, and a quiet space to reconsider. People update more readily when updating doesn't feel like defeat.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "title": "Reasons we hold on to false beliefs",
+    "items": [
+     "The belief fits our group identity",
+     "The belief gives a story that makes sense",
+     "We've repeated or defended it publicly",
+     "Giving it up would feel like losing face"
+    ]
+   }
+  },
+  {
+   "say": "If you've felt that facts never work, the research is mildly hopeful. They work more often than the stories suggest, but slowly, and in small steps. A person may not thank you on the spot. But a good correction, delivered kindly, is often thought about later, in private, where changing your mind costs nothing.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Be patient with facts"
+   }
+  },
+  {
+   "say": "So what did we learn? That the famous backfire effect came from a few small experiments. That a test with over ten thousand people found essentially none. That corrections often fade unless they give an alternative. And that kindness helps people update.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What backfire taught us"
+   }
+  },
+  {
+   "say": "In our next chapter, we'll look at an elegant idea: that the same argument can be made in different moral languages. And that choosing the one that your listener already speaks can change how well it lands.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Speaking another person's values"
+   }
+  }
+ ]
+}

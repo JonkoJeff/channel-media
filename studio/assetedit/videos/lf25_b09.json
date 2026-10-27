@@ -1,0 +1,239 @@
+{
+ "id": "lf25_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's the question that everyone secretly wants answered. Can a conversation change what someone believes? Not in a debate on a stage, where people play to an audience, but one on one, in a living room or at a front door. For a long time, the answer from social science was a gloomy one: attitudes on emotional issues rarely change, and almost never last. Then came a surprising experiment.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 25,
+    "title": "How minds change"
+   }
+  },
+  {
+   "say": "In 2014, a study appeared in the journal Science that claimed to show that a short conversation with a gay canvasser could durably change people's views on same-sex marriage. It was widely celebrated, and then something went wrong. Two graduate students at the University of California, Berkeley, David Broockman and Joshua Kalla, tried to extend the work, and noticed that the data didn't look right.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The setting",
+    "sub": "A knock on the door"
+   }
+  },
+  {
+   "say": "They found that the dataset behind the original study showed signs of fabrication, and the lead author, Michael LaCour, could not produce the raw data. The paper was retracted in 2015. It was an embarrassing episode for the field, and also a reminder of why replication and open data matter. It's worth telling, because what happened next is a good example of science repairing itself.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Broockman, Kalla & Aronow",
+    "where": "Online report, 2015",
+    "what": "Irregularities in LaCour (2014): the paper was retracted from Science"
+   }
+  },
+  {
+   "say": "Broockman and Kalla decided to run the experiment themselves, properly. They partnered with a group in Miami that did a kind of conversation called deep canvassing. And they ran a randomised field experiment, with a large number of voters, to test whether a short, careful conversation could reduce prejudice against transgender people, a topic on which people's views are strongly held.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The turn",
+    "sub": "They ran it for real"
+   }
+  },
+  {
+   "say": "They found that a single conversation, lasting about ten minutes on average, with a canvasser who asked people to recall a time when they'd been judged for being different, reduced prejudice, and that the effect lasted at least three months. The effect was larger than the drop in the same attitudes over the previous several years in the United States. It was a surprising and heartening result, and this time the data were sound.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Broockman & Kalla",
+    "where": "Science, 2016",
+    "what": "Durably reducing transphobia: a field experiment on door-to-door canvassing"
+   }
+  },
+  {
+   "say": "Notice what is missing from this list. There's no list of facts, no debate and no attempt to prove the other person wrong. The conversation is built on listening, on stories, and on a kind of invitation to reflect.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What deep canvassing involves",
+    "items": [
+     "Ask how the person feels about the issue",
+     "Listen without judging",
+     "Share a personal story",
+     "Ask them to recall a time when they felt judged",
+     "Connect that experience to the issue"
+    ]
+   }
+  },
+  {
+   "say": "A natural question is whether this was a fluke. The same team went on to run several further experiments, in different places and on different topics, including immigration and attitudes to people of other groups. They also compared different conversation techniques to see which parts do the work.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 26,
+    "title": "Is it a one-off?"
+   }
+  },
+  {
+   "say": "Across experiments, the team found that deep canvassing reliably reduced exclusionary attitudes in conversations, with effects that persisted for months. Later work found that the key ingredients were the nonjudgmental exchange of narratives, and analogic perspective-taking, which means connecting the issue to a personal experience that the listener has had. Conversations that gave facts alone were less effective.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Kalla & Broockman",
+    "where": "American Political Science Review, 2020",
+    "what": "Reducing exclusionary attitudes through interpersonal conversation: evidence from three field experiments"
+   }
+  },
+  {
+   "say": "It's worth being precise about what's happening. The canvasser isn't telling people what to think. They create conditions under which the listener reflects, in their own words, on their own experience, and reaches a conclusion that they own. Psychologists believe that people are much more likely to keep a view they've arrived at themselves, than one they've been handed.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "An important detail",
+    "sub": "Persuasion by reflection"
+   }
+  },
+  {
+   "say": "Each of these fits what we've heard earlier in the evening. Listening lowers defensiveness. Stories bridge divides better than facts. And a person who feels respected is more willing to think.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Why it may work",
+    "items": [
+     "The listener isn't being attacked, so they're less defensive",
+     "Personal stories make an abstract issue human",
+     "Reflection on their own experience feels like their own conclusion",
+     "The warmth of the exchange builds trust"
+    ]
+   }
+  },
+  {
+   "say": "Honesty requires some caution. These conversations took time and training, and they were done in particular settings, with willing participants who opened the door. The effects, while real, were modest in size, and much smaller than a total conversion. And not every study has found such durable effects. Some later field experiments found weaker or shorter-lived changes.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 27,
+    "title": "The limits"
+   }
+  },
+  {
+   "say": "So the fair summary is cautious. A warm, nonjudgmental conversation can change some people's attitudes a little, and that change can last. It's not a trick that works on everyone, or an instant cure for polarisation. It's a human process, slow and partial, like most human changes. But it shows that minds can move, which was far from obvious before.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A realistic summary",
+    "sub": "Small, real, slow"
+   }
+  },
+  {
+   "say": "Four terms from this chapter. Deep canvassing is a long, nonjudgmental, story-based conversation. Analogic perspective-taking means linking an issue to your own experience. A randomised field experiment tests an idea in real life with random assignment. And a retraction is the formal withdrawal of a published study.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Deep canvassing",
+     "Analogic perspective-taking",
+     "Randomised field experiment",
+     "Retraction"
+    ]
+   }
+  },
+  {
+   "say": "If you want to try an adapted version in daily life, here's a sketch. Begin by asking what the person thinks and why, and then listen. Share a story of your own that shows why you care. Ask whether they've ever felt judged or misunderstood, and let that open a connection to the topic. And keep the facts for later. Take it slowly, and don't expect a conversion. A single warm conversation is a start, and the research says that starts can last.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Applying it",
+    "items": [
+     "Start by asking about their experience",
+     "Share a story of your own",
+     "Ask whether they've ever felt judged or misunderstood",
+     "Avoid arguing about the facts at first"
+    ]
+   }
+  },
+  {
+   "say": "A porch light at dusk, and a door about to open. The deep canvassing experiments began with something as ordinary as this: a person knocks, a person answers, and for ten minutes, one of them is asked to think about their own life.",
+   "show": {
+    "type": "photo",
+    "file": "lf25_b09_01.jpg",
+    "cap": "A porch light at dusk"
+   }
+  },
+  {
+   "say": "Picture a family dinner. A young man makes a sharp remark about his grandfather's opinions on immigration. The old man, who might have argued, puts down his fork and tells a story about the first winter in a new country, the shop that wouldn't serve him, and the neighbour who brought bread. He doesn't mention policy. The young man, who came ready for a fight, is silent for a moment. Nothing has been proved, but the conversation has moved from positions to people. It's an invented scene, and it's roughly what the deep canvassing studies attempt: a personal story that invites reflection, and doesn't demand agreement.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Picture this scene",
+    "items": [
+     "A grandfather and a grandson at dinner",
+     "The grandson makes a sharp remark about the old man's views",
+     "The grandfather tells a story instead of arguing"
+    ]
+   }
+  },
+  {
+   "say": "Here's why the conversations in this chapter took time, and why you shouldn't expect your own to be quick. Honesty needs trust, and trust needs a little time. Reflection needs stories, and stories need room to be told. Views that move, move slowly, in small steps, often after the conversation is over. And change tends to be strongest when contact is repeated, because each good conversation builds on the last. It can be frustrating, especially when the issue matters to you. But it's also freeing. You don't need to win in one conversation. You only need to be someone the other person is willing to talk to again, and that, in itself, is a large achievement.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "title": "Why deep conversations take time",
+    "items": [
+     "They need trust before honesty",
+     "They need stories before reflection",
+     "They need patience when views move slowly",
+     "They need repeated contact"
+    ]
+   }
+  },
+  {
+   "say": "If you want to change a mind, the research suggests, don't begin by pushing. Begin by listening, and let the other person feel that you're on their side as a human being. Not everyone will move. But the people who do will move because they felt safe, and that's the only kind of change that tends to last.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Be the one who listens first"
+   }
+  },
+  {
+   "say": "So what did we learn? That a famous study was retracted, and the real experiment found a lasting effect. That a ten-minute story-based conversation reduced prejudice for months. That reflection works better than facts alone. And that the effects are real, but modest and slow.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What changing minds taught us"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll see a different approach. A group of researchers found that asking people to explain how something works, not why they believe it, made their views less extreme.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Explaining beats arguing"
+   }
+  }
+ ]
+}

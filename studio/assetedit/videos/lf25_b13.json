@@ -1,0 +1,250 @@
+{
+ "id": "lf25_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Everything so far has been about conversations between two people. But some of the hardest divides are between groups: neighbours who've never spoken, communities that keep apart, people on opposite sides of a long history. One of the oldest ideas in social psychology says that the way to reduce prejudice is simply to bring people together. Is it true?",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Contact between groups",
+    "sub": "When strangers meet"
+   }
+  },
+  {
+   "say": "In 1954, the psychologist Gordon Allport published a book called The Nature of Prejudice. In it, he proposed that contact between groups can reduce prejudice, but only under certain conditions. Mere proximity isn't enough. Two groups can live side by side for generations and stay suspicious. What matters is the kind of contact.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 37,
+    "title": "The contact hypothesis"
+   }
+  },
+  {
+   "say": "If you remember the Robbers Cave experiment from an earlier video, you'll see how this fits. The boys' camps stopped fighting when they had to work together on shared goals, such as fixing the water supply. Cooperation toward a common aim, not simple meeting, did the work.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Allport's four conditions",
+    "items": [
+     "Equal status between the groups in the situation",
+     "Common goals that both groups share",
+     "Cooperation, not competition",
+     "Support from authorities, laws or customs"
+    ]
+   }
+  },
+  {
+   "say": "Thomas Pettigrew and Linda Tropp combined the results of five hundred and fifteen studies, covering more than two hundred and fifty thousand people in thirty-eight countries. They found that greater contact was consistently linked with lower prejudice, and that the effect held across many kinds of groups. Allport's four conditions made the effect stronger, but they weren't strictly necessary.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Pettigrew & Tropp",
+    "where": "Journal of Personality and Social Psychology, 2006",
+    "what": "A meta-analytic test of intergroup contact theory"
+   }
+  },
+  {
+   "say": "It's one of the largest bodies of evidence in social psychology, and it's strikingly consistent. The size of the average effect was modest, but real. People who had more contact with members of another group generally felt more positively towards that group, and the effect extended beyond the individuals they met.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Studies in the Pettigrew & Tropp meta-analysis",
+    "big": "515",
+    "label": "with 713 samples and more than 250,000 participants across many countries"
+   }
+  },
+  {
+   "say": "The authors found that contact worked mainly through three routes. It reduced anxiety about meeting the other group. It increased empathy and perspective-taking. And it increased knowledge, replacing a stereotype with real information about real people. All three are things that we've seen are central to difficult conversations.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The proposed mechanisms",
+    "sub": "Why contact helps"
+   }
+  },
+  {
+   "say": "But the picture isn't entirely rosy, and it would be unfair to leave it there. A concern with the early research was that people who already feel positive towards another group are more likely to seek contact with them. The link between contact and low prejudice might partly reflect who chooses to mix, and not what mixing does.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 38,
+    "title": "A fair caution"
+   }
+  },
+  {
+   "say": "Elizabeth Levy Paluck and her colleagues reviewed the experimental evidence, studies in which people were randomly assigned to contact or no contact. They found that the effects of contact on prejudice were real, especially in studies of short, well-structured contact. But much of the evidence came from laboratory settings, with less evidence for lasting change in the real world, and almost none about changes in actual behaviour.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Paluck, Green & Green",
+    "where": "Behavioural Public Policy, 2019",
+    "what": "The contact hypothesis re-evaluated"
+   }
+  },
+  {
+   "say": "So the fair summary is that contact tends to help, particularly when it's cooperative and personal. But we shouldn't assume that placing people together is enough, or that it will fix deep conflicts quickly. It's best seen as one important ingredient, not a cure. And the quality of the contact matters more than the quantity.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A balanced reading",
+    "sub": "Good, but not magic"
+   }
+  },
+  {
+   "say": "Look at what's missing: lectures, debates and forced friendship. The best contact is practical, shared and unforced, like a project, a team, a meal or a workplace. Friendships tend to grow out of doing things together, not from talking about differences.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What good contact looks like",
+    "items": [
+     "People work on something together",
+     "They're treated as equals",
+     "They have time to talk about ordinary things",
+     "Someone in charge supports the effort"
+    ]
+   }
+  },
+  {
+   "say": "A famous example comes from a school. In 1971, the psychologist Elliot Aronson was asked to help with racial tension in schools in Austin, Texas, after desegregation. He designed a method called the jigsaw classroom, in which each student receives one piece of the material, and the class can only learn it all if everyone teaches their piece to the others.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 39,
+    "title": "The jigsaw classroom"
+   }
+  },
+  {
+   "say": "In jigsaw groups, children from different backgrounds depended on each other, so they had to listen and help. Studies reported that students in jigsaw classrooms showed more liking for their groupmates, including across racial lines, and some improvement in self-esteem and performance, compared with traditional classrooms. Results varied between schools, but the idea was influential.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Aronson & Patnoe",
+    "where": "The Jigsaw Classroom, 1997",
+    "what": "Cooperation in the classroom: the jigsaw method"
+   }
+  },
+  {
+   "say": "The beauty of the jigsaw method is that it builds in the conditions that Allport described. Everyone has equal status, because each person holds a piece that others need. Everyone shares a goal. And cooperation isn't optional. It turns a competition into a partnership, and it does so without asking anyone to like anyone first.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The idea",
+    "sub": "Make us need each other"
+   }
+  },
+  {
+   "say": "Four terms from this chapter. The contact hypothesis says that meeting can reduce prejudice under the right conditions. A superordinate goal is one that both groups need to achieve together. Intergroup anxiety is nervousness about meeting people from another group. And the jigsaw method is a cooperative way of teaching that makes students depend on each other.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Contact hypothesis",
+     "Superordinate goal",
+     "Intergroup anxiety",
+     "Jigsaw method"
+    ]
+   }
+  },
+  {
+   "say": "You don't need a school or a lab to apply this. You can look for shared projects: a community garden, a team, a local group. Working side by side on something real gives people something to talk about besides their differences. And, as the research shows, familiarity tends to turn strangers into people.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Everyday contact",
+    "items": [
+     "Join a project or team with mixed groups",
+     "Share a meal with neighbours you don't know",
+     "Volunteer alongside people with different views",
+     "Invite someone from another background to do something simple"
+    ]
+   }
+  },
+  {
+   "say": "A long table, mismatched chairs and string lights. The contact research suggests that this is what bridging looks like: not a debate or a seminar, only an ordinary meal, shared by people who would not otherwise have met.",
+   "show": {
+    "type": "photo",
+    "file": "lf25_b13_01.jpg",
+    "cap": "A long table with mismatched chairs"
+   }
+  },
+  {
+   "say": "Picture two departments that have never gotten along, merged into one project team. At first, they sit apart. Then a shared deadline arrives, and a vital piece of equipment breaks at ten at night. Someone from one side knows how to fix it, and someone from the other has the spare part. By midnight they're laughing, and by the next week they're eating lunch together. It's an invented example, but it shows why cooperation toward a shared goal is the engine of contact. The goal gave people a reason to depend on each other, and dependence is a very effective way of making strangers into colleagues.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Picture this scene",
+    "items": [
+     "A new team of former rivals",
+     "A shared deadline",
+     "A broken printer, a late night",
+     "By the end, they're laughing together"
+    ]
+   }
+  },
+  {
+   "say": "If you want to try contact in practice, here are four small steps. Find a task that needs both sides, so that cooperation isn't optional. Meet in a neutral place, where nobody is the host and nobody is the guest. Start small and practical, such as clearing a path, cooking a meal or fixing something, because small successes build confidence. And celebrate what you finish together. The sense of having made something, even something modest, is a shared memory that can't be argued with. The research suggests that these experiences reduce anxiety and increase empathy, and it does so without anyone having to give a speech or change a view.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "title": "Small steps towards shared work",
+    "items": [
+     "Find a task that needs both sides",
+     "Meet in a neutral place",
+     "Start small and practical",
+     "Celebrate what you finish together"
+    ]
+   }
+  },
+  {
+   "say": "When the gap between you and others feels too wide to cross by talking, start with doing. A shared task gives people a reason to be together and something to focus on other than each other's views. The talking comes later, and it comes more easily.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Start with a task, not a topic"
+   }
+  },
+  {
+   "say": "So what did we learn? That contact tends to reduce prejudice, as in a huge review of over five hundred studies. That the effect works through less anxiety, more empathy and more knowledge. That much evidence is short-term and from the lab. And that cooperation toward shared goals is the best form of contact.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What contact taught us"
+   }
+  },
+  {
+   "say": "Next, we turn to what happens after something goes wrong. When a conversation has already hurt someone, what makes an apology work, and what makes it fail?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Repair and apology"
+   }
+  }
+ ]
+}

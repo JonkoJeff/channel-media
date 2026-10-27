@@ -1,0 +1,261 @@
+{
+ "id": "lf25_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In 1990, a graduate student at Stanford University named Elizabeth Newton ran a simple experiment for her doctoral thesis. It was a game with two roles, tapper and listener. It's a game you could play with a friend at a table tonight, and it reveals something quite profound about communication.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 3,
+    "title": "The illusion of being clear"
+   }
+  },
+  {
+   "say": "The tapper chose a well-known song, such as Happy Birthday or the national anthem, and tapped out its rhythm on the table, without humming or singing. The listener's job was to guess the song. Before the listener tried, the tapper was asked how likely it was that the listener would get it right.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The game",
+    "sub": "Tap a song"
+   }
+  },
+  {
+   "say": "Tappers predicted that listeners would identify the song about half the time. In fact, out of one hundred and twenty songs tapped, listeners guessed only three. That's two and a half percent. The tappers were wildly overconfident, and they couldn't explain why their listeners had failed.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Newton",
+    "where": "Stanford University doctoral dissertation, 1990",
+    "what": "Overconfidence in the communication of intent: heard and unheard melodies"
+   }
+  },
+  {
+   "say": "The reason is easy to see once you try it. The tapper hears the whole melody in their head while tapping, so the taps seem to carry the song. The listener only hears a series of knocks. The tapper can't un-hear the tune, so they can't imagine what it's like not to know. Psychologists call this the curse of knowledge.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Songs correctly guessed by listeners",
+    "big": "3 of 120",
+    "label": "while tappers had predicted that about half would be recognised"
+   }
+  },
+  {
+   "say": "The curse of knowledge appears in conversation constantly. When we explain something, we hear all of the context that we carry: what we meant, the history, the tone. The listener only hears the words. The gap between what we think we've said and what has arrived can be large, and we're usually unaware of it.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A general lesson",
+    "sub": "We forget what we know"
+   }
+  },
+  {
+   "say": "It's why so many arguments contain the sentence, but I told you. And often, in a sense, they did. The message was sent. It just wasn't received in the form that it left.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Where the curse shows up",
+    "items": [
+     "Experts explaining to beginners",
+     "Managers giving instructions",
+     "Partners expecting to be understood without saying it",
+     "Anyone who has tried to explain a joke"
+    ]
+   }
+  },
+  {
+   "say": "A related idea comes from Thomas Gilovich and his colleagues at Cornell University. They found that people tend to believe their inner states are far more visible to others than they really are. If you're nervous, you think everyone can tell. If you're annoyed, you think it's obvious. In fact, others usually can't see it at all.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 4,
+    "title": "The illusion of transparency"
+   }
+  },
+  {
+   "say": "In one experiment, people tasted unpleasant drinks and tried to hide their disgust while others watched. The tasters thought their reactions had been obvious. The watchers, in fact, couldn't tell much. In another study, speakers who were nervous about public speaking believed their nerves were plain to see, while audiences rated them as far calmer than they felt.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Gilovich, Savitsky & Medvec",
+    "where": "Journal of Personality and Social Psychology, 1998",
+    "what": "The illusion of transparency: biased assessments of others' ability to read one's emotional states"
+   }
+  },
+  {
+   "say": "In a difficult conversation, this works in both directions. We assume that the other person can see how hurt, worried or well-meaning we are, and so we don't say it. They assume the same about themselves. Each person is waiting for the other to notice something that neither has actually spoken, and both end up feeling unseen.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The conversation version",
+    "sub": "Hidden feelings, assumed to be visible"
+   }
+  },
+  {
+   "say": "Each of these is easy to say and hard to do. But they all follow from one finding: the picture in your head doesn't travel by itself. It has to be sent, in words, and then checked.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "The practical lesson",
+    "items": [
+     "Say what you feel, in simple words",
+     "Don't assume your tone has been understood",
+     "State your intention before a hard remark",
+     "Check how your words landed"
+    ]
+   }
+  },
+  {
+   "say": "A common piece of advice is to put yourself in the other person's shoes. It sounds wise. But research by Nicholas Epley and his colleagues suggests that it often doesn't work as well as people hope, because when we imagine another person's mind, we start from our own and adjust, usually not enough.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 5,
+    "title": "Getting perspective, not taking it"
+   }
+  },
+  {
+   "say": "They showed in several experiments that people's guesses about what others know or feel are anchored on their own knowledge. We adjust a bit, but we usually stop too soon, and the result stays biased toward our own view. So, when we imagine how another person feels, we may be mostly imagining how we'd feel in their situation.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Epley, Keysar, Van Boven & Gilovich",
+    "where": "Journal of Personality and Social Psychology, 2004",
+    "what": "Perspective taking as egocentric anchoring and adjustment"
+   }
+  },
+  {
+   "say": "Tal Eyal and her colleagues tested an alternative. In many experiments, people were more accurate in understanding another person when they simply asked them, and listened, than when they tried to imagine their view. They called it perspective-getting. The best way to know what someone thinks, it turns out, is to ask what they think, and hear the answer.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Eyal, Steffel & Epley",
+    "where": "Journal of Personality and Social Psychology, 2018",
+    "what": "Perspective mistaking: accurately understanding the mind of another requires getting perspective, not taking perspective"
+   }
+  },
+  {
+   "say": "This is one of the most useful findings of the evening, and it's also very simple. When you're unsure what's going on in someone else's mind, resist the urge to work it out by thinking harder. Ask a genuine question, and listen to the reply. The accuracy of your understanding will usually improve more than from any amount of mind reading.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A key conclusion",
+    "sub": "Ask, don't guess"
+   }
+  },
+  {
+   "say": "Notice that this takes just a few sentences. It doesn't require special training or a long time. It only requires that you swap a guess for a question.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Perspective-getting in practice",
+    "items": [
+     "Ask what the other person was thinking",
+     "Ask what they hoped would happen",
+     "Repeat back what you heard in your own words",
+     "Ask whether you've got it right"
+    ]
+   }
+  },
+  {
+   "say": "Four terms from this chapter. The curse of knowledge is forgetting what it's like not to know. The illusion of transparency is overestimating how visible our feelings are. Egocentric anchoring is starting from our own view when we imagine another's. And perspective-getting is learning someone's view by asking.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Curse of knowledge",
+     "Illusion of transparency",
+     "Egocentric anchoring",
+     "Perspective-getting"
+    ]
+   }
+  },
+  {
+   "say": "A rhythm on a wooden table. To the person tapping it, it's a song. To everyone else, it's a series of knocks. That gap, between what's in our head and what's reached the other person, is where most misunderstandings begin.",
+   "show": {
+    "type": "photo",
+    "file": "lf25_b02_01.jpg",
+    "cap": "A rhythm on a table"
+   }
+  },
+  {
+   "say": "Picture two colleagues and one short email. The writer meant it kindly, and was in a hurry, so she kept it brief. The reader, who was already worried about the project, read the brevity as coldness, and spent the evening composing a defensive reply. Neither could see the other's state of mind. The writer assumed that her goodwill was obvious, which is the illusion of transparency. The reader assumed that the tone reflected an attitude, which is the habit of judging by effects. A single line, such as, I'm rushing, but I really value your work on this, would have prevented it. This is a made-up scene, but if you think about your own week, you can probably find one just like it.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Picture this scene",
+    "items": [
+     "Two colleagues, one email",
+     "One meant it kindly",
+     "One read it as cold",
+     "One question could have fixed it"
+    ]
+   }
+  },
+  {
+   "say": "Here are four mistakes that follow directly from the research in this chapter. The first is assuming that your tone and intention came across. Often they didn't, because what's obvious to you is invisible to others. The second is skipping the background. You've been living with this issue for days, and the other person is meeting it for the first time. The third is guessing what the other person thinks, when a single question would answer it. And the fourth is never checking whether your message landed. A simple, kind way to do that is to ask, does that make sense, or is there something I'm not explaining well? It places the responsibility on your explanation, and not on their understanding, which makes it easier for them to say, actually, I didn't follow.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "title": "Common mistakes of clarity",
+    "items": [
+     "Assuming your tone carried your meaning",
+     "Skipping the background the other person lacks",
+     "Guessing what they think",
+     "Not checking whether they understood"
+    ]
+   }
+  },
+  {
+   "say": "It can feel awkward to say the obvious. To say, I want this to go well, or I'm worried this will come out wrong, or I'm saying this because I care about you. But the research suggests that these small statements do real work, because they send a picture that would otherwise stay in your head.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Say the obvious thing"
+   }
+  },
+  {
+   "say": "So what did we learn? That tappers were wildly overconfident, and listeners guessed only three songs in a hundred and twenty. That we overestimate how visible our feelings are. That imagining another's view anchors on our own. And that asking works better than guessing.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What clarity taught us"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll look at what happens when the other person belongs to a different group. A series of studies shows how large the perceived gap between sides can be, and how much of it is imagined.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "Us and them"
+   }
+  }
+ ]
+}

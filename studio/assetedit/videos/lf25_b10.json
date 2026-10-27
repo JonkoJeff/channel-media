@@ -1,0 +1,239 @@
+{
+ "id": "lf25_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a simple experiment that you can try on yourself right now. Do you know how a zipper works? How a flush toilet works? Most people say that they do. They give themselves a high score. But now try to explain it, step by step, to someone who knows nothing. Most of us find that we can't. And this small surprise turns out to be useful in difficult conversations.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "n": 28,
+    "title": "Explaining beats arguing"
+   }
+  },
+  {
+   "say": "In 2002, Leonid Rozenblit and Frank Keil at Yale University gave this experience a name. They called it the illusion of explanatory depth. They asked people to rate how well they understood everyday objects, then to write a detailed explanation, and then to rate their understanding again.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The finding",
+    "sub": "Less than we think we know"
+   }
+  },
+  {
+   "say": "People's ratings of their own understanding dropped sharply after they tried to explain. Before trying, they felt that they knew how a zipper or a helicopter worked. After trying, they realised how superficial their knowledge was. The drop was greatest for things that have visible parts and a clear purpose, which gives the sense that we know how they work.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Rozenblit & Keil",
+    "where": "Cognitive Science, 2002",
+    "what": "The misunderstood limits of folk science: an illusion of explanatory depth"
+   }
+  },
+  {
+   "say": "Why does this happen? One answer is that we live in a world where knowledge is shared. We know that the information exists, and that experts understand it, and we mistake the community's knowledge for our own. It's a normal feature of human thinking, and mostly a helpful one. But it makes us more confident than we should be.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A humbling idea",
+    "sub": "We borrow our confidence"
+   }
+  },
+  {
+   "say": "Philip Fernbach, Steven Sloman and their colleagues asked an intriguing question. If people overrate their understanding of zippers, might they also overrate their understanding of complicated policies? And if so, would making them aware of it change how extreme their views are?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 29,
+    "title": "From zippers to politics"
+   }
+  },
+  {
+   "say": "In the experiment, people were asked to rate their understanding of policies, such as a cap on carbon emissions or a merit pay scheme for teachers. Then half were asked to explain, in detail, how the policy would work. The other half were asked to list reasons for their view. Those who had to explain how the policy worked rated their own understanding lower afterwards, and their views became less extreme.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Fernbach, Rogers, Fox & Sloman",
+    "where": "Psychological Science, 2013",
+    "what": "Political extremism is supported by an illusion of understanding"
+   }
+  },
+  {
+   "say": "The contrast with reasons is the interesting part. Giving reasons for a view tends to strengthen it, because we find supporting points. Explaining a mechanism forces us to face what we don't know, and that humbles us a little.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Explaining and reasons",
+    "items": [
+     "Explaining how it works exposed gaps in knowledge",
+     "Self-rated understanding dropped",
+     "Views became more moderate",
+     "Listing reasons for the view had no such effect"
+    ]
+   }
+  },
+  {
+   "say": "As ever, hold it lightly. Some later studies found smaller effects, or effects only on certain topics, and the method works best with issues that involve a mechanism, a how. It's less obviously useful for values, where the question isn't how something works but what matters. But as a gentle, curious question, it's hard to beat.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "A cautious note",
+    "sub": "Effects can be modest"
+   }
+  },
+  {
+   "say": "These aren't traps, if asked sincerely. They're the same questions that you'd ask yourself if you were designing the policy. And they have the advantage of being about the issue and not the person.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Questions that invite explanation",
+    "items": [
+     "How exactly would that work?",
+     "What would happen step by step?",
+     "What would the first thing be that changes?",
+     "Where could it go wrong?"
+    ]
+   }
+  },
+  {
+   "say": "A different, intriguing question is why human beings argue so well, and reason so poorly. Hugo Mercier and Dan Sperber proposed an explanation in 2011. They suggested that the main function of reasoning is not to find the truth on our own, but to persuade others, and to evaluate what others tell us.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 30,
+    "title": "Why do we argue at all?"
+   }
+  },
+  {
+   "say": "Mercier and Sperber argued that reasoning evolved for social purposes. We're good at finding arguments for what we already think, and good at spotting weaknesses in other people's arguments. On our own, we're biased, and this is why reasoning alone often goes astray. But in a group, where people disagree, reasoning works well, because each person's bias is checked by someone else's.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Mercier & Sperber",
+    "where": "Behavioral and Brain Sciences, 2011",
+    "what": "Why do humans reason? Arguments for an argumentative theory"
+   }
+  },
+  {
+   "say": "If the theory is right, then it supports the idea that good thinking is a team sport. Groups that disagree in good faith, and listen to each other, tend to reach better answers than lone thinkers. The theory is debated, and not all psychologists accept it. But it offers a hopeful way to see a disagreement: not as a failure to think, but as thinking at work.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "An implication",
+    "sub": "Reasoning needs company"
+   }
+  },
+  {
+   "say": "That is a lovely thought to carry into a tense conversation. The person across from you, who disagrees, may be doing you a service. They're the only one who can see the flaw in your argument that you can't.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What the argumentative theory suggests",
+    "items": [
+     "We are better critics than creators of arguments",
+     "Reasoning alone tends to confirm what we believe",
+     "Disagreement in good faith improves reasoning",
+     "A group of different views can see more"
+    ]
+   }
+  },
+  {
+   "say": "Four terms from this chapter. The illusion of explanatory depth is overrating how well we understand how things work. A mechanism question asks how something would actually work. The argumentative theory says that reasoning evolved to persuade and evaluate. And intellectual humility is recognising the limits of what we know.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Illusion of explanatory depth",
+     "Mechanism question",
+     "Argumentative theory",
+     "Intellectual humility"
+    ]
+   }
+  },
+  {
+   "say": "Here is a small test. Choose a topic you hold a strong view on, one with a mechanism, such as a policy or a technology. Rate how well you understand how it works, from one to seven. Then write a step-by-step explanation, as if for a child. Rate yourself again. Most people find that the second number is lower, and that their view softens a little. It's an uncomfortable exercise and a very useful one, and it makes you a better conversation partner.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Try a small test",
+    "items": [
+     "Pick something you feel strongly about",
+     "Rate how well you understand how it works",
+     "Write a step-by-step explanation",
+     "Rate again, and notice the difference"
+    ]
+   }
+  },
+  {
+   "say": "A zipper, and a sketch of how it works. Almost everyone feels sure they understand the first, until they have to draw the second. It's a tiny, friendly reminder that confidence and understanding are two different things.",
+   "show": {
+    "type": "photo",
+    "file": "lf25_b10_01.jpg",
+    "cap": "A zipper and a sketch"
+   }
+  },
+  {
+   "say": "Here are four questions that invite explanation and not defence. How would that work in practice? What would the first step be? What would you want to happen afterwards? And what might go wrong, and how would we deal with it? They're all about the details, which is where real understanding lives. And they have a second effect. When the other person tries to answer, they may notice gaps in their own thinking, without you saying anything. The same applies to you. If you're brave enough to answer these questions about your own view, you may learn something. The best use of the illusion of explanatory depth is not to catch other people out. It's to stay humble about your own certainty.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "title": "Questions that explain, not accuse",
+    "items": [
+     "How would that work in practice?",
+     "What would the first step be?",
+     "What would you want to happen afterwards?",
+     "What might go wrong, and how would we deal with it?"
+    ]
+   }
+  },
+  {
+   "say": "There's relief in admitting that you don't know how something works. It frees you from defending a position that you can't fully explain, and it makes room for the other person to teach you something. Many of the best conversations begin with a simple sentence: I'm not sure I understand this as well as I thought.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Not knowing is a starting point"
+   }
+  },
+  {
+   "say": "So what did we learn? That we overrate how well we understand everyday things. That asking people to explain how a policy works made views more moderate. That giving reasons tends to entrench them. And that reasoning works best in company.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What explaining taught us"
+   }
+  },
+  {
+   "say": "Next, we'll look at a famous warning. That correcting people's beliefs can make them dig in. It has been repeated for years, and it turns out to be less true than the headlines suggested.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "The backfire myth"
+   }
+  }
+ ]
+}

@@ -108,7 +108,8 @@ elif cmd == "shorts":
         pre = f"{m.get('title', '')}\n\n"[:40]
         ex = existing(pre) if m.get("title") else None   # FAILSAFE: this Short already exists on Zernio -> adopt, never post twice
         if ex:
-            done[sid] = {"zernio_id": ex.get("_id"), "when": str(ex.get("scheduledFor"))}; json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1); print(f"{sid} already on Zernio, adopted"); continue; os.path.exists(f) or urllib.request.urlretrieve(url, f)
+            done[sid] = {"zernio_id": ex.get("_id"), "when": str(ex.get("scheduledFor"))}; json.dump(res, open(os.path.join(R, vid, "result.json"), "w"), indent=1); print(f"{sid} already on Zernio, adopted"); continue
+        os.path.exists(f) or urllib.request.urlretrieve(url, f)
         th = None   # Short thumbnail = the Codex cover, else a frame ~1.5 s in (hook text is on screen), hosted on Zernio media; failure here must never block the post
         try:
             if ch == "religion": raise RuntimeError("BTT: no thumbnails (owner 19 Oct)")

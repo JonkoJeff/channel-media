@@ -1,0 +1,240 @@
+{
+ "id": "lf27_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a question that philosophers have argued about for centuries and that one psychologist decided to test in the laboratory. When we help someone, are we ever doing it purely for their sake? Or is there always something in it for us, even if only the pleasant feeling of having done a good deed?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 12,
+    "title": "Is there pure kindness?"
+   }
+  },
+  {
+   "say": "Daniel Batson, a social psychologist at the University of Kansas, spent much of his career on this question. He proposed what he called the empathy-altruism hypothesis. It says that when we feel empathic concern for a person in need, we are motivated to help them for their own sake, and not merely to relieve our own discomfort.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The researcher",
+    "sub": "Daniel Batson"
+   }
+  },
+  {
+   "say": "The clever part was in the design. If you help only to relieve your own distress, then you should be happy to escape the situation if you can, since that would also stop the distress. If your motive is concern for the other person, then you should still help, even when you could walk away.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Two possible motives",
+    "items": [
+     "Egoistic: I help to stop feeling bad myself",
+     "Altruistic: I help because you need it",
+     "Both lead to helping",
+     "They predict different behaviour when escape is easy"
+    ]
+   }
+  },
+  {
+   "say": "Participants watched, on a closed-circuit television, a young woman called Elaine apparently receiving a series of uncomfortable electric shocks as part of a memory experiment. She seemed to find them hard. The participants were then asked if they would be willing to take her place for the remaining trials. Some had been led to feel strong empathy for her, by being told she shared their values and interests. Others were not.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Batson, Duncan, Ackerman, Buckley & Birch",
+    "where": "Journal of Personality and Social Psychology, 1981",
+    "what": "Is empathic emotion a source of altruistic motivation?"
+   }
+  },
+  {
+   "say": "The result fitted Batson's idea. When people felt low empathy, they were much less likely to volunteer if they could easily leave. When they felt high empathy, they volunteered at high rates in both conditions, even when they could simply have walked away. It looked as if concern for the other person was doing real work.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "The key manipulation",
+    "items": [
+     "Easy escape: you can leave after watching two trials",
+     "Hard escape: you must watch all the remaining trials",
+     "High empathy: Elaine is described as similar to you",
+     "Low empathy: Elaine is described as different from you"
+    ]
+   }
+  },
+  {
+   "say": "But the matter did not end there. Other psychologists thought that Batson's experiments didn't rule out a selfish explanation. People who feel empathy for a person in distress may also feel sad themselves, and may help in order to relieve their own sadness. In that case, the motive would be egoistic after all.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 13,
+    "title": "The challenge"
+   }
+  },
+  {
+   "say": "Robert Cialdini and his colleagues ran experiments in which they gave some participants a mood-lifting experience before they had the chance to help. If empathic helping is a way to relieve sadness, then people who had already been cheered up should not need to help. And in their experiments, those who felt empathy but had been cheered up helped less, which fitted the selfish explanation.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Cialdini, Schaller, Houlihan, Arps, Fultz & Beaman",
+    "where": "Journal of Personality and Social Psychology, 1987",
+    "what": "Empathy-based helping: is it selflessly or selfishly motivated?"
+   }
+  },
+  {
+   "say": "What followed was one of the longest-running debates in social psychology. Batson and his team designed new experiments to rule out each selfish explanation, one at a time. Cialdini and others offered new ones in reply. Both sides published results that, they argued, supported their view.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The standoff",
+    "sub": "Years of experiments"
+   }
+  },
+  {
+   "say": "Batson's group tested another prediction: that if empathy leads to genuine concern for the other person, then people should feel pleased when the other person is helped, even if they themselves played no part. They found evidence consistent with that, with people reporting empathic joy when someone else's problem was solved. In their view this supported the altruism explanation.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Batson, Batson, Slingsby, Harrell, Peekna & Todd",
+    "where": "Journal of Personality and Social Psychology, 1991",
+    "what": "Empathic joy and the empathy-altruism hypothesis"
+   }
+  },
+  {
+   "say": "The honest summary is that the debate has not been settled to everyone's satisfaction. But for most practical purposes, the disagreement matters less than the point on which both sides agree: that feeling empathy for a person in need makes us more likely to help them.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Where the debate stands",
+    "items": [
+     "Many researchers accept that empathy leads to real concern",
+     "Others argue that self-interest cannot be fully excluded",
+     "Both agree empathy increases helping",
+     "Motives are hard to measure"
+    ]
+   }
+  },
+  {
+   "say": "It helps to separate two things that are often confused. Empathic concern is the warm, other-focused feeling of caring about someone's wellbeing. Personal distress is the self-focused discomfort of seeing someone suffer. The first tends to lead to helping. The second can lead to avoidance, because looking away is a quick way to feel better.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 14,
+    "title": "What empathy is and isn't"
+   }
+  },
+  {
+   "say": "Nancy Eisenberg and Paul Miller reviewed the research on empathy and helping, and found that empathy was linked to helping in many studies, though the strength of the link varied with how empathy was measured. The reviewers stressed that how empathy is defined and measured makes a big difference to what the studies appear to show.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Eisenberg & Miller",
+    "where": "Psychological Bulletin, 1987",
+    "what": "The relation of empathy to prosocial and related behaviors"
+   }
+  },
+  {
+   "say": "This is an important practical point. Merely absorbing someone's distress can overwhelm us and push us toward withdrawal. A calmer, caring attention, one that stays connected to the other person without being swamped, is more likely to lead to action. We'll see more about that near the end of this video.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "A useful distinction",
+    "sub": "Feeling for, not just feeling with"
+   }
+  },
+  {
+   "say": "Four terms from this chapter. Empathic concern is caring about another person's wellbeing. Personal distress is being upset oneself. Egoism is acting mainly for one's own benefit. And altruism is acting mainly for the benefit of another.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Empathic concern",
+     "Personal distress",
+     "Egoism",
+     "Altruism"
+    ]
+   }
+  },
+  {
+   "say": "Here are some ways to turn distress into concern. Take a slow breath before you respond. Ask yourself what the other person needs, and not what you need to feel better. Imagine the situation from their side. And offer one concrete thing you can do. Picture this scene: a friend tells you that her mother has been taken into hospital. Your first feeling is a lurch of anxiety, and an urge to change the subject. Instead you breathe, and ask, what would help most right now? She says, could you pick up my daughter from school? You can. That small, specific act is concern turned into action, which is what the research on empathy points toward.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Ways to turn distress into concern",
+    "items": [
+     "Take a slow breath before you respond",
+     "Ask yourself what the other person needs",
+     "Imagine their situation from their side",
+     "Offer one concrete thing you can do"
+    ]
+   }
+  },
+  {
+   "say": "Here is a pause to think about whom you feel for. Most of us feel empathy most easily for people who are like us, or people we love. That is natural, and Batson's experiments showed it clearly: similarity raised concern. But think too about the people who are harder for you to feel for. They may be strangers, or people whose views or lives are very different from yours. What would help you to see them as a person with a story? Sometimes it is as simple as learning a name, or asking a question. And think about how you respond when someone you love is suffering. Do you tend to feel overwhelmed and withdraw, or can you stay warm and offer something concrete? The difference between those two reactions is the difference between personal distress and empathic concern, and it is one that can be practised. Who needs your attention this week?",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Pause and reflect",
+    "items": [
+     "Who do I feel for most easily?",
+     "Who do I find hard to feel for?",
+     "What helps me turn worry into action?",
+     "Who needs my attention this week?"
+    ]
+   }
+  },
+  {
+   "say": "Two cups of tea, two chairs, and rain on the window. It's a simple picture of what concern looks like when it works: someone who stays, who listens and who asks what would help. The long argument over whether kindness can ever be pure leaves us with a practical gift. Whatever the motive, feeling for another person makes help more likely, and we can practise turning worry into concern.",
+   "show": {
+    "type": "photo",
+    "file": "lf27_b05_01.jpg",
+    "cap": "Two cups on a table"
+   }
+  },
+  {
+   "say": "If you've ever wondered whether your kindness is truly selfless, you can let the question go. The research suggests that kindness is often mixed, and that mixed kindness still helps people. What matters most is that you notice another person's need, and respond. You do not have to feel everything that other people feel. A calm, caring attention is a gift in itself, and the research suggests it is the kind that lasts, and the kind that leads most reliably to doing something useful.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Caring is allowed to be mixed"
+   }
+  },
+  {
+   "say": "So what did we learn? That Batson's experiments suggested that empathy can produce concern for others for their own sake. That critics offered a selfish explanation and the debate continues. That empathic concern leads to helping and personal distress can lead to withdrawal. And that turning distress into concern is a skill.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What empathy taught us"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll ask whether helping is learned or natural, by looking at toddlers, in a laboratory full of dropped clothes pegs.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "The youngest helpers"
+   }
+  }
+ ]
+}

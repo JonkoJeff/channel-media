@@ -1,0 +1,242 @@
+{
+ "id": "lf27_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "After years of experiments, Darley and Latané drew the findings together into a model. They proposed that between seeing something and helping, a person has to pass through five steps. A failure at any one step means no help. The model has been used ever since to understand where things go wrong, and what we can do about it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "n": 41,
+    "title": "The steps to helping"
+   }
+  },
+  {
+   "say": "It's a useful map because it replaces the vague question, why didn't they help, with five more specific ones. Did they notice? Did they understand? Did they feel it was up to them? Did they know what to do? Did they decide to do it?",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The five steps",
+    "items": [
+     "Notice that something is happening",
+     "Interpret it as an emergency",
+     "Take responsibility",
+     "Know how to help",
+     "Decide to act"
+    ]
+   }
+  },
+  {
+   "say": "In their book, Latané and Darley described the model and the experiments behind it. They argued that people are not apathetic but rather that each of the five steps contains a trap, and that the presence of other people makes each trap deeper. The book remains one of the clearest accounts of the research.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Latané & Darley",
+    "where": "Appleton-Century-Crofts, 1970",
+    "what": "The unresponsive bystander: why doesn't he help?"
+   }
+  },
+  {
+   "say": "The first step was the lesson of the seminary students. If we are hurrying, or looking at our phones, we may never register that someone needs help. Noticing is the most basic step, and the easiest to protect: by looking up, slowing down, and paying attention to the people around us.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Step one",
+    "sub": "Noticing"
+   }
+  },
+  {
+   "say": "The second step is the trap of ambiguity. Is that person asleep or unwell? Is that argument a quarrel or a fight? If it's unclear, we look to other people for cues. And if they look calm, we assume that all is well.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 42,
+    "title": "Step two: reading the situation"
+   }
+  },
+  {
+   "say": "Students waiting in a room to fill in a questionnaire began to see smoke seeping in through a vent. Those who were alone reported the smoke in most cases. When two other apparent students sat calmly and ignored the smoke, only a small fraction of participants did anything. They looked at the others, saw no alarm, and concluded that it must be harmless.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Latané & Darley",
+    "where": "Journal of Personality and Social Psychology, 1968",
+    "what": "Group inhibition of bystander intervention in emergencies"
+   }
+  },
+  {
+   "say": "When the participant was alone, seventy-five percent reported the smoke. When two calm confederates sat beside them, only ten percent did. In a group of three real participants, thirty-eight percent reported it. People were not unconcerned. They were trying to read the room, and the room told them there was nothing to worry about.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Participants who reported the smoke",
+    "big": "75% alone vs 10%",
+    "label": "with two calm, passive companions"
+   }
+  },
+  {
+   "say": "The remedy for ambiguity is to say it out loud. I think that man needs help. Are you okay? Does anyone know what's happening? Speaking breaks the spell, because it gives others the information they were waiting for.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "The antidote",
+    "sub": "Say what you see"
+   }
+  },
+  {
+   "say": "The third step is responsibility, and we saw how a crowd diffuses it. The fourth is knowing how: if you have no idea what to do, you're less likely to try. And the fifth is the decision itself, in which we weigh the costs and the rewards of acting.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 43,
+    "title": "Steps three to five"
+   }
+  },
+  {
+   "say": "Researchers staged an incident on a New York subway train, in which a man collapsed. When he carried a cane and appeared to be ill, he was helped almost immediately in nearly all of the trials. When he appeared to be drunk, he was helped in about half. The costs of helping, and the perceived deservingness of the victim, shaped the decision.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Piliavin, Rodin & Piliavin",
+    "where": "Journal of Personality and Social Psychology, 1969",
+    "what": "Good Samaritanism: an underground phenomenon?"
+   }
+  },
+  {
+   "say": "Seen this way, hesitation isn't just a lack of caring. It's a rapid sum of costs. And it suggests how to help others to help: lower the cost, for example, by making it easy and safe to act, and by making sure that nobody is embarrassed for getting it wrong.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "The costs people weigh",
+    "items": [
+     "Risk to oneself",
+     "Embarrassment if one is wrong",
+     "Time and effort",
+     "Uncertainty about what to do"
+    ]
+   }
+  },
+  {
+   "say": "It's important to say clearly that helping must not mean putting yourself in serious danger. The research on bystanders does not ask anyone to take reckless risks. In dangerous situations, the right thing is often to call emergency services, to get others to help, and to keep a safe distance.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "n": 44,
+    "title": "Safety first"
+   }
+  },
+  {
+   "say": "Calling for help is itself a form of helping, and a very effective one. Nobody should feel that they've failed if they could not intervene physically. A clear, calm call, with the location and a description, is what trained responders most want.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Safe ways to help in a dangerous situation",
+    "items": [
+     "Call the emergency number",
+     "Tell staff or security",
+     "Stay at a safe distance and keep watching",
+     "Give your account to the authorities afterwards"
+    ]
+   }
+  },
+  {
+   "say": "Four terms from this chapter. The five-step model is the sequence from noticing to acting. Ambiguity is unclarity about whether help is needed. Cost-reward analysis is weighing what helping will cost and gain. And safe intervention is helping without risking serious harm.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Five-step model",
+     "Ambiguity",
+     "Cost-reward analysis",
+     "Safe intervention"
+    ]
+   }
+  },
+  {
+   "say": "Here's a way to use the model on yourself. Think of a time you didn't help, and walk through the five steps. Did I notice? Did I understand what I saw? Did I feel it was mine to do? Did I know how? Did I decide? Picture this scene: a woman recalls watching a child cry alone in a shopping centre and walking on. She runs the steps. She noticed. She understood. She assumed a parent was near. That was the step, step three. Next time, she will say, hello, are you looking for someone? The model did not blame her. It gave her a sentence.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Run the five steps",
+    "items": [
+     "Did I notice?",
+     "Did I understand what I saw?",
+     "Did I feel it was mine to do?",
+     "Did I know how?",
+     "Did I decide?"
+    ]
+   }
+  },
+  {
+   "say": "Here is a pause to place yourself on the map of five steps. Which one do you find hardest? For some people it is noticing, because they live in their heads. For others, it is interpreting, because they worry about misreading. For some, it is feeling responsible, and for others it is knowing what to do. And for many, it is simply deciding, because the fear of getting it wrong looms large. Knowing your own hard step is useful, because each has its own remedy. Noticing is helped by slowing down. Interpreting is helped by asking. Responsibility is helped by naming. Skill is helped by learning. Deciding is helped by plans. And think of someone you know who acts well in a crisis. What do they do? You might thank them. People who step in often feel unseen, and a thank you tells them that stepping in was noticed and welcome.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Pause and reflect",
+    "items": [
+     "Which of the five steps do I find hardest?",
+     "Do I hesitate for fear of being wrong?",
+     "What would make acting easier?",
+     "Who could I thank for acting well?"
+    ]
+   }
+  },
+  {
+   "say": "Five steps up to a lit doorway. The five-step model asks us to look at the stairs, one at a time, because a person can stumble on any of them, and each one can be made a little easier. The five steps are a kind of kindness to our past selves too. When we failed to act, one of them was probably hard that day, and knowing which one lets us forgive ourselves and prepare for next time.",
+   "show": {
+    "type": "photo",
+    "file": "lf27_b14_01.jpg",
+    "cap": "Five steps to the door"
+   }
+  },
+  {
+   "say": "If you have ever failed to help, one of the steps was probably hard that day. Naming which one is not an excuse. It's the first step toward doing better, and it is a kindness to your future self and to whoever needs you next.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Every step can be made easier"
+   }
+  },
+  {
+   "say": "So what did we learn? That helping needs five steps, from noticing to deciding. That ambiguity and calm crowds can stop us at step two. That we weigh costs quickly and mostly without noticing. And that calling for help is a safe and powerful form of help.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What the model taught us"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll look at a subtler problem: help that is offered with the best intentions, and does not help at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Up next",
+    "sub": "When help isn't help"
+   }
+  }
+ ]
+}

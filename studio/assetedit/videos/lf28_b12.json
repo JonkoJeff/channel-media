@@ -1,0 +1,340 @@
+{
+ "id": "lf28_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "There is a rare kind of dream that stands apart from all the others we have talked about. In it, something shifts, and you realise, quite calmly, that none of this is real, and that you are asleep. Researchers call it a lucid dream, and it has taken some of the cleverest experiments in sleep science to show that it is real.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A11",
+    "bg": "cafe_sunset",
+    "n": 36,
+    "title": "Knowing you are dreaming"
+   }
+  },
+  {
+   "say": "Picture it for a moment. You are walking along a street that you know is not your street, and you notice that the light is a little too even, or that a door is where no door could be. And then the thought arrives, I am dreaming. The odd thing is that the dream does not stop. The street is still there, the air still seems to move, and you are still in it, only now you know.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "A strange moment",
+    "sub": "The dream goes on"
+   }
+  },
+  {
+   "say": "That is all the term means. A lucid dream is a dream in which you know you are dreaming. Some people only taste it for a few seconds before they wake. Others describe longer episodes in which they can look around and decide what to do. It is not a trick or a trance, but a particular mixture of sleeping and awareness, which is exactly what makes it so hard to study.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Lucid dreaming, in plain words",
+    "items": [
+     "You realise that you are dreaming while the dream continues",
+     "You may be able to think clearly, and sometimes to make choices",
+     "You are still asleep, usually in REM sleep",
+     "For most people it is brief and unpredictable"
+    ]
+   }
+  },
+  {
+   "say": "Here is the difficulty that stood in the way for years. Someone wakes up and says, I knew I was dreaming. A sceptic could reply, perhaps you only dreamed that you knew. You might have been half awake, or you might have invented the memory afterwards. A report from the morning cannot easily prove what the sleeper was aware of during the night. To settle the matter, the researchers needed a message sent from inside the dream.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "The old problem",
+    "sub": "How could anyone check?"
+   }
+  },
+  {
+   "say": "The solution came from a feature of REM sleep that you may remember from earlier, which is that the body is held still, but the eyes are not.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 37,
+    "title": "The first signals"
+   }
+  },
+  {
+   "say": "In REM sleep, the muscles of the body are largely switched off, so that dreams are not acted out. Yet the eyes still move, and those movements can be recorded with small sensors placed near them. This gave researchers an idea. If a dreamer could move their eyes in a deliberate, agreed pattern, the pattern would show up on the recording, and nobody would have to rely on memory.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A loophole",
+    "sub": "The eyes keep moving"
+   }
+  },
+  {
+   "say": "At Stanford University, Stephen LaBerge and his colleagues trained volunteers to signal from within a lucid dream. The dreamers agreed in advance on a pattern, a look to the left, then right, then left, then right again. When they became lucid, they were to make that sequence, and later they would tell the team what they remembered of the dream.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "LaBerge, Nagel, Dement & Zarcone",
+    "where": "Perceptual and Motor Skills, 1981",
+    "what": "Lucid dreaming verified by volitional communication during REM sleep"
+   }
+  },
+  {
+   "say": "The volunteers slept for between two and twenty nights each. The sleep was recorded on a polygraph, and the agreed eye signal, left, right, left, right, stood out clearly from the ordinary movements of REM sleep. The researchers also used fist clenches as a second kind of signal. A judge who had not been told when anything happened then tried to match each dream report to the right stretch of the recording.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "title": "What the Stanford team recorded",
+    "items": [
+     "Five volunteers slept in the laboratory",
+     "They agreed a signal before sleep: left, right, left, right",
+     "Eye movements and fist clenches were recorded",
+     "A judge who did not know the timings checked the match"
+    ]
+   }
+  },
+  {
+   "say": "Of the thirty-five lucid dreams the volunteers reported after being woken, thirty-two had occurred in REM sleep. In thirty of them, the dreamers had sent a signal. And when the blind judge looked at the recordings, the signals pointed to the right moment in twenty-four of the dream reports. It was a small study, but it was a clear one. The dreamer had really been asleep, and really been aware.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Lucid dreams reported on waking that began in REM sleep",
+    "big": "32 of 35",
+    "label": "in the five volunteers studied at Stanford"
+   }
+  },
+  {
+   "say": "There is a footnote that is worth adding. A few years earlier, a researcher called Keith Hearne had recorded a similar signal in Britain. A volunteer named Alan Worsley spent fifty nights in a sleep laboratory at Hull University, and on eight occasions he sent an eye signal from a lucid dream. All eight happened in REM sleep. Hearne described this in his doctoral work at the University of Liverpool in 1978, and science often works this way, with several people reaching the same discovery from different directions.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Not quite the first",
+    "sub": "An earlier pioneer"
+   }
+  },
+  {
+   "say": "Put simply, these early experiments showed that lucid dreaming is not just a story people tell about their nights. A sleeping person, in REM sleep, can know that they are dreaming, and can act on a plan made before sleep. It was one small step. A message had travelled from the dream to the waking world.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "What it showed",
+    "sub": "A message from sleep"
+   }
+  },
+  {
+   "say": "You may be wondering how many people have ever had such an experience, and whether it is as rare as it sounds.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 38,
+    "title": "How common is it?"
+   }
+  },
+  {
+   "say": "A team led by David Saunders looked at fifty years of surveys. They combined the results of thirty-four studies, covering more than twenty-four thousand people. The answer is probably higher than you would guess, but there is a catch in how the question is worded, which we will come to in a moment.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Saunders and colleagues",
+    "where": "Dreaming, 2016",
+    "what": "Lucid dreaming incidence: a quality effects meta-analysis of 50 years of research"
+   }
+  },
+  {
+   "say": "Across all of those surveys, about 55 percent of people said they had had at least one lucid dream in their lives. That is just over half. But only about 23 percent reported having one as often as once a month or more. In other words, many people have had the experience, a few have it regularly, and most of us have it rarely, if ever.",
+   "show": {
+    "type": "bars",
+    "sprite": "A16",
+    "bg": "cafe_sunset",
+    "title": "How many people have had a lucid dream",
+    "unit": "percent",
+    "bars": [
+     [
+      "At least once in a lifetime",
+      55.0
+     ],
+     [
+      "About once a month or more",
+      23.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Notice what these numbers do and do not say. They count people who have had a lucid dream at least once, perhaps as a child, perhaps for a few seconds, perhaps without being quite sure. They depend on what people remember and what they believe counts. The researchers took care to remove samples drawn from groups that were especially interested in dreaming, so that the figure would not be pushed upward by enthusiasts.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Reading the numbers",
+    "sub": "Once is not often"
+   }
+  },
+  {
+   "say": "An open door at the end of a corridor is a fair picture of what a lucid dream is like. You are still inside the same building, still within the dream, but a door has opened onto a wider view. The experiments we have just seen were the first to show that someone on the outside could tap on that door, and receive an answer.",
+   "show": {
+    "type": "photo",
+    "file": "lf28_b12_01.jpg",
+    "cap": "An open door"
+   }
+  },
+  {
+   "say": "For decades after the Stanford work, the messages went mostly one way, from the dreamer to the researcher. Then, in 2021, a group of laboratories tried something bolder.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "n": 39,
+    "title": "A conversation with a dreamer"
+   }
+  },
+  {
+   "say": "Four research teams, working independently, at Northwestern University in the United States, Sorbonne University in France, Osnabrück University in Germany, and Radboud University Medical Center in the Netherlands, set out to talk to people while they slept. The idea was not only for the dreamer to send a signal, but for the experimenter to speak to the dreamer, and for the dreamer to answer.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Konkoly and colleagues",
+    "where": "Current Biology, 2021",
+    "what": "Real-time dialogue between experimenters and dreamers during REM sleep"
+   }
+  },
+  {
+   "say": "In total, 36 people took part, some of them experienced lucid dreamers and some with no experience at all. Before they slept, they were told how the conversation would work. While they slept, the researchers watched their brain activity to confirm that they were in REM sleep. Then they spoke to them, using questions with known answers, so that the replies could be checked.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "How the experiments worked",
+    "items": [
+     "36 people who hoped to have lucid dreams",
+     "Briefing before sleep on how to communicate",
+     "Sleep recorded to confirm REM",
+     "Questions with answers the researchers already knew"
+    ]
+   }
+  },
+  {
+   "say": "When a dreamer became lucid, they signalled with a sequence of large eye movements, much like the Stanford volunteers. Then the questions began. The sleepers answered with eye movements, or with small twitches of their facial muscles. In some cases, the researchers reported that the person gave a correct answer to a simple question, while still asleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "Dreamers who answered",
+    "sub": "Eye signals and small twitches"
+   }
+  },
+  {
+   "say": "According to the report, the dreamers were able to follow instructions, to work out simple sums, to answer yes-or-no questions, and to tell different sensory stimuli apart. To say all this plainly: somebody was asleep in a laboratory, and a researcher asked a question, and the sleeper replied.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "title": "What the dreamers could do",
+    "items": [
+     "Follow simple instructions",
+     "Do simple sums",
+     "Answer yes-or-no questions",
+     "Tell different kinds of signal apart"
+    ]
+   }
+  },
+  {
+   "say": "That is how Ken Paller, the senior author of the paper and a researcher at Northwestern University, put the main result. The team gave it the name interactive dreaming. It is not a claim that sleepers can chat freely about anything. It is a claim that a conversation, in a limited way, can pass in both directions.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "text": "We found that individuals in REM sleep can interact with an experimenter and engage in real-time communication",
+    "by": "Ken Paller, Northwestern University, 2021"
+   }
+  },
+  {
+   "say": "One of the participants was a person with narcolepsy, who also had frequent lucid dreams, and who communicated with the researchers readily. Narcolepsy is a condition that affects sleep, and this person's easy entry into lucid dreaming was a reminder that some brains are simply more at home in this state than others. The group also varied widely, from people who had many lucid dreams to people who had none.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "autumn_overlook",
+    "cap": "An unexpected helper",
+    "sub": "Practice and a natural gift"
+   }
+  },
+  {
+   "say": "There is a good reason why scientists wanted a live conversation. When you describe a dream in the morning, it has already been through a lot. Details are lost, and others are added without your noticing. A real-time answer, given while the dream is still unfolding, avoids that problem. It lets researchers ask a question of the dream itself, instead of asking only about the memory.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Why this matters",
+    "sub": "Reports can drift"
+   }
+  },
+  {
+   "say": "As with every study in this series, it helps to hold the findings lightly. Thirty-six people is a small group. Four laboratories used somewhat different procedures. Many participants had practice in lucid dreaming, so they may not stand for everyone. And the questions were simple, a long way from the free conversation of waking life. These are early steps, not final answers.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "title": "Fair cautions",
+    "items": [
+     "Only 36 people took part",
+     "Four labs used somewhat different methods",
+     "Many were already practised at lucid dreaming",
+     "Only simple questions were possible"
+    ]
+   }
+  },
+  {
+   "say": "Still, there is something quietly remarkable here. For most of history, the sleeping mind seemed closed, a private theatre with no way in. These experiments suggest that the door is not always locked. Under the right conditions, a mind can be both asleep and aware, and can pass a message to someone who is awake. It adds to a growing picture of consciousness as less of an on-off switch and more of a dial.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "A wider thought",
+    "sub": "Awareness inside sleep"
+   }
+  },
+  {
+   "say": "Four words from this chapter. A lucid dream is a dream in which you know that you are dreaming. A polygraph is a recording of body signals, such as eye movements, during sleep. Interactive dreaming is the name for two-way contact with a dreamer, like the 2021 experiments. And a meta-analysis combines the results of many studies, as in the survey of lucid dreaming.",
+   "show": {
+    "type": "list",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "title": "Words to keep from this chapter",
+    "items": [
+     "Lucid dream: knowing you are dreaming",
+     "Polygraph: a recording of body signals during sleep",
+     "Interactive dreaming: two-way contact with a dreamer",
+     "Meta-analysis: combining many studies"
+    ]
+   }
+  },
+  {
+   "say": "If all this has made you curious, there is no need to chase lucid dreams. Most people have them rarely, and many are perfectly content never to have one. What the science offers is not a task but a window, a way of seeing that a dream is a living process of the brain, one that can be reached and measured. That is something to appreciate in itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "You need not chase it"
+   }
+  },
+  {
+   "say": "There is one more puzzle, and it is one that everyone has met. Even the most vivid dream, even one in which you knew that you were dreaming, can be gone within minutes of waking. You were just there, and now there is only a feeling and a few scraps. Why do dreams slip away so quickly? That is where we go next.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "autumn_overlook",
+    "cap": "A question that remains",
+    "sub": "And what happens next?"
+   }
+  }
+ ]
+}

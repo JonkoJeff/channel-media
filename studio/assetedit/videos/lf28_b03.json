@@ -1,0 +1,338 @@
+{
+ "id": "lf28_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So by the early 1950s, the picture looked wonderfully tidy. Eyes darting beneath the lids, a busy brain, and a vivid dream on the other side. REM sleep and dreaming seemed to be two names for the same thing. But science has a habit of poking at tidy pictures, and the next few decades gave this one a good deal of poking.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "n": 9,
+    "title": "When dreams leave REM behind"
+   }
+  },
+  {
+   "say": "Let's start with what the neat version predicts. If dreaming belongs to REM sleep, then wake someone from deep, quiet, non-REM sleep, and they ought to have nothing to tell you. A blank. A shrug. That is a clear prediction, which is exactly what makes it testable, and researchers did test it.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "The tidy story",
+    "sub": "Dreaming equals REM"
+   }
+  },
+  {
+   "say": "Here is what kept turning up. Now and then, someone woken from non-REM sleep did say that something had been going on. Not always a grand adventure. Sometimes a plain thought, a scrap of a scene, a feeling of being in the middle of something. Early on, many researchers assumed those reports were leftovers from an earlier REM period. But the doubt would not quite go away.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "A quiet doubt",
+    "sub": "Reports from other stages"
+   }
+  },
+  {
+   "say": "The psychologist David Foulkes decided to look closely at the question itself. He pointed out that if you wake people and ask, what were you dreaming, you are quietly asking for a vivid story with pictures. If you ask instead, what was going through your mind, you may hear about quieter experiences too. With the wider question, people woken from non-REM sleep gave far more reports than the old tidy story allowed.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "David Foulkes",
+    "where": "Journal of Abnormal and Social Psychology, 1962",
+    "what": "Dream reports from different stages of sleep"
+   }
+  },
+  {
+   "say": "This is a lovely lesson in how research works. The answer you get depends partly on how you ask. Some experiences in the night are cinema, rich with colour and motion. Others are more like a thought drifting by, or a brief image that fades at once. Whether you call the second kind a dream is partly a decision about words, and that is why this debate has lasted so long.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "A question of wording",
+    "sub": "What counts as a dream?"
+   }
+  },
+  {
+   "say": "Decades later, a review pulled together 69 studies of awakenings carried out between 2000 and 2024. It found that people reported some experience, and could recall it, after about 83 percent of awakenings from REM sleep, and about 60 percent from non-REM sleep. For comparison, after waking from being awake, it was about 95 percent. So REM is the richest place to look, but the non-REM night is far from empty.",
+   "show": {
+    "type": "bars",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "title": "Woken, then asked: did anything go through your mind?",
+    "unit": "percent of awakenings",
+    "bars": [
+     [
+      "Non-REM sleep",
+      60.0
+     ],
+     [
+      "REM sleep",
+      83.0
+     ],
+     [
+      "Awake",
+      95.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "It is worth sitting with that figure for a moment. Roughly six in ten times, when someone was woken from the sleep we used to call dreamless, there was something to report. So when you wake and feel you slept like a stone, you may simply have forgotten a quiet inner life that was going on all the same.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Not empty at all",
+    "sub": "A quieter kind of mind"
+   }
+  },
+  {
+   "say": "Here is why that happens so easily. A plain, brief thought does not seem worth keeping, and a sleeping brain is poor at storing anything new. By the time you open your eyes, the thought is gone, and all that is left is the impression of nothing. That impression is a fact about memory, and not necessarily a fact about the night.",
+   "show": {
+    "type": "list",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "title": "Why we forget a quiet inner life",
+    "items": [
+     "The experience was brief or plain",
+     "Nothing in it demanded attention",
+     "Memory is switched off for most of the night",
+     "We wake and the scene dissolves"
+    ]
+   }
+  },
+  {
+   "say": "There is a habit here that I find quite lovely. When the answer surprises you, ask the question again, in a slightly different way. Foulkes did exactly this, and a whole field shifted a little. It is a reminder that a blank result is sometimes only a limit of the question.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "cap": "A good habit of science",
+    "sub": "Ask the question twice"
+   }
+  },
+  {
+   "say": "There was a second challenge to the tidy story, and it came from a very different direction, the neurology clinic. If dreaming and REM sleep are really the same thing, then damage to the machinery of REM should end dreaming. And damage elsewhere should not touch it. A South African neuropsychologist set out to check.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cafe_sunset",
+    "n": 10,
+    "title": "What the damaged brain revealed"
+   }
+  },
+  {
+   "say": "Mark Solms went back through older case histories, and he also interviewed 332 patients with brain damage, in Johannesburg and in London, between 1985 and 1995. Some patients reported that they had stopped dreaming altogether. When he looked at where their damage was, two regions kept appearing. One was the junction where the parietal, temporal and occipital lobes meet. The other was a region deep in the front of the brain.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Mark Solms",
+    "where": "Behavioral and Brain Sciences, 2000",
+    "what": "Dreaming and REM sleep are controlled by different brain mechanisms"
+   }
+  },
+  {
+   "say": "The first region is linked with spatial thinking and mental imagery, which suits a world that has to be pictured. The second sits in the frontal lobes, and its exact role is still argued over. What stood out was that damage to either place could leave a person who slept and, as far as the tests showed, still had REM sleep, and yet no longer dreamed.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Two places",
+    "sub": "A junction and a pathway"
+   }
+  },
+  {
+   "say": "Solms argued that REM sleep is a state of the brain's engine room, while dreaming is something the forebrain does with it. The two usually travel together, but they are not the same. And it is only fair to say that his view has been challenged. Some researchers think the lesion evidence is thin, or that REM and dreaming are more closely tied than he proposed. It is an open and lively debate.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "title": "What Solms argued",
+    "items": [
+     "Dreaming and REM can come apart",
+     "Some patients stopped dreaming but kept REM sleep",
+     "Damage to certain forebrain areas was linked to the loss",
+     "Other researchers still disagree about how far this goes"
+    ]
+   }
+  },
+  {
+   "say": "If dreaming can come apart from REM, then asking, how much REM did I get, only tells part of the story. It becomes a better question to ask where in the brain the scenes are being built, and how awake that part is. That is a more careful and more interesting question, and it points the way to what we explore next.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "autumn_overlook",
+    "cap": "Why this matters",
+    "sub": "It changes the question"
+   }
+  },
+  {
+   "say": "Think of the house at night. Nothing seems to move, and yet if you listen, a clock ticks, the heating hums, a pipe settles. A sleeping brain is a little like that. The still surface does not tell you that nothing is happening inside. And that raises the real question. If it is not simply the stage of sleep that decides whether you dream, then what does?",
+   "show": {
+    "type": "photo",
+    "file": "lf28_b03_01.jpg",
+    "cap": "A quiet window at night"
+   }
+  },
+  {
+   "say": "In the spring of 2017, a team of researchers set out to answer that question with a lot of electrodes and a lot of patience. They worked in Wisconsin, in the group of the sleep researcher Giulio Tononi, and their lead author was Francesca Siclari.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 11,
+    "title": "The back of the brain"
+   }
+  },
+  {
+   "say": "Forty-six volunteers slept in the laboratory wearing a cap with 256 electrodes. At intervals during the night, a tone woke them, and they were asked a simple question: were you dreaming? Then the team went back through the brain recordings from just before each awakening, looking for what separated the nights with dreams from the nights without.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Siclari, Baird, Perogamvros, Bernardi, LaRocque, Riedner, Boly, Postle & Tononi",
+    "where": "Nature Neuroscience, 2017",
+    "what": "The neural correlates of dreaming"
+   }
+  },
+  {
+   "say": "Imagine being one of those volunteers. You sleep in a quiet room with a cap of wires, and at some point a soft tone sounds. You come up from sleep, and a voice asks whether you were dreaming, and if so, what was in it. The team repeated this many times, so they could compare the nights that held a dream with the nights that held none.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "cap": "How they asked",
+    "sub": "Wake, tone, question"
+   }
+  },
+  {
+   "say": "This is the finding that made headlines. By looking at the recordings from just before the tone, the researchers could tell with striking accuracy whether the person had been dreaming. It worked for dreaming, 92 percent of the time, and for no dreaming, 81 percent of the time. And it worked in REM sleep and in non-REM sleep alike.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "How well brain activity before waking predicted a dream",
+    "big": "92%",
+    "label": "and absence of a dream was predicted 81% of the time"
+   }
+  },
+  {
+   "say": "What did the researchers find? When people were dreaming, an area toward the back of the brain showed a kind of fast, wakeful electrical activity, even if they were deep in non-REM sleep. The team called it the posterior hot zone. It covers regions that help us see, picture and feel where we are. When that zone was quiet, people tended to report nothing.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "A hot zone",
+    "sub": "The back of the brain wakes up"
+   }
+  },
+  {
+   "say": "Notice the quiet elegance of this idea. It is not the clock of the night that matters, or the label on the sleep stage. It is whether a particular part of the brain, the part that builds scenes, is switched on at that moment. It is a bit like asking not what time it is, but whether the lights are on in the room where scenes get built.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "title": "What decided whether people dreamed",
+    "items": [
+     "The sleep stage did not decide it alone",
+     "Fast activity in the back of the brain went with dreaming",
+     "This held in REM and in non-REM sleep",
+     "A quiet back of the brain went with no dream"
+    ]
+   }
+  },
+  {
+   "say": "So we have three lines of evidence, and they point the same way. People report experiences in non-REM sleep. Patients can lose dreaming while keeping REM. And a hot zone at the back of the brain predicts dreaming whatever the stage of sleep. Dreaming appears to be something the brain does with certain circuits, whenever those circuits are awake.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "Putting it together",
+    "sub": "Dreams are made somewhere"
+   }
+  },
+  {
+   "say": "This gives a gentler way to think about your own nights. If you wake with no memory of dreaming, it does not mean your mind was switched off. Your brain may well have spent hours building small scenes and thoughts that faded before morning. Most of what happens in a sleeping mind is never remembered, and that tells us something about how fragile the memory of a dream really is.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "What this means for you",
+    "sub": "Your quiet nights"
+   }
+  },
+  {
+   "say": "Researchers often describe two flavours. The vivid, story-like kind tends to come with REM, especially toward morning. The shorter, plainer kind turns up more in non-REM sleep. Neither is better or more real. But the fact that both exist means the question of why dreams feel so real has more than one answer. For the vivid kind, there is a particular chapter of brain science to look at.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Two kinds of dream",
+    "items": [
+     "Longer, vivid, strange stories",
+     "Short, thought-like scraps",
+     "More common as the night goes on",
+     "Both can feel real while they last"
+    ]
+   }
+  },
+  {
+   "say": "Let me be careful about one thing. The hot zone finding is exciting, but nobody is claiming that the whole mystery is solved. The data came from volunteers who were asked to report afterwards, and memory is imperfect. A fast rhythm in the back of the brain is a clue, not a full explanation. That is how good science sounds, a confident clue, honestly labelled.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "cap": "A word of caution",
+    "sub": "Science with the doubts left in"
+   }
+  },
+  {
+   "say": "If a dream can arise in the back of the brain, with the eyes closed and no light arriving at all, then something remarkable has to be going on. The brain is building a visible world from nothing but its own activity. And how it manages that is the next thing to explore.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "So what builds the scene?",
+    "sub": "The next question"
+   }
+  },
+  {
+   "say": "Hold that thought for a moment. In ordinary waking life, your eyes send signals and your brain turns them into a room, a face, a cup of tea. In a dream, the eyes send nothing of use, and yet the room, the face and the cup appear just the same. Whatever builds those scenes, it is not simply passing the world along.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "A world without light",
+    "sub": "Seeing with closed eyes"
+   }
+  },
+  {
+   "say": "These are good questions to carry forward. We have learned where dreams may be built, and that the stage of sleep is not the whole story. We have not yet learned how a sleeping brain makes a world feel solid, and that is the part most of us really want to understand.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "title": "Questions this leaves open",
+    "items": [
+     "How does the back of the brain build a whole scene?",
+     "Why does the dream feel as real as waking life?",
+     "Why do we so rarely notice that anything is odd?"
+    ]
+   }
+  },
+  {
+   "say": "The researchers who found the hot zone noticed something else. The back of the brain is where much of our seeing and picturing is handled, and it was busy during dreams. That hints at an idea we will come back to. When you dream, the brain may be using many of the same tools it uses when you are awake.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "A clue worth following",
+    "sub": "The same machinery"
+   }
+  }
+ ]
+}

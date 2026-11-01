@@ -1,0 +1,325 @@
+{
+ "id": "lf28_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So far, we have talked as though the dreaming brain were a theatre with the doors closed, putting on its own show for an audience of one. But the doors are not quite shut. Sleep keeps most of the world out, and yet a little of it slips through the cracks. Let's look at what gets in, and what the dreaming mind does with it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "n": 21,
+    "title": "The world leaks in"
+   }
+  },
+  {
+   "say": "Think of the last time a sound woke you, and you realised it had already been in your dream. A knock at a door that turned out to be a real knock. A phone that rang inside the story a moment before it rang in the room. Many of us have noticed this, and researchers have been testing it for well over sixty years.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "A door left ajar",
+    "sub": "Not quite sealed"
+   }
+  },
+  {
+   "say": "William Dement and Edward Wolpert wanted to know whether the real world gets into a dream. So they gave sleepers small nudges. They played a tone, flashed a light, sprayed water on them, and rang a bell, and then they asked for a dream report. They also asked some volunteers to go without fluids before bed, to see whether thirst would find its way into the night.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Dement & Wolpert",
+    "where": "Journal of Experimental Psychology, 1958",
+    "what": "The relation of eye movements, body motility, and external stimuli to dream content"
+   }
+  },
+  {
+   "say": "Four kinds of nudge, then, and the result was not a simple yes. These stimuli did not strongly shape what people dreamed. If any one of them stood out, it seems to have been the cold water, which appeared a little more effective than the rest. The sleeping brain was not a faithful recorder of its surroundings. It was something choosier than that.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "title": "What they tried",
+    "items": [
+     "A steady tone",
+     "Flashes of light",
+     "A spray of cold water",
+     "A bell"
+    ]
+   }
+  },
+  {
+   "say": "When a stimulus did get in, it rarely arrived as itself. A sleeper who was sprayed with water might report a rain shower somewhere in the background of the dream. The dreamer did not feel a spray bottle. The dreaming mind took a small, cold sensation and fitted it into whatever story was already running, and the story carried on almost unchanged.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Rain in the background",
+    "sub": "Changed on the way in"
+   }
+  },
+  {
+   "say": "Now the thirst part of the experiment. After a day without fluids, volunteers gave fifteen dream reports from REM sleep, and five of them were about thirst. That is a small sample, and we should hold it lightly. But it fits a gentle idea: the body's needs can leak into a dream, even when the dream does not name them.",
+   "show": {
+    "type": "stat",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "title": "Dreams about thirst after going without fluids",
+    "big": "5 of 15",
+    "label": "REM dream reports in the thirst condition"
+   }
+  },
+  {
+   "say": "It's worth saying that the picture is mixed. Later experiments pressed a cuff on the leg of a sleeper during REM, and reported that the pressure turned up in dreams somewhere between about 40 and 80 percent of the time. Other experiments found almost nothing. Researchers still have no standard way of measuring how much of the room ends up in the dream, so the numbers depend heavily on how each study was done.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Hold it lightly",
+    "sub": "Small samples, mixed results"
+   }
+  },
+  {
+   "say": "Here is an odd one. In 1965, Rechtschaffen and Foulkes taped the eyelids of sleepers open during REM sleep and showed them images. You might expect the pictures to appear in the dreams, since the eyes were literally looking at them. But the researchers found no sign that the images were incorporated. The eyes can be open, and the dream can still go on without them. It's a lovely reminder that a dream is built inside the brain, and not delivered through the eyes.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Eyes taped open",
+    "sub": "Seeing is not enough"
+   }
+  },
+  {
+   "say": "Researchers have been very inventive about this. They have squeezed legs, sprayed water, called out names, and shown pictures to eyes that were held open. The results vary a great deal, and that variation is the real finding. A dream does not take whatever it is given. It takes what fits, and what fits depends on the story and on the sleeper.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Odd ways to nudge a dream",
+    "items": [
+     "Pressure cuffs on the leg",
+     "Cold water",
+     "Names spoken aloud",
+     "Images shown to taped-open eyes",
+     "Tones and a bell"
+    ]
+   }
+  },
+  {
+   "say": "The most familiar leak is sound. Many of us can recall an alarm that became a church bell, a siren, or a ringing telephone inside a dream. It feels like proof that the brain simply weaves in whatever it hears. The laboratory picture, though, is more modest than the stories we tell at breakfast.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A01",
+    "bg": "rooftop_dusk",
+    "n": 22,
+    "title": "When a sound becomes the story"
+   }
+  },
+  {
+   "say": "According to a popular account of Dement's early work, he rang a bell during REM sleep 204 times, and only 20 of those dreams worked the sound into the plot. That is roughly one time in ten. The sound reached the ears every time. The dream picked it up only now and then, and often it changed the sound into something else.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Dement's bell",
+    "sub": "Less often than you'd think"
+   }
+  },
+  {
+   "say": "Side by side, the gap is easy to see. Two hundred and four rings, and twenty dreams that used them. The sleeping brain is not a microphone. It is closer to a selective editor, and the interesting question is why it lets a sound through on some nights and not on others.",
+   "show": {
+    "type": "bars",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Dement's bell, as retold",
+    "unit": "times",
+    "bars": [
+     [
+      "Bell rings",
+      204.0
+     ],
+     [
+      "Dreams that used the bell",
+      20.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Nobody can say exactly when a sound gets in. One reasonable idea is that the sleeping brain filters out most of what it hears, and that whatever slips through is interpreted by the dream that is already under way. A loud or meaningful sound is more likely to be given a part. A dull one is ignored. That is an interpretation, though, and not a settled fact.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "cap": "A possible reason",
+    "sub": "A story already running"
+   }
+  },
+  {
+   "say": "In 1995, Stephen LaBerge and Lynne Levitan tried something different. They used a mask that flashed a gentle light when a sleeper's eyes began to move in REM. The light did not simply vanish. Dreams often contained illuminated surroundings, such as street lamps, and the mask increased the chance of lucid dreaming, when you know you are dreaming. We'll return to that later tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "cap": "Light in the dream",
+    "sub": "A mask that glowed"
+   }
+  },
+  {
+   "say": "Three small words that keep coming up. Incorporation means that something from the real world turns up inside a dream. A stimulus is whatever the researchers used, whether a bell, a spray or a smell. And a dream report is simply what the sleeper tells you after being woken. All of this evidence rests on those reports, which is one more reason to hold it gently.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Three words worth knowing",
+    "items": [
+     "Incorporation",
+     "Stimulus",
+     "Dream report"
+    ]
+   }
+  },
+  {
+   "say": "A quiet room in the first light of morning. This is the moment when a real sound is most likely to meet a dream, because sleep is thinnest just before we wake. An alarm that begins to ring can slip into the story for a moment, and then the story gives way to the room. For many people, those few seconds are where the sense of the world leaking in comes from.",
+   "show": {
+    "type": "photo",
+    "file": "lf28_b07_01.jpg",
+    "cap": "The sound just before waking"
+   }
+  },
+  {
+   "say": "There is one more thing the experiments tell us, and it is subtle. Not every stimulus is equal. A sound that means something to you has a better chance of getting in than one that does not.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "Names, words and meaning",
+    "sub": "Not every sound is equal"
+   }
+  },
+  {
+   "say": "In the early 1960s, a researcher named Berger spoke people's names aloud to sleepers during REM sleep. The names did turn up in dreams quite often, but rarely in a plain form. They were usually changed, so that a name came back as a similar sounding word or as something loosely associated with it. A later study with personally meaningful words found they were incorporated more often than other words.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Berger",
+    "where": "British Journal of Psychiatry, 1963",
+    "what": "Experimental modification of dream content by meaningful verbal stimuli"
+   }
+  },
+  {
+   "say": "It seems the sleeping brain is not deaf, and it is not a fool either. It listens for what matters. Your own name, a baby's cry, a voice you love, these are the sounds that can wake you from deep sleep, and they are also the sounds most likely to enter a dream. The filter is not a wall. It is more like a very sleepy doorman who knows the regulars.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "A filter with taste",
+    "sub": "What matters to you gets through"
+   }
+  },
+  {
+   "say": "Sound is not the only sense that reaches a sleeper. Researchers have also tried odours. Smells are quiet, they do not wake us, and they raise a different question. They might not change the plot of a dream at all. They might change its mood.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "n": 23,
+    "title": "Smell and the mood of a dream"
+   }
+  },
+  {
+   "say": "A team led by Michael Schredl and Boris Stuck worked with fifteen young, healthy women who had a very good sense of smell. While each volunteer was in REM sleep, the team gave her one of three things: the smell of roses, the smell of rotten eggs, or no smell at all. Then they woke her, and asked for a dream report.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Schredl, Atanasova, Hörmann, Maurer, Hummel & Stuck",
+    "where": "Journal of Sleep Research, 2009",
+    "what": "Information processing during sleep: the effect of olfactory stimuli on dream content and dream emotions"
+   }
+  },
+  {
+   "say": "The volunteers were woken 45 times and gave a dream report on 40 of those occasions. Each report was rated for emotional tone, from strongly negative to strongly positive. After no smell, the average was 0.5. After the smell of rotten eggs it dropped to minus 0.4, and after roses it rose to 1.2. The mood of the dream followed the nose.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "Average mood of the dream, from -3 to +3",
+    "items": [
+     "No smell: 0.5",
+     "Rotten eggs: -0.4",
+     "Roses: 1.2"
+    ]
+   }
+  },
+  {
+   "say": "What stands out is what did not happen. The sleepers hardly ever dreamed that they were smelling anything. The smell did not appear as a smell. It showed up as a shift in feeling, as if the dream had been tinted by something the dreamer never saw. The scenery stayed the same, and only the light inside it changed.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Mood, not plot",
+    "sub": "The smell stayed outside the story"
+   }
+  },
+  {
+   "say": "We should be careful here, too. Fifteen volunteers is a small group, and the findings were first presented at a conference in 2008 before the paper appeared in 2009. It is a promising result, and not a final answer. But it matches a pattern we have seen before: the outside world rarely enters a dream as itself, and when it does, it comes in disguised.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "A cautious note",
+    "sub": "Fifteen people"
+   }
+  },
+  {
+   "say": "There is a puzzle in all this. When a sound does get in, it often feels as though it was part of the dream from the start. The telephone was always going to ring. One way to see it is that the dreaming mind is telling a story as it goes, with no plan for the ending. When a sound arrives, the story absorbs it and carries on, as if nothing had been added. Then you wake, and you look back on the dream from the waking side, and the sound and the story seem to belong together. Researchers still debate exactly how this works, so take it as a picture and not a proof.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Story and sound",
+    "sub": "A tidy explanation"
+   }
+  },
+  {
+   "say": "To gather it up, the findings are modest, and that's part of their charm. The outside world does reach a dreaming mind. It does so rarely, it does so in disguise, and it tends to favour whatever already matters to you. The mind is not closed off, but it keeps its own counsel.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "title": "What the experiments suggest",
+    "items": [
+     "The room does reach our dreams",
+     "It arrives rarely and in disguise",
+     "Meaningful sounds get in more easily",
+     "Smells may colour the mood",
+     "The samples are small"
+    ]
+   }
+  },
+  {
+   "say": "Here is something you can simply notice, if you like. The next time a sound wakes you, ask yourself whether it had a part in the dream. A bell, a voice, a gust of wind in the trees. There is no need to chase the memory or to make it mean anything. It is just a quiet way of seeing your own sleeping mind at work.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A small thing to notice",
+    "sub": "The next time a sound wakes you"
+   }
+  },
+  {
+   "say": "So the room does leak in, but only a little. Most of a dream does not come from the bell, the spray or the smell of roses. It comes from somewhere else. And that raises a gentler question: if so little of a dream comes from outside, what is it actually made of?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Where the rest comes from",
+    "sub": "A gentler question"
+   }
+  }
+ ]
+}

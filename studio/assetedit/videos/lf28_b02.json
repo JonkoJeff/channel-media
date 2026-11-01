@@ -1,0 +1,329 @@
+{
+ "id": "lf28_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The young researcher's name was Eugene Aserinsky, and he was a graduate student at the University of Chicago. He had not set out to find anything about dreams. His supervisor, Nathaniel Kleitman, had asked him to study something far more modest, the slow movements of babies' eyelids as they fell asleep. It was patient, ordinary work, and it was about to go somewhere nobody expected.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "n": 4,
+    "title": "The pen that would not settle"
+   }
+  },
+  {
+   "say": "The machine he used was an old brain-wave recorder, which he had carried up from a basement to a laboratory in Abbott Hall. In December 1951, he decided to test it on his own son, Armond, who was eight years old. He cleaned the boy's skin, taped small electrodes around his eyes and onto his scalp, and let him fall asleep. Then he watched the pens move on the paper.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "A borrowed machine",
+    "sub": "December 1951"
+   }
+  },
+  {
+   "say": "Here is where the surprise came. At some point in the night, the pens began to swing wildly, in a pattern that looked exactly like a person who was awake and looking around. Aserinsky went in to check, expecting to find the boy sitting up. But Armond was lying there with his eyes closed, fast asleep. Under the lids, though, the eyes were moving.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "cap": "The line that looked awake",
+    "sub": "Eyes closed"
+   }
+  },
+  {
+   "say": "Picture that room in the small hours. A lamp, a roll of paper creeping slowly forward, and a line of ink that refuses to behave. Many people would have assumed the machine was broken. Aserinsky didn't. He kept watching, and he kept asking what the line was trying to tell him.",
+   "show": {
+    "type": "photo",
+    "file": "lf28_b02_01.jpg",
+    "cap": "An early sleep laboratory"
+   }
+  },
+  {
+   "say": "Two years after that first night, Aserinsky and Kleitman published their findings in the journal Science. They had recorded adult volunteers, twenty of them across several series of experiments, and described a distinct pattern: rapid, jerky eye movements, moving together in both eyes, quite unlike the slow rolling movements that earlier researchers had noticed in the early part of sleep.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Aserinsky & Kleitman",
+    "where": "Science, 1953",
+    "what": "Regularly occurring periods of eye motility, and concomitant phenomena, during sleep"
+   }
+  },
+  {
+   "say": "The brain-wave pattern is the part that struck people most. We tend to think of sleep as a slow, deep, settling-down. But during these bursts of eye movement, the electrical signals from the head looked less like deep rest and more like a mind that was awake. The authors also measured breathing in fourteen of the sleepers, and it ran faster during the eye movements than during quiet sleep.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "title": "What the recordings showed",
+    "items": [
+     "Fast, jerky movements of both eyes",
+     "Brain waves that looked low and irregular, much like waking",
+     "Breathing that was faster than in quiet sleep",
+     "A rise in small body movements"
+    ]
+   }
+  },
+  {
+   "say": "A good scientist wants to rule out the boring explanation, and the boring explanation here was that these people were simply awake. So the team checked. Aserinsky watched a sleeper's eyes moving behind the lids during one of these bursts, and spoke to the person. There was no reply. Whoever was inside that body was somewhere else entirely, and was not listening to the room.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Ruling out waking",
+    "sub": "A reasonable doubt"
+   }
+  },
+  {
+   "say": "Which brings us to the obvious question, and the one that changes everything. If the eyes are moving like that, and the brain looks so much like waking, what is the person experiencing? There was only one way to find out, which was to wake them and ask.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "n": 5,
+    "title": "Waking the sleepers"
+   }
+  },
+  {
+   "say": "So that is what they did. The team woke volunteers at different moments in the night, sometimes in the middle of the eye movements, and sometimes when the eyes were still. Then they asked the same plain question each time. Can you tell me what was going through your mind? The researchers weren't trying to trick anyone. They simply wanted to know what the rapid eyes were looking at.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Asking the sleeper",
+    "sub": "A simple experiment"
+   }
+  },
+  {
+   "say": "Of twenty-seven awakenings during the eye movements, twenty brought back a detailed dream, usually a visual one. Aserinsky described it as having remarkably vivid imagery. The other seven awakenings produced either no memory or only a feeling of having dreamed. For the first time, a measurable signal in a sleeping body lined up with a dream.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Awakenings during eye movements that brought a detailed dream",
+    "big": "20 of 27",
+    "label": "in Aserinsky and Kleitman's 1953 recordings"
+   }
+  },
+  {
+   "say": "Now the contrast. When the sleepers were woken from the quiet stretches, when the eyes were still, nineteen out of twenty-three said they could remember nothing at all. Only four remembered anything, and those were split between a vague feeling and a fuller dream. The difference was large enough that the researchers could say it was unlikely to be chance.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "And in quiet sleep",
+    "sub": "The contrast"
+   }
+  },
+  {
+   "say": "The early results were exciting, and they were also small. Science is slow to believe a surprising thing on the strength of one laboratory, and rightly so. So the question became whether the pattern would hold up with more people, more nights, and a more careful look at the whole night's sleep.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 6,
+    "title": "Four years later"
+   }
+  },
+  {
+   "say": "In 1957, William Dement, working with Kleitman, set out to answer it. Together they recorded nine adults over many nights, five of them intensively for between six and seventeen nights, and the other four for a night or two, as a check. They woke the sleepers, sometimes during the eye movements and sometimes during quiet sleep, and asked what had been going on.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "autumn_overlook",
+    "cap": "A larger test",
+    "sub": "Dement and Kleitman"
+   }
+  },
+  {
+   "say": "The paper described a regular pattern. Roughly every ninety minutes, through the night, the sleeping brain slid into a period of rapid eye movements, and then drifted out again. The pattern seemed to repeat for every person they recorded. It was a rhythm, as steady in its own way as the tide.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Dement & Kleitman",
+    "where": "Electroencephalography and Clinical Neurophysiology, 1957",
+    "what": "Cyclic variations in EEG during sleep and their relation to eye movements, body motility, and dreaming"
+   }
+  },
+  {
+   "say": "Here are the numbers. After one hundred and ninety-one awakenings during the rapid eye movement periods, the volunteers recalled a dream one hundred and fifty-two times, about eighty percent. After one hundred and sixty awakenings from the other kinds of sleep, they recalled a dream just eleven times, about seven percent.",
+   "show": {
+    "type": "bars",
+    "sprite": "A16",
+    "bg": "conspiracy_board",
+    "title": "Woken and remembering a dream",
+    "unit": "percent",
+    "bars": [
+     [
+      "Woken during rapid eye movements",
+      80.0
+     ],
+     [
+      "Woken during quiet sleep",
+      7.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Think about what that means. Dreaming isn't a strange accident that happens once in a while. For these volunteers, it was a regular feature of the night, returning again and again, whether or not they remembered it in the morning. Some of us may simply wake without any trace of it, which is a puzzle we'll return to at the end of the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "cap": "Not a rare event",
+    "sub": "Dreaming is regular"
+   }
+  },
+  {
+   "say": "The team also asked a charming question. Does a dream take as long as it seems? They woke people either five or fifteen minutes after the eye movements began, and asked them to guess which it had been. The volunteers were right most of the time, about nine times in ten for the short period and about four times in five for the longer one. And the longer the eyes had been moving, the more words people used to describe the dream.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Time and the story",
+    "sub": "Does a dream take long?"
+   }
+  },
+  {
+   "say": "Taken together, these two papers gave the field something it had never had, a way to study dreams without relying on memory alone. Before 1953, a dream was a private story that you told over breakfast, if you remembered it. Afterwards, it had a physical signature, which meant that it could be counted, timed and compared.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "title": "What the two studies agree on",
+    "items": [
+     "Dreams are strongly linked to a distinct kind of sleep",
+     "That kind of sleep comes in repeating cycles",
+     "Dreams run in something like real time",
+     "Dreaming is a regular part of every night"
+    ]
+   }
+  },
+  {
+   "say": "Let's pause for a moment and picture a whole night, the way those early recordings revealed it. Not a flat, dark stretch of nothing, but a slowly turning wheel. Each turn takes about ninety minutes, and on each turn, the eyes begin to move and the brain wakes up from the inside.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A11",
+    "bg": "cafe_sunset",
+    "n": 7,
+    "title": "The shape of a night"
+   }
+  },
+  {
+   "say": "You fall asleep, and the sleep deepens. Your breathing slows, your thoughts loosen, and for a while your brain is quiet. Then, around an hour and a half later, something shifts. The eyes start to dart, your brain lights up, and a dream begins. After a time, the dream fades, you sink again, and the whole turn begins once more.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "Ninety minutes",
+    "sub": "A slow wheel"
+   }
+  },
+  {
+   "say": "The periods themselves were not long. In the first recordings, they ran from as little as six minutes to nearly an hour, and on average lasted about twenty minutes. Later periods came closer together than the earlier ones, and a third, or occasionally a fourth, often came before the sleeper woke. So in a night of seven hours, you might spend only a small part of the time in the vivid state.",
+   "show": {
+    "type": "stat",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "title": "Average length of one eye-movement period",
+    "big": "20 minutes",
+    "label": "in Aserinsky and Kleitman's 1953 recordings"
+   }
+  },
+  {
+   "say": "It's worth pausing on how ordinary the beginning was. There was no grand plan to uncover the nature of dreams. There was a graduate student, a borrowed machine, and a sleeping child who happened to be in the right place. Much of science begins like this, with someone noticing that a line on the paper does not look the way it should, and deciding to follow it.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "The boy in the laboratory",
+    "sub": "A quiet beginning"
+   }
+  },
+  {
+   "say": "And all of it had been there the entire time. Every night of every person's life, for as long as there have been people, this slow wheel had been turning in the dark. Your great-grandparents had it, and so did the people who first wondered about dreams. It had gone unnoticed only because nobody had thought to watch the sleeper's eyes.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "A hidden nightly pattern",
+    "sub": "Waiting under the surface"
+   }
+  },
+  {
+   "say": "This new kind of sleep needed a name, and it was given the plainest one imaginable. It came to be called rapid eye movement sleep, or REM sleep. The name stuck, and today it is one of the best known terms in all of sleep science. It is named after the thing that was easiest to see, the moving eyes, rather than the thing that matters most, the dream behind them.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cabin_fireplace",
+    "cap": "What shall we call it?",
+    "sub": "A new kind of sleep"
+   }
+  },
+  {
+   "say": "There is a caution worth keeping, though. Remember that figure of seven percent. Even in quiet sleep, a few people reported something when they were woken. The link between REM sleep and dreaming was strong, but it wasn't perfect, and those small exceptions turned out to matter far more than anyone expected.",
+   "show": {
+    "type": "list",
+    "sprite": "A08",
+    "bg": "attic_rain",
+    "title": "A fair caution",
+    "items": [
+     "Strong link, not a perfect one",
+     "About seven percent recalled a dream from quiet sleep",
+     "The exceptions mattered"
+    ]
+   }
+  },
+  {
+   "say": "Still, the discovery transformed the field. Until then, dreams had been the property of storytellers, priests and poets. Now a laboratory could take the measure of them. A sleeping person could be recorded, woken at the right moment and asked a question, and the answers could be compared across nights and across people. A window had opened onto the dreaming mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Why this changed things",
+    "sub": "A door opened"
+   }
+  },
+  {
+   "say": "Let's gather what we know before we move on. In the 1950s, researchers in Chicago found a stage of sleep with rapid eye movements and an unexpectedly lively brain. When people were woken from it, they very often described dreams. And it came back in a regular rhythm, roughly every ninety minutes, through the night.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What we have so far",
+    "items": [
+     "A new stage of sleep was found in the 1950s",
+     "It comes with rapid eye movements",
+     "The brain looks surprisingly awake",
+     "Dreams are far more likely to be reported from it"
+    ]
+   }
+  },
+  {
+   "say": "There's a gentle way to connect all this to your own night. Perhaps you've woken, once or twice, in the dark, with a dream still clear in your mind. That is the sort of moment those volunteers were asked about. If it happens again, you might simply notice it, and think of the slow wheel that brought you there.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "autumn_overlook",
+    "cap": "A small thing to notice",
+    "sub": "Your own cycles"
+   }
+  },
+  {
+   "say": "Now, the discovery seemed to settle things. Eyes moving, brain active, dream reported. But science rarely stays tidy for long. A few people had noticed something that didn't quite fit, and it raises a question that is still debated today. Are all dreams really born in this one stage of sleep?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "n": 8,
+    "title": "Is every dream a REM dream?"
+   }
+  }
+ ]
+}

@@ -1,0 +1,339 @@
+{
+ "id": "lf28_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "There is one more strange thing about dreams, and you have probably noticed it on many mornings. A dream can feel completely vivid at the very moment you wake, and then, within a minute or two, it begins to dissolve. By the time you have found your slippers, it may be gone altogether. Let's spend a little time with that fading, and with why it is so ordinary.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "n": 40,
+    "title": "Why dreams slip away"
+   }
+  },
+  {
+   "say": "You reach for the dream, and it comes apart in your hands. First the plot goes, then the faces, and finally only a feeling is left, a mood with no story attached. Sometimes you are sure you dreamed something important, and you cannot say what it was. If that sounds familiar, you are in very large company, because nearly everyone forgets most of what they dream.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "The vanishing",
+    "sub": "Gone in a minute"
+   }
+  },
+  {
+   "say": "Notice that nothing here is a failure on your part. Forgetting a dream is not a sign of a poor memory, or a poor night. It is simply what the sleeping and waking brain tends to do with an experience that nobody was awake to store.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What a fading dream is like",
+    "items": [
+     "The story goes first",
+     "Then the faces and the places",
+     "Only a mood is left",
+     "Some mornings, nothing at all"
+    ]
+   }
+  },
+  {
+   "say": "Here is the curious part. If you ask a group of people how often they remember a dream, the answers are very different. Some say almost every morning, and others say hardly ever, perhaps a few times a year. For a long time, researchers wondered whether the difference was in the dreaming, or in the remembering. A French team decided to look inside the brain to find out.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Two kinds of sleepers",
+    "sub": "Some remember, some don't"
+   }
+  },
+  {
+   "say": "Eichenlaub and his colleagues used positron emission tomography, a scan that follows blood flow in the brain. They compared two groups of healthy people: those who recalled dreams often, and those who rarely did. The scans were taken while the volunteers were awake, and again while they slept, in REM sleep and in deeper non-REM sleep.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Eichenlaub et al.",
+    "where": "Neuropsychopharmacology, 2014",
+    "what": "Resting brain activity varies with dream recall frequency between subjects"
+   }
+  },
+  {
+   "say": "These were the two groups. The high recallers remembered a little over five dreams a week, while the low recallers remembered about one every two weeks. The researchers wanted to know whether their brains simply looked different, even at rest, and even during sleep.",
+   "show": {
+    "type": "stat",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "Dreams recalled per week, on average",
+    "big": "5.2 vs 0.5",
+    "label": "high recallers compared with low recallers in the study"
+   }
+  },
+  {
+   "say": "They did. The high recallers showed more blood flow in two regions: the temporoparietal junction, which sits toward the back and side of the brain, and the medial prefrontal cortex, near the middle of the forehead. The difference in the temporoparietal junction showed up in REM sleep, in deep sleep, and in wakefulness. In other words, it looks like a lasting trait, and not just a mood of one particular night.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "cap": "What they found",
+    "sub": "A different resting brain"
+   }
+  },
+  {
+   "say": "The temporoparietal junction is a region linked to attention, especially to noticing what is happening around us. The medial prefrontal cortex is involved in thinking about ourselves and our own experience. Neither of these, on its own, explains a dream. But together they hint that remembering may depend on how the brain pays attention, even in the dark.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "cafe_sunset",
+    "title": "Where the two groups differed",
+    "items": [
+     "Temporoparietal junction: more active in high recallers",
+     "Medial prefrontal cortex: more active in high recallers",
+     "Seen in REM sleep",
+     "Seen at rest, awake"
+    ]
+   }
+  },
+  {
+   "say": "Before we lean too hard on this, it helps to be honest about what a single scan study can say. The authors themselves describe their idea as a suggestion, and not as a settled answer. They propose that these regions may help with dreaming itself, and with storing the dream, and they stress that more work is needed. So let's treat it as a good clue, and then follow the clue a little further.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "A small caution",
+    "sub": "One study, one idea"
+   }
+  },
+  {
+   "say": "The clue points toward something you might not expect: that remembering a dream may depend on waking up, just for a moment, in the middle of the night. These tiny awakenings are usually forgotten too, which is why you rarely know they happened.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A01",
+    "bg": "autumn_overlook",
+    "n": 41,
+    "title": "The brief awakenings"
+   }
+  },
+  {
+   "say": "Here is the idea, which researchers call the arousal-retrieval model. A fully sleeping brain is not good at forming new long-term memories. So a dream that unfolds and ends without any waking may leave almost no trace. But if you stir, even for a minute or two, the brain comes online enough to save a little of what was just happening.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "The sleeping brain",
+    "sub": "A poor note-taker"
+   }
+  },
+  {
+   "say": "A notebook and a pen, left where you can reach them in the dark. It is a small thing, but it matches what the research suggests: a dream is easiest to keep in the first moments after it ends, before the waking world rushes in. We will come back to that in a moment.",
+   "show": {
+    "type": "photo",
+    "file": "lf28_b13_01.jpg",
+    "cap": "A notebook, waiting"
+   }
+  },
+  {
+   "say": "The team of van Wyk, Solms and Lipinska recorded the sleep of 36 healthy adults, 19 who often recalled dreams and 17 who seldom did, on two separate nights. They then looked at how the nights differed. The high recallers spent more time awake after falling asleep, and they had more awakenings, mostly out of the lighter stage of non-REM sleep known as stage 2.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "van Wyk, Solms & Lipinska",
+    "where": "Frontiers in Human Neuroscience, 2019",
+    "what": "Increased awakenings from non-rapid eye movement sleep explain differences in dream recall frequency in healthy individuals"
+   }
+  },
+  {
+   "say": "And the difference in what they remembered was large. When the high recallers were woken from that lighter non-REM sleep, they reported a dream about eight times in ten. The low recallers did so only about three times in ten. The authors note that their sample was small, so the result should be repeated before anyone leans on it.",
+   "show": {
+    "type": "bars",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Dream recalled after waking from light non-REM sleep",
+    "unit": "percent",
+    "bars": [
+     [
+      "High recallers",
+      81.0
+     ],
+     [
+      "Low recallers",
+      30.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "One detail here is worth a pause. The two groups did not differ in their awakenings from REM sleep, nor in how dense their eye movements were. So the old assumption, that vivid dreamers must simply have more intense REM, did not hold up in this study. What seemed to matter was how often the night had little gaps in it, and what the sleeper noticed in those gaps.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Not about REM",
+    "sub": "A surprising twist"
+   }
+  },
+  {
+   "say": "It is probably not one single cause. Several things seem to travel together: lighter, more broken sleep, a brain that is tuned to its surroundings, and perhaps a habit of paying attention to inner life. None of these is better or worse. A person who rarely remembers dreams is not missing anything that they need.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "title": "Why some people remember more",
+    "items": [
+     "More brief awakenings in the night",
+     "A brain that attends to its surroundings",
+     "More activity in some frontal and temporal areas",
+     "Perhaps a stronger habit of noticing"
+    ]
+   }
+  },
+  {
+   "say": "There is also a physical side to this, in the structure of the brain itself. Another group of researchers wondered whether people who recall more dreams might differ not only in activity, but in the wiring.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "n": 42,
+    "title": "The brain behind the memory"
+   }
+  },
+  {
+   "say": "Vallat and his colleagues scanned the brains of 46 high dream recallers and 46 low dream recallers. They looked at white matter, the bundles of fibre that carry signals between regions. In one place, the medial prefrontal cortex, the high recallers had denser white matter. Nowhere else did the two groups differ in a significant way.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Vallat et al.",
+    "where": "Frontiers in Psychology, 2018",
+    "what": "Dream recall frequency is associated with medial prefrontal cortex white-matter density"
+   }
+  },
+  {
+   "say": "That is the same region we met a moment ago. Here is a related clue: in studies of people with damage to that area of the brain, dreaming is sometimes reported to stop partly or completely. So three different kinds of evidence, scans at rest, scans in sleep and measures of structure, point to the same quiet part of the forehead. It is a reminder that dreaming is not only about the visual or emotional brain.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "cap": "The same region again",
+    "sub": "A pattern emerges"
+   }
+  },
+  {
+   "say": "Now to the practical question. Many people keep a dream diary, hoping to remember more. Does it work? The honest answer is that the research is more mixed than the advice you often read. It is a gentler story than a promise, but it is more useful.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Keeping what you can",
+    "sub": "Does a dream diary help?"
+   }
+  },
+  {
+   "say": "Antonio Zadra and Geneviève Robert asked 358 university students to keep a dream log for between two and five weeks. Some wrote down their dreams in full, and others simply ticked a checklist when they recalled one. In both groups, recall peaked in the first week, and then settled. Keeping a log, they concluded, did not automatically increase how many dreams people remembered.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Zadra & Robert",
+    "where": "Consciousness and Cognition, 2012",
+    "what": "Dream recall frequency: impact of prospective measures and motivational factors"
+   }
+  },
+  {
+   "say": "That peak in week one is interesting. It suggests that when you decide to notice your dreams, you do remember more, at first, simply because you are paying attention. Writing every dream out in full was also tiring, and later entries tended to be shorter. So effort and motivation matter, and a diary that feels like homework may quietly fade away.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Why the first week",
+    "sub": "A burst of attention"
+   }
+  },
+  {
+   "say": "None of this is a prescription, and nobody needs to remember their dreams. But if you are curious, a few words written soon after waking, such as a place, a person or a feeling, may be a kinder habit than a full account. The point is to catch the thread before it slips.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "What the research suggests, gently",
+    "items": [
+     "Attention at waking seems to matter",
+     "Early moments are the most fragile",
+     "A short note may beat a long essay",
+     "A diary is a tool, not a test"
+    ]
+   }
+  },
+  {
+   "say": "Here is a small thing you can try, which follows from the idea of the fragile first moments: wake slowly and keep your eyes closed for a moment. Instead of reaching for your phone, you simply ask yourself what was just happening. Often a scene, or a feeling, comes back in the stillness. This is a gentle practice, not a proven fix, but it costs nothing and it is rather pleasant.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "A quiet trick",
+    "sub": "Lie still for a moment"
+   }
+  },
+  {
+   "say": "Whatever you manage to keep, it is worth saying that the fading itself is not something to fight. It is part of how the night works.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "Letting the fading be",
+    "sub": "Part of the night"
+   }
+  },
+  {
+   "say": "Have you noticed that sometimes you wake with an emotion and no story? A calm, a sadness, a faint unease, left over from a dream you cannot recall. The mood can linger even when the memory has gone. It is one of the quiet ways that sleep touches your day, without asking for your attention.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cabin_fireplace",
+    "cap": "A feeling that stays",
+    "sub": "The dream that wasn't there"
+   }
+  },
+  {
+   "say": "Dreams fade the way mist lifts from a valley. It does not mean the valley was never there. It means that the light has changed, and the mind has moved on to the day. Nothing is lost that you needed, and what was important in the dream often finds its way into your waking thoughts in some other form.",
+   "show": {
+    "type": "photo",
+    "file": "lf28_b13_02.jpg",
+    "cap": "Fading like morning mist"
+   }
+  },
+  {
+   "say": "So if you wake tomorrow and the dream is already slipping away, you can let it go. A fading dream is not a sign of a problem. It is the sleeping brain doing what it usually does, which is to keep its attention on rest, and not on filing. And if you do catch a piece of it, it is a small gift, a glimpse into a night you were not awake to watch.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "A normal ending",
+    "sub": "Nothing is wrong with you"
+   }
+  },
+  {
+   "say": "Let's gather it up. People who remember dreams more often show differences in their brain, especially in two forward regions. They also seem to wake briefly more often during the night, and those little awakenings may carry a dream into memory. A diary can help you notice, though it is no magic. And the fading, in the end, is ordinary.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Before we move on",
+    "sub": "What we have learned"
+   }
+  },
+  {
+   "say": "We have now followed a dream from the first rapid eye movements to the last fading mood. We have asked how it is made, why it feels real, what it is about, and why it vanishes. There is just one thing left to do, which is to step back and ask what it all adds up to, and what you might take with you into tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "One last bridge",
+    "sub": "And now, the whole picture"
+   }
+  }
+ ]
+}

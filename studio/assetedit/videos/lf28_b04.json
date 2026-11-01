@@ -1,0 +1,319 @@
+{
+ "id": "lf28_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Earlier tonight, we began with a puzzle. You wake with your heart racing over something that never happened, and for a moment the dream was every bit as real as this room. How can a sleeping brain, with the eyes shut and the world switched off, produce something that feels so solid? There is a surprisingly good answer, and it begins with what the brain is doing in the dark.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "n": 12,
+    "title": "The loop we left open"
+   }
+  },
+  {
+   "say": "Think about how odd this is. In ordinary life, light enters your eyes, sound enters your ears, and the brain assembles a world from that stream. In a dream, almost none of that is happening. The eyelids are closed, the room is quiet, and yet you see a street, a face, a staircase, and you hear what people say. Something is building a world from the inside.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "The strange part",
+    "sub": "Nothing is arriving"
+   }
+  },
+  {
+   "say": "It helps to separate two ways of building a scene. One works from the outside in. The world sends signals, and the brain makes sense of them. The other works from the inside out. The brain draws on memory and expectation and produces the scene itself. Waking life is mostly the first kind, with a little of the second. A dream seems to be nearly all of the second.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "Two ways to build a world",
+    "sub": "Outside in, inside out"
+   }
+  },
+  {
+   "say": "A team in Belgium used a brain scanning method called positron emission tomography, which tracks blood flow, to watch seven volunteers as they moved between waking and REM sleep. They wanted to know which parts of the brain are busier in REM, and which are quieter, compared with being awake. The pattern they found surprised many people at the time.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Maquet, Péters, Aerts, Delfiore, Degueldre, Luxen & Franck",
+    "where": "Nature, 1996",
+    "what": "Functional neuroanatomy of human rapid eye movement sleep and dreaming"
+   }
+  },
+  {
+   "say": "The amygdala is a small almond-shaped region that is closely involved in emotion and in noticing what matters. It was busy. A large area on the side of the front of the brain, which helps with careful, deliberate thinking, was much quieter. That is a striking contrast, and we will return to the quiet part in a little while.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "title": "What changed in REM sleep",
+    "items": [
+     "More active: both amygdalae",
+     "More active: the anterior cingulate cortex",
+     "Less active: a wide area of the dorsolateral prefrontal cortex",
+     "Less active: parts of the parietal cortex and the precuneus"
+    ]
+   }
+  },
+  {
+   "say": "This fits something many of us have noticed. In a dream, the feeling often arrives before the explanation. You are afraid, or delighted, or deeply anxious, and the reason is not clear, and you do not stop to ask. With the emotional machinery busy and the careful machinery quiet, a dream can be rich in feeling and short on questions.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Feeling first",
+    "sub": "Emotion runs ahead"
+   }
+  },
+  {
+   "say": "Here is the first piece of the answer. We tend to trust what we feel strongly. A scene that carries a heavy emotional charge feels important and therefore real, whether or not it makes sense. A pounding heart in the middle of a dream is not a sign that the dream is true. But it is a very convincing impersonation of one.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "autumn_overlook",
+    "cap": "A first answer",
+    "sub": "Feelings make things feel true"
+   }
+  },
+  {
+   "say": "Put these together and you have a very persuasive experience. The feeling is strong, the scene is vivid, the doubting is quiet, and nothing from the real room is arguing back. Any one of these alone would be easy to dismiss. Together, in the dark, they are hard to resist, and that is true for everyone, however sensible they are by day.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "title": "What makes a dream convincing",
+    "items": [
+     "Strong feeling",
+     "A rich visual scene",
+     "Little checking or doubting",
+     "Almost no competing input from the world"
+    ]
+   }
+  },
+  {
+   "say": "The second piece of the answer needs a different kind of evidence. Dreams are private. You cannot show one to anyone, and when you describe it, your words are only a poor copy. For a long time, that made dreams almost impossible to study directly. Then, in 2013, a team in Japan tried something that sounded like science fiction.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "n": 13,
+    "title": "Looking at a dream from outside"
+   }
+  },
+  {
+   "say": "The idea was clever. First, let the volunteers look at real pictures while lying in a brain scanner, and record the patterns of activity each kind of picture produced in the visual parts of the brain. A computer program learns which pattern goes with which kind of object. Then, once the program knows the alphabet, ask it to read the patterns recorded during sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "The idea",
+    "sub": "Teach a decoder to see"
+   }
+  },
+  {
+   "say": "Three volunteers slept in a scanner. When an electrical signature showed they were drifting into the early stages of sleep, the team woke them and asked what they had just seen. Then they did it again, and again. The researchers matched each report to the patterns recorded just before waking, and then asked the program whether it could tell, from the sleeping brain alone, what kind of thing the person had been dreaming about.",
+   "show": {
+    "type": "study",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "who": "Horikawa, Tamaki, Miyawaki & Kamitani",
+    "where": "Science, 2013",
+    "what": "Neural decoding of visual imagery during sleep"
+   }
+  },
+  {
+   "say": "This took enormous patience. Each volunteer was woken at least two hundred times, to build up enough reports for the computer to learn from. The reports were grouped into about twenty everyday categories, things like a book, a car or a person. The program had never been trained on dreams. It had only learned from pictures the people saw when they were awake.",
+   "show": {
+    "type": "stat",
+    "sprite": "A14",
+    "bg": "conspiracy_board",
+    "title": "Awakenings and dream reports, per volunteer",
+    "big": "200+",
+    "label": "each of the three volunteers was woken at least 200 times"
+   }
+  },
+  {
+   "say": "And it worked, at least in part. From the activity recorded in the seconds before each awakening, the program could often tell which kinds of objects had appeared in the dream, and it did so better than chance. The activity worked best in the last few seconds before the person woke. Earlier moments of a dream, of course, may already have faded.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The result",
+    "sub": "Better than guesswork"
+   }
+  },
+  {
+   "say": "Let me be careful about the limits. This was a small study, three people. It decoded broad categories, not films of dreams, and it depended on what people could say about the dream afterwards. Nobody has plucked a whole dream out of a brain. But the central point stands, and it is a remarkable one.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "What the study showed, and what it did not",
+    "items": [
+     "A program trained on waking pictures could predict dream objects",
+     "The patterns in dreams resembled the patterns of seeing",
+     "It worked on categories, not on exact scenes",
+     "Colours, shapes, movements and feelings were not decoded"
+    ]
+   }
+  },
+  {
+   "say": "A model of a house, built by hand from memory. It is not the house itself, yet from the right angle, in the right light, you might forget the difference. That is a useful picture of what the brain does in a dream. It builds a model of a world, and for as long as you are inside it, the model is all there is.",
+   "show": {
+    "type": "photo",
+    "file": "lf28_b04_01.jpg",
+    "cap": "A world built from the inside"
+   }
+  },
+  {
+   "say": "There is a small detail here that I like. The decoding worked best with the activity just before the awakening, in the last seconds or so. That makes sense. A dream is a fleeting thing, and the moment you are woken is the moment you can actually report. Whatever came earlier in the night is simply gone, and we will see why in a later chapter.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "A question of timing",
+    "sub": "Only the last moments"
+   }
+  },
+  {
+   "say": "The thing to take from this is quite simple. The patterns the program learned from real seeing were also found, in a rough way, when people were dreaming of the same kinds of objects. The sleeping brain is not drawing on a different language for dreams. It seems to be using much of the same visual machinery that it uses when you look at the world.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "The same alphabet",
+    "sub": "Seeing and dreaming"
+   }
+  },
+  {
+   "say": "Put these threads together, and a larger idea comes into view. Many neuroscientists now think of the brain as a kind of model builder. It does not simply receive the world. It constantly guesses at what is out there, and uses the senses to check and correct those guesses.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "n": 14,
+    "title": "One model, two modes"
+   }
+  },
+  {
+   "say": "Think about reading a familiar road in the dark. You do not see every detail. Your brain fills in the corner, the kerb and the step, and it only notices when something does not match. Much of what you experience as vision is the brain's own best guess, corrected by whatever light actually arrives.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "The brain as a guesser",
+    "sub": "A model that predicts"
+   }
+  },
+  {
+   "say": "This gives a neat way of seeing the difference. When you are awake, the model is held in check by the world, a bit like a kite on a string. When you dream, the string is loose. The model is still being built, still feeling like a place, but nothing from outside is there to say, that is not how it is.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "title": "Awake and dreaming, side by side",
+    "items": [
+     "Awake: the model is checked against the senses",
+     "Dreaming: the senses are mostly shut out",
+     "Awake: surprises correct the model",
+     "Dreaming: the model runs on memory and feeling"
+    ]
+   }
+  },
+  {
+   "say": "Here, then, is the payoff to the opening puzzle. A dream feels exactly like being awake because the brain may be doing much of the same work in both. It builds a world, places you inside it, and fills it with feeling. From the inside, a model that is running well feels like reality, because reality is also something you only ever experience through a model.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Why it feels real",
+    "sub": "The reality of a model"
+   }
+  },
+  {
+   "say": "Here is a familiar example. Most of us have read a sentence with a word missing or misspelled and never noticed, because the brain supplied the right word for us. You see what you expected to see. A dream is this same filling-in, stretched across a whole night and an entire imagined world.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "autumn_overlook",
+    "cap": "A familiar trick",
+    "sub": "Your brain fills in the gaps"
+   }
+  },
+  {
+   "say": "You may have met a small version of this. A stranger in a crowd who looks like someone you know, for half a second. A sound in the house that is really just the pipes. In each case the brain guessed first, and the guess felt like perception. Dreams are that same guessing, running freely, with no street and no pipes to correct it.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "An ordinary proof",
+    "sub": "You have felt this before"
+   }
+  },
+  {
+   "say": "It would be wrong to claim more than the evidence supports. Neuroscientists still argue about how closely a dream resembles waking vision, and the scanning studies are small. The model idea is a framework that fits the findings well. It is not a settled law. The honest summary is that it is a leading account, held with care.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "Rival ideas, honestly stated",
+    "items": [
+     "The sleeping brain uses much of the same machinery as the waking brain",
+     "Not every part of waking experience is rebuilt in dreams",
+     "Scientists still debate how closely a dream matches seeing",
+     "Brain scans give clues, not a full recording of a dream"
+    ]
+   }
+  },
+  {
+   "say": "It is also worth saying what this does not mean. It does not mean that a dream is a secret message, or that the images inside it can be looked up in a book. The science here is about how the brain builds the experience, not what any one dream means. And that is quite wonderful enough as it stands.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "What this does not say",
+    "sub": "Not magic, not a message"
+   }
+  },
+  {
+   "say": "There is something quietly reassuring in all this. The vivid, convincing dream is not a sign that your mind is broken, or that it is playing tricks on you. It is a sign of how skilled it is. The ability to create a place and fill it with meaning is the same ability that lets you remember a house, plan a trip, or imagine a friend's face.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "A gentle thought",
+    "sub": "Your brain is a storyteller"
+   }
+  },
+  {
+   "say": "Four ideas to carry with you. The brain can build a world with no help from outside. The emotional centres stay lively in REM. The same visual tools seem to be used, awake or asleep. And a model that runs smoothly feels like reality from the inside.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "Worth remembering",
+    "items": [
+     "Dreams are built from the inside, with little input from the world",
+     "The emotional parts of the brain stay busy",
+     "The brain uses much of the same visual machinery asleep as awake",
+     "A well-built model feels real while you are in it"
+    ]
+   }
+  },
+  {
+   "say": "But there is one thing left unexplained. If a dream is a model, why do we so rarely notice the flaws? The flying house, the friend who is also a stranger, the door that opens onto the sea. Awake, we would spot every one of them in an instant. In a dream, we just walk through. For that, we need to return to the part of the brain that fell quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "A new question",
+    "sub": "Why do we not notice?"
+   }
+  }
+ ]
+}

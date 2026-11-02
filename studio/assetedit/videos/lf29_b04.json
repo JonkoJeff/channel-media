@@ -1,0 +1,257 @@
+{
+ "id": "lf29_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Every now and then, a conversation online goes viral. Someone mentions their inner voice, and someone else replies, wait, you actually hear words in your head? I thought that was just something they did in films. And then hundreds of people join in, some amazed that others don't have an inner voice, and some amazed that others do.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "A surprising confession",
+    "sub": "No voice at all"
+   }
+  },
+  {
+   "say": "For most of these people, there's nothing wrong. They have jobs, friends, and full inner lives. They just don't experience their thinking as words spoken in the head. The beeper studies had already hinted that such people exist. But for a long time nobody had asked a practical question: does it make any difference to what they can do?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Not a disorder",
+    "sub": "A different style"
+   }
+  },
+  {
+   "say": "In 2024, two researchers gave this experience a name and put it to the test.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A16",
+    "bg": "rooftop_dusk",
+    "n": 1,
+    "title": "Anendophasia"
+   }
+  },
+  {
+   "say": "Johanne Nedergaard, at the University of Copenhagen, and Gary Lupyan, at the University of Wisconsin-Madison, published their study in the journal Psychological Science in 2024. They called the experience of having little or no inner voice anendophasia, which roughly means, without inner speech. Its title said it plainly: Not everybody has an inner voice.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Johanne Nedergaard & Gary Lupyan",
+    "where": "Copenhagen and Wisconsin, 2024",
+    "what": "Not everybody has an inner voice: people with little inner speech did worse on verbal memory and rhyme tasks"
+   }
+  },
+  {
+   "say": "They recruited almost a hundred people. About half reported very little inner voice in daily life, and about half reported a lot. Then both groups did four experiments, each designed to test something that inner speech might help with.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Who took part",
+    "items": [
+     "Almost 100 people",
+     "Half with very little inner voice",
+     "Half with a lot",
+     "Four experiments"
+    ]
+   }
+  },
+  {
+   "say": "In the first, people had to remember short lists of words that sound alike, such as bought, caught, taut and wart. In the second, they saw two pictures and had to decide whether their names rhymed, like a sock and a clock. In the third, they had to switch quickly between different tasks. And in the fourth, they had to tell apart shapes that looked very much alike.",
+   "show": {
+    "type": "list",
+    "sprite": "A14",
+    "bg": "street_day",
+    "title": "The four tasks",
+    "items": [
+     "Remember lists of similar-sounding words",
+     "Judge whether two pictures' names rhyme",
+     "Switch quickly between tasks",
+     "Tell very similar shapes apart"
+    ]
+   }
+  },
+  {
+   "say": "Two of the four tasks showed a clear difference between the groups, and two did not.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 2,
+    "title": "What they found"
+   }
+  },
+  {
+   "say": "On the word list task, the people with little inner voice remembered less. And on the rhyme task, they were worse at judging whether the pictures' names rhymed. That makes sense when you think about it. To remember a list of words for a few seconds, most of us quietly repeat them. To tell whether sock and clock rhyme without saying them out loud, it helps to say them silently and listen.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The word tasks",
+    "sub": "A real gap"
+   }
+  },
+  {
+   "say": "But on switching between tasks, and on telling similar shapes apart, the two groups did about equally well. So the people with little inner voice weren't worse at thinking in general. Their minds simply seemed to lean less on a silent voice for jobs where a voice is handy, and perhaps they found other ways to do the rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "The other tasks",
+    "sub": "No difference"
+   }
+  },
+  {
+   "say": "Try it now with the sock and the clock. You probably can't help hearing the rhyme, sock, clock, in your head, even though nobody said a word. For people with a strong inner voice, that silent hearing is almost automatic. For people with little inner voice, it seems to take more effort, which shows up as slower or less accurate answers.",
+   "show": {
+    "type": "photo",
+    "file": "lf29_b04_01.jpg",
+    "cap": "A sock and a clock"
+   }
+  },
+  {
+   "say": "The researchers also reported how people described their experiences. Some of those with little inner voice said they think in pictures and then translate them into words when they need to speak. And some people who do have verbal thoughts described them as words without sound, which is a lovely, strange description of something most of us have never tried to put into words.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "text": "Words without sound",
+    "by": "How some participants with an inner voice described their verbal thoughts"
+   }
+  },
+  {
+   "say": "To understand why the word tasks were the ones that showed a difference, it helps to meet one of the most famous ideas in memory research.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 3,
+    "title": "The phonological loop"
+   }
+  },
+  {
+   "say": "In 1974, the British psychologists Alan Baddeley and Graham Hitch proposed a model of what they called working memory, the small mental workspace where we hold things for a few seconds while we use them. One part of it later became known as the phonological loop, a store for speech sounds that fades quickly unless we keep refreshing it, by silently repeating what we want to remember.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "who": "Alan Baddeley & Graham Hitch",
+    "where": "England, 1974",
+    "what": "Working memory: a short-term store for speech sounds that we refresh by silent rehearsal"
+   }
+  },
+  {
+   "say": "You've almost certainly used it. When someone tells you a code or a phone number and you have nothing to write with, you repeat it to yourself, again and again, until you can type it in. That repetition is inner speech doing a very practical job. It's keeping a fragile memory alive.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "cap": "You've used it today",
+    "sub": "The phone number trick"
+   }
+  },
+  {
+   "say": "Researchers found clues that this loop really is built from speech. Lists of words that sound alike are harder to hold than lists of words that sound different, which is exactly why Nedergaard and Lupyan used words like bought and caught. Long words are harder to hold than short ones. And when people are stopped from silently repeating, memory for words gets worse.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "title": "Signs of the inner loop",
+    "items": [
+     "Similar-sounding words are harder to hold",
+     "Longer words are harder than short ones",
+     "Blocking silent repetition hurts recall"
+    ]
+   }
+  },
+  {
+   "say": "That last clue comes from a method with a rather funny name: articulatory suppression.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A16",
+    "bg": "rooftop_dusk",
+    "n": 4,
+    "title": "Blocking the inner voice"
+   }
+  },
+  {
+   "say": "The idea is simple. You ask people to say something meaningless over and over, out loud, while they do a task. For example, the, the, the, the. Because the speech system is busy, it's hard to use inner speech at the same time. If performance drops, it suggests that inner speech was helping.",
+   "show": {
+    "type": "char",
+    "sprite": "A11",
+    "bg": "street_day",
+    "cap": "The-the-the",
+    "sub": "Keep your mouth busy"
+   }
+  },
+  {
+   "say": "In 2003, Matthew Emerson and Akira Miyake published a study in the Journal of Memory and Language using this trick. People had to switch between adding and subtracting. When they had to repeat a word out loud while doing it, switching became slower and harder, especially when there were no visual reminders of what to do next. Their conclusion was that people often use inner speech to remind themselves of the next step.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "who": "Emerson & Miyake",
+    "where": "Journal of Memory and Language, 2003",
+    "what": "Keeping the mouth busy made switching between tasks harder"
+   }
+  },
+  {
+   "say": "You might notice a small puzzle here. If inner speech helps with task switching, why didn't the people with little inner voice do worse at switching in the 2024 study? The honest answer is that we don't know yet. It may depend on the exact task. Or people with little inner voice may have built other strategies over a lifetime. The researchers themselves called for more work.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "A puzzle",
+    "sub": "So why no difference?"
+   }
+  },
+  {
+   "say": "So here's where the story stands for now.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 5,
+    "title": "One mind, many routes"
+   }
+  },
+  {
+   "say": "People differ more on the inside than we usually think. Inner speech is a useful tool, particularly for holding and comparing words, but it isn't the whole of thinking. And people who don't have much of it are not broken. They seem to get to most of the same places by other routes.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "What anendophasia suggests",
+    "items": [
+     "Minds differ more than we assume",
+     "Inner speech is a tool, not the whole of thought",
+     "Different minds may use different tools"
+    ]
+   }
+  },
+  {
+   "say": "So whatever your own inner experience is like, a constant chatter, an occasional word, or mostly pictures and feelings, it's a normal way to be a mind. If you're one of the people who rarely hears an inner voice, the second half of tonight will still work for you. You can let the words simply be words, spoken by me, while your mind rests.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle thought",
+    "sub": "Whatever yours is like"
+   }
+  },
+  {
+   "say": "For those of us who do hear a voice, there's a place where many people are sure it always lives: on the page, when we read. Is that true? Do we all hear the words as our eyes pass over them? Here, too, the careful answer turned out to be a surprise.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Next",
+    "sub": "The voice when you read"
+   }
+  }
+ ]
+}

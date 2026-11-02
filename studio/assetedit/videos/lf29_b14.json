@@ -1,0 +1,279 @@
+{
+ "id": "lf29_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now for the third idea. Earlier we met studies where people who talked to themselves using their own name, or the word you, felt less distress and handled stress better. Tonight, let's use that small trick not for a speech or a meeting, but for something simpler: being kind to yourself at the end of a day.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 1,
+    "title": "A friend's voice"
+   }
+  },
+  {
+   "say": "First, think of a friend you care about. Someone you'd always want to see do well. Imagine they've had a long day, a tiring one, maybe one where something went wrong. They're lying in bed now, a little worried, going over it all in their head.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Think of a friend",
+    "sub": "Someone you care about"
+   }
+  },
+  {
+   "say": "What would you say to them? You probably wouldn't say, you always mess things up. You'd say something softer. You did your best today. It's okay to rest now. That can wait until tomorrow. Notice how easily those kind words come when they're meant for someone else.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "What would you say?",
+    "sub": "Your kind voice"
+   }
+  },
+  {
+   "say": "Now, gently, turn those same words round. Say them to yourself, but say them the way you'd say them to that friend. Use the word you. You did your best today. You can rest now. It can wait until tomorrow. Or, if you like, use your own name, quietly, inside your head.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Now turn it round",
+    "sub": "Say it to you"
+   }
+  },
+  {
+   "say": "Listen to the difference. I always get this wrong, becomes, you're doing your best. I can't stop thinking about it, becomes, you can put this down for tonight. The facts haven't changed, but the voice has. It sounds less like a critic and more like a friend.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "title": "From I to you",
+    "items": [
+     "I always get this wrong",
+     "You're doing your best",
+     "I can't stop thinking",
+     "You can put this down for tonight"
+    ]
+   }
+  },
+  {
+   "say": "There's a name for this kind of warmth towards yourself. Researchers call it self-compassion.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 2,
+    "title": "Self-compassion"
+   }
+  },
+  {
+   "say": "In 2003, the psychologist Kristin Neff, at the University of Texas at Austin, published a paper describing self-compassion and how it might be measured. She described it as having three parts, which fit rather beautifully with everything we've talked about tonight.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Kristin Neff",
+    "where": "University of Texas at Austin, 2003",
+    "what": "Defined self-compassion as self-kindness, a sense of common humanity and mindfulness"
+   }
+  },
+  {
+   "say": "The first part is self-kindness, being warm and understanding towards yourself when things go wrong, instead of harshly judging yourself. The second is common humanity, remembering that struggling and making mistakes is part of being human, something everyone goes through, rather than something that cuts you off from others. And the third is mindfulness, noticing painful thoughts and feelings in a balanced way, without being swept away by them.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Three parts of self-compassion",
+    "items": [
+     "Self-kindness, not harsh judgement",
+     "Common humanity, not isolation",
+     "Mindfulness, not over-identification"
+    ]
+   }
+  },
+  {
+   "say": "Let's take each part slowly. The first is kindness. You've already practised it, by speaking to yourself as you'd speak to a friend. Let your inner voice keep that tone for a little while. Warm. Patient. Unhurried. Like someone sitting at the end of your bed, keeping you company.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Kindness",
+    "sub": "A softer tone"
+   }
+  },
+  {
+   "say": "The second is common humanity. Tonight, all around the world, millions of people are lying in the dark going over their day. Some are worried about the same kind of things you are. Some said something they regret. Some are tired, or lonely, or unsure. You're not the only one. You're part of a very large, very human crowd, all trying to rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Common humanity",
+    "sub": "You're not alone"
+   }
+  },
+  {
+   "say": "Picture a town at night from a distant hill. Many windows, each with its own small light. Behind each one, someone is getting ready for sleep, with their own inner voice talking quietly. Some of those voices are worried, and some are kind. Tonight, you can let yours be one of the kind ones.",
+   "show": {
+    "type": "photo",
+    "file": "lf29_b14_01.jpg",
+    "cap": "Many lit windows"
+   }
+  },
+  {
+   "say": "The third part is mindfulness. That means noticing your thoughts and feelings without getting lost in them. You did this earlier, when you named a feeling and let it sit. You can do it again now. If a worried thought comes, you can notice it, the way you'd notice a car passing outside. There goes a worry. And let it pass.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Mindfulness",
+    "sub": "Notice, don't drown"
+   }
+  },
+  {
+   "say": "Here's a short script you can use, built from those three parts. This is a hard moment, which is mindfulness. Hard moments are part of everyone's life, which is common humanity. And then, may you be kind to yourself, which is kindness. You can change the words to suit you. They're only a scaffold.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "title": "A short kind script",
+    "items": [
+     "This is a hard moment",
+     "Hard moments are part of life",
+     "May you be kind to yourself"
+    ]
+   }
+  },
+  {
+   "say": "Let's try it together, slowly, with plenty of space between the lines.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "n": 3,
+    "title": "Say it slowly"
+   }
+  },
+  {
+   "say": "If something is weighing on you tonight, let your inner voice say, gently, this is a hard moment. Or, if it's not hard, just tiring, this is a tired moment. Let the words land, and pause. No need to hurry to the next one.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The first line",
+    "sub": "A hard moment"
+   }
+  },
+  {
+   "say": "Now the second line. Everyone has moments like this. Let that settle for a moment. You're not doing life wrong because tonight feels heavy. Heavy nights are part of every life. They come, and they pass.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The second line",
+    "sub": "Everyone has these"
+   }
+  },
+  {
+   "say": "And the third line. Use your name, or the word you. You can be kind to yourself tonight. Or, you're allowed to rest. Or simply, it's okay. Whatever words feel warm, let them come in your own voice, the friendliest version of it.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "The third line",
+    "sub": "Be kind to you"
+   }
+  },
+  {
+   "say": "If you can't find your own words, borrow some of these. It's okay. You've done enough today. You're allowed to rest. Tomorrow is a new day. Try one, and see how it feels. If it feels false, try another, softer one. The right words are the ones that make your shoulders drop, just a little.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Your own words",
+    "items": [
+     "It's okay",
+     "You've done enough today",
+     "You're allowed to rest",
+     "Tomorrow is a new day"
+    ]
+   }
+  },
+  {
+   "say": "Remember the study where asking, will I, worked better than declaring, I will? You can borrow that too. Instead of ordering yourself, I will fall asleep now, which rarely works, you might ask, softly, will I let myself rest a little? And let your mind find its own answer, in its own time. Perhaps, yes. Perhaps, a little.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Will I?",
+    "sub": "A question, not an order"
+   }
+  },
+  {
+   "say": "Sleep is one of those things that comes more easily when we stop trying to make it happen. So there's no pressure here. Even if you lie awake for a while, resting quietly with a kind inner voice is good for you. Rest is enough. Sleep will find its way to you when it's ready.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "No pressure",
+    "sub": "Rest is enough"
+   }
+  },
+  {
+   "say": "Here are a few gentle questions to keep nearby. Will I let myself rest? Can this wait until morning? What would a friend say to me right now? You don't need to answer them out loud, or even in words. Just let them float there, like small lanterns, lighting the way towards sleep.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Gentle questions for the night",
+    "items": [
+     "Will I let myself rest?",
+     "Can this wait until morning?",
+     "What would a friend say to me?"
+    ]
+   }
+  },
+  {
+   "say": "Remember that idea from the very start of the night, that our inner voice grew out of the voices of people who looked after us?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 4,
+    "title": "A voice that learned from others"
+   }
+  },
+  {
+   "say": "Think, if you like, of a kind voice from your own life. A grandparent, a teacher, a friend, someone who spoke to you gently. You might imagine them saying these words to you now. You can rest. You've done well enough. Let their tone become, for a moment, the tone of your own inner voice.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Choosing the voice",
+    "sub": "Kind voices from your life"
+   }
+  },
+  {
+   "say": "And if no voice like that comes to mind, that's fine too. You can create one. You can be that voice for yourself, starting tonight. The research suggests that the way we speak to ourselves isn't fixed. It can change, a few words at a time, with practice.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "If no voice comes",
+    "sub": "Make your own"
+   }
+  },
+  {
+   "say": "In a moment, we'll take this kind voice on a slow journey through the body, using the kind of short, simple cues athletes use, but for resting instead of racing. For now, just stay here, breathing, with your inner voice speaking softly, and kindly, to you.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Next",
+    "sub": "Into the body"
+   }
+  }
+ ]
+}

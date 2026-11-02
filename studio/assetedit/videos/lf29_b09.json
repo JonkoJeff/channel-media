@@ -1,0 +1,233 @@
+{
+ "id": "lf29_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Someone asks you why you chose the blue jumper instead of the green one, or why you took the long way home. Almost instantly, your inner voice has an answer ready. It was warmer. The traffic is worse on the other road. The answer feels true. But how do you know it is? How do you know your inner voice isn't just making up a good story after the fact?",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Why did you do that?",
+    "sub": "The answer comes fast"
+   }
+  },
+  {
+   "say": "Some of the most remarkable clues to that question come from a small group of people whose brains had been surgically divided.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A16",
+    "bg": "rooftop_dusk",
+    "n": 1,
+    "title": "A brain in two halves"
+   }
+  },
+  {
+   "say": "In the 1960s, a few people with very severe epilepsy, which no medicine could control, had an operation that cut the corpus callosum, the thick bundle of fibres that connects the left and right halves of the brain. The idea was to stop seizures spreading from one side to the other, and for many patients it helped. Afterwards, in everyday life, they seemed remarkably normal.",
+   "show": {
+    "type": "char",
+    "sprite": "A11",
+    "bg": "street_day",
+    "cap": "A drastic treatment",
+    "sub": "For severe epilepsy"
+   }
+  },
+  {
+   "say": "But careful tests by the neuroscientist Roger Sperry and his student Michael Gazzaniga, at the California Institute of Technology, revealed something extraordinary. If information was shown to only one half of the brain, the other half didn't know about it. Sperry later shared the Nobel Prize in Physiology or Medicine in 1981, partly for this work.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "who": "Roger Sperry & Michael Gazzaniga",
+    "where": "Caltech, 1960s",
+    "what": "Showed that the two halves of a divided brain could know different things"
+   }
+  },
+  {
+   "say": "There's one detail that makes the experiments work. In most people, the left half of the brain does most of the work of producing speech. Things seen on the left side of space are processed first by the right half of the brain, and things on the right side by the left half. Normally, the two halves share everything instantly. In these patients, that sharing was cut.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "A key detail",
+    "items": [
+     "The left half usually handles speech",
+     "The right half sees the left side of space",
+     "Divided, they can't share what they see"
+    ]
+   }
+  },
+  {
+   "say": "Years later, Gazzaniga ran an experiment that has become one of the most famous in all of brain science.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 2,
+    "title": "The chicken and the snow"
+   }
+  },
+  {
+   "say": "In their 1978 book The Integrated Mind, Gazzaniga and Joseph LeDoux described a test with a split-brain patient known by his initials, P.S. At the same moment, his left half of the brain was shown a picture of a chicken claw, and his right half was shown a snowy winter scene. Then he was asked to pick, from a set of cards, pictures that went with what he had seen.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Michael Gazzaniga & Joseph LeDoux",
+    "where": "The Integrated Mind, 1978",
+    "what": "A split-brain patient's speaking half invented a reason for a choice made by the other half"
+   }
+  },
+  {
+   "say": "His right hand, controlled by the left half, pointed to a chicken. His left hand, controlled by the right half, pointed to a snow shovel. Each half had made a sensible choice for what it had seen. Then the researchers asked him to explain why he had chosen those two pictures.",
+   "show": {
+    "type": "photo",
+    "file": "lf29_b09_01.jpg",
+    "cap": "A shovel and a shed"
+   }
+  },
+  {
+   "say": "Remember, his speaking left half knew nothing about the snow scene. It had only seen the chicken claw. Yet he answered straight away, with no hesitation. Oh, that's simple, he said. The chicken claw goes with the chicken, and you need a shovel to clean out the chicken shed. It was a clever answer, and it was completely made up.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "cafe_sunset",
+    "cap": "The answer",
+    "sub": "Instantly invented"
+   }
+  },
+  {
+   "say": "Gazzaniga came to describe a system in the left half of the brain that he called the interpreter. Its job, he suggested, is to make sense of everything we do and feel, and to weave it into a story that hangs together, even when it doesn't have all the facts. When the facts are missing, it doesn't say, I don't know. It fills the gap with something plausible.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "The interpreter",
+    "sub": "A storyteller in the brain"
+   }
+  },
+  {
+   "say": "You might think this only happens in unusual brains. But studies with ordinary people suggest that all of us have a storyteller like this.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "n": 3,
+    "title": "Not only split brains"
+   }
+  },
+  {
+   "say": "In 1977, the psychologists Richard Nisbett and Timothy Wilson published a famous paper called Telling more than we can know. In one study they described, shoppers were asked to judge which of four pairs of identical stockings, laid out in a row, was the best quality. People tended to choose the pair on the right. But when asked why, they talked about the feel, the weave and the stretch. Nobody said, it was on the right.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "who": "Richard Nisbett & Timothy Wilson",
+    "where": "Psychological Review, 1977",
+    "what": "Shoppers explained their choice by quality, though their choice followed position"
+   }
+  },
+  {
+   "say": "The shoppers weren't lying. They sincerely believed their reasons. Their inner voice had produced a good, sensible explanation. It just wasn't the real cause of their choice. Nisbett and Wilson argued that, quite often, we don't have direct access to why we do things. We infer our reasons, the way we might guess someone else's.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Reasons after the fact",
+    "sub": "Sincere, but not accurate"
+   }
+  },
+  {
+   "say": "In 2005, Petter Johansson, Lars Hall and their colleagues at Lund University in Sweden published a study in the journal Science that took this further. People were shown pairs of photos of faces and chose which one they found more attractive. Sometimes, using a sleight of hand, the researchers secretly swapped the cards, and handed people the face they had not chosen, asking them to explain their choice.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Petter Johansson & Lars Hall",
+    "where": "Lund University, 2005",
+    "what": "People explained choices they had never made, without noticing the swap"
+   }
+  },
+  {
+   "say": "Most of the time, people didn't notice the swap. And many of them went on to explain why they had chosen a face they had in fact turned down, sometimes mentioning details, like earrings, that only the rejected face had. The researchers called this choice blindness.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "Choice blindness",
+    "sub": "Defending the other face"
+   }
+  },
+  {
+   "say": "Put together, these studies suggest something humbling about the inner voice. It's very good at explaining. It does it quickly and confidently. But some of its explanations are guesses, made after the fact, and it rarely flags them as guesses. From the inside, a made-up reason and a real one can feel exactly the same.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "What these studies suggest",
+    "items": [
+     "The inner voice explains readily",
+     "Its reasons can be guesses",
+     "It rarely says I don't know",
+     "It still feels completely true"
+    ]
+   }
+  },
+  {
+   "say": "That might sound a little unsettling. But there's a kind side to it as well.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 4,
+    "title": "Why this is good news"
+   }
+  },
+  {
+   "say": "The interpreter exists because a mind that makes sense of the world is far more useful than one that doesn't. It helps us act with confidence, learn from experience and feel like one continuous person. Most of the time, its stories are good enough. It's only in odd moments, in labs and in the dark, that we catch it making things up.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "A natural storyteller",
+    "sub": "It wants things to make sense"
+   }
+  },
+  {
+   "say": "And that's worth remembering at night, when the inner voice starts telling stories about your day. That person was annoyed with you. You'll never get this done. You always mess things up. These can feel completely true. But they're stories, told by a very fast, very confident storyteller, often with only half the facts.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "At night",
+    "sub": "Stories in the dark"
+   }
+  },
+  {
+   "say": "So here's a gentle question you can ask when the voice gets going. Is this what happened, or a story about what happened? And if it's a story, what else could explain it? You don't need to argue with the voice. Just knowing that it's a storyteller can loosen its grip a little.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "A gentle question to ask",
+    "items": [
+     "Is this what happened?",
+     "Or a story about it?",
+     "What else could explain it?"
+    ]
+   }
+  },
+  {
+   "say": "And the storyteller doesn't only speak when someone asks it a question. Very often, it simply wanders off on its own, while we're washing up, driving or staring out of a window. How often does that happen, and does it make us happier or less happy? A few years ago, thousands of people answered that question on their phones.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "Next",
+    "sub": "The wandering voice"
+   }
+  }
+ ]
+}

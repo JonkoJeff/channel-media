@@ -1,0 +1,270 @@
+{
+ "id": "lf29_b15",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Do you remember the swimmers and golfers from earlier, with their short instructional cues? Elbow up. Slow and steady. Their cues helped them focus on one small thing at a time. Tonight, we'll use the same kind of cues, but instead of helping the body perform, they'll help it rest.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "n": 1,
+    "title": "Cues for the body"
+   }
+  },
+  {
+   "say": "We'll move slowly through the body, from the top of the head down to the feet. For each place, there'll be a short cue, just two or three words. You can repeat it silently, in your own inner voice, or simply let mine do the talking. There's nothing to get right.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "One place at a time",
+    "sub": "Short and simple"
+   }
+  },
+  {
+   "say": "Here's how it works. Notice one part of the body. Hear a short cue. Let that place soften as much as it wants to, and no more. Then move on. If you find yourself drifting before we reach your feet, that's not a problem at all. That's the whole idea.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "How this works",
+    "items": [
+     "Notice one place",
+     "Hear a short cue",
+     "Let it soften",
+     "Move on"
+    ]
+   }
+  },
+  {
+   "say": "Let's begin at the very top.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 2,
+    "title": "The head and face"
+   }
+  },
+  {
+   "say": "Bring your attention to your forehead. We often hold a small frown there without knowing it. Here's the cue. Forehead, smooth. Let the skin feel wide and soft, as if someone had gently smoothed it with a warm hand. Forehead, smooth.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "The forehead",
+    "sub": "Smooth and wide"
+   }
+  },
+  {
+   "say": "Now your eyes. Behind the eyelids, the eyes can stay busy, flicking about. Let them be still. The cue is, eyes, heavy. Imagine them sinking back, slightly, into their sockets, resting like stones in warm sand. Eyes, heavy.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The eyes",
+    "sub": "Heavy and still"
+   }
+  },
+  {
+   "say": "Now the jaw. This is a place where many people carry tension through the day, especially if the inner voice has been busy. Let your teeth part just a little. Let your tongue rest on the floor of your mouth. The cue is, jaw, loose. Jaw, loose.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The jaw",
+    "sub": "Loose"
+   }
+  },
+  {
+   "say": "Let your whole head sink into the pillow now. Heavier with each breath, as if the pillow were slowly rising to meet you. You don't need to hold your head up any more today. The pillow can do that job. Head, heavy.",
+   "show": {
+    "type": "photo",
+    "file": "lf29_b15_01.jpg",
+    "cap": "Soft and heavy"
+   }
+  },
+  {
+   "say": "Now let's move down a little, to the neck and shoulders.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 3,
+    "title": "Neck and shoulders"
+   }
+  },
+  {
+   "say": "Notice your neck, the long column that holds your head all day. Let it lengthen, just slightly, and let it go soft. The cue is, neck, easy. Neck, easy. There's nothing to carry now.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "The neck",
+    "sub": "Long and easy"
+   }
+  },
+  {
+   "say": "Now your shoulders. Many of us lift them towards our ears without noticing, especially when we're worried. Let them drop. Let them slide down, away from your ears, as far as they comfortably go. The cue is, shoulders, down. Shoulders, down. And again, a little more. Shoulders, down.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The shoulders",
+    "sub": "Dropping down"
+   }
+  },
+  {
+   "say": "Let that heaviness flow down into your arms. Upper arms, elbows, forearms, wrists. The cue is, arms, heavy. Arms, warm. Feel them resting on the bed, sinking into it, as if they were made of something heavier than they are.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The arms",
+    "sub": "Heavy and warm"
+   }
+  },
+  {
+   "say": "Let's gather what we have so far. Forehead, smooth. Eyes, heavy. Jaw, loose. Shoulders, down. Arms, heavy. You don't need to check whether each place has done what it was told. Bodies don't take orders. They take invitations, and they accept them in their own time.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "So far",
+    "items": [
+     "Forehead, smooth",
+     "Eyes, heavy",
+     "Jaw, loose",
+     "Shoulders, down",
+     "Arms, heavy"
+    ]
+   }
+  },
+  {
+   "say": "If at any point your inner voice has wandered off, to tomorrow, to a conversation, to a worry, that's perfectly all right. Remember the washing up, and the plate slipping, and coming back. Just notice where it went, and bring it back to the part of the body we're resting now. No scolding. Just coming back.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "If the voice wanders",
+    "sub": "Come back softly"
+   }
+  },
+  {
+   "say": "Now let's come to the hands, and then the chest.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "n": 4,
+    "title": "Hands and chest"
+   }
+  },
+  {
+   "say": "Notice your hands. Are they curled, or clenched, or holding on to the blanket? Let them open. Let the fingers uncurl, one by one, until they rest loosely, palms soft. The cue is, hands, open. Hands, open. Nothing to hold on to now.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "The hands",
+    "sub": "Open and still"
+   }
+  },
+  {
+   "say": "Now your chest. Notice how it rises and falls, all by itself, without any instructions. The cue here is a little different. Breath, on its own. Breath, on its own. You don't need to breathe. Your body is breathing for you, as it has been all day and all night, for your whole life.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The chest",
+    "sub": "Breath on its own"
+   }
+  },
+  {
+   "say": "Underneath the breath, your heart is beating, steady and patient. You may not be able to feel it, and that's fine. Just know it's there, keeping time. The cue is, slow and steady. Slow and steady. The same words a coach might use, but tonight they're for rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The heart",
+    "sub": "Slow and steady"
+   }
+  },
+  {
+   "say": "Picture a quiet lake at dusk. The water barely moves. Small ripples spread out slowly from the edge, and fade. Your breath can be like those ripples, spreading out and fading, spreading out and fading, with nothing to hurry them along.",
+   "show": {
+    "type": "photo",
+    "file": "lf29_b15_02.jpg",
+    "cap": "Slow ripples"
+   }
+  },
+  {
+   "say": "Let's move on down, slowly, to the belly, the back and the legs.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 5,
+    "title": "Belly, back and legs"
+   }
+  },
+  {
+   "say": "Let your belly soften. We often hold it tight, as if bracing for something. There's nothing to brace for now. The cue is, belly, soft. Belly, soft. Let it rise gently with each breath in, and fall with each breath out.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "The belly",
+    "sub": "Soft"
+   }
+  },
+  {
+   "say": "Now notice your back, all the way from your shoulders down to your hips. Let it be held. The bed is underneath you, taking all your weight. The cue is, back, held. Back, held. You don't need to hold yourself up. You're being held.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The back",
+    "sub": "Held by the bed"
+   }
+  },
+  {
+   "say": "Now your legs. Thighs, knees, calves. Let them be heavy. Let them sink. The cue is, legs, heavy. Legs, heavy. Like they've walked a long way today, and they've earned this rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The legs",
+    "sub": "Heavy and long"
+   }
+  },
+  {
+   "say": "And finally, the feet. Let them be warm and still. Feet, warm. Here's the whole lower body together. Belly, soft. Back, held. Legs, heavy. Feet, warm. And now, the whole body, from top to toe, resting.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Down to the feet",
+    "items": [
+     "Belly, soft",
+     "Back, held",
+     "Legs, heavy",
+     "Feet, warm"
+    ]
+   }
+  },
+  {
+   "say": "Let your inner voice say one last cue, for the whole body. Resting. Just that. Resting. If you'd like to, repeat it a few times, slower each time. Resting. Resting. And then let even that word go quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The whole body",
+    "sub": "Resting"
+   }
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "id": "lf29_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a small thing to try, if you're still awake enough. Silently say a sentence to yourself, something like, I'd love a cup of tea. Say it slowly in your head, and pay attention to your tongue and throat. Some people notice a faint tension, a tiny readiness, as if the mouth were preparing to speak and then decided not to.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "rooftop_dusk",
+    "cap": "A simple test",
+    "sub": "Feel your tongue"
+   }
+  },
+  {
+   "say": "That faint feeling points to an old question. When we talk silently, is it all happening in the brain? Or is inner speech a kind of very small, very quiet real speech, with the muscles still taking part, just too weakly for anyone to hear?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Body or brain?",
+    "sub": "An old question"
+   }
+  },
+  {
+   "say": "In the first half of the twentieth century, some researchers tried to settle this with a new tool that could pick up the tiny electrical signals of working muscles.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "n": 1,
+    "title": "Sensors on the lips"
+   }
+  },
+  {
+   "say": "One of them was the American physician Edmund Jacobson, better known today for developing progressive muscle relaxation. In the early 1930s, he used sensitive electrical recordings of muscle activity and reported that when people imagined counting or speaking, small signals often appeared in the muscles of the tongue and lips, even though nothing could be heard.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Edmund Jacobson",
+    "where": "Chicago, early 1930s",
+    "what": "Recorded faint muscle activity in the tongue and lips when people imagined speaking"
+   }
+  },
+  {
+   "say": "Some psychologists of that era loved this idea. The behaviourist John Watson had argued that thinking might be nothing more than talking to oneself, with the speech muscles moving just a little. If that were true, inner speech would simply be outer speech, turned down very low.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "A tempting idea",
+    "sub": "Thought as tiny speech"
+   }
+  },
+  {
+   "say": "Most researchers today think that's too simple. People can still think when their speech muscles aren't moving, and some people, as we've seen, have very little inner speech at all. But the muscle studies weren't wrong either. They showed that inner speech and outer speech are close relatives. They share some of the same machinery, and the body is often a little involved.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Too simple",
+    "sub": "But not wrong either"
+   }
+  },
+  {
+   "say": "It's a lovely image, those early researchers bent over their instruments, trying to hear thoughts through the muscles of the mouth. They couldn't read the words, but they could see a faint flicker of activity whenever someone talked silently. Decades later, brain recordings would take that search a big step further.",
+   "show": {
+    "type": "photo",
+    "file": "lf29_b06_01.jpg",
+    "cap": "Listening to muscles"
+   }
+  },
+  {
+   "say": "To understand the next discovery, we need a small detour, into something your brain does every time you move.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A16",
+    "bg": "rooftop_dusk",
+    "n": 2,
+    "title": "Why you don't startle yourself"
+   }
+  },
+  {
+   "say": "Here's a puzzle you may have noticed as a child. When someone else tickles you, it can be almost unbearable. When you try to tickle yourself in exactly the same way, it barely works. Your hand is doing the same thing to the same skin. So why does it feel so different?",
+   "show": {
+    "type": "char",
+    "sprite": "A11",
+    "bg": "street_day",
+    "cap": "You can't tickle yourself",
+    "sub": "A famous puzzle"
+   }
+  },
+  {
+   "say": "In 1998, Sarah-Jayne Blakemore, Daniel Wolpert and Chris Frith, working in London, published a study in Nature Neuroscience about exactly this. Their explanation was that whenever you make a movement, your brain predicts what it will feel like, and uses that prediction to turn down the sensation. Touch that you predicted feels weaker. Touch from someone else, which you can't predict as precisely, comes through at full strength.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "who": "Blakemore, Wolpert & Frith",
+    "where": "London, 1998",
+    "what": "Your brain predicts the feeling of your own touch and turns it down"
+   }
+  },
+  {
+   "say": "The idea goes like this. When your brain sends a command to your muscles, it also sends a copy of that command to the parts of the brain that process the senses. Scientists call this copy an efference copy, and the prediction made from it is sometimes called a corollary discharge. It's like a note that says, a touch is coming, and it's ours. So when the touch arrives, the brain turns it down.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "title": "The prediction trick",
+    "items": [
+     "You send a command to move",
+     "A copy goes to the senses",
+     "The senses expect the result",
+     "The expected part is turned down"
+    ]
+   }
+  },
+  {
+   "say": "The same trick seems to work for speech. When you speak out loud, your brain predicts the sound of your own voice, and the response in the hearing parts of your brain is turned down compared with hearing the same sound played back. That helps you tell your own voice apart from other people's, and keeps you from being startled every time you open your mouth.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "street_day",
+    "cap": "The same for your voice",
+    "sub": "Quieter in your own ears"
+   }
+  },
+  {
+   "say": "So here's the big question. Does the brain do the same thing when you speak silently? If inner speech is a kind of speech, perhaps the brain sends a prediction for it too. For a long time, that was an idea nobody could test.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 3,
+    "title": "Catching the inner voice"
+   }
+  },
+  {
+   "say": "In 2017, Thomas Whitford and his colleagues at the University of New South Wales in Sydney published a study in the journal eLife. They recorded the brain activity of 42 healthy adults with EEG, while people imagined saying a sound in their heads at the same moment as they heard a real sound through headphones.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "who": "Thomas Whitford and colleagues",
+    "where": "UNSW Sydney, 2017",
+    "what": "Imagining a sound made the brain respond less to that same sound when it was played"
+   }
+  },
+  {
+   "say": "Here's what they found. When the sound people imagined saying matched the sound they heard, the brain's response to that real sound was reduced. It was as if the brain had predicted it. When the imagined sound and the real one didn't match, the reduction was much weaker. In the words of the university's report, when people imagined sounds, those sounds seemed quieter.",
+   "show": {
+    "type": "stat",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Adults in the inner speech study",
+    "big": "42",
+    "label": "brain activity recorded with EEG (Whitford et al., 2017)"
+   }
+  },
+  {
+   "say": "This was some of the first direct evidence that the brain makes a prediction for inner speech, just as it does for outer speech. And that may be part of the answer to one of our earlier questions: why does the inner voice feel like yours? Perhaps because, every time it speaks, your brain stamps it with a quiet label that says, this one's ours.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "What it means",
+    "sub": "A label that says mine"
+   }
+  },
+  {
+   "say": "The researchers were interested in this partly because of what might happen when that label doesn't work properly.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "n": 4,
+    "title": "When the label slips"
+   }
+  },
+  {
+   "say": "For a long time, some researchers have proposed that in certain conditions, such as some psychotic illnesses, people may hear voices because their brain fails to tag their own inner speech as self-made. Whitford described it this way: perhaps the problem arises when our brain is unable to tell that we are the ones producing them. It's an idea, not a settled fact, and the 2017 study gave researchers a tool to test it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "A careful idea",
+    "sub": "Still being studied"
+   }
+  },
+  {
+   "say": "For the rest of us, the takeaway is a quiet but remarkable one. The voice in your head seems to use some of the same machinery as your speaking voice. Your brain predicts it, turns it down, and marks it as your own. All of that happens without you ever noticing, many times a minute.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "title": "Why this matters",
+    "items": [
+     "The inner voice uses speech machinery",
+     "The brain predicts it",
+     "The prediction marks it as yours"
+    ]
+   }
+  },
+  {
+   "say": "Think back to the quiet bedroom at the start of the night, with the voice running on in the dark. It's a private voice that no one else can hear, and yet it rarely frightens us. One reason may be that small, constant stamp of ownership. Your brain knows, before the words arrive, that they're coming from you.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Back to the room",
+    "sub": "Why it's not frightening"
+   }
+  },
+  {
+   "say": "So the inner voice is a kind of speech that stays inside. But sometimes, as we saw with muttering and patting our pockets, the words slip out. Is that just a habit we never grew out of, or can talking out loud to yourself actually help? Let's look at that next.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "cap": "Next",
+    "sub": "Saying it out loud"
+   }
+  }
+ ]
+}

@@ -1,0 +1,227 @@
+{
+ "id": "lf29_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We're nearly at the end of the night. Before the voice fades out completely, here are a few small things to take with you, in case you want them tomorrow, or on another night when the inner voice won't settle.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 1,
+    "title": "Things to take with you"
+   }
+  },
+  {
+   "say": "The first is simple. Whatever your inner voice is like, constant or rare, chatty or quiet, words or pictures, it's a normal way to have a mind. The beeper studies showed how different we all are on the inside. There's no right amount of inner speech.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Your voice is normal",
+    "sub": "Whatever it's like"
+   }
+  },
+  {
+   "say": "The second is that the inner voice is a tool. It helps you remember, plan, focus and calm down. It grew out of the voices of people who helped you when you were small. It isn't a judge with the final word on who you are, even when it sounds like one.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "It's a tool",
+    "sub": "Not a judge"
+   }
+  },
+  {
+   "say": "And the third is that small changes in how you talk to yourself seem to make a real difference. Using your own name, or you, instead of I. Asking yourself a question, will I, instead of giving an order. Naming a feeling in a single word. Using short, simple cues, like shoulders, down. And writing tomorrow's list on paper, so the voice can let go of it.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "title": "Small changes that seem to help",
+    "items": [
+     "Use your name or you",
+     "Ask, will I?",
+     "Name the feeling in one word",
+     "Use short cues for the body",
+     "Write tomorrow's list down"
+    ]
+   }
+  },
+  {
+   "say": "None of these is a magic switch. Like the athletes' self-talk, they seem to work better with practice. So be patient with yourself. If you forget, or if the critic comes back, that's not failing. It's just a cue to try again, gently, the next time.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Practice",
+    "sub": "Like any skill"
+   }
+  },
+  {
+   "say": "Let's go back, one last time, to the room where we began. The lights are off, the house is quiet, and you're lying still. And there's a voice. But now you know a little more about it. You know where it came from, what it does, and how you can speak to it, and with it, in a kinder way.",
+   "show": {
+    "type": "photo",
+    "file": "lf29_b17_01.jpg",
+    "cap": "Back to the quiet room"
+   }
+  },
+  {
+   "say": "At the beginning, we asked a riddle. If you're the one talking, who is listening?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "n": 2,
+    "title": "The answer to the riddle"
+   }
+  },
+  {
+   "say": "The answer, it turns out, is you, both times. The part of you that speaks learned to speak from the people who cared for you. The part of you that listens learned to listen from them too. Your inner voice is a conversation that moved in from the outside world when you were very small, and has kept you company ever since.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Both of you",
+    "sub": "Speaker and listener"
+   }
+  },
+  {
+   "say": "Think of that. Through every exam and every journey, every hard day and every good one, that voice has been there. It reminded you of things. It pushed you on. Sometimes it was too hard on you. But it has always been on your side, even when it didn't sound like it. Tonight, you can thank it, and let it rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "A lifelong companion",
+    "sub": "Always with you"
+   }
+  },
+  {
+   "say": "So let's say goodnight to it, with the little words we learned earlier. Thank you, for all the work you did today. Not now, for the worries that can wait. Tomorrow, for everything on the shelf. And rest, for the voice itself.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "title": "Goodnight to the voice",
+    "items": [
+     "Thank you",
+     "Not now",
+     "Tomorrow",
+     "Rest"
+    ]
+   }
+  },
+  {
+   "say": "And remember the storyteller, the part of the mind that explains everything, quickly and confidently, even with half the facts. Tonight, if it starts telling you a harsh story about your day, you can ask it gently, is this what happened, or a story about it? And then you can let it tell a kinder one, or no story at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "The storyteller",
+    "sub": "Kinder stories"
+   }
+  },
+  {
+   "say": "And when the voice wanders, as it will, you don't need to scold it. You can do what you did at the sink, when the plate slipped. Notice that you've drifted, and come back, gently, to the breath, or the pillow, or the sound of these words. Coming back is the whole skill. You can do it a hundred times a night, and every time counts.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The wandering voice",
+    "sub": "Coming back"
+   }
+  },
+  {
+   "say": "So here are the small tools from tonight, all together. Thank you, not now, tomorrow, for the things that can wait. One word for the feeling. You, or your own name, instead of I. Short cues for the body, like shoulders, down. And coming back, gently, whenever the voice wanders. Keep whichever ones feel useful, and let the rest go.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "title": "Tonight's small tools",
+    "items": [
+     "Thank you, not now, tomorrow",
+     "One word for the feeling",
+     "You, instead of I",
+     "Short cues for the body",
+     "Coming back, gently"
+    ]
+   }
+  },
+  {
+   "say": "Now, let's slow right down for the last few minutes. There's nothing more to think about. Just listen, if you're still listening, and let the words wash over you.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "n": 3,
+    "title": "The last slow minutes"
+   }
+  },
+  {
+   "say": "The breath comes in. The breath goes out. Your body is heavy and warm. Your shoulders are soft. Your hands are open. Your jaw is loose. Everything that needed doing today is done, or it's waiting safely for tomorrow.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Breath",
+    "sub": "In and out"
+   }
+  },
+  {
+   "say": "Your inner voice is quiet now. Perhaps it's saying a word every now and then. Warm. Safe. Here. Or perhaps it's saying nothing at all, just resting, like a friend who has fallen asleep in the chair beside you.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Quiet",
+    "sub": "Words fading"
+   }
+  },
+  {
+   "say": "Let sleep come in its own time. You don't need to chase it, and you don't need to wait for it. It knows the way. Just stay here, breathing, resting, while the night does its quiet work around you.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Drifting",
+    "sub": "Let it come"
+   }
+  },
+  {
+   "say": "Warm. Heavy. Safe. Quiet. Nothing to do. Nowhere to be. Just rest.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Resting now",
+    "items": [
+     "Warm",
+     "Heavy",
+     "Safe",
+     "Quiet"
+    ]
+   }
+  },
+  {
+   "say": "Thank you for spending this time with me. Whether you're still awake, or already far away in a dream, I hope tonight was gentle, and I hope that tomorrow, your inner voice speaks to you as kindly as you'd speak to a friend. Goodnight.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Goodnight",
+    "sub": "Sleep well"
+   }
+  },
+  {
+   "say": "And if you'd like another quiet night like this one, next time we'll explore something even stranger. The world you see, the colours, the edges, the sounds, may not be quite what is really out there. Your brain is building it, moment by moment, and next time we'll find out how. Until then, sleep well.",
+   "show": {
+    "type": "end",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "next": "Your Brain Is Not Showing You Reality"
+   }
+  }
+ ]
+}

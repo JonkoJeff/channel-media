@@ -1,0 +1,206 @@
+{
+ "id": "lf29_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You're washing up. Your hands are in the warm water, a plate is in one hand and a sponge in the other. And yet you're not really there at all. You're halfway through an imaginary conversation with someone from work, or planning a holiday, or replaying a film you watched last week. Then the plate slips, and you're suddenly back at the sink.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Somewhere else",
+    "sub": "Washing up, miles away"
+   }
+  },
+  {
+   "say": "In 2010, two psychologists at Harvard University found a clever way to catch minds wandering in everyday life.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "n": 1,
+    "title": "Thousands of phones"
+   }
+  },
+  {
+   "say": "Matthew Killingsworth and Daniel Gilbert published their study in the journal Science. They built an app for the iPhone that contacted volunteers at random moments during the day. Each time, it asked three questions. How are you feeling right now? What are you doing right now? And are you thinking about something other than what you're currently doing?",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Matthew Killingsworth & Daniel Gilbert",
+    "where": "Harvard University, 2010",
+    "what": "An app asked people at random moments what they were doing, and whether they were thinking about something else"
+   }
+  },
+  {
+   "say": "The study they reported in 2010 drew on 2,250 adults. In a way, it was Hurlburt's beeper, scaled up and carried in people's pockets. It didn't ask exactly what the mind was doing, in the careful way Hurlburt's interviews did, but it could ask a simple question of thousands of people, many times each.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "The study in brief",
+    "items": [
+     "2,250 adults",
+     "Contacted at random moments",
+     "What are you doing?",
+     "Is your mind elsewhere?",
+     "How happy are you?"
+    ]
+   }
+  },
+  {
+   "say": "Here's the headline. In nearly half of the samples, 46.9 percent, people said their mind was on something other than what they were doing. Whatever the activity, minds wandered often, and during almost every activity, at least 30 percent of the time.",
+   "show": {
+    "type": "stat",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "title": "Moments with a wandering mind",
+    "big": "47%",
+    "label": "of samples (Killingsworth & Gilbert, 2010)"
+   }
+  },
+  {
+   "say": "But the most striking finding was about happiness. People were less happy, on average, when their minds were wandering than when they weren't. Even when they wandered to pleasant topics, they weren't happier than when they were focused on what they were doing. The title of the paper summed it up: a wandering mind is an unhappy mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "cap": "The surprise",
+    "sub": "Wandering and mood"
+   }
+  },
+  {
+   "say": "There's a fair question here. Maybe people's minds wander because they're unhappy, rather than the other way round. The researchers looked at the timing of the answers, and their analysis suggested that mind wandering tended to come before the drop in mood, more than the other way round. But it was a correlational study, and it can't settle cause and effect for certain.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Which came first?",
+    "sub": "A fair question"
+   }
+  },
+  {
+   "say": "Think back to the washing up. Your hands were in the water, but your inner voice had wandered off to a conversation that hadn't happened yet. It's one of the most ordinary experiences in the world. And now we know that, for many of us, it happens in roughly half of our waking moments.",
+   "show": {
+    "type": "photo",
+    "file": "lf29_b10_01.jpg",
+    "cap": "Hands here, mind elsewhere"
+   }
+  },
+  {
+   "say": "At around the same time, brain scientists were noticing something curious about what the brain does when we're not busy with a task.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A16",
+    "bg": "rooftop_dusk",
+    "n": 2,
+    "title": "The brain's default"
+   }
+  },
+  {
+   "say": "In 2001, Marcus Raichle and his colleagues at Washington University in St. Louis published a paper describing what they called a default mode of brain function. They had noticed that a particular set of brain regions tended to become more active when people were resting, and less active when they focused on a task. This set of regions came to be known as the default mode network.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Marcus Raichle and colleagues",
+    "where": "Washington University in St. Louis, 2001",
+    "what": "Described a set of brain regions that is more active when we rest than when we focus on a task"
+   }
+  },
+  {
+   "say": "Later research linked this network with the kind of thinking we do when our minds wander: remembering the past, imagining the future, and thinking about ourselves and other people. In other words, when you stop doing something, your brain doesn't go quiet. It turns inward, and often, the inner voice starts to talk.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "street_day",
+    "cap": "What it seems to do",
+    "sub": "Memories and plans"
+   }
+  },
+  {
+   "say": "Before we judge the wandering voice too harshly, it's worth hearing the other side.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 3,
+    "title": "Not all bad"
+   }
+  },
+  {
+   "say": "In 2012, Benjamin Baird and his colleagues published a study in Psychological Science. People were asked to think of unusual uses for everyday objects, like a brick. Then they took a short break. Some did a demanding task during the break. Some did an easy one that let their minds wander. Some rested, and some had no break. When they came back to the same problems, the group that had done the easy, mind-wandering task improved the most.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "who": "Benjamin Baird and colleagues",
+    "where": "Psychological Science, 2012",
+    "what": "Taking a break with an easy task that let minds wander helped people come up with more creative uses for objects"
+   }
+  },
+  {
+   "say": "So the wandering voice isn't simply a fault. It plans ahead, so we're ready for tomorrow. It rehearses conversations, so we're less nervous when they happen. It goes back over the past to make sense of it. And sometimes, while we're in the shower or on a walk, it stumbles on an idea we couldn't find by trying hard.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "title": "The wandering voice can",
+    "items": [
+     "Plan ahead",
+     "Rehearse conversations",
+     "Make sense of the past",
+     "Stumble on new ideas"
+    ]
+   }
+  },
+  {
+   "say": "The difference may lie in where it wanders and how it feels. A voice that drifts into a daydream about a holiday, or turns a problem over gently, can be pleasant and even useful. A voice that wanders back again and again to the same worry, the same regret, the same argument, is a different thing. That's when wandering starts to become something heavier.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "The balance",
+    "sub": "Where it wanders"
+   }
+  },
+  {
+   "say": "And there's a small skill hidden in that washing up moment. When the plate slipped, you came back. Your attention returned to the warm water and the sponge. Many calming practices are built on that same simple move: noticing that the mind has wandered, and gently coming back, without scolding yourself. We'll use it later tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle habit",
+    "sub": "Coming back"
+   }
+  },
+  {
+   "say": "Let's gather it up. Minds wander a lot, close to half our waking moments in that big study. Wandering tended to go with lower mood, at least in that study. The brain seems to have a whole network that comes alive when we turn inward. And gentle wandering, at the right moment, may help us find new ideas.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "What we've learned",
+    "items": [
+     "Minds wander about half the time",
+     "Wandering was linked to lower mood",
+     "The brain has a network for it",
+     "Gentle wandering can help ideas"
+    ]
+   }
+  },
+  {
+   "say": "But sometimes the wandering voice doesn't drift to holidays and new ideas. Sometimes it becomes a critic, and at night it can be a relentless one. Next, let's look at what happens when the voice turns against us, and at one small change that seems to give us some distance from it.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "Next",
+    "sub": "When the voice turns harsh"
+   }
+  }
+ ]
+}

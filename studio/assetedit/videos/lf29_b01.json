@@ -1,0 +1,272 @@
+{
+ "id": "lf29_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The lights are off, the house is quiet, and you are lying still. Nobody is speaking. And yet there is a voice going. It is reminding you about tomorrow, replaying something you said at lunch, and asking whether you locked the back door. It is your voice, and you are the only one who can hear it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A quiet room",
+    "sub": "Still talking"
+   }
+  },
+  {
+   "say": "Here is the strange part. If you are the one talking, who is listening? And if you already know what you think, why do you need to say it to yourself at all? It sounds like a riddle, but it is a real question, and psychologists have been quietly working on it for about a hundred years.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "The odd part",
+    "sub": "Who is talking?"
+   }
+  },
+  {
+   "say": "So tonight, let's take our time with it. Find a comfortable spot, let your shoulders drop, and let this voice keep yours company for a while. There is nothing you need to remember. The first part of the night is a story about the voice in your head. The second part is slower, and it is made for drifting off.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "cap": "Welcome",
+    "sub": "Settle in"
+   }
+  },
+  {
+   "say": "Here is the road we'll walk together. We'll start with small children, who do their thinking out loud, and see where that chatter goes when they grow up. We'll meet a researcher who gave people beepers to catch their thoughts in the act. We'll meet people who say they have almost no inner voice at all. We'll look at what your brain does to its own voice, and at studies where a single word, a name or a question changed how people performed. And then, in the second half, we'll slow right down and use what we learned to make the voice in your head a gentler companion for the night.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Where the inner voice comes from",
+     "What it really sounds like",
+     "People who barely have one",
+     "Why your brain turns its volume down",
+     "When talking out loud helps",
+     "How the words you choose change you",
+     "A kinder voice for the night"
+    ]
+   }
+  },
+  {
+   "say": "So let's begin with the question underneath all of it. Why do we talk to ourselves? Not now and then, but all day, in the shower, on the stairs, in the queue at the shop, and right here, in bed.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "n": 1,
+    "title": "The question of the night"
+   }
+  },
+  {
+   "say": "Think about the last hour. Maybe you read a message and silently answered it before you typed a word. Maybe you walked into a room and asked yourself, now, what did I come in here for? Maybe you told yourself, come on, just one more page. Each of those was a small sentence, spoken to nobody, and heard by exactly one person.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "An everyday habit",
+    "sub": "You do this too"
+   }
+  },
+  {
+   "say": "Sometimes the words even slip out. You mutter a phone number while you look for a pen. You say, keys, keys, keys, as you pat your pockets. You tell the jar lid, come on, as if it could hear you. Most of us do this, and most of us feel a little silly when someone catches us. Later tonight we'll see that there is a good reason for it, and that it can actually help.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "street_day",
+    "cap": "Out loud, sometimes",
+    "sub": "Muttering is normal"
+   }
+  },
+  {
+   "say": "The inner voice is so ordinary that we rarely stop to look at it. It is just there, like breathing. But when you do stop and look, it is a remarkable thing. Your mind has built a private broadcast that runs alongside your life, commenting, planning, rehearsing and remembering. Nobody taught you to switch it on, and most of the time you couldn't switch it off if you tried.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cafe_sunset",
+    "cap": "A private channel",
+    "sub": "Only you hear it"
+   }
+  },
+  {
+   "say": "Picture the room from the outside. A window, a little moonlight, a glass of water on the table. To anyone looking in, nothing is happening at all. But inside the head of the person lying there, a conversation may be in full swing, with one speaker, one listener, and both of them the same person.",
+   "show": {
+    "type": "photo",
+    "file": "lf29_b01_01.jpg",
+    "cap": "The quiet hours"
+   }
+  },
+  {
+   "say": "Let's break the mystery into a few smaller pieces, because each piece has its own surprising answer.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A16",
+    "bg": "rooftop_dusk",
+    "n": 2,
+    "title": "Three puzzles"
+   }
+  },
+  {
+   "say": "First, where does the voice come from? Babies aren't born narrating their lives, so at some point it has to arrive. Second, what is it for? If it were useless, it would be strange for almost everyone to carry it around all day. And third, why does it sometimes feel as though it belongs to someone else, a critic, a coach, or a worried parent, rather than to you?",
+   "show": {
+    "type": "list",
+    "sprite": "A14",
+    "bg": "rooftop_dusk",
+    "title": "Three things to explain",
+    "items": [
+     "Where the voice comes from",
+     "What it is for",
+     "Why it can feel like someone else"
+    ]
+   }
+  },
+  {
+   "say": "Here is a clue to hold on to. When you speak out loud, your brain does something clever to your own voice so that you don't startle yourself. There is good evidence that it does something very similar when you speak silently, inside your head. That small trick turns out to be part of the reason the inner voice feels like yours, and we'll come back to it later tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A11",
+    "bg": "autumn_overlook",
+    "cap": "An open loop",
+    "sub": "A clue from the brain"
+   }
+  },
+  {
+   "say": "Before we go on, a quiet promise. The science of inner speech is a young field, and it is full of open questions. It is hard to study something that only one person can hear. Where there is a solid result, I'll tell you who found it and when it was published. Where researchers still disagree, I'll say so. You don't need to take anything on trust.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "A small promise",
+    "sub": "Doubts left in"
+   }
+  },
+  {
+   "say": "That's the heart of the difficulty. If I want to study your eyesight, I can show you a chart. If I want to study your inner voice, I have to ask you about it, and you have to describe something that is gone the moment you look at it. So the researchers we'll meet tonight had to be inventive. Some used beepers. Some used tiny sensors on the lips and throat. Some used brain recordings. And some simply watched children at play.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "title": "Why it's hard to study",
+    "items": [
+     "It happens in private",
+     "Only you can report it",
+     "It fades when you look at it"
+    ]
+   }
+  },
+  {
+   "say": "You might wonder why this is worth an evening. The inner voice can seem like background noise, a bit of chatter that comes and goes. But it sits close to some of the biggest questions about the mind.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 3,
+    "title": "Why it matters"
+   }
+  },
+  {
+   "say": "It touches how we hold a phone number or a shopping list in mind for a few seconds. It touches how we plan, how we push ourselves to keep going, and how we stop ourselves from saying the wrong thing. It touches how we calm ourselves down after a bad day. And it touches something deeper, the feeling of being a self, a someone who lives inside a head and has a point of view.",
+   "show": {
+    "type": "list",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "title": "What the inner voice touches",
+    "items": [
+     "How we hold things in memory",
+     "How we plan and steer ourselves",
+     "How we calm down",
+     "How we know who we are"
+    ]
+   }
+  },
+  {
+   "say": "And here is the part I like best. The research suggests that the inner voice isn't fixed. The words you use, the way you address yourself, even whether you phrase a thought as a statement or a question, can change how you feel and how well you do. Small changes, it seems, can make a real difference. We'll meet those studies a little later.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "The good news",
+    "sub": "A voice you can shape"
+   }
+  },
+  {
+   "say": "There's also a reason why tonight is a good time to think about this. For many of us, the inner voice gets louder at night. During the day it competes with conversations, screens and the noise of the street. In a dark, quiet room, it has the stage to itself. That's when it likes to bring up unfinished business, small regrets and long lists of things to do.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "A night-time voice",
+    "sub": "Louder in the dark"
+   }
+  },
+  {
+   "say": "So the second half of tonight is built for exactly that moment. Once we've understood where the voice comes from and what it does, we'll slow down and practise speaking to ourselves in a softer, kinder, more helpful way. You can listen with your eyes closed. If you fall asleep before we get there, that's perfectly fine. That's what it's for.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "The second half",
+    "sub": "Made for drifting"
+   }
+  },
+  {
+   "say": "So how will we go about it? We'll follow the voice through a life. We'll start with toddlers, then look at adults who were asked to catch their thoughts, then at the muscles and the brain, and finally at the words themselves.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A01",
+    "bg": "cabin_fireplace",
+    "n": 4,
+    "title": "How we'll find our way"
+   }
+  },
+  {
+   "say": "Along the way, you'll meet some lovely pieces of research. A Russian psychologist who watched children talk their way through puzzles. An American psychologist who sent volunteers into their day with a beeper. People who say they think in pictures and almost never in words. A brain recording that caught the inner voice being turned down. And a study where writing two little words in a different order changed how hard people worked.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "A gentle map",
+    "sub": "From child to adult"
+   }
+  },
+  {
+   "say": "Here are four small questions to carry in your pocket for the rest of the night. Where did my inner voice come from? Does everyone have one? Why does it feel like mine, even though I can't see where it is? And can I change the way it speaks to me? None of them has a one line answer, but each has a fascinating one.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "title": "Questions to carry",
+    "items": [
+     "Where did my voice come from?",
+     "Does everyone have one?",
+     "Why does it feel like mine?",
+     "Can I change how it speaks?"
+    ]
+   }
+  },
+  {
+   "say": "Let's go back for a moment to that quiet room, and the voice running on while you lie still. You are not strange for having it, and you are not broken if it sometimes runs too fast. It is one of the most useful tools your mind owns. It just doesn't come with a manual. Tonight, we'll try to write a few pages of one.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Back to the room",
+    "sub": "The voice keeps going"
+   }
+  },
+  {
+   "say": "So for now, let your own inner voice do whatever it likes. If it comments on what I'm saying, that's fine. If it wanders off to tomorrow, that's fine too. Just notice it, the way you might notice the sound of rain. In a little while, we'll go back to the very beginning, to the first time any of us talked to ourselves.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Settling in",
+    "sub": "Let it run"
+   }
+  }
+ ]
+}

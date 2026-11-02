@@ -1,0 +1,223 @@
+{
+ "id": "lf29_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Picture someone working through a recipe, a maths problem, or the instructions for a new piece of furniture. Every so often they stop and mutter. Okay, so this goes here, because otherwise the shelf won't fit. Wait, why does it say two? Oh, I see. That little conversation with themselves may look like a sign of confusion. In fact, it may be one of the best ways to learn.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "cap": "Explaining it to yourself",
+    "sub": "Wait, why?"
+   }
+  },
+  {
+   "say": "In the late 1980s, the American cognitive scientist Michelene Chi and her colleagues began to look closely at what good learners actually do when they study.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 1,
+    "title": "The self-explanation effect"
+   }
+  },
+  {
+   "say": "In 1989, Chi and her colleagues published a study in the journal Cognitive Science. They asked a small group of students to study worked examples from a physics textbook, the kind that show a problem being solved step by step, and to think aloud as they did so. Then the students tried to solve new problems on their own.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Michelene Chi and colleagues",
+    "where": "Cognitive Science, 1989",
+    "what": "Students who explained worked examples to themselves solved later problems better"
+   }
+  },
+  {
+   "say": "When the researchers listened back, they noticed something. The students who later solved problems best were not simply the ones who read more carefully. They were the ones who kept explaining the examples to themselves. Why does this step follow from that one? Where did this number come from? What would happen if this were different? Chi's team called these self-explanations.",
+   "show": {
+    "type": "char",
+    "sprite": "A14",
+    "bg": "street_day",
+    "cap": "The difference",
+    "sub": "Asking why"
+   }
+  },
+  {
+   "say": "Good self-explainers asked why each step was there. They linked the steps to rules and ideas they already knew. They noticed when they didn't understand something, instead of skimming past it. And they filled in steps that the textbook had left out. Their inner voice wasn't just reading. It was teaching.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "What good self-explainers did",
+    "items": [
+     "Asked why each step was there",
+     "Linked steps to rules they knew",
+     "Noticed what they didn't understand",
+     "Filled in missing steps"
+    ]
+   }
+  },
+  {
+   "say": "That raised an obvious question. Were these students just naturally better learners? Or could anyone learn more by explaining things to themselves?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "n": 2,
+    "title": "Can it be taught?"
+   }
+  },
+  {
+   "say": "In 1994, Chi and her colleagues published a second study. Eighth grade students read a text about the human circulatory system, the heart, the blood and the vessels. One group was simply asked to read the text twice. The other group was asked to explain to themselves, out loud, what each sentence meant, as they went.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Chi, de Leeuw, Chiu & LaVancher",
+    "where": "Cognitive Science, 1994",
+    "what": "Students prompted to explain each line of a text understood it better"
+   }
+  },
+  {
+   "say": "The students who were prompted to explain understood the material better. They were better at answering hard questions that went beyond what the text said directly. And when the researchers looked more closely, the students who produced the most explanations tended to build the most accurate picture of how the circulatory system really works.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "The result",
+    "sub": "Explaining helped"
+   }
+  },
+  {
+   "say": "It's a simple picture. A notebook, a pencil, a cup of tea, and a person quietly asking themselves, why? Each time they put an idea into their own words, they find out whether they really understand it. And when they can't put it into words, they've found exactly the spot where they need to look again.",
+   "show": {
+    "type": "photo",
+    "file": "lf29_b08_01.jpg",
+    "cap": "Working it out"
+   }
+  },
+  {
+   "say": "Researchers have offered several reasons why talking yourself through something helps it stick.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 3,
+    "title": "Why it works"
+   }
+  },
+  {
+   "say": "First, it reveals gaps. It's easy to read a sentence and feel that you've understood it. It's much harder to explain it, and the gap between those two feelings is where the learning happens. Second, explaining forces you to connect new ideas to things you already know. And third, it turns reading, which can be quite passive, into thinking, which is active.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "title": "Why self-explaining helps",
+    "items": [
+     "It reveals gaps you'd skim past",
+     "It connects new ideas to old ones",
+     "It turns passive reading into active thinking"
+    ]
+   }
+  },
+  {
+   "say": "There's a common trap here that many of us fall into. When you read something twice, it starts to feel familiar, and familiar feels like understood. But familiar and understood are not the same. Asking yourself to explain it is one of the quickest ways to find out which one you've got.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "The illusion of knowing",
+    "sub": "Familiar is not the same"
+   }
+  },
+  {
+   "say": "In 2013, John Dunlosky and his colleagues published a large review of learning techniques in the journal Psychological Science in the Public Interest. They looked at the evidence for ten common study methods. Self-explanation was rated as having moderate usefulness. Two others, practising retrieval by testing yourself, and spreading study out over time, came out on top.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "who": "John Dunlosky and colleagues",
+    "where": "Psychological Science in the Public Interest, 2013",
+    "what": "A major review rated self-explanation as moderately useful for learning"
+   }
+  },
+  {
+   "say": "So self-explanation isn't a miracle method, and it doesn't replace testing yourself or spacing out your study. But it's a solid, free tool, and it fits neatly with everything we've learned about the inner voice. Your inner voice can be more than a narrator. It can be a patient tutor, asking the questions a good teacher would ask.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Honest limits",
+    "sub": "Not a miracle"
+   }
+  },
+  {
+   "say": "Some people take this idea in a rather charming direction.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A16",
+    "bg": "rooftop_dusk",
+    "n": 4,
+    "title": "A rubber duck"
+   }
+  },
+  {
+   "say": "Computer programmers have a well-known trick called rubber duck debugging. It comes from the 1999 book The Pragmatic Programmer, by Andrew Hunt and David Thomas, which tells the story of a programmer who kept a rubber duck on his desk. When his code didn't work, he explained it to the duck, line by line. Very often, halfway through the explanation, he found the mistake himself.",
+   "show": {
+    "type": "char",
+    "sprite": "A11",
+    "bg": "street_day",
+    "cap": "Rubber duck debugging",
+    "sub": "Explain it to a duck"
+   }
+  },
+  {
+   "say": "The duck, of course, doesn't help. It's the explaining that helps. Saying each step out loud, slowly, to a listener who knows nothing, forces you to stop skipping over the parts you think you understand. And the duck has one great advantage over a human colleague. It never interrupts, and it never makes you feel silly.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "cap": "Why a duck?",
+    "sub": "A patient listener"
+   }
+  },
+  {
+   "say": "You don't need a rubber duck, of course. Your inner voice can play both roles. One part of you explains, and another part listens and asks, wait, why? It's the dialogic inner speech we met earlier, the back and forth, put to work. In a sense, it's Vygotsky's idea come full circle: the voice of a teacher, now living inside the learner.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "You can be the duck",
+    "sub": "Or the student"
+   }
+  },
+  {
+   "say": "If you'd like to try it, here's a simple version. Read a paragraph of something you want to understand. Then look away, and explain it to yourself in your own words, as if to a friend. Then look back and see what you missed. That small loop, read, explain, check, is the self-explanation effect in miniature.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "A small way to use it",
+    "items": [
+     "Read a paragraph",
+     "Close the page",
+     "Explain it to yourself",
+     "Look back at what you missed"
+    ]
+   }
+  },
+  {
+   "say": "But there's a stranger side to this explaining voice. Sometimes it explains things it doesn't actually know. Some of the most remarkable evidence for that comes from a handful of patients whose brains had been divided in two.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Next",
+    "sub": "The voice that explains everything"
+   }
+  }
+ ]
+}

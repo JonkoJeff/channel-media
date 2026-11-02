@@ -1,0 +1,250 @@
+{
+ "id": "lf29_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now let's try the second small idea. Earlier, we met a study where simply choosing a word for an emotion, angry or scared, quietened the brain's alarm a little. We can borrow that idea, softly, for the night.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "n": 1,
+    "title": "A word for the feeling"
+   }
+  },
+  {
+   "say": "Take a moment to notice how you feel right now. Not why you feel it, and not whether you should. Just what's here. It might be tiredness. It might be a little worry about tomorrow. It might be calm. It might be a mixture of things, which is perfectly normal.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Checking in",
+    "sub": "What's here?"
+   }
+  },
+  {
+   "say": "Now see if you can find one word for it. Just one. Tired. Restless. Worried. Calm. Sad. Content. The word doesn't need to be perfect. It's only a label, like the name on a jar, so you know what's inside.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "One word",
+    "sub": "Keep it simple"
+   }
+  },
+  {
+   "say": "Let your inner voice say that word once, gently. Not as a complaint, and not as a judgement. Just as a fact. This is tiredness. This is worry. This is restlessness. As if you were a kind friend noticing what someone else was feeling, and saying it out loud so they felt seen.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Say it gently",
+    "sub": "No judgement"
+   }
+  },
+  {
+   "say": "Remember Lieberman's image of the brakes. Naming a feeling doesn't make it vanish, and that's not the goal. It just seems to slow it a little, the way a gentle touch on the brakes slows a car on a long hill. The feeling is still here. It's just a little less in charge.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "text": "When you put feelings into words, you seem to be hitting the brakes on your emotional responses.",
+    "by": "Matthew Lieberman, UCLA, 2007"
+   }
+  },
+  {
+   "say": "There's one small trick to this, and it's the difference between a name and a story.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "n": 2,
+    "title": "Names, not stories"
+   }
+  },
+  {
+   "say": "A story sounds like this. I'm worried, because tomorrow is going to be awful, and I always mess these things up, and then everyone will think. That's not a label anymore. That's the inner voice getting back on its old track, going round and round.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "A story",
+    "sub": "The voice runs on"
+   }
+  },
+  {
+   "say": "A name sounds like this. Worry. And then nothing else. You let the word sit there, and you don't add anything to it. If a story starts, you can come back to the name. Worry. Just that. Like putting a lid back on a pot, gently, without slamming it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "A name",
+    "sub": "Then stop"
+   }
+  },
+  {
+   "say": "So the steps are simple. Notice the feeling. Give it one word. Let the word sit, without adding to it. And if a story starts, return to the word. You can do this as many times as you need. There's no limit, and there's no failing.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Names, not stories",
+    "items": [
+     "Notice the feeling",
+     "Give it one word",
+     "Let the word sit",
+     "If a story starts, return to the word"
+    ]
+   }
+  },
+  {
+   "say": "Picture a shelf of glass jars, each with a small label. One says tired. One says worried. One says calm. You don't have to empty the jars, or understand everything inside them. You've just labelled them, so they're easier to live alongside. They can sit on the shelf through the night.",
+   "show": {
+    "type": "photo",
+    "file": "lf29_b13_01.jpg",
+    "cap": "Labels on jars"
+   }
+  },
+  {
+   "say": "Let's try it once more. Notice what's here. Maybe it's the same feeling as before, maybe something new. Find a word. Let your inner voice say it gently, once. Then let it rest. There's no need to do anything with the feeling. Naming it is enough.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "One more time",
+    "sub": "Try again"
+   }
+  },
+  {
+   "say": "There's something else worth noticing, once you've named a feeling. Feelings don't stay still.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 3,
+    "title": "Feelings change"
+   }
+  },
+  {
+   "say": "A feeling at night can seem as though it will last for ever. But feelings are more like weather than climate. They come in, they change, and they move on. The worry that feels huge at midnight often looks smaller with morning light. You don't have to make it move. It will move on its own.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Weather, not climate",
+    "sub": "It moves on"
+   }
+  },
+  {
+   "say": "Let's check in again. What's here now? Maybe the same feeling, maybe a slightly different one. Find one word for it. Heavy. Drowsy. Quiet. Still worried, perhaps, and that's fine too. Just the name, and nothing more.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Check again",
+    "sub": "What's here now?"
+   }
+  },
+  {
+   "say": "You might notice that the words get softer as you go. Restless becomes settled. Worried becomes tired. Tired becomes sleepy. You're not forcing anything. You're just noticing what's already happening, as your body slowly gets ready for sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Softer each time",
+    "sub": "Lighter words"
+   }
+  },
+  {
+   "say": "If you'd like some words to try on, here are a few. Settled. Drowsy. Heavy. Quiet. Easy. You can try one and see if it fits, like a soft jumper. If it doesn't, put it down and try another. There's no hurry.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "title": "Soft words for the night",
+    "items": [
+     "Settled",
+     "Drowsy",
+     "Heavy",
+     "Quiet",
+     "Easy"
+    ]
+   }
+  },
+  {
+   "say": "Feelings don't only live in the mind. They live in the body too. So let's spend a little time there.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "n": 4,
+    "title": "The body has feelings too"
+   }
+  },
+  {
+   "say": "If there's a feeling that's still strong, worry or restlessness, see if you can notice where it lives in your body. Perhaps a tightness in the chest. Perhaps a flutter in the stomach. Perhaps tension in the jaw or shoulders. You don't need to change it. Just find it, the way you'd find a light switch in the dark.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Where is it?",
+    "sub": "A gentle search"
+   }
+  },
+  {
+   "say": "Now name that place too. Chest. Or, shoulders. Or, jaw. And then, if you like, add the feeling's word. Tight. Warm. Fluttery. Chest, tight. Shoulders, heavy. Just two words, side by side, like a note left for yourself.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Name the place",
+    "sub": "Chest, shoulders, jaw"
+   }
+  },
+  {
+   "say": "Let your next breath travel, in your imagination, toward that place. Not to push the feeling away, but to give it a little room. As you breathe out, imagine the area softening, just slightly, the way ice softens at the edges when the sun touches it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Breathe toward it",
+    "sub": "Room to soften"
+   }
+  },
+  {
+   "say": "That's all there is to it. Find the place. Name the feeling. Send a breath toward it. Give it a little room. You can come back to this whenever a feeling feels too big, tonight or any night.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "A two-word check",
+    "items": [
+     "Place",
+     "Feeling",
+     "Breath",
+     "Room"
+    ]
+   }
+  },
+  {
+   "say": "Think of a misty field early in the morning. The mist seems so thick at first. But as the light comes, it lifts, slowly, without anyone pushing it. Feelings at night can be like that mist. You don't have to clear them. You just have to wait, gently, while they lift.",
+   "show": {
+    "type": "photo",
+    "file": "lf29_b13_02.jpg",
+    "cap": "Mist lifting"
+   }
+  },
+  {
+   "say": "In a little while, we'll try one more idea from the research, the one about using your own name, or the word you, to give yourself a little distance and a lot more kindness. For now, rest here, with your feelings named, and your breath coming and going.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Next",
+    "sub": "A friend's voice"
+   }
+  }
+ ]
+}

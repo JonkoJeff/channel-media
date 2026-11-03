@@ -1,0 +1,268 @@
+{
+ "id": "lf30_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a belief almost everyone holds. If something big and unusual happened right in front of your eyes, you would see it. You might miss a detail, a word on a sign, the colour of a stranger's coat. But something large and strange, in plain view? Of course you'd notice.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A16",
+    "bg": "rooftop_dusk",
+    "n": 20,
+    "title": "The things right in front of you"
+   }
+  },
+  {
+   "say": "It feels certain because, whenever we look around, everything seems to be there. The whole scene feels fully present and fully seen. So if something odd entered that scene, it would simply appear in our experience along with everything else. That's the theory, anyway.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "It feels certain",
+    "sub": "Eyes open, mind on"
+   }
+  },
+  {
+   "say": "But remember what we found earlier about the eyes. Sharp vision covers only a tiny patch, and the brain fills in the rest. Attention works a little like that too. It's a spotlight, and the brain mostly builds a rich experience for what the spotlight is pointed at. Two psychologists decided to test how far that goes, with a basketball and a gorilla suit.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Attention",
+    "sub": "The spotlight"
+   }
+  },
+  {
+   "say": "In 1999, Daniel Simons and Christopher Chabris published a paper in the journal Perception with a wonderful title, Gorillas in our midst. They filmed a short video of two small teams, one in white shirts and one in black, passing basketballs around.",
+   "show": {
+    "type": "study",
+    "sprite": "A14",
+    "bg": "cafe_sunset",
+    "who": "Daniel Simons & Christopher Chabris",
+    "where": "Harvard University, published 1999",
+    "what": "Viewers counted basketball passes; about half failed to notice a person in a gorilla suit walking through the game"
+   }
+  },
+  {
+   "say": "Viewers were given a simple job. Watch the players in white and count how many passes they make. Ignore the players in black. It takes concentration, because the players weave around each other and the balls fly fast. At the end, you report your count.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "title": "The task",
+    "items": [
+     "Watch the team in white",
+     "Count their passes",
+     "Ignore the team in black",
+     "Report the number at the end"
+    ]
+   }
+  },
+  {
+   "say": "Partway through the video, a person in a full gorilla suit walks into the middle of the game. They stop, face the camera, thump their chest, and walk off. They're on screen for several seconds, right in the centre of the action.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "street_day",
+    "cap": "Then it happens",
+    "sub": "Something walks in"
+   }
+  },
+  {
+   "say": "And about half of the viewers never saw it. When asked afterwards whether they'd noticed anything unusual, they said no. When they watched the video again, without counting, many couldn't believe it was the same clip. Some were sure the researchers had swapped the tape.",
+   "show": {
+    "type": "stat",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Missed the gorilla",
+    "big": "about half",
+    "label": "of viewers, while counting passes (Simons & Chabris, 1999)"
+   }
+  },
+  {
+   "say": "This isn't about bad eyesight. The gorilla's image landed right on their retinas. The light was there. What was missing was attention. Their brains were busy with white shirts and passes, and anything that didn't fit that job was quietly left out of the experience. Psychologists call it inattentional blindness.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Not poor eyesight",
+    "sub": "Busy attention"
+   }
+  },
+  {
+   "say": "There was a revealing detail in the results, too. The gorilla suit was dark. People who were told to count the passes of the team in black were more likely to notice it than people counting the team in white. When your attention is tuned to dark shapes, a dark gorilla slips through the filter. When it's tuned to white shirts, the gorilla is filtered out with everything else that's dark.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "title": "What made the gorilla easier to see",
+    "items": [
+     "Watching the team in black",
+     "A dark gorilla matched their focus",
+     "Watching the team in white",
+     "The gorilla was easier to miss"
+    ]
+   }
+  },
+  {
+   "say": "So attention isn't only a spotlight that moves around. It's also a filter that you set in advance. You decide, often without realising, what kind of thing matters right now, and your brain quietly lets that through, and turns the volume down on almost everything else.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "A filter, not a window",
+    "sub": "Tuned in advance"
+   }
+  },
+  {
+   "say": "The name had come from earlier work. Before the gorilla, two other researchers had spent years on the same puzzle.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 21,
+    "title": "A name for the blind spot of the mind"
+   }
+  },
+  {
+   "say": "Arien Mack and Irvin Rock published a book in 1998 called Inattentional Blindness. In their experiments, people looked at a simple cross on a screen and judged which arm was longer. On some trials, a small, unexpected shape flashed up close by. Many people simply didn't see it, even though it was clearly visible. Without attention, it seemed, there was often no conscious seeing at all.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "who": "Arien Mack & Irvin Rock",
+    "where": "New School for Social Research, book published 1998",
+    "what": "Inattentional Blindness: people focused on a task often failed to see a clearly visible, unexpected shape"
+   }
+  },
+  {
+   "say": "Focus is a gift. It lets you follow a conversation in a noisy café, or read a book on a busy train. But it comes with a hidden price. The more tightly you focus on one thing, the more of the rest of the world quietly drops out of view, without you ever knowing it was gone.",
+   "show": {
+    "type": "photo",
+    "file": "lf30_b06_01.jpg",
+    "cap": "Focus has a price"
+   }
+  },
+  {
+   "say": "Now, you might wonder whether this only happens to ordinary people doing a silly task. Surely experts, people trained for years to look carefully, would be different.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A02",
+    "bg": "street_day",
+    "n": 22,
+    "title": "Even the experts"
+   }
+  },
+  {
+   "say": "In 2013, Trafton Drew, Melissa Võ and Jeremy Wolfe published a study in the journal Psychological Science called The invisible gorilla strikes again. They asked radiologists, doctors who spend their working lives reading medical images, to look through lung scans and search for small nodules, the kind that can be early signs of cancer.",
+   "show": {
+    "type": "study",
+    "sprite": "A11",
+    "bg": "conspiracy_board",
+    "who": "Trafton Drew, Melissa Võ & Jeremy Wolfe",
+    "where": "Brigham and Women's Hospital and Harvard Medical School, published 2013",
+    "what": "Radiologists searched lung scans for nodules; a gorilla 48 times the size of a typical nodule had been added to one scan"
+   }
+  },
+  {
+   "say": "In the last scan, the researchers had placed a picture of a gorilla. It wasn't tiny. It was about forty-eight times the size of a typical nodule. It was faint, the way things look in these scans, but an expert looking straight at it could easily recognise it.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "A small surprise",
+    "sub": "Hidden in the scan"
+   }
+  },
+  {
+   "say": "Of the twenty-four radiologists, twenty did not report the gorilla. That's eighty-three percent. And the eye-tracking showed something even more striking. Most of those who missed it had looked directly at the spot where it was. Their eyes went there. Their minds, tuned to nodules, didn't.",
+   "show": {
+    "type": "bars",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "title": "Radiologists who saw the gorilla",
+    "unit": "radiologists",
+    "bars": [
+     [
+      "Missed it",
+      20.0
+     ],
+     [
+      "Saw it",
+      4.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "It's important to say this clearly. These were skilled doctors doing an excellent job of what they were asked to do. They were good at finding nodules. That expertise is exactly what narrowed their attention. Knowing what you're looking for makes you better at finding it, and worse at seeing everything else.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Not careless",
+    "sub": "Very good at their job"
+   }
+  },
+  {
+   "say": "So here is what the gorillas teach us. Attention selects what reaches your experience. Looking straight at something is not the same as seeing it. Expertise doesn't protect you, and can even narrow the beam. And perhaps the strangest part: you can't feel what you missed. There is no gap, no blank space, no warning light. The scene simply feels complete.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What this teaches",
+    "items": [
+     "Attention selects what you experience",
+     "Looking is not the same as seeing",
+     "Experts are not immune",
+     "You can't feel what you missed"
+    ]
+   }
+  },
+  {
+   "say": "It's a little like a reading lamp in a dark room. Inside the circle of light, everything is clear and detailed. Outside it, the room is still there, but you're not really seeing it. And because your eyes rarely look beyond the circle, the darkness never quite feels like darkness.",
+   "show": {
+    "type": "photo",
+    "file": "lf30_b06_02.jpg",
+    "cap": "A circle of light"
+   }
+  },
+  {
+   "say": "Simons and Chabris later wrote a whole book about this, called The Invisible Gorilla, published in 2010. Its message can be put very simply. We see far less than we think we see, and the hardest part is that it doesn't feel that way.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "The gorilla lesson",
+    "items": [
+     "We see less than we think",
+     "It doesn't feel that way",
+     "Focus hides the rest",
+     "There is no warning light"
+    ]
+   }
+  },
+  {
+   "say": "There's something oddly comforting in that. The next time you walk past a friend in the street without noticing them, or search the whole kitchen for keys that were sitting in plain view, you can be a little kinder to yourself. Your brain wasn't failing. It was focusing.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Kindness to yourself",
+    "sub": "A gentle lesson"
+   }
+  },
+  {
+   "say": "Still, there's a natural follow-up question. The gorilla was something new walking in. What about something that was already there and simply changed? If the person you were talking to was suddenly replaced by someone else, right in the middle of a conversation, surely then you would notice. Let's find out.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "But what about changes?",
+    "sub": "The next puzzle"
+   }
+  }
+ ]
+}

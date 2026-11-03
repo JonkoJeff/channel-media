@@ -1,0 +1,248 @@
+{
+ "id": "lf30_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's turn to colour. It seems like the most obvious thing in the world that colours belong to things.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "n": 13,
+    "title": "Where colour lives"
+   }
+  },
+  {
+   "say": "A strawberry is red. A lemon is yellow. The sky on a clear afternoon is blue. When you look at them, the colour feels like it's sitting right there on the surface, as much a part of the object as its shape or its weight. That's the belief we'll test now.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "cap": "A red strawberry",
+    "sub": "Red on the outside"
+   }
+  },
+  {
+   "say": "What is actually out there is light of different wavelengths. A strawberry's surface absorbs much of the light that falls on it and reflects more of the longer wavelengths back towards your eye. But the light itself is just energy, travelling in waves of different lengths. There's nothing in the wave that is red in the way you experience red.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "What is out there",
+    "sub": "Light of different lengths"
+   }
+  },
+  {
+   "say": "In the 1660s, the young Isaac Newton began experimenting with glass prisms in a darkened room. He let a thin beam of sunlight pass through a prism and watched it spread into a band of colours on the wall. Then, with a second prism, he brought the colours back together into white light. He concluded that white sunlight is a mixture, and that the prism simply separates it.",
+   "show": {
+    "type": "study",
+    "sprite": "A14",
+    "bg": "street_day",
+    "who": "Isaac Newton",
+    "where": "Cambridge, prism experiments from 1666",
+    "what": "Split white sunlight into a band of colours with a glass prism, and recombined it"
+   }
+  },
+  {
+   "say": "And Newton saw something deeper still. In his book Opticks, published in 1704, he wrote that the rays, to speak properly, are not coloured. In them, he said, there is nothing else than a certain power to stir up a sensation of this or that colour. Colour, in other words, happens in the one who sees.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "text": "The rays, to speak properly, are not coloured",
+    "by": "Isaac Newton, Opticks, 1704"
+   }
+  },
+  {
+   "say": "Today we know a little of how that sensation is stirred up. Most people have three kinds of cone cells, each most sensitive to a different range of wavelengths, roughly short, medium and long. Every colour you see comes from your brain comparing the signals of these three kinds of cells. Red, gold, turquoise and lilac are all different mixtures of just three signals.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Three kinds of cones",
+    "sub": "Mixing three signals"
+   }
+  },
+  {
+   "say": "So colour isn't painted on the strawberry. It's your brain's way of labelling the kind of light that comes back from it. And because it's a judgement made inside the brain, it can be pushed and pulled by everything else your brain knows about the scene.",
+   "show": {
+    "type": "photo",
+    "file": "lf30_b04_01.jpg",
+    "cap": "White light, split by a prism"
+   }
+  },
+  {
+   "say": "And here's where it gets truly interesting.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "n": 14,
+    "title": "The same colour in any light"
+   }
+  },
+  {
+   "say": "Think of a banana. Look at it in the cool light of midday, under a warm lamp in the evening, or in the orange glow of a sunset. The light bouncing off it changes a great deal. A camera would record quite different colours. And yet, to you, the banana stays yellow.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A banana at sunset",
+    "sub": "Still yellow"
+   }
+  },
+  {
+   "say": "This is called colour constancy. Your brain doesn't just measure the light coming from an object. It estimates the light falling on the whole scene, and then works out what colour the object must be, given that light. It's a little like automatically correcting for the tint of a pair of sunglasses, without ever noticing you're doing it.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Colour constancy",
+    "sub": "Correcting for the light"
+   }
+  },
+  {
+   "say": "One of the most famous demonstrations of this is the checker shadow illusion, created by Edward Adelson at the Massachusetts Institute of Technology and published in 1995. It shows a checkerboard with a cylinder casting a shadow across it. One square outside the shadow looks dark grey. Another square inside the shadow looks light. In fact, they are exactly the same shade of grey on the screen.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Edward Adelson",
+    "where": "MIT, 1995",
+    "what": "Two squares on a checkerboard look very different but are exactly the same shade of grey"
+   }
+  },
+  {
+   "say": "Here's what your brain is doing. It recognises the shadow. It knows that a square in shadow sends back less light than it would in the open. So it adjusts its judgement, and decides the shadowed square must really be a light one. What you experience is not the light from the screen, but your brain's corrected version.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Why the squares look different",
+    "items": [
+     "The brain sees a shadow",
+     "Squares in shadow should look darker",
+     "So it lightens that square",
+     "You see the corrected colour"
+    ]
+   }
+  },
+  {
+   "say": "And notice that, in a sense, your brain is right. If this were a real checkerboard with a real shadow, that square really would be a light one. The illusion only works because your brain is so good at seeing the world as it is, rather than as the light happens to fall on it.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "A good mistake",
+    "sub": "Right about the world"
+   }
+  },
+  {
+   "say": "And then, in February 2015, a single photograph showed millions of people just how personal this correction can be.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A16",
+    "bg": "rooftop_dusk",
+    "n": 15,
+    "title": "The dress that split the internet"
+   }
+  },
+  {
+   "say": "It was a slightly washed out photograph of a striped dress, shared online. Some people saw it as blue with black stripes. Others were absolutely certain it was white with gold stripes. Families argued about it at dinner. Friends sitting side by side, looking at the same screen, saw different colours, and each found it hard to believe the other.",
+   "show": {
+    "type": "photo",
+    "file": "lf30_b04_02.jpg",
+    "cap": "One photo, two colours"
+   }
+  },
+  {
+   "say": "The real dress, it turned out, was blue and black. But the pixels on the screen didn't change from person to person. What changed was what each person's brain did with them.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "Same pixels",
+    "sub": "Different colours"
+   }
+  },
+  {
+   "say": "Within months, scientists had studied it. In 2015, Rosa Lafer-Sousa, Katherine Hermann and Bevil Conway published a study in the journal Current Biology, asking more than a thousand people online what they saw. Most saw blue and black, a large minority saw white and gold, and a smaller group saw other combinations, such as blue and brown.",
+   "show": {
+    "type": "study",
+    "sprite": "A14",
+    "bg": "street_day",
+    "who": "Rosa Lafer-Sousa, Katherine Hermann & Bevil Conway",
+    "where": "Current Biology, 2015",
+    "what": "Asked over a thousand people online what colours they saw in the dress"
+   }
+  },
+  {
+   "say": "The leading explanation goes back to colour constancy. The photo gives very few clues about the lighting. If your brain assumes the dress is in cool, bluish shade, it subtracts the blue and you see white and gold. If it assumes the dress is in warm, yellowish artificial light, it subtracts the yellow and you see blue and black.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A question about light",
+    "sub": "Shadow or bright light?"
+   }
+  },
+  {
+   "say": "In 2017, Pascal Wallisch at New York University published a large online study in the Journal of Vision that supported this. People who believed the dress was in shadow were much more likely to see white and gold. He also found hints that people's daily light habits might matter, with early risers, who see more natural daylight, a little more likely to see white and gold. That second finding is more tentative, but the first was strong.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Pascal Wallisch",
+    "where": "Journal of Vision, 2017",
+    "what": "People who assumed the dress was in shadow were more likely to see white and gold"
+   }
+  },
+  {
+   "say": "So the dress taught a generation a quiet lesson. Colour is a judgement. It's made using a guess about the light. Different brains can make that guess differently. And whichever guess your brain makes, it feels completely, unshakeably certain.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What the dress taught us",
+    "items": [
+     "Colour is a judgement",
+     "Made using guesses about light",
+     "Different brains guess differently",
+     "Each feels completely sure"
+    ]
+   }
+  },
+  {
+   "say": "That last part may be the most important. Nobody looking at the dress felt that they were guessing. They felt that they were simply seeing. Which is a good thing to remember the next time someone sees something differently from you, whether it's a colour, a situation, or a memory.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "cap": "Certain and different",
+    "sub": "A gentle lesson"
+   }
+  },
+  {
+   "say": "So every colour you have ever seen, the green of a summer field, the grey of a rainy street, the warm gold of a lamp at night, was built inside your head. The world sent the light. Your brain made the colour. And it made it using its best guess about the scene, which is exactly why the same light can become two different colours in two different heads.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Built, not found",
+    "sub": "Every single colour"
+   }
+  },
+  {
+   "say": "And that raises another intriguing question. If colour is built by the brain, could the words you have for colours change how you see them? Could a language with a different set of colour names give you a slightly different rainbow? That's where we'll go next.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "cap": "Words for colour",
+    "sub": "Do they change what you see?"
+   }
+  }
+ ]
+}

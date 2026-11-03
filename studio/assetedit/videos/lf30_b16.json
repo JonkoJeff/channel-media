@@ -1,0 +1,263 @@
+{
+ "id": "lf30_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Before we close our eyes, let's take one last, slow look outside. Imagine you're standing at a window late in the evening. The room behind you is dim. The glass is cool. And out there, the night is waiting, full of small, quiet guesses your brain is making right now.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "n": 65,
+    "title": "A window at night"
+   }
+  },
+  {
+   "say": "When you first turn off the lights and look out, the night seems almost empty. A few street lamps, perhaps, and then a lot of darkness. But if you stay at the window for a while, something gentle happens. Slowly, the darkness starts to fill in.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The first few minutes",
+    "sub": "Everything looks black"
+   }
+  },
+  {
+   "say": "Shapes appear where there seemed to be nothing. The outline of a tree. The edge of a roof. A path you couldn't see a minute ago. Nothing outside has changed. It's your eyes that are changing, quietly adjusting themselves to the dark.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Your eyes are changing",
+    "sub": "Without you doing anything"
+   }
+  },
+  {
+   "say": "Remember the two kinds of light-sensing cells we met earlier tonight. Cones give us colour and fine detail, but they need plenty of light. Rods are far more sensitive, but they see mostly in shades of grey. In bright light, the rods are switched off. When the lights go down, they slowly recover, and it takes around half an hour for your night vision to reach its full strength.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "title": "Two kinds of cells",
+    "items": [
+     "Cones: colour and detail, in bright light",
+     "Rods: dim light, mostly grey",
+     "Rods need time to wake up",
+     "Full night vision takes around half an hour"
+    ]
+   }
+  },
+  {
+   "say": "That's why astronomers sit in the dark for a while before they look for faint stars. And it's why one glance at a bright phone screen can undo much of the adjustment. The eyes are patient, if we let them be.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Patience at the window",
+    "sub": "The night rewards waiting"
+   }
+  },
+  {
+   "say": "Night vision brings another small surprise, one that was noticed nearly two hundred years ago.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 66,
+    "title": "The colours that fade first"
+   }
+  },
+  {
+   "say": "The Czech physiologist Jan Evangelista Purkyně loved to walk in the early morning. In 1825 he described something he had seen on those walks. By daylight, red flowers looked bright and rich. But at dawn and at dusk, the same red flowers looked dark, almost black, while the blue and green leaves around them seemed brighter.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Jan Evangelista Purkyně",
+    "where": "Czech physiologist, described in 1825",
+    "what": "Noticed that red flowers look bright by day but turn dark at dusk, while blue and green ones seem to glow"
+   }
+  },
+  {
+   "say": "Today this is called the Purkinje shift. As the light fades, the job of seeing passes from the cones to the rods, and rods are more sensitive to blue-green light than to red. So in the evening, the world's colours really do rearrange themselves. Your garden is not changing colour. The guesser is.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The Purkinje shift",
+    "sub": "A change of guessers"
+   }
+  },
+  {
+   "say": "If you ever walk past a garden at dusk, you might look for it. The red flowers sinking into shadow first. The green leaves holding on to the last of the light. A tiny reminder that colour, as we found earlier tonight, is something your brain makes from the light it is given.",
+   "show": {
+    "type": "photo",
+    "file": "lf30_b16_01.jpg",
+    "cap": "A garden at dusk"
+   }
+  },
+  {
+   "say": "Now let's lift our eyes a little higher, to the moon.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 67,
+    "title": "The moon that grows"
+   }
+  },
+  {
+   "say": "You may have seen a full moon rising, sitting low and enormous above the rooftops or the trees, so big it almost looks close enough to touch. And then, a few hours later, high in the sky, it seems so much smaller. Many people have pulled out a phone to photograph that giant moon, only to find a small white dot in the picture.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "rooftop_dusk",
+    "cap": "A huge moon",
+    "sub": "Low on the horizon"
+   }
+  },
+  {
+   "say": "That's because the moon itself doesn't grow. Its image in your eye is about the same size wherever it is in the sky. The giant moon is made by your brain. This puzzle is very old. Thinkers in the ancient world, including the astronomer Ptolemy, were already writing about it.",
+   "show": {
+    "type": "quote",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "text": "The moon at the horizon looks larger, but its image in the eye is not bigger",
+    "by": "The moon illusion"
+   }
+  },
+  {
+   "say": "In 1962, the psychologists Lloyd Kaufman and Irvin Rock published a study of the moon illusion in the journal Science. They used an artificial moon that people could see against the sky, and changed what was around it. When the horizon was hidden from view, the moon seemed to shrink. When people could see the land stretching away towards it, the moon looked larger.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "who": "Lloyd Kaufman & Irvin Rock",
+    "where": "published 1962 in Science",
+    "what": "Tested the moon illusion with artificial moons and found that the scenery between you and the horizon matters"
+   }
+  },
+  {
+   "say": "Researchers still debate the full explanation. One popular idea is that the brain treats the horizon as farther away than the sky overhead, and so, to match, it makes the moon down there look larger. Whatever the final answer, the moon is a lovely nightly example of tonight's big idea. Your brain doesn't just show you the sky. It interprets it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Still debated",
+    "sub": "A guess about distance"
+   }
+  },
+  {
+   "say": "And next to the moon, the stars.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A02",
+    "bg": "street_day",
+    "n": 68,
+    "title": "Light from the past"
+   }
+  },
+  {
+   "say": "Here is something gentle to think about. Light takes time to travel. The moonlight reaching your window left the moon just over a second ago. Sunlight takes about eight minutes to reach us. The light from the nearest star after the Sun has travelled for more than four years. And the light from many of the stars you can see has been on its way for hundreds of years, or longer.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "title": "How old is the light?",
+    "items": [
+     "Moonlight: just over a second",
+     "Sunlight: about eight minutes",
+     "The nearest star after the Sun: over four years",
+     "Many stars you see: hundreds of years or more"
+    ]
+   }
+  },
+  {
+   "say": "So when you look at the night sky, you are seeing the past, twice over. Once, because the light is old. And once more, as we found earlier, because your brain needs a moment to build the picture. Even the stars, it turns out, are a kind of memory.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Seeing the past",
+    "sub": "Twice over"
+   }
+  },
+  {
+   "say": "Let that settle for a moment. Old light, travelling across space for years, arriving at your window, and your brain taking it in and turning it into a small, steady point of brightness in the dark.",
+   "show": {
+    "type": "photo",
+    "file": "lf30_b16_02.jpg",
+    "cap": "Old light at the window"
+   }
+  },
+  {
+   "say": "There's one last guess the night likes to play with.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "n": 69,
+    "title": "Faces in the dark"
+   }
+  },
+  {
+   "say": "Perhaps you've woken up in the night and seen what looked like a figure in the corner, only to realise it was a coat over a chair. Or noticed a face in the pattern of a curtain, in the knots of a wooden door, in the front of a car, or in a slice of toast. This is called pareidolia, seeing faces where there are none.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "A coat on a chair",
+    "sub": "Or someone sitting there?"
+   }
+  },
+  {
+   "say": "A 2014 study in the journal Cortex, with the memorable title Seeing Jesus in toast, looked at this carefully. The researchers showed volunteers images made of pure random noise, and told them that some might contain hidden faces. In fact, none did. Yet people reported seeing faces in a good share of them, and brain areas involved in face processing became active when they did. The study even won an Ig Nobel Prize, the light-hearted award for research that first makes people laugh, and then makes them think.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "who": "Liu and colleagues",
+    "where": "published 2014 in Cortex",
+    "what": "Showed people pure visual noise, told them faces might be hidden in it, and found people often reported seeing faces that were not there"
+   }
+  },
+  {
+   "say": "Why would the brain be so quick to find faces? A common explanation is that faces matter enormously to us. Missing a real face can be costly, while seeing a face in a coat costs us only a moment of surprise. So the brain errs on the side of seeing them. In the dim light of night, with so little detail to go on, those guesses come even more easily.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "A careful guesser",
+    "sub": "Better safe than sorry"
+   }
+  },
+  {
+   "say": "So here is our quiet window at night. Your eyes slowly waking up to the dark. Red flowers fading first. A moon made larger by your brain. Old light from the stars. And faces in the shadows that are only coats and curtains. All of it, gentle guesses.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "title": "Tonight at the window",
+    "items": [
+     "Your eyes adjust slowly",
+     "Red fades first at dusk",
+     "The low moon is made larger",
+     "Starlight is old light",
+     "Faces appear in shadows"
+    ]
+   }
+  },
+  {
+   "say": "And now, let's step back from the window. Let the curtain fall closed. The night outside will carry on without us, and your brain doesn't need to guess about any of it anymore. Let's settle in, and let everything grow quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Closing the curtain",
+    "sub": "Time to rest"
+   }
+  }
+ ]
+}

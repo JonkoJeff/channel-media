@@ -1,0 +1,270 @@
+{
+ "id": "lf30_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "If you'd like to, you can make yourself comfortable now. Let your shoulders drop a little. Let your hands rest wherever they are. There's nothing more to figure out tonight.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 70,
+    "title": "Letting the world grow quiet"
+   }
+  },
+  {
+   "say": "When you're ready, you can let your eyes close. There's no hurry. Just let your eyelids grow heavy, and let them fall, slowly, like a curtain at the end of the day.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Closing the eyes",
+    "sub": "When you're ready"
+   }
+  },
+  {
+   "say": "With your eyes closed, you might notice something. The darkness isn't completely black. There's a soft, shifting grey, perhaps with faint specks or slow clouds of light drifting through it. That's your brain, still gently painting, even with no picture coming in.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "The dark is not empty",
+    "sub": "Notice what's there"
+   }
+  },
+  {
+   "say": "There's even a word for it, sometimes used by scientists. Eigengrau, a German word that means something like intrinsic grey. The colour your brain shows you when there's nothing to see. You don't need to do anything with it. Just let it be there, soft and quiet.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "text": "Eigengrau, the intrinsic grey",
+    "by": "A German word sometimes used for the grey we see in darkness"
+   }
+  },
+  {
+   "say": "For now, there are no edges to work out. No colours to build. No faces to recognise, no gorillas to spot. Just soft grey, and your breathing.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Nothing to look at",
+    "items": [
+     "No edges",
+     "No colours",
+     "No faces",
+     "Just soft grey"
+    ]
+   }
+  },
+  {
+   "say": "Let's notice the breath for a moment. Breathing in, slowly. And breathing out, a little longer. In. And out. Your body knows how to do this all on its own. You can simply watch.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The breath",
+    "sub": "In, and out"
+   }
+  },
+  {
+   "say": "Imagine a small, steady light somewhere in the room. It doesn't flicker. It doesn't need anything from you. It's just there, warm and calm, while the rest of the room fades gently into the dark.",
+   "show": {
+    "type": "photo",
+    "file": "lf30_b17_01.jpg",
+    "cap": "A small, steady light"
+   }
+  },
+  {
+   "say": "Now you might notice sounds. Perhaps a distant car, or the hum of a fridge, or the wind outside. Remember, your brain is guessing about these too, placing them, naming them. But you don't need to name them tonight. Let them come and go, like waves on a far away shore.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Sounds",
+    "sub": "Gentle guesses"
+   }
+  },
+  {
+   "say": "Each sound arrives, and passes. You don't need to follow it. You don't need to work out where it came from. Your brain can let it go, the way you might let a leaf float past on a slow river.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Let sounds pass",
+    "sub": "Nothing to do"
+   }
+  },
+  {
+   "say": "A sound arrives. It softens. It fades. And quiet returns.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "title": "Let them pass",
+    "items": [
+     "A sound arrives",
+     "It softens",
+     "It fades",
+     "Quiet returns"
+    ]
+   }
+  },
+  {
+   "say": "Now notice where your body is resting. The weight of your head on the pillow. Your back against the bed or the chair. Your feet, wherever they are. Earlier we saw that your brain is always making its best guess about where your body is. Tonight, it can guess something simple. You're here. You're safe. You're resting.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "cap": "Touch",
+    "sub": "Where your body rests"
+   }
+  },
+  {
+   "say": "Let that feeling of weight grow a little. As if your body is gently sinking, softly, into whatever is holding you. Your arms are heavy. Your legs are heavy. Warm, and heavy, and still.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Heavy and warm",
+    "sub": "Let the body sink"
+   }
+  },
+  {
+   "say": "All day long, your brain has been building the world for you, moment by moment. Colours, sounds, edges, time. Here's a thought to rest with. You don't have to hold the world together tonight. It will still be there in the morning, and your brain will build it again, fresh and new.",
+   "show": {
+    "type": "quote",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "text": "You don't have to hold the world together tonight",
+    "by": "A thought to rest with"
+   }
+  },
+  {
+   "say": "Thoughts may still come and go. That's perfectly fine. When one arrives, you don't need to push it away, and you don't need to follow it. Just notice it, the way you noticed the sounds, and let it drift past, softer and softer, until it fades.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Thoughts may come",
+    "sub": "Let them drift"
+   }
+  },
+  {
+   "say": "If you like, let's count down slowly together, letting each number take you a little deeper into rest. Ten. Nine. Eight. Seven. Six. Five. And let the numbers fade now, there's no need to finish.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "title": "A slow count",
+    "items": [
+     "Ten",
+     "Nine",
+     "Eight",
+     "Seven",
+     "Six",
+     "Five"
+    ]
+   }
+  },
+  {
+   "say": "With each breath, your body softens a little more. Your breathing slows on its own. Your face relaxes, the small muscles around your eyes, your jaw, your forehead. Everything is loosening, slowly, gently, with nothing to hold on to.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Deeper still",
+    "sub": "Softer and slower"
+   }
+  },
+  {
+   "say": "So you can let the guessing slow down. Fewer predictions. Fewer corrections. The prediction machine can idle now, like an engine ticking quietly as it cools.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The model can rest",
+    "sub": "Fewer guesses"
+   }
+  },
+  {
+   "say": "Outside, the night is going on, slow and dark and peaceful. Somewhere, stars are shining. Their light has been travelling for a long time to get here, so even the stars you see are a little bit of the past. And that's all right. There's no hurry tonight.",
+   "show": {
+    "type": "photo",
+    "file": "lf30_b17_02.jpg",
+    "cap": "The night outside"
+   }
+  },
+  {
+   "say": "Let go of colours. Let go of edges. Let go of sounds. Even let go of time. For now, nothing needs to be built, measured or understood. Your brain has done enough for one day, and it can rest along with you.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Letting go",
+    "items": [
+     "Of colours",
+     "Of edges",
+     "Of sounds",
+     "Of time"
+    ]
+   }
+  },
+  {
+   "say": "Remember the room we started with, the one that was simply there when you opened your eyes? Now, with your eyes closed, it is still there, around you, holding you. You don't need to see it to know you're safe in it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Back to the room",
+    "sub": "Simply there"
+   }
+  },
+  {
+   "say": "Soft. Quiet. Warm. Safe. Nothing to see. Nothing to solve. Just rest.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "title": "Resting now",
+    "items": [
+     "Soft",
+     "Quiet",
+     "Warm",
+     "Safe"
+    ]
+   }
+  },
+  {
+   "say": "Let sleep come in its own time. You don't need to chase it. Your brain knows the way, the same way it knows how to paint the world each morning. Just stay here, breathing, resting, while it does its quiet work.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Drifting",
+    "sub": "Let it come"
+   }
+  },
+  {
+   "say": "Thank you for spending this evening with me. Whether you're still listening, or already drifting somewhere far away, I hope tonight felt gentle. And I hope that tomorrow, when you open your eyes and the world appears, you'll smile a little, knowing how much your brain is doing for you. Goodnight.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Goodnight",
+    "sub": "Sleep well"
+   }
+  },
+  {
+   "say": "And if you'd like another quiet night like this one, next time we'll explore something just as strange. If your brain builds what you see, it also rebuilds what you remember, every time you remember it. Next time, we'll find out how your memory really works. Until then, sleep well.",
+   "show": {
+    "type": "end",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "next": "How Your Memory Really Works"
+   }
+  }
+ ]
+}

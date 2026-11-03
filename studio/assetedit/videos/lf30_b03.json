@@ -1,0 +1,248 @@
+{
+ "id": "lf30_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The next belief is so basic that it almost never gets said out loud. It's the belief that you see the world as it is, right now, in this very instant.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "n": 9,
+    "title": "Living slightly in the past"
+   }
+  },
+  {
+   "say": "When a cup tips over on the table, it feels as if you see it tip at the very moment it happens. There's no sense of a delay, no gap between the event and your experience of it. Now is now. But inside your head, things are a little more complicated.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Right now",
+    "sub": "Or almost now"
+   }
+  },
+  {
+   "say": "Remember that what your brain receives are electrical signals. Those signals have to travel from the retina along the optic nerve, pass through several relay stations, and spread across many areas of the brain before you become aware of anything. Nerves are fast, but they are not instant. Every step takes a little time.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Signals take time",
+    "sub": "Nerves are not instant"
+   }
+  },
+  {
+   "say": "Researchers usually estimate that it takes somewhere around a tenth of a second for what hits your eye to turn into something you consciously see. The exact figure depends on the brightness of the scene, what you're paying attention to, and how it's measured. But the idea is clear. What you see is always a moment old.",
+   "show": {
+    "type": "stat",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "title": "The delay in seeing",
+    "big": "~1/10 s",
+    "label": "rough time from light reaching the eye to conscious seeing"
+   }
+  },
+  {
+   "say": "A tenth of a second doesn't sound like much. But think about catching a ball, or a car moving along a road, or a bird crossing the sky. In a tenth of a second a lot can change. If your brain simply showed you the world a tenth of a second late, you'd be reaching for a ball that wasn't there any more.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "A small delay",
+    "sub": "A big problem?"
+   }
+  },
+  {
+   "say": "So the brain seems to do something clever. Rather than only showing you where things were, it seems to show you, at least partly, where they are likely to be. And there's a famous little illusion that lets scientists catch this happening.",
+   "show": {
+    "type": "photo",
+    "file": "lf30_b03_01.jpg",
+    "cap": "Where the ball is, and where it will be"
+   }
+  },
+  {
+   "say": "It's called the flash lag effect, and it is beautifully simple.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 10,
+    "title": "The flash that falls behind"
+   }
+  },
+  {
+   "say": "In 1994, the psychologist Romi Nijhawan published a short paper in the journal Nature that brought this effect into the spotlight. People watched a moving bar on a screen. At one moment, a second bar flashed exactly in line with it. But to the viewers, the flash seemed to appear behind the moving bar, as if it had lagged.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Romi Nijhawan",
+    "where": "Published in Nature, 1994",
+    "what": "A flash lined up exactly with a moving object looks as if it lags behind it"
+   }
+  },
+  {
+   "say": "In reality, the two were perfectly lined up. So why did the moving one seem ahead? Nijhawan suggested that the brain extrapolates moving things forward along their path, to make up for the delay in its own signals. A sudden flash can't be predicted in the same way, so it isn't pushed forward, and it seems to fall behind.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Same place, different look",
+    "sub": "A clue"
+   }
+  },
+  {
+   "say": "Here's that idea in simple steps. Signals from the eye always arrive a little late. For things that move smoothly, the brain predicts where they've got to. A sudden flash comes out of nowhere, so there's nothing to predict. And so, side by side, the flash looks as if it lags behind. It's one of several explanations, and scientists still debate the details, but all of them agree on one thing. What you see is not simply a live feed.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "One idea about the flash lag",
+    "items": [
+     "Signals arrive late",
+     "Moving things are predicted",
+     "Flashes can't be predicted",
+     "So the flash seems behind"
+    ]
+   }
+  },
+  {
+   "say": "And that's where the story takes an even stranger turn.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 11,
+    "title": "The brain waits a little"
+   }
+  },
+  {
+   "say": "In 2000, the neuroscientists David Eagleman and Terrence Sejnowski published a study in the journal Science that added a twist. They varied what the moving object did after the flash. If it suddenly reversed direction, or stopped, the way people saw the flash changed too. What happened after the flash affected where people experienced the flash, earlier in time.",
+   "show": {
+    "type": "study",
+    "sprite": "A14",
+    "bg": "street_day",
+    "who": "David Eagleman & Terrence Sejnowski",
+    "where": "Published in Science, 2000",
+    "what": "What happens just after a flash changes how the flash itself is seen"
+   }
+  },
+  {
+   "say": "That is a very odd result. How can something that happens after an event change how you saw the event? Eagleman and Sejnowski called this postdiction. Their idea was that the brain doesn't commit to a final version of a moment straight away. It gathers information for a short window afterwards, and then settles on the most sensible story of what just happened.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "Later changes earlier",
+    "sub": "How can that be?"
+   }
+  },
+  {
+   "say": "So your experience of the present may be a little like a live broadcast with a very short delay, where an editor quietly tidies up each moment before it goes out. You never see the rough version. You only see the finished, sensible one.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Editing the moment",
+    "sub": "A short window"
+   }
+  },
+  {
+   "say": "There's another lovely example of the brain editing time, and you may have noticed it yourself.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "n": 12,
+    "title": "The clock that stops"
+   }
+  },
+  {
+   "say": "Have you ever glanced at a clock with a ticking second hand, and had the feeling that the hand froze for a moment, that the first second lasted a little too long, before it started ticking normally again? Many people have. It's called the stopped clock illusion.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "The frozen second hand",
+    "sub": "A familiar moment"
+   }
+  },
+  {
+   "say": "In 2001, Kielan Yarrow, Patrick Haggard and colleagues at University College London published a study in Nature on exactly this. People moved their eyes to a counter, and then judged how long its first number stayed on screen. That first interval seemed longer than the ones after it. And the longer the eye jump, the more the first moment seemed to stretch.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Kielan Yarrow and colleagues",
+    "where": "University College London, Nature, 2001",
+    "what": "After a quick eye jump to a clock, the first second seems to last longer than it should"
+   }
+  },
+  {
+   "say": "The researchers' explanation ties back to the hidden eye jumps from earlier. During a quick jump, your brain suppresses vision. Afterwards, it seems to fill in that missing sliver of time with what you landed on. So the clock you landed on gets credited with a little extra time, as if you'd been looking at it all along.",
+   "show": {
+    "type": "photo",
+    "file": "lf30_b03_02.jpg",
+    "cap": "The second hand seems to pause"
+   }
+  },
+  {
+   "say": "In other words, your brain doesn't like gaps, not in space and not in time. Just as it paints over the blind spot, it seems to paint over the blind moments of each eye jump, and the stitching sometimes shows, in a second hand that seems to pause.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "No gap allowed",
+    "sub": "Time gets patched"
+   }
+  },
+  {
+   "say": "So, do you see the present moment? Not exactly. Your signals arrive a moment late. Moving things seem to be pushed forward to make up for it. Each moment may be edited, briefly, after the fact. And the gaps in time are filled in, just like the gaps in space.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Seeing the present",
+    "items": [
+     "Signals arrive a moment late",
+     "Moving things are pushed forward",
+     "Moments get edited afterwards",
+     "Gaps in time are filled in"
+    ]
+   }
+  },
+  {
+   "say": "This isn't only a curiosity. It's part of why the rules of sprinting treat a reaction faster than a tenth of a second after the starting gun as a false start. Sports officials assume no one can truly react faster than that, so anyone who moves earlier must have guessed. Even our games are built around the small delay inside our heads.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "cap": "Why it matters",
+    "sub": "Sports, roads, and starting guns"
+   }
+  },
+  {
+   "say": "And none of this is a fault that needs fixing. A brain that waited for perfect, complete information would always be too slow. A brain that guesses a little ahead, and tidies up a little after, lets you catch a ball, step off a kerb at the right moment, and smile back at a friend at just the right time. Living a fraction of a second in the past is simply the price of seeing at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Nothing to fix",
+    "sub": "It works beautifully"
+   }
+  },
+  {
+   "say": "So the world you see is a little late and lightly edited. But surely the colours, at least, are out there? The red of a strawberry, the blue of the sky, the green of a leaf? That's the next belief we'll gently test, and it's one that has surprised scientists for more than three hundred years.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "cap": "Next, colour",
+    "sub": "What about red?"
+   }
+  }
+ ]
+}

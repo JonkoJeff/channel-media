@@ -1,0 +1,277 @@
+{
+ "id": "lf30_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The belief we'll test now feels almost too obvious to question. You know where your body is.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "n": 34,
+    "title": "The hand that isn't yours"
+   }
+  },
+  {
+   "say": "Scientists call this sense proprioception. It's your feeling of where the parts of your body are and how they're moving. It comes from tiny sensors in your muscles, tendons and joints that keep reporting stretch and tension, and your brain turns those reports into a sense of position.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The sixth sense",
+    "sub": "Proprioception"
+   }
+  },
+  {
+   "say": "But it doesn't use those sensors alone. Your sense of your own body is also built from touch, from the balance organs in your inner ear, and, very much, from your eyes. Normally all of these agree. The interesting question is what happens when they don't.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "How you know where you are",
+    "items": [
+     "Sensors in muscles and tendons",
+     "Sensors in joints and skin",
+     "The balance organs in your inner ear",
+     "And your eyes, all the time"
+    ]
+   }
+  },
+  {
+   "say": "In 1998, two researchers in Pittsburgh asked exactly that question, with a remarkably simple setup.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "autumn_overlook",
+    "n": 35,
+    "title": "A rubber glove and two brushes"
+   }
+  },
+  {
+   "say": "Matthew Botvinick and Jonathan Cohen published their study in the journal Nature, under the title Rubber hands feel touch that eyes see. A volunteer sat at a table with their left arm resting out of sight, hidden behind a small screen. In front of them, where they could see it, lay a life-sized rubber hand.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Matthew Botvinick & Jonathan Cohen",
+    "where": "Nature, 1998",
+    "what": "A rubber hand stroked in time with a person's hidden real hand began to feel like their own"
+   }
+  },
+  {
+   "say": "Then the experimenter took two small paintbrushes and began to stroke the rubber hand and the real, hidden hand at the same moment, in the same places. Stroke, stroke, stroke, perfectly in time. The volunteer watched the rubber hand the whole time.",
+   "show": {
+    "type": "photo",
+    "file": "lf30_b10_01.jpg",
+    "cap": "A rubber hand on the table"
+   }
+  },
+  {
+   "say": "After a while, many volunteers reported something odd. They felt the brushstrokes not on their hidden hand, but on the rubber hand they were watching. Some said it felt as if the rubber hand had become their own.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "After a few minutes",
+    "sub": "Something strange"
+   }
+  },
+  {
+   "say": "And there was another effect. When the researchers asked people to point to where their real hand was, with their eyes closed, many pointed a little closer to the rubber hand than their hand really was. Their sense of position had shifted towards what they had been watching.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "What people reported",
+    "items": [
+     "Feeling the touch on the rubber hand",
+     "The rubber hand feeling like their hand",
+     "Their real hand seeming to drift towards it"
+    ]
+   }
+  },
+  {
+   "say": "A few years later, in 2003, Kathryn Armel and V. S. Ramachandran published a follow-up in the Proceedings of the Royal Society B. After stroking had produced the illusion, the experimenter suddenly bent back one of the rubber fingers, as if to hurt it. Sensors on the volunteers' skin picked up a small stress response, the kind of reaction that happens when your own body is threatened. Their bodies were reacting as if the rubber hand could be hurt.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "who": "Kathryn Armel & V. S. Ramachandran",
+    "where": "Proceedings of the Royal Society B, 2003",
+    "what": "After the illusion, when the rubber hand was threatened, people's skin showed a stress response"
+   }
+  },
+  {
+   "say": "The timing was the key. When the two brushes were out of step, so that what people saw didn't match what they felt, the effect became much weaker. The brain only accepted the rubber hand when sight and touch told one consistent story.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Only in time",
+    "sub": "The rhythm matters"
+   }
+  },
+  {
+   "say": "That's the quiet, unsettling lesson. Your brain doesn't simply know which hand is yours. It works it out, moment by moment, from the evidence. And when the evidence is good enough, it will even adopt a hand made of rubber.",
+   "show": {
+    "type": "quote",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "text": "Your brain decides what counts as you, from evidence.",
+    "by": "The lesson of the rubber hand"
+   }
+  },
+  {
+   "say": "Researchers soon wondered how far this could go. A hand is one thing. What about the whole body?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "n": 36,
+    "title": "Stepping outside yourself"
+   }
+  },
+  {
+   "say": "In 2007, the neuroscientist Henrik Ehrsson, working in London at the time, published an experiment in the journal Science. Volunteers wore a headset with small screens over their eyes. The screens showed live video from two cameras placed a short distance behind them. So they saw their own back, from behind, as if they were sitting a few steps away.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "who": "H. Henrik Ehrsson",
+    "where": "Science, 2007",
+    "what": "Using cameras and a headset, volunteers felt as if they were sitting a few steps behind their own body"
+   }
+  },
+  {
+   "say": "Then the experimenter moved a rod towards the place just below the cameras, where the volunteer's chest would be if they really were sitting there. At the same time, out of view, a second rod touched the volunteer's real chest.",
+   "show": {
+    "type": "photo",
+    "file": "lf30_b10_02.jpg",
+    "cap": "Two cameras behind a chair"
+   }
+  },
+  {
+   "say": "Many volunteers reported a strange feeling, that they were sitting where the cameras were, behind their own body, looking at it from the outside. In a second test, when a hammer appeared to swing towards the cameras, their skin showed a small stress response, as if their body had been threatened at the cameras' location.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Where am I?",
+    "sub": "A borrowed viewpoint"
+   }
+  },
+  {
+   "say": "There's nothing supernatural in this. Your brain places the feeling of you where the evidence says you are. Usually your eyes are in your head, so that's where you feel yourself to be. Move the eyes, through cameras, and keep touch and sight in time, and the brain can move the feeling of self along with them.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Not magic",
+    "sub": "Just evidence"
+   }
+  },
+  {
+   "say": "It might sound alarming to learn that your sense of your body is this flexible. But that flexibility is mostly a gift.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "n": 37,
+    "title": "Why your body map moves"
+   }
+  },
+  {
+   "say": "Think about how much your body changes over a lifetime. You grow, your arms get longer, you get stronger or weaker. You pick up tools, a tennis racket, a pen, a walking stick. If your sense of your body were fixed, you would be clumsy forever. Because it keeps updating from evidence, it can adapt.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Your body map keeps updating",
+    "items": [
+     "When you grow",
+     "When you hold a tool",
+     "When you wear thick gloves",
+     "When you learn a new skill"
+    ]
+   }
+  },
+  {
+   "say": "There's even evidence for this inside the brain. In 1996, Atsushi Iriki and his colleagues in Tokyo published a study of monkeys that had learned to reach for food with a small rake. Certain brain cells normally respond to things that appear close to the hand. After the monkeys had been using the rake for a few minutes, some of those cells began responding to things near the end of the rake as well. To these cells, the tool had become part of the hand.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Atsushi Iriki, Michio Tanaka & Yoshiaki Iwamura",
+    "where": "NeuroReport, 1996",
+    "what": "In monkeys trained to use a small rake, brain cells that responded near the hand began to respond along the rake too"
+   }
+  },
+  {
+   "say": "You've probably felt this. After a while of writing, the pen almost feels like part of your hand. A good cook stops thinking about the knife. A cyclist feels the road through the tyres. Your brain has quietly stretched its map of you to include the thing you're holding.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "The tool becomes you",
+    "sub": "A familiar feeling"
+   }
+  },
+  {
+   "say": "This isn't just a party trick for laboratories. Illusions like these give scientists a way to study a very basic question, how a body comes to feel like mine. That question matters for people who use artificial limbs, for people whose sense of their body feels wrong to them, and for anyone who wants to understand how the senses are woven together.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Why scientists care",
+    "items": [
+     "Understanding how the body feels like ours",
+     "Making artificial limbs feel more natural",
+     "Understanding body-image difficulties",
+     "Learning how the senses are combined"
+    ]
+   }
+  },
+  {
+   "say": "So here is the new way of seeing it. Your body isn't only something you feel directly. It's also a conclusion your brain draws, again and again, from many senses. A very good conclusion, most of the time. But a conclusion all the same.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "text": "Your body is something you feel, and also something your brain infers.",
+    "by": "The idea behind it all"
+   }
+  },
+  {
+   "say": "And that brings us to a much more serious question, one that matters to almost everyone at some point in life.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "n": 38,
+    "title": "A harder question"
+   }
+  },
+  {
+   "say": "If your brain builds your sense of where your body is, what about the sense of what's happening to it? What about pain? Surely pain, at least, is simply a message from the place that's hurt, travelling straight up to the brain. A bump, a signal, an ouch.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Bumps and bruises",
+    "sub": "Something we all know"
+   }
+  },
+  {
+   "say": "That's what many scientists believed for a long time. But as we'll see now, pain turns out to be one of the clearest examples of a brain that builds, weighs and decides, rather than just receives. And understanding that can be quietly helpful.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Not so simple",
+    "sub": "A gentle warning"
+   }
+  }
+ ]
+}

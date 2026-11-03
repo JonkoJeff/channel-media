@@ -1,0 +1,288 @@
+{
+ "id": "lf30_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here is the belief we'll look at next. Pain is a simple damage signal. The more damage, the more pain, and the message travels straight from the hurt to the brain.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "n": 39,
+    "title": "The signal that isn't simple"
+   }
+  },
+  {
+   "say": "That's an old and very natural idea. In the 1600s, the philosopher René Descartes drew it a bit like a bell rope. Something hot touches your foot, it tugs on a thread, and a bell rings in your head. Damage pulls, pain rings.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "An old picture",
+    "sub": "A bell on a rope"
+   }
+  },
+  {
+   "say": "But by the twentieth century, doctors and scientists had collected many puzzles that the bell-rope picture couldn't explain. Why does rubbing a bumped elbow help? Why do some people barely notice a serious injury in the heat of the moment? And why can pain sometimes be felt where there is no injury at all?",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Puzzles the bell can't explain",
+    "items": [
+     "Rubbing a bump makes it hurt less",
+     "Pain can come late, or not at all",
+     "The same injury hurts people differently",
+     "Pain can be felt where there's no injury"
+    ]
+   }
+  },
+  {
+   "say": "In 1965, two scientists offered a new way of thinking about these puzzles.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "n": 40,
+    "title": "A gate in the spinal cord"
+   }
+  },
+  {
+   "say": "Ronald Melzack, a Canadian psychologist, and Patrick Wall, a British neuroscientist, published a paper in the journal Science called Pain mechanisms, a new theory. Their idea became known as the gate control theory of pain.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Ronald Melzack & Patrick Wall",
+    "where": "Science, 1965",
+    "what": "Gate control theory: signals in the spinal cord can be turned up or down before they reach the brain"
+   }
+  },
+  {
+   "say": "They suggested that pain signals don't travel up a simple wire. Instead, on their way through the spinal cord, they pass through something like a gate. And that gate can open wider or close a little, depending on other signals arriving at the same time, including signals coming down from the brain itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The idea",
+    "sub": "A gate, not a wire"
+   }
+  },
+  {
+   "say": "That explains the bumped elbow. When you rub it, you send harmless touch signals into the same part of the spinal cord, and they can partly close the gate on the pain signals. The details of the theory have been revised many times since 1965, but its central insight has lasted. Pain is not just received. It is shaped.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "What can close the gate a little",
+    "items": [
+     "Rubbing or pressure nearby",
+     "Attention pointed elsewhere",
+     "Calm and safety",
+     "Expecting relief"
+    ]
+   }
+  },
+  {
+   "say": "Picture a garden gate that's never fully open and never fully closed. Your brain and your spinal cord are always nudging it, wider when danger seems real, a little narrower when you feel safe or distracted.",
+   "show": {
+    "type": "photo",
+    "file": "lf30_b11_01.jpg",
+    "cap": "A gate that opens and closes"
+   }
+  },
+  {
+   "say": "Many pain researchers now describe pain in a way that might surprise you.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "n": 41,
+    "title": "Pain as protection"
+   }
+  },
+  {
+   "say": "In this view, pain is less like a damage meter and more like an alarm system. It's the brain's way of saying, protect this, now. Usually that alarm is accurate and very useful. It makes you pull your hand from the stove and rest a sprained ankle. But because it's built by the brain, it can also be turned up or down by things that have nothing to do with tissue.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "text": "Pain is the brain's protective response to a sense of threat, not a direct measure of damage.",
+    "by": "A common modern view"
+   }
+  },
+  {
+   "say": "That's why tiredness, worry and expectation can make pain feel worse, and why comfort, distraction and feeling safe can make it a little easier. None of this means pain is imaginary. It's completely real. It simply means that the brain is part of how pain is made.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "title": "Things that can turn the alarm up",
+    "items": [
+     "Fear and worry",
+     "Poor sleep",
+     "Feeling alone",
+     "Expecting it to hurt"
+    ]
+   }
+  },
+  {
+   "say": "It's worth saying clearly. When someone is in pain, the pain is real, whether or not a scan shows damage. Understanding that the brain is involved is not a way of saying it's all in your head. It's a way of understanding why pain can be so complicated, and why help can come from more than one direction.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle note",
+    "sub": "Real, always"
+   }
+  },
+  {
+   "say": "One famous study showed how real these brain effects can be. In 1978, Jon Levine, Newton Gordon and Howard Fields, in San Francisco, published a study in The Lancet with patients who had just had wisdom teeth removed. Some patients felt real relief after an injection that contained no painkiller at all, a placebo. But when patients were given naloxone, a drug that blocks the body's own natural painkillers, that placebo relief was reduced.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Jon Levine, Newton Gordon & Howard Fields",
+    "where": "The Lancet, 1978",
+    "what": "After dental surgery, pain relief from a placebo was reduced by naloxone, a drug that blocks the body's own opioids"
+   }
+  },
+  {
+   "say": "That suggested something remarkable. Expecting relief wasn't just a matter of imagination. It seemed to switch on the body's own pain-relieving chemistry. Your brain, it turns out, has its own small pharmacy, and expectation can help to open it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Built-in medicine",
+    "sub": "The brain joins in"
+   }
+  },
+  {
+   "say": "And now we come to the most striking puzzle of all. Pain, and other feelings, in a part of the body that is no longer there.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "n": 42,
+    "title": "Feeling a hand that isn't there"
+   }
+  },
+  {
+   "say": "After losing an arm or a leg, many people continue to feel it. They feel it move, itch, tingle, and sometimes they feel it painfully cramped or clenched. Doctors have described this for centuries, and in the 1800s an American surgeon, Silas Weir Mitchell, gave it the name phantom limb.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Phantom limbs",
+    "sub": "Known for centuries"
+   }
+  },
+  {
+   "say": "For a long time, the most puzzling cases were people whose phantom hand felt clenched into a painful fist that they couldn't open. How do you unclench a hand that isn't there? In the 1990s, the neuroscientist V. S. Ramachandran, at the University of California, San Diego, tried something very simple.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "What a phantom can feel like",
+    "items": [
+     "Present and in a position",
+     "Moving, or stuck",
+     "Tingling or itching",
+     "Sometimes painful"
+    ]
+   }
+  },
+  {
+   "say": "He built a box with a mirror standing upright in the middle. A person would put their remaining hand on one side of the mirror, and look at its reflection. In the mirror, the reflection appeared exactly where the missing hand should be. For a moment, the eyes saw two hands again.",
+   "show": {
+    "type": "photo",
+    "file": "lf30_b11_02.jpg",
+    "cap": "A box with a mirror inside"
+   }
+  },
+  {
+   "say": "In 1996, Ramachandran and Diane Rogers-Ramachandran published their observations under the title Synaesthesia in phantom limbs induced with mirrors. When patients moved their healthy hand and watched its reflection, some of them felt their phantom hand move as well. For some, a cramped phantom hand seemed to relax and open.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "who": "Ramachandran & Rogers-Ramachandran",
+    "where": "Proceedings of the Royal Society B, 1996",
+    "what": "Watching the mirror image of the healthy hand move made some patients feel their phantom hand move too"
+   }
+  },
+  {
+   "say": "These were early observations in a small number of patients. Later studies of mirror therapy have given mixed results, it seems to help some people more than others, and it isn't a cure. But the idea behind it was a powerful one. If the brain builds the feeling of the body from evidence, then giving it new evidence, even from a mirror, can change what it feels.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "A small study",
+    "sub": "Careful hope"
+   }
+  },
+  {
+   "say": "Think about what this means. A person can feel a hand that isn't there, in a position it can't be in, and that feeling can be changed by what the eyes see. The body you feel isn't just your physical body. It's your brain's model of it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "What it tells us",
+    "sub": "A body made by the brain"
+   }
+  },
+  {
+   "say": "So if you or someone you love lives with pain, here is the gentle summary of what this science suggests. Pain is always real. It is made by the brain and body working together. Things like sleep, stress and a sense of safety can turn it up or down. And that's one reason good pain care often combines several kinds of help, which is always worth exploring with a doctor or a specialist.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "What pain science suggests today",
+    "items": [
+     "Pain is real, even without visible damage",
+     "The brain and body make it together",
+     "Sleep, mood and safety can change it",
+     "Help can come from several directions"
+    ]
+   }
+  },
+  {
+   "say": "Take a step back, and a pattern is starting to show through everything we've explored tonight.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "n": 43,
+    "title": "The thread that ties it together"
+   }
+  },
+  {
+   "say": "The eyes fill in what they can't see. Colour depends on the light the brain assumes. Smell is felt as taste. A rubber hand can feel like yours, and pain is shaped on its way to awareness. In every case, the brain is doing more than receiving. It's combining what comes in with what it already expects.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "The same lesson, again and again",
+    "items": [
+     "Eyes fill in a blind spot",
+     "Colour depends on context",
+     "Smell becomes taste",
+     "A rubber hand becomes yours",
+     "Pain is shaped on the way"
+    ]
+   }
+  },
+  {
+   "say": "That last word, expectation, is the key to the next part of our night. Because it turns out that what we expect to see doesn't just nudge our perception at the edges. Sometimes, it decides what we see at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Expectation",
+    "sub": "The quiet ingredient"
+   }
+  }
+ ]
+}

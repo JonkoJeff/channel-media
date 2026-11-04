@@ -28,3 +28,5 @@ Done 30 Oct: lf27 The Psychology of Helping: Why We Step In (F10, 16 blocks, ~18
 Done 2 Nov: lf29 The Hidden Reason You Talk to Yourself (F02: 11 story blocks + 6 wind-down, 17 blocks, ~18.5k spoken words, Shorts sh29_01..17; Claude failover writer). Next: lf30 Your Brain Is Not Showing You Reality (perception, teased at the end of lf29), then memory, motivation, decision-making. Keep >= 2 reserve long videos.
 
 Done 3 Nov: lf30 Your Brain Is Not Showing You Reality (F10, 17 blocks, ~19.5k spoken words, Shorts sh30_01..17; Claude failover writer). Next: lf31 How Your Memory Really Works (teased at the end of lf30), then motivation, decision-making. Keep >= 2 reserve long videos.
+
+Done 4 Nov: lf31 How Your Memory Really Works (F10, 17 blocks, ~20.9k spoken words, est 113 min by est.py, Shorts sh31_01..17; Claude failover writer). Next: lf32 How Motivation Really Works (teased at the end of lf31), then decision-making. Keep >= 2 reserve long videos.

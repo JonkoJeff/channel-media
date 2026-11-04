@@ -1,0 +1,289 @@
+{
+ "id": "lf31_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We've watched a memory form, settle, and find its place. Now comes the stop most of us notice most. Getting it back. And here, a surprising idea takes the stage. Often, a forgotten memory isn't missing at all. It's just missing a way in.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 42,
+    "title": "Coming back: the way in"
+   }
+  },
+  {
+   "say": "Think of a house with a thousand rooms and only a few keys. Everything may be in there. But if you don't have the right key, the room stays shut. Psychologists have a neat way of putting it. There is a difference between what is available in memory, and what is accessible.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Stored, but not reachable",
+    "sub": "A locked room"
+   }
+  },
+  {
+   "say": "In 1966, Endel Tulving and Zena Pearlstone asked people to learn lists of words, such as animals or trees or occupations, each introduced with a category name. Later, some were asked to recall the words freely. Others were handed the category names as hints. The group with hints recalled far more of the words.",
+   "show": {
+    "type": "study",
+    "sprite": "A02",
+    "bg": "autumn_overlook",
+    "who": "Endel Tulving & Zena Pearlstone",
+    "where": "Published in 1966",
+    "what": "Gave people lists of words grouped under category names, and tested recall with and without the category names as hints"
+   }
+  },
+  {
+   "say": "Same words, same people, same day. The only difference was the hint. The people who forgot hadn't lost the words. They just couldn't find their way to them. So much of what we call forgetting is really a failure to find the door, not the room.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "The same memory",
+    "sub": "A different key"
+   }
+  },
+  {
+   "say": "Tulving followed this up with Donald Thomson in 1973, with a principle that has been tested ever since. It's called encoding specificity. A cue is most effective when it matches what was in your mind at the time the memory was formed. The more the cue resembles the original moment, the better the memory comes back.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "who": "Endel Tulving & Donald Thomson",
+    "where": "Published in 1973",
+    "what": "Proposed that a hint works best when it matches what was in mind when the memory was formed"
+   }
+  },
+  {
+   "say": "Which leads to one of the most charming experiments in memory research. It involved a diving club.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "n": 43,
+    "title": "Learning underwater"
+   }
+  },
+  {
+   "say": "In 1975, Duncan Godden and Alan Baddeley took eighteen divers to the Scottish coast. The divers learned lists of words either on the beach, or under the water. Then they were tested, either in the same place or in the other one. Words learned underwater were remembered better underwater, and words learned on land were remembered better on land.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "autumn_overlook",
+    "who": "Duncan Godden & Alan Baddeley",
+    "where": "Published in 1975",
+    "what": "Had divers learn words either on the beach or under water, and tested them in the same or the opposite place"
+   }
+  },
+  {
+   "say": "The idea is that the surroundings were part of the memory. When the scene at recall matched the scene at learning, it acted as a cue. When it didn't, the cue was missing. That's an appealing story, and you may have felt it yourself, walking back into a childhood classroom and finding old memories suddenly alive.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Context as a cue",
+    "sub": "Place matters"
+   }
+  },
+  {
+   "say": "But it's important to be honest. Not every experiment has found a large effect. A study in a classroom by Saufley and colleagues, in 1985, found that students did not do better when tested in the room where they had learned. When Steven Smith and Edward Vela combined many studies in 2001, they found the effect was real, but modest, and strongest when the surroundings really stood out.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "who": "Steven Smith & Edward Vela",
+    "where": "Published in 2001",
+    "what": "Combined the results of many context studies"
+   }
+  },
+  {
+   "say": "So the fair summary is this. Context can help, a little, and sometimes quite a lot. It's not a trick that reliably doubles your score. If you're curious, though, try recalling a hard memory by closing your eyes and picturing where you were. It's a technique used in interviews, and it can bring more back.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "A fair summary",
+    "sub": "Helpful, not magic"
+   }
+  },
+  {
+   "say": "Perhaps the most famous retrieval cue in literature is a small cake. In 1913, Marcel Proust described a man who dips a madeleine in tea, and finds that a whole forgotten childhood town rises up around him. It's a novel, not an experiment, but scientists have been testing it ever since.",
+   "show": {
+    "type": "photo",
+    "file": "lf31_b09_01.jpg",
+    "cap": "A cup of tea, and a whole childhood"
+   }
+  },
+  {
+   "say": "In 2002, Rachel Herz and Jonathan Schooler asked people to recall memories linked to personal objects, either by smelling them or by seeing them. Memories brought up by smell were rated as more emotional, and gave a stronger feeling of being taken back in time. They were not rated as more accurate or more vivid in detail, just more moving.",
+   "show": {
+    "type": "study",
+    "sprite": "A02",
+    "bg": "rooftop_dusk",
+    "who": "Rachel Herz & Jonathan Schooler",
+    "where": "Published in 2002",
+    "what": "Compared memories evoked by the smell of an object with memories evoked by seeing it"
+   }
+  },
+  {
+   "say": "In 2000, Simon Chu and John Downes found that smells tended to call up memories from a person's early childhood, often from before the age of ten, while words as cues tended to bring up memories from the teenage years. Smell seems to be wired quite directly to emotion and memory areas. It's a pattern, though, and not every study agrees on how special it is.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Where smell leads",
+    "sub": "Often to the early years"
+   }
+  },
+  {
+   "say": "Then there is the most maddening retrieval failure of all.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 44,
+    "title": "On the tip of the tongue"
+   }
+  },
+  {
+   "say": "You know the word. You can almost feel its shape. You know it begins with a certain sound, you know it's an actor, or a plant, or a town. But you can't say it. Nearly everyone has had this experience. Psychologists call it the tip-of-the-tongue state.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "The word is right there",
+    "sub": "And it won't come"
+   }
+  },
+  {
+   "say": "In 1966, Roger Brown and David McNeill read volunteers the definitions of rare words, such as a boat used in China. When people were in a tip-of-the-tongue state, they weren't just guessing wildly. They guessed the first letter and the number of syllables of the missing word well above chance. The word was partly there. Only the middle was missing.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "who": "Roger Brown & David McNeill",
+    "where": "Published in 1966",
+    "what": "Read out definitions of rare words and asked people who were stuck to guess the first letter and the number of syllables"
+   }
+  },
+  {
+   "say": "One idea is that the sound of a similar word keeps coming to mind and blocks the right one. Diary studies suggest tip-of-the-tongue states happen to most adults every week or so, and become more frequent as we get older. And very often, the word returns by itself later, when you've stopped chasing it.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "A blocked road",
+    "sub": "Not a deleted file"
+   }
+  },
+  {
+   "say": "That's why the old advice is quite sound. If the word won't come, stop forcing it, go and do something else, and let the road clear. Many people find that the missing word pops into their mind while they're washing up, or drifting off. It was never gone. It was just hiding behind a decoy.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "A gentle trick",
+    "sub": "Let it go"
+   }
+  },
+  {
+   "say": "There's one cue that works for almost everyone, and it needs no description. Music.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "n": 45,
+    "title": "The soundtrack of your life"
+   }
+  },
+  {
+   "say": "In 2007, Petr Janata and colleagues played students short clips of popular songs from years earlier, and asked whether the songs brought anything to mind. A large share of the songs evoked an autobiographical memory, usually with strong feelings attached, and the memories came quickly. Songs they liked and knew well worked best.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "who": "Petr Janata, Stefan Tomic & Jason Rakowski",
+    "where": "Published in Memory, 2007",
+    "what": "Played students popular songs from their childhood and asked what memories came to mind"
+   }
+  },
+  {
+   "say": "Notice how fast it is. A few notes, and you're in a particular summer, or a particular car, with particular people. Music is rich in cues, rhythm, melody and emotion, and it's often linked to times when we were paying close attention. It's a key that fits a lot of locks.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "A very quick door",
+    "sub": "Music opens fast"
+   }
+  },
+  {
+   "say": "If there's a song you loved at fifteen, and you're curious, try playing it sometime and simply noticing what rises up. You aren't playing a recording, as we've seen. You are inviting your mind to rebuild a scene, with a very good cue to guide it. And that is sometimes a lovely thing to do.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "cap": "A small gift",
+    "sub": "For tonight, or any night"
+   }
+  },
+  {
+   "say": "Your own mood can be a key, too, though the evidence here is more modest than it was once thought.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 46,
+    "title": "A mood as a cue"
+   }
+  },
+  {
+   "say": "In 1989, Eric Eich and Janet Metcalfe used music to put volunteers into a happy or a sad mood while they learned words. Later, they tested them in the same mood or the opposite one. When the moods matched, people tended to recall more of the words they had generated themselves. The match worked as a cue.",
+   "show": {
+    "type": "study",
+    "sprite": "A02",
+    "bg": "autumn_overlook",
+    "who": "Eric Eich & Janet Metcalfe",
+    "where": "Published in 1989",
+    "what": "Put people in a happy or sad mood with music, had them learn words, and tested their recall in the same or the other mood"
+   }
+  },
+  {
+   "say": "But, as with many ideas of this kind, not every experiment has found it, and the effect seems to depend on the way the experiment is done. It's best to hold it lightly. If you feel stuck on a memory, it can't hurt to ask what mood you were in. Just don't count on it to unlock everything.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "An uneven effect",
+    "sub": "Real, but modest"
+   }
+  },
+  {
+   "say": "So that's the sixth stop. A forgotten memory may only lack a way in. The best cue matches the original moment. Context helps, a little. And the word on the tip of your tongue is partly there.",
+   "show": {
+    "type": "list",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "title": "The sixth stop",
+    "items": [
+     "A forgotten memory may only lack a way in",
+     "The best cue matches the original moment",
+     "Context helps, a little",
+     "Tip-of-the-tongue words are partly there"
+    ]
+   }
+  },
+  {
+   "say": "Of course, not everything is waiting behind a locked door. Some things really do fade. And the next question is a little darker, and a little more reassuring than you might expect. How fast do we forget, and what, if anything, can we do about it?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Not everything returns",
+    "sub": "So what does fade?"
+   }
+  }
+ ]
+}

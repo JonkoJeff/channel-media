@@ -1,0 +1,276 @@
+{
+ "id": "lf31_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a small question to begin with. What did you have for dinner last Tuesday? Take a moment. Most of us don't have the answer waiting. But watch what your mind does as you look for it, because that tiny search turns out to say a great deal about how memory really works.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "A simple question",
+    "sub": "What did you have for dinner last Tuesday?"
+   }
+  },
+  {
+   "say": "You might think about what day Tuesday was. Where you were that evening. Who was there. What you usually eat on a Tuesday. And then, somewhere in the middle of all those clues, an answer may appear. Or it may not. Either way, you didn't press play on a recording. You assembled something, from pieces.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "cap": "Watch the search",
+    "sub": "You build it"
+   }
+  },
+  {
+   "say": "Most of us carry around a comfortable picture of memory. A kind of private video library. Every moment of your life is filmed, stored on a shelf, and when you want it back, you simply find the right tape and play it. It's a lovely idea. It's also not how any of this works.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "rooftop_dusk",
+    "cap": "A comfortable picture",
+    "sub": "The recording shelf"
+   }
+  },
+  {
+   "say": "Here's what we'll explore tonight. How a passing moment becomes a memory in the first place. Where memories are actually kept. Why sleep matters so much. Why you sometimes can't find a word that you know perfectly well. Why forgetting is not a flaw. And why a vivid, confident memory can still be wrong.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "How a moment becomes a memory",
+     "Where memories are kept",
+     "Why sleep matters so much",
+     "Why you can't find a word you know",
+     "Why forgetting is not a flaw",
+     "Why a vivid memory can be wrong"
+    ]
+   }
+  },
+  {
+   "say": "The way we'll do this tonight is simple, and I hope rather cosy. We'll follow one ordinary memory on its journey. From the moment it first forms, to the night it settles in, to the day you call it back, and to the way it quietly changes, and fades.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 1,
+    "title": "The journey of one memory"
+   }
+  },
+  {
+   "say": "Think of a small memory, nothing grand. A walk to the shop. A conversation over coffee. A song on the radio. It will have five stops on its way. Getting in. Staying. Coming back. Changing. And, eventually, fading. Each stop has its own surprises, and its own real experiments behind it.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "Five stops",
+    "sub": "One ordinary memory"
+   }
+  },
+  {
+   "say": "So that's the route. Getting in. Staying. Coming back. Changing. Fading. Whenever we reach a new stop, I'll tell you the names, the places, and the years of the people who worked it out, so you can look them up yourself if you ever want to.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "title": "The five stops",
+    "items": [
+     "Getting in",
+     "Staying",
+     "Coming back",
+     "Changing",
+     "Fading"
+    ]
+   }
+  },
+  {
+   "say": "Before we set off, one thing is worth clearing away. If memories aren't tapes on a shelf, then what are they?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 2,
+    "title": "No filing cabinet"
+   }
+  },
+  {
+   "say": "A human brain holds roughly 86 billion nerve cells, neurons. That figure comes from a 2009 study by Suzana Herculano-Houzel and colleagues, who had the careful idea of dissolving brain tissue and counting the cell nuclei. Each of those cells connects to thousands of others. And somewhere in that web, your Tuesday dinner is either stored, or it isn't.",
+   "show": {
+    "type": "stat",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "title": "Cells in a human brain",
+    "big": "About 86 billion",
+    "label": "neurons, estimated by counting a few brains"
+   }
+  },
+  {
+   "say": "Here's the interesting part. There isn't a drawer in there labelled Tuesday. A memory isn't a file sitting in a spot. It's a pattern, a particular set of connections between cells that were active together, and that became a little easier to activate together again.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Not in one place",
+    "sub": "A pattern, not a file"
+   }
+  },
+  {
+   "say": "That has a surprising consequence. If a memory is a pattern of connections, then bringing it back means switching that pattern on again, and putting the scene together once more, right now, with whatever you know right now. Remembering is less like replaying a film, and more like retelling a story.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Remembering is rebuilding",
+    "sub": "Every single time"
+   }
+  },
+  {
+   "say": "The British psychologist Frederic Bartlett put it beautifully almost a hundred years ago. In his book Remembering, in 1932, he wrote that remembering is not the re-excitation of innumerable fixed, lifeless and fragmentary traces. It is, he said, an imaginative reconstruction. We'll meet his experiments later tonight.",
+   "show": {
+    "type": "quote",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "text": "Remembering is not the re-excitation of innumerable fixed, lifeless and fragmentary traces.",
+    "by": "Frederic Bartlett, Remembering, 1932"
+   }
+  },
+  {
+   "say": "You might wonder why a brain would work like that. Wouldn't an exact recording be better? Well, think about what a memory is actually for. You don't need to relive last Tuesday. You need to know how to act next Tuesday.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Why build it this way?",
+    "sub": "A clue"
+   }
+  },
+  {
+   "say": "That idea was developed by Daniel Schacter and Donna Rose Addis, in a 2007 paper. They pointed to brain scans and to patients with memory loss, who often struggle to imagine future scenes as well as to recall past ones. Their suggestion was that memory is a toolkit for building scenes, and the past is only one of the things it builds.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "who": "Daniel Schacter & Donna Rose Addis",
+    "where": "Published in 2007",
+    "what": "Argued that remembering the past and imagining the future draw on much the same brain machinery"
+   }
+  },
+  {
+   "say": "That might change how a few things feel. A memory that isn't perfect isn't necessarily a broken memory. It might be a memory that is flexible, and flexible is exactly what you want from something that has to help you with a world that never repeats itself exactly.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "A tool for tomorrow",
+    "sub": "Built for the future"
+   }
+  },
+  {
+   "say": "So if you've been picturing a library, you can keep the library, just change what's on the shelves. Not finished films, but instructions for putting a scene together, written in the way your cells are connected, and rewritten a little every time they are used.",
+   "show": {
+    "type": "photo",
+    "file": "lf31_b01_01.jpg",
+    "cap": "A library with no tapes, only patterns"
+   }
+  },
+  {
+   "say": "Before we begin the journey, there's one popular idea worth a gentle look. Photographic memory. The notion that some lucky people can look at a page, and later read it off the inside of their heads, like a photograph. Does that exist?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 3,
+    "title": "The photographic memory myth"
+   }
+  },
+  {
+   "say": "The best case for it is a single one. In 1970, Charles Stromeyer and Joseph Psotka reported a woman, known as Elizabeth, who seemed able to combine two patterns of random dots, seen on different days, into a three-dimensional picture, as if she were seeing both at once. That would take a truly photographic image. But no one has been able to repeat the result with her, or with anyone else.",
+   "show": {
+    "type": "study",
+    "sprite": "A20",
+    "bg": "autumn_overlook",
+    "who": "Charles Stromeyer & Joseph Psotka",
+    "where": "Published in Nature, 1970",
+    "what": "Tested a woman who said she could hold an image in her mind in perfect detail"
+   }
+  },
+  {
+   "say": "Some children, it seems, can keep a vivid image of a picture for a short while after it's taken away. It's sometimes called eidetic imagery, and it tends to fade as they grow up. Even then, the images are not perfect copies. They are reconstructed in much the way other memories are, with some details right and some details wrong.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "cap": "What we do know",
+    "sub": "Vivid images in children"
+   }
+  },
+  {
+   "say": "The people with astonishing memories we hear about, the memory champions, don't claim to have a camera. They use techniques, which we'll meet later tonight. So if you've ever felt that you have an ordinary memory, you are in very good company. It is, in fact, the kind most of us have.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "Gifts of practice",
+    "sub": "Not cameras"
+   }
+  },
+  {
+   "say": "I'd like to make you a small promise before we begin.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "n": 4,
+    "title": "A promise about tonight"
+   }
+  },
+  {
+   "say": "Where the science is solid, I'll say so. Where it's still argued about, or where a famous finding has been challenged since, I'll tell you that too. Memory research is full of beautiful experiments, and a few of them have turned out to be less tidy than the textbooks once suggested.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "cap": "Honest about doubt",
+    "sub": "Where it's uncertain"
+   }
+  },
+  {
+   "say": "And there's a thread I'd like you to hold onto, lightly. Somewhere tonight, we'll find out how a memory can feel absolutely certain, vivid, detailed, and still be wrong. Not because you're careless, but because of the way memory is built. We'll come back to that.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "rooftop_dusk",
+    "cap": "A thread to follow",
+    "sub": "A confident memory"
+   }
+  },
+  {
+   "say": "There's no test at the end, by the way. You don't need to memorise any of this. If you drift off halfway through, the parts that matter will still be here, and the ones that don't matter, well, forgetting is something we'll talk about too.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "title": "No test at the end",
+    "items": [
+     "Nothing to memorise",
+     "Nothing to prepare",
+     "Just listen"
+    ]
+   }
+  },
+  {
+   "say": "So, make yourself comfortable. Let your shoulders drop. And let's follow one ordinary memory, starting with the very first moment, when something happens to you, and your brain has to decide whether it's worth keeping at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "A cosy beginning",
+    "sub": "Let's go"
+   }
+  }
+ ]
+}

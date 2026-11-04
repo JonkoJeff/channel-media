@@ -1,0 +1,328 @@
+{
+ "id": "lf31_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's start where every memory starts, with the very first moment of a moment. Something happens. A face passes, a sentence is spoken, a cup is put down on a table. What does your brain actually do with it in the first second?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "n": 5,
+    "title": "Getting in: the first second"
+   }
+  },
+  {
+   "say": "At any instant, your senses are sending in far more than you could ever keep. Every colour in the room, every sound, the feel of the chair, the temperature of the air. If all of it were saved, you'd be buried under your own life. So the very first step of memory is not saving. It's sorting.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "rooftop_dusk",
+    "cap": "Far more arrives than stays",
+    "sub": "A flood of signals"
+   }
+  },
+  {
+   "say": "In 1968, two American psychologists, Richard Atkinson and Richard Shiffrin, drew a picture that shaped the field for decades. In their model, information passes through three stores. A very brief sensory store, a small short-term store, and a vast long-term store. Like most good models, it is a simplification, but it is still a very useful map for tonight.",
+   "show": {
+    "type": "study",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "who": "Richard Atkinson & Richard Shiffrin",
+    "where": "Published in 1968",
+    "what": "Proposed that information flows through three stores: a brief sensory store, a short-term store, and a long-term store"
+   }
+  },
+  {
+   "say": "Here's the map in plain words. First, the sensory store, which holds a flicker of what you just saw or heard, for a moment. Then the short-term store, a small workspace that holds a handful of things for a few seconds. And finally the long-term store, which can last, in principle, for a lifetime.",
+   "show": {
+    "type": "list",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "title": "The classic three stores",
+    "items": [
+     "Sensory: a flicker, gone in moments",
+     "Short-term: a handful of things, for seconds",
+     "Long-term: potentially a lifetime"
+    ]
+   }
+  },
+  {
+   "say": "How do you measure something that disappears in a second? That is the problem a young researcher named George Sperling solved, with a very clever trick.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 6,
+    "title": "Sperling's flash"
+   }
+  },
+  {
+   "say": "In 1960, George Sperling flashed a grid of twelve letters in front of volunteers, three rows of four, for just a fraction of a second, about a twentieth of a second. Then he asked them to write down everything they had seen. People managed about four letters. Four out of twelve.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "who": "George Sperling",
+    "where": "Published in 1960",
+    "what": "Flashed a grid of letters for a fraction of a second and asked what people could report"
+   }
+  },
+  {
+   "say": "Here's the curious part. The volunteers weren't satisfied with that. They said they had seen the whole grid. It was there, clear, for a moment, and then it faded while they were trying to write it down. Sperling wondered whether they were right, and designed a clever test.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "But they insisted",
+    "sub": "I saw more than that"
+   }
+  },
+  {
+   "say": "Here is what he did. Right after the twelve letters vanished, he played a tone. A high tone meant, tell me the top row. A medium tone meant the middle row, and a low tone meant the bottom row. Nobody knew which row would be asked for until the letters were gone. So whatever they could report had to come from the fading picture in their mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "The tone trick",
+    "sub": "A hint after the flash"
+   }
+  },
+  {
+   "say": "The result was striking. When cued, people could report nearly all of the row they were asked about, roughly three out of four letters. And since they couldn't know which row it would be, that suggested that about nine of the twelve letters had been available at the moment of the flash. Far more than the four they could write down from everything.",
+   "show": {
+    "type": "bars",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "title": "Letters available from one flash",
+    "unit": "letters",
+    "bars": [
+     [
+      "Reported when asked for everything",
+      4.0
+     ],
+     [
+      "Available when cued by a tone",
+      9.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Then Sperling made the tone come later, after a delay. And as the delay grew toward a second, the advantage melted away, until cued reports were no better than the plain ones. So the picture in your mind is real, and rich, and it lasts only about as long as a breath. The psychologist Ulric Neisser later gave this brief store a name, iconic memory.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "autumn_overlook",
+    "cap": "A picture that fades",
+    "sub": "Within a second"
+   }
+  },
+  {
+   "say": "You've probably seen something like it with a sparkler on a summer night. You wave it, and for a moment the whole circle seems to hang there in the dark. The light was only ever in one place at a time. Your visual memory holds the trail a moment longer, so you see the circle.",
+   "show": {
+    "type": "photo",
+    "file": "lf31_b02_01.jpg",
+    "cap": "A trail of light that lingers, then fades"
+   }
+  },
+  {
+   "say": "Our ears have a similar trick. Sounds fade, but a short echo stays behind.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 7,
+    "title": "Sounds linger too"
+   }
+  },
+  {
+   "say": "Have you ever said, what did you say, and then, before the other person can repeat it, you suddenly know what they said? You hear the sentence again in your head, a second or two later. That's the echo. Neisser called it echoic memory, and it seems to last a few seconds.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The delayed what?",
+    "sub": "You heard it after all"
+   }
+  },
+  {
+   "say": "In 1972, Christopher Darwin, Michael Turvey and Robert Crowder built an auditory version of Sperling's experiment. They played short sets of letters from different directions, and cued people with a light afterwards. The pattern was similar. When cued, people could report more than when asked for everything, as if a brief echo of the sound remained.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "who": "Christopher Darwin, Michael Turvey & Robert Crowder",
+    "where": "Published in 1972",
+    "what": "Built an auditory version of Sperling's experiment, using letters played from three directions"
+   }
+  },
+  {
+   "say": "These brief stores are not clutter. They give your brain a moment to catch up. A sentence spoken to you is a string of sounds, and meaning only arrives once the end of the sentence has been heard. Without the echo, you'd have lost the start of it before the end arrived.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "cap": "Why it matters",
+    "sub": "Time to make sense"
+   }
+  },
+  {
+   "say": "So a great deal is held for a second. But only a tiny part of it will move on to the next store. Something has to decide which part. And that something is attention.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 8,
+    "title": "A doorman at the gate"
+   }
+  },
+  {
+   "say": "The British scientist Colin Cherry studied a familiar situation, the cocktail party. In 1953, he played two different messages, one to each ear, and asked volunteers to repeat one of them aloud. They did that well. But of the message in the other ear, they took in little beyond its sound. They could tell a man's voice from a woman's, but not what was said, and they didn't notice when the speech switched to German.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "who": "Colin Cherry",
+    "where": "Published in 1953",
+    "what": "Played different messages to each ear and asked people to follow only one"
+   }
+  },
+  {
+   "say": "Almost nothing about its meaning, but not quite nothing. In 1959, Neville Moray repeated the idea, and slipped the volunteer's own name into the unattended ear. About a third of people noticed it. Our own name seems to break through the filter, even when we aren't listening. Something in the background is still being checked for what matters to us.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "rooftop_dusk",
+    "cap": "Almost nothing",
+    "sub": "Except for one thing"
+   }
+  },
+  {
+   "say": "So attention works like a doorman at the gate. It isn't perfect, and it's not always fair. But what it lets through is what gets a chance to be kept. What it doesn't let through is, as far as memory is concerned, mostly never there at all.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "What attention decides",
+    "items": [
+     "What gets past the gate",
+     "What gets rehearsed",
+     "What gets a chance to be kept"
+    ]
+   }
+  },
+  {
+   "say": "This explains one of the most ordinary frustrations of all. Where did I put my keys? Very often, the answer is that you never really stored it. Your mind was on something else when your hand put them down. Psychologist Daniel Schacter calls this absent-mindedness, one of seven everyday ways memory lets us down. The memory didn't fail. It was never made.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "The missing keys",
+    "sub": "A quiet explanation"
+   }
+  },
+  {
+   "say": "That's worth a gentle smile. Forgetting where the keys are isn't a sign that something is wrong with your memory. It's a sign that your attention was somewhere else, which is, after all, where you were living at the time.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Be kind to yourself",
+    "sub": "It's not a flaw"
+   }
+  },
+  {
+   "say": "Not everything we see is lost in a second. Some things get in with remarkable ease. And the best example is the humble picture.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "n": 9,
+    "title": "Pictures that stick"
+   }
+  },
+  {
+   "say": "In 2008, Timothy Brady and colleagues showed volunteers about 2,500 everyday objects, one at a time, for a few seconds each. Afterwards, they tested whether people recognised the objects, by showing two choices side by side. When the wrong choice was a completely different object, people picked the right one about nine times out of ten.",
+   "show": {
+    "type": "study",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "who": "Timothy Brady, Talia Konkle, George Alvarez & Aude Oliva",
+    "where": "Published in PNAS, 2008",
+    "what": "Showed people thousands of everyday objects, one at a time, and then tested which they had seen"
+   }
+  },
+  {
+   "say": "What was most remarkable was what happened when the wrong choice was a very similar version of the same object, a cup that was slightly different, or a box that was open instead of closed. People were still right most of the time. The picture they had stored contained more detail than anyone had assumed.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "Even the details",
+    "sub": "Not just the gist"
+   }
+  },
+  {
+   "say": "The pattern is easy to see in a chart. Recognition was high whichever alternative was offered, roughly nine out of ten, though the very similar versions were a little harder. Memory for pictures of things is stronger than memory for words about them, a finding going back to Lionel Standing's work in 1973.",
+   "show": {
+    "type": "bars",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "title": "Recognising the right object",
+    "unit": "percent",
+    "bars": [
+     [
+      "Completely different alternative",
+      92.0
+     ],
+     [
+      "Same kind of object",
+      88.0
+     ],
+     [
+      "Same object in a different state",
+      87.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "There's an important subtlety, though. These were recognition tests, where the picture is in front of you and you say yes or no. Recall, where you must produce the picture from nothing, is much harder. It's why a face can feel instantly familiar, and yet you can't draw it, or find its name.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Recognising is not recalling",
+    "sub": "Two different tests"
+   }
+  },
+  {
+   "say": "So that's the first stop on our journey. Most of the world is held for a moment, and gone. A flicker of sight lasts about a second. An echo of sound, a few seconds. And attention decides what moves on.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "title": "The first stop",
+    "items": [
+     "Most of the world is held for a moment",
+     "A flicker of sight lasts about a second",
+     "An echo of sound lasts a few seconds",
+     "Attention decides what moves on"
+    ]
+   }
+  },
+  {
+   "say": "Now, suppose something makes it through the gate. It arrives in a small workspace, where you can hold it, turn it over, and use it. And that workspace, as you'll see, is much smaller than you'd think.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "The next question",
+    "sub": "A small workspace"
+   }
+  }
+ ]
+}

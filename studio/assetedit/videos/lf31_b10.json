@@ -1,0 +1,279 @@
+{
+ "id": "lf31_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Some things don't return, whichever key you try. Some memories genuinely fade. But how fast? And is there a pattern? For that question, we need to go back to a small room in Germany, in the 1880s, where a man set himself a very odd task.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "n": 47,
+    "title": "Fading: how fast?"
+   }
+  },
+  {
+   "say": "Hermann Ebbinghaus was a German psychologist who wanted to measure memory like a physicist measures anything else. So he invented nonsense syllables, short meaningless strings like ZOF or KEB, so that nothing he already knew could help him. Then he learned long lists of them, using himself as the only volunteer, and tested himself again after minutes, hours and days.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "who": "Hermann Ebbinghaus",
+    "where": "Published in 1885",
+    "what": "Learned lists of nonsense syllables himself and measured how much he kept after different delays"
+   }
+  },
+  {
+   "say": "He did this with thousands of syllables, with a metronome clicking to keep the pace steady. And in 1885 he published what he found. It was the first careful measurement of forgetting, and it's still the foundation for almost everything that followed.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "A very patient man",
+    "sub": "Thousands of syllables"
+   }
+  },
+  {
+   "say": "What he found was a curve. Right after learning, forgetting is fast. A large share of what you learned is gone within the first hour or so. Then the loss slows down, and what remains fades much more gently. It's steep at the beginning, and flat towards the end.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "autumn_overlook",
+    "cap": "The shape of forgetting",
+    "sub": "Steep, then gentle"
+   }
+  },
+  {
+   "say": "Did it hold up? In 2015, Jaap Murre and Joeri Dros repeated Ebbinghaus's experiment, with Murre himself as the volunteer. He learned lists of nonsense syllables and tested himself at gaps ranging from twenty minutes to a month. The curve had much the same shape as Ebbinghaus's, including the steep early drop, along with a small bump in memory after a day, perhaps linked to sleep.",
+   "show": {
+    "type": "study",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "who": "Jaap Murre & Joeri Dros",
+    "where": "Published in PLoS ONE, 2015",
+    "what": "Repeated Ebbinghaus's experiment with one volunteer, over a month"
+   }
+  },
+  {
+   "say": "There's an important point here, though. Nonsense syllables are about as hard to remember as anything can be, because they connect to nothing. Meaningful things fade more slowly, and the curve flattens out. A story, a song, or a fact tied to your life will last far longer than ZOF ever did.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "A caution",
+    "sub": "Nonsense is hard"
+   }
+  },
+  {
+   "say": "The more hopeful discovery, which Ebbinghaus also noticed, is that the curve isn't fixed. You can change its shape.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "n": 48,
+    "title": "Slowing the curve"
+   }
+  },
+  {
+   "say": "Ebbinghaus found that it was easier to learn a list if the repetitions were spread over several days, rather than crammed together. That has been confirmed again and again. It is called the spacing effect, and it's one of the most reliable findings in all of psychology.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Spread it out",
+    "sub": "The spacing effect"
+   }
+  },
+  {
+   "say": "In 2006, Nicholas Cepeda and colleagues combined the results of hundreds of experiments on spacing. Across many different materials and age groups, studying in spread-out sessions beat studying in one block. A follow-up in 2008 suggested a rough rule. The longer you want to remember something, the longer the gap between sessions should be.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "who": "Nicholas Cepeda and colleagues",
+    "where": "Published in Psychological Bulletin, 2006",
+    "what": "Reviewed hundreds of experiments comparing massed and spaced practice"
+   }
+  },
+  {
+   "say": "Cramming isn't useless. It can get you through tomorrow's test. But it's a bit like borrowing from your future self. A lot of what you crammed is gone within days, whereas the same hours spread over a few weeks would have lasted much longer.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "Why cramming works, and doesn't",
+    "sub": "A short loan"
+   }
+  },
+  {
+   "say": "The second trick is even stranger, because it feels backwards.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 49,
+    "title": "The power of a question"
+   }
+  },
+  {
+   "say": "In 2006, Henry Roediger and Jeffrey Karpicke asked students to read short passages. Some then studied the passage again and again. Others studied it once and then tried to write down what they could remember. Five minutes later, rereading was better. But a week later, the students who had practised recalling it remembered roughly three in five of the ideas, against about two in five for the rereaders.",
+   "show": {
+    "type": "study",
+    "sprite": "A02",
+    "bg": "rooftop_dusk",
+    "who": "Henry Roediger & Jeffrey Karpicke",
+    "where": "Published in Psychological Science, 2006",
+    "what": "Compared studying a text again with trying to recall it"
+   }
+  },
+  {
+   "say": "The cruel twist was that the rereaders were more confident. Rereading felt easier and more fluent, so it felt like learning. Struggling to recall felt harder, so it felt like failing. But the struggle was the training. Psychologists call it the testing effect, or retrieval practice, and it's a lovely thing to know.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "The feeling lies",
+    "sub": "Easy isn't strong"
+   }
+  },
+  {
+   "say": "So when you want something to last, the trick is to close the book and try to say it aloud, or write it down from memory. If you can't, don't worry. Looking at the answer afterwards is still a better lesson than not trying, because the effort itself seems to strengthen the memory.",
+   "show": {
+    "type": "photo",
+    "file": "lf31_b10_01.jpg",
+    "cap": "Closing the book, and trying to remember"
+   }
+  },
+  {
+   "say": "And then there is a question that most of us secretly wonder about. Does anything last? For a lifetime?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 50,
+    "title": "What lasts for decades"
+   }
+  },
+  {
+   "say": "In 1984, Harry Bahrick published a study of 773 people who had learned Spanish at school. Some had finished the class only a few months earlier, others as long ago as fifty years. He tested what they still knew. As expected, there was a steep drop in the first three years. But then something remarkable happened.",
+   "show": {
+    "type": "study",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "who": "Harry Bahrick",
+    "where": "Published in 1984",
+    "what": "Tested 773 people on the Spanish they learned at school, up to fifty years earlier"
+   }
+  },
+  {
+   "say": "After that early loss, the line went flat. For the next twenty-five years or so, what remained barely changed. Bahrick called this lasting store permastore. Only after about three decades did it start to slip again, perhaps for reasons to do with ageing in general.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "A plateau",
+    "sub": "Decades of calm"
+   }
+  },
+  {
+   "say": "People who had practised more, taken more classes, or had occasion to use it, kept more. Interestingly, how long ago they had learned it mattered less than how well they had learned it in the first place. Strong learning, spaced over time, seemed to resist the curve for decades.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "Who kept more",
+    "sub": "Practice and rehearsal"
+   }
+  },
+  {
+   "say": "There's a reason that most of us rarely use the methods that work best. They feel worse while we're doing them.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "n": 51,
+    "title": "Why the easy way fools us"
+   }
+  },
+  {
+   "say": "In 2008, Nate Kornell and Robert Bjork asked students to learn to recognise the painting styles of several artists. Some saw all the paintings by one artist in a row. Others saw them mixed together, with other artists in between. The mixed, spaced practice produced better recognition of new paintings. Most students, though, believed that seeing them in a row had been better.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "rooftop_dusk",
+    "who": "Nate Kornell & Robert Bjork",
+    "where": "Published in Psychological Science, 2008",
+    "what": "Had people learn artists' painting styles in blocks or mixed together, then asked which method they thought was better"
+   }
+  },
+  {
+   "say": "Robert Bjork has a name for this kind of useful struggle. He calls them desirable difficulties. Spacing things out, mixing topics, and testing yourself all feel harder in the moment. And that feeling of difficulty isn't a sign that you're doing it wrong. It's often a sign that your memory is being asked to do real work.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Desirable difficulties",
+    "sub": "Effort that pays"
+   }
+  },
+  {
+   "say": "One more finding about practice is worth a moment, because it changes how a student might use an hour.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A02",
+    "bg": "autumn_overlook",
+    "n": 52,
+    "title": "Once is not enough"
+   }
+  },
+  {
+   "say": "In 2008, Jeffrey Karpicke and Henry Roediger had students learn lists of foreign words. In some conditions, once a word had been recalled correctly, it was dropped from the practice. In others, the students kept testing themselves on it. A week later, those who kept retrieving the words remembered roughly eighty percent of them, against about a third for those who stopped.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "who": "Jeffrey Karpicke & Henry Roediger",
+    "where": "Published in Science, 2008",
+    "what": "Had students learn foreign vocabulary, and varied whether they kept being tested on words they had already recalled"
+   }
+  },
+  {
+   "say": "The lesson is gentle and practical. Getting something right once doesn't mean it's secure. A couple more times, spread across a few days, makes a big difference. It's a small cost, and it's the difference between recognising something tomorrow and still knowing it next month.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "cap": "Keep going a little",
+    "sub": "After you get it right"
+   }
+  },
+  {
+   "say": "So that's the seventh stop. Forgetting is fast at first, then slow. Meaning slows the curve. Spaced practice beats cramming. Trying to recall beats rereading. And well-learned things can last for decades.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "title": "The seventh stop",
+    "items": [
+     "Forgetting is fast at first, then slow",
+     "Meaning slows the curve",
+     "Spaced practice beats cramming",
+     "Trying to recall beats rereading",
+     "Well-learned things can last for decades"
+    ]
+   }
+  },
+  {
+   "say": "All of this assumes that forgetting is the enemy. But what if it isn't? What if a mind that never forgot would be in more trouble than a mind that forgets? For that, we need to meet someone who truly couldn't forget.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A strange question",
+    "sub": "Is forgetting the enemy?"
+   }
+  }
+ ]
+}

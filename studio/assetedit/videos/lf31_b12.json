@@ -1,0 +1,266 @@
+{
+ "id": "lf31_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now we come to the part I've been hinting at all night. A memory doesn't just sit there, waiting to be played back. When you recall it, you build it again. And the way you build it depends on what you already know. This idea has a very old and rather spooky starting point.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 57,
+    "title": "Changing: a story about ghosts"
+   }
+  },
+  {
+   "say": "In the early twentieth century, the Cambridge psychologist Frederic Bartlett gave English students a Native American folk story called The War of the Ghosts to read twice. Then he asked them to write it down from memory. After a while, he asked again, and again, over weeks and months and, in some cases, years.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "who": "Frederic Bartlett",
+    "where": "Published in 1932",
+    "what": "Asked English students to read a Native American folk tale and retell it again and again over weeks and months"
+   }
+  },
+  {
+   "say": "The story changed, and not at random. It got shorter. Odd details that didn't fit an English reader's expectations dropped away. Unfamiliar things were swapped for familiar ones. The story became more coherent and more ordinary. Bartlett called the frameworks that people used to shape what they remembered schemas.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "autumn_overlook",
+    "cap": "What happened to the story",
+    "sub": "It was shaped"
+   }
+  },
+  {
+   "say": "The idea was that we don't remember a story as a string of words. We remember the sense of it, and when we retell it, we rebuild the story to match that sense. Where there are gaps, we fill them with whatever makes the most sense to us. And we rarely notice we are doing it.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "The mind as an editor",
+    "sub": "Making sense"
+   }
+  },
+  {
+   "say": "It's only fair to say that Bartlett's method was informal, and later researchers wanted to check his claims. In 1999, Steven Bergman and Henry Roediger repeated the experiment with tighter controls. They found that the story did get shorter, and that some changes appeared, but the distortions were smaller than Bartlett had suggested. The truth seems to be somewhere in between.",
+   "show": {
+    "type": "study",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "who": "Steven Bergman & Henry Roediger",
+    "where": "Published in 1999",
+    "what": "Tried to repeat Bartlett's experiment with modern methods"
+   }
+  },
+  {
+   "say": "Schemas can fill gaps in a very ordinary way. Here's an experiment that is almost a magic trick.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "n": 58,
+    "title": "The office that never had a book"
+   }
+  },
+  {
+   "say": "In 1981, William Brewer and Glenn Treyens asked students to wait for a moment in a room, which they were told was the experimenter's office. Less than a minute later, they were taken to another room and asked to write down everything they remembered. Many remembered the desk and the chair. But a number of them also remembered books on shelves, though there were no books in the room.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "autumn_overlook",
+    "who": "William Brewer & Glenn Treyens",
+    "where": "Published in 1981",
+    "what": "Asked people to wait in a professor's office, and then to recall what was in it"
+   }
+  },
+  {
+   "say": "The students weren't lying. An office usually has books, and the mind, when it fills in a picture, uses what usually goes there. It's the same trick your visual system plays with the blind spot. It works well nearly all the time. And once in a while, it adds a book that was never there.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "Filling in",
+    "sub": "What offices usually have"
+   }
+  },
+  {
+   "say": "There's a very neat way to catch the filling-in in the act. It takes less than a minute, and you can try it, if you'd like.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 59,
+    "title": "Remembering a word that was never said"
+   }
+  },
+  {
+   "say": "Here are a few words. Bed. Rest. Awake. Tired. Dream. Blanket. Doze. Slumber. Now, a question. Was the word sleep on that list? Take a moment. Most people who hear a longer version of this list, of fifteen or so words, say yes, they heard it.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Listen to this list",
+    "items": [
+     "Bed",
+     "Rest",
+     "Awake",
+     "Tired",
+     "Dream",
+     "Blanket",
+     "Doze",
+     "Slumber"
+    ]
+   }
+  },
+  {
+   "say": "In 1995, Henry Roediger and Kathleen McDermott, building on earlier work by James Deese, read lists of related words aloud. Each list pointed to a word that was never read, like sleep. When people were asked to recall the list, a large number of them recalled the missing word, sometimes about as often as words that really were on the list.",
+   "show": {
+    "type": "study",
+    "sprite": "A02",
+    "bg": "rooftop_dusk",
+    "who": "Henry Roediger & Kathleen McDermott",
+    "where": "Published in 1995",
+    "what": "Read lists of related words aloud, and tested what people remembered, including a word that was never read"
+   }
+  },
+  {
+   "say": "What's striking is that people didn't just guess. When asked, they often said they clearly remembered hearing the word, and could even say what the voice sounded like. The word had been invented by the meaning of everything around it. The list had a gist, and the gist produced the memory.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "Not a guess",
+    "sub": "They remembered hearing it"
+   }
+  },
+  {
+   "say": "It's tempting to read that as a failure. But think about what it shows. Your memory keeps the sense of things. It's very good at that, and it's what lets you recognise a story, a face, a place. The price of keeping the gist is that sometimes a detail slips in that wasn't there.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "A system working as designed",
+    "sub": "Gist over detail"
+   }
+  },
+  {
+   "say": "It's a bit like a jigsaw puzzle with a few missing pieces. The picture still shows, because your mind draws the missing parts in, based on the rest. Most of the time that works beautifully. It's only when you look closely that you notice what you drew in yourself.",
+   "show": {
+    "type": "photo",
+    "file": "lf31_b12_01.jpg",
+    "cap": "Pieces, and the picture they suggest"
+   }
+  },
+  {
+   "say": "And there is, of course, the most famous version of all.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "n": 60,
+    "title": "A memory of a shopping centre"
+   }
+  },
+  {
+   "say": "In 1995, Elizabeth Loftus and Jacqueline Pickrell gave adult volunteers short written stories of events from their childhood, collected with the help of family members. Three were true. One, getting lost in a shopping mall, was invented. About a quarter of the volunteers later said they remembered the invented event, at least in part.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "who": "Elizabeth Loftus & Jacqueline Pickrell",
+    "where": "Published in 1995",
+    "what": "Gave adults a short written account of a childhood event that had never happened, among true events"
+   }
+  },
+  {
+   "say": "Researchers have argued about how to interpret this study ever since, and about how easily a vivid, emotional event can be planted. A careful reading is this. Under some conditions, with a trusted source and a plausible story, some people can come to believe, and even picture, something that never happened. It does not mean that all our memories are made up.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "A fair reading",
+    "sub": "How far does this go?"
+   }
+  },
+  {
+   "say": "In fact, in everyday life, memory is mostly right about the big picture. You remember who your friends are, where you grew up, the main events of your life. It's the small details, the order, the source, the exact words, that drift. Knowing where the weak spots are is half the protection.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Mostly right",
+    "sub": "Wrong in the details"
+   }
+  },
+  {
+   "say": "Memories don't only change inside our own heads. They change between people too, and you've probably seen it happen at a family dinner.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 61,
+    "title": "Memories that spread"
+   }
+  },
+  {
+   "say": "In 2003, Fiona Gabbert, Amina Memon and Kevin Allan had pairs of volunteers watch a video of a crime. Without their knowing, the two saw it from slightly different angles, so each saw things the other didn't. They then discussed the event, before being asked to recall it separately. A large share of the volunteers reported details that they could only have heard from their partner.",
+   "show": {
+    "type": "study",
+    "sprite": "A02",
+    "bg": "rooftop_dusk",
+    "who": "Fiona Gabbert, Amina Memon & Kevin Allan",
+    "where": "Published in Applied Cognitive Psychology, 2003",
+    "what": "Had pairs of people watch slightly different videos of the same event, then discuss it before recalling it separately"
+   }
+  },
+  {
+   "say": "This is called memory conformity. Nobody was lying. The details they heard in conversation became part of their own memory, and they lost track of where they had come from. It's source confusion, the same slip we met earlier, spreading from person to person.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Memory conformity",
+    "sub": "Borrowed details"
+   }
+  },
+  {
+   "say": "That's how family legends grow. A story is told, and retold, and each person adds a little, or borrows a detail from someone else. After a few years, everyone remembers the same version, and it feels completely real to all of them. Perhaps that is what a shared memory is. Not a copy of the past, but something we have made together.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "At the family table",
+    "sub": "Shared stories"
+   }
+  },
+  {
+   "say": "So that's the ninth stop. Remembering is rebuilding. Expectations fill the gaps. A word can be remembered that was never heard. And the gist is strong, while the details drift.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "The ninth stop",
+    "items": [
+     "Remembering is rebuilding",
+     "Expectations fill the gaps",
+     "A word can be remembered that was never heard",
+     "The gist is strong, the details drift"
+    ]
+   }
+  },
+  {
+   "say": "Now here's the deeper question, the one that scientists only really started asking in the last quarter of a century. If you rebuild a memory every time you recall it, does the act of recalling leave the memory changed, or even fragile again? The answer takes us back to the laboratory, and to a rat, and a tone.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A deeper question",
+    "sub": "Does recalling change it?"
+   }
+  }
+ ]
+}

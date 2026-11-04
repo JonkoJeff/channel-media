@@ -1,0 +1,269 @@
+{
+ "id": "lf31_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's go looking for the place where a memory lives. For the first half of the twentieth century, this was one of the great treasure hunts of science. The hidden treasure even had a name, the engram, a word coined by the German biologist Richard Semon for the physical trace of a memory.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "n": 33,
+    "title": "Where a memory lives"
+   }
+  },
+  {
+   "say": "The hope was very natural. If a memory is a thing, then it must be somewhere. Find the right spot, and you'd find the memory of your grandmother's kitchen. And the most determined hunter of all was an American psychologist named Karl Lashley.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "cap": "A tidy hope",
+    "sub": "A spot on the map"
+   }
+  },
+  {
+   "say": "Over many years, Karl Lashley trained rats to find their way through mazes, and then removed small parts of their cortex to see where the memory had been. He was looking for the spot. He never found it. The damage to the rats' memory seemed to depend more on how much tissue was removed than on which part of it.",
+   "show": {
+    "type": "study",
+    "sprite": "A20",
+    "bg": "autumn_overlook",
+    "who": "Karl Lashley",
+    "where": "Summarised in 1950",
+    "what": "Trained rats to run a maze, removed different parts of the cortex, and tested what they remembered"
+   }
+  },
+  {
+   "say": "In 1950, Lashley wrote up his search under a title that was half a joke, In Search of the Engram. His conclusion was that it was not possible to demonstrate the isolated localization of a memory trace anywhere within the nervous system. In other words, he had looked everywhere, and found it nowhere in particular.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "It is not possible to demonstrate the isolated localization of a memory trace.",
+    "by": "Karl Lashley, In Search of the Engram, 1950"
+   }
+  },
+  {
+   "say": "Later work softened this. Memories do seem to depend on particular regions, as we saw with Henry. But Lashley's frustration pointed to something real. A memory doesn't sit in one tidy spot. It's spread across many cells and many areas, working together.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Not nowhere",
+    "sub": "Everywhere, a little"
+   }
+  },
+  {
+   "say": "So if it's not a spot, then what is it? An answer came from a Canadian psychologist, Donald Hebb, in 1949.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 34,
+    "title": "Cells that work together"
+   }
+  },
+  {
+   "say": "In his book, Hebb suggested a simple rule. When one cell repeatedly takes part in firing another, the connection between them gets stronger. The idea is often summed up in a catchy phrase, cells that fire together wire together, a line that was popularised later, by Carla Shatz. A memory, on this view, is a group of cells that learned to fire as a team.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "who": "Donald Hebb",
+    "where": "The Organization of Behavior, 1949",
+    "what": "Proposed that when one cell repeatedly helps to fire another, the connection between them grows stronger"
+   }
+  },
+  {
+   "say": "That connects back to what we said at the start. A memory is a pattern of connections. Each time a group of cells is active together, their links get a little easier to use. The more they work as a team, the more readily the team assembles itself again.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "A team, not a file",
+    "sub": "The pattern again"
+   }
+  },
+  {
+   "say": "Hebb's idea was beautiful, but it was a theory. Then, in 1973, Tim Bliss and Terje Lømo found a physical sign of it. When they stimulated a pathway in a rabbit's hippocampus with brief, rapid bursts, the connection became stronger, and stayed stronger for hours afterwards. It's now called long-term potentiation.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "who": "Tim Bliss & Terje Lømo",
+    "where": "Published in 1973",
+    "what": "Gave brief bursts of stimulation to a pathway in a rabbit's hippocampus and watched the response"
+   }
+  },
+  {
+   "say": "In everyday words, a connection that has been used a lot becomes easier to use. Researchers still debate how closely this lab effect matches real memory in a living brain. But it remains one of the best candidates for the physical form of learning.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "A stronger link",
+    "sub": "Which stays that way"
+   }
+  },
+  {
+   "say": "Eric Kandel took a very different route. He studied a large sea slug called Aplysia, which has a nervous system of only about twenty thousand cells, so you can follow its learning cell by cell. When the slug learned, particular connections changed, in the way Hebb had predicted. Kandel shared the Nobel Prize in 2000 for work on how nerve cells communicate and change.",
+   "show": {
+    "type": "study",
+    "sprite": "A02",
+    "bg": "autumn_overlook",
+    "who": "Eric Kandel",
+    "where": "Nobel Prize in Physiology or Medicine, 2000",
+    "what": "Studied learning in a sea slug whose nervous system has only about twenty thousand cells"
+   }
+  },
+  {
+   "say": "All of that was about how memories might form. What about the memory itself? In 2012, a group of researchers in the laboratory of Susumu Tonegawa found a way to ask.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 35,
+    "title": "Switching on a memory"
+   }
+  },
+  {
+   "say": "Imagine a very fine web, with dew on it. The drops are the cells that were active together, and the threads between them are the links that got stronger. If you could light up only those drops, you'd see the shape of a memory.",
+   "show": {
+    "type": "photo",
+    "file": "lf31_b07_01.jpg",
+    "cap": "A web of connections, lit up"
+   }
+  },
+  {
+   "say": "That is almost exactly what they did. In 2012, Xu Liu, Steve Ramirez and colleagues marked the cells that were active in a mouse's hippocampus as it learned that one small box was dangerous. Later, in a completely different, safe box, they switched exactly those cells on again with a beam of light. The mouse froze, as if it were afraid.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "rooftop_dusk",
+    "who": "Xu Liu, Steve Ramirez and colleagues",
+    "where": "Published in Nature, 2012",
+    "what": "Marked the hippocampal cells active during a frightening event in mice, then switched them on again with light"
+   }
+  },
+  {
+   "say": "Think about what that means. Waking up that particular set of cells was enough to bring back a fear response, in a place where nothing frightening had ever happened. It was strong evidence that a memory is carried by a specific group of cells, an engram, which can be switched on again.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "The cells were enough",
+    "sub": "A small group"
+   }
+  },
+  {
+   "say": "A year later, the same group went further. They reactivated the memory of a safe box in mice while the animals received a mild shock in a different place. Afterwards, the mice showed fear in the first box, even though nothing bad had ever happened there. A false memory, built in a mouse. It's a remarkable and slightly eerie result.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "who": "Steve Ramirez and colleagues",
+    "where": "Published in Science, 2013",
+    "what": "Reactivated a safe box's memory while giving a mild shock in another box"
+   }
+  },
+  {
+   "say": "It's worth keeping our feet on the ground. These are experiments in mice, using a very simple kind of fear memory, in the lab, with tools that are not used on people. They tell us that the idea of an engram is concrete, not just a metaphor. They don't tell us that human memories can be switched on and off like lamps.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "cap": "A modest conclusion",
+    "sub": "Mice are not people"
+   }
+  },
+  {
+   "say": "There's one more curious finding. In 2005, Rodrigo Quiroga and colleagues recorded from single cells in the brains of epilepsy patients, who had electrodes in place for medical reasons. One cell fired when the patient saw pictures of a certain well-known actress, and hardly for anything else. The headlines called it the grandmother cell.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "One more curious thing",
+    "sub": "The famous neuron"
+   }
+  },
+  {
+   "say": "But the researchers were careful too. A single cell responding to an actress doesn't mean that she is stored in that cell alone. Surely millions of cells work together to represent her. That cell is more like a spokesperson for a large team than a drawer with her name on it.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Careful again",
+    "sub": "A cell on a team"
+   }
+  },
+  {
+   "say": "The hippocampus has one more surprise, and it explains why memories so often come with a place attached.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "n": 36,
+    "title": "A map in the hippocampus"
+   }
+  },
+  {
+   "say": "In 1971, John O'Keefe and Jonathan Dostrovsky recorded from single cells in the hippocampus of rats that were free to wander. They found cells that fired only when the rat was in one particular spot. Each cell seemed to have its own favourite place. These were named place cells, and together they looked like a map.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "who": "John O'Keefe & Jonathan Dostrovsky",
+    "where": "Published in Brain Research, 1971",
+    "what": "Recorded single cells in the hippocampus of freely moving rats"
+   }
+  },
+  {
+   "say": "In 2005, a Norwegian team led by May-Britt and Edvard Moser found another kind of cell in the neighbouring entorhinal cortex. These cells fired at regular, repeating points as the animal moved around, forming a pattern like a hexagonal grid. They were called grid cells. In 2014, O'Keefe and the Mosers shared the Nobel Prize for these discoveries.",
+   "show": {
+    "type": "study",
+    "sprite": "A02",
+    "bg": "autumn_overlook",
+    "who": "Torkel Hafting, Marianne Fyhn, Sturla Molden, May-Britt Moser & Edvard Moser",
+    "where": "Published in Nature, 2005",
+    "what": "Found cells in a neighbouring region that fire in a regular, repeating pattern as an animal moves"
+   }
+  },
+  {
+   "say": "Why does a map matter for memory? Perhaps because every event happens somewhere. The same system that tracks where you are seems also to help tie the what and the when of an event to a where. That may be why a place can bring a memory back so powerfully, and why so many memory tricks, as we'll see, use imagined places.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "Memory and place",
+    "sub": "Old companions"
+   }
+  },
+  {
+   "say": "So that's the fourth stop. A memory isn't in a single spot. It's a group of cells that learned to fire together. Use makes the links stronger. And reactivating the group brings the memory back, at least in mice.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "title": "The fourth stop",
+    "items": [
+     "A memory isn't in a single spot",
+     "It's a group of cells that learned to fire together",
+     "Use makes links stronger",
+     "Reactivating the group brings the memory back"
+    ]
+   }
+  },
+  {
+   "say": "Now that we know a little about what a memory is, we can ask a question that sounded odd when Henry's story began. How many kinds of memory are there? Because the answer, as it turns out, is more than you might expect, and the differences can be unexpectedly moving.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The next question",
+    "sub": "Kinds of memory"
+   }
+  }
+ ]
+}

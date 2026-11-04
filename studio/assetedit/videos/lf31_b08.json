@@ -1,0 +1,283 @@
+{
+ "id": "lf31_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's something that sounds odd until you've thought about it. You don't have a memory. You have several. Knowing the capital of France, knowing how to tie your shoes, and remembering your last birthday are three quite different feats, and your brain handles them in different ways.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 37,
+    "title": "Many kinds of memory"
+   }
+  },
+  {
+   "say": "In 1949, the philosopher Gilbert Ryle drew a line between knowing that something is true, and knowing how to do something. You can know that a bicycle stays upright by steering into a lean, and still fall off. And you can ride perfectly and be unable to explain how. Psychologists later found that the line runs right through the brain.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Knowing that, knowing how",
+    "sub": "An old distinction"
+   }
+  },
+  {
+   "say": "In 1972, the Estonian-Canadian psychologist Endel Tulving suggested splitting the first kind further. Episodic memory is memory for episodes in your own life, what happened, where, and when. Semantic memory is memory for facts and meanings, such as what a lighthouse is. One keeps your story. The other keeps your knowledge.",
+   "show": {
+    "type": "study",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "who": "Endel Tulving",
+    "where": "Published in 1972",
+    "what": "Proposed that memory for personal events and memory for general facts are separate systems"
+   }
+  },
+  {
+   "say": "Tulving was especially fascinated by what remembering an episode feels like. You don't merely know that you went to the sea as a child. You go back there, in your mind, to the cold water and the smell of salt. He called this a kind of mental time travel, and he thought it might be something special about human memory.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "rooftop_dusk",
+    "cap": "A journey in the mind",
+    "sub": "Mental time travel"
+   }
+  },
+  {
+   "say": "Later, Larry Squire and others sorted these into a larger family. Explicit memory covers what you can say aloud, episodes and facts. Implicit memory covers what shows up in what you do, skills and habits, and the head start you get from things you've met before. Henry had lost the first and kept much of the second.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "A map of memory",
+    "items": [
+     "Episodic: events from your own life",
+     "Semantic: facts and meanings",
+     "Procedural: skills and habits",
+     "Priming: a head start from what you met before"
+    ]
+   }
+  },
+  {
+   "say": "The most heart-rending illustration of this split is the story of a British musician, Clive Wearing.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "n": 38,
+    "title": "A musician who lost the thread"
+   }
+  },
+  {
+   "say": "In 1985, Clive Wearing, a respected musician and conductor, caught a viral infection that attacked his brain. It damaged the regions that memory depends on, including the hippocampus. Afterwards, he could hold on to new experiences for only moments at a time.",
+   "show": {
+    "type": "study",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "who": "Clive Wearing",
+    "where": "Illness in 1985",
+    "what": "A musician who lost almost all ability to form new lasting memories after a brain infection"
+   }
+  },
+  {
+   "say": "He kept a diary, and the pages filled with the same thing. Each time he noticed himself, he wrote that he was awake for the first time. Then he crossed out the earlier entries, because it seemed obviously false that he had been awake before. Those pages were described by his wife, Deborah, in her book Forever Today.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Waking up, again and again",
+    "sub": "The diary"
+   }
+  },
+  {
+   "say": "But some things did stay. He recognised his wife and greeted her each time with great joy. And he could still sit at a piano, or lead a choir, and play and conduct complicated music. The skills he had built over a lifetime were intact, and so was his love of her.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "autumn_overlook",
+    "cap": "What stayed",
+    "sub": "Love and music"
+   }
+  },
+  {
+   "say": "It's a poignant story, and it's also an important one. The part of memory that holds personal episodes was severely damaged. The parts that hold skills, music and deep emotional bonds were, to a large degree, still working. Memory isn't one thing that is either present or gone.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "cap": "A hopeful lesson",
+    "sub": "Different systems"
+   }
+  },
+  {
+   "say": "Musicians sometimes describe the feeling when they play a piece they have practised for years. The fingers know. The mind doesn't have to ask. That knowing lives in a part of memory that does not need to travel back to a particular day.",
+   "show": {
+    "type": "photo",
+    "file": "lf31_b08_01.jpg",
+    "cap": "The music stayed"
+   }
+  },
+  {
+   "say": "There's another kind of memory that works without any feeling of remembering at all.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 39,
+    "title": "A head start you can't feel"
+   }
+  },
+  {
+   "say": "In 1970, Elizabeth Warrington and Lawrence Weiskrantz tested patients with severe amnesia. They showed them a list of words. Later, when asked to recall the words, the patients did poorly. But when given just the first few letters of a word and asked to say the first word that came to mind, they did as well as other people, often completing the fragments with words from the list.",
+   "show": {
+    "type": "study",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "who": "Elizabeth Warrington & Lawrence Weiskrantz",
+    "where": "Published in Nature, 1970",
+    "what": "Gave amnesic patients word beginnings to complete, after showing them words earlier"
+   }
+  },
+  {
+   "say": "The patients had no feeling of remembering the words. Yet the earlier exposure had given those words a head start. That effect is called priming, and it happens to all of us. A word you saw a moment ago comes to mind a little faster, whether or not you recall seeing it.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Memory without remembering",
+    "sub": "Priming"
+   }
+  },
+  {
+   "say": "In 1984, Daniel Schacter and colleagues taught amnesic patients some trivia facts, then later asked them where they had learned them. Some could still give correct answers, but they had no idea where they had learned them, and sometimes thought they had always known. It's called source amnesia, and in milder forms it happens to everyone.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "rooftop_dusk",
+    "who": "Daniel Schacter, Ruth Harbluk & Donald McLachlan",
+    "where": "Published in 1984",
+    "what": "Taught people trivia facts and later asked where they had learned them"
+   }
+  },
+  {
+   "say": "You've surely had the feeling. You know a fact, you're sure of it, and you have no idea who told you. A friend, a book, a half-remembered radio programme. The fact is there. The label has fallen off. And that is one reason that unreliable ideas can feel like common knowledge.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "You, too",
+    "sub": "Where did I hear that?"
+   }
+  },
+  {
+   "say": "There's one last kind that we use every single day, and that is the memory for the future.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "n": 40,
+    "title": "Remembering to remember"
+   }
+  },
+  {
+   "say": "In 1990, Gilles Einstein and Mark McDaniel studied what they called prospective memory, remembering to do something later. Posting a letter. Taking a pill. Saying something to a colleague. While you're busy with something else, the intention must wait quietly in the background and then pop up at just the right moment.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "who": "Gilles Einstein & Mark McDaniel",
+    "where": "Published in 1990",
+    "what": "Asked people to carry out an action when a certain event occurred during another task"
+   }
+  },
+  {
+   "say": "What makes this kind of memory tricky is that nothing asks the question. With an exam, someone asks you something. With a promise to yourself, nothing does. That's why we can forget to post a letter we fully meant to post. The cue has to come from the world, or from a plan.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The tricky part",
+    "sub": "No one prompts you"
+   }
+  },
+  {
+   "say": "One well studied remedy is gently practical. In 1999, Peter Gollwitzer reviewed research on what he called implementation intentions, plans in the form, when this happens, I will do that. When I leave the house, I will take the letter from the shelf. Linking the intention to a specific cue seems to help it come to mind at the right time.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "who": "Peter Gollwitzer",
+    "where": "Published in 1999",
+    "what": "Studied plans in the form, if this happens, then I will do that"
+   }
+  },
+  {
+   "say": "There's one more kind of memory I find particularly nice. It learns patterns, quietly, even when you're not trying and even when the explicit part of your memory is no use at all.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 41,
+    "title": "The habit that learns without you"
+   }
+  },
+  {
+   "say": "In 1996, Barbara Knowlton, Jennifer Mangels and Larry Squire gave people a weather-prediction game. Cards with shapes appeared, and people had to guess whether the weather would be rain or sunshine, learning from feedback which shapes predicted which. The rule was probabilistic and hard to put into words. Patients with amnesia improved at about the same pace as healthy people.",
+   "show": {
+    "type": "study",
+    "sprite": "A02",
+    "bg": "rooftop_dusk",
+    "who": "Barbara Knowlton, Jennifer Mangels & Larry Squire",
+    "where": "Published in Science, 1996",
+    "what": "Had people and amnesic patients learn to predict the weather from cards, over many trials"
+   }
+  },
+  {
+   "say": "Yet when asked questions about the game, such as what the cards looked like, or what had happened in the session, the patients remembered much less than the healthy volunteers. They were learning, but without the feeling of remembering. The habit system was working in the background, while the system for episodes was silent.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "But they couldn't say why",
+    "sub": "Skill without a story"
+   }
+  },
+  {
+   "say": "It's a useful reminder that a lot of what you do each day depends on this quiet kind of memory. The way you make coffee. The route you take to work. The order in which you put on your shoes. None of it requires a story. And that may be why a habit can feel like part of who you are.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Your own habits",
+    "sub": "The route you take"
+   }
+  },
+  {
+   "say": "So here's the fifth stop. You have several memories, not one. Episodes, facts, skills and head starts are different systems. One can fail while another still works. And remembering to do things in the future is a skill of its own.",
+   "show": {
+    "type": "list",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "title": "The fifth stop",
+    "items": [
+     "You have several memories, not one",
+     "Episodes, facts, skills and head starts are different systems",
+     "One system can fail while another works",
+     "Remembering to do things is its own skill"
+    ]
+   }
+  },
+  {
+   "say": "All of these memories, however they are stored, face the same question. How do you get them back when you want them? And why, sometimes, does a word you know perfectly well refuse to appear, even though it feels like it's just there?",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The next question",
+    "sub": "How do we get it back?"
+   }
+  }
+ ]
+}

@@ -1,0 +1,258 @@
+{
+ "id": "lf31_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine your memory is like a letter you've stored in a drawer. Every time you take it out to read it, you also have the chance to add a note in the margin before putting it back. That is, roughly, what some scientists now think happens when you remember. And the first hint came from a surprisingly strange place.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 62,
+    "title": "When recalling reopens the door"
+   }
+  },
+  {
+   "say": "In 1968, James Misanin and colleagues taught rats to fear a certain sound. A day later, they briefly reminded the rats of the sound, and then gave them a treatment that disrupted the brain. The rats seemed to lose the learned fear. But when the same treatment was given without the reminder, the fear stayed. It was as if the reminder had reopened the memory.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "who": "James Misanin, Ralph Miller & Donald Lewis",
+    "where": "Published in Science, 1968",
+    "what": "Gave rats a brief shock to the brain right after reminding them of a learned fear"
+   }
+  },
+  {
+   "say": "Strangely, this wasn't followed up for decades. The standard view was that once a memory had consolidated, it was fixed. A reminder was just a replay. Then, in 2000, a team at New York University revived the idea, with a very careful experiment.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "cap": "A forgotten idea",
+    "sub": "For about thirty years"
+   }
+  },
+  {
+   "say": "Karim Nader, Glenn Schafe and Joseph LeDoux taught rats to fear a tone, by pairing it with a mild shock. A day later, they played the tone once, as a reminder. And then they injected a drug that blocks the making of new proteins into the part of the brain involved in fear, the amygdala. When they tested the rats a day after that, the fear was much reduced.",
+   "show": {
+    "type": "study",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "who": "Karim Nader, Glenn Schafe & Joseph LeDoux",
+    "where": "Published in Nature, 2000",
+    "what": "Taught rats to fear a tone, then gave a drug that blocks memory-making after a reminder"
+   }
+  },
+  {
+   "say": "The drug only worked when it was given soon after the reminder. If it was given six hours later, or if there was no reminder at all, the fear memory stayed. So it wasn't simply damaging the memory. It was catching it during a short window of fragility, just after being recalled.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "The details matter",
+    "sub": "Timing is everything"
+   }
+  },
+  {
+   "say": "The researchers called the process reconsolidation. The idea is that when a stored memory is recalled, it becomes briefly unstable, a little like wet concrete again, and has to be put away once more. And while it's in that unsettled state, it can be strengthened, weakened, or updated with new information.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "rooftop_dusk",
+    "cap": "A new word",
+    "sub": "Reconsolidation"
+   }
+  },
+  {
+   "say": "Naturally, people wanted to know whether this works in humans. Those studies are harder, and more careful, and the results are more mixed.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A02",
+    "bg": "autumn_overlook",
+    "n": 63,
+    "title": "Changing a human memory"
+   }
+  },
+  {
+   "say": "In 2010, Daniela Schiller, Elizabeth Phelps and colleagues taught volunteers to expect a mild shock after seeing a certain coloured square. The next day, they showed the square once, as a reminder, and then taught the volunteers that the square was safe. Those who were taught within a short window after the reminder showed less return of fear when tested later, up to a year afterwards.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "who": "Daniela Schiller, Elizabeth Phelps and colleagues",
+    "where": "Published in Nature, 2010",
+    "what": "Taught people to fear a coloured square, then gave extinction training either soon after a reminder or hours later"
+   }
+  },
+  {
+   "say": "But the picture has since become more complicated. In 2020, a team led by Anna Chalkia tried to repeat the study, with careful pre-registration, and did not find the same effect. Other studies have found partial support, and some have not. Reconsolidation is a real and well studied idea in animals. In people, it's still being worked out.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "The honest part",
+    "sub": "Not as simple as it sounded"
+   }
+  },
+  {
+   "say": "Another approach, in 2009, was by Merel Kindt and colleagues. They gave volunteers a drug that blocks some effects of stress hormones, propranolol, shortly before reminding them of a learned fear. Fear responses were lower the following day. It's an interesting sign, but remember that these were mild laboratory fears, not real life, and it's no cure for anything.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "who": "Merel Kindt, Marieke Soeter & Bram Vervliet",
+    "where": "Published in Nature Neuroscience, 2009",
+    "what": "Gave people a drug before a reminder of a learned fear"
+   }
+  },
+  {
+   "say": "This is research, not a treatment you can try on your own, and it's not an eraser for painful memories. If a memory is troubling you, the right place to look for help is a doctor or a therapist, who can use the best available evidence. What matters here is how it changes the way we think about remembering.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Please note",
+    "sub": "A caution"
+   }
+  },
+  {
+   "say": "Think about what that means for an old family story. Each time you tell it, you take it out of the drawer, and put it back. Perhaps a little brighter, perhaps with a different ending, perhaps with the details you've heard from others. The story you have today is the latest edition.",
+   "show": {
+    "type": "photo",
+    "file": "lf31_b13_01.jpg",
+    "cap": "A memory taken out, and put back"
+   }
+  },
+  {
+   "say": "There's one more experiment that brings this into ordinary life, without any drugs.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 64,
+    "title": "An everyday version"
+   }
+  },
+  {
+   "say": "In 2007, Almut Hupbach and colleagues asked people to learn a set of objects on the first day. On the second day, they learned a second set of objects, but some of them were first given a subtle reminder of the first day, such as seeing the same experimenter again and being asked about that first session. On the third day, they were asked to recall the first set. Those with the reminder mistakenly included items from the second set.",
+   "show": {
+    "type": "study",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "who": "Almut Hupbach and colleagues",
+    "where": "Published in Learning & Memory, 2007",
+    "what": "Gave people a list of objects on one day, a second list on another day after a gentle reminder, and tested the first list on a third day"
+   }
+  },
+  {
+   "say": "The suggestion was that the reminder brought the first memory back into an open state, and the second set of objects was folded in. It's a modest effect, not a dramatic one, but it fits the picture. A memory that has just been recalled can pick up new information from the present moment.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "cap": "New information, folded in",
+    "sub": "An update"
+   }
+  },
+  {
+   "say": "This is not a bug either. If your memory of a friend's house is updated when you see that they have repainted the door, that's a helpful update. A flexible memory is one that keeps up with the world. The cost is that sometimes the update isn't an accurate one.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "rooftop_dusk",
+    "cap": "Why it can be useful",
+    "sub": "Memory that stays current"
+   }
+  },
+  {
+   "say": "There's a simple version of reconsolidation that you can see without any drugs, or labs at all. It's the way we tell stories.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 65,
+    "title": "Retelling shapes remembering"
+   }
+  },
+  {
+   "say": "In 2000, Barbara Tversky and Elizabeth Marsh gave volunteers a story about two roommates, and asked them to write a letter retelling it, either from one roommate's point of view or the other's. People added details, and shaped the story to suit the audience. Later, when asked to recall the original, they included details they had added in their own retelling.",
+   "show": {
+    "type": "study",
+    "sprite": "A02",
+    "bg": "rooftop_dusk",
+    "who": "Barbara Tversky & Elizabeth Marsh",
+    "where": "Published in Cognitive Psychology, 2000",
+    "what": "Asked people to retell a story from one person's point of view, and tested their memory later"
+   }
+  },
+  {
+   "say": "In other words, the version they had told became the version they remembered. A story told with a purpose, to cheer someone up, to make a point, to get a laugh, becomes slightly reshaped, and the shape stays. We remember our retelling better than the event.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "The telling becomes the memory",
+    "sub": "Biased retellings"
+   }
+  },
+  {
+   "say": "There's a good reason that researchers hoped reconsolidation might help, and it has to do with what ordinary learning does and doesn't do.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 66,
+    "title": "Why fear can return"
+   }
+  },
+  {
+   "say": "When an animal learns that a sound no longer predicts a shock, the fear drops. That's called extinction. But in a review in 2004, Mark Bouton pointed out that extinction doesn't seem to erase the original memory. Instead, a second memory is made, which says that the sound is safe, and it competes with the first.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "rooftop_dusk",
+    "who": "Mark Bouton",
+    "where": "Published in Learning & Memory, 2004",
+    "what": "Reviewed why learned fear returns after it has been apparently unlearned"
+   }
+  },
+  {
+   "say": "That helps to explain why fear can return after time has passed, or in a new place. The old memory is still there, and it only needs the right cue. The hope of reconsolidation research was that it might one day update the original memory, rather than just covering it up. That hope is still being tested.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Two memories",
+    "sub": "One quieter than the other"
+   }
+  },
+  {
+   "say": "So that's the tenth stop. Recalling a memory can make it fragile again. In animals, a short window follows a reminder. In people, the results are more mixed. And new information can be folded into an old memory.",
+   "show": {
+    "type": "list",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "title": "The tenth stop",
+    "items": [
+     "Recalling a memory can make it fragile again",
+     "In animals, a short window follows a reminder",
+     "In people, results are mixed",
+     "New information can be folded in"
+    ]
+   }
+  },
+  {
+   "say": "And that leaves us with one last, important question. If memories are rebuilt, and can change, why do some of them feel so utterly certain? Why do we feel we can see them as plainly as a photograph? This is the thread I promised we'd return to.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "One last question",
+    "sub": "Why does it still feel true?"
+   }
+  }
+ ]
+}

@@ -1,0 +1,314 @@
+{
+ "id": "lf31_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine somebody tells you a phone number, and you have nothing to write with. What do you do? Most of us repeat it quietly, over and over, and walk very carefully to wherever the pen is. That little habit says a lot about the second stop on our journey.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "rooftop_dusk",
+    "n": 10,
+    "title": "A small workspace"
+   }
+  },
+  {
+   "say": "For a few seconds, you can hold a handful of things in mind, as long as you keep attending to them. This is sometimes called short-term memory, or, in its more active form, working memory. It's the scratchpad where you do your thinking. And it is wonderfully useful, and surprisingly small.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "cap": "Holding on, for now",
+    "sub": "The mental scratchpad"
+   }
+  },
+  {
+   "say": "In 1959, Lloyd and Margaret Peterson gave volunteers a set of three consonants, like a short nonsense word. Then they stopped people from repeating it, by asking them to count backwards in threes from a given number. After just eighteen seconds of counting, only about one person in ten could still recall the letters.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "who": "Lloyd & Margaret Peterson",
+    "where": "Published in 1959",
+    "what": "Gave people three letters, then made them count backwards before asking for the letters"
+   }
+  },
+  {
+   "say": "It looked as if things simply fade from short-term memory within about a quarter of a minute, unless you keep rehearsing them. That became a famous result. But, as often happens, the story got more careful with time.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "cap": "Gone in seconds?",
+    "sub": "Or something else"
+   }
+  },
+  {
+   "say": "In 1962, Geoffrey Keppel and Benton Underwood pointed out something subtle. On the very first trial, people forgot very little, even after a long delay. The forgetting grew as the trials went on. So much of it seemed to come from earlier letters getting in the way, not from time alone. Memory, it turned out, can be crowded as well as faded.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "who": "Geoffrey Keppel & Benton Underwood",
+    "where": "Published in 1962",
+    "what": "Looked closely at the early trials of the same kind of experiment"
+   }
+  },
+  {
+   "say": "So how much can the workspace hold at once? The most quoted answer in all of psychology comes from a paper with a rather playful title.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 11,
+    "title": "Seven, plus or minus two"
+   }
+  },
+  {
+   "say": "In 1956, George Miller published the paper that gave us the famous number seven. Looking across many experiments, he noticed that people seemed to handle around seven things at a time, whether they were tones, digits or words, give or take two. He admitted the pattern might be partly a coincidence, but the idea stuck, and it is still quoted at dinner parties today.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "who": "George Miller",
+    "where": "The Psychological Review, 1956",
+    "what": "The Magical Number Seven, Plus or Minus Two: a review of how many items people could hold at once"
+   }
+  },
+  {
+   "say": "Miller also made a quieter point that is often forgotten. What counts as one item? The letters F, B, I, C, I, A are six separate pieces. But F B I and C I A are two familiar names, and those are easy. The size of the workspace depends on how you pack it.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Seven of what?",
+    "sub": "The counting problem"
+   }
+  },
+  {
+   "say": "Later, when researchers tried to control for rehearsal and grouping, a smaller number kept appearing. In 2001, Nelson Cowan reviewed the evidence and concluded that the true limit is closer to four chunks. So when somebody tells you seven, it's fair to say, perhaps four to seven, depending on how clever you are with the packing.",
+   "show": {
+    "type": "stat",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "A more careful estimate",
+    "big": "About 4",
+    "label": "chunks, when rehearsal and grouping are controlled"
+   }
+  },
+  {
+   "say": "And here's where it gets nice. Because if the limit is about chunks, then the way to expand your memory is not to grow the workspace, but to pack bigger things into each slot.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "n": 12,
+    "title": "The art of packing"
+   }
+  },
+  {
+   "say": "In 1973, William Chase and Herbert Simon showed chess players a middle-game position, with around twenty-five pieces, for just five seconds, then asked them to rebuild it from memory. Masters were far better than beginners. Of course. They must have much better memories. Except the researchers tried one more thing.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "who": "William Chase & Herbert Simon",
+    "where": "Published in 1973",
+    "what": "Showed chess players a board for about five seconds and asked them to rebuild it"
+   }
+  },
+  {
+   "say": "They showed the same players boards where the pieces had been placed at random, in positions that could never arise in a real game. And the masters' advantage almost vanished. Their memory wasn't bigger. It was that real positions formed meaningful chunks, patterns they had seen thousands of times, which a random board simply didn't offer.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "The twist",
+    "sub": "A board that makes no sense"
+   }
+  },
+  {
+   "say": "That is a lovely finding to take with you, because it works for everything. A musician sees a chord where a beginner sees three notes. A doctor sees a pattern in a chart where a student sees a list of numbers. Expertise is partly the quiet art of packing more into each slot.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "Experts see in chunks",
+    "sub": "Not in pieces"
+   }
+  },
+  {
+   "say": "Think of the workspace as a small shelf with only a few slots. You can't add slots, but you can fill each one with a bundle. A phone number split into three groups is three items instead of ten. A single word is one item, even though it's made of letters.",
+   "show": {
+    "type": "photo",
+    "file": "lf31_b03_01.jpg",
+    "cap": "Few slots, but each can hold a bundle"
+   }
+  },
+  {
+   "say": "Is the workspace one thing, or several? In 1974, two British psychologists suggested that it's more than one.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "n": 13,
+    "title": "More than one workspace"
+   }
+  },
+  {
+   "say": "Alan Baddeley and Graham Hitch noticed that you can rehearse a sentence in your head while also picturing a route to the shop, quite comfortably. But if you try to repeat one sentence and listen to another, they collide. So they proposed separate parts, one for sounds and words, one for images and space, and a controller that decides where attention goes.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "who": "Alan Baddeley & Graham Hitch",
+    "where": "Published in 1974",
+    "what": "Proposed that working memory has separate parts for sound-based and picture-based information, steered by a central controller"
+   }
+  },
+  {
+   "say": "In their later versions, they gave the parts names. A phonological loop for the sounds of words, a visuospatial sketchpad for pictures and places, and a central executive that steers. It's still one of the most used ideas in the field, though researchers keep refining it.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "title": "Baddeley and Hitch's idea",
+    "items": [
+     "A loop for sounds and words",
+     "A sketchpad for pictures and space",
+     "A central controller deciding where attention goes"
+    ]
+   }
+  },
+  {
+   "say": "It also explains a very common feeling. Trying to keep a conversation going while remembering what you came into the kitchen for. Trying to do a sum in your head while someone asks you something. When two jobs need the same part, one of them drops. It isn't a character flaw. It's a bottleneck.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "Why it feels crowded",
+    "sub": "Two jobs, one loop"
+   }
+  },
+  {
+   "say": "There's one more small thing the workspace tells us, and you can test it yourself.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "n": 14,
+    "title": "Firsts and lasts"
+   }
+  },
+  {
+   "say": "In 1962, Bennet Murdock read lists of words to volunteers and asked them to recall as many as they could, in any order. People remembered the first few words well, and the last few words very well, but the middle was weakest. The shape of the results is called the serial position effect. The first words get more rehearsal. The last are still in the workspace.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "who": "Bennet Murdock",
+    "where": "Published in 1962",
+    "what": "Read lists of words aloud and asked people to write down as many as they could, in any order"
+   }
+  },
+  {
+   "say": "In 1966, Murray Glanzer and Anita Cunitz showed that if you make people count for thirty seconds before recall, the advantage for the last words disappears, while the advantage for the first words stays. Which suggests that the end of the list was riding in the workspace, and the start had been moved somewhere more lasting.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "cap": "The last ones fade first",
+    "sub": "A delay changes it"
+   }
+  },
+  {
+   "say": "You can see it every day. The first thing a person said in a meeting, and the last thing, tend to stay with us more than the stuff in the middle. The opening song of a concert and the final one. The first and last item on a long shopping list.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Where this shows up",
+    "sub": "Ordinary life"
+   }
+  },
+  {
+   "say": "Can the limit be raised with practice? One of the best answers comes from a university student who was asked to do something quite dull, for a very long time.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "n": 15,
+    "title": "Stretching the limit"
+   }
+  },
+  {
+   "say": "In 1980, Anders Ericsson, William Chase and Steve Faloon asked a volunteer, Steve Faloon, a runner, to listen to random digits read out one per second, and then repeat them back. At the start, he could manage about seven, like most of us. They asked him to do the same thing, about an hour a day, several days a week, for many months.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "who": "Anders Ericsson, William Chase & Steve Faloon",
+    "where": "Published in Science, 1980",
+    "what": "Trained a student to remember longer and longer lists of digits"
+   }
+  },
+  {
+   "say": "After more than a year, and about 230 hours of practice, he could repeat 79 digits in a row. Not seven. Seventy-nine. And he hadn't become a genius, or developed a special brain. He had learned a method.",
+   "show": {
+    "type": "stat",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "title": "Where Steve Faloon ended up",
+    "big": "79 digits",
+    "label": "in a row, after about 230 hours of practice"
+   }
+  },
+  {
+   "say": "Steve was a keen runner, so he began to hear groups of digits as running times, such as three minutes and fifty-nine seconds. These were chunks that already meant something to him. Then he arranged those chunks into larger groups. He was using the idea of chunking, on a grand scale.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "autumn_overlook",
+    "cap": "His secret",
+    "sub": "Running times"
+   }
+  },
+  {
+   "say": "But there was a catch. When the researchers switched him from digits to letters, his span dropped back to around the ordinary level. The skill belonged to the method, not to some enlarged workspace. The shelf had the same few slots. He had simply learned to put bigger bundles on it.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "cap": "The catch",
+    "sub": "Only for digits"
+   }
+  },
+  {
+   "say": "So that's the second stop. A small workspace, lasting a few seconds. Around four chunks, depending on how you pack them. Experts pack more into each slot. And crowding, not only fading, is part of why things slip away.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "title": "The second stop",
+    "items": [
+     "A small workspace, a few seconds",
+     "Around four chunks, depending on packing",
+     "Experts pack more into each slot",
+     "Crowding, not only fading, causes forgetting"
+    ]
+   }
+  },
+  {
+   "say": "Now, the next question is the one most of us care about. What decides whether a thing stays? Why does one afternoon vanish, while another lasts for decades? The answer has less to do with how hard you try, and more to do with what your mind does with it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Moving on",
+    "sub": "What makes it stay"
+   }
+  }
+ ]
+}

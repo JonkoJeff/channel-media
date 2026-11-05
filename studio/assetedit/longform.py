@@ -403,6 +403,12 @@ def description(v, timing, series, path):
     for cut in (100, 75, 55, 40, 30):  # YouTube description limit is 5000 characters: shorten source lines step by step
         if len("\n".join(lines)) <= 4900: break
         lines = [l[:cut - 3].rstrip(" ,;:") + "\u2026" if l.startswith("\u2022 ") and l not in keep and len(l) > cut else l for l in lines]
+    src = [i for i, l in enumerate(lines) if l.startswith("• ") and l not in keep and not l.startswith("• Other photos") and not l.startswith("• Some images")]
+    n = 0  # lf31: ~100 sources were still over 5000 chars after cutting -> drop the last source lines, say how many
+    while src and len("\n".join(l for j, l in enumerate(lines) if j not in src[len(src) - n:])) + 45 > 4900 and n < len(src): n += 1
+    if n:
+        cut = set(src[len(src) - n:]); last = src[-1]
+        lines = [l if j != last else f"• …and {n} more studies named in the video." for j, l in enumerate(lines) if j not in cut or j == last]
     open(path, "w").write("\n".join(lines) + "\n")
 
 if __name__ == "__main__":

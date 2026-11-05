@@ -99,3 +99,4 @@ VERDICTS:
 - BAD Short covers: drawn only, never the same pose twice close together (owner 18 Oct 2026). Codex cf_cover is off for BAD.
 - BAD demand (owner 22 Oct 2026): plan new BAD topics from studio/factory/demand_BAD.md (YouTube most-searched terms); use the phrases in titles/hooks only when true to the content.
 - BAD long videos: minimum 120 min, formats F01/F02/F10/F15 only (owner 22 Oct 2026).
+- Brain After Dark (5 Nov 2026): lf31's AI quota ran out and the factory's Openverse fallback filled all 17 photo scenes with off-topic pictures (11x the same fashion polaroid, a high heel, a spider). Always look at studio/assetedit/photos/<id>_* before scheduling; if the AI quota is gone, convert photo scenes to char scenes instead of using the fallback. Also: ~100 sources overflow the 5000-char description; longform.description() now drops the last source lines and says how many.

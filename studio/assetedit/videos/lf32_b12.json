@@ -1,0 +1,273 @@
+{
+ "id": "lf32_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine two people facing the same hard task. Same skills, same time, same tools. One leans in. The other hesitates, and quietly gives up before really starting. Often, the difference between them isn't ability at all. It's a belief. The belief that effort will count.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "n": 32,
+    "title": "Belief: will my effort count?"
+   }
+  },
+  {
+   "say": "In 1977, the psychologist Albert Bandura gave this belief a name. He called it self-efficacy. It's not the same as general confidence, or self-esteem. It's a specific belief, about a specific task. Can I do this particular thing? Bandura argued that this belief shapes whether we start, how much effort we put in, and how long we keep going when things get hard.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "who": "Albert Bandura",
+    "where": "Published in Psychological Review, 1977",
+    "what": "Proposed that our belief in our ability to carry out a task shapes whether we try and how long we keep going"
+   }
+  },
+  {
+   "say": "Bandura described four main sources of that belief. The strongest is mastery, actually doing the thing, even in small steps. Then there's watching someone similar to you succeed. Then encouragement from other people. And finally, how you read your own body. A racing heart can feel like fear, or like readiness.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "title": "Where the belief comes from",
+    "items": [
+     "Doing it yourself",
+     "Seeing others like you do it",
+     "Encouragement from others",
+     "How your body feels"
+    ]
+   }
+  },
+  {
+   "say": "That first source is the important one. Being told you can do something helps a little. But doing it, even in a small way, helps much more. That's one reason small steps work so well. Each one is a tiny piece of evidence, quietly telling you, you can.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "Small successes",
+    "sub": "The strongest source"
+   }
+  },
+  {
+   "say": "The second source is quieter, but it matters too. When you see someone like you, someone with a similar starting point, manage something hard, a small voice says, maybe I could as well. Bandura found that the more similar the other person seems, the stronger this effect tends to be. That's one reason why stories of ordinary people can feel more encouraging than stories of stars.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Watching others",
+    "sub": "Someone like you"
+   }
+  },
+  {
+   "say": "But what happens when the evidence goes the other way? When someone tries and tries, and nothing they do seems to change anything? That question led to one of the best-known ideas in psychology, and also to one of its most interesting revisions.",
+   "show": {
+    "type": "char",
+    "sprite": "A16",
+    "bg": "street_day",
+    "cap": "The other side",
+    "sub": "When nothing seems to work"
+   }
+  },
+  {
+   "say": "In 1967, Martin Seligman and Steven Maier published experiments with dogs, of a kind that would trouble many people today. Some dogs were exposed to mild but unpleasant shocks that they could stop by pressing a panel. Others received the same shocks, but had no way to stop them. Later, all the dogs were placed in a box where they could escape simply by stepping over a low barrier.",
+   "show": {
+    "type": "study",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "who": "Martin Seligman & Steven Maier",
+    "where": "Published in 1967",
+    "what": "Found that dogs exposed to unpleasant events they could not control later failed to escape when escape became possible"
+   }
+  },
+  {
+   "say": "The dogs that had been able to control the shocks quickly learned to escape. But many of the dogs that had had no control didn't. They stayed where they were, even though escape was now easy. Seligman and Maier called this learned helplessness. The animals, they suggested, had learned that nothing they did mattered.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "attic_rain",
+    "cap": "The finding",
+    "sub": "They stopped trying"
+   }
+  },
+  {
+   "say": "The idea spread far beyond the lab. It became part of how psychologists thought about low mood and giving up in people. If you learn that your actions don't count, why would you keep acting? It was a powerful and influential idea, and for decades it was taught more or less as the original authors had described it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A big idea",
+    "sub": "Spreading far"
+   }
+  },
+  {
+   "say": "But in 2016, almost fifty years later, Maier and Seligman looked back at their own idea, with everything that had since been learned about the brain. And they concluded that they had had it the wrong way round.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "who": "Steven Maier & Martin Seligman",
+    "where": "Published in Psychological Review, 2016",
+    "what": "Revisited learned helplessness fifty years on, in light of brain research"
+   }
+  },
+  {
+   "say": "According to the newer research, passivity in the face of something bad and uncontrollable seems to be the brain's default response. It isn't learned. What is learned is control. When an animal discovers that its actions do make a difference, circuits involving the front of the brain step in and dampen that default reaction. Helplessness is where we start. Hope is what we learn.",
+   "show": {
+    "type": "char",
+    "sprite": "A11",
+    "bg": "street_day",
+    "cap": "The reversal",
+    "sub": "Control is what's learned"
+   }
+  },
+  {
+   "say": "I find that a rather hopeful reading. It suggests that the experience of making a difference, even a small one, isn't just pleasant. It may actively change how we respond to the next hard thing. Which brings us back to Bandura's first source. Small successes aren't small at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "A hopeful reading",
+    "sub": "Learning that you can"
+   }
+  },
+  {
+   "say": "Think of a seedling on a windowsill. You water it, and a few days later, there's a new leaf. It's a small thing. But it's proof that what you did made a difference, and that proof is quietly encouraging.",
+   "show": {
+    "type": "photo",
+    "file": "lf32_b12_01.jpg",
+    "cap": "A small sign that care counts"
+   }
+  },
+  {
+   "say": "There's one more belief worth looking at. It's not about a single task. It's about ability itself. Is intelligence, or talent, something fixed? Or something that can grow?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "n": 33,
+    "title": "Can ability grow?"
+   }
+  },
+  {
+   "say": "The psychologist Carol Dweck spent decades studying this question. She described two broad sets of beliefs. A fixed mindset, the belief that ability is mostly set from the start. And a growth mindset, the belief that ability can be developed with effort, good strategies, and help from others.",
+   "show": {
+    "type": "study",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "who": "Carol Dweck",
+    "where": "Mindset research, from the 1980s onwards",
+    "what": "Studied how believing ability is fixed or can grow shapes how people respond to difficulty"
+   }
+  },
+  {
+   "say": "The idea is that these beliefs change how a setback feels. With a fixed mindset, a mistake can seem like proof that you just aren't good enough, so it makes sense to avoid hard challenges. With a growth mindset, a mistake is more like information, a sign of where to work next.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "The idea",
+    "sub": "Mistakes mean different things"
+   }
+  },
+  {
+   "say": "Growth mindset became enormously popular, especially in schools. Posters went up on classroom walls, and many people hoped that teaching this one belief could transform how students learned. And, as with many big ideas tonight, researchers began to ask how big the effect really was.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A huge success",
+    "sub": "Then the questions"
+   }
+  },
+  {
+   "say": "In 2018, Victoria Sisk and her colleagues published two large analyses. One looked at how strongly people's mindsets were linked to their achievement. The other looked at whether programmes that teach growth mindset actually improve results. In both cases, the overall effects they found were small, and for many groups, close to zero.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "who": "Victoria Sisk and colleagues",
+    "where": "Published in Psychological Science, 2018",
+    "what": "Two meta-analyses of mindset and achievement, and of mindset interventions"
+   }
+  },
+  {
+   "say": "So a poster on the wall is not going to transform anyone's life. But the same analyses suggested the effects might be a little larger for some students, such as those who were already struggling at school. And that hint was taken up by a very large study.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "Not a magic poster",
+    "sub": "But not nothing"
+   }
+  },
+  {
+   "say": "In 2019, David Yeager and a large team published the results of a national study in the United States. Thousands of ninth-grade students took part in a short online programme, lasting less than an hour in total, about how the brain can grow stronger through effort and good strategies.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "who": "David Yeager and colleagues",
+    "where": "Published in Nature, 2019",
+    "what": "A national study of a short online growth mindset programme for ninth-graders in the United States"
+   }
+  },
+  {
+   "say": "Overall, the effect on grades was small. But for students who had been doing less well at school, the programme modestly improved their grades. And the effects seemed to depend on the setting, too, like whether the school's culture supported trying hard things. It wasn't a revolution. But it was a careful, honest result.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "A modest result",
+    "sub": "Small, but real"
+   }
+  },
+  {
+   "say": "That's a pattern we've seen all night. A belief is a little like a seed. It matters, but so does the soil it lands in. Growth mindset seems to help most when the world around a person also rewards effort and offers real ways to improve.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Belief and soil",
+    "sub": "Where the seed lands"
+   }
+  },
+  {
+   "say": "So if you're facing something hard right now, you might ask yourself a gentle question. What would be one small, clear sign that my effort is counting? Not the whole goal. Just one sign. Then go and look for it, and let yourself notice it when it comes.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "A gentle question",
+    "sub": "What would count?"
+   }
+  },
+  {
+   "say": "So that's this part of the night. Self-efficacy is a belief about one specific task. Doing something yourself builds it more than being told. Passivity may be the brain's default, and control is what we learn. And mindset effects are real, but smaller than their fame.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The twelfth stop",
+    "items": [
+     "Self-efficacy is a belief about one task",
+     "Doing beats being told",
+     "Helplessness may be the default",
+     "Control is what we learn",
+     "Mindset effects are real, but small"
+    ]
+   }
+  },
+  {
+   "say": "So far, we've mostly looked at a single person, alone with a task. But we rarely are. Other people are almost always around, watching, helping, or racing alongside us. And they change our motivation in ways that are sometimes very surprising.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The next question",
+    "sub": "We're never alone"
+   }
+  }
+ ]
+}

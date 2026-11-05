@@ -1,0 +1,239 @@
+{
+ "id": "lf32_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's talk about self-control. It's one of those words that sounds a little stern, like a teacher with folded arms. But underneath it is a very human puzzle. How do we choose something better later, when something good is right in front of us now?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "n": 27,
+    "title": "Self-control: the waiting game"
+   }
+  },
+  {
+   "say": "In the late 1960s and early 1970s, the psychologist Walter Mischel and his colleagues ran a series of studies at a nursery school on the Stanford campus. A child sat at a table with a treat, such as a marshmallow or a pretzel. The deal was simple. You can eat one now. Or, if you wait until the researcher comes back, you can have two.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "who": "Walter Mischel, Ebbe Ebbesen & Antonette Zeiss",
+    "where": "Stanford, published in 1972",
+    "what": "Offered preschool children a small treat now or a bigger one if they waited, and watched how they managed the wait"
+   }
+  },
+  {
+   "say": "What fascinated Mischel was not just who waited, but how they waited. Some children covered their eyes. Some sang to themselves, or kicked the table, or turned around so they couldn't see the treat. In these studies, when the treats were out of sight, or when children were given something fun to think about, they could wait much longer.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "street_day",
+    "cap": "Tiny strategies",
+    "sub": "How children waited"
+   }
+  },
+  {
+   "say": "That's the part that often gets lost. The early marshmallow studies weren't mainly about which children had iron will. They were about strategy. Waiting got easier when children shifted their attention away from the treat. Self-control, in those studies, looked less like gritting your teeth and more like knowing where to look.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "The real finding",
+    "sub": "Attention, not iron will"
+   }
+  },
+  {
+   "say": "Years later, the researchers got back in touch with some of those children, now teenagers. In a paper published in 1990, Yuichi Shoda, Walter Mischel and Philip Peake reported that the children who had waited longer as preschoolers tended, on average, to have higher test scores and were rated by their parents as coping better with frustration and stress.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Yuichi Shoda, Walter Mischel & Philip Peake",
+    "where": "Published in 1990",
+    "what": "Followed up some of the children years later and compared their waiting times with how they were doing as teenagers"
+   }
+  },
+  {
+   "say": "That finding became one of the most famous stories in psychology. A single moment with a marshmallow, the story went, could predict a child's future. It appeared in books, talks and classrooms all over the world. But the original follow-up was small, and the children came from a fairly narrow group, mostly from families connected to a university.",
+   "show": {
+    "type": "char",
+    "sprite": "A16",
+    "bg": "cafe_sunset",
+    "cap": "A famous story",
+    "sub": "One marshmallow, a whole life?"
+   }
+  },
+  {
+   "say": "So in 2018, Tyler Watts, Greg Duncan and Haonan Quan took another look, using a much larger and more varied group of children from a long-running study in the United States. They found a link between waiting and later school achievement too. But it was about half the size of the original. And once they took the children's background and early abilities into account, the link shrank much further.",
+   "show": {
+    "type": "study",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "who": "Tyler Watts, Greg Duncan & Haonan Quan",
+    "where": "Published in Psychological Science, 2018",
+    "what": "Repeated the follow-up with a much larger and more varied group of children"
+   }
+  },
+  {
+   "say": "So the marshmallow didn't turn out to be a crystal ball. Waiting at age four says something, but much of what it says seems to be about everything else in a child's life. That's an important correction, and it brings us to a study that asked a very simple question. What if waiting is sometimes a perfectly sensible choice, and sometimes not?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "What that means",
+    "sub": "Smaller, not zero"
+   }
+  },
+  {
+   "say": "In 2013, Celeste Kidd, Holly Palmeri and Richard Aslin added one step before the classic test. First, each child was given a small art project and an adult who promised better art supplies soon. For some children, the adult came back with the supplies, just as promised. For others, the adult came back and said, sorry, there aren't any after all.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "who": "Celeste Kidd, Holly Palmeri & Richard Aslin",
+    "where": "Published in Cognition, 2013",
+    "what": "Showed children a reliable or an unreliable adult before the marshmallow test"
+   }
+  },
+  {
+   "say": "Then came the marshmallow. The children who had just met a reliable adult waited, on average, around four times as long as the children who had met an unreliable one. In other words, children weren't only showing self-control. They were reading their world. If promises are usually kept, waiting makes sense. If they aren't, the treat in front of you is the wiser choice.",
+   "show": {
+    "type": "char",
+    "sprite": "A11",
+    "bg": "street_day",
+    "cap": "The result",
+    "sub": "Trust changed waiting"
+   }
+  },
+  {
+   "say": "I find that a very kind way of seeing it. Waiting is a kind of bet on the future. And whether it's a good bet depends on how much the future has kept its word. So when someone struggles to wait, it may be worth asking not only, what's wrong with them, but also, what has their world taught them?",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "A kinder view",
+    "sub": "Waiting is a bet"
+   }
+  },
+  {
+   "say": "Picture that small plate on the table. For a four-year-old, a few minutes of looking at it can feel very long. And yet, with a song, or a game, or a turn of the head, the minutes pass.",
+   "show": {
+    "type": "photo",
+    "file": "lf32_b10_01.jpg",
+    "cap": "A small plate, a long minute"
+   }
+  },
+  {
+   "say": "Now, there's another big idea about self-control that you may have heard of. It says that willpower is like a fuel tank. Every time you resist something, you burn a little, and eventually you run dry. Let's look at where that idea came from.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "n": 28,
+    "title": "Is willpower a fuel tank?"
+   }
+  },
+  {
+   "say": "In 1998, Roy Baumeister and his colleagues brought hungry volunteers into a room that smelled of freshly baked chocolate chip cookies. Some were allowed to eat the cookies. Others were asked to eat radishes instead, and leave the cookies alone. Afterwards, everyone was given a puzzle that, unknown to them, couldn't be solved.",
+   "show": {
+    "type": "study",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "who": "Roy Baumeister and colleagues",
+    "where": "Published in 1998",
+    "what": "Asked hungry volunteers to eat radishes instead of cookies, then timed how long they kept trying at an unsolvable puzzle"
+   }
+  },
+  {
+   "say": "The radish eaters, who had spent their effort resisting the cookies, gave up on the puzzle much sooner than the cookie eaters. The researchers suggested that self-control draws on a limited resource that gets used up. They called it ego depletion, and over the next decade or so, hundreds of studies seemed to support it.",
+   "show": {
+    "type": "char",
+    "sprite": "A17",
+    "bg": "street_day",
+    "cap": "The finding",
+    "sub": "Giving up sooner"
+   }
+  },
+  {
+   "say": "But as psychology began to look harder at its own findings, doubts grew. Many of those studies were small. And studies that found nothing were less likely to be published. When researchers corrected for that, the effect began to look a lot smaller than it first appeared.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "Then the doubts",
+    "sub": "A closer look"
+   }
+  },
+  {
+   "say": "So in 2016, a team led by Martin Hagger organised a large, careful test. More than twenty labs around the world followed the same plan, agreed in advance, with over two thousand participants in total. They used a different self-control task than the radishes, but the idea was the same. The overall effect they found was close to zero.",
+   "show": {
+    "type": "study",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "who": "Martin Hagger and colleagues",
+    "where": "Published in 2016",
+    "what": "A registered replication across more than twenty labs and over two thousand people"
+   }
+  },
+  {
+   "say": "That doesn't settle everything. Some researchers argue that the task chosen wasn't a strong enough test, and the debate continues. But the simple picture of a fuel tank that empties with every act of self-control is much shakier than it once seemed. Which raises an interesting question. Could your beliefs about willpower matter?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Where that leaves us",
+    "sub": "Still debated"
+   }
+  },
+  {
+   "say": "In 2010, Veronika Job, Carol Dweck and Gregory Walton did just that. They found that people who believed willpower was easily used up tended to perform worse after a demanding task. But people who believed that willpower wasn't so limited, that effort could even energise them, didn't show that drop in the same way.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "who": "Veronika Job, Carol Dweck & Gregory Walton",
+    "where": "Published in Psychological Science, 2010",
+    "what": "Measured and changed what people believed about willpower, then looked at how a tiring task affected them"
+   }
+  },
+  {
+   "say": "This doesn't mean you can do anything if you simply believe hard enough. Tiredness is real, and so is hunger, and so is a long day. But how you interpret a feeling of effort seems to shape what you do with it. Sometimes, the sense of being empty is a signal worth listening to. And sometimes, it's just a feeling, passing through.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "A gentle takeaway",
+    "sub": "What you believe"
+   }
+  },
+  {
+   "say": "So that's this part of the night. Waiting is easier with a strategy than with gritted teeth. The marshmallow link is much smaller than its fame. Trust shapes whether waiting makes sense at all. The willpower fuel tank is a shaky idea. And what you believe about effort seems to matter.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The tenth stop",
+    "items": [
+     "Waiting is easier with a strategy",
+     "The marshmallow link is smaller than its fame",
+     "Trust shapes whether waiting makes sense",
+     "The fuel tank idea is shaky",
+     "Beliefs about effort matter"
+    ]
+   }
+  },
+  {
+   "say": "But there's one form of struggle that almost everyone knows, and it isn't about a treat at all. It's about the task you know you should do, that you keep moving to tomorrow. Let's look at procrastination.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The next question",
+    "sub": "Why we put things off"
+   }
+  }
+ ]
+}

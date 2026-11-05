@@ -1,0 +1,292 @@
+{
+ "id": "lf32_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think about this morning. Did you decide to brush your teeth? Did you decide which hand to hold the toothbrush in, or which side of your mouth to start on? Probably not. It just happened. And that's where motivation gets interesting, because so much of what you do needs no motivation at all.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "n": 35,
+    "title": "The quiet machinery of habit"
+   }
+  },
+  {
+   "say": "We like to imagine that we steer our days with a series of choices. Get up. Make coffee. Check the phone. Head out. But if you look closely, a great deal of it runs on its own, like a well-worn path your feet already know.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "On autopilot",
+    "sub": "More often than you think"
+   }
+  },
+  {
+   "say": "In 2002, the psychologist Wendy Wood and her colleagues asked students to keep a diary. Every hour, they wrote down what they were doing, what they were thinking, and where they were. Then the researchers looked for patterns.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "who": "Wendy Wood, Jeffrey Quinn & Deborah Kashy",
+    "where": "Published in 2002",
+    "what": "Had people keep diaries of what they did and found that about 43 percent of daily actions were repeated almost every day, in the same place"
+   }
+  },
+  {
+   "say": "About 43 percent of the actions people recorded were things they did almost every day, usually in the same setting. And here's the curious part. While they were doing those things, people were often thinking about something else entirely.",
+   "show": {
+    "type": "stat",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Actions repeated almost daily, in the same setting",
+    "big": "About 43 percent",
+    "label": "of the behaviours people recorded in their diaries"
+   }
+  },
+  {
+   "say": "So what is a habit, really? Wood and her colleague David Neal described it as a link between a situation and an action. A cue in the world, a place, a time, a feeling, and a response that has followed it so often that the cue alone sets it off. The goal that started it can fade away. The link stays.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "What a habit really is",
+    "sub": "A cue and a response"
+   }
+  },
+  {
+   "say": "That sounds abstract, so here's a test of it, and it involves popcorn. Not fresh popcorn. Popcorn that had been sitting around for a week, soft and stale.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A strange test",
+    "sub": "Week-old popcorn"
+   }
+  },
+  {
+   "say": "In 2011, David Neal, Wendy Wood and their colleagues handed out popcorn to people going in to watch film clips at a cinema. Some got fresh popcorn. Some got popcorn that was a week old. People who rarely ate popcorn at the cinema ate less of the stale kind, as you'd expect.",
+   "show": {
+    "type": "study",
+    "sprite": "A16",
+    "bg": "street_day",
+    "who": "David Neal, Wendy Wood, Mengju Wu & David Kurlander",
+    "where": "Published in 2011",
+    "what": "Gave people fresh or week-old popcorn in a cinema; habitual popcorn eaters ate the stale kind just as readily"
+   }
+  },
+  {
+   "say": "But people with a strong habit of eating popcorn at the movies ate about as much of the stale popcorn as the fresh. Even though, when asked, they said they didn't like it much. Their hands were following the cinema, not their taste buds.",
+   "show": {
+    "type": "char",
+    "sprite": "A06",
+    "bg": "cafe_sunset",
+    "cap": "The twist",
+    "sub": "The cue did the eating"
+   }
+  },
+  {
+   "say": "And here's the part that matters most. When the same test was run in a meeting room, while people watched music videos, the habit didn't carry over. Away from the cinema, habitual eaters left the stale popcorn alone. And in the cinema, simply making people eat with their other hand was enough to break the spell.",
+   "show": {
+    "type": "char",
+    "sprite": "A17",
+    "bg": "neon_alley_rain",
+    "cap": "Change the setting",
+    "sub": "The habit loosens"
+   }
+  },
+  {
+   "say": "That's a hopeful finding. It suggests you don't always need more willpower to change a habit. Sometimes you need to change the setting, or add a small bump in the road, so the old path isn't quite so automatic.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "The lesson",
+    "sub": "Change the cue, not your willpower"
+   }
+  },
+  {
+   "say": "So what happens to habits on a hard week, when you're tired and stressed and your willpower is running low? You might guess that everything falls apart. The truth is a little more surprising.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "Under pressure",
+    "sub": "What happens when we're tired?"
+   }
+  },
+  {
+   "say": "In 2013, David Neal, Wendy Wood and Aimee Drolet followed university students through exam periods. When the students were stressed and short on energy, they leaned more heavily on their habits. Those with unhealthy habits did more of the unhealthy things. But those with good habits, like eating a proper breakfast, kept them up, or even did them more.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "who": "David Neal, Wendy Wood & Aimee Drolet",
+    "where": "Published in 2013",
+    "what": "Followed students through exam periods and found that under stress they fell back on their habits, healthy and unhealthy alike"
+   }
+  },
+  {
+   "say": "That's the kind side of habit. When your motivation runs dry, your habits are still there, doing what they've always done. Which means the best time to build a good habit is on an ordinary week, so that on a hard week, it can look after you.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "The kind side",
+    "sub": "Habits look after you"
+   }
+  },
+  {
+   "say": "So what about building a new habit? You've probably heard the number. Twenty-one days. Do something for three weeks, and it sticks. It's a lovely neat number. It's also, it turns out, a myth.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Building a new one",
+    "sub": "How long does it take?"
+   }
+  },
+  {
+   "say": "The number seems to trace back to a 1960 book by a plastic surgeon called Maxwell Maltz. He wrote that his patients seemed to take a minimum of about twenty-one days to get used to a change, such as a new face. Over the years, a minimum turned into a rule, and a rule about adjusting turned into a rule about habits.",
+   "show": {
+    "type": "study",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "who": "Maxwell Maltz",
+    "where": "Psycho-Cybernetics, 1960",
+    "what": "A plastic surgeon who wrote that it took a minimum of about 21 days for people to adjust to changes like a new face"
+   }
+  },
+  {
+   "say": "In 2010, Phillippa Lally and her colleagues at University College London actually measured it. They asked 96 volunteers to pick one new daily behaviour, like drinking a glass of water with lunch, or going for a short run before dinner. Each day, people rated how automatic it felt.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "who": "Phillippa Lally and colleagues",
+    "where": "Published in 2010",
+    "what": "Followed 96 people building a new daily habit and found it took a median of 66 days to become automatic, with a range from 18 to 254 days"
+   }
+  },
+  {
+   "say": "The typical time for a habit to level off was about sixty-six days. But the range was enormous. For one person, it was eighteen days. For others, the estimate stretched to two hundred and fifty-four. Simpler habits, like a glass of water, tended to become automatic sooner than harder ones, like exercise.",
+   "show": {
+    "type": "bars",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Days until a new habit felt automatic",
+    "unit": "days",
+    "bars": [
+     [
+      "Fastest person",
+      18.0
+     ],
+     [
+      "Typical (median)",
+      66.0
+     ],
+     [
+      "Slowest estimate",
+      254.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And there's one detail in that study I'm especially fond of. Missing a single day didn't seem to make much difference to how the habit grew. So if you skip a day, the path doesn't disappear. You can simply step back on it.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "autumn_overlook",
+    "cap": "A kind detail",
+    "sub": "Missing a day is fine"
+   }
+  },
+  {
+   "say": "Then there's the question of how to show up in the early days, before the habit carries you. One clever idea is to pair the thing you should do with something you want to do.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Making it easier",
+    "sub": "Bundle it with something you enjoy"
+   }
+  },
+  {
+   "say": "Imagine a gripping audiobook, the kind you can't stop listening to. Now imagine you're only allowed to listen to it while you exercise. That's the whole idea.",
+   "show": {
+    "type": "photo",
+    "file": "lf32_b14_01.jpg",
+    "cap": "A story you can only hear in one place"
+   }
+  },
+  {
+   "say": "In 2014, Katherine Milkman, Julia Minson and Kevin Volpp tested this. Some volunteers were given gripping audiobooks on a device they could only use at the gym. The researchers called it temptation bundling. And in the first weeks, those people went to the gym more often than people in a comparison group.",
+   "show": {
+    "type": "study",
+    "sprite": "A11",
+    "bg": "rooftop_dusk",
+    "who": "Katherine Milkman, Julia Minson & Kevin Volpp",
+    "where": "Published in 2014",
+    "what": "Let people listen to tempting audiobooks only at the gym and found they went to the gym more, at least at first"
+   }
+  },
+  {
+   "say": "The honest part is that the boost faded over time. After a holiday break, the difference between the groups shrank. But even so, when the study ended, many people said they would choose to keep their audiobooks locked to the gym. They liked the trick, even knowing it was a trick.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "The honest part",
+    "sub": "The effect faded"
+   }
+  },
+  {
+   "say": "There's one more moment when habits loosen, and it's a big one. When your life changes. A new home, a new job, a new town. Researchers like Bas Verplanken and Wendy Wood have pointed out that these moments break the old cues. For a little while, the autopilot has nothing to follow.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Fresh ground",
+    "sub": "When life moves house"
+   }
+  },
+  {
+   "say": "That can be unsettling, but it's also a window. When the old cues are gone, it's a little easier to lay down new paths. If your life has just changed in some way, that might be the very best time to start the habit you've been meaning to start.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "A window",
+    "sub": "A good time to begin"
+   }
+  },
+  {
+   "say": "So, a short summary. Habits are links between a cue and an action. To change one, change the cue. To build one, expect weeks, not days. Missing a day is fine. And it helps to pair the hard thing with something you enjoy.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Habits, gently",
+    "items": [
+     "Change the cue, not just the effort",
+     "Expect weeks, not days",
+     "A missed day is fine",
+     "Pair it with something you like"
+    ]
+   }
+  },
+  {
+   "say": "Habits carry us when motivation is low. But there's another state, almost the opposite, where you're fully awake, fully absorbed, and the work itself feels like the reward. Let's talk about flow, and about meaning.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "street_day",
+    "cap": "Next",
+    "sub": "When doing becomes its own reward"
+   }
+  }
+ ]
+}

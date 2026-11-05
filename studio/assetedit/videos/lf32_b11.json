@@ -1,0 +1,272 @@
+{
+ "id": "lf32_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Almost everyone knows this feeling. There's a task. You know it matters. You even know roughly how to do it. And yet, somehow, you find yourself tidying a drawer, checking your phone, or making another cup of tea. Let's look, gently, at what's going on.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "n": 29,
+    "title": "Procrastination: the task that waits"
+   }
+  },
+  {
+   "say": "The first thing to say is that procrastination is not the same as laziness. Lazy would mean you don't care, and you don't want to do anything. But most people who procrastinate care a great deal. They often keep busy, too. They're just busy with something other than the thing they meant to do.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cafe_sunset",
+    "cap": "Not just laziness",
+    "sub": "A puzzle worth solving"
+   }
+  },
+  {
+   "say": "In 2007, the psychologist Piers Steel pulled together the results of hundreds of studies on procrastination. He wanted to see which things were most consistently connected to putting tasks off. His review suggested that procrastination is very common, especially among students, and that for a sizable minority of adults it's a regular, chronic pattern.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "who": "Piers Steel",
+    "where": "Published in Psychological Bulletin, 2007",
+    "what": "Combined hundreds of studies on procrastination to see what it was most linked to"
+   }
+  },
+  {
+   "say": "Steel found a handful of factors that kept coming up. People put things off more when the task itself felt unpleasant or boring. When the reward was far away in time. When they tended to be impulsive and easily distracted. And when they didn't feel confident they could succeed.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What Steel found",
+    "items": [
+     "The task feels unpleasant",
+     "The reward is far away",
+     "Impulsiveness",
+     "Low confidence in success"
+    ]
+   }
+  },
+  {
+   "say": "Steel summed this up in what he called temporal motivation theory. In plain words, you're more likely to act on something when you expect to succeed, when you value the result, and when the result is close in time. But the further away the payoff, and the more impulsive you are, the weaker the pull.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "cap": "A simple picture",
+    "sub": "Distance in time"
+   }
+  },
+  {
+   "say": "That helps explain a pattern you may recognise. Weeks before a deadline, the task feels distant and abstract, and anything else wins. Then, as the deadline gets close, the pull of the task suddenly grows, and you find yourself working late into the night. The task didn't change. Only the distance did.",
+   "show": {
+    "type": "char",
+    "sprite": "A16",
+    "bg": "street_day",
+    "cap": "Deadlines",
+    "sub": "Why the rush comes late"
+   }
+  },
+  {
+   "say": "Psychologists sometimes describe this as a tug of war between now and later. Whatever is right in front of you has a strong, immediate pull. Whatever lies in the future pulls weakly, even when it matters more. And the closer something gets, the stronger its pull becomes. That's why the same evening can feel impossible to work in one week, and perfectly fine the next.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The present wins",
+    "sub": "A tug of war"
+   }
+  },
+  {
+   "say": "In 1997, Dianne Tice and Roy Baumeister followed university students through a semester. Early on, the procrastinators actually seemed to be doing better. They reported less stress and fewer symptoms of illness than the students who started their work early. Putting things off, it seemed, felt good at first.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Dianne Tice & Roy Baumeister",
+    "where": "Published in Psychological Science, 1997",
+    "what": "Followed students through a semester, comparing procrastinators with those who started early"
+   }
+  },
+  {
+   "say": "But by the end of the semester, the picture flipped. The procrastinators reported more stress and more illness, and they tended to get lower grades. Over the whole term, they came out worse. The early relief was real, but it was borrowed from later.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "attic_rain",
+    "cap": "Then the turn",
+    "sub": "The cost arrives later"
+   }
+  },
+  {
+   "say": "So why would anyone choose a short relief that costs more later? A growing number of researchers think the answer isn't really about time management at all. It's about feelings.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "n": 30,
+    "title": "A mood problem"
+   }
+  },
+  {
+   "say": "In 2013, Fuschia Sirois and Timothy Pychyl described procrastination as a form of short-term mood repair. The task stirs up an uncomfortable feeling. Boredom, perhaps, or anxiety, or self-doubt. Putting it off makes that feeling go away, right now. And the relief is real, which is exactly why the habit is so hard to shake.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "who": "Fuschia Sirois & Timothy Pychyl",
+    "where": "Published in 2013",
+    "what": "Argued that procrastination is a way of repairing a bad mood now, at the expense of the future self"
+   }
+  },
+  {
+   "say": "Seen this way, procrastination is less about failing to plan and more about trying to feel better. That's a kinder way to look at it. It also suggests a different starting point. Instead of asking, why can't I just do it, you might ask, what feeling am I trying to avoid?",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "Feeling first",
+    "sub": "Then the task"
+   }
+  },
+  {
+   "say": "But there's another character in this story. When you put a task off, someone else ends up doing it. That someone is you, a few days or weeks from now. And psychologists have found that we often treat that future person in a surprising way.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "Who pays later",
+    "sub": "The future self"
+   }
+  },
+  {
+   "say": "In 2008, Emily Pronin, Christopher Olivola and Kathleen Kennedy ran a rather memorable experiment. They told students they were helping with a study on disgust, and asked how much of an unpleasant drink, a mix of ketchup and soy sauce, they would agree to drink for science.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Emily Pronin, Christopher Olivola & Kathleen Kennedy",
+    "where": "Published in 2008",
+    "what": "Asked students how much of an unpleasant drink they would agree to drink, now or in the future, or for someone else"
+   }
+  },
+  {
+   "say": "Some students decided how much they would drink right then. Others decided for their future selves, in a later semester. And others decided how much another student should drink. The students signed up their future selves for much more of the drink than their present selves, about as much as they signed up a stranger for.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "The twist",
+    "sub": "Future you drinks more"
+   }
+  },
+  {
+   "say": "That's the heart of it. In some ways, we think about our future selves as if they were someone else. Someone with more time, more energy, more patience. Someone who won't mind doing the hard part. And that makes it remarkably easy to hand them the task.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "A stranger called you",
+    "sub": "That's the pattern"
+   }
+  },
+  {
+   "say": "Picture the closed notebook and the warm cup of tea. The tea is here, and it's lovely. The notebook can wait, you tell yourself, for that other version of you, the one who'll have more time tomorrow.",
+   "show": {
+    "type": "photo",
+    "file": "lf32_b11_01.jpg",
+    "cap": "Tea now, the notebook later"
+   }
+  },
+  {
+   "say": "So, if procrastination is partly a mood problem, and partly a way of passing work to a stranger called future you, what actually helps? One of the most interesting answers is also one of the gentlest.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "n": 31,
+    "title": "Breaking the loop"
+   }
+  },
+  {
+   "say": "In 2010, Michael Wohl, Timothy Pychyl and Shannon Bennett followed university students across two exams. They measured how much students had procrastinated before the first one, and how much they had forgiven themselves for it. Then they looked at how much those students procrastinated before the next exam.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "who": "Michael Wohl, Timothy Pychyl & Shannon Bennett",
+    "where": "Published in 2010",
+    "what": "Asked whether students who forgave themselves for procrastinating would procrastinate less next time"
+   }
+  },
+  {
+   "say": "Students who had forgiven themselves for procrastinating the first time tended to procrastinate less before the second exam. It sounds backwards. Wouldn't being hard on yourself make you try harder? But harsh self-blame adds another bad feeling to the pile, and bad feelings are exactly what procrastination tries to escape.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "street_day",
+    "cap": "The result",
+    "sub": "Kindness helped"
+   }
+  },
+  {
+   "say": "So a gentler approach often works better. Forgive the last delay. Then make the next step so small that it hardly stirs up any feeling at all. Not write the essay, but open the document. Not clean the house, but put away three things. Once you've started, the pull of the unfinished, from earlier tonight, can do some of the work for you.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "A softer start",
+    "sub": "Make the task smaller"
+   }
+  },
+  {
+   "say": "And you can try thinking of your future self as a friend, rather than a stranger. Someone you'd like to help. Doing a small piece of the task today is a little gift to them. They'll be tired too, after all.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Be kind to future you",
+    "sub": "A small gift"
+   }
+  },
+  {
+   "say": "One more small idea. You can make starting easier for your future self, before they even arrive. Leave the book open at the right page. Put the walking shoes by the door. Write the first sentence tonight, so tomorrow begins with a sentence already there. You're not forcing anything. You're just lowering the step.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Tiny commitments",
+    "sub": "Set it up the night before"
+   }
+  },
+  {
+   "say": "So that's this part of the night. Procrastination is not laziness. Distant rewards pull weakly. Putting things off repairs a bad mood, but only briefly. We tend to treat our future selves like strangers. And forgiving yourself seems to help more than scolding.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The eleventh stop",
+    "items": [
+     "Procrastination is not laziness",
+     "Distant rewards pull weakly",
+     "It repairs mood, briefly",
+     "We treat future selves like strangers",
+     "Self-forgiveness helps"
+    ]
+   }
+  },
+  {
+   "say": "Running quietly underneath all of this is a single belief. Whether you think your effort will actually make a difference. That belief can lift you up, or hold you very still. Let's look at it next.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The next question",
+    "sub": "Do you believe you can?"
+   }
+  }
+ ]
+}

@@ -1,0 +1,283 @@
+{
+ "id": "lf32_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's begin with the body, and with a question that sounds almost too simple. Why does a hungry animal look for food? The early answers to that question shaped the study of motivation for decades.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 3,
+    "title": "Drives and curiosity"
+   }
+  },
+  {
+   "say": "Right now, without any effort from you, your body is holding a great many things steady. Your temperature. The water in your blood. The sugar your cells run on. When any of these drift too far, you feel something. Thirst. Hunger. A chill. And that feeling pushes you to act.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Keeping steady",
+    "sub": "All day, without asking"
+   }
+  },
+  {
+   "say": "The American physiologist Walter Cannon gave this a name. He called it homeostasis, from Greek words meaning staying the same. In his 1932 book, The Wisdom of the Body, he described how the body constantly corrects itself, nudging temperature, fluids and blood sugar back towards where they belong.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "who": "Walter Cannon",
+    "where": "The Wisdom of the Body, 1932",
+    "what": "Described how the body works to keep its inner conditions stable, and named this homeostasis"
+   }
+  },
+  {
+   "say": "It's a lot like a thermostat. When the room gets too cold, the heating comes on. When it's warm enough, it switches off. Your body does something similar, but part of the correction is behaviour. You don't just shiver. You also reach for a blanket.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Like a thermostat",
+    "sub": "A gap, and a correction"
+   }
+  },
+  {
+   "say": "In 1943, the American psychologist Clark Hull built a whole theory on this idea. In his book, Principles of Behavior, he proposed that a bodily need creates a state of tension, which he called a drive. The animal acts. And whatever action reduces the drive gets stamped in, so it's more likely next time.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "who": "Clark Hull",
+    "where": "Principles of Behavior, 1943",
+    "what": "Proposed that behaviour is driven by needs that create an unpleasant drive, and that reducing the drive is what strengthens a habit"
+   }
+  },
+  {
+   "say": "It was a tidy theory, and it explained a lot. A hungry rat learns the way through a maze because reaching the food reduces its hunger. Thirst, cold, pain, all could be fitted in. On this view, every animal is, at heart, trying to get back to calm.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "A tidy theory",
+    "sub": "Hunger, thirst, relief"
+   }
+  },
+  {
+   "say": "But even with food, the tidy picture has cracks. You've probably eaten a large meal, felt completely full, and then found there was somehow room for dessert. If eating were only about filling a gap, that shouldn't happen. Something else is going on.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "Full, but still eating",
+    "sub": "The dessert puzzle"
+   }
+  },
+  {
+   "say": "In 1981, Barbara Rolls and her colleagues described something called sensory specific satiety. As you eat one food, its taste becomes less pleasant to you, faster than the taste of foods you haven't eaten. So a new flavour can still feel inviting, even when you're full. Variety itself seems to pull at us.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "who": "Barbara Rolls & colleagues",
+    "where": "Published in 1981",
+    "what": "Found that the pleasantness of a food falls as you eat it, while other foods you haven't eaten stay appealing"
+   }
+  },
+  {
+   "say": "And there was a bigger problem. If animals only act to reduce drives, then a well-fed, comfortable animal, with no needs at all, should simply sit still. And researchers kept finding animals that did not sit still. They poked and fiddled and explored, for no reward anyone could see.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A problem",
+    "sub": "Animals that do things for nothing"
+   }
+  },
+  {
+   "say": "In 1950, Harry Harlow, Margaret Harlow and Donald Meyer, at the University of Wisconsin, placed small mechanical puzzles in the cages of rhesus monkeys. Each puzzle was a little latch made of a pin, a hook and a hasp, which had to be undone in the right order. There was no food, no treat, nothing to win.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "who": "Harry Harlow, Margaret Harlow & Donald Meyer",
+    "where": "University of Wisconsin, 1950",
+    "what": "Gave rhesus monkeys mechanical puzzles; the monkeys worked at them repeatedly with no food reward and became better at solving them"
+   }
+  },
+  {
+   "say": "And the monkeys solved them anyway. They took the latches apart again and again, and got better at it with practice, making fewer mistakes as the days went on. Nobody was paying them in raisins. Harlow suggested that the activity itself seemed to be the reward. He wrote of a manipulation drive.",
+   "show": {
+    "type": "char",
+    "sprite": "A16",
+    "bg": "street_day",
+    "cap": "They solved them anyway",
+    "sub": "Again and again"
+   }
+  },
+  {
+   "say": "That was awkward for drive theory. There's no bodily tissue that runs low when a monkey hasn't undone a latch. No hunger for latches. Something else was moving these animals, something that seemed to be about the puzzle, not about getting back to calm.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Hard to fit",
+    "sub": "A drive with no need behind it"
+   }
+  },
+  {
+   "say": "A few years later, in 1953, Robert Butler, who worked in Harlow's laboratory, found something similar. Monkeys inside a closed box would learn to choose the correct one of two doors, and the only reward was that the door opened, and they could look out for a while at the room beyond.",
+   "show": {
+    "type": "study",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "who": "Robert Butler",
+    "where": "Published in 1953",
+    "what": "Found that monkeys would learn a task just for the chance to open a small window and look out at the laboratory"
+   }
+  },
+  {
+   "say": "Just to look. No food, no warmth, no escape. Simply the chance to see what was going on outside, for a few moments, before the door closed again. And the monkeys learned the task, and kept choosing. Looking, it seemed, was worth working for.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Just to look",
+    "sub": "Curiosity as a reward"
+   }
+  },
+  {
+   "say": "In 1960, the psychologist Daniel Berlyne wrote a whole book about this, called Conflict, Arousal and Curiosity. He argued that certain qualities pull at attention all by themselves. Things that are new. Things that are surprising. Things that are complex, or uncertain. We approach them, and explore them, simply because of what they are.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "who": "Daniel Berlyne",
+    "where": "Conflict, Arousal and Curiosity, 1960",
+    "what": "Argued that novelty, surprise, complexity and uncertainty draw attention and exploration on their own"
+   }
+  },
+  {
+   "say": "Berlyne's list is worth pausing on. Something new. Something surprising. Something complex. Something uncertain. Think of the last time you couldn't stop reading, or couldn't look away. It probably had at least one of those in it.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What draws curiosity",
+    "items": [
+     "Something new",
+     "Something surprising",
+     "Something complex",
+     "Something uncertain"
+    ]
+   }
+  },
+  {
+   "say": "Later researchers described curiosity as a feeling about a gap. When you know a little, but not quite enough, the missing piece starts to itch. It's why a question at the end of a story is so hard to leave alone, and why you might still be wondering about that child with the drawings.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "A gap to fill",
+    "sub": "The itch of not knowing"
+   }
+  },
+  {
+   "say": "This pull towards the new shows up very early in life. Since the 1960s, researchers such as Robert Fantz have found that young babies tend to look longer at a new pattern than at one they've already seen many times. Long before they can talk, they're quietly drawn to novelty.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Babies too",
+    "sub": "Looking longer at what's new"
+   }
+  },
+  {
+   "say": "Picture a small brass latch on a wooden table. There's nothing inside the box. Nothing to win. And yet your fingers would probably want to try it, just to see if you could.",
+   "show": {
+    "type": "photo",
+    "file": "lf32_b02_01.jpg",
+    "cap": "A puzzle worth solving for its own sake"
+   }
+  },
+  {
+   "say": "There's one more old idea about the body and motivation that's worth meeting, because you've probably heard a version of it. It's about how stirred up you are, and how well you perform.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 4,
+    "title": "Too much, too little"
+   }
+  },
+  {
+   "say": "In 1908, Robert Yerkes and John Dodson trained mice to choose between two boxes, using mild electric shocks of different strengths when they chose wrong. When the choice was easy, stronger shocks led to faster learning. But when the choice was hard, a middle strength seemed to work best.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "who": "Robert Yerkes & John Dodson",
+    "where": "Published in 1908",
+    "what": "Trained mice to choose between boxes using mild shocks of different strengths; for a hard choice, a medium strength worked best"
+   }
+  },
+  {
+   "say": "Decades later, other writers turned this into a famous general rule about arousal. Too little, and you're sluggish. Too much, and you fall apart. Somewhere in the middle, you do your best. Drawn on a graph, it looks like an upside-down U, and it appears in a great many textbooks.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The inverted U",
+    "sub": "Later, a general rule"
+   }
+  },
+  {
+   "say": "Here's the caution. The original study was about mice, shocks, and learning to tell boxes apart. It wasn't about stress, or excitement, or exam nerves in people. Reviewers have pointed out that the neat curve was stretched to cover far more than those experiments ever measured, so it's best held lightly.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "neon_alley_rain",
+    "cap": "A caution",
+    "sub": "More than the data showed"
+   }
+  },
+  {
+   "say": "That doesn't make it useless. Most of us know the feeling of being too flat to start, or too wound up to think. But it's a useful hint, not a law of nature. Real performance depends on the task, the person, and what kind of arousal we're even talking about.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Still a useful hint",
+    "sub": "Not a law"
+   }
+  },
+  {
+   "say": "So that's the first stop. The body works to keep itself steady. Needs create drives, and relief can teach. But animals, and people, also explore for nothing at all. Curiosity seems to be a reward in itself.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "title": "The first stop",
+    "items": [
+     "The body keeps itself steady",
+     "Needs create drives",
+     "But animals explore for nothing",
+     "Curiosity is its own reward"
+    ]
+   }
+  },
+  {
+   "say": "Which raises a deeper question. When something feels rewarding, what is actually happening inside the brain? In the 1950s, two young researchers stumbled on an answer by accident, and it led, decades later, to one of the most surprising ideas in all of this.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "The next question",
+    "sub": "What is a reward, anyway?"
+   }
+  }
+ ]
+}

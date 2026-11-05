@@ -30,3 +30,5 @@ Done 2 Nov: lf29 The Hidden Reason You Talk to Yourself (F02: 11 story blocks + 
 Done 3 Nov: lf30 Your Brain Is Not Showing You Reality (F10, 17 blocks, ~19.5k spoken words, Shorts sh30_01..17; Claude failover writer). Next: lf31 How Your Memory Really Works (teased at the end of lf30), then motivation, decision-making. Keep >= 2 reserve long videos.
 
 Done 4 Nov: lf31 How Your Memory Really Works (F10, 17 blocks, ~20.9k spoken words, est 113 min by est.py, Shorts sh31_01..17; Claude failover writer). Next: lf32 How Motivation Really Works (teased at the end of lf31), then decision-making. Keep >= 2 reserve long videos.
+
+Done 5 Nov: lf32 How Motivation Really Works (F10, 17 blocks, ~20.1k spoken words, Shorts sh32_02..16 minus sh32_07 (jam study needs its null-replication caveat, too long for a Short); Claude failover writer). Next: lf33 How Your Brain Makes Decisions (teased at the end of lf32). Keep >= 2 reserve long videos.

@@ -1,0 +1,265 @@
+{
+ "id": "lf32_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "At the start of tonight, I promised you a strange idea. That a reward, given for something you already enjoy, can sometimes make you enjoy it less. It sounds backwards. Rewards are supposed to make us want things more. So let's see where this idea came from, and how far it really goes.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "n": 12,
+    "title": "When a reward makes fun less fun"
+   }
+  },
+  {
+   "say": "It begins with a puzzle. Not a metaphor, a real one. A set of oddly shaped blocks that could be fitted together to make different figures. The kind of thing many people pick up and fiddle with just because it's interesting.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A puzzle on a table",
+    "sub": "And a few spare minutes"
+   }
+  },
+  {
+   "say": "In 1971, a young psychologist named Edward Deci invited college students to solve these block puzzles over three sessions. One group simply did the puzzles each time. The other group did the same, except that in the second session, they were paid for each puzzle they solved. In the third session, nobody was paid.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "who": "Edward Deci",
+    "where": "Published in 1971",
+    "what": "Paid some students for each puzzle they solved, then watched what they did when left alone with the puzzles"
+   }
+  },
+  {
+   "say": "The clever part was a moment in the middle of each session. Deci would leave the room for a few minutes, saying he had something to take care of. On the table were the puzzles, and also some magazines. The students were free to do whatever they liked. What they didn't know was that they were being watched.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "The clever part",
+    "sub": "The empty room"
+   }
+  },
+  {
+   "say": "What Deci watched for was simple. How much of that free time did people spend on the puzzles, just because they wanted to? In the final session, after the reward had stopped, the students who had been paid tended to spend less of their free time on the puzzles than the students who had never been paid at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "What he saw",
+    "sub": "A quiet drop"
+   }
+  },
+  {
+   "say": "One way to understand it is this. Before the reward, the reason for doing the puzzle was the puzzle itself. It was interesting. Once a reward arrived, a second reason appeared. And when the reward went away, some of the original reason seemed to have gone with it.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "neon_alley_rain",
+    "cap": "Why would that happen?",
+    "sub": "A change of reasons"
+   }
+  },
+  {
+   "say": "A couple of years later, a team in California tried something similar, this time with much younger people.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "n": 13,
+    "title": "The children and the markers"
+   }
+  },
+  {
+   "say": "In 1973, Mark Lepper, David Greene and Richard Nisbett worked with preschool children who already liked drawing with felt-tip markers. They had noticed which children chose the markers during ordinary free play. Then they invited the children, one by one, to draw.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "street_day",
+    "who": "Mark Lepper, David Greene & Richard Nisbett",
+    "where": "Published in 1973",
+    "what": "Gave preschool children an award for drawing with markers, then watched their free play"
+   }
+  },
+  {
+   "say": "Some of the children were told beforehand that if they drew, they would get a certificate called a Good Player Award, with a gold seal and a ribbon. A second group got the same award, but as a surprise, without being told in advance. A third group got no award at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Three groups",
+    "sub": "The Good Player Award"
+   }
+  },
+  {
+   "say": "Later, the markers were put back out in the classroom during free play, and the researchers quietly observed. The children who had expected the award spent less time drawing with the markers than the other children did. The children who got the same award as a surprise did not show that drop.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "A week or two later",
+    "sub": "Back in the classroom"
+   }
+  },
+  {
+   "say": "That detail matters a lot. It wasn't the award itself that seemed to cause the drop. It was expecting it, doing the drawing in order to get it. The surprise award didn't change the reason for drawing, because there was no reward to draw for.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "The key detail",
+    "sub": "Expected, not received"
+   }
+  },
+  {
+   "say": "Picture a small table with a scatter of bright markers and a blank sheet of paper. Before anyone mentions a prize, that paper is simply an invitation. Nothing to earn. Just colours and an empty page.",
+   "show": {
+    "type": "photo",
+    "file": "lf32_b06_01.jpg",
+    "cap": "Drawing, just because"
+   }
+  },
+  {
+   "say": "Psychologists gave this a name, the overjustification effect. When there's already a good reason to do something, adding an extra, outside reason can make people see their own behaviour differently. I must be doing this for the reward. And when the reward disappears, so does part of the motivation.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "A name for it",
+    "sub": "The overjustification effect"
+   }
+  },
+  {
+   "say": "There was one more small detail in the marker study. The researchers also had the drawings rated, without the raters knowing which group each drawing came from. The drawings made by the children who had been working for the award were, on average, judged to be of somewhat lower quality. As if the drawing had become something to get through, rather than something to enjoy.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "One more detail",
+    "sub": "The drawings themselves"
+   }
+  },
+  {
+   "say": "It's important not to stretch this too far. These were short studies, with particular tasks and particular rewards. They don't show that every reward ruins every activity. They show something narrower and more interesting. That the reason we think we're doing something can change how much we want to keep doing it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Not a reason to never reward",
+    "sub": "A careful reading"
+   }
+  },
+  {
+   "say": "Now, it would be easy to stop the story there, and many people do. Rewards are bad, the end. But the story kept going, and it got more interesting.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "n": 14,
+    "title": "How far does it go?"
+   }
+  },
+  {
+   "say": "Over the following decades, this effect became the centre of a long argument. Some researchers found it again and again. Others thought it had been exaggerated, and that rewards, used sensibly, were mostly helpful. Both sides ran more studies, and eventually they began to combine them.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "A long argument",
+    "sub": "Two camps"
+   }
+  },
+  {
+   "say": "In 1994, Judy Cameron and David Pierce published a review combining many studies. They argued that, overall, rewards did not do much harm to people's interest in a task. Any undermining, they said, showed up only in fairly narrow conditions, and verbal praise could even help.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "who": "Judy Cameron & W. David Pierce",
+    "where": "Published in 1994",
+    "what": "Combined many studies and argued that rewards rarely harm intrinsic motivation"
+   }
+  },
+  {
+   "say": "Five years later, Edward Deci, Richard Koestner and Richard Ryan published their own large analysis, combining 128 experiments. They came to a different conclusion. Tangible rewards that people expected, and that depended on doing the task, did tend to lower their later free-choice interest in it.",
+   "show": {
+    "type": "study",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "who": "Edward Deci, Richard Koestner & Richard Ryan",
+    "where": "Published in 1999",
+    "what": "Combined 128 experiments on rewards and intrinsic motivation"
+   }
+  },
+  {
+   "say": "But their results also drew a more detailed map. Expected, tangible rewards tended to lower later interest. Unexpected rewards showed little effect. And positive feedback, simply being told you'd done well, often increased people's interest rather than decreasing it.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Their pattern",
+    "items": [
+     "Expected tangible rewards: interest dropped",
+     "Unexpected rewards: little effect",
+     "Praise and positive feedback: often helped"
+    ]
+   }
+  },
+  {
+   "say": "So, rewards are not simply good or bad. It seems to depend on what the reward says to the person getting it. A reward that says you're doing this for me can push the activity outside of you. Feedback that says you're getting good at this can make it feel even more your own.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Where that leaves us",
+    "sub": "Not good or bad"
+   }
+  },
+  {
+   "say": "Even praise has its subtleties. In 2002, Jennifer Henderlong and Mark Lepper reviewed the research on praising children. They concluded that praise tends to help when it feels sincere, when it focuses on effort and the way a child worked, and when it supports the child's own sense of choice. Praise that feels controlling, or that sets a standard that's hard to live up to, can backfire.",
+   "show": {
+    "type": "study",
+    "sprite": "A20",
+    "bg": "street_day",
+    "who": "Jennifer Henderlong & Mark Lepper",
+    "where": "Published in 2002",
+    "what": "Reviewed when praise helps and when it backfires"
+   }
+  },
+  {
+   "say": "You may have felt a version of this. A hobby you loved becomes something you're expected to do, by a deadline, for someone else. And slowly, it loses some of its sparkle. It's not that the hobby changed. It's that your reasons for doing it changed.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "A glimpse of yourself",
+    "sub": "The hobby that became a job"
+   }
+  },
+  {
+   "say": "There's a gentle lesson tucked into all of this. If you want to keep loving something, it helps to protect the reasons you started. To keep some part of it that's just for you, with no score, no audience and no prize.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "autumn_overlook",
+    "cap": "The kinder reading",
+    "sub": "Protecting the spark"
+   }
+  },
+  {
+   "say": "Which leads us to the next question. If outside rewards can sometimes crowd out our own interest, what is it that feeds that interest in the first place? Edward Deci and his colleague Richard Ryan spent the rest of their careers on that question, and their answer has three parts.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "The next question",
+    "sub": "What feeds the spark?"
+   }
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "id": "lf32_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a small scene to begin with. The alarm goes off. On some mornings, you're up before it has finished its first beep, already thinking about the day. On other mornings, you lie there, staring at the ceiling, and your body simply will not move. Same bed. Same alarm. Same you. So what changed?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The alarm goes off",
+    "sub": "Some mornings you leap up"
+   }
+  },
+  {
+   "say": "You didn't become a different person overnight. Your muscles work the same. You know the same things. And yet something that pushes you towards doing, and away from staying still, was strong on one morning and almost silent on the other. That something has a name, and tonight it's what we'll be exploring.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The same person",
+    "sub": "Two different mornings"
+   }
+  },
+  {
+   "say": "The word motivation comes from the Latin verb movere, which means to move. And that's a lovely way to think about it. Motivation is whatever moves you. It's the force that turns a wish into a step, a thought into an action, a want into a doing.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "A word about moving",
+    "sub": "Motivation"
+   }
+  },
+  {
+   "say": "Most of us carry a simple picture of motivation. A sort of fuel tank. When the tank is full, you get things done. When it's empty, you don't. And if you want more, you just need to find more fuel, or more discipline, or a bigger reason. It's a tidy picture. As you'll see tonight, it's not quite how any of this works.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "A comfortable picture",
+    "sub": "A tank of fuel"
+   }
+  },
+  {
+   "say": "Here's what we'll explore tonight. Why curious animals will solve puzzles for no reward at all. Why wanting something is not the same as liking it. Why a reward can, strangely, make a fun thing less fun. What goals really do to us. Why we put things off. And how habits quietly take over from motivation altogether.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Why curious animals solve puzzles for nothing",
+     "Why wanting is not the same as liking",
+     "Why a reward can make fun less fun",
+     "What goals really do to us",
+     "Why we put things off",
+     "How habits quietly take over"
+    ]
+   }
+  },
+  {
+   "say": "The way we'll do this is simple, and I hope rather cosy. We'll start with the body, and the most basic pushes and pulls an animal can feel. Then we'll climb slowly upwards, to rewards, to needs, to goals, to the people around us, and finally to the quiet machinery of habit.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 1,
+    "title": "What moves you"
+   }
+  },
+  {
+   "say": "Along the way, I'll tell you about real experiments. Rats and monkeys, puzzle boxes and coffee cards, children with markers and nursing homes with house plants. Whenever we meet a study, I'll give you the names and the years, so you can look them up yourself if you ever want to.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "Real experiments",
+    "sub": "Names, places and years"
+   }
+  },
+  {
+   "say": "And I'll also tell you when a famous finding turned out to be shakier than it first looked. The science of motivation has had some very popular ideas that didn't survive careful repetition. Those stories are just as interesting as the ones that did, and sometimes more useful.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Doubts left in",
+    "sub": "Not every finding held up"
+   }
+  },
+  {
+   "say": "Before we set off, one idea is worth clearing away. If motivation isn't a single tank of fuel, then what is it?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 2,
+    "title": "Not one thing"
+   }
+  },
+  {
+   "say": "A better picture is a crowd of voices, all speaking at once. Hunger and tiredness. Curiosity. The pull of a reward you can almost taste. The wish to be good at something. The wish to belong. The fear of letting someone down. At any moment, some of these voices are loud and some are quiet, and what you actually do is a kind of vote.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Many pushes and pulls",
+    "sub": "All at once"
+   }
+  },
+  {
+   "say": "Go back to the alarm clock. On the morning you leapt up, perhaps something you were looking forward to was speaking loudly. On the morning you couldn't move, perhaps tiredness was louder, or the day ahead felt like something nobody would choose. You weren't weaker. The vote came out differently.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "The morning, again",
+    "sub": "A different vote"
+   }
+  },
+  {
+   "say": "And that vote doesn't only happen in the morning. It happens all day long. Whether to answer a message now or later. Whether to stand up and stretch. Whether to start the dull task or the interesting one. Most of these small decisions pass without you ever noticing them, and each one is motivation at work.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "All day long",
+    "sub": "Hundreds of small votes"
+   }
+  },
+  {
+   "say": "Seen this way, a slow morning isn't a verdict on your character. It's information. It tells you which voices were loud today, and which were quiet. That's a kinder way to look at yourself, and, as we'll see tonight, it's also closer to what the research actually suggests.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "cap": "A kinder view",
+    "sub": "Not a score of character"
+   }
+  },
+  {
+   "say": "Psychologists often describe two broad directions. Some forces push you from behind, like hunger, discomfort, or worry. Others pull you from in front, like a goal, a treat, or something you're curious about. Most real actions have a bit of both. You get up because staying in bed feels wrong, and because breakfast sounds good.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Pushes and pulls",
+    "sub": "Two directions"
+   }
+  },
+  {
+   "say": "There's another distinction we'll keep coming back to tonight. Sometimes you do a thing because the doing itself is enjoyable. You read a novel because you want to know what happens. Other times you do a thing for something outside it, a grade, praise, a prize, or to avoid trouble. Researchers call these intrinsic and extrinsic motivation.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "Inside and outside",
+    "sub": "Two kinds of reason"
+   }
+  },
+  {
+   "say": "Neither kind is good or bad on its own. Most of what we do mixes them. You might cook because you enjoy it, and also because people are hungry. But the two kinds don't always add up neatly. Sometimes, when you put them together, something unexpected happens.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "Both are real",
+    "sub": "Neither is bad"
+   }
+  },
+  {
+   "say": "It matters because the reason behind an action can change how it feels to do it. Going for a walk because you love the evening air feels different from going for a walk because someone told you to. The steps are the same. The experience isn't, and neither, sometimes, is whether you'll want to do it again tomorrow.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Why it matters",
+    "sub": "The same act, two reasons"
+   }
+  },
+  {
+   "say": "Picture that alarm clock on the bedside table. It rings the same way every morning. It doesn't know which kind of morning it is. Only you do, and often you don't know why either.",
+   "show": {
+    "type": "photo",
+    "file": "lf32_b01_01.jpg",
+    "cap": "One alarm, two different mornings"
+   }
+  },
+  {
+   "say": "Here's a puzzle to carry with you tonight. Imagine a child who loves to draw. You'd like to encourage that, so you promise a reward for every drawing. It sounds kind, and sensible. And yet a famous experiment found that this kind of promise can leave a child less interested in drawing afterwards, not more.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A puzzle",
+    "sub": "A reward that backfires"
+   }
+  },
+  {
+   "say": "How could a reward make someone want something less? It seems backwards. We'll come back to that question later tonight, with the real study, the real children, and the long argument among researchers that followed. For now, just let it sit at the back of your mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "An open question",
+    "sub": "We'll come back to it"
+   }
+  },
+  {
+   "say": "One more thing before we begin. This isn't a talk about how to become more productive, or how to squeeze more out of every day. There's nothing to fix tonight. We're simply curious about the strange, clever, and sometimes contradictory machinery that gets us out of bed in the morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "Nothing to fix tonight",
+    "sub": "Just curious"
+   }
+  },
+  {
+   "say": "So, if you'd like to, settle in. Make yourself comfortable. Let your shoulders drop a little. This will be a long, slow tour, and you don't need to remember any of it. If you drift off along the way, that's perfectly fine.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "cap": "Settle in",
+    "sub": "A long, slow tour"
+   }
+  },
+  {
+   "say": "So that's our route. We start with the body's simplest pushes. Then wanting and liking, and how rewards shape behaviour. Then needs and goals, and the trouble with willpower. Then the people around us. And finally habits, which may matter more than motivation itself.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "title": "The route",
+    "items": [
+     "The body's pushes",
+     "Wanting and liking",
+     "Rewards",
+     "Needs and goals",
+     "Other people",
+     "Habits"
+    ]
+   }
+  },
+  {
+   "say": "Our story begins about a hundred years ago, with scientists who thought they had motivation all worked out. Their idea was simple and elegant. Every animal, they said, is driven to keep its body in balance. And for a while, that one idea seemed to explain almost everything.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "A long time ago",
+    "sub": "Where the story begins"
+   }
+  },
+  {
+   "say": "So let's start there, with the body, and its quiet, constant effort to keep itself steady. It's the simplest kind of motivation there is, and it turns out to be the perfect place to see where the simple picture starts to crack.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "The first stop",
+    "sub": "The body's balance"
+   }
+  }
+ ]
+}

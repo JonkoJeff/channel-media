@@ -1,0 +1,205 @@
+{
+ "id": "lf33_b18",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "For the rest of tonight, there's nothing you need to decide. No columns, no lists, no coins. Every choice can wait until morning. Right now, the only thing to do is rest, and you don't even need to choose that. It can simply happen, on its own.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 68,
+    "title": "Nothing to decide"
+   }
+  },
+  {
+   "say": "If you haven't already, let yourself get comfortable. Let the bed, or the chair, or the floor beneath you take all of your weight. You don't need to hold yourself up anymore. Whatever is underneath you is strong enough. You can let go.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Getting comfortable",
+    "sub": "Just as you are"
+   }
+  },
+  {
+   "say": "Let's take a slow breath together. Breathe in gently through your nose, and feel your chest rise a little. And then let it go, slowly, through your mouth, like a long, quiet sigh. There's no right way to do it. Just slower than before.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "A slow breath",
+    "sub": "In, and out"
+   }
+  },
+  {
+   "say": "And once more. Breathe in, slowly, and feel the cool air arriving. And let it out, even more slowly, and feel the warmth leaving. With every breath out, let your body sink a little deeper, as if it were settling into soft sand.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Another breath",
+    "sub": "Even slower"
+   }
+  },
+  {
+   "say": "Now let your attention drift to your forehead. All evening, we've been thinking, weighing, wondering. Perhaps your forehead has been holding some of that effort. Let it soften now. Let it be smooth, like still water. There's nothing left to figure out.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Your forehead",
+    "sub": "Smooth and soft"
+   }
+  },
+  {
+   "say": "Let your eyes grow heavy. If they're open, you can let them close whenever you like. Feel the little muscles around them loosen. Your eyelids are warm, and heavy, and resting. There's nothing you need to see right now.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Your eyes",
+    "sub": "Heavy and warm"
+   }
+  },
+  {
+   "say": "Let your jaw loosen too. Many of us hold tension there without noticing, a little clench left over from the day. Let your teeth part slightly. Let your tongue rest softly. Let your whole face become still and easy.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "Your jaw",
+    "sub": "Unclenched"
+   }
+  },
+  {
+   "say": "Now your shoulders. Let them drop, away from your ears, as far as they want to go. Perhaps they've been carrying the weight of a decision, or of a long day. You can put that weight down now. It will still be there tomorrow, if you need it. For tonight, it can rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Your shoulders",
+    "sub": "Dropping down"
+   }
+  },
+  {
+   "say": "Feel the heaviness flow down your arms. Your upper arms, your elbows, your forearms, your wrists. All the way to your hands. Let your fingers uncurl and rest. Your hands have done so much today. They have nothing left to hold.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Your arms",
+    "sub": "Heavy and still"
+   }
+  },
+  {
+   "say": "Notice your chest, rising and falling on its own. You don't need to breathe on purpose anymore. Your body knows exactly how to do it, the way it knows so many things without being told. Just notice it, gently, like watching waves come in and out.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Your chest",
+    "sub": "Rising and falling"
+   }
+  },
+  {
+   "say": "Picture a quiet beach at night. Small waves come in, slowly, and draw back, slowly. In, and out. There's no hurry in them at all. The sea has been doing this for a very long time, and it will go on doing it all night.",
+   "show": {
+    "type": "photo",
+    "file": "lf33_b18_01.jpg",
+    "cap": "Waves on a quiet shore"
+   }
+  },
+  {
+   "say": "Let that slow rhythm move down through your body. Your stomach softens. Your lower back sinks into whatever is beneath it. Your hips grow heavy and still. Everything is letting go, a little more with every breath.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "n": 69,
+    "title": "Down to your toes"
+   }
+  },
+  {
+   "say": "Feel your legs, heavy and warm. Your thighs, your knees, your calves. All of them sinking down, as if into warm sand. Your ankles loosen. Your feet relax. Even your toes can let go now. Your whole body, from head to toe, is resting.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Your legs",
+    "sub": "Sinking down"
+   }
+  },
+  {
+   "say": "Imagine you're in a small, warm room at the top of a house. Outside, a gentle rain is falling on the roof, a soft and steady sound. Inside, it's dry, and warm, and safe. There's a blanket around you, and a soft light somewhere in the corner.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "A quiet room",
+    "sub": "Rain on the roof"
+   }
+  },
+  {
+   "say": "For now, no one needs anything from you. There are no messages to answer, no plans to make, no choices waiting. The world can carry on without you for a few hours. It will be there in the morning. And so will you, rested.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "No one needs you",
+    "sub": "For now"
+   }
+  },
+  {
+   "say": "If a thought comes, about tomorrow, or about something you need to decide, that's fine. Just notice it, and let it float past, like a leaf on a slow stream. You don't need to follow it. It will drift away on its own, and another moment of quiet will take its place.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Thoughts drifting",
+    "sub": "Like leaves"
+   }
+  },
+  {
+   "say": "And if any part of you is still trying, trying to relax, trying to fall asleep, you can let that go too. Sleep isn't something you can decide to do. It comes on its own, when you stop reaching for it. All you need to do is rest, and let the night hold you.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "Letting go",
+    "sub": "Of trying"
+   }
+  },
+  {
+   "say": "Your breath is slow. Your body is heavy. Your thoughts are loose and soft, drifting like mist over a still lake. There's nothing to follow and nothing to hold on to. Just quiet, and warmth, and the soft dark.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Drifting",
+    "sub": "Quiet now"
+   }
+  },
+  {
+   "say": "Thank you for spending this time with me tonight. Whatever choices are waiting for you, big or small, I hope you can meet them gently, with a rested mind. You don't have to be perfect. You just have to be you, in the morning light.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Thank you",
+    "sub": "For staying with me"
+   }
+  },
+  {
+   "say": "Next time, we'll explore the strange, ancient alarm system that switches on when life feels like too much, in What Stress Really Does to Your Brain. But that's for another night. For now, sleep well. Goodnight.",
+   "show": {
+    "type": "end",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "next": "What Stress Really Does to Your Brain"
+   }
+  }
+ ]
+}

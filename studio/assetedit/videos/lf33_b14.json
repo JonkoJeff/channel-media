@@ -1,0 +1,197 @@
+{
+ "id": "lf33_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Every choice Mara is weighing has risks on both sides. Moving carries the risk of loneliness, of a town that never quite feels like home. Staying carries the risk of a life that slowly narrows. But those two risks don't feel the same. One of them feels sharp and frightening. The other feels hardly like a risk at all.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "n": 55,
+    "title": "How risk feels"
+   }
+  },
+  {
+   "say": "That's because most of us don't judge risk the way a statistician does, by counting how often things go wrong. We judge it by how it feels. And one psychologist, more than anyone else, spent his career mapping exactly how risk feels. His name is Paul Slovic.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Feeling, not figures",
+    "sub": "How we judge danger"
+   }
+  },
+  {
+   "say": "In 1987, Slovic published a paper in Science called Perception of Risk. He and his colleagues had asked many people to rate dozens of hazards, from bicycles and swimming to nuclear power and food additives. And they found that people's sense of risk was shaped above all by two qualities.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "who": "Paul Slovic",
+    "where": "Science, 1987",
+    "what": "Ordinary people judged risks by dread and by how unknown they were, not only by numbers"
+   }
+  },
+  {
+   "say": "The first was dread. Risks that feel uncontrollable, catastrophic, or terrifying feel much bigger. The second was the unknown. Risks that are new, invisible, or poorly understood also feel bigger. A familiar risk you feel in control of, like driving your own car, tends to feel smaller than it is.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Two qualities of risk",
+    "items": [
+     "Dread: uncontrollable, catastrophic, frightening",
+     "Unknown: new, invisible, hard to understand"
+    ]
+   }
+  },
+  {
+   "say": "Slovic also found that experts and ordinary people often ranked risks quite differently. Experts tended to look mostly at expected numbers of deaths. The public weighed dread and the unknown as well. Slovic didn't see the public as simply foolish. He argued that their sense of risk contained values the numbers left out, like fairness, control and the scale of a disaster.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Experts and the public",
+    "sub": "Different maps"
+   }
+  },
+  {
+   "say": "In 2000, Slovic and his colleagues described something even more surprising. In the real world, things that bring big benefits often carry big risks too. But in our minds, the two tend to move in opposite directions. If we like something, we see it as both more useful and less dangerous.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "n": 56,
+    "title": "Liking and fearing"
+   }
+  },
+  {
+   "say": "They called it the affect heuristic. Our overall good or bad feeling about something guides our judgement of both its risks and its benefits. When they told people that a technology had high benefits, people also rated its risks as lower, even though nothing had been said about risk. And under time pressure, when people had to answer quickly, the pattern became stronger.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "who": "Melissa Finucane, Ali Alhakami, Paul Slovic and Stephen Johnson",
+    "where": "Journal of Behavioral Decision Making, 2000",
+    "what": "When people felt good about something, they judged its risks lower and its benefits higher"
+   }
+  },
+  {
+   "say": "For Mara, this means that on evenings when she feels warmly about the sea, the risks of moving will seem smaller. On evenings when she feels attached to her city, the risks will seem larger. The facts don't change from night to night. Her feeling does, and the risks quietly follow it.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Mara's feelings",
+    "sub": "Colour the risks"
+   }
+  },
+  {
+   "say": "Picture a quiet road at dusk, winding through soft hills, with a few headlights in the distance. It looks calm and familiar. And that familiarity, as we're about to hear, can make a road feel safer than it really is.",
+   "show": {
+    "type": "photo",
+    "file": "lf33_b14_01.jpg",
+    "cap": "The road that feels safe"
+   }
+  },
+  {
+   "say": "Sometimes the gap between how risk feels and how risk is can have real and painful consequences. The psychologist Gerd Gigerenzer, whom we met earlier, studied one of the saddest examples.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A16",
+    "bg": "autumn_overlook",
+    "n": 57,
+    "title": "A sad lesson"
+   }
+  },
+  {
+   "say": "After the attacks of the eleventh of September 2001, many Americans were afraid to fly. Planes had become a symbol of sudden, catastrophic danger, the very definition of dread risk. Many people chose to drive long distances instead. Driving felt familiar, and in their own control.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "who": "Gerd Gigerenzer",
+    "where": "Psychological Science, 2004",
+    "what": "After September 2001 many Americans drove instead of flying, and road deaths rose"
+   }
+  },
+  {
+   "say": "But mile for mile, driving long distances is far more dangerous than flying. In 2004, Gigerenzer analysed traffic data and estimated that in the year after the attacks, road travel in the United States rose, and that roughly fifteen hundred more people died on American roads than would otherwise have been expected. He later refined the estimate, but it stayed in that range.",
+   "show": {
+    "type": "stat",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "title": "Estimated extra road deaths",
+    "big": "about 1,500",
+    "label": "in the twelve months after September 2001"
+   }
+  },
+  {
+   "say": "It's a painful lesson, and not an easy one to hear. The people who drove weren't foolish. They were afraid, after something truly terrible. But their fear followed the shape of dread, not the shape of the numbers. And the familiar choice, the one that felt safe, carried a quiet risk of its own.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Dread and the familiar",
+    "sub": "Both real"
+   }
+  },
+  {
+   "say": "That's the connection to Mara's kitchen table. Moving is the new, unknown, uncontrollable option. A different town, different people, a different life. It has every quality that makes a risk feel big. Staying is the familiar option, the road she's driven a thousand times. Its risks are real too, but they're quiet and slow.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 58,
+    "title": "Familiar and strange"
+   }
+  },
+  {
+   "say": "The risks of staying look something like this. A friendship with her sister that becomes mostly phone calls. Nieces and nephews who grow up without her. A feeling, perhaps, years from now, of a door that was once open. Those risks don't arrive suddenly. They don't feel like danger. And so they're easy to leave out of the columns.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "Slow risks",
+    "sub": "Easy to miss"
+   }
+  },
+  {
+   "say": "None of this means moving is the safer choice. It may not be. It simply means that it's worth naming the risks on both sides as clearly as each other. The dramatic ones and the quiet ones. The new ones and the familiar ones. Only then can they be weighed fairly.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "Naming both",
+    "sub": "Fairly"
+   }
+  },
+  {
+   "say": "So, a few gentle lessons about risk. Notice when a risk feels big because it's dreadful or unknown. Ask how often things actually go wrong, not only how bad it would be. And remember to name the quiet, familiar risks too, especially the risk of everything staying exactly the same.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "Feeling risk wisely",
+    "items": [
+     "Notice dread and the unknown",
+     "Ask how often, not only how bad",
+     "Name the quiet risks of staying the same"
+    ]
+   }
+  },
+  {
+   "say": "In the next part of our story, we'll look at a feeling closely tied to risk, one that haunts so many decisions before they're even made. Regret. What we regret, when we regret it, and why a bronze medal can feel better than a silver one.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "cap": "Next stop",
+    "sub": "Regret"
+   }
+  }
+ ]
+}

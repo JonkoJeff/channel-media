@@ -1,0 +1,251 @@
+{
+ "id": "lf33_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's something worth noticing about Mara's two columns. They look equal. Stay on the left, go on the right, side by side on the same sheet of paper. But they aren't equal at all. If Mara does nothing, if she simply goes to bed tonight and never decides, she stays. Staying is what happens by default.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "n": 24,
+    "title": "The power of doing nothing"
+   }
+  },
+  {
+   "say": "A default is the option you get when you don't actively choose anything else. The ringtone your phone came with. The route you always walk. The seat you always sit in. And psychologists have found that defaults have an extraordinary pull on what we end up with, far stronger than most of us would guess.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Defaults",
+    "sub": "The choice already made"
+   }
+  },
+  {
+   "say": "The most famous demonstration comes from a paper published in Science in 2003 by Eric Johnson and Daniel Goldstein, with the simple title Do Defaults Save Lives? They looked at organ donation across a number of European countries. In some countries, you're a donor only if you sign up. In others, you're a donor unless you say no.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "who": "Eric Johnson and Daniel Goldstein",
+    "where": "Science, 2003",
+    "what": "Organ donation rates in countries where donors must opt in, or must opt out"
+   }
+  },
+  {
+   "say": "The difference was enormous. In the countries where people had to opt in, the share counted as donors ranged from about four percent to about twenty eight percent. In the countries where people had to opt out, it ranged from about eighty six percent to nearly one hundred percent. Neighbouring countries, with similar cultures, ended up miles apart.",
+   "show": {
+    "type": "bars",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "title": "Share of people counted as donors",
+    "unit": "percent",
+    "bars": [
+     [
+      "Opt-in, lowest",
+      4.0
+     ],
+     [
+      "Opt-in, highest",
+      28.0
+     ],
+     [
+      "Opt-out, lowest",
+      86.0
+     ],
+     [
+      "Opt-out, highest",
+      99.98
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Johnson and Goldstein also ran a small online experiment. They asked people to imagine moving to a new state, and to decide about organ donation. When the default was not being a donor, forty two percent chose to be one. When the default was being a donor, eighty two percent stayed that way. Same question. The only thing that changed was which box came already ticked.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "The same people",
+    "sub": "In a small experiment"
+   }
+  },
+  {
+   "say": "Why are defaults so powerful? Researchers usually point to three quiet reasons. Changing takes a little effort, and effort is easy to put off. A default can feel like a recommendation, as if someone wise chose it for us. And the default becomes the starting point, the thing we already have, so moving away from it feels like giving something up.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Why so strong",
+    "sub": "Three quiet reasons"
+   }
+  },
+  {
+   "say": "That last reason brings us to a lovely experiment about mugs and chocolate. It was run by the economist Jack Knetsch, and published in 1989. And it shows how quickly something becomes ours, and how reluctant we then are to let it go.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 25,
+    "title": "Keeping what we have"
+   }
+  },
+  {
+   "say": "Knetsch gave one group of students a coffee mug at the start of a session, and another group a large bar of chocolate. Later, each student was offered the chance to swap. The mug for the chocolate, or the chocolate for the mug. A simple swap, no cost, just a moment's thought.",
+   "show": {
+    "type": "study",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "who": "Jack Knetsch",
+    "where": "Simon Fraser University, 1989",
+    "what": "Students given a mug or a chocolate bar, then offered a swap"
+   }
+  },
+  {
+   "say": "Almost nobody swapped. Eighty nine percent of the mug group kept their mug. Ninety percent of the chocolate group kept their chocolate. And when a third group was simply offered a choice between the two from the start, they split roughly evenly. The objects weren't special. Being handed one, minutes earlier, was enough to make it feel like the better one.",
+   "show": {
+    "type": "bars",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "title": "Kept what they were given",
+    "unit": "percent",
+    "bars": [
+     [
+      "Given a mug",
+      89.0
+     ],
+     [
+      "Given chocolate",
+      90.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Psychologists call this the endowment effect. The moment something is ours, it seems to gain value in our eyes. It's not greed. It's something more like attachment, and it happens astonishingly fast. A mug you've owned for twenty minutes has already become your mug.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Ownership",
+    "sub": "Minutes old"
+   }
+  },
+  {
+   "say": "Picture the two things on the desk. A plain mug, and a bar of chocolate. On their own, neither seems especially precious. But hand one of them to someone, and within minutes it has quietly become the one they'd rather keep.",
+   "show": {
+    "type": "photo",
+    "file": "lf33_b07_01.jpg",
+    "cap": "A mug or a chocolate bar"
+   }
+  },
+  {
+   "say": "In 1988, two economists, William Samuelson and Richard Zeckhauser, gave this broader tendency a name. They called it status quo bias. When faced with several options, people disproportionately stick with the current state of affairs, the one they already have, even when other options would suit them better.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "n": 26,
+    "title": "Staying put"
+   }
+  },
+  {
+   "say": "There's a close cousin of status quo bias, sometimes called omission bias. It's the tendency to judge harm caused by doing something as worse than the same harm caused by doing nothing. And it helps explain why changing course can feel so much riskier than staying put.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "Doing versus not doing",
+    "sub": "Two kinds of harm"
+   }
+  },
+  {
+   "say": "In a 1991 study, Mark Spranca, Elisa Minsk and Jonathan Baron gave people little stories. In one, a tennis player knows his opponent is allergic to a certain dish. In one version, he recommends the dish. In another, he sees the opponent order it, and says nothing. Most people judged the player who recommended the dish more harshly, even though the outcome and the intention were the same.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "who": "Mark Spranca, Elisa Minsk and Jonathan Baron",
+    "where": "University of Pennsylvania, 1991",
+    "what": "A tennis player, a dish that causes an allergy, recommending it versus saying nothing"
+   }
+  },
+  {
+   "say": "So we tend to feel more responsible for what we do than for what we fail to do. If Mara moves and it goes badly, she'll feel she caused it. If she stays and her life slowly narrows, it may not feel like anything she did at all. That asymmetry can make staying feel safe, even when it isn't.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "Action feels heavier",
+    "sub": "Inaction feels safer"
+   }
+  },
+  {
+   "say": "Now, none of this means that defaults, or staying put, are bad. Often the default is a perfectly good option. Habits and routines save us enormous amounts of effort. If we questioned every default every day, we'd be exhausted by lunchtime.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A16",
+    "bg": "autumn_overlook",
+    "n": 27,
+    "title": "Defaults are not villains"
+   }
+  },
+  {
+   "say": "The point is simply to notice when a default is deciding for us. A useful question is this. If I didn't already have this, would I choose it today? If the answer is yes, wonderful, the default is also your choice. If the answer is no, or you're not sure, it might be worth looking more closely.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "A gentle check",
+    "sub": "Would I choose this"
+   }
+  },
+  {
+   "say": "Imagine Mara asking herself that question. If I lived by the sea, near my sister, and someone offered me my current flat, my current street, my current life, would I move back? It's a curious question, and a revealing one. It puts both options on an equal footing, without the pull of what's already hers.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Mara's question",
+    "sub": "If she were starting fresh"
+   }
+  },
+  {
+   "say": "It doesn't give her an answer. Maybe she'd say no, I'd stay by the sea. Maybe she'd say yes, I miss my city. Either way, she's now comparing the two options as they are, rather than comparing one she owns with one she only imagines. And that's a fairer contest.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "cabin_fireplace",
+    "cap": "No easy answer",
+    "sub": "But a fairer one"
+   }
+  },
+  {
+   "say": "So, a few quiet questions for noticing defaults. What happens if I do nothing? Did I choose this, or was it chosen for me? And would I pick it again today, if I were starting fresh? Three small questions, and they can change the shape of a choice.",
+   "show": {
+    "type": "list",
+    "sprite": "A01",
+    "bg": "rooftop_dusk",
+    "title": "Noticing defaults",
+    "items": [
+     "What happens if I do nothing",
+     "Did I choose this, or was it chosen for me",
+     "Would I pick it again today"
+    ]
+   }
+  },
+  {
+   "say": "In the next part of our story, we'll turn things around. If having one option already chosen pulls us so strongly, what happens when there are many options, dozens or hundreds, all equally available? Is more choice always better? And what happens to our decisions after a long day of making them?",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "cap": "Next stop",
+    "sub": "Too many choices"
+   }
+  }
+ ]
+}

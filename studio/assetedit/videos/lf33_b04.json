@@ -1,0 +1,232 @@
+{
+ "id": "lf33_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In the late 1960s, two young psychologists in Jerusalem began meeting almost every day to talk. Amos Tversky was quick, funny and fiercely logical. Daniel Kahneman, whom we met a little earlier, was more doubtful by nature, always questioning his own ideas. Together, they started asking a simple question. How do people actually judge how likely something is?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 10,
+    "title": "Shortcuts"
+   }
+  },
+  {
+   "say": "In 1974, they published a paper in the journal Science called Judgment under Uncertainty, Heuristics and Biases. It became one of the most cited papers in the history of psychology. Its central idea was this. When people face a hard question, they often quietly swap it for an easier one, and answer that instead.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "who": "Amos Tversky and Daniel Kahneman",
+    "where": "Hebrew University of Jerusalem, 1974",
+    "what": "Judgment under uncertainty: three heuristics that people use to judge likelihood"
+   }
+  },
+  {
+   "say": "Tversky and Kahneman called these swaps heuristics. A heuristic is a rule of thumb. A mental shortcut that gives a good enough answer quickly, most of the time. Heuristics aren't mistakes. They're tools. But like any tool, they have a shape, and so the mistakes they make have a shape too.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "A heuristic",
+    "sub": "A rule of thumb"
+   }
+  },
+  {
+   "say": "The first shortcut they described is called availability. When you ask yourself how common something is, you don't count. Instead, you notice how easily examples come to mind. If examples flow easily, the thing must be common. If they're hard to find, it must be rare.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "n": 11,
+    "title": "What comes to mind"
+   }
+  },
+  {
+   "say": "Here's one of their little tests, from a paper in 1973. Think of the letter K. In ordinary English text, are there more words that begin with K, or more words that have K as their third letter? Most people in their study said words beginning with K. But words with K in third place are actually more common. Think of ask, like, make, bike, take.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "who": "Tversky and Kahneman",
+    "where": "Hebrew University of Jerusalem, 1973",
+    "what": "Words that begin with the letter K versus words with K in third place"
+   }
+  },
+  {
+   "say": "Why the mistake? Because your memory is organised a bit like a dictionary. It's easy to search for words by their first letter. Searching by the third letter is awkward and slow. So the words beginning with K come to mind more easily, and that ease is quietly mistaken for frequency.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Why the mistake",
+    "sub": "Easy to search"
+   }
+  },
+  {
+   "say": "The same shortcut shapes how we see danger. In 1978, Sarah Lichtenstein and her colleagues asked people to estimate how often different causes of death occurred. People overestimated dramatic, newsworthy causes, like accidents and tornadoes, and underestimated quiet, common ones, like diabetes and stroke. The dramatic ones are simply easier to picture.",
+   "show": {
+    "type": "study",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "who": "Sarah Lichtenstein and colleagues",
+    "where": "Decision Research, Oregon, 1978",
+    "what": "People overestimated dramatic causes of death and underestimated quiet, common ones"
+   }
+  },
+  {
+   "say": "Mara might be doing the same thing tonight. Perhaps a friend once moved to the coast and came back within a year, lonely and unhappy. That one vivid story comes to mind instantly whenever she thinks about going. It feels like evidence. But it's one story, and it's loud mainly because she remembers it so clearly.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Mara's version",
+    "sub": "Every story she knows"
+   }
+  },
+  {
+   "say": "The second shortcut is called representativeness. When you judge whether something belongs to a category, you check how much it resembles your picture of that category. It's a very natural thing to do. And it leads to one of the most famous puzzles in psychology.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "n": 12,
+    "title": "Looks like a type"
+   }
+  },
+  {
+   "say": "Here it is, from a paper published in 1983. Linda is thirty one years old, single, outspoken and very bright. She studied philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and took part in demonstrations. Which is more probable? Linda is a bank teller. Or Linda is a bank teller and is active in the feminist movement?",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "who": "Tversky and Kahneman",
+    "where": "Stanford and University of British Columbia, 1983",
+    "what": "The Linda problem: a detailed description feels more likely than a simpler one"
+   }
+  },
+  {
+   "say": "In one version of the study, about eighty five percent of the students chose the second option. Bank teller and feminist. It just sounds more like Linda. But it can't be more probable. Every feminist bank teller is also a bank teller. Adding a detail can only make a description less likely, never more.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "The answer most gave",
+    "sub": "The longer one"
+   }
+  },
+  {
+   "say": "Tversky and Kahneman called this the conjunction fallacy. And it reveals something lovely, and slightly worrying, about the human mind. We love a good story. A detailed, coherent story feels more believable than a thin, vague one, even when, by the rules of probability, it has to be less likely.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Good stories",
+    "sub": "Feel more likely"
+   }
+  },
+  {
+   "say": "Now, as you might expect by now, there's another side to this. Not everyone agreed that these puzzles showed people to be poor thinkers. The German psychologist Gerd Gigerenzer became one of the most persistent critics, and his arguments are worth hearing.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A16",
+    "bg": "autumn_overlook",
+    "n": 13,
+    "title": "The other side"
+   }
+  },
+  {
+   "say": "Gigerenzer and his colleague Ralph Hertwig pointed out that the word probable has many everyday meanings, like plausible or believable. In 1999, they published studies showing that when the Linda problem is asked as how many out of a hundred women like Linda would be bank tellers, and how many feminist bank tellers, far fewer people make the mistake.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "who": "Ralph Hertwig and Gerd Gigerenzer",
+    "where": "Max Planck Institute, Berlin, 1999",
+    "what": "Asked in terms of how many out of a hundred, far fewer people made the Linda mistake"
+   }
+  },
+  {
+   "say": "So part of the error may come from the way the question is asked, not from a broken mind. When information is given as natural counts, a hundred people, ten of them this, three of them that, people reason much more clearly. That's a useful thing to know whenever you're faced with a confusing percentage.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Ask it differently",
+    "sub": "Answer it better"
+   }
+  },
+  {
+   "say": "Picture an old toolbox on a workbench. Every tool in it is good for some jobs, and clumsy for others. Heuristics are the same. The trick isn't to throw the tools away. It's to know which job each one was made for.",
+   "show": {
+    "type": "photo",
+    "file": "lf33_b04_01.jpg",
+    "cap": "A shortcut is a tool"
+   }
+  },
+  {
+   "say": "Gigerenzer went further. He argued that simple heuristics are often not a weakness at all, but a smart way to decide in a messy world where information is limited. He called them fast and frugal. And he had some surprising evidence.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "n": 14,
+    "title": "Less can be more"
+   }
+  },
+  {
+   "say": "In one well known example, published in 2002, Daniel Goldstein and Gerd Gigerenzer asked American students which of two cities was larger, for pairs of American cities and for pairs of German cities. You'd expect them to do much better with their own country. In fact, they did about as well, or even slightly better, with the German cities.",
+   "show": {
+    "type": "study",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "who": "Daniel Goldstein and Gerd Gigerenzer",
+    "where": "Max Planck Institute, 2002",
+    "what": "Students who knew less about a country's cities sometimes guessed their sizes better"
+   }
+  },
+  {
+   "say": "Why? Because with German cities, they could use a simple rule. If you've heard of one city and not the other, guess that the one you've heard of is bigger. Big cities get mentioned more, so recognition is a good clue. With their own cities, they'd heard of nearly all of them, so the simple clue was useless.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Why",
+    "sub": "Recognition as a clue"
+   }
+  },
+  {
+   "say": "So which is it? Are heuristics a source of error, or a source of wisdom? Most researchers today would say both. Shortcuts work beautifully in the situations they fit, and they misfire in situations they don't. The skill isn't avoiding shortcuts. It's noticing when the situation in front of you is one where they might mislead.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "autumn_overlook",
+    "cap": "Two views",
+    "sub": "Both partly right"
+   }
+  },
+  {
+   "say": "For Mara, that might mean noticing the one vivid story of the friend who came back. And asking a quieter question. Of all the people she knows who have moved closer to family, how many did well? The vivid story may still matter. But it's no longer the only voice in the room.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Back to Mara",
+    "sub": "One vivid story"
+   }
+  },
+  {
+   "say": "In the next part of our story, we'll meet perhaps the strangest shortcut of all. It involves a rigged wheel of fortune, and a number that had nothing to do with the question, and yet quietly pulled everyone's answers towards it.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "cabin_fireplace",
+    "cap": "Next stop",
+    "sub": "A number out of nowhere"
+   }
+  }
+ ]
+}

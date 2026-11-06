@@ -1,0 +1,236 @@
+{
+ "id": "lf33_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Trust your gut. It's one of the most common pieces of advice anyone gives about a hard decision. Listen to your heart. Go with what feels right. And it sits rather awkwardly next to everything we've heard tonight about shortcuts, anchors and frames that lead us astray. So which is it? Is the gut wise, or easily fooled?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 32,
+    "title": "Trust your gut"
+   }
+  },
+  {
+   "say": "For a long time, two groups of researchers gave very different answers. One group, following Kahneman and Tversky, collected the ways intuition goes wrong. The other group studied experts in the real world, and kept finding people whose intuitions were astonishingly good. The most famous member of that second group was a psychologist called Gary Klein.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Two camps",
+    "sub": "A long argument"
+   }
+  },
+  {
+   "say": "In the 1980s, Klein set out to study how experienced firefighters make decisions under pressure. He expected to find them comparing options, weighing one plan against another. Instead, they kept telling him they didn't make decisions at all. They simply knew what to do. He described what he learned in a book called Sources of Power, published in 1998.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "who": "Gary Klein",
+    "where": "Sources of Power, 1998",
+    "what": "Experienced firefighters made life and death choices without comparing options"
+   }
+  },
+  {
+   "say": "One story from his interviews became famous. A team of firefighters went into a house where a fire seemed to be in the kitchen at the back. They sprayed water on it, but the fire didn't respond the way it should. The lieutenant in charge suddenly felt that something was wrong, and ordered everyone out of the building.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A kitchen fire",
+    "sub": "Something felt wrong"
+   }
+  },
+  {
+   "say": "Moments after they got out, the floor they had been standing on collapsed. The real fire had been in the basement, directly beneath them. At the time, the lieutenant couldn't explain why he'd ordered them out. He put it down to a kind of sixth sense.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "neon_alley_rain",
+    "cap": "Moments later",
+    "sub": "The floor gave way"
+   }
+  },
+  {
+   "say": "But when Klein talked it through with him, the reasons emerged. The room was hotter than a small kitchen fire should make it. And it was strangely quiet, because the floor was muffling the sound of the fire below. The situation didn't match any pattern he knew, and that mismatch was enough to set off an alarm. Not magic. Experience.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "Not magic",
+    "sub": "Patterns that didn't fit"
+   }
+  },
+  {
+   "say": "Klein called his idea recognition primed decision making. Experts, he argued, don't usually compare options. They recognise the situation as a type they've seen before, and the right action comes with the recognition, the way a familiar face comes with a name. They then imagine the action playing out, and if it seems to work, they go.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 33,
+    "title": "Recognition"
+   }
+  },
+  {
+   "say": "Something similar had been found in chess. In 1973, William Chase and Herbert Simon showed chess positions to players for just a few seconds, and then asked them to rebuild the board from memory. Masters could rebuild real game positions far better than beginners. But when the pieces were placed at random, the masters' advantage almost vanished.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "William Chase and Herbert Simon",
+    "where": "Carnegie Mellon University, 1973",
+    "what": "Chess masters remembered real positions brilliantly, but not random ones"
+   }
+  },
+  {
+   "say": "The masters didn't have better memories in general. They had stored thousands of meaningful patterns from years of play, so they saw a real board as a handful of familiar chunks rather than a scatter of pieces. That's what expert intuition is, much of the time. Pattern recognition, built from long experience.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Chunks",
+    "sub": "Thousands of patterns"
+   }
+  },
+  {
+   "say": "So who was right, the researchers who found intuition fooled, or the ones who found it brilliant? In a lovely twist, Daniel Kahneman and Gary Klein decided to work it out together. They spent years arguing, as friends, and published the result in 2009.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A16",
+    "bg": "autumn_overlook",
+    "n": 34,
+    "title": "A failure to disagree"
+   }
+  },
+  {
+   "say": "Their paper had a wonderful title. Conditions for Intuitive Expertise, A Failure to Disagree. They concluded that intuition can be trusted when two conditions are met. First, the world must be regular enough to have patterns worth learning. Second, the person must have had plenty of practice, with quick and clear feedback about whether they were right.",
+   "show": {
+    "type": "study",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "who": "Daniel Kahneman and Gary Klein",
+    "where": "American Psychologist, 2009",
+    "what": "Conditions for intuitive expertise: a regular world and practice with feedback"
+   }
+  },
+  {
+   "say": "Firefighters, chess players and experienced nurses work in worlds with real patterns, and get lots of practice with feedback. Their intuitions are often excellent. But in worlds that are irregular, or where feedback comes slowly or never, confident intuitions can be no better than guesses, however certain they feel.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "title": "When the gut can be trusted",
+    "items": [
+     "A world with real patterns",
+     "Long practice",
+     "Quick, clear feedback"
+    ]
+   }
+  },
+  {
+   "say": "That second warning has a long history. In 1954, the psychologist Paul Meehl published a short book comparing the judgements of experienced professionals with simple statistical formulas, in predicting things like how patients or students would do in future.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "n": 35,
+    "title": "Formulas and experts"
+   }
+  },
+  {
+   "say": "In 2000, William Grove and his colleagues combined 136 studies of this kind. In about half of them, simple formulas did better than the experts. In most of the rest, they did about equally well. In only a small handful did the experts clearly win. In many messy, uncertain areas, careful rules beat confident gut feelings.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "who": "William Grove and colleagues",
+    "where": "University of Minnesota, 2000",
+    "what": "136 studies comparing expert judgement with simple formulas"
+   }
+  },
+  {
+   "say": "Picture a chess board in the middle of a game. To a beginner, it's a scatter of pieces. To a master, it's a handful of familiar shapes, each one carrying a memory of what tends to happen next.",
+   "show": {
+    "type": "photo",
+    "file": "lf33_b09_01.jpg",
+    "cap": "A board full of patterns"
+   }
+  },
+  {
+   "say": "There's one more twist in the story of the gut, and it matters for Mara. Sometimes, thinking too hard about our reasons can make a choice worse. That was the finding of a pair of clever studies by the psychologist Timothy Wilson and his colleagues.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "n": 36,
+    "title": "Too many reasons"
+   }
+  },
+  {
+   "say": "In 1991, Timothy Wilson and Jonathan Schooler asked students to taste and rate several strawberry jams that food experts had already ranked. Some students simply tasted and rated. Others were asked to write down their reasons first. The students who wrote reasons gave ratings that agreed much less with the experts.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "who": "Timothy Wilson and Jonathan Schooler",
+    "where": "University of Virginia, 1991",
+    "what": "Listing reasons made people's taste ratings agree less with the experts"
+   }
+  },
+  {
+   "say": "In a 1993 study, Wilson and his colleagues let students choose a poster to take home. Those asked to analyse their reasons first tended to choose different posters. And when the researchers called weeks later, those students were less satisfied with the poster they'd chosen. Reasons that are easy to put into words had pushed out feelings that were harder to explain.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "who": "Timothy Wilson and colleagues",
+    "where": "University of Virginia, 1993",
+    "what": "People who analysed their reasons chose a poster, and later liked it less"
+   }
+  },
+  {
+   "say": "That doesn't mean reasons are bad. It means that some things we value are hard to put into words, and a written list can quietly favour whatever is easiest to describe. A friend's smile, the light on the sea, the feeling of being known. Those don't fit neatly into a column.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Words and feelings",
+    "sub": "Not everything fits a list"
+   }
+  },
+  {
+   "say": "Mara's list is full of things that are easy to write. Distance, travel, packing, finding new work. But her sister's laugh doesn't appear anywhere on it. Nor does the way she feels walking by the water. Her columns are useful. They just aren't the whole story.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Mara's two columns",
+    "sub": "What the list leaves out"
+   }
+  },
+  {
+   "say": "So should Mara trust her gut? By Kahneman and Klein's test, she's never moved across the country before, so her gut has little practice with this exact kind of decision. But her gut does know a great deal about her own life, about what makes her feel calm and what makes her feel alive. That kind of knowledge deserves a seat at the table.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cabin_fireplace",
+    "cap": "Mara's gut",
+    "sub": "Experienced, or not"
+   }
+  },
+  {
+   "say": "And that leads to an even stranger question, one that has puzzled scientists and philosophers alike. When Mara finally decides, will she be the one doing the deciding? Or will her brain have made up its mind before she knows it? That's where we're heading next.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "cap": "Next stop",
+    "sub": "Who is deciding"
+   }
+  }
+ ]
+}

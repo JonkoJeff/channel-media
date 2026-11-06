@@ -1,0 +1,225 @@
+{
+ "id": "lf33_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Mara's kitchen is quiet tonight. There's nobody else in the room. And yet, if you could listen in on her thoughts, you'd hear a crowd. Her sister, hopeful on the phone last week. Her best friend, who said, you can't leave, what would I do without you. Her mother, who has never said anything directly, but whose silence says quite a lot.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "n": 46,
+    "title": "Other people"
+   }
+  },
+  {
+   "say": "We carry other people with us into our decisions. Their opinions, their hopes, their imagined reactions. Sometimes that's wise. Other people often see things we can't. But psychology has shown that the pull of other people can be stronger, and stranger, than we tend to realise.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A crowd in the head",
+    "sub": "Even alone"
+   }
+  },
+  {
+   "say": "The most famous demonstration comes from the psychologist Solomon Asch, in the early 1950s. A volunteer sat at a table with several other people, all of whom, secretly, were working with the researcher. They were shown a line on a card, and three comparison lines, and had to say aloud which one matched. The answer was obvious.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "rooftop_dusk",
+    "who": "Solomon Asch",
+    "where": "Swarthmore College, 1951",
+    "what": "Which line matches? People in a group gave an obviously wrong answer"
+   }
+  },
+  {
+   "say": "For the first few rounds, everyone gave the right answer. Then, on certain rounds, all the other people confidently gave the same wrong answer, one after another. The real volunteer, sitting near the end, then had to answer out loud, with everyone listening.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The others answer",
+    "sub": "Clearly wrong"
+   }
+  },
+  {
+   "say": "On those critical rounds, about a third of the answers went along with the group's obvious mistake. Around three quarters of the volunteers conformed at least once. But it's worth noticing the other side too. Most answers stayed correct, and about a quarter of the volunteers never gave in at all.",
+   "show": {
+    "type": "stat",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Went along with the group",
+    "big": "About 1 in 3",
+    "label": "of the critical answers matched the wrong group answer"
+   }
+  },
+  {
+   "say": "Asch also found something hopeful. When just one other person in the group gave the correct answer, conformity dropped dramatically. One ally was enough to give the volunteer the courage to trust their own eyes. A single honest voice can loosen the pull of a whole crowd.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "One ally",
+    "sub": "Changes everything"
+   }
+  },
+  {
+   "say": "In 1996, Rod Bond and Peter Smith combined well over a hundred studies using Asch's task. Conformity was lower in later American studies than in the early ones, and it tended to be higher in cultures that place more value on the group. So the pull of the crowd is real, but not fixed. It changes with time and place.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Times and places",
+    "sub": "Not fixed"
+   }
+  },
+  {
+   "say": "In Asch's task, the right answer was obvious, and people went along anyway, mostly to avoid standing out. But there's a second, quieter kind of social influence. When we genuinely don't know the answer, we look to others for information. And that can be very sensible, or lead a whole crowd astray.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "n": 47,
+    "title": "When we don't know"
+   }
+  },
+  {
+   "say": "In 2006, Matthew Salganik, Peter Dodds and Duncan Watts built a website where people could listen to and download songs by unknown bands. Over fourteen thousand people took part. Some saw how many times each song had already been downloaded. Others didn't. And those who could see the counts were divided into several separate worlds, each starting from zero.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "who": "Matthew Salganik, Peter Dodds and Duncan Watts",
+    "where": "Columbia University, 2006",
+    "what": "An artificial music market with 14,341 people showed how popularity snowballs"
+   }
+  },
+  {
+   "say": "When people could see what others had chosen, popularity snowballed. Songs that got an early lead tended to keep growing, and the gap between hits and flops became much larger. And here's the fascinating part. In the separate worlds, different songs became the hits. The very best songs rarely did badly, and the worst rarely did well, but in the middle, early luck mattered enormously.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Snowballs",
+    "sub": "Different winners"
+   }
+  },
+  {
+   "say": "So when something is popular, that's partly a sign of quality, and partly a sign that it got an early push that others followed. It's a useful thing to remember when everyone around you seems sure about something. Their certainty may be built, in part, on each other's certainty.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "Popular is not best",
+    "sub": "Just early"
+   }
+  },
+  {
+   "say": "Picture a long table, with one chair pulled slightly out. It's the chair where you sit, when everyone else has already given their answer. It's surprisingly hard, in that chair, to say something different.",
+   "show": {
+    "type": "photo",
+    "file": "lf33_b12_01.jpg",
+    "cap": "One seat at the table"
+   }
+  },
+  {
+   "say": "But other people aren't only a source of error. Sometimes, they're a source of wisdom. And the classic example comes from a country fair in England, more than a century ago.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A16",
+    "bg": "autumn_overlook",
+    "n": 48,
+    "title": "The wisdom of crowds"
+   }
+  },
+  {
+   "say": "In 1906, the scientist Francis Galton visited a livestock fair in Plymouth, where people entered a contest to guess the weight of an ox. Afterwards, he collected around eight hundred of the tickets. Individual guesses were all over the place. But when he took the middle guess of them all, it was within about one percent of the true weight. He published the result in the journal Nature in 1907.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "who": "Francis Galton",
+    "where": "Plymouth, England, 1907",
+    "what": "Hundreds of guesses of an ox's weight, and the middle guess was almost exactly right"
+   }
+  },
+  {
+   "say": "The magic only works under certain conditions, though. The guesses have to be independent. Each person has to make up their own mind, without copying anyone else. When people copy each other, as in the music study, errors pile up instead of cancelling out. A crowd is wise when its members think separately.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "Independent guesses",
+    "sub": "The key ingredient"
+   }
+  },
+  {
+   "say": "The opposite of independent thinking has a name too. In 1972, the psychologist Irving Janis wrote about what he called groupthink. He studied several famous failed decisions made by close-knit groups of advisers, and argued that the wish for harmony had smothered disagreement, and with it, good judgement.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 49,
+    "title": "Groupthink"
+   }
+  },
+  {
+   "say": "Janis's case studies have been debated ever since, and groupthink is better seen as a warning than a law. But the warning is a useful one. When everyone agrees very quickly, especially in a group of friends who like each other, it's worth asking whether anyone felt free to say no.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Agreeing too easily",
+    "sub": "A warning sign"
+   }
+  },
+  {
+   "say": "So what about Mara's crowd? Her sister's hope, her friend's worry, her mother's silence. They're all giving her information, about how much she's loved, about what she'd leave and find. But they're also, gently, pulling. And because they love her, their pull is hard to see clearly.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Mara's crowd",
+    "sub": "Who she hears"
+   }
+  },
+  {
+   "say": "One simple idea from the research might help her. Ask people separately, rather than together. And before asking anyone, write down her own view first, so that she has something independent of their opinions to come back to. That way, she gets the wisdom of her crowd, without losing her own voice in it.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "cap": "Asking separately",
+    "sub": "Listening first"
+   }
+  },
+  {
+   "say": "So, a few gentle lessons about other people. Write down your own view before asking anyone. Ask people separately, so they don't copy each other. Notice who has a stake in your choice, kindly, without blame. And remember that one honest voice, even a quiet one, can help you hear your own.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "title": "Other people, wisely",
+    "items": [
+     "Write your own view first",
+     "Ask people separately",
+     "Notice who has a stake",
+     "One honest voice helps"
+    ]
+   }
+  },
+  {
+   "say": "In the next part of our story, we'll turn to a question at the very heart of Mara's decision. Whether she'd be happier by the sea depends on how well she can predict her own future feelings. And it turns out that we're all rather surprising at that.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "cap": "Next stop",
+    "sub": "Imagining the future"
+   }
+  }
+ ]
+}

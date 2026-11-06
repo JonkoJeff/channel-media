@@ -1,0 +1,231 @@
+{
+ "id": "lf33_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Ask anyone why they chose something, and they'll tell you. Why this coat and not that one. Why this restaurant. Why this person. The answer comes quickly and easily, and it feels completely true. After all, who would know better than you why you chose what you chose?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "n": 41,
+    "title": "The reasons we give"
+   }
+  },
+  {
+   "say": "In 2005, a team at Lund University in Sweden, led by Petter Johansson and Lars Hall, published a study in Science that tested exactly that confidence. Volunteers were shown pairs of photographs of women's faces, two cards at a time. Each time, they pointed to the face they found more attractive.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "who": "Petter Johansson, Lars Hall, Sverker Sikström and Andreas Olsson",
+    "where": "Lund University, 2005",
+    "what": "People chose the more attractive of two faces, then were handed the other one"
+   }
+  },
+  {
+   "say": "The researcher then slid the chosen card across the table, and asked the volunteer to explain why they'd picked it. But on a few of the trials, the researcher used a simple magician's trick. The card they handed over was not the one the volunteer had chosen. It was the other face, the one they'd just rejected.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Sleight of hand",
+    "sub": "The other card"
+   }
+  },
+  {
+   "say": "You'd expect people to notice straight away. These were two different faces, and the choice had been made only seconds earlier. But most of the time, people didn't notice at all. Only around thirteen percent of the swapped trials were detected. In all the others, people simply took the card and started explaining.",
+   "show": {
+    "type": "stat",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "title": "Swaps that people noticed",
+    "big": "13%",
+    "label": "of the secretly swapped trials were detected"
+   }
+  },
+  {
+   "say": "And this is the remarkable part. They gave reasons for a choice they hadn't made. Some praised features that only the rejected face had. One volunteer said they'd chosen her because they liked her earrings, when the face they had actually chosen wasn't wearing any. The reasons sounded fluent, sincere and confident.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The reasons",
+    "sub": "For a choice never made"
+   }
+  },
+  {
+   "say": "Johansson and Hall called this choice blindness. We can fail to notice when the outcome of our own choice is switched, and then go on to justify the outcome we were given. And because the reasons for the swapped choice sounded much like the reasons for real choices, the researchers asked an uncomfortable question. How much of our explaining is really reporting, and how much is invention?",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Choice blindness",
+    "sub": "A new name"
+   }
+  },
+  {
+   "say": "You might think faces are a special case, quick impressions that are easy to blur. So the team took their trick to a supermarket. In a study published in 2010, they set up a tasting stand for jam and for tea.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "n": 42,
+    "title": "Jam and tea"
+   }
+  },
+  {
+   "say": "Shoppers tasted two jams and chose the one they preferred. Then they were invited to taste their favourite again and explain why they liked it. But the jars had two hidden compartments, and when they were turned over, the shopper actually tasted the jam they had rejected. Fewer than a third of the swaps were noticed, even when the two flavours were as different as cinnamon apple and bitter grapefruit.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Lars Hall, Petter Johansson and colleagues",
+    "where": "A Swedish supermarket, 2010",
+    "what": "Shoppers tasted two jams, then tasted again from a secretly swapped jar"
+   }
+  },
+  {
+   "say": "Then the researchers tried something bolder. In a study published in 2012, they asked people to fill out a survey about moral questions, things people often feel strongly about. And then, using a sticky trick on the paper itself, they reversed some of the answers.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A16",
+    "bg": "autumn_overlook",
+    "n": 43,
+    "title": "Even our opinions"
+   }
+  },
+  {
+   "say": "When people read their answers back, a statement they had agreed with now said they disagreed, or the other way round. Many of the reversals went unnoticed. And again, people often went on to argue for the reversed position, the one they had originally rejected, giving reasons for a view they didn't hold a few minutes before.",
+   "show": {
+    "type": "study",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "who": "Lars Hall, Petter Johansson and Thomas Strandberg",
+    "where": "PLoS ONE, 2012",
+    "what": "Answers on a moral survey were secretly reversed, and many people defended the new answer"
+   }
+  },
+  {
+   "say": "None of this means the volunteers were foolish. They were ordinary people, in a friendly setting, not expecting a magic trick. The studies simply reveal how much of our sense of why we choose is built after the choice, smoothly and quickly, by a mind that likes things to make sense.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Not foolish",
+    "sub": "Very human"
+   }
+  },
+  {
+   "say": "Picture two cards lying face down on a small wooden table. One of them is your choice, or so you believe. The cards look the same from the back. And when one of them is turned over, you may find yourself explaining a choice you never made.",
+   "show": {
+    "type": "photo",
+    "file": "lf33_b11_01.jpg",
+    "cap": "The card that changed"
+   }
+  },
+  {
+   "say": "This idea wasn't entirely new. Back in 1977, the psychologists Richard Nisbett and Timothy Wilson wrote a famous paper with a memorable title. Telling More Than We Can Know. In it, they described a simple study in a shop.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "n": 44,
+    "title": "Telling more than we know"
+   }
+  },
+  {
+   "say": "Shoppers were asked to judge four pairs of stockings laid out in a row, and say which was the best quality. The stockings were identical. Even so, people strongly favoured the pair on the far right. And when asked why, nobody mentioned the position. They talked about the knit, the sheerness, the feel. When the researchers asked directly whether position could have mattered, people denied it.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "rooftop_dusk",
+    "who": "Richard Nisbett and Timothy Wilson",
+    "where": "University of Michigan, 1977",
+    "what": "Shoppers preferred the right-most of four identical items, but never said so"
+   }
+  },
+  {
+   "say": "Nisbett and Wilson suggested that when we explain our choices, we often aren't looking inside and reporting what happened. Instead, we're doing something more like guessing, drawing on ideas about what would make sense. Quality matters, so it must have been the quality. It's a plausible story, rather than a true report.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "cap": "A plausible story",
+    "sub": "Not a report"
+   }
+  },
+  {
+   "say": "Perhaps the most striking evidence of all comes from patients whose brains had been surgically divided. In the 1960s and 70s, a small number of people with severe epilepsy had the connection between the two halves of their brain cut, to stop seizures spreading. The neuroscientist Michael Gazzaniga spent decades studying them.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 45,
+    "title": "The interpreter"
+   }
+  },
+  {
+   "say": "In one well known example, a patient's left hemisphere, which handles speech, was shown a chicken claw. His right hemisphere, which can't speak, was shown a snowy scene. Asked to pick matching pictures, his left hand, controlled by the right side, chose a shovel. His right hand chose a chicken.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "A snowy scene",
+    "sub": "And a chicken claw"
+   }
+  },
+  {
+   "say": "When asked why he'd chosen a shovel, the speaking half of his brain, which had never seen the snow, made up an explanation on the spot. The chicken claw goes with the chicken, he said, and you need a shovel to clean out the chicken shed. A smooth, confident answer, and entirely invented. Gazzaniga called this part of the mind the interpreter.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "An instant story",
+    "sub": "The shovel"
+   }
+  },
+  {
+   "say": "Gazzaniga suggested that we all have such an interpreter, not only patients with divided brains. It's the part of us that weaves our actions, feelings and memories into a story that makes sense. Most of the time, the story is close enough to the truth. But it's always, in part, a story.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "We all have one",
+    "sub": "Making sense"
+   }
+  },
+  {
+   "say": "What does that mean for Mara? Perhaps that some of the points in her columns weren't the causes of her feelings, but explanations for them, written afterwards. She may lean towards going because of something she can't quite name, and then find reasons that fit. That isn't dishonest. It's simply how minds work.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Mara's reasons",
+    "sub": "Some written after"
+   }
+  },
+  {
+   "say": "It's worth holding our reasons a little more lightly, then. Not throwing them away, but treating them as our best guess about ourselves, rather than the final truth. And perhaps being a little kinder when other people's reasons don't quite add up. Theirs are stories too.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "cap": "Holding reasons lightly",
+    "sub": "Kindly"
+   }
+  },
+  {
+   "say": "And so far, we've kept Mara alone at her kitchen table. But nobody really decides alone. In the next part of our story, we'll look at how other people slip into our choices, sometimes quietly, sometimes powerfully, even when they're not in the room.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "cap": "Next stop",
+    "sub": "Other people"
+   }
+  }
+ ]
+}

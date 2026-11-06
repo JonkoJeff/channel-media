@@ -1,0 +1,248 @@
+{
+ "id": "lf33_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Picture a small, quiet research room, sometime in the early 1970s. In the middle of the table there's a wheel of fortune, numbered from zero to a hundred. A researcher spins it in front of a volunteer. It clicks, slows, and stops on a number. And then the volunteer is asked a question that has nothing whatsoever to do with wheels.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "n": 15,
+    "title": "A number out of nowhere"
+   }
+  },
+  {
+   "say": "The question was this. What percentage of the countries in the United Nations are African countries? First, is it higher or lower than the number on the wheel? And then, what's your best guess? What the volunteers didn't know was that the wheel had been rigged. It only ever stopped on ten, or on sixty five.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "who": "Tversky and Kahneman",
+    "where": "Science, 1974",
+    "what": "A rigged wheel stopped at 10 or 65, then people estimated how many African nations were in the United Nations"
+   }
+  },
+  {
+   "say": "And the meaningless number pulled people's answers. Those who had seen ten gave a typical estimate of twenty five percent. Those who had seen sixty five gave a typical estimate of forty five percent. A number that came from a spinning wheel, a number everyone could see was random, had shifted their judgement by twenty points.",
+   "show": {
+    "type": "stat",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Same question, different wheel",
+    "big": "25 vs 45",
+    "label": "median guess after a wheel showing 10 or 65"
+   }
+  },
+  {
+   "say": "Tversky and Kahneman called this anchoring. The first number you meet becomes an anchor. You know it might be wrong, so you adjust away from it. But you tend to stop adjusting too soon, while you're still close to where you started. Like a boat on a rope, you can drift, but only so far.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Anchoring",
+    "sub": "The first number holds you"
+   }
+  },
+  {
+   "say": "You might think this only works when people have no idea of the answer. But anchors pull even when we know quite a lot. A lovely example comes from two German psychologists, Fritz Strack and Thomas Mussweiler.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "n": 16,
+    "title": "Gandhi's age"
+   }
+  },
+  {
+   "say": "In a study published in 1997, they asked some people whether Mahatma Gandhi died before or after the age of a hundred and forty. They asked others whether he died before or after the age of nine. Both questions are obviously absurd. Nobody believes he died at nine, and nobody believes he lived to a hundred and forty.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "who": "Fritz Strack and Thomas Mussweiler",
+    "where": "University of Würzburg, 1997",
+    "what": "Did Gandhi die before or after the age of 140, or of 9"
+   }
+  },
+  {
+   "say": "And yet, when they were then asked for their best estimate, those given the high anchor guessed on average about sixty seven. Those given the low anchor guessed about fifty. An impossible number, one that everyone rejected, still dragged their answer towards it.",
+   "show": {
+    "type": "stat",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "title": "Two absurd anchors",
+    "big": "67 vs 50",
+    "label": "average guess of Gandhi's age at death after a high or a low anchor"
+   }
+  },
+  {
+   "say": "So far, these are all students in a laboratory, answering trivia. Surely people with real expertise, making real decisions, wouldn't be swayed by a random number. That's what a group of researchers in Germany set out to test, with people whose whole job is careful judgement.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Not just guesses",
+    "sub": "It reaches the experts"
+   }
+  },
+  {
+   "say": "In a study published in 2006, Birte Englich and her colleagues gave experienced legal professionals, including judges, a detailed made-up case to read. Before deciding on a sentence, each of them rolled a pair of dice. The dice were loaded, so they always came up as a total of three, or a total of nine.",
+   "show": {
+    "type": "study",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "who": "Birte Englich, Thomas Mussweiler and Fritz Strack",
+    "where": "Germany, 2006",
+    "what": "Experienced judges rolled loaded dice before deciding a sentence in a made-up case"
+   }
+  },
+  {
+   "say": "Those whose dice showed three gave, on average, a sentence of about five months. Those whose dice showed nine gave about eight months. These were experienced professionals, who knew the dice were meaningless, because they had rolled them themselves. And still, the number on the dice leaked into their judgement.",
+   "show": {
+    "type": "bars",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "title": "Dice before the verdict",
+    "unit": "months",
+    "bars": [
+     [
+      "Dice showed 3",
+      5.0
+     ],
+     [
+      "Dice showed 9",
+      8.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "That's an unsettling result. But it's also a very human one. None of these people were careless. Anchoring isn't a sign of a weak mind. It seems to be part of how all minds work, including expert ones. The first number simply becomes the place where thinking starts.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "Unsettling",
+    "sub": "And very human"
+   }
+  },
+  {
+   "say": "Now, as promised, a check. Has anchoring survived the careful repetitions that toppled other famous findings? Here the news is good. In 2014, a large project called Many Labs, led by Richard Klein, repeated thirteen classic effects across thirty six samples and more than six thousand people.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "n": 17,
+    "title": "Did it hold up"
+   }
+  },
+  {
+   "say": "Anchoring was one of the strongest and most consistent effects in the whole project. In sample after sample, in many different countries, the first number pulled the later answers. So this is one of those findings that stood up to the test, which makes it all the more worth knowing.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "who": "Richard Klein and colleagues",
+    "where": "Many Labs, 36 samples, 2014",
+    "what": "Anchoring was among the strongest and most reliable effects repeated"
+   }
+  },
+  {
+   "say": "Picture a small boat on calm water, tied to an anchor below. It can drift a little with the breeze, this way and that. But however far it seems to wander, the rope keeps pulling it back towards where it started.",
+   "show": {
+    "type": "photo",
+    "file": "lf33_b05_01.jpg",
+    "cap": "Free to drift, but only so far"
+   }
+  },
+  {
+   "say": "Sometimes, the anchor doesn't come from outside at all. We make it ourselves. The psychologists Nicholas Epley and Thomas Gilovich studied exactly this. They asked people questions where a natural starting point comes to mind on its own.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A16",
+    "bg": "autumn_overlook",
+    "n": 18,
+    "title": "Anchors we make ourselves"
+   }
+  },
+  {
+   "say": "For example, in what year was George Washington elected president of the United States? Many people know that the Declaration of Independence was in 1776, so they start there and adjust forwards. The answer is 1789. And people's guesses tended to stop short, landing too close to the starting point they'd chosen themselves.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "who": "Nicholas Epley and Thomas Gilovich",
+    "where": "Cornell University, 2001",
+    "what": "Starting from a number you already know, then adjusting too little"
+   }
+  },
+  {
+   "say": "Epley and Gilovich suggested a simple reason. When we adjust, we move step by step until we reach an answer that seems plausible. And then we stop. But the first plausible answer is often still near the edge of the range, close to the anchor, rather than in the middle where the truth tends to sit.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Why we stop",
+    "sub": "Good enough feels done"
+   }
+  },
+  {
+   "say": "Mara has an anchor too. The very first thing she thought, when her sister mentioned the move, was it's eight hours away. Everything since then has started from that thought. Far away. Long journey. Hard to come back. It might be true, and important. But it's worth noticing that it was simply the first frame she met.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Mara's anchor",
+    "sub": "Eight hours away"
+   }
+  },
+  {
+   "say": "What if her first thought had been, it's an hour from my sister's door? Or, it's a short walk to the sea? The facts haven't changed. But the starting point has, and with it, perhaps, the whole direction her thinking takes. That's anchoring, quietly at work in everyday life.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Another starting point",
+    "sub": "A different first thought"
+   }
+  },
+  {
+   "say": "Researchers have found a few gentle ways to loosen an anchor. Notice the first number or idea you met. Ask yourself where it came from, and whether it deserves to be the starting point. Imagine a different starting point, deliberately. And only then, decide.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "autumn_overlook",
+    "title": "Loosening an anchor",
+    "items": [
+     "Notice the first number",
+     "Ask where it came from",
+     "Imagine a different start",
+     "Then decide"
+    ]
+   }
+  },
+  {
+   "say": "One approach, studied by Thomas Mussweiler and his colleagues in 2000, is called considering the opposite. You deliberately list reasons why the anchor might be wrong. In their study, this simple habit reduced the pull of the anchor. It doesn't remove it completely, but it gives the mind somewhere else to start.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Thinking the opposite",
+    "sub": "A small habit"
+   }
+  },
+  {
+   "say": "So a number can steer us. And in the next part of our story, we'll see that it isn't only numbers. The very words a question uses, the way it's framed, can flip people's choices completely, even when the facts underneath are exactly the same.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "rooftop_dusk",
+    "cap": "Next stop",
+    "sub": "The shape of the question"
+   }
+  }
+ ]
+}

@@ -1,0 +1,233 @@
+{
+ "id": "lf33_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's the riddle. In a lake, there's a patch of lily pads. Every day, the patch doubles in size. If it takes forty eight days for the patch to cover the whole lake, how long would it take to cover half of the lake?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "n": 2,
+    "title": "Two speeds"
+   }
+  },
+  {
+   "say": "If you're like most people, a number arrived in your mind almost instantly. Twenty four. Half the lake, half the time. It feels right. It feels so obviously right that you might not even check it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "The answer that arrives",
+    "sub": "Twenty four"
+   }
+  },
+  {
+   "say": "But think about it slowly. The patch doubles every day. So if the lake is full on day forty eight, then on the day before, it must have been half full. The answer is forty seven days. Not twenty four. The quick answer wasn't a careful calculation at all. It was a pattern that looked like the right shape.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The slower answer",
+    "sub": "Forty seven"
+   }
+  },
+  {
+   "say": "This riddle comes from a short test published in 2005 by Shane Frederick, a researcher then at MIT. He called it the cognitive reflection test. Just three little questions, each with an answer that jumps into your head, and a correct answer that only appears if you stop and check.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "who": "Shane Frederick",
+    "where": "Massachusetts Institute of Technology, 2005",
+    "what": "The cognitive reflection test, three riddles with a tempting wrong answer"
+   }
+  },
+  {
+   "say": "Here's another of the three. If it takes five machines five minutes to make five widgets, how long would it take a hundred machines to make a hundred widgets? The quick answer is a hundred minutes. The correct answer is five. Each machine takes five minutes to make one widget, however many machines there are.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Another one",
+    "sub": "Five machines"
+   }
+  },
+  {
+   "say": "Frederick gave his test to thousands of people, many of them students at excellent universities. Even in the best scoring group, fewer than half got all three questions right. These weren't careless people. They were people whose first answer felt so certain that it never occurred to them to question it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "Clever people too",
+    "sub": "Fewer than half"
+   }
+  },
+  {
+   "say": "Psychologists have a way of describing what happened in your head just now. In the year 2000, Keith Stanovich and Richard West gave two kinds of thinking two plain names. System one, and system two. And about a decade later, Daniel Kahneman made those names famous.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "n": 3,
+    "title": "Fast and slow"
+   }
+  },
+  {
+   "say": "Kahneman was a psychologist who shared the Nobel Prize in economics in 2002 for work on how people make judgements. In 2011, he published a book called Thinking, Fast and Slow. In it, he describes system one as fast, automatic and effortless, and system two as slow, deliberate and effortful.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "who": "Daniel Kahneman",
+    "where": "Princeton University, 2011",
+    "what": "Thinking, Fast and Slow: system one is quick and automatic, system two is slow and effortful"
+   }
+  },
+  {
+   "say": "System one is the part of you that reads a word on a sign before you can stop it. That recognises a friend's face in a crowd. That knows two plus two without counting. That gave you twenty four for the lily pads. It's always on, it never gets tired, and it's astonishingly good at most of what it does.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "autumn_overlook",
+    "cap": "System one",
+    "sub": "The quick one"
+   }
+  },
+  {
+   "say": "System two is the part of you that multiplies seventeen by twenty four. That fills in a long form, slowly. That checks the lily pad answer and finds the mistake. It can do things system one cannot. But it's slow, it takes effort, and, as Kahneman put it, it's rather lazy. It often just accepts what system one hands it.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "System two",
+    "sub": "The careful one"
+   }
+  },
+  {
+   "say": "So we have two speeds. One fast, automatic and effortless. One slow, deliberate and effortful. The fast one almost always answers first. And the slow one only sometimes bothers to check the answer before we act on it.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Two speeds",
+    "items": [
+     "Fast, automatic, effortless",
+     "Slow, deliberate, effortful",
+     "The fast one answers first",
+     "The slow one only sometimes checks"
+    ]
+   }
+  },
+  {
+   "say": "Think about Mara at her kitchen table. The two columns, the pen, the careful weighing of each point. That's system two at work. But what about the little feeling in her stomach when she imagines the sea? Or the sudden heaviness when she imagines packing boxes? Those arrive without effort. That's system one, speaking quietly and quickly.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Back to Mara",
+    "sub": "Two speeds at the table"
+   }
+  },
+  {
+   "say": "Picture that lake at dawn, half covered with lily pads. Tomorrow, the whole surface will be green. It looks like a long way from half to full. But with doubling, it's only one more day.",
+   "show": {
+    "type": "photo",
+    "file": "lf33_b02_01.jpg",
+    "cap": "Half the lake, the day before"
+   }
+  },
+  {
+   "say": "One of the clearest ways to feel the two systems pulling apart is an old optical illusion, drawn by the German sociologist Franz Carl Müller-Lyer in 1889. Two lines of exactly the same length. One with arrowheads pointing inwards, and one with arrowheads pointing outwards.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A16",
+    "bg": "autumn_overlook",
+    "n": 4,
+    "title": "Seeing is not believing"
+   }
+  },
+  {
+   "say": "The line with the outward fins looks longer. Clearly longer. And here's the interesting part. You can measure the lines with a ruler. You can know, for certain, that they're the same length. And they still look different. Your slow, careful mind knows the truth. Your fast mind keeps showing you the illusion anyway.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "The lines",
+    "sub": "One looks longer"
+   }
+  },
+  {
+   "say": "That's a small, harmless example of something important. Knowing about a bias doesn't make it go away. System two can correct the answer, but it can't switch off what system one sees. The best it can do is notice, and decide not to trust the first impression.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "Knowing is not enough",
+    "sub": "The illusion stays"
+   }
+  },
+  {
+   "say": "Now, before we go further, one honest note. There aren't really two little machines inside your skull, one labelled one and one labelled two. Kahneman himself called them fictitious characters, a helpful way of talking about two kinds of process, not two places in the brain.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "n": 5,
+    "title": "Only a metaphor"
+   }
+  },
+  {
+   "say": "Some researchers think the split is too neat. In 2018, the psychologists David Melnikoff and John Bargh wrote a paper with the lovely title The Mythical Number Two. They argued that features like fast, automatic and unconscious don't always travel together, so the two neat boxes are an oversimplification.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "autumn_overlook",
+    "cap": "A real debate",
+    "sub": "How many systems"
+   }
+  },
+  {
+   "say": "So it's best to think of fast and slow as a useful map, rather than a precise drawing of the brain. Real thinking is more like a dial than a switch, sliding between quick and careful, automatic and effortful. But the map is good enough to guide us through the rest of the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "A useful map",
+    "sub": "Not the territory"
+   }
+  },
+  {
+   "say": "And here's the most important thing to remember. System one isn't stupid. It catches a falling cup before you've decided to. It reads moods on faces in an instant. It finds your way home without thinking. It gets the lily pads wrong, but it gets millions of other things right every single day.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "cap": "Why it matters",
+    "sub": "Most of the time it works"
+   }
+  },
+  {
+   "say": "The real question, then, isn't whether to use fast thinking or slow thinking. You need both. The real question is when to slow down. When should you stop, and check the answer that arrived so easily? We'll keep returning to that question all night.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The real question",
+    "sub": "When to slow down"
+   }
+  },
+  {
+   "say": "And that brings us to the next part of our story. Because if fast thinking is often coloured by feeling, you might think the solution is simple. Take the feelings out. Make decisions with cold, clear reason. But there's a famous patient whose story suggests that might be the worst thing you could do.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "cap": "Next stop",
+    "sub": "Feelings"
+   }
+  }
+ ]
+}

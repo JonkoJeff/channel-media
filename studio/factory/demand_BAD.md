@@ -32,3 +32,5 @@ Done 3 Nov: lf30 Your Brain Is Not Showing You Reality (F10, 17 blocks, ~19.5k s
 Done 4 Nov: lf31 How Your Memory Really Works (F10, 17 blocks, ~20.9k spoken words, est 113 min by est.py, Shorts sh31_01..17; Claude failover writer). Next: lf32 How Motivation Really Works (teased at the end of lf31), then decision-making. Keep >= 2 reserve long videos.
 
 Done 5 Nov: lf32 How Motivation Really Works (F10, 17 blocks, ~20.1k spoken words, Shorts sh32_02..16 minus sh32_07 (jam study needs its null-replication caveat, too long for a Short); Claude failover writer). Next: lf33 How Your Brain Makes Decisions (teased at the end of lf32). Keep >= 2 reserve long videos.
+
+Done 6 Nov: lf33 How Your Brain Makes Decisions (F01 one-story deep dive: Mara's stay-or-go evening, 18 blocks, ~19.5k spoken words, Shorts sh33_02..16; Claude failover writer). Next: lf34 What Stress Really Does to Your Brain (teased at the end of lf33). Keep >= 2 reserve long videos.

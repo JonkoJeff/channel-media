@@ -1,0 +1,241 @@
+{
+ "id": "lf33_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Picture a kitchen table late in the evening. On it, a cup of tea going cold, and a single sheet of paper. On the paper, two words, written at the top of two columns. Stay. And go. That's all. And the person sitting in front of it has been looking at those two words for almost an hour.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A letter on the table",
+    "sub": "One small question"
+   }
+  },
+  {
+   "say": "Let's give her a name. We'll call her Mara. She isn't a real person, she's someone we'll imagine together tonight, but her situation is a very ordinary one. Her sister lives in a small town by the sea, a long way from here. And Mara has been offered the chance to move there, to start again, close to family.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Meet Mara",
+    "sub": "An imagined person"
+   }
+  },
+  {
+   "say": "Staying means her friends, her street, the café where they know her order, the life she has spent years building. Going means the sea, her sister, her sister's children, and a life she can only half imagine. There's no obvious right answer. And that's exactly why she has been sitting there for an hour.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Stay or go",
+    "sub": "The hardest kind of choice"
+   }
+  },
+  {
+   "say": "Tonight, we'll stay close to Mara and her two columns. Because underneath her question is a bigger one, one that applies to every choice you've ever made. When you decide something, big or small, what is actually happening inside your head? Who, or what, is doing the deciding?",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "Tonight's question",
+    "sub": "How does a brain choose"
+   }
+  },
+  {
+   "say": "Most of us carry a simple picture of how it works. Somewhere inside, there's a calm, sensible judge. The judge looks at the facts, weighs the pros against the cons, and then picks the best option. When we make a bad decision, we assume the judge was tired, or rushed, or didn't have enough information.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "A comfortable picture",
+    "sub": "The calm judge"
+   }
+  },
+  {
+   "say": "It's a tidy picture. But over the last seventy years or so, psychologists and neuroscientists have found something stranger, and rather more interesting. There is no single judge. There are fast habits and slow thoughts, feelings that arrive before reasons, shortcuts that work beautifully until they don't, and stories we tell ourselves afterwards about why we chose what we chose.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A different picture",
+    "sub": "Many voices"
+   }
+  },
+  {
+   "say": "Here's what we'll explore tonight. Fast thinking and slow thinking, and how the two work together. Why feelings aren't the enemy of good decisions, but part of them. The clever shortcuts your brain takes. How the way a question is asked can change the answer. When it's wise to trust your gut. And why we so often don't know why we chose what we chose.",
+   "show": {
+    "type": "list",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Fast thinking and slow thinking",
+     "Why feelings are part of reason",
+     "The shortcuts your brain takes",
+     "How the way a question is asked changes the answer",
+     "When to trust your gut",
+     "Why we often don't know why we chose"
+    ]
+   }
+  },
+  {
+   "say": "We'll do this slowly, and I hope rather cosily. We'll keep coming back to Mara and her kitchen table, and use her decision as a thread through the whole night. Each stop along the way will show us one more piece of the machinery that turns two columns on a sheet of paper into a single step.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 1,
+    "title": "The machinery of choosing"
+   }
+  },
+  {
+   "say": "Along the way, I'll tell you about real experiments. A man who could no longer choose a date for his next appointment. A rigged wheel of fortune. Firefighters who sensed danger before they could explain it. Photographs that were secretly swapped. Whenever we meet a study, I'll tell you who ran it and when, so you can look it up yourself.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Real experiments",
+    "sub": "Names, places and years"
+   }
+  },
+  {
+   "say": "And I'll also tell you when a famous finding turned out to be shakier than it first looked. The science of decisions has had some very popular ideas that didn't survive careful repetition. Those stories matter too, because they show how science corrects itself, slowly and honestly.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Doubts left in",
+    "sub": "Not every finding held up"
+   }
+  },
+  {
+   "say": "One more thing before we begin. This isn't a lesson in how to become a perfect decision maker. There's no such thing. Nobody chooses like a computer, and nobody should have to. We're simply curious, tonight, about the strange and clever ways a human mind makes up its mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Nothing to fix tonight",
+    "sub": "Just curious"
+   }
+  },
+  {
+   "say": "Picture that sheet of paper again, under the warm light of the kitchen lamp. Two columns. Stay, and go. It looks so simple, a list on the left, a list on the right. But what happens in the head of the person looking at it is anything but simple.",
+   "show": {
+    "type": "photo",
+    "file": "lf33_b01_01.jpg",
+    "cap": "Two columns, one decision"
+   }
+  },
+  {
+   "say": "And it isn't only the big decisions. You make small ones from the moment you wake up. Whether to get up now or in five minutes. What to wear. Which way to walk. Whether to answer a message now or later. Most of them pass without you ever noticing, and that, as we'll see, is a clue to how the whole system works.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "cap": "Small choices too",
+    "sub": "All day long"
+   }
+  },
+  {
+   "say": "You may have heard that an adult makes around thirty five thousand decisions a day. It's a number that gets repeated a lot. As far as anyone can tell, though, there's no study behind it. Nobody has ever counted. So let's leave that number aside, and just say that you make a great many choices, most of them without noticing.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "A popular number",
+    "sub": "Thirty five thousand a day"
+   }
+  },
+  {
+   "say": "And that's the first hint tonight. If you had to think carefully about every one of those choices, you'd never get out of the front door. So the brain has found ways to make most decisions quickly, cheaply, and almost invisibly. Only a few ever reach the slow, careful part of you that sits at the kitchen table.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "The quiet majority",
+    "sub": "Choices on autopilot"
+   }
+  },
+  {
+   "say": "Mara's decision is one of those few. It's too big for autopilot. And yet, as we'll see, even while she sits there with her pen, the fast and invisible parts of her mind are busy. They're nudging her, colouring her columns, and perhaps, quietly, deciding before she does.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Back to Mara",
+    "sub": "Still at the table"
+   }
+  },
+  {
+   "say": "Here's a puzzle to carry with you tonight. Suppose Mara gave up on her two columns, took a coin out of her pocket, and let it decide. Heads, she goes. Tails, she stays. Would that be a foolish way to make a life decision? Strangely, there's a real study that suggests it might not be as foolish as it sounds.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A puzzle to carry",
+    "sub": "The coin"
+   }
+  },
+  {
+   "say": "We'll come back to that coin near the end of the night, with the real study and what it found. For now, just let the question sit quietly at the back of your mind. Can a coin really help with a decision that matters?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "An open question",
+    "sub": "We'll come back to it"
+   }
+  },
+  {
+   "say": "So, if you'd like to, settle in. Make yourself comfortable. Let your shoulders drop a little. This will be a long, slow tour, and you don't need to remember any of it. If you drift off along the way, that's perfectly fine. Mara will still be at her table when you come back.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "Settle in",
+    "sub": "A long, slow tour"
+   }
+  },
+  {
+   "say": "So that's our route. First, the two speeds of thinking. Then feelings, and why we can't decide without them. Then the shortcuts and frames that bend our judgement. Then defaults and too much choice. Then the gut, and when it can be trusted. Then the question of who really decides. And finally, a few gentle ideas for choosing well.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "title": "The route",
+    "items": [
+     "Fast and slow",
+     "Feelings",
+     "Shortcuts and frames",
+     "Defaults and too much choice",
+     "Gut and expertise",
+     "Who really decides",
+     "Choosing well"
+    ]
+   }
+  },
+  {
+   "say": "Our story begins with a riddle. A very simple one, about lily pads on a lake. It's so simple that you'll probably answer it in under a second. And that answer, for a great many people, including students at some of the best universities in the world, turns out to be wrong.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "A simple riddle",
+    "sub": "Where the story begins"
+   }
+  },
+  {
+   "say": "So let's start there, with that little riddle, and with what it reveals about the two speeds at which your mind runs. It's the perfect place to begin, because once you see the two speeds, you'll start noticing them everywhere, including in Mara's two columns.",
+   "show": {
+    "type": "char",
+    "sprite": "A16",
+    "bg": "autumn_overlook",
+    "cap": "The first stop",
+    "sub": "Two speeds of thought"
+   }
+  }
+ ]
+}

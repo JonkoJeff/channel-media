@@ -1,0 +1,248 @@
+{
+ "id": "lf34_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "It's seven forty two on a Monday morning. A train platform, grey light, a cold wind that finds its way under every coat. People stand in loose rows, holding paper cups, staring at nothing in particular. The board above the platform has just changed. The train is late. Twelve minutes late. And somewhere in the crowd, a man looks at the board, then at his phone, then at the board again.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Monday morning",
+    "sub": "Seven forty two"
+   }
+  },
+  {
+   "say": "Let's give him a name. We'll call him Jonah. He isn't a real person. He's someone we'll imagine together tonight. But his morning is a very ordinary one. At nine o'clock, Jonah has to stand up in front of his whole team and give a talk he has been dreading for two weeks.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Meet Jonah",
+    "sub": "An imagined person"
+   }
+  },
+  {
+   "say": "And right now, standing on that platform, something is happening inside him that he never asked for. His heart is beating faster. His mouth feels a little dry. His shoulders have crept up towards his ears. His stomach feels tight, as if it has folded itself in half. And his thoughts are racing ahead, to a room full of faces, to a first sentence he suddenly can't quite remember.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "title": "What Jonah feels",
+    "items": [
+     "A faster heartbeat",
+     "A dry mouth",
+     "Tight shoulders",
+     "A knotted stomach",
+     "Racing thoughts"
+    ]
+   }
+  },
+  {
+   "say": "You probably know that feeling. Maybe it arrives before an exam, or a difficult phone call, or a hospital appointment, or a conversation you've been putting off. Maybe it arrives in the middle of the night, for no clear reason at all. We have one short word for it. Stress.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "A familiar feeling",
+    "sub": "You know it too"
+   }
+  },
+  {
+   "say": "Tonight, we'll stay close to Jonah and his long Monday. Because underneath his racing heart is a question that applies to every stressful moment you've ever had. When stress arrives, what is it actually doing? What is happening in your brain, in your blood, in your body? And why does it sometimes help you, and sometimes get in the way?",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Tonight's question",
+    "sub": "What is really going on"
+   }
+  },
+  {
+   "say": "Here's what we'll explore tonight. Where the word stress came from, and the scientists who first studied it. The ancient alarm in your brain that fires in a fraction of a second. The slower wave that follows it. Why stress can sharpen your thinking, or scramble it. What it does to your memory. Why a feeling of control matters so much. And why another person's hand can quiet a frightened brain.",
+   "show": {
+    "type": "list",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Where the word stress came from",
+     "The alarm that fires in seconds",
+     "The slower wave that follows",
+     "Why stress can sharpen or scramble your thinking",
+     "What stress does to memory",
+     "Why a sense of control matters so much",
+     "Why other people calm us down"
+    ]
+   }
+  },
+  {
+   "say": "We'll do all of this slowly, and I hope rather cosily. And before we begin, here's the idea I'd like you to hold on to. Stress is not your enemy. It isn't a flaw, or a weakness, or a sign that something is wrong with you. It's an alarm system. A very old one.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 1,
+    "title": "An ancient alarm"
+   }
+  },
+  {
+   "say": "In fact, the core of it is far older than humans. Many animals have some version of it. A deer that freezes at the snap of a twig, then bolts. A bird that takes off the moment a shadow passes overhead. The same basic machinery that keeps a deer alive is running inside Jonah on that train platform.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Older than us",
+    "sub": "Far older"
+   }
+  },
+  {
+   "say": "And that's where the story gets interesting. Because this alarm was shaped for short, sharp dangers. A predator. A fall. A fight. Something that arrives, and then is over. It wasn't really built for a late train, a full inbox, and a talk at nine o'clock. It wasn't built for worries that follow us home and lie down beside us at night.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Built for a moment",
+    "sub": "Not for a Monday"
+   }
+  },
+  {
+   "say": "Picture that platform again. The wet tiles, the grey light, the clock that seems to move a little too fast. Nothing dangerous is happening here. Nobody is in any danger at all. And yet, inside one quiet man waiting for a train, an ancient alarm is ringing.",
+   "show": {
+    "type": "photo",
+    "file": "lf34_b01_01.jpg",
+    "cap": "A late train, a racing heart"
+   }
+  },
+  {
+   "say": "We'll follow Jonah through his whole day. The platform, the crowded train, the meeting room at a quarter to nine, the slow walk home, and the quiet evening after it. At each stop, we'll pause, and look underneath what he feels at the science of what his brain and body are doing. One day, seen up close, can tell us a surprising amount about all the others.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "n": 2,
+    "title": "One long Monday"
+   }
+  },
+  {
+   "say": "Along the way tonight, I'll tell you about real experiments. Rats in a laboratory in Montreal. Cats watched through an X-ray screen. Medical students before their exams. People asked to give a speech to a panel of stone-faced strangers. Married women holding a hand inside a brain scanner. Whenever we meet a study, I'll tell you who ran it and when, so you can look it up yourself.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Real experiments",
+    "sub": "Names, places and years"
+   }
+  },
+  {
+   "say": "And I'll also tell you when a famous finding turned out to be shakier, or more complicated, than it first looked. Stress is a subject full of popular ideas, and not all of them have survived careful testing. Those stories matter too, because they show how science slowly and honestly corrects itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Doubts left in",
+    "sub": "Science corrects itself"
+   }
+  },
+  {
+   "say": "There's one more thing I'd like to plant here, a question we'll come back to much later tonight. Is it possible that what you believe about stress changes what stress does to you? That two people, with exactly the same racing heart, could walk away from the same morning in quite different shape, just because of how they see that racing heart?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "n": 3,
+    "title": "A question to carry"
+   }
+  },
+  {
+   "say": "It sounds almost too simple to be true. And I'm not going to answer it yet. There is real research on this question, some of it surprising, and some of it more modest than the headlines made it sound. We'll get there. For now, just keep the question somewhere at the back of your mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "Hold on to it",
+    "sub": "We'll come back"
+   }
+  },
+  {
+   "say": "I also want to say clearly what tonight is not. It isn't medical advice, and it isn't a programme to make you stress free. Nobody is stress free, and nobody should have to be. If stress ever feels like too much, or goes on for a long time, the right person to talk to is a doctor. Tonight, we're simply curious about the strange and clever ways a body gets ready for trouble.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Not a lesson",
+    "sub": "Just curiosity"
+   }
+  },
+  {
+   "say": "The night has two halves. In the first half, we'll follow Jonah through his Monday and look at the science, step by step. In the second half, things will slow right down. There'll be a gentle wind-down, a chance to let your own alarm switch off, so you can listen until you drift away.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Two halves",
+    "sub": "Story, then rest"
+   }
+  },
+  {
+   "say": "So if you'd like to, get comfortable now. Pull a blanket up, or let your head sink a little deeper into the pillow. You don't need to remember any of the names or years. You can listen closely, or let the words wash over you. Either way is perfectly fine.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "title": "Getting ready",
+    "items": [
+     "Get comfortable",
+     "Let the day go",
+     "Listen as long as you like"
+    ]
+   }
+  },
+  {
+   "say": "Back on the platform, the board flickers. The train is now fifteen minutes late. Jonah breathes out sharply through his nose and looks at the time. Eight minutes until his train should have arrived. An hour and a quarter until his talk. His heart gives another hard thump.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "Back to the platform",
+    "sub": "The board changes again"
+   }
+  },
+  {
+   "say": "And here's a funny thing. If you could stop Jonah and ask him what he's feeling, he'd almost certainly say, I'm stressed. It's such a normal word now that it feels as if it has always been there. But it hasn't. Not in this sense. A hundred years ago, almost nobody would have described their Monday morning like that.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A hidden question",
+    "sub": "Why this word"
+   }
+  },
+  {
+   "say": "So before we look at what stress does, let's ask where the very idea came from. It's a story with a cat behind an X-ray screen, a rat in Montreal, and a word that was borrowed from the people who build bridges. It's a gentle place to begin.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Where we're going next",
+    "items": [
+     "A cat behind an X-ray screen",
+     "A rat in Montreal",
+     "A word borrowed from engineering"
+    ]
+   }
+  },
+  {
+   "say": "So that's where we'll begin. Not inside Jonah's brain, not yet, but in two laboratories in the early twentieth century. One in Boston, where a physiologist was watching the stomachs of frightened cats. And one in Montreal, where a young doctor was injecting rats with an extract he hoped would lead to a brand new hormone. Neither of them found quite what he was looking for. Together, they gave us the word stress.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "n": 4,
+    "title": "Where the word came from"
+   }
+  }
+ ]
+}

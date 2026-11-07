@@ -1,0 +1,283 @@
+{
+ "id": "lf34_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So far, we've followed the fast part of the alarm. The racing heart, the quick breath, the rush that arrives in seconds. But while Jonah stands on that crowded platform, something slower has already started inside him. A second wave, quieter than the first, that will still be rising long after the train finally pulls in.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "n": 15,
+    "title": "The slower wave"
+   }
+  },
+  {
+   "say": "This slower wave runs along a chain of three stations. Scientists call it the HPA axis. The letters stand for hypothalamus, pituitary, and adrenal. It sounds technical, but the idea is simple. It's a relay race of chemical messages, passed from the brain down to the body.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Three stations",
+    "sub": "A chain of messages"
+   }
+  },
+  {
+   "say": "It starts in the hypothalamus, a small region deep in the brain. It sends a chemical signal to the pituitary gland, which sits just below it. The pituitary then releases its own messenger into the bloodstream. And when that messenger reaches the adrenal glands, on top of the kidneys, they release a hormone called cortisol.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "title": "The relay",
+    "items": [
+     "Hypothalamus: sends the first signal",
+     "Pituitary gland: passes it on into the blood",
+     "Adrenal glands: release cortisol"
+    ]
+   }
+  },
+  {
+   "say": "Cortisol has a bad reputation. You may have heard it called the stress hormone, as if it were a kind of poison. But cortisol is one of the body's most useful helpers. It makes energy available, it helps keep blood sugar up, and it helps the body cope with a demanding moment. You couldn't live without it.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Not the villain",
+    "sub": "A helper hormone"
+   }
+  },
+  {
+   "say": "What makes cortisol different from adrenaline is its timing. Adrenaline is a sprint. Cortisol is more like a tide. It takes minutes, not seconds, to build up in the blood. And it lingers. That's one reason you can still feel a little shaky, or wired, long after the thing that frightened you is over.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Slower to arrive",
+    "sub": "And slower to leave"
+   }
+  },
+  {
+   "say": "In 2004, two researchers, Sally Dickerson and Margaret Kemeny, gathered together the results of more than two hundred laboratory studies in which people had been put under stress while scientists measured their cortisol. Across those studies, cortisol tended to peak somewhere around twenty to forty minutes after the stressful task began.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "who": "Sally Dickerson and Margaret Kemeny",
+    "where": "University of California, 2004",
+    "what": "A review of 208 laboratory stress studies"
+   }
+  },
+  {
+   "say": "Think about what that means for Jonah. The fright of the late train hit him at seven forty two. His adrenaline came in a flash. But his cortisol is a slower tide, and if the worry keeps going, it will still be climbing as he walks into the building, takes the lift, and finds the meeting room.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Jonah's tide",
+    "sub": "Still rising at nine"
+   }
+  },
+  {
+   "say": "But cortisol isn't only about emergencies. Even on the calmest day of your life, it rises and falls in a gentle rhythm, like the tide following the moon. And the highest point of that rhythm comes at a moment you might not expect.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "n": 16,
+    "title": "A daily rhythm"
+   }
+  },
+  {
+   "say": "Cortisol is usually at its lowest around the middle of the night, while you're deeply asleep. Then, in the early hours, it starts to rise. And something interesting happens in the short time just after you open your eyes.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Every morning",
+    "sub": "A built-in wake-up"
+   }
+  },
+  {
+   "say": "In 1997, a team led by Jens Pruessner at the University of Trier in Germany measured cortisol in people's saliva in the minutes after they woke up. They found a clear, reliable rise. In the first half hour after waking, free cortisol increased by roughly fifty to seventy five percent. Today this is called the cortisol awakening response.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "who": "Jens Pruessner and colleagues",
+    "where": "University of Trier, 1997",
+    "what": "Free cortisol levels after awakening"
+   }
+  },
+  {
+   "say": "So within about thirty minutes of opening your eyes, your body gives itself a little chemical push. It isn't a sign that something is wrong. It's more like a natural alarm clock from the inside, helping you get up and meet the day.",
+   "show": {
+    "type": "stat",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "title": "The morning rise",
+    "big": "30",
+    "label": "minutes after waking, cortisol climbs steeply"
+   }
+  },
+  {
+   "say": "Which means that Jonah's bad start landed on top of a rise that was already happening. He woke up, his body's natural morning wave began, and then came the late train, the buzzing phone, and the thought of the talk at nine. One wave on top of another. No wonder it felt like a lot.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Jonah's morning",
+    "sub": "Rush on top of the rise"
+   }
+  },
+  {
+   "say": "Now, if you're a scientist who wants to study all this, you have a problem. You need a way to make people stressed, reliably, safely, and in the same way every time. For a long while, that turned out to be surprisingly hard.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "n": 17,
+    "title": "Stress in the lab"
+   }
+  },
+  {
+   "say": "Loud noises bother some people and not others. Difficult puzzles are fun for some and dull for others. Even mild electric shocks don't reliably raise cortisol in everyone. So researchers went looking for a situation that almost every human being finds stressful. And they found one.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "A tricky problem",
+    "sub": "What stresses everyone"
+   }
+  },
+  {
+   "say": "In 1993, Clemens Kirschbaum, Karl-Martin Pirke and Dirk Hellhammer, also in Trier, described a procedure that would become one of the most widely used tools in stress research. They called it the Trier Social Stress Test. It is, in a way, very simple. You give a speech, and then you do some mental arithmetic, in front of strangers.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "who": "Clemens Kirschbaum, Karl-Martin Pirke and Dirk Hellhammer",
+    "where": "University of Trier, 1993",
+    "what": "The Trier Social Stress Test"
+   }
+  },
+  {
+   "say": "The volunteer is told they will give a short speech, as if applying for a job, in front of a small panel. They get about ten minutes to prepare. Then they speak for about five minutes. The panel doesn't smile and doesn't nod. And then comes about five minutes of mental arithmetic, out loud.",
+   "show": {
+    "type": "bars",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The Trier Social Stress Test",
+    "unit": "minutes",
+    "bars": [
+     [
+      "Preparing",
+      10.0
+     ],
+     [
+      "Speech",
+      5.0
+     ],
+     [
+      "Arithmetic",
+      5.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The arithmetic part is quietly devilish. Volunteers are asked to count backwards from one thousand and twenty two, in steps of thirteen. And if they make a mistake, they're asked to start again from the beginning. It doesn't sound dangerous at all. Nobody is in any physical danger. And yet, in most people, cortisol climbs.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "The arithmetic",
+    "sub": "Counting down by thirteen"
+   }
+  },
+  {
+   "say": "So what makes this little ritual so effective? Back to Dickerson and Kemeny and their review. They wanted to know which kinds of tasks pushed cortisol up the most. Was it noise, or difficulty, or time pressure, or something else?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Why it works",
+    "sub": "Being watched"
+   }
+  },
+  {
+   "say": "Across those two hundred and eight studies, two ingredients stood out. The first was being evaluated by other people, the feeling that someone is judging you and might think less of you. The second was a lack of control, a task where no matter how hard you try, you can't be sure of succeeding.",
+   "show": {
+    "type": "stat",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "title": "Studies compared",
+    "big": "208",
+    "label": "laboratory stress experiments in one review"
+   }
+  },
+  {
+   "say": "When both of those were present together, cortisol rose the most, and it took the longest to come back down. Being judged, and not being in control. That combination is what the human stress system seems to treat as most serious.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "title": "The strongest stress",
+    "items": [
+     "Someone is judging you",
+     "You can't fully control the outcome",
+     "Together, the biggest cortisol response"
+    ]
+   }
+  },
+  {
+   "say": "When you think about it, that makes a certain kind of sense. For most of human history, our safety depended on our place in a group. Being rejected or looked down on wasn't only unpleasant. It could be genuinely risky. So perhaps it isn't strange that a frowning panel can set off the same old machinery as a real threat.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "It makes sense",
+    "sub": "We are social animals"
+   }
+  },
+  {
+   "say": "Now picture the room Jonah is heading towards. A long table. A screen at one end. Chairs where his colleagues and his manager will sit and listen. At nine o'clock, he will stand at the front, and every eye in the room will be on him.",
+   "show": {
+    "type": "photo",
+    "file": "lf34_b04_01.jpg",
+    "cap": "A room full of eyes"
+   }
+  },
+  {
+   "say": "Without meaning to, Jonah's Monday has built its own version of the Trier test. He'll be evaluated, by people whose opinion matters to him. And he can't control how it goes, not fully, not with a late train and a head full of noise. Both ingredients, together. His stress system is doing exactly what it was built to do.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Jonah's nine o'clock",
+    "sub": "Both ingredients"
+   }
+  },
+  {
+   "say": "And that's worth saying gently. If you've ever felt your body react far too strongly to a presentation, an interview, or a difficult conversation, it doesn't mean something is wrong with you. It means an ancient system is treating a modern social moment as if it were a matter of survival.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "No flaw",
+    "sub": "Just old machinery"
+   }
+  },
+  {
+   "say": "But here's the question Jonah is really worried about, standing on that platform. It isn't his heart, or his hormones. It's his mind. When the talk begins, will he be able to think? Or will the stress take his words away? And that brings us to one of the oldest ideas in the whole of psychology.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "n": 18,
+    "title": "Clear heads and foggy heads"
+   }
+  }
+ ]
+}

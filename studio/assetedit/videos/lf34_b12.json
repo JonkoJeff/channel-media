@@ -1,0 +1,256 @@
+{
+ "id": "lf34_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So let's slow everything down now. Imagine the evening after a long, stressful day. The rushing is over. The train, the messages, the meeting, all of it is behind you. Whatever happened today has already happened, and it can stay there, in the day where it belongs.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 53,
+    "title": "The evening after"
+   }
+  },
+  {
+   "say": "If you haven't already, find a position that feels easy. You don't have to lie perfectly still, and there's no right way to do this. Let your head rest. Let your arms rest wherever they like. For the next little while, there is nowhere you need to be and nothing you need to do.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Getting comfortable",
+    "sub": "No rush at all"
+   }
+  },
+  {
+   "say": "All night, we've talked about the alarm inside you. The quick spark of adrenaline, the slower wave of cortisol, the racing heart that gets you through a hard moment. Tonight, that alarm can rest. It has done its work. Nothing in this room needs it now. You are safe, and warm, and nothing is asking anything of you.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "The alarm can rest",
+    "sub": "Its work is done"
+   }
+  },
+  {
+   "say": "Let your attention drift gently to the room around you. You don't need to open your eyes. Just notice what's there. Perhaps the soft weight of a blanket. Perhaps a faint sound, far away, a car passing, the hum of a fridge, the wind outside. Let each sound come and go, like a visitor who doesn't need to stay.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The room around you",
+    "sub": "Just notice"
+   }
+  },
+  {
+   "say": "For the next few minutes, there is nothing to fix. Nothing to solve. Nothing to prepare for tomorrow. All of those things will still be there in the morning, when you have more energy for them. Right now, your only job is to rest. And even that, you don't have to do perfectly.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "For the next few minutes",
+    "items": [
+     "Nothing to fix",
+     "Nothing to solve",
+     "Nothing to prepare",
+     "Just rest"
+    ]
+   }
+  },
+  {
+   "say": "Tomorrow will come in its own time, as it always does. It doesn't need you to rehearse it tonight. Any plans, any conversations, any lists, they will all keep until morning. You can set them down now, gently, the way you'd set down a heavy bag at the end of a long walk home.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Tomorrow can wait",
+    "sub": "It will keep"
+   }
+  },
+  {
+   "say": "Now let's notice warmth. Wherever your body feels warmest right now, let your attention rest there for a moment. Maybe it's your hands, tucked under a blanket. Maybe your feet. Maybe the side of your face against the pillow.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "n": 54,
+    "title": "Warmth"
+   }
+  },
+  {
+   "say": "Imagine that warmth spreading, very slowly, like light from a fireplace filling a room. From your hands, up into your wrists and your arms. From your chest, out to your shoulders. There's no hurry. The warmth knows the way. You just let it travel, at its own pace.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Spreading warmth",
+    "sub": "Slowly, slowly"
+   }
+  },
+  {
+   "say": "And as it spreads, let your body grow a little heavier. Let whatever is underneath you take all of your weight. The bed, the sofa, the floor. It's strong enough. You don't need to hold yourself up anymore. You can let it hold you, completely.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Heavy and soft",
+    "sub": "Let the bed hold you"
+   }
+  },
+  {
+   "say": "Picture a quiet room at night. A fire glowing low in the fireplace. A wool blanket folded over the arm of a chair. Warm, amber light on the walls. Nothing moving, except the slow flicker of the flames. A room where nothing is expected of anyone.",
+   "show": {
+    "type": "photo",
+    "file": "lf34_b12_01.jpg",
+    "cap": "A quiet room, a soft glow"
+   }
+  },
+  {
+   "say": "Perhaps there's rain against the window, soft and steady. Out there, the night is cool and wet. But in here, you're dry and warm. The sound of the rain doesn't ask you to do anything. It just keeps you company, a gentle rhythm in the dark.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Rain outside",
+    "sub": "Safe inside"
+   }
+  },
+  {
+   "say": "There is no train to catch tonight. No meeting waiting at nine. No message that needs answering right now. The world can carry on without you for a while. It's very good at that. And you can rest here, letting the evening hold you, while the hours pass quietly by.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Nowhere to go",
+    "sub": "Nothing to catch"
+   }
+  },
+  {
+   "say": "Now, gently, notice your shoulders. After a stressful day, this is often where the body keeps it. Shoulders lifted a little toward the ears, as if still bracing for something.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 55,
+    "title": "The shoulders"
+   }
+  },
+  {
+   "say": "You don't need to force anything. Just let your shoulders drop, a little, and then a little more. Let them sink down and away from your ears. Notice how that feels. There is nothing left to brace for tonight. The day is done.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Letting them drop",
+    "sub": "Just a little"
+   }
+  },
+  {
+   "say": "And your jaw. Let your teeth part just slightly. Let your tongue rest softly in your mouth. Let the small muscles around your eyes go loose, as if you were smiling very faintly at something far away. Your face doesn't need to hold any expression at all right now.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Your jaw",
+    "sub": "Soft and loose"
+   }
+  },
+  {
+   "say": "And your hands. If they're curled, let them uncurl. Let your fingers rest open, palms soft. Hands that held a phone all day, that carried bags and notes and coffee cups, can finally put everything down. There is nothing left to hold.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Your hands",
+    "sub": "Open and still"
+   }
+  },
+  {
+   "say": "Now, notice your breath, without changing it. The air comes in. The air goes out. In, and out. Your body knows how to do this all on its own. It has been doing it all day, through every busy moment, without you needing to think about it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "n": 56,
+    "title": "Your breath"
+   }
+  },
+  {
+   "say": "If you like, let each breath out be just a little longer than the breath in. Not forced. Just a gentle, easy sigh. In, and a long, slow out. Like the air leaving a balloon, unhurried. And then the next breath comes, on its own, whenever it's ready.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The out-breath",
+    "sub": "A little longer"
+   }
+  },
+  {
+   "say": "If your mind wanders, that's completely fine. It's what minds do. Perhaps a thought about tomorrow pops up, or a moment from today replays itself. You don't have to push it away. Just notice it, the way you'd notice a cloud drifting past a window, and then come back to the breath.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "A wandering mind",
+    "sub": "That's fine"
+   }
+  },
+  {
+   "say": "If a worry appears, you can do four small things. Notice it. Give it a soft name, like planning, or worrying, or remembering. Let it pass, without arguing with it. And come back to the breath. Again and again, as many times as you need. There's no limit, and no score.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "title": "If a worry appears",
+    "items": [
+     "Notice it",
+     "Name it softly",
+     "Let it pass",
+     "Come back to the breath"
+    ]
+   }
+  },
+  {
+   "say": "The night is deep and quiet now. Somewhere far away, other people are settling down too, turning off lights, pulling up blankets, letting their own long days come to an end. You're not alone in this. All over the world, tired minds are slowly letting go, just like yours.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 57,
+    "title": "Nearly asleep"
+   }
+  },
+  {
+   "say": "Your breathing is slower now. Your body is heavier. The room is quiet, and the night is long and soft. Each breath out carries away a little more of the day, until there's hardly anything left of it at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Slower now",
+    "sub": "Quieter now"
+   }
+  },
+  {
+   "say": "You don't need to fall asleep. You don't need to try. If sleep comes, let it come. If it doesn't yet, you can simply rest here, warm and heavy and still, and that is enough. Rest is already doing you good.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Still here",
+    "sub": "Resting"
+   }
+  },
+  {
+   "say": "Let the sound of my voice become part of the background now, like the rain on the window, or the soft crackle of a fire. You don't have to follow every word. Just let them drift past, gently, one after another, as the evening grows quieter and quieter around you.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Drifting",
+    "sub": "Like rain on a window"
+   }
+  }
+ ]
+}

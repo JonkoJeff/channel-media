@@ -1,0 +1,281 @@
+{
+ "id": "lf34_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's go a little deeper now. Everything we've seen so far, the racing heart, the wave of cortisol, the sharp focus and the scrambled memory, makes good sense for a short emergency. A few minutes of danger, and then it's over. But modern life doesn't always work like that.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 32,
+    "title": "When the alarm stays on"
+   }
+  },
+  {
+   "say": "Imagine that Jonah's Monday isn't just one difficult morning. Imagine that every morning feels a bit like that, for months. A job that never quite settles, worries at home, sleep that never quite catches up. No single moment is a disaster. But the alarm never fully goes quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Not one morning",
+    "sub": "Months of mornings"
+   }
+  },
+  {
+   "say": "In 1998, the neuroscientist Bruce McEwen wrote an influential article that gave scientists a useful way to talk about this. He built on a word that two other researchers, Peter Sterling and Joseph Eyer, had suggested a decade earlier. The word was allostasis.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "A useful word",
+    "sub": "Wear and tear"
+   }
+  },
+  {
+   "say": "Allostasis means staying stable by changing. When you stand up, your blood pressure adjusts. When you face a challenge, stress hormones rise. That flexibility keeps you alive. But McEwen pointed out that when those systems are switched on too often, or for too long, or can't switch off properly, the adjustments themselves start to cost something. He called that cost allostatic load.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Bruce McEwen",
+    "where": "New England Journal of Medicine, 1998",
+    "what": "Stress hormones protect us in the short run and can wear us down in the long run"
+   }
+  },
+  {
+   "say": "McEwen described a few ways it can go wrong. The alarm can fire too often. It can stay on too long after the danger has passed. It can fail to switch off properly. Or, in some cases, it can become sluggish and fail to respond when it really is needed. In each case, the very system that is meant to protect us becomes a source of wear.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "title": "When the load builds up",
+    "items": [
+     "The alarm fires too often",
+     "It stays on too long",
+     "It doesn't switch off properly",
+     "It isn't there when it's needed"
+    ]
+   }
+  },
+  {
+   "say": "The neuroscientist Robert Sapolsky, who has spent decades studying stress in baboons as well as in the lab, put this idea into a memorable picture.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 33,
+    "title": "Why zebras don't get ulcers"
+   }
+  },
+  {
+   "say": "In his 1994 book, Why Zebras Don't Get Ulcers, Sapolsky asks us to think about a zebra on the savannah. A lion appears. The zebra's alarm system fires at full power, and it runs for its life. A few minutes later, either it has escaped, or, sadly, it hasn't. Either way, the emergency is over.",
+   "show": {
+    "type": "study",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "who": "Robert Sapolsky",
+    "where": "Book, 1994",
+    "what": "Why Zebras Don't Get Ulcers"
+   }
+  },
+  {
+   "say": "If the zebra escapes, it goes back to grazing. It doesn't lie awake that night replaying the chase. It doesn't worry about whether the lion will be back next Tuesday. Its stress response switched on for a real, physical emergency, and then it switched off again.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Back to grazing",
+    "sub": "The emergency is over"
+   }
+  },
+  {
+   "say": "We are different. We can switch on the very same alarm for things that aren't happening at all. A conversation from last week. A deadline next month. Something that might never happen. Sapolsky's point is that our wonderful ability to remember and imagine also lets us keep the alarm running, long after any lion has gone.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "We are different",
+    "sub": "We can replay it"
+   }
+  },
+  {
+   "say": "Sapolsky spent many summers studying wild baboons in East Africa. And he liked to point out that baboons, unlike zebras, have a lot in common with us here. Food is often easy to find, so they have plenty of free time. And they use some of it to make each other's lives difficult, with social tension that never quite ends. Their stress, like ours, is often social, and it often lingers.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Baboons with free time",
+    "sub": "A very human problem"
+   }
+  },
+  {
+   "say": "Picture the grassland in the evening, after the chase is over. The light is soft and the grass is still. For the zebra, that quiet comes back on its own. For us, it sometimes has to be invited back, gently, on purpose.",
+   "show": {
+    "type": "photo",
+    "file": "lf34_b08_01.jpg",
+    "cap": "After the chase, quiet again"
+   }
+  },
+  {
+   "say": "So does long-lasting stress actually show up in the body? This is where we need to be careful, because health is complicated, and a single study never tells the whole story. But some experiments have been remarkably clear.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "n": 34,
+    "title": "Stress and the common cold"
+   }
+  },
+  {
+   "say": "In 1991, Sheldon Cohen and his colleagues published a study with about four hundred healthy volunteers in Britain. First, each person filled in questionnaires about the stress in their lives. Then, with their agreement, they were given nose drops containing a common cold virus, and kept in quarantine while the researchers watched to see who became ill.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "who": "Sheldon Cohen, David Tyrrell and Andrew Smith",
+    "where": "New England Journal of Medicine, 1991",
+    "what": "Volunteers with more stress in their lives were more likely to catch a cold"
+   }
+  },
+  {
+   "say": "The results followed a steady pattern. The more stress people had reported, the more likely they were to develop a cold. Among the least stressed, around twenty seven percent came down with one. Among the most stressed, around forty seven percent did. And the pattern held even after the researchers took account of things like age, smoking and sleep.",
+   "show": {
+    "type": "bars",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Developed a cold",
+    "unit": "% of volunteers",
+    "bars": [
+     [
+      "Lowest stress",
+      27.0
+     ],
+     [
+      "Highest stress",
+      47.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "That doesn't mean stress causes colds on its own. Everyone in the study was exposed to a virus, and plenty of very stressed people stayed perfectly well. What it suggests is that a long period of stress may tip the odds a little, in a body that's being asked to do too much at once.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A careful reading",
+    "sub": "Not a guarantee"
+   }
+  },
+  {
+   "say": "What made this study so convincing was its design. Everyone was exposed to a virus in the same controlled way, and everyone was watched under the same conditions. So the difference in who fell ill couldn't simply be explained by some people meeting more germs on the bus than others.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Why it was convincing",
+    "sub": "Everyone met the same virus"
+   }
+  },
+  {
+   "say": "Another study looked at something even more concrete. Not catching an illness, but healing from a tiny wound.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "n": 35,
+    "title": "Healing more slowly"
+   }
+  },
+  {
+   "say": "In 1995, Janice Kiecolt-Glaser and her colleagues compared two small groups of women. One group were caring for a relative with dementia, often for years, which is known to be one of the most demanding situations a person can face. The other group were similar women without that responsibility. Each woman agreed to have a tiny, standard wound made on her arm, and the researchers measured how long it took to heal.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Janice Kiecolt-Glaser and colleagues",
+    "where": "The Lancet, 1995",
+    "what": "Small skin wounds healed more slowly in long-term family caregivers"
+   }
+  },
+  {
+   "say": "The caregivers' wounds took about nine days longer to heal, on average. Same small wound, same careful treatment. The groups were small, and studies like this can't show exactly which part of the caregivers' lives made the difference. But it's a striking sign that the body keeps track of the mind's burdens.",
+   "show": {
+    "type": "stat",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "title": "Caregivers' wounds took longer to heal",
+    "big": "9 days",
+    "label": "longer, on average"
+   }
+  },
+  {
+   "say": "If you are caring for someone, or carrying something heavy for a long time, that finding isn't meant to add one more worry. If anything, it's a reason to be kind to yourself, and to accept help when it's offered. Rest isn't a luxury in those seasons of life. It's part of the work.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle word",
+    "sub": "For anyone carrying a lot"
+   }
+  },
+  {
+   "say": "It would be easy, at this point, to come away thinking that stress is simply poison. That every racing heartbeat is doing quiet damage. But that isn't what the science says, and it isn't what McEwen or Sapolsky argued either.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 36,
+    "title": "Not a verdict"
+   }
+  },
+  {
+   "say": "Short bursts of stress are a normal, healthy part of life. It's long, unrelenting stress, with little chance to recover, that tends to wear us down. These studies talk about odds across groups of people, not destinies for any one person. And the body is built to recover, especially when it gets rest, sleep and support.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "title": "What these studies do and don't say",
+    "items": [
+     "Short bursts of stress are normal and useful",
+     "Long, unrelenting stress is what tends to cost",
+     "Studies show odds, not destinies",
+     "Rest, sleep and support help the system recover"
+    ]
+   }
+  },
+  {
+   "say": "And of course, this is a story told for curiosity, not medical advice. If stress has been weighing on you for a long time, or your body is telling you something isn't right, a doctor is the right person to talk to. There's no prize for carrying it alone.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Just curiosity",
+    "sub": "Not medical advice"
+   }
+  },
+  {
+   "say": "But there's one more twist in this story, and it's one of the most surprising findings in all of stress research. Because it turns out that the effect stress has on you may depend, at least a little, on something you might never have thought about. What you believe stress is doing to you.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "A strange twist",
+    "sub": "It isn't only the stress"
+   }
+  },
+  {
+   "say": "Do you remember the question from the start of the night? Whether believing something about stress could actually change what it does to you? It sounds almost too neat to be true. So let's look at the evidence carefully, and with the doubts left in.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Remember the question",
+    "sub": "From the very beginning"
+   }
+  }
+ ]
+}

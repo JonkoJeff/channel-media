@@ -1,0 +1,283 @@
+{
+ "id": "lf34_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So, the door opens, and Jonah walks in. We'll come back to him in a moment. First, let's ask the question that has been quietly waiting all night. If stress is an ancient alarm, and we can't simply switch it off, what actually helps? Not miracle cures, and not promises. Just a few things that careful research suggests can soften the alarm a little.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "n": 47,
+    "title": "What helps"
+   }
+  },
+  {
+   "say": "None of what follows is magic, and none of it is medical advice. Think of these as small levers. Each one moves the dial only a little. But small levers, pulled often, can add up to a calmer life than you might expect.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Small, not magic",
+    "sub": "A gentle list"
+   }
+  },
+  {
+   "say": "Let's start with something that sounds almost too simple to matter. Something most of us walk past every day without a second thought. A window.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "n": 48,
+    "title": "A view of trees"
+   }
+  },
+  {
+   "say": "In 1984, Roger Ulrich published a short paper in the journal Science. He had gone through the records of patients who had recovered from the same kind of operation, gallbladder surgery, in a hospital in Pennsylvania between 1972 and 1981. Some of their rooms had a window looking out on a small group of trees. Others looked out on a brown brick wall.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Roger Ulrich",
+    "where": "Pennsylvania hospital records, published 1984",
+    "what": "View through a window may influence recovery from surgery"
+   }
+  },
+  {
+   "say": "Ulrich compared twenty three pairs of patients, matched as closely as possible, for example by age, sex and weight. The only obvious difference between each pair was the view from the window.",
+   "show": {
+    "type": "stat",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "title": "Matched pairs of patients",
+    "big": "23",
+    "label": "tree view compared with brick wall view"
+   }
+  },
+  {
+   "say": "The patients with the tree view went home a little sooner, after about seven point nine six days on average, compared with eight point seven for the brick wall group. They needed fewer doses of strong painkillers. And the nurses wrote fewer negative notes about them, things like upset, or needs much encouragement.",
+   "show": {
+    "type": "list",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "title": "Patients with the tree view",
+    "items": [
+     "Left hospital sooner",
+     "About 7.96 days compared with 8.70",
+     "Needed fewer strong painkillers",
+     "Fewer worried notes from nurses"
+    ]
+   }
+  },
+  {
+   "say": "It was one small study, from one hospital, and it can't tell us exactly why the view mattered. But it started a whole field of research into how nature, even a glimpse of it, seems to help people recover from stress. A few trees outside a window. That's all.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "One old study",
+    "sub": "But a lasting idea"
+   }
+  },
+  {
+   "say": "So if you can, give your eyes some green. A walk under trees, a park bench at lunchtime, a plant on the windowsill, or just a few minutes looking out of a window at the sky. It isn't a cure for anything. It's simply one of the gentlest levers there is.",
+   "show": {
+    "type": "photo",
+    "file": "lf34_b11_01.jpg",
+    "cap": "A window full of trees"
+   }
+  },
+  {
+   "say": "The second lever is even cheaper than a window. All it takes is a pen, a piece of paper, and a few quiet minutes.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "n": 49,
+    "title": "Writing it down"
+   }
+  },
+  {
+   "say": "In 2011, Gerardo Ramirez and Sian Beilock published a study in Science about the minutes just before a stressful test. They asked some students to spend about ten minutes writing openly about their worries before the test. Others sat quietly or wrote about something unrelated.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "who": "Gerardo Ramirez and Sian Beilock",
+    "where": "University of Chicago, 2011",
+    "what": "Writing about testing worries boosts exam performance"
+   }
+  },
+  {
+   "say": "You might expect that writing about worries would make them worse, like poking a bruise. But it was the opposite. In the lab, students who wrote about their worries did better under pressure. And in real classrooms, the anxious students who wrote first did better on their final exam than anxious students who didn't.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The surprise",
+    "sub": "Worries on paper"
+   }
+  },
+  {
+   "say": "One explanation the researchers offered is that worries take up space in working memory, the small mental notepad we use to think. Writing them down seems to clear a little room on that notepad, so there's more space left for the task itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "Why it might work",
+    "sub": "Making room"
+   }
+  },
+  {
+   "say": "This idea has deep roots. In 1986, James Pennebaker and Sandra Beall asked university students to write for about fifteen minutes a day, four days in a row. Some wrote about deeply upsetting experiences in their lives, others about everyday topics. Writing about the hard things was upsetting at first. But in the months that followed, those students made fewer visits to the student health centre.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "James Pennebaker and Sandra Beall",
+    "where": "Southern Methodist University, 1986",
+    "what": "Writing about upsetting experiences for four days"
+   }
+  },
+  {
+   "say": "You don't need a special notebook or perfect sentences. On a stressful evening, you could simply write down what is worrying you, as honestly as you can, for a few minutes. No one else ever has to read it. You can even throw it away afterwards. The point isn't the writing. It's the small moment of putting the worry outside your head, where you can look at it.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Try it sometime",
+    "sub": "A few honest lines"
+   }
+  },
+  {
+   "say": "The third lever is one you carry with you everywhere, all day and all night, without ever having to remember to bring it. Your breath.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 50,
+    "title": "Breathing slowly"
+   }
+  },
+  {
+   "say": "In 2018, Andrea Zaccaro and a team in Pisa reviewed the studies on slow, deliberate breathing, roughly under ten breaths a minute. Across those studies, slow breathing was linked to signs of a calmer body, such as changes in heart rhythm, and to people feeling more relaxed and less anxious. The studies were small and varied, so it's an encouraging picture rather than a final word.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "who": "Andrea Zaccaro and colleagues",
+    "where": "University of Pisa, 2018",
+    "what": "A systematic review of slow breathing"
+   }
+  },
+  {
+   "say": "Slow breathing, especially with long, easy out-breaths, seems to nudge the body toward its calming branch, the part of the nervous system that slows the heart after the alarm has passed. We'll practise this together a little later tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Long out-breaths",
+    "sub": "A message to the body"
+   }
+  },
+  {
+   "say": "You can try a single one right now, if you like. Breathe in gently through your nose. And then let the air out slowly, a little longer than the breath in, as if you were softly blowing on a cup of tea to cool it. That's all. One slow breath. Notice whether anything in your shoulders changes, even slightly.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Try it now",
+    "sub": "One slow breath"
+   }
+  },
+  {
+   "say": "The fourth lever is the one we often give up first when life gets busy, the one we borrow from when the days are too full. Sleep.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 51,
+    "title": "Sleep"
+   }
+  },
+  {
+   "say": "In 2012, Jared Minkel and colleagues kept some volunteers awake for a night, while others slept normally. The next day, everyone did tasks that were either quite stressful or only mildly so. After a sleepless night, people felt more stressed, anxious and irritated, even by the easy, low-pressure tasks. Without sleep, small things started to feel like big ones.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Jared Minkel and colleagues",
+    "where": "University of Pennsylvania, 2012",
+    "what": "Sleep deprivation and reactions to mild stressors"
+   }
+  },
+  {
+   "say": "And of course, it works in both directions. Stress can make it harder to fall asleep, and a short night can make the next day more stressful. It's easy to get caught in that loop. Which is one more reason why protecting your sleep, as best you can, is not lazy or selfish. It's part of looking after the alarm.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "A loop",
+    "sub": "Stress and sleep"
+   }
+  },
+  {
+   "say": "And Jonah? His talk went fine. Not perfectly. He lost his place once, took a slow breath, glanced at his notes, and carried on. A colleague asked a tricky question, and he said he'd find out and come back to her. Nobody noticed his racing heart. By half past nine, it was over.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "And the talk",
+    "sub": "How did it go"
+   }
+  },
+  {
+   "say": "Afterwards, standing by the window with a cup of tea, he noticed the strangest thing. The alarm that had been ringing all morning had simply stopped. His heart was slow again. His hands were warm. His body had done exactly what it was built to do. It had got him through, and then it let go.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Afterwards",
+    "sub": "The alarm switches off"
+   }
+  },
+  {
+   "say": "So, here's what we've learned tonight. Stress is an ancient alarm, not a flaw in you. A racing heart can be fuel rather than a sign of failure. A sense of control, even a small one, softens the alarm. Other people really do share the load. And green views, a few minutes of writing, slow breaths and good sleep can each turn the dial down a little.",
+   "show": {
+    "type": "list",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "title": "Tonight's takeaways",
+    "items": [
+     "Stress is an ancient alarm, not a flaw",
+     "A racing heart can be fuel",
+     "A sense of control softens stress",
+     "Other people share the load",
+     "Green views, writing, slow breaths and sleep all help a little"
+    ]
+   }
+  },
+  {
+   "say": "And one more thing, said simply. If stress ever feels overwhelming, or if it won't go away, please talk to a doctor or someone you trust. That isn't a failure either. It's just another way of letting someone help carry the load.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "One more thing",
+    "sub": "You don't have to carry it alone"
+   }
+  },
+  {
+   "say": "And now, if you'd like, we can let the rest of the evening slow down. The day is over, for Jonah and for you. There's nothing else to learn tonight. From here on, it's simply time to rest, and to let the alarm stay quiet.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 52,
+    "title": "Letting the day go"
+   }
+  }
+ ]
+}

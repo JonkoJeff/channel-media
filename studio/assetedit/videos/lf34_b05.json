@@ -1,0 +1,271 @@
+{
+ "id": "lf34_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "More than a hundred years ago, two American psychologists ran an experiment that is still quoted in offices, classrooms and sports changing rooms today. Most of the people who quote it have never read it. And the original turns out to be a little different from the famous version.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 19,
+    "title": "Mice and a maze"
+   }
+  },
+  {
+   "say": "In 1908, Robert Yerkes and John Dodson, working at Harvard, published a study on mice. The mice had to learn to choose between two little compartments, a white one and a black one. Choosing the wrong one gave them a mild electric shock. The question was simple. Does a stronger shock make them learn faster?",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "who": "Robert Yerkes and John Dodson",
+    "where": "Harvard University, 1908",
+    "what": "The relation of strength of stimulus to rapidity of habit formation"
+   }
+  },
+  {
+   "say": "The answer was, it depends. When the task was easy, when the white and the black were very clearly different, stronger shocks seemed to speed up learning. But when the task was hard, when the two compartments looked much more alike, the mice learned best with a medium shock. Too weak, and too strong, both did worse.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "cap": "The answer",
+    "sub": "It depends"
+   }
+  },
+  {
+   "say": "Over the following decades, that finding was turned into a famous picture. An upside down U. On one side, too little pressure, and you're bored and sluggish. On the other side, too much pressure, and you fall apart. And somewhere in the middle, there's a sweet spot, where a little stress helps you do your best.",
+   "show": {
+    "type": "curve",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "The famous curve",
+    "x": "pressure",
+    "y": "performance",
+    "peak": 0.5,
+    "label": "best performance at a moderate level"
+   }
+  },
+  {
+   "say": "It's a lovely, tidy idea, and it often matches how things feel. A little nervousness before a talk can sharpen you. Panic can wreck you. But psychologists who went back to the history found that the curve had travelled a long way from the original mice.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "A tidy story",
+    "sub": "Maybe too tidy"
+   }
+  },
+  {
+   "say": "In 1994, the Norwegian psychologist Karl Halvor Teigen traced how the so-called Yerkes Dodson law had been described over the years. He found that it had been stretched and reshaped again and again, to mean almost whatever people needed it to mean. The neat upside down U, applied to human stress in general, was far more confident than the original data.",
+   "show": {
+    "type": "study",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "who": "Karl Halvor Teigen",
+    "where": "University of Oslo, 1994",
+    "what": "Yerkes-Dodson: a law for all seasons"
+   }
+  },
+  {
+   "say": "So we can keep the curve as a rough, gentle rule of thumb, not a law of nature. Some arousal can help. Very high stress often hurts, especially for difficult tasks. And for a clearer picture of why, we need to look inside the brain, at the part that does your most careful thinking.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "What we can keep",
+    "sub": "A rough rule"
+   }
+  },
+  {
+   "say": "Imagine a quiet desk in the early morning. A notebook, a pencil, a lamp. It's the kind of place where careful thinking happens. Your brain has its own version of this desk, right behind your forehead.",
+   "show": {
+    "type": "photo",
+    "file": "lf34_b05_01.jpg",
+    "cap": "Where careful thinking happens"
+   }
+  },
+  {
+   "say": "It's called the prefrontal cortex. It's the part of the brain that helps you plan, hold several things in mind at once, keep your attention where you want it, and stop yourself from saying the first thing that comes into your head. In a sense, it's the calm manager of the mind.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 20,
+    "title": "The front of the brain"
+   }
+  },
+  {
+   "say": "In 2009, the neuroscientist Amy Arnsten at Yale published an influential review of what stress does to this region. Her conclusion was striking. Even fairly mild stress, when it feels uncontrollable, can quickly weaken the working of the prefrontal cortex. The chemicals that flood the brain during stress seem to take the calm manager partly offline.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "who": "Amy Arnsten",
+    "where": "Yale University, 2009",
+    "what": "Stress signalling pathways that impair prefrontal cortex structure and function"
+   }
+  },
+  {
+   "say": "One way to put the idea is that stress shifts the brain from a reflective mode to a reflexive one. Slower, careful thinking steps back. Faster, older, more automatic responses step forward. Habits, instincts, the things you've practised so often you don't need to think.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "text": "Stress switches the brain from reflective to reflexive",
+    "by": "A summary of Arnsten's 2009 review"
+   }
+  },
+  {
+   "say": "Again, if you were facing a real physical danger, that would be useful. You don't want to sit and weigh up options while something is chasing you. You want to run, and you want to do it now. The trouble is that a meeting room at nine o'clock is not that kind of danger.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Why that makes sense",
+    "sub": "In real danger"
+   }
+  },
+  {
+   "say": "And this is exactly what Jonah fears. He's practised his opening sentence at least twenty times. He knows it. And yet he can picture himself standing at the front, opening his mouth, and finding nothing there. That blank moment has a name in psychology. People call it choking under pressure.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Jonah's first line",
+    "sub": "Gone"
+   }
+  },
+  {
+   "say": "In 2005, Sian Beilock and Thomas Carr studied choking with difficult maths problems. They found something surprising. The people who were hit hardest by pressure were often the ones with the most working memory, the people who usually did best. Pressure, and the worries it brings, seemed to use up the very mental space they normally relied on.",
+   "show": {
+    "type": "study",
+    "sprite": "A19",
+    "bg": "cafe_sunset",
+    "who": "Sian Beilock and Thomas Carr",
+    "where": "Psychological Science, 2005",
+    "what": "When high-powered people fail: working memory and choking under pressure in math"
+   }
+  },
+  {
+   "say": "A useful way to picture it is that worries take up room. If your mental desk is covered with thoughts about failing, about the late train, about what your manager will think, there's less space left for the task in front of you. The problem isn't that you're not clever enough. The desk is just crowded.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "Worries take up room",
+    "sub": "A crowded desk"
+   }
+  },
+  {
+   "say": "And Beilock's group later tried a simple way to clear some of that space. We'll come back to it near the end of our night, because it involves nothing more than a pen and a few minutes before the test. For now, just remember the picture of the crowded desk.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "Clearing the desk",
+    "sub": "One small study"
+   }
+  },
+  {
+   "say": "So far, we've been talking about stress that lasts a morning. But what about stress that lasts a month? A team of researchers found a natural, and rather relatable, way to find out.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "n": 21,
+    "title": "Students before an exam"
+   }
+  },
+  {
+   "say": "In 2009, Conor Liston, Bruce McEwen and BJ Casey studied medical students in New York who were preparing for an important exam. For weeks, these students lived with heavy, ongoing stress. The researchers compared them with similar people who were not under that kind of pressure, using brain scans and a task that measured how easily they could shift their attention.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Conor Liston, Bruce McEwen and BJ Casey",
+    "where": "Weill Cornell and Rockefeller University, 2009",
+    "what": "Psychosocial stress reversibly disrupts prefrontal processing and attentional control"
+   }
+  },
+  {
+   "say": "The stressed students had more trouble switching their attention from one thing to another, and their brain scans showed weaker connections in prefrontal networks linked to that kind of flexible attention. They reported more stress, and their thinking had become a little less nimble, a little more stuck.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "What they found",
+    "sub": "Stuck attention"
+   }
+  },
+  {
+   "say": "And then came the hopeful part. The researchers tested the students again after about a month of lower stress, once the pressure had passed. The differences in attention, and in the brain scans, had largely disappeared. The changes had been real, but they were not permanent.",
+   "show": {
+    "type": "stat",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "title": "Recovery",
+    "big": "1",
+    "label": "month of lower stress, and the differences faded"
+   }
+  },
+  {
+   "say": "That word in the title of their paper, reversibly, is worth holding on to. The brain under stress changes, but it is not broken. When the pressure eases and rest returns, it can find its way back. It's a reminder that hard seasons, like exam season, are seasons. They pass.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "A gentle lesson",
+    "sub": "The brain bounces back"
+   }
+  },
+  {
+   "say": "It also turns rest into something more than a luxury. When we push through long stretches of pressure, we tend to think of rest as time taken away from the important work. But if stress makes thinking stiffer, and rest helps it become flexible again, then rest is part of the work. It's how the tools get sharpened.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Rest as part of the work",
+    "sub": "Not a luxury"
+   }
+  },
+  {
+   "say": "Let's gather what we've learned. A little arousal can sharpen you. Strong stress weakens careful, flexible thinking. Older habits and quick reactions take over. Worries crowd the space you think with. And when the pressure passes and you rest, the brain can recover.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "title": "Stress and thinking",
+    "items": [
+     "Some arousal can sharpen you",
+     "Strong stress weakens careful, flexible thinking",
+     "Old habits take over",
+     "Worries crowd your working memory",
+     "With rest, the brain recovers"
+    ]
+   }
+  },
+  {
+   "say": "On the train at last, squeezed between strangers, Jonah takes out his phone. Not to read the messages, but to look at the first slide of his talk, one more time. He reads the opening sentence slowly, and breathes. It isn't magic. But it gives his crowded desk one clear thing to hold.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "Jonah on the train",
+    "sub": "One small thing"
+   }
+  },
+  {
+   "say": "And here's something curious about this morning. Years from now, Jonah may have forgotten almost every ordinary Monday of his life. But there's a fair chance he'll remember this one. The late train, the crowded platform, the thumping heart. Because stress doesn't only change how we think. It also changes what we remember.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 22,
+    "title": "What stress writes into memory"
+   }
+  }
+ ]
+}

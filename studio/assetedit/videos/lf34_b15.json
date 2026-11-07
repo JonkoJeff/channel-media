@@ -1,0 +1,253 @@
+{
+ "id": "lf34_b15",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Stress often lives in the body long after the moment has passed. A tight jaw. Raised shoulders. A clenched hand. So let's take a slow, gentle journey through the body together, from the top of the head all the way down to the feet. There's nothing to fix. Just places to notice, and to soften.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 64,
+    "title": "A slow journey through the body"
+   }
+  },
+  {
+   "say": "Begin with the very top of your head. Imagine a warm, soft light resting there, like sunlight through a window on a winter afternoon. You don't need to feel anything in particular. Just let your attention rest at the top of your head for a breath or two.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Start at the top",
+    "sub": "The crown of the head"
+   }
+  },
+  {
+   "say": "Now let that warm light move down to your forehead. Notice if there's any frown there, any small crease of concentration left over from the day. Let it smooth out, like a sheet being gently pulled flat. Your forehead can be wide, and open, and still.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The forehead",
+    "sub": "Smoothing out"
+   }
+  },
+  {
+   "say": "Now the eyes. Let your eyelids feel heavy. Let the small muscles around your eyes go loose. Your eyes have been looking at so many things today. Screens, signs, faces, clocks. They don't need to look at anything now. Let them rest in the dark, like curtains drawn for the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "The eyes",
+    "sub": "Heavy lids"
+   }
+  },
+  {
+   "say": "Let the warmth move down to your cheeks, and your jaw. If your teeth are touching, let them part just slightly. Let your tongue rest gently in your mouth. Let your lips be soft. The jaw holds a surprising amount of the day. Breathe out, and let it go.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "The jaw and mouth",
+    "sub": "Soft and loose"
+   }
+  },
+  {
+   "say": "Now your neck. The neck holds up your head all day long, and that's no small job. Let it rest now. Let it feel long, and easy, supported by whatever is beneath it. Imagine the warmth flowing down the back of the neck like honey, slow and golden.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "The neck",
+    "sub": "Long and easy"
+   }
+  },
+  {
+   "say": "And now your shoulders. Stress loves to hide here. Without noticing, we lift our shoulders up towards our ears when we're busy, or worried, or cold. Take a breath in, and as you breathe out, let your shoulders drop. Down, and down, and a little further down. Wider. Heavier. Softer.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "cap": "The shoulders",
+    "sub": "Let them drop"
+   }
+  },
+  {
+   "say": "Let's pause and notice where we've been. The top of the head. The forehead. The eyes. The jaw. The neck. The shoulders. Each one a little softer than before. Each one a little more at rest. And there's no hurry to move on.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "title": "So far",
+    "items": [
+     "The top of the head",
+     "The forehead",
+     "The eyes",
+     "The jaw",
+     "The neck",
+     "The shoulders"
+    ]
+   }
+  },
+  {
+   "say": "Now let the warmth flow down your arms. Into your upper arms, your elbows, your forearms. Let your arms feel heavy, as if they were sinking slowly into the bed. They don't need to hold anything, or reach for anything, or carry anything. They can just lie there, heavy and warm.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The arms",
+    "sub": "Heavy and warm"
+   }
+  },
+  {
+   "say": "And into your hands. Your palms. Each finger, one by one. Your hands have done so much for you today. Typing, holding, opening, closing. Let them be still now. Let your fingers curl softly, or lie open, whatever feels natural. Let them be as relaxed as the hands of someone fast asleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The hands",
+    "sub": "Open and still"
+   }
+  },
+  {
+   "say": "Picture warm evening light moving slowly across a quiet field. It doesn't rush. It doesn't skip any part. It simply touches each blade of grass in turn, and leaves it glowing. That's what we're doing in the body. Moving slowly, touching each place with a little warmth.",
+   "show": {
+    "type": "photo",
+    "file": "lf34_b15_01.jpg",
+    "cap": "Warm light across a quiet field"
+   }
+  },
+  {
+   "say": "Now let the warmth move into the middle of your body. Your chest, your belly, your back. This is where breath lives, and where many of us feel the flutter of worry, or the knot of a hard day. Let's visit it gently.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "n": 65,
+    "title": "The middle of the body"
+   }
+  },
+  {
+   "say": "Notice your chest rising and falling with each breath. Let it be soft. Let it be open. If there's any tightness there, you don't need to push it away. Just breathe around it, kindly, the way water flows gently around a stone in a stream.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The chest",
+    "sub": "Rising, falling"
+   }
+  },
+  {
+   "say": "Now your belly. Let it be soft. Let it rise as you breathe in, and fall as you breathe out. There's no need to hold it in. No one is watching. You're allowed to be completely, comfortably soft. Like a warm loaf of bread, resting on the counter.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "The belly",
+    "sub": "Soft and slow"
+   }
+  },
+  {
+   "say": "And your back. Feel the whole length of your back, from your shoulders down to your hips, resting against what's beneath you. Let the bed hold you. Let it take all your weight. You don't need to hold yourself up at all. You're fully supported, right here, right now.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "The back",
+    "sub": "Fully supported"
+   }
+  },
+  {
+   "say": "Let the warmth flow down into your hips. Let them feel heavy, settled, like stones resting at the bottom of a calm pond. The hips carry us everywhere we go. Up stairs, along platforms, through long days. Tonight, they can rest completely.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "cap": "The hips",
+    "sub": "Settling down"
+   }
+  },
+  {
+   "say": "Now your legs. Your thighs. Your knees. Your calves. Let them grow heavy and warm, sinking a little deeper with each breath out. Your legs have carried you through the whole day. Every step. Every hurry. Every moment of standing and waiting. Let them be still.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The legs",
+    "sub": "Long and heavy"
+   }
+  },
+  {
+   "say": "And at last, your feet. Your heels, the soles of your feet, each toe. Let them be soft and warm, like feet tucked under a thick blanket on a cold night. This is the end of the journey. From the top of your head to the tips of your toes, you are resting.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The feet",
+    "sub": "All the way down"
+   }
+  },
+  {
+   "say": "Now feel your whole body at once. One warm, heavy, quiet shape. Breathing slowly. Resting completely. Nothing to tense. Nothing to hold. If any place still feels tight, simply breathe towards it, and let it be. It will soften in its own good time.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "cap": "The whole body",
+    "sub": "One warm glow"
+   }
+  },
+  {
+   "say": "If you like, let the warmth travel once more, a little faster this time, from head to toe. The forehead, smooth. The eyes, heavy. The jaw, loose. The shoulders, low. The arms and hands, still. The belly, soft. The legs, heavy. The feet, warm. Like a wave of calm washing gently down the shore, and then settling into stillness.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "A second pass",
+    "sub": "Even softer"
+   }
+  },
+  {
+   "say": "There's no right way to do this. If you lost track somewhere along the way, or drifted off between the shoulders and the hands, that's not a mistake. That's the body doing exactly what it wants to do. Resting. You can't fail at this. You can only rest a little more, or a little less.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Nothing to get right",
+    "sub": "Just rest"
+   }
+  },
+  {
+   "say": "In our story, Jonah has done the same thing. His shoulders, which were up by his ears all morning, have dropped at last. His jaw is loose. His hands lie open on the blanket. His breath is long and slow. The day has finally let go of him.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Jonah, too",
+    "sub": "Heavy and still"
+   }
+  },
+  {
+   "say": "And the day can let go of you, too. Not all at once, perhaps, but a little more with every breath. You don't have to push it away. You only have to stop holding on, and let the softness spread, slowly, like warmth from a fire filling a room.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Let it go of you",
+    "sub": "The day loosens"
+   }
+  },
+  {
+   "say": "With your body heavy and warm, your mind can go for a gentle wander. In a moment, we'll take a slow, imagined walk together, somewhere green and quiet, where there's nothing to do but look, and listen, and breathe.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "n": 66,
+    "title": "A walk in the mind"
+   }
+  }
+ ]
+}

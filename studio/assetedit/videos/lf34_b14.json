@@ -1,0 +1,242 @@
+{
+ "id": "lf34_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now that your breathing has slowed a little, let's do something kind for the part of you that is still holding on to today. Earlier tonight, we heard that writing worries down can help to loosen their grip. We won't need a pen for this. We'll do it softly, in the mind.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "n": 61,
+    "title": "A shelf for the day"
+   }
+  },
+  {
+   "say": "Most of us go to bed still carrying a few things. A message we didn't answer. A conversation that didn't go quite right. Something waiting for us tomorrow. These thoughts aren't bad. They're simply unfinished, and unfinished things like to knock on the door at night.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Still carrying",
+    "sub": "That's alright"
+   }
+  },
+  {
+   "say": "So let's imagine a quiet room. Warm light. A soft rug. And on one wall, a long wooden shelf. Nothing fancy. Just a plain, sturdy shelf with plenty of space on it. This is a place where things can wait, safely, until morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A quiet room",
+    "sub": "With a shelf"
+   }
+  },
+  {
+   "say": "Now let the first worry of the day come to mind. Whatever arrives first is fine. You don't need to think it through. You don't need to solve it, or argue with it. Just notice it, the way you might notice a coat hanging on a hook by the door.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The first worry",
+    "sub": "Noticing it"
+   }
+  },
+  {
+   "say": "Now imagine that worry fitting into a small box. Any kind of box you like. A wooden one, a cardboard one, a little tin with a lid. Picture yourself placing the worry inside, and closing the lid gently. Not slamming it. Just closing it, carefully, the way you'd close a book you mean to finish later.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Give it a shape",
+    "sub": "A small box"
+   }
+  },
+  {
+   "say": "Now place the box on the shelf. It's safe there. It isn't lost, and it isn't forgotten. It will still be there in the morning, if you need it. But for now, it doesn't need you. It can rest on the shelf, and you can rest here.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "cap": "Onto the shelf",
+    "sub": "Safe for now"
+   }
+  },
+  {
+   "say": "Here's the little ritual, if you'd like to repeat it. Notice the worry. Place it in a box. Close the lid gently. Set it on the shelf. And come back to your slow breath. That's all. You can do it with as many worries as come to mind, one at a time.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "title": "One by one",
+    "items": [
+     "Notice the worry",
+     "Place it in a box",
+     "Close the lid gently",
+     "Set it on the shelf",
+     "Come back to the breath"
+    ]
+   }
+  },
+  {
+   "say": "If another thought arrives, that's fine. Let it come. Give it a box of its own. Close the lid. Place it on the shelf, next to the first one. There's plenty of room. The shelf is long, and it's patient, and it doesn't mind how many boxes you bring.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The next one",
+    "sub": "No hurry"
+   }
+  },
+  {
+   "say": "Some of the boxes might hold very small things. A light that needs a new bulb. A birthday card you meant to send. An email you keep forgetting. Small things can buzz around the mind at night like a fly in a quiet room. They can go on the shelf too.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Small things too",
+    "sub": "They count"
+   }
+  },
+  {
+   "say": "Some boxes might feel heavier. Things that matter a great deal, things you can't fix tonight, no matter how hard you think. Those can go on the shelf as well. Not because they don't matter, but because a tired mind at midnight is not the best place to carry them. They will keep until the light comes back.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Heavier things",
+    "sub": "Gently"
+   }
+  },
+  {
+   "say": "Picture the shelf again, now with a few small boxes resting on it. Some wooden, some tin, all closed. The lamp beside them casts a warm, quiet glow. Nothing on that shelf is asking anything of you right now. It's all simply waiting, patiently, for tomorrow.",
+   "show": {
+    "type": "photo",
+    "file": "lf34_b14_01.jpg",
+    "cap": "A shelf where things can wait"
+   }
+  },
+  {
+   "say": "Here's a gentle phrase you can use, if a box tries to open itself again. Not now. Not in an unkind voice. Just the voice you might use with a child who wants one more story when it's already late. Not now, sweetheart. Tomorrow.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "n": 62,
+    "title": "Saying not now"
+   }
+  },
+  {
+   "say": "Thank you. Not now. Tomorrow. Thank you, because the worry was only trying to help, to keep you prepared. Not now, because now is for resting. Tomorrow, because that is when you'll have the light, the energy, and perhaps a cup of coffee, to look at it properly.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "text": "Thank you. Not now. Tomorrow.",
+    "by": "Three words for the night"
+   }
+  },
+  {
+   "say": "Jonah's shelf is quite full tonight. There's a box for the late train. A box for the talk he gave this morning. A box for the email from his manager, and one for the shopping he forgot. But every one of them is closed, and he is lying still, and his breath is slow and steady.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "Jonah's shelf",
+    "sub": "A full day"
+   }
+  },
+  {
+   "say": "There is nothing that needs solving tonight. Not one single thing. Problems that seem enormous in the dark often look smaller, and more manageable, in the morning. Your only job right now is to rest, so that tomorrow's you has a little more to work with.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Nothing to solve",
+    "sub": "Not tonight"
+   }
+  },
+  {
+   "say": "Look around the quiet room in your mind. The shelf holds the boxes. The rug is soft. The light is low and warm. The room feels a little tidier now, and perhaps your mind does too. A little more space. A little lighter. Like a table that's been cleared after a long meal.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "The room is tidy",
+    "sub": "A little lighter"
+   }
+  },
+  {
+   "say": "Now come back to your breath. In, softly. Out, slowly, a little longer than the breath in. You don't need to check on the shelf. You can trust it. The boxes are safe. And you are safe here, in your bed, in the dark, with nowhere you need to be.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Back to the breath",
+    "sub": "Slow and easy"
+   }
+  },
+  {
+   "say": "If a worry slips back into your mind, as worries sometimes do, don't be cross with it, or with yourself. That's simply how minds work. Just notice it, give it a box again, and put it back on the shelf. You can do this as many times as you need. There's no limit, and no score.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "If one returns",
+    "sub": "That's normal"
+   }
+  },
+  {
+   "say": "You might make yourself a small, quiet promise. Tomorrow, when I'm rested, I'll look at what's on the shelf. Maybe not all of it at once. Maybe just one box with my morning tea. That's enough. That's how heavy things are carried, one small box at a time.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "cap": "A quiet promise",
+    "sub": "To yourself"
+   }
+  },
+  {
+   "say": "Outside, perhaps, a soft rain is falling. Inside, the shelf stands quietly, holding everything you've given it. The rain doesn't worry about the shelf. The shelf doesn't worry about the rain. Everything is exactly where it needs to be, for tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Rain outside",
+    "sub": "The shelf inside"
+   }
+  },
+  {
+   "say": "Notice your hands. They've been holding things all day. A phone, a bag, a cup, a railing on a crowded train. Now they're empty, resting where they are. Let them stay open and soft. There's nothing more to hold on to.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "Lighter hands",
+    "sub": "Nothing to hold"
+   }
+  },
+  {
+   "say": "Take one last, gentle look at the shelf. Count the boxes if you like, or don't. Notice that each one is closed, and each one is safe. Then turn away from it, the way you'd turn off a lamp in a room you're leaving, knowing everything inside will still be there in the morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "One last look",
+    "sub": "Then let it be"
+   }
+  },
+  {
+   "say": "With the worries resting on their shelf, there's more room for the body to settle. In a moment, we'll travel slowly through the body, from the top of the head down to the toes, and let each part let go of the day in its own time.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "n": 63,
+    "title": "Settling in"
+   }
+  }
+ ]
+}

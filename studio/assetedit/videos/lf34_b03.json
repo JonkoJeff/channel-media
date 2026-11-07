@@ -1,0 +1,242 @@
+{
+ "id": "lf34_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Eight forty five. Fifteen minutes earlier than he planned. Jonah reads the message once, and before he has even finished the sentence, his heart gives a hard, heavy beat. His face feels warm. His fingers tighten on the rail. He hasn't decided to feel anything yet. His body has simply started without him.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 10,
+    "title": "A fraction of a second"
+   }
+  },
+  {
+   "say": "So who, or what, pressed the button? It certainly wasn't a careful, conscious decision. If you asked Jonah, he'd say the feeling just happened to him. And in a sense, he'd be right. The alarm in his brain is wired to fire before the slow, thinking part of him has caught up.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Who pressed the button",
+    "sub": "Not Jonah"
+   }
+  },
+  {
+   "say": "Deep inside each side of your brain, roughly level with your ears, there's a small cluster of cells shaped a little like an almond. The name for it is the amygdala, which comes from the Greek word for almond. You have two of them, one on the left and one on the right.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "Two almonds",
+    "sub": "Deep in the brain"
+   }
+  },
+  {
+   "say": "The amygdala is one of the brain's most important lookouts for danger. One of the scientists who did most to show how it works is Joseph LeDoux, at New York University. Over many years, he studied how rats learn to fear a simple sound that has been paired with something unpleasant, and he traced the paths that the signal takes through the brain.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "n": 11,
+    "title": "The quick and rough road"
+   }
+  },
+  {
+   "say": "In 1996, LeDoux described this work in a book called The Emotional Brain. He found that information from the senses can reach the amygdala by two different routes. One is short and quick. The other is longer and slower, but much more detailed.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "who": "Joseph LeDoux",
+    "where": "New York University, 1996",
+    "what": "The Emotional Brain: a fast low road and a slower high road to fear"
+   }
+  },
+  {
+   "say": "He called them the low road and the high road. On the low road, signals travel from a relay station deep in the brain, called the thalamus, straight to the amygdala. It's a rough sketch, but it's fast. On the high road, the same signals travel up through the outer layers of the brain, the cortex, where they're examined carefully, before the verdict is passed on.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Two roads to the amygdala",
+    "items": [
+     "The low road: quick and rough",
+     "The high road: slow and careful"
+    ]
+   }
+  },
+  {
+   "say": "LeDoux gave a lovely example. Imagine you're walking in the woods, and out of the corner of your eye you see something long and curved on the path. Before you've had a proper look, you've already jumped back. Your heart is racing. That was the low road. A moment later, the high road catches up. It's a stick. Just a stick.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "A walk in the woods",
+    "sub": "Snake or stick"
+   }
+  },
+  {
+   "say": "It might seem silly to jump at a stick. But think about the cost of each mistake. If you jump at a stick, you lose a second and feel a little foolish. If you fail to jump at a snake, you might not get another chance. A fast, rough alarm that sometimes cries wolf is a very good deal for an animal living in a dangerous world.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Better safe",
+    "sub": "Than sorry"
+   }
+  },
+  {
+   "say": "For Jonah, there's no snake. Just a short message on a glowing screen. But his amygdala has learned, over years, that some things matter. His work, his reputation, the faces of his colleagues. A sudden change to a talk he's already nervous about looks, to that ancient lookout, a lot like a shape on the path.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "A message on a phone",
+    "sub": "Treated like a snake"
+   }
+  },
+  {
+   "say": "Once the amygdala raises the alarm, it passes the message on, especially to a small region deep at the base of the brain, called the hypothalamus. The hypothalamus is a kind of control desk for the body. It helps manage hunger, thirst, temperature and sleep. And in an emergency, it switches on the body's accelerator.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "n": 12,
+    "title": "The signal spreads"
+   }
+  },
+  {
+   "say": "That accelerator has a rather gentle sounding name. The sympathetic nervous system. It's a network of nerves running from the spinal cord out to almost every organ you have. Within seconds, it can speed up your heart, change your breathing, and tell the inner part of your adrenal glands to release adrenaline, the same chemical Cannon studied, along with its close cousin, noradrenaline.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "The accelerator",
+    "sub": "The sympathetic nervous system"
+   }
+  },
+  {
+   "say": "And then everything happens at once. Your heart beats faster and harder. Your breathing quickens, and the airways in your lungs open wider. Your pupils widen to let in more light. Sugar and fat are released into the blood as fuel. Saliva dries up and digestion slows down. And your skin may start to sweat.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "title": "Within seconds",
+    "items": [
+     "A faster, harder heartbeat",
+     "Quicker breathing",
+     "Wider pupils",
+     "Fuel released into the blood",
+     "Less saliva, slower digestion",
+     "Sweating"
+    ]
+   }
+  },
+  {
+   "say": "If you could draw that first wave on a graph, it would look like this. A steep climb, in a matter of seconds, and then, if nothing else happens, a gradual fall. It's quick to rise and, in the best case, quick to settle. That's how it was designed. A burst of readiness, and then back to calm.",
+   "show": {
+    "type": "curve",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "title": "The first wave",
+    "x": "Seconds",
+    "y": "Alarm",
+    "peak": 0.1,
+    "label": "Adrenaline acts within seconds"
+   }
+  },
+  {
+   "say": "Picture that path in the woods again. The mist, the soft light, and the curved branch lying across it. Your brain is built to make a quick guess first and check it later. Most of the time, that guess is wrong in a harmless way. Every so often, it's exactly right.",
+   "show": {
+    "type": "photo",
+    "file": "lf34_b03_01.jpg",
+    "cap": "Snake or stick"
+   }
+  },
+  {
+   "say": "Now look at Jonah again, standing on that train. His pounding heart is pushing blood to his muscles. His dry mouth is the saliva switching off. The tight, folded feeling in his stomach is digestion being put on hold. Even the warmth in his face is part of the same plan. None of it is a sign that something is broken. It's the alarm, working exactly as it was built to.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "Every signal explained",
+    "sub": "Jonah's body"
+   }
+  },
+  {
+   "say": "Here's something curious. The same rush of adrenaline can arrive before a roller coaster, a first dance, or the last minute of a close game. The racing heart feels almost the same. What changes is the story the rest of your brain tells about it. Fear. Thrill. Excitement. Hold on to that thought, because it will matter later tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The same rush",
+    "sub": "Different stories"
+   }
+  },
+  {
+   "say": "Scientists have learned a great deal about the amygdala from a very small number of people with rare damage to it. One of the best known is a woman known in the research only by her initials, S M. A rare genetic condition had damaged both of her amygdalae.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "n": 13,
+    "title": "A woman without fear"
+   }
+  },
+  {
+   "say": "In 2011, a team led by Justin Feinstein, working with Ralph Adolphs, Antonio Damasio and Daniel Tranel at the University of Iowa, published a study of S M. They took her to an exotic pet store, where she handled snakes and wanted to touch spiders. They took her to a haunted house attraction, where she laughed at the actors. Across many tests, she showed almost no fear at all.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "who": "Justin Feinstein and colleagues",
+    "where": "University of Iowa, 2011",
+    "what": "A woman with damage to both amygdalae showed almost no fear"
+   }
+  },
+  {
+   "say": "It might sound like a superpower, a life without fear. But the researchers noted that her life history included many dangerous situations, and that she didn't seem to avoid danger the way most people do. Fear, for all the discomfort it causes, is part of how we stay safe.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Not a gift",
+    "sub": "A real risk"
+   }
+  },
+  {
+   "say": "And then came a twist. In 2013, the same group asked S M and two other people with similar damage to breathe air with a high level of carbon dioxide, which can create a sudden feeling of suffocation. To everyone's surprise, all three of them panicked. The fear came after all, from a threat inside the body, along a different path.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "who": "Justin Feinstein and colleagues",
+    "where": "University of Iowa, 2013",
+    "what": "Breathing air rich in carbon dioxide triggered panic, even without the amygdala"
+   }
+  },
+  {
+   "say": "So the amygdala is a key lookout, but it isn't the only one. The brain has layers of protection, built up over a very long history. And there's one more layer we haven't met yet. It's slower, quieter, and it lasts much longer than the first rush of adrenaline.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "More than one alarm",
+    "sub": "A layered system"
+   }
+  },
+  {
+   "say": "Because the racing heart is only the opening act. As Jonah's train rattles towards the city, a second message is already travelling through his body. Not along nerves this time, but through his blood. It will take minutes, not seconds, to build up. And it will still be there long after his heartbeat has settled. Its name is cortisol.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 14,
+    "title": "The slower wave"
+   }
+  }
+ ]
+}

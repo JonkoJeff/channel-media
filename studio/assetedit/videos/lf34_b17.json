@@ -1,0 +1,251 @@
+{
+ "id": "lf34_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We've come a long way tonight. From a crowded platform on a Monday morning, through the alarm in the brain and the slow wave that follows it, all the way to a quiet cabin in the rain. Now there's only one thing left to do. Let the whole day go to sleep.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "n": 70,
+    "title": "The alarm can rest"
+   }
+  },
+  {
+   "say": "Let's say a quiet thank you to the alarm inside you. It rang today, perhaps more than once. It made your heart beat faster. It sharpened your eyes. It got you ready for whatever was coming. It was only ever trying to help. And now, it can rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "A loyal alarm",
+    "sub": "Thank you"
+   }
+  },
+  {
+   "say": "Imagine the alarm switching off, gently, for the night. No sudden silence. Just a soft fading, like the last note of a song in another room. The body knows how to do this. It has done it every night of your life. You don't need to make it happen. Just allow it.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Switched off",
+    "sub": "For tonight"
+   }
+  },
+  {
+   "say": "And the slower wave, the one that rises later and lingers, can settle too. It doesn't need to stay high all night. It has its own rhythm, rising in the morning and falling in the evening. Right now, it's falling, slowly, like the tide going out under a quiet moon.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "The slow wave",
+    "sub": "Settling too"
+   }
+  },
+  {
+   "say": "Jonah's Monday is over. The late train. The pounding heart before his talk. The blank moment when his first line vanished. The kind colleague who said, you've got this. And the talk itself, which went far better than he feared. All of it is behind him now.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Jonah's Monday",
+    "sub": "Over at last"
+   }
+  },
+  {
+   "say": "He's asleep now. His breath is long and even. His shoulders are low. His hands are open. Somewhere in his brain, the day is being quietly tidied away, the way a shop is swept and the lights turned off after closing time. Tomorrow will come. But not yet.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Jonah asleep",
+    "sub": "Breathing slowly"
+   }
+  },
+  {
+   "say": "And your day is over too. Whatever happened, whatever went well, whatever didn't, it's done. You got through it. That's worth noticing. Even on the hardest days, you got through them all, every single one, to arrive here, in this quiet moment, resting.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Your day",
+    "sub": "Over too"
+   }
+  },
+  {
+   "say": "Here's what you've gathered tonight, if you'd like to keep it. A slower breath, with a longer breath out. Worries resting in boxes on a shelf. A soft, heavy body. A window onto the trees. And an alarm that knows it can rest.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "title": "Tonight, gently",
+    "items": [
+     "A slower breath",
+     "Worries on the shelf",
+     "A soft, heavy body",
+     "A window onto the trees",
+     "An alarm that can rest"
+    ]
+   }
+  },
+  {
+   "say": "You don't need to remember any of it. If you fall asleep before the end, that's perfect. That's the whole point. Some of it will stay with you anyway, quietly, without you trying, ready for the next time your heart starts to race.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Nothing to remember",
+    "sub": "It will come back"
+   }
+  },
+  {
+   "say": "Picture a quiet river at night. The water moves slowly, almost silently. A pale moon hangs above it, and a few soft stars. Mist rests on the surface. Nothing here is in a hurry. The river has been flowing like this for a very long time, and it will flow on all night, while you sleep.",
+   "show": {
+    "type": "photo",
+    "file": "lf34_b17_01.jpg",
+    "cap": "A quiet river under the stars"
+   }
+  },
+  {
+   "say": "Now let go of the river, too. Let go of the cabin, and the path, and the shelf. Let go of the words. You don't need to follow them any longer. They can simply drift past, like soft sounds from another room, while you sink down into rest.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 71,
+    "title": "Letting go"
+   }
+  },
+  {
+   "say": "Your body is heavy and warm. Your breath is slow. Your thoughts are loose and soft, drifting like leaves on the surface of that quiet river. If a thought appears, let it float by. There's nothing to catch, and nothing to hold.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Heavy and warm",
+    "sub": "Sinking"
+   }
+  },
+  {
+   "say": "Perhaps the rain is still falling, somewhere in your mind. Soft on the roof. Steady on the glass. It's a sound that says, everything is alright. You are inside. You are warm. You are safe. There's nowhere else you need to be.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Rain, still falling",
+    "sub": "Soft and steady"
+   }
+  },
+  {
+   "say": "And if any part of you is still trying, trying to relax, trying to fall asleep, you can let that go too. Sleep doesn't come from effort. It comes on its own, like evening, when you stop reaching for it. All you need to do is rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Not trying",
+    "sub": "Just resting"
+   }
+  },
+  {
+   "say": "Tomorrow will bring its own little alarms. That's alright. You'll meet them when they come, with a rested mind and a body that knows how to slow down again. But tomorrow isn't here yet. Right now, there's only the night, and the quiet, and the slow rise and fall of your breath.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Tomorrow",
+    "sub": "Can wait"
+   }
+  },
+  {
+   "say": "Quiet now. Soft and slow. The fire is low. The rain is gentle. Your breath is long and easy. The day is over, and you have nothing left to carry. Just drift, softly, wherever sleep would like to take you.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Drifting",
+    "sub": "Quiet now"
+   }
+  },
+  {
+   "say": "Imagine a single feather, drifting down through still air. It doesn't fall quickly. It floats, side to side, a little lower with every gentle swing. You can drift like that now. A little lower with every breath out. Further down into rest. Further down into the soft, quiet dark.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Further down",
+    "sub": "Like a feather"
+   }
+  },
+  {
+   "say": "Lower still. Every breath out takes you a little deeper. The bed holds you. The blanket covers you. The night is wide and kind. Nothing is asked of you here. No answers, no decisions, no plans. Only the soft, slow drifting, down and down, towards sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Lower still",
+    "sub": "Soft and slow"
+   }
+  },
+  {
+   "say": "In the cabin, the fire has burned down to a few glowing embers. They pulse gently, orange and red, like a slow heartbeat. Warm, steady, unhurried. Your own heart is slow now too, resting in its quiet rhythm, the alarm far away and fast asleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "cap": "The last embers",
+    "sub": "Glowing softly"
+   }
+  },
+  {
+   "say": "Imagine the whole house around you settling for the night. The pipes have stopped ticking. The floorboards are still. The street outside is quiet, except for the soft sound of the rain. Everything has stopped moving, everything has stopped asking, and everything is resting, together, in the dark.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A quiet house",
+    "sub": "Everything still"
+   }
+  },
+  {
+   "say": "If you can, give yourself one small kindness before sleep. Not a task. Just a feeling. A gentle, warm thought, the kind you'd offer a friend at the end of a hard day. You did well today. You can rest now. You've earned it, simply by being here.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "A small kindness",
+    "sub": "For yourself"
+   }
+  },
+  {
+   "say": "Thank you for spending this evening with me. For following Jonah through his long Monday, and for taking this slow walk at the end of it. Whatever your own days ask of you, I hope you can meet them with a little more understanding of the wonderful, anxious, loyal brain you carry with you.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Thank you",
+    "sub": "For staying with me"
+   }
+  },
+  {
+   "say": "Sleep well. Let the alarm rest. Let the breath be slow. Let the night hold you, the way it has held people for as long as there have been people, and evenings, and quiet rooms with rain on the window.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Sleep well",
+    "sub": "Gently"
+   }
+  },
+  {
+   "say": "Next time, we'll explore a gentler puzzle. Why the joy of a new thing fades so quickly, and why, surprisingly often, it comes back in quieter ways, in Why Happiness Never Stays. But that's for another night. For now, rest easy. Goodnight.",
+   "show": {
+    "type": "end",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "next": "Why Happiness Never Stays"
+   }
+  }
+ ]
+}

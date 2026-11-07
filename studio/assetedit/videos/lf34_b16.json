@@ -1,0 +1,252 @@
+{
+ "id": "lf34_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Earlier tonight, we heard about a hospital study by Roger Ulrich, where patients whose window looked out on trees seemed to recover more gently than those who looked at a brick wall. So let's give you a window too. Not a real one. One you can build in your mind, and walk towards, slowly.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "n": 67,
+    "title": "A slow walk under the trees"
+   }
+  },
+  {
+   "say": "Imagine stepping outside on a mild evening. The air is soft. Not too warm, not too cold. You aren't going anywhere in particular. There's no train to catch, no meeting to get to. You're simply going for a slow walk, for no reason at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle start",
+    "sub": "Nowhere to be"
+   }
+  },
+  {
+   "say": "In front of you is a quiet path, leading into a small wood. The ground is soft, covered in a thin layer of fallen leaves, golden and brown. As you walk, they make a gentle sound under your feet. A soft rustle. A quiet crunch. And then another.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "A path",
+    "sub": "Leaves underfoot"
+   }
+  },
+  {
+   "say": "Tall trees rise on either side of the path. Their trunks are wide and old. They have stood here through many seasons, through storms and still days alike. They aren't in any hurry. They never have been. You can borrow a little of their patience as you walk.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The trees",
+    "sub": "Tall and patient"
+   }
+  },
+  {
+   "say": "The evening light filters down through the leaves above. It isn't bright. It's soft, and greenish gold, moving gently as the branches sway. Patches of light drift across the path in front of you, and you walk through them, slowly, one step at a time.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "The light",
+    "sub": "Soft and green"
+   }
+  },
+  {
+   "say": "Listen for a moment. Perhaps you can hear a bird somewhere, singing a last little song before night. Perhaps the wind in the high branches, a soft rushing sound, like a wave that never quite breaks. Perhaps nothing at all, just a deep, peaceful hush.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "cap": "Listening",
+    "sub": "Small sounds"
+   }
+  },
+  {
+   "say": "Notice how your steps have slowed. You're not walking to get anywhere. You're walking just to walk. Each step lands softly. Each breath is easy. The path is gentle, and it curves a little, so you can never quite see what's ahead. And that's fine. You don't need to know.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Your steps",
+    "sub": "Slower now"
+   }
+  },
+  {
+   "say": "Breathe in, and imagine the smell of the wood. Damp earth. Fallen leaves. Perhaps a little pine. It's a clean, quiet smell, the kind that seems to fill the chest with fresh air. Breathe out slowly, and let it carry a little more of the day away with it.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The smell",
+    "sub": "Earth and leaves"
+   }
+  },
+  {
+   "say": "Let's gather what's around you. Soft leaves underfoot. Tall, patient trees. Green and golden light. A quiet hush. Slow, easy steps. All of it is here for you, for as long as you'd like to stay.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "title": "On the path",
+    "items": [
+     "Soft leaves underfoot",
+     "Tall, patient trees",
+     "Green and golden light",
+     "A quiet hush",
+     "Slow, easy steps"
+    ]
+   }
+  },
+  {
+   "say": "Here is the path, winding softly through the trees. Golden leaves on the ground. Soft light falling through the branches. No one else is here. No sound but the leaves and the wind. Just you, walking slowly, at the end of a long day.",
+   "show": {
+    "type": "photo",
+    "file": "lf34_b16_01.jpg",
+    "cap": "A path through a quiet wood"
+   }
+  },
+  {
+   "say": "Up ahead, through the trees, you notice a soft glow. As you come closer, you see a small wooden cabin, nestled among the trunks. A warm light shines in the window. The door is open, just a little, as if someone knew you were coming.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "n": 68,
+    "title": "A small cabin"
+   }
+  },
+  {
+   "say": "You step inside. It's warm in here. A small fire crackles quietly in the corner. There's a soft armchair, with a thick blanket folded over one arm. Everything is simple, clean and quiet. This is a place made only for resting.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Stepping inside",
+    "sub": "Warmth"
+   }
+  },
+  {
+   "say": "You sit down in the armchair. It's deep and soft, and it seems to fit you perfectly. You pull the blanket over your knees. Your body sinks in, heavy and warm, the way it did a few moments ago, when we travelled from your head down to your toes.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "The armchair",
+    "sub": "Sinking in"
+   }
+  },
+  {
+   "say": "In front of the armchair is a wide window. Through it, you can see the trees you just walked beneath. Their branches move gently in the evening air. The last light is fading slowly from the sky, turning soft blue, then deeper blue. You don't need to do anything but look.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The window",
+    "sub": "Looking out"
+   }
+  },
+  {
+   "say": "After a while, a light rain begins to fall. You can hear it on the roof, soft and steady. You can see it on the window, little drops gathering and sliding slowly down the glass. Outside it's wet and dark. Inside, it's warm and dry. And you are safe, in your chair, by the fire.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Rain begins",
+    "sub": "Soft on the glass"
+   }
+  },
+  {
+   "say": "The fire glows quietly beside you. Every now and then, a log shifts, and a few sparks drift up and vanish. The warmth reaches your hands, your face, your feet. It's the kind of warmth that makes your eyelids heavy, and your thoughts slow and soft.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "cap": "The fire",
+    "sub": "A gentle glow"
+   }
+  },
+  {
+   "say": "Look out at the trees once more. They're resting too, in their own way. Their leaves are still now. The birds have gone quiet. Even the wood seems to have let out a long, slow breath. Night is coming, gently, to everything at once.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "The trees outside",
+    "sub": "Resting too"
+   }
+  },
+  {
+   "say": "In this cabin, there's nothing to do. No phone, no clock on the wall, no list of tasks. Just the chair, the blanket, the fire and the window. Let your eyes rest on the trees outside. Watch one branch for a while as it moves slowly in the breeze. Then another. There's no reason to look away, and no reason to keep looking. Whatever you do is fine.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Nothing to do",
+    "sub": "Only looking"
+   }
+  },
+  {
+   "say": "Perhaps there's a warm cup on the little table beside the chair. Something soft and sweet, without any caffeine in it. You hold it in both hands for a while, feeling the warmth spread into your fingers. You take a slow sip, and then set it down again, and let your hands rest in your lap.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "A warm cup",
+    "sub": "Held in both hands"
+   }
+  },
+  {
+   "say": "The path you walked along is still out there, between the trees, covered in its golden leaves. It will be there tomorrow, and the day after. You don't need to walk it again tonight. You've arrived. That's enough for now.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "The path behind you",
+    "sub": "Waiting"
+   }
+  },
+  {
+   "say": "Jonah has no cabin and no wood. Just a small window over a quiet street, with one tree outside it, under a streetlamp. But tonight, before he fell asleep, he looked at that tree for a while. Its branches moving slowly in the dark. And it was enough.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Jonah's window",
+    "sub": "A quiet street"
+   }
+  },
+  {
+   "say": "And this window is yours. You can come back to it any time you like. On a hard day, on a long night, whenever the alarm rings too loudly. The path, the trees, the cabin, the fire, the rain on the glass. They'll be here, waiting, as quiet as ever.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Your window",
+    "sub": "Always here"
+   }
+  },
+  {
+   "say": "Let your eyes grow heavy now, there in the armchair. Let the window blur softly. Let the sound of the rain and the warmth of the fire fill the whole room. You don't need to watch anything anymore. You can simply listen, and breathe, and drift.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Eyes closing",
+    "sub": "Slowly"
+   }
+  },
+  {
+   "say": "The walk is over. The cabin is warm. The rain is soft. In a moment, we'll say a quiet goodnight to the day, and to Jonah, and to all the little alarms that rang today. Just stay here, by the window, and let the evening fold around you.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "n": 69,
+    "title": "Nearly asleep"
+   }
+  }
+ ]
+}

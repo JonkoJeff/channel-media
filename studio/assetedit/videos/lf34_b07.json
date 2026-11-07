@@ -1,0 +1,284 @@
+{
+ "id": "lf34_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's go back to Jonah for a moment. He's still standing on the platform, and the train is still late. The talk is still at nine. And nothing he does on that platform can make the train come any faster. That last part, it turns out, matters more than you might think.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "n": 28,
+    "title": "The button nobody pressed"
+   }
+  },
+  {
+   "say": "Some stress comes with a handle. A messy kitchen, a form to fill in, a hill to climb. You can grab the handle and do something. Other stress has no handle at all. A delayed train. A test result you're waiting for. A decision someone else is making about you. And psychologists have found that the second kind often weighs on us far more.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Two kinds of trouble",
+    "sub": "The kind you can touch"
+   }
+  },
+  {
+   "say": "It's a strange thing, when you stop and notice it. Two situations can be just as unpleasant, just as loud or just as tiring. But the one we feel we can't influence tends to sit heavier in the chest. To see why, we need to visit a small laboratory in New York, about fifty years ago, and a lot of very annoying noise.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Out of our hands",
+    "sub": "A different weight"
+   }
+  },
+  {
+   "say": "In a series of experiments described in their 1972 book, Urban Stress, the psychologists David Glass and Jerome Singer asked volunteers to work on tasks while bursts of loud, jarring noise played at random moments. Some heard the noise in a regular, predictable rhythm. Others heard it at unpredictable times.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "who": "David Glass and Jerome Singer",
+    "where": "Urban Stress, 1972",
+    "what": "Loud, unpredictable noise, and a button that could stop it"
+   }
+  },
+  {
+   "say": "The noise was the same loudness for everyone. But afterwards, when the room was quiet again, the people who had sat through the unpredictable bursts gave up sooner on a set of puzzles, which, without their knowing, had no solution. And they made more mistakes when asked to proofread a page of text. The unpredictability itself seemed to leave a mark.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Predictable is easier",
+    "sub": "Same noise, different effect"
+   }
+  },
+  {
+   "say": "Then came the clever part. Some volunteers were shown a button. If the noise ever became too much, they were told, they could press it and the noise would stop. The experimenters added that they would rather the button wasn't used, but it was there if needed.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Then the button",
+    "sub": "A small switch on the desk"
+   }
+  },
+  {
+   "say": "And here is the surprise. Almost nobody pressed it. The noise they heard was just as loud as everyone else's. And yet, afterwards, the people who had the button kept going longer on the impossible puzzles, and made fewer mistakes. Simply knowing that they could stop the noise changed how much it cost them.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "title": "What happened with the button",
+    "items": [
+     "Almost nobody pressed it",
+     "The noise stayed just as loud",
+     "They kept going longer on the puzzles",
+     "They made fewer proofreading mistakes"
+    ]
+   }
+  },
+  {
+   "say": "Notice what that means. They didn't actually use their control. What helped was the feeling that they had some. The sense that there was a handle, even if they never reached for it. That idea, the importance of perceived control, has turned out to be one of the most important threads in the whole science of stress.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "A feeling of control",
+    "sub": "Not control itself"
+   }
+  },
+  {
+   "say": "Picture that little button sitting on the desk. It does nothing until you press it. And yet just being there, it changes the whole room. Most of us carry a few invisible buttons like that through the day. And some of us, on some days, feel like we have none at all.",
+   "show": {
+    "type": "photo",
+    "file": "lf34_b07_01.jpg",
+    "cap": "A handle on the problem"
+   }
+  },
+  {
+   "say": "A few years later, in 1971, a researcher called Jay Weiss looked at the same question from a very different angle, using laboratory rats. The experiment would not be done the same way today, but its result has been echoed in many studies since.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "n": 29,
+    "title": "Rats with a wheel"
+   }
+  },
+  {
+   "say": "Weiss worked with rats in pairs. Both rats in a pair received exactly the same mild electric shocks, at exactly the same moments. The only difference was that one rat could turn the shocks off for both of them, by turning a little wheel. The other rat had no way to influence anything.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Jay Weiss",
+    "where": "Rockefeller University, 1971",
+    "what": "Pairs of rats received identical mild shocks; only one could turn them off"
+   }
+  },
+  {
+   "say": "So the physical stress was identical. Same shocks, same timing, same length. And yet the rats who could do nothing developed far more stomach ulcers than the rats who had the wheel. The difference in their bodies came not from what happened to them, but from whether they could do anything about it.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "The same shocks",
+    "sub": "Different bodies"
+   }
+  },
+  {
+   "say": "That's worth saying slowly. The stress was the same. What differed was control. And this pattern, control softening the impact of a stressor, has shown up again and again, in animals and in people, in laboratories and in everyday life.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "text": "The stress was the same. What differed was control.",
+    "by": "A plain summary of the Weiss findings"
+   }
+  },
+  {
+   "say": "There's another famous line of research about control, and it has an interesting twist, because the scientists who started it later changed their minds about what it meant.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 30,
+    "title": "Learning to give up"
+   }
+  },
+  {
+   "say": "In 1967, Martin Seligman and Steven Maier published experiments with dogs. Some dogs had earlier received shocks they could escape. Others had received shocks they could not escape, no matter what they did. Later, all of them were placed in a box where escape was easy, just a low barrier to step over.",
+   "show": {
+    "type": "study",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "who": "Martin Seligman and Steven Maier",
+    "where": "University of Pennsylvania, 1967",
+    "what": "Animals that could not escape earlier shocks often stopped trying later"
+   }
+  },
+  {
+   "say": "Most of the dogs who had learned they could escape simply stepped over the barrier. But many of the dogs who had once been helpless just lay down and waited, even though freedom was a single step away. Seligman and Maier called this learned helplessness. The animals, they suggested, had learned that nothing they did mattered.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "attic_rain",
+    "cap": "Staying put",
+    "sub": "Even when escape was easy"
+   }
+  },
+  {
+   "say": "It's a famous idea, and you'll still hear it described that way. But in 2016, nearly fifty years later, Steven Maier and Martin Seligman wrote a paper looking back with the help of modern neuroscience. And they came to a rather different conclusion.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Fifty years later",
+    "sub": "A change of mind"
+   }
+  },
+  {
+   "say": "Their new reading was this. Passivity, freezing and waiting, seems to be the brain's default response to a long, bad situation. It's not something that has to be learned. What is learned is control. When an animal discovers that its actions work, a region at the front of the brain, the prefrontal cortex, starts to calm the deeper alarm circuits.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "who": "Steven Maier and Martin Seligman",
+    "where": "Psychological Review, 2016",
+    "what": "Learned helplessness at fifty: passivity is the default, control is what is learned"
+   }
+  },
+  {
+   "say": "So the picture flipped. We don't learn to be helpless. We learn, through experience, that we are not. And when the brain has learned that, it seems to carry the lesson forward, softening the alarm the next time something difficult happens. It's a hopeful way of reading the very same data.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "title": "The new picture",
+    "items": [
+     "Waiting it out is the brain's default",
+     "Discovering that actions work is what is learned",
+     "The front of the brain then calms the alarm"
+    ]
+   }
+  },
+  {
+   "say": "There's a gentle human example too. In 1976, Ellen Langer and Judith Rodin ran a study in a care home in the United States, with people in their later years.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "n": 31,
+    "title": "Choices in a care home"
+   }
+  },
+  {
+   "say": "On one floor, residents were encouraged to make small decisions for themselves, about their rooms and their visitors, and were each given a houseplant to look after. On another floor, the staff were kind and helpful, but made those decisions for them, and looked after the plants themselves.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "living_room_day",
+    "who": "Ellen Langer and Judith Rodin",
+    "where": "Journal of Personality and Social Psychology, 1976",
+    "what": "Residents given small choices and responsibility were happier and more active"
+   }
+  },
+  {
+   "say": "Weeks later, the residents who had been given the small choices and the plant were rated as happier and more active, by themselves and by the staff. Nothing dramatic had changed. Just a plant to water, and a few decisions that were theirs to make.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Small choices",
+    "sub": "A noticeable difference"
+   }
+  },
+  {
+   "say": "Which brings us back to Jonah on the platform. He can't make the train come. But after a minute of staring at the board, he does something small. He takes out his phone and sends a message to his colleague. Train delayed, might be ten minutes late, can you open the room for me.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Back on the platform",
+    "sub": "Finding a handle"
+   }
+  },
+  {
+   "say": "He can't touch the train. But he can still touch a few things. He can tell someone he's running late. He can ask for one small favour. And he can use the ten minutes of waiting to read through his opening lines once more, slowly, instead of staring at the board.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "title": "What Jonah can still touch",
+    "items": [
+     "Telling someone he's running late",
+     "Asking for a small favour",
+     "Using the wait to read his notes once more"
+    ]
+   }
+  },
+  {
+   "say": "The train is just as late as it was. But Jonah notices that his shoulders have dropped a little. He has found a handle. Not on the train, but on the part of the morning he can still touch. And that, the science suggests, is not a trick of the imagination. It's one of the most reliable ways a stressed brain finds its footing.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A little lighter",
+    "sub": "Same train, same delay"
+   }
+  },
+  {
+   "say": "Of course, sometimes there is no handle at all, and sometimes the stress doesn't last for one morning but for weeks, or months. And that's where the story gets more serious. Because the alarm system we've been exploring was built for short emergencies. So what happens when it never really switches off?",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "When there is no handle",
+    "sub": "Days like that happen"
+   }
+  }
+ ]
+}

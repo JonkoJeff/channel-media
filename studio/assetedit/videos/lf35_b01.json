@@ -1,0 +1,232 @@
+{
+ "id": "lf35_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "It's late on a Friday evening, and the flat is full of boxes. Some are taped shut, some are half open, one has tipped over and spilled a tangle of cables across the floor. There's no sofa yet, no curtains, not even a lamp. Just a bare bulb, a kettle, and one enormous window. And on the floor in front of that window, sitting cross-legged with a cup of tea going cold in her hands, is a woman called Nora.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "The first night",
+    "sub": "Boxes everywhere"
+   }
+  },
+  {
+   "say": "Nora isn't a real person. She's someone we'll imagine together tonight, a quiet companion for the evening. But what happens to her is about as real as it gets. It has happened to you, and to me, and to almost everyone who has ever wanted something for a long time and then, one day, finally got it.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Meet Nora",
+    "sub": "An imagined person"
+   }
+  },
+  {
+   "say": "Because that window looks out over the sea. Not a slice of it between two buildings, but the whole wide thing, all the way to the horizon. For years, Nora has wanted to live somewhere like this. She pictured it on grey mornings, on crowded buses, in small rooms that faced a brick wall. And now, tonight, it's hers. The water is silver in the last of the light, and a single boat is moving slowly across it.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "The view",
+    "sub": "Years of wanting"
+   }
+  },
+  {
+   "say": "She doesn't unpack anything that night. She just sits, and looks. She watches the light change from silver to grey to deep blue. She watches the lights of a ship blink on, far out. She thinks, I will never get tired of this. I will look at this every single morning for the rest of my life, and it will always feel like this.",
+   "show": {
+    "type": "photo",
+    "file": "lf35_b01_01.jpg",
+    "cap": "A window over the sea"
+   }
+  },
+  {
+   "say": "Now let's skip ahead. Six weeks later, it's a Tuesday morning. Nora is walking through the same room, phone in one hand, coffee in the other, reading a message about a meeting. She crosses right in front of the window. The sea is there, wide and bright and moving, exactly as beautiful as it was on that first night. And she doesn't look up. Not once.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Six weeks later",
+    "items": [
+     "Phone in hand",
+     "Coffee on the go",
+     "Eyes on the screen",
+     "Back to the window"
+    ]
+   }
+  },
+  {
+   "say": "Nothing about the view has changed. The water is still there. The horizon is still there. The boats still come and go. What has changed is Nora. Somewhere in those six weeks, the most wonderful thing in her life quietly slipped into the background, like the hum of a fridge, or the pattern on a wallpaper you stopped seeing years ago.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Nothing has changed",
+    "sub": "Except her"
+   }
+  },
+  {
+   "say": "You probably know this feeling, even if you've never lived by the sea. A new song that you played twenty times in a row, and now skip. A new coat that felt wonderful for a week. A long-awaited holiday, a new job, a new friendship, a new home. The joy arrives, it glows, and then, slowly and without asking, it fades.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A familiar feeling",
+    "sub": "You know it too"
+   }
+  },
+  {
+   "say": "There's a sentence we all say, in one form or another. I will never get tired of this. We say it about places and people and plans. And then, sooner or later, the brain proves us gently wrong. Tonight, we're going to ask why. Why does happiness so rarely stay? Where does it go? And is that really as sad as it sounds?",
+   "show": {
+    "type": "quote",
+    "sprite": "A02",
+    "bg": "rooftop_dusk",
+    "text": "I will never get tired of this.",
+    "by": "Almost everyone, at some point"
+   }
+  },
+  {
+   "say": "Here's what we'll explore tonight. Why good feelings fade, and the old idea that we're all walking on a kind of treadmill. Why your brain stops noticing the things it sees every day. Why we're surprisingly poor at predicting what will make us happy. Whether happiness is written in our genes. Why small things often matter more than big ones. Why other people change everything. And whether there's a way to help good things keep glowing.",
+   "show": {
+    "type": "list",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Why good feelings fade",
+     "Where the idea of a treadmill came from",
+     "Why your brain stops noticing",
+     "Why we're poor at predicting joy",
+     "Whether happiness is in our genes",
+     "Why small things often matter most",
+     "Why other people change everything",
+     "How good things can keep glowing"
+    ]
+   }
+  },
+  {
+   "say": "The way we'll do this tonight is a little different. We'll take some of the most common beliefs about happiness, one at a time, the kind of thing you hear from friends, or read on a poster, or quietly assume without ever thinking about it. And for each one, we'll look at what careful research actually found. Some of these beliefs hold up. Some of them really don't. And a few turn out to be half true in interesting ways.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "Myth versus science"
+   }
+  },
+  {
+   "say": "Whenever we meet a study, I'll tell you who ran it, where, and when it was published, so you can look it up yourself if you'd like. And I'll also tell you when a famous finding turned out to be weaker, or more complicated, than the headlines made it sound. Happiness is a subject full of confident advice, and not all of it has survived careful testing. That's part of the story too.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Real studies",
+    "sub": "Names, places and years"
+   }
+  },
+  {
+   "say": "Before we begin, here's one idea I'd like you to hold on to. The fading Nora feels is not a fault. It isn't ingratitude, or a sign that something is wrong with her, or proof that she wanted the wrong thing. It's a feature of the human brain, and in many ways a very clever one. By the end of tonight, I hope it will feel a little less like a loss, and a little more like a design.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "The idea to hold",
+    "sub": "Fading is a feature"
+   }
+  },
+  {
+   "say": "Think of that windowsill on an ordinary morning. A cup of tea. The sea beyond the glass, doing what it always does. Nothing is wrong in this picture. Nothing is missing. And yet the thrill of the first night has gone. Where did it go? That's the question underneath everything we'll talk about tonight.",
+   "show": {
+    "type": "photo",
+    "file": "lf35_b01_02.jpg",
+    "cap": "The same sea, every morning"
+   }
+  },
+  {
+   "say": "There's also a question I'd like to plant here, one we'll come back to much later tonight. If fading is built into us, is there anything we can do about it? Are there ways to help a good thing keep glowing, not forever, perhaps, but for longer, and more often? Some researchers have spent years on exactly that question.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "n": 2,
+    "title": "A question to carry"
+   }
+  },
+  {
+   "say": "I'm not going to answer it yet. The answer turns out to be more interesting than a simple yes or no, and it involves surprise, and variety, and a little bit of patience. We'll get there near the end of the first half. For now, just keep the question somewhere at the back of your mind, the way you'd keep a pebble in your pocket.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "Hold on to it",
+    "sub": "We'll come back"
+   }
+  },
+  {
+   "say": "I'd also like to say clearly what tonight is not. It isn't a course on how to be happy, and it isn't therapy or medical advice. Nobody is happy all the time, and nobody should have to be. If you ever feel low for a long time, the right person to talk to is a doctor or someone you trust. Tonight, we're simply curious about the strange and clever ways a brain handles the good things in life.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Not a lesson",
+    "sub": "Just curiosity"
+   }
+  },
+  {
+   "say": "The night has two halves. In the first, we'll follow Nora through her first year by the sea, and look at the science one myth at a time. In the second, things will slow right down, into a gentle wind-down, so you can let go of the day and drift off whenever you're ready. You don't need to remember any of the names or numbers. Listen closely, or let the words wash over you. Either way is perfectly fine.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "title": "Two halves",
+    "items": [
+     "Myths and science",
+     "A slow wind-down",
+     "Listen as long as you like"
+    ]
+   }
+  },
+  {
+   "say": "So if you'd like to, get comfortable now. Let your shoulders drop a little. Pull a blanket up, or let your head sink a little deeper into the pillow. There's nowhere you need to be and nothing you need to solve. Just a story, a few experiments, and a woman sitting by a very large window.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "Getting comfortable",
+    "sub": "No rush"
+   }
+  },
+  {
+   "say": "Let's go back to Nora's first evening for a moment. The boxes, the cold tea, the silver water. If you could lean down and ask her how she feels, she'd say something like, I've never been happier. And she'd mean it. The feeling is real, and strong, and it fills her whole chest.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "Back to the window",
+    "sub": "The first evening"
+   }
+  },
+  {
+   "say": "But people have been puzzling over what happens next for a very long time. Why the glow doesn't last. Why, given a little while, almost anything wonderful starts to feel ordinary. Long before anyone used brain scanners, psychologists noticed this pattern, gave it names, and argued about what it meant for our lives.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "An old puzzle",
+    "sub": "Older than you'd think"
+   }
+  },
+  {
+   "say": "So that's where we'll begin. Not inside Nora's brain, not yet, but in the middle of the twentieth century, with a psychologist who studied how we judge the weight of objects and the brightness of light, and two others who borrowed his idea and gave it a famous, slightly gloomy name. The hedonic treadmill. Let's see where it came from, and whether it's really as bleak as it sounds.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A02",
+    "bg": "autumn_overlook",
+    "n": 3,
+    "title": "A treadmill for feelings"
+   }
+  }
+ ]
+}

@@ -1,0 +1,236 @@
+{
+ "id": "lf35_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's something you've almost certainly experienced. You walk into a friend's home, and it has a smell. Not a bad one, necessarily. Maybe wood, or coffee, or a particular soap, or the faint warmth of a dog asleep somewhere. You notice it the moment the door opens. And then, ten minutes later, you've stopped noticing it altogether.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "n": 6,
+    "title": "The smell of home"
+   }
+  },
+  {
+   "say": "And your own home has a smell too. Other people notice it when they visit. But you almost never do. Not because it isn't there, but because you've been inside it so long that your nose has stopped reporting it. It's become part of the background. Exactly like Nora's sea.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Your own home",
+    "sub": "The smell you can't smell"
+   }
+  },
+  {
+   "say": "It happens everywhere, all day long. You stop feeling the watch on your wrist a few minutes after putting it on. You stop feeling the chair beneath you, until someone mentions it, and then suddenly you feel it again. You stop hearing the hum of a fridge, until the moment it switches off, and the silence seems loud.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Things you stop feeling",
+    "items": [
+     "A watch on your wrist",
+     "The chair beneath you",
+     "The hum of a fridge",
+     "Your own home's smell"
+    ]
+   }
+  },
+  {
+   "say": "Scientists call this sensory adaptation. When something stays the same, the nerve cells that respond to it gradually respond less. They're not broken, and they haven't given up. They're doing something clever. They're turning down the volume on whatever is steady, so that anything new stands out more clearly against it.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Sensory adaptation",
+    "sub": "Turning down the steady"
+   }
+  },
+  {
+   "say": "That's the simple idea at the centre of tonight. Your brain is built to notice change, far more than it's built to notice how things are. What's new gets attention. What stays the same slowly fades into the background. That's true of a smell, and a sound, and the pressure of a chair. And it turns out to be true of pleasure as well.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "text": "The brain is built to notice change.",
+    "by": "The idea at the heart of tonight"
+   }
+  },
+  {
+   "say": "Think of a kitchen you know well. The kettle, the bowl on the counter, the light that comes in at a certain hour. You could probably describe it with your eyes closed. And yet, on most days, you barely see it at all. It's not that it stopped mattering. It just stopped being news.",
+   "show": {
+    "type": "photo",
+    "file": "lf35_b03_01.jpg",
+    "cap": "The background of a life"
+   }
+  },
+  {
+   "say": "So what's happening deeper inside the brain, when something good stops feeling quite so good? One of the most famous clues came from a laboratory study of reward. Not of happiness exactly, but of how the brain responds to something pleasant arriving, and how that response changes once the pleasant thing becomes expected.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Pleasure and surprise",
+    "sub": "A clue from the lab"
+   }
+  },
+  {
+   "say": "In 1997, the neuroscientist Wolfram Schultz, together with the theorists Peter Dayan and Read Montague, published a paper in the journal Science. It brought together recordings that Schultz's team had made from reward-related nerve cells in the brains of monkeys, while the monkeys learned that a signal, such as a light, meant a few drops of juice were about to arrive.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Schultz, Dayan and Montague",
+    "where": "Science, a study of reward signals",
+    "what": "published in 1997"
+   }
+  },
+  {
+   "say": "At first, when the juice arrived unexpectedly, those cells became very active. A lovely surprise. But as the monkeys learned that the light always came before the juice, something shifted. The cells began responding to the light instead. And when the juice itself arrived, right on time, the cells barely reacted at all. And if the light came, but the juice didn't, their activity briefly dipped below normal.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "title": "What the cells did",
+    "items": [
+     "Fired at a surprise treat",
+     "Then fired at the signal instead",
+     "Stayed quiet at the expected treat",
+     "Dipped when the treat didn't come"
+    ]
+   }
+  },
+  {
+   "say": "The paper described this as something like a prediction error. These cells weren't simply saying, this is nice. They were saying something closer to, this is better than I expected. Or, this is worse than I expected. When reality matched the prediction exactly, there was nothing much to report.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "A surprise signal",
+    "sub": "Not a pleasure signal"
+   }
+  },
+  {
+   "say": "I want to be careful here. These were monkeys and drops of juice, not people and sea views. And the brain's reward system is more complicated than any single study can capture. Researchers still argue about exactly what these signals mean. But as a clue, it's a striking one. The brain seems to care a great deal about the difference between what it expected and what it got.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Careful here",
+    "sub": "A clue, not the whole story"
+   }
+  },
+  {
+   "say": "Now think about Nora. On her first night, the sea was a surprise. Better than any picture in her head. Six weeks later, her brain has learned it completely. It knows the window, the light, the horizon. Every morning, the view arrives exactly as predicted. And a brain that is always asking what's new, finds very little news in it.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Nora's brain",
+    "sub": "The sea is expected now"
+   }
+  },
+  {
+   "say": "The sea hasn't become less beautiful. It's simply been filed under expected. The brain has moved it, very quietly, from the drawer marked surprising into the drawer marked normal. And things in that second drawer rarely get taken out and looked at, unless something gives them a little nudge.",
+   "show": {
+    "type": "photo",
+    "file": "lf35_b03_02.jpg",
+    "cap": "Filed under expected"
+   }
+  },
+  {
+   "say": "In 1999, the researchers Shane Frederick and George Loewenstein wrote a long chapter called Hedonic Adaptation, in a book edited by Daniel Kahneman, Ed Diener and Norbert Schwarz, called Well-Being: The Foundations of Hedonic Psychology. They gathered together what was known about how people adapt to good and bad experiences, and asked a simple question. What is adaptation for?",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "who": "Frederick and Loewenstein",
+    "where": "Hedonic adaptation, a book chapter",
+    "what": "published in 1999"
+   }
+  },
+  {
+   "say": "Their answer was that adaptation does several useful jobs. It frees our attention for whatever is changing, which is usually what we most need to respond to. It softens the sting of difficulties that keep repeating, so that we aren't flattened by them forever. And it keeps us responsive, ready to feel something new when something new arrives.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "title": "Why adapting helps",
+    "items": [
+     "It frees attention for change",
+     "It softens repeated hardships",
+     "It keeps us responsive",
+     "It lets us keep going"
+    ]
+   }
+  },
+  {
+   "say": "That second point is worth pausing on. Adaptation works in both directions. The same brain that quietly turns down the thrill of Nora's sea view also turns down the sting of a disappointment, or the ache of a long winter, or the discomfort of a new and difficult routine. We can't keep one and switch off the other. They're the same machinery.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Both directions",
+    "sub": "Good and bad"
+   }
+  },
+  {
+   "say": "Think of all the times this has quietly helped you. A new noise outside your window that kept you awake for a few nights, and then, one evening, you simply didn't hear it any more. A new routine that felt hard and strange for a week, and then felt ordinary. A sad week that seemed as if it would never lift, and then, slowly, without any single moment you could point to, did. The fading we sometimes regret is the very same fading that carries us through.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "title": "Adaptation works both ways",
+    "items": [
+     "A new joy fades",
+     "A new ache softens",
+     "A new noise goes quiet",
+     "A new routine feels normal"
+    ]
+   }
+  },
+  {
+   "say": "Imagine, for a moment, a brain that never adapted. Every good thing would stay thrilling, yes. But every loss would stay as raw as the first day. Every noise would stay as loud. Every small worry would keep its full weight forever. Seen that way, the fading of joy is the price we pay for being able to recover from pain.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "A protective design",
+    "sub": "Not a cruel one"
+   }
+  },
+  {
+   "say": "That's what I meant at the start, when I said that fading is a feature, not a fault. It's not that the brain wants us to be unhappy. It's that the brain is built to keep us noticing, adjusting, recovering. A brain like that is always a little bit restless. But it's also remarkably resilient.",
+   "show": {
+    "type": "quote",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "text": "Fading is not a fault. It is a feature.",
+    "by": "The idea from the start of tonight"
+   }
+  },
+  {
+   "say": "And here's where things get even more interesting. Because if adaptation is so powerful, and so constant, you'd think we would know about it. You'd think we'd factor it in when we imagine the future. That before Nora moved, some part of her would have whispered, you'll get used to it, you know. But mostly, we don't do that at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A hidden twist",
+    "sub": "Our own predictions"
+   }
+  },
+  {
+   "say": "Which brings us to our second myth, and one of the most surprising lines of research in the whole psychology of happiness. It's the belief that, whatever else we might be confused about, at least we know what will make us happy. We know what we want. And when we get it, it will feel the way we imagine. Let's see how well that belief holds up.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A01",
+    "bg": "rooftop_dusk",
+    "n": 7,
+    "title": "Predicting our own joy"
+   }
+  }
+ ]
+}

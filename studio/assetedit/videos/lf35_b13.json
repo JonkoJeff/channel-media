@@ -1,0 +1,231 @@
+{
+ "id": "lf35_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So let's leave the experiments behind for now. The twins, the photographs, the students on their trains, the cold water and the chocolate. They've told us their stories, and they can rest now too. From here on, the night gets slower. There's nothing more to learn, and nothing to remember. There's only this evening, and the quiet way it settles around you.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 33,
+    "title": "The evening settles"
+   }
+  },
+  {
+   "say": "If you haven't already, find a position that feels easy. You don't need to lie perfectly still, and there's no right way to do this. Let your head sink a little into the pillow. Let your arms rest wherever they like. For the next little while, there is nowhere you need to be and nothing you need to finish.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Getting comfortable",
+    "sub": "No rush at all"
+   }
+  },
+  {
+   "say": "Think of the light at the very end of an evening. The way it doesn't switch off all at once, but fades slowly, one shade at a time. The sky goes from pale gold to soft grey to a deep, gentle blue. Nobody hurries it. Nobody asks it to last. It simply changes, and somehow that change is part of what makes it lovely.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "The light outside",
+    "sub": "Fading slowly"
+   }
+  },
+  {
+   "say": "Whatever happened today has already happened. The good parts and the tiring parts, the moments you enjoyed and the ones you'd rather forget. They belong to the day now, and the day is closing its door. You don't need to carry any of it into the night. You can set it down, just here, beside you.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "The day behind you",
+    "sub": "It can stay there"
+   }
+  },
+  {
+   "say": "Tonight, there's no need to want anything more than you already have. There's no need to plan tomorrow, or fix something from last week, or work out what would make you happier. And there's no need to feel any particular way at all. Calm, restless, a little sleepy, wide awake. All of it is welcome here.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "title": "Tonight, there's no need to",
+    "items": [
+     "Want more",
+     "Plan ahead",
+     "Fix anything",
+     "Feel any particular way"
+    ]
+   }
+  },
+  {
+   "say": "All night, we've talked about wanting. About how the mind always leans forward, toward the next thing, the better thing, the thing that will finally make everything feel right. That leaning is very human. It has carried people a long way. But it can rest now. Imagine it loosening, like a knot in a rope that slowly comes undone.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Letting the wanting go",
+    "sub": "Like loosening a knot"
+   }
+  },
+  {
+   "say": "Let your breath slow down by itself. You don't have to control it. Just notice it. The air coming in, cool and quiet. The air going out, a little warmer. And if you like, let each breath out be just a little longer than the breath in. Not forced. Just a slow, easy sigh, like the end of a long day.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Breathing out",
+    "sub": "A little longer"
+   }
+  },
+  {
+   "say": "Now, let's try something gentle. We've talked about how the brain stops noticing what's always there. The hum of a room. The feel of a sleeve on your arm. The familiar shape of your own ceiling. Tonight, for a few moments, let's notice them again, as if for the very first time.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Ordinary things",
+    "sub": "Seen again"
+   }
+  },
+  {
+   "say": "Picture a windowsill at the end of the day. A cup that has been there since the afternoon. A folded blanket. The glass going slowly dark. Nothing special is happening here. And yet, if you look closely, everything is a little bit beautiful. The curve of the cup. The soft weight of the wool. The last light leaving.",
+   "show": {
+    "type": "photo",
+    "file": "lf35_b13_01.jpg",
+    "cap": "Ordinary things, seen again"
+   }
+  },
+  {
+   "say": "Notice the weight of whatever is covering you. A blanket, a duvet, a sheet. You've felt it a thousand times, and usually you don't feel it at all. But it's there right now, resting on you, gentle and steady. Let yourself feel it properly, just for a moment. It's holding you without asking anything in return.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The weight of the blanket",
+    "sub": "Just notice it"
+   }
+  },
+  {
+   "say": "Let your attention drift to the sounds around you. You don't need to open your eyes. Perhaps there's a faint hum, a fridge, a heater, a car passing far away. Perhaps there's wind outside, or rain, or simply silence. Let each sound arrive and leave again, like a visitor who doesn't need to stay.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "The sounds nearby",
+    "sub": "Coming and going"
+   }
+  },
+  {
+   "say": "Here's a small thought to rest with. Nothing has to last to be good. A sunset, a song, a warm cup in cold hands. They come, they glow, and they go. And the going doesn't take anything away from them. If anything, it's part of what makes them precious.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "text": "Nothing has to last to be good.",
+    "by": "Tonight's thought"
+   }
+  },
+  {
+   "say": "Somewhere, in our story, Nora is sitting by her big window too. The sea outside is turning from silver to grey to almost black. A few lights are blinking on along the shore. She's not trying to feel anything about it. She's just watching, the way you might watch a candle, with nowhere else to be.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Nora's evening",
+    "sub": "The window darkening"
+   }
+  },
+  {
+   "say": "And she notices something. The view she stopped seeing all those weeks ago is there again, not as a thrill, not as a big feeling, but as a soft, steady kind of company. It never really left. It was simply waiting for her to look. A lot of good things are like that. Patient, and quietly waiting.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "The view returns",
+    "sub": "Quietly"
+   }
+  },
+  {
+   "say": "Your own quiet things are waiting too. The pillow under your head. The warmth gathering under the covers. The plain fact of being here, breathing, at the end of a day. You don't need to feel grateful for them. You don't need to feel anything. Just let them be there, and let yourself be there with them.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Your own quiet things",
+    "sub": "Right where you are"
+   }
+  },
+  {
+   "say": "Let's notice a few more small things, slowly, one at a time. The texture of the pillow against your cheek. The slight coolness of the air on your face. The stillness of the room, which has been still all day, waiting for you. And the soft, steady sound of your own breath, coming and going, all by itself.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Small things, seen fresh",
+    "items": [
+     "The texture of the pillow",
+     "The coolness of the air",
+     "The stillness of the room",
+     "The sound of your own breath"
+    ]
+   }
+  },
+  {
+   "say": "Imagine you've just arrived in this room for the very first time. A guest, perhaps, after a long journey. Everything is new. The shape of the shadows on the wall. The way the corner of the blanket folds. You might be curious about it, the way a traveller is curious about a quiet room at the end of a long road. Kind, and unhurried, and grateful just to rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Like a first visit",
+    "sub": "Curious and kind"
+   }
+  },
+  {
+   "say": "Your brain has spent the whole day noticing, sorting, comparing, filing things away. What was new, what was expected, what needed attention. It's a tireless helper. But right now there's nothing it needs to sort. Nothing new it needs to learn. It can let everything become familiar again, soft and safe and known, and it can slow down.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The brain can rest too",
+    "sub": "Nothing new to learn"
+   }
+  },
+  {
+   "say": "If your thoughts drift away while you listen, that's perfectly fine. Let them wander for a while, and when you notice, let them float gently back to the breath, or to the blanket, or to the sound of this voice. There's no right way to do this. Drifting is part of resting. And sometimes drifting is the gentlest way into sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Drifting is fine",
+    "sub": "Wherever it goes"
+   }
+  },
+  {
+   "say": "So for now, there's just this. A slow breath. A warm blanket. A quiet room. And nothing at all that you need to do. Let your shoulders drop a little further. Let your jaw go soft. Let the evening settle over you, slowly, one shade at a time, the way the light fades outside.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "title": "For now",
+    "items": [
+     "A slow breath",
+     "A warm blanket",
+     "A quiet room",
+     "Nothing to do"
+    ]
+   }
+  },
+  {
+   "say": "There's no hurry in any of this. The evening doesn't hurry, and neither do you. Let each breath be a little slower than the one before it, and let each thought be a little quieter. One shade at a time, the way the sky grows dark over the sea. Slowly, slowly, until the room and the night and your breathing all feel like one soft, steady thing.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "One shade at a time",
+    "sub": "Slowly, slowly"
+   }
+  }
+ ]
+}

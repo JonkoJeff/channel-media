@@ -1,0 +1,221 @@
+{
+ "id": "lf35_b15",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now let's go somewhere quiet together, in your imagination. A small room at the very top of a building, with one big window. Behind the glass, the sea. It's night now, and the water is dark and calm, with only a faint silver line where the moon touches it. This is Nora's window. Tonight, you can borrow it for a while.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "A window over the sea",
+    "sub": "At night"
+   }
+  },
+  {
+   "say": "Imagine sitting down close to that window. Perhaps on a soft chair, perhaps on a cushion on the floor, with a blanket around your shoulders. The glass is cool, and the room behind you is warm. You don't need to do anything here. You've come only to look, and to rest, and to listen to the sea.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Sitting down",
+    "sub": "Close to the glass"
+   }
+  },
+  {
+   "say": "Watch the first wave you can see. It starts far out, as a soft, dark line on the water. It rolls slowly toward the shore, growing a little taller, a little brighter where the moonlight catches it. And then it reaches the sand, and spreads out, and quietly slides back into the sea.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "The first wave",
+    "sub": "Rolling in"
+   }
+  },
+  {
+   "say": "All night, the waves will keep doing this. Arriving. Rising. Spreading out. Slipping away. Not one of them stays. Not one of them needs to. The sea doesn't hold on to its waves, and it doesn't grieve them when they go. It simply makes another one, and another, as patient and as steady as a breath.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "title": "The waves, all night",
+    "items": [
+     "Arriving",
+     "Rising",
+     "Spreading out",
+     "Slipping away"
+    ]
+   }
+  },
+  {
+   "say": "Feelings are a little like that. A wave of joy arrives, and rises, and slips away. A wave of worry arrives too, and it also slips away, sooner or later. Earlier tonight, we heard how the brain lets feelings fade, the good ones and the hard ones alike. Here, by the window, that fading doesn't feel like a loss. It feels like the tide.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "Feelings are like waves",
+    "sub": "They come and go"
+   }
+  },
+  {
+   "say": "See if you can let your breath follow the waves. As a wave rolls in, breathe in, slowly. As it slides back out across the sand, breathe out, a little longer. And in the quiet moment before the next wave, simply rest. In with the wave. Out with the wave. Rest. The sea has all the time in the world, and so do you.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "Breathing with the sea",
+    "sub": "In and out"
+   }
+  },
+  {
+   "say": "Picture the view through the glass. Dark water, a pale path of moonlight, a few small lights along the shore, blinking softly. Somewhere down below, the waves are folding over and over onto the sand. You can almost hear them. A long, low hush, then a pause, then another hush. The oldest lullaby in the world.",
+   "show": {
+    "type": "photo",
+    "file": "lf35_b15_01.jpg",
+    "cap": "Waves arriving and leaving"
+   }
+  },
+  {
+   "say": "On her very first night in this room, Nora sat right here, surrounded by boxes, and couldn't stop looking. Weeks later, she walked past the window without seeing it at all. And later still, she learned to stop, now and then, and see it fresh again. The sea never changed. Only her looking did. And looking, it turns out, is something we can always come back to.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Nora's first night",
+    "sub": "And her later nights"
+   }
+  },
+  {
+   "say": "There's nothing to keep here, and nothing to chase. You don't need to remember this view tomorrow. You don't need to feel amazed by it. You can simply sit beside it, the way you'd sit beside an old friend, comfortable in the quiet, with nothing that needs to be said.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Nothing to keep",
+    "sub": "Nothing to chase"
+   }
+  },
+  {
+   "say": "Listen for the sound of the water in your mind. A soft, steady hush. It rises a little as a wave breaks, then falls back to almost nothing. Rises, and falls. If any thought comes along, let it ride out on the next wave, carried gently away from the shore, until it's too small to see.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "The sound of the water",
+    "sub": "A soft, steady hush"
+   }
+  },
+  {
+   "say": "Here's a thought to rest with, as the waves come and go. The sea does not hold its waves. It lets each one go, and in letting go, it stays exactly what it is. Calm and deep and alive. Perhaps we can be a little like that tonight. Letting each feeling go, and staying ourselves underneath.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "text": "The sea does not hold its waves.",
+    "by": "Tonight's thought"
+   }
+  },
+  {
+   "say": "Look at the path of moonlight on the water. It seems to lead straight toward your window, as if it were laid down just for you. Of course, anyone looking from any window along the shore sees their own path too. The light is generous like that. It shines for everyone, without ever running out.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "The moonlight path",
+    "sub": "On the water"
+   }
+  },
+  {
+   "say": "Let your eyes, in your imagination, drift out to the horizon. Out there, the sea and the sky meet in a soft, blurred line, so dark and so gentle that you can hardly tell where one ends and the other begins. Let your thoughts blur a little too. Let the edges of the day go soft and dark and still.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "The far horizon",
+    "sub": "Soft and blurred"
+   }
+  },
+  {
+   "say": "So here you are, by the window. The cool glass in front of you. The warm blanket around your shoulders. The slow waves rolling in and out below. And the quiet room behind you, holding all of it. There's nothing more you need. Just this view, and this breath, and this quiet moment at the top of the night.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "title": "By the window",
+    "items": [
+     "The cool glass",
+     "The warm blanket",
+     "The slow waves",
+     "The quiet room"
+    ]
+   }
+  },
+  {
+   "say": "Far out on the water, imagine a single small light. A boat, perhaps, resting at anchor for the night. It's barely moving. It rocks a little as the swell passes beneath it, then settles again. Rocks, and settles. Its crew is asleep, trusting the anchor and the calm sea. You can trust the night in the same way.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A boat far out",
+    "sub": "Barely moving"
+   }
+  },
+  {
+   "say": "Imagine you're rocking gently too, like that little boat. The smallest, slowest sway, back and forth, back and forth. The sea holding you up without any effort on your part. Your body heavy and warm, your breath slow and easy, your thoughts drifting further and further out, like lights on the water.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Rocking gently",
+    "sub": "Like the boat"
+   }
+  },
+  {
+   "say": "Somewhere in the night, the tide will turn. Nobody will see it happen. Nobody needs to. The water will quietly begin to move the other way, as it has done twice a day for longer than there have been people to watch it. Big changes can happen softly. Sometimes the most important ones happen while we're fast asleep.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "text": "Big changes can happen softly.",
+    "by": "The turning tide"
+   }
+  },
+  {
+   "say": "And when morning comes, the sea will still be there, glittering and new, ready to be seen as if for the very first time. You don't need to hold on to it tonight. It will wait for you. Good things often do. For now, you can let your eyes close, and let the waves keep their slow time without you.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Morning will come",
+    "sub": "And the sea will still be there"
+   }
+  },
+  {
+   "say": "So for now, there are only waves arriving, and waves leaving. A slow breath in, and a longer breath out. And a quiet heart, resting by a dark window, with the sea below. Let it all keep moving, gently, while you grow still. Nothing has to stay. Nothing has to be held. Everything is just as it should be.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "title": "For now",
+    "items": [
+     "Waves arriving",
+     "Waves leaving",
+     "A slow breath",
+     "A quiet heart"
+    ]
+   }
+  },
+  {
+   "say": "Let yourself drift a little further now. Out with the tide, out toward the soft line where the sea meets the sky. The sound of the waves growing fainter, the room growing warmer, the night growing deeper. There is nowhere else to be. There is nothing else to do. Only this long, slow rhythm, carrying you gently toward sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Drifting further",
+    "sub": "With the tide"
+   }
+  }
+ ]
+}

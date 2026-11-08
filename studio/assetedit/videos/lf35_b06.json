@@ -1,0 +1,235 @@
+{
+ "id": "lf35_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a piece of advice you've almost certainly heard, and probably given. Keep your options open. Don't commit too early. Make sure you can change your mind. It sounds wise, and kind, and safe. Surely the more freedom we keep, the happier we'll be with whatever we end up choosing. That's our next myth.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "n": 12,
+    "title": "Keeping your options open"
+   }
+  },
+  {
+   "say": "Before Nora moved, she spent weeks comparing places. A flat near the station. A flat with a garden. A flat with that big window over the sea. Every evening, she'd scroll through them again, imagining a different life in each one. And she noticed something strange. The more she compared, the less sure she felt. Every option seemed to steal a little shine from the others.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Nora, before she moved",
+    "sub": "So many tabs open"
+   }
+  },
+  {
+   "say": "Then she chose. She moved in, unpacked the boxes, hung a picture by the door. And without quite deciding to, she stopped looking at other flats. The comparisons simply ended. It felt like a small relief, like setting down a bag she hadn't realised she was carrying. Was that a coincidence, or was something in her mind quietly getting to work?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Then she chose",
+    "sub": "And something changed"
+   }
+  },
+  {
+   "say": "To find out, let's visit a photography class at Harvard University. Two psychologists, Daniel Gilbert and Jane Ebert, wanted to test the idea that keeping your options open makes you happier. And they found a lovely, simple way to do it, using something people care about a great deal. Their own photographs.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "n": 13,
+    "title": "A photography class at Harvard"
+   }
+  },
+  {
+   "say": "Their work was published in 2002 in the Journal of Personality and Social Psychology. Students in a photography course went around the campus taking pictures of places and people that mattered to them. Then they learned to print their two favourite photographs in the darkroom. And here came the twist. They could keep only one. The other would be sent away.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "who": "Daniel Gilbert and Jane Ebert",
+    "where": "Harvard University, published 2002",
+    "what": "Decisions and revisions: changeable versus final choices"
+   }
+  },
+  {
+   "say": "The students were split into two groups. Some were told that their choice was final. The photograph they gave up would be gone for good. Others were told they could change their minds. If they wanted, they could come back within a few days and swap. Later, everyone was asked how much they liked the photograph they'd kept.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Two groups of students",
+    "items": [
+     "Some were told their choice was final",
+     "Others could swap within a few days",
+     "Later, everyone rated the photo they kept"
+    ]
+   }
+  },
+  {
+   "say": "And the result was the opposite of what the advice would predict. The students who could swap liked their photograph less than the students whose choice was final. Having the door left open didn't make them happier with what they had. It seemed to keep a small part of them looking back at the other picture, wondering, weighing, never quite settling.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "The surprising result",
+    "sub": "Freedom had a cost"
+   }
+  },
+  {
+   "say": "Now comes the part that makes this study so revealing. Gilbert and Ebert didn't stop there. They also asked other people a simple question. If you were in this class, which would you prefer? A final choice, or the chance to change your mind?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "n": 14,
+    "title": "Would you choose the open door?"
+   }
+  },
+  {
+   "say": "Most people preferred to keep the option to swap. Of course they did. It sounds better. Nobody wants to be stuck. And people also predicted that being able to change their mind wouldn't make them like their photograph any less. So they wanted exactly the thing that, in the experiment, made the students less satisfied. Not because they were foolish, but because the cost was invisible to them.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "What people wanted",
+    "sub": "The open door"
+   }
+  },
+  {
+   "say": "It's easy to see why the open door is so tempting. It feels like a safety net, a little insurance against making a mistake. What we don't foresee is the comparing it invites, the quiet back and forth in the mind that goes on long after the choice is made. And we badly underestimate how well we adjust to what we already have, once we let ourselves settle into it.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "title": "Why the open door tempts us",
+    "items": [
+     "It feels like a safety net",
+     "We don't foresee the endless comparing",
+     "We underestimate how well we adjust"
+    ]
+   }
+  },
+  {
+   "say": "You could sum up the whole study in one quiet line. People can feel happier with a choice they cannot undo, and yet still prefer the choice they can. It's another of those gaps between what we predict will make us happy and what actually does.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "text": "People can feel happier with a choice they cannot undo, yet prefer the choice they can.",
+    "by": "A summary of Gilbert and Ebert, 2002"
+   }
+  },
+  {
+   "say": "So why would a final choice feel better? Gilbert's answer connects back to an idea we met a little earlier tonight. He calls it the psychological immune system.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 15,
+    "title": "A hidden immune system"
+   }
+  },
+  {
+   "say": "In their 1998 paper on what they called immune neglect, Gilbert and his colleagues argued that the mind has its own quiet defences. When something disappointing happens, we don't just sit with the disappointment. Without meaning to, we begin to find the good in what we have, to notice its strengths, to make peace with it. And we tend to forget, when we imagine the future, that these defences exist at all.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "who": "Gilbert, Pinel, Wilson, Blumberg and Wheatley",
+    "where": "Journal of Personality and Social Psychology, published 1998",
+    "what": "Immune neglect"
+   }
+  },
+  {
+   "say": "This psychological immune system finds the good in what you have. It softens the sting of what you gave up. It works quietly, often without you noticing. And according to Gilbert and Ebert, it seems to work best when a choice is settled. When the door is closed, the mind gets on with making the best of the room you're in.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "title": "What the immune system does",
+    "items": [
+     "Finds the good in what you have",
+     "Softens the sting of what you lost",
+     "Works quietly, without being asked",
+     "Works best when a choice is settled"
+    ]
+   }
+  },
+  {
+   "say": "But when the door stays open, the mind is kept busy in a different way. It keeps the comparison running, like an app left open in the background. Is this the right one? Would the other have been better? That steady low hum of comparing makes it harder for the quiet work of contentment to begin. The joy never quite gets to settle in.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "An open door keeps it busy",
+    "sub": "Always comparing"
+   }
+  },
+  {
+   "say": "Picture those two prints on the darkroom table. Both beautiful, both yours. And the moment you're told you can keep only one, something in your mind starts to take sides. If the choice is final, it leans towards the one you kept, and slowly, gently, that picture becomes the one you love.",
+   "show": {
+    "type": "photo",
+    "file": "lf35_b06_01.jpg",
+    "cap": "Two prints, only one to keep"
+   }
+  },
+  {
+   "say": "That's very much what happened to Nora. Once she had moved in, the other flats stopped competing. Her mind could get on with the work of making this place home. The window wasn't one choice among many any more. It was hers. And that small sense of settledness was part of what made the first weeks feel so bright.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Back to Nora",
+    "sub": "The window became hers"
+   }
+  },
+  {
+   "say": "Of course, this doesn't mean you should never keep an option open, or that every decision should be rushed. Some choices really do need time and care, and some doors are worth leaving open. The study was about a small, low stakes choice between two photographs. What it shows is not a rule for life, but a hidden cost we tend to overlook. Endless reversibility can quietly steal some of the pleasure from what we already have.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "A gentle caution",
+    "sub": "Not every door should close"
+   }
+  },
+  {
+   "say": "So if there's a gentle lesson here, perhaps it's this. Choose with care, and then, when you can, let yourself settle. Close the other tabs, in your browser and in your head. Give your mind the chance to do the quiet, generous work it's so surprisingly good at.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "title": "What this suggests",
+    "items": [
+     "Once you've chosen with care, let yourself settle",
+     "Stop the comparison when you can",
+     "Give the mind room to make the best of things"
+    ]
+   }
+  },
+  {
+   "say": "Nora found her own small way of doing this. Every so often, a friend would send her a link to some other flat, bigger, with a garden, closer to the shops. For a while, she'd open them and look, and then feel a strange little ache about her own home. In the end, she started closing them without looking. Not because she didn't care, but because she had already chosen, and she wanted to give her choice the chance to become a good one.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "Nora's small ritual",
+    "sub": "Closing the other tabs"
+   }
+  },
+  {
+   "say": "But there's a twist in our story, because settling isn't the whole answer either. Even a settled, chosen, loved thing fades. Nora was settled in her flat, and still, after six weeks, she walked past the window without looking. So perhaps the problem isn't how we choose. Perhaps it's what we expect happiness to feel like. Many of us picture a happy life as a string of glittering highs. And that, it turns out, is our next myth.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "n": 16,
+    "title": "The brightest moments"
+   }
+  }
+ ]
+}

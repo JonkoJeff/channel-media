@@ -1,0 +1,231 @@
+{
+ "id": "lf35_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's stay with the breath for a while now. Not because there's anything wrong with it, and not because it needs fixing. Just because it's here, and it's yours, and it's one of the most ordinary, faithful things in your whole life. It has been with you through every day you've ever had, quietly carrying on.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "Slowing the breath",
+    "sub": "Nothing to force"
+   }
+  },
+  {
+   "say": "Breathe in gently through your nose, if that feels comfortable. Notice the cool air arriving. Notice the small lift of your chest, or the soft rise of your belly. There's no need to take a big breath. An ordinary one is perfect. Just let it come in, all on its own.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Breathing in",
+    "sub": "Cool and quiet"
+   }
+  },
+  {
+   "say": "And now, breathe out slowly. Let the out-breath be just a little longer than the in-breath. As if you're letting go of a small sigh at the end of a long day. Feel your shoulders soften as the air leaves. Feel your body grow a little heavier, a little more settled into wherever you're lying.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Breathing out",
+    "sub": "A little longer"
+   }
+  },
+  {
+   "say": "Let's find a gentle rhythm together. Breathe in, gently. Breathe out, a little longer. Then a small, easy pause, where nothing happens at all. And then again. In, gently. Out, a little longer. A small pause. There's no counting you need to keep. If you lose the rhythm, that's fine. The breath always knows how to find its own way.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "title": "A gentle rhythm",
+    "items": [
+     "In, gently",
+     "Out, a little longer",
+     "A small pause",
+     "And again"
+    ]
+   }
+  },
+  {
+   "say": "With each breath out, imagine something from the day loosening its grip. A small worry. A list of things to do. A conversation that's still playing in your head. You don't need to solve any of it. You're just letting it float a little further away, the way a leaf floats down a slow river and out of sight.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Each breath out",
+    "sub": "Lets something go"
+   }
+  },
+  {
+   "say": "In our story, Nora found a small habit that helped her at night. Before sleep, she would think of three good things from the day. Not big things. Small ones. The sea at breakfast. A kind word from someone at the shop. The smell of rain on the balcony. Three small, ordinary pieces of the day that were worth a second look.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Nora's habit",
+    "sub": "Three small things"
+   }
+  },
+  {
+   "say": "If you'd like to, we can try that together now. There's no pressure, and nothing you need to get right. If nothing comes to mind, that's perfectly fine too. Just let the day drift past you, slowly, like a quiet film, and see if anything small and warm catches your attention.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "cap": "Your own three",
+    "sub": "Only if you like"
+   }
+  },
+  {
+   "say": "Picture three small, smooth pebbles, resting side by side on a table. Each one is a little moment from today. Nothing grand. Nothing you'd tell anyone about. Just three small things that were good, in their own quiet way, and that you can hold in your mind for a moment before you set them down.",
+   "show": {
+    "type": "photo",
+    "file": "lf35_b14_01.jpg",
+    "cap": "Three small good things"
+   }
+  },
+  {
+   "say": "Let the first one arrive. Perhaps it's a taste. The first sip of a warm drink this morning. Perhaps it's a sound. Someone laughing in the next room, or a bird outside a window. Perhaps it's a feeling. The moment you took off your shoes, or sat down after a long time standing. Whatever comes, let it be enough.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The first one",
+    "sub": "Something small"
+   }
+  },
+  {
+   "say": "Let the second one come, in its own time. Maybe this one has another person in it. A message from a friend. A smile from a stranger. A small kindness, given or received. Or maybe it's simply a moment of peace, when nothing was asked of you. Just notice it. Turn it over gently, like a pebble in your hand.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "The second one",
+    "sub": "Someone, perhaps"
+   }
+  },
+  {
+   "say": "And the third one. If nothing else comes, it can be this. Right now. The fact that you're lying down, warm, resting, at the end of a day. That the day is done. That you made it here. That's a good thing too, even if it's a very ordinary one. Especially because it's an ordinary one.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "cap": "The third one",
+    "sub": "Even this"
+   }
+  },
+  {
+   "say": "There's an old saying that the small things are the big things. It sounds like something from a greeting card. But tonight, it might simply be true. A warm drink, a kind word, a quiet room. They don't shout. They don't last forever. But they come back, again and again, if we let ourselves notice them.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "text": "The small things are the big things.",
+    "by": "A gentle reminder"
+   }
+  },
+  {
+   "say": "Now let the three good things rest. You don't need to hold on to them. You don't need to remember them tomorrow. Imagine placing them down, one by one, on a soft surface beside you. They'll still be there. They've already happened, and nothing can undo them. They belong to today, and today was a little better for them.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Setting them down",
+    "sub": "Gently"
+   }
+  },
+  {
+   "say": "Let your attention return to the breath. In, gently. Out, a little longer. A small pause. Notice how much slower it has become since we started. You didn't have to make it slow. It slowed down by itself, the way the evening slows, the way a river widens and grows quiet near the sea.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Back to the breath",
+    "sub": "Slow and steady"
+   }
+  },
+  {
+   "say": "So right now, there's just a slow breath. A body that is growing heavy and warm. A mind that is slowly quieting down. And nowhere at all that you need to be. Let each breath out carry you a little deeper into rest, like a small boat drifting gently toward the shore.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "title": "Right now",
+    "items": [
+     "A slow breath",
+     "A heavy body",
+     "A quiet mind",
+     "Nowhere to be"
+    ]
+   }
+  },
+  {
+   "say": "Your body knows how to rest. It has done it every night of your life. You don't need to teach it, and you don't need to try. All you need to do is let it. Let the muscles in your face go soft. Let your hands lie open. Let the breath carry on, slow and steady, all by itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The body knows",
+    "sub": "How to rest"
+   }
+  },
+  {
+   "say": "There's nothing to hold on to now. Not the day, not the three small things, not even these words. If they drift away, let them. You can come back to the breath whenever you like. In, gently. Out, a little longer. A small pause. And again. Slow and easy, like waves on a quiet shore.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Nothing to hold",
+    "sub": "Just this breath"
+   }
+  },
+  {
+   "say": "As you keep breathing, let's soften a few places that often hold on without us noticing. Let your shoulders drop a little lower, away from your ears. Let your jaw go loose, so your teeth aren't quite touching. Let your hands lie open, palms resting however they like. And let your belly be easy, rising and falling with each slow breath, without any effort at all.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "title": "As you breathe",
+    "items": [
+     "Shoulders soft",
+     "Jaw loose",
+     "Hands open",
+     "Belly easy"
+    ]
+   }
+  },
+  {
+   "say": "Imagine each breath as a slow wave on a quiet beach. It rolls in, gently, and spreads out across the sand. Then it slides back out, a little longer, a little softer, leaving the sand smooth and shining. And then there's a pause, a moment of stillness, before the next small wave arrives. In. Out. A pause. Over and over, for as long as there has been a sea.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A slow wave",
+    "sub": "Arriving and leaving"
+   }
+  },
+  {
+   "say": "You don't need to measure how relaxed you are. You don't need to wonder whether you're doing it well. There's nothing to win here, and nothing to compare. Some nights the body settles quickly, and some nights it takes its time. Both are perfectly fine. Rest isn't a test. It's simply what happens when you stop asking yourself for anything more.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "cap": "Nothing to measure",
+    "sub": "Nothing to win"
+   }
+  },
+  {
+   "say": "Perhaps somewhere outside, rain is starting to fall. Imagine its soft sound on a window. Tiny taps, uneven and gentle, the kind of sound that makes a warm room feel even warmer. Let the rain keep its own slow rhythm while you keep yours. In, gently. Out, a little longer. A small pause. The rain outside, the breath inside, both of them quietly carrying on.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Rain on the glass",
+    "sub": "A soft sound"
+   }
+  }
+ ]
+}

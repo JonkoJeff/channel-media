@@ -1,0 +1,235 @@
+{
+ "id": "lf35_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's start with a quiet laboratory idea, long before anyone talked about happiness on a podcast. In the middle of the twentieth century, an American psychologist called Harry Helson was studying something that sounds almost boring. How people judge things. How heavy an object feels. How bright a light looks. How warm a room seems when you walk into it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "autumn_overlook",
+    "n": 4,
+    "title": "Where the treadmill came from"
+   }
+  },
+  {
+   "say": "What Helson kept finding was that people almost never judge anything on its own. They judge it against what they've recently experienced. A medium weight feels heavy if you've just lifted a series of light ones, and light if you've just lifted heavy ones. A room feels warm if you've come in from the snow, and cool if you've come in from a hot summer street. The brain is always quietly asking, compared to what?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Compared to what",
+    "sub": "The hidden question"
+   }
+  },
+  {
+   "say": "In 1964, Helson brought this work together in a book called Adaptation-Level Theory. The central idea was simple and powerful. Each of us carries a kind of moving baseline, an adaptation level, built from everything we've recently experienced. New things are judged as more or less than that baseline. And the baseline itself keeps shifting, so that whatever we're used to slowly comes to feel neutral.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "who": "Harry Helson",
+    "where": "Adaptation-Level Theory, book",
+    "what": "published in 1964"
+   }
+  },
+  {
+   "say": "Now, Helson was mostly talking about weights and lights and temperatures. But it didn't take long for other researchers to wonder whether the same thing might be true of feelings. If our sense of heavy and light keeps resetting, what about our sense of good and bad? What about joy? What about the thrill of a new home by the sea?",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Feelings too",
+    "sub": "Not just weights"
+   }
+  },
+  {
+   "say": "In 1971, two psychologists, Philip Brickman and Donald Campbell, wrote a chapter with a rather grand title, Hedonic Relativism and Planning the Good Society. They took Helson's idea and applied it to happiness itself. Their suggestion was a little unsettling. If we adapt to whatever we have, then improvements in our lives might lift our mood for a while, and then simply become the new normal. They described this as a kind of hedonic treadmill.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "who": "Brickman and Campbell",
+    "where": "Hedonic relativism, a book chapter",
+    "what": "published in 1971"
+   }
+  },
+  {
+   "say": "Picture a treadmill. You walk and walk, and you never actually get anywhere. That was the image. Something good happens, and your happiness rises. Then you get used to it. And slowly, your happiness drifts back to roughly where it started. On this view, Nora's sea view is a step on the treadmill. Wonderful for a while, and then just the view.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "title": "The treadmill idea",
+    "items": [
+     "Something good happens",
+     "Happiness rises",
+     "We get used to it",
+     "Happiness drifts back"
+    ]
+   }
+  },
+  {
+   "say": "It's an idea that started with weights on a laboratory bench. And it grew into one of the most famous ideas in the psychology of happiness. It's also, as we'll see, an idea that turned out to be partly right and partly too simple. Which brings us to tonight's first myth.",
+   "show": {
+    "type": "photo",
+    "file": "lf35_b02_01.jpg",
+    "cap": "Compared to what?"
+   }
+  },
+  {
+   "say": "Here it is. After any big life change, good or bad, we always drift all the way back to exactly where we were. It's the treadmill in its strongest form. And you hear it everywhere. Nothing really changes how happy you are, people say. Give it a year, and you'll be back to normal, whatever happens.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "text": "After any big change, we always drift all the way back.",
+    "by": "Myth number one"
+   }
+  },
+  {
+   "say": "For a long time, this was hard to test properly. Most studies asked people about their happiness once, at a single moment. To really see whether people drift back, you'd need to follow the same people for years, before and after a big event, and watch what happens to them. Fortunately, some countries run exactly that kind of long survey.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Testing it",
+    "sub": "Real lives, many years"
+   }
+  },
+  {
+   "say": "In 2003, the psychologist Richard Lucas and his colleagues Andrew Clark, Yannis Georgellis and Ed Diener published a study in the Journal of Personality and Social Psychology. They used a survey from Germany that had followed the same people year after year for fifteen years, more than twenty-four thousand people in all. Every year, those people had been asked how satisfied they were with their lives.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "who": "Lucas, Clark, Georgellis and Diener",
+    "where": "A long-running survey in Germany",
+    "what": "published in 2003"
+   }
+  },
+  {
+   "say": "That meant the researchers could look at people who got married during those years, and see their happiness before the wedding, around the wedding, and long after it. On average, satisfaction rose in the time around the marriage. And then, on average, it drifted back, within a couple of years, to something close to where it had been before.",
+   "show": {
+    "type": "stat",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Lucas and colleagues, 2003",
+    "big": "15",
+    "label": "years of yearly answers from over 24,000 people in Germany"
+   }
+  },
+  {
+   "say": "So far, that sounds like the treadmill. But here's the part that's easy to miss. The average hid enormous differences between people. Some people became clearly happier after marrying and stayed that way. Others became less happy. The average looked like a neat return to baseline, but almost nobody's life looked exactly like the average.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "autumn_overlook",
+    "cap": "The average",
+    "sub": "And the people behind it"
+   }
+  },
+  {
+   "say": "And marriage was only one event. In later work, Lucas looked at other big life changes too. In 2007, he wrote a review in a journal called Current Directions in Psychological Science. His conclusion was careful, and quite important. For some events, people do adapt, often surprisingly well. But for others, adaptation is slow, and often incomplete.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "Not everyone",
+    "sub": "Not everything"
+   }
+  },
+  {
+   "say": "One example was serious, long-lasting disability. In the long surveys, people who developed a lasting disability reported lower life satisfaction on average, and many did not fully return to where they had been, even years later. That's not a reason for despair. Many people find meaning and joy after hard changes. But it does mean the strongest version of the treadmill is simply not true.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "title": "Lucas, 2007",
+    "items": [
+     "Some changes fade",
+     "Some leave a lasting mark",
+     "People differ a lot",
+     "Adaptation takes time"
+    ]
+   }
+  },
+  {
+   "say": "In 2006, Ed Diener, Richard Lucas and Christie Napa Scollon published a paper in American Psychologist with the title Beyond the Hedonic Treadmill. They didn't throw the old idea away. Adaptation is real, they said. But the treadmill, as it had been described, needed some serious revisions.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "who": "Diener, Lucas and Scollon",
+    "where": "American Psychologist",
+    "what": "published in 2006"
+   }
+  },
+  {
+   "say": "They listed five. First, our baseline isn't neutral. For most people, the place they drift back to is mildly positive, not grey. Second, people's baselines differ, partly because of temperament. Third, one person can have several baselines, for pleasant feelings, for unpleasant feelings, and for overall life satisfaction, and these can move separately. Fourth, baselines can change. And fifth, people differ in how much, and how fast, they adapt.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Beyond the treadmill",
+    "items": [
+     "Set points are mostly positive",
+     "People's set points differ",
+     "One person can have several",
+     "Set points can change",
+     "People adapt differently"
+    ]
+   }
+  },
+  {
+   "say": "That's a much softer picture than a treadmill. It's less like a machine that always returns you to the same spot, and more like a tide. It comes in, it goes out, it often settles somewhere familiar. But the shore itself can slowly change shape over the years.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "autumn_overlook",
+    "cap": "A softer picture",
+    "sub": "Not a treadmill"
+   }
+  },
+  {
+   "say": "Think of a beach at low tide. The water has pulled back, as it always does. But the sand isn't quite the same as it was yesterday. The tide is a better image for happiness than a treadmill. Things come and go, and much of the time they settle back. But not always to exactly the same place.",
+   "show": {
+    "type": "photo",
+    "file": "lf35_b02_02.jpg",
+    "cap": "More like a tide"
+   }
+  },
+  {
+   "say": "So what about Nora? Six weeks in, the thrill of the sea has faded. In that sense, she's adapted, just as Helson and Brickman would have predicted. But she isn't back to zero. Her mornings are lighter than they were in the small room facing the brick wall. The thrill has gone, but something quieter has stayed. A slightly higher, slightly brighter baseline.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Nora's view",
+    "sub": "Faded, not gone"
+   }
+  },
+  {
+   "say": "And that leaves us with a deeper question. Why would a brain do this in the first place? Why would it take something wonderful, the very thing Nora wanted for years, and quietly turn the volume down? It seems almost unkind. But as we'll see, it's one of the most useful things a brain can do.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Why fade at all",
+    "sub": "The next question"
+   }
+  },
+  {
+   "say": "So let's leave the long surveys behind for a moment, and look a little closer. Not at years of life satisfaction, but at what happens in a few seconds, inside your senses and inside your brain, when something stays the same for long enough. It starts with something you've probably noticed many times, every time you've walked into a friend's home.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "n": 5,
+    "title": "Why the brain stops noticing"
+   }
+  }
+ ]
+}

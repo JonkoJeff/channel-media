@@ -1,0 +1,220 @@
+{
+ "id": "lf35_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So if we are not very good at predicting what will make us happy, perhaps there's a simpler explanation for why happiness never stays. Perhaps it was never really up to us. Perhaps each of us is born with a certain amount of cheerfulness, the way we are born with a certain eye colour, and life just nudges us around it for a while before we drift back. That's our next myth. Happiness is fixed in your genes.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "n": 10,
+    "title": "Is it written in your genes?"
+   }
+  },
+  {
+   "say": "Nora has a grandmother who seems to prove it. Whatever happens, she hums while she cooks. Rain on the day of a picnic, a broken hip, a long winter alone, and still she finds something to laugh about. And Nora sometimes wonders, a little guiltily, whether she simply didn't get that gene. Whether her own happiness, the kind that faded with the view, was always going to slide back to some lower, quieter place.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Nora's grandmother",
+    "sub": "Always cheerful"
+   }
+  },
+  {
+   "say": "It's a very reasonable worry, and it didn't come from nowhere. It came, in large part, from twins. Twins are one of the most useful tools psychology has, because they let scientists ask a question that is otherwise almost impossible to answer. How much of what makes us different from each other comes from the genes we inherited, and how much comes from the lives we've lived?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "A reasonable worry",
+    "sub": "Many people share it"
+   }
+  },
+  {
+   "say": "The logic goes like this. Identical twins come from a single fertilised egg, so they share nearly all their genes. Fraternal twins come from two separate eggs, so they share about half, just like ordinary brothers and sisters. Both kinds usually grow up in the same home, at the same time. So if identical twins turn out much more alike on some trait than fraternal twins do, that extra likeness points towards genes.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "title": "How twin studies work",
+    "items": [
+     "Identical twins share nearly all their genes",
+     "Fraternal twins share about half, like ordinary siblings",
+     "Both kinds usually grow up together",
+     "Compare how alike each kind turns out"
+    ]
+   }
+  },
+  {
+   "say": "In 1996, two researchers at the University of Minnesota, David Lykken and Auke Tellegen, published a short paper in the journal Psychological Science. They had used the Minnesota Twin Registry, a large collection of twins born in the state, and asked them about their sense of well-being. Some of the twins had been asked again years later, so the researchers could see how stable that feeling was over time.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "who": "David Lykken and Auke Tellegen",
+    "where": "University of Minnesota, published 1996",
+    "what": "Twins' sense of well-being"
+   }
+  },
+  {
+   "say": "What they found was striking. Identical twins were much more alike in their well-being than fraternal twins were. And when they looked across time, one identical twin's well-being, measured years earlier, could predict the other twin's well-being later on surprisingly well. Things like education or marriage explained very little of the differences between people. Something steadier seemed to be at work underneath.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "A striking pattern",
+    "sub": "Twins, years apart"
+   }
+  },
+  {
+   "say": "And then they wrote a sentence that would be quoted for decades. It may be that trying to be happier is as futile as trying to be taller. You can feel why that line spread. It's simple, and a little bleak, and it seems to explain so much. If happiness is like height, then of course the joy of a new window fades. You were always going to return to your natural size.",
+   "show": {
+    "type": "quote",
+    "sprite": "A08",
+    "bg": "attic_rain",
+    "text": "It may be that trying to be happier is as futile as trying to be taller.",
+    "by": "David Lykken and Auke Tellegen, 1996"
+   }
+  },
+  {
+   "say": "But here's the part of the story that is told far less often. Lykken himself came to regret that sentence. A few years later, in his 1999 book called Happiness, he softened it, and said he had been wrong to put it so bleakly. He still believed that each of us has a kind of set point, a level we tend to return to. But he no longer thought that trying to move it was pointless.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "A change of heart",
+    "sub": "The author softened it"
+   }
+  },
+  {
+   "say": "Since then, there have been many more twin studies, in many countries, with many thousands of people. And when you have lots of studies on the same question, you can combine them in what's called a meta-analysis, a careful study of studies. That gives a more reliable answer than any single paper, however famous.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Many studies later",
+    "sub": "A clearer picture"
+   }
+  },
+  {
+   "say": "In 2015, the geneticist Meike Bartels, working in Amsterdam, published exactly that kind of review in the journal Behavior Genetics. She gathered the twin and family studies on well-being, life satisfaction, and happiness, and pooled them together. The question was simple. Across all this work, how much of the difference in well-being between people is linked to differences in their genes?",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "who": "Meike Bartels",
+    "where": "Vrije Universiteit Amsterdam, published 2015",
+    "what": "Meta-analysis of heritability studies on well-being"
+   }
+  },
+  {
+   "say": "Her answer was about thirty six percent for well-being. Around a third. That is a real, meaningful share. Genes clearly matter. But it also means that around two thirds of the differences between people are linked to something else. Not as futile as trying to be taller after all.",
+   "show": {
+    "type": "stat",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "title": "Heritability of well-being",
+    "big": "About 36%",
+    "label": "Bartels, 2015, pooled twin studies"
+   }
+  },
+  {
+   "say": "There's one more subtle thing worth knowing, because it trips up almost everyone. Heritability is a statistic about groups of people, not about any single person. It does not mean that a third of your happiness comes from your genes and the rest from your life, as if you could slice yourself into pieces. It describes how much of the variation across a whole population lines up with genetic variation. It isn't a ceiling stamped on you at birth.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "A careful word",
+    "sub": "What heritability means"
+   }
+  },
+  {
+   "say": "Even so, people love a neat answer. And in 2005 one appeared that was neater than anything before it. It came as a picture. A pie chart. And for years, it seemed to show exactly how much of your happiness you could change.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "n": 11,
+    "title": "The happiness pie"
+   }
+  },
+  {
+   "say": "The paper was written by Sonja Lyubomirsky, Kennon Sheldon and David Schkade, and published in the Review of General Psychology. It was a hopeful paper. Its argument was that happiness can be raised in a lasting way, not by changing your circumstances, which we adapt to, but through the things you choose to do each day.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "who": "Sonja Lyubomirsky, Kennon Sheldon and David Schkade",
+    "where": "Review of General Psychology, published 2005",
+    "what": "Pursuing happiness: the architecture of sustainable change"
+   }
+  },
+  {
+   "say": "To make that point, they offered a pie chart. About fifty percent of the differences in happiness, they suggested, came from a genetic set point. About ten percent came from life circumstances. And about forty percent came from intentional activity, the things we deliberately do and think. That forty percent slice became famous. It appeared in books, talks, and classrooms all over the world, as a kind of promise.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "title": "The famous pie chart",
+    "items": [
+     "50% set point, linked to genes",
+     "10% life circumstances",
+     "40% intentional activity"
+    ]
+   }
+  },
+  {
+   "say": "But in 2019, Nicholas Brown and Julia Rohrer published a careful critique in the Journal of Happiness Studies, with a wonderful title. Easy as happiness pie? They looked closely at how those percentages had been worked out, and they found that the pie did not hold up. The numbers could not be added together in that tidy way, and the forty percent slice, in particular, was not something the evidence could support.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "who": "Nicholas Brown and Julia Rohrer",
+    "where": "Journal of Happiness Studies, published 2019",
+    "what": "Easy as (happiness) pie?"
+   }
+  },
+  {
+   "say": "Now, that might sound like bad news. But notice what the critique did and didn't say. It didn't say that change is impossible. It said that the pie was too simple, that happiness can't be divided into neat slices. The hopeful idea underneath it, that what we do each day can matter, is still being tested on its own terms.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Not the end of hope",
+    "sub": "A more honest picture"
+   }
+  },
+  {
+   "say": "So here's where the science leaves us. Two mugs from the same mould can still live very different lives. One gets chipped, one gets used every morning by a window. Our genes give us a starting shape, a kind of leaning, a place we often drift back towards. But a leaning isn't a destiny. Around two thirds of the differences between people lie somewhere else.",
+   "show": {
+    "type": "photo",
+    "file": "lf35_b05_01.jpg",
+    "cap": "Alike, but not identical"
+   }
+  },
+  {
+   "say": "And Nora's grandmother? Perhaps she did inherit a sunny temperament. That's entirely possible. But Nora also notices, if she watches closely, that her grandmother does a lot of small things. She phones people. She sits outside with her tea. She notices the birds. Some of her cheerfulness may be in her genes, and some of it may be in her habits. Science can't yet tell us exactly how much of each.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Back to Nora",
+    "sub": "Her grandmother again"
+   }
+  },
+  {
+   "say": "Which brings us to another of those habits, a quiet one that almost nobody thinks about. It's to do with choices. Once Nora had moved into her flat, she stopped looking at other places. And that tiny act, closing a door behind her, may have done more for her happiness than she ever realised. Because one of the most popular ideas about choosing turns out to be, quite often, the wrong way round.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "Choices that bind us",
+    "sub": "A strange next question"
+   }
+  }
+ ]
+}

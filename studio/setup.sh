@@ -11,7 +11,12 @@ if [ ! -x piper/espeak-ng ]; then
     curl -sfL -m 300 -o piper.tgz https://github.com/rhasspy/piper/releases/download/2023.11.14-2/piper_linux_x86_64.tar.gz && tar xzf piper.tgz && break
     sleep $((i * 10))
   done
-  rm -f piper.tgz; chmod +x piper/espeak-ng
+  rm -f piper.tgz
+  if [ ! -f piper/espeak-ng ]; then  # release download keeps failing on some runners (lf35, 8 Nov): use the distro espeak-ng
+    sudo apt-get install -y -q espeak-ng >/dev/null; mkdir -p piper; ln -sf "$(command -v espeak-ng)" piper/espeak-ng
+    ln -sfn "$(dirname "$(dpkg -L espeak-ng-data | grep '/espeak-ng-data/phontab$')")" piper/espeak-ng-data
+  fi
+  chmod +x piper/espeak-ng
 fi
 python3 -c "import onnxruntime, numpy, scipy, PIL" && which ffmpeg ffprobe >/dev/null
 python3 -c "import sys; sys.path.insert(0,'$V'); import kokoro_tts as k; a=k.speak('Setup check.','am_puck'); assert len(a)>1000; print('voice OK')"

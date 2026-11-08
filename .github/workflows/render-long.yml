@@ -30,6 +30,8 @@ jobs:
         with: {path: studio/voice/*.onnx, key: kokoro-v1}
       - uses: actions/cache@v4
         with: {path: studio/voice/voices.bin, key: kokoro-voices-v1}
+      - uses: actions/cache@v4
+        with: {path: studio/voice/piper, key: piper-2023.11.14-2}
       - run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg fonts-inter && pip install onnxruntime numpy scipy pillow
       - run: '[ -z "$CHANNEL_DIR" ] && unset CHANNEL_DIR; bash studio/setup.sh'
       - name: render part + its Shorts

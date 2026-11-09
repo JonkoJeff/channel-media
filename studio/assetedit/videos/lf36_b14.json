@@ -1,0 +1,253 @@
+{
+ "id": "lf36_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So let's leave the experiments behind for now. The couples with their pins, the tired students, the pitchers on hot afternoons, the punching bag and the fly on the wall. They've all told us their stories, and they can rest now too. From here on, the night gets slower. There's nothing more to learn and nothing to remember.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 1,
+    "title": "The evening settles"
+   }
+  },
+  {
+   "say": "If you haven't already, find a position that feels easy. You don't need to lie perfectly still, and there's no right way to do this. Let your head sink a little into the pillow. Let your arms rest wherever they like. For the next little while, there is nowhere you need to be and nothing you need to answer.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Getting comfortable",
+    "sub": "No rush at all"
+   }
+  },
+  {
+   "say": "Before we drift further, let's gather up a few gentle things from tonight. Not as rules. Not as homework. Just as small reminders you can keep in a pocket, for the next time a message, or a moment, makes your face feel warm.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "A few gentle things",
+    "sub": "To keep, if you like"
+   }
+  },
+  {
+   "say": "Notice your body first, the heat, the tight hands. Name the feeling, quietly, in your head. Check the simple things, are you hungry, are you tired, are you too warm? Ask yourself if there's another way to read the moment. Wait a little. And then, from a step back, decide what you want to say.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Small things to keep",
+    "items": [
+     "Notice your body",
+     "Name the feeling",
+     "Check hunger, sleep and heat",
+     "Ask for another reading",
+     "Wait a little",
+     "Step back, then speak"
+    ]
+   }
+  },
+  {
+   "say": "Noticing is the first one, because the body nearly always speaks before the mind does. A warm face. A faster heartbeat. Shoulders creeping up towards your ears. These aren't problems. They're simply signals, a bit like a kettle starting to hum before it boils. You don't have to do anything about them. Just notice.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Notice",
+    "sub": "The body speaks first"
+   }
+  },
+  {
+   "say": "Then naming. I'm angry. I'm hurt. I'm disappointed. One small word, said gently inside your own head, without any judgement attached. It's not an admission of failure. It's more like turning on a little lamp in a dark room, so you can see what's actually there.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Name it",
+    "sub": "A quiet word"
+   }
+  },
+  {
+   "say": "And then the simple things, the ones that are so easy to forget. When did you last eat? How did you sleep? Is the room too warm, too loud, too crowded? Sometimes the most honest answer to why am I so angry is, because I'm hungry and it's late. There's no shame in that. It's just being human.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The simple things",
+    "sub": "Before the big story"
+   }
+  },
+  {
+   "say": "Think back to where this evening began. A warm, noisy bus. Streetlights sliding past the window. A phone in a tired hand, and a sharp reply waiting on the screen. That bus has finished its route by now. It's parked somewhere in a quiet depot, its engine off, its windows dark.",
+   "show": {
+    "type": "photo",
+    "file": "lf36_b14_01.jpg",
+    "cap": "The bus, long gone"
+   }
+  },
+  {
+   "say": "And that first message, the sharp one, was never sent. It's gone now, deleted, as if it had never been written. In its place, there's a softer one, honest and kind. Sometimes, the bravest thing we do all day is the thing we don't do. The button we don't press.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The unsent message",
+    "sub": "Still unsent"
+   }
+  },
+  {
+   "say": "Picture Sam now, at home, with the kitchen light on and an empty soup bowl beside him. His phone is still face down on the table. He isn't waiting for an answer anymore. He's simply sitting there, warm and fed, feeling the long day finally loosen its grip on his shoulders. The anger that seemed so big on the bus has shrunk to something small and quiet, something he can hold in one hand.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "Sam, at home",
+    "sub": "The kitchen light"
+   }
+  },
+  {
+   "say": "Another reading is worth remembering too. When someone's words land like a blow, it's worth pausing to wonder, what else might they have meant? Maybe they were tired. Maybe they were sad. Maybe they were clumsy with their words, the way we all are sometimes. You can't always know. But you can leave the door open.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Another reading",
+    "sub": "There usually is one"
+   }
+  },
+  {
+   "say": "And waiting. That old line from Seneca, the greatest remedy for anger is delay. Waiting isn't weakness. It isn't giving in. It's simply letting the wave pass before deciding where to swim. Waves always pass. That's what waves do.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "text": "The greatest remedy for anger is delay.",
+    "by": "Seneca, On Anger"
+   }
+  },
+  {
+   "say": "And right now, waiting is all there is to do. There's no message to answer, no reply to write, nothing that needs deciding before morning. The night is long, and it doesn't ask anything of you. You can simply lie here, and let it hold you.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "And now",
+    "sub": "Waiting is all there is"
+   }
+  },
+  {
+   "say": "Whatever happened today has already happened. The good parts and the tiring parts. The small frustrations, the moments you wish had gone differently, the words you said, or didn't say. They belong to the day now, and the day is closing its door. You don't need to carry any of it into the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Letting the day go",
+    "sub": "It can stay behind"
+   }
+  },
+  {
+   "say": "Imagine a small fire in a quiet room. Earlier, it crackled and leapt, bright and hot. Now it's burning low, just a soft orange glow among grey ashes. It still gives a little warmth. But it doesn't need tending anymore. It's settling, all by itself, the way fires do when nobody feeds them.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "The fire",
+    "sub": "Burning low"
+   }
+  },
+  {
+   "say": "You might notice your breathing slowing down a little, all on its own. You don't need to change it. Just let it be whatever it is. In, and out. In, and out. Each breath a little softer than the last, like the fire sinking slowly into its embers.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Breathing slowly",
+    "items": [
+     "In",
+     "And out",
+     "In",
+     "And out"
+    ]
+   }
+  },
+  {
+   "say": "And if, today, you did get angry, if you snapped at someone, or said something sharp, or simply felt the heat rise and didn't know what to do with it, that's alright. You're not broken. You're a person with a body and a heart, at the end of a long day. Tomorrow is another chance. Tonight is for rest.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "You're not broken. Tomorrow is another chance. Tonight is for rest.",
+    "by": "For you, tonight"
+   }
+  },
+  {
+   "say": "So let yourself settle in now. Let the pillow take the weight of your head. Let the mattress hold your back and your legs. There's nothing left to do. Nothing to fix, nothing to remember, nothing to plan. Just this quiet room, and this slow breath, and this gentle voice, keeping you company.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "n": 2,
+    "title": "Settling in"
+   }
+  },
+  {
+   "say": "Let your body feel a little heavier now. Your arms, resting. Your legs, resting. Your back, sinking gently into whatever is beneath you. There's a pleasant kind of tiredness that comes at the end of a long day, when you finally stop. Let yourself feel it. It's the body's way of saying, that's enough for today.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Heavy and warm",
+    "sub": "Sinking down"
+   }
+  },
+  {
+   "say": "Perhaps you can imagine soft rain on a roof somewhere above you. Not a storm. Just a steady, gentle patter. The kind of rain that makes being indoors feel cosy and safe. Each drop small and unhurried. Each one landing, and then gone.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Rain on the roof",
+    "sub": "Soft and steady"
+   }
+  },
+  {
+   "say": "Let your thoughts drift wherever they like now. If they wander back to something from the day, that's fine. Just let them float past, like leaves on a slow river. You don't need to follow them. You don't need to stop them. They'll find their own way downstream.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "title": "Let them float",
+    "items": [
+     "A thought",
+     "A leaf",
+     "A slow river",
+     "Gone downstream"
+    ]
+   }
+  },
+  {
+   "say": "Rest now. The night is long and calm, and there's plenty of time. Time to rest, time to dream, time to simply be still. We'll go a little slower still, in a moment. But for now, just breathe, and let the evening settle all the way down.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Rest now",
+    "sub": "The night is long"
+   }
+  },
+  {
+   "say": "In a little while, we'll go slower still. We'll breathe together for a while, and let the last of the day's warmth fade from our hands and faces. There's no need to stay awake for it. If you drift off before then, that's perfectly alright. That's what tonight is for. Just let yourself rest, here, in the quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Slower still",
+    "sub": "Coming up next"
+   }
+  }
+ ]
+}

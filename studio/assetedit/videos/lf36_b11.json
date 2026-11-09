@@ -1,0 +1,212 @@
+{
+ "id": "lf36_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let it out. It's one of the most common pieces of advice about anger. Punch a pillow. Scream into a towel. Go for a run and imagine the person's face. Get it out of your system. The idea is that anger builds up inside us like steam in a kettle, and if we don't let some of it out, sooner or later the lid will blow.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "n": 1,
+    "title": "Letting it all out"
+   }
+  },
+  {
+   "say": "It's a very powerful picture, and it feels right. When you're angry, there really is a sense of pressure, a tightness in the chest, a heat in the face, a restless energy in the hands. And after you've shouted, or slammed a door, there can be a moment of relief. So the kettle picture seems to explain what we feel. The question is whether it explains what actually happens.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The steam kettle",
+    "sub": "A powerful picture"
+   }
+  },
+  {
+   "say": "Here's tonight's myth, stated plainly. Venting your anger, hitting something, shouting, letting it all out, gets it out of your system and leaves you calmer. There's an old name for this idea. Catharsis. A cleansing, a release. And for a long time, it was given as advice in all sorts of places. In magazines, in films, in well-meaning conversations between friends. You've probably heard it yourself, maybe even given it. Most of us have nodded along to it at some point.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "Venting your anger gets it out of your system.",
+    "by": "Myth"
+   }
+  },
+  {
+   "say": "Sam's sharp reply is a small version of the same idea. Part of him feels that sending it would help. That once he's said what he really thinks, he'll feel lighter. That getting it off his chest is better than holding it in. It's a very human feeling. Who hasn't typed out the perfect cutting sentence, read it back with a small burst of satisfaction, and felt for a moment that justice had been done? The trouble is that the satisfaction is quick, and the reply that follows usually isn't. So let's look at what happened when someone tested it directly.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "Sam's version",
+    "sub": "A sharp reply"
+   }
+  },
+  {
+   "say": "In 2002, the psychologist Brad Bushman published a study with a wonderfully direct question as its title. Does venting anger feed or extinguish the flame? In other words, does letting it out put the fire out, or does it give the fire more air?",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "who": "Brad Bushman",
+    "where": "Personality and Social Psychology Bulletin",
+    "what": "published in 2002"
+   }
+  },
+  {
+   "say": "Six hundred college students took part, three hundred men and three hundred women. And the first step was to make them angry, in a fairly gentle, controlled way. Each student wrote a short essay. Then they got it back with a harsh critique, supposedly from another student, a partner in the study.",
+   "show": {
+    "type": "stat",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Bushman, 2002",
+    "big": "600",
+    "label": "college students, 300 men and 300 women"
+   }
+  },
+  {
+   "say": "If you've ever had your work criticised unkindly, you'll know the feeling. A little sting. A flush of heat. Who do they think they are? The partner didn't really exist; the critique was part of the study. But to the students, it felt real enough. And then they were split into groups.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A harsh critique",
+    "sub": "Of their own work"
+   }
+  },
+  {
+   "say": "One group hit a punching bag while thinking about the person who'd criticised them. Really letting it out, exactly what the kettle idea recommends. A second group hit the same punching bag, but while thinking about getting fit, about exercise. And a third group simply sat quietly for two minutes. No punching at all.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "title": "The three groups",
+    "items": [
+     "Hit a punching bag, thinking about the critic",
+     "Hit a punching bag, thinking about getting fit",
+     "Sit quietly for 2 minutes"
+    ]
+   }
+  },
+  {
+   "say": "Now, if the kettle idea were right, the first group should come out calmest. They'd let off the most steam, aimed right at the person who'd upset them. The quiet group, who did nothing at all, should still be bubbling. That's what the steam picture predicts. And it's what many of us, honestly, would have bet on too. It just seems so obvious that hitting something would take the edge off. Afterwards, everyone reported how angry they felt. And then they played a game against the person who'd criticised them, where they could blast that person with unpleasant noise.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "The prediction",
+    "sub": "If venting works"
+   }
+  },
+  {
+   "say": "So, which group came out calmest? The answer was the exact opposite of the kettle idea.",
+   "show": {
+    "type": "photo",
+    "file": "lf36_b11_01.jpg",
+    "cap": "Feeding the flame?"
+   }
+  },
+  {
+   "say": "The students who hit the punching bag while thinking about their critic were the angriest of all. And they were the most aggressive too. They chose the loudest, longest noise blasts. The group who sat quietly for two minutes showed the least anger and the least aggression. Venting hadn't drained the anger. It had kept it going.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "What happened",
+    "items": [
+     "Punching while thinking of the critic: angriest",
+     "Same group: most aggressive",
+     "Sitting quietly: least anger",
+     "Sitting quietly: least aggression"
+    ]
+   }
+  },
+  {
+   "say": "I find that quite humbling, because the kettle picture is so convincing. But anger, it seems, doesn't behave like steam. It behaves more like a fire. When you keep feeding it attention, keep picturing the person, keep replaying what they did, it doesn't burn out. It stays lit.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "Venting did not put the fire out. It gave it more air.",
+    "by": "What Bushman's study found"
+   }
+  },
+  {
+   "say": "And what about the middle group, the students who punched the same bag while thinking about getting fit? They weren't the calmest either. The calmest group was the one that didn't punch at all. So it wasn't that physical effort, on its own, worked like magic. Whatever helped the quiet group, it wasn't burning off the anger with action. It was simply giving the anger a little time, without feeding it.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "And the fitness group?",
+    "sub": "Not the winners either"
+   }
+  },
+  {
+   "say": "There's a word for that replaying. Rumination. It comes from the way some animals chew their food over and over again. And when we ruminate on something that made us angry, we're chewing it over too. Every replay is a small re-run of the original sting.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Rumination",
+    "sub": "Going over it again"
+   }
+  },
+  {
+   "say": "So why does venting feel so satisfying? Partly because it feels like doing something. Anger, as we saw earlier, is an approach emotion. It wants to move toward the problem. Hitting, shouting, typing a sharp reply all feel like moving forward. That small sense of action can feel like relief, even while the anger itself is being kept alive.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "Why it feels good",
+    "sub": "And still backfires"
+   }
+  },
+  {
+   "say": "And the quiet group tells us something gentle and hopeful. Doing nothing at all, just sitting for a couple of minutes, was better than letting rip. The body was allowed to settle. The heart could slow down. The heat in the face could fade. Time, it turns out, isn't just empty waiting. It's part of how anger comes down.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "title": "Venting versus calming",
+    "items": [
+     "Venting replays the hurt",
+     "Replaying keeps anger warm",
+     "A pause lets the body settle",
+     "Distance makes room to think"
+    ]
+   }
+  },
+  {
+   "say": "Now, this doesn't mean the answer is to bottle everything up and pretend we're fine. We saw a moment ago that the effects of expressing anger can depend on culture and context. The point is narrower. Feeding anger by replaying and punching it doesn't drain it. There's a difference between expressing a feeling and fuelling it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Not bottling it",
+    "sub": "Something in between"
+   }
+  },
+  {
+   "say": "So imagine Sam sends that sharp reply. Then his brother replies, a little hurt, a little sharp too. Then Sam replies again. Each message is another punch at the bag, another replay of the sting. By the time he gets home, he may be angrier than when he started. Not calmer. Not lighter. Just more tangled. And the thing is, none of those messages would have felt like a mistake at the time. Each one would have felt justified, even necessary. That's how a fire that's being fed feels from the inside. It doesn't feel like fuel. It feels like the truth.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Back on the bus",
+    "sub": "The sharp reply"
+   }
+  },
+  {
+   "say": "And there's another reason to be careful about keeping anger alive for a long time. It isn't only about our relationships. It may also have something to do with our bodies. That's a subject that deserves a careful, honest look, without any scaremongering. So let's take that look next, gently.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Keeping anger alive",
+    "sub": "And what it may cost"
+   }
+  }
+ ]
+}

@@ -1,0 +1,266 @@
+{
+ "id": "lf36_b15",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now let's breathe together for a while. Slowly, gently, with no effort at all. You don't need to do it perfectly. You don't even need to follow along, if you'd rather just listen. Let my voice be something soft in the background, like a radio playing quietly in another room.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 1,
+    "title": "Breathing together"
+   }
+  },
+  {
+   "say": "If it feels comfortable, breathe in slowly through your nose. Not too deep. Just a little fuller than usual. Feel the air arrive, cool and quiet. And then let it go, slowly, through your mouth or your nose, whichever feels easier. Let the out-breath be a little longer than the in-breath.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "In through the nose",
+    "sub": "Slow and easy"
+   }
+  },
+  {
+   "say": "Let's do that again. Breathe in, gently. And let it out, slowly, slowly. There's no counting to get right, and no target to reach. Just the slow coming and going of the air, the way it's been coming and going all day long, without you even noticing.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Again",
+    "sub": "No hurry"
+   }
+  },
+  {
+   "say": "Breathe in. A tiny pause at the top, if it comes naturally. Breathe out, long and soft. And then a little rest at the bottom, before the next breath arrives all on its own. In, pause, out, rest. Like waves on a quiet shore.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Breathing slowly",
+    "items": [
+     "Breathe in",
+     "Pause",
+     "Breathe out",
+     "Rest"
+    ]
+   }
+  },
+  {
+   "say": "Your breath knows how to do this. It's been doing it since the moment you were born, through every busy day and every quiet night. It doesn't need your help. Tonight, you can simply let it lead, and follow it down, into stillness.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The breath knows",
+    "sub": "It always has"
+   }
+  },
+  {
+   "say": "Think how different your breathing might have been earlier today. Perhaps quick and shallow, in a hurry, at a crowded counter or on a warm, noisy bus. Perhaps held for a moment, when something annoyed you. That breath was getting you ready for action. This breath, tonight, is getting you ready for nothing at all. Only rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Earlier today",
+    "sub": "A different breath"
+   }
+  },
+  {
+   "say": "With each out-breath, let something go. Maybe a little of the tightness in your jaw. Maybe a little of the weight in your shoulders. Maybe a little of whatever is left over from today. You don't need to name it. Just let the breath carry it out, and away.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Out-breath",
+    "sub": "Letting go"
+   }
+  },
+  {
+   "say": "Imagine you're sitting by a window at night, warm and comfortable, and outside, lights are passing slowly by. Streetlights, one after another. Each one glows for a moment, golden and soft, and then slides away into the dark. You don't need to hold on to any of them. You just watch them pass.",
+   "show": {
+    "type": "photo",
+    "file": "lf36_b15_01.jpg",
+    "cap": "Lights passing by"
+   }
+  },
+  {
+   "say": "Your thoughts can be like those lights. One arrives, glows for a moment, and slides away. Then another. Then another. A memory from the afternoon. A small worry about tomorrow. A word someone said. Each one is just a light passing the window. You can notice it, and let it go by.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Like the lights",
+    "sub": "Thoughts passing by"
+   }
+  },
+  {
+   "say": "If a thought feels sticky, if it wants your attention, that's alright too. You don't need to push it away. Just let it be there, glowing for a while, and then, when it's ready, let it slide past the window like all the others. There will always be another light. And then, eventually, just the dark, soft and quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "No need to chase",
+    "sub": "They come and go"
+   }
+  },
+  {
+   "say": "Let each thought pass like a light outside the window. That's all there is to do. No judging, no sorting, no deciding which ones are good or bad. Just watching, gently, as they come and go, while you stay here, warm and still.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "text": "Let each thought pass like a light outside the window.",
+    "by": "For tonight"
+   }
+  },
+  {
+   "say": "Notice how safe it feels to be inside, while the world goes by outside. The glass between you and the night. The warmth of the room. The softness of the blanket. Out there, the streets are busy with their own business. In here, there's only quiet, and breath, and rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Warm inside",
+    "sub": "The world outside"
+   }
+  },
+  {
+   "say": "Somewhere, Sam is looking at lights like these too, from his own window. The bus that carried him home has finished its route. The streetlights along his road glow quietly in the drizzle. His phone is resting, dark and silent. And he's breathing slowly, just like you, letting the evening slide past the glass.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Sam's window",
+    "sub": "The same lights"
+   }
+  },
+  {
+   "say": "Perhaps some of today's small frustrations drift past too. A queue that moved too slowly. A message that landed badly. A moment you felt unheard. Let them be lights in the window as well. They glowed brightly for a while today. Now they're sliding past, getting smaller, fading into the distance.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The day's frustrations",
+    "sub": "Drifting past"
+   }
+  },
+  {
+   "say": "A slow queue. A sharp word. A long day. All drifting by, one after another, out of sight. They don't need answers tonight. They don't need fixing. They can simply pass, the way the streetlights pass, and leave the window dark and peaceful behind them.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Gently passing",
+    "items": [
+     "A slow queue",
+     "A sharp word",
+     "A long day",
+     "All drifting by"
+    ]
+   }
+  },
+  {
+   "say": "And all the while, your breath keeps going, slower now than it was at the start. In, and out. In, and out. Every breath a little longer, a little softer. You might feel your body growing heavier, warmer, more relaxed. Let it. There's nothing to hold up anymore.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Breathing on",
+    "sub": "Slower now"
+   }
+  },
+  {
+   "say": "Let your breathing become as soft as rain on a window. Steady, gentle, unhurried. Each breath like a drop sliding down the glass, slowly finding its way. There's no rush for the drops. They get there in their own time. And so will you.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Softer and softer",
+    "sub": "Like rain"
+   }
+  },
+  {
+   "say": "Now, let's notice the quiet that lives between breaths. That small, still moment after the out-breath, before the next in-breath begins. It's always been there, in every breath you've ever taken. A tiny pause, where nothing is needed at all.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 2,
+    "title": "The quiet between breaths"
+   }
+  },
+  {
+   "say": "Let yourself rest in that pause for a moment, if it comes easily. Not holding your breath, just noticing the stillness. The world is quiet there. There's nothing to say, nothing to answer, nothing to feel angry or worried about. Just a tiny space of peace.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Resting in the pause",
+    "sub": "Nothing needed"
+   }
+  },
+  {
+   "say": "You might find that the pause feels a little longer now, a little more spacious. Or you might not notice it at all. Either way is fine. There's no right way to rest. The body knows how to do this, even when the mind is still a little busy. Let it take over, gently, at its own pace.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Small and kind",
+    "sub": "A gentle stillness"
+   }
+  },
+  {
+   "say": "And then the breath returns, all on its own, without you asking. In it comes, slow and gentle. Out it goes, long and soft. And then the pause again, that small and quiet place. Breath, and pause. Breath, and pause. Like the slow turning of a tide.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "And again",
+    "sub": "The breath returns"
+   }
+  },
+  {
+   "say": "In the pause between breaths, there is nothing to do. Let that be true for a little while. Nothing to do, nothing to fix, nothing to prove. You can rest in that, the way you'd rest in a warm bath, or under a heavy blanket on a cold night.",
+   "show": {
+    "type": "quote",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "text": "In the pause between breaths, there is nothing to do.",
+    "by": "For tonight"
+   }
+  },
+  {
+   "say": "Perhaps you can feel a gentle warmth spreading through you now. Not the hot, rushing warmth of anger, but a slow, soft warmth, like a cup of tea held in both hands. It starts in your chest, perhaps, and spreads, slowly, into your arms, your hands, your legs.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Warmth spreading",
+    "sub": "From the inside"
+   }
+  },
+  {
+   "say": "Let yourself drift a little deeper now. The lights outside the window are fewer and further between. The streets are going quiet. The rain is soft and steady. And your breath is slow, and long, and gentle, carrying you down, a little at a time, into rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Drifting deeper",
+    "sub": "Slowly, slowly"
+   }
+  },
+  {
+   "say": "In a moment, we'll move gently through the body, finding the places where the day still lingers, and letting them soften. But there's no hurry to get there. For now, just keep breathing, slow and soft. And let the night hold you.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Next",
+    "sub": "The body, softly"
+   }
+  }
+ ]
+}

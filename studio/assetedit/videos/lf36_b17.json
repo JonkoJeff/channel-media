@@ -1,0 +1,246 @@
+{
+ "id": "lf36_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now, very gently, let's think about the part of you that gets angry. Not to scold it, and not to send it away. Just to sit beside it for a moment, the way you might sit beside a friend who has had a hard day. You wouldn't lecture that friend. You wouldn't list their mistakes. You'd probably just stay close, and let them know they weren't alone. Let's offer that same quiet company to ourselves, just for a little while.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "n": 1,
+    "title": "The angry part of you"
+   }
+  },
+  {
+   "say": "That part of you isn't the enemy. It never was. It's the part that notices when something isn't fair. The part that speaks up when a line is crossed. The part that cares, sometimes a little too loudly, about the people and the things that matter to you.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Not the enemy",
+    "sub": "Never was"
+   }
+  },
+  {
+   "say": "When it flared up today, if it did, it was trying to help, in its own clumsy way. It was trying to protect you, or someone you love, or something you believe in. It didn't always choose the right words or the right moment. But its heart was in the right place. And that's true for nearly everyone. Underneath most anger, if you look gently, there's something tender. A hope that wasn't met. A worry that nobody else seemed to share. A wish to be seen, or heard, or treated fairly.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "It was trying",
+    "sub": "In its own way"
+   }
+  },
+  {
+   "say": "Anger is a messenger, not a master. It brings you news, sometimes urgent, sometimes mistaken. You can thank it for the message. You can listen carefully. And then you get to decide, calmly, what to do next. That choice is always yours.",
+   "show": {
+    "type": "quote",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "text": "Anger is a messenger, not a master.",
+    "by": "For tonight"
+   }
+  },
+  {
+   "say": "So, if you like, you can quietly thank that part of you. Thank you for caring. Thank you for noticing. Thank you for trying to keep me safe. And now, you can rest too. There's nothing more to guard tonight. The doors are closed, the room is warm, and everything can wait until morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Thank it",
+    "sub": "Then let it rest"
+   }
+  },
+  {
+   "say": "It can feel strange to speak kindly to yourself. Many of us are much gentler with our friends than we are with our own hearts. But tonight, just for a while, try offering yourself the same kindness you'd offer someone you love. It's alright. You did your best today. You can rest now.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Kind words",
+    "sub": "Said to yourself"
+   }
+  },
+  {
+   "say": "It's alright. You did your best. You can rest now. Tomorrow is new. Four small sentences, simple and soft. Let them settle into you, like warm water filling a bath, slowly, gently, all the way up.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Kind words for tonight",
+    "items": [
+     "It's alright",
+     "You did your best",
+     "You can rest now",
+     "Tomorrow is new"
+    ]
+   }
+  },
+  {
+   "say": "Now let's look in on Sam one last time this evening. He's in bed, the lamp turned low. On the bedside table, his phone lights up softly. A reply from his brother. He almost doesn't look. But then he does.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Sam's phone",
+    "sub": "A soft glow"
+   }
+  },
+  {
+   "say": "It's short and warm. No worries, his brother has written. I was annoyed too, I think I was just tired. Call me tomorrow. There's a little smiley face at the end. Sam smiles at it, in the dark. And something that was tight in his chest all evening quietly lets go. He types back a small heart, and then, for once, he doesn't scroll on to anything else. He just lies there for a moment, feeling lighter than he has all day.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "The reply",
+    "sub": "Warm and simple"
+   }
+  },
+  {
+   "say": "He puts the phone back down on the bedside table, screen dark. The lamp glows low. The glass of water sits beside a closed book. The room is quiet and warm. The storm that started on a hot, noisy bus has blown itself out completely, and all that's left is a calm, ordinary night.",
+   "show": {
+    "type": "photo",
+    "file": "lf36_b17_01.jpg",
+    "cap": "A quiet night"
+   }
+  },
+  {
+   "say": "Two brothers, both tired, both a little hurt, both a little sorry. That's all it was in the end. Not a war. Not a betrayal. Just two people who care about each other, having a clumsy evening, and finding their way back. It happens in homes everywhere, every single night. Somewhere, right now, someone is writing a kinder message than the one they first wanted to send. Somewhere, someone is saying sorry, or hearing it. Small repairs, made quietly, all over the world.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Both of them",
+    "sub": "Tired and human"
+   }
+  },
+  {
+   "say": "Most of the storms in our days are small storms like this. A sharp word, a misunderstanding, a moment when hunger and tiredness speak louder than kindness. They feel huge while they're happening. And then, with a little time and a little care, they pass, and the sky clears again.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Small storms",
+    "sub": "They pass"
+   }
+  },
+  {
+   "say": "Most storms are smaller than they feel. Remember that, next time one rises in you. Give it a moment. Give it a name. Give it a bowl of soup and a good night's sleep. And see how much of it is still there in the morning.",
+   "show": {
+    "type": "quote",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "text": "Most storms are smaller than they feel.",
+    "by": "For tonight"
+   }
+  },
+  {
+   "say": "Every small storm you've had today was only information. A sign that you were tired, or hungry, or hurt, or that something mattered to you. You've received the message now. You don't need to carry the storm itself into your sleep. You can let it drift away, out of the window, into the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Information",
+    "sub": "Gently received"
+   }
+  },
+  {
+   "say": "Imagine it drifting away now, like a small grey cloud floating slowly across a night sky. Getting smaller and smaller, softer and softer, until it's just a faint wisp, and then nothing at all. The sky behind it is clear, and dark, and full of quiet stars.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Letting it drift",
+    "sub": "Out into the dark"
+   }
+  },
+  {
+   "say": "Let's rest for a while in that quiet now. There's nothing more to think about, really. Just the stillness of the night, the warmth of the bed, and the slow, steady rhythm of your breath going in and out.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "n": 2,
+    "title": "A quiet reflection"
+   }
+  },
+  {
+   "say": "The day is done. Truly done. Every message has been sent, or left for tomorrow. Every frustration has been felt, and named, and let go. Every small storm has passed. There's nothing more the day needs from you. Only rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "The day is done",
+    "sub": "Truly done"
+   }
+  },
+  {
+   "say": "And tomorrow, when you wake, you can carry a little of this gentleness with you. When something stings, and your face grows warm, you might remember tonight. Notice it. Name it. Wait a little. And then choose, kindly, what comes next.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Gentle with yourself",
+    "sub": "Tomorrow too"
+   }
+  },
+  {
+   "say": "Notice. Name. Wait. Choose kindly. That's all. Four soft steps, easy to remember, even on a busy, noisy day. But that's for tomorrow. Tonight, there's nothing to practise. There's only rest.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "For tomorrow, if you like",
+    "items": [
+     "Notice",
+     "Name",
+     "Wait",
+     "Choose kindly"
+    ]
+   }
+  },
+  {
+   "say": "Let yourself sink a little deeper now. Warm and heavy, safe and still. The pillow soft beneath your head. The blanket warm around you. The night outside quiet and dark, and the room around you calm. Somewhere far off, perhaps, a last bus is making its way home through empty streets, its windows glowing softly. Let it go by. Everything is going home now. And so are you, into rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Warm and heavy",
+    "sub": "Sinking deeper"
+   }
+  },
+  {
+   "say": "Let my voice drift a little further away now, like a voice heard from another room. You don't need to follow every word. You don't need to stay awake. Let the words become simply sounds, soft and warm, carrying you gently down.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Drifting",
+    "sub": "Further away"
+   }
+  },
+  {
+   "say": "Everything can wait until morning. The messages, the plans, the questions, the worries. They'll still be there, if they matter, and you'll meet them with fresh eyes. For now, they can wait outside the door, quietly, while you rest.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "text": "Everything can wait until morning.",
+    "by": "For tonight"
+   }
+  },
+  {
+   "say": "Rest now. Slowly, slowly. The night is long and gentle, and there's plenty of time. We'll say goodnight properly in just a little while. But if you're already drifting, if sleep is already coming for you, let it. That's the kindest ending of all.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Rest now",
+    "sub": "Slowly, slowly"
+   }
+  }
+ ]
+}

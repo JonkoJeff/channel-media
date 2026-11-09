@@ -1,0 +1,231 @@
+{
+ "id": "lf36_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "It's a Thursday evening, and someone called Sam is sitting on a crowded bus. Sam isn't a real person. Sam is someone we've imagined for tonight, so we can follow one ordinary evening from the inside. But you'll probably recognise a lot of it. Sam's phone buzzes. It's a message from his brother. Just three words. You forgot again?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "One small message",
+    "sub": "And a thumb over send"
+   }
+  },
+  {
+   "say": "And something happens inside Sam, very quickly. His face feels warm. His jaw tightens. Before he's even really thought about it, he's typing a reply. It's short, and it's sharp, and it's the kind of thing you can't quite take back once it's sent. His thumb hovers over the little arrow. And for a moment, he just stares at it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "The reply",
+    "sub": "Fast and sharp"
+   }
+  },
+  {
+   "say": "So what just happened to Sam? Why did three small words land like that? Why is the person who made him angriest today someone he actually loves? And why does it feel, right now, like sending that message would be the most natural thing in the world? Tonight, we're going to slow that moment right down, and look at it gently, one piece at a time.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "What just happened?",
+    "sub": "A very old feeling"
+   }
+  },
+  {
+   "say": "Here's what we'll explore together. What anger really is, and how ordinary it turns out to be. What it's for, because it does have a job. Why small things can set it off on some days and not on others. How hunger, short sleep and even heat can quietly turn up the volume. Why letting it all out isn't what most of us think. And the small, research-based steps that actually help.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "What anger really is",
+     "What it's for",
+     "Why small things set it off",
+     "Hunger, sleep and heat",
+     "The venting myth",
+     "What actually helps"
+    ]
+   }
+  },
+  {
+   "say": "And before we begin, one promise. This isn't going to be a lecture about how you shouldn't get angry. Anger is one of the oldest feelings we have. Everybody feels it. Tonight is simply about understanding it a little better, so that the next time it arrives, it feels a bit less like a stranger. So get comfortable. We've got the whole evening.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "No lecture tonight",
+    "sub": "Just curiosity"
+   }
+  },
+  {
+   "say": "Let's start with a question that sounds almost too simple. How often do people actually get angry? Not furious, not shouting. Just that familiar flicker of irritation, the tightening, the sharp little thought. Is it rare? Is it something that only happens to people with a temper? Or is it much more ordinary than that?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 1,
+    "title": "An ordinary feeling"
+   }
+  },
+  {
+   "say": "It turns out this is quite hard to study. You can't just ask people to come into a laboratory and get angry on command. Well, you can try, and some researchers have, as we'll see later tonight. But to understand everyday anger, you really need to catch it where it happens. In kitchens and offices and buses, and in messages between brothers.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Counting anger",
+    "sub": "Not as easy as it sounds"
+   }
+  },
+  {
+   "say": "That's what an American psychologist called James Averill set out to do. He asked ordinary people to keep track of the times they got angry, and to describe each episode. Who was it with? What had happened? What did they do afterwards? In 1983, he brought this work together in an article in the journal American Psychologist.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "James Averill",
+    "where": "Studies of everyday anger",
+    "what": "published in 1983"
+   }
+  },
+  {
+   "say": "And the first finding is reassuring in a strange way. Most people reported feeling mildly or moderately angry somewhere between several times a day and several times a week. Not once a year. Not only on terrible days. Anger, it seems, is an ordinary visitor. It comes and goes, often in small doses, in the middle of perfectly normal lives.",
+   "show": {
+    "type": "stat",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "How often anger visits",
+    "big": "several times",
+    "label": "a day to a week, for most people"
+   }
+  },
+  {
+   "say": "So when Sam feels that flash of heat on the bus, he isn't broken. He isn't a bad person. He's having one of the most common experiences a human being can have. That doesn't mean every angry message is a good idea, of course. But it does mean we can look at this moment with curiosity, rather than shame.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "cap": "So Sam is normal",
+    "sub": "Completely ordinary"
+   }
+  },
+  {
+   "say": "Picture that phone for a second. Lying there, screen down, the reply still waiting. In a way, this whole evening lives inside that one small pause. Everything we're going to talk about tonight is about what happens in the few seconds between feeling something and doing something about it.",
+   "show": {
+    "type": "photo",
+    "file": "lf36_b01_01.jpg",
+    "cap": "A message, not yet sent"
+   }
+  },
+  {
+   "say": "Now, Averill's studies had another finding, and this one is a little more uncomfortable. When people described who they'd been angry with, it usually wasn't a stranger. It wasn't the rude person in the shop or the driver who cut them off, at least not most of the time. More often, it was someone close.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "cap": "Who we get angry at",
+    "sub": "The surprising answer"
+   }
+  },
+  {
+   "say": "In more than half of the episodes, the anger was aimed at someone the person knew and liked. A partner. A parent. A friend. A brother. Which sounds backwards at first. Why would we feel the strongest flashes of anger toward the people we care about most? We'll come back to that question, because the answer is actually rather tender.",
+   "show": {
+    "type": "stat",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Who anger is aimed at",
+    "big": "over half",
+    "label": "of episodes involved a loved one, relative or friend"
+   }
+  },
+  {
+   "say": "For now, here's one simple way to think about it. The people close to us matter. What they think of us matters. What they expect from us matters. So when a brother writes you forgot again, it doesn't land like a message from a stranger. It lands right in the middle of a relationship that's important. And that's exactly where anger likes to live.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Close people matter",
+    "sub": "So their words land harder"
+   }
+  },
+  {
+   "say": "But before we go any further, let's rewind Sam's day a little, because the message on the bus didn't arrive out of nowhere. It arrived at the end of a long Thursday. And as we'll discover tonight, the hours before a moment of anger often matter just as much as the moment itself.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "n": 2,
+    "title": "Sam's day so far"
+   }
+  },
+  {
+   "say": "Here's how the day went. Sam slept badly last night, about five hours, the kind of sleep where you wake up already tired. At work, a meeting ran late, and lunch somehow never happened. The afternoon was full of small problems, one after another. And now he's on a warm, crowded bus, standing for the first few stops, finally sitting down near the back.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Sam's Thursday",
+    "items": [
+     "About five hours of sleep",
+     "No time for lunch",
+     "A long, busy afternoon",
+     "A warm, crowded bus home"
+    ]
+   }
+  },
+  {
+   "say": "None of this is dramatic. Nothing terrible has happened. There's no crisis, no big argument, no bad news. It's just a normal, slightly too full day. And yet, by the time the phone buzzes, Sam is a bit like a glass that's already been filled almost to the top. It doesn't take much more to make it spill.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Nothing dramatic",
+    "sub": "Just a long day"
+   }
+  },
+  {
+   "say": "And what does the message actually say? You forgot again? That's it. There's no insult in it. There's no shouting. If you read it on a calm Sunday morning, after a good night's sleep and a big breakfast, it might sound completely different. Maybe even a little funny. So why does it sound so harsh tonight?",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "text": "You forgot again?",
+    "by": "Three small words"
+   }
+  },
+  {
+   "say": "That's the question we'll keep returning to. Was it the words? Was it the day? Was it the hunger, or the tiredness, or the heat of the bus? Was it something about brothers, or about being reminded of a mistake? The honest answer, as we'll see, is that it's probably a little bit of all of these at once.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "An open question",
+    "sub": "We'll answer it slowly"
+   }
+  },
+  {
+   "say": "And here's one small promise before we go deeper. We're not going to leave Sam with his thumb hovering over that arrow forever. Later tonight, after we've explored what's really going on, we'll come back to that bus, and that message. And we'll see what Sam decides to do with it.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "One promise",
+    "sub": "We'll come back to the phone"
+   }
+  },
+  {
+   "say": "But first, let's go back to those diaries, because they hold more than just how often and at whom. Averill also asked people why they felt angry, and what they did next. And what they did next turns out to be far gentler, and far more interesting, than the picture most of us carry around in our heads.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "First stop",
+    "sub": "What people really do"
+   }
+  }
+ ]
+}

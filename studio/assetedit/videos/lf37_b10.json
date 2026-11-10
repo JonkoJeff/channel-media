@@ -1,0 +1,228 @@
+{
+ "id": "lf37_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So far tonight, Nora has trusted a quiz to tell her who she is. And we've seen that quizzes wobble. But that leaves a quieter question hanging in the air. If not a quiz, then who? Who actually knows you best? The obvious answer is you. You've been inside your own head your whole life. Let's see what the research says about that.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "n": 14,
+    "title": "Who knows you best?"
+   }
+  },
+  {
+   "say": "You know your private thoughts, your worries late at night, the things you never say out loud. Nobody else hears that inner voice. So it seems natural that you would be the world's leading expert on you. But there's a small catch. You see yourself from the inside. And some parts of a personality are easier to see from the outside.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "The obvious answer",
+    "sub": "You, of course"
+   }
+  },
+  {
+   "say": "Here's a gentle way into that idea. Imagine a stranger walks into your bedroom while you're out. They never meet you. They never hear your voice. They just look around for a few minutes, at the shelves, the bed, the walls, the little things on the desk. Then they're asked to describe your personality. How close do you think they'd get?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "cap": "A strange experiment",
+    "sub": "Strangers in your room"
+   }
+  },
+  {
+   "say": "In 2002, Samuel Gosling and his colleagues ran almost exactly that experiment. They called their paper A room with a cue. Observers who had never met the occupants looked only at their bedrooms or their offices. Then they rated those people on the Big Five traits. And their ratings were compared with how the occupants described themselves, and with how people who knew them well described them.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "who": "Samuel Gosling and colleagues",
+    "where": "A room with a cue, offices and bedrooms",
+    "what": "published in 2002"
+   }
+  },
+  {
+   "say": "The result was quietly remarkable. For some traits, these strangers did surprisingly well. Especially two of them. Openness, the dial for curiosity and new ideas. And conscientiousness, the dial for order and follow-through. From a room alone, without a single conversation, strangers could pick up real signals about both. Not perfectly. But far better than you might expect from a quick look around.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Surprisingly well",
+    "sub": "For some traits"
+   }
+  },
+  {
+   "say": "Think about what a room might whisper. Books on many different subjects. Pictures, music, little souvenirs from somewhere far away. Those can hint at an open, curious mind. A tidy desk, things put away, a calendar that's actually filled in. Those can hint at a conscientious one. None of this is certain. A tidy room might just mean a visitor was expected.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "title": "What a room can whisper",
+    "items": [
+     "Books on many subjects",
+     "Art, music, souvenirs",
+     "A tidy desk, or a busy one",
+     "Things put away, or left out"
+    ]
+   }
+  },
+  {
+   "say": "We leave traces of ourselves everywhere, without meaning to. The way we arrange a shelf. What we keep, and what we throw away. What we hang on the wall where we'll see it every day. We don't think of these as messages. But in their own quiet way, they are. Our personality spills out into the spaces we live in.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "Traces we leave",
+    "sub": "Without meaning to"
+   }
+  },
+  {
+   "say": "Picture a small desk by a window. A few books stacked at an angle, a mug gone cold, a plant leaning toward the light, a notebook left open. There's nobody here. And yet, somehow, you already have a feeling about who sits at this desk. That feeling isn't magic. It's your mind quietly reading the traces a person leaves behind.",
+   "show": {
+    "type": "photo",
+    "file": "lf37_b10_01.jpg",
+    "cap": "A room tells a story"
+   }
+  },
+  {
+   "say": "But the room study had limits. Some traits were much harder to read from a space. Feelings that live mostly on the inside, like worry or calm, don't leave many objects on the shelf. A room can show that you're curious or orderly. It's much less likely to show that you lie awake wondering whether you said the wrong thing at dinner.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Not every trait",
+    "sub": "Some hide well"
+   }
+  },
+  {
+   "say": "So maybe the real question isn't whether you know yourself better than others do. Maybe it's which parts of you each person can see. The psychologist Simine Vazire studied exactly that. And her answer helps explain something many of us have felt. Sometimes a good friend describes us more accurately than we would ourselves. Let's look at what she found.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Inside and outside",
+    "sub": "Two views of you"
+   }
+  },
+  {
+   "say": "In 2010, Vazire published a model with a slightly long name, the self-other knowledge asymmetry, or SOKA for short. Asymmetry just means the two views aren't equal. People rated themselves on a range of traits. Their friends rated them too, and so did strangers. Then those ratings were compared with other measures, including how people actually behaved and performed on tasks.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "who": "Simine Vazire",
+    "where": "The SOKA model, who knows what about a person",
+    "what": "published in 2010"
+   }
+  },
+  {
+   "say": "The first finding will feel familiar. For inner traits, the ones that live mostly in your head, you were the best judge. Anxiety is the clearest example. You know how often your thoughts race, how much a small worry can grow at night. Other people may never see that. You might look perfectly calm at a party while your mind is quietly spinning.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "What you see best",
+    "sub": "The inner weather"
+   }
+  },
+  {
+   "say": "But for outward traits, things flipped. How talkative you are, for example. Friends were as good as you, or even better, at judging that. Which makes sense, when you think about it. You're inside your own conversations. You don't really hear how much you talk. Your friends do. They've sat through the long stories and the comfortable silences. They know.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "What friends see best",
+    "sub": "The outward side"
+   }
+  },
+  {
+   "say": "And here's the most surprising part. Even for how clever someone comes across, friends could judge as well as or better than the person themselves. That's something we often feel very sure about, one way or the other. Some of us quietly overrate ourselves. Some of us, especially late at night, quietly underrate ourselves. A friend's view can be steadier than either.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Even this one",
+    "sub": "How clever you seem"
+   }
+  },
+  {
+   "say": "So here's the picture. Inner feelings, like anxiety, you see best. Outward habits, like how much you talk, friends see as well as you, or better. How clever you come across, friends again. And order and curiosity leave enough traces that even strangers can catch a glimpse. Nobody has the whole view. Each person holds just one window onto you.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "title": "Who sees what",
+    "items": [
+     "Inner feelings: you",
+     "Talkativeness: friends too",
+     "How clever you seem: friends",
+     "Order and curiosity: even strangers"
+    ]
+   }
+  },
+  {
+   "say": "That's the idea worth keeping. You see yourself from the inside. Others see you from the outside. Neither view is the true one, and neither is a mistake. They're two halves of the same picture. That's a gentle relief. It means you don't have to know everything about yourself. Some of it is held, quite safely, by the people around you.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "You see yourself from the inside. Others see you from the outside.",
+    "by": "The idea behind SOKA"
+   }
+  },
+  {
+   "say": "Let's go back to Nora, still at her desk, the quiz result glowing on the screen. Imagine she sends a screenshot to her oldest friend, Maya. Apparently I'm a rare type. Is that me? A few minutes later, Maya replies. Not with a type or a letter code. Just a few honest lines about the Nora she knows. Nora reads them twice.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Back to Nora",
+    "sub": "A message from a friend"
+   }
+  },
+  {
+   "say": "Maya writes that Nora is the friend who asks the second question, the one that shows she was really listening. That she talks a lot when she's excited about an idea, and goes quiet when she's tired. That she plans every trip down to the train times, then forgets her umbrella. None of it is flattering in a vague way. It's small, and specific.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "What Maya wrote",
+    "sub": "Small and specific"
+   }
+  },
+  {
+   "say": "Notice how different that feels from the quiz. The quiz offered lines that could fit almost anyone, the Barnum kind we met earlier. Maya's lines could only fit Nora. They come from years of watching her in real situations, at dinners and on trains and in long late phone calls. That's the kind of knowledge no quiz can ever copy.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "cap": "Not Barnum",
+    "sub": "You can tell the difference"
+   }
+  },
+  {
+   "say": "Of course, Maya doesn't know everything either. She doesn't know about the worry that kept Nora awake last week. Nora knows that part. So the fullest picture of Nora isn't on the quiz, and it isn't only in her own head. It's somewhere in between, shared out among the people who know her, each holding a piece. That's how it should be.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "Both are needed",
+    "sub": "Inside and outside"
+   }
+  },
+  {
+   "say": "Which brings up another question Nora might wonder about. If her personality is real enough that friends and even strangers can read it, where did it come from in the first place? From her parents? From the way she was raised? From being the eldest, or the youngest? Those are some of the oldest ideas about personality. Let's test them next.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "Where does it come from?",
+    "sub": "The next question"
+   }
+  }
+ ]
+}

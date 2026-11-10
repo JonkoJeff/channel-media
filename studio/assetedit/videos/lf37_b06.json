@@ -1,0 +1,220 @@
+{
+ "id": "lf37_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's go back to Nora for a moment. Imagine her, still awake, wondering if there's anything solid underneath all those quiz results. If not types, and not stars, then what? That's exactly the question scientists asked, many decades ago. And the path they followed to answer it began somewhere very ordinary. A big English dictionary, and a great deal of patience.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 6,
+    "title": "Where the Big Five came from"
+   }
+  },
+  {
+   "say": "The starting idea is simple and rather lovely. If people differ from one another in ways that really matter, then over centuries, they'll have invented words for those differences. Kind. Lazy. Curious. Moody. Bold. Every language collects these words, because people need to talk about each other. So maybe our dictionaries already contain a map of personality, waiting to be read.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Start with words",
+    "sub": "An old idea"
+   }
+  },
+  {
+   "say": "Researchers call this the lexical idea. Lexical simply means to do with words. The thought is that language works like a long memory. Important differences between people get noticed, talked about, and named. Unimportant ones fade away. So if you want to know which differences matter most, you can start by listening to what people have bothered to name, again and again.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "cap": "The lexical idea",
+    "sub": "Language remembers"
+   }
+  },
+  {
+   "say": "In 1936, two psychologists, Gordon Allport and Henry Odbert, took that idea very seriously. They went through an English dictionary, looking for every word that could be used to describe a person. Not just a few. All of them. It was slow, careful work, long before computers could help. Page after page, word after word. Imagine the stacks of notes slowly growing on their desks.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "who": "Gordon Allport and Henry Odbert",
+    "where": "A study of trait words",
+    "what": "published in 1936"
+   }
+  },
+  {
+   "say": "And when they were done, they had found about eighteen thousand words. Eighteen thousand ways to describe a person, in one language. Some of the words described lasting qualities, like honest or shy. Others described more passing states, like a mood on a particular day. It was an extraordinary list, and a clear sign of how much people have always cared about the differences between them.",
+   "show": {
+    "type": "stat",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "title": "Words for describing people",
+    "big": "about 18,000",
+    "label": "in one English dictionary"
+   }
+  },
+  {
+   "say": "But eighteen thousand words is far too many to be useful. Nobody can fill in a questionnaire that long. And many of the words overlap. Cheerful and sunny. Careful and tidy. Nervous and anxious. They're not identical, but they seem to belong together. So the next question became, how do you find the few big themes hiding inside all those words?",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Too many words",
+    "sub": "A new problem"
+   }
+  },
+  {
+   "say": "Here's where a method called factor analysis comes in. It sounds technical, but the idea is gentle. Imagine asking many people to rate themselves, or someone they know, on lots of these words. Then you look at which words tend to travel together. If people who say they're talkative also say they're outgoing and lively, those words probably share something deeper.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "Sorting by company",
+    "sub": "Words that travel together"
+   }
+  },
+  {
+   "say": "Think of it like sorting a huge basket of laundry in the dark, just by feel. You don't know the labels yet. But slowly, things that feel alike end up in the same pile. Soft wool here, crisp cotton there. Factor analysis does something similar with words. It doesn't name the piles. It only shows you which things keep landing together.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Like a laundry basket",
+    "sub": "Sorting into piles"
+   }
+  },
+  {
+   "say": "So, in very simple steps. Many people rate many words. You look for words that rise and fall together. You group them into a smaller number of themes. And only afterwards do you give those themes names. That last part matters. The method finds the patterns first. The labels come later, chosen by the researchers to describe what they see.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "title": "Factor analysis, simply",
+    "items": [
+     "Many people rate many words",
+     "Find words that move together",
+     "Group them into themes",
+     "Name the themes afterwards"
+    ]
+   }
+  },
+  {
+   "say": "Over the following decades, several researchers tried this kind of sorting, with different lists of words and different groups of people. Some found more themes, some found fewer. It wasn't one dramatic discovery, more a slow conversation across many studies. But one result, from a rather unexpected place, turned out to be especially important. It came, of all places, from the military.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Many attempts",
+    "sub": "Not one discovery"
+   }
+  },
+  {
+   "say": "In 1961, two researchers working for the US Air Force, Ernest Tupes and Raymond Christal, looked again at personality ratings from several different groups of people. And the same five broad factors kept appearing, again and again, across the different samples. They called them recurrent personality factors. Five themes that simply wouldn't go away, whichever group of people they looked at.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "who": "Ernest Tupes and Raymond Christal",
+    "where": "A US Air Force report",
+    "what": "published in 1961"
+   }
+  },
+  {
+   "say": "Their work wasn't a famous journal article. It was a technical report, the kind of document that can easily sit quietly on a shelf. But the five factors didn't go away. Other researchers, using their own lists and their own methods, kept finding something very similar. When a pattern keeps returning, no matter who looks for it, that's usually a good sign it's real.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "A quiet report",
+    "sub": "Then others found it too"
+   }
+  },
+  {
+   "say": "Picture an old dictionary lying open on a library table, a pair of reading glasses resting on the page, a small stack of index cards beside it. It looks like nothing much. But this is roughly where the modern science of personality began. Not with a grand theory, but with people patiently writing down the words we use for one another.",
+   "show": {
+    "type": "photo",
+    "file": "lf37_b06_01.jpg",
+    "cap": "Where it all began"
+   }
+  },
+  {
+   "say": "Then, in 1990, a psychologist named Lewis Goldberg published work that gave the pattern its now famous name, the Big Five. Using large sets of everyday trait words, he showed that the same five broad dimensions kept emerging. The word big isn't about being grand. It's about being broad. Each of the five gathers many smaller traits under one roof.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Lewis Goldberg",
+    "sub": "Naming the Big Five"
+   }
+  },
+  {
+   "say": "So here they are, the five. Openness, which is about curiosity and new experiences. Conscientiousness, which is about organisation and follow-through. Extraversion, which is about energy around people. Agreeableness, which is about warmth and cooperation. And Neuroticism, which is about how strongly we feel worry and stress. We'll meet each of them properly in the next part, one at a time.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "title": "The Big Five",
+    "items": [
+     "Openness",
+     "Conscientiousness",
+     "Extraversion",
+     "Agreeableness",
+     "Neuroticism"
+    ]
+   }
+  },
+  {
+   "say": "If you'd like an easy way to remember them, take the first letter of each. O, C, E, A, N. Ocean. It's a nice image for tonight, actually. Five broad currents, moving through everyone, at different strengths. Nobody is only one of them. Everybody has all five, somewhere between a gentle trickle and a strong tide. Your own mix is yours alone.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "OCEAN",
+    "sub": "An easy way to remember"
+   }
+  },
+  {
+   "say": "And notice what the Big Five are not. They are not five types. You don't belong to the Openness club or the Agreeableness team. Each one is a dial, from low to high, and most people sit somewhere around the middle on most of them. Remember the dials from earlier, when we looked at Nora's quiz type? This is where those dials come from.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "cap": "Not boxes",
+    "sub": "Dials again"
+   }
+  },
+  {
+   "say": "There's something quietly reassuring about how the Big Five came about. Nobody sat down and invented five traits because they sounded neat. They were found, by sorting the words people have used for generations, and by watching which ones travel together. That's a very different origin from a horoscope, or a quiz built to give you a satisfying label. It grew from the language itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "cap": "Why it's trusted",
+    "sub": "Found, not invented"
+   }
+  },
+  {
+   "say": "So, if Nora wanted a more honest picture of herself, it wouldn't be a four-letter type or a star sign. It would be five dials, each set somewhere along its range. Perhaps fairly high on one, around the middle on another, a little low on a third. Less exciting than a rare type, maybe. But much closer to the truth.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Back to Nora",
+    "sub": "Five dials"
+   }
+  },
+  {
+   "say": "In the next part of the evening, we'll walk through the five dials one at a time, slowly, with little moments from Nora's life. We'll see that each end of every dial has its own strengths. And we'll meet a sixth idea that some researchers have added. But for now, just picture that dictionary, and eighteen thousand words, quietly sorting themselves into five.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "cap": "Next",
+    "sub": "Meeting the five"
+   }
+  }
+ ]
+}

@@ -1,0 +1,230 @@
+{
+ "id": "lf37_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Ask people where personality comes from, and most will point in the same direction. Home. The way your parents raised you. Whether they were strict or relaxed, warm or distant. And then, very often, a second answer. Your place in the family. The responsible eldest. The peacemaking middle child. The charming youngest who always seemed to get away with everything.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 15,
+    "title": "Nature, nurture and birth order"
+   }
+  },
+  {
+   "say": "So here's Myth number seven, said plainly. Your personality comes from how your parents raised you, and from your birth order. It's one of the most familiar stories we tell about ourselves. It's in family jokes, in advice columns, in long conversations at holiday dinners. And it feels true, because our families sit so close to the centre of our early lives.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cafe_sunset",
+    "text": "Your parents and your birth order made your personality.",
+    "by": "Myth number 7"
+   }
+  },
+  {
+   "say": "Nora, still at her desk, finds herself wondering about it. She's the eldest of three. She's the one who plans, who checks the train times, who remembers birthdays. Is that because her parents expected it of her? Because she came first? Her younger brother is completely different, easygoing, unhurried, endlessly late. Same house, same parents. How did that happen, exactly?",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "Nora wonders",
+    "sub": "Is it the family?"
+   }
+  },
+  {
+   "say": "So what does the research actually say? To untangle this, scientists have used a few clever tools. They've studied twins, including twins who grew up apart. They've compared brothers and sisters raised in the same home. And they've looked at birth order in very large groups of people. Each tool answers a slightly different question. Let's take them one at a time.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "What the research actually says",
+    "sub": "Three kinds of evidence"
+   }
+  },
+  {
+   "say": "Let's start with the twins. In 1990, Thomas Bouchard and his colleagues published findings from the Minnesota Study of Twins Reared Apart, in the journal Science. These were identical twins who had been separated early in life and raised in different families, sometimes in quite different places. They shared all their genes, but not their homes. A rare natural experiment.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "who": "Thomas Bouchard and colleagues",
+    "where": "Minnesota Study of Twins Reared Apart, Science",
+    "what": "published in 1990"
+   }
+  },
+  {
+   "say": "If upbringing were everything, you'd expect these twins to come out quite different. Different parents, different rules, different dinner tables. But on many measures of personality, twins raised apart turned out to be strikingly similar. Often about as similar as identical twins who had grown up together in the same house. That was a surprise, and a quiet challenge to the idea that home is everything.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Raised apart",
+    "sub": "Still alike"
+   }
+  },
+  {
+   "say": "Similar doesn't mean identical, though. Twins raised apart still differed in many ways. They had their own memories, their own friends, their own turns of life. Genes seemed to nudge each twin in a similar direction. But they didn't write the whole story. So the natural next question is a simple one. How big is that nudge, on average, across many people?",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "Not copies",
+    "sub": "Similar, not identical"
+   }
+  },
+  {
+   "say": "In 2015, Tena Vukasović and Denis Bratko brought together a great many behaviour genetic studies in one large analysis. Their answer was roughly forty percent. About forty percent of the differences in personality between people could be linked to differences in their genes. Not forty percent of you. Forty percent of the variation across a whole population. That difference matters a great deal.",
+   "show": {
+    "type": "stat",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "Heritability of personality",
+    "big": "about 40%",
+    "label": "of differences linked to genes"
+   }
+  },
+  {
+   "say": "That number is easy to misread, so let's hold it gently. It doesn't mean forty percent of Nora's curiosity came from her genes and the rest from her childhood. It's a statement about groups, not about one person. And it leaves well over half of the differences to everything else. Experience, chance, relationships, the long, unpredictable story of a life.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "A careful number",
+    "sub": "What it does not mean"
+   }
+  },
+  {
+   "say": "Genes, here, are better thought of as tendencies than as orders. They might make some things come a little easier, like enjoying a crowd or noticing worry early. But what happens next still depends on where you live, who you meet, and what you do. A nudge is not a script. And personality, as we'll see, keeps moving all through life.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cabin_fireplace",
+    "cap": "Genes are not destiny",
+    "sub": "Tendencies, not orders"
+   }
+  },
+  {
+   "say": "Picture a hallway in a family home. Three coats on the hooks. Three pairs of shoes by the door, all different sizes, all worn in different ways. One pair neatly side by side. One kicked off in a hurry. One with the laces still tied. Same hallway. Same parents. Three quite different children. You may have grown up in a hallway like this.",
+   "show": {
+    "type": "photo",
+    "file": "lf37_b11_01.jpg",
+    "cap": "One house, many paths"
+   }
+  },
+  {
+   "say": "That puzzle has a name in psychology. In 1987, Robert Plomin and Denise Daniels published a paper with a beautifully simple question as its title. Why are children in the same family so different from one another? If the shared home shaped personality strongly, brothers and sisters raised together should be quite alike. Often, they aren't. Sometimes they're hardly alike at all.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "who": "Robert Plomin and Denise Daniels",
+    "where": "Behavioral and Brain Sciences",
+    "what": "published in 1987"
+   }
+  },
+  {
+   "say": "Their answer was that the shared part of family life, the things all the children have in common, seemed to matter less for personality than people expected. Same house, same neighbourhood, same family rules. What seemed to matter more was the non-shared part. The experiences that are different for each child, even inside the very same family. That was the surprise.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Shared and not shared",
+    "sub": "Two kinds of environment"
+   }
+  },
+  {
+   "say": "So what does non-shared really mean in everyday life? Different friends. Different teachers. Different moments with the same parents, who were perhaps more nervous with the first child and more relaxed by the third. And then all the little chances and accidents that happen to one child and not another. A family is less one environment than several, gently overlapping.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "title": "The non-shared part",
+    "items": [
+     "Different friends",
+     "Different teachers",
+     "Different moments with parents",
+     "Different chances"
+    ]
+   }
+  },
+  {
+   "say": "This doesn't mean parents don't matter. Of course they do. They matter for safety, for love, for what a child learns and remembers and values. The finding is narrower than that. When it comes to broad personality traits, how outgoing or anxious or orderly someone becomes, the shared family home seems to leave a smaller mark than the old story suggests. Love still matters enormously.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "Parents still matter",
+    "sub": "Just differently"
+   }
+  },
+  {
+   "say": "And that brings us to birth order. The responsible eldest, the rebellious youngest. It's such a satisfying idea that people have studied it for a long time. But many older studies were small, or compared children from different families, where lots of other things differ too. So what was needed was a careful test, on a very large scale, and done with real care and patience.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "cap": "And birth order?",
+    "sub": "Eldest and youngest"
+   }
+  },
+  {
+   "say": "In 2015, Julia Rohrer, Boris Egloff and Stefan Schmukle published exactly that kind of careful test. They used large national samples from three countries, Britain, the United States and Germany. They compared people across different families, and also brothers and sisters within the same family. And they looked carefully at all five of the Big Five traits, one by one.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "who": "Rohrer, Egloff and Schmukle",
+    "where": "Large national samples, Britain, US, Germany",
+    "what": "published in 2015"
+   }
+  },
+  {
+   "say": "The result was clear. Birth order showed no meaningful effect on the Big Five traits. Eldest children were not reliably more conscientious. Youngest children were not reliably more open or more agreeable. Middle children were not reliably anything in particular. The family stories may be fun, but in large, careful samples, they mostly faded away. The pattern just wasn't there.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "No meaningful effect",
+    "sub": "On the Big Five"
+   }
+  },
+  {
+   "say": "So why does it feel so true? Partly because families tell stories about themselves, and then notice what fits. The eldest takes charge once at a holiday dinner, and everyone nods. Of course. And partly because age differences are real. An older child is simply further along at every point, so they can look more responsible, at least for a little while.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "Why it feels true",
+    "sub": "Families tell stories"
+   }
+  },
+  {
+   "say": "Let's gather it up. Genes play a real part, roughly forty percent of the differences between people. The shared family home matters less than most of us expected. Each child's own experiences, the non-shared part, seem to matter more. And birth order, in large careful samples, shows no meaningful effect on the Big Five at all. A surprising set of answers.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "title": "What we've learned",
+    "items": [
+     "Genes play a part, about 40%",
+     "Shared home matters less",
+     "Each child's own experiences matter more",
+     "Birth order: no meaningful effect"
+    ]
+   }
+  },
+  {
+   "say": "Nora smiles at that. Maybe she isn't the planner because she was born first. Maybe it's a mix of tendencies she was born with, and a hundred small experiences that were hers alone. Her brother had his own hundred. Which leads to a fair question. If personality is shaped like this, slowly and partly by chance, does it actually matter?",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "Back to Nora",
+    "sub": "And her brother"
+   }
+  }
+ ]
+}

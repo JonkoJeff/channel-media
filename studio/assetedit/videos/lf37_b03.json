@@ -1,0 +1,213 @@
+{
+ "id": "lf37_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Myth number two. The test knows the real you. However you're feeling on the day, a good personality quiz looks past it and finds the person underneath. Take it today, take it next month, and it should give you the same answer, because the real you hasn't changed. It's a reasonable thing to expect. After all, that's what a test is supposed to do.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 3,
+    "title": "The quiz that changes its mind"
+   }
+  },
+  {
+   "say": "A few weeks after that first night, Nora is awake late again. She can't quite remember her four letters, so she does what many of us do. She takes the quiz again. Same website, same kind of questions. She answers honestly, the way she did before. Quiet night in, or busy party? Head or heart? It depends, she thinks again, and picks one.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "A few weeks later",
+    "sub": "The same quiz again"
+   }
+  },
+  {
+   "say": "And this time, the result is different. Not completely different. But one of the letters has flipped. Last time she was a feeling type. Now, apparently, she's a thinking type. A whole new paragraph appears, describing a slightly different person. Nora frowns at the screen. Has she changed in a few weeks? Did she answer badly? Or is something else going on?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "A different answer",
+    "sub": "Wait, what?"
+   }
+  },
+  {
+   "say": "Here's the myth, stated plainly. A personality test reveals a fixed, true you, and gives the same answer every time you take it. If the answer changes, it must be your fault, or your mood. You weren't being honest. You were tired. You were in a strange frame of mind. The test itself, we assume, is solid. Now, what the research actually says.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "The test knows the real you.",
+    "by": "Myth"
+   }
+  },
+  {
+   "say": "What the research actually says. Nora's experience is surprisingly common. In fact, it's common enough that psychologists have studied it directly with the Myers-Briggs itself. Not the free quizzes online, which can be even shakier, but the official questionnaire, carefully written and widely used. And the question they asked was simple. If you take it twice, how often do you get the same type?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Nora is not alone",
+    "sub": "It happens a lot"
+   }
+  },
+  {
+   "say": "In 2005, the psychologist David Pittenger brought together the research on this question in a review called Cautionary comments regarding the Myers-Briggs Type Indicator. He looked at what happens when people take the test, and then take it again some time later. And his conclusions were gentle in tone, but quite clear. The letters were a lot less steady than most people assume.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "who": "David Pittenger",
+    "where": "Consulting Psychology Journal",
+    "what": "published in 2005"
+   }
+  },
+  {
+   "say": "Here's the striking part. When people retake the MBTI, as many as half of them can end up with a different type. And this can happen after as little as five weeks. Not five years, with a new job and a move across the country in between. Five weeks. Roughly the time between Nora's first quiz and her second, on another quiet night.",
+   "show": {
+    "type": "stat",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Retake the MBTI",
+    "big": "up to half",
+    "label": "can get a different type"
+   }
+  },
+  {
+   "say": "Why would that happen? Remember the hill from the last chapter. Most people score somewhere near the middle on each scale, close to the line between the letters. If you're standing right beside that line, it doesn't take much to step over it. A slightly different mood. A question read a little differently. One answer changed from yes to maybe. And suddenly you're on the other side.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "cap": "Why it happens",
+    "sub": "Back to the hill"
+   }
+  },
+  {
+   "say": "And here's the thing. That tiny step barely changes your actual score. On a dial, it would be a hair's width. But because the MBTI turns each dial into a switch, that hair's width becomes a whole new letter. And with several letters, there are several chances for one of them to flip. So the type can change, even when the person hardly has.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "cap": "A tiny step",
+    "sub": "A whole new letter"
+   }
+  },
+  {
+   "say": "That's very likely what happened to Nora. Her thinking and feeling scores were nearly even the first time. On the second night, perhaps she was a little more tired, or a little more focused on a work problem. She moved a tiny distance on the dial. But the label jumped from one side to the other, and handed her a completely new description.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Nora barely moved",
+    "sub": "The label did"
+   }
+  },
+  {
+   "say": "So what should a good personality test be able to do? Psychologists have two old, useful words for this. Reliability and validity. They sound technical, but the ideas behind them are quite simple, and you already use them every day, without the names. Let's take them one at a time, slowly, using things you probably have in your own home.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "What makes a good test",
+    "sub": "Two simple ideas"
+   }
+  },
+  {
+   "say": "Reliability means consistency. Imagine stepping on a bathroom scale a few times in a row. If it says something different every time, you can't trust it, even if one of those readings happens to be right. A reliable scale gives you roughly the same reading, again and again, as long as nothing has really changed. A reliable personality test should do the same.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Reliability",
+    "sub": "Same answer, again and again"
+   }
+  },
+  {
+   "say": "Validity is a different question. It asks whether the test measures what it says it measures. Imagine a scale that gives exactly the same reading every time, but is always wrong by the same amount. It's reliable, but not valid. Or imagine using a ruler to measure how warm a room is. Very steady. Completely the wrong tool. A good test needs both.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Validity",
+    "sub": "Measuring the right thing"
+   }
+  },
+  {
+   "say": "Picture that old scale for a moment, sitting quietly on the floor. We trust it because it behaves. Step on, step off, step on again, and it says roughly the same thing. That's all reliability really is. It's the reason a tool earns our trust. And it's exactly what Nora found herself wondering about, as she looked at her two different results.",
+   "show": {
+    "type": "photo",
+    "file": "lf37_b03_01.jpg",
+    "cap": "Same reading, every time?"
+   }
+  },
+  {
+   "say": "So here's a simple checklist. A good personality test should give similar results when you take it twice, if you haven't really changed. It should measure what it claims to measure. It should show where you sit along each dial, not just which side of a line you fell on. And ideally, it should help predict something real about how you live.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "A good test should",
+    "items": [
+     "Give similar results twice",
+     "Measure what it claims",
+     "Show where you sit",
+     "Predict something real"
+    ]
+   }
+  },
+  {
+   "say": "The questionnaires researchers use for the Big Five are built with these ideas in mind. Instead of handing you a letter, they give you a score along each dial. So if you move a little, your score moves a little. Nothing dramatic flips. They're not perfect, and no test can read a person completely. But they're designed to be steady, and to be checked against real behaviour.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "The research tools",
+    "sub": "Dials with scores"
+   }
+  },
+  {
+   "say": "So if you've ever got a different result on a retake, it isn't because you did it wrong. And it doesn't mean the quiz was worthless. It may have been picking up something real, the way the MBTI scales do line up with real dials. The problem is mostly the cut-off, the line through the middle, turning small differences into big ones.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Not your fault",
+    "sub": "And not useless either"
+   }
+  },
+  {
+   "say": "None of this means you should stop enjoying quizzes. They can be fun. They can start good conversations. They can even give you useful words for things you'd noticed about yourself. It just means it's worth holding the result lightly. Think of it as a mirror in a slightly wobbly frame. Useful for a glance. Not something to build your whole identity on.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Enjoy it lightly",
+    "sub": "A mirror, not a verdict"
+   }
+  },
+  {
+   "say": "Back in her room, Nora reads her new result, and something odd happens. Even though it's a different type, the new paragraph also feels quite true. She's logical, but caring. She values harmony, but can be direct when it matters. She laughs quietly to herself. How can two different descriptions both feel like a perfect fit? That's a very good question.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Nora laughs",
+    "sub": "At the second paragraph"
+   }
+  },
+  {
+   "say": "So that's the second lesson. Myth number two says the test knows the real you. The research says scores near the middle can flip across a line, so as many as half of people can get a different type after a few weeks. Which leaves the next mystery. Why do these descriptions feel so personal, whichever one we get? An old classroom experiment has a very surprising answer.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "The next mystery",
+    "sub": "Why it all feels true"
+   }
+  }
+ ]
+}

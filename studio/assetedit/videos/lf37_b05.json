@@ -1,0 +1,203 @@
+{
+ "id": "lf37_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Somewhere in Nora's evening, between quizzes, a horoscope may well have drifted past too. Most of us have read one. Maybe on a phone, maybe in a magazine on a train. And for many people, a star sign feels like a small piece of identity. A way of saying, this is the kind of person I am. So let's look at that idea, gently and carefully.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "autumn_overlook",
+    "n": 5,
+    "title": "Myth four: written in the stars"
+   }
+  },
+  {
+   "say": "Myth number four: your stars shape your character. The idea is very old, and it's woven into many cultures. The positions of the sun, moon and planets when you were born are said to shape who you become. Before we look at the evidence, it's worth saying this clearly. Lots of thoughtful people enjoy astrology. This isn't about them. It's about a claim that can be tested.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Myth number four",
+    "sub": "Your stars shape you"
+   }
+  },
+  {
+   "say": "And it can be tested, which is the interesting part. If birth charts really carry information about personality, then a skilled astrologer should be able to look at a chart and recognize the person it belongs to. Not perfectly, but better than guessing. That's a fair question. It doesn't ask astrology to explain everything. It only asks whether the chart and the person match.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Testable",
+    "sub": "A fair question"
+   }
+  },
+  {
+   "say": "In 1985, a researcher named Shawn Carlson published exactly this kind of test, in the scientific journal Nature. It was designed to be double-blind. That means nobody involved could know, while the matching was being done, which chart truly belonged to which person. Nobody could give hints, even by accident. There was only the chart, the personality profiles, and the astrologers' own skill.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "who": "Shawn Carlson",
+    "where": "A double-blind test in Nature",
+    "what": "published in 1985"
+   }
+  },
+  {
+   "say": "Here's roughly how it worked. Volunteers filled in a well-established personality questionnaire, called the California Psychological Inventory. That gave each of them a detailed personality profile. Their birth details were used to draw up a chart for each one. Then astrologers were given charts and real profiles, and asked to match them. Which profile belongs to this chart? A simple question, asked carefully.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "cap": "The setup",
+    "sub": "Charts and profiles"
+   }
+  },
+  {
+   "say": "If the stars shape character, this should be a task astrologers can do. Not flawlessly, but noticeably better than someone picking at random. Chance sets a kind of floor. Anyone could reach it with a blindfold and a coin. The question was simply whether astrologers, using their full skill, could rise above that floor. Even a small, steady lift would have been interesting.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The question",
+    "sub": "Better than chance?"
+   }
+  },
+  {
+   "say": "And the answer was no. The astrologers did no better than chance. Their matches between birth charts and real personality profiles were about what you'd expect from guessing. In this careful test, the charts didn't carry any information about the people they belonged to that the astrologers could find. And the result appeared in one of the best-known journals in science.",
+   "show": {
+    "type": "stat",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "title": "Matching charts to people",
+    "big": "Chance",
+    "label": "astrologers did no better than guessing"
+   }
+  },
+  {
+   "say": "It's important to hold this result gently. It doesn't say anything unkind about people who read their horoscope with their morning coffee. It says something specific about one claim, that birth charts can reveal personality, when it's tested under fair conditions. Plenty of people enjoy astrology as a language for reflection, or a ritual, or a conversation starter. That's a different thing.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Gently now",
+    "sub": "Not a verdict on people"
+   }
+  },
+  {
+   "say": "So here's the more interesting question. If the charts didn't match people in the test, why do so many people feel their sign fits them so well? Why does a description of a Scorpio or a Libra sometimes feel uncannily right? It turns out we already know part of the answer. We met it just a few minutes ago, in a classroom.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "So why",
+    "sub": "Does it feel so true?"
+   }
+  },
+  {
+   "say": "Remember Forer's students, and the lines borrowed from an astrology book. Many star-sign descriptions use exactly that kind of language. Loyal but independent. Warm, yet guarded. Practical, with a hidden dreamy side. They're vague, kind and double-sided. So almost anyone, reading their own sign, can find themselves inside it. The fit is real as a feeling. It just isn't coming from the stars.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "cap": "Barnum again",
+    "sub": "Roomy descriptions"
+   }
+  },
+  {
+   "say": "There are a few gentle forces at work. First, the Barnum lines we just talked about. Second, we remember the hits. When a horoscope gets something right, it stays with us. Third, we quietly forget the misses. And fourth, we tell our own story in a way that fits the sign. None of this is foolish. It's simply how memory works for all of us.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Why a sign feels true",
+    "items": [
+     "Barnum lines",
+     "We remember the hits",
+     "We forget the misses",
+     "We tell our story to fit"
+    ]
+   }
+  },
+  {
+   "say": "That memory for hits is worth pausing on. Imagine a horoscope that says you'll have an unexpected conversation this week. If you do, it feels like a small proof. If you don't, you probably won't even remember the prediction. Over months and years, the hits pile up in memory, and the misses quietly disappear. The stars start to look very accurate indeed.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "cap": "Memory for hits",
+    "sub": "A natural habit"
+   }
+  },
+  {
+   "say": "Picture an old star map spread out on a windowsill, a small brass telescope beside it, a candle burning low. The night sky really is extraordinary. People have looked up at it and searched for meaning for as long as there have been people. That wish to feel connected to something larger is beautiful. It just doesn't seem to be written into our personalities.",
+   "show": {
+    "type": "photo",
+    "file": "lf37_b05_01.jpg",
+    "cap": "Looking up for meaning"
+   }
+  },
+  {
+   "say": "There's one more subtle thing. If you've grown up being told that your sign is stubborn, or chatty, or sensitive, you might start to notice those parts of yourself more. You might even describe yourself that way. Over time, the label and the self-description can start to echo each other. The stars aren't doing that. The story is. And stories, told often enough, can feel like facts.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "The label echoes",
+    "sub": "A quiet loop"
+   }
+  },
+  {
+   "say": "Nora, we can imagine, knows her sign too. And she might notice that her horoscope and her quiz result sound rather similar. Thoughtful. Private. Deeply caring, with a stubborn streak. That's not a coincidence of the stars. It's the same kind of language, written to fit almost anyone. Two different sources, one familiar mirror. And in both, she finds herself, because the words leave room for her.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "cap": "Nora's sign",
+    "sub": "And Nora's quiz"
+   }
+  },
+  {
+   "say": "So here's a thought for this part of the evening. A feeling of fit is not the same as a match. Carlson's test didn't ask whether people liked their charts, or whether the charts felt right. It asked whether the charts could pick out the right person. That's a much harder question, and the stars, in this test, couldn't answer it.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "text": "A feeling of fit is not the same as a match.",
+    "by": "A thought to hold on to"
+   }
+  },
+  {
+   "say": "In a way, myths three and four teach us the same thing. They're less about quizzes or stars, and more about us. We're wonderfully good at finding ourselves in words. We fill in gaps, remember what fits, and feel seen. That's a lovely human ability. It just means we need careful tests, like Forer's and Carlson's, to tell the feeling from the facts.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "What we learn",
+    "sub": "About ourselves"
+   }
+  },
+  {
+   "say": "Which leaves us with a puzzle. If personality isn't a neat type, and quizzes wobble, and vague lines fit everyone, and the stars don't match, then what is there to measure at all? Is personality just a story we tell? Or is there something solid underneath? Scientists have been working on that question for a very long time, with patience and care.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "So what's left?",
+    "sub": "If not boxes or stars"
+   }
+  },
+  {
+   "say": "And their answer started in a surprising place. Not in a lab full of machines, and not in the night sky, but in a dictionary. Quite literally, in the words people use to describe one another. Because if a difference between people really matters, sooner or later, someone gives it a name. So let's open that dictionary next, and see what researchers found inside.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "The next step",
+    "sub": "Words, not stars"
+   }
+  }
+ ]
+}

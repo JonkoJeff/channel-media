@@ -1,0 +1,196 @@
+{
+ "id": "lf38_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In 1926, an English thinker called Graham Wallas published a book with a lovely title. The Art of Thought. Wallas was interested in a simple question. When people have a new idea, what actually happens, from beginning to end? He read the accounts of scientists, writers and inventors describing their own breakthroughs, and he noticed that their stories followed a similar shape.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "n": 3,
+    "title": "Four stages of thought"
+   }
+  },
+  {
+   "say": "He described that shape in four stages. Preparation. Incubation. Illumination. And verification. Four rather grand words for something quite familiar. First you work on a problem. Then you leave it alone for a while. Then the idea arrives. And finally you check whether it actually works. Let's walk through each one slowly, and see Mira's evening in each of them.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "The four stages",
+    "items": [
+     "Preparation",
+     "Incubation",
+     "Illumination",
+     "Verification"
+    ]
+   }
+  },
+  {
+   "say": "The first stage is preparation. This is the hard, conscious work. You learn about the problem, you gather materials, you try things, and most of them don't work. For Mira, preparation was those three weeks of sketches. The foxes, the lighthouses, the girl with the lantern. It felt like failure at the time. But in Wallas's map, it was the essential first step. Without it, there's nothing for the later stages to work on.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Stage one",
+    "sub": "Preparation"
+   }
+  },
+  {
+   "say": "You could think of preparation as filling the mind with the pieces of a puzzle. You might not know yet how the pieces fit. You might not even know which pieces matter. But by working on the problem, again and again, you put them in there. Every sketch Mira threw away left something behind. A shape. A colour. A small feeling she liked. The pieces were piling up, even if no picture had appeared.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Filling the mind",
+    "sub": "With the problem"
+   }
+  },
+  {
+   "say": "Picture a puzzle spread out on a table in the evening. Most of the pieces are loose. Only a few have found each other. If you stopped right now, it would look like nothing much had happened. But every piece on that table is a piece you've already handled and turned over. That's what preparation feels like from the inside. Messy, slow, and quietly necessary.",
+   "show": {
+    "type": "photo",
+    "file": "lf38_b03_01.jpg",
+    "cap": "Pieces of a puzzle"
+   }
+  },
+  {
+   "say": "The second stage is the mysterious one. Wallas called it incubation. It's the stage where you stop working on the problem consciously. You go for a walk. You do something else. You sleep. On the surface, nothing is happening. But Wallas suspected that something was still going on underneath, some quiet sorting and combining that we aren't aware of. It's a little like a seed under the soil, before any shoot appears.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Stage two",
+    "sub": "Incubation"
+   }
+  },
+  {
+   "say": "For Mira, incubation was that moment when she put down her pencil and gave up for the night. She was no longer trying to find the idea. In fact, she was deliberately not thinking about it. And yet, as we'll see later tonight, there's good evidence that stepping away like this really can help. Giving up for the evening, it turns out, isn't always the same as giving up.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Not working",
+    "sub": "And yet"
+   }
+  },
+  {
+   "say": "The third stage is the one everyone remembers. Illumination. The moment the light comes on. The idea arrives, often suddenly, often when you least expect it, and often with a lovely feeling of certainty. For Mira, it was the shower, the steam, and the girl who collects lost sounds in jars. This is the flash from our myth. But notice where it sits in the map. It's the third stage, not the first.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "Stage three",
+    "sub": "Illumination"
+   }
+  },
+  {
+   "say": "It's worth pausing on how this stage feels, because it's so distinctive. There's often a sense of surprise, and then a sense of rightness, almost relief. The pieces suddenly seem to belong together, as if they'd always been meant to. People describe it in very similar ways, across centuries and across very different kinds of work. The light comes on, and for a moment, everything looks clear.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "text": "The light comes on.",
+    "by": "Illumination"
+   }
+  },
+  {
+   "say": "Wallas also noticed something subtle. Just before illumination, people sometimes have a faint sense that an idea is on its way. A kind of feeling of nearness, without any content yet. It's like sensing that a name is on the tip of your tongue. Maybe you've felt it, a small stirring, a sense that you're about to understand something. Some writers have noticed it too, in their own accounts.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "A feeling before the idea",
+    "sub": "Something is coming"
+   }
+  },
+  {
+   "say": "And the fourth stage is the least glamorous. Verification. You check the idea. Does it actually work? Does the maths add up? Does the story hold together across thirty pages? Many lovely ideas don't survive this stage, and that's fine. For Mira, verification will be the next few weeks, turning her jar of sounds into an actual book, page by page, and finding out where the idea needs a little help.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "Stage four",
+    "sub": "Verification"
+   }
+  },
+  {
+   "say": "Now, Wallas wasn't describing a strict recipe, and modern researchers don't treat his four stages as a fixed law. Real creative work loops around. You prepare, you incubate, you get a small idea, you check it, and then you go back and prepare some more. Big projects might contain hundreds of these little cycles. It's less like a staircase and more like a gentle rhythm, going round and round.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "Not a strict recipe",
+    "sub": "More like a rhythm"
+   }
+  },
+  {
+   "say": "But the four stages still matter, because they quietly correct our myth. The flash, illumination, needs the stages before it. Preparation fills the mind. Incubation lets it work in the background. Only then does the light come on. And after the light, there's still the work of checking. Seen this way, a sudden idea isn't really sudden at all. It's the visible end of a long, hidden process.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "text": "Preparation, incubation, illumination, verification.",
+    "by": "Graham Wallas, 1926"
+   }
+  },
+  {
+   "say": "So where is Mira tonight? She's just passed through illumination, and she's standing at the doorway to verification. The envelope says jar of sounds. Tomorrow, she'll start to find out whether that idea can carry a whole book. But for now, she's simply enjoying the glow of having something, after three weeks of having nothing. And that glow is worth enjoying.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "Where Mira stands",
+    "sub": "Somewhere between three and four"
+   }
+  },
+  {
+   "say": "There's a kind lesson hidden in Wallas's map. If you're stuck on something right now, a problem at work, a decision, a creative project that won't come together, it may be that you're simply in the first or second stage. Preparation and incubation don't feel like progress. They feel like nothing happening. But they're where most of the real work quietly gets done.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A kinder lesson",
+    "sub": "About being stuck"
+   }
+  },
+  {
+   "say": "Wallas didn't invent his stages out of nowhere either. He drew partly on the story of a famous French mathematician, who described, in his own words, exactly how one of his best ideas arrived. Unlike Archimedes, this man wrote his own account. And his story has a particularly ordinary setting. Not a bath this time, but the step of a bus.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Next, a mathematician",
+    "sub": "And a bus"
+   }
+  },
+  {
+   "say": "Before we travel, let's place Mira's evening on Wallas's map one more time. Preparation was her three weeks of sketches. Incubation was giving up for the night. Illumination was the idea in the shower. And verification will be tomorrow's pages, when she finds out whether the jar of sounds can carry a whole book. Four stages, one ordinary evening.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "title": "Mira's four stages",
+    "items": [
+     "Preparation: three weeks of sketches",
+     "Incubation: giving up for the night",
+     "Illumination: the shower",
+     "Verification: tomorrow's pages"
+    ]
+   }
+  },
+  {
+   "say": "So let's go there next. We'll travel to France, more than a century ago, and listen to a mathematician describe the moment an idea arrived on a quiet day out. It's a story that has fascinated psychologists ever since. And it fits Wallas's four stages almost perfectly, which, as we'll see, is no coincidence at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Let's go there next",
+    "sub": "A short trip"
+   }
+  }
+ ]
+}

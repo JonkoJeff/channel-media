@@ -1,0 +1,213 @@
+{
+ "id": "lf38_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The story goes like this. Long ago, in the Greek city of Syracuse, a king had a new crown made of gold. But he suspected the goldsmith had secretly mixed in some cheaper silver. So he asked a great thinker, Archimedes, to find out the truth, without damaging the crown. And for a while, Archimedes had no idea how to do it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 2,
+    "title": "Eureka"
+   }
+  },
+  {
+   "say": "Then, so the story says, he stepped into a bath. As he sank down, he noticed the water rising, spilling over the sides. And suddenly he understood. An object pushes aside water according to its size. A crown with silver mixed in would be bulkier than pure gold of the same weight, and would push aside more water. He could test the crown without harming it at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Into the bath",
+    "sub": "Water rising"
+   }
+  },
+  {
+   "say": "The story says he was so delighted that he leapt out of the bath and ran home through the streets, without stopping to dress, shouting Eureka! Eureka! Which means, roughly, I have found it! It's one of the most famous moments in the history of ideas. It's the very picture of the sudden flash. A man, a bath, and a brilliant thought arriving all at once.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "cap": "Running through the streets",
+    "sub": "Eureka!"
+   }
+  },
+  {
+   "say": "Let's lay the story out simply. A king with a crown and a suspicion. A thinker who couldn't find the answer. A bath. Rising water. A sudden understanding. And a joyful run through the streets. It has everything a good story needs. A puzzle, a moment of magic, and a slightly comic ending. No wonder it's been retold for more than two thousand years.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "The eureka story",
+    "items": [
+     "A crown and a suspicion",
+     "A bath",
+     "Rising water",
+     "A sudden understanding",
+     "A run through the streets"
+    ]
+   }
+  },
+  {
+   "say": "But here's a quiet detail that changes things. Archimedes himself never told this story, as far as we know. It comes from a Roman writer called Vitruvius, in a book about architecture, written roughly two centuries after Archimedes had died. Two hundred years is a long time. It's like someone today describing the exact words a person shouted in the bath, at a time before anyone alive could remember them.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "A small problem",
+    "sub": "Who told the story?"
+   }
+  },
+  {
+   "say": "That doesn't mean the story is false. Archimedes was a real and brilliant thinker, and his work on objects in water was real. But the bath, the running, the shouting, these are the parts that make a story memorable, and they're exactly the parts that tend to grow in the retelling. Over time, the long, careful thinking drops away, and the dramatic moment remains.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "text": "Eureka! I have found it!",
+    "by": "The story, as Vitruvius told it"
+   }
+  },
+  {
+   "say": "This happens with lots of famous creative moments. They're usually told later, sometimes much later, often by someone else. And each time a story is told, it tends to become a little neater. The dull parts, the false starts, the weeks of frustration, quietly disappear. What's left is the flash. Not because anyone is lying, but because that's how good stories work. They keep the moment, and lose the slow work.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "autumn_overlook",
+    "cap": "Stories polish themselves",
+    "sub": "Every retelling"
+   }
+  },
+  {
+   "say": "Picture a quiet stone bathhouse, warm light on still water. It's a beautiful scene, and it's easy to see why the story has lasted so long. But notice what the picture leaves out. It leaves out all the hours Archimedes must have spent thinking about weight and size and water before he ever stepped into that bath. The bath might be where the idea surfaced. It isn't where it began.",
+   "show": {
+    "type": "photo",
+    "file": "lf38_b02_01.jpg",
+    "cap": "An old bath, an old story"
+   }
+  },
+  {
+   "say": "And the idea that inspiration comes from outside us is older still. In ancient Greece, poets would begin by calling on a Muse, a goddess of the arts, to sing through them. The poem wasn't really theirs, the tradition suggested. It was given to them. For a long time, in many cultures, creativity was thought of as something that visits a person, rather than something a person does.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Older still",
+    "sub": "Ideas from outside"
+   }
+  },
+  {
+   "say": "Over the centuries, people have described the source of ideas in many ways. A Muse who sings through you. A guardian spirit who whispers. A sudden gift. A flash of lightning. Pure luck. All of these descriptions share one thing. The idea comes from somewhere else. The person who has it is almost a bystander, simply lucky enough to be standing in the right place when it lands.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Where ideas were said to come from",
+    "items": [
+     "A Muse who sings through you",
+     "A guardian spirit",
+     "A sudden gift",
+     "A flash of lightning",
+     "Pure luck"
+    ]
+   }
+  },
+  {
+   "say": "And honestly, it's easy to see why. That's exactly what it felt like for Mira in the shower. She wasn't trying. She wasn't concentrating. The idea seemed to come from outside her, fully formed. If you had asked her in that moment where the idea came from, she might well have said, I don't know, it just arrived. That's the feeling these old stories are trying to capture.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Why that feels right",
+    "sub": "Because it feels like that"
+   }
+  },
+  {
+   "say": "But the old view has a gentle problem. If ideas come from outside, then there isn't much you can do except wait. And waiting can feel awful. It can make people believe they simply aren't creative, because the gift never seems to arrive for them. Mira, after three weeks, was starting to feel exactly that. Maybe I've run out, she had thought. Maybe the ideas have stopped coming.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle problem",
+    "sub": "With waiting for the Muse"
+   }
+  },
+  {
+   "say": "In the last century or so, people started asking a different question. Not where do ideas come from, as if they arrived from the sky, but what is happening inside a person's mind, before, during and after the moment of insight. And once people started looking at it that way, the picture began to change. The sudden flash turned out to have a long, quiet story behind it.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "A new question",
+    "sub": "What happens inside?"
+   }
+  },
+  {
+   "say": "That shift sounds small, but it changed everything. Instead of asking where ideas come from, as if they arrived from outside, people began asking what happens inside a mind before, during and after an idea. It's the difference between waiting for a letter and learning how the post office works. And once people looked inside, the flash began to look very different.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "text": "Not where ideas come from, but what happens inside.",
+    "by": "A new kind of question"
+   }
+  },
+  {
+   "say": "So here's a first gentle verdict on our myth. Do great ideas strike out of nowhere? The moment can feel that way. The arrival can be genuinely sudden. But the famous stories that support the myth were usually told long afterwards, and they leave out the slow work that came first. The flash, it seems, is real. The nowhere is not. It's somewhere, and it takes time.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Myth versus science",
+    "sub": "A first verdict"
+   }
+  },
+  {
+   "say": "In Mira's kitchen, the envelope with three words on it is now leaning against the teapot. Jar of sounds. She can't stop glancing at it. She knows, in a vague way, that it didn't really come from nowhere. Some of those half-drawn lanterns on her desk were part of it. Some of the little girl was there all along. But how exactly did the pieces join together?",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Back to Mira",
+    "sub": "The envelope on the table"
+   }
+  },
+  {
+   "say": "To answer that, we'll meet a thoughtful man who, almost a hundred years ago, tried to describe the whole journey of a creative idea, from the first effort to the final polish. He gave it four stages. And although his book is old, those four stages still turn up in creativity research today. They'll be a kind of map for the rest of our evening, and for Mira's.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A man with a theory",
+    "sub": "And four stages"
+   }
+  },
+  {
+   "say": "Here they are, just as a gentle preview. Preparation. Incubation. Illumination. Verification. Four long words that describe something very simple. Work on it. Leave it. Watch it arrive. Check that it works. You don't need to remember them now. We'll walk through each one slowly, and you'll find that you already know them from your own life.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Coming up next",
+    "items": [
+     "Preparation",
+     "Incubation",
+     "Illumination",
+     "Verification"
+    ]
+   }
+  },
+  {
+   "say": "So settle in a little deeper. Let your breathing slow, if it wants to. We'll take a look at those four stages next, one at a time, and see where Mira's shower fits into them. And we'll find that the moment she treasured most, the moment of the idea arriving, is only one part of a longer and gentler process. A process you've almost certainly been through yourself.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Settle in",
+    "sub": "The map comes next"
+   }
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "id": "lf38_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a little puzzle to try, slowly, in your head. I'll give you three words, and you're looking for a fourth word that goes with each of them to make a familiar compound word or phrase. The three words are pine, crab, and sauce. Pine. Crab. Sauce. What single word fits with all three? Take your time. There's no rush at all.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "n": 9,
+    "title": "The aha moment"
+   }
+  },
+  {
+   "say": "You might find yourself trying words one by one. Pine tree? Crab cake? Tree doesn't go with sauce. Cake doesn't go with pine. Then, perhaps, the answer simply appears. Apple. Pineapple. Crab apple. Apple sauce. If it came to you like that, all at once, you've just had a tiny aha moment. And if it didn't, that's fine too. Now you know.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Searching",
+    "sub": "Turning words over"
+   }
+  },
+  {
+   "say": "People solve puzzles like this in two different ways. Sometimes they get there step by step, trying options and checking them, until one fits. Other times, the answer just pops into their head, with that small jolt of surprise and certainty. Pineapple! And people can usually tell you which way it happened. The feeling of a sudden insight is quite distinct from the feeling of slowly working something out.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "cap": "Two ways to an answer",
+    "sub": "Step by step, or all at once"
+   }
+  },
+  {
+   "say": "In a study published in 2004 in the journal PLoS Biology, Mark Jung-Beeman, John Kounios and their colleagues used puzzles exactly like this one. People solved them while their brain activity was being recorded, and after each answer, they pressed a button to say whether the answer had come with a feeling of insight, or step by step. Then the researchers compared what the brain was doing in each case.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "who": "Mark Jung-Beeman, John Kounios and colleagues",
+    "where": "PLoS Biology, 2004",
+    "what": "Word puzzles solved with or without an aha, while brain activity was recorded"
+   }
+  },
+  {
+   "say": "They used two different kinds of brain recordings. One, a brain scanner, is good at showing where activity happens, but not exactly when. The other, sensors on the scalp that pick up electrical activity, is good at showing when something happens, almost to the millisecond, but less precise about where. By combining them, the researchers could ask both where and when an aha moment happens.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Two methods",
+    "sub": "Two windows on the brain"
+   }
+  },
+  {
+   "say": "And they found a particular spot that stood out. It's an area in the right side of the brain, roughly above and in front of the right ear, called the right anterior superior temporal gyrus. A long name for a small region. When people solved puzzles with a feeling of insight, this area was more active than when they solved them step by step. It seemed to be specially involved in the aha.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "A spot on the right side",
+    "sub": "Above the ear"
+   }
+  },
+  {
+   "say": "But the most beautiful finding was about timing. About 0.3 seconds before people indicated an answer that came through insight, there was a sudden burst of high-frequency electrical activity, coming from that same region on the right side. A tiny flare, just a fraction of a second before the person knew the answer. As if a little lantern had lit in the dark, just before the light reached awareness.",
+   "show": {
+    "type": "photo",
+    "file": "lf38_b09_01.jpg",
+    "cap": "A burst of activity"
+   }
+  },
+  {
+   "say": "Think about that for a moment. Three tenths of a second. Less time than it takes to blink twice. The brain seemed to be finishing its work just before the answer arrived in the person's awareness. That's why the aha feels sudden. From the inside, there's no warning. The answer simply appears. But underneath, the brain had been working on it, and then, all at once, the pieces connected.",
+   "show": {
+    "type": "stat",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Before an insight answer",
+    "big": "0.3 s",
+    "label": "a burst of high-frequency activity"
+   }
+  },
+  {
+   "say": "Why the right side? The researchers suggested that this area may help us connect ideas that are only loosely or distantly related. Pine, crab and sauce don't have much in common at first glance. You need to reach out to more distant meanings to find apple. The right side of the brain, they suggested, may be especially good at holding these looser, wider connections, a kind of soft focus on meaning.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "autumn_overlook",
+    "cap": "Distant connections",
+    "sub": "Loosely linked ideas"
+   }
+  },
+  {
+   "say": "Now, a gentle warning. This doesn't mean that creative people are right-brained, or that logical people are left-brained. That popular idea is a myth, and we'll come back to it near the end of the story. Both sides of the brain work together all the time. What this study found is that one small region seems to play a particular role in a particular kind of moment. Not a whole personality.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Not left brain, right brain",
+    "sub": "A gentle warning"
+   }
+  },
+  {
+   "say": "The researchers and their colleagues went on to study what happens even before a puzzle is shown. In later work, they found hints that people's brain states before a problem might make them more or less likely to solve it with insight. A mind that's turned slightly inward, relaxed and open, may be more ready for an aha. A mind that's tightly focused on the outside world may be more likely to grind through step by step.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Before the puzzle",
+    "sub": "A quiet mind"
+   }
+  },
+  {
+   "say": "Let's put the moment together, step by step. First, groundwork laid in advance, from everything we know and have tried. Then, distant ideas brought together, somewhere out of sight. Then, a brief burst of activity on the right side of the brain. And then, the answer appears in awareness, with a little jolt of surprise. From the outside, a flash. From the inside, a sequence.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Inside an aha moment",
+    "items": [
+     "Groundwork laid in advance",
+     "Distant ideas brought together",
+     "A brief burst of activity",
+     "Then: the answer, and a jolt of surprise"
+    ]
+   }
+  },
+  {
+   "say": "So let's imagine Mira's moment in the shower one more time. Warm water, a drifting mind, her attention turned gently inward. Somewhere in her brain, loosely linked pieces, the creaking stair, the lantern, the little girl, something precious, were quietly being brought together. And then, perhaps, a small flare of activity, a fraction of a second before she knew. And then the idea. Jar of sounds.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Mira's moment",
+    "sub": "In the brain"
+   }
+  },
+  {
+   "say": "So what does all this tell us about the aha moment? It seems to be the end of a process, not the beginning. It involves distant ideas meeting in a new way. It feels sudden from the inside, because the work happens out of sight. And it's prepared from beneath, by everything we've learned and tried. The flash is real. But it's a flash at the end of a long, dark fuse.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "title": "What the aha moment seems to be",
+    "items": [
+     "The end of hidden work",
+     "Distant ideas meeting",
+     "Sudden from the inside",
+     "Prepared from beneath"
+    ]
+   }
+  },
+  {
+   "say": "And there's one more thing worth noticing about the aha moment. It feels good. That little burst of delight when the answer pops up is one of the nicest feelings a mind can have. Some researchers think this pleasure may help us. It marks the moment as important, so we remember it, and it encourages us to keep looking for more. It's a small reward for all that hidden work.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "A feeling with a purpose",
+    "sub": "The pleasure of insight"
+   }
+  },
+  {
+   "say": "And notice that the people in this study weren't famous geniuses. They were ordinary volunteers, solving word puzzles in a laboratory. And yet their brains showed the same kind of sudden insight that Poincaré described on his bus. The aha moment isn't reserved for the great. It's built into all of us. You've had hundreds of them, in small ways, without ever thinking of yourself as creative.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "Ordinary minds",
+    "sub": "Extraordinary moments"
+   }
+  },
+  {
+   "say": "There's one kind of pause we haven't looked at yet, and it may be the most powerful of all. It's the one we take every single night. People have long said, sleep on it, when facing a hard problem. Is that just a polite way of saying wait until tomorrow? Or does something happen to our thoughts while we sleep? Let's find out next, and let's get a little more comfortable while we do.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Next",
+    "sub": "Sleeping on it"
+   }
+  }
+ ]
+}

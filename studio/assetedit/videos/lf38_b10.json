@@ -1,0 +1,183 @@
+{
+ "id": "lf38_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Sleep on it. It's one of the oldest bits of advice there is. When you face a hard choice or a tangled problem, people tell you to wait until morning. Partly that's simple kindness. Things often look less frightening after a rest. But many people also have the feeling that something actually changes overnight. That a problem which seemed impossible at night can look strangely clear by breakfast.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "n": 10,
+    "title": "Sleeping on it"
+   }
+  },
+  {
+   "say": "One of the most famous stories of an overnight idea comes from the chemist August Kekulé. Chemists in his time were puzzling over the structure of a substance called benzene. How were its atoms arranged? Kekulé later said the answer came to him in a kind of daydream, half asleep by a fire, when he saw chains of atoms twisting like snakes, and one of them seized its own tail.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "A famous dream",
+    "sub": "A snake and its tail"
+   }
+  },
+  {
+   "say": "From that image, the story goes, came the idea of a ring. Benzene's atoms, he proposed, were arranged in a closed circle. It's a wonderful story. But like Archimedes and his bath, it's worth holding gently. Kekulé told it in a speech at a celebration in 1890, roughly twenty-five years after his idea. Memories polish themselves, and some historians have wondered how much of the dream was shaped by time.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "text": "One of the snakes seized hold of its own tail.",
+    "by": "Kekulé's story, told decades later"
+   }
+  },
+  {
+   "say": "So we're back to the same problem as before. Lovely stories, but no way of knowing whether sleep really helped, or whether the idea would have arrived anyway. To find out, you'd need to give people a problem, let some of them sleep and keep others awake for the same amount of time, and see who finds the answer. In 2004, a team of researchers in Germany did exactly that.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Stories are not tests",
+    "sub": "We need experiments"
+   }
+  },
+  {
+   "say": "Their study, by Ullrich Wagner, Steffen Gais, Jan Born and their colleagues, was published in the journal Nature, with a title that sounds almost like a poem. Sleep inspires insight. They gave people a task that involved working through strings of numbers, step by step, using simple rules. It was a little tedious. But there was a secret hidden inside it.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "who": "Ullrich Wagner, Jan Born and colleagues",
+    "where": "Nature, 2004",
+    "what": "A number task with a hidden shortcut, tested after sleep or wake"
+   }
+  },
+  {
+   "say": "The secret was a shortcut. Because of the way the number strings were built, there was a hidden pattern that let you jump straight to the final answer, without doing all the steps. Nobody was told about it. If you noticed the pattern, you could suddenly finish each problem much faster. It was a perfect way to measure insight, because the moment someone discovered the shortcut showed up clearly in their speed.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "A hidden shortcut",
+    "sub": "Most people never notice"
+   }
+  },
+  {
+   "say": "First, everyone practised the task for a while, without discovering the shortcut. Then came an eight hour pause. One group slept through a normal night. Another group stayed awake through the night. And a third group stayed awake during the day. After the eight hours, everyone came back to the task. The question was simple. Who would discover the hidden shortcut?",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Practice, then a pause",
+    "sub": "Then back to the task"
+   }
+  },
+  {
+   "say": "Picture a bedroom in the soft early light, the morning after a full night's sleep. A notebook on the nightstand. Nothing dramatic has happened. Someone simply slept. And yet, in this experiment, a night like that made a remarkable difference to whether people saw the hidden pattern in their task.",
+   "show": {
+    "type": "photo",
+    "file": "lf38_b10_01.jpg",
+    "cap": "The morning after"
+   }
+  },
+  {
+   "say": "Here's what happened. After a night of sleep, 59 percent of people discovered the hidden shortcut. In the groups that stayed awake, either at night or during the day, it was only about 23 percent. More than twice as many people gained insight after sleeping. Same task, same practice, same amount of time. The only difference was eight hours of sleep.",
+   "show": {
+    "type": "stat",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Found the hidden shortcut after sleep",
+    "big": "59%",
+    "label": "compared with about 23% after staying awake"
+   }
+  },
+  {
+   "say": "And notice the clever part of the design. The people who stayed awake during the day weren't tired. They'd had a normal night. So the difference wasn't simply that the night-awake group was exhausted. Sleep itself seemed to be doing something to the memory of the task, reorganising it, perhaps making the hidden pattern easier to see when people came back in the morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "cap": "Not just tiredness",
+    "sub": "The day group too"
+   }
+  },
+  {
+   "say": "It's important to notice that everyone practised the task before sleeping. Sleep didn't conjure the shortcut out of nothing. It worked on the material that people had already put in. That's Wallas and Poincaré again. Preparation first, then incubation. In this case, the incubation happened in sleep. The brain seemed to take the day's practice and quietly look at it from new angles during the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Practice first",
+    "sub": "Sleep doesn't work alone"
+   }
+  },
+  {
+   "say": "Researchers think sleep does several things with what we've learned. It may replay recent experiences. It may strengthen what matters, and let unimportant details fade. And in doing so, it may help hidden patterns surface, the regularities that were buried under all the details. The shortcut was there all along. Sleep may simply have made it easier to see.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "title": "What sleep may do",
+    "items": [
+     "Replay the day's learning",
+     "Strengthen what matters",
+     "Loosen what doesn't",
+     "Help hidden patterns surface"
+    ]
+   }
+  },
+  {
+   "say": "Of course, sleep isn't magic. Not everyone who slept found the shortcut, and some people who stayed awake did. And a full night's sleep won't turn a poorly understood problem into a brilliant solution. But this study, and others that followed, suggest that sleep is an active time for the mind. It isn't just switching off. It's a time when the brain quietly works through the day.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "A gentle caution",
+    "sub": "Sleep isn't magic"
+   }
+  },
+  {
+   "say": "Mira, by now, is in her pyjamas. The envelope is propped up by the bed, next to a pencil, just in case. She's tired in that lovely way that comes after a good idea. She doesn't know it, but tonight her sleeping brain may well keep working on the girl and her jars, sorting the sounds, trying out pages, preparing a few small surprises for the morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Mira's night",
+    "sub": "Ahead of her"
+   }
+  },
+  {
+   "say": "So here's a kind piece of advice from all this. If you're facing a hard problem, it can be worth working on it properly during the day, and then genuinely letting it go at night. Not lying awake worrying, but resting. Sleep isn't wasted time. It may be one of the best thinking tools you have. And it costs nothing at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "cap": "Practical kindness",
+    "sub": "For problem solvers"
+   }
+  },
+  {
+   "say": "So that old advice, sleep on it, turns out to be rather wise. It isn't just a way of delaying a decision. It may give the mind a real chance to reorganise what it has learned. Your grandmother may have known this all along. Now there's an experiment to back her up.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "text": "Sleep on it.",
+    "by": "Old advice, newly tested"
+   }
+  },
+  {
+   "say": "But there's one more moment, even more delicate than a full night's sleep, that has fascinated inventors and artists for a long time. It's the brief, drifting moment just as we fall asleep, when thoughts become dreamlike, and the world slips away. Some famous figures tried to capture ideas from exactly that moment, using a rather odd trick. And in 2021, scientists finally tested it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "The edge of sleep",
+    "sub": "A very special moment"
+   }
+  }
+ ]
+}

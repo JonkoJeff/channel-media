@@ -1,0 +1,189 @@
+{
+ "id": "lf38_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now let's travel slowly through the body, softening each part as we go. There's no right way to do this. If your attention wanders, that's fine. Simply come back to wherever we are, whenever you notice. And if you fall asleep before we finish, that's even better. Let's begin at the very top, with the crown of your head.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Softening the body",
+    "sub": "Part by part"
+   }
+  },
+  {
+   "say": "Bring your attention to the top of your head. Imagine a gentle warmth resting there, like sunlight on a quiet afternoon. Let the skin of your scalp soften. Let any tightness there melt away. There's nothing to think about up here tonight. No ideas to chase. Just warmth, and softness, slowly spreading.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The top of the head",
+    "sub": "Softening"
+   }
+  },
+  {
+   "say": "Let that warmth move down to your forehead. Notice if there's any frown there, any small tension left over from the day. And let it smooth out, the way sand smooths when a wave washes over it. Your forehead is wide and calm. Your eyebrows relax. The space between them grows soft and open.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "The forehead",
+    "sub": "Smoothing"
+   }
+  },
+  {
+   "say": "Here's the slow path we'll take, softening as we go. Your scalp. Your forehead. Your eyes. Your jaw. Your shoulders. Your arms and hands. And then, slowly, all the way down to your feet. You don't need to remember the order. Just follow along, part by part, and let each one rest.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Softening, one by one",
+    "items": [
+     "Scalp",
+     "Forehead",
+     "Eyes",
+     "Jaw",
+     "Shoulders",
+     "Arms and hands"
+    ]
+   }
+  },
+  {
+   "say": "Now your eyes. Let your eyelids feel heavy, heavy and soft, like curtains drawn for the night. Let the small muscles around your eyes relax. Your eyes have been working all day, reading, watching, looking. They can rest now. There's nothing more to see tonight. Just soft darkness, and quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The eyes",
+    "sub": "Heavy and soft"
+   }
+  },
+  {
+   "say": "Let your attention drift down to your jaw. Many of us hold tension here without noticing. Let your teeth part slightly. Let your tongue rest softly in your mouth. Let your jaw hang loose and easy, as if it had nothing left to say today. Because it doesn't. The day's words are done.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The jaw",
+    "sub": "Letting go"
+   }
+  },
+  {
+   "say": "Picture a soft pillow and a warm blanket in dim golden light. A closed book resting beside them. Everything about this picture is still. Everything is soft. That's how your face can feel now. Soft, heavy, and still. Like a room where the lamp has been turned down low, and nothing needs to happen until morning.",
+   "show": {
+    "type": "photo",
+    "file": "lf38_b16_01.jpg",
+    "cap": "Soft and heavy"
+   }
+  },
+  {
+   "say": "Now your neck and shoulders. Let your shoulders drop, just a little, away from your ears. And then a little more. Imagine the weight of the day sliding off them, like a heavy coat taken off at the door. Your neck softens. Your shoulders widen. There's nothing you need to carry anymore tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "The neck and shoulders",
+    "sub": "Dropping down"
+   }
+  },
+  {
+   "say": "Let that softness flow down through your arms. Your upper arms. Your elbows. Your forearms. Let them grow heavy and warm, sinking into the bed or the sofa beneath you. Your arms have done so much today. Lifting, reaching, holding. Now they can simply lie still, heavy and loose, held by whatever is beneath them.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The arms",
+    "sub": "Heavy and warm"
+   }
+  },
+  {
+   "say": "Here's a small thought to rest with, as your arms grow heavy. There's nothing you need to carry tonight. Not your worries. Not your plans. Not your unfinished ideas. They can all be set down, like jars on a shelf. They'll be there in the morning, if you need them. For now, your hands are empty, and that's just fine.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "text": "There's nothing you need to carry tonight.",
+    "by": "A thought for the shoulders"
+   }
+  },
+  {
+   "say": "Now your hands. Let your fingers uncurl, if they're curled. Let your palms soften. Imagine a little warmth gathering in each hand, like holding a cup of tea on a cold evening. Your hands are open and still. There's no pencil to hold, no bottle, no envelope. Just open hands, resting.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The hands",
+    "sub": "Open and still"
+   }
+  },
+  {
+   "say": "Bring your attention to your chest. Notice it gently rising as you breathe in, and falling as you breathe out. Rising, and falling. Like a small boat on a calm sea, lifted softly by each wave and lowered again. Let your chest feel wide and open. Let your heartbeat be slow and steady, keeping quiet time through the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "The chest",
+    "sub": "Rising and falling"
+   }
+  },
+  {
+   "say": "Let your belly soften too. Many of us hold it tight without noticing. Let it be loose and easy, rising and falling with each breath. There's no need to hold anything in. No need to sit up straight. Just let your belly be soft and warm, like a cat curled up asleep in a patch of evening sun.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The belly",
+    "sub": "Soft and easy"
+   }
+  },
+  {
+   "say": "And now, slowly, the rest of the way down. Your hips. Your legs. Your knees. Your ankles. And your feet. We're nearly there. You've been softening for a while now, and each part has had its turn to rest. Just a few more, and then your whole body will be soft and still, from the top of your head to the tips of your toes.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Still to soften",
+    "items": [
+     "Hips",
+     "Legs",
+     "Knees",
+     "Ankles",
+     "Feet"
+    ]
+   }
+  },
+  {
+   "say": "Let your hips grow heavy, sinking down. Let the large muscles of your legs relax, your thighs, your knees, your calves. Imagine your legs becoming so heavy and warm that they seem to sink right into the bed beneath you, held completely. They walked you through the whole day. Now they can rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The hips and legs",
+    "sub": "Sinking"
+   }
+  },
+  {
+   "say": "And finally, your feet. Your ankles. Your heels. The soles of your feet. Each of your toes, one by one. Let them all soften and grow warm. Your feet have carried you everywhere today, every step, every errand, every path. Thank them, quietly, if you like. And let them rest, completely, at last.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "The feet",
+    "sub": "All the way down"
+   }
+  },
+  {
+   "say": "Now notice your whole body, all at once. Soft and still, from the top of your head to the tips of your toes. Heavy, and warm, and held. Breathing slowly, all by itself. There's nothing you need to do. Nothing you need to fix. Nothing you need to think of. Just this soft, quiet body, resting in the dark, ready for sleep whenever sleep arrives.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The whole body",
+    "sub": "Soft and still"
+   }
+  }
+ ]
+}

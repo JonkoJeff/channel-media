@@ -1,0 +1,184 @@
+{
+ "id": "lf38_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine you're sitting at a table next to a wall. On the table there's a candle, a small box full of tacks, and a book of matches. Your task is simple. Fix the candle to the wall so that it can burn without dripping wax onto the table. Take a moment, if you like, and think about how you'd do it. There's no hurry tonight.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "n": 5,
+    "title": "Why we get stuck"
+   }
+  },
+  {
+   "say": "This is the famous candle problem, described by the psychologist Karl Duncker in a long work on problem solving, published in 1945. People who try it usually start by attempting to tack the candle straight to the wall, which doesn't work. Or they try melting some wax to glue the candle on, which doesn't really work either. They fiddle and frown. And many of them take a surprisingly long time to see the answer.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "who": "Karl Duncker",
+    "where": "Published in 1945",
+    "what": "The candle problem: a candle, a box of tacks, matches"
+   }
+  },
+  {
+   "say": "Here's the answer. Empty the tacks out of the box. Tack the box to the wall. Stand the candle in the box, like a little shelf, and light it. That's all. Once you see it, it seems almost too simple. The box was there the whole time. But for most people, the box wasn't a shelf. It was a container for tacks. And that's exactly where the trouble lies.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "cap": "The answer",
+    "sub": "Hidden in plain sight"
+   }
+  },
+  {
+   "say": "Duncker called this kind of blind spot functional fixedness. Once we've filed an object under one use, it becomes hard to see it any other way. The box is for holding tacks. So it doesn't occur to us that it could hold a candle. Our knowledge, which usually helps us so much, quietly closes a door. We stop seeing the box, and only see its usual job.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Functional fixedness",
+    "sub": "Stuck on what things are for"
+   }
+  },
+  {
+   "say": "You can probably find this in your own life. A coin can be a screwdriver, but we see money. A shoe can hold a door open, but we see something for walking. A heavy book can press a flower, but we see something to read. And perhaps most importantly, our own first idea about a problem can become the only idea we can see.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Everyday fixedness",
+    "items": [
+     "A coin is only money",
+     "A shoe is only for walking",
+     "A book is only for reading",
+     "A first idea is the only idea"
+    ]
+   }
+  },
+  {
+   "say": "That last one was Mira's trouble. In the first few days, she had drawn a fox in a coat, and she liked it. After that, without quite noticing, every new idea she had was a kind of variation on the fox. A different animal, a different coat, a different setting. She thought she was exploring. In fact, she was circling the same spot, like someone walking round and round the same block.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Mira's foxes",
+    "sub": "Stuck on a first idea"
+   }
+  },
+  {
+   "say": "A psychologist called Abraham Luchins showed something similar in experiments published in 1942. He gave people puzzles about measuring out water using jars of different sizes. The first few puzzles could all be solved with the same long method. Then came puzzles that had a much simpler solution. But many people kept using the long method, because it had worked before. They didn't see the shortcut right in front of them.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "who": "Abraham Luchins",
+    "where": "Published in 1942",
+    "what": "Water jar puzzles: one method that worked, used even when a simpler one was there"
+   }
+  },
+  {
+   "say": "This is sometimes called a mental set, or a groove. Once a way of thinking has worked a few times, the mind slips into it automatically, like a wheel into a familiar rut in a muddy road. That's usually helpful. It saves effort. But when a problem needs something new, the groove keeps steering us back to the old answer, again and again.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "A mental groove",
+    "sub": "Easy to fall into"
+   }
+  },
+  {
+   "say": "Picture a muddy country lane, with deep ruts left by years of wheels. Any cart that comes along will slide into them, whether it means to or not. To go somewhere new, it would have to climb out, which takes effort, and maybe a little help. Our habits of thought can be like this. The ruts aren't a flaw. They're simply what happens when a path has been used many times.",
+   "show": {
+    "type": "photo",
+    "file": "lf38_b05_01.jpg",
+    "cap": "A familiar groove"
+   }
+  },
+  {
+   "say": "Examples can create grooves too. In a study published in 1993, Steven Smith and his colleagues asked people to invent and draw new creatures for an imaginary planet. Some were first shown a few example creatures. Those people tended to copy features of the examples, like legs or antennae, into their own designs, even when they were told to make something different. The examples quietly fenced in their imagination.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "who": "Steven Smith and colleagues",
+    "where": "Published in 1993",
+    "what": "Draw new creatures; people shown examples copied their features"
+   }
+  },
+  {
+   "say": "And this can happen to experts too. In fact, deep knowledge sometimes makes it stronger. When you know a lot about how things are usually done, those usual ways come to mind first and loudest. That's part of why a fresh pair of eyes can sometimes see what a whole team of specialists has missed. Not because the newcomer is cleverer, but because their grooves are in different places.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Even experts",
+    "sub": "Sometimes especially experts"
+   }
+  },
+  {
+   "say": "Here's a gentle way to remember all this. The first idea can hide the next one. Not always, but often. Once something has taken root in your mind, it tends to crowd the space around it. That's not a failing. It's simply how a busy, efficient mind works. But it does mean that getting unstuck often involves loosening our grip on what we've already thought.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "The first idea can hide the next one.",
+    "by": "A gentle rule of thumb"
+   }
+  },
+  {
+   "say": "So how do you climb out of a groove? Sometimes, by deliberately trying something silly or opposite. Sometimes, by explaining the problem to someone else. Sometimes by changing what you're looking at, or where you're sitting. And sometimes, perhaps most surprisingly, by stopping altogether for a while. Letting the groove fade a little, so that when you come back, you're not quite so stuck in it.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "How to climb out",
+    "sub": "Of a groove"
+   }
+  },
+  {
+   "say": "In fact, one of the explanations for why breaks help is exactly this. When you step away, the wrong ideas that were blocking you start to fade, just a little. The fox loosens its grip. The long water jar method stops shouting so loudly. When you return, you're able to see the box as a shelf, because the tacks aren't filling your view anymore. Forgetting, in small amounts, can be a gift.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "Forgetting can help",
+    "sub": "A little"
+   }
+  },
+  {
+   "say": "Maybe that's part of what happened to Mira. During the day, the foxes and lighthouses filled her head. But in the warm, steamy quiet of the shower, she wasn't looking at her sketches. They had loosened their grip. And in the space they left behind, other pieces could finally meet. A little girl. Something precious. Something kept in jars. Something you can hear but not see.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Back in the shower",
+    "sub": "Without the foxes"
+   }
+  },
+  {
+   "say": "So here's the idea we'd like to test, stated simply. Stepping away from a problem can let a groove fade, so a fresh path can appear. It's a lovely thought, and it fits Mira's shower and Poincaré's bus. But a lovely thought isn't the same as a fact. So let's see what happened when researchers put it to the test, again and again, with many different puzzles.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "text": "Stepping away can let a groove fade.",
+    "by": "A gentle idea to test"
+   }
+  },
+  {
+   "say": "That's a nice explanation, but it's still only a story. So the next question is the one scientists have spent decades testing. Does stepping away from a problem really help people solve it? Is incubation real, or just a comforting excuse for taking a break? The answer, after many experiments, is surprisingly clear. Let's look at it together next.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "cap": "Does stepping away",
+    "sub": "Really work?"
+   }
+  }
+ ]
+}

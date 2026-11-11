@@ -1,0 +1,190 @@
+{
+ "id": "lf38_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "For a long time, the idea of incubation lived mostly in stories. Poincaré on his bus. Writers who found their plots on long walks. People who woke up with the answer to yesterday's problem. They were lovely stories, but stories aren't evidence. So psychologists began to test the idea directly, in a simple and rather elegant way.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 6,
+    "title": "Stepping away"
+   }
+  },
+  {
+   "say": "The basic experiment goes like this. People are given a problem to work on for a while. Then some of them keep going without a break, while others are interrupted and given a pause, doing something else, or simply resting. Afterwards, everyone comes back to the problem. If incubation is real, the people who had a break should do better than those who kept working the whole time.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A simple design",
+    "sub": "Work, pause, return"
+   }
+  },
+  {
+   "say": "Researchers used different kinds of problems. Some had many possible answers, like thinking of as many unusual uses for a brick as you can. These are called divergent thinking tasks, because the mind spreads outwards. Others had one hidden answer, like a riddle or a puzzle that needs a sudden shift in how you see it. These are often called insight problems. Both kinds were tested.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "title": "Two kinds of problems",
+    "items": [
+     "Many answers: uses for a brick",
+     "One hidden answer: a riddle or puzzle"
+    ]
+   }
+  },
+  {
+   "say": "Over the years, the results were a little mixed. Some experiments found a clear benefit from taking a break. Others found almost nothing. That's quite normal in science. Small studies can point in different directions, depending on the exact puzzle, the length of the break, and what people did during it. To get a clearer picture, someone needed to gather all of these studies together and look at them as a whole.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Mixed results",
+    "sub": "At first"
+   }
+  },
+  {
+   "say": "In 2009, two researchers, Ut Na Sio and Thomas Ormerod, did exactly that. They published what's called a meta-analysis in the journal Psychological Bulletin. That means they collected the results of many earlier incubation experiments and combined them, to see what held up across all of them. It's a bit like stepping back from a crowd of individual voices, and listening to what they're saying together.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "who": "Ut Na Sio and Thomas Ormerod",
+    "where": "Psychological Bulletin, 2009",
+    "what": "Combined many incubation studies into one analysis"
+   }
+  },
+  {
+   "say": "And their conclusion was clear. Across the studies, they found what they called a positive incubation effect. Taking a break from a problem really did tend to help people solve it. Not magically, and not in every single study, but reliably enough to show up when everything was put together. The old stories of buses and baths, it turned out, were pointing at something real.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "text": "A positive incubation effect",
+    "by": "Sio and Ormerod, 2009"
+   }
+  },
+  {
+   "say": "They also found that the benefit was largest for divergent thinking tasks, the problems with many possible answers, like finding uses for a brick, or new ideas for a story. For these, a pause seemed to help especially well. That's encouraging for anyone doing creative work. Mira's problem, finding one good idea among endless possible picture books, is exactly this kind of problem.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "cap": "Especially for",
+    "sub": "Many-answer problems"
+   }
+  },
+  {
+   "say": "Picture an ordinary brick, sitting on a garden bench. How many uses can you think of? A doorstop. A paperweight. A step to reach a high shelf. A bookend. A tiny garden wall. If you kept going, the ideas would slow down after a while. And this is where a break can help. People who come back after a pause often find a few more uses that hadn't occurred to them before.",
+   "show": {
+    "type": "photo",
+    "file": "lf38_b06_01.jpg",
+    "cap": "How many uses for a brick?"
+   }
+  },
+  {
+   "say": "Sio and Ormerod also found something that Poincaré would have recognised. The incubation effect tended to be greater when people had spent longer working on the problem before the break. In other words, the pause helps most when it follows real effort. Preparation and incubation work together. A break after five seconds of thinking isn't the same as a break after a good, honest struggle.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Preparation counts",
+    "sub": "Longer work, bigger effect"
+   }
+  },
+  {
+   "say": "And perhaps most interesting of all, what people did during the break seemed to matter. Breaks filled with very demanding tasks gave a smaller benefit. And for some puzzles, a light, easy activity during the pause seemed to help more than simply resting. That's a curious finding. Why would doing something easy be better than doing nothing at all? We'll come back to that question in a little while.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "What you do",
+    "sub": "In the pause"
+   }
+  },
+  {
+   "say": "So, gently summarised, here's what seemed to help most. Real effort first. Then a genuine break. Something light during the break, rather than something demanding. And then coming back to the problem with fresh eyes. It sounds a lot like a shower after three weeks of sketches. Or a bus ride after days at a desk. Ordinary, and quite reassuring.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "title": "What helped most",
+    "items": [
+     "Real effort first",
+     "Then a genuine break",
+     "Something light, not demanding",
+     "Then come back"
+    ]
+   }
+  },
+  {
+   "say": "Why might stepping away help? Researchers have a few ideas, and they may all be partly true. One is that a break lets wrong ideas fade, so the right one can be seen, just as we talked about with grooves. Another is that the mind keeps working quietly in the background, connecting things without our awareness. And another is that when you come back, you simply see the problem differently.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Why might it work?",
+    "sub": "A few ideas"
+   }
+  },
+  {
+   "say": "There's one more helper worth mentioning. When you have a problem on your mind, you become a little more likely to notice things that relate to it. Something in the world can catch your attention and give you a clue. A sound, a shape, an overheard phrase. If the problem is still gently simmering, that small clue can land in exactly the right place.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "Fading and noticing",
+    "sub": "Two gentle helpers"
+   }
+  },
+  {
+   "say": "Perhaps that happened to Mira too. Earlier that evening, as she climbed the stairs to her studio, one step had creaked, the way it always does. She'd barely noticed. But maybe that small sound stayed with her. And in the shower, with the foxes faded and her mind drifting, the creak met the little girl and the lantern. A girl who collects sounds. It's impossible to know for sure, but it's a lovely thought.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Mira's clue",
+    "sub": "A creaking stair"
+   }
+  },
+  {
+   "say": "Let's gather those possibilities together. Wrong ideas fade, so the right one can be seen. The mind may keep working quietly in the background. We come back with fresh eyes. And while the problem gently simmers, we may notice clues in the world around us. None of these needs to be the whole answer. Together, they make a break a surprisingly useful thing.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Why a break may help",
+    "items": [
+     "Wrong ideas fade",
+     "Quiet background work",
+     "Fresh eyes on return",
+     "Clues noticed along the way"
+    ]
+   }
+  },
+  {
+   "say": "So here's a kind conclusion from all those experiments. Taking a break from a hard problem isn't laziness, and it isn't giving up. Done after real effort, it can be part of the work itself. That's worth remembering the next time you feel guilty for stepping away from something difficult. The pause may be doing more than it seems.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "A break isn't laziness",
+    "sub": "It can be part of the work"
+   }
+  },
+  {
+   "say": "But we still have that puzzle. Why would a light, easy activity sometimes help more than simply resting? To answer it, we need to look at something your mind does all day long, often without you noticing. It drifts. It wanders. It slips away from what's in front of it. And it turns out that this drifting may be one of the most creative things your mind does.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "cap": "Next",
+    "sub": "The wandering mind"
+   }
+  }
+ ]
+}

@@ -1,0 +1,200 @@
+{
+ "id": "lf38_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "It's eleven o'clock at night, and someone called Mira is staring at a blank page. Mira isn't a real person. She's someone we've imagined for tonight, so we can follow one small creative struggle from the inside. But you might recognise a lot of it. She draws pictures for children's books, and for three weeks now, she has been trying to find one idea. Just one. And it simply won't come.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Eleven at night",
+    "sub": "A blank page"
+   }
+  },
+  {
+   "say": "Her desk is covered in sketches. A fox in a coat. A lighthouse with a face. A small girl holding a lantern. Each one is fine. Each one is, in its way, perfectly nice. But none of them is the idea, the one that makes her sit up and think, yes, that's it. And tonight, tired and a little cross with herself, she finally puts the pencil down and decides to give up, at least until morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Three weeks of sketches",
+    "sub": "None of them right"
+   }
+  },
+  {
+   "say": "So she does something completely ordinary. She runs a hot shower. The bathroom fills with steam. The water drums softly on the tiles. She isn't thinking about the book anymore. She's thinking about nothing much at all, about the warmth, about whether she remembered to lock the back door. Her mind just drifts, the way minds do when there's nothing in particular to hold on to.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Giving up for the night",
+    "sub": "A hot shower"
+   }
+  },
+  {
+   "say": "Notice how little is happening in this moment. No pencil. No sketchbook. No effort at all. Mira isn't trying to be creative. She isn't trying to be anything. She's simply standing in warm water, letting her thoughts float wherever they like. Hold on to that picture, because by the end of tonight, we'll see that this small, ordinary moment was doing far more than it seemed.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "text": "Her mind just drifts.",
+    "by": "Mira, in the shower"
+   }
+  },
+  {
+   "say": "And then, in the middle of all that steam and nothing, it arrives. The whole idea, at once. Not a fox, not a lighthouse, but a small girl who collects lost sounds in jars. The creak of an old stair. A laugh from a summer long ago. She can see the pages, the colours, even the last picture. Mira stands there, dripping, almost laughing, because after three weeks of trying, it took no effort at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "And then",
+    "sub": "It simply arrives"
+   }
+  },
+  {
+   "say": "Maybe something like that has happened to you. The name you couldn't remember that pops up an hour later. The answer to a problem that appears while you're washing dishes, or walking to the shop, or lying in bed with the lights off. It feels like a gift from somewhere outside yourself. And it leaves behind a quiet, puzzling question. Where did that idea actually come from?",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A familiar mystery",
+    "sub": "Where did it come from?"
+   }
+  },
+  {
+   "say": "Here's what we'll explore together tonight. The myth of the sudden flash. Four old stages of thought, written down nearly a century ago. A famous mathematician stepping onto a bus. Why we get stuck in the first place. What happens when we step away. The wandering mind. Ideas that arrive on foot. What the aha moment looks like inside the brain. Sleeping on a problem. And the strange, creative edge between waking and sleep.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "The myth of the sudden flash",
+     "Four old stages of thought",
+     "A mathematician on a bus",
+     "Why we get stuck",
+     "Stepping away",
+     "The wandering mind",
+     "Ideas on foot",
+     "The aha moment in the brain",
+     "Sleeping on it",
+     "The edge of sleep"
+    ]
+   }
+  },
+  {
+   "say": "We'll take it slowly. First we'll follow Mira's idea back to where it really started, and look at what scientists have learned about creative moments, step by step. Then, about halfway through, we'll let the facts go and turn this into a long, gentle wind-down, so you can drift off whenever you're ready. There's nothing you need to remember tonight. Just listen, and let your mind wander a little. That turns out to be rather fitting.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "A slow evening",
+    "sub": "Then a slow wind-down"
+   }
+  },
+  {
+   "say": "And one small promise before we begin. Tonight isn't about rare geniuses, or about people who are simply born creative. It's about something much more ordinary, something that happens in almost every mind, including yours. The way a stuck problem can quietly loosen. The way a new thought can surface when you least expect it. You don't need to be an artist to have these moments. You have them already.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "No genius required",
+    "sub": "Just a curious mind"
+   }
+  },
+  {
+   "say": "Picture Mira's desk for a moment, the way she left it before her shower. The lamp still on. Loose pages everywhere, half-finished foxes and lighthouses. It looks like a place where nothing worked. But tonight we'll discover that this messy desk is a very important part of the story. The idea in the shower didn't come from nowhere. In a quiet way, it came from here.",
+   "show": {
+    "type": "photo",
+    "file": "lf38_b01_01.jpg",
+    "cap": "Three weeks of sketches"
+   }
+  },
+  {
+   "say": "Let's start with the story we usually tell about creative ideas. It's the story of the flash. One moment, nothing. The next, a brilliant idea, complete and perfect, dropping into someone's head like a coin into a well. It's a lovely story. It's dramatic, and it's easy to tell. And it shapes how many of us feel about our own creativity, often in a way that isn't very kind.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 1,
+    "title": "The myth of the flash"
+   }
+  },
+  {
+   "say": "Here's the belief, stated plainly. Great ideas strike out of nowhere. Either the flash comes to you, or it doesn't, and there's very little you can do about it. Some people are simply the lucky ones, the creative ones, and the rest of us just have to wait. It's an old belief, and a powerful one. Tonight, we'll look at it gently, and see how much of it really holds up.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "text": "Great ideas strike out of nowhere.",
+    "by": "Myth"
+   }
+  },
+  {
+   "say": "Part of the reason the myth is so convincing is that it matches how ideas feel. When Mira's idea arrived, it really did feel sudden. She didn't experience any slow building, any gradual assembly. She experienced a moment. So when people describe their creative breakthroughs, they naturally describe that moment, because it's the part they remember. The long, quiet work before it fades into the background.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Why the story sticks",
+    "sub": "It feels true"
+   }
+  },
+  {
+   "say": "But Mira's moment had three weeks behind it. Three weeks of sketches that didn't work, of turning the problem over, of filling her head with foxes and lanterns and lighthouses. In the shower, none of that seemed to matter. It felt as if the idea had nothing to do with all that effort. And that, as we'll see, is one of the most interesting illusions in the whole story of creativity.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "The part we forget",
+    "sub": "The weeks before"
+   }
+  },
+  {
+   "say": "So here's where we're heading tonight. Instead of ideas as lightning, we'll look at ideas as something more like seeds. Something you plant, without knowing quite when it will come up. Something that grows partly in the dark, while you're doing something else entirely. That picture is closer to what the research shows. And it's a much kinder picture, because it means you're not just waiting for luck.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "A kinder picture",
+    "sub": "Ideas can be grown"
+   }
+  },
+  {
+   "say": "So here are the two pictures we'll compare tonight. In the first, an idea is like lightning, sudden, bright, and coming from outside, with nothing you can do to call it. In the second, an idea is like a seed, planted through effort, growing quietly underground, and coming up in its own time. Keep both pictures in mind, and let's see which one the evidence supports.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Two pictures of an idea",
+    "items": [
+     "Lightning: sudden, from outside",
+     "A seed: planted, grows in the dark"
+    ]
+   }
+  },
+  {
+   "say": "Back in the bathroom, Mira wraps herself in a towel and hurries to find a pencil before the idea fades. She writes three words on the back of an envelope. Jar of sounds. She looks at them, and smiles. It feels like magic. But tonight, we're going to follow that little bit of magic backwards, step by step, and see what was really happening in her mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Back in the steam",
+    "sub": "Mira reaches for a towel"
+   }
+  },
+  {
+   "say": "And to do that, we'll start with one of the oldest stories of a sudden idea that there is. A story about a bath, as it happens, and a man running through the streets. It's a story almost everyone has heard. But where it came from, and how it was told, says a lot about why we believe in the flash. So get comfortable, and let's go back a very long way.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "So let's begin",
+    "sub": "With a very old story"
+   }
+  }
+ ]
+}

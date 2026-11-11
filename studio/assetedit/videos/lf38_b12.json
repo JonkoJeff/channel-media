@@ -1,0 +1,192 @@
+{
+ "id": "lf38_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We've spent most of the evening following one idea, from Mira's messy desk to her steamy shower to the edge of sleep. Before we slow down for the night, let's look gently at three popular beliefs about creativity that you've probably come across. Each one contains a small grain of something, but each one, in its usual form, turns out to be a myth.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 12,
+    "title": "Three last myths"
+   }
+  },
+  {
+   "say": "The first belief is that creative people are right-brained, and logical people are left-brained. You've probably seen quizzes that promise to tell you which side of your brain is dominant. It's a tidy idea. Art and imagination on the right, numbers and reason on the left. And it's easy to see why it feels true, because people really do differ in their strengths.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "text": "Creative people are right-brained.",
+    "by": "Myth"
+   }
+  },
+  {
+   "say": "The idea grew out of real research. Scientists studying people whose brain hemispheres had been surgically separated found that the two sides of the brain do specialise in some ways. Language, for example, depends more on the left side in most people. But somewhere between the laboratory and popular culture, these careful findings were stretched into a much bigger claim, about two kinds of people.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Where it came from",
+    "sub": "Real research, stretched"
+   }
+  },
+  {
+   "say": "When researchers looked for evidence of left-brained and right-brained people, they didn't find it. A large brain-scan study published in 2013, in the journal PLoS ONE, examined the brains of a large group of people at rest, and found no sign that individuals tend to use one side of their brain more than the other overall. Specific functions lean one way or the other. Whole people don't.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "What brain scans show",
+    "sub": "No left or right people"
+   }
+  },
+  {
+   "say": "And as we saw tonight, creativity isn't a one-side activity. The aha moment involved a region on the right, yes. But creative thinking also needs memory, language, focus, judgement and planning, spread across the whole brain. The wandering networks and the focusing networks work together. Mira's idea needed her whole brain, both sides, wandering and editing. So does yours.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "Creativity uses both",
+    "sub": "Wandering and focus"
+   }
+  },
+  {
+   "say": "The second belief is that the best way to get ideas is a group brainstorm. Everyone in a room, throwing out ideas, no criticism allowed. The word brainstorming was made popular by an advertising executive called Alex Osborn, around the middle of the last century, and it has been used in offices and classrooms ever since. It feels productive. Lots of voices, lots of energy.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "text": "Group brainstorming gives the most ideas.",
+    "by": "Myth"
+   }
+  },
+  {
+   "say": "But researchers who tested it found something surprising. In work published in 1987, Michael Diehl and Wolfgang Stroebe compared groups brainstorming together with the same number of people working alone, whose ideas were then pooled. Like many studies before them, they found that the people working alone produced more ideas in total. The lively room, it seemed, was holding people back.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "who": "Michael Diehl and Wolfgang Stroebe",
+    "where": "Published in 1987",
+    "what": "Groups talking together versus the same number of people working alone"
+   }
+  },
+  {
+   "say": "Why would that be? One big reason is something Diehl and Stroebe called production blocking. In a group, only one person can talk at a time. While you wait your turn, you may forget your idea, or stop thinking of new ones. People may also hold back ideas they worry sound silly. And groups can drift towards the first idea mentioned, the same groove we talked about earlier.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "title": "Why groups can lose ideas",
+    "items": [
+     "Waiting your turn to speak",
+     "Forgetting while you wait",
+     "Worrying what others think",
+     "Drifting toward the first idea"
+    ]
+   }
+  },
+  {
+   "say": "That doesn't mean groups are useless. Groups can be wonderful for building on ideas, judging them, and turning them into real plans. And some ways of working, like having people jot down ideas alone first and then share them, can bring together the best of both. But the picture of a noisy room as the ultimate idea machine turns out to be another myth.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "cap": "Groups still help",
+    "sub": "In other ways"
+   }
+  },
+  {
+   "say": "Picture a meeting room after everyone has gone home. Sticky notes scattered across the table. A whiteboard wiped clean. Plenty of ideas were spoken here today. But perhaps the best one is still waiting, in someone's head, to surface on their walk home or in their shower tonight. The group may have planted the seeds. The quiet afterwards might be where some of them grow.",
+   "show": {
+    "type": "photo",
+    "file": "lf38_b12_01.jpg",
+    "cap": "After the meeting"
+   }
+  },
+  {
+   "say": "The third belief is perhaps the most important, and the most unkind. That creativity is a special gift, which some people have and most people don't. That there are creative types, artists and inventors, and then everyone else, who simply aren't wired that way. Many people quietly believe this about themselves. I'm just not creative, they say, with a little shrug.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "text": "Creativity is a gift only some people have.",
+    "by": "Myth"
+   }
+  },
+  {
+   "say": "But think about everything we've seen tonight. Incubation helped ordinary volunteers. Walking helped ordinary students. Sleep helped ordinary people find a hidden shortcut. The aha moment showed up in the brains of ordinary people solving word puzzles. None of these studies were about rare geniuses. They were about processes that seem to happen in almost every human mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "What tonight has shown",
+    "sub": "Ordinary processes"
+   }
+  },
+  {
+   "say": "Researchers who study creative careers have noticed something else, too. Many of the people we remember as great creators were also enormously productive. They tried a great deal, and many of their attempts were ordinary. The psychologist Dean Keith Simonton has argued that, across a career, the number of hits tends to rise with the number of attempts. More sketches, more chances for a jar of sounds.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Quantity and quality",
+    "sub": "More tries, more hits"
+   }
+  },
+  {
+   "say": "Of course, people do differ. Some have more knowledge, more skill, more practice, or simply more time. Those things matter a lot. But they are mostly things that grow. Mira wasn't born knowing how to draw children's books. She learned, page by page, over many years. Her three weeks of foxes weren't a sign that she'd lost her gift. They were simply what the work looks like.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "Skill and practice",
+    "sub": "Matter a great deal"
+   }
+  },
+  {
+   "say": "So perhaps a kinder way to see it is this. Creativity is something you do, not something you are. It's a set of habits and processes, effort, pauses, wandering, sleep and checking, rather than a label stamped on you at birth. And anything that's done, rather than simply had, can be practised, nourished, and given a little more room.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "text": "Creativity is something you do, not something you are.",
+    "by": "A kinder way to see it"
+   }
+  },
+  {
+   "say": "And you are almost certainly creative in ways you don't notice. Finding a way to fix something with what's in the drawer. Making a meal out of odds and ends in the fridge. Thinking of the right thing to say to cheer someone up. Inventing a game for a bored child. These are all small acts of creativity. Small preparations, small incubations, small aha moments, happening all the time.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "You already do it",
+    "sub": "Every day"
+   }
+  },
+  {
+   "say": "So here are three gentle verdicts. Right-brained and left-brained people? A myth. Both sides work together. Group brainstorming gives the most ideas? Often not. Quiet solo thinking can produce more. Creativity is a gift only some have? A myth, and an unkind one. The processes that create ideas seem to be built into all of us. They only need time, effort, and a little room to wander.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Three verdicts",
+    "sub": "Gently delivered"
+   }
+  },
+  {
+   "say": "We're almost ready to rest now. There's just one last part of Mira's story to tell, the morning after her shower, when she sits down with fresh eyes and a cup of tea to find out whether her idea is as good as it felt. And then we'll gather together everything we've learned tonight, and slowly, gently, let it all go.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "One last look at Mira",
+    "sub": "And then rest"
+   }
+  }
+ ]
+}

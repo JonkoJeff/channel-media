@@ -1,0 +1,206 @@
+{
+ "id": "lf38_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Have you ever noticed what happens to your thoughts just as you're falling asleep? They start to loosen. One image slides into another. You might see a face, or a place, or hear a fragment of a sentence that doesn't quite make sense. Sometimes you jolt slightly, half awake again, wondering what you were just thinking about. That drifting, in-between moment has a special place in the story of creativity.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 11,
+    "title": "The edge of sleep"
+   }
+  },
+  {
+   "say": "Scientists call the very first, lightest stage of sleep N1. It usually lasts only a few minutes. During it, we're not fully asleep, and not fully awake. We can still be woken easily, and we may not even realise we'd dozed off. Our thoughts become dreamlike, but we can sometimes still notice them. It's a kind of doorway between two worlds.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Between two worlds",
+    "sub": "Not awake, not asleep"
+   }
+  },
+  {
+   "say": "There's an old story about the inventor Thomas Edison and this doorway. He allegedly napped while holding small spheres in his hands. As he drifted off, his hands would relax, the spheres would drop and clatter to the floor, and the noise would wake him. The idea was that he'd wake up just as he entered that dreamlike state, and could catch whatever ideas were drifting through his mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "An inventor's trick",
+    "sub": "Spheres in the hand"
+   }
+  },
+  {
+   "say": "The idea behind the trick was simple. Catch the thought at the doorway, just as it appears, before it slips away into deeper sleep. Many people know that feeling of a brilliant thought at bedtime that's gone by morning. The spheres were a way of waking up at exactly the right moment, with the thought still fresh, ready to be written down.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "text": "Catch the idea at the doorway.",
+    "by": "The idea behind the trick"
+   }
+  },
+  {
+   "say": "The painter Salvador Dalí is said to have used a similar trick, with a key and a plate. It's a lovely story. But for a long time, nobody knew whether it actually worked, or whether it was just one of those charming habits that famous people are remembered for. Then a team of scientists in Paris decided to test it properly, more than a century after Edison.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "A lovely story",
+    "sub": "But did it work?"
+   }
+  },
+  {
+   "say": "Their study, led by Célia Lacaux and Delphine Oudiette, was published in 2021 in the journal Science Advances, under the title Sleep onset is a creative sweet spot. They used the same kind of number task we met earlier, the one with a hidden shortcut. People practised it first, without discovering the hidden rule. Then came a rest.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "who": "Célia Lacaux, Delphine Oudiette and colleagues",
+    "where": "Science Advances, 2021",
+    "what": "A hidden-rule number task, a short rest holding a bottle"
+   }
+  },
+  {
+   "say": "During a twenty minute break, each person reclined comfortably, holding a light bottle in their right hand, just like the spheres in the Edison story. They were asked to relax with their eyes closed. If they fell asleep deeply enough, the bottle would drop. Meanwhile, the researchers recorded their brain activity, so they knew exactly who stayed awake, who drifted into that first light stage, and who went deeper.",
+   "show": {
+    "type": "photo",
+    "file": "lf38_b11_01.jpg",
+    "cap": "A bottle in the hand"
+   }
+  },
+  {
+   "say": "That gave them three groups. People who stayed awake the whole time. People who slipped into N1, that drifting, dreamlike edge, but no further. And people who went on into the next, deeper stage of sleep, called N2. After the break, everyone returned to the number task. The question, again, was who would discover the hidden rule.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Three groups",
+    "sub": "Awake, light, deeper"
+   }
+  },
+  {
+   "say": "The results were striking. Of the people who spent time in that first light stage of sleep, about 83 percent discovered the hidden rule. Of those who stayed awake, about 31 percent did. And of those who went on into deeper sleep, only about 14 percent. The drifting edge of sleep seemed to be a real creative sweet spot, much better than staying awake, and much better than going deeper.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Found the hidden rule",
+    "items": [
+     "After the edge of sleep (N1): 83%",
+     "After staying awake: 31%",
+     "After deeper sleep (N2): 14%"
+    ]
+   }
+  },
+  {
+   "say": "And here's the most charming detail. The researchers found that spending at least fifteen seconds in that first stage of sleep during the rest tripled the chance of discovering the hidden rule. Fifteen seconds. Barely long enough to notice you've dozed off. It seems the doorway between waking and sleep only needs to be visited briefly to make a difference.",
+   "show": {
+    "type": "stat",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "title": "Time in N1 that made a difference",
+    "big": "15 s",
+    "label": "at least fifteen seconds of light sleep"
+   }
+  },
+  {
+   "say": "It's a kind of Goldilocks finding. Staying fully awake didn't give the same boost. Going too deep seemed to lose it. Just right was the light, drifting moment in between, when thoughts become loose and dreamlike, but the mind hasn't yet sunk into deeper sleep. The clattering spheres in the Edison story, it turns out, may have been pointing at something real. And they used nothing more than a bottle.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "autumn_overlook",
+    "cap": "Not too deep",
+    "sub": "The Goldilocks moment"
+   }
+  },
+  {
+   "say": "Why would that moment be so helpful? The researchers suggested it might combine two things. In N1, thoughts become loose and freely associated, like the wandering mind but even more so, so unusual connections can form. And yet we're still close enough to waking that we can catch them. Deeper sleep may loosen things even more, but then we're too far away to notice and remember.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Why there?",
+    "sub": "Loose but still present"
+   }
+  },
+  {
+   "say": "Perhaps this is also part of why ideas come at bedtime, or in that half awake moment in the morning. Mira has had ideas like that before, she realises, lying in bed in the dark, just as she was drifting off. She's lost many of them, too, gone by morning like smoke. Which is exactly why there's a pencil by her bed tonight, next to the envelope.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Mira's in-between",
+    "sub": "The jar of sounds"
+   }
+  },
+  {
+   "say": "The title of the study says it beautifully. Sleep onset is a creative sweet spot. Not deep sleep. Not full wakefulness. The soft, brief edge in between. It's a little like the undemanding task during a break, or the steady rhythm of a walk. Once again, the mind seems to do its most creative work when it's relaxed, loosened, and only lightly held.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "text": "A creative sweet spot.",
+    "by": "Lacaux and colleagues, 2021"
+   }
+  },
+  {
+   "say": "A small and important warning, though. This doesn't mean you should keep waking yourself up all night to hunt for ideas. Good, deep sleep matters enormously for health, memory and mood. The trick in the study was a short daytime rest, not a disturbed night. If an idea floats up as you fall asleep, that's lovely. But there's no need to chase it. Sleep comes first.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "A gentle warning",
+    "sub": "Don't trade sleep for ideas"
+   }
+  },
+  {
+   "say": "A gentler habit is the one many writers and artists already have. Keep a notebook by the bed. If something interesting drifts through your mind as you're falling asleep or waking up, jot down a word or two, and let it go. In the morning, you can decide whether it was brilliant, or merely strange. Very often, it will be strange. But now and then, it might be a jar of sounds.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "A notebook by the bed",
+    "sub": "A simple habit"
+   }
+  },
+  {
+   "say": "And that's where we'll leave Mira for a moment. She's lying in the dark, eyes closed, thoughts loosening. A shelf of jars. A tiny label in looping handwriting. The sound of rain kept for a dry day. Maybe some of these will be in her book. Maybe she'll forget them by morning. Either way, she's smiling slightly, half in one world and half in the other.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Mira drifting",
+    "sub": "Ideas still arriving"
+   }
+  },
+  {
+   "say": "Here are the three beliefs we'll look at together. That there are right-brained and left-brained people. That group brainstorming is the best way to find ideas. And that creativity is a rare gift, which only some people have. Each one sounds reasonable. Each one is very popular. And each one, as we'll see, looks rather different in the light of the research.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Three last myths",
+    "items": [
+     "Right-brained and left-brained people",
+     "Group brainstorming as the best way",
+     "Creativity as a rare gift"
+    ]
+   }
+  },
+  {
+   "say": "Before we let the facts go completely and drift into our wind-down, there are just a few popular beliefs about creativity left to look at gently. Whether creative people really have a different kind of brain. Whether group brainstorming is the best way to find ideas. And whether creativity is something some people have, and others simply don't. Let's look at them together, and then we'll rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "Before we slow down",
+    "sub": "A few last myths"
+   }
+  }
+ ]
+}

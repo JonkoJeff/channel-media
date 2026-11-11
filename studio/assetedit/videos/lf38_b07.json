@@ -1,0 +1,201 @@
+{
+ "id": "lf38_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think about the last few minutes. How much of the time were you fully focused on these words? And how much of the time did your mind slip away for a moment, to something you need to do tomorrow, or something someone said today, or nothing in particular? If your mind wandered a little, that's perfectly fine. It's what minds do. And tonight, it might even be a good sign.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "n": 7,
+    "title": "The wandering mind"
+   }
+  },
+  {
+   "say": "Mind wandering is one of the most ordinary things in the world. We do it while reading, while driving, while listening to friends, while brushing our teeth. Our thoughts drift away from the task in front of us and go somewhere else, into memories, plans, daydreams and little what ifs. Often we don't even notice it has happened until we find ourselves at the bottom of a page with no idea what we just read.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Always drifting",
+    "sub": "Even when we try not to"
+   }
+  },
+  {
+   "say": "Mind wandering usually gets a bad name. At school, it's called not paying attention. At work, it's called losing focus. And it's true that a wandering mind can make us miss things, or make mistakes in tasks that need concentration. But a group of researchers wondered whether there might be another side to it. Could the drifting mind be doing something useful, especially for creative problems?",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Usually seen as a problem",
+    "sub": "Losing focus"
+   }
+  },
+  {
+   "say": "In a study published in 2012 in the journal Psychological Science, Benjamin Baird, Jonathan Schooler and their colleagues tested exactly that. People were asked to come up with unusual uses for everyday objects, just like our brick. Then they had a break, and afterwards they tried the task again. The clever part was what happened during the break, because different groups did very different things.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "who": "Benjamin Baird and colleagues",
+    "where": "Psychological Science, 2012",
+    "what": "Unusual uses, a break, then the same task again"
+   }
+  },
+  {
+   "say": "There were four groups. One did a demanding task during the break, something that needed full concentration. One did an undemanding task, something easy and a little boring, the kind of task that lets the mind drift. One simply rested quietly. And one had no break at all. Then everyone came back to the unusual uses task, to see whose ideas had improved.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "title": "During the break",
+    "items": [
+     "A demanding task",
+     "An undemanding task",
+     "Simply resting",
+     "No break at all"
+    ]
+   }
+  },
+  {
+   "say": "And the result was striking. Only the people who did the easy, undemanding task improved their scores. Not the people who concentrated hard. And, interestingly, not the people who simply rested. The easy task seemed to give their minds the right amount of freedom. Busy enough not to fidget, free enough to wander. A small change in what they did during a few quiet minutes, and a real difference afterwards.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "text": "Only the people who performed the undemanding task improved.",
+    "by": "Report on Baird and colleagues, 2012"
+   }
+  },
+  {
+   "say": "That's a lovely clue. It suggests there may be a sweet spot for creative pauses. If the break is too demanding, the mind is fully occupied, with no room to wander. If the break is completely empty, perhaps the mind keeps returning to the problem directly, or simply gets restless. But a light, easy activity seems to let thoughts drift freely, bumping into one another in new ways.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "cap": "The sweet spot",
+    "sub": "Not too hard, not too empty"
+   }
+  },
+  {
+   "say": "And now we can see why the shower is such a famous place for ideas. Showering is the perfect undemanding task. Your hands know what to do. There's nothing to read, no screen, no conversation. It's warm and relaxing. Your mind is free to wander, but not completely empty. It's very close to the easy task in that experiment. Mira's shower wasn't a lucky accident. It was almost an ideal creative pause.",
+   "show": {
+    "type": "photo",
+    "file": "lf38_b07_01.jpg",
+    "cap": "Why the shower?"
+   }
+  },
+  {
+   "say": "And of course, there are many other moments like it. Washing dishes. Folding laundry. Pulling weeds in a garden. A walk along a familiar route. Doodling on the edge of a page. All of them are easy enough that the mind can drift, but occupied enough that we don't simply sit and stare at the problem. Many people find that their best thoughts turn up during exactly these kinds of activities.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Other easy pauses",
+    "items": [
+     "Washing dishes",
+     "Folding laundry",
+     "Gardening",
+     "A familiar walk",
+     "Doodling"
+    ]
+   }
+  },
+  {
+   "say": "Brain researchers have also become interested in what happens when our minds wander. They've found that certain networks in the brain become more active when we're not focused on the outside world, when we're daydreaming, remembering or imagining. One of these is often called the default mode network. It seems to be involved in pulling together memories and ideas in new combinations, a bit like quietly shuffling a deck of cards.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "Inside the brain",
+    "sub": "Networks that wander"
+   }
+  },
+  {
+   "say": "But it would be too simple to say that creativity is just mind wandering. The research suggests that creative thinking involves both the wandering parts of the brain and the parts that control and focus our attention, working together. The wandering brings up possibilities. The focusing picks out the good ones. It's a partnership, like a dreamer and an editor sharing the same desk.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Not the whole story",
+    "sub": "Focus matters too"
+   }
+  },
+  {
+   "say": "You can see that partnership in Mira's evening. Her focused self spent three weeks drawing and judging, gathering pieces. Her wandering self, in the shower, combined them in a new way. And now her focused self is back, holding a pencil, writing jar of sounds on an envelope, already thinking about whether it can work. Both parts were needed. Neither could have done it alone.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Mira's partnership",
+    "sub": "A dreamer and an editor"
+   }
+  },
+  {
+   "say": "So we can picture two partners at work in every creative mind. The dreamer, who wanders, drifts and brings up possibilities, many of them odd. And the editor, who focuses, judges and chooses the good ones. Each one needs the other. A dreamer alone produces a heap of strange ideas. An editor alone has nothing to choose from. Together, they make something new.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "title": "Two partners in a creative mind",
+    "items": [
+     "The dreamer: wanders, brings up possibilities",
+     "The editor: focuses, chooses the good ones"
+    ]
+   }
+  },
+  {
+   "say": "There's one gentle thought worth adding here. For many of us today, those easy pauses are getting rarer. Waiting for a bus, standing in a queue, lying in bed before sleep, these used to be moments when the mind could wander. Now, very often, we fill them with a phone. That's not wicked, of course. But it does mean fewer moments for the mind to drift freely.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "A modern problem",
+    "sub": "The vanishing pause"
+   }
+  },
+  {
+   "say": "So if you'd like a small experiment for your own life, here's one. The next time you're stuck on something, after you've given it some honest effort, try a pause with nothing in it but something easy. A walk without headphones. Washing up without the radio. A shower without hurrying. See whether anything surfaces. Sometimes nothing will. But sometimes, a little girl with jars appears.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "A small experiment",
+    "sub": "For your own life"
+   }
+  },
+  {
+   "say": "It may even be that a little boredom has value. Boredom is uncomfortable, but it can push the mind to look for something interesting inside itself. Many people remember childhood afternoons with nothing to do, which turned into elaborate games and invented worlds. There's no need to seek out boredom, of course. But perhaps there's no need to rush away from every empty moment either.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "Boredom as a gift",
+    "sub": "Sometimes"
+   }
+  },
+  {
+   "say": "Here's a gentle way to remember all this. An empty moment can be a full one. The few minutes waiting for a kettle to boil, or staring out of a train window, may look like nothing. But inside, the mind may be busy, quietly sorting and combining. Those moments aren't wasted. They may be where some of our best ideas are quietly being put together.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "text": "An empty moment can be a full one.",
+    "by": "A thought about pauses"
+   }
+  },
+  {
+   "say": "Of all the easy activities that let the mind wander, one has a particularly long history among thinkers and writers. Walking. Many famous figures have said they did their best thinking on foot. For a long time, that was just a nice story. But in 2014, two researchers decided to put walking to the test. And their results were rather remarkable. Let's go for a stroll and find out.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cafe_sunset",
+    "cap": "Next",
+    "sub": "Ideas on foot"
+   }
+  }
+ ]
+}

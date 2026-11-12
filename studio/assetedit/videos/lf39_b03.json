@@ -1,0 +1,200 @@
+{
+ "id": "lf39_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "During a short pause in the concert, Theo glances around the old wooden hall. An older couple are whispering to each other. A student near the aisle is checking the program. A man in the front row sits perfectly still, eyes closed. And Theo wonders, quietly, whether any of them felt what he felt when that single voice came in. Did their skin tingle too? Or was it only him?",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "street_day",
+    "cap": "The interval",
+    "sub": "A look around"
+   }
+  },
+  {
+   "say": "It's a natural question, and it turns out to be a surprisingly old one in psychology. How many people get chills from music? What else gives people chills? And is there anything that sets apart the people who feel them often from the people who rarely do? To find out, the first step was simply to ask. And one of the earliest people to ask carefully was a scientist at Stanford.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 3,
+    "title": "Who feels the shiver"
+   }
+  },
+  {
+   "say": "His name was Avram Goldstein, and in 1980 he published a study about what he called thrills, that tingling, shivering feeling we've been talking about. He surveyed people and asked whether they'd ever felt these thrills, and if so, what brought them on. People named all sorts of moments. But one trigger came up more often than any other. Music was the most commonly named source of thrills.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Avram Goldstein",
+    "where": "Stanford, 1980",
+    "what": "Surveyed people about \"thrills\"; music was the most commonly named trigger"
+   }
+  },
+  {
+   "say": "That was the title of his paper. Thrills in response to music and other stimuli. Notice those last few words, and other stimuli. Goldstein knew that music wasn't the only key. But it stood out. Of all the things that can move people, sound seemed to have a special way of reaching the skin. That simple finding helped turn musical chills into a real topic for science.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "text": "Thrills in response to music and other stimuli",
+    "by": "Avram Goldstein, 1980"
+   }
+  },
+  {
+   "say": "And that fits what Theo felt. A swelling choir, a single voice, a held note in a quiet hall. Music has a way of building up and then releasing, of drawing us in and then surprising us. We'll look at exactly how it does that later tonight. For now, it's enough to know that music seems to be one of the most reliable doors to a shiver.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "Music stands out",
+    "sub": "But not alone"
+   }
+  },
+  {
+   "say": "Still, it's worth remembering the other doors too. Across many studies, people describe chills from powerful speeches, from scenes in films, from nature, like a sudden view across a valley, and from moving moments between people. A reunion. A kind word at the right time. These shivers seem to share something with musical chills. They all tend to come when something feels deeply meaningful, all at once.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "title": "Not only music",
+    "items": [
+     "Speeches",
+     "Films",
+     "Nature",
+     "Moving moments"
+    ]
+   }
+  },
+  {
+   "say": "So how common are chills, really? You'd think that would be an easy question to answer. Just ask lots of people and count. But it turns out to be surprisingly slippery. Different studies have asked their questions in different ways, played different kinds of music, and studied very different groups of people. And the answers they've come up with have varied widely from one study to the next.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "How common?",
+    "sub": "A tricky question"
+   }
+  },
+  {
+   "say": "In 2021, two researchers, Rémi de Fleurian and Marcus Pearce, tried to bring all of that work together. They published a systematic review in the journal Psychological Bulletin, gathering decades of research on chills in one place. It's a bit like collecting every map ever drawn of one small island. And one of the things they found was that pinning down a single number for how common chills are is genuinely hard.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "who": "Rémi de Fleurian and Marcus Pearce",
+    "where": "Psychological Bulletin, 2021",
+    "what": "A systematic review gathering decades of research on chills"
+   }
+  },
+  {
+   "say": "That's a useful lesson in itself. Some questions don't have one neat number. We might like to say exactly how many people in Theo's hall felt a shiver, but the honest answer is that it depends. It depends on the music, the moment, the way you ask, and the person you're asking. And that last part, the person, turns out to be very interesting indeed.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "Some questions don't have one neat number.",
+    "by": "A gentle reminder"
+   }
+  },
+  {
+   "say": "In 2016, Mitchell Colver and Amani El-Alayli published a study in the journal Psychology of Music. They looked at personality, the lasting patterns in how people think, feel and behave. And they found that one trait stood out. People who scored high in something called openness to experience reported chills more often. So the shiver seemed to depend not only on the music, but also on the listener.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "who": "Colver and El-Alayli",
+    "where": "Psychology of Music, 2016",
+    "what": "People high in openness to experience reported chills more often"
+   }
+  },
+  {
+   "say": "What does openness to experience actually mean? It's a way of describing people who tend to be curious, who like new ideas and new experiences. People who are imaginative, who enjoy daydreams and stories. And people who are especially drawn to beauty, in art, in music, in nature. It's not about being better or worse. It's just one of the ways people differ from one another.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Openness to experience",
+    "items": [
+     "Curious",
+     "Imaginative",
+     "Enjoys beauty"
+    ]
+   }
+  },
+  {
+   "say": "We imagined Theo, so we can imagine a little more. Perhaps he's the kind of person who wanders into small concerts on a weekday evening, just to see what they're like. Who notices the light on old wooden walls. Who lets his mind drift into the music instead of checking his phone. If so, he'd fit rather neatly into that open, curious group who feel chills more often.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "street_day",
+    "cap": "Theo, the curious one",
+    "sub": "Perhaps"
+   }
+  },
+  {
+   "say": "Around the same time, another team looked for differences inside the brain itself. Matthew Sachs, Psyche Loui and their colleagues published a study in 2016 in the journal Social Cognitive and Affective Neuroscience. They scanned the brains of people who said they often got chills from music, and people who said they didn't. Then they compared the wiring that connects different parts of the brain.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "who": "Matthew Sachs, Psyche Loui and colleagues",
+    "where": "Social Cognitive and Affective Neuroscience, 2016",
+    "what": "Brain scans of 10 people who got chills and 10 who didn't"
+   }
+  },
+  {
+   "say": "It was a small study. Twenty people in all. Ten who reported chills, and ten who didn't. The researchers looked at white matter, the bundles of connections that carry signals between brain areas, a bit like roads between towns. They weren't watching the brain react to music in the moment. They were looking at how the roads themselves were laid out, in each person's head.",
+   "show": {
+    "type": "stat",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Two small groups",
+    "big": "20",
+    "label": "people scanned: 10 who reported chills, 10 who didn't"
+   }
+  },
+  {
+   "say": "What they found was intriguing. The people who got chills seemed to have more connections between the areas that process sound, in the auditory cortex, and areas involved in emotion and social feeling, including the anterior insula and the medial prefrontal cortex. In other words, there seemed to be more roads running from the parts that hear to the parts that feel. Sound might travel to emotion more easily.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "More roads",
+    "sub": "From sound to feeling"
+   }
+  },
+  {
+   "say": "Picture a valley at dusk, with small roads winding between lit villages. Some valleys have just one narrow lane. Others have many. That's a gentle way to imagine what this study was hinting at. Not a special chill center in the brain, but more pathways between hearing and feeling. More ways for a single voice in a quiet hall to find its way to the heart.",
+   "show": {
+    "type": "photo",
+    "file": "lf39_b03_01.jpg",
+    "cap": "Roads between towns"
+   }
+  },
+  {
+   "say": "But we should hold this lightly. It was a small study, and it showed a link, not a cause. We don't know whether those extra connections lead to chills, or whether a lifetime of moving musical moments slowly builds them, or something else entirely. It's an early clue, not a final answer. Still, it fits nicely with the idea that the shiver depends on the listener as well as the song.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "A careful note",
+    "sub": "Small and early"
+   }
+  },
+  {
+   "say": "Which brings us back to the man in the front row, sitting perfectly still with his eyes closed. Maybe he felt a great shiver. Or maybe he felt nothing at all, not on his skin, and perhaps not much in his heart either. Because for a small number of people, music simply doesn't seem to bring much pleasure. And they turn out to hold a surprising clue.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "cap": "And the others?",
+    "sub": "When music does nothing"
+   }
+  }
+ ]
+}

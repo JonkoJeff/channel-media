@@ -1,0 +1,186 @@
+{
+ "id": "lf39_b19",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let the lake fade gently now, and let a new scene drift in. Imagine you're standing at the edge of a small, quiet town, late on a winter evening. Snow has been falling for hours. It covers the rooftops, the low stone walls, the narrow streets, all in a soft, thick white. The air is cold and clean. Everything is very still.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A new scene",
+    "sub": "Soft and white"
+   }
+  },
+  {
+   "say": "You're wrapped up warm, in a thick coat and a soft scarf. Your hands are tucked into wool gloves. You take your first slow step into the snow, and hear that small, muffled crunch beneath your boot. And another. And another. There's no hurry. The town is asleep, or nearly. You have the whole quiet street to yourself.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The first steps",
+    "sub": "Snow underfoot"
+   }
+  },
+  {
+   "say": "Look up for a moment. Snowflakes are still drifting down, slowly, out of a deep grey sky. They float and turn in the glow of an old street lamp, each one taking its time. They land on your sleeve, on your scarf, on the tip of your nose, and melt softly away. There's no sound at all as they fall. Only quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Falling snow",
+    "sub": "Slow and silent"
+   }
+  },
+  {
+   "say": "Picture the street stretching gently ahead of you. Old stone houses lean close together on either side, their rooftops heavy with snow. Here and there, a window glows with warm yellow light. Further on, the street curves slowly out of sight, past a little square. Above the rooftops, far away, you can just see the dark shape of an old tower.",
+   "show": {
+    "type": "photo",
+    "file": "lf39_b19_01.jpg",
+    "cap": "A snowy town at night"
+   }
+  },
+  {
+   "say": "Notice the small things as you walk, one at a time. The soft snow, smooth and untouched, waiting for your footsteps. The lamplight, round and golden, making little islands of warmth in the dark. The warm windows, glowing gently behind frosted glass. And the quiet doorways, each one dusted with white, each one closed snugly against the cold night.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Along the street",
+    "items": [
+     "Soft snow",
+     "Lamplight",
+     "Warm windows",
+     "Quiet doorways"
+    ]
+   }
+  },
+  {
+   "say": "As you pass the warm windows, you might catch a glimpse of a quiet room inside. A lamp on a small table. A bookshelf. The soft flicker of a fire. You don't need to look in for long. It's enough just to know they're there, these small, warm rooms, each one holding someone resting safely through the winter night.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The warm windows",
+    "sub": "Lives inside"
+   }
+  },
+  {
+   "say": "And then, from far away, you hear a sound. Bells. Slow and low, ringing from the old tower beyond the rooftops. The sound drifts across the snow, soft and round, muffled by the falling flakes. Each note hangs in the cold air for a long moment, and then gently fades. It isn't calling you anywhere. It's simply part of the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Distant bells",
+    "sub": "Across the snow"
+   }
+  },
+  {
+   "say": "Here's a small thought to carry with you as you walk. Snow makes the whole world speak softly. The streets grow quiet. The bells sound further away. Even your own footsteps become gentle and muffled. It's as if the snow were tucking a soft blanket over everything, asking the whole town, and you too, to slow down and rest.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "text": "Snow makes the whole world speak softly.",
+    "by": "Tonight's thought"
+   }
+  },
+  {
+   "say": "Listen to the bells for a while, one note at a time. A deep, slow note rings out, and fades. Then another, a little lower, rolling gently over the rooftops. Then a pause, and another. Like the hush in the hall earlier tonight, there's a quiet space between each one. But there's nothing to wait for now. Only the bells, and the snow.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Listening to the bells",
+    "sub": "One note at a time"
+   }
+  },
+  {
+   "say": "The street opens out into a little square. In the middle stands an old stone fountain, still and silent under its cap of snow. A wooden bench sits beneath a bare tree, its branches outlined in white. You brush the snow from the bench and sit down for a moment. The bells ring once more, far away, and then the square is quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The little square",
+    "sub": "A moment of rest"
+   }
+  },
+  {
+   "say": "Sit here and breathe for a while. Breathe in the cold, clean winter air, slowly. And breathe out a soft cloud of warmth that drifts up and vanishes into the night. In, cool and fresh. Out, warm and slow. Your breath is like a small, quiet signal, saying that you're here, that you're safe, and that everything can rest now.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Breathing in the cold",
+    "sub": "Breathing out warmth"
+   }
+  },
+  {
+   "say": "As you sit on the bench, let a few things drift away into the snow. Cold hands, warming slowly in your gloves. Busy thoughts, settling like snowflakes, one by one. The long day, already fading behind you. And every hurry, every rush, quietly melting away. The snow covers them softly, and the square is calm and white again.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Leaving behind",
+    "items": [
+     "Cold hands",
+     "Busy thoughts",
+     "Long day",
+     "Every hurry"
+    ]
+   }
+  },
+  {
+   "say": "Now, when you're ready, stand up slowly and begin to walk again. You know the way. Just around the next corner, at the end of a narrow lane, there's a house you recognize. Its window is glowing warm and gold. Someone has left a light on for you. It's not far now. Just a few more slow, soft steps through the snow.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The way home",
+    "sub": "Not far now"
+   }
+  },
+  {
+   "say": "Here's a gentle reminder as you walk the last few steps. There's always a light left on for you somewhere. Maybe in a house, maybe in a memory, maybe in a kind voice humming in the next room. However long the day has been, however cold the night, there's a warm place waiting, and a door that's glad to open for you.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "text": "There's always a light left on for you somewhere.",
+    "by": "A gentle reminder"
+   }
+  },
+  {
+   "say": "You reach the door, and step inside. Warmth wraps around you at once. You take off your coat and scarf, slowly, and shake the last few snowflakes from your hair. A fire is glowing low in the hearth. The room is quiet and soft and safe. Outside, the snow keeps falling, and somewhere far away, the bells ring once more.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Home",
+    "sub": "Warm and safe"
+   }
+  },
+  {
+   "say": "Sit down by the fire, in a soft, deep chair. Feel the warmth reaching your hands first, then your arms, then your face, slowly melting away the last of the cold. Your fingers tingle a little as they thaw, and then they simply feel warm and still. Pull a blanket over your knees. There's nowhere left to walk tonight. You're home.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "By the fire",
+    "sub": "Thawing slowly"
+   }
+  },
+  {
+   "say": "Now let yourself rest. Sink into the warm, quiet room, and listen to the hush of the snow outside the window. Your body is heavy and warm. Your breath is slow and easy. The town is asleep, and you can sleep too. If you drift off now, that's perfectly alright. The snow will keep falling gently, all through the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Resting at last",
+    "sub": "The snow outside"
+   }
+  }
+ ]
+}

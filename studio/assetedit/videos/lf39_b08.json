@@ -1,0 +1,198 @@
+{
+ "id": "lf39_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's return once more to Theo's evening. The choir, the strings, the hush, and then that single soprano voice. Of all the moments in the concert, that was the one that sent the shiver down his arms. Not the opening. Not the loud finale. That one particular passage. So it's natural to wonder. Is there something inside certain moments of music that makes chills more likely?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "n": 8,
+    "title": "Inside the music"
+   }
+  },
+  {
+   "say": "For a long time, researchers have tried to answer that question by listening very closely. Not to the brain this time, but to the music. The idea is simple. If you can find the exact moments where people get chills, you can look at what's happening in the sound at those moments. Is it a certain kind of chord? A change in loudness? A new voice? A pattern might appear.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Hunting for shivers",
+    "sub": "In the music itself"
+   }
+  },
+  {
+   "say": "One of the first people to do this carefully was the psychologist John Sloboda. His study was published in 1991 in the journal Psychology of Music. He asked music lovers a gentle but detailed question. Could they name the exact passages in pieces they knew that reliably moved them in a physical way? Not just a favorite song, but the precise place in it where something happened in their body.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "who": "John Sloboda",
+    "where": "Published in 1991",
+    "what": "Psychology of Music: listeners named passages that gave them shivers, tears or a racing heart"
+   }
+  },
+  {
+   "say": "In all, 83 listeners took part. They described three kinds of physical reaction. Shivers running over the skin. Tears welling up. And a racing heart. Then Sloboda did the patient part. He went to the music itself and looked at what was happening in each passage they named. What did the moments that gave shivers have in common? And were they different from the moments that brought tears?",
+   "show": {
+    "type": "stat",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "title": "Listeners in the study",
+    "big": "83",
+    "label": "each named passages that moved them"
+   }
+  },
+  {
+   "say": "It turned out that they often were different. Each kind of reaction tended to line up with its own kind of musical event. That's a lovely discovery in itself. It suggests that our bodies aren't just responding to music in general, like a single on switch. They seem to be responding to particular things that happen in the sound, each one with its own kind of signature.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "Different reactions",
+    "sub": "Different moments"
+   }
+  },
+  {
+   "say": "Shivers, tears and a racing heart each seem to have their own trigger. Here's what Sloboda found among his 83 listeners. Shivers were often linked to new or unexpected harmonies, a chord that arrives where you didn't quite expect it. Tears were often linked to melodic appoggiaturas and sequences, which we'll explain in a moment. And a racing heart was often linked to the music speeding up, or to syncopation, where the rhythm lands just off the beat and gives everything a little lift.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "What went with what",
+    "items": [
+     "Shivers: new or unexpected harmonies",
+     "Tears: leaning notes and sequences",
+     "Racing heart: speeding up and syncopation"
+    ]
+   }
+  },
+  {
+   "say": "An unexpected harmony is a bit like walking down a familiar hallway and finding a door open that's usually closed. The melody might be one you know, but underneath it, the chord shifts somewhere new. The ground moves slightly. It isn't wrong. It's just not what the ear was ready for. And that small surprise, Sloboda's listeners suggested, was often where the shivers lived.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "cap": "Unexpected harmony",
+    "sub": "A door opening"
+   }
+  },
+  {
+   "say": "An appoggiatura is a note that leans on its neighbor. It arrives slightly off from where the melody wants to rest, lingers there for a moment, and then resolves, stepping onto the note it was reaching for. A little tension, then a little release. A sequence is when a short musical phrase repeats, stepping higher or lower each time. Both, it seems, have a way of drawing tears.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "A leaning note",
+    "sub": "And a gentle return"
+   }
+  },
+  {
+   "say": "Picture a page of music resting on a stand, the room quiet around it. To most of us, it's a pattern of lines and dots. But hidden in that pattern are the moments that might one day make a stranger shiver, or cry, or feel their heart race. The marks on the page never change. What changes is what happens when they're played, and who happens to be listening.",
+   "show": {
+    "type": "photo",
+    "file": "lf39_b08_01.jpg",
+    "cap": "A page of music"
+   }
+  },
+  {
+   "say": "Other researchers later looked at chill moments with more measurements. Mirko Guhn, Alfons Hamm and Marcel Zentner published a study in 2007 in the journal Music Perception. They studied passages that gave listeners chills and asked what those passages had in common. And they didn't only rely on what people said. They also measured what was happening in the listeners' bodies while the music played.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "who": "Mirko Guhn, Alfons Hamm and Marcel Zentner",
+    "where": "Published in 2007",
+    "what": "Music Perception: features shared by passages that gave chills"
+   }
+  },
+  {
+   "say": "Three features stood out. First, a sudden rise in loudness, the music swelling rather quickly. Second, an expansion in range, where higher and lower notes come in, so the music seems to open outward in both directions at once. And third, once again, an unexpected harmony. That last one echoes Sloboda's finding from years before, which is always a good sign in science, when separate teams keep arriving at the same place.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "title": "What chill passages shared",
+    "items": [
+     "A sudden rise in loudness",
+     "Higher and lower notes coming in",
+     "An unexpected harmony"
+    ]
+   }
+  },
+  {
+   "say": "And the body measurements told a matching story. When chills came, there were changes in skin conductance, a measure of tiny shifts in sweat on the skin that rises when we're aroused or stirred up. There were changes in heart rate too. So a chill wasn't only something people reported. It came with real, measurable changes in the body, right at those moments in the music.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "The body answers",
+    "sub": "Skin and heart"
+   }
+  },
+  {
+   "say": "Now, think of Theo's moment again. After the hush, a single soprano voice entered, high and clear, above the quiet choir and strings. It's easy to imagine how that might fit the pattern. A new sound arriving. The range of the music suddenly widening upward. A shift after stillness. We can't know for sure what happened in his body, of course. But his shiver came at just the kind of place these studies describe.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Theo's passage",
+    "sub": "Opening outward"
+   }
+  },
+  {
+   "say": "But there's an important twist, and it comes from Hannover, in Germany. Oliver Grewe, Eckart Altenmüller and their colleagues also published a study in 2007 in Music Perception. They, too, found that chills often came at certain kinds of moments. The entry of a voice. The start of a new section. A change in loudness. So far, that sounds very familiar. But they found something else as well.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "who": "Oliver Grewe, Eckart Altenmüller and colleagues",
+    "where": "Published in 2007",
+    "what": "Hannover, Music Perception: when chills came, and when they didn't"
+   }
+  },
+  {
+   "say": "The chills were not automatic. The same listener didn't get chills at the same spot every time they heard a piece. And different people got their chills at different spots in the same music. So these moments made chills more likely, but they didn't guarantee them. A voice entering is an invitation, not a command. Whether the shiver comes depends on something more, something the music alone can't supply.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Not automatic",
+    "sub": "Not every time"
+   }
+  },
+  {
+   "say": "So here's tonight's thought. A chill is a meeting, not a switch. The music brings something, a rising voice, a surprising chord, a sudden swell. And the listener brings something too. Their mood, their memories, their attention, how tired or open they feel that evening. The shiver happens where those two meet. Neither one can make it happen alone.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "A chill is a meeting, not a switch.",
+    "by": "Tonight's thought"
+   }
+  },
+  {
+   "say": "That's why the Hannover team concluded that chills depend on the listener as much as on the music. And it fits with what we've heard all along. Some people feel chills often, some rarely. Favorite music works best. If Theo went back to the same hall on another night, tired or distracted, the very same soprano entry might simply pass him by. And that would be perfectly normal.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "The listener matters",
+    "sub": "As much as the music"
+   }
+  },
+  {
+   "say": "Still, look back over these findings, and a thread starts to appear. Unexpected harmonies. Sudden swells. New voices entering. A note leaning away before it resolves. Again and again, the chill seems to live near a moment where the music does something we didn't quite expect. Which raises a deeper question. What is the brain expecting in the first place? And why would a surprise feel so good?",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "A common thread",
+    "sub": "Something unexpected"
+   }
+  }
+ ]
+}

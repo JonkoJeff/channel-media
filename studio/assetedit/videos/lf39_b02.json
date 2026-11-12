@@ -1,0 +1,197 @@
+{
+ "id": "lf39_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's go back to that moment in the hall, and slow it right down. The soprano's voice rises out of the hush, and a wave travels across Theo's skin. If we could zoom in on his forearm in that second, we'd see something very small and very old happening. Tiny bumps rising. Little hairs lifting, one by one. So what exactly is going on down there?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "n": 2,
+    "title": "Goosebumps"
+   }
+  },
+  {
+   "say": "First, the feeling itself. People who study chills describe them in a fairly similar way. A wave of tingling or shivers, often starting at the back of the neck and running down the back and along the arms. Sometimes it comes with goosebumps, sometimes it doesn't. It usually lasts just a few seconds. And it tends to arrive at a moment that feels important, beautiful or deeply moving.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "What a chill feels like",
+    "sub": "A wave of tingles"
+   }
+  },
+  {
+   "say": "Some people use a lovely French word for this feeling. Frisson. It simply means a shiver, and it captures the moment rather well, a little tremble that runs through you and then is gone. Scientists tend to use plainer names, like musical chills, or aesthetic chills. But whatever we call it, it's the same small wave Theo felt when that single voice rose into the quiet hall.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "cap": "Frisson",
+    "sub": "A French word for shiver"
+   }
+  },
+  {
+   "say": "And music is only one of the doors. Researchers have found that chills can come from many places. Music, of course. A powerful speech. A scene in a film that catches you off guard. A wide view of nature, like the sea at dusk or a mountain valley. Or simply a moving moment between people. That's why they're sometimes called aesthetic chills, shivers that come from beauty and meaning.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Where chills can come from",
+    "items": [
+     "Music",
+     "A powerful speech",
+     "A scene in a film",
+     "A view of nature",
+     "A moving moment"
+    ]
+   }
+  },
+  {
+   "say": "The bumps on Theo's arm have a rather grand scientific name. Piloerection. It sounds complicated, but it simply means hair standing up. At the base of every tiny hair on your skin, there's an even tinier muscle, called an arrector pili muscle. When those little muscles tighten, they pull the hair upright and push up a small bump of skin around it. That's a goosebump.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Goosebumps have a name",
+    "sub": "Piloerection"
+   }
+  },
+  {
+   "say": "Those muscles aren't something you control. You can't decide to raise the hairs on your arm, the way you can decide to lift a finger. Instead, they're run by the sympathetic nervous system, which you can think of as the body's alert system. It's the part that quietly speeds up the heart when you're startled, or gets you ready when something important seems to be happening.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "The body's alert system",
+    "sub": "Working on its own"
+   }
+  },
+  {
+   "say": "So here's a simple way to picture it. Goosebumps are the body saying, pay attention. They're switched on by the same system that wakes us up when something matters. Which raises a lovely puzzle. Why would a song, a few notes in a quiet hall, flip a switch that belongs to alertness? To understand that, it helps to look at the animals who use goosebumps every single day.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "Goosebumps are the body saying, pay attention.",
+    "by": "A gentle reminder"
+   }
+  },
+  {
+   "say": "In furry animals, the very same muscles do something much more useful than they do for us. When they tighten, a coat of fur fluffs up. That does two things. It traps a layer of warm air close to the skin, to keep the animal warm in the cold. And it makes the animal look bigger, which can be very handy when something frightening comes along.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "title": "Why furry animals fluff up",
+    "items": [
+     "To stay warm",
+     "To look bigger"
+    ]
+   }
+  },
+  {
+   "say": "You've probably seen this yourself. A startled cat, back arched, its fur suddenly twice as thick, so it looks larger and fiercer than it really is. Or think of a porcupine, raising its quills in warning. Our own goosebumps are a small echo of that ancient reaction. We don't have much fur left to fluff, but the tiny muscles are still there, still ready to answer, whenever the alert system calls on them.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "street_day",
+    "cap": "A cat and a porcupine",
+    "sub": "Two famous fluffers"
+   }
+  },
+  {
+   "say": "This connection between animals and people caught the eye of a famous naturalist. In 1872, Charles Darwin published a book about how emotions show up in the body, in both humans and other animals. In it, he wrote about hair standing on end, in creatures of many kinds and in people too. He saw it as one of many ways our bodies still carry traces of our animal past.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Charles Darwin",
+    "where": "Book, 1872",
+    "what": "Wrote about hair standing on end in animals and people"
+   }
+  },
+  {
+   "say": "That was the book's full title. The Expression of the Emotions in Man and Animals. It's a long name for a simple and rather beautiful idea. That our faces and bodies show what we feel in ways we share with other creatures. A frown, a smile, a startled jump. And yes, hair rising on the skin. Theo's goosebumps in the concert hall belong to a very long family history.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "text": "The Expression of the Emotions in Man and Animals",
+    "by": "Charles Darwin, 1872"
+   }
+  },
+  {
+   "say": "But for a long time, goosebumps were tricky to study properly. You could ask people whether they had felt them, but memories are fuzzy, and a few seconds of tingling is easy to misremember. Did the bumps really appear? When exactly? How strongly? To answer questions like that, you'd need some way of watching the skin itself, at the very moment the feeling arrives.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "Hard to measure",
+    "sub": "Easy to feel"
+   }
+  },
+  {
+   "say": "In 2011, two researchers, Mathias Benedek and Christian Kaernbach, did exactly that. They published their work in the journal Biological Psychology. They pointed a small camera at people's arms while those people watched or listened to emotional material, things chosen to move them. The camera recorded the skin closely, so the goosebumps could be measured as they happened, rather than just remembered afterward.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "who": "Benedek and Kaernbach",
+    "where": "Biological Psychology, 2011",
+    "what": "Measured goosebumps with a camera on the arm during emotional music and films"
+   }
+  },
+  {
+   "say": "That might sound like a small step, but it matters. It meant goosebumps could become something you can actually record, not just something people say they felt. A camera doesn't get distracted. It doesn't forget. It simply watches the skin, second by second. And that kind of careful watching is how a fleeting feeling slowly turns into something science can study, compare and understand.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "Watching the skin",
+    "sub": "Instead of guessing"
+   }
+  },
+  {
+   "say": "There's one more surprise here. Many people feel chills without any visible goosebumps at all. The tingle runs down the neck and arms, the shiver is real, but the skin stays smooth. So goosebumps and chills are close cousins, but they're not quite the same thing. A chill is the feeling. Goosebumps are one thing the body sometimes does along with it, and sometimes doesn't. So if your skin stays smooth, your shiver still counts.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "No bumps at all",
+    "sub": "Still a chill"
+   }
+  },
+  {
+   "say": "Think of a soft wool blanket on a cool evening. Long ago, before blankets, fur did that job. Fluffing it up kept the warmth in. That's what goosebumps were for, in our distant animal relatives. We've mostly lost the fur, but not the reflex. So when a song makes your skin prickle, your body is borrowing an ancient move, one that once helped keep a creature warm.",
+   "show": {
+    "type": "photo",
+    "file": "lf39_b02_01.jpg",
+    "cap": "Warmth against the cold"
+   }
+  },
+  {
+   "say": "So let's look at Theo's arm once more. The voice rises, and somewhere deep in his alert system, a signal goes out. Tiny muscles all along his arms tighten. The hairs lift. A few bumps appear, then fade. He doesn't think about any of it. He just feels a cool, tingling wave. An old animal reflex, borrowed for a brand new purpose, answering a single human voice.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Back to Theo's arm",
+    "sub": "A tiny echo"
+   }
+  },
+  {
+   "say": "But here's the curious part. Not everyone in that hall felt what Theo felt. Some people around him may have had the very same shiver. Others may have enjoyed the music just as much, and felt nothing on their skin at all. So who gets chills, and how often? And is there anything special about the people who feel them most? That's where we'll go next.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "cap": "Who feels it?",
+    "sub": "Not everyone"
+   }
+  }
+ ]
+}

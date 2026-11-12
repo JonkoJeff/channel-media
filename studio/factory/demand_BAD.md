@@ -44,3 +44,5 @@ Done 9 Nov: lf36 Why We Get Angry (F01 one-story deep dive: Sam's evening and an
 Done 10 Nov: lf37 What Your Personality Really Is (F10 myth vs science with imagined Nora, 13 story blocks + 5 wind-down, 18 blocks, ~22.4k spoken words, Shorts sh37_01-13; Claude failover writer). Next: lf38 Where Creative Ideas Really Come From (teased at the end of lf37). Keep >= 2 reserve long videos.
 
 Done 11 Nov: lf38 Where Creative Ideas Really Come From (F02 sleep marathon with imagined Mira, 13 story blocks + 6 wind-down, 19 blocks, ~20.3k spoken words, est ~133 min by lf37 ratio, Shorts sh38_01-09,11,12; Claude failover writer). Next: lf39 Why Music Gives You Chills (teased at the end of lf38). Keep >= 2 reserve long videos.
+
+Done 12 Nov: lf39 Why Music Gives You Chills (F01 deep dive with imagined Theo, 14 story blocks + 6 wind-down, 20 blocks, ~23.3k spoken words, est ~150 min by lf38 ratio, Shorts sh39_02-13; Claude failover writer). Next: lf40 Why Time Speeds Up as You Get Older (teased at the end of lf39). Keep >= 2 reserve long videos.

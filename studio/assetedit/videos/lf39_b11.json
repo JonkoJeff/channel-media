@@ -1,0 +1,199 @@
+{
+ "id": "lf39_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "When the concert ended, Theo sat for a while before standing up. The shiver from the single voice had long faded. But near the end, during a slow and quiet passage, something else had happened. His eyes had filled, just a little, and he hadn't quite known why. It felt different from the chill, softer and slower. And that difference, it turns out, is real, and researchers have been able to measure it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "n": 11,
+    "title": "Chills and tears"
+   }
+  },
+  {
+   "say": "We often lump these reactions together. A song moved me, we say, whether it gave us goosebumps or made us cry. And it's true that both can come from the same piece of music, sometimes even the same evening. But if you pay attention, they don't feel the same at all. A chill is sudden and electric. Tears tend to arrive slowly, like a tide coming in over the sand.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Two ways of being moved",
+    "sub": "Quick and slow"
+   }
+  },
+  {
+   "say": "In 2017, two researchers, Kazuma Mori and Makoto Iwanaga, published a study in the journal Scientific Reports that looked at exactly this question. They studied people listening to music that moved them, and they watched what happened in the body during the peak moments. Their conclusion was clear. Chills and tears are not simply stronger and weaker versions of the same thing. They are two different peaks, and each one has its own shape.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "who": "Kazuma Mori and Makoto Iwanaga",
+    "where": "Published in 2017",
+    "what": "Scientific Reports: chills and tears are two different peaks"
+   }
+  },
+  {
+   "say": "Two different peaks, then, each with its own pattern in the body. That's the heart of their finding. It means that being moved by music isn't a single dial that goes from a little to a lot. It may be more like two separate paths. One path leads up toward a chill, and the other leads gently down toward tears, and the body behaves quite differently on each of them.",
+   "show": {
+    "type": "stat",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "Mori and Iwanaga's finding",
+    "big": "2",
+    "label": "different peaks: chills and tears"
+   }
+  },
+  {
+   "say": "On the chill path, the body gets more excited. Researchers call this rising arousal, which simply means the body becoming more alert and switched on. It fits with what we've seen all evening. Remember that chills came with changes in skin conductance and heart rate, signs of the body waking up. A chill is a little burst of alertness, a sudden lift, like a spark jumping across a gap in the dark.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "The chill path",
+    "sub": "Rising arousal"
+   }
+  },
+  {
+   "say": "The tear path is almost the opposite. Mori and Iwanaga found that tears came with calming. Breathing slowed, and the body relaxed. Rather than a spark, it's more like a long exhale. And the tears often came with music that was sad and moving. So the same sad song might give you a sudden shiver at one moment, and a slow, quiet release at another.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The tear path",
+    "sub": "Calming down"
+   }
+  },
+  {
+   "say": "Put side by side, the two peaks look like this. With chills, the body wakes up, arousal rises, and the feeling is quick, like a spark. With tears, the body settles, breathing slows, and the feeling is more like a long exhale. Both are ways of being moved. They simply move us in different directions, one upward and one gently downward.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "title": "Two peaks",
+    "items": [
+     "Chills: the body wakes up",
+     "Tears: the body settles",
+     "Chills: a spark",
+     "Tears: a long exhale"
+    ]
+   }
+  },
+  {
+   "say": "Picture a quiet pond at dusk, with soft rain falling onto it. Each drop makes a small ring that spreads out and fades. There's something restful about it, even though rain can seem like a sad thing. That's a little like tears during music. They can look like sadness from the outside. But from the inside, they often feel more like relief, like something heavy finally being set down.",
+   "show": {
+    "type": "photo",
+    "file": "lf39_b11_01.jpg",
+    "cap": "Rain on still water"
+   }
+  },
+  {
+   "say": "That might explain why a good cry during a film or a song can leave us feeling oddly lighter. Theo didn't feel worse after his eyes filled in the hall. If anything, he felt calmer, as if something had been gently loosened. The tears weren't a sign that something had gone wrong. They were part of the body's way of settling after being deeply moved.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Why tears relax us",
+    "sub": "A release"
+   }
+  },
+  {
+   "say": "But this raises an old puzzle. In everyday life, most of us try to avoid sadness. We don't go looking for loss or heartbreak. And yet we choose sad music all the time. We play it on purpose, we return to it, and we often call it our favorite. So why would anyone seek out something that makes them feel sad, and what are we getting from it?",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "The puzzle of sad music",
+    "sub": "Why would we want it?"
+   }
+  },
+  {
+   "say": "In 2015, Matthew Sachs, Antonio Damasio and Assal Habibi published a review in the journal Frontiers in Human Neuroscience. Rather than running a single experiment, they gathered research on this exact puzzle, why people enjoy sad music. And one of the central ideas they described is a simple one. Sadness in art is safe. There is no real loss. Nothing has actually been taken from us.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "who": "Matthew Sachs, Antonio Damasio and Assal Habibi",
+    "where": "Published in 2015",
+    "what": "Frontiers in Human Neuroscience: why people enjoy sad music"
+   }
+  },
+  {
+   "say": "That safety changes everything. When we feel sad in real life, it's usually because something painful has happened. With music, we can visit the feeling without the loss. We can taste the ache of missing someone while the people we love are still here. It's a little like watching a storm from behind a window. You can feel its power, but you're warm and dry.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "Safe sadness",
+    "sub": "Feeling without losing"
+   }
+  },
+  {
+   "say": "Think of sitting in an attic while rain drums on the roof above you. The sound can be wild, even a little dramatic. And yet there's a deep comfort in it, because you're sheltered. Sad music can work the same way. It lets the storm of a feeling come close enough to touch, while the walls of the song keep us safe. We get the feeling without the damage.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "A storm behind glass",
+    "sub": "Close, but not too close"
+   }
+  },
+  {
+   "say": "The review described several things sad music can offer. It can bring comfort, a sense of being understood when we're low. It can bring release, letting feelings out that had nowhere else to go. It can bring empathy, a sense of connection with the person who made the song, or with others who feel the same. And it can bring beauty, which matters more than we sometimes admit.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "title": "What sad music can give",
+    "items": [
+     "Comfort",
+     "Release",
+     "Empathy",
+     "Beauty"
+    ]
+   }
+  },
+  {
+   "say": "Comfort and empathy are closely linked. A sad song can feel like company. When we're having a hard time, it can help to hear that someone else has been there too, and found a way to turn it into something lovely. This fits gently with Panksepp's idea from earlier, about longing and wanting warmth. The song reaches out, and in a quiet way, we reach back.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "Comfort and company",
+    "sub": "Someone else felt it too"
+   }
+  },
+  {
+   "say": "Here's tonight's small thought. Sadness in a song can hold us, not hurt us. It's a strange and lovely thing about music. It lets us feel the hardest feelings in a safe space, with an ending we know will come, and a melody to carry us through. And sometimes, after the last note has faded, we feel a little lighter than we did before.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "text": "Sadness in a song can hold us, not hurt us.",
+    "by": "Tonight's thought"
+   }
+  },
+  {
+   "say": "That's how it was for Theo. The shiver from the voice and the tears near the end were two different peaks, one bright and one soft. And together, they left him feeling something he couldn't quite name. Not happy, exactly, and not sad. Moved, perhaps, and a little lighter. He picked up his coat, stepped out into the cool evening air, and started walking.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Theo after the concert",
+    "sub": "A little lighter"
+   }
+  },
+  {
+   "say": "The bus stop was a few streets away. As Theo passed a small café, still open, he heard music drifting out through the door. An old song was playing on the radio inside. He hadn't heard it in years, and yet he knew every note, almost before it came, and he slowed down without meaning to. Why do old songs reach us like that? Let's find out next.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "On the way to the bus",
+    "sub": "A song from somewhere"
+   }
+  }
+ ]
+}

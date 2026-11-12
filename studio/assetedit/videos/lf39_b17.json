@@ -1,0 +1,186 @@
+{
+ "id": "lf39_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's settle in a little deeper now. The hall is quiet, the music has faded, and there's nowhere you need to be. In a moment, we'll travel slowly through the body, from the top of your head all the way down to your feet. There's nothing to get right. You're simply noticing, one part at a time, and letting each part soften.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Settling in",
+    "sub": "Nowhere to go"
+   }
+  },
+  {
+   "say": "Begin with the very top of your head. Just notice it, as if a warm, gentle light were resting there. You don't need to do anything with it. Let your scalp loosen a little. Let any tightness there melt, the way a candle softens at its edges. Breathe in slowly, and as you breathe out, let the warmth spread down, just a little.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The top of the head",
+    "sub": "Soft and easy"
+   }
+  },
+  {
+   "say": "Now let the warmth move down to your forehead. So many small worries live here during the day, in tiny frowns we hardly notice. Let them smooth out now. Let your eyebrows relax. Let the space between them open and soften. Your forehead can be wide and calm, like a still pond in the evening, with nothing moving across its surface at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "The forehead",
+    "sub": "Smoothing out"
+   }
+  },
+  {
+   "say": "Let the softness travel slowly across your face. Your eyes, resting heavy in their place. Your cheeks, loose and easy. Your jaw, which so often holds on tight, gently letting go, so your teeth part just a little. And your tongue, resting soft in your mouth. Each one, quietly loosening. Each one, a small place where the day can finally end.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Softening the face",
+    "items": [
+     "Eyes",
+     "Cheeks",
+     "Jaw",
+     "Tongue"
+    ]
+   }
+  },
+  {
+   "say": "Now notice your neck. Earlier tonight, we imagined a shiver running down here, a quick, bright wave as the voice rose in the hall. Now something slower comes instead. A steady warmth, settling into the sides of your neck and the back of it. Let your head feel heavy, supported, held. There's nothing to listen for now. Only rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The neck",
+    "sub": "Where the shiver ran"
+   }
+  },
+  {
+   "say": "Let the warmth flow down into your shoulders. Many of us carry the whole day here, lifted up a little towards our ears without noticing. If you like, take a slow breath in, and as you breathe out, let your shoulders drop. Just a little lower. And a little lower still. Feel them spread out, wide and heavy, sinking gently down.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The shoulders",
+    "sub": "Letting them drop"
+   }
+  },
+  {
+   "say": "Here's a small thought to rest with. The shiver came quickly. The warmth can stay. A shiver is a brief, bright moment, there and then gone. But warmth is patient. It doesn't need to rush or peak. It can settle in and stay for as long as you need it, slowly filling every quiet corner of your body, all through the night.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "text": "The shiver came quickly. The warmth can stay.",
+    "by": "Tonight's thought"
+   }
+  },
+  {
+   "say": "Now let the warmth travel down your arms. Down past your shoulders, into your upper arms, past your elbows, and into your forearms. The same arms where the goosebumps rose earlier tonight are smooth and calm now. Let them feel heavy. So heavy that lifting them would take more effort than you'd want to give. They can simply lie there, warm and resting.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The arms",
+    "sub": "Heavy and warm"
+   }
+  },
+  {
+   "say": "Notice your hands. Your palms. Each finger, one by one. Let them uncurl, if they've been holding on to something. Let them lie open and still. Perhaps you can feel a faint warmth in your fingertips, or a gentle tingling, or nothing much at all. Whatever you notice is fine. Your hands have worked hard today. Now they can simply rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The hands",
+    "sub": "Open and still"
+   }
+  },
+  {
+   "say": "Picture a fire that has burned down to warm, glowing embers. No flames leaping, no crackling now. Just a soft, steady glow, giving off a gentle heat that fills the room. That's the kind of warmth moving through you. Not bright, not sudden. Slow and kind, like embers that keep a room warm long after the fire has quieted.",
+   "show": {
+    "type": "photo",
+    "file": "lf39_b17_01.jpg",
+    "cap": "Warm embers glowing"
+   }
+  },
+  {
+   "say": "Let your attention rest on your chest. Feel it rising, and falling, all on its own. You don't need to help. Each breath in brings a little warmth. Each breath out carries away a little more of the day. Let your chest feel wide and open, your heartbeat steady and calm somewhere underneath, keeping its own gentle time, like a quiet drum.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The chest",
+    "sub": "Breathing on its own"
+   }
+  },
+  {
+   "say": "Now let the warmth settle into your belly. So often we hold it tight without knowing. Let it go soft now. Let it rise gently with each breath in, and fall gently with each breath out. Like a small boat on calm water, lifting and lowering, lifting and lowering. There's nothing to hold in here. Nothing to keep tight. Just soft, easy breathing.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "The belly",
+    "sub": "Soft and loose"
+   }
+  },
+  {
+   "say": "Let the warmth keep travelling, slowly, down through the body. Your lower back, sinking into whatever is beneath you. Your hips, heavy and loose. Your legs, long and still, too warm and comfortable to move. Your knees, softening. Each part a little heavier than the last, as if the whole of you were melting gently down into the bed.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Sinking down",
+    "items": [
+     "Lower back",
+     "Hips",
+     "Legs",
+     "Knees"
+    ]
+   }
+  },
+  {
+   "say": "And finally, let the warmth reach your feet. Your ankles. Your heels. The soles of your feet, and each of your toes. Imagine them wrapped in something soft and warm, like a thick wool blanket on a cold night. These feet carried you through the whole day. Now they can rest, completely, with nowhere left to walk and nothing left to do.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The feet",
+    "sub": "All the way down"
+   }
+  },
+  {
+   "say": "Let that settle over you, gently, like a blanket. From head to feet, nothing left to hold. Your head is resting. Your shoulders have dropped. Your arms and hands are heavy and warm. Your belly is soft. Your legs and feet are still. The whole of you, from top to bottom, is held now, warm and quiet, ready to drift.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "text": "From head to feet, nothing left to hold.",
+    "by": "A gentle reminder"
+   }
+  },
+  {
+   "say": "Now notice your whole body at once, if you can. Not part by part anymore, but all of it together, wrapped in a gentle, even warmth. Like sinking into a warm bath at the end of a long day. If a thought drifts in, let it drift away again. If you start to fall asleep, let yourself. There's nothing more you need to do tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Warmth everywhere",
+    "sub": "Just resting"
+   }
+  },
+  {
+   "say": "Stay here in this warmth for as long as you like. The shiver from earlier tonight was a lovely moment, a spark in the quiet hall. But this is something gentler. A slow, steady comfort that asks nothing of you. Breathe in slowly. Breathe out slower still. And let the warmth carry you, little by little, towards sleep, soft and easy, in its own good time.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Drifting gently",
+    "sub": "Warm and safe"
+   }
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "id": "lf39_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think back to the moment in the wooden hall, just before the single voice came in. The choir had gone quiet and the strings were barely moving. Nobody coughed, nobody shifted in their seat. Theo noticed that he was holding his breath, without having decided to. Something was about to happen, and his whole body seemed to know it. That small, held breath may be one of the best clues we have.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "n": 9,
+    "title": "Expecting the unexpected"
+   }
+  },
+  {
+   "say": "Why would anyone hold their breath for a piece of music? Nothing was in danger. Theo wasn't waiting for news, or for a decision. He was simply waiting for a sound. And yet the waiting felt full, almost heavy, as if the silence itself were leaning forward. To understand that feeling, we need to go back to an idea about music that is now well over half a century old.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "A held breath",
+    "sub": "Waiting for what comes next"
+   }
+  },
+  {
+   "say": "In 1956, the music theorist Leonard Meyer published a book called Emotion and Meaning in Music. His central idea was simple, and it has stayed remarkably influential. Emotion in music, he argued, comes from expectation. A piece builds up an expectation in the listener. Then it can delay what we expect, fulfill it, or break it. And in that gap between what we expect and what we get, feeling appears.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "who": "Leonard Meyer",
+    "where": "Published in 1956",
+    "what": "Emotion and Meaning in Music: expectations built, delayed, fulfilled or broken"
+   }
+  },
+  {
+   "say": "You can feel this without knowing any music theory at all. A melody climbs and seems to be heading home, to a note that feels like rest. If it arrives right away, there's a small, quiet satisfaction. If it lingers on the way, the wish to get there grows stronger. And if it suddenly turns somewhere else entirely, there's a little jolt, like missing a step on the stairs in the dark.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Built, delayed, fulfilled",
+    "sub": "Or broken"
+   }
+  },
+  {
+   "say": "Seen this way, the hush in the hall was a delay. The music had built a strong expectation that something would come next, and then it held it back. Every quiet second made the wish a little sharper. Remember, earlier tonight we saw that the caudate was most active in the seconds before the peak chill. Meyer, writing decades before any scanner, was describing that same waiting from the outside.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "cap": "The hush in the hall",
+    "sub": "A long delay"
+   }
+  },
+  {
+   "say": "Fifty years after Meyer, the music researcher David Huron, at Ohio State, took the idea further in a book called Sweet Anticipation, published in 2006. Huron starts from a broader point about brains in general. A brain, he says, is constantly predicting what comes next. Not only in music, but all the time. Where your foot will land, what a friend will say, how a sentence will end. Music simply plays with that habit.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "who": "David Huron",
+    "where": "Ohio State, published in 2006",
+    "what": "Sweet Anticipation: the brain constantly predicts what comes next"
+   }
+  },
+  {
+   "say": "Huron describes our responses to what happens next in five stages, and he gave them a name made of their first letters, ITPRA. First comes imagination, picturing what might happen. Then tension, the body getting ready just before the moment. Then prediction, a quiet check of whether our guess was right. Then reaction, a very fast response. And finally appraisal, a slower, more thoughtful judgment of what has just happened.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "title": "Huron's ITPRA",
+    "items": [
+     "Imagination",
+     "Tension",
+     "Prediction",
+     "Reaction",
+     "Appraisal"
+    ]
+   }
+  },
+  {
+   "say": "The first two stages happen before the event. Imagination lets us lean into the future a little, wondering how something might feel. Tension is the body quietly preparing, a slight tightening, a held breath, attention narrowing to a single point, as if the rest of the world had gone a little dim. In the hall, Theo was right there. He was imagining the voice that hadn't yet come in, and his body was tensing to meet it.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Before the moment",
+    "sub": "Imagination and tension"
+   }
+  },
+  {
+   "say": "The last three stages come once the moment arrives. Prediction is the check, did it happen the way I guessed? Reaction is fast and almost automatic, a quick bodily response before we've had time to think. Appraisal arrives a little later and takes its time, like a second opinion. It looks at the whole situation and decides what the moment actually meant, and whether it was good or bad.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "After the moment",
+    "sub": "Prediction, reaction, appraisal"
+   }
+  },
+  {
+   "say": "Picture a lake at dawn, perfectly still, like a held breath. Then a single small wave moves across it, and the surface trembles for a moment before settling again. That's a little like what a surprise does inside us. A quick ripple, then a slower return to calm. Huron's most interesting idea is about exactly this pair, the ripple and the settling, and what happens in the short space between them.",
+   "show": {
+    "type": "photo",
+    "file": "lf39_b09_01.jpg",
+    "cap": "A ripple on still water"
+   }
+  },
+  {
+   "say": "Huron calls it contrastive valence. When something surprising happens, the fast reaction can be a little like an alarm, a quick startle before we know what's going on. A moment later, the slower appraisal arrives and says, it's fine, this is safe, this is only music. And the contrast between the two, the quick jolt and the gentle all clear, can make the moment feel even better than it would have otherwise.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "cap": "Contrastive valence",
+    "sub": "Alarm, then relief"
+   }
+  },
+  {
+   "say": "Think of a door that slams shut in the wind. For a split second, you startle. Then you see what it was, and your shoulders drop, and sometimes you even laugh. The startle wasn't pleasant, but the relief after it is. Music can offer this kind of surprise over and over, gently, inside a space where nothing can actually hurt us. A sudden harmony, a new voice, a quiet that breaks.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "Safe surprises",
+    "sub": "Why they feel so good"
+   }
+  },
+  {
+   "say": "So Huron's picture has five stages, and chills may live right in the middle of them. His suggestion is that the shiver belongs to the fast reaction, the alarm part. The body responds to a surprise as if it might matter, and the skin tingles. Then appraisal catches up and finds only beauty. It's important to say that this is a hypothesis, a careful idea, not a settled fact.",
+   "show": {
+    "type": "stat",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "title": "Huron's ITPRA theory",
+    "big": "5",
+    "label": "stages, from imagination to appraisal"
+   }
+  },
+  {
+   "say": "Still, it fits rather nicely with what we heard earlier tonight. Remember that shivers were often linked to new or unexpected harmonies, and to the entry of a voice or a sudden change in loudness. Those are exactly the moments when a prediction is broken. And remember too that chills weren't automatic. The same passage didn't always work. That makes sense if what matters is what each listener was expecting.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "cap": "How it fits",
+    "sub": "With what we've seen"
+   }
+  },
+  {
+   "say": "Here's a small thought to keep. A chill may be a surprise we're glad of. Not a shock, and not something we didn't want, but a gentle break in what we expected, followed by the sense that all is well. It's a little like being caught off guard by an unexpected kindness from a stranger. For a moment, you don't quite know what's happening. And then you do, and it feels warm.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "A chill may be a surprise we're glad of.",
+    "by": "Tonight's thought"
+   }
+  },
+  {
+   "say": "Now we can look again at Theo in the hall. The hush built the tension, while his brain was busy imagining and predicting. Then the single voice came in, higher and clearer than he'd guessed, and his body reacted before his mind could catch up. The shiver ran down his neck and arms. A moment later, appraisal arrived and said, quietly, this is beautiful, and he finally breathed out.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Theo's held breath",
+    "sub": "The voice arrives"
+   }
+  },
+  {
+   "say": "Expectation explains a lot about when chills happen. But it doesn't quite explain everything, and Theo noticed something else about that voice. It wasn't bright or cheerful. It was slow and a little sad, the kind of melody that seems to be missing someone. And it turns out that one researcher thought this kind of sadness might be a clue all of its own, a clue about where the shiver comes from. Let's look at his idea next.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "But there's more",
+    "sub": "The song's mood"
+   }
+  }
+ ]
+}

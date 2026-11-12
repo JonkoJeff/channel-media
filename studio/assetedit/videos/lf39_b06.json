@@ -1,0 +1,197 @@
+{
+ "id": "lf39_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's go back to the hush in Theo's wooden hall. The choir has stopped. The strings have gone quiet. Nobody coughs, nobody moves. For a few seconds, the whole room seems to be waiting for something. Then the single soprano voice enters, and the shiver comes. But what if part of the magic wasn't in that voice at all? What if it was already happening in the waiting?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "n": 6,
+    "title": "The moment before"
+   }
+  },
+  {
+   "say": "That's the question a team at McGill University helped answer, ten years after the first scanner study. The work was led by Valorie Salimpoor, with Robert Zatorre and colleagues, and it was published in 2011 in the journal Nature Neuroscience. Their goal was bold. Not only to see which brain areas became active during a chill, but to find the chemical messenger involved, and to discover exactly when it was working.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "who": "Valorie Salimpoor, Robert Zatorre and colleagues",
+    "where": "Published in 2011",
+    "what": "McGill: dopamine release and the timing of peak chills in the brain"
+   }
+  },
+  {
+   "say": "To do that, they needed listeners whose chills were as dependable as possible. So they began by screening 217 people. That's a lot of interviews and questionnaires, all to answer one simple question. Who, among all these people, gets chills from music reliably, again and again, at the same favorite moments? The researchers knew that a shiver that only shows up now and then would be very hard to study.",
+   "show": {
+    "type": "stat",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "title": "People screened for the study",
+    "big": "217",
+    "label": "looking for reliable chill listeners"
+   }
+  },
+  {
+   "say": "From those 217 people, they chose just 8. Each of them reliably got chills to their own music. And, as in the earlier study, each person brought along the pieces that moved them most. It may seem like a tiny group. But for this kind of careful, expensive scanning, they needed people whose shivers would turn up on cue, so there would truly be something to measure while they listened.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "Just eight listeners",
+    "sub": "Chosen with care"
+   }
+  },
+  {
+   "say": "The team used two different kinds of brain scan, each with its own job. The first was PET, the method we met a moment ago, but this time with a special tracer. That tracer could reveal whether dopamine was being released. The second was fMRI, which is better at timing. It can follow changes in brain activity over just a few seconds, like a camera taking pictures in quick succession.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "Two tools",
+    "sub": "Two questions"
+   }
+  },
+  {
+   "say": "So we have two questions, side by side. The PET scan asked whether dopamine was really being released while people listened to music they loved. The fMRI scan asked where activity was rising, and at what exact moment. Put together, the two could tell something like a story in time. Not just that the brain responds to music, but how that response unfolds, second by second.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "What each scan asked",
+    "items": [
+     "PET: is dopamine released?",
+     "fMRI: where, and when?",
+     "Together: a story in time"
+    ]
+   }
+  },
+  {
+   "say": "The first answer was clear. While these listeners heard pleasurable music, the PET scans showed dopamine being released in the striatum, part of the brain's reward system. Dopamine is a messenger closely tied to wanting and seeking, to the things we go looking for. Earlier work had suggested the reward system was involved. This study offered direct evidence that music itself could set that chemical messenger flowing.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "cap": "The first answer",
+    "sub": "Dopamine, released"
+   }
+  },
+  {
+   "say": "It's worth pausing on how remarkable that is. Nothing was eaten. Nothing was won. Nobody was touched or praised. The listeners simply lay still while patterns of sound moved through the air and into their ears. And yet their brains answered with one of the same chemical signals that help animals chase things they need. Music, it seems, can reach very deep, far below the level of words or thought.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "A remarkable thing",
+    "sub": "From sound alone"
+   }
+  },
+  {
+   "say": "Picture that hall in the second before the voice. The air is still. The light is soft. Nothing has happened yet, and yet the whole room feels full. You might know this feeling from your own life. The quiet before a song's best part. The breath someone takes before they speak. A pause that already carries something inside it, waiting to arrive. Take a slow breath, and stay in that pause for a moment.",
+   "show": {
+    "type": "photo",
+    "file": "lf39_b06_01.jpg",
+    "cap": "The hush before"
+   }
+  },
+  {
+   "say": "The title of the study had a lovely phrase in it, about the anticipation and experience of peak emotion. Anticipation and experience. Two different things, it turns out. The team found that the brain's response didn't happen all at once, at the top of the shiver. It came in two waves, in two neighboring places, separated by only a few seconds of music. And that small gap tells us a lot.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "Anticipation and experience of peak emotion",
+    "by": "From the title of the 2011 study"
+   }
+  },
+  {
+   "say": "Your brain starts enjoying a chill before it arrives. In the McGill study of 2011, the first wave came early. In the seconds before the peak, a part of the striatum called the caudate was most active. This was the waiting phase. The listener knew, somewhere inside, that the favorite moment was approaching. The music was building toward it. And the caudate seemed to be leaning forward, like someone standing on tiptoe to see over a crowd.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "Before the peak",
+    "sub": "The caudate"
+   }
+  },
+  {
+   "say": "Then came the second wave. At the peak of the chill itself, the most active area was a different part of the striatum, called the nucleus accumbens. This was the arrival. The moment the shiver ran down the neck and arms. So the brain seemed to have one rhythm for wanting something that's coming, and another for receiving it. Two steps in a very small dance.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "At the peak",
+    "sub": "The nucleus accumbens"
+   }
+  },
+  {
+   "say": "So here's the picture in its simplest form. The wait belonged mostly to the caudate. The peak belonged mostly to the nucleus accumbens. And both are part of the same reward system that we met in the first scanner study. The pleasure of music, then, isn't a single flash. It's a little arc, rising through the waiting and landing in the moment of arrival.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "title": "Two moments, two places",
+    "items": [
+     "The wait: the caudate",
+     "The peak: the nucleus accumbens",
+     "Both: the reward system"
+    ]
+   }
+  },
+  {
+   "say": "Now think of Theo again, in that hush. Those quiet seconds weren't empty. If this study is a guide, his brain may already have been busy, anticipating, leaning toward something it sensed was coming. The silence after the choir was part of the music. Without it, the voice might not have landed in quite the same way. The shiver was built, in part, out of the waiting.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "cap": "Theo's waiting",
+    "sub": "Part of the music"
+   }
+  },
+  {
+   "say": "This might also help explain something familiar. Why can a song we know by heart still give us chills? You might expect that knowing what's coming would spoil the surprise. But perhaps knowing gives the brain something to look forward to. Each time the familiar build begins, the waiting starts again. And the waiting, as this study suggests, may be a pleasure of its own.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "cap": "Why favorites",
+    "sub": "Keep working"
+   }
+  },
+  {
+   "say": "Of course, we should keep this in proportion. The final group was 8 people, carefully chosen because they got chills easily and reliably. They may not be typical of everyone. And scans show activity and chemical signals, not feelings directly. Still, the study added something important. It showed not only where music touches the reward system, but when, and in what order, from the first hint to the peak.",
+   "show": {
+    "type": "stat",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Listeners in the final scans",
+    "big": "8",
+    "label": "chosen from 217 people"
+   }
+  },
+  {
+   "say": "So here's tonight's thought, to keep close. The waiting is part of the music. That's true in a concert hall, and perhaps elsewhere too. The pause before a friend's answer. The last page of a good book. The quiet before a storm breaks, or before morning light comes up. The brain doesn't only enjoy arrivals. It also enjoys leaning gently toward them.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "text": "The waiting is part of the music.",
+    "by": "Tonight's thought"
+   }
+  },
+  {
+   "say": "But there's still a question hanging in the air. These studies showed that dopamine and music rise together. They didn't show that dopamine causes the pleasure. Maybe it's just along for the ride. To find out, you'd need to gently turn the brain's dopamine up or down, and see whether the music changes. And some years later, back at McGill, that's exactly what another team did.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "Coming next",
+    "sub": "Turning the dial"
+   }
+  }
+ ]
+}

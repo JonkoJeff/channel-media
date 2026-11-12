@@ -1,0 +1,190 @@
+{
+ "id": "lf39_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "On the bus home, Theo leans his head against the cool window and lets the city slide past. The old song from the café radio has faded now. But something older has come up underneath it. A melody without words. His grandmother, sitting on the edge of his bed when he was small, humming the same soft tune, again and again, until his eyes grew heavy and closed.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "n": 13,
+    "title": "Every culture sings"
+   }
+  },
+  {
+   "say": "He can't remember the words, if there ever were any. He only remembers the shape of it. The way it rose a little, then sank back down, slow and steady, like a rocking chair. He never asked where she learned it. Maybe from her own mother. Maybe from someone long before that. And sitting there on the bus, Theo starts to wonder how far back songs like this really go.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A tune without words",
+    "sub": "Older than memory"
+   }
+  },
+  {
+   "say": "That question has been studied. In 2019, a team led by the researcher Samuel Mehr published a large study in the journal Science, with the title Universality and diversity in human song. They gathered records describing life in societies from all over the world, from small villages to large nations, written by people who had lived among them. Then they asked a simple question. Is there any society on the list where people don't sing?",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "who": "Samuel Mehr and colleagues",
+    "where": "Published in 2019 in Science",
+    "what": "Universality and diversity in human song"
+   }
+  },
+  {
+   "say": "The answer was no. Their sample included 315 societies, and song turned up in every one of them. Not in most. In all. Of course, a sample is not the whole world, and the researchers were careful about that. But it's a striking result. Across oceans and mountains, across very different ways of living, people have found their way to the same thing. They open their mouths, and they sing.",
+   "show": {
+    "type": "stat",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Societies in the sample where song was found",
+    "big": "315",
+    "label": "every single one of them"
+   }
+  },
+  {
+   "say": "And the songs weren't random. Certain kinds kept appearing, again and again, in place after place. There were lullabies, sung to soothe small children. There were dance songs, sung to move bodies together. There were healing songs, sung for people who were sick or suffering. And there were love songs. Very different peoples, it seems, have turned to music for some of the very same moments in life.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "title": "Songs found again and again",
+    "items": [
+     "Lullabies",
+     "Dance songs",
+     "Healing songs",
+     "Love songs"
+    ]
+   }
+  },
+  {
+   "say": "Think about that for a moment. A parent trying to calm a crying baby. A group of friends wanting to celebrate. Someone sitting beside a person who is ill. Someone longing for another person. These are some of the oldest, most human moments there are. And in so many places, people reached for the same tool to meet them. Not a machine, not a medicine, but a voice, shaped into a song.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "cap": "The same moments",
+    "sub": "Everywhere"
+   }
+  },
+  {
+   "say": "A year earlier, in 2018, Mehr and his colleagues had tried something else, published in the journal Current Biology. They played people short recordings of songs from cultures they didn't know. The listeners came from many different countries. And they were asked to guess what each song was for. Was it a lullaby? A dance song? Something else? Remember, these were unfamiliar recordings, often in languages the listeners had never heard.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "who": "Samuel Mehr and colleagues",
+    "where": "Published in 2018 in Current Biology",
+    "what": "Listeners guessed what an unfamiliar song was for"
+   }
+  },
+  {
+   "say": "And quite often, the listeners could tell. From only a short piece of an unfamiliar recording, many of them could pick out whether it was a lullaby or a dance song. They didn't need to understand a single word. Something in the sound itself seemed to carry the purpose. A song meant to settle a child seems to sound like settling, wherever in the world it was first sung.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "cap": "Hearing the purpose",
+    "sub": "Without the words"
+   }
+  },
+  {
+   "say": "Theo smiles a little at the window. That makes sense to him. When his grandmother hummed to him, he was far too young to follow any words. He didn't need them. He understood the tune perfectly. It said, you're safe, it's late, you can rest now. And somehow, so many years later, the same few notes can still make his shoulders drop and his breathing slow, right here on a crowded evening bus.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Theo's lullaby",
+    "sub": "Understood before words"
+   }
+  },
+  {
+   "say": "Picture an old wooden rocking chair beside a window, a folded blanket resting on the seat. Someone sat here once, rocking slowly, humming the same few notes over and over. Rocking and humming have a lot in common. Both are slow. Both repeat. Both seem to say the same thing to a small, tired body. There's nothing to worry about now. The day is done. You can let your eyes close.",
+   "show": {
+    "type": "photo",
+    "file": "lf39_b13_01.jpg",
+    "cap": "Where lullabies live"
+   }
+  },
+  {
+   "say": "It's a gentle thought to hold. Long before we understood words, we understood songs. Many of us were sung to before we could speak at all. A voice, a rhythm, a tune that rose and fell. Perhaps that's part of why music can still reach us so directly, slipping past all the thinking and the explaining, and landing somewhere much older and softer inside us, a place we first learned to feel safe in.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "text": "Long before we understood words, we understood songs.",
+    "by": "A gentle reminder"
+   }
+  },
+  {
+   "say": "But songs aren't only for sleepy children. In 2012, the psychologist Robin Dunbar and his colleagues published a study in the journal Evolutionary Psychology. They looked at people who had been actively making music together, singing, dancing or drumming as a group. Before and after, they measured each person's pain threshold. That simply means how much uncomfortable pressure or cold someone could put up with before they said, that's enough.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "who": "Robin Dunbar and colleagues",
+    "where": "Published in 2012 in Evolutionary Psychology",
+    "what": "Singing, dancing or drumming together raised pain thresholds"
+   }
+  },
+  {
+   "say": "After singing, dancing or drumming together, people's pain thresholds tended to rise. They could tolerate a little more pressure, or a little more cold, than before. But here's the interesting part. When people just listened to background music, without joining in, the same rise didn't appear. It seemed to matter that they were doing something themselves, with their own bodies, alongside other people. Joining in seemed to be the key.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "A higher threshold",
+    "sub": "After making music together"
+   }
+  },
+  {
+   "say": "Why would that happen? The authors linked it to endorphins, the body's own natural painkillers. But it's worth being careful here. They didn't measure endorphins directly. Pain threshold is an indirect sign, a clue pointing in that direction rather than proof. Still, it fits a gentle idea. Making music together may do something to our bodies that simply listening to it doesn't quite do. It's a clue rather than a final answer, and an open question, but a lovely one.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "A careful guess",
+    "sub": "Endorphins"
+   }
+  },
+  {
+   "say": "Think of all the ways people do this. A choir, with many voices breathing in at the same moment. A circle of drums, keeping one beat between them. A crowded dance floor, everyone moving to the same rhythm. A family singing together at the table, a little out of tune and not minding at all. In every one of these, for a while, many people become one sound.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "title": "Ways people make music together",
+    "items": [
+     "A choir",
+     "A circle of drums",
+     "A crowded dance floor",
+     "A family singing at the table"
+    ]
+   }
+  },
+  {
+   "say": "Theo thinks back to the choir in the old wooden hall. Before the soprano entered, there had been that hush, and then the whole choir had breathed in together, as if they were one body. He had only been listening. But he had felt part of it anyway. Maybe that's what music has always been for. Not just sound, but a way of being together, of feeling a little less alone in a room full of strangers.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "The choir in the hall",
+    "sub": "One breath, many voices"
+   }
+  },
+  {
+   "say": "The bus slows near Theo's stop. The tune his grandmother hummed is still circling quietly in his mind. A song in every society on the list. Lullabies understood across languages. Voices that seem to ease pain when they join together. It all adds up to something bigger than one evening's shiver. And soon, as Theo walks the last stretch home, we'll gather it all together, slowly, one piece at a time.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Nearly home",
+    "sub": "One more question"
+   }
+  }
+ ]
+}

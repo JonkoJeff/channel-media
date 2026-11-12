@@ -1,0 +1,196 @@
+{
+ "id": "lf39_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "By now, we've seen the brain's reward system light up during chills, and we've seen dopamine released while people heard music they loved. That's a beautiful picture. But it leaves one stubborn question open. When two things rise together, it doesn't always mean that one is causing the other. And scientists, quite rightly, are a little stubborn about that kind of question.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "n": 7,
+    "title": "Turning the dial"
+   }
+  },
+  {
+   "say": "Here's a simple way to see the problem. On rainy days, you'll notice lots of umbrellas in the street. Umbrellas and rain go together. But umbrellas don't make it rain. In the same way, dopamine and musical pleasure might travel together without one driving the other. Maybe dopamine is just a passenger, sitting quietly in the back seat. To find out, you'd have to change one thing on purpose and watch what happens to the other.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Together isn't cause",
+    "sub": "A rainy example"
+   }
+  },
+  {
+   "say": "That's exactly what a team led by Laura Ferreri, with Ernest Mas-Herrero, Robert Zatorre and colleagues, set out to do. Their study was published in 2019 in the journal PNAS. Instead of only watching the brain during music, they decided to gently nudge its chemistry. If dopamine truly helps create musical pleasure, then turning it up should make music feel better, and turning it down should make music feel flatter.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "who": "Laura Ferreri, Ernest Mas-Herrero, Robert Zatorre and colleagues",
+    "where": "Published in 2019",
+    "what": "PNAS: raising and lowering dopamine to test musical pleasure"
+   }
+  },
+  {
+   "say": "They worked with 27 people. And each of those people came back for three separate sessions. That detail is quietly clever. Rather than comparing one group of people with a different group, the researchers could compare each person with themselves. Your own taste in music stays the same from one week to the next. So any change in your pleasure would point to what was different that day.",
+   "show": {
+    "type": "stat",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "title": "People in the study",
+    "big": "27",
+    "label": "each came for three sessions"
+   }
+  },
+  {
+   "say": "On each visit, the person received something different, a medicine or a stand-in. Then they listened to music and reported how much they enjoyed it. So the same listener, with the same ears and the same favorite kinds of songs, heard music on three different days, each time with a slightly different brain chemistry. It's a little like tasting the same soup with three different pinches of salt.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "Three visits",
+    "sub": "Three different days"
+   }
+  },
+  {
+   "say": "Here are the three sessions. In one, people received levodopa, a medicine that raises the brain's dopamine. In another, they received risperidone, a medicine that dampens dopamine signals. And in the third, they received a placebo, something that looks the same but contains no active drug. Three days, three settings of the dial, and one simple question each time. How good does the music feel today?",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "The three sessions",
+    "items": [
+     "Levodopa: raises dopamine",
+     "Risperidone: dampens dopamine",
+     "Placebo: no active drug"
+    ]
+   }
+  },
+  {
+   "say": "The placebo matters a lot. Simply taking a pill and sitting in a lab can change how we feel, all by itself. We might relax, or feel a little nervous, or expect something special to happen. The placebo session captures all of that. It gives a fair middle point to compare against. Without it, nobody could say whether a change came from the medicine or just from the visit.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "cap": "Why a placebo",
+    "sub": "A fair comparison"
+   }
+  },
+  {
+   "say": "And notice what stayed exactly the same in every single session. The music. The listener. The room. The task of saying how pleasurable each piece felt. The only thing that was meant to change was the level of dopamine activity in the brain. That's what makes this kind of study so powerful. When you hold everything else still and move just one thing, you can start to see what that one thing does.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "The music itself",
+    "sub": "Nothing else changed"
+   }
+  },
+  {
+   "say": "Picture a small lamp with a round dimmer knob. Turn it one way, and the room fills with warm light. Turn it the other way, and everything softens toward shadow. The lamp itself doesn't change, and the room doesn't change. Only the dial does. In a way, that's what this study tried to do with the brain's dopamine, while the music stayed exactly the same.",
+   "show": {
+    "type": "photo",
+    "file": "lf39_b07_01.jpg",
+    "cap": "Turning the dial"
+   }
+  },
+  {
+   "say": "Can a pill change how much you love a song? In this 2019 study of 27 people, it seemed to. When people had taken levodopa, the medicine that raises dopamine, they got more pleasure from the music. The same songs, heard by the same people, simply felt better. It's a striking result. Nothing about the sound had changed at all, and yet the listening experience had been lifted, as if the warm light in the room had been turned up a little.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Turning it up",
+    "sub": "More pleasure"
+   }
+  },
+  {
+   "say": "And when people had taken risperidone, the medicine that dampens dopamine, the music gave them less pleasure. The same melodies felt a bit flatter, a bit further away. The placebo session landed in between, just where you'd expect a middle setting to be. Up, down, and in the middle. Three settings of the dial, and the pleasure of music seemed to follow along.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "rooftop_dusk",
+    "cap": "Turning it down",
+    "sub": "Less pleasure"
+   }
+  },
+  {
+   "say": "So here's tonight's thought, in one line. Pleasure in music has a chemical dial. That doesn't make it any less beautiful. A sunset is still lovely even when you know how light bends through the air. In the same way, a shiver of delight is still yours, still meaningful, even when we know that a small messenger in the brain helps bring it to life.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "Pleasure in music has a chemical dial.",
+    "by": "Tonight's thought"
+   }
+  },
+  {
+   "say": "This was an important step. Earlier studies had shown dopamine and pleasure rising together. This one suggested that dopamine actually helps cause musical pleasure, rather than simply riding along. And it fits with the opioid clue we heard about earlier, where blocking the body's own opioids seemed to soften the joy of music. The brain's reward chemistry, it seems, really does shape how good a song can feel.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "cap": "Not just a passenger",
+    "sub": "Part of the cause"
+   }
+  },
+  {
+   "say": "But here's a gentle correction to a popular idea. Dopamine is often called the pleasure chemical. That's not quite right. Researchers now think dopamine is more about wanting, expecting and learning. It helps us lean toward things, notice what's worth seeking, and remember what turned out well. Pleasure is part of the story, but dopamine is more like a guide than a gift.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "What dopamine does",
+    "sub": "More than pleasure"
+   }
+  },
+  {
+   "say": "So here are three things dopamine helps with. Wanting, the pull toward something good. Expecting, the sense that something good is on its way. And learning, the way the brain notes what was worth it, so that next time we can find it again. And music, you might notice, is full of all three. It makes us want, it makes us wait, and it teaches us what to listen for.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "title": "What dopamine helps with",
+    "items": [
+     "Wanting",
+     "Expecting",
+     "Learning"
+    ]
+   }
+  },
+  {
+   "say": "Think of Theo after that evening in the wooden hall. His brain may have quietly learned something. That a hush in a choir piece can lead somewhere wonderful. That a single voice after silence is worth leaning toward. The next time he hears a similar pause, he might feel the waiting begin a little sooner. Not because he planned it, but because his brain remembered.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "Theo learns",
+    "sub": "What to wait for"
+   }
+  },
+  {
+   "say": "A careful note before we go on. Levodopa and risperidone are real medicines, prescribed by doctors for specific conditions. They're not tools for enjoying music, and nobody should take them for that. And 27 people is still a fairly small group. But as a careful test of cause and effect, this study gave the dopamine story a much firmer footing than before. It moved the idea from a pattern to a test.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "A careful note",
+    "sub": "Small, and medical"
+   }
+  },
+  {
+   "say": "So we now know something about what happens in the listener. The reward system wakes. Dopamine helps us want, expect and learn. But what is it in the music itself that sets all this off? Why does a shiver tend to come at one moment and not another? To answer that, researchers have spent years listening very closely to the exact passages that give people chills.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "Coming next",
+    "sub": "Inside the music"
+   }
+  }
+ ]
+}

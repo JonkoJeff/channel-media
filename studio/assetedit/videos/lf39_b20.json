@@ -1,0 +1,180 @@
+{
+ "id": "lf39_b20",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We're coming to the quietest part of the evening now. The concert is long over. The hall is dark and empty. The lake is still, and the snow is falling softly on the sleeping town. And here you are, warm and heavy, settling into rest. There's nothing left to explore tonight, nothing left to learn. Only the soft, slow drift towards sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Settling into rest",
+    "sub": "The night is here"
+   }
+  },
+  {
+   "say": "Notice your breath one more time, if you like. It's slow now, and deep, and easy. Each breath in comes all on its own. Each breath out lets go of a little more. You don't need to count, or follow, or guide it anymore. Your body knows exactly how to rest. It has done this every night of your life, and it can do it again now.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Your breath",
+    "sub": "Slow and easy"
+   }
+  },
+  {
+   "say": "Let your whole body sink a little deeper into the bed. Your head, heavy on the pillow. Your shoulders, soft and low. Your arms and hands, resting still. Your legs and feet, warm and comfortable beneath the covers. It's as if the bed were slowly rising up to hold you, so completely that there's nothing left for you to hold at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Heavy and warm",
+    "sub": "Sinking deeper"
+   }
+  },
+  {
+   "say": "Here's a quiet thought for the very end of the evening. Rest is not something you do. It's something you allow. You don't need to try to fall asleep, or work at it. You can simply stop holding the day, and let sleep come towards you, gently, the way the tide comes in, slowly, in its own good time, without any effort at all.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "text": "Rest is not something you do. It's something you allow.",
+    "by": "Tonight's thought"
+   }
+  },
+  {
+   "say": "Before you drift off, I'd like to say thank you. Thank you for spending this evening here, for wondering with me about music, and shivers, and the quiet ways the mind feels beauty. Thank you for slowing down, for breathing, for walking by the lake and through the snow. It's been a gentle evening, and I'm glad you were here for it.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Thank you",
+    "sub": "For listening"
+   }
+  },
+  {
+   "say": "And somewhere, in a small, quiet room, our imagined listener Theo is getting ready for sleep too. He walked home slowly from the bus, under a sky full of stars. He hung up his coat. He made a warm drink and sat for a while by the window. The music from the hall is still with him, softly, like a glow that hasn't quite faded.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Theo's evening",
+    "sub": "Coming to an end"
+   }
+  },
+  {
+   "say": "Picture Theo's window. A plain wooden sill, a small green plant, a warm mug that's slowly cooling. Outside, the night is deep and blue, and a few snowflakes drift past the glass. The streets are empty. The town is asleep. It's the kind of quiet that feels like a soft blanket, laid gently over everything, and everyone, until morning.",
+   "show": {
+    "type": "photo",
+    "file": "lf39_b20_01.jpg",
+    "cap": "A quiet window at night"
+   }
+  },
+  {
+   "say": "Theo lies down and pulls the covers close. As his eyes grow heavy, the melody from the hall drifts back to him once more. Not the bright, shivering moment when the voice rose, but something softer underneath it. And then, without his noticing, it turns into his grandmother's lullaby, low and warm, the way she used to hum it long ago.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Theo drifts off",
+    "sub": "The melody returns"
+   }
+  },
+  {
+   "say": "His breathing slows. His shoulders soften. His hand rests open on the blanket. The shiver he felt earlier tonight has become something else now, a deep and quiet warmth. And Theo is asleep. Peaceful. Still. Held by the night, by the soft memory of a voice that once told him, without any words at all, that everything was alright.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Theo asleep",
+    "sub": "Peaceful and still"
+   }
+  },
+  {
+   "say": "Let's gather up a few small things from tonight, very gently, like stones picked up on a beach. A shiver, quick and bright, running down the arms. A hush, the quiet space before something beautiful. A melody, humming softly from a memory. And a warm light, left on in a window, waiting for you at the end of a snowy street.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "title": "Tonight we found",
+    "items": [
+     "A shiver",
+     "A hush",
+     "A melody",
+     "A warm light"
+    ]
+   }
+  },
+  {
+   "say": "Hold these small things lightly, the way you'd hold a few smooth stones in an open hand. You don't need to grip them. You don't need to keep them safe. They'll stay with you if they want to, and drift away if they don't. Either way, they were here tonight, keeping you company, and that was enough. That was more than enough.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Small treasures",
+    "sub": "Held lightly"
+   }
+  },
+  {
+   "say": "Perhaps you have a melody of your own, somewhere inside. A song from long ago, or a voice you remember, or simply the sound of rain on a roof. You don't need to find it now. It's there, waiting, for whenever you need a little comfort. Tonight, you can let it hum quietly in the background, keeping you company as you drift.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Your own melody",
+    "sub": "Wherever it is"
+   }
+  },
+  {
+   "say": "And here's one last kind thought, to carry with you into sleep. You are allowed to be gentle with yourself tonight. Whatever today held, whatever went well or didn't, you've done enough. You can rest now, without earning it, without finishing anything first. Let that kindness settle over you, warm and soft, like the last glow of the embers.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "text": "You are allowed to be gentle with yourself tonight.",
+    "by": "A gentle reminder"
+   }
+  },
+  {
+   "say": "Let go of everything now. The concert, the questions, the walk, the bells. Let them all drift away, softly, like music fading in an empty hall. You don't need to remember any of it. If something stays with you, that's lovely. If it all slips away, that's lovely too. All that matters now is this quiet, and this rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Letting go",
+    "sub": "Of everything"
+   }
+  },
+  {
+   "say": "Breathe in slowly. Breathe out slower still. Feel yourself sinking, softly, into the warm dark. The night is wide and calm and kind. It will keep you safe until morning. If you're already half asleep, that's perfect. If you're still awake, that's perfect too. Just rest here, and let the gentle quiet carry you, little by little, all the way down.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Drifting",
+    "sub": "Into sleep"
+   }
+  },
+  {
+   "say": "And as you drift, know that the quiet will stay with you all night long. The lake will keep its small waves. The snow will keep falling softly on the rooftops. The embers will keep their gentle glow. And when morning comes, it will come slowly, with soft light at the window, and you'll wake rested, ready, and warm.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "The quiet stays",
+    "sub": "All night long"
+   }
+  },
+  {
+   "say": "Next time, we'll explore something that many of us feel more and more as the years go by. Why does time seem to move faster as we get older? Why did summers feel endless when we were small? We'll wonder about all of it, gently, in Why Time Speeds Up as You Get Older. But that's for another night. For now, rest easy. Goodnight.",
+   "show": {
+    "type": "end",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "next": "Why Time Speeds Up as You Get Older"
+   }
+  }
+ ]
+}

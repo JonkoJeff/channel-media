@@ -1,0 +1,166 @@
+{
+ "id": "lf40_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "If time itself really sped up, everyone would feel it at once. Children would notice their summers getting shorter. Clocks would fall out of step with the sun. Of course, nothing like that happens. The planet turns at its usual pace. A nine year old and a ninety year old share exactly the same afternoon, minute for minute. What changes is not the length of the day, but the way it's experienced.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "The world in a higher gear?",
+    "sub": "Not quite"
+   }
+  },
+  {
+   "say": "And here's where scientists make a careful distinction that's easy to miss. There's a difference between how fast time seems to pass while you're living through it, and how long a stretch of time seems when you look back on it afterwards. These sound similar. But they're really two different questions, and as we'll see tonight, they don't always give the same answer.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Two different questions",
+    "sub": "During, and looking back"
+   }
+  },
+  {
+   "say": "Let's put them side by side. The first question is asked in the moment. Is this afternoon dragging, or is it flying by? The second question is asked in hindsight. Thinking back over last month, or last year, how long did it seem? Researchers sometimes call these judgments of the passage of time, and judgments of duration, and they've found that they can behave quite differently.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Two ways to judge time",
+    "items": [
+     "While it happens: is it dragging or flying?",
+     "Looking back: how long did it seem?"
+    ]
+   }
+  },
+  {
+   "say": "Think of sitting in a waiting room with nothing to do. The minutes crawl. You look at the clock, and only two minutes have passed. In the moment, time feels slow. But a week later, if someone asks you about that afternoon, you might barely remember it. It shrinks to almost nothing in your memory, because nothing much happened that was worth keeping.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "A waiting room",
+    "sub": "Slow while it lasts"
+   }
+  },
+  {
+   "say": "Now think of a day full of new things. A trip to a city you've never visited. New streets, new food, new faces, a train to catch, a wrong turn, a sudden view. While it's happening, the day seems to rush past. But looking back, it feels big and full, as if it held far more than twenty four hours. The same day can feel fast while you live it, and long when you remember it.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "street_day",
+    "cap": "A day of adventure",
+    "sub": "Fast, then long"
+   }
+  },
+  {
+   "say": "Picture a quiet waiting room. A round clock on the wall. A few empty chairs. A plant by the window, and pale afternoon light on the floor. Minutes in a room like this can feel very long. And yet, it's exactly this kind of moment that tends to disappear later, when we try to remember how a week or a month was spent. Slow in the living, short in the remembering.",
+   "show": {
+    "type": "photo",
+    "file": "lf40_b02_01.jpg",
+    "cap": "A quiet waiting room"
+   }
+  },
+  {
+   "say": "So when Hanna says the year has flown by, which kind of time is she talking about? She's mostly looking back. She's standing at the end of the year and asking how long it seemed. That's a judgment made in hindsight, built from memory. And that turns out to matter a great deal, because memory has its own rules about what it keeps and what it lets go.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "So which one speeds up?",
+    "sub": "A key question"
+   }
+  },
+  {
+   "say": "Here's one way to put it. A year, looking back, is measured partly by what we remember of it. If a year is full of distinct, memorable moments, it can feel long. If many of its days blur together, it can feel short, even if each day felt slow at the time. Keep that idea in mind tonight. We'll come back to it, and look at the evidence behind it.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "A year is measured by what we remember of it.",
+    "by": "One way to put it"
+   }
+  },
+  {
+   "say": "So, what's the verdict on our first popular idea? Time itself doesn't run faster as we age. Clocks don't change, and the length of a year doesn't shrink. What can change is felt time, especially when we look back over long stretches. That's a less dramatic answer, but it's also a more interesting one, because it points us toward the mind, and away from the clock.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "Verdict on the first myth",
+    "sub": "Clocks don't change"
+   }
+  },
+  {
+   "say": "And that brings us to a second popular belief. Many people take it as obvious that the feeling gets steadily stronger with every birthday. That a thirty year old feels time speeding up a bit, a fifty year old a lot more, and an eighty year old most of all. It sounds reasonable. But is that actually what happens when you ask large numbers of people?",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "A second idea",
+    "sub": "Everyone feels it more with age"
+   }
+  },
+  {
+   "say": "It turns out that researchers have done exactly that. They've handed out questionnaires to hundreds, and sometimes thousands, of people of different ages, and asked them simple questions about how fast time seems to pass. How fast did the last week go? The last month? The last year? The last ten years? And how fast does time usually seem to pass for you, in general?",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "What the surveys asked",
+    "items": [
+     "The last week?",
+     "The last month?",
+     "The last year?",
+     "The last ten years?",
+     "Time in general?"
+    ]
+   }
+  },
+  {
+   "say": "Before we look at what they found, let's go back to Hanna for a moment. She's picked up another diary now, from her late twenties. On one page, written in a hurry, she's complained that the year has gone by in a flash. Work, moving house, a new city, never enough hours. She smiles at that. She'd always assumed this feeling only arrived with age. But apparently, it visited her much earlier too.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cabin_fireplace",
+    "cap": "Hanna turns a page",
+    "sub": "A note from her twenties"
+   }
+  },
+  {
+   "say": "So let's look at the surveys. One of the best known was published in 2005 by the researchers Marc Wittmann and Sandra Lehnhoff. They asked 499 people, aged from 14 all the way up to 94, about the passage of time. Some questions were about how time felt right now, in the moment. Others asked people to look back on periods of different lengths.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "n": 2,
+    "title": "What the surveys show"
+   }
+  },
+  {
+   "say": "And age did play a role, but perhaps a smaller one than you'd expect. In their results, age effects were described as small to moderate. Age explained at most about ten percent of the differences between people's answers. So yes, there was a tendency for older people to feel time passing more quickly. But most of the variation between people had nothing to do with how old they were.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Marc Wittmann and Sandra Lehnhoff",
+    "where": "Published in 2005",
+    "what": "499 people aged 14 to 94 rated how fast time passes"
+   }
+  },
+  {
+   "say": "That's worth pausing on. If the feeling of time speeding up were a powerful law of aging, you'd expect age to explain most of it. Instead, it explained only a modest part. A twenty year old and a seventy year old could give very similar answers. Many young people also said time was flying. The tendency is real, but it's gentle, and it sits alongside a lot of other influences.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "Small, not huge",
+    "sub": "A gentle tendency"
+   }
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "id": "lf40_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The third idea is about attention. We've seen tonight that attention changes how we experience time. When we're on autopilot, moving through familiar routines without really noticing them, the days can slip past almost unseen. But when we pause to notice where we are, what we can see and hear and feel, even an ordinary moment can become a little more vivid, and a little more memorable.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "Pay attention",
+    "sub": "Notice the moment"
+   }
+  },
+  {
+   "say": "There's a small piece of research that fits this idea. In 2013, Robin Kramer, Ulrich Weger and Dinkar Sharma published a study on mindfulness meditation and time perception. After a brief mindfulness exercise, focused on the breath, people tended to judge short durations as longer than people who had listened to an audiobook instead. It's one study, with brief intervals, so we shouldn't make too much of it. But it hints that paying attention may gently stretch time.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Robin Kramer, Ulrich Weger and Dinkar Sharma",
+    "where": "Published in 2013",
+    "what": "After a short mindfulness exercise, people judged durations as longer"
+   }
+  },
+  {
+   "say": "One simple way to try this is a tiny pause, once or twice a day. Stop for a moment and notice three things. The color of the sky. The sound of a bird, or a car, or the wind. The feeling of a warm cup in your hands. It only takes a few seconds. But it's a small way of telling your mind that this moment is worth keeping.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "A tiny pause",
+    "sub": "Three things you notice"
+   }
+  },
+  {
+   "say": "Picture a cup of tea on a windowsill in the morning. Steam rising slowly. Sunlight falling across the wood. Green trees moving gently outside. On most mornings, a moment like this would pass unnoticed, swallowed up by the rush of the day. But if you stop and really see it, even for a breath or two, it becomes a small landmark in an ordinary day.",
+   "show": {
+    "type": "photo",
+    "file": "lf40_b12_01.jpg",
+    "cap": "A warm cup by the window"
+   }
+  },
+  {
+   "say": "The fourth idea is about keeping memories once you've made them. Memory isn't only about what happens, but also about what we return to. Writing a line or two in a diary. Looking back over photographs at the end of a month. Telling a friend about something you did. Each time we revisit a memory, we give it a little more strength, and it's more likely to stay with us as a landmark.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "Keep your memories",
+    "sub": "Write, look, talk"
+   }
+  },
+  {
+   "say": "That's exactly what Hanna's diaries have done for her. Even the thin ones from her forties hold a few entries she'd have long forgotten otherwise. A conversation with a stranger on a train. A storm she watched from her window. A meal with old friends. Reading them tonight, those days come back to her. And with them, that blurry year begins to feel a little longer, and a little richer.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "street_day",
+    "cap": "Hanna's diaries",
+    "sub": "A small habit"
+   }
+  },
+  {
+   "say": "The fifth idea comes from the lockdown study. Company matters. Shared moments with people we care about tend to be memorable, emotional and meaningful, exactly the kind of moments that make a year feel full. A walk with a friend. A long phone call. A meal around a table. These don't just make the days feel warmer. They may also help them stay in memory.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "Time together",
+    "sub": "Company matters"
+   }
+  },
+  {
+   "say": "Let's gather the ideas together. Make room for small firsts. Vary the ordinary a little. Pause and notice the moment. Revisit your memories, by writing, looking back or talking about them. And share time with the people who matter to you. None of these will stop the clock. But together, they might help the years feel less like a blur, and more like a story.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Ideas that might help",
+    "items": [
+     "Make room for small firsts",
+     "Vary the ordinary",
+     "Pause and notice",
+     "Revisit your memories",
+     "Share time with others"
+    ]
+   }
+  },
+  {
+   "say": "And one last important point. None of this should become another task, another pressure, another way to feel that we're not doing enough. Remember, feeling rushed was one of the things most linked with time flying by. So the goal isn't to cram every day with new experiences. Sometimes the kindest thing we can do for our sense of time is simply to slow down, rest, and be present.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Not a race",
+    "sub": "Gentleness first"
+   }
+  },
+  {
+   "say": "So here's the gentle goal. A fuller year, not a faster one. Not more busyness, but more noticing. Not more rushing, but more moments worth remembering. That's something almost anyone can work toward, a little at a time, at any age. And it turns Hanna's question, where did the year go, into a softer and more hopeful one: what would I like next year to hold?",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "A fuller year, not a faster one.",
+    "by": "The gentle goal"
+   }
+  },
+  {
+   "say": "So let's look back over our own evening together, and gather up what we've found. We started with Hanna on New Year's Eve, holding a box of diaries and wondering where the year had gone. We took seven popular beliefs about time and age, and looked at each one through the eyes of research. Let's walk through them one more time, slowly.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 13,
+    "title": "Looking back on the evening"
+   }
+  },
+  {
+   "say": "Clocks don't speed up. Age matters, but less than most of us think. The ratio idea is elegant, but incomplete. Fun makes time fly in the moment, while newness makes it last in memory. The slow motion of a crisis is mostly memory. There's no single clock in the head. And there is something we can do, gently, to help the years feel fuller.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Seven ideas, revisited",
+    "items": [
+     "Clocks do not speed up",
+     "Age matters less than we think",
+     "The ratio idea is incomplete",
+     "Fun flies, newness lasts",
+     "Crisis slow motion is memory",
+     "No single clock in the head",
+     "There is something we can do"
+    ]
+   }
+  },
+  {
+   "say": "And the thread through it all? Memory and attention. In the moment, attention shapes how fast time seems to pass. Looking back, memory shapes how long a stretch of time seems to have been. New experiences, strong feelings and shared moments become landmarks. Routine and rushing can make the landmarks fade. And our sense of the years is built, quietly, from what remains.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The thread through it all",
+    "sub": "Memory and attention"
+   }
+  }
+ ]
+}

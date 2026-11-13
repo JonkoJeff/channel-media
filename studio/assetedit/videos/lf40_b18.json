@@ -1,0 +1,174 @@
+{
+ "id": "lf40_b18",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine you're on a night train, in a small, quiet compartment of your own. There's a soft seat by the window, a warm blanket folded beside you, and a small lamp glowing low. The train has just left a little station, and it's beginning to move, slowly at first, then a little faster. The wheels start their gentle rhythm on the rails. Clack, clack. Clack, clack.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "A night train",
+    "sub": "A quiet compartment"
+   }
+  },
+  {
+   "say": "Picture the compartment. Wood panels on the walls, worn smooth over many years. A soft seat, with a folded wool blanket. A small lamp with a warm yellow glow. And the window, dark now, with only a faint reflection of the lamp in the glass. Beyond it, the countryside is sleeping, and the train is carrying you gently through the night.",
+   "show": {
+    "type": "photo",
+    "file": "lf40_b18_01.jpg",
+    "cap": "A cozy compartment"
+   }
+  },
+  {
+   "say": "Listen to the wheels on the rails. Clack, clack. Clack, clack. A steady, soothing rhythm, like a slow heartbeat. The carriage sways gently from side to side, just a little, like a cradle. You pull the blanket around your shoulders and lean your head against the soft seat. There's nothing to do but listen, and rest, and let the train carry you.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The rhythm of the wheels",
+    "sub": "Steady and soothing"
+   }
+  },
+  {
+   "say": "You look out of the window. The countryside slides past in the dark. Dark fields. The shapes of trees against the sky. A small village, with a few lights still glowing in its windows, then gone. A river, catching a little moonlight. Each thing appears for a moment, and drifts away behind you. You don't need to remember any of it. Just let it pass.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "Out of the window",
+    "sub": "The dark countryside"
+   }
+  },
+  {
+   "say": "Notice what passes, softly, and then let it go. Dark fields. A sleeping village. A silver river under the moon. A lone farmhouse light, far away on a hill. Each one appears, and fades, and is gone, carried away behind the train. Like thoughts drifting through your mind as you fall asleep. They come, and they go, and you don't have to follow them.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Passing in the night",
+    "items": [
+     "Dark fields",
+     "A sleeping village",
+     "A silver river",
+     "A lone farmhouse light"
+    ]
+   }
+  },
+  {
+   "say": "The train rocks you gently. Side to side. Side to side. Clack, clack. Clack, clack. Your eyes are heavy now. Your body sinks into the soft seat. The blanket is warm. The lamp is low. And the rhythm of the train is so steady, so calm, that it's hard to stay awake. You don't need to. You can let the train rock you to sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "Rocking gently",
+    "sub": "Like a cradle"
+   }
+  },
+  {
+   "say": "Here's a thought for the journey. The train knows the way. You can rest. You don't need to steer, or watch the signals, or worry about the timetable. Someone else is taking care of all that. Your only job tonight is to sit back, and breathe, and let yourself be carried, safely and gently, through the night.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "The train knows the way. You can rest.",
+    "by": "A thought for the journey"
+   }
+  },
+  {
+   "say": "The train slows, and comes to a gentle stop at a small station. A single lamp glows on the empty platform. A bench. A sign you don't need to read. Snow, perhaps, falling softly in the lamplight. Nobody gets on, and nobody gets off. After a quiet moment, the train sighs, and begins to move again. Clack, clack. Clack, clack. And the station drifts away behind you.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "A small station",
+    "sub": "Then moving on"
+   }
+  },
+  {
+   "say": "Picture the little station as it slides past your window. One warm lamp on the platform. An old wooden bench, dusted with snow. Dark trees behind it, standing quietly in the night. It looks peaceful and a little lonely, but also kind, like a small light left on for a traveller. And then it's gone, and the night closes softly around the train again.",
+   "show": {
+    "type": "photo",
+    "file": "lf40_b18_02.jpg",
+    "cap": "A quiet station at night"
+   }
+  },
+  {
+   "say": "Let your breath follow the rhythm of the train, if you like. Breathe in, over a few clacks of the wheels. Breathe out, slowly, over a few more. In. And out. The train is steady, and so is your breath. Each breath carries you a little further down the track, a little deeper into the night, a little closer to sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Breathing with the train",
+    "sub": "Slow and steady"
+   }
+  },
+  {
+   "say": "Now the train enters a long tunnel. The window goes completely dark, and the sound of the wheels becomes soft and close, wrapped around you like a blanket. It's warm and safe in the compartment, with the lamp glowing low. In the tunnel, there's nothing to see, and nothing to think about. Just the gentle rocking, the soft sound, and the quiet dark.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Through a long tunnel",
+    "sub": "Darkness and calm"
+   }
+  },
+  {
+   "say": "And then the train comes out of the tunnel, and the window fills with stars. Thousands of them, scattered across a wide, clear sky over the sleeping hills. The moon hangs low and silver above the fields. Everything is calm. Everything is still. And the train glides on, gently, under the stars, carrying you further into the deep and peaceful night.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Out into the stars",
+    "sub": "A wide night sky"
+   }
+  },
+  {
+   "say": "Let's gather it all, softly. The rocking of the train. The warmth of the blanket. The low glow of the lamp. And the stars outside the window, wide and silent. Everything you need is here. You're warm. You're safe. You're being carried. And sleep is right beside you now, waiting quietly, like a friend in the next seat.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Drifting into sleep",
+    "items": [
+     "The rocking of the train",
+     "The warmth of the blanket",
+     "The glow of the lamp",
+     "The stars outside"
+    ]
+   }
+  },
+  {
+   "say": "Perhaps you're wondering where the train is going. But it doesn't matter tonight. It's going somewhere gentle, somewhere you'll arrive in the morning, rested and new. For now, there's only the journey. The rocking. The rhythm. The stars. And the soft, slow feeling of time passing kindly, one quiet moment after another.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Where is the train going?",
+    "sub": "It doesn't matter"
+   }
+  },
+  {
+   "say": "And somewhere up ahead, like a station waiting in the morning light, a new year is waiting too. Full of days you haven't lived yet. Small firsts. Quiet moments. Things you'll notice, and remember, and keep. But you don't need to think about them now. They'll come in their own time. Tonight, you only need to rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "A new year ahead",
+    "sub": "Like a morning station"
+   }
+  },
+  {
+   "say": "Let your eyes close fully now, if they haven't already. The train rolls on. Clack, clack. Clack, clack. Softer now. Slower. Further away. The lamp glows low. The blanket is warm. And you're drifting, drifting, gently down into sleep, like the snow falling on the little winter town, like the leaves drifting from the old tree, like the sand falling, grain by grain.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "Eyes closing",
+    "sub": "The train rolls on"
+   }
+  }
+ ]
+}

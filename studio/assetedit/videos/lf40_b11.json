@@ -1,0 +1,155 @@
+{
+ "id": "lf40_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "If you ask older adults to recall memories from across their lives, using simple cue words, or to name the most important events they remember, an interesting shape appears. People tend to recall a surprisingly large number of memories from their teenage years and early adulthood. Roughly from the teens to the late twenties, memories seem to cluster more densely than in the years before or after.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "n": 11,
+    "title": "A whole life in memory"
+   }
+  },
+  {
+   "say": "This pattern is known as the reminiscence bump. One influential description of it was published in 1986 by David Rubin, Scott Wetzler and Robert Nebes. Since then, it has been found again and again, in many different studies. When people look back over their whole lives, the years of youth and early adulthood seem to take up a larger share of memory than other stretches of life.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "who": "David Rubin, Scott Wetzler and Robert Nebes",
+    "where": "Published in 1986",
+    "what": "Older adults recalled extra memories from youth and early adulthood"
+   }
+  },
+  {
+   "say": "Picture it as a gentle hill on a graph. Along the bottom, the age a person was when something happened. Going up, how many memories people tend to recall from that time. The curve rises to a hill around youth and early adulthood, and then slopes down again. This sketch only shows the general shape, not exact numbers. But the shape is what researchers keep finding.",
+   "show": {
+    "type": "curve",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The reminiscence bump, as a sketch",
+    "x": "age at the time of the memory",
+    "y": "how many memories people recall",
+    "peak": 0.3,
+    "label": "Youth and early adulthood"
+   }
+  },
+  {
+   "say": "Why would memories gather there? Researchers have offered several explanations, and the debate continues. But one idea fits very well with everything we've heard tonight. Youth and early adulthood are a season of firsts. First love, first job, first home away from family, first big journeys, first big choices. Those years are full of new, emotional, identity shaping experiences, the kind that memory holds onto tightly.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "Why that hill?",
+    "sub": "A season of firsts"
+   }
+  },
+  {
+   "say": "And later in life, for many people, there are fewer such firsts. Of course, new things still happen at every age. New friendships, new places, new grandchildren, new hobbies. But the sheer density of beginnings is often lower than it was at twenty. If memory measures time partly by its landmarks, then those later years may leave a sparser trail behind them, and seem to have passed more quickly.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "Few firsts later",
+    "sub": "Fewer landmarks"
+   }
+  },
+  {
+   "say": "Picture a shoebox of old photographs, spilled across a wooden table. Faded prints of beaches and mountains, a city at night, a house with a red door. Most of us have a box like this somewhere, or a folder on a phone. And often, the pictures cluster around certain years, the years when everything was new, and every trip and change seemed worth keeping.",
+   "show": {
+    "type": "photo",
+    "file": "lf40_b11_01.jpg",
+    "cap": "Old photographs on a table"
+   }
+  },
+  {
+   "say": "Hanna notices this in her own box. The diaries from her late teens and twenties are thick and crowded. Long entries, many pages, stuck in tickets and pressed flowers. The diaries from her forties are thinner. Some months have only a line or two. It isn't that she lived less. It's that fewer days seemed worth writing about. The diaries look a lot like the reminiscence bump.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "street_day",
+    "cap": "Hanna's diaries",
+    "sub": "Thick years and thin years"
+   }
+  },
+  {
+   "say": "And that brings us to our final popular belief. That the speeding up of time is simply a fact of life, something we just have to accept as we grow older, like grey hair or reading glasses. That nothing can be done about it. It's an understandable feeling. But after everything we've seen tonight, it doesn't seem quite right.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Seventh myth",
+    "sub": "Nothing can be done"
+   }
+  },
+  {
+   "say": "Here's a more hopeful thought. If memory makes the years, we can help make the memories. We can't stop the clock, and we wouldn't want to. But if the feeling of a full year depends partly on new experiences, emotional moments and attention, then some of that is within our reach. Not to make life slower, but to make it feel fuller when we look back.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "If memory makes the years, we can help make the memories.",
+    "by": "A hopeful thought"
+   }
+  },
+  {
+   "say": "A careful note before we go on. Researchers haven't proven that any simple trick will make your years feel longer. The ideas we're about to explore are suggestions that fit the science we've seen, not guarantees. And everyone's life is different. Some people have little choice about their routines, because of work, health, money or caring for others. So take these gently, as invitations rather than instructions.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "A careful note",
+    "sub": "Not a promise"
+   }
+  },
+  {
+   "say": "With that in mind, let's look at what might help. Not grand changes, and certainly not a race to fill every minute. Just a few small, kind ideas, drawn from what we've learned about memory, novelty and attention. Ideas that might help a week, or a season, or a year feel a little fuller when you look back on it.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "What might help",
+    "sub": "Small, kind ideas"
+   }
+  },
+  {
+   "say": "The first idea is simple. Make room for new things. They don't need to be big. A new walking route. A café you've never tried. A new recipe on a Tuesday. A visit to a town nearby. A new skill, at any age. Each of these is a small first, and firsts are exactly what memory seems to treasure. A handful of them can turn a blur of similar weeks into something with shape.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 12,
+    "title": "What might help"
+   }
+  },
+  {
+   "say": "Here are a few small firsts you might try. A new walking route. A recipe you've never cooked. A town you've never visited, even one close by. A skill you've never tried, whether it's an instrument, a language or a craft. None of these is dramatic. But each one gives memory a new landmark, and landmarks are what make a year feel long when we look back.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Small firsts",
+    "items": [
+     "A new walking route",
+     "A recipe you have never cooked",
+     "A town you have never visited",
+     "A skill you have never tried"
+    ]
+   }
+  },
+  {
+   "say": "The second idea is to vary the ordinary. Routines are often comforting, and there's no need to give them up. But even small changes can help. Sitting somewhere different. Taking breakfast outside on a warm morning. Calling a different friend each week. These tiny variations can stop the days from blurring together completely, and give each week a slightly different color.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cabin_fireplace",
+    "cap": "Change the ordinary",
+    "sub": "Small variations"
+   }
+  }
+ ]
+}

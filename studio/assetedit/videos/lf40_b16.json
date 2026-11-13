@@ -1,0 +1,175 @@
+{
+ "id": "lf40_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "As you lie there, warm under the blanket, let your mind drift somewhere else. Somewhere far from the snow. Imagine a long summer day from long ago, the kind of day that seemed to go on forever. It doesn't need to be a real memory. It can be a day you imagine now, slowly, one gentle piece at a time. A day by a quiet lake, in the middle of summer.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "A long summer day",
+    "sub": "Remembered slowly"
+   }
+  },
+  {
+   "say": "It begins in the early morning. Sunlight slips through a gap in the curtains and lies across the floor in a warm stripe. Birds are singing outside. You don't have to get up yet. There's no school, no work, nothing planned. The whole day is wide open in front of you, like a field with no fences. And it feels as if it could last forever.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Morning light",
+    "sub": "The day is wide open"
+   }
+  },
+  {
+   "say": "Picture the lake on that summer morning. A thin mist rising slowly from the water. A small wooden jetty reaching out over the surface. Reeds along the edge, and tall green trees on the far shore. The water is so still it reflects the sky almost perfectly. And the sun is just rising over the trees, turning the mist to gold.",
+   "show": {
+    "type": "photo",
+    "file": "lf40_b16_01.jpg",
+    "cap": "A lake on a summer morning"
+   }
+  },
+  {
+   "say": "You walk down to the water, barefoot, along a narrow path. The grass is still cool and damp with dew. Little stones press gently against your soles. The air smells of pine and water and warm earth. When you reach the jetty, the old boards are already warming in the sun. You sit down at the very end and let your feet dangle just above the water.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "Walking to the water",
+    "sub": "Bare feet on the path"
+   }
+  },
+  {
+   "say": "You dip one toe into the lake. It's cool, and soft. A small ring of ripples spreads out from where your toe touched, wider and wider, slower and slower, until it fades into the still water. You watch the ripples go. Then you dip your toe again, and watch them spread once more. There's no hurry. There's nothing else you need to do.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Ripples on the water",
+    "sub": "Spreading slowly"
+   }
+  },
+  {
+   "say": "Listen to the lake around you. Water lapping gently at the jetty posts. A bird calling, far across the lake. Leaves stirring softly in the warm breeze. And somewhere out on the water, the faint splash of a fish, rising and disappearing again. Each sound is small, and slow, and peaceful, and each one makes the morning feel a little longer.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Sounds of the lake",
+    "items": [
+     "Water lapping at the jetty",
+     "A bird calling across the lake",
+     "Leaves stirring in the breeze",
+     "A distant splash of a fish"
+    ]
+   }
+  },
+  {
+   "say": "The morning drifts into midday. The sun climbs higher, and the light becomes warm and bright. You lie back on the warm wooden boards and close your eyes. The sun glows red through your eyelids. You can feel its warmth on your face, on your arms, on your legs. A dragonfly hums past. And time seems to stretch out, wide and lazy, like the lake itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Midday sun",
+    "sub": "Warm and slow"
+   }
+  },
+  {
+   "say": "Here's a thought to drift with. Some days are as wide as a lake. Not because they're full of big events, but because we live them slowly, noticing each small thing. The ripples, the birdsong, the warmth of the boards. A day like that can seem to hold more time than a whole busy week. And even remembering it, slowly, can make tonight feel wide and calm.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "Some days are as wide as a lake.",
+    "by": "A summer thought"
+   }
+  },
+  {
+   "say": "In the afternoon, you move into the shade of a big old tree near the water. Its leaves rustle softly overhead, and little patches of sunlight dance across the grass. You lie on a blanket, half awake, half dreaming. Somewhere a bee drifts from flower to flower. The afternoon seems endless, the way summer afternoons often did when we were young.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "A long afternoon",
+    "sub": "Shade under a tree"
+   }
+  },
+  {
+   "say": "Your eyes are half closed now. The light through the leaves flickers green and gold. The breeze is warm and soft against your skin. You can hear the lake lapping quietly, the leaves whispering, a bird somewhere singing a slow song. You don't need to stay awake. You can let yourself drift, just as you did on those long summer afternoons, into a warm and easy sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Drowsy in the shade",
+    "sub": "Eyes half closed"
+   }
+  },
+  {
+   "say": "Picture the old tree by the lake, late in the afternoon. A blanket spread out in its shade. Dappled sunlight shifting gently on the grass. Beyond it, the lake glitters softly, gold and blue. It's the perfect place to doze. Nothing to do, nowhere to be. Just the warm air, the soft shade, and the long, slow afternoon, stretching out like a gentle sigh.",
+   "show": {
+    "type": "photo",
+    "file": "lf40_b16_02.jpg",
+    "cap": "Shade by the water"
+   }
+  },
+  {
+   "say": "Slowly, the afternoon turns into evening. The light grows soft and golden, then rosy, then deep orange. The lake reflects the colors of the sky, so that the water and the air seem to glow together. The birds begin their evening songs. And a gentle coolness drifts up from the water, the first sign that the long day is finally beginning to close.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Evening by the lake",
+    "sub": "The light turns gold"
+   }
+  },
+  {
+   "say": "As the sky darkens, the first stars appear, one by one, above the trees on the far shore. Then more, and more, until the sky is full of them. They're reflected in the still water too, so that it seems as if there are stars above you and stars below. The day is over now. It was long, and slow, and kind. And it's time, at last, to rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The first stars",
+    "sub": "The day ends softly"
+   }
+  },
+  {
+   "say": "Let's remember the whole day together, slowly. A misty morning on the lake. A warm wooden jetty. A drowsy afternoon in the shade. A golden evening glowing on the water. And a sky full of stars, above and below. One long summer day, as wide as the lake, and as calm as the night that follows it.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "The long summer day",
+    "items": [
+     "A misty morning",
+     "A warm jetty",
+     "A drowsy afternoon",
+     "A golden evening",
+     "A sky full of stars"
+    ]
+   }
+  },
+  {
+   "say": "You can carry that calm with you now, into tonight. The warmth of the sun. The slow ripples on the water. The soft sound of the leaves. Let them settle into your body, so that you feel warm, and slow, and peaceful. And let your breathing grow as gentle as the evening breeze across the lake.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Carrying the calm",
+    "sub": "Into tonight"
+   }
+  },
+  {
+   "say": "Keep breathing, slowly and softly. In, like the breeze rising off the water. Out, like the ripples fading away. In. And out. There's no need to stay awake for the rest of the story. If you're drifting off, let yourself go. And if you're still here, still listening, that's lovely too. We'll keep wandering, gently, a little further into the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Drifting further",
+    "sub": "Soft and slow"
+   }
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "id": "lf40_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Back in the living room, it's almost midnight. Hanna has been reading for a long time. The fire has burned down to a soft orange glow. Outside, a few early fireworks crackle somewhere far away. She puts the last diary back in the box, gently, as if she were tucking it into bed. And she notices that she feels different from the way she felt an hour ago.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cabin_fireplace",
+    "cap": "Almost midnight",
+    "sub": "Hanna by the fire"
+   }
+  },
+  {
+   "say": "The year doesn't feel quite so lost anymore. Thinking back, she's found more of it than she expected. The wedding in spring. The sea in August. Her nephew's wobbly first steps. Even the hard week at the hospital, which she'll never forget. The year is still there, in pieces. It just needed a little attention, a little looking back, to come into focus.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Not lost after all",
+    "sub": "The year comes back"
+   }
+  },
+  {
+   "say": "So she makes a small resolution. Not a big one, not one that will make her feel guilty by February. Just this. She'll start a new notebook tomorrow, and write one line a day, about one thing she noticed. And once a month, she'll try something she's never done before, even something tiny. She wants next year to leave a few more landmarks behind it.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "A small resolution",
+    "sub": "A new notebook"
+   }
+  },
+  {
+   "say": "Picture a new notebook on a wooden table. Its cover is plain, its pages still empty. A pen rests on top. A candle glows beside it, and far away through the window, a faint glow of fireworks lights the sky. Nothing has been written yet. But a whole year is waiting inside those pages, ready to be noticed, one line at a time.",
+   "show": {
+    "type": "photo",
+    "file": "lf40_b13_01.jpg",
+    "cap": "A new notebook"
+   }
+  },
+  {
+   "say": "And what about you? Perhaps this year has felt fast for you too. Perhaps you've wondered where the months have gone. If so, there's nothing wrong with you, and nothing you've failed to do. It's simply how a human mind holds time. But perhaps, like Hanna, you can find a few landmarks in it tonight, and maybe plan a few small firsts for the months ahead.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "And what about you?",
+    "sub": "Your own year"
+   }
+  },
+  {
+   "say": "Here's a closing thought to carry with you. The years are not shrinking. We are learning how to hold them. Time keeps its steady pace, minute by minute. What changes is how we fill it, notice it and remember it. And that, it turns out, is something we can shape a little, with kindness and attention, at any age.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "The years are not shrinking. We are learning how to hold them.",
+    "by": "A closing thought"
+   }
+  },
+  {
+   "say": "Thank you for spending this time with me tonight, following Hanna's question from the clock on the wall to the quiet workings of memory. I hope it's given you a few new ways to think about your own years, and perhaps a little comfort too. Time is one of the great mysteries of being alive, and there's no need to solve it tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Thank you",
+    "sub": "For spending this time"
+   }
+  },
+  {
+   "say": "Because now, it's time to let the facts go, and turn this into a slow, gentle wind-down. If you're ready to rest, you can let your eyes close. If you'd rather keep them open for a while, that's fine too. There's nothing more to learn tonight, nothing to remember. Just let my voice keep you company, and let your body settle, a little more with each breath.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "n": 14,
+    "title": "A slow wind-down"
+   }
+  },
+  {
+   "say": "Find a comfortable position, wherever you are. Let your head sink into the pillow. Let your shoulders soften away from your ears. Let your hands rest wherever they like. There's nowhere you need to be, and nothing you need to do. The day is over. Whatever it held, it's done now, and you can set it down, the way Hanna set down her box of diaries.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Getting comfortable",
+    "sub": "Nothing to do"
+   }
+  },
+  {
+   "say": "Let's take a slow breath together. Breathe in gently, through your nose, for a count of four. One, two, three, four. And breathe out, slowly, for a count of six. One, two, three, four, five, six. Again, in for four. And out for six. You don't need to get it exactly right. Just let each breath be a little slower and softer than the one before.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A slow breath",
+    "sub": "In and out"
+   }
+  },
+  {
+   "say": "Let's set a few things down, one by one. Set down the to-do list. It will still be there tomorrow. Set down the clock. You don't need to know what time it is right now. Set down the year, with all its rushing and all its moments. And just rest in this breath. This one, right now. There's nothing else you need.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Letting go of the day",
+    "items": [
+     "Set down the to-do list",
+     "Set down the clock",
+     "Set down the year",
+     "Just this breath"
+    ]
+   }
+  }
+ ]
+}

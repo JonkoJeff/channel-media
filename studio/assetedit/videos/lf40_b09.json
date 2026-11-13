@@ -1,0 +1,141 @@
+{
+ "id": "lf40_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We've seen how fever and attention can change our sense of time in the moment. Emotion seems to do something similar. Researchers have long noticed that how we feel can bend time. Anxious waiting can stretch minutes. Happy absorption can shrink hours. And in laboratory studies, images that stir strong feelings can seem to last longer than calm ones, even when they're shown for exactly the same time.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 9,
+    "title": "Emotion and attention"
+   }
+  },
+  {
+   "say": "In 2007, the psychologists Sylvie Droit-Volet and Warren Meck published a review with a lovely title: How emotions colour our perception of time. They brought together many studies showing that emotional states, especially states of high arousal, can change how long things seem to last. In several experiments, for example, faces showing anger or fear tended to be judged as lasting longer than neutral faces.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "who": "Sylvie Droit-Volet and Warren Meck",
+    "where": "Published in 2007",
+    "what": "How emotions colour our perception of time"
+   }
+  },
+  {
+   "say": "Why would that happen? One suggestion connects to the pacemaker model we met earlier. When we're aroused, alert and ready for action, the pacemaker may tick faster. More ticks get counted, and the moment seems longer. From a survival point of view, that could make sense. In a threatening situation, it might help to have a slightly stretched sense of time, to react more carefully.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "Arousal speeds the ticks",
+    "sub": "A possible reason"
+   }
+  },
+  {
+   "say": "And at the other end, there's boredom. When we're bored, there's often nothing much to hold our attention except time itself. We notice the minutes, we check the clock, and time seems to crawl. In the attention gate model, the gate is wide open. Every tick gets counted, and the afternoon becomes very long indeed.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "Boredom and waiting",
+    "sub": "Too much attention to time"
+   }
+  },
+  {
+   "say": "Picture a small kitchen at night. A kettle sitting on the stove, a faint curl of steam rising from its spout. Rain on the window. If you stand and watch it, the kettle seems to take forever. If you turn away to wash a cup or read a note, it's suddenly boiling. The kettle hasn't changed. Only where your attention has gone.",
+   "show": {
+    "type": "photo",
+    "file": "lf40_b09_01.jpg",
+    "cap": "A kettle, nearly boiling"
+   }
+  },
+  {
+   "say": "And then there's the opposite of boredom. Deep absorption. You might know it from painting, or gardening, or playing music, or talking with an old friend late into the night. Psychologists sometimes call it flow, a state where you're so engaged that you lose track of time completely. In that state, the gate seems to close, and hours can vanish without notice.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "Absorption",
+    "sub": "When time disappears"
+   }
+  },
+  {
+   "say": "Let's gather those together. Fear and alarm can make moments stretch. Boredom can make minutes crawl. Deep absorption can make hours vanish. These are all about time in the moment. And each one seems to depend, at least partly, on attention: how much of it is pointed at time itself, and how much is caught up in something else.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "How feelings bend time",
+    "items": [
+     "Fear and alarm: moments stretch",
+     "Boredom: minutes crawl",
+     "Deep absorption: hours vanish"
+    ]
+   }
+  },
+  {
+   "say": "It's worth noticing that being busy and being absorbed are not quite the same thing. A rushed day full of small tasks and interruptions can feel fast, but it can also feel scattered and tiring. Deep absorption in one meaningful thing can feel fast too, but often in a satisfying way. Both can make time fly. But they may leave very different memories behind.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "street_day",
+    "cap": "Busy versus absorbed",
+    "sub": "Not quite the same"
+   }
+  },
+  {
+   "say": "And here's where emotion connects back to memory. Emotional moments tend to be remembered more strongly than neutral ones. A happy reunion, a sad farewell, a frightening fall, a moment of awe. These become anchors in our memory of a year. So a year with more emotional, meaningful moments may feel fuller when we look back, even if it rushed by while we lived it.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "And looking back?",
+    "sub": "Memory again"
+   }
+  },
+  {
+   "say": "So here's one way to remember it. Feelings bend the moment. Memories shape the year. In the moment, emotion and attention can make time stretch or shrink. Looking back, the moments that carried strong feelings become the landmarks we use to measure how long a stretch of life has been. Both matter for how we experience time.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "Feelings bend the moment. Memories shape the year.",
+    "by": "One way to remember it"
+   }
+  },
+  {
+   "say": "Hanna closes her eyes for a moment and tries to remember this past year by its landmarks. A friend's wedding in spring. A long walk by the sea in August. A difficult week when her mother was in hospital. Her nephew's first steps. There are a few. But between them, there are long stretches she can hardly picture at all. Those stretches, she realizes, are where the year seems to have disappeared.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Hanna's landmarks",
+    "sub": "The year in pictures"
+   }
+  },
+  {
+   "say": "If you like, you can try this too, tonight. Without any effort, let a few landmarks from your own past year float up. You don't need to judge them or put them in order. Just notice which ones come back easily. The ones that come back first are often the moments that were new, or emotional, or meaningful. Those are the moments that make a year feel like a year.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Something to try",
+    "sub": "A gentle experiment"
+   }
+  },
+  {
+   "say": "But what happens when a whole society's routines change at once? When nearly everyone, suddenly, has to stay at home, and the shape of their weeks is turned upside down? In 2020, that's exactly what happened in many countries. And for researchers who study time, it became an unusual and unexpected opportunity to see how people's sense of time responded.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "rooftop_dusk",
+    "cap": "A natural experiment",
+    "sub": "A year like no other"
+   }
+  }
+ ]
+}

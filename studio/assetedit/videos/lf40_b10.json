@@ -1,0 +1,153 @@
+{
+ "id": "lf40_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In the spring of 2020, as the Covid nineteen pandemic spread, many countries asked people to stay at home. In the United Kingdom, a lockdown began in late March. Schools closed, offices emptied, and daily life shrank to a few rooms and a short walk. For many people, the usual landmarks of the week, the commute, the weekend, the evening out, simply disappeared.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 10,
+    "title": "A year in lockdown"
+   }
+  },
+  {
+   "say": "Around that time, a playful new word began to spread. Blursday. A day that could have been any day of the week, because they all felt the same. Many people said they'd lost track of time. Some said the weeks were flying past. Others said each day seemed endless. It was as if the usual rules of time had come loose.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Blursday",
+    "sub": "A new word"
+   }
+  },
+  {
+   "say": "The psychologist Ruth Ogden, at Liverpool John Moores University, decided to study it. Between the seventh and the thirtieth of April 2020, she asked 604 people in the United Kingdom how fast time seemed to be passing for them during lockdown, compared with normal. And she asked about their lives too: their age, their stress, how busy they were, and how satisfied they felt with their social contact.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Ruth Ogden",
+    "where": "Published in 2020",
+    "what": "604 people in the UK described how time felt during lockdown"
+   }
+  },
+  {
+   "say": "The first finding was simple and striking. More than eighty percent of the people in her survey said their sense of how quickly time was passing had changed during lockdown. For some, it had sped up. For others, it had slowed down. Very few people felt that time was moving exactly as it normally did. The whole shape of time had shifted for almost everyone.",
+   "show": {
+    "type": "stat",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Felt a change in the speed of time",
+    "big": "80%",
+    "label": "more than this share of people in the survey"
+   }
+  },
+  {
+   "say": "And now for the most interesting part, at least for our question tonight. Who felt time slowing down? According to the study, people who were older, and people who were less satisfied with their social interaction, were more likely to feel that time passed more slowly over a day or a week. For a single day, slower time also went with higher stress and having fewer tasks to do.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Who felt it slow?",
+    "sub": "A surprising pattern"
+   }
+  },
+  {
+   "say": "Think about that for a moment. During lockdown, it was the older participants who were more likely to feel that time was dragging, not speeding up. That's the opposite of what the popular myth would predict. If time automatically sped up with age, older people should have felt the weeks flying past. Instead, their circumstances seemed to matter more than their birthdays.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "Older, and slower",
+    "sub": "The opposite of the myth"
+   }
+  },
+  {
+   "say": "Picture a city street on a spring morning, unusually quiet. Shop shutters down. Blossom on the trees. An empty bench in the sun. For many people that spring, the world outside slowed almost to a standstill. And inside their homes, time itself seemed to behave strangely, sometimes racing, sometimes crawling, rarely feeling quite normal.",
+   "show": {
+    "type": "photo",
+    "file": "lf40_b10_01.jpg",
+    "cap": "A quiet street in spring"
+   }
+  },
+  {
+   "say": "The link with social contact is especially touching. People who felt lonely, or who missed their friends and families, were more likely to feel that time was passing slowly. It's easy to imagine. When the people we love are far away and the days are empty, every hour can seem long. Time, it seems, is not only a matter of clocks and memories, but also of company.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "Loneliness and time",
+    "sub": "Slow days"
+   }
+  },
+  {
+   "say": "On the other hand, people who were busier, or happier with their social contact, were more likely to feel that the days went by more quickly. That fits nicely with what we've seen earlier tonight. A full day, especially one shared with others, tends to fly. An empty, lonely day, with little to fill it, tends to drag.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Busy and connected",
+    "sub": "Faster days"
+   }
+  },
+  {
+   "say": "Let's gather the lockdown findings together. In this survey, slower days went with being older, with less satisfying social contact, and, for a single day, with higher stress and fewer tasks to do. These are associations, not proof of cause and effect. But together, they paint a picture of time that bends around our circumstances, our relationships and how we feel.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "What went with slower days in lockdown",
+    "items": [
+     "Being older",
+     "Less satisfying social contact",
+     "Higher stress",
+     "Fewer tasks to do"
+    ]
+   }
+  },
+  {
+   "say": "And here's a final twist. Many people later said that the lockdown months, despite often dragging while they lived them, seemed oddly blurred and compressed when they looked back. Day after day had followed the same pattern, with few new landmarks. It's the holiday paradox in reverse. Slow while you live it, short when you remember it. Exactly what we'd expect from what memory does with routine.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "And looking back?",
+    "sub": "A strange, blurred year"
+   }
+  },
+  {
+   "say": "So here's the lesson from that strange spring. Time bends around the life we are living. It isn't fixed by age alone. Who we spend our days with, how busy we are, how stressed or calm we feel, and how varied our weeks are, all seem to shape how time feels, both in the moment and looking back. That's an important correction to the simple idea that the years just speed up as we grow older.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "Time bends around the life we are living.",
+    "by": "The lockdown lesson"
+   }
+  },
+  {
+   "say": "Hanna remembers that spring well. She was living alone then, and the days were long and quiet. She'd call her mother every evening, and take the same walk around the same park. At the time, the weeks seemed endless. Now, looking back, those months feel like a single grey smudge in her memory, much shorter than they really were. She'd never quite understood that, until tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "cap": "Hanna remembers",
+    "sub": "Her own lockdown"
+   }
+  },
+  {
+   "say": "There's one more piece of the puzzle that's worth looking at, before we turn toward what might help. So far, we've talked about years, and weeks, and moments. But what happens when we look back across a whole lifetime? Which years stand out, and which ones fade? Psychologists have studied this too, and they've found a remarkably consistent pattern.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "One more piece",
+    "sub": "The story of a whole life"
+   }
+  }
+ ]
+}

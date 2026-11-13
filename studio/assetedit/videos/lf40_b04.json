@@ -1,0 +1,139 @@
+{
+ "id": "lf40_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Picture that idea as a gentle curve. At the start of life, each year is a large share of everything you've lived. Then, as the years add up, each new one becomes a smaller and smaller share. The curve falls steeply at first, and then flattens out, sliding slowly down as life goes on. On paper, it looks like a very tidy explanation for why the years seem to shrink.",
+   "show": {
+    "type": "curve",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "The ratio idea, as a sketch",
+    "x": "age",
+    "y": "one year as a share of life",
+    "peak": 0.12,
+    "label": "Biggest early"
+   }
+  },
+  {
+   "say": "And that's our third popular belief. That the speeding up of time is simply arithmetic. A matter of fractions. Nothing more mysterious than a growing denominator. It's a lovely idea, and it does capture something true about how we compare things. But when psychologists look at it more closely, a few problems start to appear.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "Is it just arithmetic?",
+    "by": "The third popular belief"
+   }
+  },
+  {
+   "say": "Here's the first problem. If we really judged every stretch of time against the whole of our life, then not only years, but also afternoons, and hours, and minutes should feel shorter as we age. A fifty year old's hour would feel like a tiny sliver compared with a child's hour. But that doesn't seem to be how people describe it. An hour in a dentist's waiting room can feel just as long at sixty as at ten.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "A first problem",
+    "sub": "What about an afternoon?"
+   }
+  },
+  {
+   "say": "The second problem is the evidence we've just seen. If the ratio idea were the main story, the feeling of time speeding up should grow steadily and strongly with age. A sixty year old should feel last year passing at less than half the speed it felt at twenty five. But the surveys found only small differences between age groups, and mainly for long stretches like a decade.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "A second problem",
+    "sub": "The surveys"
+   }
+  },
+  {
+   "say": "And there's a third, quieter problem. Why would the mind compare each year with the whole of life at all? When you think back over last year, you don't usually hold it up against your entire past. You think of what happened in it. The trips, the changes, the ordinary weeks. The ratio idea describes a pattern, but it doesn't explain how the brain would actually do the comparing.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "rooftop_dusk",
+    "cap": "A third problem",
+    "sub": "Why would we compare?"
+   }
+  },
+  {
+   "say": "So here's one way to put it. A neat sum is not yet an explanation. The ratio idea may still hold a grain of truth. As we get older, we do have more years to look back on, and perhaps that changes how each new one feels. But on its own, it seems too simple. Most researchers today look for the answer in memory, attention and routine, rather than in fractions.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "A neat sum is not yet an explanation.",
+    "by": "One way to put it"
+   }
+  },
+  {
+   "say": "Picture a windowsill at sunset. A child's little wooden boat, worn smooth from years of play. Next to it, an old pocket watch. They're both measures of time, in a way. One holds the long, wide days of childhood. The other counts each second evenly, without favor. And somewhere between them lies the question we're following tonight.",
+   "show": {
+    "type": "photo",
+    "file": "lf40_b04_01.jpg",
+    "cap": "A toy boat and an old watch"
+   }
+  },
+  {
+   "say": "So what's the verdict on our third popular belief? The ratio idea is elegant, memorable and very old. It may capture a small part of the feeling. But it doesn't fit the survey results well, and it doesn't explain why short stretches of time don't shrink in the same way. It's a lovely starting point, but not the whole answer.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "Verdict on the third myth",
+    "sub": "Elegant, but incomplete"
+   }
+  },
+  {
+   "say": "Let's return to Hanna for a moment. She's still sitting by the fire, turning pages. In one of her diaries, from a year in her forties, there's a short sentence that catches her eye. It just says, nothing much happened this year. She remembers that year now only as a blur of the same commute, the same office, the same Sunday evenings. And somehow, it feels like the shortest year of all.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Back to Hanna",
+    "sub": "A sentence in her diary"
+   }
+  },
+  {
+   "say": "That sentence is a clue. Nothing much happened. Not that the days were short. Each one had its full twenty four hours. Some of them probably felt long at the time. But when Hanna looks back, there's very little to hold on to. Very few moments stand out. And without those markers, the whole year seems to fold up into something small.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A clue",
+    "sub": "Nothing much happened"
+   }
+  },
+  {
+   "say": "That brings us to a fourth popular belief, one with a lot of everyday wisdom in it. Time flies when you're having fun, and drags when you're bored. We've all felt this. A good party seems to end too soon. A boring meeting goes on forever. So, the idea goes, if your life feels fast, it must be because it's full of fun, or at least full of activity.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 4,
+    "title": "Busy days and holidays"
+   }
+  },
+  {
+   "say": "And in the moment, that's often true. When we're absorbed in something, whether it's a conversation, a game, a good book or a busy task, we pay less attention to time itself. We stop glancing at the clock. And when we finally look up, we're surprised how late it has become. In the moment, a full and engaging day really can seem to pass quickly.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "street_day",
+    "cap": "Partly true",
+    "sub": "In the moment"
+   }
+  },
+  {
+   "say": "But here's the twist. When we look back on that kind of day, it often doesn't feel short at all. The British writer and broadcaster Claudia Hammond described this in her 2012 book Time Warped, and gave it a lovely name. She called it the holiday paradox. And it may be one of the most useful ideas for understanding Hanna's question.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "But looking back",
+    "sub": "A strange reversal"
+   }
+  }
+ ]
+}

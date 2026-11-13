@@ -1,0 +1,150 @@
+{
+ "id": "lf40_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's the holiday paradox. Imagine a week away somewhere new. While you're there, the days seem to rush by. Before you know it, it's time to pack. And yet, when you get home and look back, that week feels long and rich, as if you'd been away for much longer. Meanwhile, an ordinary week at home might drag while you live it, and then vanish almost completely from memory.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "The holiday paradox",
+    "sub": "Fast now, long later"
+   }
+  },
+  {
+   "say": "Let's set it out simply. A new and varied week away tends to feel fast while it's happening, and long when you remember it. An ordinary, repetitive week at home can feel slow while it's happening, and short when you remember it. The two kinds of time we met earlier, in the moment and looking back, are pulling in opposite directions.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "The holiday paradox",
+    "items": [
+     "A new week away: fast now, long later",
+     "An ordinary week: slow now, short later"
+    ]
+   }
+  },
+  {
+   "say": "Why would that happen? The explanation Hammond and others offer leans on memory. A week in a new place creates lots of new, distinct memories. New streets, new tastes, small surprises, little decisions. When you look back, there's a lot there, and the mind seems to read that richness as length. An ordinary week, by contrast, leaves few new memories behind, and so it seems short in hindsight.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "street_day",
+    "cap": "Why the reversal?",
+    "sub": "Memory again"
+   }
+  },
+  {
+   "say": "Picture a small street in a town you've never visited before. Colorful houses. A bicycle leaning against a wall. Flower pots on the steps. Everything is new to you, so your mind is quietly collecting details, the color of a door, the sound of the sea somewhere behind the rooftops. Days spent in places like this often feel short while they last, and surprisingly long when we look back.",
+   "show": {
+    "type": "photo",
+    "file": "lf40_b05_01.jpg",
+    "cap": "A new street, far from home"
+   }
+  },
+  {
+   "say": "Now think again about Hanna's summer when she was nine. It was packed with firsts. Her first time swimming in a lake. Her first long car journey. A grandmother's garden she was only just discovering. Each of those days left a clear mark. And so, decades later, that summer still feels enormous. Not because the days were longer, but because they were full of new things to remember.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Back to Hanna",
+    "sub": "The longest summer"
+   }
+  },
+  {
+   "say": "And the year in her forties, the one where nothing much happened? It was probably full of perfectly pleasant days. But they were similar days. The same route to work. The same desk. The same routines on the same evenings. When she looks back, those days have blended together into a few general impressions, and the whole year seems to have collapsed into something very small.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "And her blurry year",
+    "sub": "Few marks left"
+   }
+  },
+  {
+   "say": "So here's one way to remember it. Fun can make time fly in the moment. But newness can make it long in memory. These aren't opposites. A good holiday can do both at once. And a dull routine can do the reverse, dragging in the moment and then disappearing in hindsight. The question is not only whether we enjoy our days, but how different they are from each other.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "Fun makes time fly. Newness makes it long.",
+    "by": "One way to remember it"
+   }
+  },
+  {
+   "say": "So what's the verdict on our fourth popular belief, that time flies when you're having fun? It's true, but only half true. It describes how time feels in the moment. But when Hanna asks where the year went, she isn't asking about the moment. She's looking back. And for that, what seems to matter most isn't fun, but how many distinct, memorable moments the year left behind.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Verdict on the fourth myth",
+    "sub": "True, but only half"
+   }
+  },
+  {
+   "say": "Which brings us to the heart of tonight's question. If looking back on a year is partly a matter of memory, then memory acts like a kind of measuring tape. When we try to judge how long a stretch of time was, the mind seems to ask, in a quiet way, how much do I remember from it? And the answer to that question shapes how long it feels.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 5,
+    "title": "Memory as a measuring tape"
+   }
+  },
+  {
+   "say": "After all, we don't have a ruler for the past. There's no little counter in the head ticking off each day of the year, waiting to be read on New Year's Eve. Instead, when Hanna thinks about her year, her mind has to make a kind of best guess, built from whatever it can reach. Some stretches come back clearly. Others hardly come back at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cabin_fireplace",
+    "cap": "No ruler inside",
+    "sub": "A best guess"
+   }
+  },
+  {
+   "say": "In 2003, two researchers at the Hebrew University of Jerusalem, Dinah Avni-Babad and Ilana Ritov, published a paper with a simple title: Routine and the Perception of Time. They were interested in exactly this question. How does doing the same thing again and again affect our sense of how long things take, and how long they seemed afterwards?",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Routine and time",
+    "sub": "A careful study"
+   }
+  },
+  {
+   "say": "Their work became part of a wider picture that many psychologists now share. Routine, it seems, makes time feel shorter when we look back on it. When days follow a familiar pattern, fewer of them stand out, and so they take up less room in memory. That doesn't make routine bad. Routines can be comforting and useful. But they leave a lighter footprint on our sense of time.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "who": "Dinah Avni-Babad and Ilana Ritov",
+    "where": "Published in 2003",
+    "what": "Routine and the Perception of Time"
+   }
+  },
+  {
+   "say": "You might know a small version of this from your own life. Think of a journey you make often, like the way to work, or to a friend's house. The first time, it probably felt long. You were watching for turns and landmarks. But after many trips, the same route seems to shrink. You arrive and hardly remember the drive at all. Some writers call this the well-travelled road effect.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "The well-travelled road",
+    "sub": "A familiar route"
+   }
+  },
+  {
+   "say": "Now imagine being a child, when nearly every road is new. When school, friends, seasons and even simple things like snow or the sea are still being discovered. A child's year is packed with firsts, and so it may leave a dense trail of memories behind it. Later in life, many of those firsts have already happened, and more of each year can slip into familiar patterns.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "Childhood's long road",
+    "sub": "Everything new"
+   }
+  }
+ ]
+}

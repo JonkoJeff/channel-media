@@ -20,6 +20,7 @@ The machine adds a rule here every time a published video had a problem. Every n
 - Brain After Dark: the calm re-frame must never crop the left caption card. lf13 (render 15 Oct) had 4 of 12 review frames with the caption cut off by the close shot (z 1.13, shift +210); longform.py close shot is now left-anchored (z 1.11, shift -400). A render with a cut caption in any review frame fails QC: set "hold" in result.json (autoplan skips it) and re-render.
 - Brain After Dark descriptions: Sources must be one clean line per source (no raw {'title':...} dicts, no duplicates). lf13's description had 21 duplicated/raw lines; fixed by hand before scheduling.
 - Never dispatch render-long in the same minute as the push that adds new #ai photos: the screenshots workflow commits the images ~2 min later, and a render that checked out before that commit fails on every part with FileNotFoundError (lf20, 24 Oct: whole render lost, 22/25 Oct without a fresh BAD long video). Wait for the "Screenshots" commit, confirm every photo file exists, then dispatch.
+- Every `#ai` file name must be unique per video: name it after the block it is in (`lfNN_bXX_NN.jpg`) and re-check after renumbering blocks. block.py skips a file name already in photos.json, so a clash silently shows the first image in both places (lf40: b19 cabin got b21's living room). Look at every AI image before the render; regenerate (new file name) any with legible fake text or a person/face (lf40 b07 sign, b03 framed portrait).
 
 ## Checked videos
 checked: [lf01, sh01a, lf06, sh08_01]

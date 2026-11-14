@@ -1,0 +1,122 @@
+{
+ "id": "lf41_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So what exactly is Ben doing? It's tempting to say he's just delaying, but not every delay is procrastination. Sometimes we wait for very good reasons. We wait for more information, or for a better moment, or because something else truly matters more. Researchers have a more careful way of describing the kind of delay that Ben is caught in, and it's worth hearing.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "n": 1,
+    "title": "What procrastination really is"
+   }
+  },
+  {
+   "say": "One of the best known researchers in this field, the psychologist Piers Steel, described procrastination as voluntarily delaying something we intend to do, even though we expect to be worse off for the delay. That's the key part. We choose the delay ourselves, nobody forces us, and some part of us already knows it won't help. That's what makes it so puzzling, and so human.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "A careful definition",
+    "sub": "Delay that we expect to regret"
+   }
+  },
+  {
+   "say": "So there are three ingredients. First, the delay is our own choice. Second, we really did intend to do the thing. Ben truly wants to give a lovely speech for his sister. And third, we expect the delay to cost us something later, maybe stress, maybe a rushed job, maybe a sleepless Friday night. When all three are there, that's procrastination in the scientific sense.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Three ingredients",
+    "items": [
+     "We chose to delay",
+     "We meant to do it",
+     "We expect to pay for it later"
+    ]
+   }
+  },
+  {
+   "say": "Compare that with a different kind of waiting. Imagine Ben decided to write the speech on Wednesday, after a dinner with Clara where he could hear a few new stories. That would be a plan. It's a delay with a reason. Some researchers call it strategic delay, and there's nothing wrong with it. The difference is in the feeling. Strategic delay feels calm. Procrastination usually feels like a small pebble in your shoe.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Strategic waiting",
+    "sub": "Not the same thing"
+   }
+  },
+  {
+   "say": "So how many people know that pebble? In 2007, Piers Steel published a large review in the journal Psychological Bulletin. It pulled together the evidence from hundreds of earlier research sources. By one count reported at the time, the review drew on 691 of them. It was one of the biggest attempts ever made to gather what science knew about putting things off.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "n": 2,
+    "title": "How common is it?"
+   }
+  },
+  {
+   "say": "And among the many findings from that work, one figure has been quoted again and again. It was estimated that about fifteen to twenty percent of the general population are procrastinators in a more lasting way, people for whom putting things off is a regular pattern rather than an occasional slip. And among students, with all their essays and exams, the numbers are reported to be much higher still.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "who": "Piers Steel",
+    "where": "Psychological Bulletin, 2007",
+    "what": "A large review of procrastination research, drawing on hundreds of earlier sources"
+   }
+  },
+  {
+   "say": "So if you think about a room of a hundred adults, perhaps fifteen or twenty of them know this habit very well, not just now and then, but as a regular companion. And almost everyone else has met it at least occasionally. Ben would probably say he's somewhere in between. Most of the time he gets things done. But some tasks seem to have a special power to make him wander off.",
+   "show": {
+    "type": "stat",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "title": "People who procrastinate as a regular pattern",
+    "big": "15-20%",
+    "label": "estimate reported with Steel's 2007 review"
+   }
+  },
+  {
+   "say": "Picture a library late in the evening, with green lamps glowing on long wooden tables. Somewhere in a place like this, on any given night, there are students who arrived with the best intentions, and who are now reading something fascinating that has nothing to do with their essay. It's such a common sight that it's almost part of the furniture. And it's one reason researchers have studied students so closely.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b02_01.jpg",
+    "cap": "Libraries full of unfinished essays"
+   }
+  },
+  {
+   "say": "But procrastination doesn't end when school does. Adults put off phone calls to the doctor, emails to colleagues, repairs around the house, and conversations they know they need to have. Older people put things off too. The tasks change, but the pattern often looks surprisingly similar. Something matters to us. It also feels a little uncomfortable. And somehow, the uncomfortable thing keeps sliding toward tomorrow.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "street_day",
+    "cap": "Not just students",
+    "sub": "Grown-ups too"
+   }
+  },
+  {
+   "say": "That pairing is worth holding on to, because it will come back again and again tonight. We rarely put off things we don't care about at all. Those we simply forget. And we rarely put off things that feel easy and pleasant. It's the mix of caring and discomfort that seems to create the trouble, and Ben's speech has plenty of both.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "text": "Something matters, and something feels uncomfortable.",
+    "by": "The usual recipe"
+   }
+  },
+  {
+   "say": "Which brings us to the first popular belief we're going to test tonight. Perhaps the most common one of all. The idea that procrastination is simply laziness. That procrastinators just don't want to work, and if they cared a little more, the problem would vanish. It's a very old idea, and it's often said quite harshly. So let's see how well it holds up.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "First myth",
+    "sub": "It's just laziness"
+   }
+  }
+ ]
+}

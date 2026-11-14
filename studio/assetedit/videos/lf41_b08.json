@@ -1,0 +1,125 @@
+{
+ "id": "lf41_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Ben's procrastination isn't only about one speech. It's also about how his week will feel. The worry that sits in the background. The Thursday evening that should have been relaxing. The Friday night that may stretch far too late. And researchers have wondered whether, over longer periods, a habit of putting things off might be linked to how people feel in general.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 1,
+    "title": "Putting things off, and how we feel"
+   }
+  },
+  {
+   "say": "A large study published in 2023 explored this with students in Sweden. Fred Johansson and his colleagues followed three thousand five hundred and twenty five university students. They measured how much each student tended to procrastinate, and then, nine months later, looked at a range of health measures. Things like mood, sleep, physical activity, pain and loneliness.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "who": "Fred Johansson and colleagues",
+    "where": "JAMA Network Open, 2023",
+    "what": "3,525 Swedish university students followed over time"
+   }
+  },
+  {
+   "say": "That's a large group, and following people over time gives a richer picture than asking everything at a single moment. The researchers also took into account a range of other factors that might explain any links, so they could see whether procrastination still mattered once those were considered.",
+   "show": {
+    "type": "stat",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "title": "Swedish university students in the study",
+    "big": "3,525",
+    "label": "followed up nine months later"
+   }
+  },
+  {
+   "say": "And they found that students who procrastinated more tended, nine months later, to report slightly more symptoms of stress, anxiety and depression. They also tended to report poorer sleep, less physical activity, more loneliness, and more disabling pain in the upper body, such as the shoulders and arms. The links were mostly modest in size. But they appeared across quite a few areas of life.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Later linked with higher procrastination",
+    "items": [
+     "More symptoms of stress, anxiety and depression",
+     "Poorer sleep",
+     "Less physical activity",
+     "More loneliness",
+     "More pain in the upper body"
+    ]
+   }
+  },
+  {
+   "say": "It's worth being careful here. A study like this shows that things go together. It can't prove that procrastination causes those problems. It may be that stress makes people procrastinate, or that something else sits behind both. Still, it's a gentle reminder that putting things off isn't always as harmless as it looks on a relaxed Sunday evening. It can quietly add weight to the weeks that follow.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "A careful note",
+    "sub": "Linked is not the same as caused"
+   }
+  },
+  {
+   "say": "And there's one kind of procrastination that seems especially fitting for tonight. It's the one that happens at the very end of the day. You're tired. You know you should go to bed. Tomorrow starts early. And yet, somehow, you find yourself still awake, watching one more video, reading one more page, scrolling one more time.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "n": 2,
+    "title": "Putting off sleep"
+   }
+  },
+  {
+   "say": "In 2014, a team of researchers at Utrecht University in the Netherlands, led by Floor Kroese, gave this a name. Bedtime procrastination. They described it as going to bed later than you intended, even though nothing outside is stopping you. No baby crying, no late shift, no emergency. Just a quiet, slightly stubborn delay at the end of the day.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "who": "Floor Kroese and colleagues",
+    "where": "Utrecht University, published 2014",
+    "what": "Introducing bedtime procrastination"
+   }
+  },
+  {
+   "say": "In their survey, people who reported more bedtime procrastination also tended to report less sleep, and to feel more often that they hadn't slept enough. It was also linked with lower self-control in daily life. That fits with everything we've heard tonight. At the end of a long day, our ability to resist the nearest pleasant thing may be at its lowest, and the nearest pleasant thing is often a glowing screen.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "What they found",
+    "sub": "Self-control and sleep"
+   }
+  },
+  {
+   "say": "Picture a bedroom late at night. The lamp is off, but a phone is still glowing on the bedside table. Its light is small, but it has a strong pull. One more video. One more message. And the clock moves on, quietly, while the rest of the house sleeps. If you've ever done this, you're certainly not alone. It's one of the most common habits of modern evenings.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b08_01.jpg",
+    "cap": "One more page, one more video"
+   }
+  },
+  {
+   "say": "In recent years, people have started using a vivid phrase for one version of this. Revenge bedtime procrastination. The idea is that after a busy day full of other people's demands, staying up late feels like taking a little time back for ourselves. It makes sense. But the revenge often lands on the person we least want to hurt, the tired version of us who wakes up the next morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Taking the evening back",
+    "sub": "A familiar feeling"
+   }
+  },
+  {
+   "say": "So what should we do when we catch ourselves procrastinating, whether on a speech or on sleep? Many people have one answer ready. Be tougher. Scold yourself. Feel properly bad about it, and next time you'll do better. It's the fourth popular belief we'll test tonight. And a study of students and their exams gives a surprising answer.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Fourth myth",
+    "sub": "Be harder on yourself"
+   }
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "id": "lf41_b20",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now imagine a small wooden cabin high in the mountains, on a quiet winter night. Snow has been falling all evening, soft and thick, and it covers everything outside. The pine trees wear heavy white coats. The path to the door has disappeared beneath a smooth white blanket. And inside the cabin, a fire is burning warmly in the stone hearth.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "cabin_fireplace",
+    "n": 1,
+    "title": "A cabin in the snow"
+   }
+  },
+  {
+   "say": "From the outside, the cabin looks like a tiny lantern in the dark. Its windows glow orange against the deep blue snow. A thin line of smoke rises from the chimney, straight up into the still air. And all around it, the snowflakes keep drifting down, slowly, silently, settling on the roof and the trees and the sleeping mountain.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b20_01.jpg",
+    "cap": "A warm cabin on a snowy night"
+   }
+  },
+  {
+   "say": "Inside, you're sitting by the fire in a soft armchair, with thick woollen socks on your feet and a warm blanket on your knees. The flames move slowly, orange and gold. Now and then, a log shifts and sends up a little shower of sparks. The warmth soaks into your hands, your face, your whole body, slowly and completely.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Inside, by the fire",
+    "sub": "Warm socks, warm hands"
+   }
+  },
+  {
+   "say": "Through the window, you can watch the snow falling. It makes no sound at all. That's the wonderful thing about snow. It softens everything, even sound. The whole mountain seems hushed beneath it. No cars, no voices, no footsteps. Just the quiet crackle of the fire inside, and the endless, silent falling outside.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Snow outside the window",
+    "sub": "Falling without a sound"
+   }
+  },
+  {
+   "say": "Snow makes the whole world quiet. It covers the paths and the roads and the busy places, and asks everything to slow down for a while. Tonight, you can let it do that for you, too. Let it cover the noisy thoughts and the busy plans with a soft, white quiet. They'll still be there in the spring. For now, they're tucked away beneath the snow.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "Snow makes the whole world quiet.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "Beside your chair, there's a mug of something warm. Perhaps it's cocoa, or a gentle herbal tea. You hold it in both hands and feel its heat. You take a slow sip, and the warmth spreads through your chest. There's nothing else you need tonight. A fire, a blanket, a warm drink, and a long, peaceful night ahead.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "A mug of something warm",
+    "sub": "Held in both hands"
+   }
+  },
+  {
+   "say": "Let's gather the gentle things around you. A fire, crackling softly in the hearth. Snow, falling without a sound. Thick woollen socks, keeping your feet warm. A mug of something comforting, held in both hands. And a whole mountain outside, hushed and white and sleeping. You're safe and warm, and the night is long and kind.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "In the snowy cabin",
+    "items": [
+     "A crackling fire",
+     "Falling snow",
+     "Woollen socks",
+     "A warm mug",
+     "A hushed mountain"
+    ]
+   }
+  },
+  {
+   "say": "As the evening goes on, the fire burns lower. The tall flames become small ones, and then soft, glowing embers, pulsing gently in the hearth. The room grows dimmer and cosier. The shadows on the wooden walls grow long and still. And you feel your body growing heavier in the armchair, ready for bed.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "The fire burns low",
+    "sub": "Embers glowing"
+   }
+  },
+  {
+   "say": "Up a narrow wooden stair, there's a small bed under the sloping roof, piled high with soft blankets. You climb in and sink down into them. Just above you, through a small window in the roof, you can see the snowflakes landing on the glass, one by one, each one a tiny, perfect shape, before they melt or slide softly away.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A bed under the eaves",
+    "sub": "Piled with blankets"
+   }
+  },
+  {
+   "say": "Let the snow fall. Let yourself sleep. Outside, the mountain is wrapped in white, and the snow will keep falling all night, quietly and gently, until everything is soft and smooth and still. And in the morning, the world will be new and bright and clean. But that's a long way off. For now, there's only this warm bed, and this long, quiet night.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "text": "Let the snow fall. Let yourself sleep.",
+    "by": "Goodnight, mountain"
+   }
+  },
+  {
+   "say": "Let yourself sink deeper into the blankets now. Your breath is slow. Your body is warm and heavy. The last glow of the embers fades downstairs. The snow keeps whispering against the window. And you drift, slowly and peacefully, deeper and deeper into rest, like a snowflake floating down through the still night air.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Deeper and deeper",
+    "sub": "Into rest"
+   }
+  }
+ ]
+}

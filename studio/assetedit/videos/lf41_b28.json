@@ -1,0 +1,122 @@
+{
+ "id": "lf41_b28",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine one last quiet place before we say goodnight. A small stone cottage on a hillside, late at night. Inside, a fire has burned down to a few warm embers. A clock ticks softly on the mantelpiece. And curled up on a cushion by the hearth, a cat is fast asleep, its tail wrapped neatly around its nose.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "n": 1,
+    "title": "A cottage and a sleeping cat"
+   }
+  },
+  {
+   "say": "Picture the cat on its cushion, a soft round shape in the glow of the embers. Its sides rise and fall slowly with each breath. Now and then, an ear twitches, or a paw stretches out and curls back in, and then it's perfectly still again. There's nobody in the world who knows how to rest quite as well as a sleeping cat.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b28_01.jpg",
+    "cap": "A cat asleep by the fire"
+   }
+  },
+  {
+   "say": "Cats sleep a great deal, and they never seem to feel guilty about it. They don't lie awake thinking about things they should have done. They don't put off going to sleep. When it's time to rest, they simply find a warm spot, curl up, and let go. Perhaps, just for tonight, we can learn a little from them.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Masters of rest",
+    "sub": "No guilt at all"
+   }
+  },
+  {
+   "say": "Here's the cat's advice, if it could give any. Find a warm spot. Curl up. Let go. That's all. No list, no plan, no worrying about tomorrow. Just warmth, and comfort, and the simple pleasure of resting. You have your own warm spot right now. You can curl up in it, and let go, too.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "Find a warm spot. Curl up. Let go.",
+    "by": "Advice from a cat"
+   }
+  },
+  {
+   "say": "Listen to the clock on the mantelpiece. Tick. And a pause. Tock. And a pause. It's measuring time, but tonight time doesn't matter at all. The clock can tick all it likes. You don't need to know what it says. Let its slow, soft rhythm become just one more gentle sound in the quiet room, like the breathing of the cat.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "The ticking clock",
+    "sub": "Slow and soft"
+   }
+  },
+  {
+   "say": "Let's gather the gentle things around you, one last time. Glowing embers in the hearth. A clock, ticking softly on the mantel. A cat, asleep on its cushion. Thick stone walls, keeping the warmth in and the wind out. And a soft, dark night all around the cottage, quiet and kind. Everything here is safe. Everything here is resting.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "In the cottage",
+    "items": [
+     "Glowing embers",
+     "A ticking clock",
+     "A sleeping cat",
+     "Thick stone walls",
+     "A soft, dark night"
+    ]
+   }
+  },
+  {
+   "say": "Up a little wooden stair, there's a bed tucked under the eaves of the roof, piled with soft quilts. You climb in, and pull them up around your shoulders. The warmth of the fire drifts up from below. The clock ticks faintly. And through the small window, the stars are shining over the hillside, peaceful and far away.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "A warm bed upstairs",
+    "sub": "Under the eaves"
+   }
+  },
+  {
+   "say": "Now curl up, just a little, like the cat downstairs. Let your body settle into its most comfortable shape. Let your head sink into the pillow. Let the quilts hold you. Your breath is slow and soft. Your body is warm and heavy. And your mind is quiet now, quieter than it has been all day.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Curling up",
+    "sub": "Like the cat below"
+   }
+  },
+  {
+   "say": "Downstairs, the last embers glow, and slowly fade. The cottage grows darker and quieter. The cat sleeps on. The clock ticks on. And you drift, softly, deeper and deeper, into a long, warm, peaceful sleep. There's nothing more to do. There's nowhere else to be. Just here, just now, just rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The last embers",
+    "sub": "Fading softly"
+   }
+  },
+  {
+   "say": "Here's one last thought from the cottage. Rest is a gift you can give yourself every night. It doesn't cost anything. It doesn't need to be earned. It's simply there, waiting for you, as soon as you're ready to accept it. Tonight, you've accepted it. And that's a very good thing to have done.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "Rest is a gift you can give yourself every night.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "Outside, a soft wind moves over the hillside, brushing against the cottage walls and sighing around the chimney. Inside, it can't reach you. The walls are thick, and the quilts are warm. The wind is just a gentle sound now, like the sea far away, or the breathing of a sleeping giant. And you sleep on, safe and warm.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Wind on the hill",
+    "sub": "Soft against the walls"
+   }
+  }
+ ]
+}

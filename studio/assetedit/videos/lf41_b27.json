@@ -1,0 +1,120 @@
+{
+ "id": "lf41_b27",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now imagine a wide, gentle staircase, leading softly downward. It's carpeted in thick, warm wool, and lit by small lamps that glow low along the wall. At the bottom of the stairs, there's a quiet room with the softest bed you've ever seen. We'll walk down together, very slowly, one step at a time. With every step, you'll feel a little heavier, and a little calmer.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "n": 1,
+    "title": "A slow staircase into sleep"
+   }
+  },
+  {
+   "say": "Picture the staircase. The banister is smooth and warm under your hand. The carpet is soft beneath your feet. The lamps glow gently, making little pools of amber light on each step. And far below, the quiet room is waiting for you, warm and dim, with a bed already turned down, ready for you to sink into.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b27_01.jpg",
+    "cap": "Stairs that lead down to rest"
+   }
+  },
+  {
+   "say": "Let's begin. Step ten. You place your foot on the first step, slowly, and feel your shoulders soften. Step nine. Your breath grows a little slower. You're in no hurry at all. Each step is wide and safe, and the carpet is soft. There's nothing above you that you need to go back for. Everything can wait until morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Ten, and nine",
+    "sub": "The first steps"
+   }
+  },
+  {
+   "say": "Step eight. Your arms feel heavy and warm. Step seven. Your face relaxes completely, forehead smooth, jaw loose. Step six. You're halfway down now, and the light is growing softer, and the air is growing warmer. Each step takes you a little further from the busy day, and a little closer to deep, peaceful rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Eight, seven, six",
+    "sub": "Heavier and calmer"
+   }
+  },
+  {
+   "say": "Each step down is a step into rest. You don't need to climb anything tonight. You don't need to push or strive. Tonight, the only way is gently down, into comfort, into quiet, into sleep. And going down these stairs takes no effort at all. You simply let your body sink, one soft step at a time.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "text": "Each step down is a step into rest.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "Step five. Your legs feel heavy and slow. Step four. Your breath is long and deep, coming and going all on its own. You can feel the warmth of the room below now, and see the soft glow of the bedside lamp. The bed looks so inviting, wrapped in thick, soft blankets, with pillows piled up and waiting for you.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Five, four",
+    "sub": "Almost there"
+   }
+  },
+  {
+   "say": "Step three. Deeply relaxed, from head to toe. Step two. Heavy and warm, like sand settling to the bottom of a still pool. And step one. Ready to rest. You've reached the bottom of the stairs. The quiet room is all around you now, warm and dim and peaceful. And the soft bed is just a few steps away.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "The last steps",
+    "items": [
+     "Three: deeply relaxed",
+     "Two: heavy and warm",
+     "One: ready to rest"
+    ]
+   }
+  },
+  {
+   "say": "You walk slowly to the bed and climb in. The blankets are thick and soft and warm, and the pillow is cool and smooth. You sink down into it, deeper than you thought you could. The lamp dims all by itself, until there's only the faintest glow. And all around you, the room is quiet, safe and still.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Into the softest bed",
+    "sub": "Sinking down"
+   }
+  },
+  {
+   "say": "There's nothing left to do now. You've walked all the way down. Every part of you is heavy and calm. Your breath is slow. Your thoughts are soft and blurry, like distant lights in the fog. And the only thing left in the whole world is this warm bed, this quiet room, and this long, gentle night of rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Nothing left to do",
+    "sub": "Only rest"
+   }
+  },
+  {
+   "say": "Here's one simple thought for the bottom of the stairs. You have arrived. You can rest now. There are no more steps to take tonight. Nothing more to climb, nothing more to reach. You've come all the way down, into the quiet, and the quiet is happy to keep you here until morning.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "text": "You have arrived. You can rest now.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "Now imagine you're floating, very softly, just above the bed, as light as a feather and as warm as a summer evening. Then you sink gently back down into the blankets, heavier and calmer than before. Light, and then heavy. Floating, and then sinking. And each time, you go a little deeper into a calm, dreamy sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Floating softly",
+    "sub": "Warm and still"
+   }
+  }
+ ]
+}

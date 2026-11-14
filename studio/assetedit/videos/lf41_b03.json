@@ -1,0 +1,125 @@
+{
+ "id": "lf41_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's look at Ben's evening again. In the last two hours, he has sorted the spices, watered every plant, cleared his inbox, and read a long article about confetti. That's quite a lot of activity for a lazy person. In fact, he has been busy almost the whole time. He just hasn't been busy with the one thing that matters most to him tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Is Ben lazy?",
+    "sub": "Look at his evening"
+   }
+  },
+  {
+   "say": "This is so common that it has a nickname. People call it productive procrastination. The dishes get done, the drawers get tidied, the car gets washed, all as a way of not doing the one hard thing. Laziness would mean not wanting to do anything at all. But this looks more like running away from something specific, while staying very busy along the way.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "Productive procrastination",
+    "sub": "Busy, but not with that"
+   }
+  },
+  {
+   "say": "So if it isn't laziness, what is it? Over the last few decades, many researchers have arrived at a surprising answer. Procrastination may be less about managing time and more about managing feelings. Two psychologists, Fuschia Sirois and Timothy Pychyl, put this idea at the centre of their work, in a paper published in 2013. Its title says a lot. Procrastination and the priority of short term mood regulation.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "Feelings, not time"
+   }
+  },
+  {
+   "say": "Their idea goes something like this. When a task makes us feel uneasy, bored, anxious or unsure, avoiding it brings quick relief. The bad feeling fades almost at once. And in that moment, feeling better now quietly wins over doing better later. The task doesn't disappear, of course. It waits for us. But for a little while, the knot in our stomach loosens, and that relief is surprisingly powerful.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "who": "Fuschia Sirois and Timothy Pychyl",
+    "where": "Social and Personality Psychology Compass, 2013",
+    "what": "Procrastination as putting short-term mood repair first"
+   }
+  },
+  {
+   "say": "Think about what happens when Ben looks at that blank page. He wants the speech to be warm and funny and true. He wants Clara to feel loved. He imagines standing up in front of a hundred guests, and his heart beats a little faster. What if the jokes fall flat? What if he gets emotional? The page isn't just empty. It's full of feelings, and they aren't comfortable ones.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "What Ben feels",
+    "sub": "A small knot"
+   }
+  },
+  {
+   "say": "So he gets up to sort the spices, and for a moment, the feeling fades. It's not a decision he makes out loud. It happens almost by itself. And that's what makes this so tricky. The relief is real, and it arrives instantly. The cost, on the other hand, is far away, somewhere around Friday night. And our brains tend to listen to the closer voice.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b03_01.jpg",
+    "cap": "An empty page can feel heavy"
+   }
+  },
+  {
+   "say": "Timothy Pychyl has also described the kinds of tasks we're most likely to put off. In his book on the procrastination puzzle, published in 2013, he lists a handful of features that seem to make a task especially easy to avoid. When you hear them, you might recognize a few things from your own list of someday jobs.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "n": 2,
+    "title": "Which tasks we put off"
+   }
+  },
+  {
+   "say": "Here they are. Tasks that feel boring. Tasks that feel frustrating. Tasks that feel difficult. Tasks that are unclear, where we don't quite know what's being asked. Tasks without much structure, where we don't know where to begin. Tasks that aren't rewarding in themselves. And tasks that seem to lack personal meaning. The more of these a task has, the harder it seems to start.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Tasks we tend to put off",
+    "items": [
+     "Boring",
+     "Frustrating",
+     "Difficult",
+     "Unclear",
+     "Without structure",
+     "Not rewarding in itself",
+     "Lacking personal meaning"
+    ]
+   }
+  },
+  {
+   "say": "Ben's speech isn't boring, and it certainly has personal meaning. But it is difficult. It's unclear what a good wedding speech should even be. Two minutes? Ten? Funny or touching? And there's no structure at all, just a white page. So even a task he cares about deeply can tick several of these boxes. That's often how it goes with the things that matter most.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "Ben's speech",
+    "sub": "Ticking a few boxes"
+   }
+  },
+  {
+   "say": "Here's a gentle way to hold that idea. Most of the time, we aren't really avoiding the task itself. We're avoiding the feeling the task brings up. The speech doesn't scare Ben. The worry about getting it wrong does. And once you see it that way, procrastination starts to look less like a flaw in character and more like a very understandable attempt to feel a little better.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "We don't avoid the task. We avoid the feeling.",
+    "by": "A helpful way to see it"
+   }
+  },
+  {
+   "say": "So the first myth doesn't hold up very well. Procrastination isn't usually laziness. Many procrastinators care a great deal and work very hard, just not always on the thing they meant to do. But if feelings are part of the story, there's another question waiting. Why does the future version of ourselves seem so willing to take the job we don't want tonight?",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "cap": "So, is it laziness?",
+    "sub": "Not really"
+   }
+  }
+ ]
+}

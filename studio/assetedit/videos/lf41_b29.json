@@ -1,0 +1,116 @@
+{
+ "id": "lf41_b29",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We're coming to the end of our evening together now. We've wandered a long way tonight. From a kitchen table and a blank page, through libraries and gardens, lighthouses and snowy mountains, lakes and meadows. And all along the way, we've been learning to let things go. Now there's only one thing left to do. Rest.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 1,
+    "title": "Goodnight"
+   }
+  },
+  {
+   "say": "Let's take one more slow breath together. In through the nose, gently, filling up softly. And out, long and slow, letting everything go. Once more. In. And out. Feel how heavy and warm your body is now. Feel how slow and easy your breath has become. You've done everything you needed to do today. The rest can wait.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "One more slow breath",
+    "sub": "In and out"
+   }
+  },
+  {
+   "say": "Somewhere far ahead, a morning is waiting. Soft light through the curtains. Flowers on the windowsill. A new day, with its own small steps to take. But that's a long way off, and it will arrive all on its own, without any help from you. For now, the night is still deep and quiet, and you're right in the middle of it.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b29_01.jpg",
+    "cap": "Morning will come gently"
+   }
+  },
+  {
+   "say": "And when tomorrow comes, here's a small, gentle plan. Pick one small step on something you've been putting off. Not the whole thing, just one small step. Decide when and where you'll take it. And be kind to the one who begins. That's all. You don't need to fix everything. One small, kind step is plenty for one day.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "For tomorrow",
+    "items": [
+     "Pick one small step",
+     "Decide when and where",
+     "Be kind to the one who begins"
+    ]
+   }
+  },
+  {
+   "say": "Thank you for spending this evening with me, and with Ben, and with all of tonight's quiet places. Thank you for being curious about such a human habit, and for looking at it with kindness instead of blame. I hope the things you've been putting off feel a little lighter now, and I hope tonight's rest is deep and long and gentle.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Thank you",
+    "sub": "For spending tonight here"
+   }
+  },
+  {
+   "say": "And as you drift off, here's one last thought. There's no rush. There never was. The important things in life are rarely won by panic. They're built slowly, in small moments, by people who are rested enough to care. So let yourself rest now. Tomorrow's small steps will be much easier after a good night's sleep.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "There's no rush. There never was.",
+    "by": "Sleep well"
+   }
+  },
+  {
+   "say": "Sleep well. Let the night hold you. Let your dreams wander wherever they like, over canals and meadows and quiet, starlit lakes. And when the morning comes, you can open your eyes slowly, and greet the day gently, one small step at a time. Goodnight. Goodnight. Sleep softly, and rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Sleep well",
+    "sub": "Goodnight"
+   }
+  },
+  {
+   "say": "All of tonight's quiet places are still with you, if you'd like to visit them in your dreams. The canal at dusk. The old library in the rain. The autumn garden. The lighthouse and the snowy cabin. The lake, the meadow, the night train, the harbour, the greenhouse, the forest, and the little cottage with its sleeping cat. They'll all be there, whenever you need them.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "All the quiet places",
+    "sub": "Still with you"
+   }
+  },
+  {
+   "say": "So choose any one of them, and let it carry you the rest of the way. Perhaps a canal at dusk, or a library in the rain. Perhaps a lighthouse, or a snowy cabin. Perhaps a night train rocking through the dark, or a cottage with a cat asleep by the fire. Wherever you go, it will be quiet there, and warm, and safe.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Tonight's quiet places",
+    "items": [
+     "A canal at dusk",
+     "A library in the rain",
+     "A lighthouse",
+     "A snowy cabin",
+     "A night train",
+     "A cottage and a cat"
+    ]
+   }
+  },
+  {
+   "say": "And next time, if you'd like to join me again, we'll explore another very human puzzle. Why habits are so hard to break. Why we reach for the same snack, the same phone, the same old routine, even when we've promised ourselves something new. We'll look at what science says about habits, gently, and without any blame. Until then, rest well. Goodnight.",
+   "show": {
+    "type": "end",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "next": "Why Habits Are So Hard to Break"
+   }
+  }
+ ]
+}

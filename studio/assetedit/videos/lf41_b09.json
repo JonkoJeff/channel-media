@@ -1,0 +1,122 @@
+{
+ "id": "lf41_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's go back to Ben for a moment. It's late on Sunday now, and he finally closes the laptop. And then the inner voice starts. You're hopeless. Two months, and you haven't written a single line. What kind of brother does that? It's a harsh voice, and it feels as if it's trying to help. Surely, if he feels bad enough tonight, he'll do better tomorrow. But does it work that way?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "Kindness or blame"
+   }
+  },
+  {
+   "say": "A study published in 2010 by Michael Wohl, Timothy Pychyl and Shannon Bennett, at Carleton University in Canada, looked at exactly this. They followed one hundred and nineteen first-year students through two midterm exams. Before the first exam, they asked how much the students had procrastinated on studying. And they asked something more unusual. How much had the students forgiven themselves for it?",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "who": "Michael Wohl, Timothy Pychyl and Shannon Bennett",
+    "where": "Carleton University, published 2010",
+    "what": "First-year students, two midterm exams and self-forgiveness"
+   }
+  },
+  {
+   "say": "Then they waited for the second exam, and asked about procrastination again. If the tough approach worked, you'd expect the students who were hardest on themselves to procrastinate least the second time. But the result went the other way. The students who had forgiven themselves for procrastinating before the first exam tended to procrastinate less before the second one.",
+   "show": {
+    "type": "stat",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "title": "First-year students followed through two exams",
+    "big": "119",
+    "label": "Wohl, Pychyl and Bennett, 2010"
+   }
+  },
+  {
+   "say": "The researchers suggested a reason. When we forgive ourselves for a slip, we can let it go and move on. When we don't, the bad feeling about the last time comes along with us to the next task. And remember what procrastination often is. A way of escaping a bad feeling. So adding more guilt to a task may only give us one more feeling we'd like to escape from.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "text": "Forgiveness lets us move past the last mistake.",
+    "by": "The idea behind the result"
+   }
+  },
+  {
+   "say": "You can almost see the loop. Ben avoids the speech because it makes him anxious. Then he feels guilty for avoiding it. Now the speech carries both anxiety and guilt, so it feels even heavier. And the heavier it feels, the more tempting the spice rack becomes. Being harsh doesn't break the loop. It quietly feeds it.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "A loop of guilt",
+    "sub": "And more avoidance"
+   }
+  },
+  {
+   "say": "Picture a soft blanket folded over an armchair, and rain on the window outside. Self-forgiveness is a little like that. It doesn't pretend that nothing happened. It simply says, all right, that happened, and now let's begin again. It's warm, and it's honest, and it leaves room for the next step instead of filling the room with blame.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b09_01.jpg",
+    "cap": "A softer way to begin again"
+   }
+  },
+  {
+   "say": "Fuschia Sirois, whom we met earlier, has also studied self-compassion and procrastination. Self-compassion means treating yourself with the kind of understanding you'd offer a friend who was struggling. In a study published in 2014, she found that people who procrastinated more also tended to have lower self-compassion, and that this seemed to be part of why they felt more stressed.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "n": 2,
+    "title": "Self-compassion"
+   }
+  },
+  {
+   "say": "Here's a simple test. Imagine a good friend told you that they'd been putting off a speech for their sister's wedding. Would you call them hopeless? Probably not. You might say, that sounds like a big thing to write, no wonder it feels hard. Want to talk through a few stories together? That second voice is kinder. And according to this research, it may also be more useful.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "What would you say to a friend?",
+    "sub": "A gentle test"
+   }
+  },
+  {
+   "say": "So a kinder inner voice might sound something like this. That was hard, and that's okay. Everyone does this sometimes, I'm not the only one. And then, the most important part. What's one small next step I could take? It isn't about letting yourself off the hook forever. It's about clearing away the extra weight, so the next step feels possible.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "A kinder inner voice",
+    "items": [
+     "That was hard, and that's okay",
+     "Everyone does this sometimes",
+     "What's one small next step?"
+    ]
+   }
+  },
+  {
+   "say": "So imagine Ben tries this. Instead of scolding himself, he takes a breath and says, okay, I've been putting this off because it matters to me, and I'm nervous about it. That's understandable. Tomorrow, I'll just write down three memories of Clara. That's all. And as he says it, the knot in his stomach loosens a little, without the help of any spices at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "street_day",
+    "cap": "Ben tries it",
+    "sub": "A different Sunday night"
+   }
+  },
+  {
+   "say": "So we've tested four popular beliefs tonight, and none of them held up quite the way people expect. It's not mainly laziness. It's not mainly perfectionism. Pressure doesn't usually help. And harshness tends to backfire. Before we come to what seems to help, there's one more popular belief to look at, and a curious glimpse inside the brain.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Coming up",
+    "sub": "What really seems to help"
+   }
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "id": "lf41_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In the 1990s, the psychologists Dianne Tice and Roy Baumeister decided to put the pressure idea to a real test. They worked with students taking a health psychology course at a university in the United States. Early in the term, the students filled in a questionnaire about how much they tended to put things off. Then the researchers simply watched how the term unfolded.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "n": 1,
+    "title": "A term with the procrastinators"
+   }
+  },
+  {
+   "say": "They kept track of several things. When the students handed in their term papers. What grades they received. And how they were feeling, through reports of stress and of everyday illnesses, like headaches, colds and stomach aches, and visits to the health centre. They published what they found in 1997, under a title that's almost a little story in itself. The costs and benefits of dawdling.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "who": "Dianne Tice and Roy Baumeister",
+    "where": "Psychological Science, 1997",
+    "what": "Students followed through a term: procrastination, stress, health and grades"
+   }
+  },
+  {
+   "say": "And at first, the procrastinators seemed to have the better deal. Early in the term, they reported less stress and fewer symptoms than the students who got on with their work. While others were already busy and a little tense, the procrastinators were relaxed. They were enjoying the free evenings. For a few weeks, putting things off really did seem to feel good.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Early in the term",
+    "sub": "The procrastinators felt fine"
+   }
+  },
+  {
+   "say": "But later in the term, the picture flipped. As the deadlines arrived, the procrastinators reported more stress and more symptoms of illness. They handed in their papers later, and on average, their grades were lower. And when the researchers looked at the term as a whole, the procrastinators came out behind overall, with more stress and illness in total, not less. The relief at the start didn't make up for the strain at the end.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Late in the term",
+    "sub": "The bill arrived"
+   }
+  },
+  {
+   "say": "So the pressure idea doesn't fare very well here. The last-minute approach felt better at the beginning, but it seemed to cost more by the end, both in grades and in wellbeing. Of course, this was one group of students in one course, many years ago. But it's a pattern that many people recognize from their own lives. Early ease, late strain.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "Early ease, late strain.",
+    "by": "The shape of a procrastinating term"
+   }
+  },
+  {
+   "say": "Picture a campus in late autumn. In September, the paths are sunny and the deadlines feel far away. By November, the leaves have fallen, the evenings are dark, and the library is full. For the students in that study, the season seems to have mirrored their mood. Easy early on, and much heavier as the weeks went by.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b07_01.jpg",
+    "cap": "Autumn on campus"
+   }
+  },
+  {
+   "say": "So if pressure isn't a magic ingredient, what about deadlines themselves? Can a deadline help us, if it's set in the right way? In 2002, the behavioural economists Dan Ariely and Klaus Wertenbroch published a neat experiment that explored just that. Their volunteers were asked to proofread three short texts and find as many errors as they could.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "n": 2,
+    "title": "Do deadlines help?"
+   }
+  },
+  {
+   "say": "The volunteers were split into three groups. One group had evenly spaced deadlines, one text a week. A second group had a single final deadline, with all three texts due at the end. And a third group could choose their own deadlines, as long as they handed everything in by the end. Then the researchers compared how many errors each group found, and how late they were.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "who": "Dan Ariely and Klaus Wertenbroch",
+    "where": "Psychological Science, 2002",
+    "what": "Proofreading three texts under different kinds of deadlines"
+   }
+  },
+  {
+   "say": "And the results lined up in a very tidy way. The group with evenly spaced deadlines found the most errors and was late the least. The group with one final deadline did worst. And the group who set their own deadlines landed in between. Many of them did choose earlier deadlines for themselves, which helped. But their choices weren't quite as well spaced as the ones set for the first group.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Which group did best?",
+    "items": [
+     "Evenly spaced deadlines: best",
+     "Self-chosen deadlines: in between",
+     "One final deadline: worst"
+    ]
+   }
+  },
+  {
+   "say": "So deadlines can help, especially when they're nearer and spread out, rather than one big cliff at the end. It fits Steel's recipe beautifully. Each small deadline shrinks the delay, and so motivation rises earlier. And interestingly, many people seem to know this about themselves. Given the choice, a lot of the volunteers chose to tie their own hands a little, to protect themselves from tomorrow.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "street_day",
+    "cap": "What this means",
+    "sub": "Nearer, smaller deadlines"
+   }
+  },
+  {
+   "say": "For Ben, that might look like this. A few opening lines by Monday evening. Two funny stories about Clara by Wednesday. A full draft by Thursday, read aloud once. Three small, near deadlines instead of one giant one on Friday night. It doesn't make the speech easier to write. But it turns one frightening cliff into three gentle steps.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "cap": "A plan for Ben",
+    "sub": "Three small deadlines"
+   }
+  }
+ ]
+}

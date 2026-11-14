@@ -1,0 +1,122 @@
+{
+ "id": "lf41_b19",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let your mind travel now to a quiet coast, far from any town. On a rocky point above the sea, there's a tall white lighthouse. Its lamp turns slowly at the top, sending a long, soft beam out across the dark water. Round and round it goes, steady and patient, the way it has every night for many, many years.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "n": 1,
+    "title": "A lighthouse by the sea"
+   }
+  },
+  {
+   "say": "Picture the beam sweeping across the sea. It lights up a stretch of gentle waves, silver for a moment, then moves on, and the water goes dark again. A few seconds later, the beam comes round once more. Light, then dark. Light, then dark. A slow, calm rhythm, keeping watch over the night so that everyone at sea can find their way.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b19_01.jpg",
+    "cap": "A lighthouse at night"
+   }
+  },
+  {
+   "say": "Imagine you're inside the lighthouse, in a small round room near the bottom. The walls are thick and white. A little stove keeps the room warm. There's a narrow bed with a woollen blanket, and a round window looking out over the sea. You can hear the waves far below, rolling softly onto the rocks, and pulling slowly away again.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Inside the lighthouse",
+    "sub": "A small round room"
+   }
+  },
+  {
+   "say": "Here's the comforting part. The lighthouse keeps watch all night long. It doesn't get tired. It doesn't need you to help. Its light turns on its own, round and round, until the morning comes. So tonight, you don't have to keep watch over anything. The lighthouse is doing it for you. You can simply lie down, and rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "The lighthouse keeps watch",
+    "sub": "So you don't have to"
+   }
+  },
+  {
+   "say": "That's a lovely feeling to hold on to. Something else is keeping watch tonight. You don't need to stay alert for every worry or every task. They'll wait until morning. The light will keep turning, the waves will keep rolling, and the night will carry on, steady and safe, while you sleep.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "Something else is keeping watch tonight. You can rest.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "You climb into the narrow bed and pull the woollen blanket up to your chin. It's heavy and warm, and smells faintly of the sea. Through the round window, you can see the beam of light passing over the water, again and again. Each time it passes, the room glows faintly, then goes soft and dark once more.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Into the narrow bed",
+    "sub": "Under the wool blanket"
+   }
+  },
+  {
+   "say": "Let's gather the gentle things around you. A turning light, slow and steady. Rolling waves, soft on the rocks below. A small stove, keeping the room warm. A heavy wool blanket, holding you close. And a round window full of night and sea and stars. Everything here is calm. Everything here is safe.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "In the lighthouse",
+    "items": [
+     "A turning light",
+     "Rolling waves",
+     "A warm stove",
+     "A wool blanket",
+     "A round window"
+    ]
+   }
+  },
+  {
+   "say": "If you like, you can count the beams of light as they pass. One. And a long, slow pause. Two. And another pause. Three. There's no need to keep counting for long. Your mind may lose its place, and that's perfectly fine. It just means you're drifting closer to sleep. Let the numbers fade, and let the light keep turning on its own.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Counting the beams",
+    "sub": "Slower and slower"
+   }
+  },
+  {
+   "say": "Listen to the sea below. The waves roll in, slow and heavy. They spread out over the rocks with a soft rushing sound. Then they draw back, gently, with a long sigh. And then another wave rolls in. In and out. In and out. Just like your breath. Let your breathing follow the waves for a while, slow and easy.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "The sound of the sea",
+    "sub": "In and out"
+   }
+  },
+  {
+   "say": "Light, then dark. In, then out. The whole night seems to move in this gentle rhythm. The beam, the waves, your breath, all keeping their own slow time together. Nothing hurries. Nothing stops. It's the oldest, calmest music in the world, and you're lying right in the middle of it.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "text": "Light, then dark. In, then out.",
+    "by": "The rhythm of the night"
+   }
+  },
+  {
+   "say": "And as you rest, imagine you're drifting softly, like a small boat on a calm tide, rocked gently by the waves. The lighthouse beam passes over you, and you know you're safe, that someone is watching the night for you. So you let yourself drift, further and further, into a deep, peaceful sleep, while the light keeps turning, round and round.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Drifting with the tide",
+    "sub": "Far out to sea"
+   }
+  }
+ ]
+}

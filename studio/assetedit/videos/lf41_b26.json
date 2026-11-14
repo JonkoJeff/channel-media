@@ -1,0 +1,122 @@
+{
+ "id": "lf41_b26",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now imagine a soft path winding through a quiet forest, on a mild night under a full moon. The path is covered in pine needles, springy and silent beneath your feet. Tall trees rise on either side, their trunks silver in the moonlight. And between the branches, the moon shines down, laying soft patches of light across the forest floor.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "n": 1,
+    "title": "A moonlit forest path"
+   }
+  },
+  {
+   "say": "Picture the path ahead of you, curving gently between the trees. A thin mist hangs low over the moss. Here and there, a patch of moonlight lies across the path like a pale rug. There's no need to hurry. The path is soft and safe, and it leads somewhere peaceful, slowly, one gentle bend at a time.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b26_01.jpg",
+    "cap": "A path through the moonlit trees"
+   }
+  },
+  {
+   "say": "The forest is very quiet, but not silent. There's the faint creak of a branch high above. A soft rustle somewhere in the ferns, a small animal settling down to sleep. The whisper of a breeze through the pine needles. Each sound is gentle, and each one fades away, leaving the quiet even deeper than before.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "The forest at night",
+    "sub": "Quiet and alive"
+   }
+  },
+  {
+   "say": "Walking slowly through the forest, there's a simple thought to keep you company. One step, then the next. That is enough. You don't need to see the whole path, or know exactly where it ends. You only need to take the next soft step, and the forest will show you the rest, one moonlit bend at a time.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "One step, then the next. That is enough.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "Breathe in the smell of the forest. Cool and fresh, with the sweet scent of pine and the earthy smell of moss. Let it fill your lungs, slowly. And breathe out, long and easy. The forest air feels clean and calm, as if it could wash away the dust of the whole day. Breathe in again. And out.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "The smell of pine",
+    "sub": "Cool and fresh"
+   }
+  },
+  {
+   "say": "Let's gather the gentle things around you. Soft pine needles, quiet beneath your feet. Silver tree trunks, rising tall on either side. Patches of moonlight, lying across the path. A breeze whispering through the branches. And cool, fresh air, smelling of pine and moss. Everything here is calm, and the forest is resting all around you.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "In the forest",
+    "items": [
+     "Soft pine needles",
+     "Silver trunks",
+     "Moonlit patches",
+     "A whispering breeze",
+     "Cool, fresh air"
+    ]
+   }
+  },
+  {
+   "say": "The path opens into a small, round clearing, bright with moonlight. In the middle, there's a thick, soft bed of moss, as deep and springy as a mattress. You lie down on it, and it holds you perfectly. Above you, the circle of sky is full of stars, framed by the dark tops of the trees, swaying very gently.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "A clearing",
+    "sub": "A soft bed of moss"
+   }
+  },
+  {
+   "say": "The trees stand all around the clearing, tall and patient, like quiet guardians. They've stood here for many, many years, through countless nights like this one. They don't need anything from you. They're simply here, keeping the forest calm and still while you rest. You can close your eyes. They'll keep watch.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The trees keep watch",
+    "sub": "Tall and patient"
+   }
+  },
+  {
+   "say": "So rest here, in the soft moss, under the stars. The forest is keeping watch. The moon is shining down. The breeze is whispering a quiet lullaby through the pines. And you're drifting, slowly and gently, deeper into a calm and peaceful sleep, held by the soft green earth.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "text": "Rest here. The forest is keeping watch.",
+    "by": "Goodnight, forest"
+   }
+  },
+  {
+   "say": "Far away, somewhere in the trees, an owl calls softly. Once. And then again, a little further off. It's a gentle, hollow sound, the sound of the forest at night. Then the quiet returns, deeper than before. The owl is awake so that you don't need to be. It knows the forest well, and the forest knows you're safe.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "A distant owl",
+    "sub": "Calling softly"
+   }
+  },
+  {
+   "say": "Feel the soft moss beneath you, cool and springy, holding your whole body. Feel the cool night air on your face. Above you, the stars glimmer between the swaying treetops. Your breath is slow and deep. Your body is heavy. And with each breath, you sink a little deeper into the moss, and a little deeper into sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Moss and stars",
+    "sub": "Sinking deeper"
+   }
+  }
+ ]
+}

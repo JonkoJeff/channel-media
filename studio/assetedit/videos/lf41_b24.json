@@ -1,0 +1,122 @@
+{
+ "id": "lf41_b24",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now let the train carry you all the way to the sea, to a small harbour town at night. The streets are empty. The houses along the quay are painted in soft colours, now faded to grey and blue in the moonlight. And in the harbour, a few small fishing boats are resting on the calm water, tied to their moorings, gently rising and falling.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 1,
+    "title": "A quiet harbour"
+   }
+  },
+  {
+   "say": "Picture the boats in the harbour. Each one rocks very slightly on the water, its ropes creaking softly now and then. Their masts point up at the stars. A lamp at the end of the pier makes a small golden circle on the stones. The water is calm and dark, and it laps gently against the harbour wall, over and over again.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b24_01.jpg",
+    "cap": "Boats resting in the harbour"
+   }
+  },
+  {
+   "say": "These boats have worked hard all day, out on the open sea. Now their work is done, and they're resting, safe in the harbour, until morning. They don't worry about tomorrow's weather or tomorrow's catch. They simply rest, tied gently to the shore, rising and falling with the slow breathing of the sea.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Boats at rest",
+    "sub": "Their work is done"
+   }
+  },
+  {
+   "say": "Even boats need a harbour. Even the strongest of them can't stay out on the water forever. They come home, and they rest, and in the morning they're ready to go out again. You're a little like that too. Tonight is your harbour. A calm, safe place where you can let the ropes take your weight, and rest.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "Even boats need a harbour.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "Along the harbour wall, a row of gulls is sleeping, their heads tucked under their wings. They stand perfectly still, round and white in the moonlight. Not one of them stirs. The whole harbour has gone quiet. Even the gulls, who are usually so noisy, have settled down for the night. And there's a lovely peace in that.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Gulls asleep",
+    "sub": "On the harbour wall"
+   }
+  },
+  {
+   "say": "Let's gather the gentle things around you. Boats resting on the calm water. Ropes creaking softly now and then. A single lamp glowing at the end of the pier. A row of gulls asleep on the harbour wall. And the water, lapping gently at the stones. Everything here has finished its work for the day, and everything here is resting.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "In the harbour",
+    "items": [
+     "Resting boats",
+     "Creaking ropes",
+     "A pier lamp",
+     "Sleeping gulls",
+     "Lapping water"
+    ]
+   }
+  },
+  {
+   "say": "Imagine a small room above the harbour, at the top of a narrow staircase. A soft bed sits beneath a window that looks out over the boats. You lie down and pull the covers around you. From here, you can hear the water lapping, and the ropes creaking, and the faint, faraway sound of the open sea beyond the harbour wall.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "A room above the harbour",
+    "sub": "A window to the sea"
+   }
+  },
+  {
+   "say": "Listen to the sea beyond the wall. It breathes slowly and deeply. A long rush as a wave rolls in. A soft sigh as it draws away. It has been breathing like this for longer than anyone can remember. Let your own breath follow it for a while. A long breath in. A soft breath out. Slow and deep, like the sea.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "The sea breathes",
+    "sub": "Slow and deep"
+   }
+  },
+  {
+   "say": "And now let yourself drift, like a boat on its mooring. Not far, not anywhere you need to go. Just gently rising and falling, held safe by a rope to the shore. The harbour is calm. The night is long. And the morning, when it comes, will find you rested, ready, and safe at home.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Drifting into sleep",
+    "sub": "Like a boat on its mooring"
+   }
+  },
+  {
+   "say": "Here's a gentle thought from the harbour. Tied safely to the shore, you can let go. The boats don't hold themselves in place. The ropes do that for them. And tonight, something is holding you in place too. The bed beneath you. The walls around you. The quiet night. So you can let go completely, and simply rest.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "text": "Tied safely to the shore, you can let go.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "At the end of the pier, the lamp keeps glowing, a small golden light in the dark. It will glow all night, until the first grey light of morning makes it unnecessary. Let it be the last thing you picture before you drift further away. A small, warm light, keeping the harbour company, while the boats and the gulls and you all sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The pier lamp",
+    "sub": "Glowing on"
+   }
+  }
+ ]
+}

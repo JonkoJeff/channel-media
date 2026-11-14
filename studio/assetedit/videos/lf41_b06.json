@@ -1,0 +1,124 @@
+{
+ "id": "lf41_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Steel called his idea temporal motivation theory. The word temporal simply means to do with time. The theory tries to explain why our motivation for a task goes up and down, and especially why it so often rises just before a deadline. It brings together four ingredients. Two of them push our motivation up. The other two pull it down.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "autumn_overlook",
+    "n": 1,
+    "title": "A recipe for motivation"
+   }
+  },
+  {
+   "say": "Here are the four. Expectancy, which is how confident we feel that we can succeed. Value, which is how rewarding or pleasant the task feels. Impulsiveness, which is how easily we're pulled away by other things. And delay, which is how far away the reward or the deadline is. Confidence and value lift us up. Distraction and distance drag us down.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Four ingredients",
+    "items": [
+     "Expectancy: do I think I can do it?",
+     "Value: how rewarding does it feel?",
+     "Impulsiveness: how easily am I distracted?",
+     "Delay: how far away is the payoff?"
+    ]
+   }
+  },
+  {
+   "say": "In the formula, expectancy and value sit on top, multiplied together. Impulsiveness and delay sit underneath, dividing everything. So when we feel confident and the task feels rewarding, motivation grows. When we're easily distracted and the payoff is far away, motivation shrinks. It's a simple shape, but it captures something very true about how most of us feel on a Sunday evening.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The shape of it",
+    "sub": "Up on top, down below"
+   }
+  },
+  {
+   "say": "Let's try it with Ben. Expectancy? Fairly low right now. He isn't sure he can write a good speech. Value? Mixed. The wedding means everything to him, but the actual writing feels uncomfortable, not rewarding. Impulsiveness? Well, we've seen the spice rack. And delay? Saturday still feels a long way off. Put all of that together, and Ben's motivation tonight is very small.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Ben's recipe",
+    "sub": "Let's fill it in"
+   }
+  },
+  {
+   "say": "But watch what happens as the week goes on. Each day, the delay gets smaller. The wedding gets closer. And because delay sits underneath in the formula, a shrinking delay makes motivation climb, slowly at first, then faster and faster. By Friday evening, the line shoots upward. That's the familiar last-minute rush that so many of us know, explained by one simple ingredient: time running out.",
+   "show": {
+    "type": "curve",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "title": "Motivation as a deadline approaches",
+    "x": "days before the deadline",
+    "y": "motivation",
+    "peak": 0.9,
+    "label": "the last-minute rush"
+   }
+  },
+  {
+   "say": "So when Ben finally writes his speech on Friday night, it won't be because he suddenly became a different person. It'll be because the deadline got close enough to outweigh everything else. The discomfort will still be there. But now the cost of not writing will be right in front of him, vivid and loud, instead of far away and quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Why Friday wins",
+    "sub": "The deadline does the work"
+   }
+  },
+  {
+   "say": "Picture a calendar on a wall with one date circled. On Monday it's just a ring on paper. By Thursday, you notice it every time you walk past. By Friday, it seems to glow. Nothing about the calendar has changed. The circle is exactly the same size. It's only our sense of how close it is that has grown, and with it, our sense of urgency.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b06_01.jpg",
+    "cap": "One circled date"
+   }
+  },
+  {
+   "say": "The nice thing about a recipe is that you can change the ingredients. If confidence is low, you can make the task smaller, so success feels more likely. If the task feels unrewarding, you can pair it with something pleasant. If distractions are strong, you can move them out of reach. And if the payoff is far away, you can create nearer deadlines. We'll come back to each of these later.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "street_day",
+    "cap": "What the recipe suggests",
+    "sub": "Small changes to each part"
+   }
+  },
+  {
+   "say": "Here's a simple way to remember it. Make it smaller, make it nicer, make it nearer. Smaller, so you feel you can do it. Nicer, so it doesn't feel like a punishment. And nearer, so the reward or the deadline doesn't feel like it lives in some distant land. None of this needs willpower of steel. It's more like arranging the furniture so the path is easier to walk.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "text": "Make it smaller, make it nicer, make it nearer.",
+    "by": "A summary of the recipe"
+   }
+  },
+  {
+   "say": "But wait, you might be thinking. If the last-minute rush works so well, maybe it isn't a problem at all. Plenty of people say they actually do their best work at the last minute. The pressure sharpens them. The deadline focuses the mind. They'd never write a word without it. And that brings us to our third myth, perhaps the most beloved one of all.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "n": 2,
+    "title": "A popular claim"
+   }
+  },
+  {
+   "say": "The idea that we work better under pressure. That procrastination is really a clever strategy, a way of saving energy until the moment it's truly needed. It's a very comforting thought, especially on a Sunday evening with a blank page. Ben has said it himself more than once. So let's look at a study that followed students through a whole term, to see how the last-minute approach really works out.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Third myth",
+    "sub": "I work better under pressure"
+   }
+  }
+ ]
+}

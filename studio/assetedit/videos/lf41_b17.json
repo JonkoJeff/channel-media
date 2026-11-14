@@ -1,0 +1,122 @@
+{
+ "id": "lf41_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now let your mind drift to another quiet place. An old library, late at night, long after everyone has gone home. You're the only one here, and you're perfectly welcome. The big doors are closed. The tall windows show a dark blue sky. And along the walls, shelf after shelf of books stand quietly, waiting for nothing at all.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "n": 1,
+    "title": "A library at night"
+   }
+  },
+  {
+   "say": "A single green lamp is glowing on a long wooden table. Its light makes a small, warm circle, and everything beyond it fades into soft shadow. A rolling ladder rests against one of the shelves. An old armchair sits by the window. The whole room smells faintly of paper and polished wood, and it's so quiet you can hear the building breathing.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b17_01.jpg",
+    "cap": "An old library after dark"
+   }
+  },
+  {
+   "say": "You walk slowly between the shelves. The wooden floor creaks gently under your feet, a comfortable, familiar sound. You let your fingers trail along the spines of the books. Some are smooth, some are rough, some are cool leather, worn soft by many hands. There's no book you need to find. You're simply wandering, slowly, with nowhere to be.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Soft footsteps",
+    "sub": "On an old wooden floor"
+   }
+  },
+  {
+   "say": "Think of all the stories resting on these shelves. Adventures and love letters, histories and poems, quiet diaries and old maps. Each one is waiting patiently, with no rush at all. None of them minds how long it takes for someone to open it. Some have waited a hundred years. They'll wait another night quite happily.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "So many stories",
+    "sub": "Waiting patiently"
+   }
+  },
+  {
+   "say": "And maybe that's true of your own story too. It doesn't need to be written all at once. There will be more chapters tomorrow, and the day after, and many days after that. Tonight is simply a quiet page between them. A soft, blank space where nothing needs to happen. You can rest there for as long as you like.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "The best stories are never in a hurry.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "You make your way to the old armchair by the window and sink into it. It's deep and soft and holds you perfectly. You pull a blanket from the arm of the chair and tuck it around your knees. Through the window, the moon is rising over the rooftops, round and pale and calm. The lamp glows quietly on the table behind you.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "The armchair",
+    "sub": "Deep and soft"
+   }
+  },
+  {
+   "say": "Let's gather the gentle things around you. A green lamp, glowing softly. Old floorboards, creaking now and then. Rows of books, resting in the shadows. A deep armchair, holding you safely. And a pale moon in the window, rising slowly over the town. Everything here is calm, and everything here is waiting for nothing.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "In the library",
+    "items": [
+     "A green lamp",
+     "Creaking floorboards",
+     "Old books",
+     "A deep armchair",
+     "A pale moon"
+    ]
+   }
+  },
+  {
+   "say": "After a while, a gentle rain begins to fall. You hear it first, a soft patter on the tall windows. Then you see it, small drops running down the glass, catching the moonlight. The sound fills the quiet room, steady and soothing. Rain on a library window might be one of the most peaceful sounds in the world.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Rain begins",
+    "sub": "On the tall windows"
+   }
+  },
+  {
+   "say": "Your eyes are growing heavy now. It's all right to let them close. The rain will keep falling. The lamp will keep glowing. The books will keep their stories safe on the shelves. Nothing here needs you to stay awake. You can let the rain and the quiet carry you, slowly, a little further toward sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "Eyes growing heavy",
+    "sub": "Let them close"
+   }
+  },
+  {
+   "say": "Let your breath fall into rhythm with the rain. Slow and steady. In, and out. The drops keep their own soft time against the glass, never hurrying, never stopping. And your breath keeps its own soft time too. In this old, quiet room, everything is moving slowly, and everything is calm.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Breathing with the rain",
+    "sub": "Slow and steady"
+   }
+  },
+  {
+   "say": "So rest here a while, in the deep armchair, with the rain on the windows and the stories asleep on their shelves. Tonight is a quiet page. You don't need to write anything on it. You can simply rest on it, the way a bookmark rests between two chapters, waiting peacefully for the morning to turn the page.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "text": "Tonight is a quiet page. Rest on it.",
+    "by": "Sleep well"
+   }
+  }
+ ]
+}

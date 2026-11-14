@@ -1,0 +1,122 @@
+{
+ "id": "lf41_b21",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now let your mind drift to a calm lake on a warm summer night. You're lying in a small wooden rowing boat, near the shore, tied loosely to an old jetty. The boat is lined with soft cushions and a light blanket. Above you, the sky is deep and clear, and the water beneath you is so still that the stars seem to be floating on it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 1,
+    "title": "A boat on a quiet lake"
+   }
+  },
+  {
+   "say": "Picture the little boat resting on the dark water. The old jetty creaks softly beside it. The trees along the shore stand in a dark line, perfectly still. And above it all, the stars are scattered across the sky like grains of light, with their reflections shimmering gently on the surface of the lake.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b21_01.jpg",
+    "cap": "A rowing boat under the stars"
+   }
+  },
+  {
+   "say": "The boat rocks very gently on the water. Back and forth. Back and forth. So slowly you can hardly feel it. It's the softest kind of movement, like being held and swayed by someone who loves you. You let your body relax into it. You don't need to steady yourself. The water will do that for you.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Rocking gently",
+    "sub": "Back and forth"
+   }
+  },
+  {
+   "say": "Listen to the sounds of the lake at night. The soft lap of water against the side of the boat. A faint creak from the old wooden jetty. The rustle of leaves on the shore, stirred by the gentlest breeze. Far away, a single owl calls once, and then the night is quiet again. It's a soft, peaceful kind of quiet, full of small sounds.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "The sounds of the lake",
+    "sub": "Water and night"
+   }
+  },
+  {
+   "say": "Here's a thought to float with. You can be held, without holding on. The water holds the boat. The boat holds you. The cushions hold your head and your arms. You don't need to grip anything, or keep anything in place. Everything is already being held. All you need to do is let go, and rest.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "You can be held, without holding on.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "Look up at the stars. There are so many of them tonight, more than you could ever count. Some are bright and steady. Some are faint and flickering. The light from many of them set out on its journey long, long ago, travelling quietly through the darkness to reach your eyes tonight. They've been very patient. And they don't mind at all if you close your eyes.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "The stars above",
+    "sub": "So many, so far away"
+   }
+  },
+  {
+   "say": "Let's gather the gentle things around you. A small boat, rocking slowly. Water, lapping softly at its sides. An old jetty, creaking now and then. A distant owl, calling once into the night. And a whole sky full of stars, shining down and shining back up from the lake. Everything here is calm and slow and kind.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "On the lake",
+    "items": [
+     "A rocking boat",
+     "Lapping water",
+     "An old jetty",
+     "A distant owl",
+     "A sky full of stars"
+    ]
+   }
+  },
+  {
+   "say": "A warm breeze drifts across the lake, soft and slow, carrying the smell of pine trees and summer grass. It brushes your face gently, and moves on. The water ripples for a moment, and the reflected stars tremble and sway. Then the breeze passes, and the lake grows still and glassy once more.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "A warm breeze",
+    "sub": "Soft on your face"
+   }
+  },
+  {
+   "say": "Let your breath follow the gentle rocking of the boat. As it tips softly one way, breathe in. As it rocks back, breathe out. In, and out. Slow, and gentle. There's no need to get it exactly right. The boat and your breath will find their own rhythm together, all on their own, and carry you a little deeper into calm.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Breathing with the boat",
+    "sub": "Slow and gentle"
+   }
+  },
+  {
+   "say": "So float a while, in your little boat, under the stars. The night will hold you. The water will hold you. Nothing needs you to stay awake. The stars will keep shining. The lake will keep rocking you. And slowly, gently, you'll drift from this quiet lake into an even quieter sleep.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "text": "Float a while. The night will hold you.",
+    "by": "Goodnight, lake"
+   }
+  },
+  {
+   "say": "Your eyelids are heavy now. The boat rocks. The water laps. The stars blur softly into one warm glow. And you drift, further and further, like a boat slipping its rope and floating gently out onto the calm, dark water, with nowhere to go and all the time in the world to get there.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Drifting off",
+    "sub": "Further and further"
+   }
+  }
+ ]
+}

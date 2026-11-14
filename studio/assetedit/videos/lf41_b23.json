@@ -1,0 +1,132 @@
+{
+ "id": "lf41_b23",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now imagine you're on a night train, travelling slowly through the countryside. You have a small compartment all to yourself, with a narrow bed made up with crisp white sheets and a soft wool blanket. A little lamp glows above the pillow. And outside the window, the dark land slides gently past, while the train carries you somewhere peaceful, without any need for you to steer.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 1,
+    "title": "A night train"
+   }
+  },
+  {
+   "say": "Picture the little compartment. The bed is neat and inviting. A folded towel rests at the foot of it. The window has a small blind, half drawn. Through the gap, you can see the night outside, dark fields and the occasional cluster of lights from a sleeping village, sliding past and fading behind you.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b23_01.jpg",
+    "cap": "A small compartment on a night train"
+   }
+  },
+  {
+   "say": "Listen to the sound of the train. A soft, steady rhythm from the wheels on the rails. Da-dum, da-dum. Da-dum, da-dum. It never hurries, and it never stops. It's one of the most soothing sounds there is, regular and gentle, like a heartbeat carrying you through the night. Let it fill your ears, and let your body sway with the carriage.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The rhythm of the rails",
+    "sub": "Soft and steady"
+   }
+  },
+  {
+   "say": "Here's the lovely thing about a night train. You don't need to do anything to get where you're going. You don't need to read a map or watch the road. Someone else is driving, carefully and steadily, all night long. Your only job is to lie down and rest. And by morning, you'll have travelled a long way, without lifting a finger.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Someone else is driving",
+    "sub": "You can rest"
+   }
+  },
+  {
+   "say": "Maybe that's a good thought for tonight. You can arrive without hurrying. Some journeys happen best while we sleep. The rest you take tonight will carry you gently toward tomorrow, and you'll wake up a little further along, without having to push at all. Let the train do the work. Let the night do the work.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "You can arrive without hurrying.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "Now and then, the train slows down and stops at a small station. Through the blind, you glimpse a dim platform, a single lamp, a bench, a sign you can't quite read. Nobody gets on or off. After a moment, the train sighs and begins to move again, slowly at first, then settling back into its gentle rhythm, on into the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Stations in the night",
+    "sub": "Quiet and dim"
+   }
+  },
+  {
+   "say": "Let's gather the gentle things around you. Crisp white sheets, cool and clean. A soft wool blanket, warm on top. The steady rhythm of the rails beneath you. Sleeping villages, slipping past in the dark. And quiet little stations, glowing for a moment and then gone. Everything here is moving slowly, and everything here is safe.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "On the night train",
+    "items": [
+     "Crisp sheets",
+     "A wool blanket",
+     "The rhythm of the rails",
+     "Sleeping villages",
+     "Quiet stations"
+    ]
+   }
+  },
+  {
+   "say": "You reach up and switch off the little lamp. Now the compartment is dark, except for a faint glow at the edge of the blind. The train rocks you gently from side to side. The rhythm of the wheels goes on and on. And you feel yourself sinking into the narrow bed, heavier and heavier, as the countryside rolls by outside.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Switching off the lamp",
+    "sub": "Darkness and motion"
+   }
+  },
+  {
+   "say": "Let your breath settle into the rhythm of the train. In, with one long sway of the carriage. Out, with the next. In. And out. Slow and easy. You don't need to count anything tonight. The wheels are counting for you. Let your breath and the train move together, gently, mile after mile, through the soft, dark night.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Breathing with the train",
+    "sub": "In, and out"
+   }
+  },
+  {
+   "say": "So let the night carry you. Let the train rock you. Let the rhythm of the rails lull you deeper and deeper into rest. You're travelling somewhere peaceful, and you'll get there in your own good time. There's nothing to watch for and nothing to remember. Just the soft sway, the gentle sound, and the long, quiet night.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "text": "Let the night carry you.",
+    "by": "Goodnight, train"
+   }
+  },
+  {
+   "say": "The train leans softly into a long, slow bend, and you feel the bed tilt just a little beneath you, and then settle again. Somewhere ahead, the engine hums quietly. The rails go on and on through the dark, across fields and over little rivers, past sleeping farms and quiet woods. And you lie still, carried along, feeling lighter with every mile.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A gentle bend",
+    "sub": "The train leans softly"
+   }
+  },
+  {
+   "say": "Let yourself be carried further and further into the night. The day you left behind is far away now, many miles back down the line. Whatever happened in it, whatever was left undone, is growing smaller and smaller in the distance. Ahead, there's only the soft dark, the steady rhythm, and a long, peaceful sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Further and further",
+    "sub": "Into the night"
+   }
+  }
+ ]
+}

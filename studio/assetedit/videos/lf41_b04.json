@@ -1,0 +1,118 @@
+{
+ "id": "lf41_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "When Ben finally closes the laptop for the evening, he tells himself something very reassuring. I'll do it tomorrow, after work. Tomorrow Ben will be rested. Tomorrow Ben will have ideas. Tomorrow Ben will sit down with a fresh cup of coffee and write something wonderful. It's a lovely picture. But it raises an interesting question. Who exactly is this tomorrow Ben, and why does he always seem so capable?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "n": 1,
+    "title": "Your future self"
+   }
+  },
+  {
+   "say": "Psychologists have noticed that we often think about our future selves in a surprisingly distant way. Almost as if they were someone else. A kind, energetic stranger who will happily take on the jobs we'd rather not do today. And if the future self is a bit of a stranger, then handing them the hard work feels a lot easier. It's not our problem. It's theirs.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A kind stranger",
+    "sub": "Who will do it for us"
+   }
+  },
+  {
+   "say": "A clever set of studies explored this, published in 2008 by Emily Pronin and her colleagues at Princeton. In one of them, students were asked how much of an unpleasant drink they'd be willing to swallow for the sake of science. A mixture of ketchup and soy sauce, which doesn't sound very appetizing. Some students were deciding for themselves right now. Others were deciding for their future selves, or for another student.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "who": "Emily Pronin and colleagues",
+    "where": "Princeton, published 2008",
+    "what": "How much of an unpleasant drink would you sign up for, now or later?"
+   }
+  },
+  {
+   "say": "And the result was striking. People signed their future selves up for more of the unpleasant drink than they were willing to drink themselves right away. In fact, the way they treated their future selves looked a lot like the way they treated another person. The present self got gentle treatment. The future self, like a stranger, got the bigger glass.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "cap": "The future self drinks more",
+    "sub": "Just like a stranger"
+   }
+  },
+  {
+   "say": "The same team found a similar pattern with time and effort. People were more willing to promise their future selves to volunteer for a helpful task than to give that time now. It's as if the future self has endless energy and an empty calendar. And of course, when the future finally arrives, we discover that the future self is just us again, with the same tiredness and the same full week.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "street_day",
+    "cap": "Not just drinks",
+    "sub": "Time and effort too"
+   }
+  },
+  {
+   "say": "Picture a long road stretching away toward the hills at sunrise. Somewhere far down that road is tomorrow, and the person waiting there looks rested and ready. From here, they seem a long way off. That distance is part of the trick. The closer something is, the more vivid it feels. The further away it is, the softer and easier it looks.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b04_01.jpg",
+    "cap": "The road to tomorrow"
+   }
+  },
+  {
+   "say": "Some researchers have even looked for this distance inside the brain. In a study published in 2009, Hal Ersner-Hershfield and his colleagues at Stanford used brain scans while people thought about themselves now, themselves in ten years, and other people. They focused on a region near the front of the brain that tends to be more active when we think about ourselves.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "n": 2,
+    "title": "Your brain and your future self"
+   }
+  },
+  {
+   "say": "What they saw was intriguing. When people thought about their future selves, the activity in that region tended to look less like thinking about themselves, and a little more like thinking about someone else. And the people whose brains made the biggest difference between now and the future also tended to favour the present more strongly in other tasks. It's one study, and brain scans are tricky to interpret, but the pattern fits the feeling.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "who": "Hal Ersner-Hershfield and colleagues",
+    "where": "Stanford, published 2009",
+    "what": "Brain activity while thinking about the present self, the future self and other people"
+   }
+  },
+  {
+   "say": "So here's something worth remembering on nights like Ben's. Tomorrow's self is still you. Same body, same heart, same need for rest. When we picture them clearly, as a real person we care about, it becomes a little harder to hand them all the hard jobs. Some researchers think that simply imagining your future self more vividly may help you treat them more kindly.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "Tomorrow's self is still you.",
+    "by": "A gentle reminder"
+   }
+  },
+  {
+   "say": "Imagine Ben doing that. Instead of a vague, cheerful tomorrow Ben, he pictures himself on Friday night, at eleven o'clock, tired after a long week, with a speech still unwritten and a wedding the next morning. That Ben doesn't look energetic at all. He looks worried. And suddenly, giving him a little help tonight feels less like a chore and more like a kindness.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Ben, on Friday night",
+    "sub": "Picture him clearly"
+   }
+  },
+  {
+   "say": "But there's another popular explanation for procrastination that we haven't looked at yet. You've probably heard it many times. Maybe you've even said it about yourself. The idea that people who put things off are really perfectionists in disguise, so worried about doing things perfectly that they can't begin at all. Let's see what the research says about that.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "Second myth on the way",
+    "sub": "A familiar explanation"
+   }
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "id": "lf41_b15",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's take a slow journey through the body now, from the top of your head all the way down to your toes. There's no right way to do this. You don't need to feel anything special. You're simply visiting each part of yourself, one at a time, and letting it rest. Like walking through a quiet house at night, turning off the lights one room at a time.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "A slow journey through the body"
+   }
+  },
+  {
+   "say": "Begin at the very top of your head. Imagine a gentle warmth resting there, like a soft hand. Let that warmth spread slowly across your scalp, and down over your forehead. Your forehead smooths out. The little lines of the day fade away. Your eyebrows relax. And the small muscles around your eyes let go, one by one.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The top of your head",
+    "sub": "Soft and warm"
+   }
+  },
+  {
+   "say": "Let the warmth move down over your cheeks. Let your jaw loosen, so your teeth are slightly apart. Let your tongue rest softly in your mouth. Your lips are relaxed. Your whole face is calm, like the surface of a still pond at evening, with not a single ripple on it. There's nothing for your face to do tonight. It can simply rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Your face",
+    "sub": "Cheeks, jaw and tongue"
+   }
+  },
+  {
+   "say": "Picture that pond for a moment. Still water, reflecting the soft colours of the evening sky. A few lily pads resting on the surface. Reeds standing quietly at the edge. Not a breath of wind. Everything is calm, and everything is reflected perfectly, because nothing is moving at all. Let your mind be a little like that water, quiet and clear.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b15_01.jpg",
+    "cap": "A still pond at evening"
+   }
+  },
+  {
+   "say": "Now the warmth flows down into your neck. Let the muscles there grow soft and long. And then into your shoulders. Let them drop, a little further than you thought they could. Imagine you've been carrying a heavy bag all day, and someone has gently lifted it off. Your shoulders sink down, relieved and loose and warm.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Neck and shoulders",
+    "sub": "Letting the weight go"
+   }
+  },
+  {
+   "say": "Let the softness travel down your arms. Your upper arms, heavy and relaxed. Your elbows, resting. Your forearms, warm and still. Your hands, lying open, with nothing to hold. And your fingertips, perhaps with a faint, pleasant tingle. There's no task for your hands tonight. No keys to press, no pages to turn. Let them rest completely.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Letting go, one part at a time",
+    "items": [
+     "Upper arms",
+     "Elbows",
+     "Forearms",
+     "Hands",
+     "Fingertips"
+    ]
+   }
+  },
+  {
+   "say": "Now notice your chest, rising and falling with each breath. Slowly. Gently. Like a soft wave. Let your heartbeat be steady and calm, ticking along quietly like an old clock in a peaceful house. You don't need to change it. Just notice it, keeping you safe all through the night, the way it has every night of your life.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Your chest",
+    "sub": "Rising and falling"
+   }
+  },
+  {
+   "say": "Let the warmth flow down into your belly. Let it be soft, rising a little with each breath in, falling with each breath out. If you've been holding any tension there, any small knot of worry, imagine it slowly loosening, like a ribbon coming untied. There's nothing to worry about now. Everything that needs doing can wait for the morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Your middle",
+    "sub": "Soft and easy"
+   }
+  },
+  {
+   "say": "Here's a gentle thought to carry with you. Every part of you is allowed to rest. The busy parts and the tired parts. The parts that worry and the parts that hope. Tonight, none of them need to work. They can all lay down their jobs, just for a while, and let the night look after them.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "text": "Every part of you is allowed to rest.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "And now the warmth moves down into your hips, and your legs. Your thighs, heavy and relaxed. Your knees, soft. Your calves, sinking into the bed. And finally your feet, warm and still, all the way to the tips of your toes. Your whole body is resting now, from the top of your head to the soles of your feet.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Legs and feet",
+    "sub": "Heavy and still"
+   }
+  },
+  {
+   "say": "Now that your body is resting, let's take a slow little walk in your imagination. Your body can stay right where it is, warm and heavy under the blanket. Only your mind will wander, gently, to a quiet place by the water, at the very end of a long, soft evening. There's no hurry. We'll go there slowly.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Ready for a short walk",
+    "sub": "In your imagination"
+   }
+  }
+ ]
+}

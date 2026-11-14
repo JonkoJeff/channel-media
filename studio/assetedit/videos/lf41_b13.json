@@ -1,0 +1,124 @@
+{
+ "id": "lf41_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Remember the recipe? Make it smaller, make it nicer, make it nearer. We've talked about smaller, with tiny first steps. We've talked about nearer, with spaced deadlines and if-then plans. So what about nicer? Is there a way to make an unpleasant task feel a little more rewarding, without changing the task itself? One clever study suggests there might be.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "n": 1,
+    "title": "Making it nicer"
+   }
+  },
+  {
+   "say": "In 2014, Katherine Milkman and her colleagues at the University of Pennsylvania published a study about going to the gym. Some volunteers were given gripping audiobooks they could only listen to while they exercised. The books were kept at the gym, so if they wanted to know what happened next, they had to go and work out. The researchers called this temptation bundling.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "who": "Katherine Milkman, Julia Minson and Kevin Volpp",
+    "where": "Management Science, 2014",
+    "what": "Gripping audiobooks that could only be heard at the gym"
+   }
+  },
+  {
+   "say": "And it worked, at least for a while. The people whose audiobooks were locked up at the gym visited more often in the early weeks than people in a comparison group. The effect faded over time, especially after a holiday break. But the idea is a lovely one. Pair something you keep putting off with something you look forward to, and the task borrows a little of the pleasure.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "What happened",
+    "sub": "More visits, at first"
+   }
+  },
+  {
+   "say": "For Ben, it might be as simple as this. He only drinks his favourite hot chocolate while he's working on the speech. Or he writes it at a cosy cafe he loves, with music he enjoys. The speech is still a speech. But now, sitting down to it comes with a small treat attached, and the uncomfortable start feels a little less lonely.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b13_01.jpg",
+    "cap": "Something to look forward to"
+   }
+  },
+  {
+   "say": "There's one more ingredient worth mentioning. Remember Pychyl's list? Unclear tasks and tasks without structure were on it. So simply making a task clearer can help. What exactly does a good wedding speech need? Ben could look up a simple outline. A warm opening, two short stories, a few kind words, a toast. Suddenly the white page has a shape, and shapes are much easier to fill.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "cap": "Making it clearer",
+    "sub": "Unclear tasks are easy to avoid"
+   }
+  },
+  {
+   "say": "And because the pull toward now is so strong, it can help to move the nearest temptations a little further away. Ben could leave his phone in another room for twenty minutes. He could close every other window on his screen. It sounds small, but it changes the recipe. When the easy distraction takes a few more steps to reach, the speech has a better chance.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Moving the pull away",
+    "sub": "Out of sight, out of reach"
+   }
+  },
+  {
+   "say": "So let's gather everything together. It's been a long and gentle investigation, and we've met a lot of ideas along the way. Before we let the evening grow quiet, here's a short summary of what research suggests about putting things off, and about the small things that might help.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "n": 2,
+    "title": "What we found tonight"
+   }
+  },
+  {
+   "say": "Procrastination is often about feelings, not time. Our future self is still us, not a tireless stranger. Perfectionism is a weaker link than people think, while a pull toward now is a stronger one. Pressure tends to bring early ease and late strain. Kindness toward ourselves seems to work better than blame. And when in doubt, make it smaller, nicer, and nearer.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Putting things off, in short",
+    "items": [
+     "Often about feelings, not time",
+     "Future self is still you",
+     "Perfectionism: a weaker link",
+     "Pressure: early ease, late strain",
+     "Kindness beats blame",
+     "Smaller, nicer, nearer"
+    ]
+   }
+  },
+  {
+   "say": "And Ben? On Monday at seven, he sits down at the kitchen table with a mug of hot chocolate. He writes three memories. Clara in her cape. Clara teaching him to ride a bike, even though she was younger. Clara laughing so hard at a family dinner that she had to leave the room. He reads them back, and smiles. The speech has begun.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Ben's Monday",
+    "sub": "Three memories"
+   }
+  },
+  {
+   "say": "And maybe that's the most helpful thought of all. Begin small, and be kind to the one who begins. You don't need to become a different person. You don't need iron willpower. You just need one small, gentle step, taken by someone who isn't being shouted at. The rest often follows, one quiet step at a time.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "Begin small, and be kind to the one who begins.",
+    "by": "Tonight's thought"
+   }
+  },
+  {
+   "say": "And now, it's time to let all of it go. The studies, the formulas, the deadlines, the spice rack. There's nothing left that needs doing tonight. Whatever you've been putting off can wait until tomorrow, and this time, that's exactly right. Because the one thing that truly belongs to tonight is rest. So let's get comfortable, and let the evening grow quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Time to rest",
+    "sub": "Let tomorrow wait"
+   }
+  }
+ ]
+}

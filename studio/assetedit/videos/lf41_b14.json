@@ -1,0 +1,121 @@
+{
+ "id": "lf41_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The kitchen is quiet now. Ben has switched off the light above the table, and the laptop is closed. The three memories are saved, waiting patiently for tomorrow. Outside, the street has gone still. A car passes somewhere far away, and then there's only the soft hum of the night. And for you, too, the day is slowly coming to an end.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "n": 1,
+    "title": "The evening grows quiet"
+   }
+  },
+  {
+   "say": "Imagine you're lying in a soft bed, under a warm, heavy blanket. The room is dim, with just a little light at the edge of the curtains. The pillow is cool for a moment, then slowly warms beneath your head. Your arms rest by your sides. Your legs grow heavier. There's nowhere you need to be, and nothing you need to finish.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A soft bed",
+    "sub": "A heavy blanket"
+   }
+  },
+  {
+   "say": "Tonight, there's no list to check and no task to begin. Every letter, every phone call, every unfinished job can wait outside the door until morning. They'll still be there tomorrow, and tomorrow you'll be rested enough to meet them. For now, the only thing that matters is this moment, and this slow, comfortable rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Nothing left to do",
+    "sub": "Everything can wait"
+   }
+  },
+  {
+   "say": "Let's settle in together. A heavy head, sinking into the pillow. A soft face, with the forehead smooth and the jaw loose. Loose shoulders, dropping down away from the ears. And a slow breath, coming and going all by itself. You don't need to do anything to breathe. Your body knows how. Just let it happen, and listen.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Settling in",
+    "items": [
+     "Heavy head",
+     "Soft face",
+     "Loose shoulders",
+     "Slow breath"
+    ]
+   }
+  },
+  {
+   "say": "Picture a quiet kitchen at night. A closed laptop rests on the table. A small candle glows softly beside it, its flame barely moving. Moonlight falls through the window and lies across the floor in a pale silver square. Nothing in this room is waiting for you. It's all perfectly still, and perfectly fine, exactly as it is.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b14_01.jpg",
+    "cap": "A quiet kitchen at night"
+   }
+  },
+  {
+   "say": "Let's breathe together for a little while. In through the nose, slowly, for four. One. Two. Three. Four. And out, softly, for six. One. Two. Three. Four. Five. Six. Again. In for four. And out for six. Each breath out is a little longer than the breath in, and with each one, your body softens a little more.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "Breathing slowly",
+    "sub": "In for four, out for six"
+   }
+  },
+  {
+   "say": "Now let the counting go. Let your breath find its own slow rhythm. In, and out. In, and out. Like a quiet tide on a calm shore. You don't need to make it deeper or slower. Just notice it, without changing anything. Each breath is a small wave, arriving and leaving, arriving and leaving, all through the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "Let the breath find its way",
+    "sub": "No more counting"
+   }
+  },
+  {
+   "say": "Here's a quiet thought to hold as you settle. Rest is not something you have to earn. You don't need to finish everything first, or be a certain kind of person, or have a perfect day. Rest is simply something your body and mind need, every single night. And tonight, you're allowed to have it, just as you are.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "Rest is not something you have to earn.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "Imagine a fireplace in a quiet room, the fire burned down to a soft glow. The embers pulse gently, orange and red, like a slow heartbeat. Now and then, one settles with a tiny sound. The warmth spreads out across the room and reaches you, resting nearby. It's the kind of warmth that makes your eyes feel heavy, and your thoughts feel slow.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The fire is low",
+    "sub": "Warm and still"
+   }
+  },
+  {
+   "say": "If any thoughts come along, about tomorrow or about things left undone, that's all right. Notice them, the way you might notice a cloud drifting across the sky. You don't need to follow them. You don't need to push them away. Just let them float past, and return to the gentle feeling of your breath and the soft weight of the blanket.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Thoughts drifting by",
+    "sub": "Let them pass"
+   }
+  },
+  {
+   "say": "And now, let yourself sink a little deeper. Into the mattress. Into the pillow. Into the quiet of the night. Your body feels heavy and safe. Your breath is slow and easy. And somewhere outside, the night carries on without needing anything from you at all. You can simply rest, and let it hold you.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Sinking a little deeper",
+    "sub": "Heavier and heavier"
+   }
+  }
+ ]
+}

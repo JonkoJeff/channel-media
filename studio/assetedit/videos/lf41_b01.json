@@ -1,0 +1,127 @@
+{
+ "id": "lf41_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "It's a quiet Sunday evening, and someone called Ben is sitting at his kitchen table with his laptop open. Ben isn't a real person. He's someone we've imagined for tonight, so we can follow one very familiar feeling from the inside. On his screen there's a document with a single word at the top. Speech. And underneath that word, there's nothing at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "A quiet Sunday evening",
+    "sub": "Ben and a blank page"
+   }
+  },
+  {
+   "say": "Ben's younger sister, Clara, is getting married next Saturday, and she has asked him to give a short speech. He was honoured when she asked. He said yes straight away, with a big smile. That was two months ago. And somehow, in all those weeks, the speech has stayed exactly where it is now. One word on a white page, and a little blinking cursor, waiting patiently.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Six days to go",
+    "sub": "A wedding on Saturday"
+   }
+  },
+  {
+   "say": "So what is Ben doing right now, instead of writing? He's reorganizing the spice rack. Alphabetically. He has checked the dates on the cinnamon, and the paprika, and a jar of cloves he doesn't remember buying. Before that, he watered the plants, answered three messages, and looked up the history of the word confetti. Every one of those things felt oddly urgent, the moment the speech came to mind.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "The spice rack",
+    "sub": "Suddenly very important"
+   }
+  },
+  {
+   "say": "Picture the table for a moment. A laptop glowing softly. A cup of tea going cold beside it. And a row of little spice jars, now perfectly in order, from allspice to turmeric. It's a very tidy scene. Everything here has been taken care of, except the one thing Ben actually sat down to do. And if any part of that feels familiar, you're in very good company.",
+   "show": {
+    "type": "photo",
+    "file": "lf41_b01_01.jpg",
+    "cap": "A blank page, and a very tidy spice rack"
+   }
+  },
+  {
+   "say": "Because almost everyone knows this moment. The letter we mean to write. The cupboard we mean to clear. The phone call we keep moving to tomorrow. Tomorrow is a wonderful place. In tomorrow, we're calm and focused and full of energy. The only trouble is that when tomorrow arrives, it has a funny habit of turning into today, and the feeling is still there.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "I'll start tomorrow.",
+    "by": "Almost everyone, at some point"
+   }
+  },
+  {
+   "say": "Here's what we'll explore together tonight. What procrastination really is. Whether it's simply laziness. Why it may be about feelings, not time. The strange way we think about our future selves. Perfectionism. A simple formula for motivation. Whether we really work better under pressure. What happens to our sleep. Kindness versus blame. And finally, some small things that seem to help.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "What procrastination is",
+     "Is it laziness?",
+     "Feelings, not time",
+     "Your future self",
+     "Perfectionism",
+     "A formula for motivation",
+     "Working under pressure",
+     "Sleep and late nights",
+     "Kindness versus blame",
+     "What really helps"
+    ]
+   }
+  },
+  {
+   "say": "Before we begin, one small promise. Tonight is not a lecture about trying harder. Nobody here is going to wag a finger at you. Procrastination is one of the most human things there is, and scientists have spent decades trying to understand it with real curiosity. So we'll do the same. We'll look at it gently, the way you might look at a puzzle on a slow evening.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "No blame tonight",
+    "sub": "Just curiosity"
+   }
+  },
+  {
+   "say": "And about halfway through, we'll set the studies aside and turn this into a long, slow wind-down, so you can drift off whenever you're ready. There's nothing you need to remember tonight. If you fall asleep in the middle of an experiment, that's perfectly fine. And if you've been putting off going to sleep, well, this might be a good place to stop putting it off.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "Then a slow wind-down",
+    "sub": "Drift off whenever you like"
+   }
+  },
+  {
+   "say": "So let's start with the word itself. Procrastination comes from Latin. The first part, pro, means forward. The second part comes from crastinus, which means belonging to tomorrow. So to procrastinate is, quite literally, to move something forward into tomorrow. It's a lovely old word for a very old habit, and the habit is much older than the word.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "n": 1,
+    "title": "A word about tomorrow"
+   }
+  },
+  {
+   "say": "Thousands of years ago, Greek philosophers were already puzzling over something close to it. They had a word, akrasia, for acting against your own better judgment. Knowing what would be best, and quietly doing something else. Socrates and Aristotle both wrestled with how that could even happen. If we know something is good for us, why don't we just do it? It's a question we're still asking tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "An ancient puzzle",
+    "sub": "Knowing better, doing otherwise"
+   }
+  },
+  {
+   "say": "Back in his kitchen, Ben closes the spice cupboard and sits down again. The cursor is still blinking. He types a sentence, reads it, and deletes it. Then he checks the weather for Saturday, which is the third time he has checked it today. And somewhere in the back of his mind, a small, uncomfortable voice says, you know, you really should be writing this.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "Back to Ben",
+    "sub": "The cursor is still blinking"
+   }
+  }
+ ]
+}

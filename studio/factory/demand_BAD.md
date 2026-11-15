@@ -50,3 +50,5 @@ Done 12 Nov: lf39 Why Music Gives You Chills (F01 deep dive with imagined Theo, 
 Done 13 Nov: lf40 Why Time Speeds Up as You Get Older (F10 myth vs science with imagined Hanna, 13 story blocks + 8 wind-down, 21 blocks, ~19.3k spoken words, est ~126 min by lf38 ratio, Shorts sh40_02,03,05-12; Claude failover writer). Next: lf41 Why We Put Things Off (procrastination, teased at the end of lf40). Keep >= 2 reserve long videos.
 
 Done 14 Nov: lf41 The Psychology of Putting Things Off (F02 sleep marathon with imagined Ben, 13 story blocks + 16 wind-down, 29 blocks, ~19.5k spoken words, est ~128 min by lf30-lf37 ratio, Shorts sh41_03-13; Claude failover writer). Next: lf42 Why Habits Are So Hard to Break (teased at the end of lf41). Keep >= 2 reserve long videos.
+
+Done 15 Nov: lf42 Why Habits Are So Hard to Break (F01 deep dive with imagined Ines after a move, 14 story blocks + 6 wind-down, 20 blocks, ~28.1k spoken words, Shorts sh42_04-11,13,14; Claude failover writer). Next: lf43 What Loneliness Does to Your Brain (teased at the end of lf42). Keep >= 2 reserve long videos.

@@ -1,0 +1,198 @@
+{
+ "id": "lf42_b15",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's settle in properly now. Let your shoulders drop a little, away from your ears. Let your jaw loosen, and let your tongue rest softly in your mouth. There's nothing left to figure out tonight, and nothing left to practice. The habits will still be there tomorrow, and so will you. For now, we're simply going to slow everything down, one gentle breath at a time.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "n": 1,
+    "title": "Settling in"
+   }
+  },
+  {
+   "say": "Begin with a slow breath in through your nose. Not a big one, just an easy, natural breath, the kind your body already knows how to take. Feel the air cool as it enters, and feel your belly rise a little, like a tide coming in. Then let it go. Slowly, without any push. Let the breath leave on its own, as if it were in no hurry at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A slow breath in",
+    "sub": "Nose, soft and easy"
+   }
+  },
+  {
+   "say": "Now let each breath out be a little longer than the breath in. In for a gentle count of four, and out for a gentle count of six, or however long feels comfortable. If counting feels like work, drop it. Just let the out-breath stretch. Every time you breathe out, imagine you're setting something small down on a table. A worry, a plan, a half-finished thought. Set it down, and leave it there.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "A longer breath out",
+    "sub": "Longer than the breath in"
+   }
+  },
+  {
+   "say": "Let's soften the body, one place at a time. Your forehead, smooth and wide. Your eyes, heavy behind their lids. Your jaw, loose and unclenched. Your shoulders, sinking into the bed. And your hands, open, with the fingers curling slightly, like leaves resting on still water. You don't need to force any of it. Just notice each place, and let it melt a little.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "title": "Softening",
+    "items": [
+     "Forehead",
+     "Eyes",
+     "Jaw",
+     "Shoulders",
+     "Hands"
+    ]
+   }
+  },
+  {
+   "say": "Let that softness travel down through your chest, where the breath moves like a slow wave. Let it spread through your belly, which rises and falls all by itself. Let it flow down into your hips, your legs, your knees, all the way to your feet. Your whole body is growing warm and heavy now, held up completely by the mattress beneath you. You don't have to hold yourself up at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "Down through the chest",
+    "sub": "Warm and heavy"
+   }
+  },
+  {
+   "say": "Nothing to do. Nowhere to be. Tonight there's no list to finish and no morning to rehearse. Even the habits you've been thinking about can rest. They run quietly in the background of every life, doing their small, ordinary work, and they don't need your attention now. Let your mind be as loose as your hands. If a thought drifts by, let it pass like a cloud, and return to your breath.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "text": "Nothing to do. Nowhere to be.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "Notice how much heavier your arms feel now than a few minutes ago. And your legs, too, long and loose, as if they were made of warm sand. Your body is learning how to let go, and it doesn't need instructions. All it needs is a little time, and a little kindness. Let the mattress take your weight, completely. You've carried enough for one day, and now you're allowed to put it all down.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "A heavy, easy body",
+    "sub": "Sinking"
+   }
+  },
+  {
+   "say": "Somewhere, in a city that's still new to her, Ines is awake in her flat, listening to the rain. It started around dusk, the very first proper rain of the autumn. She's sitting by the window with a mug of tea gone lukewarm, her phone left on the kitchen counter, forgotten for once. She isn't thinking about walks or switches or biscuit tins. She's just listening, and tonight, you can listen with her.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Ines, listening",
+    "sub": "A rainy window"
+   }
+  },
+  {
+   "say": "Down below her window, the street is shining. The rain has turned the pavement into a dark mirror, and every streetlamp has a long, golden reflection stretching toward you. Fallen leaves, yellow and russet, lie flat and glossy against the stones. The tall buildings stand close together, their windows glowing softly, like a row of lanterns lined up for the night. It's a street that is only just becoming familiar.",
+   "show": {
+    "type": "photo",
+    "file": "lf42_b15_01.jpg",
+    "cap": "Ines' new street, in the rain"
+   }
+  },
+  {
+   "say": "The rain falls on the rooftops and the chimney pots. It falls on the parked bicycles and the shuttered shop on the corner. It falls on the leaves, and the leaves take it quietly. Every drop lands in its own small place, and the whole street drinks it in. There's a patient rhythm to it, steady and unhurried, as if the sky had all the time in the world, and wanted to share it with you.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "cap": "The rain, gentle and steady",
+    "sub": "Falling on everything"
+   }
+  },
+  {
+   "say": "Across the road, there's a single lit window on the second floor. A lamp with a warm, yellow shade, and the shape of a bookshelf behind it. Someone else is staying up, quietly, in their own small room. You'll never meet them, and you don't need to. It's simply comforting to know that the street is full of people tucked into their evenings, each one safe and sheltered from the rain.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "A light in a window",
+    "sub": "Across the street"
+   }
+  },
+  {
+   "say": "Let's gather the little things that make up this street. Wet cobblestones, shining softly. Golden lamplight, pooling on the ground. Fallen leaves, flat and glossy. A single lit window, across the way. And steady rain, falling on everything alike. Take a slow breath and see them all together, like a painting that's still wet. Nothing in it needs fixing. It's already lovely, just as it is.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "title": "On the street tonight",
+    "items": [
+     "Wet cobblestones",
+     "Golden lamplight",
+     "Fallen leaves",
+     "A lit window",
+     "Steady rain"
+    ]
+   }
+  },
+  {
+   "say": "Look closer at the pavement for a moment. In every little puddle, there's a tiny, upside-down street. A lamp, a window, a patch of dark sky. When a raindrop lands, the whole picture ripples outward in slow, wide rings, and then it settles again, perfectly calm. Your mind works that way too. It ripples, and then it settles. You don't have to smooth it. Just wait, and let the water grow still by itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cafe_sunset",
+    "cap": "Puddles and lamplight",
+    "sub": "Small mirrors"
+   }
+  },
+  {
+   "say": "There's something kind about a street in its first weeks. At the beginning, everything is a little strange. You don't know which shop opens early, or which corner is windy. But slowly, without any effort, the street becomes known. The route to the bakery gets shorter. The neighbors' cat starts to recognize you. One evening, you realize you've stopped looking at the street signs. That's how a new place becomes home, quietly.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A new place becoming home",
+    "sub": "Day by day"
+   }
+  },
+  {
+   "say": "Home arrives a little at a time. Nobody decides it in a single moment. It builds up from small, ordinary evenings like this one, with rain on the glass and a warm drink in your hands. You can't hurry it, and you don't have to. Just let the evening be what it is. Let the rain do the work of washing the day away, and let yourself rest inside it.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "text": "Home arrives a little at a time.",
+    "by": "Goodnight, street"
+   }
+  },
+  {
+   "say": "Breathe in, slowly, as the rain falls. Breathe out, as the rain keeps falling. There's no need to match it exactly. Just let your breath keep a gentle pace beside it, the way two people might walk side by side without talking. In. And out. With every breath, the room feels a little warmer, and your body a little heavier, and the street outside a little farther away.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Breathing with the rain",
+    "sub": "In, and out"
+   }
+  },
+  {
+   "say": "Now imagine leaving the window, and walking slowly back to a bed with soft, clean sheets. You pull the covers up to your chin. The pillow shapes itself around your head. The rain is still falling outside, steady and kind, and you can hear it a little more faintly with each breath. It sounds like a very long, very patient lullaby, and you don't have to do anything but let it play.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Drifting from the window",
+    "sub": "Warm under the covers"
+   }
+  },
+  {
+   "say": "Wherever you are, you're sheltered tonight. There's a roof above you, and walls around you, and the rain stays politely outside. Let your eyes stay closed. Let your thoughts grow slow and spacious, with long gaps between them. If you'd like to drift off right now, please do. The street will keep shining in the rain, and the lamplight will keep glowing, all night, without you.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Rest, on a rainy night",
+    "sub": "Held and sheltered"
+   }
+  }
+ ]
+}

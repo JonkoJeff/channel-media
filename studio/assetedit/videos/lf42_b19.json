@@ -1,0 +1,197 @@
+{
+ "id": "lf42_b19",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now let the mountain sky slowly melt into something softer. Imagine a wide, slow river at the very end of a still night, just before the world begins to wake. A pale mist hovers over the water, thin and silvery, and the far bank is only a faint, gray outline. On this side, in a hollow of willow trees, there's a small wooden boathouse, waiting quietly at the water's edge.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 1,
+    "title": "By the river"
+   }
+  },
+  {
+   "say": "You walk along a narrow path beside the river, where the grass is wet with dew and the ground is soft underfoot. Each step is slow and light. Tall reeds bend at the water's edge, and the willows trail their long, thin branches in the current. Everything is cool and damp and green, and the whole world seems to be holding a long, slow breath, with you.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "autumn_overlook",
+    "cap": "The riverbank path",
+    "sub": "Damp and soft"
+   }
+  },
+  {
+   "say": "The river moves so slowly that, at first, you might think it isn't moving at all. Only the tiny leaves drifting across it tell you that it is. It carries them along without any effort, past the reeds and the willows and the old stone post, and on into the mist. There's no struggle in it. The river simply goes where it goes, and everything on it goes along.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "The river, moving slowly",
+    "sub": "A gentle current"
+   }
+  },
+  {
+   "say": "You can float, and be carried. So much of the day is spent swimming against something, a deadline, a to-do list, a habit we're trying to change. But at night, the river takes over. You don't have to push at all. Let the current do the carrying for a while, and let your body be as loose and light as a leaf on the water.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "text": "You can float, and be carried.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "And there it is, half hidden in the mist. A little wooden boathouse with a mossy roof, leaning very slightly toward the water, like someone resting on a wall. A small wooden jetty stretches out in front of it, and a rowing boat is tied there, floating perfectly still. The willows hang low around it. Everything is silver and green and quiet, and the water is as smooth as glass.",
+   "show": {
+    "type": "photo",
+    "file": "lf42_b19_01.jpg",
+    "cap": "The misty boathouse"
+   }
+  },
+  {
+   "say": "You walk out onto the jetty, and the old boards are smooth and cool under your feet. You sit down at the end, near the water, and let your legs hang over the edge. The mist wraps around you, soft and cool, and settles lightly on your sleeves. The surface of the river lies just below, dark and glassy, holding a faint reflection of the pale, waking sky.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The jetty",
+    "sub": "Old wood, damp and smooth"
+   }
+  },
+  {
+   "say": "Drop your gaze to the water by the jetty. A small drop falls from a willow leaf, and a ring spreads outward across the surface, wide and slow and perfect. Then another ring, and another, all overlapping, until the water settles again into glass. That's how a busy mind settles, too. Not by being pushed flat, but by being left alone, with a little time, until the last ripple has quietly gone.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Ripples and rings",
+    "sub": "Spreading, then still"
+   }
+  },
+  {
+   "say": "Let's gather the things around you. Silver mist, drifting over the river. A mossy roof, soft with green. A wooden boat, floating without a ripple. Willow branches, trailing in the current. And a surface of glassy, dark water, holding the sky. It's a scene made entirely of slow things, and quiet things, and gentle things, and you're sitting right in the middle of it.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "title": "By the water",
+    "items": [
+     "Silver mist",
+     "A mossy roof",
+     "A wooden boat",
+     "Trailing willows",
+     "Glassy water"
+    ]
+   }
+  },
+  {
+   "say": "The rowing boat moves a tiny bit with the current, tugging softly at its rope. It rises and falls a little, very slowly, like a sleeping chest. There's a folded blanket in the bottom, and two worn wooden oars laid neatly along the sides. You climb in carefully, and sit down on the wooden seat. The boat settles beneath you, steady and sure, like a cradle that's been waiting.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "The little boat",
+    "sub": "Rocking, barely"
+   }
+  },
+  {
+   "say": "You untie the rope, and the boat begins to drift. There's no rowing to do. The current is gentle, and the boat follows it, out from beneath the willows and into the middle of the river. The jetty slips away behind you, then the boathouse, until they're both soft shapes in the mist. You lean back and let the water take you, slowly, like a held breath being released.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "Casting off",
+    "sub": "Easy and slow"
+   }
+  },
+  {
+   "say": "You pull the blanket over your legs and chest. It's wool, thick and soft, and it smells of cedar and river air. The mist moves around you, cool on your face, while the blanket keeps you warm underneath. You're comfortable in every part of your body. Your hands rest gently on top of the blanket, and your head rests against the curve of the boat.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "Wrapped in blanket",
+    "sub": "Warm and light"
+   }
+  },
+  {
+   "say": "The river knows the way. It has been finding the sea for a very long time, and it doesn't need any help. You can trust that, the way you can trust the floor beneath your feet. Tonight, you're allowed to simply be carried. The big questions can wait, and the small ones can, too. Let the river carry them all the way to morning, and beyond.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "text": "The river knows the way.",
+    "by": "Goodnight, river"
+   }
+  },
+  {
+   "say": "There's a particular kind of quiet that only a river can make. It isn't empty. It's full of small, soft movements, a leaf turning, a reed bending, a little water finding its way around a stone. But none of it asks for your attention. It all happens by itself, calmly, and it leaves you free to rest. You can let your ears go soft, and simply let the quiet wash over you.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The quiet of a river",
+    "sub": "Only the water"
+   }
+  },
+  {
+   "say": "Let your breath follow the pace of the water. In, as the boat rises a little. Out, as it settles again. Nothing is rushed, and nothing is held. Your belly is soft. Your shoulders are heavy. Each breath arrives, and each breath leaves, as steady and unforced as the river moving through the mist. You can feel your heartbeat slowing too, quiet and even, like a distant, patient drum.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Slow breathing",
+    "sub": "With the current"
+   }
+  },
+  {
+   "say": "Imagine each of these floating away on the water, like little paper boats. The day, finished. The to-do list, drifting off. The old habits, which are only habits, and which can wait. The new plans, which will grow in their own time. You watch them go, small and pale, into the mist, and you feel lighter with every one that slips from sight.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "title": "Letting go, again",
+    "items": [
+     "The day",
+     "The to-do list",
+     "The old habits",
+     "The new plans"
+    ]
+   }
+  },
+  {
+   "say": "On the far bank, among the reeds, there's a tall gray heron, standing in the shallows on one leg. It doesn't move at all. It looks as though it has all the time in the world, and nowhere else it needs to be. You watch it for a while, and your own body begins to take on that stillness, long and calm and quiet, as if you were standing in the shallows, too. Even your breath seems to move more gently, so as not to disturb the morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A heron in the reeds",
+    "sub": "Standing very still"
+   }
+  },
+  {
+   "say": "Far away, behind the willows, the sky is the palest gray, the first suggestion of a morning that's still a long way off. The mist glows faintly, as if lit from inside. But there's no need to watch it. Close your eyes again. You have hours of quiet left. The boat drifts on, and the light waits patiently at the edge of the world.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "The mist, lifting a little",
+    "sub": "Pale light, far off"
+   }
+  },
+  {
+   "say": "Your body is so heavy now, and so warm. Your thoughts are slow, soft clouds, floating by one at a time, with longer and longer gaps between. The boat rocks, ever so gently. The river carries you onward. And all you have to do is let it, as the mist closes quietly around you, and the night folds you in. There is nothing left to do, and nowhere left to go. Only the water, and the warmth, and the slow, sweet feeling of sleep arriving.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Drifting",
+    "sub": "Soft and slow"
+   }
+  }
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "id": "lf42_b18",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let the warm bakery drift gently away, and let's go somewhere high and wide and still. Imagine a mountain, far from any city, where the air is thin and cool and perfectly clean. Near the top, there's a small observatory, a round white building with a silver dome, standing alone against the sky. The road up is long and empty, and tonight, you're being carried up it effortlessly, without a single step.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "n": 1,
+    "title": "High above the clouds"
+   }
+  },
+  {
+   "say": "As you rise, the last light of day fades from the ridges around you. The slopes turn violet, then blue, then a deep gray-black. Below you, a soft sea of cloud fills the valleys, smooth and silent and faintly silver. Everything that was busy and bright down there is hidden beneath it. Up here, the world is simple. There's rock, and sky, and a quiet that seems to go on forever.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "autumn_overlook",
+    "cap": "The last light",
+    "sub": "Fading on the ridge"
+   }
+  },
+  {
+   "say": "The air at this height is cool and clean and wonderfully fresh. It tastes a little like water from a mountain stream. You breathe it in slowly, and you feel your lungs open wide, as though they've been waiting for exactly this. You're wrapped in a thick, warm coat, with soft gloves and a woolly scarf, so the cold is only something to enjoy on your cheeks, bright and tingling.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "The cold, clean air",
+    "sub": "Fresh and crisp"
+   }
+  },
+  {
+   "say": "The sky is very large, and so is the quiet. Up here, it's easy to feel how small a single day is, and how small a single worry is, beneath all that open space. That isn't a sad feeling. It's a freeing one. Whatever tonight's thoughts looked like at the bottom of the mountain, they seem lighter now, spread out thinly across a very wide sky.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "text": "The sky is very large, and so is the quiet.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "And then you look up, and the whole sky is full of stars. Thousands of them, pinpoints of white and pale gold, scattered across the darkness like seeds of light. A soft, pale river of stars stretches from one horizon to the other. The little observatory stands below it, calm and small, its dome faintly shining. The clouds lie beneath you like a quiet ocean, and the stars shine over everything, steady and clear.",
+   "show": {
+    "type": "photo",
+    "file": "lf42_b18_01.jpg",
+    "cap": "The observatory under the stars"
+   }
+  },
+  {
+   "say": "A small wooden door at the base of the dome swings open, and you step inside, out of the cold. It's warm in there, and dimly lit, with a soft red glow from a single lamp. The floor is polished wood. There are shelves of old, well-thumbed notebooks, a kettle on a little stove, and a deep armchair that looks as if it was made for long, quiet nights of looking up.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The wooden door",
+    "sub": "A warm room inside"
+   }
+  },
+  {
+   "say": "Let's gather the quiet things in this room. A silver dome, curving overhead. A single red lamp, glowing low. Worn notebooks, full of old, careful handwriting. A little kettle, warming on its stove. And a deep, comfortable armchair, waiting just for you. It's a place for patient people, who like to look at the far-off things slowly, and who never need to hurry the night.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "title": "In the observatory",
+    "items": [
+     "A silver dome",
+     "A red lamp",
+     "Worn notebooks",
+     "A little kettle",
+     "A deep armchair"
+    ]
+   }
+  },
+  {
+   "say": "In the middle of the room stands a long, graceful telescope, pointed gently toward the sky. It's very old, with brass fittings worn smooth by many careful hands. Its whole job is to be patient. It gathers faint light from very far away, a little at a time, and asks nothing in return. You rest a hand on its cool metal for a moment, and then you leave it to its quiet work.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The great telescope",
+    "sub": "Waiting, patient"
+   }
+  },
+  {
+   "say": "Slowly, softly, the dome begins to turn, and a long slit of sky opens above you. It's like a window in the roof of the world. Through it, you can see a band of stars, bright and steady. You settle back into the armchair, pull a woolen blanket over your knees, and look up. Your neck is supported, your head is heavy, and the stars stretch out above you like a gentle, endless ceiling.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "The dome opens",
+    "sub": "A slit of stars"
+   }
+  },
+  {
+   "say": "Some of the light you're seeing set out from those stars a very long time ago, and has been traveling quietly through the dark ever since. It has crossed enormous distances without hurrying, and without ever getting tired. And now it's arriving in your eyes, this very night, soft and calm. There's something comforting in that. Even the longest journeys get where they're going, one quiet moment after another.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "Stars, far and old",
+    "sub": "Their light travels slowly"
+   }
+  },
+  {
+   "say": "Nothing here needs to be solved. The stars aren't a problem, and they don't need a plan. They simply shine, and you simply look. For a few minutes, let your mind do what the telescope does. Rest quietly, and take in what arrives. Let the thoughts that come be faint ones, far away, and let them travel on, across the dark, without needing an answer from you.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "autumn_overlook",
+    "text": "Nothing here needs to be solved.",
+    "by": "Goodnight, stars"
+   }
+  },
+  {
+   "say": "Breathe in slowly, as if you were drawing in the whole dark sky. Hold it for a moment, lightly. Then breathe out, and let it spread out again, wide and calm. You can feel your chest settling, and your ribs loosening, and your belly rising and falling like a slow tide. Each breath is a little longer than the one before, and a little quieter, until it hardly seems to move you at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Breathing with the sky",
+    "sub": "Slow and wide"
+   }
+  },
+  {
+   "say": "If you glance through the little door, you can still see the sea of cloud, lying calm and silver far below. It fills every valley, and it hides every town and road, and every light that was ever left on. Up here, none of that can reach you. It's all folded away beneath a soft, white blanket of mist, and it will keep until morning. For now, the mountain keeps you, and the sky keeps the mountain.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "The sea of cloud",
+    "sub": "Far below"
+   }
+  },
+  {
+   "say": "In the armchair, let your body rest, piece by piece. Your neck, supported and loose. Your back, sinking into the cushions. Your arms, heavy on the armrests. Your legs, long and still under the blanket. And your eyes, closing gently, the way a dome closes at the end of the night. You can feel the warmth gathering in your hands and feet.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "title": "Letting the body rest",
+    "items": [
+     "Your neck",
+     "Your back",
+     "Your arms",
+     "Your legs",
+     "Your eyes"
+    ]
+   }
+  },
+  {
+   "say": "For a moment, a single bright line draws itself across the sky, quick and silent, and then it's gone. You don't need to make a wish, or chase it, or even hold on to it. It was lovely while it lasted, and now it's over, and the sky is as calm as before. That's how the thoughts of the day can be. They flash up for an instant, and then they fade away.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A shooting star",
+    "sub": "One bright line"
+   }
+  },
+  {
+   "say": "The blanket is heavy and soft and smells faintly of cedar. You pull it up to your chin, and the warmth wraps around your shoulders. Outside the dome, the cold stretches over the mountain, but inside, you're wrapped up snugly, like a seed in the dark soil. Your eyes are closed, but you can still feel the stars up there, steady and kind, keeping their long watch over the sleeping world.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A warm blanket",
+    "sub": "Tucked under the stars"
+   }
+  },
+  {
+   "say": "The night goes on, and so can you. The stars wheel slowly across the dome. The kettle cools. The red lamp glows low. The clouds in the valley drift and settle. Nothing is asked of you, and nothing needs to be done. You're simply resting in a high, quiet place, with the whole sky above, and your own slow breath keeping time for you.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "text": "The night goes on, and so can you.",
+    "by": "Goodnight, mountain"
+   }
+  },
+  {
+   "say": "Let yourself drift now, lightly, like a feather rising on a warm current. Your body is heavy, but your mind is as light as the thin air at the top of the mountain. Upward, softly, among the stars, wide and quiet and free. And whenever you're ready, you can let go entirely, and let sleep carry you, slowly and gently, the rest of the way.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Drifting up and away",
+    "sub": "Weightless and warm"
+   }
+  }
+ ]
+}

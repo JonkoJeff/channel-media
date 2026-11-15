@@ -1,0 +1,221 @@
+{
+ "id": "lf42_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's visit Ines on an ordinary Tuesday night. It's a little after eleven, and she is lying on her side in bed, with the covers pulled up. She had meant to put the lamp out an hour ago. But there's a soft glow on her pillow, and she is looking at it. A small rectangle of light, in her hand. And she cannot quite say when it got there.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "n": 1,
+    "title": "A small glowing rectangle"
+   }
+  },
+  {
+   "say": "Ines isn't looking for anything. She flicks through a few messages, closes the app, and opens another one, then another. Then she closes it, and a few moments later, she opens the first one again. Nothing new has arrived. She is not even especially interested. It feels less like choosing and more like her thumb has a small routine of its own, and she is simply the one watching it go.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The phone, again",
+    "sub": "Ines, mid-scroll"
+   }
+  },
+  {
+   "say": "If you've ever done this, you're in very good company. Most of the habits we've talked about so far involve a kitchen, or a door, or a street. But a phone goes everywhere with us. It's always within reach, and it answers instantly. That makes it a remarkable place for habits to grow. And researchers have been studying exactly how, with a kind of curiosity, and without any finger pointing at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "A habit in our hands",
+    "sub": "Where habits live now"
+   }
+  },
+  {
+   "say": "A group of researchers, Oulasvirta, Rattenbury, Ma, and Raita, looked closely at how people use their smartphones. Their paper, called Habits Make Smartphone Use More Pervasive, was published in 2012. It brought together several sources of information, and that mix is what makes it interesting. Let's look at what went into it, because the idea is easy to hold when you see how it was built.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "A study of phone habits",
+    "sub": "Researchers in Finland and beyond"
+   }
+  },
+  {
+   "say": "The team gathered data from Finland and the United States. They looked at several different sources of information about how people actually use their phones. They ran a controlled field experiment, where people used a new app in their daily lives. And they also looked at what users themselves said about the experience. Together, these pieces pointed to one idea, which they called the checking habit.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "title": "What the researchers looked at",
+    "items": [
+     "Several sources of data on phone use",
+     "Data from Finland and the USA",
+     "A controlled field experiment",
+     "Users' own descriptions"
+    ]
+   }
+  },
+  {
+   "say": "The authors described a checking habit as a brief, repetitive look at content that is quick to reach and keeps changing. A glance at messages. A peek at the news. A quick look to see whether anything has happened. It isn't a long session. It's a short visit, again and again. And, importantly, each visit is so small that we hardly register it as a choice. It simply happens, the way a blink does.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "What is a checking habit",
+    "sub": "Brief, repeated, quick"
+   }
+  },
+  {
+   "say": "In this research, a typical check lasted less than thirty seconds. A person unlocked the screen, opened a single app, looked, and put the phone away again. And these little checks were spread throughout the waking hours of the day, which surprised the researchers. A sizable share of all phone use turned out to be nothing more than this. Not hours of scrolling. Just a great many tiny glances, each one over before it began.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "who": "Oulasvirta and colleagues",
+    "where": "Personal and Ubiquitous Computing, published in 2012",
+    "what": "A typical phone check lasted under 30 seconds"
+   }
+  },
+  {
+   "say": "What started a check? Not random impulse. The researchers found that checking was tied to a fairly small set of familiar situations. Reading email while commuting, for example. Or checking the news when feeling a bit bored. In each case, there was a context, and the glance followed it. Which, if you've been listening closely, sounds very familiar. It is the same pattern we've seen all evening. A cue, and then a response.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "What set a check off",
+    "items": [
+     "Reading email while commuting",
+     "Checking the news when bored",
+     "A small set of familiar situations"
+    ]
+   }
+  },
+  {
+   "say": "Think of how this lines up with everything so far. The cue is a situation, a feeling, or a moment. The response is a quick action that has been repeated many times. And the reward is a small flicker of something new. A phone makes that loop unusually fast and unusually easy, which may be why the habit forms so readily. It isn't a weakness in anyone. It's habit-making, doing exactly what it always does.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The same old pattern",
+    "sub": "Cue, response, repeat"
+   }
+  },
+  {
+   "say": "The study also included an experiment, and it's a neat one. The researchers gave people a contacts app that showed live information about their contacts, such as where they were and what they were doing. It was a small change. Yet it was enough to show how quickly a checking habit can start. Let's see what happened, because it tells us something about how rewards and habits work together.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "n": 2,
+    "title": "A little experiment"
+   }
+  },
+  {
+   "say": "People using the app began checking it regularly. The authors concluded that checking behaviors form, and are reinforced, by information that is very quick to reach. There was no effort needed, and the reward arrived at once. That's the key. A habit loves a cue it meets often, a response that takes almost no effort, and a result that comes right away. And a glance at a phone offers all three, in less than a breath.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Quick rewards",
+    "sub": "The experiment's result"
+   }
+  },
+  {
+   "say": "There was one more finding worth mentioning. The authors noted that checking habits can sometimes lead people to do other things on the device, and that a habit around one app may make habits around related apps more likely. So a short check on one thing can turn into a longer visit somewhere else. It's easy to see how a couple of minutes can quietly turn into a long while, without a single moment of deciding.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A habit that spreads",
+    "sub": "One app leads to another"
+   }
+  },
+  {
+   "say": "Part of what makes these glances so hard to notice is how small they are. A habit that takes thirty minutes is easy to spot. A habit made of tiny moments hides in plain sight. Each look feels too brief to count, so we don't count it. And because it begins in a familiar setting, such as a commute, a quiet minute, or a comfortable bed, it blends into the background of our day.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "rooftop_dusk",
+    "cap": "Why it's hard to see",
+    "sub": "Habits hide in plain sight"
+   }
+  },
+  {
+   "say": "There's also something gentle in how the users described it. The researchers reported that people experienced these repetitive habits more as an annoyance than as an addiction. That seems very human. Most people don't feel carried away by something thrilling. They feel mildly irritated with themselves, the way you might about a drawer that never quite closes. It's an irritation, rather than a crisis, and it can be met with a calm head.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "text": "More an annoyance than an addiction",
+    "by": "How users described it, Oulasvirta and colleagues, 2012"
+   }
+  },
+  {
+   "say": "Come back with us to Ines's bed. The room is dark, and rain falls softly outside the window. On the blanket, a small rectangle of light is glowing, and the room's softness seems to bend around it. It is such a small thing. And yet, for a lot of us, this is where the day's last hour goes, quietly, without any particular intention.",
+   "show": {
+    "type": "photo",
+    "file": "lf42_b09_01.jpg",
+    "cap": "A small rectangle of light"
+   }
+  },
+  {
+   "say": "Tonight, Ines does something a little different. She doesn't put the phone away or lecture herself. She just watches. And she notices that her hand reaches for it at one particular moment, the instant she lies down and pulls up the covers. Not when she's curious about anything. Not when she's lonely, or bored. When she lies down. The moment her head meets the pillow, her hand is already moving.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A small discovery",
+    "sub": "The cue is lying down"
+   }
+  },
+  {
+   "say": "If she wrote it down, it might look like this. Lying down is the cue. Her hand moves first. Her thumb knows exactly where to go. And only later does the thought arrive, oh, I'm scrolling again. It's a useful order to see. It tells her that the decision she's been blaming herself for was never really made at all. It was triggered, a quick habit, exactly as the researchers described.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "title": "What Ines notices",
+    "items": [
+     "Lying down is the cue",
+     "Her hand moves first",
+     "Her thumb knows the way",
+     "The thought arrives later"
+    ]
+   }
+  },
+  {
+   "say": "There is something kind in this. If the habit were a flaw in her character, she would have to fix herself. But if it's a cue and a response, then it is a link, and links can be loosened or rebuilt. A phone is built to be quick to reach, and quick things form habits easily. That isn't her fault. It's just how the machinery of habit meets the machinery of a phone.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "cap": "No blame in this",
+    "sub": "A phone is built to be quick"
+   }
+  },
+  {
+   "say": "And Ines starts to wonder whether the same thing is true elsewhere. The glance at her phone during a slow moment at work. The quick check while the kettle boils. Each one has its own small cue, and its own little pattern. She doesn't plan to change them all. She is only curious now, the way you become curious about a path once you realize you've been walking it for years without looking up.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Beyond the bedroom",
+    "sub": "The same pattern, elsewhere"
+   }
+  },
+  {
+   "say": "She does not solve it tonight. She lets the screen go dark, and puts the phone down on the table beside the bed, and lies there for a few quiet moments in the soft, ordinary dark. The rain continues. Somewhere in the building, a neighbor's light goes out. And for the first time in a while, she lies in bed without anything in her hands, and simply notices how that feels. It is quiet, and a little strange, and not unpleasant at all. Whatever she decides tomorrow, tonight she has seen her habit clearly, and that is enough for one evening.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The glow fades",
+    "sub": "Not tonight's job"
+   }
+  }
+ ]
+}

@@ -157,8 +157,9 @@
   {
    "say": "Come back with us to Ines's bed. The room is dark, and rain falls softly outside the window. On the blanket, a small rectangle of light is glowing, and the room's softness seems to bend around it. It is such a small thing. And yet, for a lot of us, this is where the day's last hour goes, quietly, without any particular intention.",
    "show": {
-    "type": "photo",
-    "file": "lf42_b09_01.jpg",
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
     "cap": "A small rectangle of light"
    }
   },

@@ -93,8 +93,9 @@
   {
    "say": "Picture that tin for a moment. Soft afternoon light on the window ledge. The lid sitting just a little crooked. Nothing about it is dramatic, and nothing about it is wrong. It's simply there, at the same place, at the same time of day, every afternoon. And that, as we'll see in a while, is exactly the kind of quiet arrangement that habits love to grow in. The same place, the same hour, the same little ritual, and a day that has no need to ask for anyone's opinion.",
    "show": {
-    "type": "photo",
-    "file": "lf42_b04_01.jpg",
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
     "cap": "The tin by the window"
    }
   },

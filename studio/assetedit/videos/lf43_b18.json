@@ -1,0 +1,172 @@
+{
+ "id": "lf43_b18",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now the hut dissolves into the snow, and in its place, there's a small country station, lit by a single yellow lamp. A night train stands waiting, long and quiet, its windows glowing warm. Snow drifts down through the lamplight in big, slow flakes. You step aboard, and the door closes behind you with a soft sigh, and the whole carriage smells of warm wool and old, polished wood.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "n": 1,
+    "title": "The night train"
+   }
+  },
+  {
+   "say": "You find your seat by the window, and sink into it. The cushion is deep and a little worn, like a favorite armchair. A small lamp glows above you, and a folded blanket rests on the seat beside you. You pull it across your knees. The carriage is dim and warm, and you feel yourself loosen the way you do when you finally arrive somewhere you didn't know you were traveling to.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Your seat",
+    "sub": "Soft, and by the window"
+   }
+  },
+  {
+   "say": "Without any jolt at all, the train begins to move. The platform lamp slides slowly past the window, and then the dark fields take its place. You feel only a soft, steady pull, like being rocked in a cradle the size of a country. The wheels begin their rhythm, low and even, and you let your body move with it, just a very small sway, side to side.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "The train begins to move",
+    "sub": "A gentle pull"
+   }
+  },
+  {
+   "say": "From outside, the train is a long, glowing line moving across the snowy dark. Its windows make a string of warm gold squares, sliding over white fields and between black rows of pines. The sky above is wide and full of stars, and the snow gives off a faint, silvery light of its own. It all looks very small and very safe, a tiny warmth traveling through a huge, quiet night.",
+   "show": {
+    "type": "photo",
+    "file": "lf43_b18_01.jpg",
+    "cap": "Through the snow, at night"
+   }
+  },
+  {
+   "say": "Listen to the wheels. Clack-a-clack, clack-a-clack, over and over, as steady as a heartbeat. It isn't a sound that wants anything. It simply carries on, mile after mile, in the same unhurried pattern. Let it become the rhythm of your breathing too. In, two, three. Out, two, three. Nothing to count, nothing to correct, only the slow music of the rails.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The rhythm of the wheels",
+    "sub": "Steady, steady"
+   }
+  },
+  {
+   "say": "You don't have to steer. On a night train, someone else is watching the track, and someone else knows where the next station is. All you have to do is sit, and be carried. Tonight, you can let the world roll along without you minding it. Your worries can ride in the luggage rack, small and quiet, and be collected in the morning.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "You don't have to steer.",
+    "by": "A soft thought"
+   }
+  },
+  {
+   "say": "Outside the glass, the snow keeps falling. Each flake passes through the glow of the carriage lamp for just a moment, bright and tiny, and then disappears into the dark. You watch them drift, and your eyes begin to soften. Watching snow is a bit like watching thoughts, so many of them, each one arriving and leaving without any need for you to catch it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "Snow at the window",
+    "sub": "Falling and falling"
+   }
+  },
+  {
+   "say": "A gentle trolley glides past, pushed by someone you never really see, and leaves a small paper cup of something warm beside you. You wrap both hands around it. The steam rises, smelling of chamomile and a little lemon. You sip very slowly, and the warmth runs down your throat and into your chest. It's a tiny kindness from the night, offered with no words, and gratefully received.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "cap": "A warm cup",
+    "sub": "Steam and quiet"
+   }
+  },
+  {
+   "say": "Further down the carriage, a few other passengers are asleep. A man in a gray coat with his head tipped back. A woman curled sideways under a green scarf. Nobody is talking. Nobody needs to. There's a gentle kindness in sharing a quiet carriage with strangers who trust the night enough to sleep. Their calm breathing mixes with the wheels and the soft hum of the heater, and it makes the whole space feel safe.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "cap": "Strangers, sleeping",
+    "sub": "Peaceful nearby"
+   }
+  },
+  {
+   "say": "Let's name what's around you, slowly. A deep, soft seat. A wool blanket across your knees. The steady rhythm of the wheels. Snow, drifting past the window. And strangers, sleeping peacefully nearby. This is a place where nobody has to talk, and nobody is alone, and everyone is simply being carried toward morning.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "Aboard the night train",
+    "items": [
+     "A deep, soft seat",
+     "A wool blanket",
+     "The rhythm of the wheels",
+     "Snow at the window",
+     "Strangers sleeping peacefully"
+    ]
+   }
+  },
+  {
+   "say": "There's a particular comfort in company without words. You don't have to explain yourself to the sleepers around you, or be good company, or say anything clever. You're only sharing the same warm carriage and the same long night. Tomas feels this too, wherever he is. Some connection is as simple as knowing that others are close by, resting, and that you are resting alongside them.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Company without words",
+    "sub": "Sharing the same night"
+   }
+  },
+  {
+   "say": "Rest is something we can share. Even asleep, we keep each other company, in the shared hush of a quiet room, in the slow breath of people who feel safe. You don't need to say goodnight to anyone for this to be true. The night is large enough for everyone, and tonight, you have a seat in it.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "text": "Rest is something we can share.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "Your eyelids feel heavy now, as heavy as wet sand. The rocking of the carriage lulls you, and the clacking of the wheels grows slower and softer in your ears, as if the train itself were getting sleepy. Your head rests lightly against the cool of the window, and your whole body softens into the seat, leaning into the slow, forward motion of the night.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "text": "Your eyelids feel heavy now, as heavy as wet sand.",
+    "by": "Lulled by the motion"
+   }
+  },
+  {
+   "say": "The train slides into a long tunnel, and the window turns black. For a while, the only light is the faint glow of the lamp on the ceiling, and it makes the carriage feel even warmer and closer. The sound of the wheels deepens, rounder and slower. There's nothing to see, and nothing to find. You close your eyes and let the soft darkness hold you, for as long as the tunnel lasts.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "A tunnel",
+    "sub": "Warm, soft darkness"
+   }
+  },
+  {
+   "say": "When the train comes out the other side, the snow has stopped. The clouds have parted, and the whole sky is open, thick with stars, over a frozen lake. The ice shines faintly in the starlight, flat and silver. The train slows, gently, gently, and then rolls to a quiet stop at a tiny platform beside the water. It seems to be waiting for you to step off.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "Out of the tunnel",
+    "sub": "The snow gives way to starlight"
+   }
+  },
+  {
+   "say": "You step down onto the platform, and the cold air is crisp and clean, with no wind at all. Your breath makes a small cloud, which drifts and vanishes. The train behind you sighs and settles, its lamps dim. Just beyond the platform, a wooden path leads down toward the lake. At the end of it, you can see a long dock, reaching out into the starlit water. Let's walk there together.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A lakeside station",
+    "sub": "Still and silver"
+   }
+  }
+ ]
+}

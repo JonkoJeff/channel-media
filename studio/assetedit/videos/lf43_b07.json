@@ -1,0 +1,279 @@
+{
+ "id": "lf43_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "It's a fair thing to wonder, lying awake at two in the morning. Is loneliness only a daytime thing, something that lives in the hours when we're among other people, and goes quiet once the lights are off? Tomas thinks so, at first.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "n": 1,
+    "title": "Not only a daytime thing"
+   }
+  },
+  {
+   "say": "He imagines that the ache belongs to Sunday evenings and busy offices, and that the night is a neutral place, where everyone is simply alone with a pillow. But it turns out that scientists asked the same question, and found it worth testing.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "A neutral place?",
+    "sub": "Is the night just quiet"
+   }
+  },
+  {
+   "say": "That's the next gentle myth. We think of loneliness as a feeling, and so we assume it lives in the mind, in the part of us that is sad or restless or flat. The body, we imagine, carries on regardless. It eats, it walks, and it sleeps. But sleep isn't a switch we flip when we've finished with the day. It's a long, quiet process that a watchful mind may not fully let go of.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "text": "Loneliness only touches your mood.",
+    "by": "A very natural assumption"
+   }
+  },
+  {
+   "say": "So the question for the researchers was a practical one. If loneliness shifts how we watch the world by day, might it also change what happens at night? And if so, how would you notice? Not by asking people how they slept, which is a little unreliable, since most of us don't remember our own sleep very well. Ideally, you'd measure it. And that's exactly what one team set out to do, using university students.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "A good question",
+    "sub": "Does it follow us to bed?"
+   }
+  },
+  {
+   "say": "Does loneliness follow you into the night? One study measured the sleep of college students, and also asked how lonely they felt. Here is the interesting part. The lonelier students didn't spend less time in bed. And they didn't sleep for fewer hours in total. But their sleep was less efficient, and they spent more time awake after they'd first fallen asleep. It seems the nights were more broken up, even when the clock said they'd had a full night.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "who": "Cacioppo and colleagues",
+    "where": "Psychological Science, published 2002",
+    "what": "Lonelier students slept less efficiently, with more time awake after falling asleep"
+   }
+  },
+  {
+   "say": "It's a subtle thing, and easy to miss. Two students can go to bed at eleven and rise at seven, and look exactly the same from the outside. Yet one of them might slip through the night with barely a ripple, and the other might surface several times, in tiny waking moments they scarcely remember in the morning. So the hours add up the same. But the rest inside them is not quite the same rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "street_day",
+    "cap": "A quiet difference",
+    "sub": "Same hours, different nights"
+   }
+  },
+  {
+   "say": "As always, let's hold this with care. These were young students, in one place, in one study. The result is an association, which means we can't say for sure whether loneliness disturbed the sleep, or whether poorer sleep made the days feel lonelier, or whether something else sat behind both.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "autumn_overlook",
+    "cap": "Reading it carefully",
+    "sub": "One study among students"
+   }
+  },
+  {
+   "say": "In fact, they may well push on each other, each making the other a bit worse. But it's an early and influential sign that the body takes part in loneliness too.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "An early sign",
+    "sub": "The body joins in"
+   }
+  },
+  {
+   "say": "Since then, other researchers have looked at the same question in other people. One of the most careful pictures comes from a long-running study in Britain that has followed many sets of twins born in England and Wales in the mid-1990s. Twins are a gift to scientists, because they share a family, a home, and, in the case of identical twins, their genes. So when the twins differ, you can ask what makes the difference.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "n": 2,
+    "title": "Many years later"
+   }
+  },
+  {
+   "say": "When the twins were eighteen, researchers asked them about their loneliness and about their sleep. They used a standard questionnaire for each. Those who felt lonelier reported poorer sleep quality overall. And the link held when the scientists compared one identical twin with the other. So when two people with the same genes and the same upbringing differed in loneliness, the lonelier twin tended to report worse sleep.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "who": "Matthews and colleagues",
+    "where": "Psychological Medicine, published 2017",
+    "what": "Lonelier young adults reported poorer sleep quality, even when comparing identical twins"
+   }
+  },
+  {
+   "say": "The group assessed at that age numbered 2,066 young people, and they came from every kind of background across Great Britain. That's a large and varied group, which is part of why the finding is taken seriously. The title the authors chose is a lovely one, and a little eerie. They called it sleeping with one eye open. It's a phrase we'll come back to in a moment.",
+   "show": {
+    "type": "stat",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "title": "Young adults in the study",
+    "big": "2,066",
+    "label": "twins assessed at age 18"
+   }
+  },
+  {
+   "say": "Why do twins matter so much here? Because they quietly remove several explanations.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "What the twins add",
+    "sub": "A cleaner comparison"
+   }
+  },
+  {
+   "say": "It can't simply be that the lonelier twin grew up in a noisier house, or inherited a more anxious temperament from the family, since those things are shared. Of course, no study removes everything. But when a link survives a comparison like this, it's less likely to be a coincidence, and more likely to be something real, worth looking at.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "text": "Not every explanation can be shared by twins.",
+    "by": "Why twins help"
+   }
+  },
+  {
+   "say": "There was an important limit, and the researchers said so themselves. The twins were asked about their loneliness and their sleep at the same time, and by self-report. So the study can't tell us which came first. It describes a link, and not a cause. It also found the connection was stronger among young people who had been through hard experiences in their past, such as violence or mistreatment. That's a reminder that loneliness never arrives in the same way for everyone.",
+   "show": {
+    "type": "char",
+    "sprite": "A09",
+    "bg": "attic_rain",
+    "cap": "An honest limit",
+    "sub": "They asked once"
+   }
+  },
+  {
+   "say": "Let's put the two pieces together. In one study, lonelier students had more broken-up nights, despite similar hours. In another, lonelier young adults reported poorer sleep quality, even when compared with their identical twin. In both cases, the finding is a link. It would be too much to say loneliness is the single cause of poor sleep. But it would also be too little to say that it only touches our mood.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "title": "What the two studies suggest",
+    "items": [
+     "Lonelier people may sleep less restfully",
+     "The link showed up in students and in a large group of young adults",
+     "It held between identical twins",
+     "Cause and direction are still open"
+    ]
+   }
+  },
+  {
+   "say": "So why might the two be connected? One idea, which comes up often in this research, goes back to the old story of the group.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A01",
+    "bg": "autumn_overlook",
+    "n": 3,
+    "title": "Half an eye open"
+   }
+  },
+  {
+   "say": "Think of the person on the edge of the group, long ago, at night. The dark was the most dangerous time to be alone. A mind that senses it is not well protected might reasonably stay a little more alert, even in sleep. Light sleep, with one eye half open, could once have been a sensible way to rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "One eye open",
+    "sub": "An old way to rest"
+   }
+  },
+  {
+   "say": "We want to be careful with that. It's a hypothesis, a way of connecting some dots, and not something these particular studies proved. But it fits so well with what we have already seen. The alert mind during the day, scanning for threat. The same mind, at night, perhaps not fully letting its guard down. It's a kind of consistency that gives the idea its charm, and it gives us a gentle way to understand what's happening to us.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "text": "A mind that feels unprotected keeps a watch.",
+    "by": "An idea, not a finding"
+   }
+  },
+  {
+   "say": "And if there's one thing worth taking from all this, it's that a restless night is not a personal failure. If Tomas lies awake on a night when he's feeling disconnected, it doesn't mean he's bad at sleeping, or bad at coping. It may be that his mind is simply doing what it was built to do when it feels alone, which is to keep half an eye on the door. It's old protection, still switching on in a modern flat.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "street_day",
+    "cap": "What it means",
+    "sub": "Not a failure"
+   }
+  },
+  {
+   "say": "A few quiet thoughts, then. Broken sleep is common, and it is not a flaw in who you are. Rest can be thin even when the hours look full. Feeling safely connected may help the night watch ease, though that is an idea, and not a promise. And if poor sleep goes on for a long time, it's always worth talking to a doctor, because there are many causes, and many of them can be helped.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Gentle things worth knowing",
+    "items": [
+     "Broken sleep is common and not a character flaw",
+     "Rest can be thin even when the hours look full",
+     "Feeling connected may help the watch ease",
+     "Ongoing sleep trouble deserves a conversation with a doctor"
+    ]
+   }
+  },
+  {
+   "say": "Think of a small light left on in a window. Not because anyone needs it, but because it feels better to have a little watchfulness in the dark. That may be something like what the sleeping mind does when it senses it's alone.",
+   "show": {
+    "type": "photo",
+    "file": "lf43_b07_01.jpg",
+    "cap": "A light left on"
+   }
+  },
+  {
+   "say": "It leaves a light on. It doesn't mean anything is wrong in the house. It just means someone is still keeping watch, as quietly and faithfully as they can.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Keeping watch",
+    "sub": "Someone left a light on"
+   }
+  },
+  {
+   "say": "Tomas, lying in the dark, tries something unexpected. Instead of fighting the wakefulness, he lets it be there. All right, he thinks. I'm keeping watch tonight. It's not a clever trick, and it doesn't send him straight to sleep. But the sleeplessness stops being an enemy. And that change in attitude, as small as it is, lets his shoulders drop a little into the mattress.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "A kinder night",
+    "sub": "Tomas lets it be"
+   }
+  },
+  {
+   "say": "In the morning, he is tired, as he expected. He makes coffee, and stands for a moment at the window, looking at the street below. A neighbor is walking a small dog. A delivery van is parked outside. The usual city morning goes on with its small noises. And something occurs to him that he hasn't thought about for years. All those people out there have nights too, and many of them, he suspects, are not as peaceful as they appear.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "n": 4,
+    "title": "The fog of the morning"
+   }
+  },
+  {
+   "say": "Standing at the window, Tomas remembers something he once read. It was a headline, or perhaps a line in an article, saying that loneliness is as bad for you as smoking fifteen cigarettes a day. He had thought of it, at the time, as a dramatic way to make people sit up. But now he wonders about it. Where did it actually come from? And how far can a sentence like that really be trusted?",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "The headline",
+    "sub": "Something Tomas remembers"
+   }
+  },
+  {
+   "say": "It's a good question to ask, and the answer is more interesting than the headline. Because behind that line there's a large body of careful research, gathered over many years, and it deserves to be looked at calmly and in its own words. It's about health, and about how long people live. So let's take a patient look at what the biggest studies have actually found, starting with the one where the famous comparison first came from.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "street_day",
+    "cap": "A fair question",
+    "sub": "What do the big studies say?"
+   }
+  }
+ ]
+}

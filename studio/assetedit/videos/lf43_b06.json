@@ -1,0 +1,283 @@
+{
+ "id": "lf43_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The question Tomas is sitting with is a good one. If the mind on alert can turn two words into a cold shoulder, what else might it be adding to the day? Researchers have been curious about exactly that. And what they describe is neither dramatic nor frightening. It's a quiet pattern of small adjustments, made without our noticing, which together change how the social world looks from the inside.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "What the alert mind adds"
+   }
+  },
+  {
+   "say": "Here is the chain, in its simplest form. When we feel disconnected, the mind watches more closely for signs of rejection. What it finds is then read in a guarded way.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "Seeing, then expecting",
+    "sub": "A gentle chain"
+   }
+  },
+  {
+   "say": "And what we expect from the next encounter is a little less warm than it might have been. Each step is small and sensible by itself. It's only when you put them side by side that you see how they might lean the whole picture a few degrees in one direction.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "cap": "Small and sensible",
+    "sub": "Each step on its own"
+   }
+  },
+  {
+   "say": "It's an old and ordinary observation. If you expect a cold reception, you tend to notice the cool glance more than the warm one. A pause in the conversation seems to confirm it. A friendly phrase is half heard. Nobody is lying to themselves on purpose. The mind is only collecting evidence for the story it's already holding, which is what minds do, whether they're lonely or not.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "text": "We tend to find what we are expecting.",
+    "by": "An old idea in psychology"
+   }
+  },
+  {
+   "say": "In their review, Cacioppo and Hawkley described what this might look like over time. People who feel lonely tend to form more negative impressions of others, and to expect less charitable behavior from them. And those expectations can quietly shape how they act, and in turn how others respond. They described a self-protective loop, one that can leave a person feeling like a bystander in their own social life, when they would so much like to be in the middle of it.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "who": "Cacioppo and Hawkley",
+    "where": "Trends in Cognitive Sciences, published 2009",
+    "what": "Lonely people tend to expect less from others, and those expectations can shape what happens next"
+   }
+  },
+  {
+   "say": "It's important to say this with care. A loop is not a flaw of character.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A loop, not a fault",
+    "sub": "Nobody is to blame"
+   }
+  },
+  {
+   "say": "It's a pattern that anyone could fall into, in the same way that anyone can get stuck in a rut on a muddy path. It is protective in its intention, and it simply doesn't work well. And because it runs largely out of sight, the person inside it usually can't see it as a loop at all. They just see the world, and the world appears slightly cooler than it is.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "cap": "Out of sight",
+    "sub": "The loop runs quietly"
+   }
+  },
+  {
+   "say": "Let's watch how it might look for Tomas. On Wednesday, he meets a colleague named Priya at a cafe near the office. They've worked together for months but never really talked. They chat for about half an hour, about weekends and cities and the best way to make a flat feel like home. It goes well. They even laugh once. Then they say goodbye, and Tomas walks back to his desk with a thoughtful face.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "street_day",
+    "n": 2,
+    "title": "A small example"
+   }
+  },
+  {
+   "say": "On the walk back, the replay begins. He thinks of the moment he talked a little too long about his flat. He thinks of the silence after his joke about commuting. He thinks, she was probably just being polite. By the time he's at his desk, the lovely half hour has been turned into a small list of mistakes. And he feels certain that Priya is now thinking the same list, and already looking for a way to avoid him.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "cap": "The replay",
+    "sub": "He goes over it"
+   }
+  },
+  {
+   "say": "What's remarkable is how much it feels like knowing. The thought, she didn't really like me, doesn't arrive as a guess. It arrives as plain fact, with the calm authority of something observed. It's one of the stranger features of the mind that our worries wear the clothes of certainty. And so Tomas doesn't question it. He just carries it, and it slowly changes what he will do next time.",
+   "show": {
+    "type": "quote",
+    "sprite": "A09",
+    "bg": "attic_rain",
+    "text": "She didn't really like me.",
+    "by": "A worry dressed as a fact"
+   }
+  },
+  {
+   "say": "Now, here's where an unusually kind piece of research comes in. A team of psychologists wondered whether what Tomas does after a conversation is unusual. Perhaps it isn't. Perhaps most of us leave a chat with a quietly pessimistic idea of how it went. And they designed a way to check, using the most ordinary thing in the world, which is two people talking.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "n": 3,
+    "title": "A study of ordinary conversations"
+   }
+  },
+  {
+   "say": "Their method was simple. Two strangers were brought together and asked to talk for a few minutes, starting with a few friendly questions to get things going. Afterward, each person was asked two things, separately. How much did you like the other person? And how much do you think they liked you? Nobody knew what the other had answered. And that's what made the comparison possible.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "The setup",
+    "sub": "Two strangers, five minutes"
+   }
+  },
+  {
+   "say": "After a first conversation, most of us guess we were liked less than we were. On average, people liked their conversation partner more than they believed their partner liked them. Both of them thought that way about each other. Since two people can't both be liked less than they like, that can only mean one thing. Each of them was underestimating how warmly the other felt. The researchers named it the liking gap.",
+   "show": {
+    "type": "study",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "who": "Boothby, Cooney, Sandstrom and Clark",
+    "where": "Psychological Science, published 2018",
+    "what": "After conversations, people liked their partner more than they thought their partner liked them"
+   }
+  },
+  {
+   "say": "After a conversation, we tend to guess that we were liked a little less than we really were. And the same is true of the person across from us, who is also going home with a slightly gloomier guess than the truth. So there may be two people, each quietly sure that the other wasn't very interested, when both of them in fact had a nice time.",
+   "show": {
+    "type": "quote",
+    "sprite": "A20",
+    "bg": "cabin_fireplace",
+    "text": "The liking gap",
+    "by": "People like us more than we think"
+   }
+  },
+  {
+   "say": "The researchers looked for the reason, and part of it seems very human. When we're in a conversation, our attention goes inward. We hear our own pauses, and notice our own clumsy phrases. And we assume the other person is doing the same to us. But the other person is mostly busy thinking about themselves. In the recordings, the partners gave plenty of signals of interest and enjoyment, which people didn't seem to take into account.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "Why the gap appears",
+    "sub": "What we notice about ourselves"
+   }
+  },
+  {
+   "say": "They found something else, too. When people reflected on the conversation, they believed the moments that shaped their partner's impression of them were more negative than the moments that shaped their own impression of the partner. In other words, we remember our own awkward sentence, while the other person has probably forgotten it. A stumble is loud to the one who made it, and nearly silent to everyone else.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "The moments that stand out",
+    "sub": "One awkward sentence"
+   }
+  },
+  {
+   "say": "The gap wasn't just a quirk of short chats in a laboratory. It appeared across conversations of different lengths, and in real-world settings. In a further study, people who had just become roommates showed it, and it lasted for months. That tells us something reassuring. This is not a rare habit of a few worried people. It's a very ordinary way for minds to work.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "title": "What else they found",
+    "items": [
+     "It showed up in longer conversations",
+     "It showed up outside the lab",
+     "It was still there among new roommates after months",
+     "It's something most people do"
+    ]
+   }
+  },
+  {
+   "say": "It's worth being honest about what this study was not. It wasn't about loneliness. It involved ordinary people in ordinary conversations. So we can't say, from this study alone, that lonely people have a bigger gap. But it would fit the idea we explored a moment ago. If an ordinary mind already leans toward a gloomy guess, a mind on alert may lean a little further. That part is an idea, rather than something proved.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "cap": "A careful note",
+    "sub": "The study was not about loneliness"
+   }
+  },
+  {
+   "say": "It's a good sentence to keep somewhere in your pocket. After an ordinary chat with someone new, the odds are good that the other person liked you more than your own replay suggests. It doesn't promise anything about a particular person, of course. But as a starting guess, it's much kinder than the one that arrives on its own after a conversation.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "text": "You were probably liked more than you think.",
+    "by": "A gentle reminder"
+   }
+  },
+  {
+   "say": "Think of that small round table at the cafe, now empty. Two cups, one half hour, and two people who each walked away with a slightly smaller memory of how it went than the truth deserved. That's the liking gap, made into a still life.",
+   "show": {
+    "type": "photo",
+    "file": "lf43_b06_01.jpg",
+    "cap": "Two cups, one pleasant half hour"
+   }
+  },
+  {
+   "say": "It's a gentle picture to keep in mind. Because the next time we replay a conversation, we can ask whether the other person might be sitting at their own table, doing the very same thing.",
+   "show": {
+    "type": "quote",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "text": "Two people, running the same tape.",
+    "by": "A still life of the liking gap"
+   }
+  },
+  {
+   "say": "On Thursday morning, Tomas tries a very small experiment. He writes to Priya, just one line, saying that he enjoyed the chat and would like to do it again. It takes him almost twenty minutes to send it.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "street_day",
+    "cap": "What Tomas tries",
+    "sub": "A small experiment"
+   }
+  },
+  {
+   "say": "His thumb hovers over the button more than once. And then he presses it, puts the phone face down, and goes to make some tea, very slowly, as though that would make the time pass differently.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Hovering",
+    "sub": "Twenty minutes for one line"
+   }
+  },
+  {
+   "say": "The reply arrives before the kettle has boiled. It says, me too, that was fun. Honestly, I was worried I talked too much. Tomas reads it twice, and then he laughs, quietly, in his kitchen. All that replay on Wednesday, all that certainty, and across town Priya had been running exactly the same tape. It was a tiny moment. But for the first time in weeks, the world looked a little less guarded than he had believed.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "The reply",
+    "sub": "Faster than he expected"
+   }
+  },
+  {
+   "say": "It's a modest lesson, and it won't dissolve loneliness. A single friendly reply doesn't rewrite a pattern that has been practiced for a long time. But it does show that the guarded reading can be gently tested. And that testing, a little at a time, is one of the things we'll come back to in the end. For now, it's enough to simply notice how often a guess is dressed as a fact.",
+   "show": {
+    "type": "quote",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "text": "A guess is not a fact.",
+    "by": "Worth remembering after any conversation"
+   }
+  },
+  {
+   "say": "That evening, the flat grows quiet again. The tea has long gone, and the window shows a dark blue sky. Tomas feels lighter than he has in a while, and he is quietly pleased with himself. He turns off the lamp in the living room and goes to bed earlier than usual. He's hoping, in the way that all of us hope, that a good day will lead to an easy night.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Evening settles in",
+    "sub": "The flat grows quiet"
+   }
+  },
+  {
+   "say": "But the night has its own rules. He lies down, and for a while the day replays itself again, kindly this time, and then less kindly. He turns over. He checks the time. He tells himself to stop thinking, which, as everyone knows, is rarely effective. Somewhere between one and two in the morning, he realizes that his mind has stayed awake, though his body has stopped. And it makes him wonder whether loneliness is only a daytime thing.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "bedroom_night",
+    "cap": "The night is different",
+    "sub": "Awake again"
+   }
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "id": "lf43_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now the harbor lights shrink below us, and the path climbs through a quiet pine forest. The ground is soft with needles, so your footsteps make almost no sound. The air smells green and resinous and cold, and each breath you take feels fresh all the way down. Higher up, a thin thread of smoke rises from a small hut, and the windows glow amber.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "n": 1,
+    "title": "The mountain hut"
+   }
+  },
+  {
+   "say": "The trunks stand tall and dark on either side, and the last bluish light slips down between them. Your legs are warm from the climb, and you walk at an easy pace, with no goal except the glow ahead. Every few steps, you stop and listen. A branch settles. An owl, far off, asks a single soft question. Then the quiet comes back, deep and round, like a bowl of still water.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "autumn_overlook",
+    "cap": "Between the pines",
+    "sub": "Slow steps upward"
+   }
+  },
+  {
+   "say": "At last you reach the hut, a low, sturdy place of dark timber and a roof thick with moss. The door is heavy, and the handle is warm from the fire inside. You push it open, and a wave of cozy air meets you, smelling of woodsmoke and old pine and something faintly sweet, like baked apples. You step in, and shut the cold out behind you.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The wooden door",
+    "sub": "Heavy, and warm to the touch"
+   }
+  },
+  {
+   "say": "Inside, everything is made of wood and warm light. A stone fireplace crackles in the corner, throwing slow gold shapes across the walls. Thick wool blankets are folded on a bench. A few candles flicker on the table, next to two steaming mugs of something sweet and herbal. The windows are small and dark, and the whole world beyond them is snow-quiet and far away.",
+   "show": {
+    "type": "photo",
+    "file": "lf43_b17_01.jpg",
+    "cap": "The hut by the fire"
+   }
+  },
+  {
+   "say": "You settle onto the bench beside the fire, wrapped in a blanket that smells of cedar. The warmth glows on your hands and your face. The flames move so slowly and so softly that you could watch them forever. Each little pop and crackle is like a quiet word in a language you don't need to understand. Your shoulders sink, and your breath goes long.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "cap": "Sitting by the fire",
+    "sub": "The warmth on your hands"
+   }
+  },
+  {
+   "say": "Warmth is a kind of welcome. A fire doesn't ask who you are or what kind of day you've had. It simply gives off its heat to anyone who sits near enough. Tonight you can let yourself be welcomed like that, and let the warmth reach the places in you that have been cold for a while.",
+   "show": {
+    "type": "quote",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "text": "Warmth is a kind of welcome.",
+    "by": "A gentle thought"
+   }
+  },
+  {
+   "say": "Now, in the glow of the fire, let a few kind people from your life come to mind. Not everyone. Just the ones who were gentle with you. Perhaps a teacher who believed in you, or a friend who stayed on the phone a little longer than they needed to. Perhaps a stranger who held a door, or smiled at the right moment. You don't need to see their faces clearly. Let the feeling of them be enough.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "Kind faces, remembered",
+    "sub": "People who were gentle to you"
+   }
+  },
+  {
+   "say": "Let's gather a few small kindnesses, the sort that rarely get noticed. A message that said, I'm thinking of you. A seat saved at a table. A cup of tea made without being asked. A smile from a stranger. A laugh shared over something small. Hold each one lightly, like a warm stone in your pocket, and let it glow for a moment before the next.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "Small kindnesses",
+    "items": [
+     "A message that said, I'm thinking of you",
+     "A seat saved at a table",
+     "A cup of tea made without asking",
+     "A smile from a stranger",
+     "A laugh shared"
+    ]
+   }
+  },
+  {
+   "say": "In your mind, those people are gathered quietly around the hearth with you. Nobody is talking. Nobody needs to. They sit in the glow, wrapped in blankets of their own, each one comfortable, each one glad you're there. It's an imagined company, but the warmth it gives is real. Your body knows what it feels like to be held in kind attention, and it can remember that feeling even when the room is empty.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "An imagined company",
+    "sub": "Gathered by the hearth"
+   }
+  },
+  {
+   "say": "You lift the mug and feel its warmth against your palms. The steam curls up toward your face, soft and fragrant, and you breathe it in. Apple, and a little honey, and something like cinnamon. You take a small imaginary sip, and the sweetness spreads through your chest like a slow, golden sunrise. You set the mug down and listen to the fire.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "The mug in your hands",
+    "sub": "Sweet and steaming"
+   }
+  },
+  {
+   "say": "Kindness doesn't expire. Every gentle word that was ever said to you is still part of the person you are, folded quietly into how you carry yourself. You can return to them any time, the way you'd return to a warm room. And one day, you may be the one who lights a small lamp for somebody else.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "text": "Kindness doesn't expire.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "Outside, the wind moves across the mountainside, a long, low breath through the pines. It can't reach you in here. The walls are thick, and the fire is steady, and the hut has stood through many winters before this one. You feel the safety of that, solid and old and patient, resting all around you like a hand.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "The wind outside",
+    "sub": "Far from the door"
+   }
+  },
+  {
+   "say": "Your body grows heavy in the blanket. Your legs, your hips, your back, all of them sink into the bench as if the wood were soft as moss. The fire's glow flickers across your closed eyelids, orange and slow. Your thoughts become small and quiet, like sparks drifting up the chimney, glowing for a moment and then gone into the dark.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Sinking into the blanket",
+    "sub": "Heavy and safe"
+   }
+  },
+  {
+   "say": "The fire has burned low now, and the embers glow a deep, soft red. Their light is dim, and the shadows in the corners have grown long and gentle. The hut is very quiet. You can hear the faint tick of the cooling stones, and your own slow breath, and nothing else at all. It feels like the quietest place in the world.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "The fire burns low",
+    "sub": "Embers, glowing red"
+   }
+  },
+  {
+   "say": "Before the hut fades, let's gather what it gave you. A crackling fire, slow and gold. Wool blankets, heavy and soft. Sweet, steaming mugs between your palms. Thick timber walls, holding the cold at bay. And kind people, remembered, sitting quietly with you. Take a slow breath in, and a slow breath out, and let each of them settle into you like warmth settling into stone.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "title": "Inside the hut",
+    "items": [
+     "A crackling fire",
+     "Wool blankets",
+     "Sweet, steaming mugs",
+     "Thick timber walls",
+     "Kind people, remembered"
+    ]
+   }
+  },
+  {
+   "say": "And then, faintly, from the valley beyond the snow, you hear a low, soft whistle, rising and falling. A train, far away, crossing the dark country. Its sound carries across the mountains, gentle and rhythmic, like a lullaby from a long way off. Let's follow that sound out of the hut now, down through the quiet snow, and climb aboard.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "A faraway whistle",
+    "sub": "Beyond the snow"
+   }
+  }
+ ]
+}

@@ -1,0 +1,275 @@
+{
+ "id": "lf43_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Of course, the advice most of us hear first is the simplest one. If you feel lonely, go out more. Say yes to invitations. Be where the people are. It's said with real kindness, and it has a lot of common sense behind it. So let's look at what happens when someone like Tomas actually tries it, and what the research has to say about it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "street_day",
+    "n": 1,
+    "title": "Myth: \"The cure is just to go out more\""
+   }
+  },
+  {
+   "say": "Imagine that one Saturday, Tomas says yes. A coworker invites him to a gathering in a bright, busy bar, and he goes. There are dozens of people. There's music, and laughter, and the clink of glasses. He talks to a few of them, smiles at a few more, and stays for a couple of hours. By any normal count, it was a social evening.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "Tomas says yes",
+    "sub": "A Saturday night"
+   }
+  },
+  {
+   "say": "And yet, on the way home, he feels strangely flat. He's tired, a little hollow, and, if he's honest, about as lonely as he felt before he left. This confuses him. He did everything the advice said to do. He was around people, he was in the room, and still the feeling followed him all the way back to his front door.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "bedroom_night",
+    "cap": "The walk home",
+    "sub": "Surprisingly flat"
+   }
+  },
+  {
+   "say": "That question is a very common one, and it often comes with a quiet layer of shame, as if going out had been a test and he had somehow failed it. But he hasn't failed anything. It simply points to something researchers have noticed for a long time. Being near people and feeling connected to them are related, but they are not the same thing.",
+   "show": {
+    "type": "quote",
+    "sprite": "A09",
+    "bg": "rooftop_dusk",
+    "text": "I went out. Why do I still feel like this?",
+    "by": "A very common question"
+   }
+  },
+  {
+   "say": "You may remember the alert mode we talked about earlier, where a lonely mind quietly watches for signs of rejection. In a crowded room, that watchfulness doesn't switch off. A neutral face becomes a cool one. A short answer becomes a brush-off. So more people around can sometimes mean more things to read, and more chances for a tired mind to read them warily.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "cap": "Where the feeling lives",
+    "sub": "Inside the room, not only around it"
+   }
+  },
+  {
+   "say": "This raises a practical question. If simply adding more contact isn't always the answer, then what does help? A group of researchers decided to find out by gathering together the studies that had tried to reduce loneliness on purpose, and comparing them side by side, to see which approaches seemed to work best.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "n": 2,
+    "title": "What the evidence says"
+   }
+  },
+  {
+   "say": "In a meta-analysis published in 2011, Masi and colleagues combined studies of loneliness interventions. Among the randomized studies, which are the most reliable kind, the most successful approaches were those that addressed what the authors called maladaptive social cognition. In plain words, that means the habits of thought that shape how we read other people and social situations.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "who": "Masi, Chen, Hawkley and Cacioppo",
+    "where": "Personality and Social Psychology Review, published 2011",
+    "what": "Among randomized studies, interventions that addressed how people think about social situations were the most successful"
+   }
+  },
+  {
+   "say": "Fifty studies qualified for that analysis. Some were randomized, some compared groups without randomizing, and some simply measured people before and after a programme. The authors noted that the less rigorous designs tended to show bigger effects than the randomized ones, which is a good reason to rely on the randomized ones, and to keep the conclusions modest.",
+   "show": {
+    "type": "stat",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "title": "Studies combined",
+    "big": "50",
+    "label": "interventions to reduce loneliness"
+   }
+  },
+  {
+   "say": "Let's look at what these programmes were actually trying. Earlier reviews had grouped them into four broad strategies. Some tried to improve social skills. Some aimed to strengthen social support. Some worked on increasing chances for social contact. And some tried to change the way people think about social situations. They weren't competing in a race. They were simply different doors into the same room.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Four ways to help",
+    "sub": "What the programmes tried"
+   }
+  },
+  {
+   "say": "Here are the four, written out plainly. Building social skills. Strengthening social support. Creating more opportunities for contact. And shifting how social situations are read. In the randomized studies, it was the last one that came out on top, which fits nicely with what we know about the alert mode of a lonely mind.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "title": "Four strategies researchers compared",
+    "items": [
+     "Building social skills",
+     "Strengthening social support",
+     "Creating chances for contact",
+     "Shifting how social situations are read"
+    ]
+   }
+  },
+  {
+   "say": "It's worth being careful here. This doesn't say that contact is useless. Opportunities to meet people matter, because you can't practice reading a room you're never in. And it doesn't say that Tomas is reading things wrongly or that anyone should blame their own thinking. It says that, on average, the programmes that gently shifted expectations did a bit better than those that only added people.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "What this does and doesn't say",
+    "sub": "Held gently"
+   }
+  },
+  {
+   "say": "That's another small saying, not from the study. But it captures what the finding suggests. The number of people around us is one ingredient. The other is how safe and welcome those people feel to a mind that has learned to be careful. Both are real, and both can change, though sometimes it's the second that needs a little more patience.",
+   "show": {
+    "type": "quote",
+    "sprite": "A02",
+    "bg": "autumn_overlook",
+    "text": "It isn't only who is in the room. It's how the room feels to us.",
+    "by": "A way to remember it"
+   }
+  },
+  {
+   "say": "For Tomas, that might look like something very simple. Say a friend of a friend sends back a short reply, and his first thought is that they didn't want to talk. He can pause and wonder what else it might mean. Perhaps they were busy. Perhaps that's just how they write. A second look doesn't force a cheerful reading. It simply leaves a door open.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "The second look",
+    "sub": "One small habit"
+   }
+  },
+  {
+   "say": "These are ordinary questions, not therapy and not a method from the study, just a way of giving a thought a little more room. What else could this mean? Would I read it this way if a friend had sent it? And what do I actually know so far? Often the honest answer is, not much yet, and that can be oddly calming.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "title": "A second look, in a few small questions",
+    "items": [
+     "What else could this mean?",
+     "Would I read it this way from a friend?",
+     "What do I actually know so far?"
+    ]
+   }
+  },
+  {
+   "say": "Picture a small cafe table with two mugs on it. It isn't a party, and it isn't a crowd. It's just a table, a window and a warm drink. A single quiet conversation can hold more connection than a whole evening of noise, and the research on small moments suggests that something good can happen even much earlier than a close friendship.",
+   "show": {
+    "type": "photo",
+    "file": "lf43_b13_01.jpg",
+    "cap": "Two mugs, one small table"
+   }
+  },
+  {
+   "say": "That brings us to something that often gets overlooked. When we feel lonely, we tend to think that only a deep friendship will help, and that a chat with a neighbor or a shop assistant is too small to matter. It's an understandable thought, and a very quiet kind of all-or-nothing thinking, so let's see what the research says about it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "street_day",
+    "n": 3,
+    "title": "Small connections count too"
+   }
+  },
+  {
+   "say": "Tomas has a private rule that he has never said aloud. Unless it's a real friend, a real conversation, it doesn't count. A nod at the bakery, a few words in the lift, a joke with the person at the till, these are all, in his mind, just background. Not connection, just logistics. It's a tidy rule, and an unkind one, because it makes nearly all of daily life count for nothing.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "cap": "The deep-or-nothing idea",
+    "sub": "A quiet rule"
+   }
+  },
+  {
+   "say": "In a study published in 2014, Nicholas Epley and Juliana Schroeder asked train commuters to do one of three things. Talk to a stranger, sit in solitude, or travel as usual. The people who connected reported the most positive commutes, and the others had predicted the reverse. Asked to imagine it beforehand, they expected talking to be less pleasant than sitting alone. It turned out they were wrong.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "who": "Epley and Schroeder",
+    "where": "Journal of Experimental Psychology: General, published 2014",
+    "what": "People who talked with a stranger on their commute reported a more positive journey than those who sat alone, though they had predicted the opposite"
+   }
+  },
+  {
+   "say": "The paper reported nine experiments, in total, on trains, on buses and in a waiting room. Across them, people who connected with a stranger reported more positive experiences, while those predicting how it would feel expected the opposite. The authors suggested one reason is that we tend to underestimate how interested other people are in talking. And productivity, by the way, didn't suffer.",
+   "show": {
+    "type": "stat",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "title": "Experiments in one paper",
+    "big": "9",
+    "label": "field and lab studies"
+   }
+  },
+  {
+   "say": "It's a very gentle finding, because it isn't telling anyone off. It says that our forecasts about connection can be off, and especially when we're feeling a little guarded. The mind predicts awkwardness and rejection, and so we stay quiet, and so we never learn that the other person might have been glad to chat. The silence is, in a way, a small prediction that never gets tested.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A misleading forecast",
+    "sub": "Predicting wrongly, kindly"
+   }
+  },
+  {
+   "say": "Another study, by Gillian Sandstrom and Elizabeth Dunn, published in 2014, looked at buying coffee. Some people were asked to have a minimal social interaction with the barista, with a smile, eye contact and a brief chat. Others were asked to be as efficient as possible. The first group reported more positive feelings, and some evidence suggested that a sense of belonging helped explain why.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "who": "Sandstrom and Dunn",
+    "where": "Social Psychological and Personality Science, published 2014",
+    "what": "People who had a brief friendly exchange with a barista reported more positive feelings than those who were as efficient as possible"
+   }
+  },
+  {
+   "say": "So the tiny moments do seem to count. They won't replace a close friend, and nobody claims that they will. But they're real, and they're available on an ordinary Tuesday, and they might be how a quiet, careful mind starts to gather evidence that other people are, mostly, friendly. A friendly nod isn't a lesser version of connection. It's often where connection begins.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "street_day",
+    "cap": "Small, but real",
+    "sub": "Moments that count"
+   }
+  },
+  {
+   "say": "Let's gather those thoughts. Going out is a start, but it isn't a cure on its own. How a room feels to us matters as well as who is in it. Small moments are real moments. And our predictions about other people may be gloomier than the facts. Nothing here says Tomas has been doing it wrong. It simply points to a few gentler places to begin.",
+   "show": {
+    "type": "list",
+    "sprite": "A20",
+    "bg": "cabin_fireplace",
+    "title": "What this myth gets wrong",
+    "items": [
+     "Going out is a start, not a cure",
+     "How a room feels matters too",
+     "Small moments are real moments",
+     "Predictions about others can be too gloomy"
+    ]
+   }
+  },
+  {
+   "say": "Tomas is back at the window, with the lamp on and his tea cooling beside him. He's not sure about big changes tonight, and he doesn't need to be.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "Back to Tomas",
+    "sub": "A small idea"
+   }
+  },
+  {
+   "say": "But he notices that the idea of a small step feels very different from the idea of a grand new social life. A small step is something you can imagine on a Tuesday. And so, quietly, he begins to wonder which small step that might be.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Which small step?",
+    "sub": "Something he could imagine"
+   }
+  }
+ ]
+}

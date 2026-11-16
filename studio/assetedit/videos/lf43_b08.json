@@ -1,0 +1,299 @@
+{
+ "id": "lf43_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Tomas is still awake, and so he does what awake people do. He picks up his phone and scrolls. A headline slides past, the kind you may have seen yourself. Loneliness, it says, is as deadly as smoking fifteen cigarettes a day. He reads it twice. The room is quiet, and the sentence is not.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Past midnight",
+    "sub": "A headline on a small screen"
+   }
+  },
+  {
+   "say": "It's a sentence built to be remembered, and that is exactly why it travels so well. It is short, it is vivid, and it makes a quiet feeling sound like a fire alarm. For many people it lands as a small shock. Tonight we'll look at what stands behind it, gently, and see how much of it holds.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "text": "Loneliness is as deadly as 15 cigarettes a day.",
+    "by": "A sentence you may have heard"
+   }
+  },
+  {
+   "say": "Let's begin with what is true. Behind that sentence there is real research, done carefully, by serious scientists. Connection and health really do seem to travel together. What we want to understand is how big that link is, where the famous comparison came from, and what Tomas can sensibly take from it at one in the morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Start with what is solid",
+    "sub": "Real research, real people"
+   }
+  },
+  {
+   "say": "So let's go to the source. The comparison grew out of a large review of earlier studies, published in a journal called PLoS Medicine. A review of this kind doesn't run a new experiment. It gathers many older ones, puts them side by side, and asks what they say together.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "n": 1,
+    "title": "Where the number came from"
+   }
+  },
+  {
+   "say": "One large review asked who is still alive years later. The researchers were Julianne Holt-Lunstad, Timothy Smith and Bradley Layton. They gathered studies that had followed people over time and checked who was still alive at the end. People with stronger social relationships had about a fifty percent greater likelihood of survival than people with weaker ones. On average, the people in these studies were followed for about seven and a half years.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "who": "Holt-Lunstad, Smith and Layton",
+    "where": "PLoS Medicine, published 2010",
+    "what": "People with stronger social relationships had about a 50% greater likelihood of survival"
+   }
+  },
+  {
+   "say": "Here is the scale of it. A hundred and forty-eight separate studies, with three hundred and eight thousand, eight hundred and forty-nine people between them. That is a very large crowd. It is one reason this paper became so well known. When many studies, done in different places, lean the same way, it is hard to wave them away.",
+   "show": {
+    "type": "stat",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "title": "People across the studies",
+    "big": "308,849",
+    "label": "participants in 148 studies"
+   }
+  },
+  {
+   "say": "It helps to say what that number is and isn't. It describes groups of people, not one person. It means that, across hundreds of thousands of people, those with stronger relationships were more likely to still be alive when the studies ended. It does not say that any one person will fall ill, or that Tomas, awake in his flat, is in danger tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "autumn_overlook",
+    "cap": "Reading fifty percent",
+    "sub": "A likelihood, not a verdict"
+   }
+  },
+  {
+   "say": "This is where it gets a little untidy, in an honest way. Different studies measured connection differently. Some counted how many ties a person had. Some looked at whether people lived with others. Some asked how supported they felt. The paper pulled all of this together, which is useful, but it also means the result is a broad picture rather than a single sharp measurement.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "title": "What counted as social relationships",
+    "items": [
+     "How many ties a person had",
+     "Whether they lived with others",
+     "How supported they felt",
+     "Different studies, different measures"
+    ]
+   }
+  },
+  {
+   "say": "Tomas sits up a little. He notices that the sentence was never about being weak, or being broken. The finding, said the other way round, is quite hopeful. Stronger ties went with better odds of survival. Connection, it seems, is not only a pleasant extra in life. It may be one of the things a body quietly leans on.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Tomas on the sofa",
+    "sub": "A different thought"
+   }
+  },
+  {
+   "say": "Five years later, the same lead author and her team looked more closely. They asked a sharper question. What about loneliness itself, the felt gap we talked about at the start? They reviewed studies that had taken other factors into account, and compared three things: feeling lonely, being socially isolated, and living alone.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "who": "Holt-Lunstad and colleagues",
+    "where": "Perspectives on Psychological Science, published 2015",
+    "what": "Loneliness, social isolation and living alone were each linked to a higher likelihood of death"
+   }
+  },
+  {
+   "say": "Here are their results. Loneliness was linked with a twenty-six percent higher likelihood of death. Social isolation, which means having few contacts, was linked with twenty-nine percent. Living alone, thirty-two percent. Notice how close the three are, and how modest each one is next to the headline we began with.",
+   "show": {
+    "type": "bars",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "title": "Higher likelihood of death, by measure",
+    "unit": "%",
+    "bars": [
+     [
+      "Loneliness",
+      26.0
+     ],
+     [
+      "Social isolation",
+      29.0
+     ],
+     [
+      "Living alone",
+      32.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Remember our earlier myth, that lonely simply means alone. Here it comes back. These are three different things. A feeling, an amount of contact, and a living arrangement. A person can have one without the others. And the researchers found that each of them carried some added risk, which suggests that connection matters in more than one way.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Three different things",
+    "sub": "Feeling, contact and address"
+   }
+  },
+  {
+   "say": "Notice also what the numbers do not do. They do not say that loneliness causes early death by itself. These were studies that observed people over time, and observing is not the same as testing. Someone who is unwell may become isolated, and isolation may then make illness harder. The arrows can point both ways, and the studies can't always tell which way they point.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A gentle caution",
+    "sub": "Not a dial"
+   }
+  },
+  {
+   "say": "Imagine the kitchen Tomas walks into, to get a glass of water. One lamp on. A mug left from the evening. Rain on the window, and the soft hum of a refrigerator. It is an ordinary scene, and it holds no danger at all. It is simply a quiet room, in which a person is thinking about a headline.",
+   "show": {
+    "type": "photo",
+    "file": "lf43_b08_01.jpg",
+    "cap": "One lamp, one mug, a quiet kitchen"
+   }
+  },
+  {
+   "say": "Now to the cigarettes. If the paper does not say fifteen, then where does the number live? The answer is a little technical, but it is worth hearing, because it shows how a careful finding can slowly become a slogan.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "n": 2,
+    "title": "So where did fifteen come from"
+   }
+  },
+  {
+   "say": "The 2010 paper set its finding beside other well-known risks to health, such as smoking and alcohol use, to give readers a sense of scale. That is a normal thing for scientists to do. The cigarette line grew from that kind of comparison. Later, it was repeated by writers and speakers, and each retelling made it a little shorter and a little sharper.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "A comparison in the paper",
+    "sub": "Setting one risk beside another"
+   }
+  },
+  {
+   "say": "Later still, the comparison appeared in an official document. The advisory from the United States Surgeon General, titled Our Epidemic of Loneliness and Isolation, published in 2023, says the mortality impact of being socially disconnected is similar to that caused by smoking up to fifteen cigarettes a day. Notice the wording. Similar, and up to.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "text": "Similar to smoking up to 15 cigarettes a day",
+    "by": "Wording from the 2023 US Surgeon General advisory"
+   }
+  },
+  {
+   "say": "So how should we carry it? Lightly, and with some thanks. The comparison is a way of saying that connection matters at the level of public health, and that seems fair. But it is a picture, not a ruler. There is no dose of loneliness that works like a number of cigarettes, and nobody should expect to count their way to an answer.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "street_day",
+    "cap": "Why hold it lightly",
+    "sub": "A picture, not a ruler"
+   }
+  },
+  {
+   "say": "Let's gather the reasons. The studies watched people rather than assigning them to lonely or connected lives. Health can shape connection as well as the other way round. The ways of measuring differ from one study to the next. And smoking has decades of evidence behind it, which makes any direct swap a little shaky. None of this makes connection unimportant. It only makes the slogan less exact than it sounds.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "title": "Why the comparison is only approximate",
+    "items": [
+     "The studies observed people, they did not assign them",
+     "Health can shape connection, too",
+     "Measures differ from study to study",
+     "Smoking has its own large body of evidence"
+    ]
+   }
+  },
+  {
+   "say": "The Surgeon General's advisory is worth a quiet moment of its own. It gathers research that links loneliness and isolation with a higher risk of heart disease, dementia, stroke, depression, anxiety and early death. The key word is link. The advisory's main message is not fear. It is that connection deserves to be treated as something communities and individuals can look after.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "who": "US Surgeon General",
+    "where": "Our Epidemic of Loneliness and Isolation, published 2023",
+    "what": "Loneliness linked with higher risk of heart disease, dementia, stroke, depression, anxiety and early death"
+   }
+  },
+  {
+   "say": "This is the kindest way to use all of this. Let it be a reason for attention, rather than alarm. If a feeling is worth taking seriously, then it is worth meeting with some tenderness, not with panic. Panic is itself a poor sleeping companion. Care, on the other hand, can be remarkably quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "autumn_overlook",
+    "cap": "A kinder way to use it",
+    "sub": "Attention, not alarm"
+   }
+  },
+  {
+   "say": "This is only a small saying, and it is not from any study. But it is a useful one to keep. A risk describes how things tend to go across many lives. It is not a prediction for yours. And it is, quite often, a reason to look after what can be looked after, one small step at a time.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "text": "A risk is not a sentence.",
+    "by": "A gentle way to remember it"
+   }
+  },
+  {
+   "say": "So what might it mean for you? Probably not that you should count cigarettes. Perhaps just that the people in your life are not a luxury. A short call, a shared meal, a neighbour who knows your name, they are not small things. They may be quietly holding more than we notice, and they can be tended without any fuss.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "What it means for you",
+    "sub": "Soft, not scary"
+   }
+  },
+  {
+   "say": "Let's keep four small thoughts. Connection and health do seem to travel together. The size of the link is real, but not exact. The cigarette line is a picture, not a measurement. And a risk is not destiny. If you remember only those four, you will understand this research better than most headlines do.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "title": "What to take from the headline",
+    "items": [
+     "Connection and health do travel together",
+     "The size is real but not exact",
+     "The cigarette line is a picture, not a measurement",
+     "Risk is not destiny"
+    ]
+   }
+  },
+  {
+   "say": "Tomas puts his phone face down on the table. The sentence is still in his head, but it has changed shape. It no longer sounds like a threat. It sounds like a reminder that connection is something a body and a mind both lean on. He finds, to his surprise, that this makes him feel a little less alone with it.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Back to the phone",
+    "sub": "Screen face down"
+   }
+  },
+  {
+   "say": "And yet a question stays with him. If a feeling can be linked with something as big as health, there must be a path between the two. Something has to carry a lonely feeling into the body. What might that be? Perhaps it begins with the systems that decide when to be on alert, and how long to stay there.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "cap": "Where the body comes in",
+    "sub": "A question that remains"
+   }
+  }
+ ]
+}

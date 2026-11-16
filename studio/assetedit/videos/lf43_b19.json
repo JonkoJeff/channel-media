@@ -1,0 +1,172 @@
+{
+ "id": "lf43_b19",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now the little station falls behind, and you walk down the wooden path to the lake. The boards of the dock are pale and dry beneath your feet, and they creak very softly with every step. At the end, you stop and look up. The sky is deep and enormous, and the stars are so many and so clear that the darkness between them seems to glow.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "n": 1,
+    "title": "The lakeside dock"
+   }
+  },
+  {
+   "say": "You sit down at the very end of the dock, and let your feet hang over the edge. The water below is perfectly still, like black glass. Every star above is mirrored in it, so that you seem to be sitting between two skies. The air is cool and crisp, but you're wrapped in the blanket from the train, and the warmth stays close around your shoulders.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "The end of the dock",
+    "sub": "Cool boards, still water"
+   }
+  },
+  {
+   "say": "You lie back, slowly, until your shoulders and head rest on the boards. The wood is smooth, and still faintly warm from the day. The whole dock seems to float a little, held up by the quiet lake. Your arms rest loosely beside you. Above you, the stars wheel very slowly, and nothing at all is asked of you, except to rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Lying back",
+    "sub": "The dock holds you"
+   }
+  },
+  {
+   "say": "This is the view from where you lie. The dock stretches out into the dark water, a thin, pale line, and the lake lies around it like a mirror. The stars crowd the sky and crowd the water, and a faint silver band of the Milky Way arches overhead. Along the shore, the pines stand in dark, quiet rows. Everything is very still, and very far from any hurry.",
+   "show": {
+    "type": "photo",
+    "file": "lf43_b19_01.jpg",
+    "cap": "The dock under the stars"
+   }
+  },
+  {
+   "say": "Let's relax your body, slowly, from your feet to your head. Start with your feet. Let your toes uncurl and spread, and let your heels grow heavy. Feel the warmth gather in your ankles, as if they were resting in a pool of warm water. There's nothing to do with them. Just let them go, until you can barely tell where they end and the dock begins.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Starting with your feet",
+    "sub": "Warm and loose"
+   }
+  },
+  {
+   "say": "Now let the relaxation climb into your calves. They grow soft and heavy, like bags of warm sand. Then your knees, which loosen and unlock. Every small muscle around them lets go, one by one. A slow warmth moves up through your legs, and they feel long and quiet, as though they're sinking gently into the boards, supported by the deep, patient lake.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "cap": "Calves and knees",
+    "sub": "Soft and heavy"
+   }
+  },
+  {
+   "say": "Let's go on, a little higher. Your thighs, long and heavy. Your hips, settling into the wood. Let each one soften in turn, the way a candle softens near a flame. Your feet, your calves, your knees, your thighs, your hips, all warm, all loose, all quietly held. Take a slow breath in, and as you let it out, let another small piece of tension melt away into the night.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "title": "Letting go, from the ground up",
+    "items": [
+     "Feet",
+     "Calves",
+     "Knees",
+     "Thighs",
+     "Hips"
+    ]
+   }
+  },
+  {
+   "say": "Now your belly, which rises and falls like a small, calm tide. Let it be soft. Then your chest, which opens gently with each breath in, and sinks gently with each breath out. There's a lovely slowness in it. Notice how little effort the breathing takes. It happens all by itself, like water finding its level, and all you need to do is watch it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Belly and chest",
+    "sub": "Rising and falling"
+   }
+  },
+  {
+   "say": "You are held by more than you know. The floor holds you, and the dock holds you, and the lake holds the dock. The night holds the lake, and the stars hold the night. And somewhere out in the dark, there are people who think of you kindly, even when you don't know it. Tonight, you can rest inside all of that, with nothing to carry.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "You are held by more than you know.",
+    "by": "A gentle thought"
+   }
+  },
+  {
+   "say": "Let the relaxation flow into your hands now. Your fingers uncurl, one at a time. Your palms open, soft and warm, toward the sky. Your forearms grow heavy, and then your upper arms, and your shoulders sink down away from your ears. The whole of both arms feels like it's resting on soft, deep water, heavy and loose and wonderfully far from any effort.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "Hands and arms",
+    "sub": "Open and heavy"
+   }
+  },
+  {
+   "say": "Your neck softens next, so that your head feels as though it's resting in a bowl of warm sand. Your jaw unclenches, and your teeth part just a little. Your tongue rests quiet on the floor of your mouth. All the small, tight places in your throat go slack. There's a smooth, easy warmth behind your jaw, and it spreads upward like a slow tide.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "Neck and jaw",
+    "sub": "Soft and unclenched"
+   }
+  },
+  {
+   "say": "Your cheeks relax, and they feel smooth as the lake. Your eyes grow heavy and deep behind their lids, as if they were sinking slowly into pillows of soft, dark wool. Your forehead smooths out, and the small place between your eyebrows opens and widens. Your whole face feels peaceful, as calm as the water that lies all around you, under the stars.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Face and eyes",
+    "sub": "Smooth as the lake"
+   }
+  },
+  {
+   "say": "Nothing is left to do. The day is done, and the work of it is finished, whether or not it went the way you hoped. There is nothing to solve in this moment, and nobody to impress. There is only the lake, and the stars, and the long, easy breath of a body that is finally at rest.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "text": "Nothing is left to do.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "Far above, a single star slips across the sky, a quick silver line, there and gone. It makes no sound. It leaves no mark. You watch it with soft, half-closed eyes, and you feel a small, quiet wonder, the kind that needs no words. The sky goes back to its slow stillness, and your body goes back to its slow, easy breathing.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "A shooting star",
+    "sub": "One bright line"
+   }
+  },
+  {
+   "say": "Take one more long breath in, and let it fall away. Feel your whole back, from your hips up to your shoulders, resting on the boards. Feel how fully it is supported. Every little muscle along your spine lets go, like a string of lanterns being lowered one by one. Your body is as long and loose as a ribbon laid on still water.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Legs and back",
+    "sub": "One long exhale"
+   }
+  },
+  {
+   "say": "Your whole body is warm, heavy and still now, from your feet all the way up to your forehead. The lake laps softly at the pilings, once, and then once again, much more slowly. Your thoughts have grown very small and very far away. And one by one, the places you've visited tonight begin to glow softly in your mind, like lanterns, one last time before they fade.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Going quiet",
+    "sub": "Almost asleep"
+   }
+  }
+ ]
+}

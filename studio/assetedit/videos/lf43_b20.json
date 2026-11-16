@@ -1,0 +1,181 @@
+{
+ "id": "lf43_b20",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now the lake grows dimmer, and the stars soften. The places you've visited tonight are waiting, one behind another, like lamps in a long hallway. You don't have to go back to them. You can simply watch them fade, one at a time, and each one will leave a little warmth behind. Take a slow breath in, and a slower breath out.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 1,
+    "title": "Goodnight, quiet places"
+   }
+  },
+  {
+   "say": "First, the window above the city fades. The small lamp dims, and the glass grows soft and blurry. The lights of other lives across the street melt together into a gentle, golden mist. The blanket on your shoulders loosens and lets go. Goodnight to the window, where you learned that being alone can be restful, and that the night is shared.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The quiet window",
+    "sub": "Lamp light, fading"
+   }
+  },
+  {
+   "say": "Next, the harbor town fades. The cobbled lane, the glowing windows, the little boats rocking on their ropes. One by one, the lamps go out, and the quay grows dark and calm. The water settles into silver. Goodnight to the harbor, where every window held a life, and where you remembered that you are never as alone as you feel.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "cap": "The harbor",
+    "sub": "Lights on the water"
+   }
+  },
+  {
+   "say": "Let it all grow quiet. There is no need to hold on to any picture, or to remember any of it. What you needed from these places has already settled into you, the way the warmth of a day settles into stone. The rest can drift gently away, like smoke from a chimney, thinner and thinner, until it's just the dark.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "text": "Let it all grow quiet.",
+    "by": "A soft thought"
+   }
+  },
+  {
+   "say": "Then the mountain hut fades. The fire sinks to a last red glow, and the wool blankets turn to shadow. The kind faces gather around the hearth one more time, and then they dissolve into the warm dark, still smiling. Goodnight to the hut, where you were welcomed, and where you remembered that kindness never really leaves you.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The mountain hut",
+    "sub": "Embers, going out"
+   }
+  },
+  {
+   "say": "Notice how soft the dark has become. It no longer feels like an empty room. It feels like a blanket, wide and light, drawn up gently under your chin. The edges of everything are melting, the boundaries of your hands, the weight of your legs, even the sound of your own breathing. You are very close to sleep now, and there is nothing at all in the way.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "A softer dark",
+    "sub": "Edges melting"
+   }
+  },
+  {
+   "say": "Then the night train fades. The carriage lights go out, one by one, and the wheels go quiet, mile by mile. Last, the dock and the lake begin to dissolve. The mist rises from the water, softening the stars, and softening the pines, until everything is a pale, silvery haze, with only a few of the brightest stars still gently glowing, like very small lamps in a very big, kind sleep.",
+   "show": {
+    "type": "photo",
+    "file": "lf43_b20_01.jpg",
+    "cap": "The last of the night"
+   }
+  },
+  {
+   "say": "Goodnight to the train, which carried you without asking anything. Goodnight to the strangers, sleeping peacefully. Goodnight to the dock, and the long, still water, and the sky of ten thousand stars. They are all very far away now, and very soft, and very safe. Everything is exactly where it needs to be, and you don't have to hold any of it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The train and the dock",
+    "sub": "Slowly gone"
+   }
+  },
+  {
+   "say": "Far away, in his small, imagined flat, Tomas turns off the lamp and lies down. He doesn't need to have solved anything tonight. He sent one honest message, and he watched the lights of the city, and he let himself rest. His breathing slows. The street outside goes quiet. A little rain taps once on the window, and then he is asleep, just as peaceful as the night around him.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "Tomas, at last",
+    "sub": "Lamp turned off"
+   }
+  },
+  {
+   "say": "Here is what you can carry with you into sleep. A slower breath. A heavy, warm body. The light of other windows. The memory of kindness. And a quiet mind, as soft as snow. Those are all you need. You don't have to pack anything else. And tomorrow, if the day feels lonely, you can take one very small step toward another person, at your own pace, and that will be enough.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "title": "What you carry into sleep",
+    "items": [
+     "A slower breath",
+     "A heavy, warm body",
+     "The light of other windows",
+     "The memory of kindness",
+     "A quiet mind"
+    ]
+   }
+  },
+  {
+   "say": "Slow is a way of being kind. A slow breath is kind to a tired body. A slow evening is kind to a busy mind. And slow steps, taken toward other people, are kind to a heart that has been careful for a long while. There's no need to hurry any of it. Everything good you've pictured tonight has all the time in the world.",
+   "show": {
+    "type": "quote",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "text": "Slow is a way of being kind.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "Let's take a few last breaths together. Breathe in slowly, and feel your belly rise. Hold it for a moment, lightly. And let it go, long and soft, all the way out. Again, in, gently. And out, slowly. Notice how quiet the space inside you has become, as wide and still as a lake at night. One more, in, and out, and out.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "The last breaths",
+    "sub": "In, and out"
+   }
+  },
+  {
+   "say": "You are not alone in the night. There are windows glowing, and trains rolling, and people sleeping peacefully all around the world, breathing in the same slow rhythm as you. Whatever tomorrow holds, you can meet it a little more gently. Tonight, there is nothing left to do but rest, and let the quiet carry you.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "You are not alone in the night.",
+    "by": "Goodnight"
+   }
+  },
+  {
+   "say": "Goodnight. Goodnight to Tomas, wherever his quiet window may be. Goodnight to the lights of the harbor, and the fire in the hut, and the snow on the fields. Goodnight to you, with your heavy hands, and your soft breath, and your calm, warm heart. Let sleep come when it comes, softly, like the evening reaching a hill. You've done enough for today, and you are safe.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Goodnight",
+    "sub": "Sleep well"
+   }
+  },
+  {
+   "say": "There's nothing more to do now. No place to be, no one to answer, and nothing to prove. Your body is warm and heavy, and your mind is quiet and wide. If a thought drifts in, let it drift out again, like a leaf on a slow river. Everything that needed to be gathered has been gathered, and the night is looking after the rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "Nothing more to do",
+    "sub": "Only rest"
+   }
+  },
+  {
+   "say": "And if you find yourself lying awake some night, far from this quiet, with a memory you'd rather not have, something small and embarrassing from years ago, rising up out of the dark for no reason at all, there's a reason, and it's quite gentle to understand, when we meet again.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "One more thing",
+    "sub": "A soft whisper"
+   }
+  },
+  {
+   "say": "Why do those little moments return exactly when you're trying to sleep? Rest well tonight, and next time, we'll find out.",
+   "show": {
+    "type": "end",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "next": "Why Embarrassing Memories Come Back at Night"
+   }
+  }
+ ]
+}

@@ -68,9 +68,11 @@
   {
    "say": "Tomas walks over to the window with his blanket and sits down on the sill. Beyond the glass, the city has turned soft and blue. The lamp behind him makes a small golden glow on the pane, and the glow floats out over the street like a quiet lantern. He rests his forehead lightly against the cool glass and simply watches the evening, without needing to name anything he sees.",
    "show": {
-    "type": "photo",
-    "file": "lf43_b15_01.jpg",
-    "cap": "A lamp, a blanket, a window"
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A lamp, a blanket, a window",
+    "sub": "Watching the evening"
    }
   },
   {

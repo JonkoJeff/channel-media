@@ -1,0 +1,258 @@
+{
+ "id": "lf44_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "When Ivy replays the lecture hall, the scene always looks the same. Rows and rows of students, and every single one of them seems to be looking straight at her raised hand. In her memory, the whole room saw. The whole room noticed. The whole room remembered. But memories are not cameras, and the audience in a memory is often built by the person remembering it.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "The audience in the memory",
+    "sub": "Every face turned her way"
+   }
+  },
+  {
+   "say": "So let's ask a simple question. Who was really watching? Were the other students as focused on Ivy as she was on herself? It sounds like something nobody could ever check. But a team led by a psychologist at Cornell University found a clever and slightly mischievous way to test it, and their results have been repeated and discussed for decades.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A simple question",
+    "sub": "Who was really watching?"
+   }
+  },
+  {
+   "say": "In 2000, Thomas Gilovich, Victoria Medvec and Kenneth Savitsky published their work in the Journal of Personality and Social Psychology. In one experiment, a student was asked to put on a rather embarrassing T-shirt and walk into a room where other students were already sitting. Afterwards, the student guessed how many people in the room would be able to say what was on the shirt.",
+   "show": {
+    "type": "study",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "who": "Gilovich, Medvec and Savitsky",
+    "where": "Journal of Personality and Social Psychology, 2000",
+    "what": "We overestimate how much others notice us"
+   }
+  },
+  {
+   "say": "And here's what happened. The students wearing the shirt guessed that about 46 percent of the room would be able to recall it. In fact, only about 23 percent could. Roughly half as many as they feared. The researchers named this the spotlight effect. We tend to feel as if a spotlight follows us around, when really most people are busy standing in their own.",
+   "show": {
+    "type": "bars",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "title": "How many noticed the shirt?",
+    "unit": "percent of the room",
+    "bars": [
+     [
+      "Guessed by the wearer",
+      46.0
+     ],
+     [
+      "Actually remembered",
+      23.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Think about what the other students in Ivy's lecture hall were doing that morning. One was worried about an exam. One was half asleep. One was trying to remember if she'd locked her door. One was waving at the friend behind Ivy, and was probably only glad his friend waved back. Each of them was the centre of their own small world, and Ivy was just a passing detail at its edge.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "Their own spotlight",
+    "sub": "Everyone is busy"
+   }
+  },
+  {
+   "say": "But the spotlight is only half the story. There's a second illusion that often travels with it. It's not about whether people notice us at all. It's about whether they can see what we're feeling inside, the panic, the heat, the wish to disappear. When we're embarrassed, it often feels as if all of that is written across our faces in giant letters.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "n": 21,
+    "title": "The feeling of being see-through"
+   }
+  },
+  {
+   "say": "In 1998, the same research team published a study on what they called the illusion of transparency. People tend to overestimate how clearly others can read their inner feelings. In one experiment, volunteers told a mixture of truths and lies in front of a group, and then guessed how many listeners had caught their lies. They expected to be found out much more often than they actually were.",
+   "show": {
+    "type": "study",
+    "sprite": "A19",
+    "bg": "cafe_sunset",
+    "who": "Gilovich, Savitsky and Medvec",
+    "where": "Journal of Personality and Social Psychology, 1998",
+    "what": "The illusion of transparency"
+   }
+  },
+  {
+   "say": "In another part of their work, people tasted a drink that was deliberately unpleasant while trying to keep a straight face, with others watching. Afterwards, the tasters believed that their disgust had been plain to see. The observers, it turned out, mostly couldn't tell. What felt like an obvious grimace from the inside was barely visible from the outside.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A straight face",
+    "sub": "Harder to read than we think"
+   }
+  },
+  {
+   "say": "So we have two illusions that tend to travel together. The spotlight, where we think more people notice us than really do. And transparency, where we think they can see the feelings we're trying to hide. Both share one root. From the inside, our own experience is very loud. From the outside, to everyone else, it's often surprisingly quiet.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "title": "Two illusions that travel together",
+    "items": [
+     "The spotlight: we think more people notice us",
+     "Transparency: we think they can see our feelings",
+     "Both: our own view is loud, theirs is quiet"
+    ]
+   }
+  },
+  {
+   "say": "When Ivy realised her mistake at 19, her face felt like it was glowing. She was sure everyone could see it, and sure they all knew exactly how foolish she felt. But most people nearby probably saw only a girl lower her hand and open her notebook. The fierce heat she felt was almost entirely private. It lived on the inside, where nobody else could reach it.",
+   "show": {
+    "type": "char",
+    "sprite": "A09",
+    "bg": "attic_rain",
+    "cap": "Ivy's hot face",
+    "sub": "Brighter inside than out"
+   }
+  },
+  {
+   "say": "It might help to picture that lecture hall as it is today. Empty, quiet, the morning light falling across the rows of seats. No crowd, no faces, no echo of a raised hand. Hundreds of lectures have happened there since. Thousands of small slips, dropped pens, wrong answers and awkward waves have come and gone in that room, and the room has kept none of them.",
+   "show": {
+    "type": "photo",
+    "file": "lf44_b07_01.jpg",
+    "cap": "The lecture hall, empty now"
+   }
+  },
+  {
+   "say": "There's a quiet comfort in that thought. Rooms don't remember. Crowds don't remember for long. Most of the time, the only place an awkward moment survives is inside the person who lived it. And that means the memory isn't a public record. It's a private one, which also means it's ours to look at differently, if we choose.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "A room with no memory",
+    "sub": "Only we carry it"
+   }
+  },
+  {
+   "say": "But let's say someone did notice. Let's say one student saw the whole thing and understood exactly what happened. Surely that person thought less of her? This is usually the deepest fear inside an embarrassing memory. Not just that we were seen, but that we were judged. And this, too, has been put to the test.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "n": 22,
+    "title": "Do they judge as harshly?"
+   }
+  },
+  {
+   "say": "In 2001, Kenneth Savitsky, Nicholas Epley and Thomas Gilovich published a set of studies in the Journal of Personality and Social Psychology with a very direct title. Do others judge us as harshly as we think? People imagined, or actually experienced, small public failures and mishaps. Then they predicted how harshly others would judge them. And those predictions were compared with what the observers really thought.",
+   "show": {
+    "type": "study",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "who": "Savitsky, Epley and Gilovich",
+    "where": "Journal of Personality and Social Psychology, 2001",
+    "what": "Others judge our slips less harshly than we expect"
+   }
+  },
+  {
+   "say": "Across the studies, the pattern was clear. People expected to be judged more harshly than they really were. The observers were gentler, more understanding and less interested than the people who'd stumbled expected. Our inner critic, it seems, is far stricter than the people actually sitting in the room.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Kinder than we fear",
+    "sub": "The gap in judgment"
+   }
+  },
+  {
+   "say": "The researchers suggested some reasons why. Observers see the whole situation, not just the slip. They remember their own mishaps, and feel a little sympathy. They have plenty of other things to think about. And most people simply don't believe that one awkward moment tells them who a person really is. We know that about others. We just forget it about ourselves.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "Why others go easier on us",
+    "items": [
+     "They see the situation, not just the slip",
+     "They remember their own slips",
+     "They have other things to think about",
+     "One moment doesn't define a person"
+    ]
+   }
+  },
+  {
+   "say": "So who has been the harshest judge of that wave for nearly ten years? Not the professor. Not the student behind her. Not the friend who was waving. The harshest judge has been Ivy herself, lying awake, replaying a moment that everyone else let go of almost immediately. It's a strange kind of loyalty, holding onto a verdict nobody else ever reached.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Ivy's harshest judge",
+    "sub": "Only one person in the room"
+   }
+  },
+  {
+   "say": "If there's one sentence to take from all of this, it might be this one. The people who saw it were mostly thinking about themselves. That isn't a sad thing. It's a freeing one. It means that the giant audience in the memory was, in real life, a room full of busy, distracted, kind-enough people who had their own spotlights to worry about.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "text": "The people who saw it were mostly thinking about themselves.",
+    "by": "What the research suggests"
+   }
+  },
+  {
+   "say": "And tonight's slip, the one at the restaurant? The waiter said enjoy your meal, and Ivy said you too. It's almost certain that the waiter has heard that exact reply many times before, and smiled each time, and forgotten it before reaching the next table. In the waiter's evening, Ivy was one friendly face among many. That was all.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "And the waiter?",
+    "sub": "Tonight's little slip"
+   }
+  },
+  {
+   "say": "It's worth pausing on why we fall for these illusions so easily. The researchers pointed to something simple. We are stuck inside our own heads. We know exactly how we felt, and it's very hard to set that knowledge aside and imagine how little of it showed.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "n": 23,
+    "title": "Why our view is so loud"
+   }
+  },
+  {
+   "say": "Gilovich and his colleagues described it as a kind of anchoring. We start from our own inner experience, which is vivid and intense, and then we try to adjust toward what others might have seen. But we don't adjust far enough. So the heat in our cheeks, the racing thoughts and the urge to hide all get projected onto the people around us, as if they could feel them too.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "cap": "Anchored to ourselves",
+    "sub": "Starting from the inside"
+   }
+  },
+  {
+   "say": "Ivy notices that the heat in her face has started to cool. The memory is still there, but it seems a little smaller now, as if the lecture hall had shrunk to its real size. Fewer faces. Less attention. Less judgment. Just a busy room on an ordinary morning, and a young woman who made a tiny, very human mistake.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The heat begins to cool",
+    "sub": "A little lighter now"
+   }
+  },
+  {
+   "say": "And now comes the most surprising part of the story. Because some researchers have gone further than asking whether people judge us harshly after a slip. They've asked whether a moment of embarrassment might actually make people like us more. It sounds almost too kind to be true. But let's look at what they found.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "n": 24,
+    "title": "The surprising upside"
+   }
+  }
+ ]
+}

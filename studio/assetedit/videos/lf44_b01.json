@@ -1,0 +1,291 @@
+{
+ "id": "lf44_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "It's fourteen minutes past one in the morning, and the room is finally dark. Ivy has put her phone face down on the bedside table. The pillow is cool, the blanket is heavy in the right way, and her whole body is ready to let go of the day. And then, out of nowhere, a memory walks in. It doesn't knock. It just arrives, and her face goes warm in the dark.",
+   "show": {
+    "type": "char",
+    "sprite": "A09",
+    "bg": "bedroom_night",
+    "cap": "1:14 in the morning",
+    "sub": "The lights are out"
+   }
+  },
+  {
+   "say": "Before we go any further, a quick word about Ivy. She's imagined. She's someone we've pictured together to keep us company through tonight's ideas. She's in her late twenties, she works at a small library in the city, and she lives in a top-floor flat with a slanted ceiling. She's kind, a little shy, and perfectly ordinary. We borrow her because her night might look a little like one of yours.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Meet Ivy",
+    "sub": "Imagined, but familiar"
+   }
+  },
+  {
+   "say": "Here's the memory. She's nineteen, sitting in a big lecture hall on the first week of university. Someone a few rows down turns around, smiles, and waves. Ivy smiles and waves back, warmly, with her whole hand. And then the person behind her waves too, and calls out a name that isn't hers. The wave was never meant for her. She slowly lowers her hand and pretends to fix her hair.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "attic_rain",
+    "cap": "The wave",
+    "sub": "Nineteen years old"
+   }
+  },
+  {
+   "say": "That was about ten years ago. Nobody was hurt. Nothing changed because of it. The person in the lecture hall probably never thought about it again. And yet here it is, on an ordinary weeknight, as vivid as if it happened this afternoon. Ivy pulls the blanket a little higher, as if she could hide from a moment that's already long gone.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "text": "Ten years later, and still warm in the dark.",
+    "by": "Ivy's memory"
+   }
+  },
+  {
+   "say": "And then, as if one memory had opened the door for another, she remembers something from this very evening.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "And tonight, too"
+   }
+  },
+  {
+   "say": "She had dinner with a friend at a little place near the library. When the waiter put the plates down, he said, enjoy your meal. And Ivy, without thinking, said, thanks, you too. The waiter wasn't eating. He smiled, kindly, and walked away. At the time she laughed. Now, at fourteen minutes past one, she isn't laughing. She's replaying it, slowly, frame by frame.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "You too",
+    "sub": "A small slip at dinner"
+   }
+  },
+  {
+   "say": "Her friend had laughed out loud, the warm kind of laugh, not the unkind kind. Ivy had laughed too, and covered her face for a second, and they'd moved on to talking about a book. By the time the dessert arrived, it was forgotten. Or at least, it seemed to be forgotten. It turns out the mind had quietly filed it away, ready to bring it back at exactly the wrong moment.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "street_day",
+    "cap": "Her friend laughed",
+    "sub": "It was funny then"
+   }
+  },
+  {
+   "say": "So here's the question Ivy is asking herself, and maybe you've asked it too. Why now? Why does the mind keep these small, harmless moments, and why does it seem to save them for the exact moment the lights go out? During the day she barely thinks about them. At night they come back, uninvited, and somehow they still sting.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "Why does the mind save this for the dark?",
+    "by": "Ivy's quiet question"
+   }
+  },
+  {
+   "say": "If this has ever happened to you, you're in very large company. Lying awake and suddenly remembering something awkward is one of the most familiar experiences people describe. It doesn't mean you're fragile, or strange, or stuck in the past. It means you have a working memory, a social brain and a quiet room. Tonight we'll look at how those three things meet.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "You are not alone in this",
+    "sub": "One of the most common nights"
+   }
+  },
+  {
+   "say": "Here's where we're going tonight. Why memories arrive on their own, without being asked. Why they seem to wait for the night. What embarrassment actually is. Why the brain keeps these files at all. Why a memory can feel so physical. What other people really noticed. Why the tired brain turns the volume up. How these memories soften with time. And what gently helps.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Why memories arrive on their own",
+     "Why they seem to wait for the night",
+     "What embarrassment actually is",
+     "Why the brain keeps these files",
+     "Why a memory can feel so physical",
+     "What other people really noticed",
+     "Why the tired brain makes it louder",
+     "How these memories soften",
+     "What gently helps"
+    ]
+   }
+  },
+  {
+   "say": "We'll go slowly. There's no test at the end, and nothing you need to remember. Some of what we find will be surprising, and some of it, I hope, will be a relief. And the second half of tonight is a long, gentle wind-down, so if you drift off along the way, that's not a failure. That's the plan working.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Slowly",
+    "sub": "Plenty of time"
+   }
+  },
+  {
+   "say": "Let's start with the strangest part of Ivy's night. She didn't decide to think about the lecture hall.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "n": 2,
+    "title": "A memory without an invitation"
+   }
+  },
+  {
+   "say": "She wasn't looking through old memories. She wasn't trying to remember university. She was thinking about nothing at all, which is exactly what you're supposed to do when you want to fall asleep. And into that nothing, a ten-year-old moment stepped forward, complete with the smell of the lecture hall and the exact angle of the raised hand.",
+   "show": {
+    "type": "char",
+    "sprite": "A09",
+    "bg": "bedroom_night",
+    "cap": "Nobody called it",
+    "sub": "It simply came"
+   }
+  },
+  {
+   "say": "Most of the time, when we talk about memory, we mean remembering on purpose. What did I have for lunch? Where did I park? What was that teacher's name? But there's a second way memories reach us, and it's at least as common in everyday life. They simply pop up, by themselves, often triggered by something small we barely noticed. Psychologists have a name for that, and we'll meet it in a moment.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "cap": "Two ways to remember",
+    "sub": "On purpose, or by itself"
+   }
+  },
+  {
+   "say": "Look at Ivy's room for a moment. A slanted ceiling. A small skylight with a square of moonlight on the blanket. A glass of water on the bedside table, and the faint hum of the city far below. It's the most peaceful room you could imagine. And yet inside it, a mind is quietly flicking through old scenes, like someone turning the pages of an album they never meant to open.",
+   "show": {
+    "type": "photo",
+    "file": "lf44_b01_01.jpg",
+    "cap": "A quiet room, a busy mind"
+   }
+  },
+  {
+   "say": "Here's something worth noticing. The album isn't only embarrassing pages. On other nights, Ivy's mind brings back a summer afternoon, a song from a road trip, her grandmother's kitchen. Those come uninvited too. We just don't lie awake complaining about them. The pleasant ones slip through quietly. The awkward ones are the ones that make us flinch, so they're the ones we notice.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The album",
+    "sub": "Not every page is cringe"
+   }
+  },
+  {
+   "say": "That's a small thought to keep with you tonight. The pleasant memories come uninvited too. We just don't complain about them. It doesn't make the awkward ones disappear, but it puts them in better company. Your mind isn't singling out your worst moments. It's simply busy, and some of what it brings up happens to come with a little heat attached.",
+   "show": {
+    "type": "quote",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "text": "The pleasant memories come uninvited too. We just don't complain about them.",
+    "by": "A thought to keep"
+   }
+  },
+  {
+   "say": "Before we begin properly, a promise. Nobody here is going to tell you that you should simply stop caring about these things, or that you're overthinking. Caring how we come across to others is part of being human, and as we'll see, it's actually part of what makes people likeable. The goal tonight isn't to switch the feeling off. It's to understand it well enough that it can rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cafe_sunset",
+    "cap": "No blame",
+    "sub": "Not tonight"
+   }
+  },
+  {
+   "say": "You might wonder why anyone would study something as small as a wave in a lecture hall.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "n": 3,
+    "title": "Why it matters at all"
+   }
+  },
+  {
+   "say": "But small moments are often where the mind shows how it really works. A memory that comes back on its own tells us something about how memories are stored and found. A face going hot in the dark tells us something about how the brain treats other people's opinions. And a slip that feels huge at one in the morning tells us something about the tired brain. Each one is a little window.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Small, but telling",
+    "sub": "A window into the mind"
+   }
+  },
+  {
+   "say": "Right now, Ivy is doing what nearly everyone does in that window. She's replaying. The raised hand. The other name being called. The slow lowering of her arm. And then the waiter's kind smile. She runs it forward, then back, then forward again, as if watching it often enough might finally change the ending. It never does, of course. But the urge to replay is very human.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "bedroom_night",
+    "cap": "Replaying",
+    "sub": "Frame by frame"
+   }
+  },
+  {
+   "say": "And with each replay, she edits a little. In tonight's version, she notices the other person behind her and keeps her hand down. In another version, she says, thanks, enjoy your evening, like a perfectly smooth adult. The edits feel satisfying for a second. Then the real version comes back, unchanged, and the warmth in her face returns with it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "The edited version",
+    "sub": "Better each time"
+   }
+  },
+  {
+   "say": "Here's one gentle way to see it. Replaying is the mind checking its notes. It's trying to understand what happened and whether anything needs fixing. That's a useful habit during the day, when there's something you can do. At one in the morning, there usually isn't. So the checking goes round and round, with nothing to file it under. Later tonight, we'll find a few kinder places to file it.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "text": "Replaying is the mind checking its notes.",
+    "by": "A gentle way to see it"
+   }
+  },
+  {
+   "say": "And there's something Ivy doesn't know yet, lying there under the skylight. The person in the lecture hall, the waiter, her friend at dinner. If you could ask them, their memories of those moments would look very different from hers. Most likely, they'd barely remember them at all. And the ones who do might remember them with a smile, not a frown. We'll come back to that, because the research on it is lovely.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "What Ivy doesn't know yet",
+    "sub": "A surprising other side"
+   }
+  },
+  {
+   "say": "So let's be clear about what tonight is not. It's not a lecture about overthinking. It's not advice to stop caring what people think. It's not a cure, and it doesn't promise that the memories will never come back. It's just a calm, curious look at how all of this works, with a little science and a lot of time.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "title": "What tonight is not",
+    "items": [
+     "Not a lecture about overthinking",
+     "Not advice to stop caring",
+     "Not a cure",
+     "Just a calm look at how it works"
+    ]
+   }
+  },
+  {
+   "say": "So let's begin where the night began, with a memory that arrived without being called.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "n": 4,
+    "title": "Where we begin"
+   }
+  },
+  {
+   "say": "Before we go there, take one slow breath in, and let it out, a little longer than you breathed in. Ivy does the same. She turns onto her side and looks at the square of moonlight on the blanket. The memory is still nearby, but it's a bit quieter now that she's curious about it. And curiosity, it turns out, is a very good place to start.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Take a slow breath",
+    "sub": "Easy does it"
+   }
+  }
+ ]
+}

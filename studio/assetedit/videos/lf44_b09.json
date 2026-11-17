@@ -1,0 +1,277 @@
+{
+ "id": "lf44_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now, let's come back to the room where Ivy is lying awake. It's a little after half past one. The radiator ticks once, then goes quiet. And there's a question we've been circling all evening without quite asking it out loud. Why does the same small memory feel so much heavier now than it would at lunchtime? At noon, she'd probably shrug it off. At this hour, it seems to fill the whole ceiling.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "n": 28,
+    "title": "The tired brain"
+   }
+  },
+  {
+   "say": "Think about it for a moment. The wave in the lecture hall happened once, years ago, and nothing about it has changed since. The facts are exactly the same at noon and at half past one. What has changed is the brain doing the remembering. And a brain at the end of a long day is not quite the same instrument it was in the morning. It's tired, and tired brains read the world in a particular way.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Same memory, different hour",
+    "sub": "The clock changes the weight"
+   }
+  },
+  {
+   "say": "Ivy has been awake since seven. She shelved books, answered questions at the desk, helped a man find an old map, and then had dinner with a friend, where she said those two small words to the waiter. Her mind has been working all day. And now, lying still, it has very little left over for the careful, balanced kind of thinking that usually keeps an old embarrassment in proportion.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "bedroom_night",
+    "cap": "Running low",
+    "sub": "A long day behind her"
+   }
+  },
+  {
+   "say": "Researchers have looked at this quite directly. In a study published in 2007 in the journal Current Biology, Seung-Schik Yoo, Matthew Walker and their colleagues kept one group of healthy young adults awake for a whole night, while another group slept normally. The next day, both groups lay in a brain scanner and looked at pictures, some neutral and some quite unpleasant.",
+   "show": {
+    "type": "study",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "who": "Yoo, Gujar, Hu, Jolesz and Walker",
+    "where": "University of California, Berkeley",
+    "what": "Sleep-deprived people looked at unpleasant pictures in a brain scanner"
+   }
+  },
+  {
+   "say": "The difference was striking. In the people who had missed a night of sleep, the amygdala, a small region deep in the brain that helps flag emotional and threatening things, reacted about sixty percent more strongly to the unpleasant images than in the people who had slept. It was as if the volume knob for emotional alarm had been turned up.",
+   "show": {
+    "type": "stat",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "After a night without sleep",
+    "big": "60%",
+    "label": "stronger amygdala response to unpleasant images"
+   }
+  },
+  {
+   "say": "And there was a second finding that matters just as much. In the rested group, the amygdala seemed well connected to parts of the prefrontal cortex, the area behind the forehead that helps us put feelings into context and calm them down. In the sleep-deprived group, that connection looked weaker. So the alarm was louder, and the voice that usually says, it's all right, it's not that serious, was quieter.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "cap": "The brakes were weaker",
+    "sub": "Less calm from the front of the brain"
+   }
+  },
+  {
+   "say": "Now, Ivy hasn't stayed up all night, and one evening of tiredness is not the same as a full night without sleep. We shouldn't stretch the study further than it goes. But it gives us a useful picture. A tired brain tends to turn up the alarm and turn down the brakes. And that's exactly the moment when a small, old embarrassment can start to feel like a big, fresh one.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "text": "A tired brain turns up the alarm and turns down the brakes.",
+    "by": "A simple way to picture it"
+   }
+  },
+  {
+   "say": "This is worth holding onto. When a memory feels unbearable at half past one, it's not necessarily telling you how bad the moment really was. It may simply be telling you what time it is. The feeling is real, but its size is partly borrowed from tiredness. Many people find that the very same memory looks smaller and almost funny the next morning, after coffee and daylight.",
+   "show": {
+    "type": "char",
+    "sprite": "A09",
+    "bg": "bedroom_night",
+    "cap": "Not a sign of anything",
+    "sub": "Just the hour talking"
+   }
+  },
+  {
+   "say": "In fact, Ivy has some evidence of her own. She remembers other nights like this one. The night after a clumsy job interview, when she was sure she'd ruined everything. The night after she forgot a friend's name at a party. Each time, the moment seemed enormous in the dark. And each time, by the next afternoon, it had shrunk back to its real size, a small bump in an ordinary week.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Ivy's own evidence",
+    "sub": "She has seen this before"
+   }
+  },
+  {
+   "say": "It's a bit like looking at a shadow cast by a candle. Late at night, with the light low, a small object can throw a huge shape across the wall. In the morning, with the sun up, you see the object for what it is. A cup. A book. A wave in a lecture hall. The thing hasn't changed. Only the light has.",
+   "show": {
+    "type": "quote",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "text": "The thing hasn't changed. Only the light has.",
+    "by": "Candlelight and morning sun"
+   }
+  },
+  {
+   "say": "And here's the gentle twist. The very thing that Ivy is struggling to reach right now, sleep, seems to be one of the brain's own tools for softening emotional memories.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 29,
+    "title": "Sleep as a quiet helper"
+   }
+  },
+  {
+   "say": "In 2009, Matthew Walker and Els van der Helm published a review in Psychological Bulletin with a memorable title. Overnight therapy. They brought together research suggesting that sleep, and especially the dreaming stage called REM sleep, may help the brain keep the memory of an emotional event while gradually taking some of the sharp emotional charge out of it. They called this idea sleep to forget, and sleep to remember.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "who": "Walker and van der Helm",
+    "where": "Review, Psychological Bulletin, 2009",
+    "what": "Overnight therapy? The role of sleep in emotional brain processing"
+   }
+  },
+  {
+   "say": "It's still an idea that researchers are testing, and not every study agrees on the details. But the picture is a kind one. The brain may hold on to the lesson, be careful not to wave too quickly, while slowly loosening the sting that comes with it. In other words, the very night Ivy is lying through may be part of how this memory becomes lighter over time.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "street_day",
+    "cap": "Keep the lesson, lose the sting",
+    "sub": "A hopeful idea"
+   }
+  },
+  {
+   "say": "There's something gently ironic in that. The memory is keeping her awake, and staying awake keeps the memory sharp. Sleep would help soften it, if only she could get there. It's a small loop, and almost everybody has been caught in it at some point. The good news is that loops like this can be loosened, and we'll come to some ways of doing that soon.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "Which is a little ironic",
+    "sub": "The cure is the thing she's missing"
+   }
+  },
+  {
+   "say": "The room around Ivy is completely ordinary. The blanket, the window, the soft glow of the little clock. Nothing in here is dangerous, and nothing in here remembers the lecture hall at all. The whole drama is taking place in one tired mind, in the quiet. And that's a strangely comforting thought, because a tired mind is something that rest can change.",
+   "show": {
+    "type": "photo",
+    "file": "lf44_b09_01.jpg",
+    "cap": "Half past one, and still awake"
+   }
+  },
+  {
+   "say": "But first, let's look at why simply lying there and trying not to think about it so rarely works.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 30,
+    "title": "Why lying awake feeds it"
+   }
+  },
+  {
+   "say": "In 2002, the psychologist Allison Harvey, then at the University of Oxford, published an influential model of what keeps people awake. In her account, worry and churning thoughts at bedtime raise the body's arousal. The person then starts watching for signs that they're not sleeping, notices the clock, worries about the next day, and the worry raises arousal again. Thoughts and wakefulness keep each other going.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Allison Harvey",
+    "where": "University of Oxford, 2002",
+    "what": "A cognitive model of insomnia, in Behaviour Research and Therapy"
+   }
+  },
+  {
+   "say": "You can see the shape of it quite clearly. A thought arrives. The body tenses a little. Sleep starts to feel further away. Then comes a second worry, about not sleeping. And that second worry brings more thoughts. Ivy's embarrassing wave has quietly turned into something else. It's no longer only about the lecture hall. It's about tomorrow, and the clock, and whether she'll be tired at work.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "title": "The bedtime loop",
+    "items": [
+     "A thought arrives",
+     "The body tenses",
+     "Sleep feels further away",
+     "Worry about not sleeping",
+     "More thoughts arrive"
+    ]
+   }
+  },
+  {
+   "say": "So Ivy does what nearly everyone does. She tells herself, firmly, stop thinking about it. She turns over, squeezes her eyes shut, and tries to push the memory out of the room. It's a perfectly natural thing to try. And unfortunately, researchers have found that it often doesn't work the way we'd hope.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Pushing it away",
+    "sub": "The natural thing to try"
+   }
+  },
+  {
+   "say": "Harvey looked at this too. In a study published in 2003, some people with insomnia were asked to try to suppress the thoughts that came to them before sleep, while others were not. Compared with those who weren't asked to push thoughts away, the suppressors reported taking longer to fall asleep and sleeping less well. Trying hard not to think kept the mind busy with exactly the thing it was trying to avoid.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "who": "Allison Harvey",
+    "where": "Cognitive Therapy and Research, 2003",
+    "what": "Some people with insomnia were asked to suppress their pre-sleep thoughts"
+   }
+  },
+  {
+   "say": "This echoes much older work on thought suppression, which you may have come across on this channel before. The short version is simple. The harder you push a thought away, the more it seems to push back. Part of the mind has to keep checking whether the thought is gone, and that checking keeps the thought close at hand.",
+   "show": {
+    "type": "quote",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "text": "The harder you push a thought away, the more it seems to push back.",
+    "by": "A familiar experience"
+   }
+  },
+  {
+   "say": "So if pushing doesn't work, and dwelling doesn't help either, what's left? It turns out there's a middle path, somewhere between fighting the memory and feeding it. It involves letting the thought be present, without wrestling it, and without adding fresh worries on top. We'll come back to that carefully a little later tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A09",
+    "bg": "bedroom_night",
+    "cap": "So what instead?",
+    "sub": "Not fighting, not feeding"
+   }
+  },
+  {
+   "say": "If you recognise this loop, you're in very good company. It's one of the most ordinary experiences of being a person with a busy mind. Lying still, it can feel as though you're the only one awake in the whole city, wrestling with something silly. But on any given night, a great many people are lying in the dark doing exactly the same thing, each with their own small, replaying moment.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "A familiar loop",
+    "sub": "Almost everyone knows it"
+   }
+  },
+  {
+   "say": "For now, there's one very small thing Ivy can do. She can notice what's happening, and give it a name. Oh, this is the tired brain at half past one. This is the alarm turned up. Naming it doesn't make the memory vanish. But it changes her position, from someone being swept along by a feeling, to someone watching a familiar process unfold.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A smaller step first",
+    "sub": "Naming what's happening"
+   }
+  },
+  {
+   "say": "And there's one more piece of good news about these memories, something that happens slowly, over months and years, without anyone deciding it should.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "n": 31,
+    "title": "Something else the night does"
+   }
+  },
+  {
+   "say": "We tend to imagine memories as fixed things, like photographs in a drawer, the same every time we take them out. But researchers have found that memories are much softer than that. They change as we carry them. And one of the ways they change, for most people, is quietly in our favor. Let's follow Ivy's wave through the years, and see what time has already done to it.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Memories are not stone",
+    "sub": "They change as we carry them"
+   }
+  }
+ ]
+}

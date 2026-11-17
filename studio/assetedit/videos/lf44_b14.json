@@ -1,0 +1,161 @@
+{
+ "id": "lf44_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let the last lamp of the library fade into darkness, and let a new sound come in, far away at first. It's the sound of the sea. Slow waves, breaking softly, one after another. You are standing at the top of a wide, sandy beach at dusk. The tide is low, the sky is turning pale lilac, and the air is cool and fresh against your face.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "n": 42,
+    "title": "The beach at low tide"
+   }
+  },
+  {
+   "say": "You walk slowly down a short wooden path, and step onto the sand. It's soft and dry at first, and it shifts gently under your feet. Then, as you get closer to the water, it becomes cool and firm and smooth. Feel each step. The heel, then the sole, then the toes. There's no hurry here. The beach is very long, and the evening has all the time in the world.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Down to the sand",
+    "sub": "Soft under your feet"
+   }
+  },
+  {
+   "say": "Listen to the waves. Each one gathers, rises a little, folds over, and slides up the sand with a long, soft hush. Then it draws back again. Let your breath follow it. Breathe in as the wave gathers. Breathe out as it slides up the shore. In, slowly. And out, slowly, all the way. The sea has been breathing like this for longer than anyone can remember.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "The breath of the waves",
+    "sub": "In and out"
+   }
+  },
+  {
+   "say": "Here's a quiet thought, carried in on the wind. The sea doesn't hurry, and it never keeps score. It doesn't remember which wave was a little clumsy, or which one broke too early. Every wave is simply followed by the next. And the shore receives each one the same way, softly, without judgment, again and again through the night.",
+   "show": {
+    "type": "quote",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "text": "The sea doesn't hurry, and it never keeps score.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "Turn around for a moment and look back. Behind you, a line of footprints runs along the wet sand, each one a small, clear shape, pressed down by your weight. They look so definite, so permanent, as if they'll be there forever. You might notice that some are a little crooked, where you stepped around a shell, or paused, or wandered off the straight line.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Footprints",
+    "sub": "A line behind you"
+   }
+  },
+  {
+   "say": "Now watch as a wave slides up a little further than the others. It reaches the nearest footprints, and fills them with a thin sheet of shining water. When it draws back, the edges are softer. Another wave comes, and the shapes are softer still. And after a few more, they're gone completely, and the sand is smooth and new, as if no one had ever walked there.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The water arrives",
+    "sub": "Smoothing them away"
+   }
+  },
+  {
+   "say": "Look along the shore. The wet sand shines like glass, holding the colors of the sky, lilac and peach and the first deep blue. The last footprints are softening at the water's edge. Further out, the waves roll in, small and gentle and patient. It's one of the most peaceful sights in the world, the shoreline quietly making itself new.",
+   "show": {
+    "type": "photo",
+    "file": "lf44_b14_01.jpg",
+    "cap": "Footprints in the shallows"
+   }
+  },
+  {
+   "say": "Memories can be a little like those footprints. A moment that once felt sharp and clear, pressed hard into the sand, slowly softens with each passing tide. The edges blur. The feeling fades. And one day you look back and find the shape is gentle, or barely there at all. You don't need to scrub it away yourself. Time and the tide do that work, quietly.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Like memories",
+    "sub": "Softened by time"
+   }
+  },
+  {
+   "say": "Find a comfortable place to sit, a little above the water line, where the sand is still dry and slightly warm from the day. Sit down slowly, and feel the sand shape itself around you. It holds you perfectly, without any effort from you at all. Let your hands rest on it. Let your legs stretch out toward the sea. Breathe in the salty air, and breathe out.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Sitting by the water",
+    "sub": "The sand holds you"
+   }
+  },
+  {
+   "say": "Watch the water, and let it carry a few things away for you. The sharp edges of the day. The crooked steps. The small worries that followed you to bed. Everything that's already done. One by one, the waves take them, softly, and the shore is left smooth again. The sharp edges. The crooked steps. The worries. Everything that's done.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "title": "What the tide carries away",
+    "items": [
+     "The sharp edges",
+     "The crooked steps",
+     "The worries of the day",
+     "Everything that's done"
+    ]
+   }
+  },
+  {
+   "say": "Above the sea, the sky is darkening now, slowly. The lilac fades to violet, and then to a deep, velvet blue. And one by one, the first stars come out, faint at first, then clearer. A few of them seem to tremble on the surface of the water, broken into tiny silver pieces by the waves, and then gathered together again.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "The first stars",
+    "sub": "Over the water"
+   }
+  },
+  {
+   "say": "Let your body grow heavier. Your shoulders sink a little lower. Your arms rest heavy at your sides. Your legs feel loose and warm, as if the sand were slowly pulling all the tension out of them. Breathe in, and feel your chest rise. Breathe out, and feel everything settle, a little deeper, a little softer, like the shore after a wave.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "Heavy and warm",
+    "sub": "Sinking into the sand"
+   }
+  },
+  {
+   "say": "Here's a gentle reminder, for this quiet hour by the water. Nothing that happened today needs to be carried into tomorrow. The tide will come and go many times before morning. And every time, it will leave the sand a little smoother, a little fresher, ready for a new day of footprints, whatever shape they turn out to be.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "text": "Nothing that happened today needs to be carried into tomorrow.",
+    "by": "A gentle reminder"
+   }
+  },
+  {
+   "say": "The light is almost gone now, and the beach is a soft dark shape beneath the stars. But the sound of the waves remains, slow and steady, rising and falling, close and far at the same time. Let it fill your ears. Let it become the rhythm of your breath. In, as the wave gathers. Out, as it slides gently home.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The sound remains",
+    "sub": "Slow and steady"
+   }
+  },
+  {
+   "say": "Soon, the sound of the sea will soften, and change, and become the gentle patter of rain on glass. We'll go there together in a moment, somewhere warm and green. But for now, stay here a little longer, on the cool sand under the first stars, breathing slowly with the tide, as the last footprints disappear and the shore is made new.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "cap": "Drifting on",
+    "sub": "Toward somewhere new"
+   }
+  }
+ ]
+}

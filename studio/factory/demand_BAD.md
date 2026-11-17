@@ -54,3 +54,5 @@ Done 14 Nov: lf41 The Psychology of Putting Things Off (F02 sleep marathon with 
 Done 15 Nov: lf42 Why Habits Are So Hard to Break (F01 deep dive with imagined Ines after a move, 14 story blocks + 6 wind-down, 20 blocks, ~28.1k spoken words, Shorts sh42_04-11,13,14; Claude failover writer). Next: lf43 What Loneliness Does to Your Brain (teased at the end of lf42). Keep >= 2 reserve long videos.
 
 Done 16 Nov: lf43 What Loneliness Does to Your Brain (F10 myth vs science with imagined Tomas, 14 story blocks + 6 wind-down, 20 blocks, ~28.1k spoken words, Shorts sh43_01-08,10-13; Claude failover writer). Next: lf44 Why Embarrassing Memories Come Back at Night (teased at the end of lf43). Keep >= 2 reserve long videos.
+
+Done 17 Nov: lf44 Why Embarrassing Memories Come Back at Night (F02 sleep marathon with imagined Ivy, 11 story blocks + 9 wind-down, 20 blocks, ~25.9k spoken words, Shorts sh44_03,05-11; Claude failover writer). Next: lf45 Why You Remember Faces but Forget Names (teased at the end of lf44). Keep >= 2 reserve long videos.

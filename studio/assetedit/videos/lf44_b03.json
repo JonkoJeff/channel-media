@@ -1,0 +1,288 @@
+{
+ "id": "lf44_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's think about Ivy's day for a moment. From the minute she woke up, her attention was busy. The bus, the library desk, a queue of people with questions, emails, dinner with a friend. Every hour had something in it that needed her. And then, at the end of it all, she lay down in the dark and gave her mind the one thing it almost never gets. Nothing.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "n": 8,
+    "title": "Why they wait for the night"
+   }
+  },
+  {
+   "say": "A dark bedroom is a little like an empty stage. No lights, no actors, no script. During the day, the outside world fills that stage all the time, with sounds, faces and tasks. At night the curtains close on the outside world. And the mind, which hates an empty stage, starts bringing out its own performers. Some of them are lovely. Some of them are wearing the lecture hall.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "An empty stage",
+    "sub": "Nothing to look at"
+   }
+  },
+  {
+   "say": "Remember what Berntsen's diaries showed. Memories from your own life tend to pop up when attention is loose and spread out, rather than focused on a task. In her later writing, including a review published in 2010 in Current Directions in Psychological Science, she called them the unbidden past. And there are few moments in a day when attention is looser than when you're lying in bed, waiting for sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cafe_sunset",
+    "cap": "Loose attention",
+    "sub": "The door swings open"
+   }
+  },
+  {
+   "say": "The unbidden past. It's a lovely phrase for what Ivy is experiencing. Memories that weren't asked for, rising up because the mind finally has room for them. In daytime they're often crowded out by what's in front of us. At night, there's nothing in front of us except the ceiling. So the unbidden past has the whole stage to itself.",
+   "show": {
+    "type": "quote",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "text": "The unbidden past",
+    "by": "Dorthe Berntsen, 2010"
+   }
+  },
+  {
+   "say": "But there's more to it than an empty stage. When neuroscientists started looking at the brain at rest, they found something surprising.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "n": 9,
+    "title": "The brain at rest"
+   }
+  },
+  {
+   "say": "For a long time, people assumed the brain mostly switched down when it wasn't doing a task. Then, in 2001, Marcus Raichle and his colleagues published a paper in the Proceedings of the National Academy of Sciences. It described a set of brain regions that were reliably more active when people were resting quietly than when they were concentrating on a task. They called it a default mode of brain function.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "who": "Marcus Raichle and colleagues",
+    "where": "Washington University, St. Louis",
+    "what": "Found brain regions that become more active at rest"
+   }
+  },
+  {
+   "say": "It was a quiet surprise for the field. The brain, it turned out, is never really off. Even lying still with your eyes closed, it keeps using a large share of the body's energy, and much of that activity has nothing to do with the outside world. Rest isn't an empty space in the brain's day. It's a different kind of work.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "cap": "Never really off",
+    "sub": "A busy rest"
+   }
+  },
+  {
+   "say": "This network of regions became known as the default mode network. It's active when we're not focused on the outside world. And over the following years, researchers linked it with exactly the kind of things Ivy is doing now. Remembering the past. Imagining the future. Thinking about ourselves, and about other people, and what they might think of us.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "The default mode",
+    "sub": "The brain's own channel"
+   }
+  },
+  {
+   "say": "Here's what the resting brain tends to drift toward, according to that research. It remembers the past. It imagines the future. It thinks about ourselves. And it thinks about other people, and how we fit in with them. Now look at Ivy's lecture hall memory. It's the past, it's about herself, and it's about how other people saw her. It's almost exactly what the resting brain is built to bring up.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "title": "What the resting brain tends to do",
+    "items": [
+     "Remember the past",
+     "Imagine the future",
+     "Think about ourselves",
+     "Think about other people"
+    ]
+   }
+  },
+  {
+   "say": "That's quite comforting, in its way. When Ivy's mind brings up the wave in the lecture hall, it isn't malfunctioning. It's doing what it does whenever we stop asking it for something. It's sorting through our life, our place among people, our story so far. It's just picked a page she'd rather skip.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Not a malfunction",
+    "sub": "The brain doing its job"
+   }
+  },
+  {
+   "say": "The resting brain is still at work, sorting through our story. Most of us only notice it when the sorting lands on something uncomfortable. On a peaceful evening, the same network might bring up a childhood beach, or a plan for the weekend, and we'd hardly notice it at all, except as a pleasant drifting feeling just before sleep.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "The resting brain is still at work, sorting through our story.",
+    "by": "A way to see it"
+   }
+  },
+  {
+   "say": "And as we drift toward sleep, those wandering thoughts often loosen even further. They become less like sentences and more like pictures. A street, a face, a half-heard voice. Many people notice that just before they fall asleep, their thoughts turn strange and dreamlike. That's often a good sign. It means the mind is letting go of steering.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Drifting toward sleep",
+    "sub": "Thoughts loosen"
+   }
+  },
+  {
+   "say": "Picture an empty theatre late at night. The seats are dark, the curtains are closed, and one soft light rests on the bare boards. That's a little like the mind at bedtime. There's no show scheduled. But the stage is lit, and whatever wanders onto it gets all of our attention, simply because there's nothing else to look at.",
+   "show": {
+    "type": "photo",
+    "file": "lf44_b03_01.jpg",
+    "cap": "An empty stage"
+   }
+  },
+  {
+   "say": "There's one more reason the awkward memories in particular seem to come out at night.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 10,
+    "title": "Why the social pages come up"
+   }
+  },
+  {
+   "say": "A great deal of our resting thought is about other people. What they said, what they meant, what they might think of us. We're a deeply social species, and the brain seems to spend its spare time going over our relationships, the way someone might go over a map of a town they live in. Embarrassing moments are, almost by definition, social moments. So they're right at the top of the pile.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Other people, on our minds",
+    "sub": "Even when they're not here"
+   }
+  },
+  {
+   "say": "Think of it as a social map. During the day we travel the roads, talking, working, joking. At night the mind looks over the map. Which roads are smooth? Which ones had a bump? A slip with a waiter is a small bump. A wave meant for someone else is another. The mind marks them, gently but insistently, as if to say, remember this road.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "A social map",
+    "sub": "Checking the roads"
+   }
+  },
+  {
+   "say": "And notice which roads get marked. The thousands of smooth conversations Ivy had this year, the polite hellos and easy chats, aren't on tonight's list. They went fine, so there's nothing to check. Only the bumps get circled. That makes the map look much rougher than the roads really are. A night spent looking at bumps can make a perfectly good year feel full of potholes.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "Bumps get marked",
+    "sub": "Smooth roads don't"
+   }
+  },
+  {
+   "say": "The mind looks over the social map while we rest. It's not trying to make us feel small. It's checking on the roads that matter to it, and the roads that matter most to a social creature are the ones that lead to other people. Later tonight we'll see why that checking can get so loud, and why it's usually louder than it needs to be.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "text": "The mind looks over the social map while we rest.",
+    "by": "A picture to keep"
+   }
+  },
+  {
+   "say": "So here's the picture so far. A quiet room. A loose, unfocused attention. A resting brain that loves to sort through the past and through our place among people.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "n": 11,
+    "title": "A quieter room, a louder mind"
+   }
+  },
+  {
+   "say": "Put those together, and you have the perfect conditions for an embarrassing memory to visit. It's not that these memories only exist at night. It's that the night is when they finally have room to be noticed. In the middle of a busy afternoon, the lecture hall would have been crowded out in seconds. At fourteen minutes past one, it gets the spotlight.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "The perfect conditions",
+    "sub": "For a memory to visit"
+   }
+  },
+  {
+   "say": "Here's the key idea so far. The night doesn't create these memories. It just gives them room. The lecture hall wave has been in Ivy's memory all along, through ten years of busy days. It only feels like it belongs to the night because the night is the one time it isn't crowded out by everything else.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "cabin_fireplace",
+    "text": "The night doesn't create these memories. It just gives them room.",
+    "by": "The key idea so far"
+   }
+  },
+  {
+   "say": "Let's gather it together. Fewer distractions. Looser attention. A resting brain that drifts to the past, and to other people. And nothing new arriving to take the memory's place. Those five things, side by side, explain a great deal of why a ten-year-old wave can feel so present in the dark.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "title": "Why the night invites them",
+    "items": [
+     "Fewer distractions",
+     "Looser attention",
+     "The resting brain drifts to the past",
+     "It drifts to other people",
+     "Nothing new to take its place"
+    ]
+   }
+  },
+  {
+   "say": "There's a useful clue hidden in this, which we'll come back to near the end. If the daytime keeps these memories quiet by filling the stage, then a gentle, simple thing to focus on at night can do something similar. Not a phone full of bright news, but a slow breath, a calm story, a soft picture. Something just interesting enough to hold the stage, kindly.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Daytime helps too",
+    "sub": "A clue for later"
+   }
+  },
+  {
+   "say": "Ivy lies still and listens. The city below is quiet, just the faint sound of a car now and then. She thinks, maybe it's not that I'm thinking about this too much. Maybe it's just that I've finally stopped thinking about everything else. And that small change of view makes the memory feel a little less like an alarm, and a little more like a visitor.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Ivy listens",
+    "sub": "The city below"
+   }
+  },
+  {
+   "say": "But she still can't quite shake the feeling that came with it. That heat in her face. That tightening in her stomach. That urge to pull the blanket over her head. A memory might drift in quietly, but the feeling that comes with an embarrassing one is anything but quiet. So what exactly is that feeling?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Still, why so hot?",
+    "sub": "The feeling itself"
+   }
+  },
+  {
+   "say": "Understanding a feeling makes it easier to hold. So that's where we'll go next, to the feeling itself. What embarrassment is, where it comes from, and why it's such an unusual emotion, one that only makes sense because other people exist.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "text": "Understanding a feeling makes it easier to hold.",
+    "by": "Where we go next"
+   }
+  },
+  {
+   "say": "But first, let's take a slow breath together. In, gently, and out, a little longer. Let your shoulders sink into the bed, if you're in one. Ivy does the same, and the room seems to settle with her. The stage is still lit. But the performers are moving a little more slowly now.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "Breathe",
+    "sub": "Slowly now"
+   }
+  }
+ ]
+}

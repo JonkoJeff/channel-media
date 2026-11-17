@@ -1,0 +1,181 @@
+{
+ "id": "lf44_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now let the stars stay where they are, high and patient above you, and let your feet carry you slowly down the hill. The path is soft with grass, and the air is cool and still. Somewhere below, in the dark, there's the quiet sound of water moving. Not rushing, not hurrying anywhere. Just moving, the way a river does at night, steady and calm and certain of its way.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 45,
+    "title": "Down to the river"
+   }
+  },
+  {
+   "say": "At the bottom of the path, the river opens out in front of you, wide and dark and smooth. A small wooden boat is resting by the bank, tied loosely to an old post. Its sides are worn smooth by many years of gentle use. There's a folded blanket on the seat, and a soft cushion at the back. It looks as if it has been waiting here just for you, with no hurry at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "cap": "The water's edge",
+    "sub": "A wooden boat waiting"
+   }
+  },
+  {
+   "say": "You step in carefully, and the boat dips a little under your weight, then settles. You sit down on the cushion and pull the blanket over your knees. The wood is still faintly warm from the day. Breathe in slowly, as the boat rocks once, and twice, and then grows still. Breathe out, and feel how your body settles into the shape of the seat.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Stepping aboard",
+    "sub": "The boat rocks gently"
+   }
+  },
+  {
+   "say": "A river never carries the same water twice. Every moment, the water that was here moves on, and new water takes its place. Memories are a little like that too. They seem to stay the same, but each time they pass through us, they're a little different, a little softer, carried a little further downstream. You don't need to hold on to any of it tonight.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "A river never carries the same water twice.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "The rope slips gently from the post, all by itself, and the boat begins to drift. There are no oars to pull and no direction to choose. The current knows the way. You simply sit, and let it carry you, slowly, slowly, away from the bank and out into the soft middle of the river, where the water is calm and wide and quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The rope slips free",
+    "sub": "Drifting away from the bank"
+   }
+  },
+  {
+   "say": "Along the bank, someone has hung small lanterns in the branches of the willows. They glow a soft amber, one after another, and each one leaves a long, trembling ribbon of light across the water. As the boat drifts past, the ribbons bend and sway and come together again. The whole river seems to be lit from within, warm and golden and slow.",
+   "show": {
+    "type": "photo",
+    "file": "lf44_b17_01.jpg",
+    "cap": "Lanterns along the river"
+   }
+  },
+  {
+   "say": "Listen to the water. It laps softly against the side of the boat, a small, patient sound, again and again. Lap, and pause. Lap, and pause. Let your breathing find that same rhythm. Breathe in as the water rises against the wood. Breathe out as it falls away. There's nothing to count and nothing to keep track of. Just the water, and your breath, moving together.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "The sound of water",
+    "sub": "Lapping at the wood"
+   }
+  },
+  {
+   "say": "The willows lean over the river, their long branches trailing down until the tips just touch the surface. As you pass beneath them, the leaves brush softly over the edge of the boat, like fingers saying hello and goodbye at the same time. Then you're through, and the sky opens up again above you, dark blue and scattered with stars.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "The willows",
+    "sub": "Leaves trailing in the water"
+   }
+  },
+  {
+   "say": "Notice the small things the river carries along beside you. A fallen leaf, turning slowly. A ripple of moonlight, breaking and mending. A soft breeze, moving over the water. And perhaps a thought you no longer need, floating away downstream. You don't have to push it. You only have to let the river take it, the way it takes everything else.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "title": "Things the river carries",
+    "items": [
+     "A fallen leaf",
+     "A ripple of moonlight",
+     "A soft breeze",
+     "A thought you no longer need"
+    ]
+   }
+  },
+  {
+   "say": "If an old moment drifts up into your mind now, a little flush of embarrassment from long ago, let it sit in the water beside the boat for a while. Look at it kindly. Then watch it slip back into the current, and drift further and further downstream, until it's just a small dark shape on the river, and then not even that.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Old moments",
+    "sub": "Further and further downstream"
+   }
+  },
+  {
+   "say": "Somewhere, far away from this river, Ivy has stopped turning over on her pillow. The memory of the lecture hall is still there, but it has lost its heat. It feels small now, and almost fond, like an old photograph of a younger self who meant well. Her breathing has slowed, and the room around her is quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Ivy, far away",
+    "sub": "A softer night"
+   }
+  },
+  {
+   "say": "You are allowed to drift. You don't have to steer, or plan, or fix anything tonight. The river is wide and patient, and it has carried many boats before yours, all the way through the dark, and safely into the morning. Let your shoulders loosen. Let your hands rest open on the blanket. Let the boat do the work.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "text": "You are allowed to drift.",
+    "by": "A gentle permission"
+   }
+  },
+  {
+   "say": "On the bank, half hidden in the reeds, a grey heron stands perfectly still on one long leg. It doesn't startle as you pass. It simply watches the water, patient and calm, as if it has all the time in the world. And perhaps it does. Let some of that stillness reach you. Let your breath slow down to the heron's pace, unhurried, and quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "A heron on the bank",
+    "sub": "Still as a stone"
+   }
+  },
+  {
+   "say": "Nothing on this river is in a hurry. Not the water, not the heron, not the willows, not the moon. Everything moves at exactly the pace it needs to, and no faster. You can borrow that pace tonight. Breathe in, slowly, and hold the breath for just a moment. Then let it go, long and soft, and feel how much quieter the night has become.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "Nothing on this river is in a hurry.",
+    "by": "A slow thought"
+   }
+  },
+  {
+   "say": "The river curves gently to the left, and the lanterns grow fewer and further apart. The light becomes softer, then dimmer, until only the stars and a pale slice of moon remain. The water is darker here, and even calmer. The boat hardly seems to move at all, though the bank is sliding slowly past, tree by tree.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "A bend in the river",
+    "sub": "The lanterns grow fewer"
+   }
+  },
+  {
+   "say": "Your body feels heavier now, sinking a little into the cushion, as if the boat itself is holding you. Breathe in, slow and deep. Breathe out, long and soft. Your eyelids are heavy, your face is soft, your jaw is loose. The air is cool on your cheeks, and the blanket is warm on your knees.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Heavier and heavier",
+    "sub": "Resting in the boat"
+   }
+  },
+  {
+   "say": "Far ahead, the river widens into a calm, still pool, where the water rests before it travels on. The air there smells faintly of snow, cold and clean. And as the boat drifts gently toward it, you notice the first few soft white flakes beginning to fall from the sky, one by one, onto the dark water, and melting without a sound.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 46,
+    "title": "Toward the quiet"
+   }
+  }
+ ]
+}

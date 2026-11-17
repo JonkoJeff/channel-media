@@ -1,0 +1,161 @@
+{
+ "id": "lf44_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let the rain on the glass fade away, and let the clouds slowly part above you. The air turns clear and cool. You are walking up a gentle hillside path at night, toward a small, old observatory with a rounded dome. The grass is soft beside the path, the hills roll away into darkness, and above you, the sky is opening up, wider than you've seen it in a long time.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "n": 44,
+    "title": "The hillside observatory"
+   }
+  },
+  {
+   "say": "The path is easy, and you walk it slowly. Each step brings you a little higher, a little further from the lights of the town below. The sounds of the day fall away behind you. There's only the soft crunch of gravel under your feet, the whisper of the grass in a light breeze, and your own breath, calm and even. In, and out.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "The path up the hill",
+    "sub": "Slow and easy"
+   }
+  },
+  {
+   "say": "At the top of the hill, the observatory waits, its white dome pale in the starlight. The door is open. Inside, it's quiet and dim, with a curved wooden floor and a big, old telescope pointing up at the sky. Slowly, with a soft mechanical hum, a long panel in the dome slides open, and a strip of deep, starry night appears above you.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "The dome",
+    "sub": "Opening to the sky"
+   }
+  },
+  {
+   "say": "Here is a quiet thought, as you stand beneath that open dome. The night sky is patient. It has waited a very long time for you to look up. Every star you see tonight was shining long before you were born, and it will go on shining long after this evening is forgotten. There's a deep calm in that. The sky isn't in any hurry at all.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "text": "The night sky is patient. It has waited a very long time for you to look up.",
+    "by": "A quiet thought"
+   }
+  },
+  {
+   "say": "Near the telescope, there's a long, reclining chair, padded and soft, with a woollen blanket folded on it. You lie back on it slowly, and pull the blanket over you. The chair tilts you gently, so that you're looking straight up through the opening in the dome. Let your head sink back. Let your arms rest at your sides. There's nothing to do here but look.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "A soft chair",
+    "sub": "Leaning back"
+   }
+  },
+  {
+   "say": "At first you see only a few bright stars. But as your eyes adjust to the dark, more appear. Then more, and more. Faint ones between the bright ones. Tiny ones between the faint ones. Until the whole strip of sky is dusted with light, like sugar spilled across dark blue velvet. Breathe in, slowly, and breathe out, as the sky fills up with stars.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Stars appearing",
+    "sub": "More and more"
+   }
+  },
+  {
+   "say": "Look out across the whole sky now. A soft, pale band of light stretches from one side to the other, made of more stars than anyone could ever count. The hills lie dark and quiet below. Far away, a few tiny lights from the town glow like embers. Everything is still. Everything is enormous, and gentle, and calm.",
+   "show": {
+    "type": "photo",
+    "file": "lf44_b16_01.jpg",
+    "cap": "Stars above the hill"
+   }
+  },
+  {
+   "say": "Think, for a moment, about one small awkward moment from your life, the kind that sometimes visits at night. Now hold it up against this sky. Against all that space, and all that light, and all those years. See how small it becomes. It's not even a speck. It's quieter than the faintest star. The universe isn't keeping track of it, and neither is almost anyone else.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "How small a slip is",
+    "sub": "In all that space"
+   }
+  },
+  {
+   "say": "Under this same sky, millions of people are getting ready for sleep tonight. Many of them are remembering something they said, or did, or wish they hadn't. Every one of them is ordinary, and human, and doing their best. If you could see all of them at once, you wouldn't judge a single one. You'd feel only a quiet kindness. You can offer that same kindness to yourself.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "Everyone under the same sky",
+    "sub": "Ordinary and kind"
+   }
+  },
+  {
+   "say": "Here are a few things the stars don't notice. A wrong word. A clumsy wave. A blush. Anything you said today. Let each of them float upward, out through the open dome, smaller and smaller, until they disappear into the dark between the stars. A wrong word. A clumsy wave. A blush. Anything you said today. All of it, gone gently into the night.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "title": "Things the stars don't notice",
+    "items": [
+     "A wrong word",
+     "A clumsy wave",
+     "A blush",
+     "Anything you said today"
+    ]
+   }
+  },
+  {
+   "say": "Somewhere above you, the dome turns very slowly with a soft, low hum, following the stars as they wheel across the sky. It's such a gentle sound, steady and patient, like a far-off engine on a calm night. Let it carry you. Let your breathing slow to match it. Breathe in, slowly. Breathe out, even more slowly. Your body is warm and heavy under the blanket.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The quiet hum",
+    "sub": "Of the turning dome"
+   }
+  },
+  {
+   "say": "Notice how heavy your eyelids have become. They want to close, and you can let them, whenever you're ready. Even with your eyes closed, you can still picture the stars, scattered across the dark, glowing softly. Let your face relax completely. Your forehead, your eyes, your cheeks, your jaw. Let your tongue rest softly in your mouth. Let it all go.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Heavy eyes",
+    "sub": "Soft and slow"
+   }
+  },
+  {
+   "say": "Here is a gentle thought to carry with you, as the stars turn slowly overhead. You are allowed to be a small, imperfect person under a very big sky. You don't have to be flawless to belong here. Nobody does. The sky holds every one of us the same way, quietly and completely, mistakes and all, and it asks nothing in return.",
+   "show": {
+    "type": "quote",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "text": "You are allowed to be a small, imperfect person under a very big sky.",
+    "by": "A gentle thought"
+   }
+  },
+  {
+   "say": "And there, just for a second, a thin line of light slips across the sky, bright and quick, and then it's gone. A shooting star. You don't need to make a wish. You don't need to do anything with it at all. Just notice how beautiful a moment can be, even when it's over so quickly, and how calmly the sky lets it go.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "A shooting star",
+    "sub": "Gone in a moment"
+   }
+  },
+  {
+   "say": "In a little while, we'll drift down from this hill to somewhere low and gentle, beside slow water and soft lanterns. But for now, stay here, wrapped in your blanket under the open dome, breathing slowly, as the stars turn their patient circles over the quiet hills, and the whole wide night holds you safely in its dark.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "Drifting on",
+    "sub": "Toward the river"
+   }
+  }
+ ]
+}

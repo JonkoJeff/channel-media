@@ -1,0 +1,191 @@
+{
+ "id": "lf44_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now, let's let the room grow quiet around us. The lamp is off. The curtains are drawn almost all the way, with just a thin line of streetlight along the edge. Ivy lies on her side, breathing slowly. And wherever you are lying tonight, you can let your body sink a little deeper into the bed, as if the mattress were gently rising to meet you.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "n": 40,
+    "title": "The quiet room"
+   }
+  },
+  {
+   "say": "Let's take one slow breath together. Breathing in, softly, through the nose. Feeling the chest rise, just a little. And then breathing out, slowly, for a little longer than you breathed in. There's no right way to do it. Just slower than before. And once more. In, gently. And out, even more gently, as if you were letting a small sigh drift away.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "A slow breath",
+    "sub": "In, and out"
+   }
+  },
+  {
+   "say": "Notice the weight of the blanket over you. Not heavy, just present, like a steady hand resting gently on your shoulders. Notice the warmth that has gathered underneath it, the warmth your own body has made. It's been building quietly all this time, without you asking. You don't have to do anything to keep it. It simply stays.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The weight of the blanket",
+    "sub": "Warm and steady"
+   }
+  },
+  {
+   "say": "Outside, the last of the rain is falling. It isn't a storm. It's the soft, unhurried kind of rain that seems to whisper rather than speak. A few drops tap on the windowsill. Then a pause. Then a few more. Listen to the spaces between them. Each little silence is a place where your thoughts can rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "The last of the rain",
+    "sub": "A soft patter"
+   }
+  },
+  {
+   "say": "If any memory drifts back into the room now, that's perfectly all right. You don't have to chase it out, and you don't have to follow it anywhere. A thought can pass through the room without staying the night. You can simply notice it, the way you'd notice a sound in the street, and let it go on its way.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "A thought can pass through the room without staying the night.",
+    "by": "A gentle way to rest"
+   }
+  },
+  {
+   "say": "Down in the street, a car rolls by slowly on the wet road. Its headlights sweep across Ivy's ceiling, a pale soft shape gliding from one corner of the room to the other. For a moment the whole ceiling is gently lit. And then the light slides away, over the wall, and it's gone. The room is dark and quiet again, exactly as it was before.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Headlights on the ceiling",
+    "sub": "Something passing by"
+   }
+  },
+  {
+   "say": "Memories can be just like that light. They arrive on their own, cross the room for a little while, and then slide away again. Ivy doesn't need to get up and follow the car down the street. She just watches the light come, and watches it go, and stays right where she is, warm under the blanket.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Like a memory",
+    "sub": "Arriving and leaving"
+   }
+  },
+  {
+   "say": "Another car passes, further away this time. Its light is fainter, just a whisper of brightness drifting over the ceiling. You can watch it if you like, in your mind. Slowly crossing. Slowly fading. Nothing to hold onto, and nothing to do. Just a little light, passing through the night, on its way somewhere else.",
+   "show": {
+    "type": "photo",
+    "file": "lf44_b12_01.jpg",
+    "cap": "Light passing across the ceiling"
+   }
+  },
+  {
+   "say": "Now let your attention drift down to your feet. Let them feel heavy and warm, as if they were made of soft sand. Let that heaviness move slowly up into your ankles, your calves, your knees. There's no effort in it. It's more like noticing a warmth that was already there, and letting it spread at its own easy pace.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "The body grows heavy",
+    "sub": "Letting go, piece by piece"
+   }
+  },
+  {
+   "say": "Let the heaviness travel up through your legs and into your hips, and then into your back, settling there like a warm blanket being drawn up slowly. Let your shoulders drop away from your ears. Let your arms grow loose. Let your hands lie open, fingers slightly curled, holding nothing at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "cap": "Shoulders and hands",
+    "sub": "Softening"
+   }
+  },
+  {
+   "say": "And notice, gently, how little there is left to do tonight. There are no messages to answer. There are no mistakes to fix. There is no one to impress, and nothing to explain. All the waving and the talking and the saying of things is finished for today. Only rest is left.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Nothing left to do",
+    "items": [
+     "No messages to answer",
+     "No mistakes to fix",
+     "No one to impress",
+     "Only rest"
+    ]
+   }
+  },
+  {
+   "say": "Let your face soften too. The little muscles around your eyes. Your forehead, smoothing out like a sheet being shaken gently over a bed. Let your jaw loosen, so your teeth are just slightly apart. Let your tongue rest. The face that has been smiling and listening and reacting all day long can finally be still.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The face softens",
+    "sub": "The jaw, the eyes"
+   }
+  },
+  {
+   "say": "Somewhere in the building, a pipe gives a soft gurgle, and then falls silent. A neighbour's door closes gently, far down the stairs. These are the small, settling sounds of a house getting ready for the night. They aren't asking anything of you. They're just the building breathing out, the way you are.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "The sounds of the house",
+    "sub": "Small and far away"
+   }
+  },
+  {
+   "say": "Ivy's flat is quiet now. The radiator gives one last soft tick. The cat, if she had one, would be curled at the foot of the bed. The books on her shelf stand in their rows in the dark, holding their stories, waiting patiently for morning. Everything in the room is resting, and she is resting with it.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A warm, safe place",
+    "sub": "The flat at night"
+   }
+  },
+  {
+   "say": "Here's a small thought to fall asleep with. You were enough today, slips and all. Every awkward word, every wave that went to the wrong person, every small stumble is part of a day lived among other people, trying to be kind and trying to belong. That's a good way to spend a day. And now the day is over.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "text": "You were enough today, slips and all.",
+    "by": "A thought to fall asleep with"
+   }
+  },
+  {
+   "say": "Tomorrow will come in its own good time. There will be books to shelve and people to help, and maybe a waiter to smile at, and all of that can wait. Morning doesn't need you to prepare for it now. It will arrive softly by itself, with its own light, and you'll meet it rested.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "cap": "Tomorrow can wait",
+    "sub": "It will arrive on its own"
+   }
+  },
+  {
+   "say": "Your breathing has probably slowed down on its own by now. You don't need to do anything to it. Just notice it, coming and going, like small waves on a very calm shore. In, and out. Each breath a little softer. Each breath a little further from the busy edge of the day, and a little closer to sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Breathing slows",
+    "sub": "Slower still"
+   }
+  },
+  {
+   "say": "And now, as the rain fades into silence, let's leave Ivy's room for a while. She's nearly asleep, and she doesn't need us any more. Let the walls grow soft and blurry, as if seen through warm mist. Because in a moment, we're going to take a slow walk somewhere else, somewhere very old and very quiet, where the lamps are glowing low.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Leaving the room",
+    "sub": "Somewhere else, gently"
+   }
+  }
+ ]
+}

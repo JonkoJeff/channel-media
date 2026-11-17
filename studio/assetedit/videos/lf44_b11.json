@@ -1,0 +1,285 @@
+{
+ "id": "lf44_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So here we are, with Ivy still lying in the dark, the memory still hovering somewhere above the bed. We've seen why it came, why it feels so big at this hour, and why it won't stay this size. Now let's turn to the kindest question of the evening. What actually helps, right now, tonight? Researchers have studied a few small tools, and none of them requires getting out of bed.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "n": 36,
+    "title": "What helps"
+   }
+  },
+  {
+   "say": "First, a word about what these tools are not. They're not ways to erase the memory, or to force it out of the room. We've already seen how well pushing tends to work. Instead, they're ways of changing the angle from which Ivy looks at it. Less like slamming a door, and more like stepping back a few paces to see the whole room.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Not about forgetting",
+    "sub": "About changing the view"
+   }
+  },
+  {
+   "say": "In a study published in 2005 in Psychological Science, Ethan Kross, Ozlem Ayduk and Walter Mischel asked people to recall an experience that had left them feeling angry and upset. Some were guided to relive it through their own eyes, as if they were back inside the moment. Others were guided to take a step back, and watch the scene from a distance, as if they were a fly on the wall, seeing themselves from the outside.",
+   "show": {
+    "type": "study",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "who": "Kross, Ayduk and Mischel",
+    "where": "Columbia University, Psychological Science, 2005",
+    "what": "People recalled an upsetting experience from two different viewpoints"
+   }
+  },
+  {
+   "say": "Then they wrote about why they felt the way they did. The difference was clear. People who took the distanced view reported feeling less upset as they thought it over. And their writing tended to make more sense of the experience, rather than simply replaying the hurt. The same memory, seen from a few steps back, carried less heat.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "title": "Two ways to look back",
+    "items": [
+     "Immersed: back inside the moment",
+     "Distanced: watching from the outside",
+     "Distanced people felt less upset",
+     "They made more sense of it"
+    ]
+   }
+  },
+  {
+   "say": "So Ivy tries it, lying very still. She imagines she's not in the seat any more. She's somewhere up near the ceiling of that old lecture hall, looking down. She can see a young woman of nineteen, lifting her hand, smiling. A boy two rows down, waving to someone else. Hundreds of students unpacking notebooks, chatting, yawning. From up there, it's hardly a moment at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Ivy tries it",
+    "sub": "The fly on the lecture hall wall"
+   }
+  },
+  {
+   "say": "And something softens. From inside the memory, the wave filled her whole vision. From above, it's a tiny scene in a big room, on an ordinary morning, among a crowd of people mostly thinking about themselves. She can even feel a little tenderness for the girl in the seat, who was so eager to be friendly. That girl didn't do anything wrong. She just waved.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Seen from above",
+    "sub": "A tiny scene in a big room"
+   }
+  },
+  {
+   "say": "The lovely thing about this tool is that it doesn't need any special training. You don't have to believe anything new, or argue with yourself. You simply move the camera. Instead of seeing the memory through your own eyes, you picture the room from a corner, or from the ceiling, or from the back row. Most people find it takes only a few moments to settle into.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "street_day",
+    "cap": "Anyone can try it",
+    "sub": "No special skill needed"
+   }
+  },
+  {
+   "say": "The second tool is closely related, and it has to do with the words we use when we talk to ourselves in our heads.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "n": 37,
+    "title": "Your own name"
+   }
+  },
+  {
+   "say": "In 2014, Kross and a team of colleagues published a set of studies in the Journal of Personality and Social Psychology. In one of them, people were about to give a short speech, a classic way to make anyone nervous. Some were asked to think about their feelings using I. Others were asked to use their own name, or you, as if speaking to a friend. Those using their name reported less shame and less dwelling afterwards, and their speeches were rated as better.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "who": "Kross and colleagues",
+    "where": "Journal of Personality and Social Psychology, 2014",
+    "what": "Self-talk using your own name instead of I"
+   }
+  },
+  {
+   "say": "It sounds almost too simple. But try it the way Ivy does tonight. Instead of thinking, I'm so stupid, she whispers in her mind, Ivy, it was a wave. It was ten years ago. It's okay. The words are the same kind of words a good friend would use. And somehow, hearing her own name makes it a little easier to believe them.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "text": "Ivy, it was a wave. It was ten years ago. It's okay.",
+    "by": "Self-talk, using her own name"
+   }
+  },
+  {
+   "say": "Why might a name make a difference? The researchers' idea was that using your own name builds in a little distance, the same kind of distance as the fly on the wall. When we say I, we're right inside the feeling. When we say our own name, we're talking to ourselves a bit the way we'd talk to someone else. And most of us are far gentler with other people than we are with ourselves.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "cap": "Why a name helps",
+    "sub": "A little distance, built in"
+   }
+  },
+  {
+   "say": "The third tool is perhaps the warmest of all, and it's the one researchers have looked at most directly with uncomfortable memories.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 38,
+    "title": "Self-compassion"
+   }
+  },
+  {
+   "say": "In 2007, Mark Leary and colleagues at Duke University published a set of studies on self-compassion. In one, people recalled a negative event from their past, one involving failure, rejection or humiliation. Some then answered questions that gently guided them toward self-compassion, such as remembering that other people go through similar things, and writing to themselves with kindness. Others were guided to think about their good qualities instead, or simply wrote about the event.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "who": "Leary, Tate, Adams, Allen and Hancock",
+    "where": "Duke University, Journal of Personality and Social Psychology, 2007",
+    "what": "People recalled a negative event with different kinds of prompts"
+   }
+  },
+  {
+   "say": "The people guided toward self-compassion reported less negative feeling about the event than the others, and they still took responsibility for their part in it. Researchers often describe self-compassion in three parts. Kindness toward yourself, instead of harsh words. Remembering that everyone slips, so you're not alone. And noticing the feeling, without drowning in it.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "title": "Self-compassion, in three parts",
+    "items": [
+     "Kindness instead of harsh words",
+     "Remembering everyone slips",
+     "Noticing the feeling without drowning in it"
+    ]
+   }
+  },
+  {
+   "say": "There's a simple way to find the self-compassionate voice, if it feels hard to reach. Imagine a close friend calling you at this hour and telling you exactly the same story. I waved at someone, and he was waving at the person behind me. What would you say to them? You probably wouldn't call them stupid. You'd likely laugh gently, and tell them it happens to everyone.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "The friend test",
+    "sub": "What would you say to them?"
+   }
+  },
+  {
+   "say": "That second finding is worth pausing on. Self-compassion isn't the same as pretending nothing happened, or deciding you were perfect. The people in the study didn't stop owning their mistakes. They just stopped piling extra cruelty on top of them. It's the difference between saying, that was awkward, and saying, that was awkward, and so am I, and so I'll always be.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "street_day",
+    "cap": "Not letting yourself off",
+    "sub": "Just not piling on"
+   }
+  },
+  {
+   "say": "For Ivy, it might look like this. A glass of water by the bed. A lamp turned very low. And a quiet sentence she says to herself, the kind she'd say to a friend who called her at this hour with the same story. Of course that felt awful. Lots of people have done exactly that. It doesn't change who you are. Now, let's rest.",
+   "show": {
+    "type": "photo",
+    "file": "lf44_b11_01.jpg",
+    "cap": "Small comforts close at hand"
+   }
+  },
+  {
+   "say": "And if the kind words don't make the feeling disappear right away, that's all right too. Self-compassion isn't a switch that turns embarrassment off. It's more like a hand on the shoulder while the feeling passes. Ivy doesn't need to feel fine immediately. She only needs to stop adding more weight to the feeling, and let it ease at its own pace.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "No pressure to feel better",
+    "sub": "Kindness without a deadline"
+   }
+  },
+  {
+   "say": "Before the night becomes slower and softer, let's gather together what we've learned, so you can keep it for the next time an old memory comes knocking.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "cafe_sunset",
+    "n": 39,
+    "title": "Things to keep"
+   }
+  },
+  {
+   "say": "Night memories often arrive on their own, triggered by quiet and small cues. A tired brain turns the emotional alarm up and the calming voice down. Other people noticed far less, and judged far more kindly, than you'd expect. Showing embarrassment often makes people like and trust you more. The sting of a memory tends to fade faster than its warmth. And when it comes back, step back, use your own name, and be kind.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "title": "Things to keep",
+    "items": [
+     "Night memories often arrive on their own",
+     "A tired brain turns the alarm up",
+     "Others noticed far less than you think",
+     "Embarrassment often makes people like you more",
+     "The sting fades faster than the warmth",
+     "Step back, use your name, be kind"
+    ]
+   }
+  },
+  {
+   "say": "None of this is homework, and you don't need to remember all of it. If you keep only one idea, let it be this. The memory that feels enormous at half past one is usually much smaller in the morning. That's not because you've solved it. It's because you're rested, and the alarm has gone quiet again.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "None of this is homework",
+    "sub": "Just things to carry lightly"
+   }
+  },
+  {
+   "say": "Ivy thinks once more about dinner tonight. The waiter said, enjoy your meal, and she said, you too. And for the first time all evening, instead of a hot flush, she feels a small laugh rising. He probably hears that twice a week. Somewhere across the city, he might even be telling it as a funny story, with no idea who said it, and no unkindness at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Back to the waiter",
+    "sub": "A smile in the dark"
+   }
+  },
+  {
+   "say": "The lecture hall wave is still there too, somewhere in the back of her mind. But it's settled now, like dust in a sunbeam, no longer swirling. She doesn't need it gone. She just doesn't need to hold it any more. It can rest in the drawer with all the other small, human, ordinary moments that make up a life.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "The memory settles",
+    "sub": "Like dust in a sunbeam"
+   }
+  },
+  {
+   "say": "Here's one last thought before we rest. Embarrassing memories are, in a way, proof that you care how other people feel, and that you want to belong with them. That's not a flaw to be fixed. It's one of the most human things about you. And a mind that cares that much deserves a soft place to lie down at the end of the day.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "Embarrassing memories are proof that you cared how others felt.",
+    "by": "A last thought before rest"
+   }
+  },
+  {
+   "say": "So that's enough thinking for one night. From here on, there are no more studies and no more numbers. Just a slow, quiet journey, for Ivy and for you. If you'd like, you can let your eyes close now, or keep them half open, resting on nothing in particular. Whatever feels comfortable is exactly right.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Into the slow part",
+    "sub": "No more studies tonight"
+   }
+  },
+  {
+   "say": "Let your shoulders drop a little. Let your hands rest wherever they've landed. Ivy turns her pillow over, to the cool side, and pulls the blanket up to her chin. Outside, the rain has softened into almost nothing. The night is long, and it's kind, and there's nowhere at all that either of you needs to be.",
+   "show": {
+    "type": "char",
+    "sprite": "A09",
+    "bg": "bedroom_night",
+    "cap": "Settle in",
+    "sub": "The night is long and kind"
+   }
+  }
+ ]
+}

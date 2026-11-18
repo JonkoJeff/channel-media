@@ -1,0 +1,202 @@
+{
+ "id": "lf45_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "When Marta's neighbour crossed the street, his face began a short journey through her mind. In the 1980s, two psychologists, Vicki Bruce and Andy Young, drew a map of that journey, and it's been the standard map ever since. They published it in 1986, in a paper called Understanding Face Recognition. The key idea is that recognition isn't one step. It's a sequence, and each step has to succeed before the next one can begin.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "The route",
+    "sub": "A face on a journey"
+   }
+  },
+  {
+   "say": "Here's the sequence as it's usually described. First, the face looks familiar. Then you access what you know about the person, who they are, what they do, how you know them. And only after that does the name come, as a last step. The authors of a later study put it like this: familiarity is established first, then personal information, and then, finally, a name. And the process can fail at any of these points.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "title": "The route, in order",
+    "items": [
+     "The face looks familiar",
+     "You know who the person is",
+     "You recall what you know about them",
+     "Last of all, the name"
+    ]
+   }
+  },
+  {
+   "say": "Let's trace Marta's evening along that route. The face looked familiar, instantly. Check. She knew who he was, the man with the yellow bicycle. Check. She recalled plenty about him, the gate, the ladder, the daughter, the tomatoes. Check, check, check. And then the very last step, the name, didn't happen. Her route ran smoothly almost to the end and stopped one stage short of the door.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "neon_alley_rain",
+    "cap": "Marta's journey",
+    "sub": "Where hers stopped"
+   }
+  },
+  {
+   "say": "That's the pattern the model predicts, and the pattern people report. When recognition breaks down, it tends to break from the far end. You can feel that someone is familiar but not know who. You can know who they are but not their name. You almost never have the reverse, where you can recall a name but have no idea who the person is. The last step is the one that fails first.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "text": "The last step is the one that fails first.",
+    "by": "A pattern in the model"
+   }
+  },
+  {
+   "say": "Think about that for a moment, because it's a beautiful little test of the idea. Can you imagine meeting someone, remembering their name perfectly, and having no feeling at all of who they are or how you know them? It happens very rarely, if ever, in everyday life. The route runs in one direction, and the name sits at the end of it, which is exactly where you'd expect the weakest link to be.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "The reverse almost never happens",
+    "sub": "A one-way street"
+   }
+  },
+  {
+   "say": "There's laboratory evidence for the same thing. In experiments by Johnston and Bruce in 1990, and by Young, Ellis and Flude in 1988, volunteers were shown familiar faces and asked for different kinds of information. They were faster to retrieve facts like a person's job or nationality than to retrieve the person's name, even when the researchers controlled for other differences in the tasks. The name was last, and slowest, in the lab as well as in the diaries.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "who": "Johnston & Bruce, 1990; Young, Ellis & Flude, 1988",
+    "where": "Speed of retrieval",
+    "what": "In laboratory tests, people were faster at retrieving information about a person such as an occupation or nationality than at retrieving the name, even when task demands were controlled."
+   }
+  },
+  {
+   "say": "Which raises an obvious question. Why would the name be last? Wouldn't it be more useful the other way round, with the name coming first, like a label on the front of a file? One way to answer is to look at what a name actually is, compared with the other things you know about a person, and that's where we're going next.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "Why last",
+    "sub": "A question"
+   }
+  },
+  {
+   "say": "Picture the route as a path through a park at dusk, with lamps along the way. The first lamp comes on, this face is familiar. The second, I know who this is. The third, I remember the gate, the ladder, the violin. And then the last lamp, the one at the very end of the path, flickers and doesn't catch. You can see the whole path lit up behind you, and one dark spot ahead.",
+   "show": {
+    "type": "photo",
+    "file": "lf45_b06_01.jpg",
+    "cap": "A path with lamps lit one by one"
+   }
+  },
+  {
+   "say": "That's worth holding on to, because it changes how a slip like this feels. Marta's mind didn't fail. Almost everything worked. A familiar face was recognised, an identity was found, a whole history was recalled, and only a single final step didn't go through. It's the difference between a car that won't start, and a car that has driven nearly all the way home and run out of fuel in the driveway.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Not a failure of the whole path",
+    "sub": "Most of it worked"
+   }
+  },
+  {
+   "say": "This also explains why it nags so insistently. A feeling of knowing someone, plus knowledge of who they are, plus a single missing word, leaves a gap that's almost shaped like the thing that fits it. The mind can feel exactly how big the missing name should be, which is why it keeps pressing on that spot, like a tongue on the place where a tooth used to be.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "And the feeling",
+    "sub": "Why it nags"
+   }
+  },
+  {
+   "say": "Marta's mind has been pressing on that spot for three hours now. She's tried the alphabet, running through letters in her head, A, B, C, hoping one will feel right. She's tried imagining him at the garden gate, saying something to her. She's tried the classic move of thinking about something else, so that the name might sneak up from behind. So far, nothing. And that's a very normal outcome.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "Marta, still awake",
+    "sub": "The last lamp"
+   }
+  },
+  {
+   "say": "The sequence has been restated many times since 1986, and every time it comes out in more or less the same form. A face is seen, and a sense of familiarity arises. Then comes access to what you know about the person, their job, their relationship to you, the places you've met. Only at the end is the name produced. The map has been refined and argued over for decades, but its central route has held up well.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "A later restatement",
+    "sub": "The sequence again"
+   }
+  },
+  {
+   "say": "Because the process has stages, it can fail at different points, and each kind of failure feels different. If the first step fails, you see a face and feel nothing, a total stranger. If the second step fails, you feel that you know someone but can't think who. And if only the last step fails, you know exactly who someone is, but can't produce their name. Marta's experience is the third kind.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Where it can fail",
+    "sub": "Three kinds of slip"
+   }
+  },
+  {
+   "say": "You may know all three feelings. The first, the blank, is simply what a crowd feels like. The second, the nagging, I know you from somewhere, is the feeling of meeting your dentist in the supermarket. The third, the tip of the tongue, is the one that arrives at parties. Each is a different point on the same path, and each is perfectly normal.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "Three kinds of feeling",
+    "sub": "What each is like"
+   }
+  },
+  {
+   "say": "There's an elegance to the order. Recognising a face is cheap and quick, and often enough to guide what you do. Knowing who someone is, and what they mean to you, is the next most useful thing. A name is the last and most costly piece, and often the least needed, since you can carry on a perfectly good conversation without it. The brain does the useful things first, and the label last.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "Why the order makes sense",
+    "sub": "Cheap first, costly last"
+   }
+  },
+  {
+   "say": "You can see the sequence working in everyday life. Think of an actor you recognise from a film, whose name you can't recall. You know his face. You know the films he's been in, the sort of roles he plays, perhaps even the year he was in the one you love. And the name stays out of reach, until suddenly it pops up, perhaps hours later. Face, facts, and then the name, always in that order.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Seeing it in everyday life",
+    "sub": "A small test"
+   }
+  },
+  {
+   "say": "It's interesting to ask what it would feel like if the order were reversed. Imagine hearing a name, and knowing nothing about the person, no face, no history, no sense of who they might be. It's not a feeling most of us know in connection with people we've met. A name without a person is simply a word. The sequence works one way because a name is only useful when it's attached to someone.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "An unusual reversal",
+    "sub": "When names come first"
+   }
+  },
+  {
+   "say": "So here's a reassuring note. By Bruce and Young's account, a lapse like Marta's is a failure at the very last stage, in a system that is working perfectly well up to that point. Nothing in her mind is broken. It's simply that, on this particular night, the last lamp wouldn't light. And there are some good reasons for why that lamp is the hardest of them all.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "A reassuring note",
+    "sub": "Nothing is broken"
+   }
+  },
+  {
+   "say": "And one of the best demonstrations of those reasons is a tiny, clever experiment about a baker.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "n": 1,
+    "title": "The strange case of Baker and baker"
+   }
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "id": "lf45_b18",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "And now, imagine a valley in the early morning, high up in the mountains, where the air is cool and the ground is warm. Mist rises from natural pools of warm water, and drifts across the valley floor like slow breath. Pine trees stand along the slopes, dark green, and above them the sky is just beginning to turn pink.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "n": 1,
+    "title": "A misty valley"
+   }
+  },
+  {
+   "say": "A narrow wooden walkway leads you down into the valley, the planks worn smooth and silvery with age. Each step makes a soft, hollow sound. There's no one else about. The air smells of pine and warm stone and wet earth. With each step you take, you feel a little lighter, as if the valley were quietly taking things from your shoulders.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "The path",
+    "sub": "A wooden walkway"
+   }
+  },
+  {
+   "say": "And here is the valley, spread out beneath you. The pools steam gently, each in a bowl of dark stone. A small wooden bridge crosses a narrow stream. The mist hangs in soft, rolling layers, catching the pink and blue of the sky. Everything is quiet. Everything is slow. It's a place where nobody is in a hurry, and nothing has to be done.",
+   "show": {
+    "type": "photo",
+    "file": "lf45_b18_01.jpg",
+    "cap": "The misty valley at dawn"
+   }
+  },
+  {
+   "say": "Imagine easing into one of the pools, slowly, the warm water rising around your ankles, your knees, your waist, and then your shoulders. It's exactly the right temperature. Feel how your muscles let go as the warmth reaches them, one at a time. The weight of your arms floats away. The tension in your neck melts like a small cube of butter.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The warm water",
+    "sub": "Easing in"
+   }
+  },
+  {
+   "say": "Notice each place as it softens. Your feet, warm and loose. Your calves, heavy and easy. Your back, supported by smooth stone. Your shoulders, sinking low. And your face, calm and smooth, with the cool air on your cheeks and the warm water below. Each part lets go in its own time, and none of it needs your help.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "title": "Letting go, place by place",
+    "items": [
+     "Your feet",
+     "Your calves",
+     "Your back",
+     "Your shoulders",
+     "Your face"
+    ]
+   }
+  },
+  {
+   "say": "Watch the steam rise from the water in slow curls, lifting and thinning and disappearing into the cool air. Each curl is a little thought, if you like, rising and fading. There's no need to catch any of them. The valley is full of rising steam, and none of it is lost, and none of it is kept. It simply rises, the way it always has.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Steam rising",
+    "sub": "Slow curls"
+   }
+  },
+  {
+   "say": "Warmth does not need to be understood to be felt. Nobody ever had to remember how the warm water works in order to be soothed by it. The body simply receives it. And the mind, if it wants to, can receive it in the same way, without a single question.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "Warmth does not need to be understood to be felt.",
+    "by": "A thought in the water"
+   }
+  },
+  {
+   "say": "Somewhere in the pines, a bird calls once, a soft, clear note, and is quiet. Then, after a long pause, it calls again, a little further away. The sound travels across the valley and fades into the mist. It's not a message. It's just a gentle sound in a gentle place, and you can let it come and go.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A bird in the pines",
+    "sub": "One soft call"
+   }
+  },
+  {
+   "say": "As you lie in the warm water, the sky overhead is slowly changing. The pink deepens into gold, and the gold into pale blue, while the stars, one by one, fade behind the light. It's a very slow change, so slow you can only tell it's happening by looking away and looking back. And you're in no hurry to see it finish.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The sky changes",
+    "sub": "Pink and gold"
+   }
+  },
+  {
+   "say": "Your whole body is heavy and warm now, as heavy as the stones that line the pool. Your breathing is long and slow. Your thoughts, if there are any, are as soft and unhurried as the steam. You have nowhere to be and nothing to figure out. The valley is looking after you, and everything is as it should be.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Heavy and calm",
+    "sub": "Deep rest"
+   }
+  },
+  {
+   "say": "Now and then, a cool breath of air drifts across your face from the pines, a fresh, quiet touch against the warmth. It's a lovely contrast, the cool above and the warm below. It reminds you that you're here, in your body, in this peaceful place, with nothing asked of you at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "A cool breath",
+    "sub": "The air on your face"
+   }
+  },
+  {
+   "say": "At the edge of the pool, there's a row of smooth, round stones, warm from the water. Imagine resting your hand on one of them. It's heavy, and smooth, and perfectly still. It's been here a long time, and it'll be here a long time more, and it has never once needed to remember anything. There's a deep calm in stones, and you're welcome to borrow some of it.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Smooth stones",
+    "sub": "At the edge of the pool"
+   }
+  },
+  {
+   "say": "Over the pines, the first thin light of dawn is spreading, pale gold along the ridge. It doesn't hurry. It rises as slowly as the steam, a little more each minute, until the mountain tops are glowing. But you don't need to wake for it. You can lie in the warm water and let the day begin on its own, somewhere far off, like a story told in another room.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The slow light",
+    "sub": "Dawn over the pines"
+   }
+  },
+  {
+   "say": "Your breath is long and slow, and each one seems to carry you a little deeper into the warmth. In, and the water seems to hold you up. Out, and your whole body lets go a little more. The steam curls around you, and the pines whisper, and the whole valley seems to be breathing along with you, in a single, slow, shared rhythm.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Deep, easy breaths",
+    "sub": "Warm and slow"
+   }
+  },
+  {
+   "say": "There's a particular kind of contentment that comes in warm water, in cool air, in a quiet valley, when nothing is missing. No word, no name, no answer. You've everything you need. The warmth is enough. The quiet is enough. And you are enough, exactly as you are, lying here, doing nothing, while the world turns gently towards the morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Content",
+    "sub": "Nothing missing"
+   }
+  },
+  {
+   "say": "From far away, there comes the soft sound of a bell, a single low note that drifts across the valley and is swallowed by the mist. It might be a temple, or a farm, or a cow on a distant hillside. You don't need to know. The note rings, and fades, and the quiet that follows is a little deeper than the quiet before.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "A distant bell",
+    "sub": "Over the valley"
+   }
+  },
+  {
+   "say": "The stones beneath you are warm, and the water around you is warm, and the air above is cool and soft. Between them, you float, held on every side by a different gentle comfort. There's nothing to adjust, nothing to fix, nothing to improve. You're exactly where you ought to be, doing exactly what you ought to be doing, which is nothing.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Soft and heavy",
+    "sub": "Warm stones"
+   }
+  },
+  {
+   "say": "And as the mist thickens, let the valley soften and slip away. The pools, the pines, the little bridge, fading into white. They'll be there whenever you want to find them again. For now, let yourself float gently on, towards a warm kitchen where the lamps are low.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Drifting onward",
+    "sub": "Another quiet place"
+   }
+  }
+ ]
+}

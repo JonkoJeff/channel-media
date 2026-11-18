@@ -1,0 +1,192 @@
+{
+ "id": "lf45_b19",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Picture a farmhouse kitchen at the end of an autumn day. A big wooden table stands in the middle, scrubbed pale by years of use. On it, a bowl of red apples, a loaf of bread with a knife beside it, and a lantern with a small, steady flame. Through the window, the orchard is turning blue in the dusk.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "n": 1,
+    "title": "A farmhouse kitchen"
+   }
+  },
+  {
+   "say": "The kitchen is warm. A black iron stove ticks quietly in the corner, as it cools from a day of cooking. The lamp casts a round, gold glow over the table. The floor is old stone, worn smooth, and the chairs have cushions that have taken the shape of everyone who ever sat in them. It's a place made for being comfortable.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The warmth",
+    "sub": "Stove and lamp"
+   }
+  },
+  {
+   "say": "Look at the table for a while. The apples are glossy, each with a small dusting of the day's last light. The bread is crusty and golden, a thin curl of steam still rising from the cut. The lantern flickers, and the shadows move gently on the wall. Through the window, the orchard stands in rows, quiet and dark, and above it the evening star has just appeared.",
+   "show": {
+    "type": "photo",
+    "file": "lf45_b19_01.jpg",
+    "cap": "The kitchen table at dusk"
+   }
+  },
+  {
+   "say": "Imagine a warm cup between your hands, something simple, like milk with a little honey. Feel the heat spreading through your palms, up your wrists, into your arms. Lift it, and breathe in the soft, sweet steam. Take a small sip, and feel the warmth travel down through your chest, settling in your stomach like a small, glowing coal.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "A cup of something warm",
+    "sub": "Held in both hands"
+   }
+  },
+  {
+   "say": "Listen to the sounds of the kitchen. The tick of the stove as it cools. The kettle sighing on the hob. Leaves rustling in the orchard outside. An old clock, somewhere in the hall, keeping slow time. And your own slow breath, which is quieter than all the rest, and easily the most peaceful.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "title": "The kitchen sounds",
+    "items": [
+     "The tick of the stove",
+     "A kettle, quietly sighing",
+     "Leaves rustling in the orchard",
+     "An old clock, somewhere",
+     "Your own slow breath"
+    ]
+   }
+  },
+  {
+   "say": "It's a kitchen where no one asks you anything. No one needs a name, an answer or an explanation. You can sit at the table as long as you like, and the lamp will go on burning, and the apples will go on glowing, and nobody will mind. It's one of the oldest forms of kindness there is, a warm room and a quiet welcome.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "text": "A kitchen where no one asks you anything.",
+    "by": "A quiet kind of kindness"
+   }
+  },
+  {
+   "say": "Over the years, many people have sat at this table. Some of them are long gone. Some are asleep upstairs. Their names don't matter now, and neither does anything they said. What remains is the feeling of the room, which holds all those evenings together like a soft blanket. It's a good feeling, and it's yours tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The people who've sat here",
+    "sub": "Many evenings"
+   }
+  },
+  {
+   "say": "Notice how comfortable your body feels, as if the warmth of the kitchen were sinking into you. Your arms are heavy. Your legs are heavy. Your head rests easily, as if on a soft cushion. Even your thoughts feel slow and rounded, like smooth stones in a stream. You don't have to hold on to any of them.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Heavy, warm, and soft",
+    "sub": "Sinking"
+   }
+  },
+  {
+   "say": "The lantern's flame is small and steady. It leans a little as the draught breathes through the room, and then straightens again. Watch it for a moment. There's something very restful about a single flame. It doesn't try to be anything. It just burns, quietly, and lights the little circle around it, and that is enough.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The lantern",
+    "sub": "A small flame"
+   }
+  },
+  {
+   "say": "Outside, night is settling over the orchard. The trees are dark shapes, heavy with the last of the apples. A soft wind passes through the branches, and a few leaves drift down to the grass. Far away, an owl calls once, low and gentle, and then it's quiet. The whole orchard is falling asleep, tree by tree.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Out in the orchard",
+    "sub": "Night settling"
+   }
+  },
+  {
+   "say": "Someone has left a blanket over the back of your chair, a thick woollen one, soft and warm. Draw it around your shoulders. It smells faintly of woodsmoke and apples. You feel completely held. Completely safe. And your eyes, which have been getting heavier and heavier, are beginning to close.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "A blanket",
+    "sub": "Over your shoulders"
+   }
+  },
+  {
+   "say": "The smell of fresh bread fills the kitchen, warm, golden and a little sweet. Breathe it in slowly. It's one of those smells that seems to go straight to the oldest part of the mind, the part that says, you are home, you are fed, you are safe. Let that feeling fill you, and let it settle somewhere low in your chest, where it can stay all night.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The smell of bread",
+    "sub": "Warm and golden"
+   }
+  },
+  {
+   "say": "In the hall, an old clock ticks, slowly, with no urgency at all. Each tick is separated from the next by a long, warm space. You don't need to count them, or to know what time it is. In this kitchen, time is only a soft background sound, like rain, like breathing, like the hum of the stove. It passes, and you don't have to pass with it.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "An old clock",
+    "sub": "Keeping slow time"
+   }
+  },
+  {
+   "say": "Imagine that somewhere in the house, someone is saying something kind, softly, to someone else, a goodnight, a thank you, a name said with love. You can't hear the words. You can only hear the warmth in the voice, and the gentle answer. And that warmth is the thing that matters most, more than any word, more than any name, and it fills the old house like the smell of bread.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A kind word",
+    "sub": "Spoken softly"
+   }
+  },
+  {
+   "say": "Someone turns the lamp down a little, and the kitchen glows a deeper gold. The shadows lengthen and soften. The apples gleam like small, dim lanterns. You're warm, and full, and drowsy, and the chair beneath you feels like the softest chair in the world. Your eyelids are heavy, and the lamplight blurs, and you let it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "The last of the light",
+    "sub": "The lamp lowers"
+   }
+  },
+  {
+   "say": "Imagine a thick slice of the warm bread, with butter melting into it and a thread of golden honey on top. Take a small bite, and feel the softness and the sweetness. It tastes like being a child, home from a long day outside. You eat it slowly, and the warmth spreads, and you feel completely, simply fed.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "A slice of bread",
+    "sub": "Butter and honey"
+   }
+  },
+  {
+   "say": "Through the kitchen window, the orchard is almost dark now. A last line of pale light lingers at the horizon, and the trees are black against it. Soon even that will be gone. But in here the lamp is burning, and the stove is warm, and the night outside is simply a soft, enormous quiet that can't come in unless you let it.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "The window",
+    "sub": "Looking out"
+   }
+  },
+  {
+   "say": "The kitchen begins to soften and glow, its edges melting into the golden light of the lamp. The apples, the bread, the lantern, all run together into one warm, quiet feeling. And now, as it fades, there's one last place to visit, a night garden, where this evening began to loosen its hold.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Almost there",
+    "sub": "One more place"
+   }
+  }
+ ]
+}

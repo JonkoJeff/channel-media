@@ -1,0 +1,182 @@
+{
+ "id": "lf45_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine now that you're on a night train, the slow kind, with a small lamp over your seat and a window beside you. The carriage is almost empty. There's a soft rocking beneath you, a steady, gentle rhythm, like a very large cradle. Outside, the countryside is passing, dark and wide, and there's nowhere you need to get off.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 1,
+    "title": "A night train"
+   }
+  },
+  {
+   "say": "The carriage is warm, and the seat is soft, with a wool blanket folded over the armrest. Pull it over your knees. The light from the little lamp makes a gentle circle on the table, and the rest of the carriage is dim. There's a faint hum from the wheels, a low, even sound that seems to say, rest, rest, rest, over and over, very softly.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The carriage",
+    "sub": "Warm and quiet"
+   }
+  },
+  {
+   "say": "Look out of the window. The fields are dark blue, and a pale moon is moving along above them, keeping pace with the train. Now and then a single light passes, a farmhouse, a crossing, a lamp on a lonely lane, and then it's gone. None of it needs a name. You can simply watch it slide by, as the night does what it has always done.",
+   "show": {
+    "type": "photo",
+    "file": "lf45_b16_01.jpg",
+    "cap": "The window of the night train"
+   }
+  },
+  {
+   "say": "Listen to the rhythm of the wheels. A soft, steady pattern, repeating and repeating. You could follow it for hours without it changing. Let your breathing drift into the same rhythm, slow and regular. In, with the long soft beat. Out, with the next. Your body knows how to move with a rhythm like this. It's one of the oldest things it knows.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The rhythm",
+    "sub": "Wheels on the rails"
+   }
+  },
+  {
+   "say": "Here is what you pass along the line. A sleeping village, its chimneys quiet. A river under a stone bridge, shining softly. A field of cut hay, pale in the moonlight. A little station with a single lit window, where nobody gets on or off. And a hill with one tree on top, black against the sky. Each one slides by, and each one is gone.",
+   "show": {
+    "type": "list",
+    "sprite": "A18",
+    "bg": "bedroom_night",
+    "title": "Along the line",
+    "items": [
+     "A sleeping village",
+     "A river under a stone bridge",
+     "A field of cut hay",
+     "A station with one lit window",
+     "A hill with a single tree"
+    ]
+   }
+  },
+  {
+   "say": "At the little station, the train slows, but doesn't quite stop. For a moment you can see inside the lit window. A kettle on a shelf. A clock on the wall. A chair with a coat over the back. It's a small, kind scene, and it carries no names or faces at all. Then the train picks up its slow speed again, and the window slips away into the dark.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "A single window",
+    "sub": "The station light"
+   }
+  },
+  {
+   "say": "Not every passing thing needs to be kept. Some things are lovely precisely because they pass. A light in a window. A bend in the river. A conversation on a street corner. They come into view, they do their small good, and they move on. And you don't have to hold on to any of them to have been glad of them.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "Not every passing thing needs to be kept.",
+    "by": "A thought on the train"
+   }
+  },
+  {
+   "say": "Notice how heavy your head feels against the seat. Your neck is loose, your shoulders low, your hands lying open in your lap. The rocking of the train is a hand on your back, very patient, saying, there's no rush. If your thoughts wander, let them wander with the fields. If they fade, let them fade with the lights.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Heavier now",
+    "sub": "Sinking into the seat"
+   }
+  },
+  {
+   "say": "The train slides into a long, gentle tunnel. The window goes black, and the sound of the wheels deepens, a warm hum all around you. In the dark, there's nothing to see and nothing to do. The carriage lamp glows faintly on the glass, like a small gold moon. It's a wonderful place for the mind to rest, a long dark and a long sound, and nothing at all required of you.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "A tunnel",
+    "sub": "Quiet and dark"
+   }
+  },
+  {
+   "say": "After a while, the train comes out of the tunnel into a wide valley, silver under the moon. A river runs beside the track, slow and wide. The fog lies in the low fields like soft wool. Everything is quiet, and everything is still, and you are carried through it all without the smallest effort, the way a leaf is carried on a slow current.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Out the other side",
+    "sub": "A pale sky"
+   }
+  },
+  {
+   "say": "The train glides along more slowly now, as if it too is growing sleepy. The rocking becomes a lullaby. The hum becomes a sigh. Your eyelids feel heavy and warm. If they close, let them stay closed. The journey will continue just as well without your eyes, and every kilometre brings you a little closer to rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Slower still",
+    "sub": "The train glides"
+   }
+  },
+  {
+   "say": "Take one last look at the moon over the fields, large and pale and patient. It has watched over people for a very long time, strangers and friends, names remembered and forgotten, and it has never needed to know any of them to shine on them. Let it shine on you for a moment, too, and let your eyes grow heavy.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "A last look out",
+    "sub": "Moon over the fields"
+   }
+  },
+  {
+   "say": "On the little table by the window, there's a flask of tea, still warm. Imagine pouring a little into the lid and holding it in both hands. The steam rises and fogs the glass a little. You take a small sip, and the warmth moves slowly down through your chest. It's a simple, ordinary comfort, and a very good one, on a long night journey.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The warm cup",
+    "sub": "A flask of tea"
+   }
+  },
+  {
+   "say": "The train crosses a long, low bridge, and for a moment the sound of the wheels changes, hollow and spacious, as the river slides by beneath you. The water is dark and wide, with the moon lying on it in a long silver road. The sound rises and falls, and then the bridge is behind you, and the fields return. Everything is gentle, and everything is moving, and you are at rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A passing bridge",
+    "sub": "The river below"
+   }
+  },
+  {
+   "say": "In the seats across the aisle, a few other passengers are asleep. A man with his hat over his eyes. A woman with her head on a rolled-up coat. A child curled under a blanket. You don't know their names, and you don't need to. You're simply travelling together through the night, each of you carried, each of you resting, and each of you perfectly safe.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Other travellers",
+    "sub": "Sleeping quietly"
+   }
+  },
+  {
+   "say": "Far down the carriage, you hear soft footsteps, and the quiet clink of a lantern. A conductor is making his slow rounds, checking that everyone is comfortable. He doesn't wake anyone. He simply walks, and the footsteps fade away down the carriage, a small, friendly sound in the hush. Everything is well, the sound seems to say. Everything is exactly as it should be.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The conductor's footsteps",
+    "sub": "A soft sound"
+   }
+  },
+  {
+   "say": "And now the train carries you on, past the dark fields, towards somewhere gentle. You don't need to know where. You don't need to keep track of the stations. Just let the wheels sing their slow, soft song, and let the night go by outside the window, as quietly as a breath.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Onward",
+    "sub": "Somewhere gentle"
+   }
+  }
+ ]
+}

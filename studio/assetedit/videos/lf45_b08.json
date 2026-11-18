@@ -1,0 +1,226 @@
+{
+ "id": "lf45_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now let's turn the whole puzzle on its head. We've been saying that names are harder than faces, and in everyday life that certainly feels true. But a team of researchers recently asked a sharp question about that feeling. Is it really a fair comparison? When you say that faces are easy and names are hard, what exactly are you comparing?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "An unfair comparison",
+    "sub": "A twist"
+   }
+  },
+  {
+   "say": "Think about what actually happens at a party. When a familiar face walks up, you recognise it. You don't have to produce the face from nothing. It's right there in front of you, and all you have to say is, yes, I know that. But when you need the name, nobody puts it in front of you. You have to produce it from memory, out of thin air. One task is recognition. The other is recall.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "What happens at the party",
+    "sub": "Two different tasks"
+   }
+  },
+  {
+   "say": "That's the catch. In everyday life, we compare recognising faces with recalling names, and then we blame the names. But recognising something and recalling it are famously different. Anyone who has ever been able to pick the right answer on a multiple-choice test, and then blanked on the same question with no options in front of them, knows how different they are.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "text": "We compare recognising faces with recalling names, and then blame the names.",
+    "by": "The hidden catch"
+   }
+  },
+  {
+   "say": "So Mike Burton, Rob Jenkins and David Robertson set up a fairer test. They showed volunteers unfamiliar faces and unfamiliar names, and then tested recognition for both, with the same format and the same kind of question. In their first experiment, 24 volunteers learned 40 face and name pairs, drawn from 80 identities. And the result was the opposite of what everyday life suggests. Names were recognised better than faces.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "who": "Burton, Jenkins & Robertson, 2019",
+    "where": "I recognise your name but I can't remember your face",
+    "what": "Volunteers learned unfamiliar faces and names, then took a recognition test. Names were recognised better than faces, in both experiments."
+   }
+  },
+  {
+   "say": "Here are the numbers. When people were shown the same photograph of a face that they'd learned, they got 73 percent right. When a different photograph of the same face appeared, only 64 percent. For names, it was 85 percent when the name appeared in the same letter case, and 83 percent when it appeared in a different case. So even a small change in a photo hurts recognition more than a change in how a name is printed.",
+   "show": {
+    "type": "bars",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "title": "Recognition accuracy in the first experiment",
+    "unit": "percent correct",
+    "bars": [
+     [
+      "Faces, same photo",
+      73.0
+     ],
+     [
+      "Faces, different photo",
+      64.0
+     ],
+     [
+      "Names, same case",
+      85.0
+     ],
+     [
+      "Names, different case",
+      83.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "That's a surprising result, because it runs against the feeling every one of us has. Surely faces are easier? But in this test, with unfamiliar people, names won. A face changes from photo to photo, with a different angle, a different light, a different expression. A name, written down, looks the same every time. So when the task is fair, the name is, if anything, the easier of the two.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "neon_alley_rain",
+    "cap": "Why it surprises",
+    "sub": "Against the feeling"
+   }
+  },
+  {
+   "say": "The researchers worried that this might be a quirk of learning faces and names together, so they ran a second experiment where volunteers learned them separately, and it came out the same way. Names were recognised better than faces. They also tested what happened when the same photograph was used at learning and at test. Even then, names held their lead.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "Same story, learned separately",
+    "sub": "Another check"
+   }
+  },
+  {
+   "say": "In a third experiment, they tried something different. Instead of strangers, they used famous people. And there the advantage of names disappeared. For well-known celebrities, face recognition and name recognition were about equal. So the edge for names seems to belong to unfamiliar people, newly learned. Once a person is truly familiar, both routes are strong.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "who": "Burton, Jenkins & Robertson, 2019",
+    "where": "Famous faces and famous names",
+    "what": "In a third experiment, volunteers tested famous people. For familiar celebrities, recognising the face and recognising the name were about equal."
+   }
+  },
+  {
+   "say": "Let's be careful about what this does and doesn't show. It doesn't say that names are easy. It doesn't say that Marta's trouble isn't real. What it shows is that the old, simple claim, faces are easy and names are hard, is partly an artefact of comparing two different tasks. When you compare like with like, recognising a name is no worse than recognising a face.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "What we can say",
+    "sub": "A careful reading"
+   }
+  },
+  {
+   "say": "Imagine a great wooden cabinet of small drawers, like an old library catalogue. If a name is written on a card in front of you, you can open the right drawer and say, yes, that's in here. That's recognition. But if someone says, find me the name of the man with the yellow bicycle, and hands you an empty card, you have to search through every drawer without a clue. That's recall, and it's a much harder job.",
+   "show": {
+    "type": "photo",
+    "file": "lf45_b08_01.jpg",
+    "cap": "The card catalogue of names"
+   }
+  },
+  {
+   "say": "And that's exactly Marta's situation. If someone had read out a list of fifty names, she might well have said, yes, that one, with a flash of recognition. She'd have known the name the instant she heard it. What she couldn't do was recall it from nothing. The name hasn't vanished from her memory. It's just that her memory, at two in the morning, can't produce it without being given a prompt.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Marta's situation",
+    "sub": "Recall, not recognition"
+   }
+  },
+  {
+   "say": "That's a hopeful thought. The name is probably still in there. It just can't be called up on demand. And this is why names so often return by themselves, an hour later, in the shower, or the next morning, when a different cue happens to land on the right drawer.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "text": "The name is probably still in there. It just can't be called up on demand.",
+    "by": "A hopeful thought"
+   }
+  },
+  {
+   "say": "There was a careful detail in the third experiment, with famous people. Twenty-six volunteers took part, and five of them were set aside because they knew fewer than half of the celebrities used. The researchers wanted to test recognition for people who were really familiar, not for people the volunteers had barely heard of. Once that was done, faces and names came out about level.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "One more detail",
+    "sub": "Who was excluded"
+   }
+  },
+  {
+   "say": "That result suggests something rather lovely. The more familiar a person is, the more equal their face and their name become. For someone you know very well, you recognise both with equal ease. The gap opens when someone is new, when you've seen a face once and heard a name once and neither has had time to settle. In Marta's case, the neighbour was familiar by face, and barely familiar by name.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "What this means",
+    "sub": "Familiarity levels things"
+   }
+  },
+  {
+   "say": "So perhaps a name needs a longer apprenticeship than a face. A face becomes familiar quickly, through sight alone. A name becomes familiar through being heard and used, again and again, over years. Marta's neighbour has appeared in her street for years, and his face had a hundred chances to settle. His name had maybe three.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "The name's long apprenticeship",
+    "sub": "Time builds paths"
+   }
+  },
+  {
+   "say": "And that leads to a gentle conclusion. If you have trouble with names, it may not mean you have a poor memory. It may simply mean that you've seen more faces than you've used names. The remedy isn't a better brain. It's a few more chances for the name to be heard, said, and used, until it grows a path of its own.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "A gentle conclusion",
+    "sub": "Not a deficit"
+   }
+  },
+  {
+   "say": "Imagine if life were a multiple-choice test. Every time you met someone, a short list of possible names appeared in the air, and all you had to do was point to the right one. Nobody would ever have trouble with names. We'd be superb at it, because recognition is something the mind does very well. It's the blank page of recall that makes names so hard.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A multiple-choice life",
+    "sub": "If life gave us options"
+   }
+  },
+  {
+   "say": "And that's what a party gives you, a blank page. No list, no prompt, no help. Just a smiling face, and a pause where a name should go. It's the hardest version of the task, the one in which the mind has to produce everything on its own. And it's no surprise that a mind under social pressure, in a noisy garden, sometimes comes up empty.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "The blank page",
+    "sub": "The real difficulty"
+   }
+  },
+  {
+   "say": "So perhaps what we call forgetting a name isn't really forgetting at all. It's a failure to find. The knowledge is stored, and the route to it is blocked, and sometimes all it takes is one small clue, a first letter, a rhyme, a place, to open it up again. We'll look at that very experience, in its most famous form, in a few minutes.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "A gentle reframing",
+    "sub": "Not forgetting"
+   }
+  },
+  {
+   "say": "But first, there's another reason the name may have been in trouble long before the street party ended, and it has to do with how the name arrived.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "Where the name got lost"
+   }
+  }
+ ]
+}

@@ -1,0 +1,222 @@
+{
+ "id": "lf45_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's follow Marta's recognition a little deeper, from the eyes into the brain itself.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "n": 1,
+    "title": "A place in the brain for faces"
+   }
+  },
+  {
+   "say": "For most of history, nobody could look at a living brain while it was recognising a face. Then came functional magnetic resonance imaging, a scanner that shows which parts of the brain are working harder at a given moment, by following changes in blood flow. In the 1990s, researchers started using it to ask a beautifully simple question. When a person looks at a face, does any part of the brain respond especially strongly?",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Looking inside",
+    "sub": "Brain scanners"
+   }
+  },
+  {
+   "say": "Here's the study. In 1997, Nancy Kanwisher and her colleagues scanned fifteen volunteers while they looked at pictures. Photographs of faces, photographs of everyday objects, houses, and hands. In twelve of the fifteen people, a small region on the underside of the brain, on the fusiform gyrus on the right side, lit up more for faces than for objects. They called it the fusiform face area.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "who": "Kanwisher, McDermott & Chun, 1997",
+    "where": "A scanner study of faces",
+    "what": "Fifteen volunteers viewed faces, objects, houses and hands in a scanner. A small region on the underside of the brain, the fusiform gyrus, responded more to faces in 12 of the 15."
+   }
+  },
+  {
+   "say": "The numbers are neat. In one comparison, faces raised the signal in that region by about 1.9 percent, against 0.7 for everyday objects. In another, faces raised it by 1.6 percent against only 0.2 for houses. And when faces were compared with hands, which are also detailed and human, it was 2.7 percent against 0.7. The region wasn't just excited by anything interesting. It was picky, and the face was its favourite.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "title": "How strongly the face region responded",
+    "items": [
+     "Faces: 1.9% signal change",
+     "Objects: 0.7%",
+     "Faces: 1.6%",
+     "Houses: 0.2%",
+     "Faces: 2.7%",
+     "Hands: 0.7%"
+    ]
+   }
+  },
+  {
+   "say": "It's worth being careful here, because the headline version of this finding can be misleading. The face area isn't a little room in the brain with a sign on the door saying, faces only. The authors themselves checked that the response wasn't explained by something simple like brightness, or by paying more attention, or by looking at any living thing. But recognising a person involves many regions working together. The face area is one important member of the team.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "Careful with the word",
+    "sub": "Not a switch"
+   }
+  },
+  {
+   "say": "And here's a distinction that matters for tonight. A region that prefers faces is not the same as a region that remembers names. The face area is about seeing. It helps explain why Marta could recognise her neighbour in a heartbeat. It tells us nothing about where a name might be kept, and that's a different part of the story entirely.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "text": "A region that prefers faces is not the same as a region that remembers names.",
+    "by": "A useful distinction"
+   }
+  },
+  {
+   "say": "Faces seem to matter to other animals, too. In 2006, Doris Tsao and her colleagues went looking in macaque monkeys. They used a scanner to find the region that responded most strongly to faces, and then they recorded from single nerve cells inside it. The result was striking. Almost all of the responsive cells there, 97 percent, were strongly face selective.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Another species",
+    "sub": "Monkeys have it too"
+   }
+  },
+  {
+   "say": "Take that number in slowly. Ninety-seven percent of the responsive cells in that region were strongly face selective. In a brain that handles an enormous range of sights, a whole patch of tissue had become almost entirely devoted to faces. It suggests that giving faces special treatment is an old strategy, one that's been useful for a very long time, in more than one kind of brain.",
+   "show": {
+    "type": "stat",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "title": "Tsao, Freiwald, Tootell & Livingstone, 2006",
+    "big": "97%",
+    "label": "of responsive neurons in a monkey's face region were strongly face selective"
+   }
+  },
+  {
+   "say": "Here's a small piece of everyday evidence that the brain loves faces. You've almost certainly seen one in a knot of a tree, in the front of a car, or in the pattern of a cloud. A tree's bark can look like a sleepy old man. The brain is so ready to find faces that it finds them where there aren't any. That readiness is the same readiness that makes Marta's neighbour pop out of a crowd.",
+   "show": {
+    "type": "photo",
+    "file": "lf45_b04_01.jpg",
+    "cap": "Faces in the oldest places"
+   }
+  },
+  {
+   "say": "There's even a study of it. In 2014, a research team called their paper, Seeing Jesus in toast. Twenty adults looked at 480 images of pure noise, told that half hid a face, though none did. On average they reported seeing a face in about 34 percent of the images. And when someone saw a face in nothing, the right fusiform face area was more active, just as if there had been a real one.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "who": "Liu and colleagues, 2014",
+    "where": "Seeing faces in noise",
+    "what": "Twenty adults looked at 480 images of pure noise and were told half contained faces. They reported seeing a face in about 34 percent of them, and the right fusiform face area responded more when they did."
+   }
+  },
+  {
+   "say": "There's something generous, and a little funny, about that. The brain is ready to see a face in a pattern of noise, a piece of toast, a socket on a wall. It would rather say, I think I see someone, a hundred times too often, than miss one real person. It's easy to see why that might be a useful way to be built. And it fits with the earlier finding from the diaries, where strangers were sometimes mistaken for friends.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "neon_alley_rain",
+    "cap": "A generous machine",
+    "sub": "Better to see too many"
+   }
+  },
+  {
+   "say": "Marta, lying in the dark, thinks of the faces she's seen in odd places. The two lamps in the kitchen that look like surprised eyes. The knot in her bedroom door that always seems a little sleepy. She smiles. Her mind finds faces everywhere, and she's never lost a single one of them. Which makes it all the stranger that tonight it lost a name.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Marta and the toast",
+    "sub": "A small smile"
+   }
+  },
+  {
+   "say": "So let's be precise about what we've learned. There's a region, in humans and in monkeys, that responds especially strongly to faces. It's part of why faces are so quickly noticed and so well recognised. But it's primarily about perceiving a face. And a name is something that comes later, in a separate part of the process, which is where the next chapter begins.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "What the region does",
+    "sub": "Perceiving"
+   }
+  },
+  {
+   "say": "Let's gather up what we have so far. Faces are recognised as wholes. Turned upside down, they become hard. A region of the human brain prefers faces, and monkeys have face-loving cells too. And none of this, none of it, tells us where a name is stored. For that, we need to look at what happens after a face has been seen.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "title": "So far tonight",
+    "items": [
+     "Faces are recognised as wholes",
+     "Upside down they become hard",
+     "A region of the brain prefers faces",
+     "Monkeys have face-loving cells",
+     "None of this holds the name"
+    ]
+   }
+  },
+  {
+   "say": "The original face-area study was more careful than the headlines suggest. Twenty people were scanned, and five were set aside because of head movement or other technical problems, which left fifteen. The researchers didn't stop at faces against objects. They also tried scrambled two-tone faces, where the same dark and light patches were jumbled, and the region responded much more to the intact ones, about 1.9 percent against 0.6.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Behind the headline",
+    "sub": "How careful the study was"
+   }
+  },
+  {
+   "say": "They tested other explanations, too. Perhaps the region simply liked anything human, or anything interesting, or anything you had to look at closely. So they compared faces with hands, with houses, and asked people to do tasks that demanded attention on both. The region still preferred faces. That slow, patient process of ruling out the alternatives is what turns a striking picture into a trustworthy finding.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Checking the alternatives",
+    "sub": "Ruling things out"
+   }
+  },
+  {
+   "say": "Now bring it back to ordinary life. When Marta glanced across the street and her neighbour came into view, that small region on the underside of her brain responded, along with a whole network of others. None of it required her to decide anything. A face appeared, and the machinery for faces simply ran, the way your hand closes without instruction around a cup that's handed to you.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "What it feels like",
+    "sub": "An ordinary glance"
+   }
+  },
+  {
+   "say": "It's helpful to see this as the first step on the route from a face to a name. Before anything else can happen, the brain has to see the face as a face, and as this particular face. The special region helps with that. It's the doorway through which a person enters the story. Everything else, who he is, what he does, what he's called, comes afterwards.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "neon_alley_rain",
+    "cap": "A warm start",
+    "sub": "The first step on the route"
+   }
+  },
+  {
+   "say": "Marta rolls over. Her mind, for a moment, is calmer. There's comfort in knowing that her brain has a lot of machinery just for faces, and that the machinery worked. The face of her neighbour was never in danger. It was only the word that tagged along behind, a little late.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "A last pause",
+    "sub": "Good company"
+   }
+  },
+  {
+   "say": "And that brings us to something even more surprising, found by a team who recorded from single nerve cells in human brains.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "n": 2,
+    "title": "A cell for one person"
+   }
+  }
+ ]
+}

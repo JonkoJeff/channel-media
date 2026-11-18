@@ -1,0 +1,189 @@
+{
+ "id": "lf45_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "At one end of the face-recognition scale are people for whom faces are very hard, even faces of people they love. At the other end are people with an extraordinary gift for faces, who seem never to forget one. Looking at both ends helps us understand the middle, which is where Marta, and nearly all of us, live.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "At the edges",
+    "sub": "Two unusual groups"
+   }
+  },
+  {
+   "say": "Let's begin with difficulty. Some people have a lifelong difficulty in recognising faces, a condition called developmental prosopagnosia, sometimes called face blindness. It isn't a problem of eyesight, and it isn't a problem of intelligence. A person with it can see a face clearly, describe its features, and still not know whose it is. Often, they rely on other cues, like a voice, a hairstyle or the way someone walks.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Faces without recognition",
+    "sub": "Prosopagnosia"
+   }
+  },
+  {
+   "say": "How common is it? In 2009, David Bowles and colleagues tested unselected Australian adults on two standard tests, one of face memory and one of face perception. Among 241 people, at least 2 percent met their criteria for prosopagnosia, and 2.9 percent if two unclear cases were counted. That gives the often-quoted figure of roughly 2 to 3 percent.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "who": "Bowles and colleagues, 2009",
+    "where": "Diagnosing prosopagnosia",
+    "what": "Researchers tested unselected Australian adults on a face memory test and a face perception test. In 241 participants, at least 2 percent, and up to 2.9 percent when ambiguous cases were included, met the criteria for prosopagnosia."
+   }
+  },
+  {
+   "say": "It's a figure worth being careful with. A later commentary pointed out that the cut-off, two standard deviations below the average, builds in a small proportion of people by definition, which is why the figure of about 2.5 percent can be somewhat circular. And another large study of over fifteen hundred adults found that people's own ratings of their face recognition are related to their test scores, but not precisely enough to diagnose anyone from a questionnaire.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "A caution",
+    "sub": "A number with a catch"
+   }
+  },
+  {
+   "say": "What all that suggests is that difficulty with faces is a spectrum, not a switch. People are spread out from very good to very poor, with most in the middle. Marta, forgetting a name, isn't anywhere near the far end of that scale. She recognised a face instantly. If anything, her night shows what face recognition looks like when it works.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "text": "A hard time with faces is a spectrum, not a switch.",
+    "by": "What this tells us"
+   }
+  },
+  {
+   "say": "There's something else about face blindness that fits tonight's story. Researchers who propose criteria for it list, among the features, that name and voice familiarity should be intact. People who struggle to recognise faces can usually recognise a voice and know a name perfectly well. Which tells us, once more, that faces, voices and names are separate routes to the same person.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A telling contrast",
+    "sub": "Names are fine"
+   }
+  },
+  {
+   "say": "That's a lovely way to think about how we know people. A person isn't stored as one single thing. They have many doors. A face door, a voice door, a name door, a door for their walk, their smell, their laugh. Different people find different doors easier. In Marta's case, the face door swung wide open and the name door stuck.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "neon_alley_rain",
+    "cap": "Separate routes",
+    "sub": "A person has many doors"
+   }
+  },
+  {
+   "say": "Now the other end. In 2009, Richard Russell, Brad Duchaine and Ken Nakayama tested four people who said they had unusually good face recognition. One was a PhD student, one a homemaker, one a municipal employee, one a computer programmer. On a standard face memory test, three of the four scored the maximum possible score of 72 on the short form, and the fourth made one error.",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "who": "Russell, Duchaine & Nakayama, 2009",
+    "where": "Super-recognizers",
+    "what": "Four people who said they had unusually good face recognition were tested against control groups. All four scored beyond the range of the controls on two face recognition tests."
+   }
+  },
+  {
+   "say": "They also took a test called Before They Were Famous, with 56 photographs of celebrities taken before they became well known. The four super-recognisers did better than all but one of the 25 controls. Their advantage was larger for upright faces than upside-down ones, which fits Yin's old idea that the special skill is a skill for faces the right way up.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "More detail",
+    "sub": "Famous faces before they were famous"
+   }
+  },
+  {
+   "say": "Imagine a quiet gallery, with one plain wall and a bench in front of it. There's something restful about a space with nothing to recognise at all. Walking into a room full of people is the opposite, a crowd of faces, each one a little puzzle. For people at the two ends of the scale, that same room can feel very different.",
+   "show": {
+    "type": "photo",
+    "file": "lf45_b13_01.jpg",
+    "cap": "A quiet gallery"
+   }
+  },
+  {
+   "say": "There's even a practical side to this. In 2016, a team tested four working super-recognisers from the Metropolitan Police in London. They performed well above normal levels at matching both unfamiliar and familiar faces, even when the images were poor. The authors suggested that finding people with this gift and giving them the right tasks might be an efficient way to deal with the known difficulties of unfamiliar face recognition.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "who": "Robertson, Noyes, Dowsett, Jenkins & Burton, 2016",
+    "where": "Face recognition by Metropolitan Police super-recognisers",
+    "what": "Four working super-recognisers from the Metropolitan Police in London performed well above normal levels on tests of matching both unfamiliar and familiar faces, including degraded images."
+   }
+  },
+  {
+   "say": "Here's a thought worth pausing on. Do super-recognisers have an extraordinary memory for names? Nothing in these studies says so. Their gift is for faces, which makes sense. It also tells us that the skill for faces and the skill for names are not the same thing, and that a person can be brilliant at the one without being specially good at the other.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "And names?",
+    "sub": "A thought"
+   }
+  },
+  {
+   "say": "You may wonder how researchers measure these abilities. One of the standard tools is the Cambridge Face Memory Test. People study a set of faces, and then pick out each face from groups of similar faces, shown at different angles and in different light, with the test getting steadily harder. The long form has 102 trials, and the short form has 72. It's a test of learning new faces, not of recognising familiar ones.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The Cambridge tests",
+    "sub": "How faces are measured"
+   }
+  },
+  {
+   "say": "Researchers also use a test of face perception, in which people sort a set of similar faces by how much they resemble a target face. Both upright and upside-down versions are used. In the super-recogniser study, the super-recognisers' advantage was larger for upright faces than inverted ones, which suggests that they're better specifically at the special upright way of seeing faces that Yin first described.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "A second test",
+    "sub": "Perception"
+   }
+  },
+  {
+   "say": "It would be unwise to use any of this to diagnose yourself or anyone you know. A single lapse at a street party, or even a pattern of mixing up names, says nothing about face blindness, which is defined by lifelong, serious difficulty with faces and by formal testing. Marta, who recognised her neighbour in an instant, isn't remotely near that. Her slip, like most, was about a name.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "A caution",
+    "sub": "Don't self-diagnose"
+   }
+  },
+  {
+   "say": "The takeaway is the one we reached before. Most of us live in the wide middle of the scale, with a good, practised skill for familiar faces, a patchy one for new faces, and a weak spot for names. Knowing where the weak spot is, and why, is a useful kind of self-knowledge. It turns a vague worry about memory into a specific and rather understandable pattern.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "The wide middle",
+    "sub": "Most of us"
+   }
+  },
+  {
+   "say": "So Marta sits in the broad middle, with a good ordinary talent for faces and an ordinary difficulty with a name. Neither end of the scale describes her. And that's the same place almost all of us sit. A good memory for faces, a patchy one for names, and a night now and then spent trying to find a word that was there a minute ago.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "Marta, in the middle",
+    "sub": "An ordinary mind"
+   }
+  },
+  {
+   "say": "And now the part Marta has been waiting for. What helps? Let's look at what the research actually supports.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "n": 1,
+    "title": "What truly helps"
+   }
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+{
+ "id": "lf45_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's ask a simple question about Marta's perfect recognition. Why are faces so easy? One reason is that faces matter more to us than almost anything else we look at. Our whole social lives run through other people. Knowing who is who, who is friendly, who is tired, who has just walked into the room, is the sort of information that has always been worth a great deal. A brain that handles it smoothly is a brain doing something it loves.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Why faces feel so easy",
+    "sub": "A job the brain loves"
+   }
+  },
+  {
+   "say": "But there's a deeper idea behind the question. Is a face simply another kind of object, like a chair or a teapot, which the brain learns to recognise in the same way? Or is it something special? That was the question a psychologist named Yin asked in the 1960s, and he found a clever way to test it. All he needed was a stack of pictures, and a willingness to turn them upside down.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "Not just another object",
+    "sub": "A thought"
+   }
+  },
+  {
+   "say": "Here's how it worked. In his first experiment, Yin showed volunteers sets of black-and-white pictures, 64 in each category. Studio photographs of men's faces. Houses. Side views of airplanes. And cartoon stick figures doing everyday things. After looking through a set, people saw pairs of pictures and had to say which one they'd seen before. Some did this with the pictures upright, and some with the pictures upside down.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "who": "Yin, 1969",
+    "where": "A memory test with upside-down pictures",
+    "what": "Volunteers studied black-and-white pictures of faces, houses, airplanes and cartoon figures, then picked out which of two pictures they had seen. Some saw them upright, some upside down."
+   }
+  },
+  {
+   "say": "When the pictures were the right way up, something notable happened. Faces were the easiest category of all. People made fewer mistakes with faces than with houses, airplanes or stick figures. On average, the 26 volunteers made fewer than one mistake with upright faces. Remember that for a moment, because the upside-down result is the surprising part.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "street_day",
+    "cap": "The upright result",
+    "sub": "Faces were easiest"
+   }
+  },
+  {
+   "say": "Now here are the average mistakes, in Yin's own numbers. Upright faces, 0.89. Upside-down faces, 4.35. Upright houses, 2.23, and upside down, 3.42. Upright airplanes, 3.65, and upside down, 3.85. Look at what happened to faces. They went from the easiest category to the hardest, and the jump was the biggest of all. The airplanes barely changed.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "title": "Average mistakes in Yin's first experiment",
+    "items": [
+     "Upright faces: 0.89",
+     "Upside-down faces: 4.35",
+     "Upright houses: 2.23",
+     "Upside-down houses: 3.42",
+     "Upright airplanes: 3.65",
+     "Upside-down airplanes: 3.85"
+    ]
+   }
+  },
+  {
+   "say": "Yin took this to mean that faces aren't handled like other objects. Turning a house upside down makes it a bit harder to remember, but you still manage. Turning a face upside down seems to knock out something that the brain normally relies on. When people described how they remembered upright faces, they talked about forming a general impression of the whole face, which an upside-down face wouldn't let them do. Yin himself called this explanation speculative.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "What it means",
+    "sub": "Faces are processed differently"
+   }
+  },
+  {
+   "say": "A simple way to picture it. Upside down, a face stops being a face and becomes a puzzle. Right way up, you don't see eyes, nose and mouth and then add them together. You see Marta's neighbour, at once, as a whole. It's a very different kind of seeing, and it's the kind your brain has had years of practice at.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "text": "Upside down, a face stops being a face and becomes a puzzle.",
+    "by": "A way to picture Yin's result"
+   }
+  },
+  {
+   "say": "Yin ran another test to make sure his result wasn't just about light and shadow. In a third experiment, he used artists' line sketches of faces, with hair and ears trimmed away, alongside figures in period costume. The same thing happened. Faces were harder than costumes when turned upside down, going from about 1.35 mistakes to 2.69, while the costumes barely changed. So it wasn't shading doing the work. It was something about the face itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "A second clue",
+    "sub": "Line drawings too"
+   }
+  },
+  {
+   "say": "How does a brain get so good at faces? Mostly through enormous amounts of practice. Every day, from early in life, we look at faces, and every day we get a little better at telling them apart. By the time Marta is in her forties, she has looked at an astonishing number of them. The skill has become so smooth that she cannot feel it working, the way you can't feel yourself reading a street sign.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Practice, not magic",
+    "sub": "How the skill grows"
+   }
+  },
+  {
+   "say": "Imagine a long hallway lined with empty picture frames, each one waiting for a face. That's a little like the brain's way of holding familiar people. Over the years, each person you know gets a frame of their own, and each time you see them, the frame lights up for a moment. Marta's neighbour has one of those frames. It lit up at the party, instantly, and told her, I know this one.",
+   "show": {
+    "type": "photo",
+    "file": "lf45_b03_01.jpg",
+    "cap": "A long hallway of empty frames"
+   }
+  },
+  {
+   "say": "But there's a catch, which is the heart of tonight's puzzle. Names don't work like that. A name isn't a pattern you see. It's a word you have to say. And words, especially the kind of words that are only labels for one person, are stored and found in a completely different way from faces. We'll see exactly how in the next few chapters.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "And names",
+    "sub": "They don't have frames"
+   }
+  },
+  {
+   "say": "If you'd like to try a gentler version of Yin's idea, there's a way to do it at home. Next time you have a photograph of someone you know well, turn it upside down and look at it. You'll probably still know who it is, but notice how strange it feels. The face seems oddly distant, as if you were looking at it through frosted glass. The person is still there. The easy, instant recognition isn't.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Try it tonight",
+    "sub": "A gentle experiment"
+   }
+  },
+  {
+   "say": "Here's a way to think about that strangeness. Right way up, you seem to read a face all at once, as one shape with a particular feel. Upside down, you're pushed back to reading it piece by piece, an eye here, a mouth there, and that's slow and clumsy. Yin's volunteers described it in much that way, and the numbers fit. The same pictures, the same people, but a very different way of seeing them.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "Why the strangeness",
+    "sub": "The whole and its parts"
+   }
+  },
+  {
+   "say": "That flips the usual puzzle around. We tend to ask, why can't I remember this person? Yin's experiment suggests a better question. Why can I recognise so many people so effortlessly in the first place? The brain has a method for faces that it doesn't have for houses or airplanes, and that method works beautifully, right up until the moment you need the person's name.",
+   "show": {
+    "type": "quote",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "text": "The question isn't why faces are hard. It's why they're so easy.",
+    "by": "The puzzle in a sentence"
+   }
+  },
+  {
+   "say": "Marta, lying in the dark, tries a tiny test of her own. She pictures the man's face, and it comes at once, warm and sharp. Then she tries to hear his name in her head, and there's only a kind of fizzing silence. The two feel like they belong to two different machines. And in a way, that's exactly right, which is the thread we're going to follow next.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "neon_alley_rain",
+    "cap": "Marta tries it",
+    "sub": "Her own small test"
+   }
+  },
+  {
+   "say": "Let's look a little more closely at Yin's materials, because the details matter. Each category had 64 pictures, and each picture was shown for three seconds. The volunteers weren't asked to describe anything or to think about faces specially. They were simply asked to remember what they'd seen, and then to pick out the old picture from each new pair. A plain, fair test, with nothing hidden in it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "More about the pictures",
+    "sub": "Yin's materials"
+   }
+  },
+  {
+   "say": "Yin's interpretation, in the end, had two ingredients. One was a general factor, which affects almost any familiar object when it's turned upside down. Houses, stick figures and airplanes all get a little harder. The other was a special factor, which affects faces much more. Faces lose something extra when they're inverted, something that other objects don't have to lose. That extra loss is the signature of a special way of seeing.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Two ingredients",
+    "sub": "A general and a special factor"
+   }
+  },
+  {
+   "say": "The airplanes make a nice contrast. Airplanes were hard in both orientations, and turning them upside down hardly changed that. You could say they were never being handled in a special way to begin with. Faces were handled in an expert way, and the expertise broke when the picture was turned. That's quite a vivid way of seeing how much special skill goes into an ordinary glance.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "Why airplanes barely changed",
+    "sub": "A useful contrast"
+   }
+  },
+  {
+   "say": "That's the skill that Marta used to recognise her neighbour. It's the kind of skill you can't feel, because you've had it for so long. It was shaped by a lifetime of looking at faces, and it works like a well-practised handwriting, quick and smooth, and impossible to take apart while you're using it. Names, as we'll see, rely on a very different sort of knowledge.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "Marta's special skill",
+    "sub": "Years in the making"
+   }
+  },
+  {
+   "say": "Seeing a face and saying a name are very different jobs. One is a recognition of something you can see and feel. The other is a recall of something you have to produce, a particular word out of the many thousands you know. The first is a strength. The second is a task that asks a great deal more of the mind. And that gap is the doorway into the rest of tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Two different jobs",
+    "sub": "Seeing and saying"
+   }
+  },
+  {
+   "say": "Now, let's go one level down, and ask where in the brain all of this faces business happens.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "n": 1,
+    "title": "The most practised pattern"
+   }
+  }
+ ]
+}

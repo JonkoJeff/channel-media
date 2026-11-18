@@ -1,0 +1,192 @@
+{
+ "id": "lf45_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let the train fade gently, and imagine that you've arrived somewhere very still. A small pond, at twilight, in the last of the summer light. The air is warm and soft. The water is flat as glass, and covered here and there with round green lily pads, each one resting on its own quiet reflection.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "n": 1,
+    "title": "A pond at twilight"
+   }
+  },
+  {
+   "say": "The water is perfectly still. It holds the sky the way a bowl holds soup, a deep, quiet blue turning to violet. Now and then a tiny ripple spreads from a lily pad where a small insect has landed, and the ripple widens, and fades, and the surface is smooth again, as if nothing had ever touched it. Nothing here ever needs to be remembered.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The water",
+    "sub": "Still and dark"
+   }
+  },
+  {
+   "say": "Over the water, the fireflies are beginning to wake. One, and then another, and then a few more, tiny lamps of gold-green light, drifting slowly up from the grass. They blink on, and then off, with no hurry and no pattern, like thoughts that don't need to be followed. The pond holds their light and doubles it, so that each firefly has a twin in the dark.",
+   "show": {
+    "type": "photo",
+    "file": "lf45_b17_01.jpg",
+    "cap": "Fireflies over the lily pads"
+   }
+  },
+  {
+   "say": "Let your breath settle into the stillness of the pond. In, as a ripple widens. Out, as it fades away. There's no effort in it at all. The pond doesn't try to be calm, and neither do you. The calm is simply what's left when the doing stops, the way the water settles when no one is stirring it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Breathing with the pond",
+    "sub": "Slow and even"
+   }
+  },
+  {
+   "say": "Listen to all the small sounds around the pond. The reeds, standing very still. A frog somewhere, humming its low note. Crickets in the long grass, ticking softly. A breeze through the willow, barely there. And above it all, the first stars appearing, faint and far away, one by one.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "title": "Around the pond",
+    "items": [
+     "Reeds standing very still",
+     "A frog, somewhere, humming",
+     "Crickets in the long grass",
+     "A soft breeze through the willow",
+     "The first stars, faint and far"
+    ]
+   }
+  },
+  {
+   "say": "The pond keeps no list of what has landed on it. Insects, leaves, raindrops, the reflection of a passing cloud. Each one touches the surface, and the surface returns to rest. A mind can do the same. A thought lands, ripples, and the water smooths over, and you're left with the quiet surface and the sky.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "text": "The pond keeps no list of what has landed on it.",
+    "by": "A thought by the water"
+   }
+  },
+  {
+   "say": "Somewhere beyond the reeds, a frog begins its low song. It sounds the same note, patient and warm, again and again, and then another frog answers from across the pond. It's a conversation without names, a pair of voices exchanging nothing but a gentle, steady sound. You don't have to understand it. You can just let it rock you, the way water rocks a lily pad.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "A frog's song",
+    "sub": "Low and slow"
+   }
+  },
+  {
+   "say": "Your body is heavy now, warm as the air at the edge of the pond. Your arms rest beside you. Your legs are long and loose. Your face feels smooth, as though a gentle hand had passed across it. Your jaw is soft. Your forehead is wide. Everything that was tight has quietly let go, and you didn't even have to ask it to.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "Heavy and warm",
+    "sub": "The body settles"
+   }
+  },
+  {
+   "say": "A single leaf lands on the water and begins to drift. It turns slowly, as if thinking about something, and moves across the pond without any effort at all. Follow it with your eyes, if you like, and let your thoughts go with it. It's heading nowhere in particular. It's just being carried, and it's happy to be.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "A floating leaf",
+    "sub": "Drifting"
+   }
+  },
+  {
+   "say": "More and more fireflies are rising now, until the air above the water is full of little lights, drifting and blinking in the warm blue dusk. They make no sound. They ask for no attention. They simply glow, one after another, and each light is gone as soon as you notice it, and another appears. It's the gentlest kind of fireworks.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "More fireflies",
+    "sub": "A slow glow"
+   }
+  },
+  {
+   "say": "Above the pond, the stars are coming out in earnest now. A scatter of silver across the deepening blue, doubled in the dark glass of the water below. You're lying between two skies, the one above and the one beneath. And you're warm, and quiet, and safe in the middle of both.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The stars",
+    "sub": "Coming out"
+   }
+  },
+  {
+   "say": "A cool breeze moves over the pond, so lightly that it barely stirs the lily pads. You feel it on your cheek, a gentle touch, and then it's gone. The reeds bow a little and straighten again. The surface of the water shivers once, into a thousand tiny silver lines, and then returns to glass. Everything here knows how to return to stillness.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "A cool breeze",
+    "sub": "Over the water"
+   }
+  },
+  {
+   "say": "On the far bank, an old willow trails its long branches into the water. They move very slowly, like green curtains in a half-open window. Beneath them, the shadows are deep and cool. It looks like a very good place to sit and do nothing at all. Imagine settling there, with your back against the trunk, as the last light turns violet over the water.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The willow",
+    "sub": "Soft green curtains"
+   }
+  },
+  {
+   "say": "Everything about this place is slow. The drift of the fireflies. The turning of the leaf. The widening of a ripple. The darkening of the sky. None of it is in a hurry, and none of it is trying to be anywhere else. You can be slow too. Your breath, your thoughts, your heartbeat, all of them gently unwinding, like a spool of thread letting go.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Slowing down",
+    "sub": "Everything gently"
+   }
+  },
+  {
+   "say": "The sky above the pond is deep now, a rich, quiet blue that seems to go on forever. It's the colour of the inside of a closed eyelid, the colour of rest. Let your own eyes go that colour, soft and dark and wide. You're drifting under it, as light as a floating seed, with nothing to hold and nothing to hold you back.",
+   "show": {
+    "type": "char",
+    "sprite": "A18",
+    "bg": "attic_rain",
+    "cap": "A deep, quiet blue",
+    "sub": "The sky above"
+   }
+  },
+  {
+   "say": "Low over the far trees, a small round moon has appeared, pale as a pearl, and the pond has caught it perfectly. There are two moons now, one in the sky and one in the water, and a gentle ripple makes the lower one tremble and then settle. You can look at either one. You can look at neither. Just let your eyes rest in the soft silver.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "A small, round moon",
+    "sub": "Reflected"
+   }
+  },
+  {
+   "say": "Even the pond seems to be falling asleep. The frogs have gone quiet, one by one. The fireflies are fewer, and slower. The lily pads sit on the dark water like small green plates left out for the night. A last, small ripple crosses the glass, and fades, and the whole scene settles into a deep, round silence that feels like a blanket.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Sleepy and still",
+    "sub": "The pond sleeps"
+   }
+  },
+  {
+   "say": "And now, as the last light leaves the sky, let the pond slowly fade. The lily pads, the fireflies, the frogs, softening and sliding away, like a lamp being turned down in a long hallway. They'll be here tomorrow night, just as they've always been. But for now, there's another quiet place waiting for you.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Drifting",
+    "sub": "Away from the pond"
+   }
+  }
+ ]
+}

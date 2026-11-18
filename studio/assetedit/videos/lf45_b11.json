@@ -1,0 +1,205 @@
+{
+ "id": "lf45_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's ask what makes a name more likely to get stuck. And let's start with a result that Marta might find oddly comforting. In diary studies of the tip of the tongue, where people noted every episode over weeks, the names that stuck weren't random. They were very often the names of people the diary keepers hadn't been in touch with recently. Names that hadn't been used in a while.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "Time, use and age",
+    "sub": "Why some names go quiet"
+   }
+  },
+  {
+   "say": "Here's the study. Deborah Burke, Donald MacKay and their colleagues asked younger and older adults to keep tip-of-the-tongue diaries. Across the weeks, most of the words that got stuck, in both age groups, were proper names, often the names of people they hadn't contacted recently. And older adults reported more of these episodes than younger adults, especially for proper nouns.",
+   "show": {
+    "type": "study",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "who": "Burke, MacKay, Worthley & Wade, 1991",
+    "where": "On the tip of the tongue: what causes word-finding failures",
+    "what": "In diary studies, older and younger adults logged tip-of-the-tongue states for several weeks. Most were for proper names, often of people not contacted recently, and older adults reported more of them."
+   }
+  },
+  {
+   "say": "That points to a simple idea. A word you use all the time stays strong. A word you haven't used for a while grows weaker. Burke and MacKay's account says that tip-of-the-tongue states come mainly from weakened connections, and that three things weaken them, using a word rarely, not having used it recently, and getting older. Marta's neighbour's name fits the first two exactly. She almost never says it.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "Use it or it fades",
+    "sub": "A simple idea"
+   }
+  },
+  {
+   "say": "One way to picture it is as paths across a field. A name you say often is a path worn smooth. A name you rarely say is a path overgrown with grass. The destination is still there. But when you need to get to it in a hurry, the overgrown path is the one that trips you.",
+   "show": {
+    "type": "quote",
+    "sprite": "A18",
+    "bg": "rooftop_dusk",
+    "text": "A name you say often is a path worn smooth. A name you rarely say is a path overgrown.",
+    "by": "A way to picture it"
+   }
+  },
+  {
+   "say": "Now, age. It's often said that names get harder as we grow older, and there's truth in that. Older adults do report more tip-of-the-tongue states, especially for names. But the research paints a more careful picture than the jokes about senior moments suggest, and some of it is quite reassuring. Let's look at one of the more careful studies.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "neon_alley_rain",
+    "cap": "And age",
+    "sub": "A gentler look"
+   }
+  },
+  {
+   "say": "This was the second half of that 2005 study. The researchers showed famous faces and uncommon objects to three groups, young adults with an average age of 21, and two older groups, averaging 67 and 73. Among the faces people recognised as well known, the oldest group managed to name about 46 percent, compared with about 57 for the younger older group and about 64 for the young.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "autumn_overlook",
+    "who": "Rendell, Castel & Craik, 2005",
+    "where": "Naming famous faces",
+    "what": "Among famous faces that people recognised, the oldest group, with an average age of 73, named about 46 percent, against about 64 percent for young adults and 57 percent for adults around 67. For uncommon objects, there was no age difference."
+   }
+  },
+  {
+   "say": "Here they are side by side. Young adults, about 64 percent named. Older adults, average age 67, about 57. And the oldest group, average age 73, about 46. So there is a decline in naming the faces of well-known people, and it's real. But it's gentle, and it's not the whole story. Notice that the oldest group still named nearly half of the faces they recognised.",
+   "show": {
+    "type": "bars",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "title": "Famous faces named, among those recognised",
+    "unit": "percent named",
+    "bars": [
+     [
+      "Young adults, average age 21",
+      64.0
+     ],
+     [
+      "Older adults, average 67",
+      57.0
+     ],
+     [
+      "Oldest adults, average 73",
+      46.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And here's a telling detail. For uncommon objects, the picture was different. The three age groups named a similar share of the objects they knew, about 65, 71 and 68 percent. So it wasn't that older minds had lost the knack of naming things. The difficulty showed up especially for the names of people, which are the labels with the fewest hooks, which is what we've been seeing all night.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "The objects",
+    "sub": "A telling detail"
+   }
+  },
+  {
+   "say": "The authors' reading was careful. They found little evidence for a disproportionate impairment for names in old age. In other words, names get harder, but so do many other things, and not by dramatically more. And much of the difficulty depends on how familiar the person is. Familiarity was a strong predictor of whether a face could be named, at every age.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "A balanced reading",
+    "sub": "Real, but modest"
+   }
+  },
+  {
+   "say": "Picture an old desk with a stack of sepia photographs and a magnifying glass. Those faces are still known, still precious, still recognised at a glance by the person who loves them. A name might go quiet now and then. But the faces, and what they mean, are kept in a different and sturdier way. And there's a famous study that shows just how sturdy.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Old photographs on a desk",
+    "sub": "Faces we know well"
+   }
+  },
+  {
+   "say": "In 1975, Harry Bahrick, Phyllis Bahrick and Roy Wittlinger tested 392 high school graduates, from a few months to nearly 47 years after graduation. People were tested on photographs and names of their classmates. For the first fifteen years, recognition of names and faces stayed at about 90 percent correct. Memory for faces held up remarkably long, only declining markedly after about 35 years.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "who": "Bahrick, Bahrick & Wittlinger, 1975",
+    "where": "Fifty years of memory for names and faces",
+    "what": "392 high school graduates, tested from a few months to about 47 years after graduation, recognised classmates' names and faces at about 90 percent correct for the first 15 years. Face recognition declined after about 35 years."
+   }
+  },
+  {
+   "say": "That's an extraordinary result, and it fits tonight's story. Recognising a face is a remarkably durable skill. People held on to the faces of classmates for decades. If you ever worry that your memory for people is fragile, remember that the part you do best, recognising a familiar face, is also the part that lasts the longest.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "A durable thing",
+    "sub": "Faces last"
+   }
+  },
+  {
+   "say": "Burke and her colleagues weren't the only ones to look at this. In 1986, the researchers Cohen and Faulkner found that older adults reported more occasions when a name was blocked, and that these were mostly for the well-known names of friends and relatives. It's an oddly tender finding. The names that stuck weren't the names of strangers. They were the names of people the speaker knew and cared about.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "Cohen and Faulkner",
+    "sub": "Another diary"
+   }
+  },
+  {
+   "say": "A name can be deeply familiar and still sometimes slip. The face, the voice, the history are all there. But the name itself is used rarely, because we hardly ever address our closest people by name in everyday talk. We say, hello, or, there you are. So the name has less practice than almost any other word, even for those we love most, which is why it can slip so oddly.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Why that happens",
+    "sub": "Rare use, deep familiarity"
+   }
+  },
+  {
+   "say": "This fits the transmission-deficit model, which Deborah Burke and Meredith Shafto reviewed in 2004. A word's meaning and its sounds are connected by a link, and that link can be strengthened by use and weakened by disuse and age. Proper names have especially thin links, because there's nothing but the link to connect the person to the sound. Weaken the link a little, and the name goes first.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The transmission idea again",
+    "sub": "A neat summary"
+   }
+  },
+  {
+   "say": "It would be a misreading to take any of this as a verdict on aging. The studies show that names can get harder over the years, and that the difficulty is modest and often depends on familiarity. They don't say that a stuck name at forty-two is a symptom of anything. Marta's slip is the sort that people of every age have, and have always had.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "Not a verdict",
+    "sub": "What it doesn't mean"
+   }
+  },
+  {
+   "say": "So where does this leave Marta, who is somewhere in her forties and awake at three in the morning, worried that she's slipping? Exactly where she began. A name she rarely uses, attached to a person she rarely speaks to, learned in a noisy garden. That's a perfectly ordinary lapse. It's not a sign of anything. And the evidence says it can happen at any age.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Both are ordinary",
+    "sub": "Not a diagnosis"
+   }
+  },
+  {
+   "say": "But before we leave faces entirely, there's one more thing about them that's worth knowing. Faces are not as easy as they feel.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "n": 1,
+    "title": "Faces that are harder than they seem"
+   }
+  }
+ ]
+}

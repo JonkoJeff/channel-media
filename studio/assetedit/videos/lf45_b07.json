@@ -1,0 +1,208 @@
+{
+ "id": "lf45_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's an experiment that sounds almost like a riddle. Imagine you're shown a photograph of a man's face and told, this is Mr Baker. Then someone else is shown a photograph of a man and told, this man is a baker. Same word. Same sounds. Same letters. Which would be easier to learn, the surname or the job? Most people, when asked, think it makes no difference at all. It does.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "A tiny experiment about a baker",
+    "sub": "Baker, and baker"
+   }
+  },
+  {
+   "say": "This was tested in 1987 by a research team that included the authors of the diary study. They compared how well people learned the very same word when it was given as a person's occupation, baker, and when it was given as a person's surname, Baker. The result was that it was harder to learn a word as someone's surname than as their job, even though the word itself was exactly the same.",
+   "show": {
+    "type": "study",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "who": "McWeeny, Young, Hay & Ellis, 1987",
+    "where": "Putting names to faces",
+    "what": "The very same word was harder to learn as a person's surname than as a person's occupation."
+   }
+  },
+  {
+   "say": "So the lesson is simple, and a little startling. The same word is easier to learn as a job than as a name. It isn't about the sounds, the length, or how common the word is. It's about what the word is doing. A job tells you something. A name, just a name, tells you almost nothing.",
+   "show": {
+    "type": "quote",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "text": "The same word is easier to learn as a job than as a name.",
+    "by": "The Baker and baker result"
+   }
+  },
+  {
+   "say": "Think about what a baker brings with him. Flour. Early mornings. Warm bread. Ovens. A job, as a word, hooks into a large network of other things you already know. When you learn that a man is a baker, you can connect him to all of it. When you learn that a man is called Baker, there's nothing to connect him to. The sound is just a sound, with no rope attached.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Why a job has hooks",
+    "sub": "Meaning helps"
+   }
+  },
+  {
+   "say": "Picture a warm bakery shelf, golden loaves, a long wooden paddle, a dusting of flour. Everything on it speaks of baking, and every object points to the others. If a man were introduced as a baker, he'd walk straight into that picture, and the picture would hold him up. Now take away the shelf. Leave only the sound, Baker, floating on its own. It becomes a good deal harder to hold.",
+   "show": {
+    "type": "photo",
+    "file": "lf45_b07_01.jpg",
+    "cap": "The baker's shelf"
+   }
+  },
+  {
+   "say": "Now think of Marta's neighbour. Suppose his name is something like Anton, or Ruben, or Callum. We're not going to say. In any case, a name like that has no connection to a tomato plant, a yellow bicycle, or a violin. It's an arbitrary label, attached to a person by nothing but custom. Nothing in the name itself says, this is the man who fixed your gate. It has to be attached by hand, and only by repetition.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "neon_alley_rain",
+    "cap": "Marta's neighbour",
+    "sub": "A name with no rope"
+   }
+  },
+  {
+   "say": "Psychologists sometimes say that a proper name is a pure label. It points to one person, and it doesn't describe them. Other facts about the person, their work, their hobbies, where they live, always carry some sort of meaning that links to the rest of what you know. A name is the one piece of information with nothing else to hold it in place, so it falls out first, like the last bead on a string without a knot.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "A different kind of memory",
+    "sub": "Arbitrary labels"
+   }
+  },
+  {
+   "say": "The same pattern turned up again in 2005, in a study by Peter Rendell, Alan Castel and Fergus Craik. Volunteers learned faces paired with either surnames or occupations. In every group, young adults, older adults, and young adults who were distracted while learning, names were recalled less well than occupations. And words that could be either a name or a job, ambiguous ones like Baker, were recalled less well still.",
+   "show": {
+    "type": "study",
+    "sprite": "A18",
+    "bg": "living_room_day",
+    "who": "Rendell, Castel & Craik, 2005",
+    "where": "Learning names versus jobs",
+    "what": "Young and older adults learned faces paired with surnames or occupations. Names were recalled less well than occupations in every group, and ambiguous words that could be both were recalled less well still."
+   }
+  },
+  {
+   "say": "Notice what that result says. It wasn't only older adults who struggled with names. Young adults did too, whenever the word was a pure label. So this isn't a fact about getting older. It's a fact about names. They're harder to learn than other facts about a person, at any age, because there's less in them to hold on to.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Not just age",
+    "sub": "Everyone struggles"
+   }
+  },
+  {
+   "say": "Which brings us back to Marta, awake and a little hard on herself. The name didn't slip away because she isn't good with people, or because she's getting old, or because she wasn't listening. It slipped because it's a name. In a world of rich, connected, meaningful facts about a person, it's the one piece of information with the least to cling to.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "A thought for Marta",
+    "sub": "It's the label"
+   }
+  },
+  {
+   "say": "Here's a line to keep. A name is a fact with no hooks. Everything else you know about a person has hooks, a job, a place, a story, a habit, a joke. The name has none, which is exactly why it's the first thing to go, and why it so often comes back the moment you find a hook for it.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "text": "A name is a fact with no hooks.",
+    "by": "One way to remember it"
+   }
+  },
+  {
+   "say": "Before the self-help part of your brain starts shouting, a quick note. Yes, there are techniques that work by giving names hooks, like turning a name into a picture. We'll look at the evidence for what helps near the end of tonight. For now, it's enough to understand why the problem exists in the first place.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Careful with tricks",
+    "sub": "We'll come back"
+   }
+  },
+  {
+   "say": "There's something curious about all this. Many English surnames began as jobs. Baker, Cook, Smith, Carter, Miller, Mason, Fisher. Over the centuries, the word stopped describing what a person did and became just a label that was handed down. So when you meet a person called Baker, the same word that could once have told you something now tells you nothing at all about the person in front of you.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Names that are words",
+    "sub": "A curious thing"
+   }
+  },
+  {
+   "say": "That's why the 2005 study found something particularly interesting about ambiguous words. A label that could be a name or a job was recalled less well than a label that was clearly one or the other. The mind seems to get a little confused about what kind of thing it's holding. A word that is both a surname and an occupation has no secure place to live, and is easier to lose.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The ambiguous label",
+    "sub": "A tougher case"
+   }
+  },
+  {
+   "say": "Marta knows a few people like that. There's a Mr Fisher at the corner shop, who has never to her knowledge caught a fish. A woman at work called Gardener, who doesn't own a garden. It's always a small effort to hold the name apart from the thing it sounds like. And that's a small, everyday illustration of the problem that the Baker and baker experiment captured.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "Marta's neighbours",
+    "sub": "Everyday examples"
+   }
+  },
+  {
+   "say": "So when we put these threads together, we see a picture. A name carries very little meaning. It's learned in a hurry. It's attached to nothing in particular. And it's often confused with other words. Seen that way, it's no wonder it's the weakest link in the chain. If anything, the surprise is how often our memory manages to hold names at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "What a name carries",
+    "sub": "Little to hold"
+   }
+  },
+  {
+   "say": "Psychologists often talk about meaning as a kind of glue. A fact that connects to many other facts holds together well. A fact that stands on its own comes away easily. Baker as a job connects to bread, ovens, mornings and shops. Baker as a name connects to nothing. The word is the same, but one has glue and the other doesn't, and that's the whole difference.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Meaning as glue",
+    "sub": "How memory holds things"
+   }
+  },
+  {
+   "say": "This suggests a natural remedy, one we'll come back to. If a name lacks glue, give it some. Notice that the man with the yellow bicycle has a name that sounds a bit like a place Marta once visited. Or that it's the same as her cousin's. Even a small link, a rhyme, a face it reminds you of, gives the name something to hold onto, and something to be found by.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "Giving a name some glue",
+    "sub": "A natural remedy"
+   }
+  },
+  {
+   "say": "There's a quiet relief in that. A name is a word with no handle, and any word without a handle is a hard one to lift. Marta turns her pillow over and rests her cheek on the cool side. She still doesn't know the name. But for the first time tonight, she knows why.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "cap": "A small relief",
+    "sub": "Understanding it"
+   }
+  },
+  {
+   "say": "But hold on, because there's a twist in this story, and it concerns something even more basic than hooks.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "Recognition against recall"
+   }
+  }
+ ]
+}

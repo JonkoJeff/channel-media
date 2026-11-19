@@ -1,0 +1,213 @@
+{
+ "id": "lf46_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's go shorter still, to a study that pushed the glance down to a few hundredths of a second.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "n": 5,
+    "title": "Thirty-nine milliseconds"
+   }
+  },
+  {
+   "say": "Imagine a face appearing on a screen and vanishing so quickly that you're not sure you saw one. Then, right after, a scrambled pattern flashes up to wipe the image from your eyes. Psychologists call that a mask. And it's a clever trick, because it lets them show a picture for a very precise, very tiny amount of time, and then ask what the brain did with it.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "autumn_overlook",
+    "cap": "A very short glance",
+    "sub": "Almost nothing"
+   }
+  },
+  {
+   "say": "In 2006, Moshe Bar and his colleagues Neta and Linz, at Harvard, used that trick to ask a different question. Not how likeable a face seems, but how threatening. It's a question with an old, practical flavour. If you meet someone new, the first thing a nervous system might want to know is whether to relax or to be careful.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "A different question",
+    "sub": "Threat, not charm"
+   }
+  },
+  {
+   "say": "Here's the setup. The faces were ninety grayscale photographs of men, all with neutral expressions. Each face was shown for twenty-six milliseconds, for thirty-nine milliseconds, or, as a comparison, for seventeen hundred milliseconds, a little under two seconds. Different small groups of volunteers saw each time, and they rated each face from one to five on how threatening the person seemed.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "street_day",
+    "who": "Bar, Neta & Linz, 2006",
+    "where": "Published in the journal Emotion",
+    "what": "Volunteers saw 90 grayscale male faces with neutral expressions for 26 ms, 39 ms or 1,700 ms, each followed by a mask, and rated how threatening each person seemed on a scale of 1 to 5."
+   }
+  },
+  {
+   "say": "The question was simple. Do the quick ratings agree with the slow ones? If the threat rating at thirty-nine milliseconds is basically random, it won't match what people say after seeing the face for nearly two seconds. But if the brain has already extracted something, the two sets of ratings should move together, face by face.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "The comparison",
+    "sub": "Quick versus slow"
+   }
+  },
+  {
+   "say": "And here's the finding. For the twenty-four faces that had been most clearly rated as neutral, ratings made after only thirty-nine milliseconds agreed strongly with the ratings made at the full time. The correlation was about point seven seven. Across all ninety faces, the agreement was weaker, around point five five, but it was still clearly there.",
+   "show": {
+    "type": "stat",
+    "sprite": "N11",
+    "bg": "living_room_day",
+    "title": "Bar, Neta & Linz, 2006",
+    "big": "r = .77",
+    "label": "agreement between threat ratings at 39 ms and at 1,700 ms (24 faces rated most neutral)"
+   }
+  },
+  {
+   "say": "Now here's what makes the study so neat. At twenty-six milliseconds, the agreement vanished. The ratings no longer matched the slow ones in any meaningful way. So there's a sort of edge, somewhere between twenty-six and thirty-nine milliseconds, where the brain goes from having too little to having just enough to form a threat impression.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "autumn_overlook",
+    "cap": "At twenty-six milliseconds",
+    "sub": "The edge of the effect"
+   }
+  },
+  {
+   "say": "The team also asked a separate group of people how intelligent each face looked. And at those same very short times, the intelligence ratings did not agree with the slower ones. So the quick impression wasn't a general-purpose reading of everything. It was best at the thing that matters most for staying safe, whether someone might be a threat, and much less steady for a trait like intelligence.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "And a second trait",
+    "sub": "Intelligence"
+   }
+  },
+  {
+   "say": "It's a pattern that fits an old and sensible idea. Judging whether a stranger might hurt you is, in evolutionary terms, urgent. Judging whether they're clever is not. The authors suggested that traits linked to survival may be read faster than others. It's a suggestion, and not a proven rule, but it does help explain why the quick verdict so often has a flavour of safe or unsafe.",
+   "show": {
+    "type": "quote",
+    "sprite": "N23",
+    "bg": "street_day",
+    "text": "Threat is judged faster than intelligence.",
+    "by": "A pattern in the data"
+   }
+  },
+  {
+   "say": "Here's a natural question. If the face was on the screen for thirty-nine milliseconds, did people even know they'd seen it? The researchers checked. They showed a new group of volunteers the faces at the same short times and asked them to pick which of four faces they'd just seen. Pure guessing would land at twenty-five percent.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "rooftop_dusk",
+    "cap": "Did they see it?",
+    "sub": "A fair question"
+   }
+  },
+  {
+   "say": "At twenty-six milliseconds, people got about twenty-eight percent right, which is close to guessing. At thirty-nine milliseconds, about forty-four percent, which is clearly above chance. So they had seen something, though far from everything. And that points to the next piece of the puzzle, which is what kind of information gets through in such a short time.",
+   "show": {
+    "type": "list",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "title": "Could people pick the face?",
+    "items": [
+     "At 26 ms, about 28 percent, close to chance",
+     "At 39 ms, about 44 percent, above chance",
+     "Low-detail versions at 39 ms, about 49 percent",
+     "Fine-detail versions at 39 ms, about 32 percent"
+    ]
+   }
+  },
+  {
+   "say": "The researchers made two kinds of altered faces. One kept only the coarse, blurry shapes of a face, the kind of image you'd see if you squinted. The other kept only the fine, sharp details, like the texture of the skin. They found that, at thirty-nine milliseconds, people could pick out the blurry versions about forty-nine percent of the time, and the sharp versions only about thirty-two percent of the time.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "A blurry version",
+    "sub": "Low spatial frequencies"
+   }
+  },
+  {
+   "say": "That fits what we know about vision. The coarse, blurry layer of a scene reaches the brain a little before the fine detail does. And in a later part of the study, threat ratings of blurry faces tracked the ratings of the full faces better than ratings of the sharp ones did. So the authors suggested that the very first impressions are driven by that first, coarse layer.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "cafe_sunset",
+    "cap": "Why a blur matters",
+    "sub": "The coarse picture first"
+   }
+  },
+  {
+   "say": "Here's a picture of a landscape, softened by morning mist. You can't see any leaves, or any bark, or any details at all. But you can tell at once that it's a hillside, with a line of trees, and a path leading somewhere. A first impression is a bit like that. The shape arrives before the details, and the shape alone can feel like enough.",
+   "show": {
+    "type": "photo",
+    "file": "lf46_b03_01.jpg",
+    "cap": "A picture before the details"
+   }
+  },
+  {
+   "say": "Felix thinks about that. When Mara looked up, he saw her across the room, from the door. At that distance, he couldn't have seen the fine lines around her eyes, or the shade of her eyes themselves. What he saw, he realises, was a coarse picture. A tidy desk, a woman in a dark jumper, a smile that seemed small. The details he used for his verdict were perhaps the least detailed ones.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "living_room_day",
+    "cap": "Felix thinks about Mara",
+    "sub": "A blurred face"
+   }
+  },
+  {
+   "say": "That's a small relief, in a way. The verdict felt so solid, so full of detail. But it may have been built from a rough sketch, and a sketch can be a perfectly good starting point as long as nobody mistakes it for the finished drawing. Felix hadn't done anything wrong. He'd simply, like all of us, trusted a sketch a little too much.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "bedroom_night",
+    "cap": "A thoughtful pause",
+    "sub": "A small relief"
+   }
+  },
+  {
+   "say": "A cautious note belongs here, too. These were small groups of volunteers, in a lab, rating photographs of men with neutral faces. The study shows that agreement about threat can form at thirty-nine milliseconds. It doesn't show that the ratings were right, or that anyone is dangerous just because a stranger rated them as threatening. It's a study of the speed and steadiness of an impression, and not of the truth behind it.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "autumn_overlook",
+    "cap": "A cautious note",
+    "sub": "What the study does not say"
+   }
+  },
+  {
+   "say": "Perhaps that's the line to carry out of this section. Fast is not the same as right. The brain can reach a stable impression within a few hundredths of a second, and that fact is astonishing. It's also a reminder that something being quick doesn't make it wise. We'll look at how often these first impressions turn out to be right, but first, a closer look at how well they predict things in the real world.",
+   "show": {
+    "type": "quote",
+    "sprite": "N11",
+    "bg": "cabin_fireplace",
+    "text": "Fast is not the same as right.",
+    "by": "A thought for the night"
+   }
+  },
+  {
+   "say": "Because some of the most striking research on quick impressions has been about a very public kind of decision, who we choose to vote for.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "n": 6,
+    "title": "Voting in a glance"
+   }
+  },
+  {
+   "say": "Take a gentle breath in, and let it go slowly. Felix has stopped replaying the door. He's looking at the ceiling, which is just a ceiling. A car passes in the street and its light slides across the plaster and is gone. It's a very quick thing, and it didn't ask him for anything at all.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "cap": "Settling a little",
+    "sub": "Slow breathing"
+   }
+  }
+ ]
+}

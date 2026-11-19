@@ -1,0 +1,221 @@
+{
+ "id": "lf46_b15",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's settle in properly now. Let your shoulders drop a little, away from your ears. Let your jaw loosen, and let your tongue rest softly in your mouth. There's nothing left to figure out tonight, and nothing to decide about anyone. The first impressions can look after themselves. For now, we're simply going to slow everything down, one gentle breath at a time.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "n": 30,
+    "title": "Settling in"
+   }
+  },
+  {
+   "say": "Begin with a slow breath in through your nose. Not a big one, just an easy, natural breath, the kind your body already knows how to take. Feel the air cool as it enters, and feel your belly rise a little, like a tide coming in. Then let it go. Slowly, without any push. Let the breath leave on its own, as if it were in no hurry at all.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "A slow breath in",
+    "sub": "Soft and easy"
+   }
+  },
+  {
+   "say": "Now let each breath out be a little longer than the breath in. In for a gentle count of four, and out for a gentle count of six, or however long feels comfortable. If counting feels like work, drop it. Just let the out-breath stretch. Every time you breathe out, imagine you're setting something small down on a table. A worry, a plan, a half-finished thought. Set it down, and leave it there.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "autumn_overlook",
+    "cap": "A longer breath out",
+    "sub": "Longer than the breath in"
+   }
+  },
+  {
+   "say": "Let's soften the body, one place at a time. Your forehead, smooth and wide. Your eyes, heavy behind their lids. Your jaw, loose and unclenched. Your shoulders, sinking into the bed. Your hands, open, with the fingers curling slightly, like leaves resting on still water. Your belly, soft. Your legs, heavy. Your feet, warm and easy. You don't need to force any of it. Just notice each place, and let it melt a little.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "title": "Softening",
+    "items": [
+     "Forehead",
+     "Eyes",
+     "Jaw",
+     "Shoulders",
+     "Hands",
+     "Belly",
+     "Legs",
+     "Feet"
+    ]
+   }
+  },
+  {
+   "say": "Feel the weight of your body now, and notice that the bed is holding all of it. You don't have to hold yourself up anymore. Your head rests on the pillow. Your arms rest on the blanket. Your legs rest on the mattress. Everything is being held, and you can let go of the holding, little by little, the way a tired swimmer lets the water carry them.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "living_room_day",
+    "cap": "Heavier and heavier",
+    "sub": "The bed holds you"
+   }
+  },
+  {
+   "say": "Let that thought drift through for a moment. Nothing to do. Nowhere to be. And no one to impress, not a manager, not a neighbour, not a stranger on a street. In the dark, there are no first impressions to make and no verdicts to be handed down. There's only the quiet, and the gentle sound of your own breath.",
+   "show": {
+    "type": "quote",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "text": "Nothing to do, nowhere to be, and no one to impress.",
+    "by": "A thought for the night"
+   }
+  },
+  {
+   "say": "Now let's go somewhere together, somewhere very calm, and very far from everything. Imagine, if you'd like to, a long, quiet stretch of coast, at the very end of a day. The air is soft and cool, and smells faintly of salt. The sky is a deep, slow blue, with a thin line of gold at the edge of the sea.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "cap": "A place to go",
+    "sub": "Somewhere very calm"
+   }
+  },
+  {
+   "say": "At the end of a narrow path, over a low hill of grass, there's a small white lighthouse. It's old, and a little weathered, and it stands very still against the evening sky. Its lamp hasn't been lit yet. In a few minutes, it will start its slow turn, and send a soft beam out over the water. But for now, it simply waits, in the quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "autumn_overlook",
+    "cap": "The lighthouse",
+    "sub": "At the end of the path"
+   }
+  },
+  {
+   "say": "Here it is, in the last light. A small white lighthouse on a grassy headland, with a pale gold sky behind it and a calm sea below. There's no wind to speak of. There's no one in sight. Only the gentle, repeating sound of the water on the rocks, soft as breathing.",
+   "show": {
+    "type": "photo",
+    "file": "lf46_b15_01.jpg",
+    "cap": "The lighthouse at dusk"
+   }
+  },
+  {
+   "say": "Listen, in your imagination, to the sea. A wave comes in, and spreads out across the sand, and slides back. Then another. They don't hurry, and they don't stop. In, and out. In, and out. If you like, let your own breath follow the waves. Breathing in as the water comes up the sand, and out as it slips quietly back.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "The sound of the sea",
+    "sub": "In and out"
+   }
+  },
+  {
+   "say": "Walk along the path toward the lighthouse, slowly. The grass is soft under your feet, and the evening air is cool on your face. You pass a low stone wall, warm from the day, and a patch of small white flowers that have closed up for the night. Nothing here asks you for anything. Every step is just a step.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Walking the path",
+    "sub": "Slow, soft steps"
+   }
+  },
+  {
+   "say": "At the foot of the lighthouse there's a wooden bench, worn smooth by many years of quiet evenings. Sit down on it, if you like. The wood is still faintly warm. From here you can see the whole sweep of the coast, the long curve of the beach, and the line of the sea, with the last of the light resting on it like a thin gold ribbon.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "cap": "At the door",
+    "sub": "A quiet place to sit"
+   }
+  },
+  {
+   "say": "Notice what's here, and let each thing arrive in its own time. The cool of the evening air on your cheeks. The faint smell of salt and grass. The slow rhythm of the waves. The last gold at the edge of the sky. And the weight of your own body, at rest, with nowhere to go. There's nothing you need to do with any of it. Just let it be there.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "living_room_day",
+    "title": "What you can notice",
+    "items": [
+     "The cool of the evening air",
+     "The smell of salt and grass",
+     "The slow rhythm of the waves",
+     "The last gold at the edge of the sky",
+     "The weight of your body, at rest"
+    ]
+   }
+  },
+  {
+   "say": "If a thought comes, any thought, let it be like a gull passing over the water. It appears, it glides, and it's gone. You don't have to follow it. You don't have to push it away. A thought about the day, a thought about a name, a thought about a first impression. Let it go by, and watch the sea instead.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Slower still",
+    "sub": "Let the thoughts drift"
+   }
+  },
+  {
+   "say": "High above you, the lighthouse lamp begins to turn. It doesn't flash, and it doesn't hurry. It sends out a long, soft beam of pale light that moves across the water like a hand smoothing a blanket. The light slides out over the waves, and slides back, and slides out again, slowly and steadily, over and over.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "The lamp wakes",
+    "sub": "A slow turn"
+   }
+  },
+  {
+   "say": "There's something deeply reassuring about a light like that. It has one simple job, and it does it patiently, all night, whether or not anyone is watching. It doesn't judge the boats. It doesn't wonder what they think of it. It simply turns, and shines, and keeps the dark a little friendlier for anyone who might need it.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "autumn_overlook",
+    "cap": "A steady light",
+    "sub": "Nothing to fear"
+   }
+  },
+  {
+   "say": "Let that settle for a moment. A steady light that does its job without asking what anyone thinks of it. You can be a little like that tonight. You can simply rest, and breathe, and be yourself, without wondering how you look from the outside. Nobody is looking. The sea certainly isn't.",
+   "show": {
+    "type": "quote",
+    "sprite": "N29",
+    "bg": "rooftop_dusk",
+    "text": "A steady light does its job without asking what anyone thinks of it.",
+    "by": "A thought for the night"
+   }
+  },
+  {
+   "say": "Let your breath slow down to the pace of the lamp. In, as the beam moves out over the water. Out, as it moves back. Each breath a little slower than the last, and each one a little warmer. Your chest rises and falls like the sea. Your arms and legs sink a little deeper into the bed, soft and heavy and calm.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "cabin_fireplace",
+    "cap": "Breathing with the light",
+    "sub": "Slow and warm"
+   }
+  },
+  {
+   "say": "Everything is warm now, and heavy, and slow. Your eyelids feel like they're made of soft stone. Your hands feel like they've been filled with warm sand. The sea goes on, and the light goes on, and you, for a little while, can simply go on breathing, nothing more. The coast is quiet. The night is wide. And you are safe.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "living_room_day",
+    "cap": "Warm and heavy",
+    "sub": "Sinking in"
+   }
+  },
+  {
+   "say": "When you're ready, let the lighthouse fade gently into the dusk, and let the sound of the waves grow softer and softer. It isn't going anywhere. It'll be there whenever you want to come back. And right now, there's another quiet place waiting for you, somewhere much colder, and much cozier.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "A gentle goodbye",
+    "sub": "For now"
+   }
+  }
+ ]
+}

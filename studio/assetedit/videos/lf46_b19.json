@@ -1,0 +1,234 @@
+{
+ "id": "lf46_b19",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now we come to the water, very slowly. A narrow canal boat, tied up beside a quiet towpath in the early morning, when the mist hasn't yet lifted.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "n": 34,
+    "title": "A boat on the water"
+   }
+  },
+  {
+   "say": "You step carefully over the gunwale, and the boat gives a small, friendly sway under your feet, as though it were saying hello. The wood of the deck is damp and cool. The air smells of water and moss and a little wood smoke from somewhere far along the bank. Everything is wrapped in a soft, silver-white mist.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Stepping aboard",
+    "sub": "A gentle rocking"
+   }
+  },
+  {
+   "say": "The mist lies on the canal like a long, low blanket. You can see only a few boat lengths ahead. The far bank is a pale grey suggestion, and the trees on it are only shadows. Sounds seem to arrive from a long way off, and a little rounded, as though somebody had wrapped them in cotton wool.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "cap": "The mist",
+    "sub": "White and soft"
+   }
+  },
+  {
+   "say": "Listen to the sounds of the morning, one by one. Water lapping, soft and slow, against the hull. A distant bird, somewhere in the mist, calling and then falling quiet. A rope creaking gently against its post. The faint tick of a stove, cooling in the cabin below. And your own breath, slow and easy, in and out.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "title": "The sounds of the morning",
+    "items": [
+     "Water lapping against the hull",
+     "A distant bird, somewhere in the mist",
+     "Rope creaking against a post",
+     "The faint tick of a cooling stove",
+     "Your own slow breathing"
+    ]
+   }
+  },
+  {
+   "say": "A short wooden stair leads down into the cabin, and it's small and snug, like the inside of a violin case. There's a narrow bed with a patchwork quilt, a tiny table, a brass lamp that sways a little on its chain. Everything is polished, and well-used, and exactly where it ought to be.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Down the steps",
+    "sub": "Into the cabin"
+   }
+  },
+  {
+   "say": "Here's the boat, from the towpath. A narrow wooden canal boat tied up beneath willow trees, in a soft pearl-grey morning mist. The water is perfectly still, and the reflections are a little blurred, like a watercolor left in the rain. It's a morning that seems to have no particular plans.",
+   "show": {
+    "type": "photo",
+    "file": "lf46_b19_01.jpg",
+    "cap": "The canal in the mist"
+   }
+  },
+  {
+   "say": "On the little table there's a mug of tea, steaming gently in the cool air. Wrap your hands around it and feel the warmth spread through your fingers, into your wrists, and up your arms. Take a small sip. It's the kind of tea that tastes of nothing in particular, and is perfect for exactly that reason.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "A cup of tea",
+    "sub": "Warm hands"
+   }
+  },
+  {
+   "say": "Through the round brass-framed window beside you, the canal slides past, slowly, almost imperceptibly. A duck paddles by, leaving a thin V of ripples behind it. A leaf drifts down from a willow, turns once in the air, and lands without a sound. There's nothing to watch, and it's wonderful to watch it.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "A window",
+    "sub": "The view from your seat"
+   }
+  },
+  {
+   "say": "Let that settle for a moment. The water is in no hurry, and neither are you. It will get where it's going, in its own time, and so will you, and there's no one standing on the bank with a watch. All that's asked of you, this morning, is to float.",
+   "show": {
+    "type": "quote",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "text": "The water is in no hurry, and neither are you.",
+    "by": "A thought for the night"
+   }
+  },
+  {
+   "say": "Somewhere below you, the little engine starts, a low, soft hum, like a cat purring in the next room. The boat begins to move, so slowly that at first you can't tell. Then the bank starts to slide past, and the mist parts in front of you and closes behind, like a curtain being drawn very gently on both sides.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "cap": "The engine",
+    "sub": "A low, soft hum"
+   }
+  },
+  {
+   "say": "You glide past willows with their long, drooping branches trailing in the water. Past a stone bridge, old and mossy, with a round arch that frames the mist like a picture. Past a field where a few sheep lie in the grass, as still as stones. Nothing here is in a hurry. Nothing here has anywhere else to be.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Gliding",
+    "sub": "Past the willows"
+   }
+  },
+  {
+   "say": "Lie back on the little bunk, if you like, and feel the boat's gentle sway beneath you. Your head, heavy on the pillow. Your arms, warm under the patchwork quilt. Your belly, rising and falling. Your legs, loose and long. Your feet, warm and still. The rocking carries all of it, a little like a cradle, a little like a hammock.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "living_room_day",
+    "title": "Your body on the bunk",
+    "items": [
+     "Your head, heavy on the pillow",
+     "Your arms, warm under the quilt",
+     "Your belly, rising and falling",
+     "Your legs, loose and long",
+     "Your feet, warm and still"
+    ]
+   }
+  },
+  {
+   "say": "The boat slides into the shadow of a bridge, and the sound changes at once. The engine's hum becomes round and deep, and the lapping of the water echoes softly against the stone. It's like being inside a very large, very gentle bell. Then the boat glides out again, into the pale, silvery light.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "The bridge",
+    "sub": "A tunnel of quiet"
+   }
+  },
+  {
+   "say": "On the bank, there's a heron, standing perfectly still at the water's edge. It watches the water, patiently, without moving a single feather. It isn't waiting for anything in particular. It's simply being a heron, entirely, in the morning. You glide past, and it doesn't turn its head. And that, too, is a kind of peace.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "cap": "A heron",
+    "sub": "Standing still"
+   }
+  },
+  {
+   "say": "It's a pleasant idea, isn't it? Gliding through a whole morning, unnoticed, and not minding at all. No one forming an opinion, no one forming a verdict. Only the heron, the willows and the mist, all of them quite content to let you pass, and to go on being exactly what they are.",
+   "show": {
+    "type": "quote",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "text": "You can pass through a whole morning without being noticed, and without minding.",
+    "by": "A thought for the night"
+   }
+  },
+  {
+   "say": "Little by little, the mist begins to thin, and a pale gold light spreads across the water. It doesn't hurry, or announce itself. It simply grows, as a thought grows in a sleeping mind. The tops of the willows turn the color of honey. The canal glows softly, like a long, slow ribbon of silver and gold.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "The light grows",
+    "sub": "A pale gold"
+   }
+  },
+  {
+   "say": "Your eyelids are heavy now, with the warmth and the rocking. The quilt is soft, and the lamp sways a little, and the boat goes on gliding. Every breath is slower than the last. Every sound is farther away. You're not going anywhere at all. You're simply being carried, very gently, along a river of quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "cap": "Warm and heavy",
+    "sub": "Rocked"
+   }
+  },
+  {
+   "say": "On a canal boat, time slows down to walking pace, and then to something even slower. There's no timetable to keep, and no train to catch. The bank moves past at the speed of a thought. And you have the odd, delightful feeling of being exactly where you should be, with nothing in front of you but more water.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Slow time",
+    "sub": "Nothing to catch"
+   }
+  },
+  {
+   "say": "Watch what floats past, and let each thing come and go. A willow, trailing its branches in the water. A stone bridge, soft with moss. A sleeping field of sheep. A heron, perfectly still. A drift of pale mist, thinning in the light. You don't have to hold on to any of them. They're all quite happy to go by.",
+   "show": {
+    "type": "list",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "title": "What floats past",
+    "items": [
+     "A willow, trailing its branches",
+     "A stone bridge, soft with moss",
+     "A sleeping field of sheep",
+     "A heron, perfectly still",
+     "A drift of pale mist"
+    ]
+   }
+  },
+  {
+   "say": "There's an old comfort in being rocked. It's one of the first comforts we ever knew, long before words, or faces, or first impressions. Let the boat do it for you now, slowly, from side to side, so gently that you can hardly tell it's happening. Side to side, and side to side, like a very slow, very kind breath.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "Rocked",
+    "sub": "Like a child"
+   }
+  },
+  {
+   "say": "When you're ready, let the boat drift softly out of sight, around a gentle bend, with its brass lamp and its patchwork quilt. The canal will be there whenever you want to float again. And now, there's one last place to go tonight, a wide, still desert, under the biggest sky you've ever seen.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle goodbye",
+    "sub": "For now"
+   }
+  }
+ ]
+}

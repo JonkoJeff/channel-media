@@ -1,0 +1,224 @@
+{
+ "id": "lf46_b18",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now the evening turns purple, and softly fragrant. We're walking out into a wide, gentle field of lavender, just as the sun goes down.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N11",
+    "bg": "autumn_overlook",
+    "n": 33,
+    "title": "A field of lavender"
+   }
+  },
+  {
+   "say": "At the edge of a quiet country lane, there's a low wooden gate, and beyond it, a field of lavender stretching away in long, curving rows. The gate swings open at the lightest touch. A narrow path of pale earth runs between the rows, soft under your feet, still warm from the day.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "The edge of the field",
+    "sub": "A gate and a path"
+   }
+  },
+  {
+   "say": "The whole field is a soft, deep purple, with a gold light lying across the tops of the flowers. Far away, the hills are a hazy blue, and the sky above them is the color of peaches and cream. It's the kind of evening where the light seems to hold its breath, for a little while, before it goes.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "The color",
+    "sub": "Purple and gold"
+   }
+  },
+  {
+   "say": "Let the evening arrive in small pieces. The warm scent of lavender, sweet and a little herbal. The hum of the last bees, heading home. Long, soft shadows, lying between the rows. A sky of peach and pale blue. And a slow, cooling breeze that moves the flowers like a hand moving over fur.",
+   "show": {
+    "type": "list",
+    "sprite": "N23",
+    "bg": "cabin_fireplace",
+    "title": "What the evening is made of",
+    "items": [
+     "The warm scent of lavender",
+     "The hum of the last bees",
+     "Long, soft shadows",
+     "A sky of peach and blue",
+     "A slow, cooling breeze"
+    ]
+   }
+  },
+  {
+   "say": "Take a slow breath of the lavender, in your imagination. It's a calming smell, sweet and clean and deep. Let it fill your chest, and then let it go. Each time you breathe out, a little more of the day leaves with it. Your shoulders drop. Your jaw softens. Your hands become heavier, and a little warmer, and lie quietly open.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "The scent",
+    "sub": "Take a slow breath"
+   }
+  },
+  {
+   "say": "Here's the field, at the end of the day. Long rows of lavender curving toward the horizon, deep purple under a peach and blue sky, with a soft golden light on the tops of the flowers. There's no wind to speak of, and no sound but the faint hum of the bees. It's a very kind place to be.",
+   "show": {
+    "type": "photo",
+    "file": "lf46_b18_01.jpg",
+    "cap": "The lavender field at dusk"
+   }
+  },
+  {
+   "say": "A few bees are still moving among the flowers, slowly now, heavy with the day's work. They hum from stem to stem, never hurrying. Their sound is low and warm and steady, like a lullaby that's been going for a thousand years. Listen to it for a moment, and let it carry away anything that's left over from today.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "cap": "The bees",
+    "sub": "Going home"
+   }
+  },
+  {
+   "say": "At the end of the path stands an old tree, with a wooden bench beneath it, its paint worn away by rain and sunshine. Sit down, if you like. The bench is still warm. Lean back against the tree, and feel the rough, comforting bark against your back. The leaves rustle above you in the faintest breeze.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "cap": "A bench",
+    "sub": "Under an old tree"
+   }
+  },
+  {
+   "say": "There's a thought that belongs to this place. The flowers do not wonder what the evening thinks of them. They simply open to the light, and close when it goes, and let the bees and the breeze do whatever they do. You can be like that, tonight. Open, and then closed, and entirely unobserved.",
+   "show": {
+    "type": "quote",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "text": "The flowers do not wonder what the evening thinks of them.",
+    "by": "A thought for the night"
+   }
+  },
+  {
+   "say": "The light is draining slowly from the sky now. The peach turns to rose, and the rose to a soft, dusty violet. The first star appears above the hills, very small and very clear. And then, a little later, another. They come out one by one, like lamps being lit in a distant house.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "The light fades",
+    "sub": "Slowly, slowly"
+   }
+  },
+  {
+   "say": "A cool breeze comes across the field, carrying the scent of lavender and warm earth. It touches your face and your hands, so lightly you could miss it. It lifts the edge of your sleeve, and lets it fall. Everything is moving very slowly, as though the whole world had decided, together, to take a long, deep breath.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "A cool breeze",
+    "sub": "On your skin"
+   }
+  },
+  {
+   "say": "Let each part of your body go, as the light goes from the sky. The muscles around your eyes, loose and quiet. The muscles of your jaw, unclenched. The muscles of your neck, long and heavy. Your back, wide and supported. Your legs, soft and still. Each one letting go, quietly, without being asked.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "living_room_day",
+    "title": "Letting each part go",
+    "items": [
+     "The muscles around your eyes",
+     "The muscles of your jaw",
+     "The muscles of your neck",
+     "The muscles of your back",
+     "The muscles of your legs"
+    ]
+   }
+  },
+  {
+   "say": "More stars have appeared, now, thousands of them, scattered across the dark blue like grains of salt. You don't have to count them. You don't have to know their names. You can just let your eyes rest on them, and let them blur and soften, and feel yourself becoming very small and very comfortable under all that quiet light.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Counting stars",
+    "sub": "One by one"
+   }
+  },
+  {
+   "say": "The hills on the horizon have turned into soft, dark shapes, like sleeping animals. A single light shines far away, from a farmhouse window, very small and very steady. Someone, somewhere, is also settling in for the night. And that's a good thing to know, that the world is full of people quietly getting ready to rest.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "The hills",
+    "sub": "Dark and gentle"
+   }
+  },
+  {
+   "say": "Your body is heavy now, and warm, and still. You sink into the bench, and into the grass, and into the soft evening air. The scent of lavender settles around you like a blanket. Your breaths are slow, and wide, and far apart. And between them, there's a very comfortable, very quiet nothing.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "cap": "Sinking",
+    "sub": "Into the bench"
+   }
+  },
+  {
+   "say": "Let this be one of those evenings. Some evenings are only for being, and not for doing. There's nothing to fix, or finish, or figure out. The field will go on being a field, and the stars will go on being stars, and you can go on being exactly as tired as you are.",
+   "show": {
+    "type": "quote",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "text": "Some evenings are only for being, not for doing.",
+    "by": "A thought for the night"
+   }
+  },
+  {
+   "say": "Feel the earth beneath the bench, solid and warm and patient. It has held up this field for a very long time, and it's quite happy to hold you, too. Let your weight go down into it, as if you were a seed pressed gently into soil. You don't have to do anything to grow. You only have to rest.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "The earth",
+    "sub": "Warm under you"
+   }
+  },
+  {
+   "say": "The night is doing all its quiet work, without any help from you. Cooling the air. Closing the flowers. Lighting the stars one by one. Quieting the birds, and the bees, and the wind. Slowing everything down, a little at a time. You can watch it all happen, and let it happen to you, too.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "street_day",
+    "title": "What the night is doing",
+    "items": [
+     "Cooling the air",
+     "Closing the flowers",
+     "Lighting the stars",
+     "Quieting the birds",
+     "Slowing everything down"
+    ]
+   }
+  },
+  {
+   "say": "If a thought comes now, let it be like a single lavender petal, loosened by the breeze. It drifts down, turns once, and lands on the grass, small and purple and quite unimportant. You don't have to pick it up. The grass will take it, and the night will cover it, and in the morning, it'll simply be part of the field.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "A drifting thought",
+    "sub": "Like a petal"
+   }
+  },
+  {
+   "say": "When you're ready, let the field fade softly into the night, with its purple rows, its sleepy bees and its first stars. The lavender will be there when you want to come back. And now, there's a slow, quiet water waiting for you, a little boat, drifting in the early morning mist.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "A gentle goodbye",
+    "sub": "For now"
+   }
+  }
+ ]
+}

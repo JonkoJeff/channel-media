@@ -1,0 +1,223 @@
+{
+ "id": "lf46_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now for a study with a very different flavour. It isn't only about whether a halo exists. It's about whether we can tell that it's there.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N11",
+    "bg": "street_day",
+    "n": 20,
+    "title": "The lecturer with an accent"
+   }
+  },
+  {
+   "say": "Felix is quite sure why he likes Jonas. It's the laugh, he thinks. It's the warm, rumpled way he looks. It's the mug, and the sentence about plants. If you asked him, he could give you a tidy list of reasons. And each of them would be perfectly sincere. He'd say them with total confidence, and he'd mean every word.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Felix is sure",
+    "sub": "Reasons for liking"
+   }
+  },
+  {
+   "say": "But here's a question that the halo effect raises. Did he like Jonas because of the laugh, the look and the mug? Or did he like Jonas first, and then find the laugh, the look and the mug charming? It feels like the first. It might be the second. And from the inside, the two feel exactly alike.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "A question to ask",
+    "sub": "Which came first?"
+   }
+  },
+  {
+   "say": "In 1977, two psychologists, Richard Nisbett and Timothy Wilson, designed a clever experiment to separate them. It was published in the Journal of Personality and Social Psychology, and it used a small, real classroom of volunteers, a video camera, and one carefully chosen instructor.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "A famous experiment",
+    "sub": "Nisbett and Wilson"
+   }
+  },
+  {
+   "say": "Here's the design. A hundred and eighteen students at the University of Michigan took part, in groups. They were told the study was about teaching evaluations. In fact, it wasn't. Each group watched a video of the same instructor, a man with a Belgian accent, answering the same questions. In one video he was warm and friendly. In the other, he was cold, distant and rather stiff.",
+   "show": {
+    "type": "study",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "who": "Nisbett & Wilson, 1977",
+    "where": "University of Michigan",
+    "what": "One hundred and eighteen students watched a video of the same instructor, who had a Belgian accent, being friendly in one version and cold and distant in the other, and then rated his appearance, mannerisms and accent."
+   }
+  },
+  {
+   "say": "Hold that in mind. It was the same man, with the same face, the same voice, the same accent and the same mannerisms. The only difference was how he treated the person asking the questions. In one video he was open and kind. In the other he was guarded and cold. Then each student rated him on a set of things, including how appealing his appearance, mannerisms and accent were.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "The same man",
+    "sub": "Same face, same voice"
+   }
+  },
+  {
+   "say": "And here's what happened. The students who saw the warm version rated his appearance as more attractive, his mannerisms as more likeable, and his accent as more appealing. The students who saw the cold version rated all three the other way round. It was the same man, with the same mannerisms and the same accent, but the glow, or the shadow, had spread into things that had nothing to do with warmth.",
+   "show": {
+    "type": "list",
+    "sprite": "N18",
+    "bg": "cafe_sunset",
+    "title": "What the ratings looked like",
+    "items": [
+     "Warm video: more attractive appearance",
+     "Warm video: more likeable mannerisms",
+     "Warm video: more appealing accent",
+     "Cold video: the opposite on all three",
+     "Same man, same mannerisms"
+    ]
+   }
+  },
+  {
+   "say": "That would be a neat finding on its own. But the researchers asked a second, subtler question. They asked the students whether their liking of the instructor had affected how they rated his appearance, mannerisms and accent. Or, in the other direction, whether their ratings of those details had shaped how much they liked him.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "street_day",
+    "cap": "Did they notice?",
+    "sub": "The second question"
+   }
+  },
+  {
+   "say": "And here's the fascinating part. The students largely denied that their overall liking had coloured the details. They felt sure they'd judged his appearance, his mannerisms and his accent on their own merits. Even when the researchers interviewed them again and pointed out the possibility, most still said no. It was the same quiet certainty that Felix feels now, in the dark.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "The denial",
+    "sub": "It did not feel like that"
+   }
+  },
+  {
+   "say": "It's a remarkable thing. The effect was there in the numbers, plain as anything. But in the minds of the people it happened to, it wasn't there at all. They felt they had weighed the details one by one, and had arrived at a verdict. In truth, the verdict had arrived first, and the details had been quietly adjusted to match.",
+   "show": {
+    "type": "quote",
+    "sprite": "N01",
+    "bg": "cafe_sunset",
+    "text": "They were convinced they had judged each detail separately.",
+    "by": "What the students said"
+   }
+  },
+  {
+   "say": "It's worth being careful about what this does and doesn't show. It suggests that people don't always have clear access to what shaped their judgments. They can give reasons, and they can sound completely sincere, and the reasons may still be explanations built afterwards. It doesn't mean that people are lying, or foolish. It means that the machinery isn't on display.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "What it suggests",
+    "sub": "Feelings that look like facts"
+   }
+  },
+  {
+   "say": "It's important to say that again, because it's easy to hear this as an insult. It isn't. The students in that study were thoughtful, ordinary people, and almost certainly so are you. The point is that the halo effect isn't a flaw in some people. It's a feature of how minds assemble a picture of someone, and it works below the level where we normally look.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "cap": "Not an insult",
+    "sub": "Everyone does it"
+   }
+  },
+  {
+   "say": "Here's a picture to hold for a moment. A window at dusk, with warm yellow light inside, and a soft blue evening outside. From the street, the whole house looks cozy and friendly, though you've never been in it. That's the halo, as seen from outside. A warm light that makes everything near it seem welcoming.",
+   "show": {
+    "type": "photo",
+    "file": "lf46_b10_01.jpg",
+    "cap": "A window with warm light"
+   }
+  },
+  {
+   "say": "Felix thinks about Jonas's laugh again. He wonders, now, whether it really was a particularly good laugh. Or whether it became one after he'd decided Jonas was a friend. He honestly can't say. And that, in a strange way, is the most honest thing he's thought all evening. I can't tell which came first.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "Felix and the laugh",
+    "sub": "Which came first?"
+   }
+  },
+  {
+   "say": "He tries the same experiment in the other direction. Was Mara's handshake really brief? Or was it perfectly ordinary, and only seemed brief once he'd decided she was cold? Was the smile really small, or did it only shrink in memory after the verdict? He can't tell that either. The details have all been recoloured, and he can't see the original shades.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle experiment",
+    "sub": "Mara's handshake"
+   }
+  },
+  {
+   "say": "There's a relief in that, too. Felix hasn't failed at anything. He's simply discovered that the evidence he thought he'd collected was partly built by the verdict. That's a human thing to discover, and a gentle one. It doesn't ask him to like Mara, or to dislike Jonas. It only asks him to hold his reasons a bit more lightly.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "A relief",
+    "sub": "Not a failure"
+   }
+  },
+  {
+   "say": "A word on the limits. This was one instructor, one accent, one kind of classroom, and one group of students. The finding is a demonstration, and not a measurement of how often this happens in life. But it's been discussed for decades, because it makes a subtle point so clearly. We can feel sure about our reasons and still be wrong about where they came from.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "A limit of the study",
+    "sub": "One lecturer, one setting"
+   }
+  },
+  {
+   "say": "That's the line to keep from this part of the night. And it isn't a reason to worry. It's an invitation to be a little kinder to ourselves, and to others, because the reasons we give, and the reasons others give, are very often the story that was written after the feeling.",
+   "show": {
+    "type": "quote",
+    "sprite": "N20",
+    "bg": "autumn_overlook",
+    "text": "We can feel sure of our reasons and still be wrong about where they came from.",
+    "by": "A line to keep"
+   }
+  },
+  {
+   "say": "There's one kind of halo that has been studied more than any other, and it surrounds a quality we all notice, and we all pretend not to. It's how good-looking someone seems.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "street_day",
+    "cap": "One more halo",
+    "sub": "The most famous kind"
+   }
+  },
+  {
+   "say": "And that takes us to a famous paper from 1972, with a title that sounds like a proverb.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N18",
+    "bg": "living_room_day",
+    "n": 21,
+    "title": "What beauty seems to promise"
+   }
+  },
+  {
+   "say": "Take a slow breath in, and let it go. Felix turns off the lamp, and the room goes soft and dark. There's still a little light from the street, laid in a pale stripe across the floor. He looks at it for a while. It doesn't glow or shadow anything. It's just a stripe of light on a floor.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "cap": "A slow breath",
+    "sub": "Let it settle"
+   }
+  }
+ ]
+}

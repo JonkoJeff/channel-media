@@ -1,0 +1,187 @@
+{
+ "id": "lf46_b20",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "And now, the last place tonight. A wide, quiet desert, in the cool of the night, under a sky so full of stars that it looks like spilled silver.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "n": 35,
+    "title": "The desert at night"
+   }
+  },
+  {
+   "say": "You're sitting on a smooth, low dune, and the sand beneath you is still faintly warm from the day. It holds the last of the sun's heat, and gives it back slowly, like a hot water bottle under a blanket. All around you, the desert stretches away in soft, curving shapes, pale under the starlight.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "The sand",
+    "sub": "Still warm"
+   }
+  },
+  {
+   "say": "The silence out here is the widest kind. There's no traffic, no voices, no hum of any machine. Only the faintest whisper of sand moving, grain by grain, in the barely-there breeze. It's a silence that doesn't press on you. It simply gives you room, the way a very large, very empty room gives a sound room to fade.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "cap": "The silence",
+    "sub": "The widest kind"
+   }
+  },
+  {
+   "say": "Take in the night, one piece at a time. A sky of countless stars, thick as dust. Smooth, pale dunes, curving like the folds of a sheet. A cool, dry, gentle breeze. The faint warmth of the sand beneath you. And a silence as wide as the horizon, big enough to hold anything you've ever worried about, and still be mostly empty.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "title": "What the night holds",
+    "items": [
+     "A sky of countless stars",
+     "Smooth, pale dunes",
+     "A cool, dry, gentle breeze",
+     "The faint warmth of the sand",
+     "A silence as wide as the horizon"
+    ]
+   }
+  },
+  {
+   "say": "A little way off, there's a small campfire, burning low and orange, ringed with smooth stones. Its glow is soft and close, and the sparks drift upward and mingle with the stars. Come and sit beside it, if you like. The warmth reaches your face and hands, and the cold of the desert night stays politely at a distance.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "A small fire",
+    "sub": "Orange and low"
+   }
+  },
+  {
+   "say": "Here's the night, wide and calm. Pale dunes under a sky thick with stars, a faint band of the Milky Way arching overhead, and, far off, a tiny glow of campfire. There's no one else for miles. And in a place this big, it turns out you don't need to be anyone at all.",
+   "show": {
+    "type": "photo",
+    "file": "lf46_b20_01.jpg",
+    "cap": "Stars over the dunes"
+   }
+  },
+  {
+   "say": "Lie back on the warm sand, and look up. The stars are so many that the dark between them is hard to find. Some are bright and steady, some faint and trembling. Their light has traveled for years to reach you, and it arrives with no urgency at all, a quiet gift from a very long way away.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "The stars",
+    "sub": "Looking up"
+   }
+  },
+  {
+   "say": "It's a nice thought to fall asleep on. The stars have never needed a first impression, and they have never needed a second. They shine, and the dark keeps them, and nobody asks them what they're like. You, too, can simply be here, in your own small light, and be quite enough.",
+   "show": {
+    "type": "quote",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "text": "The stars have never needed a first impression.",
+    "by": "A thought for the night"
+   }
+  },
+  {
+   "say": "And Felix, who has been with us all through the night, is asleep. His lanyard is on its hook by the door. His shoes are by the bed. The lamp is off, and the street outside is quiet. Tomorrow, he'll say good morning to Mara, with a question about the site plans, and a little more curiosity than yesterday. But tonight, there's only sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Felix, at last",
+    "sub": "Asleep"
+   }
+  },
+  {
+   "say": "Your breathing is slow now, very slow, and very soft. Your body is heavy and warm, and you're sinking, gently, into the dark. The sand holds you. The stars watch quietly. The fire crackles, now and then, in a drowsy sort of way. Everything you carried today is lying beside you on the sand, and none of it is heavy anymore.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Sinking",
+    "sub": "Into the dark"
+   }
+  },
+  {
+   "say": "The desert has a lovely balance at night. Warm sand beneath you, cool air above. A little like lying in a bed with the window open, the body held warm and the face touched by something fresh. Feel both at once, the warmth underneath and the coolness on your skin, and let them settle into a perfect, easy balance.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "Warm sand, cool air",
+    "sub": "The balance"
+   }
+  },
+  {
+   "say": "Now the night goes on, without you. The fire burns lower, and quieter. The stars slowly turn, as they always have. The breeze grows still. The dunes rest in the dark, pale and smooth. And you rest among them, as part of it all, as quiet and as unremarkable as a pebble on the sand, and just as content.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "title": "The night, as it goes",
+    "items": [
+     "The fire, burning low",
+     "The stars, slowly turning",
+     "The breeze, growing still",
+     "The dunes, resting in the dark",
+     "You, resting among them"
+    ]
+   }
+  },
+  {
+   "say": "Before the very last breath, offer yourself a small kindness. Whatever sort of day it was, you've reached the end of it. You listened, and you wondered, and you made it through. That's enough. It's more than enough. You can let yourself rest now, with nothing to prove, and no one to meet in the morning but yourself.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "A last kindness",
+    "sub": "For yourself"
+   }
+  },
+  {
+   "say": "Let your breaths come very slowly now, one by one, each one a little longer than the last. In the desert, the last of the sparks is rising from the fire. The last of the warmth is leaving the sand. The last of the day is dissolving into the dark, and you're dissolving with it, gently, warmly, without any fear.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "The last breaths",
+    "sub": "One by one"
+   }
+  },
+  {
+   "say": "Say goodnight, in your mind, to the whole day. To the people in it, and to the impressions you made, and the ones you formed. To the smiles, and the silences, and the things you meant to say. They were all ordinary and human, and all of them are done. There's nothing left to judge. Only the soft, wide, welcoming night.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "cap": "Goodnight",
+    "sub": "To the whole day"
+   }
+  },
+  {
+   "say": "There is nothing left to do, and nowhere left to go. Your body is resting. Your mind is quiet. The desert is still. And in a moment, or in a few, you won't even notice that you've stopped listening. You'll simply be asleep, as deeply and easily as the sand, under all those patient stars.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Deep rest",
+    "sub": "Nothing left to do"
+   }
+  },
+  {
+   "say": "And next time, if you'd like to join me again, we'll explore another very human puzzle. Why a story can make us feel as though we're really inside it, and what science says about how that happens. We'll look at it gently, and without any blame. Until then, rest well. Goodnight.",
+   "show": {
+    "type": "end",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "next": "Why Your Brain Loves a Good Story"
+   }
+  }
+ ]
+}

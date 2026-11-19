@@ -1,0 +1,244 @@
+{
+ "id": "lf46_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's drift now to a place full of lamplight and the faint smell of old paper. A very old library, on a quiet night, long after the doors have closed.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "n": 32,
+    "title": "The library at night"
+   }
+  },
+  {
+   "say": "Imagine a tall wooden door, a little heavy, with a brass handle worn smooth. It opens inward without a sound. Beyond it, a long room stretches away into the soft dark, lined with shelves from floor to ceiling. A few green-shaded lamps are lit, here and there, each making a small, warm pool of gold on a polished table.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "The door",
+    "sub": "Slowly opening"
+   }
+  },
+  {
+   "say": "The first thing you notice is the smell. Old paper, and warm wood, and a hint of leather and dust. It's a smell like time itself, calm and unhurried. Take a slow breath of it, in your imagination, and let it settle in your chest. It's the smell of thousands of quiet afternoons, all folded up on the shelves.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "The smell",
+    "sub": "Paper and wood"
+   }
+  },
+  {
+   "say": "Look around, slowly. Tall shelves of old books, rising into the shadows. Green-shaded lamps. A long, polished table. A wooden ladder on a brass rail, resting at the far end. And, somewhere above the door, a clock, ticking softly. There's no one here. There's no one who needs anything from you. The whole room is yours, and it's perfectly at ease.",
+   "show": {
+    "type": "list",
+    "sprite": "N23",
+    "bg": "living_room_day",
+    "title": "What the room holds",
+    "items": [
+     "Tall shelves of old books",
+     "Green-shaded lamps",
+     "A long polished table",
+     "A ladder on a brass rail",
+     "A clock, ticking softly"
+    ]
+   }
+  },
+  {
+   "say": "Walk slowly down the long aisle, and let your fingers trail along the spines of the books. Some are smooth, some are rough, some are cool and some are faintly warm. Your footsteps make almost no sound on the thick, worn rug. The books sit shoulder to shoulder, and they've been sitting like that for a very long time.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "Walking between the shelves",
+    "sub": "Soft footsteps"
+   }
+  },
+  {
+   "say": "Here's the room, in the lamplight. A long aisle of wooden shelves, softly lit by a green-shaded lamp, with a worn rug on the floor and a ladder resting at the end. Dust drifts slowly through the light. Everything is still, and nothing here is in a hurry. It's one of the most restful places you could picture.",
+   "show": {
+    "type": "photo",
+    "file": "lf46_b17_01.jpg",
+    "cap": "Lamplight on the shelves"
+   }
+  },
+  {
+   "say": "Near the end of the room, beside a tall window, there's a deep, soft armchair, with a folded blanket over its arm. Sink down into it. The cushions take your weight with a gentle sigh. Through the window, you can see a quiet street, a single streetlamp, and the faint shapes of rooftops against a dark blue sky.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "cap": "An armchair",
+    "sub": "A place to sit"
+   }
+  },
+  {
+   "say": "There's a kindly thought here. In a library, nobody is making a first impression. The books don't mind if you pick them up and put them back. They don't mind if you only read one page. They're patient, and generous, and entirely without opinion about you. You can rest in that, the way you'd rest in a very old friendship.",
+   "show": {
+    "type": "quote",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "text": "A library does not judge. The books simply wait.",
+    "by": "A thought for the night"
+   }
+  },
+  {
+   "say": "Beside the armchair, a small lamp casts a circle of gold on the arm of the chair, and on your hands. Look at your hands in that light. How still they are. How soft. They've done so much today, and now they can do nothing at all. Let them rest, palms up, open, as if you were holding a small, invisible gift.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "The lamp beside you",
+    "sub": "A small gold circle"
+   }
+  },
+  {
+   "say": "Somewhere above the door, the old clock ticks. It's a slow, soft sound, and it fills the room like water filling a bowl. Tick. And then a pause. Tick. You don't need to count the ticks, or to wonder what time it is. In a library at night, time moves very gently, and it asks nothing of you.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "The clock",
+    "sub": "Tick, and tick"
+   }
+  },
+  {
+   "say": "Let's check in, one more time, from the top. Your head, resting back. Your neck, long and loose. Your shoulders, heavy. Your arms, supported by the arms of the chair. Your legs, warm under the blanket. And your breath, slow, like the ticking of the clock. Each part a little heavier than a moment ago.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "title": "Your body in the armchair",
+    "items": [
+     "Your head, resting back",
+     "Your neck, long and loose",
+     "Your shoulders, heavy",
+     "Your arms, supported",
+     "Your legs, warm under the blanket",
+     "Your breath, slow"
+    ]
+   }
+  },
+  {
+   "say": "There's a book open on your knee, though you don't remember picking it up. The pages are soft, and the print is small and blurry. You don't have to read it. The words swim a little, and drift, and settle into a gentle grey. It's enough to hold it, and to feel its weight, and to listen to the quiet of all the other books.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "autumn_overlook",
+    "cap": "A book",
+    "sub": "Open on your knee"
+   }
+  },
+  {
+   "say": "All around you, on every shelf, there are stories, asleep. Journeys and mysteries and long, slow summers. People who fell in love, and people who got lost, and people who found their way home. They're all resting now, with their covers closed. And you, too, can rest, closed and quiet, until morning.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "cabin_fireplace",
+    "cap": "Stories asleep",
+    "sub": "On every shelf"
+   }
+  },
+  {
+   "say": "Outside, a fine rain has begun to fall. You can hear it faintly against the tall window, a light tapping, like tiny fingertips. It runs down the glass in slow, glittering lines, catching the light of the streetlamp. Inside, the room stays warm, and the lamp stays golden, and the clock goes on ticking.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Rain on the glass",
+    "sub": "A soft sound"
+   }
+  },
+  {
+   "say": "Let yourself feel that. A good room doesn't ask you to be anything. Not clever, not impressive, not even awake. You can arrive just as you are, with whatever kind of day you've had, and it will welcome you with exactly the same patient, shadowy warmth.",
+   "show": {
+    "type": "quote",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "text": "A good room does not ask you to be anything.",
+    "by": "A thought for the night"
+   }
+  },
+  {
+   "say": "Your breathing has slowed, and so has your heartbeat. Your body feels like it's sinking, very gently, into the chair, like a stone settling into soft sand at the bottom of a pond. The edges of the room have grown soft. The lamplight has a faint halo around it, like a candle seen through half-closed eyes.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "Heavier now",
+    "sub": "Sinking"
+   }
+  },
+  {
+   "say": "Slowly, the book closes in your hands, as if by itself. The cover is cool and smooth under your fingers. You set it down on the table, and the lamp seems to dim, just a little, as if it understood. Everything in the library is settling now, and resting, and getting ready for the long, soft hours before dawn.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "The very last page",
+    "sub": "Closing"
+   }
+  },
+  {
+   "say": "Take one more slow breath, in, and out. Let the breath out go all the way to the bottom, until there's nothing left to push. And then wait, just a moment, before the next breath comes. In that small, quiet pause, there's nothing at all to do. Nothing to remember, or to explain. Only the pause, and the warmth of the chair.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "cap": "Letting go",
+    "sub": "One more breath"
+   }
+  },
+  {
+   "say": "Rest your hand, in your imagination, on the long polished table, and feel how smooth and cool it is. It's been touched by a great many hands over a great many years, each leaving no mark, and each leaving a little more shine. It's a very gentle kind of history, made of ordinary hands and quiet evenings.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "The long table",
+    "sub": "Smooth and cool"
+   }
+  },
+  {
+   "say": "A library gives some rare and lovely things. Quiet, without loneliness. Company, without any conversation. Stories, without hurry. And warmth, without any demand at all. You can have all of it just by sitting here, with your eyes half closed, and your hands resting open in your lap.",
+   "show": {
+    "type": "list",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "title": "What a library gives",
+    "items": [
+     "Quiet, without loneliness",
+     "Company, without conversation",
+     "Stories, without hurry",
+     "Warmth, without any demand"
+    ]
+   }
+  },
+  {
+   "say": "Watch the dust drifting through the lamplight. Each tiny speck turns slowly, gold and weightless, in no particular direction. They rise a little, and sink a little, and drift. You could watch them for an hour. And if you did, it wouldn't be wasted, because there's nothing in the world more restful than watching something that has nowhere to be.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "autumn_overlook",
+    "cap": "Dust in the lamplight",
+    "sub": "Slow and gold"
+   }
+  },
+  {
+   "say": "When you're ready, let the library fade softly into the dark, with its lamps and its ladders and its sleeping stories. It will be here when you want it. And now, somewhere else, the evening is turning purple, and the air is full of a gentle, sweet fragrance.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle goodbye",
+    "sub": "For now"
+   }
+  }
+ ]
+}

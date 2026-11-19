@@ -1,0 +1,214 @@
+{
+ "id": "lf46_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So how long does it take? Let's start with the study that put a number on it, and the number is smaller than you might guess.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "n": 3,
+    "title": "A tenth of a second"
+   }
+  },
+  {
+   "say": "Think back to Felix at the glass door. He felt his verdict arrive in ten seconds. But he can't really say when it started. It might have been the moment she looked up. It might have been before she even spoke. And one of the questions psychologists have asked is exactly that. If you take away the handshake, the smile, the words and the voice, and leave only a face, how quickly does a verdict form?",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Think of Felix's morning",
+    "sub": "Ten seconds, or less"
+   }
+  },
+  {
+   "say": "It's a hard thing to test, because in real life a face never comes alone. It comes with a voice, a body, a room and a story. So researchers did something simple and a little strange. They showed people photographs of faces they had never seen before, one at a time, for a very short time, and asked them to rate what each person seemed like.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "autumn_overlook",
+    "cap": "An experiment about faces",
+    "sub": "Only a face"
+   }
+  },
+  {
+   "say": "Here's the study. In 2006, two psychologists at Princeton University, Janine Willis and Alexander Todorov, published a paper with a very direct title: First impressions, making up your mind after a hundred-millisecond exposure to a face. Across several experiments, about two hundred people looked at sixty-six unfamiliar faces for a tenth of a second, half a second, or a full second.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "who": "Willis & Todorov, 2006",
+    "where": "Princeton University, USA",
+    "what": "Across several experiments, about 200 people saw 66 unfamiliar faces for 100, 500 or 1,000 milliseconds, then rated traits such as trustworthiness, likeability, competence, aggressiveness and attractiveness, and said how confident they were."
+   }
+  },
+  {
+   "say": "They asked people to judge five things. How attractive the person looked. How likeable. How trustworthy. How competent. And how aggressive. After each face, people also said how confident they felt in their rating. And then came the comparison that matters. Some people saw the same faces with no time limit at all, as long as they wanted, and rated them at their leisure.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "What they rated",
+    "sub": "Five judgments"
+   }
+  },
+  {
+   "say": "And here's the result. Ratings made after only a hundred milliseconds, a tenth of a second, were highly correlated with ratings made with no time limit. In other words, the face that looked trustworthy at a tenth of a second mostly looked trustworthy after a long, careful look. The quick impression and the slow impression largely agreed.",
+   "show": {
+    "type": "stat",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "title": "Willis & Todorov, 2006",
+    "big": "100 ms",
+    "label": "was enough for ratings to match ratings made with no time limit"
+   }
+  },
+  {
+   "say": "Now here's the part that surprises many people. When the researchers gave people more time, the longer exposure didn't significantly increase how well the quick ratings matched the unhurried ones, for any of the five traits. What more time did change was how sure people felt. Between a tenth of a second and half a second, confidence went up.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "street_day",
+    "cap": "What more time added",
+    "sub": "Confidence, not a new answer"
+   }
+  },
+  {
+   "say": "That's worth sitting with for a moment. Looking longer didn't produce a wiser impression so much as a more confident one. A little like a sentence you read a second time. It doesn't change what it says, but it feels more settled, because now you've checked it.",
+   "show": {
+    "type": "quote",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "text": "More time made people more confident, not more different.",
+    "by": "The pattern in the study"
+   }
+  },
+  {
+   "say": "The paper also found a few smaller shifts. Between a tenth of a second and half a second, judgments became a little more negative, and people answered faster. Between half a second and a full second, not much changed in the judgments themselves, though impressions became a little more differentiated, and confidence rose for some of the traits. It's a quiet, fine-grained picture, not a dramatic one.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "cafe_sunset",
+    "cap": "The small shifts",
+    "sub": "Faster and a little harsher"
+   }
+  },
+  {
+   "say": "So here's a short summary. A tenth of a second was enough for impressions to form. Those quick impressions largely matched the ones people gave with all the time in the world. More time mostly made people feel more sure. And one thing the study did not claim is that any of these impressions were correct. It measured how fast they formed and how steady they were. It didn't measure whether they were true.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "title": "What the study found",
+    "items": [
+     "A tenth of a second was enough to form an impression",
+     "Those impressions matched unhurried ones",
+     "More time raised confidence",
+     "Judgments shifted a little more negative by half a second",
+     "The study did not test whether they were right"
+    ]
+   }
+  },
+  {
+   "say": "That difference is worth a moment of attention, because it's easy to blur. Two people agreeing about a face tells us something about how brains work. It doesn't tell us anything about the person in the photograph. A whole room can agree that a stranger looks trustworthy, and the stranger may still be perfectly ordinary, or even the opposite. We'll come back to that later tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "street_day",
+    "cap": "A crucial difference",
+    "sub": "Agreement is not accuracy"
+   }
+  },
+  {
+   "say": "In a quiet kitchen in the early morning, sunlight crosses a table and lights a small glass of water for just a moment, then slides on. It's a nice picture for a tenth of a second. Something happens so quickly that you could miss it entirely, and yet it leaves a trace, and a feeling, and sometimes a conclusion.",
+   "show": {
+    "type": "photo",
+    "file": "lf46_b02_01.jpg",
+    "cap": "A moment too short to notice"
+   }
+  },
+  {
+   "say": "Felix, in the dark, is turning this over. He remembers that when Mara looked up, there was a moment before she smiled, a very short moment in which her face was simply resting. He wonders, now, whether that resting face was what he reacted to. A face at rest, in the middle of a busy morning, with a deadline probably running through her head. He hadn't thought of that at all.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "rooftop_dusk",
+    "cap": "Back to the door",
+    "sub": "Felix again"
+   }
+  },
+  {
+   "say": "It's a gentle thought, and it's worth keeping. A resting face isn't a message addressed to you. It's just a face doing what faces do between expressions. But a mind that forms impressions in a tenth of a second doesn't always stop to ask whether a face was speaking or only resting. It simply reads whatever is there, and moves on.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "A resting face",
+    "sub": "Not a message"
+   }
+  },
+  {
+   "say": "Felix lets that settle. He's not saying Mara is warm. He's not saying she's cold. He's noticing, for the first time tonight, that his verdict came from a very small slice of one very short morning. And that's already a more comfortable place to be than where he started, lying in the dark with a feeling that felt like a fact.",
+   "show": {
+    "type": "char",
+    "sprite": "N11",
+    "bg": "autumn_overlook",
+    "cap": "And what Felix noticed",
+    "sub": "The pause before the smile"
+   }
+  },
+  {
+   "say": "Perhaps that's the quiet lesson of the first study. Speed and certainty are two separate things. The brain can be remarkably fast at forming a view, and the view can feel remarkably complete. But feeling complete and being complete aren't the same. And it can help, just a little, to know which one you're holding.",
+   "show": {
+    "type": "quote",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "text": "A quick impression feels like a conclusion, but it is often a first draft.",
+    "by": "A thought for the night"
+   }
+  },
+  {
+   "say": "A fair caution, too. This was a laboratory study, with photographs shown on a screen, rated by volunteers. Real meetings are messier, and real people can change their minds. Nothing in the paper says that a tenth of a second is all that matters, or that impressions can't change. It says that, for faces, impressions can form that fast, and that more time mostly adds confidence.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "living_room_day",
+    "cap": "The limit of one study",
+    "sub": "A fair caution"
+   }
+  },
+  {
+   "say": "There's one more thing worth knowing about those five judgments. Several of them, like trustworthiness and competence, are not things you can see on a face. They're things you can only find out about a person over time. And yet people rate them in a tenth of a second, as though they could be read like a label. That mismatch is exactly why this research became so interesting.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "One more idea",
+    "sub": "What is being judged"
+   }
+  },
+  {
+   "say": "But a tenth of a second isn't the shortest glance anyone has tested. Another team asked what happens when the face is gone almost before you've seen it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N18",
+    "bg": "cafe_sunset",
+    "n": 4,
+    "title": "An even shorter glance"
+   }
+  },
+  {
+   "say": "Take a slow breath in, and a slow breath out. Felix does the same, and he notices that his jaw has been clenched, which it probably has been since the front door. He lets it go. The mattress is soft, the lamp is low, and the question that kept him awake has turned, for now, into something more like a puzzle than a worry.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Another slow breath",
+    "sub": "Easy does it"
+   }
+  }
+ ]
+}

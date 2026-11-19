@@ -1,0 +1,234 @@
+{
+ "id": "lf46_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "It's twenty to midnight, and Felix is lying on top of his bed with his work shoes still on. He hasn't taken his lanyard off either. Today was his first day at a new job, and the day itself went fine. Nothing went wrong. But his mind has been replaying one tiny moment from the morning, over and over, like a short film with no ending.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Twenty to midnight",
+    "sub": "A first day, replayed"
+   }
+  },
+  {
+   "say": "A quick word about Felix. He's imagined. He's a person we've pictured together to keep us company through tonight's ideas. He's thirty-one, he's a landscape architect, and he's just joined a small design studio on the edge of a city. He's friendly, a little shy, and completely ordinary. We borrow him because his evening might look a lot like one of yours.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Meet Felix",
+    "sub": "Imagined, but familiar"
+   }
+  },
+  {
+   "say": "Here's the moment. At nine o'clock this morning, Felix pushed open the studio's glass door, and a woman looked up from a desk across the room. That was Mara, the studio's director. She said, welcome, you must be Felix, and shook his hand. She smiled with her mouth, he thought, but not much with her eyes. And somewhere in those ten seconds, without deciding to, Felix made up his mind about her.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "street_day",
+    "cap": "The front door",
+    "sub": "Ten seconds"
+   }
+  },
+  {
+   "say": "There was no weighing of evidence. There was no list of pros and cons. A small, quiet verdict simply arrived: she doesn't like me. It felt less like a thought and more like a fact he had noticed, the way you notice that a room is cold. And that, as we'll see tonight, is exactly the strange part.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "living_room_day",
+    "text": "She doesn't like me.",
+    "by": "Felix, at the front door"
+   }
+  },
+  {
+   "say": "Because a minute later, Felix met Jonas, the studio's tall, rumpled model-maker, who grinned, said, thank goodness, another person who likes plants, and handed him a mug. And again, in a flash, the verdict was in. Jonas is kind. Jonas is easy. Jonas is going to be a friend. Two strangers, two verdicts, and not one of them took any effort at all.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Two verdicts, no effort",
+    "sub": "Mara and Jonas"
+   }
+  },
+  {
+   "say": "So here's the question Felix is asking the ceiling, and maybe you've asked it too. How did he know? How did he decide, in a few seconds, that one person was cold and another was warm? He knows almost nothing about either of them. And yet the feeling is so strong that it's still sitting in his chest, hours later, as if it were a fact.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "The question",
+    "sub": "How did that happen?"
+   }
+  },
+  {
+   "say": "If this has ever happened to you, you're in very large company. Almost everyone forms quick impressions of the people they meet, and almost nobody feels like they chose to. It doesn't mean you're shallow, and it doesn't mean you're unfair. It means you have a brain that was built to make fast sense of other people, and it gets to work before you've even said hello.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "autumn_overlook",
+    "cap": "A very human thing",
+    "sub": "You are in large company"
+   }
+  },
+  {
+   "say": "Here's where we're going tonight. How little time it takes to form an impression. What a brain can read from a face it saw for less than a blink. A famous study of teachers and silent video. Why one small word can change a whole picture of a person. How the order of information matters. The halo effect. How accurate these impressions are, and what can change them.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "A tenth of a second",
+     "A very short glance at a face",
+     "Half a minute of silent video",
+     "Two words, warm and cold",
+     "The order of a list",
+     "The halo around a first impression",
+     "What beauty seems to promise",
+     "A single word, hello",
+     "Whether first impressions are right",
+     "Why the same person gets many verdicts",
+     "What can change our minds"
+    ]
+   }
+  },
+  {
+   "say": "Before we begin, a promise. There's nothing to memorise tonight, and there's no test at the end. Nobody here will tell you to stop judging people, or to try harder to be fair, or to follow a three-step rule for a perfect handshake. We're just going to be curious about how this works. And the second half of the night is a long, slow wind-down, so if you drift off along the way, that's the plan working.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "living_room_day",
+    "cap": "A gentle promise",
+    "sub": "Nothing to memorise"
+   }
+  },
+  {
+   "say": "Let's begin where Felix's night began, with the ten seconds at the front door, and take them apart very gently.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "n": 1,
+    "title": "The first ten seconds"
+   }
+  },
+  {
+   "say": "Felix replays it again. The glass door. The sound of his own shoes on the floor. Mara looking up. The handshake, firm and brief. The smile. He's been through it so many times now that he can see each frame. But the more he replays it, the more he notices something unsettling. He can't find the evidence. He can't point to a single thing she did that proves what he felt.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Replaying it",
+    "sub": "The film with no ending"
+   }
+  },
+  {
+   "say": "Here's the list as it stands at twenty to midnight. A brief handshake. A smile that stayed near her mouth. A busy desk behind her. A welcome, spoken in a perfectly polite voice. And that's all. Nothing she said was unkind, and nothing she did was rude. The verdict in his chest is a great deal bigger than anything on the list. That gap is what makes it so odd, and so interesting.",
+   "show": {
+    "type": "list",
+    "sprite": "N29",
+    "bg": "cabin_fireplace",
+    "title": "What Felix can actually point to",
+    "items": [
+     "A brief handshake",
+     "A smile that stayed near the mouth",
+     "A busy desk behind her",
+     "A hello, and a welcome",
+     "Nothing unkind"
+    ]
+   }
+  },
+  {
+   "say": "Look at Felix's flat for a moment. A small lamp, turned low. A plant on the windowsill, a little droopy from the move. A pair of boots by the door, and a mug of tea that went cold an hour ago. It's one of the calmest rooms you could picture. And inside it, a mind is working through a tiny, silent argument about a stranger's smile.",
+   "show": {
+    "type": "photo",
+    "file": "lf46_b01_01.jpg",
+    "cap": "A quiet room, a busy mind"
+   }
+  },
+  {
+   "say": "Here's what Felix did next, and it's what most of us would do. He started building a case. Her desk was very tidy, which maybe meant she was strict. She didn't ask him a single personal question, which maybe meant she was distant. She glanced at her watch while she was talking, which maybe meant she was in a hurry to be rid of him. Every little detail got filed under the verdict.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "cafe_sunset",
+    "cap": "The kind of thing we do",
+    "sub": "Everyone does this"
+   }
+  },
+  {
+   "say": "Notice what happened there. The verdict came first, and the evidence arrived afterwards, as if called in to testify. Felix wasn't being dishonest with himself. This is simply how impressions tend to feel from the inside. They don't announce themselves as guesses. They arrive looking like facts, and then they quietly recruit everything nearby.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "cap": "A verdict looking for proof",
+    "sub": "The case builds itself"
+   }
+  },
+  {
+   "say": "It's a small thing to hold on to tonight. The feeling of knowing someone and the evidence for knowing someone are two different things, and they don't always arrive in the same order. When a verdict shows up fast, it can feel like a conclusion. But often, it's closer to a first draft.",
+   "show": {
+    "type": "quote",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "text": "The verdict comes first, and the evidence arrives afterwards.",
+    "by": "A habit of impressions"
+   }
+  },
+  {
+   "say": "It's worth noticing that Felix did exactly the same thing with Jonas. Jonas laughed easily, so Jonas must be kind. Jonas offered him a mug, so Jonas must be generous. Jonas likes plants, so Jonas must have good taste. Felix didn't weigh any of that either. Both verdicts, the cold one and the warm one, came from the same quick machinery, and he trusted both of them equally.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "rooftop_dusk",
+    "cap": "And Jonas, too",
+    "sub": "The easy one"
+   }
+  },
+  {
+   "say": "That's the thing to keep in view. It isn't that Felix is good at judging one person and bad at judging the other. It's that one fast process produced both impressions, and it produced them with the same easy confidence. And a feeling that confident is hard to question, especially at midnight, when there's nothing else to look at.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "The same machinery",
+    "sub": "Two verdicts, one process"
+   }
+  },
+  {
+   "say": "So let's be clear about what tonight is not. It's not a lecture about being fairer. It's not advice to distrust your instincts, or to trust them. It's not a cure for a feeling that every human being has had. It's a calm, curious look at one of the most ordinary mysteries of social life, with a little science and a lot of time.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "street_day",
+    "cap": "A note about tonight",
+    "sub": "No blame"
+   }
+  },
+  {
+   "say": "And the research on this begins with a question that sounds almost impossible. How little time does a brain actually need?",
+   "show": {
+    "type": "chapter",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "n": 2,
+    "title": "Where the research begins"
+   }
+  },
+  {
+   "say": "Before we go there, take one slow breath in, and let it out a little longer than you breathed in. Felix does the same. He sits up, finally unlaces his shoes, and lets them drop to the floor. The verdict about Mara is still sitting in his chest. But it's a little quieter now that he's curious about it. And curiosity is a very good place to start.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "cabin_fireplace",
+    "cap": "Take a slow breath",
+    "sub": "Easy does it"
+   }
+  }
+ ]
+}

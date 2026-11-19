@@ -1,0 +1,223 @@
+{
+ "id": "lf46_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's take the question out of the lab and into the real world, to a place where faces really are on display, the posters of political candidates.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N11",
+    "bg": "street_day",
+    "n": 7,
+    "title": "Voting in a glance"
+   }
+  },
+  {
+   "say": "Felix remembers the posters at the bus stop near his flat from the last election. Rows of smiling faces, each with a slogan. He remembers glancing at them and having an instant sense of who looked capable and who didn't. He'd never thought of that as strange. But a researcher at Princeton had the opposite reaction. He wondered whether that feeling might actually predict who won.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "A strange idea",
+    "sub": "Faces on posters"
+   }
+  },
+  {
+   "say": "It's a curious idea, and a slightly uncomfortable one. We like to think that people choose leaders by thinking about their records, their promises and their plans. And plenty of them do. But what if some part of the choice is also riding on a quick impression of a face, one that has little to do with any of that? In 2005, Alexander Todorov and his colleagues decided to find out.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "The idea",
+    "sub": "A face and a result"
+   }
+  },
+  {
+   "say": "Here's the study, published in the journal Science. The team took the winners and runners-up of real elections to the US Senate and House of Representatives. They showed pairs of photographs to volunteers who didn't recognise the candidates, and asked one simple question. Which of these two people looks more competent?",
+   "show": {
+    "type": "study",
+    "sprite": "N29",
+    "bg": "autumn_overlook",
+    "who": "Todorov, Mandisodza, Goren & Hall, 2005",
+    "where": "Princeton University, Science",
+    "what": "Volunteers who did not recognise the candidates saw pairs of faces, the winner and the runner-up of real US Senate and House races, and judged which person looked more competent."
+   }
+  },
+  {
+   "say": "Notice what the researchers did to keep the test fair. The volunteers were people who didn't recognise the candidates. So their judgments could only come from faces, not from memories of the news, the campaign or the party. They had nothing to go on but a photograph and a question.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "A fair test",
+    "sub": "Only people who did not know the faces"
+   }
+  },
+  {
+   "say": "And here's the result. Across ninety-five Senate races from 2000, 2002 and 2004, the candidate whose face had been judged more competent won about seventy-two percent of the time, to be precise, seventy-one point six percent. In the House of Representatives, across six hundred races, the figure was about sixty-seven percent.",
+   "show": {
+    "type": "stat",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "title": "Todorov et al., 2005",
+    "big": "71.6%",
+    "label": "of 95 Senate races were correctly predicted by which candidate's face looked more competent"
+   }
+  },
+  {
+   "say": "It went a little further than a simple win or lose. The more competent a face looked, the bigger the winner's margin tended to be. For the Senate races, the link between the competence rating and the margin of victory was about point four four on the correlation scale. That's a moderate relationship, not a perfect one, but it's much more than anyone would expect from a face alone.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Not just who, but by how much",
+    "sub": "A margin"
+   }
+  },
+  {
+   "say": "It's an astonishing thing to say out loud, and it's worth being very careful about what it means. It doesn't mean competence is written on faces. It doesn't mean the candidates were or weren't competent. It means that a stranger's quick impression of competence, taken from a photograph, lined up with who won, more often than chance would explain.",
+   "show": {
+    "type": "quote",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "text": "A quick look at two faces picked the winner more often than not.",
+    "by": "What the study found"
+   }
+  },
+  {
+   "say": "And how fast does that impression form? The team ran another version in which a group of forty volunteers saw each pair of faces for only one second. And the pattern held. Judgments made after one second correctly picked the winner in about sixty-eight percent of the Senate races, and they correlated with the margin of victory at about point four six.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "street_day",
+    "cap": "How quickly",
+    "sub": "One second"
+   }
+  },
+  {
+   "say": "A couple of years later, Ballew and Todorov asked whether it could be done even faster. They used the winners and runners-up of real governors' races, and showed people the faces for one tenth of a second, a quarter of a second, or as long as they liked. The paper was published in 2007 in the Proceedings of the National Academy of Sciences.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "cafe_sunset",
+    "cap": "A tenth of a second, too",
+    "sub": "The next study"
+   }
+  },
+  {
+   "say": "Here's what they found. After a tenth of a second, people picked the winning governor about sixty percent of the time. After a quarter of a second, about sixty-nine percent. With no time limit, about sixty-three percent. So a quarter of a second did about as well as unlimited time, and perhaps better, and that was before anyone had a chance to think about it.",
+   "show": {
+    "type": "list",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "title": "Picking the winner of a governor's race",
+    "items": [
+     "After 100 ms, about 60 percent",
+     "After 250 ms, about 69 percent",
+     "With no time limit, about 63 percent",
+     "Told to deliberate, about 60 percent"
+    ]
+   }
+  },
+  {
+   "say": "Then came the twist. In one version, the researchers told people to deliberate, to think carefully about who looked more competent. Those people took longer to answer. And they didn't do better. If anything, they did a little worse, picking the winner about sixty percent of the time, which wasn't different from guessing. And their ratings linked to the vote share only at about point one four.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "rooftop_dusk",
+    "cap": "Told to think",
+    "sub": "A surprising twist"
+   }
+  },
+  {
+   "say": "It's a delicious little puzzle. Why would more careful thought make the guess less connected to the result? The researchers reported the result, and they didn't claim to know exactly why. It's the kind of open question that makes a result worth remembering.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Why would thinking hurt?",
+    "sub": "A gentle puzzle"
+   }
+  },
+  {
+   "say": "Picture a long wall in a quiet town hall, with a row of empty wooden frames waiting for portraits. Each one is a small rectangle of space, waiting to be filled with a face and a quick, silent opinion. It's a picture of how many of our everyday verdicts are made. A frame is set, and a face slides into it.",
+   "show": {
+    "type": "photo",
+    "file": "lf46_b04_01.jpg",
+    "cap": "A row of empty frames"
+   }
+  },
+  {
+   "say": "Felix lets his mind go back to the bus stop. He remembers that, once or twice, he'd had a strong feeling about a candidate from the poster alone. And he realises, now, that the posters had no way of telling him anything about whether a person would do the job well. They could only tell him what a face looked like for a second. That's all he'd had, and it had felt like a lot.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "living_room_day",
+    "cap": "Felix thinks about it",
+    "sub": "The bus stop posters"
+   }
+  },
+  {
+   "say": "There are a few cautions that belong here, and they're important. These studies found a relationship, a correlation. They did not show that voters choose people because of their faces. Many other things decide elections, from party to campaign to the state of the country. And competence ratings of a face don't show who is really competent. The studies are interesting because the quick impressions line up with real outcomes, not because they're a good way to choose.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "A caution",
+    "sub": "Correlation is not cause"
+   }
+  },
+  {
+   "say": "That's the careful reading. A faint signal in a crowd of other signals. It tells us something about how our minds work, and not much about who deserves our trust. If anything, it might be a gentle invitation to ask, the next time a face makes a strong first impression, what else there is to know.",
+   "show": {
+    "type": "quote",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "text": "The impression lines up with the outcome. That does not make it a good reason.",
+    "by": "A fair reading"
+   }
+  },
+  {
+   "say": "And what does this have to do with a Tuesday morning in a design studio? Quite a lot, in a quiet way. If a quick look at a face can line up with something as large as an election, then it's not odd that Felix felt a verdict within a second or two. It's ordinary. It's what faces seem to do to minds. The only unusual thing is that he noticed it.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "One more thought",
+    "sub": "What it means for a Tuesday morning"
+   }
+  },
+  {
+   "say": "And noticing is a real advantage. A verdict you've noticed is one you can look at, and a verdict you can look at is one you can hold lightly. Felix hasn't changed his mind about Mara. He's just begun to treat the feeling as an impression and not as a finding. That's a small shift, but it's a real one.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "street_day",
+    "cap": "Noticing it",
+    "sub": "A small advantage"
+   }
+  },
+  {
+   "say": "But so far, we've only been talking about faces. And faces, it turns out, are just one of the ways people read each other very fast.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N27",
+    "bg": "cafe_sunset",
+    "n": 8,
+    "title": "Not only faces"
+   }
+  },
+  {
+   "say": "Let's pause for a slow breath in, and out. Felix turns over, and the pillow is cool against his cheek. Somewhere in the building, a pipe knocks twice and goes quiet. The night is very ordinary, and very quiet, and there's nothing to decide in it at all.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "cabin_fireplace",
+    "cap": "A slow breath",
+    "sub": "Let it settle"
+   }
+  }
+ ]
+}

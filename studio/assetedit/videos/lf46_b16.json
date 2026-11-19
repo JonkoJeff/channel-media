@@ -1,0 +1,255 @@
+{
+ "id": "lf46_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's go somewhere cold and quiet now, and very, very cozy. A small wooden cabin, high up in the mountains, on a night when the snow is falling softly and the whole world has gone still.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "n": 31,
+    "title": "Into the snow"
+   }
+  },
+  {
+   "say": "You're walking up a narrow path through a pine forest, and it's snowing, gently, in large, slow flakes that seem to take their time on the way down. The snow is deep and soft, and it muffles everything. Your footsteps make a quiet, rounded sound, like a pillow being patted. The air is cold and clean, and each breath comes out as a small white cloud.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "The path up",
+    "sub": "Snow underfoot"
+   }
+  },
+  {
+   "say": "All around you, the pines stand dark and heavy with snow, their branches bowed and still. There's no wind at all. Every so often, a small clump of snow slides off a branch and falls with a soft hush. Apart from that, there's no sound in the whole forest. It's the deepest kind of quiet, the kind that makes you feel your own heartbeat, slow and steady.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "cap": "The forest",
+    "sub": "Quiet pines"
+   }
+  },
+  {
+   "say": "It's worth noticing what snow does. It muffles every sound, and softens every edge. It covers every footprint and every trace of the day, and it makes the night feel very close and very kind. It asks nothing of you at all. You can simply walk through it, and let it fall on your shoulders, and feel the day fall away behind you.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "title": "What the snow does",
+    "items": [
+     "Muffles every sound",
+     "Softens every edge",
+     "Covers every footprint",
+     "Makes the night feel very close",
+     "Asks nothing of you"
+    ]
+   }
+  },
+  {
+   "say": "Up ahead, between the trees, there's a small orange light. It's a window, glowing warm against the blue dark. As you come nearer, you can see the shape of the cabin, low and sturdy, with a steep snowy roof, and a thin line of smoke rising from the chimney, straight up in the still air.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "A light ahead",
+    "sub": "Between the trees"
+   }
+  },
+  {
+   "say": "Here's the cabin, in the soft snowfall. A low log house with a deep, white roof, and one warm window. A little path of footprints leads to the door. Snow has gathered on the sill and on the woodpile by the wall. It looks like the safest place in the world, and tonight, it is yours.",
+   "show": {
+    "type": "photo",
+    "file": "lf46_b16_01.jpg",
+    "cap": "The cabin in the snow"
+   }
+  },
+  {
+   "say": "At the door, you stamp the snow from your boots, and brush it from your shoulders. The latch lifts easily. Inside, the air is warm and smells faintly of wood smoke and old pine. It wraps around you like a blanket. You close the door behind you, and the cold, and the forest, and the whole long day are left outside in the dark.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "Stamping off the snow",
+    "sub": "At the door"
+   }
+  },
+  {
+   "say": "It's a small room, and a simple one. A wooden table. Two soft chairs. A shelf with a few worn books, and a lamp with a yellow shade. In the corner, there's a stone fireplace, and in it, a fire is burning low and steady. Its glow moves slowly over the walls, orange and gold, and the shadows sway very gently.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "The room",
+    "sub": "Low and warm"
+   }
+  },
+  {
+   "say": "Sit down in one of the chairs, if you like, close to the fire. The warmth reaches your hands first, and then your face, and then slowly, your whole body. Watch the flames for a moment. They don't hurry. They lean, and settle, and lean again. Now and then a log shifts, and a little shower of sparks goes up the chimney and is gone.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "cabin_fireplace",
+    "cap": "The fire",
+    "sub": "Slow, steady, warm"
+   }
+  },
+  {
+   "say": "Let that thought settle softly. A fire doesn't need to be understood, it only needs to be watched. And a night doesn't need to be solved, either. You can simply sit here, in the warm, and let everything be as it is, without needing to decide a single thing about it.",
+   "show": {
+    "type": "quote",
+    "sprite": "N01",
+    "bg": "autumn_overlook",
+    "text": "A fire doesn't need to be understood. It only needs to be watched.",
+    "by": "A thought for the night"
+   }
+  },
+  {
+   "say": "On the table there's a small cup, with something warm in it, tea, perhaps, or milk with a little honey. Wrap your hands around it, and feel the warmth soak into your palms. The steam rises in a slow, soft curl, and it smells faintly sweet. You take a small sip, and the warmth travels down your chest and settles in your belly.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Something warm",
+    "sub": "A cup in your hands"
+   }
+  },
+  {
+   "say": "Listen to the sounds of the cabin. The soft crackle of the fire. The faint creak of old wood as it settles in the cold. The tick of a small clock somewhere. And outside, beyond the walls, nothing at all. The snow keeps falling, and it makes no sound. It simply covers the world, one flake at a time, until everything is quiet and white.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Listening",
+    "sub": "The sounds of the cabin"
+   }
+  },
+  {
+   "say": "Check in with your body here, in the soft chair. Your feet, warm from the fire. Your legs, heavy. Your back, supported. Your shoulders, loose and low. Your hands, soft around the cup. And your face, smooth and calm, the way it looks when no one is watching. Let each part grow a little heavier, a little warmer, a little more still.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "living_room_day",
+    "title": "Your body in the chair",
+    "items": [
+     "Your feet, warm",
+     "Your legs, heavy",
+     "Your back, supported",
+     "Your shoulders, loose",
+     "Your hands, soft around the cup",
+     "Your face, calm"
+    ]
+   }
+  },
+  {
+   "say": "Beside the chair, there's a thick wool blanket, folded over the arm. Pull it across your knees, and feel its weight settle over you, soft and heavy and warm. It smells faintly of cedar and smoke. It's the kind of blanket that has kept many people warm on many cold nights, and it doesn't mind how you look, or who you are.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "A blanket",
+    "sub": "Wool and warmth"
+   }
+  },
+  {
+   "say": "If a thought drifts into the room, a worry, or a picture, or a stray impression from the day, let it be like a snowflake drifting past the window. It falls. It lands. It melts into the whiteness, and the whiteness stays. You don't have to catch it. You don't have to catch anything. The snow will take care of all of it.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "cap": "A thought drifts by",
+    "sub": "And moves on"
+   }
+  },
+  {
+   "say": "The little clock on the shelf ticks very slowly. Tick. And a long pause. Tick. You can let your breathing slow to match it, in on one tick, and out on the next. Not forcing anything. Only letting the rhythm pull you gently along, as a stream pulls a leaf, a little further downstream with every breath.",
+   "show": {
+    "type": "quote",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "text": "Tick, and a long pause. Tick.",
+    "by": "The little clock"
+   }
+  },
+  {
+   "say": "Your eyelids are heavy now, heavy as wet snow. The fire has burned down to a bed of orange coals. The lamp is low. The room is dim and amber, and the edges of things have gone soft and blurred. You're not trying to stay awake, and you're not trying to sleep. You're only resting in the warm, with the snow falling outside.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Heavy eyelids",
+    "sub": "The warm dark"
+   }
+  },
+  {
+   "say": "In a corner of the cabin, a narrow wooden ladder leads up to a small loft, where a bed is made up with a thick quilt and a pillow that smells of cold air and cedar. You climb the ladder slowly, and sink into the quilt, and it closes around you, warm and deep. Through a small round window, you can see the snow falling past the dark.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "title": "The loft",
+    "items": [
+     "A narrow wooden ladder",
+     "A thick quilt",
+     "A pillow that smells of cedar",
+     "A small round window",
+     "Snow falling past the dark"
+    ]
+   }
+  },
+  {
+   "say": "The snow falls, and falls. Soft, silent, unhurried. It lies on the roof, and on the pines, and on the path you made, filling your footprints one by one. By morning, there will be no trace that anyone walked here. And that's alright. There's nothing to prove, and nothing to leave behind. Only the warm, the dark, and the slow white quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "autumn_overlook",
+    "cap": "The snow falls",
+    "sub": "And falls"
+   }
+  },
+  {
+   "say": "Pull the quilt up to your chin, and look out through the small round window. The world outside is white and blue and perfectly still. The snow has smoothed the hills into long, soft curves, and the pines look like sleeping giants in thick white coats. Nothing moves, except the snow, falling slowly through the light from the window.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "The window",
+    "sub": "A world in white"
+   }
+  },
+  {
+   "say": "There's something forgiving in a snowfall. It covers every footprint, every mark, every little sign of what went on during the day. By morning, the slate is clean and white. You can let that be a small picture for yourself, tonight. Whatever happened today is settling, softly, under the snow.",
+   "show": {
+    "type": "quote",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "text": "The snow covers every footprint, and the night forgives the day.",
+    "by": "A thought for the night"
+   }
+  },
+  {
+   "say": "Notice how warm it is under the quilt. Your own warmth is held close around you, like a small, private summer. Your toes are warm, and your fingers, and the tip of your nose is cool and pleasant. This is the particular joy of being warm inside a cold place, and you can rest in it, all night long.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "The warmth",
+    "sub": "Under the quilt"
+   }
+  },
+  {
+   "say": "When you're ready, let the cabin and the snow fade softly into the dark. They'll be here whenever you'd like to come back. And now, there's another quiet place waiting for you, a place full of books, and lamplight, and the faint smell of old paper.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle goodbye",
+    "sub": "For now"
+   }
+  }
+ ]
+}

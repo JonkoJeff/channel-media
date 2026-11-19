@@ -1,0 +1,224 @@
+{
+ "id": "lf46_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's an idea so old that its name is a century old, and it begins with someone trying to rate soldiers fairly.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "n": 18,
+    "title": "The halo"
+   }
+  },
+  {
+   "say": "There's something Felix hasn't noticed yet about how his day went. Once he'd decided that Jonas was kind, he'd quietly assumed a good deal more. That Jonas must be good at his job. That his models must be beautiful. That his advice, whenever Felix asked for it, would be sensible. He hadn't seen a single model. Not one. But the assumption had arrived anyway, as part of the same warm picture.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "rooftop_dusk",
+    "cap": "What else Felix assumed",
+    "sub": "Jonas, again"
+   }
+  },
+  {
+   "say": "It's one of the most familiar patterns in human judgment. You decide that a person is good at one thing, or likeable in one way, and the glow spreads. Suddenly they seem good at other things, too, even things you've never seen them do. And it works the other way, too. A single bad impression can cast a shadow across qualities that have nothing to do with it.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "A spreading glow",
+    "sub": "One good thing, then more"
+   }
+  },
+  {
+   "say": "The first person to describe this carefully was an American psychologist named Edward Thorndike. In 1920, in the Journal of Applied Psychology, he published a short paper called A Constant Error in Psychological Ratings. It was about a very practical problem. Officers were being asked to rate the people under them, and Thorndike noticed that the ratings looked strangely tidy.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "The man who named it",
+    "sub": "Edward Thorndike"
+   }
+  },
+  {
+   "say": "Here's the idea. The ratings were supposed to be of separate qualities. Physical qualities, intelligence, leadership, character. Those are different things, and in real people they don't always go together. A strong person isn't necessarily a clever one, and a clever one isn't necessarily a good leader. So you'd expect the separate ratings to be only loosely connected. But that isn't what Thorndike found.",
+   "show": {
+    "type": "study",
+    "sprite": "N29",
+    "bg": "autumn_overlook",
+    "who": "Thorndike, 1920",
+    "where": "Journal of Applied Psychology",
+    "what": "Thorndike looked at ratings of officers, aviation cadets and teachers on separate qualities such as intelligence, physique, leadership and character, and checked how closely the separate ratings moved together."
+   }
+  },
+  {
+   "say": "Here's one of his examples. One flight commander rated a hundred and thirty-seven aviation cadets on several qualities. The ratings for intelligence matched the ratings for physique at about point five one, for leadership at about point five eight, and for character at about point six four. Thorndike thought those were far too high.",
+   "show": {
+    "type": "stat",
+    "sprite": "N23",
+    "bg": "cabin_fireplace",
+    "title": "Thorndike, 1920",
+    "big": ".64",
+    "label": "between one commander's ratings of 137 aviation cadets for intelligence and for character"
+   }
+  },
+  {
+   "say": "Why did he say too high? Because the commander wasn't really rating separate things. He was forming one general impression of each cadet, a sort of overall good or not so good, and then letting that impression decide the marks for everything. The separate columns on the form were filled in by one feeling. And that, Thorndike wrote, was the constant error.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "street_day",
+    "cap": "Why too high?",
+    "sub": "Because it was one impression"
+   }
+  },
+  {
+   "say": "He called it a halo. Like the glow around a saint in a painting, one good feature seemed to light up everything near it. It's a lovely image, and it stuck. Since then, psychologists have gone looking for echoes of it in many different settings. And it began, rather humbly, with a form, a set of cadets, and a person who wanted ratings to be a little fairer.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "A name for it",
+    "sub": "The halo"
+   }
+  },
+  {
+   "say": "Thorndike looked at other groups, too. In one, a hundred and twenty-nine teachers were rated by their superiors. The general rating of a teacher's merit was strongly connected with the rating for intellect, at about point six eight, with the rating for discipline, at about point seven nine, and with the rating for voice, at about point six three. Qualities that are not obviously the same thing kept moving together.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "cafe_sunset",
+    "cap": "The teachers, too",
+    "sub": "Another group"
+   }
+  },
+  {
+   "say": "So here's the pattern, in brief. A general feeling about a person spreads to qualities that you haven't seen at all. Separate ratings move together as though they were one. It works in both directions, the glow and the shadow. And, perhaps most importantly, it's very hard to feel from the inside. It doesn't feel like a mistake. It feels like knowing.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "autumn_overlook",
+    "title": "What the halo looks like",
+    "items": [
+     "A general feeling about a person",
+     "Spreads to qualities that were never seen",
+     "Makes separate ratings move together",
+     "Works for bad impressions too",
+     "Is hard to feel from the inside"
+    ]
+   }
+  },
+  {
+   "say": "Here's a picture of a single lamp on a table, glowing in a dim room. Its light doesn't stay on the table. It reaches the walls, the curtains, the corners and the books on the shelf, and everything near it looks a little warmer than it really is. That's how a halo works.",
+   "show": {
+    "type": "photo",
+    "file": "lf46_b09_01.jpg",
+    "cap": "A lamp that lights the corners"
+   }
+  },
+  {
+   "say": "Thorndike had a practical suggestion. Raters should report the evidence they'd actually seen, and each quality should be rated separately, without knowledge of the evidence about the others. In other words, he suggested slowing the process down and breaking it up, so that one big feeling had less chance to fill in every box on its own.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "rooftop_dusk",
+    "cap": "What Thorndike recommended",
+    "sub": "A calmer way to rate"
+   }
+  },
+  {
+   "say": "It's a method that anyone can try, quietly, in their own head. Felix tries it. What has he actually seen of Jonas's work? Nothing. What has he seen of Jonas's kindness? A mug, a grin, a sentence about plants. And what has he seen of Mara's work? Also nothing. He's seen a handshake. Everything else has been a glow, and a shadow, laid down in advance.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A small test for Felix",
+    "sub": "What has he actually seen?"
+   }
+  },
+  {
+   "say": "That's a surprising result of his little audit. Most of his boxes are blank. He knows almost nothing about the quality of either person's work. He has a warm feeling about one, and a cool feeling about the other, and the feelings have been quietly filling in the forms. Seeing the blanks isn't unpleasant. It's rather like noticing that a room is emptier than you'd thought.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle result",
+    "sub": "Mostly blanks"
+   }
+  },
+  {
+   "say": "It's a neat way to put it. The feeling had been filling in the forms. And once Felix saw the blank boxes, the forms were his again, to fill in slowly, from evidence, over the coming weeks. It's a modest bit of freedom, but it counts.",
+   "show": {
+    "type": "quote",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "text": "The feeling had been filling in the forms.",
+    "by": "A small discovery"
+   }
+  },
+  {
+   "say": "A fair caution should be added. Thorndike's paper is more than a hundred years old, and some of its numbers came from the particular rating systems of the time. But the pattern it described has been seen again and again, and it gave the effect a name that has lasted. What matters most is the idea, not the exact figures.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "autumn_overlook",
+    "cap": "A fair caution",
+    "sub": "An old study"
+   }
+  },
+  {
+   "say": "And in 1977, two psychologists found a clever way of showing that people don't just fall for the halo. They also deny that it happened.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "n": 19,
+    "title": "A lecturer with an accent"
+   }
+  },
+  {
+   "say": "It's worth saying that the halo isn't only a nuisance. It's also a shortcut, and shortcuts are useful. If you know almost nothing about someone, a general feeling is better than nothing, and it lets you decide how to act in a moment when you can't wait for the evidence. The trouble starts only when the shortcut is mistaken for the whole road.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "cap": "Why the halo is useful",
+    "sub": "A shortcut"
+   }
+  },
+  {
+   "say": "That's a fair summary, and a forgiving one. We aren't asked to give up shortcuts. We're only asked to remember which things were seen, and which were assumed. It's a small habit, and it can be practised gently, with no pressure, at any time of the day.",
+   "show": {
+    "type": "quote",
+    "sprite": "N01",
+    "bg": "cafe_sunset",
+    "text": "A shortcut is fine, as long as you remember it is a shortcut.",
+    "by": "A fair summary"
+   }
+  },
+  {
+   "say": "The halo has a darker twin, which is sometimes called the horns effect. One unflattering impression, a late arrival, an awkward remark, a tired face, and the shadow spreads over everything else. Thorndike's ratings showed the pattern in both directions. A general feeling pulls the separate ratings along with it, up or down, without being noticed.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "autumn_overlook",
+    "cap": "The shadow side",
+    "sub": "The horn effect"
+   }
+  },
+  {
+   "say": "Take a slow breath in, and a long breath out. Felix lets his shoulders drop. The blank boxes in his head feel less like gaps and more like open space, a field that nobody has planted yet. He looks at it for a while, and it's rather peaceful.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "A slow breath",
+    "sub": "Easy does it"
+   }
+  }
+ ]
+}

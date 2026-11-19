@@ -1,0 +1,228 @@
+{
+ "id": "lf46_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a study that has become something of a classic, and one that gave this whole area its famous name.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "n": 9,
+    "title": "Half a minute, with the sound off"
+   }
+  },
+  {
+   "say": "So far we've talked about snap judgments as something that forms quickly. But a very fair question comes next. Does a quick impression predict anything at all? Because it's one thing for a brain to hurry to a verdict, and quite another for the verdict to be useful. It's a question Felix has been circling all evening, without quite putting it into words.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "cap": "A new question",
+    "sub": "Does it predict anything?"
+   }
+  },
+  {
+   "say": "In a paper published in 1993, two psychologists, Nalini Ambady and Robert Rosenthal, tackled it in a very practical way. They chose a setting where there's a clear, real-world measure of how well someone does their job. The setting was teaching. And the measure was how the teacher's own students rated them at the end of the term.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "A teacher's classroom",
+    "sub": "Thirteen of them"
+   }
+  },
+  {
+   "say": "Here's how the study worked. They filmed thirteen graduate students who were teaching university classes. From each lesson, they cut three short clips, ten seconds each, thirty seconds in all. Then they turned the sound off. The clips were shown to nine undergraduates who had never met the teachers, and who rated each teacher on fifteen kinds of nonverbal impression.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "who": "Ambady & Rosenthal, 1993",
+    "where": "Journal of Personality and Social Psychology",
+    "what": "Strangers watched three 10-second silent video clips of each of 13 university teaching fellows and rated their nonverbal behaviour. Those ratings were compared with the teachers' end-of-semester student evaluations."
+   }
+  },
+  {
+   "say": "Pause on that for a moment. The raters had no idea what was being taught. They couldn't hear a word. They saw only a few seconds of someone's face, hands and posture, three times over, and they gave an overall impression of each person. It's about as thin a slice of someone as you could possibly cut, which is why the researchers called it a thin slice.",
+   "show": {
+    "type": "char",
+    "sprite": "N11",
+    "bg": "rooftop_dusk",
+    "cap": "Strangers and silence",
+    "sub": "No words at all"
+   }
+  },
+  {
+   "say": "And here's the result. The strangers' ratings, based on thirty seconds of silent video, lined up strongly with what the teachers' own students said at the end of the whole term. The correlation was point seven six. That's a very strong match, from a few seconds of a silent film, against months of real teaching.",
+   "show": {
+    "type": "stat",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "title": "Ambady & Rosenthal, 1993",
+    "big": "r = .76",
+    "label": "between strangers' ratings of 30 silent seconds and the teachers' end-of-semester student evaluations"
+   }
+  },
+  {
+   "say": "An obvious question is whether the strangers were simply responding to how good-looking each teacher was. So the researchers measured physical attractiveness separately. It showed a weaker link to the student ratings, about point three two, which wasn't statistically significant in a group that small. And when they accounted for it, the main result barely moved. It went from point seven six to point seven four.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "street_day",
+    "cap": "Could it be looks?",
+    "sub": "Attractiveness"
+   }
+  },
+  {
+   "say": "Then they tried it again with a different group. They used thirteen high school teachers, and the measure of success was a rating given by the school principal. The same method, with silent ten-second clips, gave a correlation of about point six eight. So the result wasn't an accident of one college or one kind of teaching.",
+   "show": {
+    "type": "list",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "title": "A second group",
+    "items": [
+     "Thirteen high school teachers",
+     "The principal's effectiveness ratings",
+     "Silent ten-second clips",
+     "A correlation of about .68"
+    ]
+   }
+  },
+  {
+   "say": "It's a striking sentence, and it's the reason the study is still taught. A small amount of behaviour, seen without any words, carried real information about how people did over months. It didn't tell the whole story. But it carried a surprising amount of signal.",
+   "show": {
+    "type": "quote",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "text": "Thirty silent seconds said something real about a whole term of teaching.",
+    "by": "The finding in one line"
+   }
+  },
+  {
+   "say": "And then the researchers went thinner still. They cut the clips down to five seconds, and then to two seconds, three clips each, which came to fifteen seconds and six seconds in all. They asked a new set of thirty-two undergraduates to rate those. The ratings still predicted the teachers' evaluations. And the strength of the relationship was not significantly different for the ten, five or two-second clips.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "autumn_overlook",
+    "cap": "Even thinner",
+    "sub": "Fifteen seconds, then six"
+   }
+  },
+  {
+   "say": "Here's the short version. Thirty seconds of silent video predicted the ratings. Fifteen seconds predicted them about as well. Even six seconds still carried a strong signal. Taken together, across all six sets of results in the paper, the average relationship was about point five nine. More footage didn't make a measurable difference, which is the surprising part.",
+   "show": {
+    "type": "list",
+    "sprite": "N23",
+    "bg": "living_room_day",
+    "title": "What the thinner slices showed",
+    "items": [
+     "Thirty seconds: strongly linked to the ratings",
+     "Fifteen seconds: about as strongly linked",
+     "Six seconds: still linked",
+     "Across all the studies, an average correlation of .59"
+    ]
+   }
+  },
+  {
+   "say": "You might wonder what the raters were actually picking up. The paper also looked at tiny, specific behaviours. And those turned out to be much less useful than the overall impression. In the first study, the single strongest of them was fidgeting with the hands, which was linked to lower student ratings, at about minus point seven. But the whole was better than any of its parts.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "cafe_sunset",
+    "cap": "The smallest signs",
+    "sub": "What did people notice?"
+   }
+  },
+  {
+   "say": "Here's an empty classroom, after everyone's gone home. Rows of wooden desks, a chalk tray, and the afternoon light slanting across the floor. It's a place where, every day, a few seconds of nonverbal behaviour set the tone for a whole lesson, long before a word of the lesson is spoken.",
+   "show": {
+    "type": "photo",
+    "file": "lf46_b05_01.jpg",
+    "cap": "An empty classroom"
+   }
+  },
+  {
+   "say": "Felix is thinking about that. If strangers can read something from thirty silent seconds of a teacher, then someone, perhaps Mara, could be reading something from his own first thirty seconds. He remembers that he held his bag in front of him like a shield. He remembers saying, I'm so happy to be here, in a voice that went up at the end. He winces a little.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "cap": "Felix's thought",
+    "sub": "What he gave away"
+   }
+  },
+  {
+   "say": "But here's the kinder reading, and it comes from the same research. Whatever Mara picked up, it would have been a rough, quick sketch of a nervous new person on a first day. And that, honestly, is an accurate sketch. A first day is nerve-wracking, and most people in the room know it. A slightly stiff handshake on a first morning is just about the most ordinary thing in the world.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "bedroom_night",
+    "cap": "A kinder reading",
+    "sub": "Nerves look like nerves"
+   }
+  },
+  {
+   "say": "What might explain such a strange result? One way to make sense of it, and it's only an interpretation, is that quick, nonverbal cues can reflect real, lasting qualities of how someone acts. A teacher who is relaxed and active in front of a class may also be relaxed and active across the whole term. The slice is thin, but it comes from a person who stays fairly constant, at least in how they carry themselves.",
+   "show": {
+    "type": "quote",
+    "sprite": "N19",
+    "bg": "street_day",
+    "text": "Quick cues may reflect lasting ways of acting.",
+    "by": "One possible interpretation"
+   }
+  },
+  {
+   "say": "A fair caution applies here too. Thirteen teachers in each study is a small number, and it's a long way from proving that a few seconds can tell you everything about anyone. The result also applies to the specific setting of teaching, with the specific measure of student and principal ratings. It's a fascinating finding, not a law.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "autumn_overlook",
+    "cap": "A fair caution",
+    "sub": "Small groups"
+   }
+  },
+  {
+   "say": "What it does show is that thin slices of behaviour contain a signal. They aren't a verdict, and they aren't random. They sit somewhere in between. And the more we learn, the more that seems to be the honest place to put a first impression. Not worthless, and not the whole truth, but a faint, real signal that is easy to over-read.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "What it does show",
+    "sub": "A signal, not a verdict"
+   }
+  },
+  {
+   "say": "And that's perhaps the best sentence to take from this whole section. A thin slice is a signal, and not a verdict. It's the beginning of a conversation between you and another person, and not the end of one.",
+   "show": {
+    "type": "quote",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "text": "A thin slice is a signal, not a verdict.",
+    "by": "A line to keep"
+   }
+  },
+  {
+   "say": "The teachers were one case. A later piece of work looked across dozens of studies, and then at a very different group of people, surgeons.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N11",
+    "bg": "cabin_fireplace",
+    "n": 10,
+    "title": "How reliable is a thin slice?"
+   }
+  },
+  {
+   "say": "Take a breath in, and let it go. Felix has finally taken his lanyard off and hung it on the back of the chair. It swings for a moment, and then it's still. He looks at it, and for the first time tonight, he doesn't feel judged by a plastic card with his own name on it.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "cafe_sunset",
+    "cap": "A slow breath",
+    "sub": "Let it settle"
+   }
+  }
+ ]
+}

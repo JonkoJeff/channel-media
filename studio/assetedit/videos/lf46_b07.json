@@ -1,0 +1,218 @@
+{
+ "id": "lf46_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "There's a famous experiment that uses almost no equipment at all. Just a short list of words, read aloud, and one word that was swapped for another.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N11",
+    "bg": "living_room_day",
+    "n": 14,
+    "title": "Warm and cold"
+   }
+  },
+  {
+   "say": "As Felix lies there, a memory surfaces that he'd forgotten all about. Two weeks ago, before he accepted the job, he'd had coffee with an old university friend who used to work at the studio. Describing Mara, his friend had said, she's sharp, organised, decisive, and honestly, a bit cold. Felix had nodded and moved on. And now, in the dark, he sits up a little straighter.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "A memory surfaces",
+    "sub": "A friend's warning"
+   }
+  },
+  {
+   "say": "Because maybe the verdict at the glass door wasn't really about her face. Maybe it had been sitting in his head for two weeks, waiting for a face to be attached to. The smile that stayed near her mouth, the brief handshake, the glance at her watch. He'd seen all of it through a single word. And decades of psychology since then have found that single words can do exactly that.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "autumn_overlook",
+    "cap": "A strange connection",
+    "sub": "Was it the word?"
+   }
+  },
+  {
+   "say": "The psychologist who first showed it clearly was Solomon Asch. In a long paper published in 1946, in the Journal of Abnormal and Social Psychology, he described a deceptively simple set of experiments. Nothing was filmed, and no one's face was shown. He only read out lists of personality traits describing an imaginary person, and asked people to describe what that person was like.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "A very simple experiment",
+    "sub": "Solomon Asch"
+   }
+  },
+  {
+   "say": "Here's the experiment. Two groups of people each heard a list of seven words. Ninety people heard the first list, seventy-six heard the second. The lists were exactly the same, intelligent, skillful, industrious, determined, practical, cautious, except for one word. In the first list, the person was also warm. In the second list, the person was cold. Then everyone wrote a description of the person and ticked a checklist of other traits.",
+   "show": {
+    "type": "study",
+    "sprite": "N29",
+    "bg": "cabin_fireplace",
+    "who": "Asch, 1946",
+    "where": "Journal of Abnormal and Social Psychology",
+    "what": "Two groups, 90 and 76 people, each heard a list of seven traits describing a person: intelligent, skillful, industrious, determined, practical, cautious, and either warm or cold. They then described the person and filled in a checklist."
+   }
+  },
+  {
+   "say": "Now think about what Asch had done. Six of the seven words were identical. The person was intelligent, skillful, industrious, determined, practical and cautious in both lists. If impressions were simply a sum of separate traits, the two descriptions should have been almost the same. A single word out of seven shouldn't change very much.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "street_day",
+    "cap": "Just one word",
+    "sub": "Warm or cold"
+   }
+  },
+  {
+   "say": "But it changed a great deal. Of the group who heard the word warm, ninety-one percent said the person was generous. And for many other traits, such as how sociable, how humorous or how popular the person was, the two groups moved in opposite directions. One word had colored the whole picture.",
+   "show": {
+    "type": "stat",
+    "sprite": "N23",
+    "bg": "living_room_day",
+    "title": "Asch, 1946",
+    "big": "91%",
+    "label": "of the group who heard warm chose generous for the person described"
+   }
+  },
+  {
+   "say": "It's worth noticing what didn't change. Judgments of how reliable, honest, strong or persistent the person was stayed about the same in both groups. So warm and cold didn't repaint everything. They seemed to reach into some corners of the picture, and not others, which is a more interesting finding than a simple halo.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "cafe_sunset",
+    "cap": "It wasn't everything",
+    "sub": "What did not change"
+   }
+  },
+  {
+   "say": "Asch tried other swaps, too. In another experiment, he replaced polite with blunt, with groups of nineteen and twenty-six people. The two descriptions differed, but much less than with warm and cold. And that led him to an idea that has lasted ever since, that some traits are central, organising the whole impression, and others are peripheral, adding a little colour at the edges.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "autumn_overlook",
+    "cap": "Other word swaps",
+    "sub": "Polite and blunt"
+   }
+  },
+  {
+   "say": "That's the heart of it. Some qualities are like a hinge, and everything else swings around them. Warmth, in particular, was the one that Asch found to be central. Not the most obvious quality in the list, and yet the one that changed the most.",
+   "show": {
+    "type": "quote",
+    "sprite": "N01",
+    "bg": "bedroom_night",
+    "text": "Warm and cold are central. Polite and blunt are not.",
+    "by": "Asch's idea"
+   }
+  },
+  {
+   "say": "There's a lovely twist in the paper. In another experiment, Asch took out both warm and cold, and read the list to fifty-six people, then asked them to tick whether the person seemed warm or cold. Forty-one percent, twenty-three of them, ticked warm, and their descriptions looked like those of the warm group. The rest leaned toward the cold pattern.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "rooftop_dusk",
+    "cap": "A twist",
+    "sub": "When the word is missing"
+   }
+  },
+  {
+   "say": "So when the key word was missing, people didn't leave a blank. They supplied one. And once they'd supplied it, the rest of the impression arranged itself around that guess. Most of us do this, all the time, in small ways. We hear a handful of facts about someone, we quietly decide what they must be like, and we begin to see everything else through that decision.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "When there's a gap",
+    "sub": "The mind fills it"
+   }
+  },
+  {
+   "say": "A hinge is a small, humble thing. A little piece of brass on the side of an old wooden door. It takes up almost no space, and yet the whole door swings on it. It's a good picture for a central trait. Almost invisible, and yet the thing that decides how everything else moves.",
+   "show": {
+    "type": "photo",
+    "file": "lf46_b07_01.jpg",
+    "cap": "A hinge"
+   }
+  },
+  {
+   "say": "Felix sees it now. His friend had added one word, cold, to a list of otherwise good qualities, sharp, organised, decisive. In Asch's terms, that word may have worked as a hinge. It was hanging on Felix's idea of Mara before he'd ever met her. And at the front door, when she smiled with her mouth and not her eyes, the hinge swung, and the picture arranged itself around it.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "Felix and the word",
+    "sub": "Cold"
+   }
+  },
+  {
+   "say": "There's something oddly comforting in this. The verdict at the door wasn't a deep reading of a stranger. It was an echo of something he'd been told. A borrowed word, laid over a brief, ordinary morning. It says very little about Mara, and quite a lot about how readily a mind picks up a hinge.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "A gentle discovery",
+    "sub": "The source of the verdict"
+   }
+  },
+  {
+   "say": "And of course there's the other side. Felix's friend may have been completely right. Mara may be a little cold. Or she may have been cold to his friend, in a different year, in a different situation. Or the word may have meant something quite different to his friend than it did to Felix. Asch's experiments can't tell us. They can only tell us how powerful the word was.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "And an honest question",
+    "sub": "Was the friend right?"
+   }
+  },
+  {
+   "say": "It's worth being exact about what the study measured. Asch read lists of words to groups of people, and recorded the descriptions they wrote. It was a study of how an impression forms from a few words about an imaginary person. It didn't show whether warm or cold people are, in fact, as the words imply. It showed how the mind builds a person out of a handful of words.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "A reminder",
+    "sub": "What the study measured"
+   }
+  },
+  {
+   "say": "That's the line to keep. One word, passed along in a friendly chat over coffee, can become the hinge on which an entire first meeting turns. And most of the time, we never notice that the hinge was installed.",
+   "show": {
+    "type": "quote",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "text": "One word can become the hinge that a whole impression swings on.",
+    "by": "A line to keep"
+   }
+  },
+  {
+   "say": "And what should Felix do with this? Nothing, tonight, really. Not a thing. He doesn't have to ring his friend, or reassess Mara, or change anything at all. It's enough to know that the word was there. A thing you've noticed has already lost some of its grip.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "cap": "What to do with that",
+    "sub": "Nothing, tonight"
+   }
+  },
+  {
+   "say": "But Asch found something else, too, in the very same paper, and it concerns not what the words were, but the order they came in.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N27",
+    "bg": "living_room_day",
+    "n": 15,
+    "title": "The order of things"
+   }
+  },
+  {
+   "say": "Take a slow breath in, and let it go slowly. Felix lies back and watches the ceiling. The word cold is still there, in the dark, but it's gone a little pale, like a label on a jar that's been in the sun. He lets it hang there. It's only a word, after all, and tonight it's a very small one.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "A slow breath",
+    "sub": "Let it settle"
+   }
+  }
+ ]
+}

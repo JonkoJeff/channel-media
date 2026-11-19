@@ -1,0 +1,237 @@
+{
+ "id": "lf46_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine you hear the same six facts about a person, twice, in two different orders. Would you end up with the same person? Asch wanted to know.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "n": 16,
+    "title": "The order of things"
+   }
+  },
+  {
+   "say": "While Felix has been going through the day, another small memory has surfaced. At about three in the afternoon, Mara stopped by his desk. She stood there for a moment, one hand on the back of his chair, and said, take your time this week, nobody expects anything from you yet. Then she was gone. He remembers nodding politely, and not thinking about it again.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "Something Felix forgot",
+    "sub": "Three o'clock"
+   }
+  },
+  {
+   "say": "Look at how he filed it. That kind sentence didn't change his picture of her. It went straight under the existing verdict, as a sort of odd exception, or a politeness, or a way of being careful with a new hire. The cold impression was already in place, and it made room for everything that came afterwards, so long as it didn't disturb the furniture.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "How he filed it",
+    "sub": "Under the first verdict"
+   }
+  },
+  {
+   "say": "It's a question that psychologists have asked for a long time. If information about a person arrives in sequence, does the first piece count for more than the rest? Common sense says it might. We often say that first impressions last. But it's one thing to say it, and another to test it, with the same facts, in the same words, and nothing changed but the order.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "A question",
+    "sub": "Does order matter?"
+   }
+  },
+  {
+   "say": "That's what Asch did, in the same famous paper. He took six words describing a person. Intelligent, industrious, impulsive, critical, stubborn, envious. A group of thirty-four people heard them in that order. And another group, of twenty-four, heard exactly the same six words, but in reverse. Envious first, and intelligent last.",
+   "show": {
+    "type": "study",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "who": "Asch, 1946, the order experiment",
+    "where": "Journal of Abnormal and Social Psychology",
+    "what": "One group of 34 people heard a person described as intelligent, industrious, impulsive, critical, stubborn and envious. A second group of 24 heard exactly the same six words in the opposite order."
+   }
+  },
+  {
+   "say": "Think about that for a second. Nothing was added or taken away. No word was changed, and no word was stressed. The two groups simply met the same facts from opposite ends. And then they were asked to describe the person in their own words, and to tick the traits they thought the person had.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "The same six words",
+    "sub": "And a different person"
+   }
+  },
+  {
+   "say": "And here's what he found. The group who heard intelligent first generally imagined an able person with a few flaws. The group who heard envious first more often imagined a troubled person, whose abilities were held back by their faults. Even the middle words changed meaning. Impulsive and critical were read in a positive light in the first order, and in a negative light in the second.",
+   "show": {
+    "type": "list",
+    "sprite": "N29",
+    "bg": "rooftop_dusk",
+    "title": "What Asch found",
+    "items": [
+     "Intelligent first: an able person with some flaws",
+     "Envious first: a troubled person, held back",
+     "Impulsive and critical sounded positive in the first order",
+     "The same words sounded negative in the reverse order"
+    ]
+   }
+  },
+  {
+   "say": "It's the middle words that tell the real story. Impulsive could mean spontaneous and lively, or it could mean reckless. Critical could mean sharp and discerning, or it could mean harsh. The word on its own is open. And the opening words in the list acted like a frame, deciding which of the two meanings the later words would get.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "street_day",
+    "cap": "Why the middle words changed",
+    "sub": "A frame"
+   }
+  },
+  {
+   "say": "That's a careful way to put it, and it's worth keeping. The first piece of information isn't only the first. It also becomes a lens. It colours the meaning of everything that arrives after it, including words that could have meant something quite different.",
+   "show": {
+    "type": "quote",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "text": "The first words did not just come first. They told the later words how to be heard.",
+    "by": "What the order did"
+   }
+  },
+  {
+   "say": "Psychologists call this a primacy effect, the idea that what comes first counts for more. In Asch's study, it showed up as a plain difference between two groups. It doesn't mean first impressions are permanent. It doesn't mean later information has no force. It means that, in this experiment, the same facts led to different people depending on which came first.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "cap": "Primacy",
+    "sub": "A very old idea"
+   }
+  },
+  {
+   "say": "There's a limit worth stating. Asch's groups heard words about an imaginary person. Real people unfold over days, weeks and years, in actions and not in lists. So we can't say that the exact same thing would happen if you worked beside a real person for a year. What the experiment gives us is a clean, simple demonstration of a mechanism, and a mechanism is not a prediction.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "cap": "An honest limit",
+    "sub": "Words about an imaginary person"
+   }
+  },
+  {
+   "say": "Here's a quiet picture of a garden path. It starts between two old stone posts, and bends gently out of sight. Walk along it, and what you meet first, at the start of the path, shapes the way you see everything that comes after. It's not a fact about the garden. It's a fact about walking.",
+   "show": {
+    "type": "photo",
+    "file": "lf46_b08_01.jpg",
+    "cap": "A path with a bend"
+   }
+  },
+  {
+   "say": "Felix thinks about the order of his day. First, the word cold, from his friend, two weeks ago. Then the glass door, the handshake, the smile. And only then, at three o'clock, a kind sentence by his desk. In Asch's terms, it's almost a perfect order effect. The cold word came first, and the kind sentence had to find a place inside a picture that was already finished.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Back to Felix",
+    "sub": "What came second"
+   }
+  },
+  {
+   "say": "He plays a little game with it. What if the order had been different? Suppose the first thing he'd heard about Mara was that she'd stood beside new hires on their first week, telling them to take their time. And suppose the word cold had come last, after he'd met her. Would the same smile at the door have looked like shyness? Would the handshake have looked like focus? He suspects so.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "A small flip",
+    "sub": "What if the order were reversed?"
+   }
+  },
+  {
+   "say": "It's only a thought experiment, and it doesn't prove anything about Mara. But it shows Felix, in a gentle way, how much of his verdict was made of order, and not of Mara. The facts were the same. The sequence was different. And the sequence did a surprising amount of the work.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "autumn_overlook",
+    "cap": "Not a trick",
+    "sub": "A thought experiment"
+   }
+  },
+  {
+   "say": "There's a quiet comfort in this, too. If order shapes impressions, then so can new information, given room. A first draft can be rewritten, and often is. It may be a slower job than forming the first draft, but it's possible, and it starts with the simple act of noticing which sentence came first.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "A comfort",
+    "sub": "Verdicts are rebuilt"
+   }
+  },
+  {
+   "say": "It's a gentle idea, and a hopeful one. First drafts matter, because they're the ones that get read first. But no draft is the last one, unless we stop editing. And editing, for a mind, mostly means letting a second or third sentence in.",
+   "show": {
+    "type": "quote",
+    "sprite": "N23",
+    "bg": "cafe_sunset",
+    "text": "A first impression is a first draft, and drafts can be rewritten.",
+    "by": "A thought for the night"
+   }
+  },
+  {
+   "say": "And that brings us to an even older idea, one that began with a rather odd problem in the military more than a century ago.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N11",
+    "bg": "rooftop_dusk",
+    "n": 17,
+    "title": "When one trait colours the rest"
+   }
+  },
+  {
+   "say": "Why might the first piece of information count for so much? Nobody knows for certain, and Asch didn't claim to. But one natural idea is that the first words set up a picture, and later words are then fitted into the picture, and not the other way round. Once a frame is built, it's easier to place a new fact inside it than to knock it down.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "living_room_day",
+    "cap": "Why the first piece is heavy",
+    "sub": "A guess about why"
+   }
+  },
+  {
+   "say": "Here's how that might look from the inside. The first words set up a picture. Later words are read in its light. Facts that fit are noticed, and facts that don't fit are quietly explained away, as exceptions, or politeness, or bad days. It's a gentle, efficient process, and it's exactly what Felix did with a kind sentence at three o'clock.",
+   "show": {
+    "type": "list",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "title": "How a frame might work",
+    "items": [
+     "The first words set up a picture",
+     "Later words are read in its light",
+     "Facts that fit are noticed",
+     "Facts that do not fit are explained away"
+    ]
+   }
+  },
+  {
+   "say": "And it works for good first impressions, too. If Felix had first heard that Mara was kind, he would have explained away her brisk handshake in the same easy way. A busy morning. A deadline. That's the honest thing to say about order effects. They aren't a trap that closes on suspicious people. They're a habit that we all share, in both directions.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "A small honesty",
+    "sub": "Both ways"
+   }
+  },
+  {
+   "say": "Take a slow breath in, and out. Felix has pulled the blanket up over his shoulders, still in his work clothes. The room is quiet, and the order of things no longer seems so serious. First, then second, then third. It's just a sequence, and he can let it run in whatever order it likes.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "cabin_fireplace",
+    "cap": "A slow breath",
+    "sub": "Easy does it"
+   }
+  }
+ ]
+}

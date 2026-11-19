@@ -1,0 +1,246 @@
+{
+ "id": "lf46_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "We've spent a long time on how impressions form. But the question that really matters, the one Felix would most like answered tonight, is whether they're right.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "n": 26,
+    "title": "Are first impressions right?"
+   }
+  },
+  {
+   "say": "It's a question with two honest halves. One half is about what we're actually judging when we look at a face. The other half is about whether those judgments hit the mark. And the research on the first half is rather beautiful, and the research on the second is rather humbling.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "The big question",
+    "sub": "Right or wrong?"
+   }
+  },
+  {
+   "say": "Let's begin with the first half. When people judge faces, what are they actually judging? There are hundreds of possible traits. Trustworthy, kind, clever, lazy, bossy, shy. You might expect impressions to be a huge, tangled mess. But in 2008, Oosterhof and Todorov found something much tidier.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "What are we judging?",
+    "sub": "A map of impressions"
+   }
+  },
+  {
+   "say": "Here's what they did. First, fifty-five students described faces in their own words, which produced about eleven hundred descriptions. These fell into fourteen kinds of trait. Then, in further studies with three hundred and twenty-seven people, faces with neutral expressions were rated on these traits, and the researchers used a statistical technique to look for the shapes underneath all those ratings.",
+   "show": {
+    "type": "study",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "who": "Oosterhof & Todorov, 2008",
+    "where": "Proceedings of the National Academy of Sciences",
+    "what": "Students first described faces freely, producing about 1,100 descriptions that fell into 14 trait categories. Then 327 people rated 66 neutral faces on traits, and a statistical analysis looked for the main dimensions."
+   }
+  },
+  {
+   "say": "And here's what came out. Two dimensions explained most of the pattern. The first, which captured about sixty-three percent of the variation, was valence, whether a face seemed friendly and trustworthy or the opposite. The second, about eighteen percent, was dominance, whether the face seemed strong and in charge. Out of hundreds of possible traits, two big axes.",
+   "show": {
+    "type": "stat",
+    "sprite": "N23",
+    "bg": "cabin_fireplace",
+    "title": "Oosterhof & Todorov, 2008",
+    "big": "63%",
+    "label": "of the variation in ratings of 66 neutral faces fell along one dimension, valence: how friendly or trustworthy a face seemed"
+   }
+  },
+  {
+   "say": "It's a very tidy picture, and it echoes something we've already met. Asch's central trait, warm or cold, looks a lot like valence. And the question of whether a face seems strong or weak looks a lot like dominance. Decades of different studies seem to be finding the same two compass directions. Is this person for me, or against me, and could they do anything about it?",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "street_day",
+    "cap": "A lovely tidy picture",
+    "sub": "Warm or cold, strong or weak"
+   }
+  },
+  {
+   "say": "The team went further. They built a computer model of faces, based on laser scans, that could vary a face along the two dimensions. They generated three hundred faces and found what changed. Faces that seemed more trustworthy had features that resembled a happy expression. Faces that seemed less trustworthy had features resembling an angry one. Faces that looked more dominant had features linked to facial maturity and masculinity.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "What features?",
+    "sub": "Anger and happiness"
+   }
+  },
+  {
+   "say": "It's an elegant idea. Even a face with a perfectly neutral expression can carry a faint, built-in resemblance to a smile or a frown, just from the shape of the cheeks, brows and mouth. And the authors suggested that our brains overgeneralise a useful skill, reading emotional signals in faces, so that it also fires on faces that are simply shaped a certain way.",
+   "show": {
+    "type": "quote",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "text": "A face that resembles a smile is trusted, and a face that resembles a frown is not.",
+    "by": "The idea in the paper"
+   }
+  },
+  {
+   "say": "It's tempting to hear that as meaning that the impressions are wrong, or that the shapes are meaningless. And that's not quite what the paper says. It says that the impressions have a pattern, and that the pattern seems to come from a system built to read emotions and strengths. Whether the people on the receiving end actually turn out to be trustworthy is another matter entirely.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "A tempting conclusion",
+    "sub": "Careful here"
+   }
+  },
+  {
+   "say": "So let's turn to the second half of the question. Do first impressions, formed from appearance, hit the mark? Here, in 2010, two researchers, Olivola and Todorov, went looking for the answer in a very large pile of real data.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "The second half",
+    "sub": "Do they hit the mark?"
+   }
+  },
+  {
+   "say": "Here's their approach. In one study, they used more than a million appearance-based judgments, collected from a popular website where people guess things about strangers from their photographs. In another, they ran an online experiment with over a thousand people. And they compared how accurate people were with how accurate they'd have been if they'd ignored the face altogether, and simply guessed the most common answer.",
+   "show": {
+    "type": "study",
+    "sprite": "N29",
+    "bg": "autumn_overlook",
+    "who": "Olivola & Todorov, 2010",
+    "where": "Journal of Experimental Social Psychology",
+    "what": "They analysed more than a million appearance-based judgments from a popular website and ran an online experiment with over a thousand people, comparing how accurate the judgments were with how accurate a simple guess based on the typical rate would have been."
+   }
+  },
+  {
+   "say": "That's a clever test. Suppose most people in a group are not, say, left-handed, or not a smoker. A person who ignores the photograph and always guesses the common answer will often be right. So the question is whether looking at the face adds anything, or whether it actually pulls people away from a safer guess.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "A fair comparison",
+    "sub": "Face versus base rate"
+   }
+  },
+  {
+   "say": "And what they found was humbling. Judges were generally less accurate than they'd have been by ignoring appearance and going with the base rate. The faces didn't help. In many cases, they made people a little worse. The authors' conclusion was that appearance gets too much weight in our judgments.",
+   "show": {
+    "type": "stat",
+    "sprite": "N18",
+    "bg": "cafe_sunset",
+    "title": "Olivola & Todorov, 2010",
+    "big": "1 million+",
+    "label": "appearance-based judgments analysed to test whether faces make guesses more accurate"
+   }
+  },
+  {
+   "say": "It's a subtle point, and it doesn't say that faces contain no information. It says that when people use faces, they lean on them too heavily, more than the face can justify. A little like using a thermometer that's slightly off to decide what to wear, and then trusting it more than the sky outside the window.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "Too much weight",
+    "sub": "A subtle point"
+   }
+  },
+  {
+   "say": "Here's a small picture to hold the idea. An old brass thermometer on a window frame, and beyond it, a soft grey sky with the first drops of rain. The thermometer says one thing, and the sky says another. Both are clues. The trouble starts only when we trust one as if the other didn't exist.",
+   "show": {
+    "type": "photo",
+    "file": "lf46_b13_01.jpg",
+    "cap": "A thermometer and a window"
+   }
+  },
+  {
+   "say": "Felix hears two things in that. The first is a small sting, because it means his verdict about Mara probably weighed her face more than it should have. The second is a relief, because it means he isn't expected to be right, only to be a little less sure. And that's a much more achievable job for a person lying in the dark.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "What Felix hears in that",
+    "sub": "Not hopeless"
+   }
+  },
+  {
+   "say": "So let's put the threads together. Impressions form in a tenth of a second, and they agree between people. They organise themselves around warmth and strength. They carry a modest signal, in some settings. And when they're taken from appearance, they're often given more weight than they deserve. Both things are true at once.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "The threads so far",
+    "sub": "Putting it together"
+   }
+  },
+  {
+   "say": "That's the balanced picture. Not worthless, not wise. Fast, shared, often a little over-trusted. A reasonable thing to begin with, and a poor thing to finish with. That's roughly where the science leaves us, and it's more comforting than it might sound.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "autumn_overlook",
+    "title": "A balanced picture",
+    "items": [
+     "Impressions form very fast",
+     "They agree between people",
+     "They carry a modest signal in some settings",
+     "They are often given too much weight",
+     "They are a place to start, not a place to finish"
+    ]
+   }
+  },
+  {
+   "say": "It's comforting because it leaves room to move. If impressions were always right, we'd have nothing to learn from slowing down. If they were always wrong, we'd have to distrust ourselves constantly. But if they're a modest signal, often over-weighted, then the sensible response is an easy one. Hold them lightly, and let the evidence come in.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "street_day",
+    "cap": "Why comforting?",
+    "sub": "Room to move"
+   }
+  },
+  {
+   "say": "It's not a rule, and it isn't a technique. It's just a posture, a small, relaxed way of standing in relation to your own first impressions. Interested, but not committed. A little like a guest at a party who has met someone interesting and is quite happy to hear the rest of the story.",
+   "show": {
+    "type": "quote",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "text": "Hold the impression lightly, and let the evidence come in.",
+    "by": "A line to keep"
+   }
+  },
+  {
+   "say": "A final caution before we move on. These are only a few studies out of a very large field, and some were done with faces on screens and ratings on forms. Real life is far richer, with voices, context, conversation and time. What the research gives us isn't a rulebook for judging people. It gives us a better picture of the instrument we're judging with.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "A caution",
+    "sub": "Only a few studies"
+   }
+  },
+  {
+   "say": "There's one more surprising piece of the story. It concerns not the judges, but the person being judged, and how many different impressions a single person can give.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "n": 27,
+    "title": "Many faces, one person"
+   }
+  },
+  {
+   "say": "Take a slow breath in, and let it go. Felix has stopped trying to work out whether he was right. It's a relief to put that question down. He lets his arms rest at his sides, and the weight of the day sinks gently into the mattress, one limb at a time.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "cabin_fireplace",
+    "cap": "A slow breath",
+    "sub": "Easy does it"
+   }
+  }
+ ]
+}

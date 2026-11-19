@@ -58,3 +58,5 @@ Done 16 Nov: lf43 What Loneliness Does to Your Brain (F10 myth vs science with i
 Done 17 Nov: lf44 Why Embarrassing Memories Come Back at Night (F02 sleep marathon with imagined Ivy, 11 story blocks + 9 wind-down, 20 blocks, ~25.9k spoken words, Shorts sh44_03,05-11; Claude failover writer). Next: lf45 Why You Remember Faces but Forget Names (teased at the end of lf44). Keep >= 2 reserve long videos.
 
 Done 18 Nov: lf45 Why You Remember Faces but Forget Names (F01 deep dive with imagined Marta after a street party, 14 story blocks + 6 wind-down, 20 blocks, ~24.1k spoken words, est 129 min by est.py, Shorts sh45_02,04,05,07,08,10-13; Claude failover writer). Next: lf46 Why First Impressions Form in Seconds (teased at the end of lf45). Keep >= 2 reserve long videos.
+
+Done 19 Nov: lf46 Why First Impressions Form in Seconds (F10 myth vs science with imagined Felix after his first day at a new job, 14 story blocks + 6 wind-down, 20 blocks, ~24.1k spoken words, est 129.9 min by est.py, Shorts sh46_02-14, 20 #ai photos; Claude failover writer). Next: lf47 Why Your Brain Loves a Good Story (teased at the end of lf46). Keep >= 2 reserve long videos.

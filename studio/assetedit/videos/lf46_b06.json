@@ -1,0 +1,250 @@
+{
+ "id": "lf46_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "One study can always be a fluke. So it's worth asking what happens when someone gathers up many of them and looks at the whole pile.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N19",
+    "bg": "street_day",
+    "n": 11,
+    "title": "Thirty-eight studies"
+   }
+  },
+  {
+   "say": "Scientists have a name for that gathering, a meta-analysis. It's a way of combining the results of many separate studies into one overall answer. It's a bit like asking not one neighbour what the weather was like last Tuesday, but fifty, and then taking the average. The answer is much less likely to be thrown off by one odd result.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "living_room_day",
+    "cap": "A pile of studies",
+    "sub": "Looking at the whole picture"
+   }
+  },
+  {
+   "say": "Nalini Ambady and Robert Rosenthal, the same pair who studied the teachers, did exactly that. In a paper published in 1992, in the journal Psychological Bulletin, they collected studies in which people had judged someone from a very short sample of behaviour, and then checked those judgments against something real that happened later or elsewhere.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "The same two psychologists",
+    "sub": "Ambady and Rosenthal again"
+   }
+  },
+  {
+   "say": "Here's what they pooled. Thirty-eight studies, in which the behaviour people saw lasted less than five minutes. The judgments covered all kinds of things, and each was checked against an outside measure. They then asked two simple questions. How strongly do the quick judgments predict the outside measure, and does a longer sample do any better than a shorter one?",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "rooftop_dusk",
+    "who": "Ambady & Rosenthal, 1992",
+    "where": "Psychological Bulletin",
+    "what": "A meta-analysis of 38 studies in which people made judgments from brief samples of behaviour lasting under five minutes, which were then compared with outside measures such as ratings, outcomes and later consequences."
+   }
+  },
+  {
+   "say": "The answer to the first question was a moderate one. The average relationship was about point three nine. That's not perfect, and it's nowhere near certainty, but it's clearly above zero, and it held up across many different studies. A thin slice, on average, carries a real but modest signal.",
+   "show": {
+    "type": "stat",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "title": "Ambady & Rosenthal, 1992",
+    "big": "r = .39",
+    "label": "the average relationship between judgments from thin slices and the outside measures, across 38 studies"
+   }
+  },
+  {
+   "say": "The answer to the second question was the surprising one. Judgments based on less than thirty seconds of behaviour did not differ significantly from judgments based on four or five minutes. Within the range of studies they looked at, a longer sample wasn't doing noticeably better than a very short one, which is an odd thing to learn.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "cap": "And does longer help?",
+    "sub": "Surprisingly little"
+   }
+  },
+  {
+   "say": "A cautious word is needed, though. Later researchers pointed out that comparing short and long slices across different studies isn't the same as comparing them within one study, because the studies differ in many other ways. So the finding is best read as an intriguing hint, and not as a settled rule. More time may well help in real life. It simply didn't show up clearly in this pile of studies.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "A caution about that",
+    "sub": "Comparing across studies"
+   }
+  },
+  {
+   "say": "That's an honest summary. Not magic, and not nothing. A modest signal that doesn't seem to grow quickly with more of the same kind of footage. And the signal is likely to be strongest in the things that people really do show quickly, like how warm or how confident they seem to be.",
+   "show": {
+    "type": "quote",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "text": "A thin slice is modestly predictive, and a long one is not always better.",
+    "by": "The honest summary"
+   }
+  },
+  {
+   "say": "Now let's take one of the strangest thin-slice studies of all, because it doesn't use faces. It uses only a tone of voice.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N18",
+    "bg": "rooftop_dusk",
+    "n": 12,
+    "title": "The sound of a doctor"
+   }
+  },
+  {
+   "say": "In 2002, a team led by Nalini Ambady, with Rosenthal and several colleagues, published a paper in the journal Surgery. The setting was a hospital. The question was whether a few seconds of how a surgeon speaks could say anything about whether patients had ever filed a complaint, known as a malpractice claim, against them.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "A surprising setting",
+    "sub": "Surgeons"
+   }
+  },
+  {
+   "say": "Here's how it worked. Surgeons were recorded during ordinary office visits with their patients. From each surgeon, the team cut two clips of ten seconds, one from near the start of a visit and one from near the end, from two different patients. Then they did something clever. They filtered the sound so that the words became unintelligible, and only the music of the voice remained.",
+   "show": {
+    "type": "study",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "who": "Ambady et al., 2002",
+    "where": "Surgery journal",
+    "what": "Surgeons were audiotaped in routine office visits. From each, two 10-second clips were taken, one from the first and one from the last minute of the visit with two different patients. Words were filtered so only the tone of voice remained."
+   }
+  },
+  {
+   "say": "Imagine listening to someone speaking through a thick wall. You can't tell what they're saying, but you can hear the rhythm, the pitch, the warmth or the sharpness. That's what the raters had. And they were blind to which surgeons had a history of claims. They simply rated how warm, how hostile, how dominant and how anxious each voice sounded.",
+   "show": {
+    "type": "char",
+    "sprite": "N11",
+    "bg": "cabin_fireplace",
+    "cap": "What the raters heard",
+    "sub": "Only the tone"
+   }
+  },
+  {
+   "say": "And here's what came out. Surgeons with a history of claims were more likely to sound dominant, and the odds were about two and three quarters times higher, even after taking the content of what was said into account. They were also less likely to sound concerned or anxious, though that link was weaker, and the numbers leave a good deal of room for chance.",
+   "show": {
+    "type": "list",
+    "sprite": "N02",
+    "bg": "autumn_overlook",
+    "title": "What stood out",
+    "items": [
+     "Voices rated as more dominant went with prior claims",
+     "Voices rated as less concerned also tended to",
+     "The effect for dominance was clearer",
+     "The words themselves were removed"
+    ]
+   }
+  },
+  {
+   "say": "It would be easy to over-read this. The study doesn't say a dominant voice makes a bad surgeon, and it doesn't tell patients whom to trust. It's one study, of a particular group, and it found an association. But it's a striking reminder that the way something is said can carry information that the words alone don't, and that a few seconds of tone can be enough for a stranger to pick up on it.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "street_day",
+    "cap": "Why it matters",
+    "sub": "Tone carries something"
+   }
+  },
+  {
+   "say": "Here's a quiet picture for the thought. A closed wooden door in a long, soft-lit hallway, with a little warm light beneath it. You can't hear what's being said inside, and yet, even through a door, a voice has a shape, a pace and a warmth, and you can tell a good deal about the mood of the room.",
+   "show": {
+    "type": "photo",
+    "file": "lf46_b06_01.jpg",
+    "cap": "A voice through a wall"
+   }
+  },
+  {
+   "say": "Felix thinks about Mara's voice in the lobby. It was brisk, he remembers. Clear, quick, not especially warm. He'd taken that as coldness. But brisk isn't the same as cold, and he knows that. Plenty of kind people speak quickly when they're busy, and plenty of warm people can sound brisk on a Monday. The tone was a slice, and he'd read it as the whole loaf.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "living_room_day",
+    "cap": "Back to Felix",
+    "sub": "Mara's voice"
+   }
+  },
+  {
+   "say": "It's a thought worth holding gently. Tone is real information, but it's information about a moment, and not always about a person. A person speaking in a hurry, in a busy room, with someone new in front of them, may sound quite different from the person they are on a quiet afternoon. And that is, perhaps, the biggest gap in any thin slice.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "A thought",
+    "sub": "The tone and the person"
+   }
+  },
+  {
+   "say": "It's a simple distinction, and a hard one to hold in the middle of a first meeting. A slice of a person is a slice of a moment, and the moment is full of everything else that is going on in that person's day. The signal is real. It's just wearing a lot of costumes.",
+   "show": {
+    "type": "quote",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "text": "A slice tells you about a moment. It may or may not tell you about a person.",
+    "by": "A thought for the night"
+   }
+  },
+  {
+   "say": "And now we turn to a famous experiment about the power of a single word, which began in the 1940s.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N27",
+    "bg": "cafe_sunset",
+    "n": 13,
+    "title": "Two words that change everything"
+   }
+  },
+  {
+   "say": "Here's why the surgeon study stays in the memory. Nobody expects a doctor's malpractice history to be hiding in the sound of a voice. And the researchers didn't claim it was a perfect indicator. They offered it as a modest clue, one that might, perhaps, be useful in training, to help doctors notice how they sound to the people in front of them.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "Why the surgeons matter",
+    "sub": "A small, odd study"
+   }
+  },
+  {
+   "say": "Think of what a thin slice can carry. Warmth or coldness. Confidence or doubt. Dominance. Concern, or distance. And above all, the mood of a particular moment. These are the things that show quickly, because they're the things we can't help showing. What a thin slice can't carry is the whole of a person, with all their history and all their reasons.",
+   "show": {
+    "type": "list",
+    "sprite": "N23",
+    "bg": "cabin_fireplace",
+    "title": "What thin slices can carry",
+    "items": [
+     "Warmth or coldness",
+     "Confidence or doubt",
+     "Dominance",
+     "Concern or distance",
+     "The mood of a moment"
+    ]
+   }
+  },
+  {
+   "say": "Felix, thinking of the research, wonders what his own voice gave away this morning. Probably, he decides, that he was nervous, and keen, and hoping to be liked. Which was all perfectly true. And if a stranger had picked that up from a few seconds of tone, it would have been a fair, and rather sympathetic, reading of a man on his first day.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "A kinder reading again",
+    "sub": "What Felix gave away"
+   }
+  },
+  {
+   "say": "Take a slow breath in. Let it go. Felix closes his eyes for a moment, and listens to the building. A distant hum from a fridge. A neighbour's footsteps, slow and even. The little sounds of a house that is settling, each with a tone and a rhythm and no words at all.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "autumn_overlook",
+    "cap": "A slow breath",
+    "sub": "Easy does it"
+   }
+  }
+ ]
+}

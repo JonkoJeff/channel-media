@@ -1,0 +1,136 @@
+{
+ "id": "lf47_b25",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You leave the hammock slowly, and walk down through the soft grass to the bottom of the meadow. There, the old orchard begins. Rows of gnarled apple trees, their branches covered in white and pale pink blossom, glowing faintly under the stars. The air is sweet and soft. Now and then, a single petal drifts down through the dark and settles in the grass.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "n": 25,
+    "title": "An orchard in blossom"
+   }
+  },
+  {
+   "say": "Between the trees, there's a small canvas tent, its door rolled open, a lantern glowing warmly inside. You duck in, and find it full of soft things. A thick mattress, plump pillows, a deep quilt. The canvas walls glow gold in the lantern light. You lie down, and pull the quilt up to your chin, and look out through the open door at the blossom.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "A lantern-lit tent",
+    "sub": "Waiting among the trees"
+   }
+  },
+  {
+   "say": "Watch the petals falling outside the tent. One at a time, drifting slowly, turning a little in the air, catching the lantern light for a moment, then settling softly on the grass. They make no sound at all. They're in no hurry. Each one falls in its own time, and lands exactly where it lands.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "Falling petals",
+    "sub": "Slow and silent"
+   }
+  },
+  {
+   "say": "Breathe in slowly, and notice the scent of the blossom. Soft and sweet and faint, like the memory of spring. Breathe it all the way in. And then breathe out, long and slow, letting it go. Again. In, with the sweetness of the orchard. Out, with the last of the day.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "The scent of blossom",
+    "sub": "Breathing it in"
+   }
+  },
+  {
+   "say": "The lantern hangs from the tent pole above you, its flame small and steady behind the glass. It sways a tiny bit when the breeze touches the tent, and its warm light moves softly across the canvas walls. Let your eyes rest on it for a moment, or let them close, and simply feel its warmth.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "The lantern",
+    "sub": "A small warm glow"
+   }
+  },
+  {
+   "say": "Outside, the orchard is still and silver and white. The old trees have stood here for many years, through many springs, blossoming every year without being asked. Tonight, they're simply resting, and letting their petals fall, and keeping you company in the quiet dark.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b25_01.jpg",
+    "cap": "Blossom under the stars"
+   }
+  },
+  {
+   "say": "Let your body become as soft as the quilt that covers it. Your feet, warm and heavy. Your legs, sinking into the mattress. Your arms, resting at your sides. Your shoulders, low and loose. Let every part of you be soft, and still, and comfortable.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Your body",
+    "sub": "Soft as the quilt"
+   }
+  },
+  {
+   "say": "Each petal falls in its own time, and so does sleep. You can't hurry it, and you don't need to. It drifts down softly, on its own, when it's ready. All you need to do is lie here, warm and still, and let it come.",
+   "show": {
+    "type": "quote",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "text": "Each petal falls in its own time. So does sleep.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "Listen to the orchard. A soft breeze moves through the branches, so gently that it's more a whisper than a sound. Somewhere far away, an owl calls, low and soft. Then silence. Then the breeze again. The night is full of quiet, kind sounds.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Sounds of the orchard",
+    "sub": "A soft breeze"
+   }
+  },
+  {
+   "say": "If a thought comes, let it be like a petal. Let it drift down slowly through your mind, turning gently, and settle softly somewhere far away. You don't need to catch it. You don't need to follow it. Let it land, and lie still, and be forgotten.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "Thoughts like petals",
+    "sub": "Drifting down"
+   }
+  },
+  {
+   "say": "With every breath out, sink a little deeper into the mattress, into the quilt, into the quiet. Deeper into rest. Further from the day. Closer to sleep. Slowly, slowly, like a petal drifting down.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "cap": "Deeper",
+    "sub": "Into the quiet"
+   }
+  },
+  {
+   "say": "Think of the old apple trees around you, standing quietly in their rows. Every year, they rest through the winter, and blossom in the spring, and bear their fruit in the autumn, and rest again. They never hurry. They simply follow the seasons, patiently. Tonight, you can be patient too, and simply rest.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "The old trees",
+    "sub": "Patient and kind"
+   }
+  },
+  {
+   "say": "Later, beyond the orchard, a path leads to an old stone courtyard, where a small fountain plays softly in the moonlight. We'll go there when you're ready. But for now, stay here, in your glowing tent among the blossom, warm and safe, and simply rest.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "A courtyard ahead",
+    "sub": "A fountain in the moonlight"
+   }
+  }
+ ]
+}

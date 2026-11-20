@@ -1,0 +1,156 @@
+{
+ "id": "lf47_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You leave the greenhouse slowly, and follow the path down through the wet, soft grass. The rain has stopped now. The clouds are thinning, and a pale moon is beginning to show between them. At the bottom of the path, a lake lies perfectly still, like a sheet of dark glass. And at the edge of the water, tied to a little wooden jetty, a small rowing boat is waiting.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "n": 17,
+    "title": "A boat on a still lake"
+   }
+  },
+  {
+   "say": "You step carefully down into the boat. It rocks a little beneath you, gently, side to side, and then settles. Inside, there are soft cushions and a thick wool blanket, as if someone had prepared it just for you. You lie back against the cushions and pull the blanket over your legs. The wood of the boat is smooth and solid beneath you.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Stepping in",
+    "sub": "The boat rocks gently"
+   }
+  },
+  {
+   "say": "The rope slips loose from the jetty, all by itself, and the boat begins to drift slowly out onto the lake. There are no oars to pull. No direction to choose. The boat simply moves, very slowly, across the still water, carried by the faintest breath of air. You don't need to steer. You can't get lost here. The lake holds you safely.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Drifting out",
+    "sub": "No oars needed"
+   }
+  },
+  {
+   "say": "Above you, the moon has come out fully now, round and calm. Its light lies across the water in a long, shimmering path of silver, stretching from the far shore almost to the side of your boat. Each tiny ripple catches the light for a moment, and lets it go. Silver, and dark. Silver, and dark. Slow and endless.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "The moon on the water",
+    "sub": "A path of silver"
+   }
+  },
+  {
+   "say": "Listen to the night around the lake. The soft lap of water against the side of the boat. A faint rustle of reeds along the shore. Somewhere far off, an owl calls once, and then falls silent. All the sounds are soft and far away, as if the whole world has lowered its voice, so as not to disturb you.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "The sounds of the night",
+    "sub": "Soft and far away"
+   }
+  },
+  {
+   "say": "Notice your breath, rising and falling, like the gentle rocking of the boat. In, and the boat lifts a little. Out, and it settles. In, and out. There's no need to make it happen. The water does it for you. Your breath does it for you. You are simply lying here, being rocked, slowly and softly, in the dark.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Your breath and the water",
+    "sub": "Rising and falling"
+   }
+  },
+  {
+   "say": "The shore drifts further away. The trees along it are only dark shapes now, soft against the sky. Here, in the middle of the lake, there is only water, moonlight and quiet. And you, lying warm beneath your blanket, with nowhere at all to be.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b17_01.jpg",
+    "cap": "Moonlight on still water"
+   }
+  },
+  {
+   "say": "Let your body grow heavier, as though it's sinking softly into the cushions. Your legs are heavy beneath the blanket. Your arms rest at your sides. Your head rests easily. The boat holds you. The water holds the boat. Everything is held, and nothing needs to be held up by you.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "Heavy and warm",
+    "sub": "Held by the water"
+   }
+  },
+  {
+   "say": "The water holds the boat. The boat holds you. You don't need to hold anything at all. Not your thoughts. Not your plans. Not your worries. All of it can be set down, here, in the bottom of the boat, and left to rest.",
+   "show": {
+    "type": "quote",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "text": "The water holds the boat. The boat holds you. You don't need to hold anything.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "As the last of the clouds drift away, the stars begin to appear. One, and then another, and then many more, until the whole sky is scattered with them. Some bright, some so faint you're not sure they're there at all. And on the still lake, their reflections appear too, so that it seems the boat is floating between two skies.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "Stars appearing",
+    "sub": "One by one"
+   }
+  },
+  {
+   "say": "Floating between two skies. Stars above you, and stars below. The boat drifting slowly, so slowly you can hardly tell it's moving. There's a deep peace in this. No beginning, no end, no story to follow. Just the moment, the stars and your slow breath.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Between two skies",
+    "sub": "Floating in the quiet"
+   }
+  },
+  {
+   "say": "If a thought comes, let it float past, like a leaf on the surface of the lake. You can watch it drift by, slowly, turning a little in the moonlight. You don't need to reach out for it. Let it float on, and away, toward the far shore, until it's gone. And then it's just the water again, and the quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "A thought, drifting",
+    "sub": "Like a leaf on the water"
+   }
+  },
+  {
+   "say": "With every breath out, let yourself drift a little further into rest. Further from the day. Further from the busy world. Deeper into the quiet of the lake, the quiet of the night, the quiet inside you. There's nothing you need to stay awake for. You can let yourself go, as far as you'd like.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "Deeper rest",
+    "sub": "Further and further"
+   }
+  },
+  {
+   "say": "Breathe in, slowly, and notice the smell of the bookshop. Old paper, worn leather, polished wood, a hint of woodsmoke from the fire. It's a comforting smell, like a grandparent's study, or a library on a rainy afternoon. Breathe it in, all the way. And let it out slowly, with a long, soft sigh.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "The smell of old books",
+    "sub": "Paper and wood"
+   }
+  },
+  {
+   "say": "After a long, slow while, the boat turns a little, all on its own, and begins drifting toward the far shore. There, among the trees, you can just make out a small warm light. A window, perhaps, in an old building at the water's edge. There's no hurry to get there. The boat will take as long as it takes. For now, simply rest, and float, and breathe.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "bedroom_night",
+    "cap": "The boat turns slowly",
+    "sub": "Toward a distant light"
+   }
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "id": "lf47_b26",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The path from the orchard leads through an old stone archway, and into a quiet courtyard. It's a square of smooth, pale flagstones, surrounded on all sides by a covered walkway with stone arches. In the middle, a small fountain plays softly, its water rising in a little silver column and falling back into a round stone basin. The moon is high above, and the whole courtyard is washed in its gentle light.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "n": 26,
+    "title": "A courtyard with a fountain"
+   }
+  },
+  {
+   "say": "Under one of the arches, there's a wide stone bench, covered with thick cushions and a soft blanket. You lie down on it, and draw the blanket over yourself. The stone beneath the cushions is solid and still. From here, you can see the fountain, the moonlit flagstones and the square of sky above the courtyard, full of stars.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Under the arches",
+    "sub": "A cushioned bench"
+   }
+  },
+  {
+   "say": "Listen to the fountain. A soft, steady splashing, endless and gentle. The water rises, and falls, and rises again. It's a sound that seems to wash everything else away. Every worry, every thought, every leftover piece of the day, softened and carried off by the quiet music of the water.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "The sound of the fountain",
+    "sub": "Soft and endless"
+   }
+  },
+  {
+   "say": "Let your breath follow the fountain. As the water rises, breathe in, slowly. As it falls, breathe out, slowly. Rising, and falling. In, and out. There's nothing to do but breathe, and listen, and rest.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "Breathing with the water",
+    "sub": "Rising and falling"
+   }
+  },
+  {
+   "say": "The moonlight lies softly across the flagstones, pale and silver. The shadows of the arches stretch across the courtyard in long, gentle shapes. Nothing moves except the water in the fountain. Everything else is perfectly still, as if the whole courtyard is holding its breath, so as not to wake you.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Moonlight on stone",
+    "sub": "Pale and still"
+   }
+  },
+  {
+   "say": "People have built quiet courtyards like this one for a very long time. Places to sit and rest, away from the noise of the world. Places where the only sound is water, and the only light comes from the sky. Tonight, this one is yours.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b26_01.jpg",
+    "cap": "A fountain in the moonlight"
+   }
+  },
+  {
+   "say": "Let your body become as heavy and still as the old stones of the courtyard. Your legs. Your arms. Your back. Your head. Resting, unmoving, at peace. These stones have rested here for hundreds of years. You can rest here for the whole night.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "cap": "Heavy and still",
+    "sub": "Like the old stones"
+   }
+  },
+  {
+   "say": "The water rises and falls, rises and falls. It does all the moving tonight, so that you don't need to move at all. You can lie perfectly still, and let the fountain do the work of the night, softly, endlessly.",
+   "show": {
+    "type": "quote",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "text": "The water rises and falls. You don't need to do either.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "If a thought appears, let it fall into the fountain's basin, like a drop of water. It joins the rest, and is carried round, and softened, and becomes just part of the gentle sound. Nothing to hold on to. Nothing to solve. Just water, falling into water.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "bedroom_night",
+    "cap": "A thought, washed away",
+    "sub": "Into the basin"
+   }
+  },
+  {
+   "say": "Above the courtyard, the stars are framed by the four stone roofs, a small square of the night sky. They glimmer softly, far away. A very slow cloud drifts across them, and then passes. And the stars are there again, steady and patient, watching over the quiet courtyard.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "The stars above",
+    "sub": "Framed by the courtyard"
+   }
+  },
+  {
+   "say": "You're drifting further away now. The sound of the fountain feels softer, more distant. The bench feels softer too. Your thoughts have almost stopped. There's only a warm, heavy, peaceful feeling, and the faint music of water somewhere nearby.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Drifting",
+    "sub": "Further away"
+   }
+  },
+  {
+   "say": "Feel the solid stone of the bench beneath the soft cushions. Firm and steady, holding you up. It doesn't shift or wobble. It's been here for centuries, and it'll be here for centuries more. You can lean all of your weight on it, and it won't mind at all.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "Cool stone, warm cushions",
+    "sub": "Held from below"
+   }
+  },
+  {
+   "say": "Beyond the far archway of the courtyard, there's a small cottage, with a deep window seat looking out over the hills, where a soft snow is just beginning to fall. It's the last quiet place we'll visit tonight. We'll go there in a little while. For now, rest here, under the arches, beside the gentle fountain.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "A window, a cottage",
+    "sub": "Snow beginning to fall"
+   }
+  }
+ ]
+}

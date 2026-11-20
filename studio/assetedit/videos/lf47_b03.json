@@ -1,0 +1,183 @@
+{
+ "id": "lf47_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's go back a little earlier in Hana's evening. At about eight o'clock, she was standing in her kitchen and realized she had opened the fridge for no reason she could name. She closed it. Then, almost at once, a little explanation appeared in her mind. I must be hungry. Or, I was checking the milk. She wasn't sure which. But an explanation arrived anyway, as if her mind couldn't leave the moment unexplained.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "n": 3,
+    "title": "The interpreter"
+   }
+  },
+  {
+   "say": "That little habit, of producing an explanation even when we don't really know the reason, turns out to be something researchers have studied in a very unusual group of people. And what they found suggests that one of the brain's jobs is to keep telling us a story about ourselves.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Explanations on demand",
+    "sub": "Even when we don't know"
+   }
+  },
+  {
+   "say": "Here's the background. The human brain has two hemispheres, a left and a right, joined by a thick bundle of nerve fibers called the corpus callosum. It's a bridge that lets the two sides share information. In the mid twentieth century, a small number of people with severe epilepsy had this bridge surgically cut, to stop seizures spreading from one side of the brain to the other.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "autumn_overlook",
+    "cap": "Two halves",
+    "sub": "Joined by a bridge"
+   }
+  },
+  {
+   "say": "For many of these patients, the operation helped, and in everyday life they seemed remarkably ordinary. They could talk, work, joke and remember. But in carefully designed laboratory tests, researchers could show information to just one hemisphere at a time, and then something extraordinary became visible.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "cafe_sunset",
+    "cap": "Split-brain patients",
+    "sub": "Everyday life went on"
+   }
+  },
+  {
+   "say": "The psychologist Michael Gazzaniga and his colleague Joseph LeDoux described one of the best-known examples in their 1978 book, The Integrated Mind. A patient, known as P.S., was shown two pictures at once, one to each hemisphere. His left hemisphere saw a chicken's claw. His right hemisphere saw a snowy winter scene.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "who": "Gazzaniga & LeDoux, 1978",
+    "where": "split-brain research, USA",
+    "what": "A patient's two hemispheres were each shown a different picture. Each hand chose a matching card. Asked why, the speaking left hemisphere invented a confident explanation for the choice made by the right."
+   }
+  },
+  {
+   "say": "Then he was shown a set of picture cards and asked to point to ones that went with what he had seen. With his right hand, controlled by the left hemisphere, he pointed to a chicken. With his left hand, controlled by the right hemisphere, he pointed to a snow shovel. Both choices made sense. The chicken matched the claw. The shovel matched the snow.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "Two hands choose",
+    "sub": "A chicken and a shovel"
+   }
+  },
+  {
+   "say": "But here's the key detail. In most people, language is mainly handled by the left hemisphere. So when the patient was asked why he had chosen those two cards, it was his left hemisphere that answered. And his left hemisphere had seen the chicken claw. It had never seen the snow.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "The key detail",
+    "sub": "Only one side can speak"
+   }
+  },
+  {
+   "say": "His answer, as Gazzaniga reported it, was immediate and confident. The chicken claw goes with the chicken, and you need a shovel to clean out the chicken shed. There was no hesitation. No sense of confusion. The speaking side of his brain didn't know why the left hand had chosen the shovel, so it simply built a story that made the choice make sense.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cafe_sunset",
+    "text": "Oh, that's simple. The chicken claw goes with the chicken, and you need a shovel to clean out the chicken shed.",
+    "by": "patient P.S., as reported by Gazzaniga & LeDoux, 1978"
+   }
+  },
+  {
+   "say": "Gazzaniga came to call this the interpreter. A system, mainly in the left hemisphere, that seems to take whatever we do, feel and notice, and weave it into a sensible account. It's not lying, exactly. It genuinely believes its story. It just works with whatever information it has, and when there are gaps, it fills them.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "The interpreter",
+    "sub": "A storyteller in the brain"
+   }
+  },
+  {
+   "say": "And Gazzaniga's view was that this isn't something special to split-brain patients. In them, it's simply easier to see, because the two sides can't check each other. In everyone, he suggested, the interpreter is busy all day, smoothing our actions and feelings into one continuous story about who we are and why we do what we do.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b03_01.jpg",
+    "cap": "Weaving a story from pieces"
+   }
+  },
+  {
+   "say": "There's related evidence from people with no brain surgery at all. In 1977, the psychologists Richard Nisbett and Timothy Wilson published a famous review called Telling more than we can know. They gathered studies where people's choices had been influenced by something they didn't notice, and then asked them why they had chosen as they did.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Not only in the lab",
+    "sub": "Telling more than we can know"
+   }
+  },
+  {
+   "say": "In one of the best-known examples, people in a shop were asked to judge four pairs of stockings laid out in a row, and to say which was the best quality. In fact, all four pairs were identical. People tended to choose the pair on the right. But when asked why, nobody said it was because of the position. They talked about the knit, the sheerness, the feel. Good, sensible reasons, that weren't the real reason.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "who": "Nisbett & Wilson, 1977",
+    "where": "University of Michigan, USA",
+    "what": "Shoppers judged four identical pairs of stockings laid out in a row and tended to prefer the ones on the right. Asked why, they named the quality of the stockings, not their position."
+   }
+  },
+  {
+   "say": "When the researchers asked directly whether the position might have mattered, almost everyone said no, often looking at the interviewer as though they'd asked a strange question. The story they had told themselves felt complete. And that is exactly what a good interpreter does. It makes the story feel complete.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "street_day",
+    "cap": "And when asked directly",
+    "sub": "Almost no one agreed"
+   }
+  },
+  {
+   "say": "So here's what the interpreter teaches us. Our explanations of ourselves often arrive quickly. They tend to feel certain. When information is missing, they fill the gaps with plausible guesses. And together, they make life feel like one continuous, sensible story.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "title": "What the interpreter teaches us",
+    "items": [
+     "Explanations arrive quickly",
+     "They feel certain",
+     "They fill gaps with guesses",
+     "They make life feel continuous"
+    ]
+   }
+  },
+  {
+   "say": "None of this means our explanations are always wrong. Often they're right. Hana probably was a little hungry. But it does mean we can hold our stories about ourselves a little more lightly. When she notices herself explaining the fridge, she might smile and think, there goes my storyteller again.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Hana and the fridge",
+    "sub": "A gentle smile"
+   }
+  },
+  {
+   "say": "And there's something kind about that. If our mind is always building stories, then some of the harsh stories we tell about ourselves late at night, I always fail, I never get it right, are stories too. Not facts. Stories. Which means they can be questioned, and sometimes rewritten.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "autumn_overlook",
+    "cap": "Why this helps",
+    "sub": "Kindness toward ourselves"
+   }
+  },
+  {
+   "say": "So the brain sees stories in shapes, and it tells stories about itself. Now let's look at what stories do for memory. Because there's a simple experiment from 1969 that suggests why Hana remembers every part of Ruben's dog, and almost nothing from thirty slides.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "What comes next",
+    "sub": "Stories and memory"
+   }
+  }
+ ]
+}

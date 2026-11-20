@@ -1,0 +1,164 @@
+{
+ "id": "lf47_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "People have been trying to describe the shape of stories for a very long time. In 1863, the German writer Gustav Freytag drew the structure of a classic five-act drama as a kind of pyramid. A rising action, climbing toward a climax at the top, and then a falling action, down to the ending. Generations of students have since drawn that pyramid in their notebooks.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "n": 11,
+    "title": "The shapes of stories"
+   }
+  },
+  {
+   "say": "About a century later, the American novelist Kurt Vonnegut liked to talk about the shapes of stories in a more playful way. In talks and essays, he would take a piece of chalk and draw a simple graph. Along the bottom, time, from the beginning of the story to the end. Up the side, good fortune and ill fortune. And then he would draw the line a story makes as its hero's luck rises and falls.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A novelist's chalkboard",
+    "sub": "Ups and downs"
+   }
+  },
+  {
+   "say": "One of his favorite shapes he called man in a hole. Somebody gets into trouble, and then gets out of it again, ending up a little better off than before. The line dips down and climbs back up. Vonnegut pointed out that people never seem to tire of this shape. Ruben's dog story, in its own small way, is a man in a hole. Things go wrong in the park, get worse in the garden center, and then end happily with a boy calling a name.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "autumn_overlook",
+    "cap": "Man in a hole",
+    "sub": "Down, then up"
+   }
+  },
+  {
+   "say": "Another shape he loved was Cinderella. Things start badly, then rise suddenly, with the fairy godmother and the ball. Then, at midnight, everything crashes down. And then, with the slipper, the line soars upward, higher than ever. Vonnegut joked that people treasure that shape, and he suggested that stories of this kind turn up again and again.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "cafe_sunset",
+    "cap": "Cinderella",
+    "sub": "Up, down, and up again"
+   }
+  },
+  {
+   "say": "For a long time, these shapes were the stuff of writing workshops, interesting ideas but not something anyone had tested. Then, in the 2010s, researchers began to have a new tool. Computers that could read huge numbers of books and estimate, line by line, whether the language was happier or sadder.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Just an idea?",
+    "sub": "Or something real"
+   }
+  },
+  {
+   "say": "In 2016, a team at the University of Vermont, led by Andrew Reagan, published a study in the journal EPJ Data Science. They took more than a thousand works of fiction from Project Gutenberg, a free online library of older books. Then they used a computer to move through each book in small windows of text, scoring how positive or negative the words were, and drawing a line of feeling from beginning to end.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "who": "Reagan et al., 2016",
+    "where": "University of Vermont, USA",
+    "what": "Researchers used computer analysis to track happy and sad language through more than a thousand works of fiction. Most of the emotional arcs could be described by six basic shapes."
+   }
+  },
+  {
+   "say": "And they found that most of the emotional arcs could be described by just six basic shapes. A steady rise, which they called rags to riches. A steady fall, riches to rags. A fall and then a rise, man in a hole. A rise and then a fall, which they called Icarus. A rise, a fall and a rise, Cinderella. And a fall, a rise, and a fall again, which they named Oedipus.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "title": "Six basic shapes",
+    "items": [
+     "Rags to riches: a steady rise",
+     "Riches to rags: a steady fall",
+     "Man in a hole: fall, then rise",
+     "Icarus: rise, then fall",
+     "Cinderella: rise, fall, rise",
+     "Oedipus: fall, rise, fall"
+    ]
+   }
+  },
+  {
+   "say": "Of course, individual books are far richer than any line on a graph. A computer counting happy and sad words misses irony, nuance and the quiet meanings between the lines. But the finding is still lovely. Out of all the variety of human storytelling, a few simple shapes keep appearing.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cafe_sunset",
+    "text": "Thousands of different stories. A handful of shapes.",
+    "by": "on Reagan et al., 2016"
+   }
+  },
+  {
+   "say": "Why might that be? One idea is that these shapes mirror the way we experience our own lives. Things go well, then badly, then well again. We get into holes and climb out of them. Our feelings rise and fall. A story shaped like that may feel familiar, almost like a map of something we already know from the inside.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b11_01.jpg",
+    "cap": "Hills and valleys"
+   }
+  },
+  {
+   "say": "And notice something important about these shapes. Almost all of them have a dip somewhere. A moment where things get worse. A story where everything simply goes well from start to finish is often a dull story. It's the trouble, the hole, the midnight in Cinderella, that gives the rise its meaning. Without the dip, there's nothing to climb out of.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "Tension and release",
+    "sub": "Why the dip matters"
+   }
+  },
+  {
+   "say": "Hana thinks about this in terms of her own job. A good day at work, she realizes, is never just a day where nothing goes wrong. It's a day where something goes wrong, a van breaks down, a road is closed, and she finds a way around it. Those are the days she tells people about. Those are the days with a shape.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Hana's work again",
+    "sub": "Even route plans have shapes"
+   }
+  },
+  {
+   "say": "Some researchers have suggested that this is part of why we love stories with trouble in them. A story lets us feel danger, loss and fear from a safe distance, and then feel the relief of things turning out all right. It's a little like rehearsing hard times, in a place where nothing truly bad can happen to us.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "Why we like the dip",
+    "sub": "Practice for trouble"
+   }
+  },
+  {
+   "say": "It's worth remembering that these shapes are patterns, not rules. Many great stories don't fit them neatly, and some deliberately break them. And the computer method has its critics, who point out how much a simple word count can miss. But as a rough map of how stories move, the six shapes are a useful idea.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "autumn_overlook",
+    "cap": "A careful note",
+    "sub": "Patterns, not rules"
+   }
+  },
+  {
+   "say": "Here's a gentle thought to hold. If you were to draw the line of your own day today, what shape would it be? Perhaps a small man in a hole, a morning that went wrong and an afternoon that came right. Perhaps something quieter, an almost flat line with one or two small bumps. Either way, it would be a story. Your story.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "street_day",
+    "cap": "Your own story",
+    "sub": "Which shape is it?"
+   }
+  },
+  {
+   "say": "And that leads us to one of the most personal questions in this whole evening. If we tell stories about books and days, do we also tell a story about our whole lives? Many psychologists believe we do. And the way we tell that story, they suggest, may matter for how we feel.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "cap": "What comes next",
+    "sub": "The story of a life"
+   }
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "id": "lf47_b27",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You pass through the far archway and find a small stone cottage, its door open, its rooms warm and dim. Inside, a fire glows low in the grate. And at the far end of the room, there's a deep window seat, piled with cushions and blankets, looking out over a wide valley where soft snow has just begun to fall.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "n": 27,
+    "title": "A window seat in the snow"
+   }
+  },
+  {
+   "say": "You curl up on the window seat, sinking into the cushions, and pull a heavy blanket around you. The glass is cool beside you, but you're warm all the way through. The fire behind you crackles softly. And outside the window, the snow drifts down, slowly, silently, through the dark.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Curling up",
+    "sub": "Cushions and blankets"
+   }
+  },
+  {
+   "say": "Watch the snowflakes falling outside. Large, soft flakes, drifting down without a sound. Some fall straight. Some wander, turning slowly in the air, before settling on the windowsill, on the garden wall, on the dark branches of the trees. The whole valley is slowly turning white, quietly, gently, while you watch.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "The falling snow",
+    "sub": "Slow and silent"
+   }
+  },
+  {
+   "say": "Snow has a way of making the world quieter. It softens every sound. The fields are hushed. The trees are hushed. Even the wind seems to have stopped to listen. There's a deep, white silence settling over everything, a silence that feels like a soft blanket laid over the whole world.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "A white silence",
+    "sub": "The world grows quiet"
+   }
+  },
+  {
+   "say": "Let your breath become as slow and soft as the falling snow. A slow breath in. A long, soft breath out. Each breath out like a snowflake, drifting down, settling, still. In, and out. Nothing to do but breathe, and watch, and rest.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Breathing slowly",
+    "sub": "Like the snowfall"
+   }
+  },
+  {
+   "say": "In the valley below, a few small windows glow, far away. Other cottages, other people, settling down for the night. One by one, as you watch, their lights go out. The valley grows darker, and quieter, and more peaceful, until there's only the soft grey light of the snow.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b27_01.jpg",
+    "cap": "Snow outside the window"
+   }
+  },
+  {
+   "say": "Feel how warm and heavy your body is, wrapped in the blanket. Your feet tucked up. Your hands resting in the folds. Your shoulders soft. Your head leaning against the cushions by the window. Everything resting. Everything still. Everything warm.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "cap": "Your body",
+    "sub": "Warm and heavy"
+   }
+  },
+  {
+   "say": "Outside, the snow is covering everything, softly, gently, without a sound. Every path, every field, every rooftop, all made quiet and smooth and white. And in here, you are warm and safe, watching it all from your soft window seat, with nothing at all left to do.",
+   "show": {
+    "type": "quote",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "text": "Outside, the snow covers everything softly. Inside, you are warm.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "Behind you, the fire has burned low. Just glowing embers now, warm and red, ticking softly as they cool. Their warmth reaches you across the room, a gentle, steady comfort. You don't need to tend them. They'll glow all night long, slowly, softly.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The fire behind you",
+    "sub": "Low and glowing"
+   }
+  },
+  {
+   "say": "If any thoughts are left, let them be like snowflakes on the window. They land softly on the glass, and melt, and slide gently away. Each one gone, almost as soon as it arrives. And the window is clear again, and the snow keeps falling, and the night keeps resting.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "Thoughts like snowflakes",
+    "sub": "Settling, melting"
+   }
+  },
+  {
+   "say": "You're very close to sleep now. Your eyes are heavy. Your body is heavy. Your thoughts are slow and few and far between. The snow falls. The embers glow. The silence deepens. And you're sinking, softly, gently, down into the warm, white quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Almost asleep",
+    "sub": "Very close now"
+   }
+  },
+  {
+   "say": "The whole valley is sleeping now, under its soft new blanket of snow. The fields, the hedges, the little cottages, the dark woods on the hills. All of it quiet. All of it still. All of it resting, waiting for morning. And you're resting with it, warm and safe, at your window.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "The valley sleeps",
+    "sub": "Under the snow"
+   }
+  },
+  {
+   "say": "And now, gently, we'll make the last step of tonight's journey. Back to where you really are. Your own room. Your own bed. Your own pillow, soft beneath your head. In a moment, we'll go there together, and say goodnight.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "Home",
+    "sub": "The last step"
+   }
+  }
+ ]
+}

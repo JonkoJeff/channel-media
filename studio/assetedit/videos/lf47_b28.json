@@ -1,0 +1,115 @@
+{
+ "id": "lf47_b28",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "And now you're home. Back in your own room, in your own bed. Wherever you really are tonight, that's where you are now. The pillow soft beneath your head. The covers warm around you. The room quiet and dark. All the places we visited tonight, the train, the greenhouse, the lake, the bookshop, the forest, the hill, the harbor, the garden, the meadow, the porch, the orchard, the courtyard and the snowy window, have folded themselves up softly, like pages in a closed book.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "n": 28,
+    "title": "Home, and goodnight"
+   }
+  },
+  {
+   "say": "Feel your bed beneath you. Solid and soft. It has held you through so many nights before this one, and it will hold you through this one too. Let your whole body sink into it. Your legs, heavy. Your arms, heavy. Your back and shoulders, heavy. Your head, resting easily on the pillow. Safe and warm and still.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Your own bed",
+    "sub": "Warm and safe"
+   }
+  },
+  {
+   "say": "Across the city, Hana is asleep now too. Her lamp is off. Her book lies on the nightstand, a bus ticket marking a page halfway through chapter fourteen. The woman in the story is waiting there, letter in hand, perfectly patient. Hana's breathing is slow and deep. Her alarm is still hours away. And somewhere in her sleep, perhaps, she can hear the sea.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "Hana, asleep",
+    "sub": "The book on the nightstand"
+   }
+  },
+  {
+   "say": "All the stories are resting now. Hana's book. Ruben's dog, trotting up to a small boy in a garden center. The triangles and the circle. The ghosts in their canoes. Linda, and the juries, and the firelight in the Kalahari. And your own story, too, the story of today, with all its little ups and downs. It's been told for today. It can rest now, until morning.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "Stories, resting",
+    "sub": "Until tomorrow"
+   }
+  },
+  {
+   "say": "Notice your breath, one last time. Slow and deep and easy. In, softly. Out, softly. You don't need to guide it anymore. It knows the way. It will carry on all night long, keeping you company, steady and kind, while you sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Your breath",
+    "sub": "Slow and deep"
+   }
+  },
+  {
+   "say": "Your thoughts have grown very quiet. Just a few faint ones, drifting far away at the edges of your mind, like distant lights across a dark field. Let them drift. They'll be there in the morning, if you need them. Tonight, you don't.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b28_01.jpg",
+    "cap": "A closed book, a quiet night"
+   }
+  },
+  {
+   "say": "Every story needs an ending. And tonight's ending is a very gentle one. No twist. No cliffhanger. No next chapter to stay up for. Just sleep, arriving softly, the way it always does, when everything else has been set down.",
+   "show": {
+    "type": "quote",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "text": "Every story needs an ending. Tonight's ending is simply sleep.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "Let go now of the very last thoughts. Of this voice, even. You don't need to keep listening. If you're still awake, that's fine. Simply rest, and let the words wash over you without catching them. And if you've already drifted off, then sleep well. You're exactly where you need to be.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Letting go",
+    "sub": "Of the last thoughts"
+   }
+  },
+  {
+   "say": "Say goodnight, in your mind, to the whole day. To the people in it, and the stories they told you, and the stories you told yourself. To the good parts, and the hard parts, and the parts in between. They were all part of today's story. And today's story is finished now.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "Goodnight",
+    "sub": "To the whole day"
+   }
+  },
+  {
+   "say": "There is nothing left to do, and nowhere left to go. Your body is resting. Your mind is quiet. The night is long and gentle and kind. And in a moment, or in a few, you won't even notice that you've stopped listening. You'll simply be asleep. Goodnight.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Deep rest",
+    "sub": "Nothing left to do"
+   }
+  },
+  {
+   "say": "And next time, if you'd like to join me again, we'll explore another very human puzzle. Why a piece of music can send a shiver down your spine, and what science says about what's happening in your brain when it does. Until then, sleep well, and goodnight.",
+   "show": {
+    "type": "end",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "next": "Why Music Gives You Chills"
+   }
+  }
+ ]
+}

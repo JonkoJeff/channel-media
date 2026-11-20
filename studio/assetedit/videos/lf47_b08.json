@@ -1,0 +1,184 @@
+{
+ "id": "lf47_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a little puzzle, and it's one of the most famous in psychology. I'll describe a woman to you, and then ask you a question about her. Take your time. There's no rush tonight.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "n": 8,
+    "title": "Why details feel true"
+   }
+  },
+  {
+   "say": "Linda is thirty-one years old, single, outspoken, and very bright. She majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and also took part in demonstrations. Now, which of these is more probable? Linda is a bank teller. Or, Linda is a bank teller and is active in the feminist movement.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cafe_sunset",
+    "text": "Linda is 31, single, outspoken and very bright. She majored in philosophy, and was deeply concerned with discrimination and social justice.",
+    "by": "Tversky & Kahneman, 1983"
+   }
+  },
+  {
+   "say": "If you felt a pull toward the second answer, you're in very good company. It just seems to fit better. The description sounds like someone who might be active in the feminist movement. The second option tells a more complete story about her. It feels more like Linda.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Your answer",
+    "sub": "Which feels right?"
+   }
+  },
+  {
+   "say": "This puzzle comes from a paper published in 1983 by the psychologists Amos Tversky and Daniel Kahneman. In one version of their study, about eighty-five percent of the people who answered chose the second option. Bank teller and active in the feminist movement.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "who": "Tversky & Kahneman, 1983",
+    "where": "University of British Columbia & Stanford, North America",
+    "what": "People read a description of Linda and judged which was more probable: bank teller, or bank teller active in the feminist movement. Most chose the second, although it cannot be more probable than the first."
+   }
+  },
+  {
+   "say": "But here's the catch. The second option can't be more probable than the first. Every bank teller who's active in the feminist movement is also, by definition, a bank teller. Adding a second condition can only keep the probability the same, or make it smaller. It can never make it larger. Tversky and Kahneman called this mistake the conjunction fallacy.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "The catch",
+    "sub": "Two things can't beat one"
+   }
+  },
+  {
+   "say": "What makes it so interesting is why people make it. The more detailed option fits our sense of who Linda is. It makes a better story. And, the research suggests, when something makes a good story, we tend to feel it's more likely, even when the logic says the opposite. A richer story can feel more true, while actually being less probable.",
+   "show": {
+    "type": "stat",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "title": "Tversky & Kahneman, 1983",
+    "big": "about 85%",
+    "label": "in one version chose the less probable option, because it told the better story"
+   }
+  },
+  {
+   "say": "This isn't about intelligence. Many highly educated people, including people with training in statistics, have felt the pull of the Linda problem. Psychologists have debated exactly how to interpret it, and how much the wording of the question matters. But the basic pull, toward the version that feels like a better story, has been seen many times.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "autumn_overlook",
+    "cap": "Not a lack of intelligence",
+    "sub": "Clever people do it too"
+   }
+  },
+  {
+   "say": "Now let's take this idea somewhere it really matters. Into a courtroom. When jurors listen to a trial, they hear a lot of evidence, often out of order, from many different witnesses. How do they make sense of it all? In the 1980s, two researchers in the United States, Nancy Pennington and Reid Hastie, proposed an answer. They called it the story model.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "street_day",
+    "cap": "Into the courtroom",
+    "sub": "Stories and juries"
+   }
+  },
+  {
+   "say": "Their idea was that jurors don't simply weigh each piece of evidence separately, like coins on a scale. Instead, they try to build a story of what happened. Who did what, and why. Then they compare that story to the legal options in front of them. The verdict that fits the best story tends to win.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "The story model",
+    "sub": "Jurors build a story"
+   }
+  },
+  {
+   "say": "In a study published in 1988, Pennington and Hastie tested the story model. People acted as jurors in a mock murder trial. Everyone heard exactly the same evidence. But the order was changed. Sometimes, one side's evidence was arranged in story order, the order the events actually happened. Sometimes, it was arranged in witness order, the order the witnesses happened to speak.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "who": "Pennington & Hastie, 1988",
+    "where": "USA",
+    "what": "Mock jurors heard the same evidence for a murder trial, arranged either in story order or in the order of the witnesses. Whichever side's evidence was easier to turn into a story tended to be favored."
+   }
+  },
+  {
+   "say": "The results were striking. When the prosecution's evidence was told in story order, and the defense's in witness order, about seventy-eight percent of mock jurors found the defendant guilty. When it was the other way around, with the defense's evidence in story order, only about thirty-one percent did. The same facts. A different shape.",
+   "show": {
+    "type": "bars",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "title": "Pennington & Hastie, 1988",
+    "unit": "% guilty verdicts",
+    "bars": [
+     [
+      "Prosecution in story order",
+      78.0
+     ],
+     [
+      "Defense in story order",
+      31.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "That result says something deep about how we think. It's not only the facts that persuade us. It's how easily those facts can be joined into a sensible story. The side that's easier to turn into a story has an advantage, even when the evidence itself is identical.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b08_01.jpg",
+    "cap": "Facts, arranged into a story"
+   }
+  },
+  {
+   "say": "So here's what Linda and the juries teach us. A fuller story can feel more likely, even when it's less likely. A sense of fit can beat the rules of probability. The order in which facts arrive can shape what they mean. And the explanation that's easiest to tell as a story often wins.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "autumn_overlook",
+    "title": "Why details persuade",
+    "items": [
+     "A fuller story feels likelier",
+     "Fit beats probability",
+     "Order shapes meaning",
+     "Easy stories win"
+    ]
+   }
+  },
+  {
+   "say": "Hana knows this from her own work, in a small way. When a delivery goes wrong, everyone in the office has a theory within minutes. The driver took a wrong turn. The warehouse loaded the van late. Each theory is a little story, and the most vivid one tends to stick, whether or not the data agree. Hana has learned to look at the timestamps before she believes any of them.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Hana's work",
+    "sub": "Routes and reasons"
+   }
+  },
+  {
+   "say": "That's a useful habit for all of us. When a story feels very convincing, it can help to ask, what's another story that would fit the same facts? It doesn't mean the first story is wrong. It simply reminds the mind that a story feeling right and a story being right are not quite the same thing.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "cap": "A simple question",
+    "sub": "What else could explain it?"
+   }
+  },
+  {
+   "say": "Now, at last, let's turn to Hana's real problem tonight. Not whether her book is true, but why she can't stop reading it. And here, research holds a surprise, about what actually happens when you already know how a story ends.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "What comes next",
+    "sub": "The book on her lap"
+   }
+  }
+ ]
+}

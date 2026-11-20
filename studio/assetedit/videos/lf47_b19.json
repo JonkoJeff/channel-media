@@ -1,0 +1,156 @@
+{
+ "id": "lf47_b19",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You step out through the little back door, and the cool night air touches your face, fresh and clean. A soft path of pine needles leads away between tall, dark trees. It's springy and quiet underfoot, so that your steps make almost no sound at all. The trees rise high above you, their branches reaching toward a sky full of stars.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "n": 19,
+    "title": "A stream among the pines"
+   }
+  },
+  {
+   "say": "Take a slow breath in, and notice the smell of the forest. Pine needles, damp earth, cool night air. It's a clean, calming smell. Breathe it in slowly, all the way down. And then breathe out, long and easy. Again. In, with the scent of pine. Out, letting everything go.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "The smell of pine",
+    "sub": "Deep, slow breaths"
+   }
+  },
+  {
+   "say": "Somewhere ahead, you can hear water. A small stream, running over stones. As you walk on, the sound grows closer, a soft, continuous murmur, sometimes a little brighter where the water tumbles over a rock, sometimes a little deeper where it pools. It never stops. It never hurries. It simply keeps flowing, as it has for many, many years.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "The sound of water",
+    "sub": "A little stream"
+   }
+  },
+  {
+   "say": "Beside the stream, you find a soft bank of thick green moss, between the roots of an old pine tree. You lie down on it. The moss is soft and dry and springy, like the deepest mattress. Someone has left a blanket here, folded, and you pull it over yourself. Above you, through the branches, you can see the stars.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "A mossy bank",
+    "sub": "A place to lie down"
+   }
+  },
+  {
+   "say": "Listen to the stream beside you. Let it fill your ears, soft and steady. Imagine that any thoughts still left in your mind can be placed on the water, like small leaves, and carried gently away. A thought about tomorrow, set on the water, and carried off. A thought about today, set on the water, and carried away downstream, out of sight.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Listening to the stream",
+    "sub": "Let it carry your thoughts"
+   }
+  },
+  {
+   "say": "The stream doesn't ask you for anything. It doesn't need you to watch it, or understand it, or remember it. It simply flows past, carrying away whatever you give it, and leaving you lighter, a little at a time. The water keeps moving, so you don't have to.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b19_01.jpg",
+    "cap": "Water over stones"
+   }
+  },
+  {
+   "say": "High above you, the tops of the pines sway very slightly in a breeze you can't feel down here. A slow, gentle movement, back and forth, back and forth, against the stars. It's like the forest itself is breathing. Slowly. Peacefully. Let your breath join it. In, as the trees lean one way. Out, as they lean back.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "The trees above",
+    "sub": "Swaying slowly"
+   }
+  },
+  {
+   "say": "The water keeps moving, so you don't have to. The trees keep swaying, so you can be still. Everything in the forest is looking after itself tonight. And you are being looked after too, held by the soft moss and the warm blanket and the quiet dark.",
+   "show": {
+    "type": "quote",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "text": "The water keeps moving, so you don't have to.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "Feel your body sinking into the moss. Your heels. Your calves. The backs of your legs. Your hips. Your back. Your shoulders. Your head. All of you, resting, heavy, supported. The earth beneath you is solid and patient. It has held forests for thousands of years. It can easily hold you.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Your body sinks",
+    "sub": "Into the moss"
+   }
+  },
+  {
+   "say": "Somewhere in the forest, a small creature rustles in the leaves, and then is still. Perhaps a mouse, or a hedgehog, going about its quiet nighttime business. It doesn't mind you being here. Nothing in this forest minds. You're just another sleepy creature, resting under the pines.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "A night creature",
+    "sub": "Somewhere, softly"
+   }
+  },
+  {
+   "say": "You may notice now that there are longer and longer gaps between your thoughts. Quiet spaces where there's nothing at all, just the sound of the stream and the feeling of the blanket. Let those spaces grow. Let them stretch out, soft and wide. You don't need to fill them with anything.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Drifting",
+    "sub": "Between thoughts"
+   }
+  },
+  {
+   "say": "Through the gaps in the branches, the stars glimmer, faint and far away. Some seem to flicker gently, as the branches move across them. They have been shining for a very long time, and they'll keep shining all night long, whether you watch them or not. You can close your eyes, if they aren't already closed, and let the stars keep watch.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "cap": "The stars through the branches",
+    "sub": "Faint and far"
+   }
+  },
+  {
+   "say": "With each breath out, imagine drifting a little further downstream, into deeper and deeper rest. The stream carries you, gently, softly, into the quiet heart of the night. There's nothing to hold on to. Nothing to steer. Just the flow of the water, and the flow of your breath.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Deeper into rest",
+    "sub": "Further downstream"
+   }
+  },
+  {
+   "say": "The old brass telescope stands quietly in the middle of the room, pointing up at the sky. Tonight, no one is looking through it. It's resting too, its lenses catching a faint glimmer of starlight. All the measuring, all the counting, all the careful watching can wait. Tonight, the sky is simply for resting under.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "The old telescope",
+    "sub": "Resting too"
+   }
+  },
+  {
+   "say": "In a while, when you're ready, the path along the stream will begin to climb, gently, up a low hill. And at the top of that hill, you'll find an old round building with a dome for a roof, a place where people once came to look at the stars. But there's no hurry at all. For now, stay here, on the soft moss, by the murmuring stream, and simply rest.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "bedroom_night",
+    "cap": "A hill ahead",
+    "sub": "And an old dome"
+   }
+  }
+ ]
+}

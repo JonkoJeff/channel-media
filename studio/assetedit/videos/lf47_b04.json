@@ -1,0 +1,173 @@
+{
+ "id": "lf47_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a little test you can try in your mind. Imagine I read you ten ordinary words, one after another. Lumberjack. Dart. Island. Vessel. Steeple. Teacher. Wagon. Cotton. Bread. Ankle. And imagine I ask you to repeat them back. Most people can manage some of them. Now imagine I give you twelve lists like that, one after another, and then, at the very end, ask you to remember all of them.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "n": 4,
+    "title": "Words on a string"
+   }
+  },
+  {
+   "say": "That's a hundred and twenty words. For most of us, the honest answer is that the majority would vanish. The first list would get tangled with the second. The middle lists would blur. That's simply how memory for unconnected items tends to work. And it's quite close to what Hana faced this morning, with her thirty slides of separate facts.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A hundred and twenty words",
+    "sub": "Most would vanish"
+   }
+  },
+  {
+   "say": "In 1969, two psychologists at Stanford University, Gordon Bower and Michal Clark, published a short paper with a modest title, Narrative stories as mediators for serial learning. They gave students exactly this kind of task. Twelve lists of ten nouns each, to be learned in order.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "who": "Bower & Clark, 1969",
+    "where": "Stanford University, USA",
+    "what": "Students learned 12 lists of 10 nouns. One group linked each list into a short story of their own; the other group simply studied. At the end, both groups tried to recall all the lists."
+   }
+  },
+  {
+   "say": "The students were split into two groups. One group was simply asked to study the words, in whatever way they liked. The other group was asked to do something different. For each list, they were to make up a little story that linked the words together, in order. A lumberjack darted out of the forest, ran to an island, and boarded a vessel. That kind of thing.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "Two groups",
+    "sub": "One made stories"
+   }
+  },
+  {
+   "say": "Right after each list, both groups did very well. When you've just heard ten words, you can usually say them back, whether you've made a story or not. So at first, it looked as though the stories made no difference at all.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "autumn_overlook",
+    "cap": "Right after each list",
+    "sub": "Both did well"
+   }
+  },
+  {
+   "say": "But then came the real test. At the end of the session, the students were given the first word of each list and asked to recall the rest. All twelve lists. And the difference was enormous. The students who had made up stories remembered a median of about ninety-three percent of the words. The students who had simply studied remembered about thirteen percent.",
+   "show": {
+    "type": "stat",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "title": "Bower & Clark, 1969",
+    "big": "93% vs 13%",
+    "label": "median recall of all 12 lists at the end: story group vs study group"
+   }
+  },
+  {
+   "say": "Let that settle for a moment. Ninety-three percent against thirteen. The same kinds of students, the same words, the same amount of time. The only difference was that one group had tied each list together with a little story.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cafe_sunset",
+    "text": "The same words. The same people. One difference: a story to hold them together.",
+    "by": "on Bower & Clark, 1969"
+   }
+  },
+  {
+   "say": "Why does it work so well? Part of the answer is the beads on a string. In a story, each item is connected to the one before it by a reason, a cause or an action. The lumberjack darted, so he reached the island. If you remember one part, it tends to pull the next part along. Separate facts have nothing to pull them.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cafe_sunset",
+    "cap": "Why it works",
+    "sub": "Each word pulls the next"
+   }
+  },
+  {
+   "say": "Another part of the answer is that stories are easy to picture. A lumberjack running toward a boat is a scene you can see. The word lumberjack on its own is just a word. Many memory researchers have found that items you can imagine vividly, and link together in an image, tend to be remembered better than abstract ones.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "street_day",
+    "cap": "Pictures in the mind",
+    "sub": "Stories are easy to see"
+   }
+  },
+  {
+   "say": "And stories carry emotion. Even a silly little story about a lumberjack has a tiny bit of drama in it. Something is happening, someone wants something. And the brain seems to pay closer attention to anything that feels like it matters, even a little.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b04_01.jpg",
+    "cap": "Beads on a string"
+   }
+  },
+  {
+   "say": "This is not a new discovery. Speakers in the ancient world used imagined journeys through familiar buildings to remember long speeches, a method often called the memory palace. And people who compete in memory contests today commonly describe using stories and vivid scenes to hold long lists of cards or numbers. Bower and Clark simply showed, in a clean experiment, how powerful one simple version of that trick can be.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "An old trick",
+    "sub": "Memory champions know it"
+   }
+  },
+  {
+   "say": "Think back to Hana's thirty slides. They were full of true facts, but nothing joined them. If the presenter had begun with a single driver, and followed her through one difficult morning on the old routes, and then through the same morning on the new ones, many of those facts would have had something to hang on. Not because the facts changed, but because they would have been placed inside a story.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Back to the slides",
+    "sub": "What could have helped"
+   }
+  },
+  {
+   "say": "So here's why stories seem to help memory. Each part tends to cue the next. Scenes are easier to picture than abstract words. Even a little drama draws attention. And causes join separate pieces into one thing that's easier to hold.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "title": "Why stories help memory",
+    "items": [
+     "Each part cues the next",
+     "Scenes are easy to picture",
+     "A little drama draws attention",
+     "Causes join the pieces"
+    ]
+   }
+  },
+  {
+   "say": "You can use this in a small way in everyday life. If you need to remember a few errands tomorrow, try linking them in a tiny, silly story. The post office clerk hands you a loaf of bread, which you carry to the pharmacy, where a cat is sitting on the counter. It sounds childish, but it's the same trick, and it often works.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "street_day",
+    "cap": "You can use this",
+    "sub": "A tiny story for a list"
+   }
+  },
+  {
+   "say": "But there's a twist to all this. Stories don't only help us remember. They also change what we remember. A story is a shape, and when we remember something, we tend to press it into a shape that makes sense to us. Sometimes, that means details shift, or disappear, or are quietly replaced.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "cap": "But there's a twist",
+    "sub": "Stories also change memories"
+   }
+  },
+  {
+   "say": "To see how that happens, we need to go back almost a hundred years, to Cambridge in England, where a psychologist gave people an unfamiliar folk tale, waited, and asked them to tell it back to him. Again, and again, and again. What came back was not quite the story he had given them.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "What comes next",
+    "sub": "A ghost story from 1932"
+   }
+  }
+ ]
+}

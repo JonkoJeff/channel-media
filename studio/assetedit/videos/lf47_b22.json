@@ -1,0 +1,156 @@
+{
+ "id": "lf47_b22",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You rise slowly from the harbor bench, still wrapped in your warm blanket, and climb a short flight of old stone steps behind the village. The steps are smooth and worn, with little cushions of moss growing between them. At the top, there's a small wooden gate, and beyond it, a quiet garden, glowing softly in the light of a single stone lantern.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "n": 22,
+    "title": "A moss garden in soft rain"
+   }
+  },
+  {
+   "say": "You step through the gate. The garden is small and very still. The ground is covered in deep green moss, soft as velvet. Smooth grey stones sit here and there among it, as if they've been resting there for centuries. A few low, twisting trees lean over a tiny pond. And in the middle of it all, the stone lantern glows, warm and steady.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Inside the garden",
+    "sub": "Green and still"
+   }
+  },
+  {
+   "say": "At the edge of the garden, under a small wooden roof, there's a low seat with thick cushions. You sit down beneath the shelter, pull your blanket around you, and settle in. And as you do, a soft rain begins to fall. Very gentle. Very quiet. A fine, silver rain that hardly makes a sound, except a soft whisper on the little roof above you.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "A covered seat",
+    "sub": "Sheltered and dry"
+   }
+  },
+  {
+   "say": "Watch the rain falling on the moss. It doesn't splash, or puddle, or run. The moss simply drinks it in, silently, and grows a little greener. Tiny drops gather on the tips of the moss and shine in the lantern light like scattered beads of glass. Then they sink in, and new ones gather.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "The rain on the moss",
+    "sub": "Silent and soft"
+   }
+  },
+  {
+   "say": "On the tiny pond, each raindrop makes a little ring that spreads out slowly across the water, and fades. Then another ring, and another. Rings crossing rings, spreading and fading, over and over, in a gentle, endless pattern. You can watch them for as long as you like. There's nothing else you need to do.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "The pond",
+    "sub": "Rings on the water"
+   }
+  },
+  {
+   "say": "The air smells of rain and earth and something green and fresh. Breathe it in, slowly. All the way down. And let it out, slowly, all the way out. The garden breathes with you. The rain falls with you. Everything here moves at the pace of rest.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b22_01.jpg",
+    "cap": "Rain in the moss garden"
+   }
+  },
+  {
+   "say": "Let your body become as still and heavy as one of the old stones in the moss. Resting. Unmoving. Content to stay exactly where it is, for as long as it likes. The stones don't wonder what time it is. They don't worry about tomorrow. They simply rest, and let the rain fall on them, and rest some more.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Your body",
+    "sub": "Like a stone in the moss"
+   }
+  },
+  {
+   "say": "The stones in this garden have rested here through thousands of nights like this one. Through rain and frost and long summer evenings. They don't hurry. They don't wonder. They simply rest. And you can rest the same way tonight, still and heavy and calm.",
+   "show": {
+    "type": "quote",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "text": "The stones don't wonder what time it is. They simply rest.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "The stone lantern keeps glowing in the middle of the garden. Steady and warm. Its light doesn't flicker or fade. It simply glows, softly, through the rain. You can let your mind rest on it, the way your eyes might rest on a candle. A small, steady light in the quiet dark.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "The lantern glows",
+    "sub": "Steady and warm"
+   }
+  },
+  {
+   "say": "If thoughts come, let them be like the raindrops on the moss. They land softly, and sink in, and disappear, and the moss is just as green and quiet as before. No thought needs to stay. No thought needs an answer. Let each one land, and sink, and be gone.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "Thoughts like raindrops",
+    "sub": "Landing, and sinking in"
+   }
+  },
+  {
+   "say": "Notice how slow everything has become. Your breath, slow and soft. Your heartbeat, slow and steady. Your thoughts, slow and few, with long, quiet spaces between them. Everything slowing down, like the rain itself, which is growing gentler and gentler.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "Slower and slower",
+    "sub": "Your breath, your thoughts"
+   }
+  },
+  {
+   "say": "The rain softens now, until it's no more than a whisper. A faint mist, drifting through the lantern light. The rings on the pond grow fewer, and further apart. The garden grows quieter still. And you grow quieter too, sinking deeper into the cushions, deeper into the blanket, deeper into sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The rain softens",
+    "sub": "To a whisper"
+   }
+  },
+  {
+   "say": "There is nothing to do now. Nowhere to go. No one waiting for you. The garden asks nothing of you. The night asks nothing of you. You can simply be here, resting, as the rain whispers and the lantern glows.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Nothing to do",
+    "sub": "Nowhere to go"
+   }
+  },
+  {
+   "say": "Take a slow, deep breath in, filling yourself with the cool meadow air. And then let it out in a long, slow sigh. Let the sigh carry away anything that's still left over. A last bit of tension in your shoulders. A last thought about the day. Let it all go, out into the wide, open night.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "A slow, deep sigh",
+    "sub": "Letting it all out"
+   }
+  },
+  {
+   "say": "Beyond the far side of the garden, a little path leads out onto a wide, open meadow on the hillside, where the grass is long and soft and the sky is enormous. When the rain has passed, we'll wander out there, slowly. But for now, stay here, in the moss garden, safe and sheltered, in the soft, whispering quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "bedroom_night",
+    "cap": "A meadow beyond",
+    "sub": "Under open sky"
+   }
+  }
+ ]
+}

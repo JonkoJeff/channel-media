@@ -1,0 +1,175 @@
+{
+ "id": "lf47_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Think back to lunchtime, when Ruben was telling his story. Hana was laughing, leaning forward a little, her sandwich forgotten in her hand. She wasn't just hearing words. She was following him through the garden center, past the tomatoes, around the fountain. In some way, she was there with him. And it turns out that brain scans have captured something like that feeling.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N29",
+    "bg": "autumn_overlook",
+    "n": 6,
+    "title": "Two brains, one story"
+   }
+  },
+  {
+   "say": "The story starts in 2004, in Israel. A team led by the neuroscientist Uri Hasson, then at the Weizmann Institute of Science, scanned the brains of people while they watched the same thirty minutes of a classic western film. Each person watched alone, in a scanner, free to look wherever they liked.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Watching the same film",
+    "sub": "Brains moving together"
+   }
+  },
+  {
+   "say": "And what they found, published in the journal Science, was that large parts of the viewers' brains rose and fell together, in step with each other. When the film showed faces, face-related areas became more active, in everyone at roughly the same moment. During emotional scenes and surprising turns, many areas moved together across people. The film seemed to be pulling their brains along in the same rhythm.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "who": "Hasson et al., 2004",
+    "where": "Weizmann Institute of Science, Israel",
+    "what": "People watched the same 30 minutes of a feature film, one at a time, inside a brain scanner. Large parts of their brains rose and fell together, in step, across the different viewers."
+   }
+  },
+  {
+   "say": "A few years later, Hasson, by then at Princeton University, took the idea a step further. What if, instead of a film, there was just one person telling a story? Would the listener's brain fall into step with the storyteller's brain itself?",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "Then a storyteller",
+    "sub": "One person speaking"
+   }
+  },
+  {
+   "say": "In a study published in 2010, Greg Stephens, Lauren Silbert and Uri Hasson asked a woman to tell an unrehearsed story from her own life, about her high school prom, while lying in a brain scanner. Her story was recorded. Then a group of listeners heard the recording, each one in the scanner too.",
+   "show": {
+    "type": "study",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "who": "Stephens, Silbert & Hasson, 2010",
+    "where": "Princeton University, USA",
+    "what": "A woman told an unrehearsed personal story while her brain was scanned. Later, listeners heard the recording in the scanner. Their brain activity coupled with hers, mostly a few seconds behind, and in some areas a little ahead."
+   }
+  },
+  {
+   "say": "What they saw was that the listeners' brain activity was coupled with the speaker's. Many areas in the listener rose and fell in a similar pattern to areas in the speaker, usually with a delay of a few seconds, as though the listener's brain was following just behind.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "What they saw",
+    "sub": "The listener follows"
+   }
+  },
+  {
+   "say": "But in some areas, the listener's brain was actually a little ahead of the speaker's. The researchers interpreted this as anticipation. The listener was predicting what was coming next in the story, before the words arrived. Which is exactly what you do when you're really following a story. You lean forward, in your mind, toward what happens next.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "cafe_sunset",
+    "cap": "Sometimes ahead",
+    "sub": "Guessing what comes next"
+   }
+  },
+  {
+   "say": "And here's the most interesting part. The researchers tested how well each listener had understood the story. The listeners whose brains were more closely coupled with the speaker's tended to have understood it better. The synchrony wasn't just a curiosity. It seemed to go along with real communication.",
+   "show": {
+    "type": "stat",
+    "sprite": "N27",
+    "bg": "cafe_sunset",
+    "title": "Stephens, Silbert & Hasson, 2010",
+    "big": "more coupling",
+    "label": "went with better understanding, measured by a test of what listeners took in from the story"
+   }
+  },
+  {
+   "say": "They also checked something important. They played the listeners a story told in Russian, a language none of them spoke. The sounds were there, the voice was there, but the meaning wasn't. And the coupling largely disappeared. It wasn't the sound of a voice that synchronized brains. It was the shared understanding of the story.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "A clever control",
+    "sub": "A story in Russian"
+   }
+  },
+  {
+   "say": "That's a lovely thing to think about. When Ruben told Hana about the dog, her brain was, in a measurable sense, moving with his. Not perfectly, and not in every area, but in a way that had a pattern. Story, it seems, is one of the ways one mind reaches into another.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b06_01.jpg",
+    "cap": "Two lamps, one rhythm"
+   }
+  },
+  {
+   "say": "Another study from the same lab, published in 2011 by Yulia Lerner and colleagues, asked what happens when you break a story up. People listened to a real-life story, a man telling about a memorable day, in its normal order. Other people heard it cut into paragraphs, shuffled. Others heard shuffled sentences. Others heard a shuffled list of the story's words.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Scrambling the story",
+    "sub": "When the shape is lost"
+   }
+  },
+  {
+   "say": "Areas of the brain that handle basic sounds responded in much the same way to every version. But as you moved toward areas involved in higher-level thinking, a pattern appeared. Those areas only responded reliably, from one listener to the next, when longer stretches of the story were kept together. Some responded consistently only to the full, intact story.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "who": "Lerner et al., 2011",
+    "where": "Princeton University, USA",
+    "what": "Listeners heard a story intact, or scrambled by paragraphs, sentences or words. Early hearing areas responded reliably to all versions; higher areas responded reliably only when longer stretches of the story were kept intact."
+   }
+  },
+  {
+   "say": "The researchers suggested that the brain builds meaning in layers, over different stretches of time. Words over a second or so. Sentences over several seconds. And the meaning of a whole story over minutes. The highest layers need the story to hold together. Break the chain, and they have nothing to build on.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "autumn_overlook",
+    "cap": "Building up meaning",
+    "sub": "Layer on layer"
+   }
+  },
+  {
+   "say": "So here's what the brain scans suggest. Viewers watching the same story show brain activity that moves in step. Listeners follow a speaker's brain, a few seconds behind. Sometimes, they run a little ahead, predicting. And what links them is shared meaning, not just shared sound.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "title": "Brains and stories",
+    "items": [
+     "Viewers' brains move in step",
+     "Listeners follow the speaker",
+     "Sometimes they run ahead",
+     "Shared meaning, not just sound"
+    ]
+   }
+  },
+  {
+   "say": "It's worth adding a gentle caution. Brain scans measure blood flow, which is an indirect sign of activity, and studies like these usually involve small groups of people. They don't show thoughts directly. But taken together, they paint a consistent picture. When we follow a story, our brains do something coordinated, both within us and, in a sense, between us.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "street_day",
+    "cap": "A careful note",
+    "sub": "Scans have limits"
+   }
+  },
+  {
+   "say": "And that brings us back to Hana, five chapters into a book she isn't sure she likes. Because there's a name for what's happening to her. Psychologists call it transportation. And research suggests it doesn't only make time vanish. It can quietly change what we believe.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "What comes next",
+    "sub": "Lost in a story"
+   }
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "id": "lf47_b18",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The boat drifts gently to the shore and comes to rest against a soft bank of moss. A few steps away, among the trees, stands a small, old building of grey stone, with a warm light glowing in its window. As you come closer, you see that it's a bookshop. The sign on the door says closed, but the door is unlocked, and it opens for you with a soft creak.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "n": 18,
+    "title": "A bookshop after closing"
+   }
+  },
+  {
+   "say": "Inside, the air is warm and smells faintly of paper, old wood and a fire somewhere. Shelves of books rise from the floor all the way to the ceiling, in every color, every size. Some are new and bright. Many are old, with faded spines and soft, worn corners. Thousands of stories, resting quietly on their shelves, waiting for no one in particular.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Shelves of stories",
+    "sub": "Floor to ceiling"
+   }
+  },
+  {
+   "say": "In the corner, there's a small fireplace with a low fire crackling in it, and beside it, a deep, soft armchair with a woollen throw over its arm. You sink into the chair. It's the most comfortable chair you've ever sat in. The fire's warmth reaches your feet and your hands. Your whole body begins to soften, as if it's been waiting all day for this chair.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "A deep armchair",
+    "sub": "By a small fire"
+   }
+  },
+  {
+   "say": "Listen to the fire. A quiet crackle, a soft settling of logs, now and then a tiny pop, and then the steady murmur of the flames. It's a sound people have listened to for a very, very long time, at the end of long days. A sound that seems to say, the day is done, and you are safe, and you can rest now.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "The sound of the fire",
+    "sub": "Soft crackling"
+   }
+  },
+  {
+   "say": "You don't need to read anything here. You don't need to choose a book. All the stories on these shelves can wait. Their characters are resting too, closed inside their covers, in the dark between the pages. Every hero, every journey, every ending, all quiet now, all asleep for the night.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "No need to read",
+    "sub": "The stories can wait"
+   }
+  },
+  {
+   "say": "The firelight flickers softly across the spines of the books, gold and red and deep brown. Shadows move gently on the ceiling. Outside the window, the night is dark and quiet. In here, it's warm and still, and there's nothing to do but sit, and breathe, and let the warmth soak slowly into you.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b18_01.jpg",
+    "cap": "Shelves of sleeping stories"
+   }
+  },
+  {
+   "say": "Let your breath slow down to match the fire. A slow breath in, warm and easy. A long breath out, soft and quiet. Imagine that each breath out sends a little of your tiredness up the chimney with the smoke, rising gently into the night sky, and drifting away over the trees.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Breathing with the fire",
+    "sub": "Slow and warm"
+   }
+  },
+  {
+   "say": "Every story on these shelves is resting tonight. Every character has stopped, mid-sentence, to sleep. Nothing will happen to any of them until morning. And in the same way, nothing needs to happen to you either. You can stop, mid-thought, and rest.",
+   "show": {
+    "type": "quote",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "text": "Every story on these shelves is resting. You can rest too.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "Notice how heavy your body has become. Your feet, warm by the fire. Your legs, sinking into the chair. Your hands, resting on the soft arms. Your shoulders, low and loose. Your head, leaning back against the cushion. Let it all be heavy. Let it all be still.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Heavy and still",
+    "sub": "Sinking into the chair"
+   }
+  },
+  {
+   "say": "Somewhere among the shelves, an old clock is ticking. Slowly. Patiently. Tick, and tock. It doesn't matter what time it shows. Time can pass however it likes tonight. You don't need to keep track of it. The clock will keep track for you, while you rest.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "A distant clock",
+    "sub": "Ticking slowly"
+   }
+  },
+  {
+   "say": "You might find, in this warm place, that little pictures begin to drift through your mind. Pieces of stories. A road through hills. A boat on a lake. A train in the snow. They come and go on their own, without any shape, without needing to make sense. That's the beginning of dreaming. Let them drift. You don't need to follow them.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Half-dreaming",
+    "sub": "Stories drifting by"
+   }
+  },
+  {
+   "say": "Slowly, the fire burns lower. The flames grow smaller, and the logs settle into soft glowing embers, orange and red, pulsing gently, like slow breathing. The room grows dimmer, and more peaceful still. The warmth stays with you, deep in your body, steady and kind.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "The fire burns low",
+    "sub": "Warm embers"
+   }
+  },
+  {
+   "say": "With each breath, let yourself sink a little deeper. Deeper into the chair. Deeper into the warmth. Deeper into rest. There's nothing to hold on to now. Nothing to remember. Nothing to plan. Just the embers, the ticking clock, and your own slow, easy breath.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "Deeper still",
+    "sub": "Nothing to hold on to"
+   }
+  },
+  {
+   "say": "Feel the cool night air on your face, and the warmth of the blanket around the rest of you. Cool and warm, both at once. It's a lovely feeling, the kind that makes sleep come easily. Your face is fresh and calm. Your body is snug and heavy. Everything is just right.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Cool air, warm blanket",
+    "sub": "The perfect balance"
+   }
+  },
+  {
+   "say": "At the back of the bookshop, there's a small wooden door, slightly open, and through it you can feel a breath of cool, fresh air that smells of pine needles. Beyond it, a forest waits, dark and quiet, with the sound of a little stream running somewhere among the trees. When you're ready, there's no hurry, we'll wander out there together.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "bedroom_night",
+    "cap": "A back door",
+    "sub": "Into a pine forest"
+   }
+  }
+ ]
+}

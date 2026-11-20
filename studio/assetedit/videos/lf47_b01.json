@@ -1,0 +1,197 @@
+{
+ "id": "lf47_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "It's ten past one in the morning, and Hana is sitting up in bed with a paperback held a little too close to her face. The lamp is on. Her alarm is set for half past six. She told herself, at eleven o'clock, that she would read one more chapter and then sleep. That was five chapters ago. And the strange thing is, she isn't even sure she likes the book very much.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Ten past one in the morning",
+    "sub": "Just one more chapter"
+   }
+  },
+  {
+   "say": "A quick word about Hana. She's imagined. She's someone we've pictured together, to keep us company through tonight's ideas. She's thirty-six, she plans delivery routes for a company that moves furniture across the city, and she's good at it. Her days are full of maps, lists and timetables. She likes things to make sense. Which is exactly why tonight is bothering her a little.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "A quick word about Hana",
+    "sub": "Imagined, to keep us company"
+   }
+  },
+  {
+   "say": "Because earlier today, at work, Hana sat through a forty-minute presentation about a new route system. Thirty slides. Clear charts. Sensible bullet points. She paid attention. She even took notes. And now, lying here, she can remember almost none of it. She remembers that there were charts. She remembers that the room was warm. That's about all.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Earlier today",
+    "sub": "Thirty slides, gone"
+   }
+  },
+  {
+   "say": "But at lunch, a colleague named Ruben told a story. His neighbor's dog had slipped its lead in the park, and Ruben and three strangers had spent an hour chasing it through a garden center, past the tomato plants, around a fountain, until a small boy simply called its name and the dog trotted straight to him. It took Ruben about three minutes to tell. And Hana can remember every single part of it. The tomato plants. The fountain. The boy.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "And then at lunch",
+    "sub": "A story about a lost dog"
+   }
+  },
+  {
+   "say": "Thirty careful slides, forgotten. One three-minute story about a dog, remembered in full. And now, a book she isn't sure she likes is keeping her awake, page after page, because she needs to know what happens to a woman who doesn't exist.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cafe_sunset",
+    "text": "Thirty careful slides, forgotten. One three-minute story about a dog, remembered.",
+    "by": "Hana, at one in the morning"
+   }
+  },
+  {
+   "say": "So here's the question Hana is asking herself, and maybe you've wondered about it too. Why does the brain love a story so much? Why does a story stick when facts slip away? Why does it pull us forward when we're tired? And why does it sometimes change what we believe, even when we know it's made up?",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "The question",
+    "sub": "Why do stories grip us?"
+   }
+  },
+  {
+   "say": "And let's be clear from the start. Nothing is wrong with Hana. She isn't weak-willed, and she isn't bad at paying attention. What she's noticing tonight is one of the oldest and most widely shared features of the human mind. Researchers in psychology and neuroscience have been studying it for about eighty years, and some of what they've found is surprising.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "Nothing wrong with Hana",
+    "sub": "This is how minds work"
+   }
+  },
+  {
+   "say": "Tonight, we'll explore why people see stories even in moving shapes on a screen. How the brain explains its own actions to itself. Why a story can help memory more than repetition. How stories bend what we remember. What happens inside two brains while one person tells a story. What it means to get lost in one. Why vivid details feel convincing. Why spoilers may not spoil anything. What fiction might do for how we understand other people. And why people around a fire at night tell stories more than anything else.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Why we see stories in moving shapes",
+     "How the brain explains itself",
+     "Why stories help memory",
+     "How stories bend what we remember",
+     "What happens in two brains during a story",
+     "Getting lost in a story",
+     "Why details feel convincing",
+     "Why spoilers don't spoil",
+     "Fiction and understanding others",
+     "Stories by firelight"
+    ]
+   }
+  },
+  {
+   "say": "This is a long, calm video, made to keep you company in the evening or as you drift toward sleep. First, we'll spend some time with the science, one idea at a time, at an easy pace. Then, later on, the pace will slow right down, and we'll move into a long, gentle wind-down, with slow breathing and quiet places to rest in. You don't need to remember anything. If you fall asleep along the way, that's perfectly fine.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "How tonight works",
+    "sub": "Get comfortable"
+   }
+  },
+  {
+   "say": "So let's begin where Hana is, with a book open in her lap, and a simple question about what a story actually is.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "n": 1,
+    "title": "A mind made for stories"
+   }
+  },
+  {
+   "say": "Here's a working definition that many researchers would recognize. A story is someone wanting something, running into trouble, and something changing because of it. A person, a goal, an obstacle, and a change. That's it. It doesn't need dragons or detectives. Ruben's dog story has all four. A dog that wants to be free. A group of people who want to catch it. A garden center full of obstacles. And a surprising change at the end, when a small boy simply calls its name.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "street_day",
+    "cap": "What is a story?",
+    "sub": "Someone, wanting something"
+   }
+  },
+  {
+   "say": "Notice what that shape contains. It's not just a list of events. It's a chain of causes, and it's full of intentions. Someone wanted something, so they did something, which led to something else. And that, it turns out, is exactly the kind of information a human brain seems built to track. Not facts sitting side by side, but reasons joining them together.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "autumn_overlook",
+    "cap": "Why that shape matters",
+    "sub": "Causes and intentions"
+   }
+  },
+  {
+   "say": "Think about Hana's thirty slides. Each one was true. Each one was useful. But they sat side by side, like boxes on a shelf. Route times. Driver hours. Fuel use. There was no one wanting anything, nothing went wrong, and nothing changed. The brain had to hold each box separately, with nothing tying them together. And by evening, most of the boxes had quietly fallen off the shelf.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "cap": "Hana's slides",
+    "sub": "Facts side by side"
+   }
+  },
+  {
+   "say": "The dog story was different. Every part of it was hooked to the part before. The dog slipped its lead, so they ran. They ran, so they reached the garden center. They lost it among the plants, so they split up. Pull on one memory, and the next one comes with it, like beads on a string.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b01_01.jpg",
+    "cap": "A story waiting to be read"
+   }
+  },
+  {
+   "say": "And this habit of thinking in stories is very old. People told stories long before anyone wrote anything down. Myths, histories, warnings, jokes, explanations of the stars. In every human culture that anthropologists have studied, people tell stories. It's one of the few things that seems to be truly universal about us, along with language itself, music and the care of children.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "A very old habit",
+    "sub": "Older than writing"
+   }
+  },
+  {
+   "say": "In 1986, the American psychologist Jerome Bruner put this in a way that many people still quote. In a book called Actual Minds, Possible Worlds, he suggested that people have two broad ways of making sense of experience. One is the logical way, the way of arguments, categories and proofs. The other is the narrative way, the way of people, intentions and what happened next.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "The psychologist's view",
+    "sub": "Two ways of knowing"
+   }
+  },
+  {
+   "say": "Bruner's point was that neither way is better. They do different jobs. Logic tells you whether something is true in general. A story tells you what it was like, who wanted what, and why it mattered. Hana's slides were written for the first way. Ruben's dog was speaking straight to the second.",
+   "show": {
+    "type": "quote",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "text": "One way of knowing argues. The other way tells what happened, and why.",
+    "by": "after Jerome Bruner, 1986"
+   }
+  },
+  {
+   "say": "And the narrative way of knowing is so strong that it switches on even when there's no story there at all. Even when the characters are nothing but a few lines and circles moving on a screen. That's where the next part of our evening begins, with a short, strange film from 1944.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "What comes next",
+    "sub": "Shapes on a screen"
+   }
+  }
+ ]
+}

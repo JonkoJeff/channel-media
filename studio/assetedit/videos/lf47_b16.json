@@ -1,0 +1,166 @@
+{
+ "id": "lf47_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The train has slowed, and stopped, and you've stepped down onto a quiet country path. The snow is gone now. The air is mild and damp, and a soft rain is falling. Just ahead, glowing faintly in the dusk, is an old glass greenhouse, its panes misted, a warm light inside. The door is open, as if it's been waiting for you.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "n": 16,
+    "title": "A greenhouse in the rain"
+   }
+  },
+  {
+   "say": "You step inside. The air is warm and soft, and it smells of damp earth and green leaves. All around you, plants grow in clay pots and long wooden beds. Ferns with curling fronds. Tall leafy vines climbing toward the glass roof. Little seedlings in neat rows. Everything here is quietly growing, without any hurry at all.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Stepping inside",
+    "sub": "Warm and green"
+   }
+  },
+  {
+   "say": "In the middle of the greenhouse, there's an old wooden chair with a thick cushion. You sit down, and the cushion gives gently beneath you. Your feet rest on the warm brick floor. Your hands rest in your lap. There's nothing you need to do here. The plants don't need anything from you. You can simply sit among them.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "A wooden chair",
+    "sub": "Waiting for you"
+   }
+  },
+  {
+   "say": "Listen to the rain on the glass roof above you. A soft, endless pattering. Sometimes a little heavier, sometimes a little lighter, but always gentle. Drops gather on the panes and slide slowly down in thin, shining lines. The sound fills the greenhouse with a kind of hush, and wraps around you like a blanket.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "The sound of rain",
+    "sub": "On the glass roof"
+   }
+  },
+  {
+   "say": "Let your breathing slow, the way the plants around you breathe. Without effort. Without thinking about it. In, softly, and out, softly. You might imagine that each breath in brings the warm, green air deep into your body, and each breath out carries away a little more of the day.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Breathing slowly",
+    "sub": "Like the plants"
+   }
+  },
+  {
+   "say": "Look up, if you like, through the misted glass. The sky beyond is a deep grey-blue, the last light of evening fading slowly away. Raindrops blur the view, so that the trees outside are only soft dark shapes. In here, everything is warm and close and still.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b16_01.jpg",
+    "cap": "Rain on the glass"
+   }
+  },
+  {
+   "say": "Somewhere nearby, a single drop of water falls from a leaf into a pot of soil. Then another, a little while later. There's a slow rhythm to it, unhurried and calm. Each drop lands softly, and the soil takes it in. Nothing here is rushing. Everything grows in its own time.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Leaves and drops",
+    "sub": "Slow and quiet"
+   }
+  },
+  {
+   "say": "Notice how heavy and warm your body feels. Like the deep soil in the wooden beds, resting and still. Your arms are heavy. Your legs are heavy. Your shoulders have sunk. Your head is resting. There's nothing to hold up anymore. You can let the chair, or your bed, take all of your weight.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Your body, heavy",
+    "sub": "Like warm soil"
+   }
+  },
+  {
+   "say": "Everything in this greenhouse grows in its own time. The ferns don't hurry. The vines don't worry about how tall they should be. They simply rest, and grow, and rest again. You can rest in your own time, too.",
+   "show": {
+    "type": "quote",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "text": "Everything here grows in its own time. You can rest in yours.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "If a thought drifts into your mind, a memory from today, or something you need to do tomorrow, that's fine. Notice it, gently, like a raindrop on the glass. Watch it slide slowly down and away. You don't need to follow it. It can go wherever it's going, and you can stay here, warm and still.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "A thought drifts by",
+    "sub": "Let it pass"
+   }
+  },
+  {
+   "say": "Slowly, the rain begins to soften. The pattering on the roof grows lighter, and then lighter still, until it's only a faint, whispering touch on the glass. The greenhouse is very quiet now. The light is low and golden. The plants are still. And you are still, too.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "The rain softens",
+    "sub": "Even quieter now"
+   }
+  },
+  {
+   "say": "You might find yourself drifting now, somewhere between awake and asleep. That's a lovely place to be. Thoughts become softer and slower. Sounds feel further away. Your body feels warm and far away, too. There's no need to stay awake for anything. If sleep comes, let it come.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Drifting",
+    "sub": "Half awake, half asleep"
+   }
+  },
+  {
+   "say": "Your breath carries on, slow and soft, all on its own. In, and out. You don't need to count it, or guide it. It's simply there, keeping you company, like the gentle rain, like the warm green air.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Breathing on",
+    "sub": "In, and out"
+   }
+  },
+  {
+   "say": "And when you're ready, though there's no hurry, you might notice that beyond the far door of the greenhouse, a path leads down through the wet grass toward the sound of water. A lake, perhaps, lying still in the evening. We'll wander there soon, slowly and gently. For now, simply rest here, a little longer, in the warm green quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "cap": "A path beyond",
+    "sub": "Soon, the water"
+   }
+  },
+  {
+   "say": "Look out across the water. It's so still now that it's almost like glass, reflecting every star, every tree on the shore, every faint wisp of cloud. Nothing disturbs it. Not a fish, not a breath of wind. Let your mind become like that surface. Smooth, and still, and calm, reflecting the quiet night back to itself.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The water's surface",
+    "sub": "Smooth as glass"
+   }
+  },
+  {
+   "say": "Just resting. Nothing more. The rain. The leaves. The warm air. Your slow breath. And the whole night ahead of you, long and quiet and kind.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Just resting",
+    "sub": "Nothing more"
+   }
+  }
+ ]
+}

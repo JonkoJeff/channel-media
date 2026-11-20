@@ -1,0 +1,156 @@
+{
+ "id": "lf47_b23",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The rain has passed. You leave the moss garden and follow a narrow path out onto a wide meadow on the hillside. The grass here is long and soft, still a little damp, and it brushes gently against your legs as you walk. The clouds have cleared completely, and above you the whole sky has opened up, vast and deep and full of stars.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "n": 23,
+    "title": "A meadow under the stars"
+   }
+  },
+  {
+   "say": "In the middle of the meadow, there's a thick, soft blanket spread out on the grass, with a pillow at one end, as if someone had laid it out just for you. You lie down on it. The ground beneath is soft and gives a little. The air is cool on your face, but the blanket is warm, and you pull its edges around you.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "A soft place to lie",
+    "sub": "A blanket in the grass"
+   }
+  },
+  {
+   "say": "Look up. The sky stretches from one edge of the world to the other. So many stars. Some bright and steady, some faint and trembling. A pale band of light runs across the middle, the soft glow of countless distant stars, too far away to see one by one. It's so big and so quiet. And you are lying here, small and warm and safe, beneath it all.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "The whole sky",
+    "sub": "Wide and endless"
+   }
+  },
+  {
+   "say": "Listen. In the grass all around you, crickets are singing. A soft, steady chirping, rising and falling, sometimes many together, sometimes just one or two. It's a sound of summer nights, of long warm evenings, of rest after a long day. Let it fill your ears. Let it become the background of your breath.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "The sounds of the meadow",
+    "sub": "Crickets, softly"
+   }
+  },
+  {
+   "say": "Breathe slowly, and let each breath feel wide and open, like the sky above you. In, slowly, filling yourself with the cool night air. Out, slowly, letting go of everything you don't need. In, and out. The crickets sing. The stars shine. And you breathe.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Breathing with the meadow",
+    "sub": "Slow and wide"
+   }
+  },
+  {
+   "say": "A gentle breeze moves across the meadow, and the long grass sways around you, whispering softly. It bends and rises, bends and rises, in slow waves, like a green sea under the starlight. The breeze is cool, but you're warm in your blanket. Cozy and safe, in the middle of the great quiet night.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b23_01.jpg",
+    "cap": "A meadow under the stars"
+   }
+  },
+  {
+   "say": "Feel your body resting on the earth. Every part of you heavy and relaxed. Your heels sinking a little into the soft ground. Your legs, your hips, your back, your shoulders, all resting on the earth. The earth is very old, and very patient, and very strong. It's been holding everything up for a very long time. It can hold you all night long.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "cap": "Your body",
+    "sub": "Melting into the earth"
+   }
+  },
+  {
+   "say": "The earth holds the meadow. The meadow holds the blanket. The blanket holds you. You don't need to hold anything up tonight. Not your body. Not your thoughts. Not your worries. All of it can rest on the earth, and the earth won't mind at all.",
+   "show": {
+    "type": "quote",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "text": "The earth has been holding everything up for a very long time. It can hold you all night.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "Remember how the stars slowly turn across the sky, as the earth turns beneath them. Right now, lying here, you're being carried, very gently, through the night. Around and around, slowly, toward morning. You don't have to do anything to make it happen. The whole earth is carrying you.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The stars move slowly",
+    "sub": "Carried through the night"
+   }
+  },
+  {
+   "say": "Notice how few thoughts there are now. Just a faint one now and then, drifting through like a cloud, far off at the edge of the sky. And between them, wide, quiet spaces, as wide as the sky itself. Let those spaces grow. Let your mind become as open and quiet as the night above you.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "Fewer thoughts",
+    "sub": "Wider spaces"
+   }
+  },
+  {
+   "say": "The crickets' song seems to slow down, and grow softer, as the night grows deeper. Fewer voices now. Longer pauses between them. Like the meadow is drifting off to sleep, one cricket at a time. And you're drifting with it, softer and slower, deeper and deeper.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "The crickets slow",
+    "sub": "Softer and softer"
+   }
+  },
+  {
+   "say": "You might feel as though you're drifting up, ever so gently, toward the stars. Light and free, floating in the cool, dark air. Or you might feel as though you're sinking down, into the warm, soft earth. Either feeling is fine. Both are simply sleep, coming closer.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Drifting off",
+    "sub": "Into the stars"
+   }
+  },
+  {
+   "say": "You don't need to try to sleep. Sleep isn't something you do. It's something that comes, on its own, when everything else has been set down. And you've set almost everything down now. So you can just wait, and rest, and let it come, in its own time.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Let sleep come",
+    "sub": "No need to try"
+   }
+  },
+  {
+   "say": "The crickets sing on, softly, and the stars shine on, quietly. Neither of them needs you to listen or to watch. But they're keeping you company, all the same. Gentle sounds, gentle lights, all around you, in the warm, dark night.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Crickets and stars",
+    "sub": "Keeping you company"
+   }
+  },
+  {
+   "say": "Soon, we'll make one last gentle journey, the shortest of all. Back home, to your own room, your own bed, and your own soft pillow. But for now, stay here a little longer, in the starlit meadow, warm in your blanket, as the crickets sing softly and the earth carries you through the night.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "bedroom_night",
+    "cap": "One last journey",
+    "sub": "Home again"
+   }
+  }
+ ]
+}

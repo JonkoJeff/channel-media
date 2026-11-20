@@ -1,0 +1,172 @@
+{
+ "id": "lf47_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine you're shown a short film. No actors, no words, no music. Just a large triangle, a small triangle, a little circle, and a rectangle with a flap that opens and closes like a door. The shapes move around for about two and a half minutes. And then someone asks you a simple question. What happened?",
+   "show": {
+    "type": "chapter",
+    "sprite": "N11",
+    "bg": "street_day",
+    "n": 2,
+    "title": "Triangles with feelings"
+   }
+  },
+  {
+   "say": "You might expect people to answer plainly. A big triangle moved left. A small circle moved right. Something like a description of geometry. But that is almost never what people say. Instead, people tell a story. And the story is usually full of feelings.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "autumn_overlook",
+    "cap": "A plain question",
+    "sub": "What did you see?"
+   }
+  },
+  {
+   "say": "A film like this really exists. It was made in the early 1940s by two psychologists, Fritz Heider and Marianne Simmel, at Smith College in Massachusetts, and they published their study in 1944 in the American Journal of Psychology. They showed the film to students and asked them to write down what they had seen.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "who": "Heider & Simmel, 1944",
+    "where": "Smith College, USA",
+    "what": "Students watched a short animated film of two triangles, a circle and a box with a door, then described what happened. Nearly all of them described the shapes as characters with goals and feelings."
+   }
+  },
+  {
+   "say": "Almost every student wrote about the shapes as though they were people. The big triangle was often described as a bully, aggressive and jealous. The small triangle and the circle were often seen as a pair, perhaps friends, perhaps a couple. The big triangle chased them. They escaped. The big triangle, trapped in the box, smashed its way out in anger.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "What people wrote",
+    "sub": "A bully, a couple, a chase"
+   }
+  },
+  {
+   "say": "Think about how remarkable that is. There was nothing on the screen but flat shapes on a white background. No faces. No voices. No eyes. And yet the students saw intention, emotion, courage and spite. The story wasn't in the film. The story was in the minds of the people watching it.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cafe_sunset",
+    "text": "Nothing on the screen was angry. The anger was in the people watching.",
+    "by": "on Heider & Simmel, 1944"
+   }
+  },
+  {
+   "say": "Heider and Simmel did find a few students who described the film mainly in terms of movements and shapes. But they were the exception, and it seemed to take an effort. For most people, seeing a story was not a choice they made. It simply happened, quickly and without being asked.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Only a few exceptions",
+    "sub": "Geometry was the hard way"
+   }
+  },
+  {
+   "say": "This is one of the most quietly important findings in psychology. It suggests that the human mind doesn't wait for a story to be handed to it. When things move in ways that look purposeful, the mind supplies the purpose. Movement becomes motive. A shape that moves toward another becomes a shape that wants something. And once something wants something, you have the beginning of a story.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "living_room_day",
+    "cap": "Why it matters",
+    "sub": "Motion becomes motive"
+   }
+  },
+  {
+   "say": "Researchers have used versions of this film, and new animations like it, many times since. They've been used to study how children come to understand other minds, and how people differ in the way they read social situations. The basic finding has held up well. Give people moving shapes, and most of them will give you characters.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b02_01.jpg",
+    "cap": "Simple shapes, endless stories"
+   }
+  },
+  {
+   "say": "You've probably done this too, without noticing. Hana did it this evening. Walking home, she watched a plastic bag tumbling along the pavement in the wind. It skittered forward, paused against a lamppost, then seemed to hurry off again, as though it had changed its mind. For a second, she thought of it as nervous. Of course, it was only a bag. But that second, that tiny flicker of a character, is the same thing Heider and Simmel saw in their students.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cafe_sunset",
+    "cap": "Hana at the window",
+    "sub": "A plastic bag in the wind"
+   }
+  },
+  {
+   "say": "Why might a mind work like this? One common idea in psychology is that, for our ancestors, it mattered enormously to know who wanted what. Is that rustle in the grass a creature with a plan, or just the wind? Is that person approaching to help, or to harm? A mind that leaned toward seeing intentions, even when there were none, might sometimes be wrong, but it would rarely be caught off guard.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Why would minds do this?",
+    "sub": "Better safe than sorry"
+   }
+  },
+  {
+   "say": "It's worth being careful here. That evolutionary explanation is a reasonable idea, and many researchers find it convincing, but it's hard to test directly. What we can say with confidence is the simpler thing. People, across many studies, readily see intentions and stories in movement. Why exactly we're like this is still being discussed.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "autumn_overlook",
+    "cap": "A careful note",
+    "sub": "An idea, not a proof"
+   }
+  },
+  {
+   "say": "So here's what the triangle film shows us. We see goals in motion. We add feelings that aren't there. We join separate events into causes and effects. And all of this happens fast, easily, and mostly without our asking it to.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "title": "What the triangle film shows",
+    "items": [
+     "We see goals in motion",
+     "We add feelings that aren't there",
+     "We join events into causes",
+     "It happens fast and easily"
+    ]
+   }
+  },
+  {
+   "say": "Now think again about Hana's book. The woman in it is made of nothing but ink on paper. She is, in a sense, even simpler than a moving triangle. She doesn't move at all. And yet Hana is worried about her. Hana wants her to be all right. That same story-making mind that saw a nervous plastic bag is now giving a woman made of words a whole inner life.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Back to Hana's book",
+    "sub": "A woman who doesn't exist"
+   }
+  },
+  {
+   "say": "This tendency is a wonderful gift. It's part of why we can enjoy novels, films and plays, and why we can care about people we've never met. But it can also lead us astray. If we're so quick to see intentions, we might sometimes see them where there are only accidents. A colleague forgets to reply to an email, and we see a snub. A traffic light turns red as we arrive, and the whole day seems to be against us.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "street_day",
+    "cap": "It works both ways",
+    "sub": "A gift and a trap"
+   }
+  },
+  {
+   "say": "Most of the time, that's harmless. But it can help, now and then, to pause and ask a simple question. Did someone really mean this, or did it just happen? It's a small question, but it gives the logical way of thinking a chance to speak, alongside the storyteller.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle check",
+    "sub": "Is there really a plan?"
+   }
+  },
+  {
+   "say": "And here's where it gets stranger still. The story-making mind doesn't only explain triangles, plastic bags and other people. It also explains us, to ourselves. Sometimes, it seems, it explains things it doesn't actually know, and does so with total confidence. To see how, we need to visit a remarkable set of patients whose two brain hemispheres could no longer talk to each other.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "Even inside ourselves",
+    "sub": "The storyteller turns inward"
+   }
+  }
+ ]
+}

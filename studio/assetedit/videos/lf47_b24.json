@@ -1,0 +1,156 @@
+{
+ "id": "lf47_b24",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The meadow slopes gently down toward an old wooden house at its edge, with a deep porch along its front. A soft yellow light glows in one window. On the porch, between two posts, hangs a wide hammock, piled with cushions and a light blanket. It sways very slightly in the night breeze, as if it's already rocking someone to sleep.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "n": 24,
+    "title": "A porch on a summer night"
+   }
+  },
+  {
+   "say": "You climb the three wooden steps to the porch, and lower yourself carefully into the hammock. It cradles you, wrapping around your shoulders and hips, holding all of you at once. You pull the blanket over yourself. And the hammock begins to sway, gently, back and forth, back and forth, slow as a breath.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Into the hammock",
+    "sub": "Swaying gently"
+   }
+  },
+  {
+   "say": "Let the rocking carry you. Back, and forth. Back, and forth. Slow and steady and soothing. It's the oldest way of falling asleep there is. Babies are rocked to sleep. Boats rock sailors to sleep. And now, a hammock on a quiet porch is rocking you to sleep. You don't need to do anything at all.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "cap": "The rocking",
+    "sub": "Back and forth"
+   }
+  },
+  {
+   "say": "The night air is warm and soft here, with just a hint of coolness. It smells of cut grass and honeysuckle and the faint, sweet smell of a summer evening. Somewhere nearby, a moth flutters softly against the window glass, drawn by the light, and then drifts away into the dark.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "The summer night",
+    "sub": "Warm and soft"
+   }
+  },
+  {
+   "say": "Let your breath fall into rhythm with the hammock. As it swings one way, breathe in, slowly. As it swings back, breathe out, slowly. In, and out. Back, and forth. Your breath and the hammock and the night, all moving together, slow and gentle and calm.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Breathing with the hammock",
+    "sub": "In, and out"
+   }
+  },
+  {
+   "say": "Out beyond the porch, the meadow lies silver under the stars, and the dark shapes of trees stand quietly at its edges. Fireflies drift here and there above the grass, tiny green-gold lights, blinking on and off, slowly, softly, like little thoughts appearing and disappearing in a sleepy mind.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b24_01.jpg",
+    "cap": "A hammock on the porch"
+   }
+  },
+  {
+   "say": "Feel how completely the hammock holds you. Your head, your shoulders, your back, your hips, your legs. Every part of you supported, wrapped, cradled. There's nothing to brace against, nothing to hold up. You can let every muscle soften, all at once, and let the hammock take everything.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Your body",
+    "sub": "Cradled completely"
+   }
+  },
+  {
+   "say": "Back and forth, back and forth. The oldest way of falling asleep. Gentle, steady, and safe. The hammock knows what to do. The night knows what to do. Your body knows what to do. All you have to do is let it happen.",
+   "show": {
+    "type": "quote",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "text": "Back and forth, back and forth. The oldest way of falling asleep.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "Watch the fireflies, if you like, or simply imagine them. Little lights, blinking on, and off. On, and off. Slowly drifting through the warm night air. They don't hurry. They don't follow any path. They simply float, and glow, and fade, and glow again.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Fireflies",
+    "sub": "Little lights, coming and going"
+   }
+  },
+  {
+   "say": "Behind you, the old house is quiet. Everyone inside is asleep. The floorboards have stopped creaking. The kitchen is dark. The clock on the mantelpiece ticks softly in an empty room. The whole house is resting, and it shelters you, here on its porch, like an old friend keeping watch.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "bedroom_night",
+    "cap": "The house behind you",
+    "sub": "Safe and sleeping"
+   }
+  },
+  {
+   "say": "Slowly, the hammock's swaying grows smaller, and gentler, until it's barely moving at all. Just the faintest rocking now, so soft you can hardly feel it. Like the last ripples on a pond. Like the last breath of wind before stillness. You're almost perfectly still. And so is the night.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Slower now",
+    "sub": "The swaying fades"
+   }
+  },
+  {
+   "say": "Let yourself drift further now. Further into the soft, warm dark. Away from the porch, away from the meadow, away from everything, into the quiet place where sleep lives. It's not far. It's very close now. Just a few more slow breaths away.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "cap": "Drifting further",
+    "sub": "Into sleep"
+   }
+  },
+  {
+   "say": "There's nothing left to do tonight. Nothing left to think about. Nothing left to follow. Only rest. Only the warm, dark, gentle quiet. And your own slow breath, carrying you down into sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Nothing left",
+    "sub": "Only rest"
+   }
+  },
+  {
+   "say": "Feel the warm summer air on your skin. Soft and mild, like a light blanket all of its own. It touches your face, your hands, your arms, gently, and then moves on. It carries the smell of grass and flowers and the faint coolness of the night. Breathe it in, slowly. Let it out, slowly.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Warm summer air",
+    "sub": "Soft on your skin"
+   }
+  },
+  {
+   "say": "And beyond the porch, at the bottom of the meadow, there's an old orchard, its trees white with blossom, glowing faintly in the starlight. Among them, a small tent glows with the light of a single lantern. When you're ready, there's no hurry at all, we'll drift down there together.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "An orchard beyond",
+    "sub": "Blossom in the dark"
+   }
+  }
+ ]
+}

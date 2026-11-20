@@ -1,0 +1,188 @@
+{
+ "id": "lf47_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Imagine sitting around a fire on a warm night, far from any city. The day's work is done. The sky is huge and full of stars. Children are curled up against the adults. Someone begins to talk, slowly, about something that happened long ago. And everyone, even the people who've heard it before, goes quiet to listen.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "n": 14,
+    "title": "Stories by firelight"
+   }
+  },
+  {
+   "say": "The anthropologist Polly Wiessner, at the University of Utah, spent many years living and working with the Ju/'hoansi, a people of the Kalahari region in southern Africa, who until recent decades lived mainly by hunting and gathering. And she became interested in a simple question. Do people talk about different things during the day than they do at night, around the fire?",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Day talk and night talk",
+    "sub": "Does the time change the talk?"
+   }
+  },
+  {
+   "say": "In a study published in 2014 in the Proceedings of the National Academy of Sciences, she compared conversations recorded during the day with conversations recorded around the fire at night. The difference was striking.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "who": "Wiessner, 2014",
+    "where": "Ju/'hoansi communities, Kalahari, southern Africa",
+    "what": "Recorded conversations during the day and around the fire at night were compared. Daytime talk was mostly practical matters and complaints; night talk around the fire was mostly stories."
+   }
+  },
+  {
+   "say": "During the day, conversations were mostly practical. Plans, work, complaints and criticism, the business of getting along. Only about six percent of daytime conversations were stories. But at night, around the fire, about eighty-one percent of conversations were stories. Tales about people known and unknown, about the past, about the spirit world, and about things that had happened to the tellers themselves.",
+   "show": {
+    "type": "bars",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "title": "Wiessner, 2014",
+    "unit": "% of conversations that were stories",
+    "bars": [
+     [
+      "Daytime",
+      6.0
+     ],
+     [
+      "Firelight at night",
+      81.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Wiessner suggested that firelight changed what people could do with their evenings. Once the practical work of the day was over, the dark hours around the fire became a time for something else. For imagination, for remembering people who weren't there, for passing on what the group knew about how to live together. Firelight, she argued, may have played a part in the history of human storytelling.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cafe_sunset",
+    "text": "By day, people solved problems. By firelight, they told stories.",
+    "by": "on Wiessner, 2014"
+   }
+  },
+  {
+   "say": "Another study, published in 2017 in Nature Communications by Daniel Smith and colleagues at University College London, looked at the Agta, a hunter-gatherer people in the Philippines. They found that many Agta stories carry messages about cooperation, fairness and getting along. And people who were known as skilled storytellers were more often chosen by others as people they'd like to live alongside.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "Good storytellers",
+    "sub": "Valued by the group"
+   }
+  },
+  {
+   "say": "These studies come from particular communities, and it would be a mistake to treat any one people as a window onto all of human history. The researchers themselves are careful about that. But they offer a lovely, grounded glimpse of what stories can do for a group. They carry knowledge, they spread shared values, and they bring people together at the end of the day.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "autumn_overlook",
+    "cap": "A careful note",
+    "sub": "Small groups, big ideas"
+   }
+  },
+  {
+   "say": "And in a way, many of us still do this. The fire has become a reading lamp, a television, a phone screen, or a friend's voice on a late call. But evenings still tend to be when we turn to stories. A film after dinner. A chapter in bed. A podcast on the way to sleep. Perhaps there's something very old in that habit.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "Our own firelight",
+    "sub": "Lamps and screens"
+   }
+  },
+  {
+   "say": "Even our ordinary daytime conversations are full of stories about people. In 1997, the British psychologist Robin Dunbar and his colleagues listened in on conversations in public places, like cafés and university common rooms. They found that about two-thirds of conversation time was spent on social topics. Who did what, with whom, and what it meant. In other words, small stories about people.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "street_day",
+    "cap": "Most talk is about people",
+    "sub": "Even today"
+   }
+  },
+  {
+   "say": "So perhaps it isn't strange at all that Hana remembers Ruben's dog and forgets thirty slides. Her brain may be built for exactly this. For following people, their wants, their troubles, and what changes. For listening, as people have listened by firelight for a very, very long time.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b14_01.jpg",
+    "cap": "Gathered around the fire"
+   }
+  },
+  {
+   "say": "So let's gather it all together, gently. We see stories everywhere, even in moving shapes. We explain ourselves to ourselves in stories. Stories help hold memories, and they also reshape them. When we follow a story, our brains move in step with the teller. Stories can shift our beliefs. Detailed stories can feel more convincing than they should. Journeys often matter more than endings. Fiction may be a kind of practice for understanding other people. And night has long been a time for stories.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "autumn_overlook",
+    "title": "What we've learned tonight",
+    "items": [
+     "We see stories everywhere",
+     "We explain ourselves in stories",
+     "Stories hold memories",
+     "And reshape them",
+     "Brains move together in a story",
+     "Stories move beliefs",
+     "Details feel convincing",
+     "Endings matter less than journeys",
+     "Fiction is practice",
+     "Night is for stories"
+    ]
+   }
+  },
+  {
+   "say": "And here are a few gentle ideas to take with you. If you want to remember something, try placing it inside a story. If a story is changing your mind, enjoy it, then step back afterward and ask what the wider facts say. If a story about yourself feels harsh, remember it's a story your mind is telling, not a fact carved in stone. And if a book is keeping you up, try stopping in the middle of a chapter.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "A few gentle ideas",
+    "sub": "To take with you"
+   }
+  },
+  {
+   "say": "And Hana does. Halfway through chapter fourteen, in the middle of a quiet scene where nothing much is happening, she slides a bus ticket between the pages as a bookmark and closes the book. It feels strangely easy. The woman in the story will still be there tomorrow, holding her letter, waiting.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Back to Hana",
+    "sub": "Halfway through a chapter"
+   }
+  },
+  {
+   "say": "As she reaches for the lamp, Hana thinks once more about Ruben's dog trotting up to the little boy, and smiles. She doesn't know it, but her mind has already started making it a slightly better story. Tomorrow, the garden center will be a little bigger, and the boy a little smaller. That's all right. That's what minds do with stories they love.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "cap": "Ruben's dog",
+    "sub": "One last smile"
+   }
+  },
+  {
+   "say": "And now, it's our turn to put the book down. We've spent a long time with stories tonight, with triangles and ghosts, juries and firelight. Now we'll let the pace slow right down. In a moment, I'll guide you into a long, gentle wind-down. A few slow breaths, and then some quiet places to rest in, one after another, like the pages of a story that doesn't need to be followed.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "cap": "And now, for us",
+    "sub": "Time to slow down"
+   }
+  },
+  {
+   "say": "You don't have to remember anything from tonight. Every idea we've explored will still be there tomorrow, if you want it. For now, there's nothing left to learn, and nothing left to figure out. Let's begin to rest.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "Settling down",
+    "sub": "Nothing left to figure out"
+   }
+  }
+ ]
+}

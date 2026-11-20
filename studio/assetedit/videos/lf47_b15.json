@@ -1,0 +1,186 @@
+{
+ "id": "lf47_b15",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's settle in properly now. Let your shoulders drop a little, away from your ears. Let your jaw loosen, and let your tongue rest softly in your mouth. There's no story to follow now, and nothing to keep track of. Whatever chapter your day ended on, it can wait until tomorrow. For now, we're simply resting.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "n": 15,
+    "title": "Settling in"
+   }
+  },
+  {
+   "say": "Begin with a slow breath in through your nose. Not a big one, just an easy, natural breath, the kind your body already knows how to take. Feel the air cool as it enters, and feel your chest and belly rise a little. Then let it go. Slowly, without any push. Let the breath leave on its own, like a page settling after it's turned.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "A slow breath in",
+    "sub": "Soft and easy"
+   }
+  },
+  {
+   "say": "Now let each breath out be a little longer than the breath in. In for a gentle count of four, and out for a gentle count of six, or whatever feels comfortable. If counting feels like work, let it go. Just let the out-breath stretch. And with every breath out, imagine you're setting down something small that you carried today. A worry. A task. A thought you don't need right now.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "A longer breath out",
+    "sub": "Longer than the breath in"
+   }
+  },
+  {
+   "say": "Bring your attention, slowly, to your feet. Notice how they feel, right now. Warm or cool. Resting against the sheets, or the floor, or each other. Let them grow heavy. Imagine they're sinking, just a little, into whatever is beneath them. There's nowhere they need to walk tonight. Nowhere they need to carry you. They can simply rest.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Your feet",
+    "sub": "Heavy and warm"
+   }
+  },
+  {
+   "say": "Now let that heaviness drift upward, into your ankles, your calves, your knees. Let the muscles there soften, the way snow softens on a mild evening. Your thighs, too. Let them sink. Let them be supported. You don't need to hold your legs in place. Whatever is beneath you is holding them for you.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Your legs",
+    "sub": "Letting go"
+   }
+  },
+  {
+   "say": "Let your attention move slowly to your belly, rising and falling with each breath. You don't need to control it. It knows how to breathe. Let your lower back soften against the bed. Then the middle of your back. Then the space between your shoulder blades. With each breath out, let a little more of your weight be held by the bed beneath you.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Your back and belly",
+    "sub": "Breathing on its own"
+   }
+  },
+  {
+   "say": "Now your hands. Let your fingers uncurl, if they're curled. Let your palms rest, open or closed, whatever feels easier. Feel a gentle warmth spreading from your fingertips into your wrists, your forearms, your elbows. Your upper arms. Your shoulders, which have done so much today. Let them drop just a little further. There's nothing to hold anymore.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "Your hands and arms",
+    "sub": "Open and loose"
+   }
+  },
+  {
+   "say": "There's nothing left to follow now. No plot, no characters, no next chapter. Only your breath, coming and going, and a body that's slowly growing heavier and more comfortable.",
+   "show": {
+    "type": "quote",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "text": "There's nothing left to follow. Only breath, and rest.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "Let your attention drift up to your face. Let your forehead smooth out, as if a warm hand were resting gently on it. Let the small muscles around your eyes go soft. Let your cheeks relax. Let your lips part a little, if they want to. Your whole face can rest now. It doesn't need to show anything to anyone.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Your face",
+    "sub": "Smooth and soft"
+   }
+  },
+  {
+   "say": "Now, let's imagine a quiet place. You're sitting in a small, warm compartment on a night train. Outside the window, snowy countryside drifts slowly past, pale under a soft grey sky. The compartment is lit by a single small lamp. There's a blanket over your knees, and the seat beneath you is deep and soft.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b15_01.jpg",
+    "cap": "A train through the snowy night"
+   }
+  },
+  {
+   "say": "Listen to the rhythm of the train. A soft, steady sound, over and over. The wheels on the rails. It doesn't hurry. It doesn't change. It simply carries on, through the night, the way your breath carries on. In, and out. Steady, and slow. You don't need to do anything to keep the train moving. It's moving on its own.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "The rhythm of the rails",
+    "sub": "Steady and slow"
+   }
+  },
+  {
+   "say": "Every so often, a small light passes in the distance. A farmhouse window, glowing warm and yellow, far across a snowy field. Then it's gone, and there's only the soft white of the land and the dark line of the trees. Then, after a while, another light, and another. Each one a little home where someone else is settling down for the night, too.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "Small lights outside",
+    "sub": "Passing farmhouses"
+   }
+  },
+  {
+   "say": "You don't know exactly where this train is going, and you don't need to. There's no timetable to check, no station you must watch for. Someone else is looking after the journey. All you have to do is sit, warm and heavy, and let the night pass by the window.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Nowhere to be",
+    "sub": "The journey is enough"
+   }
+  },
+  {
+   "say": "Outside, a few flakes of snow begin to fall, drifting past the glass in slow, wandering lines. They catch the light from your little lamp for a moment, and then disappear into the dark. Soft and quiet. Each one landing somewhere out there, without a sound, on fields and roofs and branches.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The snow keeps falling",
+    "sub": "Soft and quiet"
+   }
+  },
+  {
+   "say": "Notice how heavy your body feels now. Your arms, your legs, your shoulders. Sinking into the soft seat, or the soft bed, wherever you really are. Let that heaviness be welcome. It means you're resting. It means your body is doing exactly what it needs to do.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "Heavier now",
+    "sub": "Sinking into the seat"
+   }
+  },
+  {
+   "say": "Let your breath fall into rhythm with the train, if it wants to. In, with the sound of the rails. Out, with the sound of the rails. Slow and steady. There's nothing to think about. If a thought drifts in, let it drift past, like a farmhouse light across a field. Then let it go.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "Breathing with the train",
+    "sub": "In, and out"
+   }
+  },
+  {
+   "say": "Take one more slow breath now. In through the nose, soft and cool. Out through the mouth, or the nose, whichever feels easier, warm and long. And notice how each breath out leaves you a little softer than the one before. A little heavier. A little more ready to rest. There's no need to count how many. Just let each one be a little gentler than the last.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "Breath by breath",
+    "sub": "Softer each time"
+   }
+  },
+  {
+   "say": "The train carries you on, through the snow and the quiet dark. Warm, heavy, and safe. And as it travels, the countryside slowly changes, and somewhere ahead, the snow begins to soften into rain. We'll follow it there, gently, in a little while.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Drifting on",
+    "sub": "The night carries you"
+   }
+  }
+ ]
+}

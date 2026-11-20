@@ -1,0 +1,156 @@
+{
+ "id": "lf47_b20",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The path rises gently from the stream, winding up through the last of the pine trees and out onto a low, grassy hill. The air is cool and clear. At the top of the hill stands an old round building of pale stone, with a great curved dome for a roof. A small door stands open, and a soft light glows inside.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "n": 20,
+    "title": "An old observatory"
+   }
+  },
+  {
+   "say": "You step inside. It's a round room, quiet and dim, with a wooden floor worn smooth by many years of footsteps. In the middle stands an old brass telescope, pointing up toward a long, open slit in the dome, through which you can see a strip of night sky full of stars. Around the walls, there are old wooden cabinets and a few soft cushions on a low bench.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Stepping inside",
+    "sub": "A round, quiet room"
+   }
+  },
+  {
+   "say": "You lie back on the bench, among the cushions, and pull a blanket over yourself. From here, you can look straight up through the open dome, at the stars. The bench is soft and comfortable. The room is quiet. The only sounds are the faint whisper of the wind across the hill outside, and your own slow breath.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "A low bench",
+    "sub": "Lying back"
+   }
+  },
+  {
+   "say": "Look up at the stars through the opening in the dome. They seem perfectly still. But if you could watch them all night, you'd see them slowly turning across the sky, as the earth turns beneath them. A slow, endless movement, too gentle to notice, carrying you and the hill and the whole sleeping world softly through the night.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "The stars above",
+    "sub": "Slowly turning"
+   }
+  },
+  {
+   "say": "People have always seen stories in the stars. Long ago, they joined the bright points into shapes, a hunter, a bear, a swan, a crown, and told stories about them on dark nights. The same story-making mind we talked about earlier, looking up and seeing characters among the lights. But tonight, you don't need to see any shapes at all. The stars can simply be stars.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Old stories in the stars",
+    "sub": "Shapes in the dark"
+   }
+  },
+  {
+   "say": "Let your eyes rest on the stars, or let them close. Either way, the stars are there, quiet and patient. They don't need you to name them, or count them, or understand them. They simply shine, and you simply rest beneath them.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b20_01.jpg",
+    "cap": "Starlight through the dome"
+   }
+  },
+  {
+   "say": "Let your breathing become as slow as the turning sky. A long, easy breath in. A longer, easier breath out. Nothing to push, nothing to hold. Each breath out lets you sink a little deeper into the cushions, and into the quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Breathing slowly",
+    "sub": "Like the turning sky"
+   }
+  },
+  {
+   "say": "The stars are turning slowly, so slowly that you can rest inside the turning. The whole world is moving gently through the night, and you're moving with it, without having to do a thing. Carried, softly, toward morning.",
+   "show": {
+    "type": "quote",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "text": "The stars are turning slowly. So slowly, you can rest inside the turning.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "You may notice a strange, pleasant feeling now. Your body feels heavy, sinking into the bench, and yet somehow light too, as if it might float up toward the stars. Both feelings can be there at once. Heavy and light. Still and drifting. That's simply what deep rest feels like.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Your body",
+    "sub": "Light and heavy at once"
+   }
+  },
+  {
+   "say": "Across the strip of sky above you, a shooting star slides by. A soft, silent streak of light, there and then gone. You don't need to make a wish. There's nothing you need tonight. You can simply notice it, and let it fade, and go on resting.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "bedroom_night",
+    "cap": "A shooting star",
+    "sub": "A soft streak of light"
+   }
+  },
+  {
+   "say": "Outside, the wind moves gently across the grass of the hill, a soft, steady whisper. It brushes against the stone walls and passes on. It's a lonely, lovely sound, and in here, warm beneath your blanket, it only makes you feel more sheltered, more cozy, more ready to sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "The wind on the hill",
+    "sub": "A soft whisper"
+   }
+  },
+  {
+   "say": "Let go now of the whole day. Of the hours and the tasks, the conversations and the stories. Let them drift up through the open dome and out among the stars, getting smaller and fainter, until they're no more than tiny points of light, very far away. They don't need you tonight. And you don't need them.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Letting go",
+    "sub": "Of the whole day"
+   }
+  },
+  {
+   "say": "Deeper and deeper into the quiet. Your breath slow. Your body heavy. Your mind soft and wide and still, like the night sky. Any thoughts that come are faint and distant, like faraway stars, and you can let them stay there, far away.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Deeper and deeper",
+    "sub": "Into the quiet"
+   }
+  },
+  {
+   "say": "On the harbor wall, a single gull stands on one leg, its head tucked under its wing, fast asleep. Every so often, a breath of wind ruffles its feathers, and it shifts a little, and settles again. It isn't worried about tomorrow. It isn't thinking about today. It's simply sleeping, here, by the sea, the way you soon will be.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "A gull, asleep",
+    "sub": "On the harbor wall"
+   }
+  },
+  {
+   "say": "Later, when the night has turned a little further, the path will lead gently down the far side of the hill, toward the sound of the sea, and a small sleeping village where lanterns glow along the harbor. But that's for later. For now, stay here, under the turning stars, warm and safe and still.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "cap": "Down the hill",
+    "sub": "Toward the sea"
+   }
+  }
+ ]
+}

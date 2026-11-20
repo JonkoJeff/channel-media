@@ -1,0 +1,156 @@
+{
+ "id": "lf47_b21",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The path winds slowly down the far side of the hill, through soft grass silvered by starlight. As you walk, you begin to hear the sea. A low, steady sound, rising and falling, far below. And then, around a bend in the path, you see it. A small village nestled around a curved harbor, its rooftops dark, its windows mostly asleep, and a row of warm lanterns glowing along the water's edge.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "n": 21,
+    "title": "A village by the sea"
+   }
+  },
+  {
+   "say": "You walk down into the village, along narrow cobbled streets. Everything is quiet. The shops are closed, their shutters drawn. A cat sits on a windowsill, watching you with sleepy eyes, then tucks its paws beneath it and closes them. Somewhere, a wind chime tinkles softly, once, and then is still.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Cobbled streets",
+    "sub": "Quiet and empty"
+   }
+  },
+  {
+   "say": "At the bottom of the street, you come to the harbor. Small fishing boats are moored along the wall, rocking very gently on the dark water, their ropes creaking softly now and then. The lanterns along the harbor wall cast pools of warm golden light on the cobbles, and long, wavering reflections on the water.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "The harbor",
+    "sub": "Boats asleep on the water"
+   }
+  },
+  {
+   "say": "There's a wooden bench by the harbor wall, with a thick blanket folded on it, and you sit down and wrap yourself in it. The blanket is warm and heavy and smells faintly of the sea. You lean back. The lantern above you glows softly. And in front of you, the whole harbor lies quiet under the stars.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "A bench by the water",
+    "sub": "Wrapped in a blanket"
+   }
+  },
+  {
+   "say": "Listen to the sea, beyond the harbor wall. A long, slow wave rolls in, rising and breaking softly on the stones, and then draws back with a long sigh. Then another. In, and out. In, and out. The oldest rhythm in the world. Let your breath follow it. Breathe in as the wave comes in. Breathe out as it slowly draws away.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The sound of the sea",
+    "sub": "In, and out"
+   }
+  },
+  {
+   "say": "Hana grew up by a sea like this one, long ago, before her family moved inland. Perhaps, somewhere in her sleep tonight, she'll hear it again. The waves, the boats, the gulls asleep on the harbor wall. Some stories, the old ones, the ones from childhood, stay with us very quietly, all our lives.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b21_01.jpg",
+    "cap": "Lanterns along the harbor"
+   }
+  },
+  {
+   "say": "Watch the little boats rocking on the water. Gently, gently, side to side. They've been out on the sea all day, and now they're home, tied up safe, resting until morning. Nothing more is asked of them tonight. Like the boats, you've come home from your day. You're tied up safe. You can rest until morning.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "The boats rock",
+    "sub": "Gently, gently"
+   }
+  },
+  {
+   "say": "Like the boats in the harbor, you've come home. There's no more sailing to do tonight, no more weather to watch, no more nets to haul. Just the gentle rocking, and the soft sound of the water, and the long, quiet hours before the dawn.",
+   "show": {
+    "type": "quote",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "text": "Like the boats in the harbor, you've come home. You can rest until morning.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "Feel how heavy and warm you are, wrapped in your blanket. Your feet. Your legs. Your hands, tucked into the folds. Your shoulders, your neck, your head. All of it resting. All of it held. The bench holds you. The village holds the bench. The quiet night holds the whole village.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Heavy and warm",
+    "sub": "Wrapped and held"
+   }
+  },
+  {
+   "say": "The lanterns along the harbor flicker gently, as a breath of sea air passes. Their golden light trembles on the water, breaks into tiny pieces, and comes together again. There's something soothing about watching it. Breaking and joining. Breaking and joining. Like breath. Like waves. Like the slow coming and going of sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "The lanterns flicker",
+    "sub": "Soft golden light"
+   }
+  },
+  {
+   "say": "Far out, beyond the mouth of the harbor, a lighthouse sweeps its slow beam across the dark sea. Round, and round. Steady and patient. Keeping watch all night long, so that everyone in the village can sleep. It's watching for you too. You can let it keep watch. You don't need to.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Far out at sea",
+    "sub": "A lighthouse beam"
+   }
+  },
+  {
+   "say": "Let yourself drift now into the sound of the sea. Let it fill all the space in your mind, soft and endless, until there's nothing left but the waves. In, and out. Coming, and going. No thoughts. No stories. Just the sea, the night and your breath.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "cap": "Drifting",
+    "sub": "Into the sound of the sea"
+   }
+  },
+  {
+   "say": "With each wave, you drift a little further from the shore of waking. Further into the deep, calm waters of rest. You don't need to swim. You don't need to float. The sea of sleep is gentle, and it carries you all by itself.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Deeper",
+    "sub": "Further from the shore"
+   }
+  },
+  {
+   "say": "Notice the colors of the garden, softened by the night. The deep green of the moss. The soft grey of the stones. The dark, still water of the pond. The warm gold of the lantern. All of them gentle, muted, calm. Nothing bright. Nothing loud. Just soft colors, resting in the soft rain.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Green and grey",
+    "sub": "Soft colors"
+   }
+  },
+  {
+   "say": "Behind the village, up a short flight of stone steps, there's a small, quiet garden, full of moss and old stones and a little lantern, where a soft rain sometimes falls. We'll go there next, slowly, when you're ready. But for now, stay here, by the harbor, wrapped in your blanket, and listen to the sea.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "bedroom_night",
+    "cap": "A garden up the hill",
+    "sub": "Moss and stone"
+   }
+  }
+ ]
+}

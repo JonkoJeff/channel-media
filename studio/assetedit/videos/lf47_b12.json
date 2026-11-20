@@ -1,0 +1,163 @@
+{
+ "id": "lf47_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "If someone asked Hana to tell them about her life, she wouldn't recite a list of facts. Born in this year, moved to this city, started this job. She would tell a story. About growing up by the sea, about the year her family moved inland, about how she fell into route planning almost by accident and found she loved it. A story with chapters, turning points and a sense of who she has become.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "n": 12,
+    "title": "The story of you"
+   }
+  },
+  {
+   "say": "The American psychologist Dan McAdams, at Northwestern University, has spent decades studying these life stories. He calls this narrative identity. The idea is that, as adults, we build an inner, evolving story of our lives, which joins together the remembered past and the imagined future. A story that tells us, and others, who we are, how we came to be this way, and where we might be going.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Narrative identity",
+    "sub": "A life told as a story"
+   }
+  },
+  {
+   "say": "To study this, McAdams and his colleagues developed something called the life story interview. People are asked to describe their life as if it were a book, with chapters. Then they're asked about key scenes. A high point. A low point. A turning point. An early memory. And researchers listen carefully, not just to what happened, but to how people tell it.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "autumn_overlook",
+    "cap": "The life story interview",
+    "sub": "Chapters and turning points"
+   }
+  },
+  {
+   "say": "One pattern they've paid close attention to is what McAdams calls a redemption sequence. A moment in a life story where something bad leads to something good. A difficult time that taught a lesson. A loss that led to a new beginning. A struggle that made someone stronger, or kinder, or wiser. The bad thing still happened, but in the telling, it leads somewhere.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "cafe_sunset",
+    "cap": "Redemption",
+    "sub": "Bad turning to good"
+   }
+  },
+  {
+   "say": "In a set of studies published in 2001, McAdams and his colleagues looked at life stories from both students and midlife adults. They found that people whose stories contained more redemption sequences tended to report greater well-being, on measures such as life satisfaction and self-esteem.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "who": "McAdams et al., 2001",
+    "where": "Northwestern University, USA",
+    "what": "Adults and students told stories about key scenes in their lives. People whose stories contained more redemption sequences, bad turning to good, tended to report higher well-being."
+   }
+  },
+  {
+   "say": "They also looked at the opposite pattern, which McAdams calls contamination. A moment where something good is spoiled, or ruined, by what follows. A happy day that ended in an argument. A success that turned sour. People whose stories contained more contamination sequences tended to report lower well-being, on average.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The opposite pattern",
+    "sub": "Good turning to bad"
+   }
+  },
+  {
+   "say": "It's important to be careful here. These are links, not proofs of cause. People who already feel well may find it easier to tell redemptive stories. And no one should feel pressured to find a silver lining in everything. Some hard things are simply hard. But the research does suggest that the way we tell our stories, and the way we feel, are closely connected.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "A careful note",
+    "sub": "Which comes first?"
+   }
+  },
+  {
+   "say": "There's a related line of research, which began with the American psychologist James Pennebaker. In 1986, he and his student Sandra Beall asked university students to write, for about fifteen minutes on four days in a row. Some wrote about a deeply upsetting experience in their lives, exploring their thoughts and feelings about it. Others wrote about everyday, neutral topics.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "Writing it down",
+    "sub": "An experiment from 1986"
+   }
+  },
+  {
+   "say": "Writing about difficult experiences was often upsetting at the time. But in the months afterward, the students who had written about both the facts of the experience and their feelings about it made fewer visits to the student health center than students in the comparison group. It was a surprising finding, and it launched a great deal of further research.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "who": "Pennebaker & Beall, 1986",
+    "where": "Southern Methodist University, USA",
+    "what": "Students wrote for about 15 minutes on 4 days, either about an upsetting personal experience or about neutral topics. Those who wrote about both the facts and their feelings visited the student health center less often in the following months."
+   }
+  },
+  {
+   "say": "Later, Pennebaker and his colleagues looked closely at what people actually wrote. In a study published in 1997, they found that the people who seemed to benefit most were often those whose writing changed over the days. They used more and more words like because, realize and understand. Words that join events together and give them meaning. In a sense, over four days, they were building a story.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "Forming a story",
+    "sub": "Words that join things"
+   }
+  },
+  {
+   "say": "Many later studies have explored this kind of expressive writing, and the effects found have generally been modest and variable from study to study. It's not a cure for anything, and it isn't right for everyone. But it adds to a gentle idea. Sometimes, turning a jumble of experiences into a story, with causes and meaning, seems to help people carry those experiences more lightly.",
+   "show": {
+    "type": "photo",
+    "file": "lf47_b12_01.jpg",
+    "cap": "A life, written down"
+   }
+  },
+  {
+   "say": "So here's what this research suggests. As adults, we build an evolving story of our lives. Redemption sequences, bad turning to good, tend to go with greater well-being. Contamination sequences tend to go with lower well-being. And forming a story from difficult experiences can sometimes help us carry them.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "title": "Stories about ourselves",
+    "items": [
+     "We build a life story",
+     "Redemption links to well-being",
+     "Contamination links to lower well-being",
+     "Making a story can help us carry things"
+    ]
+   }
+  },
+  {
+   "say": "Hana thinks about the year her family moved inland, away from the sea, when she was eleven. For years, she told it as a loss. She missed the beach, her friends, the smell of salt. But lately, she tells it differently. It was in the new town that she started cycling everywhere and learned every street and shortcut, the beginning of her love of routes and maps. The facts haven't changed. The story has.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Hana's story",
+    "sub": "The move inland"
+   }
+  },
+  {
+   "say": "You don't have to rewrite your life story tonight. But it can be interesting, sometimes, to notice how you tell it. Which chapters do you dwell on? Which turning points do you mention first? Are there parts that you've told one way for years, that might be told another way too? Not to pretend the hard parts away, but to see what else is there.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "street_day",
+    "cap": "A gentle invitation",
+    "sub": "Not forced, just noticed"
+   }
+  },
+  {
+   "say": "So we tell stories about triangles, about ghosts, about Linda, about our days, and about our whole lives. But there's one storyteller we haven't really looked at yet. The one that keeps talking in your head when nobody else is, on the bus, in the shower, and in bed at night.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "cap": "What comes next",
+    "sub": "Stories in your head"
+   }
+  }
+ ]
+}

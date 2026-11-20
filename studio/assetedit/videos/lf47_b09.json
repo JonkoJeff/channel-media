@@ -119,9 +119,11 @@
   {
    "say": "Think of the stories people return to again and again. Favorite films watched a dozen times. Childhood books read aloud until the pages come loose. Myths and legends told for thousands of years, whose endings everyone already knows. The pleasure isn't in not knowing. The pleasure is in the journey, and in being carried through it again.",
    "show": {
-    "type": "photo",
-    "file": "lf47_b09_01.jpg",
-    "cap": "Knowing the ending"
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "Knowing the ending",
+    "sub": "The journey, not the answer"
    }
   },
   {

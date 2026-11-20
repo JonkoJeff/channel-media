@@ -1,0 +1,46 @@
+@chapter N27 rooftop_dusk | The sweet spot of surprise
+Ines has noticed something about the song on the radio. The lift she loves isn't quite where she expects it. It arrives a little later than the pattern suggests, and in a slightly different key. Her mind keeps being nudged, and it enjoys the nudging.
+
+@char N02 living_room_day | Too predictable, too strange | A familiar problem
+Anyone who has heard a song that was too predictable knows the feeling. It's pleasant for a moment, and then it's a little dull. And anyone who has heard something far too complicated knows the opposite feeling. It's hard to hold on to, and the mind slips off. Somewhere between those two, there's a place where music feels just right.
+
+@char N19 cafe_sunset | An old idea | The inverted U
+Psychologists have long described this as an inverted U. In the 1970s, the researcher Daniel Berlyne, building on an idea from the nineteenth century, proposed that people like things best when they're moderately complex, neither too simple nor too confusing. If you drew liking on a graph, against how surprising something was, it would rise, peak, and fall again, like an upside-down U.
+
+@curve N11 autumn_overlook | Liking and surprise | How surprising | How much we like it | 0.5 | The sweet spot
+That's the shape a lot of research has found in music. A little surprise adds interest. Too much feels like noise.
+
+@char N10 cabin_fireplace | Testing it on real music | A big dataset
+For a long time, though, the idea was hard to test in a rigorous way, because nobody had a good measure of how surprising a given chord is. In 2019, a team led by Vincent Cheung and Stefan Koelsch at the Max Planck Institute in Leipzig found a clever way around that. They used a computer model to analyze an enormous collection of chords.
+
+@study N07 cafe_sunset | Vincent Cheung and colleagues | Current Biology, 2019 | Computer model of about 80,000 chords from 745 pop songs; listeners rated pleasure and brain activity was scanned
+They took the chord progressions of hundreds of popular songs, about eighty thousand chords in all, and calculated, for each chord, two things. How uncertain the situation was before it arrived, meaning how many chords could plausibly come next. And how surprising the actual chord was, given that uncertainty. Then they asked volunteers to listen and rate how much they liked what they heard, while a scanner tracked their brains.
+
+@char N23 living_room_day | The result | Both matter, together
+The pleasure wasn't predicted by uncertainty alone, or by surprise alone. It was predicted by the two together. The most pleasant moments were a surprising chord in a very predictable setting, or an expected chord in an uncertain one. The least pleasant were the combination of high uncertainty and high surprise, where the music had no clear direction and then did something odd.
+
+@char N29 rooftop_dusk | Why that makes sense | A reward for learning
+It makes a kind of intuitive sense. A surprise in a predictable context is a clear lesson. The brain thought it knew where things were going, found out otherwise, and can learn from the difference. A surprise in a confusing context teaches nothing, because there's no pattern to be wrong about.
+
+@photo lf48_b05_01.jpg | A stone path with a sudden turn
+Imagine a garden path you've walked a hundred times, always straight. One day it bends, and behind the bend is a small, bright clearing you never knew was there. You'd probably stop, and look, and feel a little thrill. It matters that you knew the path so well. A bend on an unfamiliar path would just be a bend.
+
+@char N18 street_day | The amygdala and hippocampus | Where the effect appeared
+The brain scans from that study showed activity in the amygdala, the hippocampus and the auditory cortex that followed the same pattern. These regions are linked with emotion, memory and hearing. The team's interpretation was that the pleasure of a chord comes partly from how it relates to what the brain has learned about music, stored in memory and checked against what's heard.
+
+@char N20 living_room_day | Another team, a similar idea | Gold and colleagues
+Another Montreal team, including Benjamin Gold and Robert Zatorre, published related work in the same year. They found that the nucleus accumbens, the reward region we met earlier, responded not only to pleasant music but to the difference between what listeners expected and what they heard. That kind of signal, a reward prediction error, is one the brain also uses for learning in other areas of life.
+
+@quote N27 rooftop_dusk | Music may be a reward for learning. | the idea behind several recent studies
+That led to a thought that many researchers find appealing. Music may feel good partly because it lets the brain practice what it does best, predicting the world and updating its predictions, in a setting where nothing is at stake.
+
+@char N10 cafe_sunset | An honest limit | Not a full explanation
+This is a promising idea, but it isn't the whole story. A theory based on prediction explains a lot about harmony and melody, but less about timbre, lyrics, memory and shared experience. And not every chill follows a surprising chord. Some come from a voice, or a lyric, or a memory the piece happens to touch.
+
+@char N02 autumn_overlook | What Ines notices | A change of key
+Back at the sink, Ines realizes that the lift she loves is a change of key, a shift upward that the song has been quietly preparing. It's one of the oldest tricks in popular music. And knowing that doesn't spoil it at all. If anything, it makes her enjoy the next listen a little more.
+
+#ai lf48_b05_01.jpg | A winding garden path of old stones bending around a hedge toward a small sunlit clearing with wildflowers, soft morning light, calm curious mood, painterly style, no people, no text, no logos
+
+@char N10 bedroom_night | Next | How we learn the rules
+But where do our expectations come from in the first place? Next, we'll look at how a brain learns the rules of music, long before anyone teaches them.

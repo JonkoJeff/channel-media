@@ -1,0 +1,138 @@
+{
+ "id": "lf48_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Ines is walking home from the bakery the next morning when the song comes on in a shop doorway. She stops. And this time it isn't the key change that gets her. It's a memory, arriving all at once. A summer night, the back seat of a car, her cousin singing along badly, the windows open.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N18",
+    "bg": "cafe_sunset",
+    "n": 11,
+    "title": "Music and memory"
+   }
+  },
+  {
+   "say": "Almost everyone has had this experience. A piece of music, and a whole scene comes back, with its colors, its people and its feelings. Researchers call these music-evoked autobiographical memories, and they've found that they tend to be unusually vivid and emotional.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "The tune that carries a day",
+    "sub": "Music-evoked memories"
+   }
+  },
+  {
+   "say": "In 2009, the neuroscientist Petr Janata played short clips of popular songs to volunteers in a scanner, and asked afterward which ones brought back personal memories. A region at the front of the brain, in the medial prefrontal cortex, which is involved in thinking about oneself, tracked the songs most tied to memories.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "street_day",
+    "who": "Petr Janata",
+    "where": "Cerebral Cortex, 2009",
+    "what": "Scanned volunteers hearing excerpts of popular songs; a region in the medial prefrontal cortex tracked songs linked to personal memories"
+   }
+  },
+  {
+   "say": "Janata suggested that this region may act as a hub, linking the music to the memories and feelings it's tied to. And he noted that it's near parts of the brain that are involved in tracking tonal patterns in music. Music, memory and the sense of self may be wired close together.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "cap": "A hub for the self",
+    "sub": "The prefrontal link"
+   }
+  },
+  {
+   "say": "A related study by Frederick Barrett and colleagues in 2010 asked what kind of memories music brings back. Participants said the music often brought up memories of significant people and events, and that those memories were usually tinged with nostalgia, a warm, wistful, slightly sad longing for the past. And people who were prone to nostalgia were more likely to feel it.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "cafe_sunset",
+    "cap": "The nostalgia effect",
+    "sub": "Sweet and sad"
+   }
+  },
+  {
+   "say": "There's a gentleness in that kind of memory. The car, the open windows, the cousin singing off-key, none of it was important then. But the song somehow kept it all, and keeps it still, ready to hand back, in a doorway on an ordinary morning.",
+   "show": {
+    "type": "photo",
+    "file": "lf48_b11_01.jpg",
+    "cap": "A window of a parked car at dusk"
+   }
+  },
+  {
+   "say": "Researchers also noticed that the songs that move us most tend to come from a certain period. People tend to remember and love the music of their teenage years and early twenties more than the music of any other time, a pattern known as the reminiscence bump. It's linked to a time in life when we are forming our sense of who we are.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "The years that matter most",
+    "sub": "The reminiscence bump"
+   }
+  },
+  {
+   "say": "In 2013, the psychologist Carol Krumhansl and her student Justin Zupnick found that the bump had a surprising extension. University students, who were around twenty, knew and liked music from the years when their parents were young, as well as music from their own teens. The researchers called it cascading reminiscence bumps, and suggested that music is passed down through families.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "street_day",
+    "who": "Carol Krumhansl and Justin Zupnick",
+    "where": "Psychological Science, 2013",
+    "what": "Young adults liked and knew music from their parents' youth, as well as their own"
+   }
+  },
+  {
+   "say": "It helps to explain why so many chills are tied to songs people have known for years. The shiver isn't only about the sound. It's about everything the sound has come to mean. Janata's volunteers didn't just hear a tune. They heard their own past.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "Memory and the shiver",
+    "sub": "Why familiar songs work"
+   }
+  },
+  {
+   "say": "Psychologists have a name for how this happens. If a song is played during a happy time, the feeling can attach to the song itself, so that the song brings back the feeling later without the memory. It's a form of learning that works quietly in the background, and it explains why a song can make you feel something that you can't explain.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "cap": "Learned links",
+    "sub": "Evaluative conditioning"
+   }
+  },
+  {
+   "say": "There's a heartening finding in this area, too. Some studies of people with dementia suggest that memories linked to music can remain accessible even when other memories have faded, and that familiar songs can sometimes bring a person back for a moment. The evidence is still being worked out, and results vary from person to person, but it's one reason that music is used in many care settings.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "cafe_sunset",
+    "cap": "Music when memory fades",
+    "sub": "A hopeful finding"
+   }
+  },
+  {
+   "say": "Ines stands in the doorway of the shop until the song ends. She doesn't think of it as an experiment. She just thinks of her cousin, and the road, and the warm air. Then she walks home with her bread and sends him a message that says only: I heard our song.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "street_day",
+    "cap": "Ines in the doorway",
+    "sub": "A song and a summer"
+   }
+  },
+  {
+   "say": "And that message points to the next idea. Music isn't only a private pleasure. It's also one of the oldest ways that people have of being together.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Next",
+    "sub": "Togetherness"
+   }
+  }
+ ]
+}

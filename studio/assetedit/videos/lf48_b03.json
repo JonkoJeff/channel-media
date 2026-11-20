@@ -1,0 +1,169 @@
+{
+ "id": "lf48_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In the late 1990s and early 2000s, brain scanners became good enough to answer a question that had been asked for decades. When a piece of music gives you chills, which parts of the brain are involved?",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "n": 3,
+    "title": "Inside the scanner"
+   }
+  },
+  {
+   "say": "At the Montreal Neurological Institute, a neuroscientist named Robert Zatorre and his student Anne Blood designed a study that would become one of the best-known in the field. They asked volunteers to bring in a piece of instrumental music that gave them chills, and then they scanned their brains while it played.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "cafe_sunset",
+    "cap": "Montreal, 2001",
+    "sub": "Blood and Zatorre"
+   }
+  },
+  {
+   "say": "The scanning method was positron emission tomography, or PET, which tracks blood flow in the brain. Ten volunteers took part. When they listened to their chosen piece, and especially when they pressed a button to mark a chill, blood flow rose in a set of regions known to be involved in reward, emotion and arousal, and fell in some others.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "street_day",
+    "who": "Anne Blood and Robert Zatorre",
+    "where": "PNAS, 2001",
+    "what": "Ten volunteers, favorite music, PET scans; chills went with activity in reward and emotion regions"
+   }
+  },
+  {
+   "say": "Several of those regions are deep and ancient. They include the ventral striatum, a part of the brain involved in motivation and pleasure, and a region of the midbrain. They also include parts of the insula and the orbitofrontal cortex, which are involved in feeling and valuing. In other words, the same neighborhood of the brain that lights up for other kinds of reward.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Where it happened",
+    "sub": "Deep, old parts of the brain"
+   }
+  },
+  {
+   "say": "That was a real surprise. Food, drink and other basic rewards matter for survival. Music doesn't, at least not in any obvious way. And yet the brain seemed to treat a few seconds of well-chosen sound as a reward, using machinery that had evolved long before anyone played a note.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Why that was surprising",
+    "sub": "Music isn't food"
+   }
+  },
+  {
+   "say": "There was a second finding, and it was subtle. Activity went down in a couple of regions, including the amygdala, a small structure often linked to fear and threat. It's as if the brain turned up its reward circuits and turned down its alarm at the same moment. A thrill, in a sense, with no danger attached.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "cabin_fireplace",
+    "cap": "Something went down, too",
+    "sub": "Calm in the alarm centers"
+   }
+  },
+  {
+   "say": "Picture it from the volunteer's side. Lying very still in a scanner. Wearing headphones. Listening to a piece of music chosen because it has moved them, many times before. And the experimenters, in the next room, watching the blood flow change as the piece reaches its most beautiful moment.",
+   "show": {
+    "type": "photo",
+    "file": "lf48_b03_01.jpg",
+    "cap": "Headphones in a quiet room"
+   }
+  },
+  {
+   "say": "Blood flow tells you where the brain is busy. It doesn't tell you what chemicals are being used. So a decade later, the same Montreal group, now led by Valorie Salimpoor, asked a sharper question. When music gives you chills, does the brain release dopamine?",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "The next step",
+    "sub": "Chemistry, not just blood flow"
+   }
+  },
+  {
+   "say": "A short note on dopamine, because it's often misunderstood. It's frequently called the pleasure chemical, but that's not quite right. Dopamine is closer to a signal of wanting and of expecting, of something worth chasing. It matters most when you're anticipating a reward, and again when the reward turns out to be better than you guessed.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "cap": "A quick note on dopamine",
+    "sub": "The anticipation molecule"
+   }
+  },
+  {
+   "say": "For the 2011 study, eight volunteers listened to music that gave them chills while a PET scan, using a tracer that competes with dopamine, measured how much of it the brain released. The answer was clear. When the music reached the moments that gave them chills, dopamine was released in the striatum, a deep region that's central to reward.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "street_day",
+    "who": "Valorie Salimpoor and colleagues",
+    "where": "Nature Neuroscience, 2011",
+    "what": "Eight volunteers; PET with a tracer for dopamine; dopamine was released as favorite music played"
+   }
+  },
+  {
+   "say": "And here's the part that changed how researchers think about music. The release didn't happen in a single place. In the seconds before the peak moments, when listeners were anticipating them, dopamine was released in one part of the striatum called the caudate. At the peak itself, it was released in another part, the nucleus accumbens, which is more closely tied to the experience of reward.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "living_room_day",
+    "cap": "Two different places",
+    "sub": "Wanting and having"
+   }
+  },
+  {
+   "say": "Two hot spots. One for the build-up, and one for the arrival. It's one of the first direct pieces of evidence that the brain's reward chemistry follows the shape of a musical phrase, with a stir of wanting first, and then the pleasure itself.",
+   "show": {
+    "type": "stat",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "title": "Salimpoor, 2011",
+    "big": "2",
+    "label": "different dopamine hot spots, one for anticipating and one for the peak"
+   }
+  },
+  {
+   "say": "For Ines, standing at the sink, that would mean something rather specific. As the choir moves toward its high note, part of her brain is already leaning forward. It knows, from experience, that something good is coming. And then, when it arrives, a different part registers the arrival. A little rush of wanting, and then a little rush of having.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "What it means for Ines",
+    "sub": "A song she's heard before"
+   }
+  },
+  {
+   "say": "These early brain studies had small numbers of people, which is common in this kind of imaging, so researchers treat each as one piece of a larger picture. Since then, more studies have pointed in the same direction, and the picture of music engaging the brain's reward system is now widely accepted.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "living_room_day",
+    "cap": "Careful with the numbers",
+    "sub": "Small studies"
+   }
+  },
+  {
+   "say": "Let's take a breath here. The shiver you feel when a favorite piece lifts is not a quirk of your imagination. It's a real event in a reward system you share with every other person, and it follows the shape of the music, first wanting and then having.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "A good place to pause",
+    "sub": "Let that settle"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll look at why that first half, the wanting, may be more important than the arrival.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "cabin_fireplace",
+    "cap": "Next",
+    "sub": "Why anticipation matters"
+   }
+  }
+ ]
+}

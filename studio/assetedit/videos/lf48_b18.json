@@ -1,0 +1,126 @@
+{
+ "id": "lf48_b18",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The dock gently dissolves, the way scenes do in the half-light between waking and sleeping, and now you're standing on a short grassy path by the sea, near a tall white lighthouse. It's not far, and the walk is easy. The air smells of salt and clover.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "n": 18,
+    "title": "A lighthouse by the sea"
+   }
+  },
+  {
+   "say": "The sea is calm tonight. The waves arrive on the rocks below in long, slow rolls, one after another, and slide back with a soft hiss. In. Out. In. Out. It's the oldest rhythm there is, and your body knows it well.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "The sea",
+    "sub": "Slow waves"
+   }
+  },
+  {
+   "say": "At the top of the lighthouse, a single slow beam of light sweeps the dark, lighting the sea in a long, pale arm, and then passing on. It doesn't hurry. It doesn't flicker. It simply turns, patiently, as it has done for many years.",
+   "show": {
+    "type": "photo",
+    "file": "lf48_b18_01.jpg",
+    "cap": "A lighthouse at night"
+   }
+  },
+  {
+   "say": "Each time the light comes round, it brushes across the grass and the rocks, and across you. For a moment, you're lit with a soft, silvery glow, and then you're in the dark again, and then the light comes round. A comforting pattern, like being gently rocked.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "The beam",
+    "sub": "Slow and kind"
+   }
+  },
+  {
+   "say": "At the foot of the lighthouse, there's a small wooden door, painted blue, with a brass handle worn smooth by many hands. You don't need to go in. It's enough to know that someone has kept this place, and that the light will keep turning all night.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "The door",
+    "sub": "Warm wood"
+   }
+  },
+  {
+   "say": "There's comfort in knowing that someone is keeping watch. You don't have to. Tonight, you can rest.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "text": "Someone is keeping watch, and you can rest.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "Near the lighthouse, there's a wooden bench facing the water, weathered to a soft grey. You sit down on it, and feel its smooth boards under you. The bench has been here long enough that it has taken the shape of the people who've sat on it, and it receives you easily.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "A bench",
+    "sub": "By the sea"
+   }
+  },
+  {
+   "say": "The sea air is cool on your face, and gentle on your skin. It carries the smell of salt, and the faint, distant cry of a night bird. It's the kind of air that makes you want to close your eyes and breathe slowly, and let the world get on without you for a while.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "A shawl of sea air",
+    "sub": "Cool and gentle"
+   }
+  },
+  {
+   "say": "Let your breathing follow the waves. As each wave comes in, breathe in. As it slides back, breathe out. Slowly. Easily. There's no wrong way to do it. And if you drift off in the middle of a breath, that's the best way of all.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The rhythm",
+    "sub": "In and out"
+   }
+  },
+  {
+   "say": "Whatever sharp edges the day had, the sea is smoothing them, one wave at a time. The way it smooths stones on a beach. A little more with each pass, until what was rough is soft, and what was heavy is light.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Letting go",
+    "sub": "Of the day's edges"
+   }
+  },
+  {
+   "say": "Far out on the horizon, where the sea meets the sky, there's no line at all, just a soft dark blur, with a few small stars. You look at it for a while, without any thought, and feel your eyes becoming heavy, and your mind becoming wide and quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "cap": "The far horizon",
+    "sub": "Dark and calm"
+   }
+  },
+  {
+   "say": "Sleepiness gathers, slowly, like mist over the water. You don't need to push it, or pull it. It rises on its own, quietly, and settles around you like a soft grey blanket. And you let it.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Sleepiness",
+    "sub": "Gathering slowly"
+   }
+  }
+ ]
+}

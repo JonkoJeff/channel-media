@@ -1,0 +1,126 @@
+{
+ "id": "lf48_b25",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The sea fades gently, and the sand gives way to soft grass, and you find yourself lying in a wide moonlit meadow. The grass is tall and silvery, and it moves in slow waves in the faint breeze, like the sea you've just left. And all around you, in the dark, small lights are rising and falling, gold and green, drifting through the air.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "n": 25,
+    "title": "A meadow of fireflies"
+   }
+  },
+  {
+   "say": "They're fireflies, hundreds of them, each one a tiny, slow, pulsing lantern. They rise from the grass, and glow, and fade, and glow again, in no particular rhythm and no particular hurry. The whole meadow seems to be breathing out little points of light, like the quiet thoughts of the night itself.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "The fireflies",
+    "sub": "Small and slow"
+   }
+  },
+  {
+   "say": "The moon is high now, and full, and it lays a pale, soft light over the whole meadow. In its glow, the grass looks silver, and the fireflies look gold, and the dark trees at the edge look like the soft, sleeping shapes of far-off hills. It's a scene so still and beautiful that you hardly dare to breathe, and then you remember that breathing is just what you're meant to do.",
+   "show": {
+    "type": "photo",
+    "file": "lf48_b25_01.jpg",
+    "cap": "Fireflies over a moonlit meadow"
+   }
+  },
+  {
+   "say": "The meadow is full of gentle sounds. Crickets, with their slow, silvery trill. The wind in the grass, a long, soft sigh. Now and then, a distant owl, calling once, and then falling quiet again. They don't clash, or compete. They make a single, wide, calm music, the oldest music there is, and it has no beginning and no end.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cafe_sunset",
+    "cap": "The sound of the night",
+    "sub": "Crickets and wind"
+   }
+  },
+  {
+   "say": "It's interesting, tonight, to think about music, and the shiver it can give us, and to notice that this soft chorus of crickets and wind and owls doesn't try to do that at all. There's no build-up. No surprise. It doesn't climb, or swell, or resolve. It simply continues, on and on, a long steady plain of sound, and that, too, is a kind of beauty, the kind that helps us sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "autumn_overlook",
+    "cap": "A music with no song",
+    "sub": "Just the night"
+   }
+  },
+  {
+   "say": "Some music is for the lift, and the chills, and the catch in the throat. And some music, and some sounds, are for the opposite. For the settling, and the softening, and the slow return to calm. Both are real pleasures, and the same brain enjoys both. Tonight, it's the second kind you're hearing.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Two kinds of listening",
+    "sub": "Thrilling and soothing"
+   }
+  },
+  {
+   "say": "Some sounds lift us. Others let us down, gently, into sleep.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "living_room_day",
+    "text": "Some sounds lift us up. Others let us down, gently, into sleep.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "The night air touches your skin, cool and soft, and there are no goosebumps, no sharp tingles. Only the long, smooth feeling of the body being at ease. The skin of your arms, your hands, your face is calm, and relaxed, and warm underneath, like a cat on a sunny windowsill.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "cap": "Your skin",
+    "sub": "Cool and soft"
+   }
+  },
+  {
+   "say": "One of the fireflies drifts down, and settles on the back of your hand. You can feel almost nothing, just a tiny pressure, lighter than a thought. It glows, once, softly, and then again, and then it lifts, and drifts away into the dark, like a wish that's been quietly granted.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "autumn_overlook",
+    "cap": "A firefly lands",
+    "sub": "On your hand"
+   }
+  },
+  {
+   "say": "All the small moments of the day, the ones you were proud of, and the ones you'd rather forget, are sinking into the grass now. It's good soil. It takes everything in, and turns it, slowly, into something gentler. You can leave it all there, and walk away lighter, in the morning.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Letting the day go",
+    "sub": "Into the grass"
+   }
+  },
+  {
+   "say": "The earth beneath you is warm, and solid, and patient. It has held up forests, and mountains, and whole cities, and it can hold you with no trouble at all. You can feel it through the grass, a deep, steady support, and you can lean on it with your whole weight.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Warmth and weight",
+    "sub": "Held by the earth"
+   }
+  },
+  {
+   "say": "There's very little left in your mind now. A few slow pictures, drifting. A few soft sounds. The occasional glow of a firefly, behind your eyelids. And a wide, gentle, spacious quiet, like the meadow itself, stretching out in every direction, waiting for you to fall into it.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "cap": "The last of the thinking",
+    "sub": "Very quiet"
+   }
+  }
+ ]
+}

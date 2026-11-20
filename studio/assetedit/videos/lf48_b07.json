@@ -1,0 +1,159 @@
+{
+ "id": "lf48_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Ines gets chills often. Tobias, her friend, never does. If it were simply a matter of liking music, you'd expect everyone who loves music to shiver sometimes. So what's different? Researchers have found a few clues, and one of them is quite unexpected.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N23",
+    "bg": "cabin_fireplace",
+    "n": 7,
+    "title": "Who gets chills?"
+   }
+  },
+  {
+   "say": "The first clue is about personality. In 2011, psychologists Emily Nusbaum and Paul Silvia, at the University of North Carolina at Greensboro, asked people to complete a personality questionnaire and then listen to music while reporting chills. One trait stood out. People who scored higher on openness to experience, a trait linked with curiosity, imagination and a taste for new ideas and aesthetic experiences, tended to report chills more often.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A personality link",
+    "sub": "Openness to experience"
+   }
+  },
+  {
+   "say": "It's worth saying what openness doesn't mean. It doesn't mean being friendly, or generous, or open-minded in a political sense. In personality research, it's one of five broad traits, and it describes how much a person seeks out and absorbs new experiences, from art and ideas to unusual feelings. Many people who are very open also love and play music, but they don't have to.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "What openness means",
+    "sub": "Not what it sounds like"
+   }
+  },
+  {
+   "say": "As with any personality link, this is a tendency across large groups, and not a rule for individuals. Plenty of people who score high on openness never get chills, and plenty who score lower do. Personality explains a small part of the difference.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "autumn_overlook",
+    "cap": "Not a verdict",
+    "sub": "A tendency, not a rule"
+   }
+  },
+  {
+   "say": "The second clue is the unexpected one. In 2016, a team at Harvard and Wesleyan University, led by Matthew Sachs, compared twenty people. Ten of them regularly got chills from music, and ten didn't. Using a brain imaging method that traces the brain's wiring, they found that the people who got chills had more connecting fibers between the auditory cortex, where sound is processed, and regions involved in feeling and valuing, including the insula and the medial prefrontal cortex.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "street_day",
+    "who": "Matthew Sachs, Psyche Loui and colleagues",
+    "where": "Social Cognitive and Affective Neuroscience, 2016",
+    "what": "Twenty people; those who got chills had more nerve fibres linking hearing areas with emotion areas"
+   }
+  },
+  {
+   "say": "Twenty people is a small group, so the finding has to be treated with care. But it's an elegant idea. If you have a stronger road between the part of the brain that hears the music and the parts that feel, then the music has a more direct way to move you.",
+   "show": {
+    "type": "stat",
+    "sprite": "N11",
+    "bg": "rooftop_dusk",
+    "title": "Sachs and colleagues, 2016",
+    "big": "20",
+    "label": "people compared: ten who get chills, ten who don't"
+   }
+  },
+  {
+   "say": "Think of two forest paths between a village and a lake. One is narrow, and overgrown. The other is wide and well worn. Travelers on both will reach the lake, but one will arrive more quickly and more often. That's a little how the researchers pictured the difference between the brains of chill-seekers and others.",
+   "show": {
+    "type": "photo",
+    "file": "lf48_b07_01.jpg",
+    "cap": "Two paths through a forest"
+   }
+  },
+  {
+   "say": "There's an honest question about that finding, which the authors raised themselves. Is the wiring the cause of the chills, or the result of them? A person who gets chills often may seek out more music, and spend years listening deeply, and that might strengthen those connections. A study like this can't tell which came first.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "A caution",
+    "sub": "Cause or effect?"
+   }
+  },
+  {
+   "say": "Then there's the opposite group. Researchers in Barcelona, led by Josep Marco-Pallarés and Ernest Mas-Herrero, found people who can hear perfectly well, enjoy other things in life, such as food, humor and friendships, but get almost no pleasure from music. They called it specific musical anhedonia.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "And what about those who don't",
+    "sub": "Specific musical anhedonia"
+   }
+  },
+  {
+   "say": "In a 2014 study, they scanned people who scored low on a questionnaire about music reward. Their reward systems responded normally to other pleasures, but responded weakly to music. They weren't deaf to it, and they didn't dislike it. The pleasure circuit simply wasn't switching on.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "who": "Ernest Mas-Herrero and colleagues",
+    "where": "Current Biology, 2014",
+    "what": "People with no pleasure from music showed weaker reward-system responses to music, but normal responses to other rewards"
+   }
+  },
+  {
+   "say": "Estimates vary by method, but the group seems to be a small minority, in the low single digits as a percentage of people. It's a reminder that musical pleasure isn't a given, any more than a love of spicy food or of crowds. Tobias may be somewhere on that spectrum, or he may just be a person who enjoys music in a calm way.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "living_room_day",
+    "cap": "How common is that?",
+    "sub": "A small minority"
+   }
+  },
+  {
+   "say": "What about musical training? Studies suggest that you don't need to be a musician to feel chills, and that being a musician doesn't guarantee them. Some research suggests musicians might respond a little differently, because they pay attention to different things, but the effect isn't large enough to say that training explains who gets chills.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "autumn_overlook",
+    "cap": "Training isn't required",
+    "sub": "Musicians and non-musicians"
+   }
+  },
+  {
+   "say": "There's one more factor that's easy to overlook. Chills depend on the moment. The same person may get chills from a piece one evening and feel nothing the next day. Tiredness, stress, attention and mood all play a part. When Ines gets a shiver at the sink, it may be partly because her day has been quiet and she's listening properly.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Mood and moment",
+    "sub": "A matter of the day"
+   }
+  },
+  {
+   "say": "It's worth repeating the point we started with. Getting chills isn't a measure of how much you love music, or how emotional you are, or how good your taste is. It's one of many ways a brain can respond, and it sits alongside quieter pleasures that may be just as deep.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "rooftop_dusk",
+    "cap": "A gentle reminder",
+    "sub": "No ranking"
+   }
+  },
+  {
+   "say": "Next, we'll look at the chemistry in more detail, and at a clever study in which scientists changed the chemistry on purpose.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Next",
+    "sub": "The chemistry"
+   }
+  }
+ ]
+}

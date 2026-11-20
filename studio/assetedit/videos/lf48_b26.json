@@ -1,0 +1,126 @@
+{
+ "id": "lf48_b26",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The meadow lifts away, softly, like a blanket being drawn upward, and you're in a small attic room, with a sloping ceiling and a round window, and rain falling softly against the glass. The room is warm and dim. A narrow bed with a thick quilt stands under the window, and beside it, on a little wooden table, a music box.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "n": 26,
+    "title": "An attic room and a music box"
+   }
+  },
+  {
+   "say": "It's small and old, made of dark polished wood, with a tiny brass key on one side. The lid is open, and inside, you can see the little metal comb, and the slowly turning cylinder, with its rows of tiny pins. When the cylinder turns, the pins pluck the comb, one by one, and a tune comes out, as delicate as frost.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "The music box",
+    "sub": "Old and small"
+   }
+  },
+  {
+   "say": "Someone has just wound it, because the cylinder is turning, slowly, and the tune is filling the room. It's a simple, gentle melody, only a handful of notes, repeated again and again, each time a little more slowly, as the spring unwinds. You don't know where you've heard it before. Perhaps nowhere. Perhaps everywhere.",
+   "show": {
+    "type": "photo",
+    "file": "lf48_b26_01.jpg",
+    "cap": "A music box on a bedside table"
+   }
+  },
+  {
+   "say": "Notice how simple it is. There's no big build-up. No sudden turn. No dramatic key change. Just a few soft notes, falling gently into place, in a pattern so familiar that you can almost sing it before it arrives. And that's exactly the point. Tonight, it isn't surprise you need. It's the comfort of knowing what comes next.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "cap": "The tune",
+    "sub": "Simple and slow"
+   }
+  },
+  {
+   "say": "It's worth noticing, since we've talked so much tonight about expectation, that lullabies lean the other way. They're slow, repetitive, soft and predictable, and that's what makes them so soothing. The brain, with nothing to predict wrongly, has nothing to be startled by. It can put down its guessing, and rest.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Predictable on purpose",
+    "sub": "A gentle truth"
+   }
+  },
+  {
+   "say": "The tune is slowing now, as the spring runs down. The notes are further apart. Each one hangs a little longer in the air, shimmering, before the next one arrives. It's like a very old clock, or a heartbeat, gently coming to rest. You find that your own breathing is slowing too, to match.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "cap": "The slowing",
+    "sub": "As the spring unwinds"
+   }
+  },
+  {
+   "say": "When the music slows, let your breath slow with it.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "text": "When the music slows, let your breath slow with it.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "Behind the music, there's the rain, tapping lightly on the round window, in no rhythm at all. The two sounds weave together, the tidy little melody and the loose, scattered rain, and make a texture so soft and layered that it feels like a blanket for the ears.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "The rain",
+    "sub": "On the round window"
+   }
+  },
+  {
+   "say": "You pull the quilt up under your chin. It's patchwork, made of a hundred different fabrics, all soft with washing, and it smells faintly of cedar and sunshine. Each little square has been stitched by someone who cared, and you can feel that care in the weight of it, settled over you.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "The quilt",
+    "sub": "Heavy and warm"
+   }
+  },
+  {
+   "say": "The music box is down to its last notes now. One. A long pause. Another. A longer pause. The tune has almost stopped, but it hasn't quite, and the silence between the notes is as lovely as the notes themselves, like the space between stars.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "The last notes",
+    "sub": "One by one"
+   }
+  },
+  {
+   "say": "And then the last note falls, and fades, and there's a silence, soft and round, filled only with the sound of the rain. It isn't empty. It's full of everything you've heard tonight, settled and quiet, like the bottom of a very deep, very calm lake.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "And then",
+    "sub": "A soft silence"
+   }
+  },
+  {
+   "say": "So you rest in that quiet, in the attic, under the quilt, with the rain on the glass. You don't need another tune. You don't need another thought. You only need this: the dark, and the warmth, and the slow, steady sound of your own breathing.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Resting in the quiet",
+    "sub": "Nothing more"
+   }
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "id": "lf48_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "On Thursday evenings, Ines sings in a small community choir. She's not a great singer, and she knows it. But something happens in that room, once the whole group settles into a chord, that she's never quite found anywhere else. For a moment, nobody is trying to be heard. They're just one sound.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N29",
+    "bg": "street_day",
+    "n": 12,
+    "title": "Singing together"
+   }
+  },
+  {
+   "say": "For most of human history, music wasn't something you listened to alone through headphones. It was something people did together, around fires, at festivals, in places of worship, at work. Many researchers think that this shared side of music is the key to why it exists at all.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "An old human habit",
+    "sub": "Music as a group activity"
+   }
+  },
+  {
+   "say": "In 2012, the evolutionary psychologist Robin Dunbar and his colleagues at Oxford studied people who took part in group singing, drumming or dancing. Compared with people doing quieter activities, the music makers could tolerate more pain, measured with a blood-pressure cuff, and reported feeling more positive and closer to others. The researchers suggested that the effect might involve the body's natural opioids.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "who": "Robin Dunbar and colleagues",
+    "where": "Evolutionary Psychology, 2012",
+    "what": "People who sang, drummed or danced together had higher pain thresholds and felt closer than people who did quiet activities"
+   }
+  },
+  {
+   "say": "That's an interesting loop. Remember Goldstein's naloxone experiment in 1980, and the Levitin team's study with naltrexone. The same opioid system, which seems to be involved in the pleasure of listening, may also be involved in the bonding that comes from making music together.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "A link to Goldstein",
+    "sub": "The opioid thread again"
+   }
+  },
+  {
+   "say": "In 2015, three researchers at Oxford compared adult evening classes that ran for several months. People in singing classes, in creative writing and in crafts all felt closer to their groups over time. But in the singing classes, the bonding was faster. After only a few weeks, the singers felt as close to each other as people in the other classes did after months. The researchers called it the ice-breaker effect.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "street_day",
+    "who": "Eiluned Pearce, Jacques Launay and Robin Dunbar",
+    "where": "Royal Society Open Science, 2015",
+    "what": "Adults in singing classes felt close to the group faster than those in crafts or writing classes"
+   }
+  },
+  {
+   "say": "Another study from the same team, by Daniel Weinstein and colleagues in 2016, looked at the size of the group. Choir members who sang in a large group showed a greater rise in feelings of closeness than those who sang in a small one, even though both groups had been together for the same amount of time. The authors suggested that bigger groups may have a bigger bonding effect, though they were careful to note that the study was small.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "cap": "A size effect",
+    "sub": "Bigger groups, bigger bonds"
+   }
+  },
+  {
+   "say": "Think of a plain church hall, with stacking chairs in a loose circle and a piano in the corner. Nothing special, and yet this is where a group of strangers might, within a few weeks, come to feel like a team. It's a quiet but powerful effect.",
+   "show": {
+    "type": "photo",
+    "file": "lf48_b12_01.jpg",
+    "cap": "An empty church hall with chairs in a circle"
+   }
+  },
+  {
+   "say": "The link between music and cooperation shows up in young children too. In 2010, Sebastian Kirschner and Michael Tomasello at the Max Planck Institute in Leipzig had four-year-olds take part in joint music making, or in a similar activity without music. Afterward, the children who had made music together were more likely to help their partner with a small task.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Even small children",
+    "sub": "Music and kindness"
+   }
+  },
+  {
+   "say": "Many researchers think that a key ingredient is synchrony, doing something at the same pace as other people, singing the same note, clapping on the same beat. When people move or sing together, they seem to blur the boundary between self and group. Their own action and the group's action become hard to tell apart.",
+   "show": {
+    "type": "char",
+    "sprite": "N18",
+    "bg": "rooftop_dusk",
+    "cap": "Why synchrony matters",
+    "sub": "Moving together"
+   }
+  },
+  {
+   "say": "That may be why group musical experiences can be so intense. A crowd at a concert, singing the last chorus together. A congregation at a hymn. A choir at the top of a phrase. If chills are a response to moments of meaning, then the moments we share with other people may carry the most meaning of all.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "A possible link to chills",
+    "sub": "Shared peaks"
+   }
+  },
+  {
+   "say": "It's worth being fair. Group music isn't always warm. People can be left out, judged or embarrassed, and not everyone enjoys singing in front of others. The research shows tendencies, not guarantees, and it mostly comes from settings where people chose to take part and were welcome.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "A caution",
+    "sub": "Not every group is warm"
+   }
+  },
+  {
+   "say": "When the choir finishes the last piece that Thursday, there's a moment of quiet before anyone says anything. Nobody moves. Ines feels the room hum a little, like a glass after a note. She doesn't have a word for it. Researchers might say it's a mix of opioids, synchrony and shared attention. She'd probably just say it feels good to belong.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "Back in the hall",
+    "sub": "Thursday evening"
+   }
+  },
+  {
+   "say": "There's one more puzzle about music that we haven't touched yet. Why do so many people love sad songs?",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Next",
+    "sub": "The paradox of sadness"
+   }
+  }
+ ]
+}

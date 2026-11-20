@@ -1,0 +1,146 @@
+{
+ "id": "lf48_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The cabin door isn't locked. It swings open with a soft creak, and warm air meets you, scented with pine and a hint of woodsmoke. Inside, there's a single room, simple and clean, with a wide wooden floor and a rug in front of a small stone fireplace.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "n": 16,
+    "title": "A cabin among the pines"
+   }
+  },
+  {
+   "say": "You step inside, and the door closes gently behind you. The room is quiet, but it isn't silent. There's the faint crackle of the fire, and the soft tick of the wood cooling in the walls. A sound that says, nothing is wrong. All is well.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Stepping in",
+    "sub": "Warm and quiet"
+   }
+  },
+  {
+   "say": "The fire is low and steady, glowing orange and gold at the heart of the logs. There's no need to tend it. It will burn at exactly the pace that suits the night. You watch the flames sway and settle, sway and settle, as though they were breathing.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "The fire",
+    "sub": "Low and steady"
+   }
+  },
+  {
+   "say": "Think of the little yellow window you saw from the lane. It was this one. All along, it was a light left on for you, and now you're inside it, in the warm.",
+   "show": {
+    "type": "photo",
+    "file": "lf48_b15_01.jpg",
+    "cap": "Warm light in the dusk"
+   }
+  },
+  {
+   "say": "By the fire, there's a deep armchair, with a thick wool blanket folded over its arm. You sit down, and the chair takes your weight as if it had been shaped for you. You draw the blanket over your knees. It's warm, and heavy, and soft.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "A chair",
+    "sub": "Deep and soft"
+   }
+  },
+  {
+   "say": "Feel the weight of the blanket, and of your own body, sinking into the chair. Your arms rest on the armrests. Your legs are heavy. Your whole body has the pleasantly sunk feeling of being completely, safely, supported.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The weight",
+    "sub": "Settling into the cushions"
+   }
+  },
+  {
+   "say": "The fire doesn't hurry, and neither do you.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "text": "The fire doesn't hurry. Neither do you.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "Outside the window, the wind moves slowly through the tops of the pines. It makes a long, low sound, like a deep breath out. Then it dies away, and there's silence, and then it comes again. A slow, steady rhythm, like the sea, but made of trees.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Outside",
+    "sub": "Wind in the pines"
+   }
+  },
+  {
+   "say": "Listen to that long, low sound. Let it match your own breath. As the wind rises, breathe in. As it falls, breathe out. And if you lose the rhythm, that's fine. The wind will find it again for you.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "bedroom_night",
+    "cap": "Listening",
+    "sub": "To the pines"
+   }
+  },
+  {
+   "say": "If a thought drifts in, a small worry, a half-remembered task, a line of a song, there's no need to chase it, and no need to push it away. Let it pass through the room, like a moth in the firelight. It will find its way out again on its own.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "A thought arrives",
+    "sub": "Let it pass"
+   }
+  },
+  {
+   "say": "The warmth of the fire spreads slowly across your face, your chest, your hands. It softens the muscles around your eyes. It melts a little of the tightness in your shoulders. You feel yourself becoming heavier, and more peaceful, with each breath.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "The warmth",
+    "sub": "Spreading"
+   }
+  },
+  {
+   "say": "You may notice a slow, pleasant sleepiness beginning to roll in, from somewhere behind your eyes. Welcome it, as you might welcome an old friend. There's nothing you need to do about it. It knows the way.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Sleepiness",
+    "sub": "Rolling in like a tide"
+   }
+  },
+  {
+   "say": "The crackle of the fire grows softer. The wind in the pines grows softer. Everything in the room seems to be turning down its own volume, one notch at a time, so that nothing has to stop suddenly. It just becomes quieter, and quieter.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "cap": "The sounds soften",
+    "sub": "Fading gently"
+   }
+  },
+  {
+   "say": "So you rest, in the chair, in the firelight, in the cabin among the pines. Nothing is expected of you. Nothing is waiting. The fire will keep its own watch, and the night will do the rest.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Resting",
+    "sub": "In the firelight"
+   }
+  }
+ ]
+}

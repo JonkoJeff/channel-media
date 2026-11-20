@@ -1,0 +1,136 @@
+{
+ "id": "lf48_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Some time later, without any sense of having decided, you find yourself outside again, walking slowly down a short path of smooth stones toward a wide, still lake. The night has become clear. The stars are out, thick and bright, and the air is mild and soft.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "n": 17,
+    "title": "A lake at night"
+   }
+  },
+  {
+   "say": "At the edge of the water, there's a wooden dock, its boards pale and silvery in the starlight. Still warm from the day, they smell faintly of sun and old rope. You walk out to the end, slowly, and sit down, letting your feet rest just above the water.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The dock",
+    "sub": "Old wood, still warm"
+   }
+  },
+  {
+   "say": "The lake is perfectly calm. It holds the whole sky in it, every star doubled, so that the dock seems to hang between two heavens. Not a ripple. Not a sound. Only the soft hush of the night itself.",
+   "show": {
+    "type": "photo",
+    "file": "lf48_b17_01.jpg",
+    "cap": "A dock on a still lake"
+   }
+  },
+  {
+   "say": "Look at the water for a while. It doesn't move. It doesn't need to. It simply holds the light, and lets the stars rest in it. You might notice that your own mind is becoming a little like that, clearer and calmer, holding things without stirring.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "The water",
+    "sub": "Smooth as glass"
+   }
+  },
+  {
+   "say": "Somewhere across the lake, there's a tiny splash. A fish, perhaps, rising for an insect. The rings spread slowly outward, silver in the starlight, and fade. You watch them go, and with them, any last small tension you didn't know you were holding.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "cap": "A small sound",
+    "sub": "A fish, far away"
+   }
+  },
+  {
+   "say": "Breathe with the lake. When it seems to rise, a little, in the dark, breathe in. When it seems to settle, breathe out. There's no hurry. There never was.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Breathing",
+    "sub": "With the lake"
+   }
+  },
+  {
+   "say": "A still lake holds the stars. A still mind can hold what it needs to, and let the rest go.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "text": "A still mind holds the stars, too.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "The air has a slightly cool, sweet smell, of water and reeds and night-blooming flowers. You breathe it in, and feel it reach the very bottom of your lungs. And as you breathe out, a long slow breath, your shoulders sink again, another inch.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "The air",
+    "sub": "Cool and sweet"
+   }
+  },
+  {
+   "say": "Look up at the stars, if you like. Choose one, any one, and let your gaze rest on it. You don't need to name it or know what it is. It's a point of light that has traveled a very long way to be seen by you tonight, and it asks nothing in return.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "The stars",
+    "sub": "One by one"
+   }
+  },
+  {
+   "say": "Your body is heavy now, and warm, and loose. It feels as though it's gently sinking into the dock, into the night, into the quiet. The boundary between you and everything else grows pleasantly soft, like a watercolor left in the rain.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "Your body",
+    "sub": "Heavier now"
+   }
+  },
+  {
+   "say": "There's something comforting about the size of the sky. It makes every worry seem a little smaller, not because worries don't matter, but because there's so much room around them. You can let them sit there, small and far away, and rest.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "A blanket of stars",
+    "sub": "Held by the sky"
+   }
+  },
+  {
+   "say": "The night seems to slow down, as though it, too, were getting sleepy. The stars blink more gently. The lake breathes more softly. And you find that you've stopped thinking in sentences at all.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Slowly",
+    "sub": "Everything slows"
+   }
+  },
+  {
+   "say": "You may find yourself drifting now, somewhere between waking and sleeping, where thoughts turn into soft pictures, and pictures turn into nothing at all. It's a lovely place to be. You're welcome to stay as long as you like.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Drifting",
+    "sub": "Between waking and sleep"
+   }
+  }
+ ]
+}

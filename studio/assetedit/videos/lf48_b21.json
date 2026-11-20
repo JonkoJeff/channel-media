@@ -1,0 +1,136 @@
+{
+ "id": "lf48_b21",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The orchard is quiet and wide, and the trees are old. Their branches curve low and gentle, laden with pale blossom, and the petals drift down, now and then, in the soft night air, like very slow snow. You walk between the rows, and they settle on your shoulders and your hair, light as thought.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "n": 21,
+    "title": "An orchard in blossom"
+   }
+  },
+  {
+   "say": "In the middle of the orchard, there's a patch of long, soft grass, and under it, the earth is warm. Someone has left a quilt there, folded, and a pillow in a plain linen case. It's just the right size for you. It might have been waiting there all evening.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "A place to rest",
+    "sub": "The long grass"
+   }
+  },
+  {
+   "say": "You lie back on the quilt, and look up through the branches. The blossom glows pale against the dark sky, and between the branches, you can see the stars, tiny and bright. The whole orchard seems to be holding its breath, so as not to wake you.",
+   "show": {
+    "type": "photo",
+    "file": "lf48_b21_01.jpg",
+    "cap": "Blossom in the moonlight"
+   }
+  },
+  {
+   "say": "The quilt is soft, and a little heavy, and it smells of sun and cedar. You pull it up around your shoulders, and feel the warmth gathering around you, as if the night itself were tucking you in. Your body settles into the grass, and the grass settles into the earth.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "The quilt",
+    "sub": "Soft and heavy"
+   }
+  },
+  {
+   "say": "A petal drifts down, turning slowly, and lands on the quilt near your hand. Then another. They fall at their own pace, in their own time, without any effort at all. You might watch one, for a while, all the way down. It takes such a long time, and there's no hurry in it.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "The petals",
+    "sub": "Falling slowly"
+   }
+  },
+  {
+   "say": "Let your breath be like that. Slow, and light, and unforced. An in-breath that rises like a petal on a breeze. An out-breath that falls like one coming down. And between them, a small, quiet pause, where nothing needs to happen at all.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Your breath",
+    "sub": "Slow as petals"
+   }
+  },
+  {
+   "say": "Rest isn't something you earn. It's something you allow.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "text": "Rest is not something you earn. It's something you allow.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "Whatever you did today, or didn't do, it was enough. Whatever you meant to finish, and didn't, can wait for the morning, and the morning will be kinder to it than the night would be. Tonight is only for resting, and you're allowed to do it completely.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "A gentle truth",
+    "sub": "You've done enough"
+   }
+  },
+  {
+   "say": "Let that thought settle in your chest, like a warm stone. You've done enough. You are enough. The orchard doesn't ask you to be anything more than a person lying on a quilt under the stars, breathing slowly, with petals falling around you.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "bedroom_night",
+    "cap": "The feeling of enough",
+    "sub": "Warm and still"
+   }
+  },
+  {
+   "say": "A soft wind stirs the branches, and a few more petals fall, and the orchard sighs, softly, like a sleeper turning over. The sound is the gentlest in the world. A rustle, and then a hush, and then nothing but the quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "A soft wind",
+    "sub": "Moving the branches"
+   }
+  },
+  {
+   "say": "Everything is getting softer at the edges now. The shapes of the trees, the lines of the branches, the glow of the blossom. They're blending, gently, into one soft, dark, pale, dreaming whole. You don't need to hold on to any of it. You can simply let it blur.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "cap": "The edges of things",
+    "sub": "Blurring"
+   }
+  },
+  {
+   "say": "There's only one thing left to notice, and it's your breath, rising and falling, slow and soft and easy. In, and out. In, and out. And even that, you can let go of, because it will go on without you. It always does.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "A last awareness",
+    "sub": "Of your breath"
+   }
+  },
+  {
+   "say": "And so you sink, slowly, a little deeper, into the quilt and the grass and the warm earth, into the soft dark of the orchard night. It doesn't feel like falling. It feels like being lowered, very gently, into the hands of something kind.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "Sinking",
+    "sub": "Into the quilt, the grass, the night"
+   }
+  }
+ ]
+}

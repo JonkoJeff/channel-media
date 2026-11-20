@@ -1,0 +1,136 @@
+{
+ "id": "lf48_b23",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The rain thins, and then stops, and the air is washed and cool and sweet. You step out from the tea house onto a mossy path, and walk a little way, and find a garden of tall old trees. Between two of them, a canvas hammock hangs, swaying very slightly, as if it had just been left.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "n": 23,
+    "title": "A hammock beneath the trees"
+   }
+  },
+  {
+   "say": "You lie down in it, and it cradles you, as the arms of a very large and very patient person might. Your head and shoulders sink into the fabric, and your feet rise a little, and your whole body is supported, evenly, all the way along. There's no place that has to hold itself up.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "bedroom_night",
+    "cap": "The hammock",
+    "sub": "Wide and soft"
+   }
+  },
+  {
+   "say": "The hammock rocks, just a little, back and forth, back and forth, at the pace of a slow clock. Above you, the leaves of the trees are dripping softly, and every few seconds, a single drop falls and lands on the grass with the tiniest of sounds.",
+   "show": {
+    "type": "photo",
+    "file": "lf48_b23_01.jpg",
+    "cap": "A hammock between old trees"
+   }
+  },
+  {
+   "say": "Feel that gentle rocking. Back, and forth. Back, and forth. It's one of the oldest comforts in the world, the movement of a cradle, a boat, a mother's arms. Our bodies remember it, long after our minds have forgotten. It tells us we're safe, and we can let go.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Rocking",
+    "sub": "Slow and gentle"
+   }
+  },
+  {
+   "say": "In the branches overhead, the leaves whisper to one another in the faint breeze. Hush, they say. Hush. The sound is soft and wide, like the sea heard from a long way off. It surrounds you, and smooths you, and takes away the edges of every thought.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "cap": "The leaves",
+    "sub": "Whispering"
+   }
+  },
+  {
+   "say": "Listen for the drips. One. And then a pause. And another. They're like the slowest clock imaginable, marking not the minutes, but something gentler. The passing of a quiet night, one soft drop at a time.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The drip",
+    "sub": "A slow clock"
+   }
+  },
+  {
+   "say": "You're being carried, and there's nowhere you need to be.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "text": "You are carried, and there is nowhere to be.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "Through a gap in the branches, you can see that the clouds are parting, and a few stars are beginning to show. They look washed, and bright, as though the rain had polished them. You watch them for a while, one at a time, appearing out of the dark.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "cap": "The sky",
+    "sub": "Clearing"
+   }
+  },
+  {
+   "say": "Your body feels almost weightless now, and almost not there at all. The hammock holds you, the air holds the hammock, and the night holds the air. A chain of quiet holdings, all the way to the stars.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Your body",
+    "sub": "Almost asleep"
+   }
+  },
+  {
+   "say": "Your breath has become very slow. You might notice that the pauses between breaths are getting longer, and softer, and more restful. That's a sign that your body is moving toward sleep, on its own, as it knows how to. You don't need to do anything.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "A deeper breath",
+    "sub": "Slower still"
+   }
+  },
+  {
+   "say": "Any thoughts that arise are turning into pictures, and the pictures are turning slowly into colors, and the colors are fading into a soft, dark blue. It's like watching the last light go out of a sky. Beautiful, and slow, and complete.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Thoughts",
+    "sub": "Becoming pictures"
+   }
+  },
+  {
+   "say": "And the hammock rocks, back and forth, back and forth, and the leaves whisper, and the drops fall, and the stars come out, one by one. And you, in the middle of it all, are simply resting. Resting, resting, resting.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "Rocking, rocking",
+    "sub": "Back and forth"
+   }
+  },
+  {
+   "say": "There is nothing to do. There is nothing to fix. There is nothing to carry into tomorrow that can't be picked up again in the morning. The night has you, and it will give you back, refreshed, when it's time.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "A quiet promise",
+    "sub": "Nothing to do"
+   }
+  }
+ ]
+}

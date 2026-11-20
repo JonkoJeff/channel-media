@@ -1,0 +1,136 @@
+{
+ "id": "lf48_b22",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "After a time, though you can't say how long, you find that the orchard has gently turned into a small wooden tea house, on a hillside above a quiet town. It's raining outside, a soft, steady, silver rain, and the sound of it on the roof is like a thousand tiny fingers tapping out a slow lullaby.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "n": 22,
+    "title": "A tea house in the rain"
+   }
+  },
+  {
+   "say": "The room is lit by paper lamps, each one glowing a warm amber, so that the whole space seems to be made of honey. The floor is smooth wood, and there are low tables, and soft cushions, and nobody else is here. It's a room that has been waiting all day for exactly this kind of quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "cap": "The room",
+    "sub": "Paper lamps"
+   }
+  },
+  {
+   "say": "You settle onto a cushion by the window, which is open just a little, and the cool, clean smell of rain drifts in. Through the glass, the lights of the town below are blurred and golden, like candles seen through frosted glass.",
+   "show": {
+    "type": "photo",
+    "file": "lf48_b22_01.jpg",
+    "cap": "A tea house with paper lanterns in the rain"
+   }
+  },
+  {
+   "say": "On the little table in front of you, there's a small iron pot, and a cup with no handle, the kind you hold in both hands. The tea is pale, and fragrant, and not too hot. You lift it, and feel its warmth spread through your palms, and up your wrists, and into your chest.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The tea",
+    "sub": "Warm and fragrant"
+   }
+  },
+  {
+   "say": "You take a slow sip. It tastes faintly sweet, like warm honey and pale flowers. It slides down easily, and leaves a soft glow behind. And you realize that you've been waiting, all day, for just this small moment, a warm cup, and nothing else to do.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "The first sip",
+    "sub": "Gentle and mild"
+   }
+  },
+  {
+   "say": "Listen to the rain on the roof. It isn't loud, or hurried. It's the rain of a very long evening, falling at the speed of a sleeping breath. Each drop lands softly, and joins its neighbors, and runs down the tiles, and away. It's washing the whole world clean, and asking nothing of you.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "The rain",
+    "sub": "Steady and soft"
+   }
+  },
+  {
+   "say": "Warm hands, a quiet room, and the rain. That is plenty.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "text": "Warm hands, a quiet room, and the rain. That is plenty.",
+    "by": "tonight's wind-down"
+   }
+  },
+  {
+   "say": "Notice how your hands hold the cup. Not tightly, but gently, with all the fingers curved around it, the way you might cradle something small and precious. And notice how easy that is. You aren't gripping, or clenching. You're simply holding.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Your hands",
+    "sub": "Around the cup"
+   }
+  },
+  {
+   "say": "After a while, you set the cup down, carefully, on the table, with a soft click of clay on wood. It's empty, or nearly so, and you don't need any more. You feel pleasantly full, and warm all the way through, from your hands to your heart to your toes.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "The sip fades",
+    "sub": "Setting the cup down"
+   }
+  },
+  {
+   "say": "You lean back against the wall, where there's a thick cushion, and your head finds a place to rest. The wood behind the cushion is warm. It's the kind of corner that seems to have been designed for falling asleep in. And you let your eyes close.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "A cushion",
+    "sub": "Soft and deep"
+   }
+  },
+  {
+   "say": "Far below, in the town, a few small sounds float up through the rain. A bicycle bell. A door closing. A voice calling something quiet and unimportant to someone else. They're all very far away, and they're all part of the same soft, ordinary evening, in which everyone is going home.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "The sounds of the town",
+    "sub": "Far away"
+   }
+  },
+  {
+   "say": "Somewhere down there, people are shutting their shutters, and turning off their lamps, and drawing their blankets up. The whole town is slowly settling, like a great animal curling up for the night. And you're part of that, too. You belong to the same quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "cap": "Everyone going home",
+    "sub": "The whole town settling"
+   }
+  },
+  {
+   "say": "The rain carries on, steady and kind, and with every breath you sink a little further into the warm, soft darkness, behind your closed eyes. Everything is soft. Everything is slow. And everything, just as it is, is okay.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Sinking again",
+    "sub": "With the rain"
+   }
+  }
+ ]
+}

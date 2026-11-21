@@ -1,0 +1,183 @@
+{
+ "id": "lf49_b19",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Anton has found, over the years, that his mind behaves differently in different places. At his desk, it fidgets. On the train, it drifts. But on a hillside, with a long view and a little wind, something in him goes quiet in a way that nothing else can manage.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "n": 21,
+    "title": "Where a mind likes to rest"
+   }
+  },
+  {
+   "say": "Many people describe something similar. A walk in a park, a view of trees, a day by the sea, and the mind feels cleaner, and calmer, and less jammed. It's tempting to write this off as pure sentiment. But psychologists have been taking it seriously for a long time, and have found some interesting results.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "A shared feeling",
+    "sub": "Why a hill feels restful"
+   }
+  },
+  {
+   "say": "In the 1980s and 1990s, the environmental psychologists Rachel and Stephen Kaplan developed what's called attention restoration theory. Their idea was that the kind of focused attention we use at work and in cities, which they called directed attention, gets tired with use. And that natural settings, which draw attention softly and without effort, give it a chance to recover.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "A theory",
+    "sub": "Attention restoration"
+   }
+  },
+  {
+   "say": "They used the phrase soft fascination for this. A cloud moving across the sky, leaves shifting in the wind, or water running over stones. These things hold your attention, but gently, without demanding that you pay it. And while they do, the part of your mind that works hard is allowed to rest.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "The key word",
+    "sub": "Soft fascination"
+   }
+  },
+  {
+   "say": "In 2008, Marc Berman, John Jonides and Stephen Kaplan published a test of this idea in Psychological Science. Volunteers did a demanding attention task, then took a walk of about fifty minutes, either through a quiet arboretum or along busy streets in a city centre. Afterward, they did a test of attention and memory again, called the backwards digit span.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "who": "Marc Berman, John Jonides and Stephen Kaplan",
+    "where": "Psychological Science, 2008",
+    "what": "Students did a memory test before and after a walk in an arboretum or along busy city streets"
+   }
+  },
+  {
+   "say": "The people who'd walked in the arboretum improved on the test more than those who'd walked through the city, by a noticeable margin. The effect wasn't huge, and the study was small, but it pointed in the direction the theory predicted. And in a second experiment, even looking at photographs of nature seemed to give a smaller boost.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "The result",
+    "sub": "A modest but real difference"
+   }
+  },
+  {
+   "say": "A more recent study tested a connection to something we've already met tonight. In 2015, Gregory Bratman, Gretchen Daily, James Gross and colleagues published a paper in the Proceedings of the National Academy of Sciences, on whether nature experience reduces rumination.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "A link to rumination",
+    "sub": "Walking in nature"
+   }
+  },
+  {
+   "say": "They asked thirty-eight healthy city residents to walk for ninety minutes, some in a grassy, green area near the Stanford campus, and others along a busy road. Before and after, the volunteers answered questions about how much they ruminated, and the researchers also measured blood flow in a region of the brain linked with rumination, called the subgenual prefrontal cortex.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "autumn_overlook",
+    "who": "Gregory Bratman and colleagues",
+    "where": "PNAS, 2015",
+    "what": "Thirty-eight people walked for 90 minutes in a natural area or along a busy road, and rumination and brain activity were measured"
+   }
+  },
+  {
+   "say": "The people who walked in nature reported less rumination afterward, and showed lower activity in that brain region. The people who walked along the road didn't show the same changes. It's a small study, and it can't tell us how long the effect lasts, but it fits the idea that a natural setting may help a thought-loop to loosen.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "street_day",
+    "cap": "What happened",
+    "sub": "Less looping"
+   }
+  },
+  {
+   "say": "So a nature walk offers several things at once. Gentle things to look at. A slow, natural pace that leaves the mind free. Fewer demands from screens and traffic. And, it seems, a little relief from the loops of worry.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "title": "What nature walks may offer",
+    "items": [
+     "Gentle things to look at, which rest hard focus",
+     "A pace that leaves the mind free to drift",
+     "Fewer demands from screens and traffic",
+     "A break from loops of worry"
+    ]
+   }
+  },
+  {
+   "say": "There's an older and quieter result, too. In 1984, the environmental psychologist Roger Ulrich published a study in Science, comparing patients who had recovered from surgery in rooms with a view of trees with patients whose windows looked onto a brick wall. The patients with the tree view tended to leave the hospital a little sooner, and to need less pain medication.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "Another long-ago finding",
+    "sub": "A view from a window"
+   }
+  },
+  {
+   "say": "It's a small, odd, memorable study, and its limits are worth remembering. It involved a modest number of patients in one hospital, and it can't prove why the difference arose. But as a quiet hint, it fits the larger picture.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "text": "Even a view of trees seems to be quietly good for us.",
+    "by": "a gentle reading of Ulrich's 1984 study"
+   }
+  },
+  {
+   "say": "A long grassy hillside rolls away beneath a wide, pale sky. A few trees stand along the ridge, and clouds move slowly overhead. There's nothing to do here but look, and the looking asks for nothing back.",
+   "show": {
+    "type": "photo",
+    "file": "lf49_b19_01.jpg",
+    "cap": "A hillside meadow under a wide sky"
+   }
+  },
+  {
+   "say": "You don't need a wilderness. Some of the studies suggest that even short exposures to green space, such as a few minutes looking at trees out of a window, or a lunch break in a park, can be pleasant and restful. The effects are modest, and not guaranteed, but they cost almost nothing, and the mind seems to like them.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "A practical idea",
+    "sub": "Small doses count"
+   }
+  },
+  {
+   "say": "It's important to keep that in proportion. A walk in the park won't fix a hard season of life, and nature isn't a medicine. But if your mind is tired and tangled, a bit of green and a slow pace is a gentle thing to try, and it fits with everything we've learned about the way a wandering mind restores itself.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "A word of balance",
+    "sub": "Not a cure"
+   }
+  },
+  {
+   "say": "Anton thinks of the hillside near his home, where he sometimes walks on Sunday mornings. He thinks of the long view, and the thin cold air, and the sound of the wind in the thorn bushes. He decides that he'll go there tomorrow, with no phone, and no plan, and let his mind go wherever it likes.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "cap": "Anton's hillside",
+    "sub": "A long view"
+   }
+  },
+  {
+   "say": "There's one more strand to our story, and it's the most personal. Is it possible to change how you relate to your own wandering mind, so that it feels like a friend and not an opponent? Next, we'll look at attention training and mindfulness, and at what the research really says.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Next",
+    "sub": "Making peace"
+   }
+  }
+ ]
+}

@@ -1,0 +1,233 @@
+{
+ "id": "lf49_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You get up from the jetty, slowly, and the planks give a faint, familiar creak. Anton rises too, and the two of you follow the shore, along a narrow path of pale pebbles, toward the small, warm light that has been glowing in the distance.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "n": 18,
+    "title": "The small warm light"
+   }
+  },
+  {
+   "say": "The pebbles make a soft, rolling sound beneath your feet. The reeds stand tall at the water's edge, and whisper to each other as the air moves through them. The lake, at your side, is a long dark mirror, breathing out the last of the day's warmth.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "autumn_overlook",
+    "cap": "Along the shore",
+    "sub": "Pebbles and reeds"
+   }
+  },
+  {
+   "say": "As you come closer, the light turns into a window, and the window into a small stone cottage, half hidden among the trees. Smoke rises in a thin, lazy line from its chimney. The door is painted a deep, faded green, and a lantern hangs beside it, burning low.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "rooftop_dusk",
+    "cap": "The light grows nearer",
+    "sub": "A window glowing"
+   }
+  },
+  {
+   "say": "A stone cottage sits at the edge of the trees, with one warm window glowing, and a lantern beside the door. The lake lies quiet beyond it, scattered with stars. Smoke rises into the dark, slow and straight, and everything about the scene says that someone has left the light on for you.",
+   "show": {
+    "type": "photo",
+    "file": "lf49_b16_01.jpg",
+    "cap": "A small cottage by a lake at night"
+   }
+  },
+  {
+   "say": "Inside, the cottage is simple, and warm. There's a small fire in the grate, burning quietly, with a low, crackling sound. A wooden table, two chairs, a shelf of old books, and a lamp turned to its softest setting. It smells of woodsmoke and dried lavender and warm bread.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Inside",
+    "sub": "Warm and quiet"
+   }
+  },
+  {
+   "say": "There's a deep armchair beside the fire for each of you, with a folded wool blanket across its arm. You settle into yours, and it holds you, the way a very old friend would. Anton lowers himself into the other, with a small, contented sigh, and draws his blanket over his knees.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "By the fire",
+    "sub": "An armchair for each of you"
+   }
+  },
+  {
+   "say": "You watch the fire. The flames move slowly, in small golden waves, folding and unfolding, and the coals beneath them glow, deep and red. There's a soft pop, now and then, and a little shower of sparks rises, and fades. It's one of the oldest comforts in the world.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "cap": "The fire",
+    "sub": "Slow and golden"
+   }
+  },
+  {
+   "say": "Your hands are warm now, resting in your lap. The warmth moves up through your wrists, and into your arms, and across your shoulders. It settles in your chest, a soft, steady glow, as though a small, kind fire were burning there too.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "Your hands",
+    "sub": "Warm"
+   }
+  },
+  {
+   "say": "A thought comes, and is gone before it quite arrives. There's another, and that's gone too. They're like the sparks above the fire, rising for a moment, bright and small, and then fading into the dark. You don't need to follow any of them. They're only the fire, doing what a fire does.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "cap": "A thought",
+    "sub": "Gone before it arrives"
+   }
+  },
+  {
+   "say": "The cottage makes its own small sounds. A beam settles, with a low, wooden sigh. The clock on the shelf ticks, slowly, like a heartbeat that has all the time in the world. Outside, the wind moves in the leaves, and the lake laps, very gently, against the shore.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "cap": "The sound of the house",
+    "sub": "Small and kind"
+   }
+  },
+  {
+   "say": "Your body is heavy now, and warm, and it sinks deeper into the chair with every breath. Your legs are heavy. Your arms are heavy. Even your face feels heavy and smooth, the way a stone becomes smooth in a river, worn soft by the slow passage of water.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Heavy and warm",
+    "sub": "Sinking deeper"
+   }
+  },
+  {
+   "say": "A small fire burns in an old stone hearth. Its flames are low and golden, and its light moves slowly across a folded blanket and the arm of a worn armchair. Beyond the glow, the room is a soft darkness, warm and wide, and entirely at rest.",
+   "show": {
+    "type": "photo",
+    "file": "lf49_b16_02.jpg",
+    "cap": "A fire in a stone hearth"
+   }
+  },
+  {
+   "say": "Beside you, Anton's eyes have closed. His breathing is slow and even, and his head has tipped, very slightly, against the back of the chair. The book he was carrying has slipped, unnoticed, onto his lap. A small, soft smile rests on his face, as though some small, good thing had just happened.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "And Anton",
+    "sub": "Almost asleep"
+   }
+  },
+  {
+   "say": "Tomorrow, Anton will probably forget most of the science. The names, and the years, and the scans. But he may keep a few small things. That his wandering mind isn't a fault, but a part of how a mind works. That a thought can be noticed, and let go. And that the place a wandering mind most likes to go, when it has the chance, is somewhere kind.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "What he keeps",
+    "sub": "A few small things"
+   }
+  },
+  {
+   "say": "And perhaps that's enough to carry away. A wandering mind is a mind at home in its own company.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "text": "A wandering mind is a mind at home in its own company.",
+    "by": "tonight's thought"
+   }
+  },
+  {
+   "say": "And you, too, can carry that with you into sleep, or simply let it go. You don't need to remember a single fact. The ideas will be there, if you ever want them. All that matters now is that your body is heavy, and your breath is slow, and your mind is soft.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "rooftop_dusk",
+    "cap": "And you",
+    "sub": "Settling in too"
+   }
+  },
+  {
+   "say": "Say goodnight, in your mind, to the whole day. To the people in it, and the places you went, and the thoughts that came and left. To the good parts, and the hard parts, and the parts in between. They've all been part of a day that's now complete.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Saying goodnight",
+    "sub": "To the whole day"
+   }
+  },
+  {
+   "say": "Take one more slow, full breath, in through your nose, and out through your mouth, and let it carry away anything that remains. And now let your breathing go back to its own quiet pace, the one it knows, without any help from you.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "cap": "A last breath",
+    "sub": "Slow and full"
+   }
+  },
+  {
+   "say": "And if your thoughts want to wander now, let them. Let them go wherever they like, to the lake, to the fire, to a field of long grass, to a place you've never been. There's nothing to hold them, and nothing to bring them back. Tonight, they have the whole night to roam.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "cap": "Your thoughts",
+    "sub": "Free to wander"
+   }
+  },
+  {
+   "say": "The night is long, and gentle, and kind. It has all the time in the world, and it will keep you safe, and it will give you back in the morning, rested, and a little lighter than you were.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "The night",
+    "sub": "Long and kind"
+   }
+  },
+  {
+   "say": "There is nothing left to do, and nowhere left to go. Your body is resting. Your mind is quiet. The soft dark is warm around you. And in a moment, or in a few, you won't even notice that you've stopped listening.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "cap": "Deep rest",
+    "sub": "Nothing left to do"
+   }
+  },
+  {
+   "say": "Sleep well. Goodnight.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Sleep well",
+    "sub": "Goodnight"
+   }
+  },
+  {
+   "say": "And next time, if you'd like to join me again, we'll explore another very human puzzle. Why do we keep putting off the things we meant to do, even when we know we'll pay for it later, and what does science say about what's really going on? I'll see you then.",
+   "show": {
+    "type": "end",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "next": "Why We Put Things Off"
+   }
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "id": "lf49_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Not every evening goes as gently as the one we've pictured for Anton. There are nights when a thought arrives and refuses to leave. A conversation replayed, a decision second-guessed, an email that could have been worded differently. And the thought goes round, and round, and round.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "n": 10,
+    "title": "When thoughts go round"
+   }
+  },
+  {
+   "say": "Almost everyone has had this experience. It's different from a daydream. It doesn't feel like a stroll. It feels like walking in circles on a small patch of ground, passing the same stone over and over, and getting tired without getting anywhere. Psychologists have names for it, and the most common one is rumination.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A familiar loop",
+    "sub": "The same thought again"
+   }
+  },
+  {
+   "say": "Rumination usually refers to repetitive thinking about the past, about what went wrong, why it happened and what it says about you. Worry is its close relative, and usually points at the future, at what might go wrong. Both are forms of repetitive thought, and both can be thought of as mind wandering stuck on a single track.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Two related words",
+    "sub": "Rumination and worry"
+   }
+  },
+  {
+   "say": "But it would be wrong to treat all repetitive thinking as harmful. In 2008, the psychologist Edward Watkins published a review in Psychological Bulletin on constructive and unconstructive repetitive thought. His point was that repetition can be useful or harmful, depending on how it's carried out. Thinking a problem through step by step can help. Going over the same feelings without moving forward usually doesn't.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "An important distinction",
+    "sub": "Not all repetition is unhelpful"
+   }
+  },
+  {
+   "say": "Watkins described a difference between concrete and abstract thinking. A concrete style asks how, and what's the next small step. An abstract style asks why, and what does this say about me, and tends to circle. The first tends to lead somewhere. The second tends to stay put.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "autumn_overlook",
+    "title": "Two styles of repetitive thought",
+    "items": [
+     "Concrete: how can I handle this, step by step?",
+     "Abstract: why does this always happen to me?",
+     "Moves toward an action",
+     "Circles around a feeling"
+    ]
+   }
+  },
+  {
+   "say": "The same year, Susan Nolen-Hoeksema, Blair Wisco and Sonja Lyubomirsky published a widely cited paper in Perspectives on Psychological Science, titled Rethinking rumination. They described how a ruminative style, in which a person repeatedly focuses on their distress and its causes, is associated with a higher risk of lower mood, and with problems in several areas of life.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A big review",
+    "sub": "Rethinking rumination"
+   }
+  },
+  {
+   "say": "It's important to be careful about how that's said. Studies like these show associations, and in many cases the direction runs both ways. Low mood makes rumination more likely, and rumination can deepen low mood. If you recognize this in yourself, it's not a character flaw, and if it's weighing on you, it's well worth talking to someone you trust, or to a professional.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "An honest framing",
+    "sub": "Linked to, not simply the cause of"
+   }
+  },
+  {
+   "say": "There is also a link to the brain networks we met earlier. Several brain imaging studies have found that, in people with depression, the default mode network tends to show stronger connectivity, and that this was related to how much they ruminated. A 2009 paper by Yvette Sheline and colleagues, in the Proceedings of the National Academy of Sciences, was an early example.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "street_day",
+    "cap": "A connection to the brain",
+    "sub": "The default network again"
+   }
+  },
+  {
+   "say": "A reasonable reading, though still a tentative one, is that the same network that supports a pleasant daydream can also support a loop of self-focused thinking, when it's not properly balanced by attention to the outside world. It's the same engine, running on different fuel.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "A reasonable reading",
+    "sub": "An engine that doesn't switch off"
+   }
+  },
+  {
+   "say": "There's a further reason why researchers care about this. In 2006, Jos Brosschot, William Gerin and Julian Thayer reviewed the evidence on what they called perseverative cognition, meaning repetitive thinking about stressful matters. They argued that the body's stress response, such as raised heart rate, can be prolonged by worry and rumination long after the original event has passed.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "who": "Jos Brosschot, William Gerin and Julian Thayer",
+    "where": "Journal of Psychosomatic Research, 2006",
+    "what": "A review of how repetitive thinking about stressful events can prolong the body's physical stress response"
+   }
+  },
+  {
+   "say": "In plain words, thinking about a stressful thing can keep the body in a mild alarm state, even when nothing is actually happening. The stressful event is over, but the mind plays it again, and the body responds as if it were happening. It's one reason why a night of tangled thoughts can leave you more tired than the day did.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "What that means",
+    "sub": "Thinking keeps the alarm on"
+   }
+  },
+  {
+   "say": "That's the cost of a loop. The event happens once, but the mind can live it many times.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "text": "The mind can replay a stress long after the event is over.",
+    "by": "a summary of perseverative cognition research"
+   }
+  },
+  {
+   "say": "A narrow path of old stones makes a gentle circle around a still pond. The stones are smooth where countless feet have worn them. There is no hurry, and no destination, and yet it would be easy to keep walking the same loop forever.",
+   "show": {
+    "type": "photo",
+    "file": "lf49_b10_01.jpg",
+    "cap": "A worn stone path circling a small pond"
+   }
+  },
+  {
+   "say": "So what helps? Researchers who study this tend to agree on one small, gentle idea, which is that noticing a loop is the first step out of it. When you can say to yourself, I'm ruminating, or I'm worrying, you create a little distance between you and the thought. It becomes a thing you're having, not the whole of what you are.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "autumn_overlook",
+    "cap": "A first small step",
+    "sub": "Naming it"
+   }
+  },
+  {
+   "say": "Following Watkins' work, another idea is to shift from why to how. Instead of asking why does this always happen to me, you might ask what's one small thing I could do about it tomorrow. That doesn't make the feeling vanish, but it can give the mind a path, instead of a circle.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "A second idea",
+    "sub": "Turning why into how"
+   }
+  },
+  {
+   "say": "And a third idea, which we'll return to when we reach bedtime, is to give worries a place to go. A notebook, a list, a particular time of day. The mind is often more willing to let go of a thought when it's been put somewhere safe.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "A third idea",
+    "sub": "A place for it"
+   }
+  },
+  {
+   "say": "In his armchair, Anton notices that his own thoughts have drifted back to the back door. Is it locked? He's almost certain that it is. It's a small, harmless loop, but he sees it clearly now as a loop. He tells himself, quietly, that he'll check on his way to bed, and the thought, as if relieved to be taken seriously, lets him go.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "cap": "Anton's moment",
+    "sub": "The door again"
+   }
+  },
+  {
+   "say": "Not every thought that visits us is a loop, though. Some arrive entirely uninvited, out of nowhere, and they have a story of their own. Next, we'll look at the thoughts that nobody ordered.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Next",
+    "sub": "Uninvited thoughts"
+   }
+  }
+ ]
+}

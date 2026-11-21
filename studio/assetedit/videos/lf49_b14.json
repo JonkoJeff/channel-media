@@ -1,0 +1,205 @@
+{
+ "id": "lf49_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Anton is lying in bed with the lamp on low, and the quiet notebook beside him. He feels, for the first time this evening, that he doesn't need to do anything about his wandering mind. And that's a good place to be, because one of the most hopeful ideas in this field is about exactly that.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "n": 14,
+    "title": "Making peace with wandering"
+   }
+  },
+  {
+   "say": "Many of the approaches that researchers have tested don't try to stop the mind from wandering at all. Instead, they try to change how a person relates to it. To notice the drift sooner, and with less judgment, and to return, again and again, without a fuss. That's the heart of what's often called mindfulness practice.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A different relationship",
+    "sub": "Noticing without fighting"
+   }
+  },
+  {
+   "say": "The classic exercise is as plain as it sounds. You sit, and follow the sensation of your breathing. At some point, your mind will wander, as it always does. When you notice, you gently bring your attention back to the breath. That's the whole exercise. The noticing is not the failure. The noticing is the repetition that builds the skill.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "A simple exercise",
+    "sub": "Following the breath"
+   }
+  },
+  {
+   "say": "In 2011, Judson Brewer and colleagues published a study in the Proceedings of the National Academy of Sciences, in which they scanned the brains of experienced meditators and of beginners. The experienced meditators showed less activity in key regions of the default mode network during several kinds of meditation. And they showed different connections between that network and regions linked with control and attention.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "autumn_overlook",
+    "who": "Judson Brewer and colleagues",
+    "where": "PNAS, 2011",
+    "what": "Experienced meditators and novices were scanned during different kinds of meditation"
+   }
+  },
+  {
+   "say": "That's an intriguing result, and it fits the idea that practice changes how the brain handles its own wandering. But it was a comparison between groups, not a test of changing people with training, so it can't tell us that meditation caused the difference. People who take up meditation for years may differ from others in many ways.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "What that might mean",
+    "sub": "A caution"
+   }
+  },
+  {
+   "say": "A better test of cause came from Michael Mrazek and colleagues, in Psychological Science in 2013. They assigned undergraduates at random to a two-week mindfulness course or a nutrition course, and tested them before and after. The mindfulness group showed improvement on a reading-comprehension test, and on working memory, and reported less mind wandering during a laboratory task.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "who": "Michael Mrazek and colleagues",
+    "where": "Psychological Science, 2013",
+    "what": "Undergraduates took a two-week mindfulness class or a nutrition class, and their reading comprehension, working memory and mind wandering were tested"
+   }
+  },
+  {
+   "say": "It's important to say that the study was small, and short, and its participants were students. Other studies of mindfulness have had mixed results, and some researchers have warned that the field has sometimes run ahead of its evidence. In 2018, Nicholas Van Dam and colleagues wrote a well-known paper in Perspectives on Psychological Science called Mind the hype, which asked for exactly this kind of care.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A fair note",
+    "sub": "Short, small, and early"
+   }
+  },
+  {
+   "say": "That's a plain summary of the practice. Notice, return, repeat. Whether it changes the brain in lasting ways is still being studied. But as a way of relating to a wandering mind, it's gentle, free, and available to anyone.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "text": "Notice the drift. Return. Repeat. That's the whole skill.",
+    "by": "a plain summary of attention practice"
+   }
+  },
+  {
+   "say": "A single feather rests on a still, dark pond, and moves very slowly in a tiny breeze. It isn't going anywhere in particular. It's floating, and the water supports it.",
+   "show": {
+    "type": "photo",
+    "file": "lf49_b14_01.jpg",
+    "cap": "A feather drifting on still water"
+   }
+  },
+  {
+   "say": "There's a pleasant link here to the last evening we spent together, which was about the chills that music gives us. Researchers have asked how music affects wandering, too. In 2017, Liila Taruffi and colleagues reported in Scientific Reports that sad music, compared with happy music, was linked to more mind wandering, and to differences in default network activity. Quiet music, in other words, may invite the mind to roam.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "street_day",
+    "cap": "A connection to our last evening",
+    "sub": "Music and the wandering mind"
+   }
+  },
+  {
+   "say": "Anton lets the lamp burn low, and gathers, in his head, the shape of the evening. And before we move into the slower part of the night, let's gather it together as well.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "n": 15,
+    "title": "What we explored"
+   }
+  },
+  {
+   "say": "Here's what we've covered. Minds wander in a large share of our waking moments, and the brain is far from idle while they do. Thoughts tend to lean towards plans and memories. Wandering costs us in lectures and reading, and gives us something back in creativity and planning. The content matters, a gentle drift being very different from a loop of worry. And at bedtime, writing things down seems to help.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "title": "What we learned tonight",
+    "items": [
+     "Minds wander for nearly half of waking moments",
+     "The default network is busy when you're not focused",
+     "Thoughts lean toward plans and memories",
+     "Wandering has costs in learning and gifts in creativity",
+     "Content matters: gentle drifts versus worry loops",
+     "Bedtime helps: write it down, don't fight it"
+    ]
+   }
+  },
+  {
+   "say": "If there's one idea that ties it together, it's that the wandering mind isn't a malfunction. It's the brain's default way of working when the outside world asks for less. It rehearses, remembers, imagines and worries, and which of those it does depends on the task, the mood, the hour, and the habits we've built.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "The big idea",
+    "sub": "A mind that keeps working"
+   }
+  },
+  {
+   "say": "It's also worth being honest about what the research doesn't tell us. Much of it depends on people's own reports of what they were thinking, which are imperfect. Many studies are small, or use students in a laboratory. And plenty of findings, such as the link between wandering and mood, are about associations that we can't yet fully untangle.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "cap": "What this doesn't tell us",
+    "sub": "Humility"
+   }
+  },
+  {
+   "say": "And so we come back to page twelve. The moment that seemed like a small failure, with a book open on a knee and a mind that had quietly left the room. It now looks rather different. It was a brain doing exactly what brains do. Looking ahead, looking back, and checking the doors. And returning, when it noticed, without any harm done.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Anton's callback",
+    "sub": "Page twelve"
+   }
+  },
+  {
+   "say": "So if you take one thing away, let it be this. When your mind wanders, you haven't failed. You're a person with a busy, inventive inner life, which keeps running whether or not you're watching. All you need to do is notice, now and then, and gently come back.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "A kind thought",
+    "sub": "Be gentle with it"
+   }
+  },
+  {
+   "say": "And now, if you like, we can let all the facts go. We've done the thinking for tonight. What remains is the slow part of the evening, where there's nothing to remember, and nothing to work out, and no one who needs anything from you. Let's make ourselves comfortable.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "And now",
+    "sub": "The slow part of the night"
+   }
+  },
+  {
+   "say": "Let your shoulders drop, and let your hands rest wherever they are. Let your jaw loosen, and your forehead soften. Take a slow breath in, and let it out a little longer than you took it in. Nothing needs to be done with this breath, except to let it go.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Getting comfortable",
+    "sub": "Settling in"
+   }
+  },
+  {
+   "say": "In a moment, we'll take a slow walk together, through a few quiet places, and Anton will come along with us. There's no destination, and there's no hurry. If your mind wanders on the way, that's perfectly all right. In fact, that's the whole idea.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "cap": "Where we're going",
+    "sub": "A gentle journey"
+   }
+  }
+ ]
+}

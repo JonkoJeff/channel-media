@@ -1,0 +1,181 @@
+{
+ "id": "lf49_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Anton has come back from his walk with a warm feeling, and the kind of tired contentment that follows a small success. It occurs to him that this was a very different sort of wandering from the one he'd felt earlier in the evening, when his mind had gone round and round the same door and the same worry.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "n": 9,
+    "title": "Many kinds of daydream"
+   }
+  },
+  {
+   "say": "That's a distinction that the earliest researchers of daydreaming made too. A pleasant drift, in which you imagine a holiday or replay a favorite memory, feels very different from a loop of worry that keeps returning to the same unpleasant place. And yet both fall under the heading of mind wandering. The label hides more than it reveals.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "An obvious difference",
+    "sub": "Not all drifting feels the same"
+   }
+  },
+  {
+   "say": "The person who did the most to untangle this was Jerome Singer, a psychologist at Yale, who spent decades studying daydreams. In books like Daydreaming and Fantasy, published in 1975, and in work with his colleague John Antrobus, he argued that daydreaming is a normal and common part of mental life, and that it comes in distinct styles.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "A pioneer",
+    "sub": "Jerome Singer"
+   }
+  },
+  {
+   "say": "To study these styles, Singer and Antrobus developed a questionnaire called the Imaginal Processes Inventory, which asks people about the frequency and content of their daydreams. Later versions were analyzed statistically, and the answers tended to cluster into a handful of patterns. They didn't all describe the same kind of person, or the same kind of thought.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "A questionnaire",
+    "sub": "The Imaginal Processes Inventory"
+   }
+  },
+  {
+   "say": "Three styles have become best known. Positive-constructive daydreaming is playful, curious and often about plans, with a warm tone. Guilty-dysphoric daydreaming is dominated by regret, fear, and a restless, unhappy feeling. And poor attentional control describes a style where the mind finds it hard to stay with any one thing for long, whether in the task or in the daydream.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "title": "Singer's three daydreaming styles",
+    "items": [
+     "Positive-constructive: playful, planful, curious",
+     "Guilty-dysphoric: anxious, regretful, restless",
+     "Poor attentional control: hard to stay on one thing"
+    ]
+   }
+  },
+  {
+   "say": "It can help to think of them as three kinds of weather. The first is a gentle breeze, which can carry you somewhere new. The second is a grey drizzle, which keeps coming back. The third is changeable and gusty, where the wind keeps shifting. All three are weather, and all three are natural. But they feel very different to live in.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A useful picture",
+    "sub": "Three different weather systems"
+   }
+  },
+  {
+   "say": "Why does this matter? Because it changes how we should read the research that says mind wandering goes with unhappiness. If most of the unhappy wandering is of the guilty-dysphoric kind, then it's the content, not the wandering itself, that may be doing the harm. And a pleasant, constructive daydream might be a very different thing.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "Why this matters",
+    "sub": "A more balanced view"
+   }
+  },
+  {
+   "say": "In 2013, Smallwood and Andrews-Hanna published a paper with a title that has been quoted many times: Not all minds that wander are lost. They argued for a balanced view. Mind wandering can be costly when it interferes with an important task, or when its content is negative. But it can be useful when it supports planning, creativity or the sense of who you are.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "autumn_overlook",
+    "who": "Jonathan Smallwood and Jessica Andrews-Hanna",
+    "where": "Frontiers in Psychology, 2013",
+    "what": "A review arguing that mind wandering can be helpful or harmful, depending on its content and timing"
+   }
+  },
+  {
+   "say": "There is some evidence for this in the data. In the Killingsworth and Gilbert study, people who were thinking about pleasant things while wandering were no less happy than when focused, while those thinking about neutral or unpleasant things were less happy. The unpleasant thoughts were the biggest drag. So the content did seem to matter.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "street_day",
+    "cap": "Evidence on the content",
+    "sub": "What people think about"
+   }
+  },
+  {
+   "say": "Another example comes from work on thinking about other people. In a 2016 paper in the journal Cognition and Emotion, Giulia Poerio, Peter Totterdell and colleagues reported experiments in which people made to feel lonely and then asked to daydream about someone close to them felt more connected afterward. If that result holds up, it suggests that a daydream about someone you care about may do real emotional work.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "Another kind of evidence",
+    "sub": "People we love"
+   }
+  },
+  {
+   "say": "A study by Raymond Mar, Malia Mason and Allison Litvack, published in 2012 in Consciousness and Cognition, looked at how daydreaming related to loneliness and life satisfaction. They found that it depended on what people daydreamed about, and also on gender. Daydreams about close relationships and about other people were linked to better outcomes, while other kinds of daydreaming were not.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "cap": "A related finding",
+    "sub": "Daydreams and loneliness"
+   }
+  },
+  {
+   "say": "That's the message that emerges. It isn't only whether the mind wanders. It's where it goes, and how it feels when it gets there.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "text": "It isn't only whether the mind wanders. It's where it goes.",
+    "by": "a summary of the content findings"
+   }
+  },
+  {
+   "say": "A cushioned window seat looks out over a garden. A blanket is folded at one end, and a cup of tea sits cooling on the sill. It's the kind of corner where a pleasant daydream might happily take hold.",
+   "show": {
+    "type": "photo",
+    "file": "lf49_b09_01.jpg",
+    "cap": "A window seat with soft afternoon light"
+   }
+  },
+  {
+   "say": "A cautious note, as always. Most of these results rely on people's own reports of what they were thinking, which are never perfect. Some are from small laboratory studies, and some from questionnaires, which only show associations. They paint a sensible picture, but not a final one.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A fair caution",
+    "sub": "Self-reports and snapshots"
+   }
+  },
+  {
+   "say": "Still, the practical thought is a pleasant one. If the style of a daydream matters, then there may be room to nudge it. Not to stop the mind from wandering, which is probably impossible, but to invite it, gently, towards the kinds of places that feel kind. A memory you love. A plan you're curious about. A person you miss.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "A practical thought",
+    "sub": "Choosing the weather"
+   }
+  },
+  {
+   "say": "Anton tries it. He settles back into the chair and lets his mind go where it likes, with one small suggestion, which is to think about the lake they visited when he was small. He sees the wooden jetty, hears the oars and smells the cold, clean water. It isn't a problem to solve. It's just a place to be. And a quiet warmth spreads over the evening.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "cap": "Anton's evening",
+    "sub": "A small choice"
+   }
+  },
+  {
+   "say": "But not all wandering is as gentle as Anton's lake. Some thoughts return again and again, and stay. Next, we'll look at rumination and worry, what researchers have found about why they're so sticky, and how they differ from a healthy drift.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "rooftop_dusk",
+    "cap": "Next",
+    "sub": "When the drizzle won't stop"
+   }
+  }
+ ]
+}

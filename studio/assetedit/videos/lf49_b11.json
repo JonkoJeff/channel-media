@@ -1,0 +1,202 @@
+{
+ "id": "lf49_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Anton has been sitting without his phone for nearly an hour now, and it's occurred to him that this is unusual. In the old days, he thinks, a quiet evening like this would have been the most normal thing in the world. Now it feels almost like an experiment.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "n": 11,
+    "title": "Alone with our thoughts"
+   }
+  },
+  {
+   "say": "That thought leads to a question that a team of psychologists set out to test directly. If a wandering mind is so natural, and so full of plans and memories, then being left alone with it should be a pleasant thing. A few quiet minutes, with nothing to do, to enjoy the company of your own thoughts. Is it?",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "A modern question",
+    "sub": "Can we just sit?"
+   }
+  },
+  {
+   "say": "The design of the experiment was simple, and a little unusual. Volunteers were asked to sit alone in a plain room, with no phone, no book, no pen, no music, and nothing to do, for a short period, and then to say how they felt. No tricks. Just the room, and the mind.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "A simple design",
+    "sub": "An empty room"
+   }
+  },
+  {
+   "say": "In 2014, the psychologist Timothy Wilson and colleagues at the University of Virginia and Harvard published the results in Science, in a paper called Just think. Across eleven studies, they asked people to sit alone with their thoughts for between six and fifteen minutes. The people they asked included students, and also members of the wider community, ranging in age from their late teens to their seventies.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "who": "Timothy Wilson and colleagues",
+    "where": "Science, 2014",
+    "what": "Across eleven studies, people sat alone with their thoughts for 6 to 15 minutes and rated the experience, and in one study could give themselves a mild electric shock"
+   }
+  },
+  {
+   "say": "On average, people did not enjoy it. Many said it was hard to concentrate, and that their minds wandered. And they rated the experience as less enjoyable than other activities, such as reading or listening to music, which they did in similar conditions. It seems that, left to ourselves, most of us find our own company a little less rewarding than we'd imagined.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "The first result",
+    "sub": "Not very enjoyable"
+   }
+  },
+  {
+   "say": "Then came the twist, which got the paper into the news. In one study, the volunteers first experienced a mild electric shock, and many said they'd pay money not to feel it again. Then they were left alone in the room for fifteen minutes, with a button they could press to give themselves the shock, if they wanted. They were told that it was entirely up to them.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A cleverer twist",
+    "sub": "A small electric shock"
+   }
+  },
+  {
+   "say": "The result startled the researchers. A majority of the men, about two thirds, and about a quarter of the women, gave themselves at least one shock during the quiet period. Some pressed it more than once. For some people, even something unpleasant seemed preferable to nothing at all.",
+   "show": {
+    "type": "bars",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "title": "Pressing the button",
+    "unit": "Percent who shocked themselves at least once",
+    "bars": [
+     [
+      "Men",
+      67.0
+     ],
+     [
+      "Women",
+      25.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "It's important not to over-read it. The study was small, and it involved a deliberately odd situation, in a laboratory. The people who pressed the button were a minority in some groups, and the study didn't claim that people in general would choose pain over peace. What it shows is how uncomfortable an empty, unstructured stretch of time can feel.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "street_day",
+    "cap": "A careful reading",
+    "sub": "It's a striking result, not a verdict"
+   }
+  },
+  {
+   "say": "The researchers also tested the idea at home. They asked people to spend a quiet fifteen minutes alone in their own homes, without distractions, and report afterwards. About a third admitted that they'd cheated, by getting up or picking up a phone. And the people who didn't cheat enjoyed it, on average, no more than those in the lab.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "The same finding at home",
+    "sub": "A check outside the lab"
+   }
+  },
+  {
+   "say": "The authors suggested a reason. Entertaining ourselves with our own thoughts takes effort. It requires us to choose what to think about, to sustain it, and to keep ourselves from slipping into worry. For many of us, that's a skill that gets little practice, now that something more entertaining is nearly always at hand.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "autumn_overlook",
+    "cap": "A deeper reason",
+    "sub": "Thinking takes effort"
+   }
+  },
+  {
+   "say": "Four possible reasons come out of that discussion. Nothing outside is holding attention. The mind can drift to a worry as easily as a pleasure. Entertaining yourself is a skill that takes practice. And something more interesting is usually in your pocket.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "title": "Why quiet can feel hard",
+    "items": [
+     "There is nothing external to hold attention",
+     "The mind drifts to worries as easily as to pleasures",
+     "Entertaining yourself takes practice",
+     "Something more interesting is usually within reach"
+    ]
+   }
+  },
+  {
+   "say": "There's a close connection here to boredom. In 2012, John Eastwood and colleagues published a paper in Perspectives on Psychological Science, in which they defined boredom as the aversive state of wanting to be engaged in a satisfying activity but being unable to. In that view, boredom is not an absence of stimulation, so much as a mind that wants to be engaged and can't find a way.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "A related idea",
+    "sub": "Boredom"
+   }
+  },
+  {
+   "say": "That's a helpful way to think about it, because it explains why the same quiet room can feel peaceful on one evening and restless on another. It depends on whether the mind has found something it wants to follow.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "text": "Boredom is a mind that wants to be engaged and can't find a way.",
+    "by": "a summary of Eastwood and colleagues, 2012"
+   }
+  },
+  {
+   "say": "A single wooden chair stands beside a window in an otherwise empty room. The light is soft and low. The room asks nothing of anyone, and anyone could sit down and simply be there. It looks restful, and also a little strange.",
+   "show": {
+    "type": "photo",
+    "file": "lf49_b11_01.jpg",
+    "cap": "An empty chair in a quiet room"
+   }
+  },
+  {
+   "say": "The hopeful part is that this seems to be a skill, and skills can grow. Many people find that quiet time becomes easier with practice, whether it's a regular walk without headphones, a few minutes of sitting at the window, or simply looking at the sky. The first few times may feel awkward. Later, the mind learns that it has somewhere to go.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "The hopeful side",
+    "sub": "It can be learned"
+   }
+  },
+  {
+   "say": "Anton admits, in his own quiet way, that he reached for his phone twice this evening, and put it back both times. He didn't feel brave or disciplined. He just felt that, for tonight, he'd prefer to find out where his own thoughts would go. And, to his surprise, they've gone to some rather pleasant places.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Anton's confession",
+    "sub": "A little restless himself"
+   }
+  },
+  {
+   "say": "If you'd like to try it yourself sometime, there's no need to make it a test. Just a few minutes, perhaps with a cup of tea, and nothing to do. Notice what comes. Let it come and go. And if it's uncomfortable, that's allowed too. It doesn't mean you're doing it wrong.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "A gentle experiment",
+    "sub": "If you like"
+   }
+  },
+  {
+   "say": "All of this concerns the waking mind. But what happens when we fall asleep? Researchers have noticed that dreaming may be a lot like mind wandering, and the link says something about both. Next, we'll turn toward the night.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "Next",
+    "sub": "Dreaming"
+   }
+  }
+ ]
+}

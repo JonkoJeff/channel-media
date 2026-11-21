@@ -1,0 +1,204 @@
+{
+ "id": "lf49_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Anton has been wondering whether his mind wanders more than other people's. He suspects that it does. He has a colleague, Marta, who can read a whole report on a train without once looking up, and he has always envied her for it.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "n": 6,
+    "title": "Who wanders, and when"
+   }
+  },
+  {
+   "say": "Most of us have a friend like Marta, someone who can focus on a book in a crowded cafe. And most of us have, at some point, felt like the opposite, someone whose attention slides off the page. It seems natural to ask whether people really differ in how much they wander, or whether it's just a story we tell ourselves.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A natural suspicion",
+    "sub": "Some people seem more focused"
+   }
+  },
+  {
+   "say": "The short answer from the research is that people do differ, and quite reliably. Some people report much more mind wandering than others, and those differences are fairly stable over time. They're also linked to other things about a person, such as how well they can hold information in mind while doing something else.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "The short answer",
+    "sub": "Yes, people differ"
+   }
+  },
+  {
+   "say": "That ability is called working memory capacity. It's the mental workspace in which you hold a few things at once, like a phone number while you look for a pen, or the thread of an argument while you listen to a long sentence. People differ in how much they can keep going in that workspace, and the differences have been linked to success in many kinds of tasks.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "cap": "A key idea",
+    "sub": "Working memory"
+   }
+  },
+  {
+   "say": "In the 2007 study we met earlier, Michael Kane and his colleagues found something interesting. During activities that demanded a lot of concentration, people with a higher working memory capacity reported less mind wandering. But in easy, undemanding situations, the difference faded, or even reversed. The mind that can focus when it needs to, it seems, is not always the mind that does.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "who": "Michael Kane and colleagues",
+    "where": "Psychological Science, 2007",
+    "what": "Handheld devices in daily life showed that people with higher working memory capacity wandered less during demanding activities"
+   }
+  },
+  {
+   "say": "A couple of years later, Danielle McVay and Michael Kane published a related study in the Journal of Experimental Psychology: General. They gave volunteers a task that required sustained attention, and checked how often attention lapsed. People with lower working memory capacity reported more task-unrelated thoughts, and made more errors on the task.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A follow-up",
+    "sub": "In the laboratory"
+   }
+  },
+  {
+   "say": "McVay and Kane's interpretation was that wandering is partly a failure to keep a goal in mind. If your task goal is held tightly, it keeps pulling attention back. If it slips even slightly, other thoughts rush in to fill the space. They called this goal neglect, and the title of their paper used the phrase conducting the train of thought.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "Their interpretation",
+    "sub": "Goal neglect"
+   }
+  },
+  {
+   "say": "That's a way of summarizing their idea. When the goal fades, the mind fills in the gap with whatever is nearest. It isn't necessarily a character flaw. It's the mind's default filling in where the task has let go.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "text": "Wandering is partly the sound of a goal being quietly dropped.",
+    "by": "a way of summarizing the goal-neglect idea"
+   }
+  },
+  {
+   "say": "Mood matters, too. In 2009, Jonathan Smallwood and colleagues published a study in the journal Emotion with the title Shifting moods, wandering minds. In experiments where they induced a low mood in volunteers, those people went on to report more wandering during a following task, and the thoughts were more often about the past and more often negative.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "A second influence",
+    "sub": "Mood"
+   }
+  },
+  {
+   "say": "Together with Killingsworth and Gilbert's results, this points to a two-way street. Wandering may be linked to lower mood afterward. And lower mood may also lead the mind to wander in less helpful directions. Both are plausible, and it may well be that the two feed each other, which is one reason why the relationship is hard to pin down in a single study.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "What that suggests",
+    "sub": "A two-way street"
+   }
+  },
+  {
+   "say": "Age is another factor. Several studies, starting with an early laboratory study by Leonard Giambra in 1989, found that older adults tended to report fewer task-unrelated thoughts than younger ones. A 2012 study by Jackson and Balota, in Psychology and Aging, looked at this more carefully, using tasks that measure sustained attention and reading comprehension.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "cap": "A third influence",
+    "sub": "Age"
+   }
+  },
+  {
+   "say": "They found, again, that older adults reported less mind wandering during demanding tasks. That might sound surprising, since older people often report worse memory. But the studies suggest that how much a mind wanders isn't simply a measure of how well it works. It's partly a matter of what the mind is doing with its spare time.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "What those studies found",
+    "sub": "A quieter mind with age"
+   }
+  },
+  {
+   "say": "Putting it together, the amount a mind wanders seems to depend on several things at once. How much working memory you have, and how demanding the task is. Whether you're tired or stressed, and what mood you're in. How old you are. And, as we saw earlier, whether you chose to let it drift or it simply happened.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "title": "What seems to influence wandering",
+    "items": [
+     "Working memory capacity",
+     "Task difficulty and interest",
+     "Mood and stress",
+     "Tiredness",
+     "Age",
+     "Whether a person chose to let it drift"
+    ]
+   }
+  },
+  {
+   "say": "Seen from a quiet seat, a train carriage is full of small private worlds. Someone looks out of the window, someone turns a page, someone stares at nothing. They're all in the same place, and they're all, in some sense, somewhere else.",
+   "show": {
+    "type": "photo",
+    "file": "lf49_b06_01.jpg",
+    "cap": "A crowded train carriage at dusk"
+   }
+  },
+  {
+   "say": "For Anton, the research offers a mild reassurance. His mind wandering more than Marta's doesn't mean there's something wrong with him. It could mean he's tired, that his book is easier than it looks, or that his mind is simply one of those that likes to roam. It could also mean that Marta's mind is just as busy, but better at hiding it.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "What this means for Anton",
+    "sub": "Not a verdict"
+   }
+  },
+  {
+   "say": "That last point is worth taking seriously. Nearly all of these findings are averages across groups. They tell us that, on average, people with higher working memory tend to wander less in hard tasks. They don't tell us anything certain about Anton, or Marta, or you. And measuring what's going on inside a particular person's head remains very hard.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "cap": "An honest limit",
+    "sub": "Averages, not individuals"
+   }
+  },
+  {
+   "say": "If there's a lesson in all of this, it's that how much your mind wanders is not a measure of your worth, or your intelligence, or your discipline. It's a mix of your brain, your mood, your sleep, the task in front of you and the kind of day you've had. Some of those things you can influence. Many you can't.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "cafe_sunset",
+    "cap": "A kinder view",
+    "sub": "Not a measure of worth"
+   }
+  },
+  {
+   "say": "Back in the armchair, Anton tries a small experiment. He puts his book down and tries to follow, deliberately, the very next thought that arrives. It's about his tea. Then it's about his grandmother's blue cups. Then it's about a lake they once visited. He loses track somewhere around the lake, and he smiles. Following a wandering mind, he discovers, is rather like following a cat.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A small experiment",
+    "sub": "Anton's tea"
+   }
+  },
+  {
+   "say": "So wandering is common, it differs between people, and it has a typical shape. But does it cost us anything? Next, we'll look at the evidence that it does, in classrooms, in lectures and in reading, and at how researchers have tried to put it right.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Next",
+    "sub": "What it costs us"
+   }
+  }
+ ]
+}

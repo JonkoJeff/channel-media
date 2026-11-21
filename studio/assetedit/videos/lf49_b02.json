@@ -1,0 +1,193 @@
+{
+ "id": "lf49_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Anton has put the kettle on, and while he waits, he finds himself wondering how anyone could ever measure something as slippery as a wandering thought.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "n": 2,
+    "title": "Catching a thought in the act"
+   }
+  },
+  {
+   "say": "It is a genuine difficulty. The moment you look for a wandering thought, you've stopped wandering. It's a bit like trying to catch yourself falling asleep. Psychologists who study this have had to be inventive, and the methods they came up with tell us a good deal about what mind wandering actually is.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A real difficulty",
+    "sub": "Thoughts hide when you look"
+   }
+  },
+  {
+   "say": "There are two main approaches. In the first, the researcher interrupts you at random moments and asks, right then, whether your mind was on the task. These are called probe-caught episodes. In the second, you're asked to press a button whenever you notice, on your own, that your mind has drifted. Those are self-caught episodes.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Two ways to catch it",
+    "sub": "Probes and self-reports"
+   }
+  },
+  {
+   "say": "The difference between the two turns out to matter a great deal. A self-caught episode means you were aware, at some point, that your mind had left. A probe-caught episode can catch you red-handed in the middle of a thought you hadn't noticed at all. And the gap between those two is one of the most interesting things in the field.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "Why both matter",
+    "sub": "A hidden difference"
+   }
+  },
+  {
+   "say": "Psychologists call it meta-awareness, which simply means being aware of what your own mind is doing. Researchers such as Jonathan Schooler and Jonathan Smallwood have argued that a wandering mind often drifts for a while with no meta-awareness at all. You are thinking, but you're not noticing that you're thinking about something else. Then, quite suddenly, you catch yourself, and it feels like waking up.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "cap": "Meta-awareness",
+    "sub": "Knowing that you've drifted"
+   }
+  },
+  {
+   "say": "That jolt is a very familiar experience. You're reading, and a sentence suddenly makes no sense, because you realize you haven't been reading for a while. Or you're in a meeting, and someone says your name. The moment of noticing is a little burst of awareness, and in some studies, it's the thing researchers are actually trying to catch.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "A familiar jolt",
+    "sub": "That moment of catching yourself"
+   }
+  },
+  {
+   "say": "In 2007, a team led by the psychologist Michael Kane, at the University of North Carolina at Greensboro, took this out of the laboratory. Students carried small handheld devices for a week, which beeped eight times a day at random moments. Each time, they were asked a few questions about what they'd been doing and whether their minds had been on it. The paper was titled, simply, For whom the mind wanders, and when.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "who": "Michael Kane and colleagues",
+    "where": "Psychological Science, 2007",
+    "what": "Students carried handheld devices for a week that beeped at random times and asked what they were thinking"
+   }
+  },
+  {
+   "say": "In their data, thoughts unrelated to the current activity showed up in roughly a third of the signals. That's a little lower than the Harvard app study found, and the numbers differ between studies for good reasons. The people sampled were different, the questions were worded differently, and the activities were different too. But the overall picture agreed. Mind wandering isn't a rare lapse. It's a constant companion.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "What they found",
+    "sub": "A steady background hum"
+   }
+  },
+  {
+   "say": "Kane's team also found that wandering wasn't spread evenly. It was more common when people were doing something they found easy or boring, and less common when the task was demanding, or when they were deeply interested in what they were doing. It was also more common when people said they were tired, or in a worse mood, and less common in moments of high concentration.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "The pattern in the data",
+    "sub": "It depends on what you're doing"
+   }
+  },
+  {
+   "say": "That fits what most of us feel. The mind drifts most when it can afford to. When a task is easy, familiar or dull, there's spare capacity, and the mind uses it. When a task is difficult or gripping, there's nothing left over to wander with.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "autumn_overlook",
+    "title": "When minds wander more",
+    "items": [
+     "Easy or familiar tasks",
+     "Boredom and tiredness",
+     "Low or negative mood",
+     "Quiet moments with nothing demanding",
+     "Tasks that run on autopilot"
+    ]
+   }
+  },
+  {
+   "say": "It's tempting to think this is a problem of the smartphone age, but the observation is much older. In 1890, the psychologist William James wrote about the stream of consciousness, and described how the mind drifts from one thought to the next, hardly ever staying where it is. He called attention the taking possession by the mind of one thing out of several possible objects of thought, and he noticed that the effort of holding it there is hard to sustain.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "An old observation",
+    "sub": "Not a modern problem"
+   }
+  },
+  {
+   "say": "Paraphrasing James, attention is something the mind has to keep taking hold of, and it doesn't hold on forever. Wandering is what happens in the gaps.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "text": "Attention is a taking possession by the mind, and it does not last.",
+    "by": "a paraphrase of William James, 1890"
+   }
+  },
+  {
+   "say": "Another idea has become important in recent years. Some mind wandering is deliberate. You choose to let your thoughts drift, perhaps during a long walk or a boring task, because it's pleasant, or because it helps you plan. And some is entirely accidental, where you meant to listen to a friend or finish a report, and your mind simply slipped away without permission.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "rooftop_dusk",
+    "cap": "A useful distinction",
+    "sub": "On purpose, or by accident"
+   }
+  },
+  {
+   "say": "In 2016, the researchers Paul Seli, Evan Risko and Daniel Smilek argued in Psychological Science that these two kinds need to be separated. Their work suggested that intentional and unintentional wandering behave differently. Unintentional wandering tends to go up when a task is hard, because the mind loses its grip. Intentional wandering tends to go up when a task is easy, because the mind has room to roam.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Seli and colleagues",
+    "sub": "Intentional and unintentional"
+   }
+  },
+  {
+   "say": "That's a helpful reminder that mind wandering isn't one thing. When we say your mind wandered, we might be describing a pleasant daydream you chose, or an accidental lapse you'd gladly take back. Much of what's been said about the costs and benefits of wandering depends on which of the two we have in mind.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Why that matters",
+    "sub": "Two kinds of drifting"
+   }
+  },
+  {
+   "say": "The kettle sits on the stove, with a thin thread of steam beginning to rise. The kitchen is still, and the light over the counter is soft and warm. Nothing demands anything of anyone. It's exactly the kind of quiet in which thoughts begin to travel.",
+   "show": {
+    "type": "photo",
+    "file": "lf49_b02_01.jpg",
+    "cap": "A kettle on a quiet stove"
+   }
+  },
+  {
+   "say": "In Anton's kitchen, the kettle clicks off. He has no idea how long he's been standing there, looking at nothing, or what he was thinking. He pours the water, carries his tea back to the armchair, and thinks that this is perhaps the most ordinary form of mind wandering of all. Not a dramatic escape. Just a gap, which the mind filled without being asked.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "autumn_overlook",
+    "cap": "Back to Anton",
+    "sub": "The kettle clicks"
+   }
+  },
+  {
+   "say": "So what is the brain doing during a gap like that? For many years, scientists assumed that when you weren't doing anything in particular, your brain wasn't doing much either. Next, we'll see how that assumption fell apart.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Next",
+    "sub": "Inside the brain"
+   }
+  }
+ ]
+}

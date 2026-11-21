@@ -1,0 +1,204 @@
+{
+ "id": "lf49_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Anton is back in the armchair, and he's remembering a long drive he made last spring. For the first hour he was alert and chatty. By the third, he was driving on a kind of quiet autopilot, and he was relieved when he finally pulled into a services and stretched his back.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "n": 19,
+    "title": "Why attention wears thin"
+   }
+  },
+  {
+   "say": "Most of us know that sustained attention fades. You start a long task with a clear head and good intentions, and somewhere along the way, the edges blur. You read the same line twice, or you look up from your screen and realize that ten minutes have gone. It's not just in your imagination, and it's not just a matter of motivation.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "A familiar slide",
+    "sub": "Focus fades with time"
+   }
+  },
+  {
+   "say": "The scientific story begins in the Second World War, with a practical problem. Radar operators and anti-submarine watchers had to stare at screens for hours, waiting for a faint signal that might or might not appear. And it was noticed that, after a while, they began to miss signals that were really there. The question was why.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "A wartime puzzle",
+    "sub": "Watching radar screens"
+   }
+  },
+  {
+   "say": "In 1948, the British psychologist Norman Mackworth designed a simple, now famous test. Volunteers watched a pointer move around a blank clock face, one small step at a time, for two hours. Every so often, the pointer made a double step, and the volunteers had to report it. It was dull, and it was hard to keep up.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "who": "Norman Mackworth",
+    "where": "Quarterly Journal of Experimental Psychology, 1948",
+    "what": "Volunteers watched a clock hand that occasionally made a double jump, and were asked to report each one over a two-hour session"
+   }
+  },
+  {
+   "say": "Mackworth found that people's detection of the double steps fell off during the session, and most of the drop happened early, within the first half hour or so. After that, performance stayed lower. The people hadn't become unable to do the task. Their attention had simply worn thin, quite quickly, on a task that offered little to hold it.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "What happened",
+    "sub": "A drop after half an hour"
+   }
+  },
+  {
+   "say": "The pattern became known as the vigilance decrement, and it's been found many times since, in many kinds of tasks. It's one of the most reliable findings in the study of attention. And it fits neatly with what we've seen about mind wandering, because lapses of attention in these tasks are often, though not always, accompanied by drifting thoughts.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A name for it",
+    "sub": "The vigilance decrement"
+   }
+  },
+  {
+   "say": "There have been two main explanations. One is that the mind simply becomes bored and withdraws its effort, so that attention drifts to other things. The other is that sustained attention is genuinely tiring, and that the mental resources it uses get used up. Researchers have argued about this for decades, and it may be that both play a part.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "Why it happens",
+    "sub": "Two ideas"
+   }
+  },
+  {
+   "say": "In 2008, Joel Warm, Raja Parasuraman and Gerald Matthews published a review in the journal Human Factors with the title Vigilance requires hard mental work and is stressful. They argued that, far from being a passive activity, watching for rare events takes real mental effort, and that people find it more tiring and more stressful than they'd expect.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "autumn_overlook",
+    "who": "Joel Warm, Raja Parasuraman and Gerald Matthews",
+    "where": "Human Factors, 2008",
+    "what": "A review arguing that vigilance tasks demand effort and are experienced as stressful"
+   }
+  },
+  {
+   "say": "It's a pleasing reframing. We often think of watching as the easy part, something you do when there's nothing difficult to do. But holding your attention steady on a quiet scene, and keeping alert for something that may never come, is quite hard work for a brain. No wonder the mind starts to wander.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "street_day",
+    "cap": "A reframing",
+    "sub": "Watching is not resting"
+   }
+  },
+  {
+   "say": "So, a few reasons come together. The mind withdraws effort from a dull task. Sustained focus draws on resources that get used up. Rare events give attention little to grab. And when we're tired, or low, everything gets harder still.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "title": "Why attention may wear thin",
+    "items": [
+     "The mind withdraws effort from a dull task",
+     "Sustained attention uses up mental resources",
+     "Rare events give little to hold on to",
+     "Tiredness and low mood make it worse"
+    ]
+   }
+  },
+  {
+   "say": "But the story has a hopeful turn. In 2011, Atsunori Ariga and Alejandro Lleras, at the University of Illinois, published a paper in the journal Cognition, with a title that gives away the result: Brief and rare mental breaks keep you focused.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "A hopeful experiment",
+    "sub": "Tiny breaks"
+   }
+  },
+  {
+   "say": "In their experiment, people did a long, repetitive computer task for close to an hour. One group did it straight through, and their performance declined, as expected. Another group had two very short breaks, in which they were briefly shown a different task, before returning to the main one. And their performance didn't decline in the same way.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "rooftop_dusk",
+    "who": "Atsunori Ariga and Alejandro Lleras",
+    "where": "Cognition, 2011",
+    "what": "People did a long, repetitive computer task, and some were briefly shown a different task twice during the session"
+   }
+  },
+  {
+   "say": "Ariga and Lleras suggested that the decline in focus may come partly from the goal going stale, as the brain gets used to the same thing for too long. A short switch of tasks, they argued, resets the goal, and the mind returns to the main task refreshed. The breaks were tiny, but they were enough.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "What that suggests",
+    "sub": "A refreshed goal"
+   }
+  },
+  {
+   "say": "That's a simple idea, with an easy practical side. Brief, rare breaks may help more than we'd think, and they don't have to be long.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "text": "A very brief break can keep the goal fresh.",
+    "by": "a summary of Ariga and Lleras, 2011"
+   }
+  },
+  {
+   "say": "A straight road stretches across an open landscape into the evening. A single line of pale paint runs down the middle, and the sky is a deep, soft orange. The road is empty. It's easy to imagine the quiet, humming focus of a long drive, and the way the mind begins to float.",
+   "show": {
+    "type": "photo",
+    "file": "lf49_b17_01.jpg",
+    "cap": "A long road at dusk"
+   }
+  },
+  {
+   "say": "Anton smiles at the memory. He realizes that his stop at the services, the stretch, the coffee, the walk around the car park, was exactly the kind of break the research describes. It wasn't a waste of time. It was the thing that let him drive the last two hours safely, and arrive with his attention still intact.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "Anton's drive",
+    "sub": "A stop at the services"
+   }
+  },
+  {
+   "say": "As always, a note of caution. The Ariga and Lleras result comes from a particular kind of laboratory task, and the best length and timing of breaks will depend on the work, and on the person. It's not a magic number, and it doesn't prove that every task benefits in the same way. But it's a good reason to be kind to yourself about stopping.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "An honest limit",
+    "sub": "Not a universal rule"
+   }
+  },
+  {
+   "say": "If there's a simple lesson, it's that the fading of attention is natural, and that small, regular breaks are not laziness. They're part of how a mind keeps its edge. And a break in which you let the mind wander, even for a minute, may be the most natural one of all.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle takeaway",
+    "sub": "Let the break be a break"
+   }
+  },
+  {
+   "say": "Which brings us, rather neatly, to the other side of the story. We've seen that wandering has its costs. Next, we'll look at what it might give us in return, and at why a stuck problem sometimes solves itself on a walk.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "Next",
+    "sub": "The gifts of wandering"
+   }
+  }
+ ]
+}

@@ -1,0 +1,218 @@
+{
+ "id": "lf50_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "It's a Saturday morning, a few weeks on, and Nora wakes without an alarm. Light is slipping through the curtains, and her first thought is not about how she slept. It's about a stubborn problem she'd been stuck on for days, the lid of a particular antique book box that wouldn't sit straight. And suddenly, lying there, she can see exactly how to fix it.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A good morning",
+    "sub": "Nora wakes up"
+   }
+  },
+  {
+   "say": "We've spent most of tonight on why sleep is hard to catch, but it's worth asking why we bother. What does a sleeping brain do with those hours?",
+   "show": {
+    "type": "chapter",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "n": 24,
+    "title": "What sleep is actually for"
+   }
+  },
+  {
+   "say": "One of the earliest answers came in 1924, from two American psychologists, John Jenkins and Karl Dallenbach. They asked two students to learn lists of meaningless syllables, and then tested their memory after intervals of one to eight hours, either after staying awake or after sleeping. The students remembered noticeably more after sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "An old experiment",
+    "sub": "Forgetting, awake and asleep"
+   }
+  },
+  {
+   "say": "Jenkins and Dallenbach suggested that forgetting isn't just a fading of memories with time, but is also caused by the interference of all the new things we meet while awake. Sleep, they said, gives the memory a kind of shelter. It's a lovely early idea, and later research has found that sleep does much more than shelter. It actively works on what we've learned.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "The interpretation",
+    "sub": "A shelter from interference"
+   }
+  },
+  {
+   "say": "In 1994, Matthew Wilson and Bruce McNaughton recorded from many neurons in the hippocampus of rats, a brain region important for memory. During sleep, they found that the patterns of activity the neurons had shown while the rats ran through a maze were played back again, as though the brain was rehearsing the day. Replay, as it's called, has since been studied in many forms.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Replay",
+    "sub": "A rat's evening"
+   }
+  },
+  {
+   "say": "In 2007, Björn Rasch and his colleagues in Lübeck designed an ingenious test. Volunteers learned the positions of cards in a game while a rose scent was in the room. Then they slept in the laboratory, and during deep sleep, the same scent was gently released again. The idea was to cue the brain to replay the memory.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cabin_fireplace",
+    "who": "Björn Rasch and colleagues",
+    "where": "Science, 2007",
+    "what": "Volunteers learned card locations while smelling a rose scent, and the scent was re-presented while they slept, to see whether it strengthened the memory"
+   }
+  },
+  {
+   "say": "When they were tested the next morning, the people who had smelled the scent during deep sleep remembered more of the card positions, about ninety-seven percent, compared with about eighty-six percent for people who got no scent during sleep. When the scent was given during REM sleep instead, there was no such benefit. It suggested that deep sleep has a special role in strengthening certain kinds of memory.",
+   "show": {
+    "type": "bars",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "title": "Memory for the card game",
+    "unit": "Percent correct",
+    "bars": [
+     [
+      "Scent during deep sleep",
+      97.0
+     ],
+     [
+      "No scent during deep sleep",
+      86.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Of course, as in all of sleep science, there are caveats. These studies are small, memory is a very varied thing, and not every kind of learning benefits equally. But the broad picture, built from many experiments by Jan Born, Susanne Diekelmann, Robert Stickgold and others, is that sleep helps us hold on to what matters, and tidy what doesn't.",
+   "show": {
+    "type": "char",
+    "sprite": "N13",
+    "bg": "attic_rain",
+    "cap": "A fair note",
+    "sub": "Not every memory, not every night"
+   }
+  },
+  {
+   "say": "An old leather-bound book rests on a wooden workbench among small tools, a bone folder, and a spool of linen thread. A lamp lights the cracked spine, and everything in the scene suggests patient, careful repair, the kind that gets done a little at a time.",
+   "show": {
+    "type": "photo",
+    "file": "lf50_b14_01.jpg",
+    "cap": "A restored book on a workbench"
+   }
+  },
+  {
+   "say": "Researchers distinguish between memories of facts and events, like where the cards were, and memories of skills, like playing a piano passage. Studies suggest that deep sleep may be particularly helpful for the first kind, while the lighter stages and REM sleep may contribute more to skills and to emotional memories. It isn't a clean split, but it's a useful way of picturing what the different parts of the night might do.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Two kinds of memory",
+    "sub": "Facts and skills"
+   }
+  },
+  {
+   "say": "Another idea, developed by Susanne Diekelmann and Jan Born, is that sleep strengthens the gist of what we've learned while letting some of the fine detail fade. That may sound like a loss, but it's probably a feature. A brain that remembered every detail of every day would be buried under it, while a brain that keeps the patterns and the important parts is far more useful.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "A tradeoff",
+    "sub": "Keeping the gist"
+   }
+  },
+  {
+   "say": "Some scientists, among them Matthew Walker and Els van der Helm, have proposed that REM sleep may help to take the sharp emotional edge off difficult memories, while keeping the memory itself. The evidence for this is still developing, and not every study agrees. But it fits with an everyday intuition that most of us have had, that things often look a little gentler after a night of sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "Emotional memory",
+    "sub": "Sleep to remember, sleep to soften"
+   }
+  },
+  {
+   "say": "There's one more thing that sleep seems to do, and it explains what happened to Nora this morning.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "n": 25,
+    "title": "Sleeping on it"
+   }
+  },
+  {
+   "say": "In 2004, Ullrich Wagner, Steffen Gais, Jan Born and their colleagues gave volunteers a number puzzle with a hidden shortcut. They were asked to solve the task, then either to sleep through the night or to stay awake, and then to return to the task. They weren't told that a shortcut existed.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "A famous puzzle",
+    "sub": "The hidden rule"
+   }
+  },
+  {
+   "say": "After a night of sleep, about fifty-nine percent of the volunteers discovered the hidden shortcut, compared with about twenty-three percent of those who spent the same time awake. The paper was called Sleep inspires insight, and it's one of the most quoted studies in the field. It gives scientific weight to the old advice to sleep on it.",
+   "show": {
+    "type": "stat",
+    "sprite": "N11",
+    "bg": "autumn_overlook",
+    "title": "After a night of sleep",
+    "big": "About 59%",
+    "label": "of volunteers discovered the hidden shortcut after sleeping, compared with about 23% of those who stayed awake"
+   }
+  },
+  {
+   "say": "The suggestion is that during sleep, the brain reorganises memories, finding patterns and connections that weren't visible while awake. It doesn't solve every problem, and no one would claim that you'll wake with answers to everything. But for puzzles where a single flash of insight can unlock a solution, a night of sleep may give you an advantage, much as it did for Nora's box.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "cap": "What might be happening",
+    "sub": "Reorganising memories"
+   }
+  },
+  {
+   "say": "Another idea concerns the brain's housekeeping. In 2013, Lulu Xie, Maiken Nedergaard and their colleagues reported that in mice, the space between brain cells was larger during sleep, and that waste products, including a protein linked to Alzheimer's disease, were cleared faster. Whether the same is true in people is still being investigated, and the details are debated.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "And a cleaner brain",
+    "sub": "The tidying hypothesis"
+   }
+  },
+  {
+   "say": "Why mention all of this at the end of a long conversation about not sleeping? Because it points to something comforting. Sleep isn't a fragile accomplishment that you must achieve by effort. It's a deep, built-in process, with its own strong drive, and it has a remarkable ability to recover, even after difficult stretches.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A reassuring turn",
+    "sub": "Sleep wants to happen"
+   }
+  },
+  {
+   "say": "When people who've slept badly finally get a chance, they usually sleep longer and deeper, as if the body is making up the difference. Sleep pressure, as we saw at the start, builds with every hour awake, and sooner or later it wins. That doesn't mean we should ignore chronic problems. It means that a few bad nights are not the end of the story.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "rooftop_dusk",
+    "cap": "Recovery",
+    "sub": "A patient system"
+   }
+  },
+  {
+   "say": "So Nora, with her fixed box lid and her slow Saturday, is a small illustration of what a good night does. And she got there not by forcing it, but by understanding it. A steady rhythm, a quiet mind, a cool room, and a willingness to let go. Next, we'll gather everything into a few ideas that she can carry.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Back to Nora",
+    "sub": "A different kind of morning"
+   }
+  }
+ ]
+}

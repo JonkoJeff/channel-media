@@ -1,0 +1,209 @@
+{
+ "id": "lf50_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In the summer of 1938, two men walked into Mammoth Cave in Kentucky, and didn't come out for a month. One was Nathaniel Kleitman, a physiologist who is often called the father of modern sleep research. The other was a young student of his, Bruce Richardson. They carried a bed, a table, and thermometers, and their plan was simple and slightly mad. They wanted to find out whether a human being could live on a twenty-eight-hour day.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "A hole in the ground",
+    "sub": "An old experiment"
+   }
+  },
+  {
+   "say": "It sounds like a strange thing to ask, but it points at a deep question. Is the length of our day something the body learns from the world, or something it carries inside?",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "n": 4,
+    "title": "The cave and the clock"
+   }
+  },
+  {
+   "say": "The cave was chosen because it is dark, quiet and almost constant in temperature, all year round. There was no sunrise to follow and no street noise to mark the hours. Kleitman wanted to take away every outside clue about the time of day, and then see what the body did when it was left to keep time on its own.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "The reason for the cave",
+    "sub": "No sun, no schedule"
+   }
+  },
+  {
+   "say": "So the two men tried to live on a twenty-eight-hour day, with fourteen hours awake and fourteen asleep, while measuring their body temperature, which normally rises and falls over a twenty-four-hour cycle. If the body clock were just a habit, it should have followed them onto the new schedule. If it were something built in, it would resist.",
+   "show": {
+    "type": "char",
+    "sprite": "N13",
+    "bg": "attic_rain",
+    "cap": "The twenty-eight-hour day",
+    "sub": "A schedule against nature"
+   }
+  },
+  {
+   "say": "The results were not quite what either man had hoped for. Richardson's temperature rhythm gradually moved toward the new twenty-eight-hour schedule. Kleitman's did not. His body kept rising and falling on something close to twenty-four hours, no matter what the clock on the table said. The experiment was messy, with only two volunteers, but it planted an idea that would grow for decades.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cabin_fireplace",
+    "who": "Nathaniel Kleitman and Bruce Richardson",
+    "where": "Mammoth Cave, Kentucky, 1938",
+    "what": "Two men lived for about a month on an artificial twenty-eight-hour day while their body temperature was recorded"
+   }
+  },
+  {
+   "say": "Today, we'd say that two people can't prove much, but the story is a useful warning against simple answers. The body clock is real, it is stubborn, and it's not identical in everyone. Some people's clocks bend a little further than others, which is part of why some of us adapt to night shifts better than our colleagues.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "A reasonable reading",
+    "sub": "People differ"
+   }
+  },
+  {
+   "say": "In 1962, a young French geologist named Michel Siffre took the idea much further. He descended into a cave in the Alps, in a place with an underground glacier, and stayed for about two months, with no watch, no daylight and no contact except a telephone line to a team on the surface. He called them whenever he woke up, ate, or went to bed, and they wrote down the times.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "Twenty-four years later",
+    "sub": "A Frenchman in a glacier cave"
+   }
+  },
+  {
+   "say": "When the team told him that his experiment was over, Siffre was astonished. By his own count, only about a month had passed. He had badly underestimated the time, because without a sunrise to mark the days, his sleeping and waking had drifted into a rhythm slightly longer than twenty-four hours. Each day felt like a day, but it was a little more than one.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "Lost in time",
+    "sub": "The count that went wrong"
+   }
+  },
+  {
+   "say": "Researchers call this a free-running rhythm. When a person is shielded from every outside clue, the body keeps a very stable cycle of sleeping, waking and temperature, but one that doesn't quite match the earth. Early studies suggested it was a bit over twenty-four hours, and they sometimes described the extra as growing, day by day, like a watch that runs slow.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "cap": "A free-running clock",
+    "sub": "The rhythm of an empty room"
+   }
+  },
+  {
+   "say": "In 1999, a team led by Charles Czeisler tightened the method. Their volunteers lived in dim light on artificial days of unusual length, which stopped the sleeping and waking pattern from masking the clock's own beat. The study found that the human body clock's average period is about twenty-four hours and eleven minutes. Not the twenty-five hours of the old experiments, but a clock that still runs a little slow.",
+   "show": {
+    "type": "study",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "who": "Charles Czeisler and colleagues",
+    "where": "Science, 1999",
+    "what": "Eleven healthy volunteers lived on schedules far longer or shorter than a day, in very dim light, so scientists could measure the natural period of the clock"
+   }
+  },
+  {
+   "say": "And notice how small that number is. Eleven minutes isn't much, but it's enough to matter. If left alone, the body clock would drift slightly later every day, and the only thing that keeps it in step with the sun is a daily nudge, usually from light, which we'll come to in a moment.",
+   "show": {
+    "type": "stat",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "title": "The length of the human body clock",
+    "big": "24 h 11 min",
+    "label": "the average natural period measured in Czeisler's 1999 study, with very little variation between people"
+   }
+  },
+  {
+   "say": "So where does this clock live? In 1972, two groups of researchers found that damaging a very small region in the hypothalamus of a rat's brain, just above the place where the optic nerves cross, destroyed the animal's daily rhythms. The region is called the suprachiasmatic nucleus, or SCN, and in humans it contains about twenty thousand neurons, a very small town of cells.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "Where the clock lives",
+    "sub": "A tiny master"
+   }
+  },
+  {
+   "say": "The SCN is often described as the master clock, but it isn't the only one. Almost every organ, from the liver to the heart, has cells that keep their own rhythm, thanks to a set of clock genes. The master clock acts like a conductor, keeping the others in time. For their work on those genes, in fruit flies, three scientists shared the Nobel Prize in 2017.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "More than one clock",
+    "sub": "The body's orchestra"
+   }
+  },
+  {
+   "say": "A weathered stone sundial in a quiet garden, with its shadow falling across the numerals. The grass is soft and green, the light is low, and everything about the scene suggests that the hours are passing, gently and without any hurry.",
+   "show": {
+    "type": "photo",
+    "file": "lf50_b03_01.jpg",
+    "cap": "A sundial in a quiet garden"
+   }
+  },
+  {
+   "say": "The genes behind all this were found in a surprising place. In 1971, the scientists Ronald Konopka and Seymour Benzer noticed that some fruit flies had unusually fast, slow or missing daily rhythms, and traced the changes to a single gene, which they called period. It was the first time anyone had shown that an animal's daily timing could be altered by changing one gene, and it opened a door that scientists are still walking through.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Clocks in a fly",
+    "sub": "A strange discovery"
+   }
+  },
+  {
+   "say": "Something similar has been found in people. Some rare families go to sleep in the early evening and wake before dawn, and in a few of them, researchers have identified changes in clock genes. Most of us, of course, have ordinary variations of many genes at once, which is why we don't fall neatly into types. But the lesson is that the clock isn't only a habit. It's partly written into us.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "The same idea in people",
+    "sub": "Families with early bedtimes"
+   }
+  },
+  {
+   "say": "That matters for Nora, because it takes some of the blame off her. If her natural rhythm runs late, then lying awake at midnight isn't a failure of discipline. It's a clock doing what it does. It just happens that the world she lives in starts early, and a body clock that is a little out of tune with the world can feel, from the inside, a lot like sleeplessness.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "What it means for tonight",
+    "sub": "Nora's clock is her own"
+   }
+  },
+  {
+   "say": "Because the body's own clock runs a bit long, it has to be reset every day, and the SCN does that mainly by listening to the eyes. Light, especially bright blue-ish daylight, tells it what time it is outside. Without that daily correction, we would drift later and later, which is exactly what happens in people who are totally blind and have no light signal reaching the clock.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "A clock that learns the sun",
+    "sub": "Daily adjustment"
+   }
+  },
+  {
+   "say": "So Nora's night may hold a second piece. If she spent the day in a dim office, then sat under bright lamps late in the evening, her clock may have been nudged later than she wanted. It's a small thing, but small things at the body clock are enough to move a bedtime by an hour or two.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Back to Nora",
+    "sub": "A clock a little off"
+   }
+  },
+  {
+   "say": "Next, we'll find out how that signal travels from your eyes to the clock, and why a phone screen at midnight might be speaking in the wrong tone.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "cap": "Next",
+    "sub": "How light talks to the clock"
+   }
+  }
+ ]
+}

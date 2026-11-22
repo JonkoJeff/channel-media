@@ -1,0 +1,209 @@
+{
+ "id": "lf50_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "At last, sometime before dawn, Nora must have dozed. The next morning, she's sure of the facts. She lay awake the whole night. She heard every hour strike, and she watched the ceiling grow slowly grey. If anyone asked her, she'd swear on it. And yet, later that day, her flatmate says she heard her breathing slow and steady, at one point, and even a soft snore.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Morning after",
+    "sub": "Barely slept at all"
+   }
+  },
+  {
+   "say": "There's a fascinating twist in sleep science, and it concerns the memory of the night more than the night itself.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "n": 10,
+    "title": "A night that feels worse than it was"
+   }
+  },
+  {
+   "say": "Researchers who record sleep with sensors have long noticed something strange. People with insomnia often report that they slept far less than the sensors show. Some say they didn't sleep at all, while the recording shows that they slept for several hours. It's called sleep state misperception, and it's more common than you might think.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "A puzzle in the lab",
+    "sub": "Sleepers who say they're awake"
+   }
+  },
+  {
+   "say": "It's important to say what this doesn't mean. It doesn't mean those people are imagining their distress or making it up. The exhaustion, the fear of the night, the heaviness the next day are all real. What differs is the mapping between what the sleeper feels and what the sensors record. The experience of a bad night is real even when the sensors tell a different story.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "Not a lie",
+    "sub": "The feeling is real"
+   }
+  },
+  {
+   "say": "In 2002, Jennifer Mercer and her colleagues ran a clever test. They watched volunteers with sensors, and when someone had been in light sleep for several minutes, they woke them and asked a simple question. Were you awake or asleep? People with insomnia were more likely than good sleepers to say that they'd been awake, even though the sensors showed the opposite.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cabin_fireplace",
+    "who": "Jennifer Mercer, Richard Bootzin and Leon Lack",
+    "where": "Sleep, 2002",
+    "what": "People with insomnia and good sleepers were woken after a few minutes of light sleep and asked whether they had been asleep"
+   }
+  },
+  {
+   "say": "One idea is that light sleep, the stage between waking and deep sleep, can feel remarkably like being awake. You can hear sounds, you can have thoughts that seem rational, and later your memory of that stage is patchy. If you wake up during it, or spend a long time in it, you may remember it as time spent lying awake.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Why might this happen?",
+    "sub": "Light sleep feels like waking"
+   }
+  },
+  {
+   "say": "Another idea is that a mind that's still busy during light sleep keeps producing thoughts that feel exactly like waking thoughts. Researchers such as Allison Harvey and Nicole Tang have proposed that worry and attention to bodily signals may add to this blur, so that the brain gives itself a false report. These ideas are still being tested, and probably each of them is partly right.",
+   "show": {
+    "type": "char",
+    "sprite": "N13",
+    "bg": "attic_rain",
+    "cap": "Another idea",
+    "sub": "Thoughts that stand guard"
+   }
+  },
+  {
+   "say": "Some therapists have tried to use this very mismatch. In a 2006 study, Nicole Tang and Allison Harvey showed people with insomnia how their sleep had actually looked on a recording, and found that the people's worry about sleep, and their estimates of how much they'd slept, changed afterwards. It's a small body of work, but it hints that part of the problem lives in the interpretation of the night, and that interpretations can shift.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Can the picture be corrected?",
+    "sub": "Showing people the recording"
+   }
+  },
+  {
+   "say": "It also reminds us of something that tired people often overlook. Even when the sensors show that you were awake, a night lying in the dark, breathing slowly, is not wasted. Your muscles rest, your heart slows, and your sleep pressure keeps its credit for the next night. It isn't a perfect substitute for sleep, but it is a long way from nothing.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "A different kind of rest",
+    "sub": "Even when it isn't sleep"
+   }
+  },
+  {
+   "say": "There are also real cases where sleep is poor. Conditions such as sleep apnoea, restless legs, depression and pain can all damage sleep, and in those cases the sensors will tell the same story as the person does. If Nora were having many bad nights every week for months, the sensible step would be to talk to a doctor, not to decide that it's all in the mind.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "Where misperception stops",
+    "sub": "A fair limit"
+   }
+  },
+  {
+   "say": "The first grey light of dawn appears behind a thin curtain, and a single bird sits on the sill outside. Inside, a bed is made but rumpled, a book lies face down on the pillow, and the room is still and a little cool.",
+   "show": {
+    "type": "photo",
+    "file": "lf50_b07_01.jpg",
+    "cap": "A grey dawn at the window"
+   }
+  },
+  {
+   "say": "A related discovery goes back to the 1960s. Sleep scientists noticed that volunteers sleep worse on their first night in a laboratory than on the second, a pattern now called the first-night effect. In 2016, Masako Tamaki, Yuka Sasaki and their colleagues published a study in Current Biology suggesting that the reason is partly that one hemisphere of the brain stays more watchful, as if standing guard in a strange place.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "cap": "An old finding",
+    "sub": "The first night in the lab"
+   }
+  },
+  {
+   "say": "In the first night, the left hemisphere's resting network showed a lighter sleep in deep stages, and responded faster to odd sounds played in the right ear. It is a lovely echo of what some sea mammals and birds do with half a brain at a time, in a much more modest form. It suggests that our brains are built to stay alert in unfamiliar places.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "A guard in the brain",
+    "sub": "A little watchfulness"
+   }
+  },
+  {
+   "say": "It also helps to explain why a stressful week, a new bed, or an upcoming exam can make sleep more fragile. The brain is doing something that, by its own old logic, is sensible. It's standing guard. What it can't know is that the danger tonight is a pile of emails and a ceiling, and that it would be safe to stand down.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "What this says about Nora",
+    "sub": "A guard on duty"
+   }
+  },
+  {
+   "say": "There's one more piece of this story, and it may be the most surprising. It's about what we believe about last night.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "n": 11,
+    "title": "Placebo sleep"
+   }
+  },
+  {
+   "say": "In 2014, two psychologists, Rebecca Draganich and Kristi Erdal, ran a study with a trick in it. Volunteers were hooked up to a device that supposedly measured their sleep. Afterwards, some were told that they'd had an above-average amount of REM sleep, and others a below-average amount. The feedback was random, and had nothing to do with their real sleep.",
+   "show": {
+    "type": "study",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "who": "Rebecca Draganich and Kristi Erdal",
+    "where": "Journal of Experimental Psychology: Learning, Memory, and Cognition, 2014",
+    "what": "Volunteers were given made-up feedback about how much of their sleep was REM sleep and then took tests of attention and memory"
+   }
+  },
+  {
+   "say": "Yet the volunteers who were told they'd slept well did better on tests of attention than those told they'd slept poorly, even though the feedback was invented. The researchers called it placebo sleep. A belief that you slept badly may, on its own, make you perform worse, and a belief that you slept well may help a little.",
+   "show": {
+    "type": "stat",
+    "sprite": "N11",
+    "bg": "autumn_overlook",
+    "title": "A belief about sleep",
+    "big": "Test scores shifted",
+    "label": "people told they had slept well scored better on an attention test than people told they had slept badly"
+   }
+  },
+  {
+   "say": "Of course, this doesn't mean that real sleep loss doesn't matter. It does, and we know it from many experiments. But it does suggest that a night of poor sleep is not the disaster it feels like at four in the morning, and that the dread we attach to it, the certainty that tomorrow will be ruined, can itself add to the damage.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A careful reading",
+    "sub": "Not an excuse to ignore sleep"
+   }
+  },
+  {
+   "say": "So here's a calmer way to think about it. Most people, after a rough night, can get through the next day. They feel groggy, they might be grumpy, and they sleep better the night after, because sleep pressure has grown. The system is more forgiving than our fear of it, and that thought alone can loosen the grip a little.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "A calmer thought",
+    "sub": "A rough night is survivable"
+   }
+  },
+  {
+   "say": "So Nora's morning story, I didn't sleep at all, may not be quite accurate. Perhaps she slept more than she thinks. Perhaps she rested more than she noticed. And perhaps the worst thing about the night wasn't the wakefulness itself, but the verdict she passed on it, which is exactly what we'll look at next.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Back to Nora",
+    "sub": "A more accurate story"
+   }
+  }
+ ]
+}

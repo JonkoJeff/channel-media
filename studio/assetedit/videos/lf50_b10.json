@@ -1,0 +1,207 @@
+{
+ "id": "lf50_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "After a restless hour, Nora sleeps. And then, at around four, her eyes open again, for no reason that she can name. The house is silent, her mind is clear and a little too lively, and a familiar thought arrives. I've woken up again, so something must be wrong. But what if this wake-up, at least, was never a problem at all?",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The wake-up",
+    "sub": "Four in the morning"
+   }
+  },
+  {
+   "say": "To see why, we need a quick tour of what a normal night of sleep actually looks like, because it's not the flat, unbroken stretch that most of us imagine.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "n": 16,
+    "title": "The architecture of a night"
+   }
+  },
+  {
+   "say": "In 1953, a graduate student named Eugene Aserinsky, working with Nathaniel Kleitman in Chicago, noticed that sleeping people's eyes sometimes darted rapidly under their lids, and that those periods came with brain activity that looked like waking. They had discovered what we now call REM sleep. It was a surprise, because sleep had been thought of as a simple switch.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "A discovery in 1953",
+    "sub": "Rapid eye movements"
+   }
+  },
+  {
+   "say": "Sleep researchers now describe the night as a series of cycles, each lasting roughly ninety minutes, though they vary from person to person and from night to night. Each cycle moves through lighter sleep, deeper sleep, and REM sleep, and then back towards the surface. In a typical night, an adult goes through about four to six of them.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "The cycles",
+    "sub": "About ninety minutes"
+   }
+  },
+  {
+   "say": "The mix changes over the night. The deepest sleep tends to come in the first few hours, while REM sleep takes up more and more of each cycle toward morning. That's why the early morning hours are so full of dreams, and also why they're lighter. Near the end of each cycle, you are very close to the surface.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "Deep early, dreamy late",
+    "sub": "A shifting balance"
+   }
+  },
+  {
+   "say": "And right at the end of a cycle, many people briefly wake up. Most of the time, they don't remember it, because the memory doesn't form. Sleep laboratories have recorded that even good sleepers wake up several times a night, usually for a few seconds to a minute or two. We only notice the ones that last long enough to leave a trace, or the ones when we're worrying.",
+   "show": {
+    "type": "char",
+    "sprite": "N13",
+    "bg": "attic_rain",
+    "cap": "The surfacing",
+    "sub": "Waking is part of the pattern"
+   }
+  },
+  {
+   "say": "A quiet hallway lit by a small amber nightlight near the floor, with a closed door at the end and a soft rug in the foreground. The rest of the house is dark and silent, and the glow seems to hold the stillness gently in place.",
+   "show": {
+    "type": "photo",
+    "file": "lf50_b10_01.jpg",
+    "cap": "A hallway at night with a nightlight"
+   }
+  },
+  {
+   "say": "How much waking is normal? In 2017, a panel assembled by the National Sleep Foundation, led by Maurice Ohayon, reviewed the evidence and published recommendations for what counts as good sleep quality in adults. They suggested that falling asleep in about fifteen minutes or less, waking at most once a night, and being awake for no more than about twenty minutes in total during the night, are signs of good sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A yardstick",
+    "sub": "What counts as normal"
+   }
+  },
+  {
+   "say": "Of course, those are rough guides, and many healthy people fall slightly outside them from time to time. But they do show that a wake-up or two isn't a symptom of anything by itself. If Nora wakes at four, lies quietly for ten minutes, and dozes off again, she's within the range of ordinary sleep, even though the memory of it feels like a very long time.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "A caution",
+    "sub": "Averages, not rules"
+   }
+  },
+  {
+   "say": "There's an old idea about night-time waking that has charmed many people, and it's an idea that comes from history.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "n": 17,
+    "title": "The two sleeps"
+   }
+  },
+  {
+   "say": "In 2001, the American historian Roger Ekirch published a paper called \"Sleep We Have Lost\", based on years of reading diaries, court records, medical books and literature from Britain and other parts of Europe before the Industrial Revolution. He noticed that people kept referring, casually, to a first sleep and a second sleep, as though it were ordinary.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A historian's discovery",
+    "sub": "First sleep and second sleep"
+   }
+  },
+  {
+   "say": "According to those sources, people would sleep soon after dusk, wake some time after midnight for an hour or so, and then sleep again until morning. In the middle, they might pray, talk quietly, tend the fire, or simply lie in a state of relaxed rest. Ekirch collected hundreds of references, and his work has been widely discussed.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "cap": "What people did",
+    "sub": "The hour in between"
+   }
+  },
+  {
+   "say": "In 1992, Thomas Wehr, a psychiatrist at the National Institute of Mental Health, kept volunteers in darkness for fourteen hours each night for several weeks. After a period of adjustment, many of them began to sleep in two main bouts, with a quiet period of wakefulness in between, typically lasting an hour or two.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cabin_fireplace",
+    "who": "Thomas Wehr",
+    "where": "American Journal of Physiology, 1992",
+    "what": "Eight healthy men were kept in darkness for fourteen hours each night for about a month, and their sleep was recorded"
+   }
+  },
+  {
+   "say": "It would be easy to tell this as a tidy tale in which our ancestors slept in two parts and we've broken it. But scientists are cautious. The historical sources are patchy, and the laboratory conditions in Wehr's study were unusual. Meanwhile, studies of people in traditional societies, such as the one by Gandhi Yetish and colleagues in 2015, found that they mostly slept in a single main period.",
+   "show": {
+    "type": "char",
+    "sprite": "N13",
+    "bg": "attic_rain",
+    "cap": "A caution",
+    "sub": "The picture is debated"
+   }
+  },
+  {
+   "say": "There may also be a biological reason that so many people wake in the small hours. Late in the night, sleep pressure has been mostly used up, because you've slept for several hours, while the body clock is starting to push alertness upwards towards the morning, and stress hormones such as cortisol naturally begin to rise. The balance of the two clocks we met earlier shifts, and sleep becomes lighter.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "Why four a.m.?",
+    "sub": "The early morning rise"
+   }
+  },
+  {
+   "say": "At that stage, sleep is simply easier to disturb. A car passing, a pipe settling, a pang of hunger, or the pressure of a full bladder can pull a sleeper to the surface, where a worried mind is waiting. It's another reason why a dark, quiet, cool room can matter, and why it is worth removing the little things that nudge a light sleeper awake.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "A quiet reminder",
+    "sub": "Light sleep is still sleep"
+   }
+  },
+  {
+   "say": "That said, there are times when night waking is a sign of something specific. Loud snoring with gasping or pauses can point to sleep apnoea, which affects many adults and is often undiagnosed. Restless legs, pain, acid reflux, and certain medicines can all break up sleep. If you wake often and feel unrefreshed, or a partner notices breathing pauses, a doctor can look into it, and many causes are treatable.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "When waking is a signal",
+    "sub": "Things worth checking"
+   }
+  },
+  {
+   "say": "So what can we say? That waking in the night is probably very old, that it isn't automatically a disorder, and that how we respond to it may matter more than the wake-up itself. Where people accepted the middle of the night as a quiet part of life, they weren't alarmed by it. And a body that isn't alarmed has a far better chance of returning to sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "cap": "What we can safely say",
+    "sub": "Waking is not new"
+   }
+  },
+  {
+   "say": "Sleep specialists today often say much the same thing in different words. If you wake in the night, try not to treat it as an emergency. Lie quietly, keep the lights low, and let your body do what it can. Many people find that the wakefulness passes more quickly when they stop fighting it, much as the Wehr volunteers seemed to treat their quiet hour as part of the night.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "Practical echoes",
+    "sub": "Rest without alarm"
+   }
+  },
+  {
+   "say": "So the next time Nora opens her eyes at four, she might try thinking something different. Not I've woken up again, so something must be wrong, but I'm in the middle of a long, ordinary night, and this is one of its pauses. It's a small reframe, but it takes the alarm out of the moment, and without the alarm, there's room for sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Back to Nora",
+    "sub": "A quieter four a.m."
+   }
+  }
+ ]
+}

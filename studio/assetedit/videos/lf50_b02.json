@@ -1,0 +1,218 @@
+{
+ "id": "lf50_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Before we meet the body clock, let's stay with sleep pressure a little longer, because there's a substance most of us have used today that speaks to it directly. Nora had a coffee at four o'clock yesterday afternoon. Just one, small and ordinary, and she'd barely thought about it since. Ten hours later, she is still awake. Could the two be connected?",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "street_day",
+    "cap": "A cup of coffee",
+    "sub": "The most popular drug in the world"
+   }
+  },
+  {
+   "say": "To answer that, we need to know what the bucket of sleep pressure is actually made of.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "n": 2,
+    "title": "The sleepiness molecule"
+   }
+  },
+  {
+   "say": "Scientists don't know every detail, but one of the best-supported clues is a molecule called adenosine. Your brain cells produce it as a by-product of using energy, and while you're awake it slowly builds up in certain regions. The longer you're awake, the more adenosine there is, and when it attaches to receptors on nearby cells, it dials down their activity and makes you feel drowsy.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A chemical clue",
+    "sub": "Adenosine"
+   }
+  },
+  {
+   "say": "It's a lovely picture, and it's useful, but researchers are careful to say it's not the whole story. Many other chemicals and brain circuits are involved in sleepiness, and adenosine is better thought of as one important voice in a large choir. Still, it helps to explain something about coffee, because caffeine is, quite literally, a sleepiness blocker.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "A tidy picture",
+    "sub": "Maybe too tidy"
+   }
+  },
+  {
+   "say": "Caffeine has a shape that is similar enough to adenosine that it can fit into the same receptors. It doesn't switch them on, though. It just sits there, like the wrong key stuck in a lock, and blocks the real one from getting in. The adenosine keeps building up. You simply can't feel it as much, until the caffeine wears off.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "cap": "How caffeine works",
+    "sub": "A wrong key in the lock"
+   }
+  },
+  {
+   "say": "And caffeine wears off more slowly than people expect. In healthy adults, its half-life is commonly given as around five hours, though it varies a lot from person to person, and with things like pregnancy, certain medicines, smoking and genes. A half-life of five hours means that half of the caffeine from a four o'clock coffee may still be in your body at nine.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "The half-life",
+    "sub": "Longer than you'd think"
+   }
+  },
+  {
+   "say": "In 2013, the sleep researcher Christopher Drake and his colleagues put this to the test. Volunteers took a pill containing the caffeine of roughly two strong cups of coffee, either right at bedtime, three hours before, six hours before, or a placebo. Their sleep was then measured objectively. The result surprised many people, because the caffeine taken six hours before bed still mattered.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "who": "Christopher Drake and colleagues",
+    "where": "Journal of Clinical Sleep Medicine, 2013",
+    "what": "Twelve healthy adults took caffeine or a placebo zero, three or six hours before their usual bedtime, and their sleep was measured in a laboratory and at home"
+   }
+  },
+  {
+   "say": "Taken six hours before bedtime, the caffeine cut total sleep by more than an hour in the sleep measurements. And here's the finding that fascinated the authors. When people were asked how they had slept, they didn't notice the full loss. Their own sense of how well they'd slept was less sensitive than the equipment that was measuring them.",
+   "show": {
+    "type": "stat",
+    "sprite": "N11",
+    "bg": "autumn_overlook",
+    "title": "Caffeine six hours before bed",
+    "big": "Over 1 hour",
+    "label": "less total sleep, measured objectively, than with a placebo"
+   }
+  },
+  {
+   "say": "Which brings us back to Nora's four o'clock coffee. It doesn't prove that the coffee is her whole problem, and it certainly doesn't mean that anyone must give coffee up. But it does suggest that for some people, an afternoon cup can quietly be a late-night guest, even when it doesn't feel like one.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Back to the bedroom",
+    "sub": "Nora's afternoon"
+   }
+  },
+  {
+   "say": "A white ceramic cup of coffee on a windowsill in the late afternoon. A thin ribbon of steam rises, the light is low and golden, and outside the window the day is slowly turning into evening.",
+   "show": {
+    "type": "photo",
+    "file": "lf50_b02_01.jpg",
+    "cap": "A coffee cup on a windowsill"
+   }
+  },
+  {
+   "say": "It's worth saying that people differ widely here. Some people can drink an espresso after dinner and fall asleep without trouble. Others feel it for ten hours. Part of that is genetic, part of it is habit, and part of it is simply how fast your liver happens to process caffeine. There's no single rule that fits everyone, only a range that fits most.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "street_day",
+    "cap": "A question of dose",
+    "sub": "Not everyone reacts the same"
+   }
+  },
+  {
+   "say": "It also hides in places we don't always think about. Tea, cola, energy drinks, chocolate, and some pain medicines all contain it. An evening square of dark chocolate has far less than a cup of coffee, but if you're sensitive, it can add up. So the list of suspects isn't limited to the obvious one.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "cap": "Hidden caffeine",
+    "sub": "Not only in coffee"
+   }
+  },
+  {
+   "say": "Some of that difference has even been traced to specific genes. Researchers have found that small variations in a gene that codes for one of the adenosine receptors, together with variations in the liver enzyme that breaks caffeine down, are associated with how jittery or sleepless people report feeling after coffee. Scientists treat these links as partial explanations, not a verdict, but they fit with something every office knows, that two colleagues can drink the same cup and have completely different evenings.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "A gene for coffee",
+    "sub": "Why bodies differ"
+   }
+  },
+  {
+   "say": "Then there is tolerance. People who drink caffeine every day often feel its effect on alertness fade, as the body adapts, and for that reason some research suggests that regular drinkers feel the sleep-disturbing effects less than occasional ones. But the evidence is mixed, and the laboratory study we just heard about measured the sleep itself, not only the feeling. A habit can quiet the signal without fully quieting the effect.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "cap": "Tolerance",
+    "sub": "Coffee you've gotten used to"
+   }
+  },
+  {
+   "say": "So here is a fair summary. Caffeine blocks a sleepiness signal for hours after the last sip, the amount varies from person to person, and the effect on sleep can be larger than it feels. None of this says Nora must give up her afternoon coffee. It only says that if she's lying awake at two in the morning, the cup at four o'clock is a reasonable first suspect, and an easy one to test.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "A fair summary",
+    "sub": "What we can say"
+   }
+  },
+  {
+   "say": "And that is one of the quiet gifts of sleep science. Many of its ideas can be tested on yourself, gently, with no cost. Move your last coffee a few hours earlier for a week, and notice what happens. Not as a rule, and not as a cure, just as a little piece of evidence about your own body, collected the way scientists collect it, one ordinary night at a time.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "The easy experiment",
+    "sub": "A small test"
+   }
+  },
+  {
+   "say": "There's another side to sleep pressure that people rarely hear about, and it's the part that Nora's afternoon might have affected most.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "n": 3,
+    "title": "The long wait"
+   }
+  },
+  {
+   "say": "When you nap, you drain part of the bucket. A short nap can leave you refreshed, and plenty of people nap happily without any effect on the night. But a long nap late in the afternoon can take enough of the pressure away that falling asleep at bedtime gets harder. You haven't broken anything, you've just spent some of the pressure early.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "The nap trap",
+    "sub": "A nap borrows from the night"
+   }
+  },
+  {
+   "say": "This also explains something that sounds odd at first. People who spend a lot of time in bed, perhaps because they're ill, or retired and with nowhere to be, can sleep worse, not better. They aren't building up much pressure during the day, so the bucket never fills enough for a deep, consolidated night.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "cap": "And the opposite",
+    "sub": "Too little pressure"
+   }
+  },
+  {
+   "say": "So sleep pressure needs two things, enough hours awake to build, and not too much spent on a late nap or an afternoon doze. Add a body clock that agrees with the plan, and sleep usually comes easily. Which means that the next thing to explore is how that body clock is actually set.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "A practical thread",
+    "sub": "Pressure and rhythm together"
+   }
+  },
+  {
+   "say": "Next, we'll visit a cave, a very long experiment, and a clock that runs a little off from the day.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "cap": "Next",
+    "sub": "The clock that never quite runs at twenty-four"
+   }
+  }
+ ]
+}

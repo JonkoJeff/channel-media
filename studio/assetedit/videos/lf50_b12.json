@@ -1,0 +1,209 @@
+{
+ "id": "lf50_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Nora has stopped checking the clock. She has turned it to face the wall, the notebook is closed, and she's giving up on the idea of winning. And in the quiet that follows, something odd begins to happen. A picture floats into her mind, a staircase with no end. A half-formed sentence arrives that doesn't make any sense. And then her whole body gives a small, sudden jerk, as if she'd missed a step.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Almost there",
+    "sub": "The edge of sleep"
+   }
+  },
+  {
+   "say": "Many of us imagine falling asleep as a switch, but when scientists look closely, it turns out to be a gentle, strange and surprisingly creative slope.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "n": 20,
+    "title": "How sleep actually begins"
+   }
+  },
+  {
+   "say": "Researchers who study the transition, such as Robert Ogilvie, have shown that the process of falling asleep unfolds over several minutes. Attention narrows, thoughts lose their logic, reaction times slow, and bit by bit the brain's activity shifts from the quick, alert rhythms of waking to the slower rhythms of light sleep. There's no single moment when the lights go out.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "Not a switch",
+    "sub": "A gradual slide"
+   }
+  },
+  {
+   "say": "The edge of sleep has its own name, hypnagogia. In this state, many people experience flickers of imagery, odd bits of sound, or fragments of thought. They're usually brief and often bizarre. They're not a sign of anything wrong. They're simply what a mind looks like when it is letting go of its grip on the world.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "Hypnagogia",
+    "sub": "The land between"
+   }
+  },
+  {
+   "say": "And that sudden jerk, the one that feels like missing a step? It's called a hypnic jerk, or a sleep start, and it's extremely common. Many people experience them, at least occasionally. Scientists aren't entirely sure why they happen, but they are normal, they're not dangerous, and they tend to be more frequent when we're tired, stressed or have had a lot of caffeine.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "The jolt",
+    "sub": "Sleep starts"
+   }
+  },
+  {
+   "say": "In 2000, Robert Stickgold and his colleagues ran a remarkable experiment. Volunteers played the computer game Tetris for several hours over a few days, and were then woken as they were falling asleep, and asked what they could see. Many of them reported seeing falling blocks, even when they hadn't consciously thought about the game.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cabin_fireplace",
+    "who": "Robert Stickgold and colleagues",
+    "where": "Science, 2000",
+    "what": "Healthy volunteers and patients with severe amnesia played the computer game Tetris for hours, and were later woken as they fell asleep to report what they saw"
+   }
+  },
+  {
+   "say": "What made the study famous is that it also included five people with severe amnesia, who couldn't remember having played the game at all. Some of them reported seeing falling blocks at sleep onset too, even though, when asked, they denied ever having seen the game. It suggested that the sleeping brain replays recent experience, in a kind of memory that doesn't need conscious recall.",
+   "show": {
+    "type": "char",
+    "sprite": "N13",
+    "bg": "attic_rain",
+    "cap": "The surprising part",
+    "sub": "Even without memory"
+   }
+  },
+  {
+   "say": "A wide quiet sky at dusk, with soft pink and blue clouds drifting slowly over a still landscape. A few lights glow in a faraway window, and the whole scene seems to be settling, gradually and without effort, into the dark.",
+   "show": {
+    "type": "photo",
+    "file": "lf50_b12_01.jpg",
+    "cap": "Drifting clouds at dusk"
+   }
+  },
+  {
+   "say": "A 2021 study suggests that the edge of sleep is also a fertile place for ideas. Célia Lacaux, Delphine Oudiette and their team in Paris gave volunteers a mathematical task with a hidden shortcut and let them rest for twenty minutes with their eyes closed, in a quiet room, holding a bottle in one hand that would drop if they fell asleep deeply.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "cap": "A creative slope",
+    "sub": "The sweet spot"
+   }
+  },
+  {
+   "say": "Among the volunteers who stayed awake, about thirty percent found the hidden rule. Among those who drifted into a short stretch of light sleep, called stage two, it was about eighty-three percent. The ones who only reached the very first stage of sleep did not do as well, so the effect seems to belong to a specific moment, a short step into real sleep, and no further.",
+   "show": {
+    "type": "stat",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "title": "Finding the hidden shortcut",
+    "big": "About 83%",
+    "label": "of people who slept lightly for a short time found the hidden rule, compared with about 30% of people who stayed awake"
+   }
+  },
+  {
+   "say": "That finding gives a new twist to an old story. It's often said that Thomas Edison and Salvador Dalí napped in a chair while holding a steel ball or a key, so that they'd be woken as it dropped, and could capture the images from the edge of sleep. Whether that's entirely true is hard to confirm, but the modern study suggests that the idea wasn't so silly.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "An old trick",
+    "sub": "Edison and the steel ball"
+   }
+  },
+  {
+   "say": "For Nora, there's a lovely lesson here. The strange images, the half sentences and the little jolts she noticed aren't a sign that she's failing to sleep. They're a sign that she's on the way. And the more she meets them with curiosity, rather than alarm, the more likely it is that she'll slide through that doorway without noticing.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "cap": "For Nora",
+    "sub": "A gentler view of the edge"
+   }
+  },
+  {
+   "say": "There's one more piece of the slide into sleep that has nothing to do with the mind. It's about heat.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "n": 21,
+    "title": "Warm hands, cool room"
+   }
+  },
+  {
+   "say": "Your core body temperature follows a daily rhythm, and it falls in the evening, reaching its lowest point in the early hours of the morning. To fall asleep easily, the body needs to lose heat. But it can't lose heat through its core. It has to send warmth out through the hands and feet, by widening the blood vessels in the skin.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A cooling body",
+    "sub": "Temperature and sleep"
+   }
+  },
+  {
+   "say": "In 1999, Kurt Kräuchi and his colleagues in Basel published a short paper in Nature with a charming title, Warm feet promote the rapid onset of sleep. They measured skin temperature in volunteers and found that the people whose hands and feet had warmed up the most relative to the rest of the body fell asleep the fastest. The warmth was a sign that the body was shedding heat.",
+   "show": {
+    "type": "study",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "who": "Kurt Kräuchi and colleagues",
+    "where": "Nature, 1999",
+    "what": "Healthy young adults had the temperature of their hands and feet measured as they went to bed, to see how it related to how quickly they fell asleep"
+   }
+  },
+  {
+   "say": "It suggests a pleasingly simple idea. If your feet are cold, your body may find it harder to make the transition, because the blood vessels in your skin are narrowed, keeping heat inside. Many people find a pair of warm socks or a hot water bottle at the feet can help, which may be the one time grandmother's advice and the laboratory agree.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "A practical meaning",
+    "sub": "Cold feet are no help"
+   }
+  },
+  {
+   "say": "A related idea is the warm bath. In 2019, Shahab Haghayegh and colleagues combined the results of many studies in a review. They found that a warm bath or shower, around forty degrees Celsius, taken one to two hours before bed, was linked with falling asleep roughly ten minutes earlier on average. The heat widens the skin's blood vessels, and afterwards the body cools quickly.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The warm bath trick",
+    "sub": "Heating up to cool down"
+   }
+  },
+  {
+   "say": "Sound belongs to the same family of small, hidden influences. Studies of night-time noise, such as the work of Mathias Basner and colleagues on aircraft and traffic noise, have found that sounds can trigger brief changes in sleep and heart rate even when the sleeper doesn't wake or remember anything. The brain keeps listening through the night, and it responds to sudden, unpredictable noises more than to steady ones.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Sound",
+    "sub": "Noises you don't notice"
+   }
+  },
+  {
+   "say": "That may be why many people find that a steady sound, such as a fan, soft rain, or a low hum, helps them sleep. It covers the sudden clicks and passing cars with a constant background. The evidence for white noise is still modest and mixed, so it isn't a cure, but it's a reasonable thing to try, and for a light sleeper in a noisy street it can make a real difference.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "Soft and steady",
+    "sub": "Why a fan can help"
+   }
+  },
+  {
+   "say": "And what about the room? Sleep specialists generally suggest a bedroom that's on the cool side, often somewhere in the range of fifteen to nineteen degrees Celsius, though there's no exact number, and people differ. The aim is a cool room and a warm bed, which lets the body shed heat gently, without shivering or sweating.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "cap": "A cool room",
+    "sub": "The sleeping temperature"
+   }
+  }
+ ]
+}

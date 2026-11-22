@@ -1,0 +1,230 @@
+{
+ "id": "lf50_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "In the dark, Nora does what many of us do. She does the sums. If she falls asleep now, she'll get five hours. If she falls asleep in half an hour, four and a half. Every minute that goes by makes the number smaller, and every smaller number makes her heart beat a little faster, which isn't what a sleeping body usually does.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Counting the hours",
+    "sub": "The arithmetic of worry"
+   }
+  },
+  {
+   "say": "There's an idea about this that is wonderfully common, and mostly false. It's the belief that if you're tired enough, you'll simply fall asleep.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "n": 8,
+    "title": "A tired body, an awake brain"
+   }
+  },
+  {
+   "say": "It seems obvious. If you've worked hard all day, your body should shut down. But sleep researchers have long noticed that exhaustion and sleepiness aren't the same thing. People with insomnia often report feeling worn out, drained and foggy, and yet when scientists test how quickly they fall asleep in the daytime, they're often not sleepier than anyone else.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "The tired-body myth",
+    "sub": "Exhausted, so asleep?"
+   }
+  },
+  {
+   "say": "In 1988, Edward Stepanski and his colleagues compared people with chronic insomnia against people who slept well. They gave both groups repeated opportunities to nap in a quiet room, and measured how fast they fell asleep. The insomnia patients, who complained of being very tired, did not fall asleep faster than the controls. If anything, they were a little slower.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cabin_fireplace",
+    "who": "Edward Stepanski and colleagues",
+    "where": "Sleep, 1988",
+    "what": "People with chronic insomnia and people without insomnia were tested for how quickly they fell asleep during daytime nap opportunities"
+   }
+  },
+  {
+   "say": "That's the puzzle that led researchers to an idea called hyperarousal. It's the suggestion that in many people with insomnia, the body's alert systems stay slightly turned up, day and night. The person feels tired, because they've slept poorly, but their nervous system is, quite literally, running a little faster than it should.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "The puzzle",
+    "sub": "Tired, but wired"
+   }
+  },
+  {
+   "say": "Evidence for this comes from several directions. In the 1990s, Richard Bonnet and Donna Arand measured the metabolic rate of people with insomnia across a full day, and found it was somewhat higher than in good sleepers. Others have found faster heart rates, higher levels of stress hormones in the evening, and more fast brain activity during sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "Some evidence",
+    "sub": "A body running warm"
+   }
+  },
+  {
+   "say": "In 2004, Eric Nofzinger's team used brain imaging to look at what happens when people fall asleep. In good sleepers, activity in many brain regions dropped as they went from waking into deep sleep. In patients with insomnia, some regions, including areas involved in emotion and attention, didn't wind down as much. Their brains seemed to be keeping a light on.",
+   "show": {
+    "type": "study",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "who": "Eric Nofzinger and colleagues",
+    "where": "American Journal of Psychiatry, 2004",
+    "what": "Brain scans of patients with insomnia and healthy sleepers were taken while awake and during non-REM sleep, to see how brain activity changed"
+   }
+  },
+  {
+   "say": "Again, there are limits. These were small studies, hyperarousal isn't found in every person with insomnia, and scientists still argue about whether it's a cause or a consequence. It's likely that for different people, different things matter, and that no one explanation fits everybody. But it does fit a very common experience, the feeling of being both exhausted and unable to switch off.",
+   "show": {
+    "type": "char",
+    "sprite": "N13",
+    "bg": "attic_rain",
+    "cap": "A caution",
+    "sub": "Insomnia isn't one thing"
+   }
+  },
+  {
+   "say": "A copper kettle rests on a stove in a dim kitchen, a single lamp casting warm light on the counter beside a folded tea towel. The house is quiet, and the only sound in the scene seems to be the faint ticking of a clock.",
+   "show": {
+    "type": "photo",
+    "file": "lf50_b06_01.jpg",
+    "cap": "A kettle on a quiet stove"
+   }
+  },
+  {
+   "say": "And then there's Nora's clock, glowing on the shelf. In 2007, Nicole Tang and her colleagues studied what clock watching does for people who sleep poorly. They found that checking the time was linked to more worry and more physical arousal, and was associated with greater sleep difficulty. Each glance seems to deliver a small fresh dose of arithmetic and alarm.",
+   "show": {
+    "type": "study",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "who": "Nicole Tang, Rachel Schmidt and Allison Harvey",
+    "where": "Journal of Behavior Therapy and Experimental Psychiatry, 2007",
+    "what": "People with insomnia who monitored a clock at night were compared with others, to see how clock watching changed arousal and the estimate of sleep"
+   }
+  },
+  {
+   "say": "It's a simple finding, and it led to a simple suggestion that sleep clinicians often make. If you wake in the night, resist the urge to check the time, and if you can, turn the clock face away. The time is almost never useful information at three in the morning, because nothing you can do about it will change the hour.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "A small change",
+    "sub": "Turn the clock around"
+   }
+  },
+  {
+   "say": "It's a good example of how a tiny habit can feed a big cycle. A glance, a calculation, a fear, a burst of arousal, and then another glance. Break any link in that chain and the whole thing can loosen. It doesn't take heroic willpower, only a little understanding of how the loop works.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Learning from this",
+    "sub": "Small signals, big effects"
+   }
+  },
+  {
+   "say": "There's also a kinder way to look at a sleepless night. Even when you're not asleep, lying still in a dark, quiet room, with your eyes closed or half open, gives your body some of the rest it needs. Sleep scientists say that quiet rest isn't a replacement for sleep, but it's far better than frustration, and it keeps the door open for sleep to come back.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "rooftop_dusk",
+    "cap": "A kinder frame",
+    "sub": "Rest counts too"
+   }
+  },
+  {
+   "say": "Which brings us to something very important for Nora. If her system is already turned up a little, then the worst thing she could do is try to force sleep. And the research suggests that force is exactly what many of us apply.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Back to Nora",
+    "sub": "The cost of effort"
+   }
+  },
+  {
+   "say": "Sleep is a very odd kind of task. Almost everything else we do gets better with effort, but this one tends to get worse.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "n": 9,
+    "title": "The harder you try"
+   }
+  },
+  {
+   "say": "In 1987, the American psychologist Daniel Wegner asked a group of students to try not to think of a white bear for five minutes, while saying aloud everything that came to mind. They failed, repeatedly. The bear kept returning. Afterwards, those same students had more white bear thoughts than people who had been allowed to think of one from the start.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "A famous experiment",
+    "sub": "The white bear"
+   }
+  },
+  {
+   "say": "Wegner explained this with what he called ironic process theory. To avoid a thought, the mind sets up two processes. One searches for anything other than the forbidden thought, and the other quietly checks for signs of failure, which means it keeps scanning for the very thing you're trying to avoid. Under stress or tiredness, the checker can win.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "Ironic processes",
+    "sub": "A mind that checks itself"
+   }
+  },
+  {
+   "say": "In 1996, Wegner and two colleagues applied the idea of ironic processes to sleep. They asked volunteers to try to fall asleep quickly, under a little time pressure, while lively or calm music played. The result was ironic. The people who were pushed to fall asleep fast took longer than those who were given no pressure at all, especially when the music was lively.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cabin_fireplace",
+    "who": "Ansfield, Wegner and Bowser",
+    "where": "Behaviour Research and Therapy, 1996",
+    "what": "Volunteers were told to fall asleep as quickly as possible, in a time-limited set-up, while listening to calm or lively music"
+   }
+  },
+  {
+   "say": "It's a small study, done with students rather than insomnia patients, but its message has lasted. The pressure to sleep keeps the monitoring part of the mind switched on, and a mind that is monitoring for sleep isn't quite ready to let go. Falling asleep needs a kind of surrender, and surrender is hard to achieve by effort.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "What it shows",
+    "sub": "Pressure and sleep don't mix"
+   }
+  },
+  {
+   "say": "Colin Espie, a Scottish sleep researcher, has described this as an attention, intention, effort pathway. Normally, sleep is automatic. But when people start to worry about it, they pay attention to every sign of wakefulness, form an intention to fix it, and apply effort, which raises arousal. His team even developed a questionnaire, the Glasgow Sleep Effort Scale, to measure how hard people try.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "Sleep effort",
+    "sub": "A trap with a name"
+   }
+  },
+  {
+   "say": "There's a curious remedy that grew out of this. In 2003, Alison Broomfield and Colin Espie tested something called paradoxical intention, in which people with trouble falling asleep were asked to lie in bed and gently try to stay awake, with eyes open, without forcing anything. Those people reported less sleep effort, and tended to fall asleep a bit more easily than people who did nothing different.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "A strange remedy",
+    "sub": "Trying to stay awake"
+   }
+  },
+  {
+   "say": "The lesson isn't that Nora should stay awake on purpose. It's that when the contest between her and sleep stops, sleep is more likely to arrive on its own. The same is true of many things in life, from remembering a name to being funny. Tonight, there's nothing to win.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "A gentle way to read it",
+    "sub": "Dropping the contest"
+   }
+  }
+ ]
+}

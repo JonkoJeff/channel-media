@@ -1,0 +1,209 @@
+{
+ "id": "lf50_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Back in the dark, a new thing has started to happen in Nora's head. Not dramatic thoughts, just a list. The email she didn't answer. The shelf she meant to repair. The remark she made at lunch, which she now realises might have sounded rude. Each item arrives politely, one after another, and each of them, at this hour, feels a little larger than it did in daylight.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Three in the morning",
+    "sub": "The list begins"
+   }
+  },
+  {
+   "say": "Almost everyone who has lain awake knows this procession. Scientists have been studying it for decades, and what they've found is both unsurprising and quietly reassuring.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "n": 14,
+    "title": "The mind at night"
+   }
+  },
+  {
+   "say": "When researchers ask people what was going through their minds as they tried to fall asleep, a pattern emerges. Good sleepers tend to think about pleasant, neutral things, or nothing in particular. People who struggle more often report planning, problem solving and worry, much of it about the coming day, and a great deal of it about sleep itself.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "What people think about",
+    "sub": "Planning and worrying"
+   }
+  },
+  {
+   "say": "In 1982, the psychologists Richard Gross and Thomas Borkovec asked good sleepers to deliberately think about a stressful topic while they lay in bed, and found that it lengthened the time they took to fall asleep. In other words, you don't need insomnia for a busy mind to slow you down. You just need something to chew on at the wrong moment.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "An early study",
+    "sub": "Thoughts that stand in the way"
+   }
+  },
+  {
+   "say": "There's a reason that happens. When we think about problems, the body responds as though they were happening. Heart rate rises, muscles tighten, and stress hormones flow. The Dutch psychologist Jos Brosschot and his colleagues have called this perseverative cognition, the repeated thinking about past or future events, and they've argued that it keeps the body's stress response going long after the problem has gone.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Why it matters",
+    "sub": "A body that listens to the mind"
+   }
+  },
+  {
+   "say": "In 2009, Heather Zoccola and her colleagues tested this in the laboratory. Volunteers took part in a stressful public speaking task, and later, those who kept replaying it in their minds, a habit called rumination, took longer to fall asleep that night, and had more disrupted sleep. It wasn't the stress itself that predicted the poor night, but what the mind kept doing with it.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cabin_fireplace",
+    "who": "Heather Zoccola and colleagues",
+    "where": "Psychosomatic Medicine, 2009",
+    "what": "Healthy young women gave a stressful speech in a laboratory, and those who kept thinking about it afterwards took longer to fall asleep that night"
+   }
+  },
+  {
+   "say": "And why does everything seem worse at three in the morning? Scientists don't have a single answer. One idea is that tiredness weakens the brain's ability to regulate emotion. In a 2007 study, Seung-Schik Yoo and Matthew Walker's team found that, after a night without sleep, a brain region called the amygdala, which responds to emotional events, reacted much more strongly to upsetting pictures.",
+   "show": {
+    "type": "char",
+    "sprite": "N13",
+    "bg": "attic_rain",
+    "cap": "The three a.m. effect",
+    "sub": "Why it feels bigger at night"
+   }
+  },
+  {
+   "say": "A small notebook lies open on a bedside table beside a pencil and a dim lamp. A few lines have been written on the first page in neat handwriting, and the room around it is dark and still, with only the pale circle of lamp light on the wood.",
+   "show": {
+    "type": "photo",
+    "file": "lf50_b09_01.jpg",
+    "cap": "A notebook and pencil on a bedside table"
+   }
+  },
+  {
+   "say": "So the sense that problems loom larger at night may not be a deep truth. It may simply be a tired brain, with less steadiness, looking at the same list that it handled fine at noon. That doesn't make the worries unreal. It means that bedtime is the wrong time to rule on them, which is a surprisingly relieving thought.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "A kinder reading",
+    "sub": "Night makes things look larger"
+   }
+  },
+  {
+   "say": "There is something very simple that researchers have tested, and it involves a pencil.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "n": 15,
+    "title": "Writing it down"
+   }
+  },
+  {
+   "say": "The idea is that if your mind is busy holding on to a list of things you must not forget, then putting them on paper might let it let go. It's a very old piece of advice, and for a long time it rested mostly on common sense. In 2018, it was finally tested in a sleep laboratory.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "The idea",
+    "sub": "Get it out of your head"
+   }
+  },
+  {
+   "say": "Michael Scullin and his team at Baylor University recruited fifty-seven young adults and had them spend a night in a sleep laboratory. Five minutes before lights out, half of them wrote a list of everything they had to do in the next few days, and the other half wrote down what they had already completed. Then the lights went out, and sensors recorded how quickly they fell asleep.",
+   "show": {
+    "type": "study",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "who": "Michael Scullin and colleagues",
+    "where": "Journal of Experimental Psychology: General, 2018",
+    "what": "Fifty-seven healthy young adults wrote for five minutes at bedtime, either a to-do list for the next few days or a list of what they had already completed, and their sleep was recorded"
+   }
+  },
+  {
+   "say": "The people who wrote the to-do list fell asleep about nine minutes faster on average. And there was a nice extra detail. The more specific and complete the list was, the faster the person tended to fall asleep. It was a small study, with young people and a single night, so it needs repeating. But it points to something that fits the whole story so far.",
+   "show": {
+    "type": "stat",
+    "sprite": "N11",
+    "bg": "autumn_overlook",
+    "title": "Writing a to-do list before bed",
+    "big": "About 9 min",
+    "label": "faster to fall asleep, on average, than those who wrote about what they had already done"
+   }
+  },
+  {
+   "say": "The researchers suggested that unfinished tasks tend to stay active in the mind, and that making a concrete plan for them may help the mind to treat them as dealt with. It's a little like putting the keys in a bowl, so that you stop wondering where they are. A written plan tells the mind that the job has been taken care of, even if the job isn't done.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "cap": "Why it might work",
+    "sub": "Closing the loops"
+   }
+  },
+  {
+   "say": "A close cousin of this is an older technique. In the 1980s, Thomas Borkovec and his colleagues suggested setting aside a fixed time in the early evening, thirty minutes or so, to deliberately think through your worries, and postponing them at other times. Studies have found that this can reduce the amount of daily worry, and it fits neatly with the idea that the bedroom is not the place to hold the meeting.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "A worry window",
+    "sub": "Giving worry its own time"
+   }
+  },
+  {
+   "say": "Sleep researchers have also looked at what to put in place of the worry. In 2002, Allison Harvey and Sheila Payne compared different mental strategies in people with trouble falling asleep. People who were asked to picture a calm, absorbing scene, such as a quiet waterfall, tended to fall asleep faster than those who were told to just distract themselves in whatever way they liked, or who were given no instructions at all.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "Another idea",
+    "sub": "A picture instead of a plan"
+   }
+  },
+  {
+   "say": "The idea is that worry mostly lives in words, in the inner voice that debates and rehearses. A gentle, slow, visual scene takes up some of that mental space without asking anything of you, a bit like putting a warm blanket over a restless sound. It also gives the mind somewhere to go that isn't tomorrow's meeting, which is a small kindness all by itself.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "Why imagery might help",
+    "sub": "Occupying the narrator"
+   }
+  },
+  {
+   "say": "Here too, a gentle warning. Imagery works best when it's held lightly. If you start grading your own visualisation, or judging whether you're relaxing fast enough, you've turned a calming exercise into another test, and the monitoring part of the mind will be back. The point is to drift, not to perform, and a wandering image is perfectly acceptable.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "autumn_overlook",
+    "cap": "It need not be perfect",
+    "sub": "Not another task"
+   }
+  },
+  {
+   "say": "It's also worth saying that if worry is heavy, constant and affects the daytime too, that's something to speak about with a doctor or a therapist. Persistent anxiety, low mood and stress are among the most common causes of poor sleep, and also among the most treatable. Writing a list can help with an ordinary busy mind, but it is not a substitute for help when the load is bigger.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "A caution about unhelpful loops",
+    "sub": "When worry is more than worry"
+   }
+  },
+  {
+   "say": "So Nora might try something that costs nothing. An hour or so before bed, she sits at the kitchen table with a pencil, and writes down tomorrow's tasks, and any worry that is circling. Then she closes the notebook, and leaves it there, where it will still be in the morning. It won't solve the problems, but it tells her mind that they're safely stored.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "For Nora",
+    "sub": "A simple evening ritual"
+   }
+  }
+ ]
+}

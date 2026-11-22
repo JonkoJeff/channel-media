@@ -1,0 +1,209 @@
+{
+ "id": "lf50_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Nora's alarm goes off at seven, and her whole body says no. She has never been a morning person, and she's heard every comment about it, from teachers, bosses and her own family. Lazy, undisciplined, a bit dramatic. But lying in bed tonight, she wonders whether the problem might not be her character at all, but her clock.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "Seven o'clock alarm",
+    "sub": "Early starts, late bodies"
+   }
+  },
+  {
+   "say": "Scientists have a word for the time of day your body prefers, and it turns out the differences between us are real, measurable, and mostly not a choice.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "n": 6,
+    "title": "Larks and owls"
+   }
+  },
+  {
+   "say": "The word is chronotype. It describes your natural preference for sleeping and waking, from very early to very late, and it varies smoothly across the population, with most people somewhere in the middle. Genes seem to account for a good share of it, and so does age. Children tend to be early, teenagers drift later, and most adults slowly move earlier again after their twenties.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Chronotype",
+    "sub": "A word for your natural rhythm"
+   }
+  },
+  {
+   "say": "In 2004, the German chronobiologist Till Roenneberg reported that the timing of sleep shifts across a lifetime in a very regular way. Using thousands of questionnaires from people of all ages, he found that sleep timing gets later through adolescence, peaks at around the age of twenty, and then slowly moves earlier. He even suggested that the peak is a handy marker of the end of adolescence.",
+   "show": {
+    "type": "study",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "who": "Till Roenneberg and colleagues",
+    "where": "Current Biology, 2004",
+    "what": "Surveys of more than twenty thousand people in Central Europe showed that sleep timing moves later through the teenage years, peaks around age twenty, and then gradually moves earlier"
+   }
+  },
+  {
+   "say": "The trouble, Roenneberg pointed out, is that our society runs on one schedule, the alarm clock, while our bodies run on many. A late chronotype who has to be at work by eight is, in a very real sense, living in a different time zone from their own biology. His team gave this a name that has stuck, social jetlag, and it was described in a 2006 paper with Anna Wittmann.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "A very common mismatch",
+    "sub": "Social jetlag"
+   }
+  },
+  {
+   "say": "You can spot it in people who sleep long on weekends. If your body clock wanted to run an hour or two later all along, then on free days you let it, and you wake up much later than during the week. The difference between those two schedules is a rough measure of social jetlag, and across many surveys, it's common, especially among the young.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "How it shows up",
+    "sub": "Weekend sleep-ins"
+   }
+  },
+  {
+   "say": "It's worth adding that researchers don't see larks as better or owls as worse. There's some research linking late chronotypes with poorer outcomes on average, but much of that may come from the mismatch with early schedules, not from the late timing itself. Given a free schedule, many owls do perfectly well. It's often the world that is tuned for the lark.",
+   "show": {
+    "type": "char",
+    "sprite": "N13",
+    "bg": "attic_rain",
+    "cap": "A careful note",
+    "sub": "A lark isn't a better person"
+   }
+  },
+  {
+   "say": "The good news is that the clock is not fixed. We saw earlier that campers moved about two hours earlier in a week without light from lamps. Researchers have also shown that more morning light, regular meal times and consistent wake times can nudge it. It takes patience, because the clock moves slowly, but it does move.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "cap": "Practical hope",
+    "sub": "A clock that can shift"
+   }
+  },
+  {
+   "say": "Which brings us to the question that Nora keeps asking herself at three in the morning. How much sleep does she actually need, and how badly is she failing?",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "n": 7,
+    "title": "Is eight hours a rule?"
+   }
+  },
+  {
+   "say": "Almost everyone has heard it. Eight hours a night. It's printed on posters, repeated by doctors, and quoted in newspapers. And so, when Nora checks the clock and works out that she'll get only five hours if she falls asleep right now, a small wave of panic arrives, which, as we'll see, may be the least helpful thing of all.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "A familiar number",
+    "sub": "Eight hours"
+   }
+  },
+  {
+   "say": "Sleep scientists say there is no magic in the number eight. It sits near the middle of the range that typically leaves most adults well rested. In 2015, expert panels from the American Academy of Sleep Medicine and the Sleep Research Society reviewed hundreds of studies and concluded that adults should regularly sleep seven or more hours, while noting that individuals vary.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "Where eight came from",
+    "sub": "A convenient average"
+   }
+  },
+  {
+   "say": "A famous study from 2002, led by Daniel Kripke, followed more than a million adults for six years. It found that people who reported sleeping around six and a half to seven and a half hours had the lowest death rate, and that people who reported sleeping eight hours or more, or less than about six, had a higher one. It's a big, well-known result, but it has important limits.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cabin_fireplace",
+    "who": "Daniel Kripke and colleagues",
+    "where": "Archives of General Psychiatry, 2002",
+    "what": "A survey of more than one million American adults followed for six years found that those who reported sleeping about six and a half to seven and a half hours had the lowest death rates"
+   }
+  },
+  {
+   "say": "The study relied on people reporting their own sleep, and it observed associations. It doesn't show that sleeping eight hours causes harm, or that cutting back would help. People who are ill often sleep longer, which could explain part of the pattern. The study's real message is that the healthiest range seems to lie around the middle, and that extremes deserve attention.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "living_room_day",
+    "cap": "The limits",
+    "sub": "Association, not instruction"
+   }
+  },
+  {
+   "say": "Another set of clues comes from people who live without electric light. In 2015, Gandhi Yetish and colleagues recorded sleep in three groups living traditional lives, the Hadza of Tanzania, the San of Namibia, and the Tsimane of Bolivia, using wrist devices over many days. These communities didn't sleep the amount that we'd assume was natural.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "Sleeping the old way",
+    "sub": "A study in three groups"
+   }
+  },
+  {
+   "say": "Their average sleep was around six to seven hours a night, shorter than the usual eight-hour advice, and they reported almost no trouble with insomnia. They also took few naps. The researchers' point was that natural sleep, in the full dark and the full daylight, doesn't seem to be much longer than the modern recommendation, and that sleeping a bit less than eight hours is not necessarily a sign of something wrong.",
+   "show": {
+    "type": "stat",
+    "sprite": "N11",
+    "bg": "autumn_overlook",
+    "title": "Sleep in three traditional societies",
+    "big": "About 6 to 7 hours",
+    "label": "average nightly sleep recorded by wrist devices, in communities with no electric light"
+   }
+  },
+  {
+   "say": "Soft early light falls across a bed with rumpled sheets and a pale blanket. A plant on the windowsill leans toward the glass, and the room has the slow, unhurried feeling of a day that has not quite started yet.",
+   "show": {
+    "type": "photo",
+    "file": "lf50_b05_01.jpg",
+    "cap": "Morning light through a window"
+   }
+  },
+  {
+   "say": "At the far end of the range are a rare handful of people who sleep for short periods and feel fine. In 2009, Ying-Hui Fu and Louis Ptáček reported a gene variant in one family that was linked to this natural short sleep, and later studies found more such variants. They're extremely rare, and the lesson isn't that anyone can train themselves to sleep four hours. It's that need varies, and some of that variation is inherited.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "A rare group",
+    "sub": "The short sleepers"
+   }
+  },
+  {
+   "say": "So how do you know whether you're getting enough? Sleep experts often suggest looking at the day instead of the number. Do you wake up reasonably refreshed? Can you stay alert through a quiet afternoon without a lot of caffeine? Do you fall asleep within a few minutes of sitting down in a warm room? If the answers are mostly yes, your own number may be fine, even if it's a bit below the textbook.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A better yardstick",
+    "sub": "How you feel in the day"
+   }
+  },
+  {
+   "say": "The recommended range also changes across life. Teenagers need more, around eight to ten hours according to the guidelines of the American Academy of Sleep Medicine, while older adults are often advised seven to eight. Many older adults find that their sleep gets lighter and more broken, which is a normal part of ageing, and not always a disorder, although it's worth mentioning to a doctor if it troubles you.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Age changes it",
+    "sub": "Not the same at every age"
+   }
+  },
+  {
+   "say": "So, what's the lesson for Nora? That the right amount of sleep is a range, not a number, and that her own need probably sits somewhere in it. And that adding fear about the total to an already restless night may be one of the surest ways of keeping herself awake, which is the next thing we'll look into.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Back to Nora",
+    "sub": "The hidden panic"
+   }
+  }
+ ]
+}

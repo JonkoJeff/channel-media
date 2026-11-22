@@ -1,0 +1,218 @@
+{
+ "id": "lf50_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Back in her dark bedroom, Nora reaches for her phone. She tells herself it's only to check the time, but the screen lights her face, a message catches her eye, and ten minutes disappear. She puts it down, closes her eyes, and notices that she feels more awake than she did before. It's an ordinary thing to do. It might also be one of the things that her body clock hears loudest.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "A blue glow",
+    "sub": "One more scroll"
+   }
+  },
+  {
+   "say": "To understand why, we need to look at how the clock actually receives its instructions from the outside world.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "n": 5,
+    "title": "How light talks to the clock"
+   }
+  },
+  {
+   "say": "For a long time, scientists thought the eye had only two kinds of light-sensing cells, the rods and the cones, which together let us see. Then, in the early 2000s, researchers including David Berson and Samer Hattar showed that there's a third kind. A small number of cells in the retina contain a pigment called melanopsin, and they aren't there to make pictures at all.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "A surprising discovery",
+    "sub": "A third kind of cell in the eye"
+   }
+  },
+  {
+   "say": "These cells act more like a light meter. They collect information about how bright the environment is, and send it straight to the body clock in the brain. They are most sensitive to light in the blue part of the spectrum, which is exactly the colour of a clear morning sky. In a sense, they're the clock's way of reading the sunrise.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "cap": "What they do",
+    "sub": "Measuring the brightness of the day"
+   }
+  },
+  {
+   "say": "It also explains something curious. Some people who are blind from damage to their rods and cones still have a working body clock, because the third kind of cell is still doing its job. It's a reminder that seeing and telling the time are two separate things, handled by different parts of the same eye.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Why this matters",
+    "sub": "A clock that listens"
+   }
+  },
+  {
+   "say": "The clock then controls many things, including a hormone called melatonin. Your brain's pineal gland starts releasing it in the evening, a couple of hours before your usual bedtime, and it stays high during the night. Melatonin doesn't knock you out. It's better described as a signal, telling the body that it's biological night, and that sleep is now welcome.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Melatonin",
+    "sub": "The darkness hormone"
+   }
+  },
+  {
+   "say": "In 2011, Joshua Gooley and his colleagues tested how much ordinary indoor light matters. Volunteers spent the evening either in dim light or in the kind of light you'd find in a normal living room. Those in the brighter room had their melatonin delayed and reduced, and the amount of time their melatonin stayed high through the night was shortened by about ninety minutes.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "who": "Joshua Gooley and colleagues",
+    "where": "Journal of Clinical Endocrinology and Metabolism, 2011",
+    "what": "In a laboratory, 116 volunteers spent the eight hours before bedtime in either dim light or ordinary room light, and their melatonin was measured"
+   }
+  },
+  {
+   "say": "The remarkable part is how ordinary the light was. It wasn't a floodlight or a screen held to the face. It was the sort of everyday lamp that most of us have on in the evening, and it was enough to tell the body clock that the day hadn't finished. This doesn't mean that lamps are harmful. It means that the brain takes the evening more seriously than we do.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "A modest light",
+    "sub": "Not a stage lamp"
+   }
+  },
+  {
+   "say": "What about the glowing rectangles we hold in bed? In 2015, a group at Harvard led by Anne-Marie Chang compared reading on a light-emitting tablet with reading a printed book before bed. Twelve volunteers did each of them for five evenings, in a laboratory, and the results were published in the journal Proceedings of the National Academy of Sciences.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "And screens",
+    "sub": "A glowing tablet"
+   }
+  },
+  {
+   "say": "When people read on the tablet, they took longer to fall asleep, by roughly ten minutes. Their melatonin rose later, their body clock shifted later by about an hour and a half, and the next morning they felt sleepier and less alert, even though they'd had the same time in bed. Reading on paper did none of that.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "The findings",
+    "sub": "A book and a tablet"
+   }
+  },
+  {
+   "say": "A paperback with a worn cover lies open beside a small reading lamp with a warm, low bulb. A folded blanket rests on the arm of the chair, and the room has the quiet, golden feel of the last hour of an evening.",
+   "show": {
+    "type": "photo",
+    "file": "lf50_b04_01.jpg",
+    "cap": "A paperback beside a lamp"
+   }
+  },
+  {
+   "say": "It's important to be fair about this. The tablet study was small, and its volunteers were young adults in a laboratory, so it can't tell us what your own phone does to you. Other researchers have also found that how you use a device, and how exciting the content is, matters too. A gripping message or a bad news story can wake you up just as much as the light does.",
+   "show": {
+    "type": "char",
+    "sprite": "N13",
+    "bg": "attic_rain",
+    "cap": "A fair caution",
+    "sub": "One small study"
+   }
+  },
+  {
+   "say": "Even so, the general advice that comes from this research is fairly gentle. In the last hour or two before bed, keep the lights lower and warmer, hold devices further from your face, or use a book or a podcast instead. And since the sun is the clock's real signal, let it do its work.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "cap": "What helps",
+    "sub": "Dim, warm, and further away"
+   }
+  },
+  {
+   "say": "And the reverse is equally interesting. In a 2014 pilot study by Mohamed Boubekri and colleagues, office workers with windows got more daylight exposure and slept about forty-six minutes more per night than colleagues without them. It was a small study of forty-nine people, so it shouldn't be taken as a rule, but it points in the same direction.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "The reverse",
+    "sub": "Morning light matters too"
+   }
+  },
+  {
+   "say": "A more dramatic version of the same idea was published in 2013 by Kenneth Wright's team. They took eight volunteers camping for a week, with no torches, no phones and no lamps, only daylight and campfires. They measured melatonin before and after. By the end of the week, the volunteers' body clocks had moved about two hours earlier.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "who": "Kenneth Wright and colleagues",
+    "where": "Current Biology, 2013",
+    "what": "Eight volunteers lived for a week camping in the Rocky Mountains of Colorado with no electric lights, only sunlight, firelight and the stars"
+   }
+  },
+  {
+   "say": "The campers went to sleep earlier, and the group's melatonin pattern lined up much more closely with sunset and sunrise. The researchers even reported that the usual difference between early birds and night owls shrank. It's a lovely demonstration that our clocks aren't broken. They're simply being asked to run in a world that doesn't look like the one they evolved in.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "The camping effect",
+    "sub": "Earlier, and calmer"
+   }
+  },
+  {
+   "say": "This is also a good moment to say something about melatonin supplements, because many people reach for them. Researchers generally find that a small dose taken at the right time can help shift the body clock, which is why it's studied for jet lag and for people with very late sleep timing. But as a general sleeping pill, the evidence is much more modest, and the right dose and timing matter. It's a clock signal, not a sedative, and anyone considering it for a longer stretch should talk to a doctor or pharmacist.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "A common mistake",
+    "sub": "Wanting a sleep hormone from a bottle"
+   }
+  },
+  {
+   "say": "There is an upside to all of this that has nothing to do with bedtime. Bright light in the morning and daytime is linked to better alertness and a steadier mood, and a short walk outside counts, even on a grey day, because outdoor light is far brighter than the typical office. A cloudy sky can deliver several thousand lux, while a lit room often delivers a few hundred, so a ten-minute stroll is a bigger dose of daylight than it feels.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Light and mood",
+    "sub": "A bright morning"
+   }
+  },
+  {
+   "say": "Some scientists describe it as a light diet. Plenty of bright light during the day, and less of it as evening comes on. It's a very old pattern, the one that humans lived in for most of history, and a surprising amount of sleep advice boils down to returning to it a little. Not perfectly, and not every day, but often enough that the clock gets a clear message.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "The light diet",
+    "sub": "Bright by day, dim by night"
+   }
+  },
+  {
+   "say": "So Nora may be able to nudge her clock without any heroic effort. A bright morning, an evening with softer light, and a phone placed across the room might be all it takes to move her night a little closer to the edge of sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Back to Nora",
+    "sub": "A gentle correction"
+   }
+  },
+  {
+   "say": "Next, we'll meet the larks and the owls, and ask whether a late body clock is a character flaw, or something far more ordinary.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "cap": "Next",
+    "sub": "Larks, owls and the myth of laziness"
+   }
+  }
+ ]
+}

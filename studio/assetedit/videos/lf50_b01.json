@@ -1,0 +1,204 @@
+{
+ "id": "lf50_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Nora is lying in bed with the lamp off and the curtains closed. She has been up since six, she has carried boxes, answered messages and walked home in the rain, and her body feels heavy as a sandbag. By every sensible measure she should be unconscious by now. Instead, she is staring at the ceiling, and the clock on the shelf says ten past two.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Ten past two",
+    "sub": "A very tired evening"
+   }
+  },
+  {
+   "say": "A quick word about Nora. She's imagined. She's someone we've pictured together, to keep us company through tonight's ideas. She's thirty-eight, she restores old books for a living, and she's the kind of person who can sit patiently with a cracked spine for an afternoon. Nothing about her is meant to stand for any real person, and nothing in her night is a case study. She's simply here so that the ideas have somewhere to land.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "A quick word about Nora",
+    "sub": "Imagined, to keep us company"
+   }
+  },
+  {
+   "say": "Here's the strange part, and maybe you know it too. Nora is exhausted, and yet she isn't sleepy. Those two feelings are not the same thing at all. Her eyes are tired and her legs are tired, but something in her head is still switched on, listening, planning and replaying. The harder she tries to fall asleep, the further away sleep seems to move.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "The strange part",
+    "sub": "Tired, but not sleepy"
+   }
+  },
+  {
+   "say": "If this sounds familiar, you're in very good company. Surveys in many countries suggest that a large share of adults have trouble falling or staying asleep at least some nights, and that roughly one adult in ten meets the clinical definition of chronic insomnia. Most of us, at some point, have lain awake at an hour when we'd rather be anywhere else, wondering why a body that wants sleep so badly can't just go and get it.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "You're in good company",
+    "sub": "A very ordinary problem"
+   }
+  },
+  {
+   "say": "That, in a sentence, is the puzzle for tonight. Sleep is one of the few things in life that gets worse the harder you chase it. And yet we all carry a collection of confident beliefs about how to get it, from how many hours we need to what a glass of wine does, and a good many of those beliefs turn out to be wrong.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "text": "Sleep is not something you do. It is something you allow.",
+    "by": "the puzzle of tonight"
+   }
+  },
+  {
+   "say": "So here's the question Nora is asking, and maybe you've asked it too. Why do we lie awake when we're tired? What does the research say about the body clock, the sleep drive and the worried mind? And which of the things we all believe about sleep survive when scientists actually test them?",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "The question",
+    "sub": "Why can't you sleep when you're tired?"
+   }
+  },
+  {
+   "say": "Tonight, we'll test a few popular beliefs against the evidence. We'll start with the two clocks that run inside you, and how light and caffeine tug on them. Then we'll ask whether you really need eight hours, why trying harder backfires, and whether a bad night feels worse than it really was. We'll look at alcohol, at worry, and at those middle-of-the-night wake-ups, and finish with some warm, gentle, research-based ideas.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "The two clocks inside you",
+     "Light, caffeine and timing",
+     "Do you really need eight hours?",
+     "Why trying harder backfires",
+     "Does it feel worse than it is?",
+     "Alcohol, worry and wake-ups",
+     "Warm feet, hot baths, calm rooms"
+    ]
+   }
+  },
+  {
+   "say": "Before we begin, a promise. You don't need to do anything with this information tonight. You don't need to take notes, and you don't need to fall asleep on schedule. If you do drift off, that's wonderful, and the ideas will still be here tomorrow. For now, we're just going to be curious about the most ordinary mystery there is.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "A gentle promise",
+    "sub": "Nothing to fix tonight"
+   }
+  },
+  {
+   "say": "Let's start with what a body actually needs in order to fall asleep. It turns out there isn't one switch, but two, and they don't always agree.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "n": 1,
+    "title": "Two clocks and one gap"
+   }
+  },
+  {
+   "say": "In 1982, a Swiss sleep researcher named Alexander Borbély published a model that is still the backbone of how scientists think about sleep. It's usually called the two-process model. It says that your sleep is governed by two separate systems working together, one that counts how long you've been awake, and one that tracks the time of day.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "A tale of two processes",
+    "sub": "An idea from 1982"
+   }
+  },
+  {
+   "say": "The first system is called sleep pressure, or the sleep homeostat. Think of it like a bucket that fills up slowly while you're awake. The longer you stay up, the fuller it gets, and the stronger the pull toward sleep becomes. During sleep, the bucket drains again, and by morning it should be nearly empty.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "cap": "Process one",
+    "sub": "Sleep pressure"
+   }
+  },
+  {
+   "say": "You know the feeling when the bucket is nearly full. After a long day, or after a night of too little sleep, your eyelids feel heavy, your thoughts slow down, and you could fall asleep sitting on a bus. That is sleep pressure at work, and on its own it would make falling asleep easy.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A familiar feeling",
+    "sub": "The heavy-eyed afternoon"
+   }
+  },
+  {
+   "say": "But there's a second system, and it doesn't care how long you've been awake. It's your circadian clock, a roughly twenty-four-hour rhythm driven by a tiny cluster of cells deep in the brain. It raises your alertness at certain times of day and lowers it at others, almost like a tide, regardless of how tired you happen to be.",
+   "show": {
+    "type": "char",
+    "sprite": "N13",
+    "bg": "bedroom_night",
+    "cap": "Process two",
+    "sub": "The body clock"
+   }
+  },
+  {
+   "say": "A small round clock on a wooden shelf, glowing softly in a dark bedroom. The curtains are drawn, a glass of water stands beside it, and the room is perfectly still, as though the whole house were holding its breath.",
+   "show": {
+    "type": "photo",
+    "file": "lf50_b01_01.jpg",
+    "cap": "A bedside clock in the dark"
+   }
+  },
+  {
+   "say": "Now imagine the two systems pulling in opposite directions. Sleep pressure is high, but the body clock is saying it's the middle of the day. That's what happens when you try to nap at four in the afternoon, or when you cross several time zones and your body clock is still on yesterday's schedule. You're tired, and you can't sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "When they disagree",
+    "sub": "The gap"
+   }
+  },
+  {
+   "say": "Researchers have even described a stretch in the late evening, a few hours before your usual bedtime, when the body clock pushes alertness up to its daily peak, just as sleep pressure is also high. It's sometimes called the wake maintenance zone, and some scientists think it exists to keep us from falling asleep too early in the evening, and then waking far too soon.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "The quiet evening zone",
+    "sub": "An alert window"
+   }
+  },
+  {
+   "say": "So Nora's puzzle may have a first, very ordinary piece. If she stayed up late the night before, or napped for an hour that afternoon, or ate dinner at an unusual time, the two systems may simply be out of step tonight. But as we'll see, that's only the beginning of the story.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Back to Nora",
+    "sub": "Two systems, one night"
+   }
+  },
+  {
+   "say": "Even this tells us something useful. Sleep isn't only about being tired enough. It's about being tired at the right moment, with a body clock that agrees. Which is why the next question is the one that makes the clock tick: what exactly sets it?",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "A first small idea",
+    "sub": "Timing matters"
+   }
+  },
+  {
+   "say": "Next, we'll look at what your body clock listens to, and why a single cup of coffee can speak to the other system too.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "cap": "Next",
+    "sub": "What the clock listens to"
+   }
+  }
+ ]
+}

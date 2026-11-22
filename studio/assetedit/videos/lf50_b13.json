@@ -1,0 +1,208 @@
+{
+ "id": "lf50_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "A few weeks later, Nora is feeling more hopeful, and decides to buy a small gadget to help. It's a ring that tracks sleep. Each morning, she opens an app, and it gives her a score, a chart of her stages, and a little verdict in a coloured circle. On a good morning, she feels proud. On a bad morning, her stomach sinks, even if she woke up feeling perfectly fine.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A new gadget",
+    "sub": "Nora gets a ring"
+   }
+  },
+  {
+   "say": "It's a very modern problem, and sleep clinicians have started to notice it. They've even given it a name.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "n": 22,
+    "title": "When we watch our own sleep"
+   }
+  },
+  {
+   "say": "In 2017, a team led by Kelly Baron at Northwestern University described patients who had become anxious about their sleep tracker data. They called it orthosomnia, from the Greek for straight or correct, because these people were trying to achieve perfect sleep scores. Some had begun to sleep worse, as their efforts to improve the numbers increased their worry.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "A name for it",
+    "sub": "Orthosomnia"
+   }
+  },
+  {
+   "say": "It's important to be clear that the 2017 report described a handful of patients, and it doesn't tell us how common the problem is. But it echoes everything we've heard tonight. Sleep is a process that doesn't respond well to monitoring and effort. A tracker that makes you check your progress every morning can become a new source of both.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "The report",
+    "sub": "Case studies, not a trend"
+   }
+  },
+  {
+   "say": "There's also the question of accuracy. Consumer sleep trackers, which mostly estimate sleep from movement and heart rate, can be reasonably good at telling you roughly when you slept and woke, but they're less reliable at identifying the stages of sleep, such as deep sleep and REM, when compared with laboratory sensors. So the little chart may look precise, but it's partly an educated guess.",
+   "show": {
+    "type": "char",
+    "sprite": "N13",
+    "bg": "attic_rain",
+    "cap": "A question of accuracy",
+    "sub": "How good are the devices?"
+   }
+  },
+  {
+   "say": "Related to this, in 2018, Dmitri Gavriloff and his colleagues tested a version of the placebo sleep idea on people with insomnia. Volunteers wore a wrist device and were then given sham feedback, which said that they'd slept either better or worse than they really had. Those who were told they'd slept poorly reported worse daytime symptoms, regardless of what had really happened. A score can become a suggestion.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cabin_fireplace",
+    "who": "Dmitri Gavriloff and colleagues",
+    "where": "Journal of Sleep Research, 2018",
+    "what": "People with insomnia wore a wrist device and were given false feedback about how well they had slept, then rated their daytime symptoms"
+   }
+  },
+  {
+   "say": "None of this means that trackers are bad. For some people, a gentle record of patterns, like going to bed regularly, is motivating. For others, it's a source of worry. A fair test is how it makes you feel. If you check it and feel calm or curious, it's a useful tool. If you check it and feel dread, you can safely put it in a drawer, and sleep will go on just fine.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A balanced view",
+    "sub": "Tools can help, too"
+   }
+  },
+  {
+   "say": "Allison Harvey's cognitive model of insomnia describes another trap, which she calls safety behaviours. These are the things we do to protect our sleep, such as cancelling evening plans, avoiding exercise, lying in on weekends, or reorganising the whole day around the bedroom. They're meant to reduce the risk of a bad night, but they can shrink life, and keep attention fixed on sleep, which keeps it fragile.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "Protecting sleep too hard",
+    "sub": "The cost of safety behaviours"
+   }
+  },
+  {
+   "say": "Interestingly, part of therapy is to gently drop some of these behaviours and see what happens. People often discover that they can go out for the evening, have a coffee at noon, or sleep in a strange bed, and that their sleep survives it. Confidence in your own sleep is, in a way, a skill built by evidence, and it can be rebuilt one ordinary evening at a time.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Loosening the grip",
+    "sub": "A bigger life helps"
+   }
+  },
+  {
+   "say": "What about naps? Reviews of the research suggest that a short nap of about twenty to thirty minutes, taken in the early afternoon, can lift alertness without disturbing the night for most people. Long or late naps are more likely to take the edge off sleep pressure. If you're sleeping well, nap freely. If you're struggling, a short early nap, or none at all, may be the safer path.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "And naps",
+    "sub": "Short and early"
+   }
+  },
+  {
+   "say": "And if there's one habit that sleep specialists mention above all others, it's a steady wake-up time. Getting up at roughly the same time every day, including weekends, helps the body clock settle, gives morning light a regular job, and builds sleep pressure in a predictable way. Bedtimes can then follow. It's a small habit that quietly holds up the whole structure.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "The anchor",
+    "sub": "A steady wake time"
+   }
+  },
+  {
+   "say": "A small plain ring rests on a wooden table next to a closed notebook and a cup of tea. The morning light is soft, and the quiet arrangement suggests a day that hasn't yet been judged by any number.",
+   "show": {
+    "type": "photo",
+    "file": "lf50_b13_01.jpg",
+    "cap": "A ring and a notebook on a table"
+   }
+  },
+  {
+   "say": "It would be unfair to put all of this on Nora, because the world she lives in doesn't make it easy.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "n": 23,
+    "title": "A world built against sleep"
+   }
+  },
+  {
+   "say": "Researchers have found that many people go to bed later than they intended, not because they have something urgent to do, but simply because they don't. In 2014, Floor Kroese and her colleagues at Utrecht University named this bedtime procrastination, and described it as failing to go to bed at the intended time, without any external reason for doing so.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "A phone in bed",
+    "sub": "The glowing temptation"
+   }
+  },
+  {
+   "say": "The reasons are understandable. For many people, the evening is the only time of day that feels like their own. After hours of work and obligations, scrolling, watching and reading feel like a way of taking something back. The cost is that bedtime slips later, sleep becomes shorter, and the next day begins with less in the tank.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "What drives it",
+    "sub": "Reclaiming the evening"
+   }
+  },
+  {
+   "say": "Reviews of the research on screens and sleep, such as a 2015 review by Lauren Hale and Stanford Guan, have found that more screen use around bedtime is generally linked with shorter and later sleep, particularly in children and teenagers. The effects come partly from the light we discussed, partly from the excitement of content, and partly from the sheer time it takes.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "The screen evidence",
+    "sub": "A broad pattern"
+   }
+  },
+  {
+   "say": "That's why many sleep specialists suggest giving the phone a bedtime too. A charging spot outside the bedroom, or at least across the room, makes it harder to take just one more look. It's not about willpower. It's about making the easy choice a good one, which is one of the oldest ideas in behaviour change.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "cap": "A gentle approach",
+    "sub": "A bedtime for the phone"
+   }
+  },
+  {
+   "say": "And finally, a reassurance. Not everyone's sleep reacts to stress in the same way. In 2004, Christopher Drake and colleagues developed a questionnaire called the Ford Insomnia Response to Stress Test, which asks how likely your sleep is to be disrupted in situations such as an argument or a big exam. People with high scores were more vulnerable to stress-related sleep problems.",
+   "show": {
+    "type": "study",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "who": "Christopher Drake and colleagues",
+    "where": "Sleep, 2004",
+    "what": "People were asked how likely stress would be to disrupt their sleep in different situations, and the score predicted how they slept under stress"
+   }
+  },
+  {
+   "say": "It means that some of us have sleep that is more reactive, as a trait. Having a sleep that reacts to stress isn't a flaw. It's simply a sensitivity, like having sensitive skin. And just as with skin, understanding the sensitivity, and caring for it gently, is better than being angry at it.",
+   "show": {
+    "type": "char",
+    "sprite": "N13",
+    "bg": "attic_rain",
+    "cap": "What that means",
+    "sub": "Sensitive, not broken"
+   }
+  },
+  {
+   "say": "It's also worth knowing why this matters beyond a single night. In a 2011 meta-analysis, Chiara Baglioni and her colleagues combined studies that followed people over time and found that those with insomnia were about twice as likely to later develop depression. That doesn't mean that poor sleep guarantees low mood. But it does mean that caring for sleep is part of caring for the mind.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "And the stakes",
+    "sub": "Why this is worth care"
+   }
+  }
+ ]
+}

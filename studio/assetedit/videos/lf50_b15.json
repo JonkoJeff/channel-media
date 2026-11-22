@@ -1,0 +1,198 @@
+{
+ "id": "lf50_b15",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "It's Sunday afternoon, and Nora's friend Mina is visiting, with a complaint that many of us share. All week she's slept five or six hours, and she's planning to catch up by sleeping in on the weekend. She's not sure it works, and she's heard that sleep debt is a real thing, like money owed to a bank. She wants to know whether she's right to worry.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A Sunday afternoon",
+    "sub": "The sleep debt"
+   }
+  },
+  {
+   "say": "It's a good question, and the research gives an answer that's more interesting than yes or no.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "n": 26,
+    "title": "Can you catch up on sleep?"
+   }
+  },
+  {
+   "say": "The idea of sleep debt is a useful picture. If you've slept less than you need for several nights, your sleep pressure builds, you feel more tired, and you'll tend to sleep longer and deeper when you get a chance. Laboratory studies, including those by David Dinges, have shown that people who are restricted to a few hours for many nights perform worse on attention tasks, and often don't notice how much worse.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "The debt idea",
+    "sub": "A useful picture, up to a point"
+   }
+  },
+  {
+   "say": "That last part is worth a pause. In experiments where volunteers were limited to about six hours a night for two weeks, their performance on tests of attention kept slipping, but their own ratings of how sleepy they felt levelled off. So the feeling of being adapted to short sleep may be a little misleading. It's one of the reasons why researchers take chronic short sleep seriously.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "An uncomfortable finding",
+    "sub": "Feeling fine, performing less well"
+   }
+  },
+  {
+   "say": "The classic version of that experiment was published in 2003 by Hans Van Dongen, David Dinges and their colleagues. Volunteers lived in a laboratory for two weeks, sleeping four, six or eight hours a night. The four-hour and six-hour groups showed steady declines in attention and reaction speed over the days, while their own sense of sleepiness rose far less than their performance fell.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "The classic study",
+    "sub": "Hans Van Dongen's experiment"
+   }
+  },
+  {
+   "say": "How about the weekend catch-up? In 2019, Torbjörn Åkerstedt and his colleagues analysed more than forty-three thousand adults in Sweden who were followed for thirteen years. They found that people who slept five hours or less on weekdays and also slept five hours or less on weekends had a higher risk of death than those sleeping seven hours, but those who made up for it at weekends did not show the same extra risk.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cabin_fireplace",
+    "who": "Torbjörn Åkerstedt and colleagues",
+    "where": "Journal of Sleep Research, 2019",
+    "what": "Researchers followed more than forty-three thousand Swedish adults for thirteen years and compared their sleep on weekdays and weekends with the risk of death"
+   }
+  },
+  {
+   "say": "Again, this was an observational study, so it can't prove that the weekend sleep protected anyone. People who can sleep in at weekends may differ in other ways, and the study was limited to people aged under sixty-five for some of its results. The authors themselves were careful. But it suggests that recovery sleep may not be useless, and that it isn't nothing.",
+   "show": {
+    "type": "char",
+    "sprite": "N13",
+    "bg": "attic_rain",
+    "cap": "A careful reading",
+    "sub": "A survey, not an experiment"
+   }
+  },
+  {
+   "say": "There's also a laboratory side to the story. In 2019, Christopher Depner and his colleagues at the University of Colorado had volunteers spend several days sleeping five hours a night, with a weekend of unlimited recovery sleep in the middle. They found that the weekend sleep didn't fully reverse some of the metabolic changes, such as how the body handled sugars, that came with the short nights.",
+   "show": {
+    "type": "study",
+    "sprite": "N11",
+    "bg": "cafe_sunset",
+    "who": "Christopher Depner and colleagues",
+    "where": "Current Biology, 2019",
+    "what": "Thirty-six healthy adults slept short nights, then either got a weekend of recovery sleep or kept short sleep, and their metabolic health was measured"
+   }
+  },
+  {
+   "say": "So the picture is mixed. A weekend of catch-up sleep can help you feel better, and may soften some of the risks. But it's not a perfect fix, and a pattern of short weeknights and long weekends also means that your body clock is being swung around by an hour or two, which is the social jetlag we met earlier. The best advice from the research is a steadier week.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Putting it together",
+    "sub": "A half-measure"
+   }
+  },
+  {
+   "say": "A bed with white linen sheets and a rumpled blanket in a bedroom filled with late morning sunlight. The window is slightly open, a curtain moves gently, and the whole room seems to say that nobody has anywhere to be.",
+   "show": {
+    "type": "photo",
+    "file": "lf50_b15_01.jpg",
+    "cap": "A sunlit bed on a quiet Sunday"
+   }
+  },
+  {
+   "say": "Of course, not everyone's life is the same, and nor are their nights. Some of the strongest evidence for how sleep works comes from people whose lives push against their clocks.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "n": 27,
+    "title": "Different lives, different nights"
+   }
+  },
+  {
+   "say": "Teenagers tend to have later body clocks. In 2018, Dunster and colleagues published a study in Science Advances of two high schools in Seattle, where start times were moved from about 7:50 to 8:45 in the morning. The students got about thirty-four minutes more sleep on average, and their grades and punctuality improved.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "Teenagers",
+    "sub": "A clock that runs late"
+   }
+  },
+  {
+   "say": "It is hardly a revelation to any teenager, but it's a fine example of the principle at work. A mismatch between biology and schedule produces tired people, and moving the schedule closer to the biology helps. It's a reminder that, for many people, sleep problems aren't a personal failing, but a clash between the clock inside and the clock outside.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "cap": "What this shows",
+    "sub": "Schools out of step with clocks"
+   }
+  },
+  {
+   "say": "Then there's jet lag. When you fly across time zones, your body clock is still on home time, and it takes days to catch up, usually about one hour a day, with travelling east often feeling harder than travelling west. That is because the body's natural day is a little longer than twenty-four hours, and so it's easier to stay up later than to go to sleep earlier.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "cap": "Travel",
+    "sub": "Jet lag"
+   }
+  },
+  {
+   "say": "At the other end of life, sleep changes too. A large analysis by Maurice Ohayon and colleagues in 2004 found that, as people age, deep sleep falls, nights contain more waking, and sleep tends to shift earlier. Many healthy older adults sleep seven hours or so, but it comes in lighter and more broken form, which is a normal pattern and not necessarily a sign of illness.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "Older age",
+    "sub": "A lighter, earlier night"
+   }
+  },
+  {
+   "say": "And for new parents, or people who care for others at night, there's a gentler message. Their sleep is broken into pieces, and for a stretch of life that's simply the way it is. What helps, according to sleep specialists, is not heroic discipline but sharing the nights where possible, napping when you can, and remembering that the season will pass.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "New parents",
+    "sub": "Sleep in pieces"
+   }
+  },
+  {
+   "say": "Then there are people who work at night. Their sleep has to happen in daylight, against a body clock that is pushing them awake, and studies of shift workers have long found more sleepiness and more disturbed sleep than in day workers. Researchers often suggest dark curtains, steady schedules where possible, and short naps before a night shift, though these are partial answers to a very hard problem.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "cap": "Night shifts",
+    "sub": "Working against the clock"
+   }
+  },
+  {
+   "say": "For both shift workers and travellers, the same tool from earlier in the evening shows up again, light. Bright light at the right time can shift the body clock, and avoiding it at the wrong time can stop it being pulled back. That's why jet lag advice often includes seeking morning light after flying east, and sunglasses or dim rooms when your clock would otherwise treat the light as dawn.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Light as a tool",
+    "sub": "Timing the signal"
+   }
+  },
+  {
+   "say": "So the answer for Mina is both reassuring and practical. A weekend of lie-ins won't hurt, and may help a little, but her aim should be steadier nights, with a wake time that doesn't swing too far. And for all of us, there's a quiet lesson. The best sleep advice depends on the life you lead, and it's okay for it to be a bit imperfect.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "A thought for Mina",
+    "sub": "And for you"
+   }
+  }
+ ]
+}

@@ -1,0 +1,199 @@
+{
+ "id": "lf51_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "That small black button raised a very natural question. Were people really seeking pain, or were they seeking anything at all? Several research teams went looking for the answer.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "n": 4,
+    "title": "Seeking pain, or seeking anything?"
+   }
+  },
+  {
+   "say": "One of them was a group of Dutch researchers led by Chantal Nederkoorn, at Maastricht University. In a study published in 2016 in the journal Psychiatry Research, with the title Self-inflicted pain out of boredom, they used a more controlled way of making people bored. Instead of leaving participants alone with their thoughts, they showed some of them a dull, repetitive film, and others a more neutral one.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "A tidy follow-up",
+    "sub": "A Dutch team"
+   }
+  },
+  {
+   "say": "Afterwards, everyone was given the chance to give themselves mild electric shocks, as in the earlier experiment. The researchers reported that people who had watched the boring film chose to give themselves more shocks than people who hadn't. The finding supported the idea that boredom itself, rather than simply being alone with your thoughts, can push people to seek out unpleasant stimulation.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "The setup",
+    "sub": "Boring film, then a choice"
+   }
+  },
+  {
+   "say": "A related line of work asked whether boredom makes people eat. In 2015, Remco Havermans and colleagues published a paper called Eating and inflicting pain out of boredom, in the journal Appetite. They reported that bored participants ate more of the sweets on offer than participants who weren't bored, and also shocked themselves more.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "A related study",
+    "sub": "Eating out of boredom"
+   }
+  },
+  {
+   "say": "Around the same time, a team led by Erin Moynihan, working with Wijnand van Tilburg and Eric Igou, published a paper in 2015 in the journal Frontiers in Psychology called Eaten up by boredom. Their idea was that bored people reach for food partly to escape awareness of the bored self. In their experiments, boredom increased how much people ate, and the effect didn't seem to be about hunger. It was about the feeling.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "cap": "One more",
+    "sub": "A search for escape"
+   }
+  },
+  {
+   "say": "Put these together, and a picture appears. When people are bored, they seem to want an action, any action, that shifts the feeling. Sometimes that's a snack. Sometimes it's a screen, a stroll, or a pointless errand. And in the laboratory, where the choices are narrowed to almost nothing, it can be a mild shock.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A pattern",
+    "sub": "The urge to do something"
+   }
+  },
+  {
+   "say": "So the better question may not be, why do people seek pain, but what are they really seeking? A study published in 2019 in the journal Emotion, by Shane Bench and Heather Lench at Texas A&M University, points to an answer. Their paper was called Boredom as a seeking state, and it showed that bored participants tended to seek out new experiences, even ones that were likely to be negative.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "cap": "A better question",
+    "sub": "What is the person seeking?"
+   }
+  },
+  {
+   "say": "A simple way to picture this is as a curve. At the start of a dull stretch, the wish for something different is small. As the sameness continues, the wish grows, and the longer it lasts, the more attractive anything different becomes, even something slightly unpleasant. This is a mental sketch of the idea, rather than a measurement.",
+   "show": {
+    "type": "curve",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "title": "The itch for change",
+    "x": "Time spent in boredom",
+    "y": "Wish for something new",
+    "peak": 8.0,
+    "label": "Boredom builds, and so does the wish for anything different"
+   }
+  },
+  {
+   "say": "What these studies agree on is that boredom is looking for change. A negative event is, at least, an event. It breaks the sameness and gives attention something to do. That doesn't mean people enjoy pain. It means that a dull, empty stretch of time can be so unpleasant that a small jolt looks like relief.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Novelty matters",
+    "sub": "Any change will do"
+   }
+  },
+  {
+   "say": "A small ceramic bowl of wrapped sweets on a windowsill, with grey afternoon light behind it and a few drops of rain on the glass. The bowl is half empty, and a quiet stillness hangs over the scene, as if someone had just stepped away.",
+   "show": {
+    "type": "photo",
+    "file": "lf51_b04_01.jpg",
+    "cap": "A bowl of sweets by a window"
+   }
+  },
+  {
+   "say": "Now, a fair counterpoint. Not every study finds that waiting is awful. In 2022, a team led by Aya Hatano, with Cansu Ogulmus, Hiroaki Shigemasu and Kou Murayama, published a paper in the Journal of Experimental Psychology: General, called Thinking about thinking, with the subtitle, people underestimate how enjoyable and engaging just waiting is.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "A counterpoint",
+    "sub": "Waiting can be better than we expect"
+   }
+  },
+  {
+   "say": "In their experiments, people were asked to predict how much they'd enjoy waiting quietly for a short time, and then they actually did it. The researchers reported that people expected the waiting to be less enjoyable and less engaging than it actually turned out to be. In other words, we may be worse at predicting our own boredom than at surviving it.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "The surprise",
+    "sub": "Predictions versus reality"
+   }
+  },
+  {
+   "say": "That fits neatly with the earlier work. Waiting quietly can be genuinely hard, especially when we feel that we ought to be occupied, but it may be easier than we fear before we start. Many of us may be avoiding a discomfort that would have been milder than we expected, simply because we never test it.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "Both can be true",
+    "sub": "Hard, but not as hard as feared"
+   }
+  },
+  {
+   "say": "So Mira, in her plastic chair, may be a little better off than she believes. The forty minutes feel unbearable, but the feeling has a shape. It rises when she thinks about the clock, it softens when something catches her eye, and if she stays with it long enough, it often shifts into something calmer.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "What it means for Mira",
+    "sub": "Not as bad as she thinks"
+   }
+  },
+  {
+   "say": "That shift is the key idea of this chapter. Boredom is not a fixed state, it's a pushing, forward-leaning feeling. It wants to move you somewhere. The question is only where, and whether the place it moves you is a good one.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "living_room_day",
+    "cap": "A key idea",
+    "sub": "Boredom is movement"
+   }
+  },
+  {
+   "say": "One caution, and it matters. Nothing here means that people should seek out pain or risk to escape boredom. The laboratory studies used mild, controlled stimuli, with consent and safeguards. The point is understanding why the urge to do something can be so strong, not recommending a response.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "rooftop_dusk",
+    "cap": "A small caution",
+    "sub": "Not an excuse for harm"
+   }
+  },
+  {
+   "say": "It can be helpful, instead, to notice the reach. When you find yourself grabbing for a snack, a screen, or a distraction without really deciding to, that may be boredom at work. You don't have to fight it, and you don't have to obey it either. Simply noticing the itch is already a small act of choice.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A gentle thought",
+    "sub": "Reach, then notice"
+   }
+  },
+  {
+   "say": "That brings us to the next question. What is the brain doing when it sits in the plain chair, wanting something to do? The answer involves an idea that surprised scientists in the late twentieth century, and it begins with a brain that never really rests.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "cap": "A bridge",
+    "sub": "The brain behind the itch"
+   }
+  },
+  {
+   "say": "Next, we'll look at the brain's quiet network, and why the mind seems to wander the moment we stop giving it a job.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "Next",
+    "sub": "The brain that never stops"
+   }
+  }
+ ]
+}

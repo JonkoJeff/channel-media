@@ -1,0 +1,227 @@
+{
+ "id": "lf51_b15",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's gather what we've learned into a gentle toolkit. None of these are cures, and none of them are rules. They're small experiments that follow from the research we've looked at tonight, and you're free to try one, all, or none.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "n": 15,
+    "title": "A gentle toolkit"
+   }
+  },
+  {
+   "say": "Before the first, a reminder. Boredom isn't a failing. You don't have to become a person who is never bored, and you don't have to fill every moment with something productive. The aim is just to meet the feeling with a bit more curiosity and a bit more choice.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "cap": "A promise",
+    "sub": "No pressure"
+   }
+  },
+  {
+   "say": "The first idea is the simplest. When you notice the restless, empty feeling, try naming it. Boredom. That's all. In 2007, Matthew Lieberman and colleagues published a study in Psychological Science, Putting feelings into words, which suggested that labelling an emotion can reduce its intensity in the brain, at least for some emotions.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "The first idea",
+    "sub": "Name it"
+   }
+  },
+  {
+   "say": "Naming boredom may sound too small to matter, but it changes your relationship to it. Instead of being swept along by the feeling and reaching for the nearest distraction, you've noticed it, and noticing opens a gap in which a choice can happen. Even a quiet, silent, oh, this is boredom can be enough.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "A small step",
+    "sub": "Say it quietly"
+   }
+  },
+  {
+   "say": "The second idea is to ask what the boredom is pointing to. As we saw, it's a signal. Is this too easy? Too hard? Does it feel meaningless? Do I want company, movement, novelty or quiet? You don't have to find a perfect answer. A rough guess is often enough to suggest the next step.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "The second idea",
+    "sub": "Ask what it's pointing to"
+   }
+  },
+  {
+   "say": "An open notebook with a pencil resting in its fold, lying on a soft blanket near a window with pale morning light. A few short, handwritten lines fill the left page, and the room is perfectly calm, as though the day had not yet been asked for anything.",
+   "show": {
+    "type": "photo",
+    "file": "lf51_b15_01.jpg",
+    "cap": "A notebook with a pencil on a bed"
+   }
+  },
+  {
+   "say": "The third idea comes from flow research. If a task is too easy, add a small challenge, such as a time limit, a personal rule or a slightly harder version. If it's too hard, break it into a smaller piece you can finish. Adjusting the match is often the quickest way to wake attention.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "The third idea",
+    "sub": "Adjust the match"
+   }
+  },
+  {
+   "say": "If the task feels pointless, link it to something that matters. Why am I doing this? Who benefits? What would it make possible? Research on meaning and boredom suggests that connecting a dull task to a larger purpose can make it feel less empty, though it won't turn every chore into a joy.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "The fourth idea",
+    "sub": "Link it to something you care about"
+   }
+  },
+  {
+   "say": "When you're waiting, take your attention off the clock, as Mira did. Pick something in the room to notice, like colours, sounds, shapes or textures, or set yourself a mental game. The attentional gate model suggests that the less attention you give to time, the less of it you'll feel passing.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "The fifth idea",
+    "sub": "Move your attention off the clock"
+   }
+  },
+  {
+   "say": "Turn the wanting into curiosity by asking a small question about what's in front of you. How was this built? What does that person's day look like? What would the view be from the top of that tower? Curiosity doesn't need a big subject, only a small gap that attention can step into.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "The sixth idea",
+    "sub": "Ask a small question"
+   }
+  },
+  {
+   "say": "Keep a little room in your day for undemanding time, with no screen and no audio. A walk, a chore, a bath or a quiet look out of a window may let your mind wander, and, as the incubation studies hint, sometimes turn up an idea. Think of it as a small, regular appointment with your own wandering mind.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "living_room_day",
+    "cap": "The seventh idea",
+    "sub": "Make room for undemanding time"
+   }
+  },
+  {
+   "say": "When you reach for your phone, check whether you're choosing or drifting. If you're choosing, enjoy it. If you're drifting, you might try a few breaths first, to see whether the urge softens. There's no rule here, only the small act of noticing what the reach is for.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "The eighth idea",
+    "sub": "Choose, don't drift"
+   }
+  },
+  {
+   "say": "If you find it hard to get going, aim for the smallest possible start. Two minutes, one page, one email, one rinse of the bowl. The Mugon study hinted that for some bored people the difficulty is launching, and a tiny first step can be enough to get the engine turning.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "The ninth idea",
+    "sub": "Take the first step"
+   }
+  },
+  {
+   "say": "The last idea might be the most important. Be kind to yourself when you're bored. It's an ordinary human feeling that has been with us since the desert monks, and it's often a sign that you have more to give than the situation is asking for.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "The tenth idea",
+    "sub": "Be kind"
+   }
+  },
+  {
+   "say": "So here's the gentle toolkit in a list. Name it. Ask what it points to. Adjust the challenge. Find the meaning. Look away from the clock. Ask a small question. Leave room for downtime. Choose, don't drift. Take a tiny first step. And be kind to yourself.",
+   "show": {
+    "type": "list",
+    "sprite": "N11",
+    "bg": "autumn_overlook",
+    "title": "A gentle toolkit",
+    "items": [
+     "Name it",
+     "Ask what it points to",
+     "Adjust the challenge",
+     "Find the meaning",
+     "Look away from the clock",
+     "Ask a small question",
+     "Leave room for downtime",
+     "Choose, don't drift",
+     "Take a tiny first step",
+     "Be kind"
+    ]
+   }
+  },
+  {
+   "say": "It's worth being honest. These are drawn from research, but research on boredom is young, and not every idea has been tested in everyday life. Some will help you more than others, and what works on a Tuesday afternoon may not work on a Friday evening. Treat them as experiments, rather than prescriptions.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "An honest limit",
+    "sub": "Tools aren't magic"
+   }
+  },
+  {
+   "say": "It may help to think of boredom as a slightly annoying friend, the sort who taps you on the shoulder when you've been sitting too long. It's rarely welcome, but it is usually well-meaning, and it often turns out to have a point.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A reminder",
+    "sub": "Boredom as a friend"
+   }
+  },
+  {
+   "say": "It's also worth noticing the good bits of boredom, the slow afternoons that turned into a memory, the long journey with a window and nothing to do, the drowsy hour in which an idea dropped into your head. Some of life's best moments begin as an empty stretch of time.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Another reminder",
+    "sub": "Notice the good bits"
+   }
+  },
+  {
+   "say": "In the waiting room, a door opens, and a nurse calls Mira's name. She stands, and for a moment she almost feels reluctant to go. The forty minutes, which had begun as a small ordeal, have somehow become one of the more interesting parts of her day.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "rooftop_dusk",
+    "cap": "Back to Mira",
+    "sub": "Her appointment"
+   }
+  },
+  {
+   "say": "The room didn't change, and the poster is still about hand washing. What changed was where her attention went, and what she let the boredom be. That's the entire lesson, in a nutshell, and it's one that we can all try on any ordinary afternoon.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "A thought",
+    "sub": "The room was the same"
+   }
+  },
+  {
+   "say": "Next, we'll gather the main ideas of the evening, and then slow everything down for a gentle, quiet finish.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "cap": "Next",
+    "sub": "The last stretch"
+   }
+  }
+ ]
+}

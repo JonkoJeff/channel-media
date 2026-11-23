@@ -1,0 +1,217 @@
+{
+ "id": "lf51_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now, let's visit that plain little room, because what happened inside it became one of the most talked-about psychology experiments of the last decade.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "n": 3,
+    "title": "Alone in a room"
+   }
+  },
+  {
+   "say": "The study was published in the journal Science in July 2014. Its lead author was Timothy Wilson of the University of Virginia, and its title was a gentle instruction, Just Think: The Challenges of the Disengaged Mind. The idea was beautifully simple. Take ordinary people, put them in an empty room, and ask them to do one thing, which was to entertain themselves with their own thoughts.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "A simple setup",
+    "sub": "Just think"
+   }
+  },
+  {
+   "say": "Here is how it went in the main experiments. Participants were asked to sit alone in a plain room, with no phone, no book, no pen and no music, for somewhere between six and fifteen minutes. They had been asked to think about whatever they liked, and then to say how enjoyable and how hard it had been.",
+   "show": {
+    "type": "study",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "who": "Wilson et al., 2014",
+    "where": "University of Virginia and Harvard, published in Science",
+    "what": "Participants sat alone, with no phone, book or pen, for six to fifteen minutes, and rated how much they enjoyed it"
+   }
+  },
+  {
+   "say": "The average verdict was not flattering. Many people said it was hard to concentrate, that their minds wandered, and that they didn't enjoy it much. This held across different age groups and across different settings, including a university lab and a group of people from the community. Thinking alone for a few minutes was, for most, a mild trial.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "The results",
+    "sub": "Not much fun"
+   }
+  },
+  {
+   "say": "Then came the twist, and the reason the study became famous. In one experiment, the researchers first gave participants a mild electric shock, and asked how much they'd pay to avoid being shocked again. Many said they would pay to avoid it. Then each person was left alone in the room for fifteen minutes, with a button they could press to give themselves the shock, if they felt like it.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "street_day",
+    "cap": "The twist",
+    "sub": "A shock button"
+   }
+  },
+  {
+   "say": "Many pressed it. Among the participants who had said they'd pay to avoid the shock, a substantial share chose to deliver one to themselves, simply because the quiet had become hard to bear. Some of them pressed the button more than once.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "What happened",
+    "sub": "They pressed it"
+   }
+  },
+  {
+   "say": "The numbers were striking. About two thirds of the men, twelve of eighteen, pressed the button at least once, and about a quarter of the women, six of twenty-four, did the same. One man pressed it one hundred and ninety times. The study was not claiming that men are more prone to this in general, since the groups were small, but the overall pattern got a great deal of attention.",
+   "show": {
+    "type": "bars",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "title": "Gave themselves a shock",
+    "unit": "% of participants",
+    "bars": [
+     [
+      "Men",
+      67.0
+     ],
+     [
+      "Women",
+      25.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "It's worth being careful about what this does and doesn't show. The shock was mild, chosen by each participant to be unpleasant but not painful. The participants knew exactly what it was. And the researchers themselves did not conclude that people hate their own thoughts. Their point was narrower, that most of us find it surprisingly hard to be content with only our thoughts, when we are told to sit still and do nothing.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "A careful reading",
+    "sub": "What it does and doesn't show"
+   }
+  },
+  {
+   "say": "Their own summary is fairly modest. Many people, they wrote, seem to prefer doing something rather than nothing, even when the something is negative. That is the finding in a sentence. And it fits a great many everyday experiences, from tapping at a phone in a lift to picking at a loose thread while we wait.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "text": "Many people prefer to do something rather than nothing, even if the something is negative.",
+    "by": "Wilson and colleagues, summarising the results in Science, 2014"
+   }
+  },
+  {
+   "say": "The team also asked people to try the same thing at home, for about fifteen minutes, with no phone, no tablet and no distraction. Roughly a third admitted that they cheated, by getting up, checking a phone or listening to music. That is probably an underestimate, since some who cheated might not have confessed. And remember, nobody was forcing them. It was a quiet game of sitting still, and a third couldn't quite do it.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "cap": "At home",
+    "sub": "A cheating test"
+   }
+  },
+  {
+   "say": "A very simple, bare room with a single wooden chair beside a small side table. Soft light enters through a window, and a plain white wall waits behind. The room is calm, empty and entirely without distraction, as though it were holding its breath.",
+   "show": {
+    "type": "photo",
+    "file": "lf51_b03_01.jpg",
+    "cap": "A plain room with one chair"
+   }
+  },
+  {
+   "say": "Why did this small, odd experiment cause so much interest? Because it hints at something about how our minds are built. It suggests that attention wants a task, and that when none is available, the mind can feel more uncomfortable than we'd expect. The silence itself isn't the problem. The wanting to engage, with nothing to engage with, is.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "Why it matters",
+    "sub": "A window into the mind"
+   }
+  },
+  {
+   "say": "There were other findings too. People who were told to think about something pleasant, or to plan something enjoyable, didn't find it much easier. And participants who were given a chance to do something even mildly engaging, like reading or listening to something, enjoyed their time more. The mind, it seems, would rather have a handhold.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "The pleasant thought test",
+    "sub": "Another finding"
+   }
+  },
+  {
+   "say": "So the fourth reading of the hand-washing poster begins to make a little more sense. Mira isn't being silly, and she isn't uniquely restless. She is doing what many of the people in that room did, reaching for any little thing that would give her attention something to hold.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "cap": "Back to Mira",
+    "sub": "The fourth reading"
+   }
+  },
+  {
+   "say": "You can find small versions of the same pattern all around you. People tap their phones in lifts, pick at labels, tidy things that were already tidy, or wander into the kitchen without being hungry. None of this is as dramatic as pressing a shock button, but it comes from the same place, a mind that would rather do something than nothing.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "A wider echo",
+    "sub": "Everyday versions"
+   }
+  },
+  {
+   "say": "It would be easy to read this as a criticism of people, as though we were all simply unable to relax. But a mind that seeks something to do has served our species well. Curiosity, exploration and invention all grow from a mind that doesn't like to sit still. The same trait that makes a quiet room uncomfortable also makes us restless explorers.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A gentle thought",
+    "sub": "Why this isn't a flaw"
+   }
+  },
+  {
+   "say": "But a sceptical listener might ask whether the shock button was really about boredom. Maybe the participants were just curious about what the shock would feel like. Maybe they wanted to feel something. Those are fair questions, and later researchers tested them.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A question",
+    "sub": "Is that really all it is?"
+   }
+  },
+  {
+   "say": "That's how good science works. A striking result isn't the end of the conversation, it's the start. Other teams wanted to know if the finding would hold up, whether it was really boredom, and what exactly people were trying to escape. The next chapter of the story has some surprising answers.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Good science",
+    "sub": "Replication matters"
+   }
+  },
+  {
+   "say": "For now, hold on to one image. A person, a plain chair, a quiet room and a small black button. The question the experiment asks isn't really about the button. It's about what it feels like to be left alone with a mind that wants to do something, and has nothing to do.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A thought",
+    "sub": "The mind wants something"
+   }
+  },
+  {
+   "say": "Next, we'll look at the follow-up studies, including what happens when people are bored in other ways, and whether they really do seek pain.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "cap": "Next",
+    "sub": "The follow-ups"
+   }
+  }
+ ]
+}

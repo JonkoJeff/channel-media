@@ -1,0 +1,218 @@
+{
+ "id": "lf51_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's turn from waiting to working. Boredom isn't only what we feel when we're idle. It also arrives when we are busy, doing the same simple thing for a very long time.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "n": 7,
+    "title": "When tasks wear us down"
+   }
+  },
+  {
+   "say": "During the Second World War, a puzzle appeared in the British military. Radar operators and coastal watchers, whose job was to spot rare signals on a screen, sometimes missed them. They weren't careless. They were trained, and they cared, but after a while their performance seemed to slip.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "A wartime puzzle",
+    "sub": "The radar problem"
+   }
+  },
+  {
+   "say": "The psychologist Norman Mackworth set out to study the problem. In an experiment published in 1948, he built a special clock, with a single pointer that moved in small steps around its face. Now and then, the pointer made a double step, and the volunteer's task was to spot it, for a session of two hours.",
+   "show": {
+    "type": "study",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "who": "Mackworth, 1948",
+    "where": "Cambridge, England, published in the Quarterly Journal of Experimental Psychology",
+    "what": "Volunteers watched a clock hand that jumped now and then, and reported the rare double jumps"
+   }
+  },
+  {
+   "say": "What Mackworth found became a classic. People were good at the task at first, but their detection of the double steps dropped noticeably over the session. Much of the decline came early, within the first half hour or so. This pattern is known as the vigilance decrement, and it has been seen in many later studies.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "The result",
+    "sub": "A drop in the first half hour"
+   }
+  },
+  {
+   "say": "The vigilance decrement matters because the people involved were trying their best. It's not about laziness. When a task is long, monotonous and rarely rewarding, the mind finds it hard to keep the spotlight steady. Many researchers link this to boredom, and to the effort of staying focused when nothing is happening.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "rooftop_dusk",
+    "cap": "Why it matters",
+    "sub": "Boredom of the watchful"
+   }
+  },
+  {
+   "say": "For a long time, scientists assumed this was simply mental fatigue, as though attention ran out like a battery. Newer ideas suggest that the story is more subtle, and that the mind also drifts, losing interest in the task and turning toward other thoughts. In that view, the drop is partly boredom and partly mind-wandering.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "A later view",
+    "sub": "Not just tiredness"
+   }
+  },
+  {
+   "say": "In 2018, Alyssa Hunter and John Eastwood, in the journal Experimental Brain Research, published a paper that looked at the link between boredom and sustained attention. Titled, Does state boredom cause failures of attention?, it explored how bored people performed on a task that needs steady attention, and whether trait boredom and state boredom relate to lapses.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A study",
+    "sub": "Boredom and attention"
+   }
+  },
+  {
+   "say": "They reported links between boredom, both as a trait and as a state, and lapses of attention on a sustained-attention task. The relationship was not huge, and it's hard to say which causes which. Perhaps boredom disrupts attention, or perhaps wandering attention creates the feeling, and likely both are true.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "cap": "What they reported",
+    "sub": "A real link"
+   }
+  },
+  {
+   "say": "A long, plain corridor with pale walls and a polished floor, lit by a row of soft windows on one side. The perspective draws the eye far into the distance, and the whole place has the patient hush of a building in the middle of an unchanging afternoon.",
+   "show": {
+    "type": "photo",
+    "file": "lf51_b07_01.jpg",
+    "cap": "A long quiet corridor"
+   }
+  },
+  {
+   "say": "Boredom also appears in the workplace. In 1993, Cynthia Fisher published a paper in the journal Human Relations, called Boredom at work: A neglected concept. She argued that researchers had paid surprisingly little attention to boredom, even though many jobs have long stretches of repetition and low challenge.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "At work",
+    "sub": "Boredom in jobs"
+   }
+  },
+  {
+   "say": "Fisher's review suggested that boredom at work is associated with repetitive tasks, a feeling of little control, and long stretches of sameness. It isn't limited to dull jobs either. A highly skilled worker, say a pilot or a surgeon, can face stretches of monotony, interrupted by moments when everything matters.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "A familiar story",
+    "sub": "Repetition and little control"
+   }
+  },
+  {
+   "say": "Interestingly, boredom at work is not always about having too little to do. Sometimes it's about having a task that is too simple for the person's skills. And sometimes it's the other way around, a task that is too baffling to engage with. Again we see the attention problem, in both directions.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "rooftop_dusk",
+    "cap": "A key idea",
+    "sub": "Too little to do"
+   }
+  },
+  {
+   "say": "There's an even more extreme experiment in this area, and it comes from the early 1950s. At McGill University in Canada, the psychologist Donald Hebb and his colleagues, including Woodburn Heron, Thomas Bexton and Walter Scott, set up a study of what happens when the sensory world is reduced to a minimum.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A famous extreme",
+    "sub": "An experiment in doing nothing"
+   }
+  },
+  {
+   "say": "In the study, published in 1954, student volunteers were paid to lie on a comfortable bed in a small cubicle. They wore translucent goggles that let in only a dim glow, gloves with cardboard cuffs that dulled touch, and a constant humming sound masked everything else. They were free to leave whenever they wished.",
+   "show": {
+    "type": "study",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "who": "Bexton, Heron and Scott, 1954",
+    "where": "McGill University, published in the Canadian Journal of Psychology",
+    "what": "Paid student volunteers lay on a bed in a cubicle, wearing goggles, gloves and cuffs, for as long as they could stand"
+   }
+  },
+  {
+   "say": "Most volunteers lasted only a couple of days, even though they were being paid well for doing nothing. Many reported finding it hard to think clearly, and some described unusual visual experiences. They spontaneously said they were desperate for something to do, and could hardly wait to get up.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "What happened",
+    "sub": "Few could stay"
+   }
+  },
+  {
+   "say": "It's important to be careful here. This was an extreme experiment, and its conditions were far from a normal quiet afternoon. It doesn't prove that we all go strange without constant input. But it does show how powerfully the mind seeks stimulation, and how uncomfortable it can be when stimulation is taken away.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "cap": "A careful reading",
+    "sub": "Extreme, not everyday"
+   }
+  },
+  {
+   "say": "Taken together, these studies tell a consistent story. Whether it's a clock face, a radar screen, a plain corridor or a dim cubicle, a long stretch of unchanging input doesn't leave the mind calm and still. It leaves it restless, drifting, and searching for any change in the scene.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "A thread",
+    "sub": "Monotony and mind"
+   }
+  },
+  {
+   "say": "Mira's search of the waiting room is the everyday version of that. She reads the notice board. She counts the ceiling tiles. She studies the patterns in the carpet. None of this is silly. It's a mind doing what minds do, hunting for something that will hold it, and finding very little.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Back to Mira",
+    "sub": "Searching the room"
+   }
+  },
+  {
+   "say": "There is also a hopeful side. If monotony drains attention, then small changes can restore it. Researchers who study vigilance have found that breaks, variety and a sense of purpose all help, and workplaces that rotate tasks or let people have some control tend to see less boredom.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "A hopeful note",
+    "sub": "Variety helps"
+   }
+  },
+  {
+   "say": "That brings us to a very useful idea. If too little challenge bores us, and too much baffles us, then there may be a sweet spot, a Goldilocks zone, in between. And it turns out that some of the happiest moments of our lives happen right there.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "cap": "A bridge",
+    "sub": "The right amount of challenge"
+   }
+  },
+  {
+   "say": "Next, we'll look at the balance between challenge and skill, and why being bored and being absorbed are two sides of the same coin.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Next",
+    "sub": "The Goldilocks zone"
+   }
+  }
+ ]
+}

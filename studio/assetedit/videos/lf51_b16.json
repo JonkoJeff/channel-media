@@ -1,0 +1,246 @@
+{
+ "id": "lf51_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's take a slow, friendly look back over the evening, the way you might look over a map at the end of a long walk, tracing the route and noticing the places that stood out.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "n": 16,
+    "title": "What we've learned"
+   }
+  },
+  {
+   "say": "We began in a waiting room, with an imagined woman called Mira, a dead phone and a poster about hand washing. Nothing was wrong. Nothing hurt. And yet the time dragged, and the feeling was unpleasant in a way that was hard to name. That feeling, as we saw, has a name, and it has been studied for a long time.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "Where we began",
+    "sub": "A waiting room"
+   }
+  },
+  {
+   "say": "We learned that boredom is not simply having nothing to do. John Eastwood and his colleagues, in 2012, described it as the aversive experience of wanting, but being unable, to engage in satisfying activity. And Erin Westgate and Timothy Wilson, in 2018, suggested that it arises when attention isn't held, and when what we're doing doesn't feel meaningful.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "cap": "The definition",
+    "sub": "Wanting, but unable"
+   }
+  },
+  {
+   "say": "We travelled back in time to the desert monks and their noonday demon, to a Roman philosopher complaining about sameness, to a Danish thinker who called boredom the root of all evil, and to a Victorian novel that helped give the feeling its English name. Whether or not the word is young, the experience seems to be very old.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "The history",
+    "sub": "An old companion"
+   }
+  },
+  {
+   "say": "We visited the plain room from Timothy Wilson's 2014 study in Science, in which many people chose to give themselves a mild electric shock rather than sit quietly with their thoughts for a few minutes. We noted what it did and didn't show, and we saw that follow-up studies suggested that bored people seek change, and that waiting is often easier than we predict.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "The experiment",
+    "sub": "A shock button"
+   }
+  },
+  {
+   "say": "Here is that famous result once more, as a reminder. About two thirds of the men and about a quarter of the women in that experiment pressed the button at least once. Remember that the shock was mild, the groups were small, and the point was never that people hate their thoughts.",
+   "show": {
+    "type": "bars",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "title": "Gave themselves a shock",
+    "unit": "% of participants, Wilson et al., 2014",
+    "bars": [
+     [
+      "Men",
+      67.0
+     ],
+     [
+      "Women",
+      25.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "We looked at the brain, and the default mode network that hums away when we aren't focused on the outside world, and at the way the brain finds novelty rewarding and gets used to sameness. We were careful to say that scans show patterns rather than simple causes, and that the picture is still being drawn.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "autumn_overlook",
+    "cap": "The brain",
+    "sub": "An idling engine"
+   }
+  },
+  {
+   "say": "We explored time, and found that when attention goes to the clock, time stretches, while looking back, a boring stretch can shrink to almost nothing. We met the attentional gate model, Dan Zakay and Richard Block's idea, and David Maister's observations on why waiting feels long.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Time",
+    "sub": "A stretched present"
+   }
+  },
+  {
+   "say": "An open window at evening, with a pale curtain moving gently in the breeze and a soft band of fading light across a wooden floor. Beyond the glass, rooftops and a darkening sky sit in perfect stillness, and the whole room seems to be breathing out.",
+   "show": {
+    "type": "photo",
+    "file": "lf51_b16_01.jpg",
+    "cap": "An open window at evening"
+   }
+  },
+  {
+   "say": "We looked at tasks that wear us down, from Norman Mackworth's clock and the vigilance decrement to the McGill experiment in which paid students could hardly bear lying in a cubicle with nothing to do. These taught us that long, unchanging input doesn't leave the mind calm. It leaves it restless.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "Work and monotony",
+    "sub": "Radar and cubicles"
+   }
+  },
+  {
+   "say": "We found the Goldilocks zone, the idea from Mihaly Csikszentmihalyi's work that boredom lives where challenge is too low for our skill, and anxiety lives where it's too high. And we saw that in classrooms, boredom is often a mismatch between the lesson and the learner, rather than a failing of the student.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "The sweet spot",
+    "sub": "Challenge and skill"
+   }
+  },
+  {
+   "say": "We came to the central idea of the evening, that boredom may be a signal, rather than a flaw. Shane Bench and Heather Lench, and Andreas Elpidorou, and Robert Kurzban and colleagues, have each argued in their own way that boredom nudges us away from an unsatisfying situation, toward something that might be better.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "cap": "The purpose",
+    "sub": "A signal"
+   }
+  },
+  {
+   "say": "We weighed the claimed gifts of boredom. There's suggestive evidence from Sandi Mann and Rebekah Cadman, and from Benjamin Baird and colleagues, that bored and undemanding time can help ideas along, though it isn't a guarantee. And Wijnand van Tilburg and Eric Igou showed that boredom prompts a search for meaning, which can lead to nostalgia, to kindness, and sometimes to strong beliefs.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "The gifts",
+    "sub": "Creativity and meaning"
+   }
+  },
+  {
+   "say": "We talked about phones, the quick answer to every empty moment, and about the careful reading that the research allows. The evidence is mostly correlational, the famous goldfish claim has no solid source, and the real question is the difference between choosing and drifting.",
+   "show": {
+    "type": "char",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "cap": "Phones",
+    "sub": "The easy answer"
+   }
+  },
+  {
+   "say": "We met curiosity, as Loewenstein's information gap, as Kang's reward circuits and Gruber's dopamine-linked memory boost, and as Silvia's two-part idea of interest. And we saw that boredom and curiosity form a pair, one clearing the ground and the other picking a direction.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "Curiosity",
+    "sub": "Boredom's brighter cousin"
+   }
+  },
+  {
+   "say": "We learned that boredom isn't a single thing. Thomas Goetz and colleagues described indifferent, calibrating, searching and reactant types, and we noted that people differ in how easily they get bored, and that situations matter as much as personality.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Different flavours",
+    "sub": "Not one boredom"
+   }
+  },
+  {
+   "say": "If there is one sentence to carry home, it might be this one. Boredom is a message, and not a malfunction. It says that attention isn't held, that something doesn't feel meaningful, or that a want hasn't found its target. And a message, once read, usually stops shouting.",
+   "show": {
+    "type": "quote",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "text": "Boredom is a message, not a malfunction.",
+    "by": "the idea of the evening"
+   }
+  },
+  {
+   "say": "We gathered a toolkit of small experiments, naming the feeling, asking what it points to, adjusting the challenge, finding the meaning, looking away from the clock, asking small questions, leaving room for downtime, choosing rather than drifting, taking a tiny first step, and being kind to yourself.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "The practical side",
+    "sub": "Small experiments"
+   }
+  },
+  {
+   "say": "We also tried to be honest about limits. Boredom research is young. Many of the studies are small, many use students, and many are correlational. And if emptiness lasts for weeks, or comes with a low mood, that's a reason to talk to a professional, rather than a problem to solve alone.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "A fair warning",
+    "sub": "Honest limits"
+   }
+  },
+  {
+   "say": "And Mira? She walked into a quiet consulting room at last, got her five-minute appointment, and walked out again into the evening. On the way home, she looked out of the bus window instead of at her phone, and she noticed a lit-up kitchen, a child's bicycle in a front garden, and a cat on a wall. She didn't need anything more.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Back to Mira",
+    "sub": "The ending"
+   }
+  },
+  {
+   "say": "She did think, once, about the hand-washing poster, and she smiled. It had been the dullest thing in the room, and it had been, in its way, part of one of the better afternoons she'd had in weeks. That's the odd gift of an empty moment. You never know quite what it will turn into.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "A callback",
+    "sub": "The poster"
+   }
+  },
+  {
+   "say": "Now, if you're still with us, we're going to slow things right down. There's nothing more to learn tonight, and nothing more to do. We'll spend the rest of this evening in a quiet, gentle place, and let all those ideas settle on their own.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "cap": "A turn",
+    "sub": "Into the quiet"
+   }
+  },
+  {
+   "say": "Next, we'll slow everything down, and let the evening come to a soft close.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "Next",
+    "sub": "A slow, quiet finish"
+   }
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "id": "lf52_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "If déjà vu comes from the machinery of memory, then anything that changes the machinery should change how often it happens. And that's just what the surveys suggest. People report more déjà vu in certain states and stages of life. In this chapter, we'll go through the main links, one by one, and ask honestly how strong the evidence is for each.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N23",
+    "bg": "rooftop_dusk",
+    "n": 14,
+    "title": "Tiredness, stress, age and travel"
+   }
+  },
+  {
+   "say": "The first link is with tiredness and stress. Many people say their episodes cluster in times of fatigue, pressure or poor sleep, and Alan Brown's review noted that this link appears in several surveys. A tired mind, the thinking goes, has a weaker fact-checker, and a more easily triggered sense of familiarity, so that more false alarms slip through, or are noticed.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "The first link",
+    "sub": "Tiredness and stress"
+   }
+  },
+  {
+   "say": "It's important to say how strong this evidence is. It comes mostly from questionnaires, in which people look back and say when their episodes happened. Memories of when you felt tired are themselves imperfect, and people who are tired may simply notice odd feelings more. Controlled experiments on sleep loss and déjà vu are scarce. So the honest summary is: suggestive, plausible, but not settled.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "How strong is that evidence?",
+    "sub": "Suggestive, not settled"
+   }
+  },
+  {
+   "say": "The second link, age, is much clearer. We saw in chapter two that reports rise through the teenage years, are common in the twenties, and then fall over the decades. Several large surveys agree on the general shape. That's one of the most reliable facts in the field, and any theory has to be able to explain it.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "The second link",
+    "sub": "Age"
+   }
+  },
+  {
+   "say": "Researchers have offered several ideas. There may be fewer new places and scenes in later life. Memory systems change with age. Routines become more established. People may pay less attention to fleeting feelings. And there may be differences in how people recall their youth. These ideas aren't mutually exclusive, and the data can't yet tell us how much each one contributes.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "Why might it fade with age?",
+    "items": [
+     "Fewer new places and scenes",
+     "Changes in memory systems with age",
+     "More established routines",
+     "Less attention to fleeting feelings",
+     "Differences in how people recall their youth"
+    ]
+   }
+  },
+  {
+   "say": "One idea links well with brain science. In 2007, Dharshan Kumaran and Eleanor Maguire reported that the hippocampus responds to mismatches between what we expect and what we encounter, acting as a kind of detector of novelty and of match. If a young life is full of new situations, there are more opportunities for the detector to produce a mismatch, or a near-match, and so more chances for déjà vu.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "The novelty idea",
+    "sub": "The brain compares expectation with experience"
+   }
+  },
+  {
+   "say": "The third link, travel, fits the same picture. People who travel often report more déjà vu, in the surveys that Brown reviewed. New places mean new scenes, and new scenes with familiar layouts, as in Elena's hallway. A person who goes to many new places has many more chances to walk into a room that rhymes with some forgotten room in their past.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "The third link",
+    "sub": "Travel"
+   }
+  },
+  {
+   "say": "A suitcase beside a window with a view of a quiet street. If you've ever noticed that déjà vu seems to strike when you arrive somewhere new, there may be a reason. In a new place, almost everything is unfamiliar, so that any small match with something older stands out, and is more likely to be felt as a flash of the known.",
+   "show": {
+    "type": "photo",
+    "file": "lf52_b14_01.jpg",
+    "cap": "A suitcase beside a window"
+   }
+  },
+  {
+   "say": "The fourth link, with dream recall, is the one that attracts the most speculation. People who remember their dreams more often tend to report more déjà vu. One idea is that a dream can leave a trace of a scene that is later matched by a real place, without the dream itself being remembered. If so, some déjà vu may be the echo of a forgotten dream.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "The fourth link",
+    "sub": "Dreams"
+   }
+  },
+  {
+   "say": "It's an attractive idea, but it is only an idea. The link between dream recall and déjà vu could have other explanations. People who recall their dreams may simply be more reflective about inner experiences, and so more likely to notice and report déjà vu. For now, the dream hypothesis is a possibility that has not been tested in a controlled experiment.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "A caution",
+    "sub": "A link isn't a mechanism"
+   }
+  },
+  {
+   "say": "Surveys also link déjà vu with more years of education, and with a more imaginative, open style of thinking. Again, the usual cautions apply. More educated people may notice or describe their inner states more precisely, or they may be exposed to more varied places and media. And, as before, none of this shows a cause.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "The fifth link",
+    "sub": "Education and imagination"
+   }
+  },
+  {
+   "say": "One more factor deserves a mention: the sheer number of scenes we see through screens. A person today may have seen thousands of hallways, streets, kitchens and rooftops in films, programmes and games, most of them barely attended to. Each one is a potential trace, and a potential match for a real room. It's a modern version of the hidden exposure we met in chapter five, though no one has measured how much it contributes.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "Media and imagination",
+    "sub": "A mind full of scenes"
+   }
+  },
+  {
+   "say": "If you were to design a life with maximum déjà vu, going by the surveys, it might look like this. You're in your late teens or twenties. You're a little tired, a little stressed. You travel often, you remember your dreams, you've had plenty of schooling, and you watch a lot of films. It's a rough sketch, not a formula, but it captures the pattern in the numbers.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Putting the links together",
+    "sub": "A recipe for more déjà vu"
+   }
+  },
+  {
+   "say": "And the opposite: older, rested, calm, staying mostly in familiar places, rarely remembering dreams. That person would be expected to have fewer episodes. Both sketches are only tendencies, of course. Individual variation is huge, and nothing in these surveys can predict how often any particular person will have the experience.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "The other side",
+    "sub": "A recipe for less"
+   }
+  },
+  {
+   "say": "Why does it matter which groups have more? Because each link is a clue to the mechanism. A theory based on the hippocampus and novelty fits the age and travel patterns. A theory based on the checking system fits the tiredness pattern. A theory based on traces fits the media and dream patterns. The surveys can't prove any of these, but they help to keep theories honest.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "Why it matters",
+    "sub": "Clues to the mechanism"
+   }
+  },
+  {
+   "say": "An honest summary of this chapter would be that déjà vu is more common in youth, in travel, and, probably, when tired, and that the reasons are likely to involve novelty, memory checking and hidden traces. The rest, including dreams, media and personality, is plausible but unproven. That's how most of science looks at the edge of a topic, with a firm core and a fuzzy rim.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "An honest summary",
+    "sub": "What we know, and what we don't"
+   }
+  },
+  {
+   "say": "So where do we stand? We've seen that déjà vu is reported more by people who are tired or stressed, who are young, who travel, who remember dreams and who have had more education. We've seen possible explanations for each, from novelty detection to hidden traces, and we've kept the evidence honest.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Looking back",
+    "sub": "What we set out to learn"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll come to the practical question: what, if anything, should you do the next time it happens? We'll look at myths, at what researchers suggest, and at a few small experiments you can try on your own.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Up next",
+    "sub": "What to do when it happens"
+   }
+  }
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "id": "lf52_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "If déjà vu is a feeling that the new is old, there ought to be a mirror image: a feeling that the old is new. And there is. Anyone who has stared at a very common word until it looks like nonsense has met it. The French have a phrase for it, too, jamais vu, which means never seen. It's the less famous sibling, and it tells us a lot.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "n": 11,
+    "title": "When the familiar turns strange"
+   }
+  },
+  {
+   "say": "Try this thought experiment. Write down the word door. Look at it. It's an ordinary word, one you've known since childhood. Now write it again, and again, twenty or thirty times, as fast as you can. At some point, many people find that the word begins to look odd. The letters seem wrong. Is it really spelled like that? It doesn't look like a word at all.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "cap": "An experience you've had",
+    "sub": "The word that stops looking right"
+   }
+  },
+  {
+   "say": "That feeling is a mild form of jamais vu. Something you know perfectly well suddenly seems unfamiliar, strange, or unreal. Researchers use the term for a range of experiences, from a word that looks wrong, to a familiar room that feels briefly foreign, to a close friend's face that seems, for a second, like a stranger's.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "The name",
+    "sub": "Jamais vu"
+   }
+  },
+  {
+   "say": "The effect has been known for well over a century. In 1907, two American psychologists, Elmer Severance and Margaret Washburn, reported that when a word is looked at for a long time, it seems to lose its meaning. In the 1960s, researchers including Wallace Lambert and Leon Jakobovits studied it in detail and gave it the name semantic satiation, meaning that the meaning is worn out by repetition.",
+   "show": {
+    "type": "study",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "who": "Severance and Washburn",
+    "where": "American Journal of Psychology, 1907",
+    "what": "The loss of associative power in words after long fixation"
+   }
+  },
+  {
+   "say": "A common explanation is that repeated activation tires the meaning system. If a word is activated again and again in a short time, its link to its meaning briefly weakens, and the word becomes just a pattern of letters or sounds. That explanation is still debated, and researchers have noted that the effects can be small and short-lived. But the experience of the word going strange is vivid, and extremely common.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "An explanation",
+    "sub": "Too much of a good thing"
+   }
+  },
+  {
+   "say": "Notice the mirror image of déjà vu. In déjà vu, a scene that should feel new feels old, as if the sense of the known had been switched on by mistake. In jamais vu, a thing that should feel old feels new, as if the sense of the known had been switched off. Both are errors of the same signal, the one that tells us whether a thing has been encountered before.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "The mirror image",
+    "sub": "Too much, or too little"
+   }
+  },
+  {
+   "say": "A door seen up close, with its grain and its handle. If you look at any ordinary object long enough, with enough attention, it begins to look surprising. The wood is more complicated than you thought. The shape is odd. That's another face of jamais vu, and a reminder that familiarity isn't a property of the object. It's a property of how we're looking.",
+   "show": {
+    "type": "photo",
+    "file": "lf52_b11_01.jpg",
+    "cap": "A door seen up close"
+   }
+  },
+  {
+   "say": "Researchers have tried to produce jamais vu on purpose, by asking people to write a simple word many times. Chris Moulin and his colleagues have used versions of this task, and have found that a good number of people report a sense of oddness or doubt about the word, along with a feeling that it has become strange. It's a reminder that the whole familiarity system can be manipulated, in both directions.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Researchers have tried it",
+    "sub": "Induced jamais vu"
+   }
+  },
+  {
+   "say": "Why does this matter for understanding déjà vu? Because it shows that the feeling of familiarity isn't fixed to the world. It can be raised, as in déjà vu, or lowered, as in jamais vu, by changes in how the brain is processing something. The signal is a construction, a running estimate. And an estimate can be pushed up or down.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Why it matters",
+    "sub": "A signal that can drift"
+   }
+  },
+  {
+   "say": "There's a much rarer and more serious condition at the far end of this idea. In the Capgras delusion, first described by the French psychiatrist Joseph Capgras and his colleague in 1923, a person becomes convinced that a close relative has been replaced by an impostor. They can see that the person looks right. But something about the sense of recognition is missing.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "A darker mirror",
+    "sub": "When recognition loses its glow"
+   }
+  },
+  {
+   "say": "In 1990, the psychologists Hadyn Ellis and Andrew Young proposed that the Capgras delusion could arise when the usual emotional glow of recognising a loved face is lost. The person identifies the face correctly, but the feeling that normally accompanies it fails to arrive, and so the mind explains the gap by deciding that this must be someone else.",
+   "show": {
+    "type": "study",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "who": "Hadyn Ellis and Andrew Young",
+    "where": "British Journal of Psychiatry, 1990",
+    "what": "Accounting for delusional misidentifications"
+   }
+  },
+  {
+   "say": "The point isn't to alarm anyone. The Capgras delusion is rare, and usually linked to specific brain or mental health conditions. The point is that recognition has more than one component: knowing who someone is, and the feeling that goes with knowing. These parts normally work together, and when they come apart, in a small way or a large way, the results can be strange.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "The point",
+    "sub": "Recognition has two parts"
+   }
+  },
+  {
+   "say": "Let's gather this family together. Déjà vu, when new feels old. Jamais vu, when old feels new. The tip of the tongue, when something is known but can't be found. And the Capgras delusion, in the rare clinical case, when something is known but felt as false. All of them point to the same lesson: knowing and feeling-that-you-know are distinct.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "The family of familiarity errors",
+    "items": [
+     "Déjà vu: new feels old",
+     "Jamais vu: old feels new",
+     "Tip of the tongue: known but not found",
+     "Capgras: known but felt as false"
+    ]
+   }
+  },
+  {
+   "say": "There is a practical side to this. If you learn to notice the feeling of familiarity as a signal rather than a fact, you gain a small piece of mental independence. When a stranger seems familiar, or a claim feels right, or a place seems known, you can pause and ask: where might this feeling be coming from? Often the answer is nowhere in particular, and you can let it go.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A useful habit",
+    "sub": "Noticing the signal"
+   }
+  },
+  {
+   "say": "This habit has a wider use. Psychologists have found that statements we've heard before feel truer than those we haven't, simply because they're familiar. In 1977, Lynn Hasher, David Goldstein and Thomas Toppino showed that repeating a statement made people rate it as more likely to be true, a result now called the illusory truth effect. Familiarity, once again, is being mistaken for evidence.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "An application",
+    "sub": "Familiar claims feel true"
+   }
+  },
+  {
+   "say": "It's the same mechanism we met in chapter five. Easy processing, which comes from repetition, feels like familiarity, and familiarity feels like truth. Déjà vu is the rare moment when we catch the mechanism in the act. Most of the time it works silently, and we're never told. That's why a moment of déjà vu, strange as it is, is also a small gift: it lets you see something that is normally invisible.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "The link",
+    "sub": "Fluency and truth"
+   }
+  },
+  {
+   "say": "So where do we stand? We've seen that jamais vu is the mirror image of déjà vu, when the familiar feels strange, and that repeating a word can bring it on, as Severance and Washburn found in 1907. We've seen the Capgras delusion as a rare, serious cousin, and the illusory truth effect as an everyday one.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What we set out to learn"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll return to healthy volunteers and a recent brain imaging study that tried to catch the checking system at work, and that suggests déjà vu may be a sign of a mind that is doing its job.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "Up next",
+    "sub": "The brain as a fact-checker"
+   }
+  }
+ ]
+}

@@ -1,0 +1,197 @@
+{
+ "id": "lf52_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "To understand why a mismatch feels so eerie, we have to be clear about what memory is. Most of us picture it as a recording, a library of clips that can be played back more or less as they were stored. Psychologists have known for nearly a century that this picture is wrong. Memory is closer to a story, and the brain tells it again every time.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "n": 13,
+    "title": "Memory is rebuilt, not replayed"
+   }
+  },
+  {
+   "say": "In the early 1930s, the Cambridge psychologist Frederic Bartlett asked people to read a strange Native American folk tale called The War of the Ghosts, and then to retell it, after various intervals. He found that the retellings changed in a pattern. Details dropped out, odd elements were made more familiar, and the story drifted toward the teller's own culture and expectations.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "who": "Frederic Bartlett",
+    "where": "Remembering, Cambridge University Press, 1932",
+    "what": "The war of the ghosts"
+   }
+  },
+  {
+   "say": "Bartlett concluded that remembering is an act of reconstruction. We don't take out a stored copy. We build a version of the past from fragments and from general knowledge, and we feel as though it's the original. In his view, memory serves meaning, not accuracy, and meaning fills the gaps where the record is thin.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "His conclusion",
+    "sub": "An act of reconstruction"
+   }
+  },
+  {
+   "say": "In 1974, Elizabeth Loftus and John Palmer showed how easily the rebuilding can be steered. People watched films of car accidents, and were asked how fast the cars were going when they smashed into each other. Other people were asked the same question, but with the word hit, bumped or contacted instead of smashed. The wording changed their answers.",
+   "show": {
+    "type": "study",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "who": "Elizabeth Loftus and John Palmer",
+    "where": "Journal of Verbal Learning and Verbal Behavior, 1974",
+    "what": "Reconstruction of automobile destruction"
+   }
+  },
+  {
+   "say": "The numbers are striking. The people who heard the word smashed estimated a speed of about 40.8 miles per hour. Collided, 39.3. Bumped, 38.1. Hit, 34.0. And contacted, only 31.8. The film was the same for everyone. What changed was a single word, and with it, the remembered speed.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "Estimated speed by verb",
+    "items": [
+     "Smashed: 40.8 mph",
+     "Collided: 39.3 mph",
+     "Bumped: 38.1 mph",
+     "Hit: 34.0 mph",
+     "Contacted: 31.8 mph"
+    ]
+   }
+  },
+  {
+   "say": "There was a second part to the experiment. A week later, the people were asked whether they had seen broken glass in the film. There was no broken glass. But those who had been asked about cars that smashed were more likely to say that they had seen some than those who had been asked about cars that hit. A single word had added a detail to their memory.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "A week later",
+    "sub": "Glass that wasn't there"
+   }
+  },
+  {
+   "say": "Another study from Loftus's group is often cited. In 1995, she and Jacqueline Pickrell gave volunteers short stories about their childhood, written with help from relatives. Three of the stories were true. One was false: that they had been lost in a shopping mall as a child. About one quarter of the volunteers, six out of twenty-four, came to remember something of the false event.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "who": "Loftus and Pickrell",
+    "where": "Psychiatric Annals, 1995",
+    "what": "The formation of false memories"
+   }
+  },
+  {
+   "say": "The lesson from these studies isn't that memory is useless. It's that the feeling of remembering and the fact of remembering can be separated. The mind can produce a convincing sense of the past from suggestions, wording, and general expectations. If it can do that for whole events, it can certainly do it for the lighter and briefer feeling of familiarity.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "The lesson",
+    "sub": "The feeling of remembering can be built"
+   }
+  },
+  {
+   "say": "A jigsaw puzzle partly completed on a wooden table. Memory works a little like that. Some pieces are real, held in storage. Others are filled in from the picture on the box, the general idea of how things usually go. We don't notice the join, because the picture looks whole. Déjà vu may be what it looks like when we notice a piece that doesn't belong.",
+   "show": {
+    "type": "photo",
+    "file": "lf52_b13_01.jpg",
+    "cap": "A jigsaw puzzle partly completed"
+   }
+  },
+  {
+   "say": "Another idea helps here. In 1993, Marcia Johnson and her colleagues published a major review of what they called source monitoring: the processes by which we decide where a memory or a feeling came from. Was it something I saw, something I heard about, something I imagined, or something I dreamed? Source decisions are made quickly and, often, without our noticing.",
+   "show": {
+    "type": "study",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "who": "Marcia Johnson, Shahin Hashtroudi and Stephen Lindsay",
+    "where": "Psychological Bulletin, 1993",
+    "what": "Source monitoring"
+   }
+  },
+  {
+   "say": "Many of the mind's odd memory errors turn out to be source errors. A real feeling of familiarity gets attached to the wrong source. You feel that a fact is familiar and assume you read it somewhere reliable. Or you feel that a scene is familiar and decide, wrongly, that you've been there. Déjà vu is an unusual case, because in it the source can't be found at all, and we notice the gap.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Where the errors come from",
+    "sub": "Wrong source, right feeling"
+   }
+  },
+  {
+   "say": "The memory researcher Daniel Schacter, at Harvard, gathered such errors in a 1999 paper called The Seven Sins of Memory. They include transience, absent-mindedness and blocking, and also misattribution, suggestibility and bias. He argued that these are not defects to be fixed, but by-products of a system that is, on the whole, excellent for the purposes it evolved for.",
+   "show": {
+    "type": "study",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "who": "Daniel Schacter",
+    "where": "American Psychologist, 1999",
+    "what": "The seven sins of memory"
+   }
+  },
+  {
+   "say": "That's a helpful way to think about déjà vu. It isn't a bug that evolution forgot to fix. It's a side effect of a system that has to be fast, flexible and economical, and to run on partial information. A system with those properties will occasionally produce a false alarm of familiarity. The occasional déjà vu is the price of the usual, valuable speed.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A useful idea",
+    "sub": "Sins as side effects"
+   }
+  },
+  {
+   "say": "So why does it feel eerie? One answer comes from Endel Tulving, who in 1985 proposed that true remembering carries a special quality, which he called autonoetic awareness, the sense of re-experiencing, of travelling back in mind to an earlier time. In déjà vu, the feeling of familiarity arrives, but the sense of travelling back doesn't. There's a feeling of the past with no past in it.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "Why it's eerie",
+    "sub": "A feeling without a story"
+   }
+  },
+  {
+   "say": "That gap, a memory-shaped hole, is what you notice, and what gives the experience its strangeness. A normal memory comes with a story: when, where, with whom. Déjà vu comes with the shape of a story and none of the contents. It's like seeing the outline of a picture on a wall, where no picture hangs.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "The gap you notice",
+    "sub": "A memory-shaped hole"
+   }
+  },
+  {
+   "say": "It also helps that we expect the past to arrive with detail. We trust our memory most when it brings a clear scene. A feeling that arrives bare, with no scene, is unusual enough to be startling. Part of the eeriness is the surprise at finding a familiar feeling in the wrong company, which is a fairly human reaction to a mismatch.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "The role of expectation",
+    "sub": "We expect the past to come with detail"
+   }
+  },
+  {
+   "say": "So where do we stand? We've seen that memory is reconstructed, as Bartlett showed in 1932. We've seen that Loftus and Palmer changed remembered speeds with a single word, that Loftus and Pickrell implanted a false memory in about a quarter of volunteers, and that déjà vu may be a source error with the source missing.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What we set out to learn"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll look at what makes déjà vu more or less likely: tiredness, stress, age, and the links to travel and dreams that we first met in the survey, and ask what the evidence says about each.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "Up next",
+    "sub": "Tiredness, stress, age and travel"
+   }
+  }
+ ]
+}

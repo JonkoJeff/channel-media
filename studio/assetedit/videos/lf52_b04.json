@@ -1,0 +1,207 @@
+{
+ "id": "lf52_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Before we can explain a false feeling of familiarity, we need to understand the real one. How does your mind decide that a face, a song or a street is something it has met before? It turns out that there isn't one process doing this job. There are at least two, and they can come apart. That fact sits at the heart of almost every modern theory of déjà vu.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "n": 4,
+    "title": "Two kinds of knowing"
+   }
+  },
+  {
+   "say": "Here's an example psychologists love. You're in a shop, and you see a man standing near the till. You're sure you know him. His face is familiar, and you feel a small warm flicker of recognition. But you can't think who he is, or where you've seen him. Then, later, it comes to you: he's the butcher you see every week, and you simply didn't expect him out of his own shop.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "An everyday moment",
+    "sub": "The man on the bus"
+   }
+  },
+  {
+   "say": "The psychologist George Mandler used a version of that story, with a butcher on a bus, in a famous paper published in 1980. He argued that recognising something involves two separate components. One is a quick feeling of familiarity. The other is the slower business of retrieving the details: who it is, where you met, what you know about them. Most of the time they arrive together, but sometimes they don't.",
+   "show": {
+    "type": "study",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "who": "George Mandler",
+    "where": "Psychological Review, 1980",
+    "what": "Recognizing: the judgment of previous occurrence"
+   }
+  },
+  {
+   "say": "Psychologists give these two components names. Familiarity is the feeling that something has been encountered before, without the details. Recollection is the retrieval of specific information about the earlier encounter, such as when and where it happened. Familiarity is fast, effortless and a little vague. Recollection is slower, more effortful, and richer.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Two names",
+    "sub": "Familiarity and recollection"
+   }
+  },
+  {
+   "say": "A tidy way to hold the two in mind. Familiarity is quick and vague, with no details attached. Recollection is slower and detailed, with a sense of the context. Familiarity can occur on its own, which is the butcher on the bus. And recollection almost always brings familiarity with it, because when you can retrieve the details, the thing feels known as well.",
+   "show": {
+    "type": "list",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "title": "Two ways of knowing",
+    "items": [
+     "Familiarity: fast, vague, no details",
+     "Recollection: slower, detailed, with context",
+     "Familiarity can occur alone",
+     "Recollection almost always brings familiarity"
+    ]
+   }
+  },
+  {
+   "say": "In 2002, the psychologist Andrew Yonelinas, at the University of California, Davis, published a major review of thirty years of work on these two processes. He concluded that the evidence from experiments and from patients, taken together, supports the idea that familiarity and recollection really are different, and that damage to one can leave the other intact.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "who": "Andrew Yonelinas",
+    "where": "Journal of Memory and Language, 2002",
+    "what": "The nature of recollection and familiarity: a review of 30 years of research"
+   }
+  },
+  {
+   "say": "Now we can see the first outline of a theory of déjà vu. Suppose familiarity fires, but recollection doesn't. The mind produces the feeling that this scene is known, and then tries to retrieve the details, and finds none. That is just what Elena experienced. She felt that she knew the hallway, and yet she couldn't recall a single fact about when she had been there, because she hadn't been.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "rooftop_dusk",
+    "cap": "A clue for déjà vu",
+    "sub": "A feeling without the details"
+   }
+  },
+  {
+   "say": "So the first ingredient of déjà vu is a flicker of familiarity with no source behind it. In a normal day, familiarity usually has a source. You recognise a friend because you have met them. The feeling is only a side effect of a real memory. In déjà vu, the feeling appears without that real memory, and so it seems to point at nothing, which is what makes it so eerie.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "The mismatch",
+    "sub": "A flicker without a source"
+   }
+  },
+  {
+   "say": "Another everyday experience has a similar shape. The tip of the tongue state, in which you're certain you know a word and can't quite say it. In 1966, the psychologists Roger Brown and David McNeill published a classic study of the state. They gave people definitions of rare words and noted that people often knew the first letter, or how many syllables the word had, without being able to produce it.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A related feeling",
+    "sub": "On the tip of the tongue"
+   }
+  },
+  {
+   "say": "The tip of the tongue shows that feelings of knowing can be separate from the knowledge itself. You can be right that you know something, and unable to find it. You can also be wrong, and sure that you know something you don't. In both cases, the feeling is a signal generated by the mind, and signals, like any signal, can be mistaken.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Knowing without finding",
+    "sub": "A partial memory"
+   }
+  },
+  {
+   "say": "A shelf of books in warm light. Your memory is a little like a very large library where the librarian can tell you in an instant that a book is probably on the shelves, without yet knowing which one. That quick sense of probably here is the feeling of familiarity. The slower walk down the aisle, to find the actual book, is recollection.",
+   "show": {
+    "type": "photo",
+    "file": "lf52_b04_01.jpg",
+    "cap": "A shelf of books in warm light"
+   }
+  },
+  {
+   "say": "Brain research has added a physical layer to this idea. In 2001, Malcolm Brown and John Aggleton, at the Universities of Bristol and Cardiff, published a review in Nature Reviews Neuroscience on how the brain handles recognition. They suggested that an area near the front of the temporal lobe, called the perirhinal cortex, supports familiarity, while the hippocampus supports recollection of details and context.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Where in the brain",
+    "sub": "Two regions, two jobs"
+   }
+  },
+  {
+   "say": "That division is a useful sketch, but not a final map. Researchers still argue about how cleanly the two jobs can be separated, and about which regions do what. Some studies find that the hippocampus contributes to familiarity as well, and others find that the perirhinal cortex helps with more than familiarity. For our purposes, the main point is the two-process idea, which is much better established than the details of the wiring.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "A word of caution",
+    "sub": "The picture is still debated"
+   }
+  },
+  {
+   "say": "Why would the brain have two systems for something as simple as recognition? One answer is speed. When you walk into a room, you often need to know quickly whether something is familiar, and in particular whether it is safe. A fast feeling of familiarity gives you that without waiting for a complete memory to be retrieved. It works like a first alarm, which is checked by the slower system if there's time.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cafe_sunset",
+    "cap": "Why two systems",
+    "sub": "Speed matters"
+   }
+  },
+  {
+   "say": "But speed has a cost. A quick check that fires on partial information will sometimes fire when it shouldn't. A new face that resembles someone you know, a street that has the same shape as one you've walked, a phrase you've half heard before. The first alarm rings, and the slow system, which could say no, hasn't spoken yet, or can't find any matching memory.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "The cost of speed",
+    "sub": "Sometimes it fires wrongly"
+   }
+  },
+  {
+   "say": "Three questions to carry into the next chapters. What might trigger the familiarity alarm when nothing in memory matches? Why might the slower system stay silent, so that no details come? And why, in the case of déjà vu, do we notice the mismatch, instead of simply accepting the feeling, as we do most of the time?",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "Questions to hold on to",
+    "items": [
+     "What might trigger the familiarity alarm?",
+     "Why might the slower system stay silent?",
+     "Why do we notice the mismatch?"
+    ]
+   }
+  },
+  {
+   "say": "That last question deserves a moment. Most false alarms of familiarity pass unnoticed. You mistake a stranger for an acquaintance, or feel that a tune is familiar when it isn't, and you move on without a second thought. What marks out déjà vu is that you catch it in the act. Part of your mind says, I know this, and another part says, no, I don't.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Most of the time",
+    "sub": "We just accept it"
+   }
+  },
+  {
+   "say": "So where do we stand? We've seen that recognition has two parts: a fast feeling of familiarity, and a slower retrieval of details. We've seen Mandler's butcher, Yonelinas's review, and the Brown and Aggleton suggestion about the brain. And we've sketched the first idea of déjà vu, a flicker of familiarity with nothing behind it.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "Looking back",
+    "sub": "What we set out to learn"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll look at experiments in which researchers made things feel familiar on purpose, and find out how easily the sense of the known can be created, even for things that have never been seen before.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "Up next",
+    "sub": "When familiarity is manufactured"
+   }
+  }
+ ]
+}

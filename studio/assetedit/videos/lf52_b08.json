@@ -1,0 +1,205 @@
+{
+ "id": "lf52_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "So far, we've looked at déjà vu from the outside, through surveys and clever experiments with healthy volunteers. Now let's go inside. For a few remarkable decades, surgeons and neurologists have had the chance to stimulate the brain directly in patients who were awake, and sometimes, in the middle of an electrical pulse, those patients reported the feeling that we're trying to explain.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "n": 8,
+    "title": "Inside the brain"
+   }
+  },
+  {
+   "say": "A note about who these patients are. They are people with severe epilepsy, usually in the temporal lobes, who were being assessed for surgery. To find where seizures begin, and to protect important functions such as speech and movement, surgeons sometimes stimulate small areas of the brain with weak electric currents. The patient is awake and can speak, and the brain itself has no pain receptors.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A special group",
+    "sub": "People with epilepsy"
+   }
+  },
+  {
+   "say": "The pioneer of this method was the Canadian neurosurgeon Wilder Penfield, in Montreal. Over several decades, he and his colleagues stimulated the exposed brains of awake patients, and noted what they said. In a long 1963 summary with Phanor Perot, they described experiences that included vivid scenes, voices and music, sometimes appearing like fragments of memory.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "who": "Wilder Penfield and Phanor Perot",
+    "where": "Brain, 1963",
+    "what": "The brain's record of auditory and visual experience"
+   }
+  },
+  {
+   "say": "Among the things patients said, Penfield noticed a particular class of responses. He called them interpretive, because they didn't add a scene so much as change the meaning of the present one. A patient might say that everything seemed suddenly familiar, or, on other occasions, that it seemed strange and unreal. A paper by Sean Mullan and Penfield in 1959 described these illusions of familiarity and strangeness, and linked them to the temporal lobe.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "Familiar and strange",
+    "sub": "Penfield's interpretive responses"
+   }
+  },
+  {
+   "say": "We should be cautious here, as many modern scientists are. Penfield's patients all had abnormal brains, and his methods were less controlled than today's. His interpretation, that the stimulation was replaying stored memories like a tape recording, has not held up. Later work suggests that stimulation produces experiences by disturbing activity in networks, in ways more complex than a recording being played back.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "A caution",
+    "sub": "Penfield's work has limits"
+   }
+  },
+  {
+   "say": "The modern version of this research uses thin electrodes placed deep in the brain, a technique developed in France by Jean Talairach and Jean Bancaud and now used in epilepsy centres around the world. The electrodes record the brain's own electrical activity, and can also deliver small pulses to find out what a given spot does. Patients stay awake for hours, and talk to their doctors about what they feel.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "Newer methods",
+    "sub": "Electrodes deep inside"
+   }
+  },
+  {
+   "say": "In 1994, Bancaud and his team described what happened when they stimulated or recorded from many sites in the brains of patients with temporal lobe epilepsy. They found that déjà vu could be triggered from several regions of the temporal lobe, including the amygdala, the hippocampus and the areas next to it, though the most consistent site seemed to be the cortex near the hippocampus, called the entorhinal cortex.",
+   "show": {
+    "type": "study",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "who": "Jean Bancaud and colleagues",
+    "where": "Brain, 1994",
+    "what": "Anatomical origin of déjà vu and vivid memories in human temporal lobe epilepsy"
+   }
+  },
+  {
+   "say": "The entorhinal cortex is often described as a gateway to the hippocampus. Information from many parts of the brain passes through it on the way in and out. It's also a place where the brain's sense of space and its sense of familiarity seem to overlap, which, as we've seen, fits nicely with the ideas of layout and familiarity from the earlier chapters.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "Why the entorhinal cortex matters",
+    "sub": "The gateway"
+   }
+  },
+  {
+   "say": "A staircase leading to a bright window. In the hippocampus and its neighbours, the brain keeps a vast record of places and events, and the entorhinal cortex helps to open and close the doors. When something interrupts that process at the entrance, the result may be a sense that a door has opened onto a room that was never visited.",
+   "show": {
+    "type": "photo",
+    "file": "lf52_b08_01.jpg",
+    "cap": "A staircase with a bright window"
+   }
+  },
+  {
+   "say": "A further study, published by Jean-Pierre Vignal, Louis Maillard, Aileen McGonigal and Patrick Chauvel in 2007, looked at what's called the dreamy state, a kind of experience in which people feel as though they are re-living part of their past. They found that such experiences were linked with the temporal lobe, and that stimulating the lateral and mesial temporal regions could evoke them.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "who": "Jean-Pierre Vignal and colleagues",
+    "where": "Brain, 2007",
+    "what": "The dreamy state: hallucinations of autobiographic memory evoked by temporal lobe stimulations and seizures"
+   }
+  },
+  {
+   "say": "The name dreamy state has an old history. The British neurologist John Hughlings Jackson used it in the late nineteenth century to describe certain epileptic auras, in which a person feels a sort of reminiscence, or a sense that they've seen it all before. We'll meet him again in the next chapter, because he spotted the link between this feeling and the temporal lobe well before the brain could be scanned.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "The dreamy state",
+    "sub": "A name from the 1880s"
+   }
+  },
+  {
+   "say": "In 2012, Fabrice Bartolomei and colleagues in Marseille reported a particularly clear case. They stimulated the rhinal cortex, the region around the entorhinal and perirhinal areas, in patients with electrodes implanted, and induced déjà vu in some. When it occurred, they saw a change in the way the rhinal cortex and the hippocampus were communicating with each other.",
+   "show": {
+    "type": "study",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "who": "Fabrice Bartolomei and colleagues",
+    "where": "Clinical Neurophysiology, 2012",
+    "what": "Rhinal-hippocampal interactions during déjà vu"
+   }
+  },
+  {
+   "say": "You can think of it as a change in the conversation between the two regions. When the rhinal cortex is stimulated, it may send a signal of familiarity, while the hippocampus, which should provide the supporting details, either doesn't, or provides something that doesn't fit. The two parts of the memory system disagree for a moment, and the mismatch is the feeling.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "What the change was",
+    "sub": "A shift in conversation"
+   }
+  },
+  {
+   "say": "Let's gather the lessons. Déjà vu can be triggered from the inner part of the temporal lobe. The rhinal cortex and hippocampus seem to be central players. The experience may arise from a brief disagreement between regions that normally work together. And, an important reminder, patients with epilepsy are not typical, so we should be careful how far we generalise.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "What brain stimulation suggests",
+    "items": [
+     "Déjà vu can be triggered from the inner temporal lobe",
+     "The rhinal cortex and hippocampus seem central",
+     "The experience can come from a brief disagreement between regions",
+     "Patients with epilepsy are not typical"
+    ]
+   }
+  },
+  {
+   "say": "Notice how neatly this fits with the two-process picture from chapter four. Familiarity, in the rhinal cortex. Recollection, in the hippocampus. And déjà vu, as a moment when the first is switched on without the second. The laboratory results on layout and fluency, and the stimulation results from the brain, aren't separate stories. They're different views of the same mechanism.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "Connecting the threads",
+    "sub": "Familiarity and recollection again"
+   }
+  },
+  {
+   "say": "Imagine, for a moment, that a tiny, harmless flicker of electrical activity happened in the rhinal region of Elena's brain as she stepped into the hallway. A normal fluctuation, which happens all the time, usually without effect. This time, it comes at a moment when she's looking at a scene, and the brain reads it as a report of recognition. The hallway seems known.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A thought experiment",
+    "sub": "A faint electric flicker"
+   }
+  },
+  {
+   "say": "We should be honest that, in healthy people, we can't yet watch such a flicker. Déjà vu lasts seconds, comes without warning, and is gone before a scanner could be prepared. What we have is a mixture of patient stimulation studies, theory and laboratory analogues, each of which gives a piece of the picture. None of them is a complete recording of a normal moment of déjà vu.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "An honest limit",
+    "sub": "We can't watch it happen"
+   }
+  },
+  {
+   "say": "So where do we stand? We've seen that stimulating the inner temporal lobe in awake patients can produce déjà vu, from Penfield's work in Montreal to Bancaud, Vignal and Bartolomei in France. We've seen that the rhinal cortex and hippocampus seem central, and that the feeling may be a brief disagreement between them.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What we set out to learn"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll look at the link between déjà vu and epilepsy more closely, and ask an important question: when is déjà vu just a quirk of a healthy brain, and when might it be a sign worth talking to a doctor about?",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "Up next",
+    "sub": "Déjà vu and epilepsy"
+   }
+  }
+ ]
+}

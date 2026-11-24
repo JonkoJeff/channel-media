@@ -1,0 +1,197 @@
+{
+ "id": "lf52_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "If familiarity is a feeling produced by the mind, then it should be possible to produce it on purpose. That's exactly what experimental psychologists set out to do in the 1980s and 1990s, and what they found changed how we think about déjà vu. It turns out that the sense of the known isn't a reliable record of the past. It's a guess, and it can be nudged.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N23",
+    "bg": "autumn_overlook",
+    "n": 5,
+    "title": "Manufacturing familiarity"
+   }
+  },
+  {
+   "say": "The key idea is called processing fluency. Fluency is the ease with which the brain handles something. A word that's printed clearly is easier to read than one in a smudged font. A face you've seen before is processed a little faster than a new one. A tune you've heard is easier to follow. And the mind seems to use that ease as a clue: this was easy, so I must have met it before.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "The key idea",
+    "sub": "Fluency"
+   }
+  },
+  {
+   "say": "In everyday life, that shortcut works well. Things we've met before usually are easier to process, so ease is a decent clue to familiarity. But it's only a clue. If something is easy to process for some other reason, for instance because it's clearly displayed, or because it fits the context, the mind can mistake that ease for the glow of the past.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "An ordinary shortcut",
+    "sub": "Easy means known"
+   }
+  },
+  {
+   "say": "In 1989, the psychologists Larry Jacoby and Kevin Whitehouse published a clever experiment. People first studied a list of words. Then, in a recognition test, they were shown words one at a time and asked whether each was on the list. Just before some of the test words, a matching word was flashed on the screen so briefly that people didn't consciously see it.",
+   "show": {
+    "type": "study",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "who": "Larry Jacoby and Kevin Whitehouse",
+    "where": "Journal of Experimental Psychology: General, 1989",
+    "what": "An illusion of memory: false recognition influenced by unconscious perception"
+   }
+  },
+  {
+   "say": "The result was an illusion of memory. When the same word had been flashed for a fraction of a second, just before the test, people were more likely to say the word was old, even when it was brand new. The flash made the word easier to process, the ease felt like familiarity, and they took the familiarity as evidence that they had studied the word earlier.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "The result",
+    "sub": "Unnoticed flash, false memory"
+   }
+  },
+  {
+   "say": "Put plainly, the participants felt a sense of the past that had been created a moment ago. Nothing in their memory of the list had changed. Only the ease of processing had been altered, and that was enough to alter the feeling. It's a small laboratory demonstration of the basic recipe for a false familiarity: something makes processing easier, and the mind credits the past.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Why it matters",
+    "sub": "A feeling of the past, made now"
+   }
+  },
+  {
+   "say": "A pair of reading glasses on an open page. Reading is one of the easiest ways to see fluency at work. A sentence set in a clear typeface feels smoother, and sometimes feels truer, than the same sentence in a hard-to-read one. The feeling of smoothness is real. What we do with it, the story we tell about where it came from, is a separate and more fragile step.",
+   "show": {
+    "type": "photo",
+    "file": "lf52_b05_01.jpg",
+    "cap": "A pair of reading glasses on a page"
+   }
+  },
+  {
+   "say": "Bruce Whittlesea, working in Canada, showed that fluency doesn't even need earlier exposure. In a 1993 paper, he showed people words in sentences. When a sentence made a word easy to predict, so that the word came smoothly, people were more likely to say they had seen that word before, even when they hadn't. A fitting context was enough to create a feeling of the past.",
+   "show": {
+    "type": "study",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "who": "Bruce Whittlesea",
+    "where": "Journal of Experimental Psychology: Learning, Memory, and Cognition, 1993",
+    "what": "Illusions of familiarity"
+   }
+  },
+  {
+   "say": "This matters for déjà vu, because ordinary life is full of fitting contexts. Elena, walking into her friend's flat, steps into a hallway that is, in a sense, the most predictable hallway imaginable. It has hooks, a rug, a staircase, a window. Everything about it matches the expectations built by thousands of earlier hallways. The scene is fluent, and the brain may read that fluency as memory.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cafe_sunset",
+    "cap": "The same recipe",
+    "sub": "Predictable equals familiar"
+   }
+  },
+  {
+   "say": "A related effect was documented by the social psychologist Robert Zajonc in 1968. He showed that simply seeing something more often makes people like it more, whether it's a nonsense word, a symbol or a face. He called it the mere exposure effect. We prefer what we have seen before, even if we don't remember seeing it.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "who": "Robert Zajonc",
+    "where": "Journal of Personality and Social Psychology, 1968",
+    "what": "Attitudinal effects of mere exposure"
+   }
+  },
+  {
+   "say": "In 1980, Zajonc and his colleague William Kunst-Wilson took the finding further. They flashed irregular shapes so briefly, for about a thousandth of a second, that people couldn't tell afterwards which shapes they had seen. Yet when asked which shapes they liked more, people favoured the ones they had been shown. The shapes had left a trace, and the trace changed their feelings, without any memory of seeing them.",
+   "show": {
+    "type": "study",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "who": "Kunst-Wilson and Zajonc",
+    "where": "Science, 1980",
+    "what": "Affective discrimination of stimuli that cannot be recognized"
+   }
+  },
+  {
+   "say": "The lesson is that the brain can register something below the threshold of awareness, and the trace can later make a thing feel known or pleasant. It's easy to see how this might apply to the real world. You pass thousands of scenes, signs and faces every day, most of them hardly noticed. Any one of them could leave a trace that tinges a later moment with a feeling of the familiar.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "A hidden trace",
+    "sub": "Familiarity without awareness"
+   }
+  },
+  {
+   "say": "Alan Brown and Elizabeth Marsh tested this directly in 2009. They showed people photographs of unfamiliar places for a very brief moment, too short to be remembered consciously. Later, the people were shown photographs of places and asked whether they had ever visited them. Those who had seen a place in the quick flash were more likely to say they had been there, though no one had.",
+   "show": {
+    "type": "study",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "who": "Alan Brown and Elizabeth Marsh",
+    "where": "Psychological Science, 2009",
+    "what": "Creating illusions of past encounter through brief exposure"
+   }
+  },
+  {
+   "say": "In plain terms, a place that had been glimpsed for an instant seemed like a place the person had actually visited. That's very close to the experience of déjà vu in a new city. If you've glimpsed a pattern of streets in a film, a photograph or an app, a trace may be waiting, and a real view of something similar could set off the sense that you've been here.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "An illusion of past encounter",
+    "sub": "A place you've never been"
+   }
+  },
+  {
+   "say": "Where might such traces come from? A film you half watched. A photograph in a news story. A street in a computer game. A magazine page. Or even a dream, which may also leave a trace we cannot find. None of these would be remembered as a source, but any of them might leave the mind ready to sound a false alarm.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "Where traces could come from",
+    "items": [
+     "A film you half watched",
+     "A photo in a news story",
+     "A game's virtual street",
+     "A magazine page",
+     "A dream"
+    ]
+   }
+  },
+  {
+   "say": "Let's be careful about what this shows. These experiments demonstrate that false familiarity can be created by brief or hidden exposure. They don't prove that this is what happens in every real episode of déjà vu. It would be extremely hard to trace a single real episode back to a forgotten glimpse. What the experiments do is show that the mechanism is available, and plausible.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A caution",
+    "sub": "This is still a laboratory idea"
+   }
+  },
+  {
+   "say": "So where do we stand? We've seen that the mind uses ease of processing as a clue to familiarity. Jacoby and Whitehouse made words feel old with an unnoticed flash, Whittlesea did it with fitting context, Zajonc showed that hidden exposure changes preferences, and Brown and Marsh made unvisited places feel visited.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "What we set out to learn"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll look at a different trigger for the feeling: not a single object, but the arrangement of a whole scene, and an ingenious set of experiments that used virtual reality to test the idea.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "street_day",
+    "cap": "Up next",
+    "sub": "The hidden layout of places"
+   }
+  }
+ ]
+}

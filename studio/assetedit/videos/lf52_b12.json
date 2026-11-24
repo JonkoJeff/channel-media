@@ -1,0 +1,195 @@
+{
+ "id": "lf52_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Here's a thought that turns the whole subject on its head. Suppose déjà vu isn't a failure of memory at all. Suppose it's a sign that a certain part of your brain, the part that checks your memories against reality, is working, and has just caught something odd. The feeling would then be a kind of alarm raised by a vigilant system. A recent study took exactly this idea seriously.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "n": 12,
+    "title": "The brain as a fact-checker"
+   }
+  },
+  {
+   "say": "The challenge for any brain imaging study of déjà vu is that the experience can't be summoned on demand. It lasts seconds, comes without warning, and fades when you try to hold on to it. You can't tell a volunteer to lie in a scanner and have a déjà vu in ten minutes. So researchers had to find a way to make it more likely, in a controlled setting.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "The usual problem",
+    "sub": "Déjà vu can't be scheduled"
+   }
+  },
+  {
+   "say": "The trick used by Akira O'Connor and his team at the University of St Andrews builds on a classic memory illusion, first described by James Deese in 1959 and made famous by Henry Roediger and Kathleen McDermott in 1995. People hear a list of words that are all related to a missing word, for example bed, rest, tired, dream and snooze, but the word sleep itself is left out. Later, many people feel sure that they heard the word sleep, even though they didn't.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "A clever trick",
+    "sub": "Lists of related words"
+   }
+  },
+  {
+   "say": "The researchers then added a step. They first asked people whether any of the words they'd heard began with the letter s. Most correctly said no. Then they asked whether they had heard the word sleep, and many felt that they had. That left participants holding two thoughts at once: I feel as though I heard that word, and I know I heard nothing that began with s. That clash produced a brief experience much like déjà vu.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "The setup",
+    "sub": "A conflict between two memories"
+   }
+  },
+  {
+   "say": "In 2018, Josephine Urquhart and colleagues, including Akira O'Connor, put volunteers in a brain scanner and used this type of task. They compared moments when people reported a déjà vu-like feeling with moments when they didn't. And they looked at which parts of the brain were more active, expecting to see the memory regions of the temporal lobe light up.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "who": "Urquhart and colleagues",
+    "where": "Memory, 2018",
+    "what": "fMRI evidence supporting the role of memory conflict in the déjà vu experience"
+   }
+  },
+  {
+   "say": "The result was a surprise. The hippocampus, which is often associated with memory, didn't show the increase that many had predicted. Instead, regions at the front of the brain, in the frontal lobes, were more active, areas involved in decision making and in resolving conflicts between pieces of information. The authors suggested that déjà vu may reflect the brain checking its memory, and finding a conflict.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "The surprise",
+    "sub": "The frontal lobes, not the hippocampus"
+   }
+  },
+  {
+   "say": "On this reading, the feeling of déjà vu is what the checking process feels like from the inside. A signal of familiarity arrives. The frontal regions test it against what you know about your life and find that it doesn't match. The sense of strangeness, the oddness of the mismatch, is the conflict itself. It isn't a faulty memory. It's a working monitor reporting a discrepancy.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "A reading",
+    "sub": "The checker checks"
+   }
+  },
+  {
+   "say": "We should treat this with care. It's a single study, with a small number of participants, using a particular laboratory set-up that mimics, but isn't the same as, real-life déjà vu. The authors themselves present their interpretation as a hypothesis. Other research groups will need to repeat and extend the results before it can be considered settled, and some may find different patterns.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "A caution",
+    "sub": "One study, one set-up"
+   }
+  },
+  {
+   "say": "A brass scale with two small weights. The picture of the brain as a fact-checker is much like a scale. On one side, a feeling that says this is known. On the other, a body of knowledge that says it can't be. When the two disagree, the scale tips, and we notice the oscillation as an uneasy sense of strangeness, which lasts until one side gives way.",
+   "show": {
+    "type": "photo",
+    "file": "lf52_b12_01.jpg",
+    "cap": "A brass scale with two small weights"
+   }
+  },
+  {
+   "say": "The idea that the brain monitors for conflict has a long and well-supported history. In 2001, Matthew Botvinick, Todd Braver, Deanna Barch, Cameron Carter and Jonathan Cohen published a major paper on conflict monitoring. They proposed that a region called the anterior cingulate cortex detects when two competing responses are active at once, and signals that more control is needed.",
+   "show": {
+    "type": "study",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "who": "Matthew Botvinick and colleagues",
+    "where": "Psychological Review, 2001",
+    "what": "Conflict monitoring and cognitive control"
+   }
+  },
+  {
+   "say": "Applied to déjà vu, the picture is simple. Two responses are active at once. One says familiar, and one says I have no memory of this. The monitoring system flags the conflict, and attention is drawn to it. That is why déjà vu seems so vivid. It isn't merely a feeling. It's a feeling that has been caught, and held in the spotlight for a few seconds.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "How it fits",
+    "sub": "Familiar and unknown, at once"
+   }
+  },
+  {
+   "say": "The wider idea is called metacognition, a word the developmental psychologist John Flavell made famous in 1979. It means thinking about thinking: knowing what you know, judging how well you remember, noticing when something feels off. Déjà vu is, in this sense, a metacognitive event. It's about our judgments of our own memory, and not only about memory itself.",
+   "show": {
+    "type": "study",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "who": "John Flavell",
+    "where": "American Psychologist, 1979",
+    "what": "Metacognition and cognitive monitoring"
+   }
+  },
+  {
+   "say": "There's another account that doesn't contradict this one. Neuroscientists who study the hippocampus describe two complementary jobs. Pattern separation keeps similar memories apart. Pattern completion fills in the whole from a partial cue. In 2011, Michael Yassa and Craig Stark reviewed this work. If pattern completion fires too eagerly, a new but similar scene might be treated as the old one, and the checker would then notice a clash.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "A related theory",
+    "sub": "Overactive pattern completion"
+   }
+  },
+  {
+   "say": "Let's see how these pieces might fit together. A new scene resembles something in memory, in layout or in fine detail. The match fires a feeling of familiarity. The details can't be retrieved, because there's nothing real to retrieve. The checking system notices the conflict. And the result is the experience we call déjà vu. Several of the earlier chapters feed into this single chain.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "How the pieces might fit together",
+    "items": [
+     "A new scene resembles something in memory",
+     "The match fires a feeling of familiarity",
+     "The details can't be retrieved",
+     "The checking system notices the conflict",
+     "Déjà vu"
+    ]
+   }
+  },
+  {
+   "say": "This leads to an intriguing suggestion. If déjà vu depends on a working checker, then people who have it may have healthy, active monitoring systems. A few studies have found a link between more frequent déjà vu and good memory in some tasks, although results are mixed, and it's too early to say that it's a sign of anything. It's a possibility that researchers are exploring with interest, not a conclusion.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "An intriguing idea",
+    "sub": "Does it signal a good memory?"
+   }
+  },
+  {
+   "say": "For anyone who has felt a little unnerved by the experience, there's something comforting in this. It may be, at least in part, a sign that your mind is attentive, careful about what it believes, and able to hold two conflicting thoughts without being fooled by either. Of course, that's a hopeful reading, and not a proven one. But it is a gentler picture than the old stories of glitches and omens.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "A comforting thought",
+    "sub": "A sign of attention"
+   }
+  },
+  {
+   "say": "So where do we stand? We've seen that Urquhart and colleagues, in 2018, found that déjà vu-like moments in a scanner involved frontal decision-making regions more than the hippocampus. We've seen the conflict monitoring idea from Botvinick, the metacognition idea from Flavell, and a pattern completion account from Yassa and Stark.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Looking back",
+    "sub": "What we set out to learn"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll ask why a mismatch like this feels so uncanny, and we'll look at the nature of memory itself, which turns out to be much more of a reconstruction than a recording.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Up next",
+    "sub": "Why the mismatch feels so eerie"
+   }
+  }
+ ]
+}

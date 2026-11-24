@@ -1,0 +1,205 @@
+{
+ "id": "lf52_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You may have heard that déjà vu is linked to epilepsy. It's true that the two have a connection, and it's one of the most studied links in the whole subject. But it's also one of the most misunderstood, because it can leave people with the worry that a perfectly ordinary experience is a warning sign. Let's lay out what's known, calmly, and in the right proportions.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "n": 9,
+    "title": "Déjà vu and epilepsy"
+   }
+  },
+  {
+   "say": "Epilepsy is a condition in which the brain has a tendency to produce seizures, sudden bursts of abnormal electrical activity. Seizures take many forms. Some involve convulsions and loss of consciousness. Others are much subtler, and may involve only a change in feeling, a strange sensation, or a brief gap in awareness. Roughly one person in a hundred has epilepsy at some point in life.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A short definition",
+    "sub": "What epilepsy is"
+   }
+  },
+  {
+   "say": "The link was first clearly described in the nineteenth century. In 1888, the British neurologist John Hughlings Jackson published a paper on a variety of epilepsy in which patients experienced what he called a dreamy state, often with a feeling of reminiscence or of the strangely familiar. He reasoned that the cause lay in the temporal lobe, long before there were any instruments to prove it.",
+   "show": {
+    "type": "study",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "who": "John Hughlings Jackson",
+    "where": "Brain, 1888",
+    "what": "On a particular variety of epilepsy, the intellectual aura"
+   }
+  },
+  {
+   "say": "In some forms of epilepsy, a person experiences a short sensation just before a seizure spreads, and it's called an aura. Auras can be a strange smell, a rising feeling in the stomach, a sudden fear, or a feeling that the scene is both familiar and unreal. In some people, déjà vu is the aura. It's a small seizure on its own, and sometimes a warning of a larger one.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Auras",
+    "sub": "A warning before a storm"
+   }
+  },
+  {
+   "say": "The Canadian neurologist Pierre Gloor wrote an influential paper in 1990 on what he called experiential phenomena, the feelings and perceptions that temporal lobe seizures can produce. They included familiarity, unfamiliarity, fear and sudden memories. Gloor proposed that the temporal lobe, with the amygdala and hippocampus, is involved in assigning a sense of significance and familiarity to what we experience.",
+   "show": {
+    "type": "study",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "who": "Pierre Gloor",
+    "where": "Brain, 1990",
+    "what": "Experiential phenomena of temporal lobe epilepsy"
+   }
+  },
+  {
+   "say": "Here's the key point, and it deserves to be said slowly. Around two thirds of all adults say they have had déjà vu. About one in a hundred has epilepsy. So the overwhelming majority of people with déjà vu do not have epilepsy. The experience in ordinary life is far more common than the condition, and the connection runs one way: epileptic déjà vu exists, but déjà vu does not mean epilepsy.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "The key point",
+    "sub": "Many more people have déjà vu than epilepsy"
+   }
+  },
+  {
+   "say": "Researchers have asked whether there's any way to tell the two kinds apart. In 2014, Charlotte Warren-Gash and Adam Zeman compared descriptions given by people with epilepsy and by healthy people. They found that the experience itself, the feeling and its character, was often described in similar ways. What differed more was how often it happened and what else came with it.",
+   "show": {
+    "type": "study",
+    "sprite": "N19",
+    "bg": "cabin_fireplace",
+    "who": "Warren-Gash and Zeman",
+    "where": "Journal of Neurology, Neurosurgery and Psychiatry, 2014",
+    "what": "Is there anything distinctive about epileptic déjà vu?"
+   }
+  },
+  {
+   "say": "In epileptic déjà vu, the episodes tend to repeat in a similar way, often several times, and they may come together with other signs. These can include an odd taste or smell, a sudden rising feeling in the stomach, a feeling of fear, staring, a blank spell, lip smacking or fumbling movements, or a gap in memory afterwards. In ordinary déjà vu, the feeling stands alone, and then it simply passes.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "The difference",
+    "sub": "Frequency and company"
+   }
+  },
+  {
+   "say": "A glass of water on a quiet table. If you ever find yourself worried about something like this, the most useful thing is also the most ordinary one: write down what happened. When it occurred, how long it lasted, what you were doing, whether anything else came with it. A short note is a gift to a doctor, and it's usually enough to settle the question.",
+   "show": {
+    "type": "photo",
+    "file": "lf52_b09_01.jpg",
+    "cap": "A glass of water on a bedside table"
+   }
+  },
+  {
+   "say": "This is not medical advice, and I can't diagnose anyone. But here is the usual guidance. It's worth mentioning to a doctor if episodes are frequent and repeating, if other symptoms come with them, such as an unusual smell or taste, a rising feeling in the stomach, or fear. Also if there is a gap in awareness or memory afterwards, or if anything about it simply worries you.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "Worth mentioning to a doctor",
+    "items": [
+     "Episodes that are frequent and repeating",
+     "Other symptoms that come with it",
+     "A gap in awareness or memory afterwards",
+     "A feeling of fear that comes with it",
+     "Any episode that worries you"
+    ]
+   }
+  },
+  {
+   "say": "Both halves of that message matter. Almost everyone with an occasional brief déjà vu is perfectly healthy, and there's no reason to be alarmed. And for the few for whom it's part of something else, early attention helps, because epilepsy is a treatable condition for most people. Knowing the difference isn't a reason to worry. It's a reason to be informed.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "A perspective",
+    "sub": "Reassurance and care"
+   }
+  },
+  {
+   "say": "Writers have sometimes drawn on their own experiences with these auras. The Russian novelist Fyodor Dostoevsky is widely believed to have had temporal lobe epilepsy, and in his novel The Idiot, published in 1869, he describes a character who experiences a moment of intense clarity and harmony just before a seizure. Scholars still debate how closely it mirrors his own life, and it's wise to treat that link with care.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "A famous example",
+    "sub": "Dostoevsky"
+   }
+  },
+  {
+   "say": "What does the epilepsy link teach us about everyday déjà vu? It acts as a window. Because the seizure activity begins in the very region we've been talking about, the inner temporal lobe, the experiences of patients show what happens when that region is overactive. It tells us that the feeling is a product of brain activity there, and not a message from somewhere else.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "What the link teaches us",
+    "sub": "A window, not a diagnosis"
+   }
+  },
+  {
+   "say": "It may help to think of a spectrum. At one end, there's an ordinary, tiny misfire of the familiarity system, which lasts a few seconds and causes no harm. At the other end, there's a seizure that spreads, with consequences for awareness. Between them are many shades. Most of us live at the gentle end of the spectrum, with the occasional hiccup, and nothing more.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "cabin_fireplace",
+    "cap": "A spectrum",
+    "sub": "From a hiccup to a seizure"
+   }
+  },
+  {
+   "say": "A fair comparison might be a spark and a fire. A single spark from a log is harmless. It flares for an instant and vanishes. Epilepsy is more like a fire that takes hold. The spark in the first case and the fire in the second may begin in the same part of the grass, but we wouldn't say that every spark means the whole field will burn.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A comparison",
+    "sub": "Like a spark and a fire"
+   }
+  },
+  {
+   "say": "So which is Elena's? Everything in her story points to the ordinary kind. A single moment, in a new place, brief, with a clear sense that the feeling was wrong, and no other symptoms. It's what researchers would call a typical, healthy déjà vu. If it began to happen several times a week, or came with something else, the advice would be to see a doctor, as for any new, repeating symptom.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "cafe_sunset",
+    "cap": "Elena again",
+    "sub": "Which kind is hers?"
+   }
+  },
+  {
+   "say": "It's a good moment to say something about worry. Reading about brain conditions can make any odd sensation feel significant. That's normal, and it's worth gently resisting. Most unusual feelings are just that, unusual feelings, and the odds are strongly in favour of a harmless explanation. You can hold both thoughts at once: stay informed, and stay calm.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "A word on worry",
+    "sub": "Keeping things in proportion"
+   }
+  },
+  {
+   "say": "So where do we stand? We've seen that Hughlings Jackson linked the dreamy state to the temporal lobe in 1888, that Gloor described experiential phenomena in 1990, and that epileptic déjà vu does exist. But we've also seen that most people who have déjà vu are healthy, and that frequency and accompanying symptoms are what matter.",
+   "show": {
+    "type": "char",
+    "sprite": "N02",
+    "bg": "living_room_day",
+    "cap": "Looking back",
+    "sub": "What we set out to learn"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll look at some stranger cases: a man who felt that everything in his life had already happened, a medicine that seemed to cause déjà vu, and the opposite feeling, when the familiar suddenly feels strange.",
+   "show": {
+    "type": "char",
+    "sprite": "N19",
+    "bg": "living_room_day",
+    "cap": "Up next",
+    "sub": "Odd cases and the opposite feeling"
+   }
+  }
+ ]
+}

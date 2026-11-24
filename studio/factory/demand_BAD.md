@@ -74,3 +74,5 @@ Done 22 Nov (morning run): BTT rel19 The Persecution of the First Christians: Ne
 
 Done 23 Nov (morning run): lf51 Why Boredom Feels So Painful (F10 with imagined Mira in a waiting room, 17 blocks, ~18.6k spoken words, Shorts sh51_01-16, 17 #ai photos; Claude failover writer). Next: lf52 Why You Get Deja Vu (teased at the end of lf51). BAD stock: 24 Nov (lf49), 25 Nov (lf50), lf51 render requested (26 Nov).
 Done 23 Nov (morning run): BTT rel20 Constantine and the Conversion of the Roman Empire written (152 scenes, 22 chapters, ~8.7k spoken words, ~67 min, 4 Shorts 51-57 s at 13:50, 24:07, 43:13, 55:37; Claude failover writer). Next BTT: rel26 (rel21-25 already written). BTT stock: rel17 (23 Nov), rel18 (24 Nov), rel19 (25 Nov) scheduled + rel20 render requested (26 Nov).
+
+Done 24 Nov (morning run): BTT rel26 Mountains, Seas and the Shaping of the Earth written (191 scenes, 22 chapters, ~8.0k spoken words, ~61 min, 4 Shorts 36-45 s at 03:18, 22:18, 30:33, 46:25; Claude failover writer). Next BTT: rel27 The Angels Learn About Humanity (teased at the end of rel26). BTT stock: rel18 (24 Nov), rel19 (25 Nov), rel20 (26 Nov) scheduled + rel26 render requested.

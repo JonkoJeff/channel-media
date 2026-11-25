@@ -1,0 +1,184 @@
+{
+ "id": "lf53_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Ruth turns on the radio for the evening news while she starts to chop an onion. The chorus had almost gone. Then the newsreader mentions a word that happens to appear in the song's title, and instantly, the chorus is back, as loud and bright as it was in the supermarket. She laughs out loud. Biscuit looks up, puzzled. What just happened is one of the best-studied parts of the whole earworm story.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "n": 4,
+    "title": "What lets a song in"
+   }
+  },
+  {
+   "say": "In 2011, Victoria Williamson and her colleagues at Goldsmiths, University of London, published a study in Psychology of Music with a very direct title: How do earworms start? They asked people to describe, in their own words, the circumstances in which their most recent earworms had begun. Just over six hundred people gave complete answers, many of them recruited through the BBC radio station 6 Music.",
+   "show": {
+    "type": "study",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "who": "Victoria Williamson and colleagues",
+    "where": "Psychology of Music, 2011",
+    "what": "How do earworms start?"
+   }
+  },
+  {
+   "say": "The researchers then did something painstaking. They read through all of these descriptions and sorted them into groups, according to what seemed to have set each earworm off. Instead of starting with a theory and testing it, they let the everyday stories tell them what kinds of moments matter. And a clear set of categories emerged from the answers.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "Reading the answers",
+    "sub": "Sorting six hundred stories"
+   }
+  },
+  {
+   "say": "Here are the main kinds of trigger they found. Recent exposure, meaning the person had just heard the song. Association, when a word, a person, a rhythm or a sound linked to the song came up. Memory, such as being in a place where the song was once heard. Anticipation, such as thinking about an upcoming concert. Mood and stress. And low attention states, like boredom or drifting off.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "Earworm triggers",
+    "items": [
+     "Recent exposure to the song",
+     "Association with a word, person or sound",
+     "Memory of a place or time",
+     "Anticipation of an event",
+     "Mood and stress",
+     "Low attention, such as boredom"
+    ]
+   }
+  },
+  {
+   "say": "The trigger mentioned most often was the simplest: recent exposure. People had heard the song somewhere, in a shop, at the gym, on the radio, in a TV advert, on the internet, as a ringtone, or even from someone else humming it, and soon afterwards it began to play in their heads. Ruth's supermarket chorus is a textbook example of this most common kind of start.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "Recent exposure",
+    "sub": "The commonest trigger"
+   }
+  },
+  {
+   "say": "An old radio on a kitchen shelf. The radio, the shop speaker and the phone are some of the most reliable earworm sources of modern life, simply because they expose us to so many songs, so many times, without our choosing them. The music washes past, and a few fragments stick. Most fade quickly. One or two, for reasons we'll explore, keep playing.",
+   "show": {
+    "type": "photo",
+    "file": "lf53_b04_01.jpg",
+    "cap": "An old radio on a kitchen shelf"
+   }
+  },
+  {
+   "say": "Ruth's second wave, set off by a single word on the news, belongs to the association category. A word, a name, a phrase or a sound that's linked to a song in memory can be enough to start the tune again. People in the study described earworms triggered by hearing a word from the lyrics, by seeing a person they connected with a song, and even by a rhythm, such as footsteps or a machine.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "Association",
+    "sub": "One word is enough"
+   }
+  },
+  {
+   "say": "The memory category is a little different. Here the trigger is a place, or a situation, that's tied to a song from the past. One kind of example in the study was driving along a road where a particular song had first been heard, and finding it playing in the mind again. Our memories of music are bound up with where and when we heard it, and returning to the place can bring the music back.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "cap": "Memory and place",
+    "sub": "Back on the old road"
+   }
+  },
+  {
+   "say": "Then there's anticipation. Some people found that an earworm started when they were looking forward to something connected with the music, such as an upcoming concert by the artist. The mind seems to rehearse what it's expecting. Ruth, who has choir practice on Thursday, might well find one of this week's choir pieces playing in her head on Wednesday evening.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "Anticipation",
+    "sub": "Looking forward"
+   }
+  },
+  {
+   "say": "The mood category is about how we feel. Some of the descriptions linked the start of an earworm to a particular mood, and others to stress. It makes sense that feelings and music would be tangled together in memory, since so much music is written to carry a feeling. A tune can seem to arrive as a kind of soundtrack to the mood we're already in.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "title": "Mood and stress",
+    "items": [
+     "How we feel"
+    ]
+   }
+  },
+  {
+   "say": "And finally, low attention states: boredom, daydreaming, routine tasks, and the drowsy moments before sleep. These are times when the mind isn't fully occupied, and there's room for something to drift in. We'll spend a whole chapter on this later, because it turns out to be one of the most important parts of the story, especially for earworms at bedtime.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Low attention",
+    "sub": "When the mind is idle"
+   }
+  },
+  {
+   "say": "It's worth remembering what kind of study this was. Just over six hundred people described their own experiences, after the fact, and the researchers sorted those descriptions. It's an excellent way to map out the territory, but it relies on people noticing and remembering what set off an earworm. Later studies used diaries and experiments to look at the same questions more directly, and we'll meet several of them tonight.",
+   "show": {
+    "type": "bars",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "title": "People who took part",
+    "unit": "people",
+    "bars": [
+     [
+      "Gave complete answers",
+      600.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In real life, triggers often stack up. Ruth heard the song in the shop, which is recent exposure. Then a word on the news linked back to it, which is association. And she's chopping an onion, a routine task that doesn't need much attention. Each of these on its own might not keep a chorus going. Together, they make an earworm very likely.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "More than one at once",
+    "sub": "Triggers stack up"
+   }
+  },
+  {
+   "say": "The most useful thing about this research is that it takes some of the mystery out of earworms. They can feel as if they come from nowhere, but very often there's a reason: a song you just heard, a word that links to it, a place, a feeling or a moment of idleness. Once you start to notice the trigger, the experience often feels less strange, and sometimes a little funny.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "The lesson",
+    "sub": "Earworms have causes"
+   }
+  },
+  {
+   "say": "Ruth realises exactly what happened. The news, the word, the chorus. She smiles, and for a moment the earworm seems less like an intruder and more like a small, predictable machine. She turns down the radio and keeps chopping. The chorus keeps playing, a little more quietly now, as if it knows it has been found out.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "living_room_day",
+    "cap": "Ruth notices",
+    "sub": "The word in the news"
+   }
+  },
+  {
+   "say": "So, we've seen that Williamson and her colleagues, in their 2011 study of just over six hundred people, found six main kinds of earworm trigger: recent exposure, association, memory, anticipation, mood and stress, and low attention. Recent exposure was the most common. In the next chapter, we'll ask which songs are most likely to stick, and whether scientists can predict a catchy tune from its melody.",
+   "show": {
+    "type": "list",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "title": "Looking back",
+    "items": [
+     "Six kinds of start"
+    ]
+   }
+  }
+ ]
+}

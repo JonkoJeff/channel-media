@@ -1,0 +1,191 @@
+{
+ "id": "lf53_b13",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The chorus has come back again, softly, and Ruth finds herself considering her options. She could sing it out loud and get it over with. She could put on a different song. She could try very hard not to think about it. Or she could just carry on with her evening and ignore it. Everyone has their own habits for dealing with an earworm, and one large study set out to collect them.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "n": 13,
+    "title": "What people do about it"
+   }
+  },
+  {
+   "say": "In January 2014, Victoria Williamson, Lassi Liikkanen, Kelly Jakubowski and Lauren Stewart published a study in the journal PLoS ONE called Sticky Tunes: how do people react to involuntary musical imagery? They brought together answers from two online surveys, one in Finland and one in English, and analysed one thousand and forty-six descriptions of how people respond to their earworms.",
+   "show": {
+    "type": "study",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "who": "Victoria Williamson, Lassi Liikkanen, Kelly Jakubowski and Lauren Stewart",
+    "where": "PLoS ONE, 2014",
+    "what": "Sticky Tunes: how do people react to involuntary musical imagery?"
+   }
+  },
+  {
+   "say": "Rather than giving people a fixed list of options, the researchers read their descriptions and built up categories from what people actually said. This kind of approach, sometimes called grounded theory, lets the patterns emerge from the data. It also meant the study captured the variety and inventiveness of people's strategies, some of which are quite surprising.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "The method",
+    "sub": "Listening to people's own words"
+   }
+  },
+  {
+   "say": "The Finnish survey asked people what they had ever done because of an earworm. About three quarters had hummed, sung or talked aloud because of the tune. Around sixty percent had tried to identify the song. Over half had listened to that particular song. And about half had listened to other music to try to prevent it. People clearly use a mix of approaches.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "title": "Finnish survey: done because of an earworm",
+    "items": [
+     "Hummed, sang or talked aloud: 74.6%",
+     "Tried to identify the song: 60.2%",
+     "Listened to the song itself: 57.3%",
+     "Listened to other music: 50.5%"
+    ]
+   }
+  },
+  {
+   "say": "Broadly, people's reactions fell into two camps. Some engaged with the earworm, humming it, singing it, looking it up or listening to it. Others tried to push it away, distracting themselves with other music, other thoughts or other activities. Many people did both at different times, depending on the song, their mood and what they were trying to do.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Two broad approaches",
+    "sub": "Engage or avoid"
+   }
+  },
+  {
+   "say": "In the English-language survey, which had nearly six thousand respondents, one of the most common responses was simply to let the mind wander, mentioned in about twenty-two percent of reactions. In other words, many people deal with an earworm by not dealing with it at all: they let it play in the background and turn their attention elsewhere.",
+   "show": {
+    "type": "stat",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "title": "English survey: let the mind wander",
+    "big": "22%",
+    "label": "of reported reactions"
+   }
+  },
+  {
+   "say": "One of the most charming findings concerned what the researchers called cure tunes. A small number of Finnish participants, twelve people, or about five and a half percent of those who answered that question, said they used one particular song specifically to chase away earworms. It was as if they kept a musical antidote ready for whenever a chorus outstayed its welcome.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "cap": "The cure songs",
+    "sub": "A special tune"
+   }
+  },
+  {
+   "say": "Williamson mentioned these cure songs in a radio interview in 2012, before the full study was published. The songs people use to combat earworms, she said, tend to be slow. That makes some sense. A slow, calm tune might be less likely to loop in the bouncy, insistent way that a fast pop chorus does, and so it could replace the earworm without becoming a new one.",
+   "show": {
+    "type": "quote",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "text": "The songs used to combat earworms tend to be slow.",
+    "by": "Victoria Williamson, speaking to NPR, 2012"
+   }
+  },
+  {
+   "say": "A pair of headphones resting on a stack of books. Putting on something else to listen to is one of the most popular earworm strategies. It makes sense given what we saw in the brain scanner study: if the hearing system is busy with real sound, there's less room for imagined sound. But it comes with a risk, as Ruth discovered earlier with her folk tune: the replacement can become the next earworm.",
+   "show": {
+    "type": "photo",
+    "file": "lf53_b13_01.jpg",
+    "cap": "Headphones resting on a stack of books"
+   }
+  },
+  {
+   "say": "Beaman and Williams noticed something important in their natural history study. Most of the strategies people used, such as thinking of another song, actually made the earworm worse. The same applies to trying very hard not to think about something: the effort of watching for the unwanted thought can keep it close at hand. Fighting an earworm head on is often a losing battle.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "When fighting makes it worse",
+    "sub": "Beaman and Williams"
+   }
+  },
+  {
+   "say": "In the English-language survey, about eleven percent of reactions involved trying to suppress the tune directly. It's a very human response. But as Beaman and Williams's findings hint, deliberately pushing a tune away may not be the most effective approach. Distraction with something absorbing, or simply letting it be, may work better for many people.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "Suppression",
+    "sub": "Trying not to hear it"
+   }
+  },
+  {
+   "say": "Let's gather the strategies we've heard about. Humming or singing it out loud. Listening to the whole song. Putting on different music. Letting the mind wander and ignoring it. And, for a few people, keeping a special slow cure song ready. None of these is guaranteed to work, and what helps seems to vary from person to person.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "Common earworm strategies",
+    "items": [
+     "Hum or sing it out loud",
+     "Listen to the whole song",
+     "Put on different music",
+     "Let the mind wander",
+     "Keep a slow cure song ready"
+    ]
+   }
+  },
+  {
+   "say": "The study also reminds us that, for many people, earworms aren't something that needs fixing. Many of the reactions people described weren't about getting rid of the tune at all. People hummed along, sang it, or looked it up, engaging with the music rather than fighting it. The strategies are useful for the occasional stubborn case, but most earworms are simply allowed to run their course.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "Not a problem for most",
+    "sub": "Many are content to let it play"
+   }
+  },
+  {
+   "say": "Ruth decides to let it be. She makes herself a cup of chamomile tea, picks up the novel she's been reading, and lets the chorus play quietly in the background. After a few pages, she realises she has been absorbed in the story for a while, and the chorus has gone, or at least gone quiet. She didn't chase it away. It simply drifted off while her attention was elsewhere.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Ruth's choice",
+    "sub": "Letting it be"
+   }
+  },
+  {
+   "say": "That fits neatly with what we saw in the chapter on mind wandering. A good book, read with real attention, is just the kind of absorbing, well-matched task that leaves little room for an earworm. Ruth didn't need a special trick. She just needed something that held her attention in a gentle, steady way.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Absorbed, again",
+    "sub": "The right kind of task"
+   }
+  },
+  {
+   "say": "So, in this chapter, we've seen that the Sticky Tunes study, analysing one thousand and forty-six descriptions, found people humming along, identifying the song, listening to it, distracting themselves with other music and simply letting their minds wander. A few people kept special cure songs, which tend to be slow. And Beaman and Williams found that fighting an earworm often made it worse.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "title": "Looking back",
+    "items": [
+     "What people do about it"
+    ]
+   }
+  },
+  {
+   "say": "In the next chapter, we'll look at an unusual experiment from the University of Reading, which tested whether something as simple as chewing gum could keep an earworm out of the mind.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "Up next",
+    "sub": "A surprising cure"
+   }
+  }
+ ]
+}

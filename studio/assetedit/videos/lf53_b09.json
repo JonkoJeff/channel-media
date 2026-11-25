@@ -1,0 +1,195 @@
+{
+ "id": "lf53_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "After dinner, Ruth stands at the sink, washing up. Warm water, a sponge, plate after plate. It's the kind of task her hands can do on their own, and her mind drifts away from it, to tomorrow's work, to a book she wants to finish, to nothing in particular. And in that drifting, the chorus swells up again, as if it had been waiting for exactly this moment to come back.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "n": 9,
+    "title": "The wandering mind"
+   }
+  },
+  {
+   "say": "In 2015, Georgia Floridou and Daniel Müllensiefen, at Goldsmiths, University of London, published a study in the journal Consciousness and Cognition about the conditions that make earworms more likely. Rather than asking people to remember their earworms afterwards, they used a method called experience sampling, which tries to catch experiences as they happen.",
+   "show": {
+    "type": "study",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "who": "Georgia Floridou and Daniel Müllensiefen",
+    "where": "Consciousness and Cognition, 2015",
+    "what": "Conditions predicting involuntary musical imagery"
+   }
+  },
+  {
+   "say": "Forty volunteers took part for one week. Six times a day, at different moments, they were prompted to report what they were doing, what was on their mind, and whether they had a tune in their head at that moment. Over a week, this built up a detailed picture of everyday life, moment by moment, for each person, without relying on long memories.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "Experience sampling",
+    "sub": "Six times a day"
+   }
+  },
+  {
+   "say": "The researchers analysed the reports using a statistical method called Bayesian networks, which can map out how different factors relate to one another. The main finding was a chain. The activity a person was doing affected whether their mind wandered, and mind wandering, in turn, made an earworm more likely. In other words, earworms seemed to ride on the back of a wandering mind.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "The key finding",
+    "sub": "Activity, then wandering, then music"
+   }
+  },
+  {
+   "say": "Another finding was that earworms didn't depend on the time of day. Morning, afternoon or evening made little difference in itself. What mattered more was what people were doing, and whether that activity left room for the mind to drift. A tune is more likely to pop up during the washing up than during a demanding conversation, whatever the clock says.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "Not the time of day",
+    "sub": "When doesn't matter"
+   }
+  },
+  {
+   "say": "Soap bubbles by a kitchen window. Washing up is a classic mind-wandering activity: the hands are busy, but the task needs very little thought. Studies of everyday thought suggest that our minds drift away from what we're doing for a large part of the day. Floridou and Müllensiefen's work suggests that some of that drifting is filled with music.",
+   "show": {
+    "type": "photo",
+    "file": "lf53_b09_01.jpg",
+    "cap": "Soap bubbles by a kitchen sink window"
+   }
+  },
+  {
+   "say": "This connects with what Williamson's team found in their survey of earworm triggers. One of the main categories was low attention states: boredom, daydreaming and routine tasks. The experience sampling study supports the same idea using a different method. When attention isn't tightly focused, an earworm finds space to play.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Low attention",
+    "sub": "Room for a tune"
+   }
+  },
+  {
+   "say": "But the story isn't quite that simple. Ira Hyman's team at Western Washington University found that earworms could recur during both low and high mental effort, during walking but also during schoolwork. What seemed to matter was not just how hard a task was, but whether the mind was fully engaged with it. When people were truly absorbed, the songs came back less.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "A puzzle in the evidence",
+    "sub": "Hard tasks too"
+   }
+  },
+  {
+   "say": "Hyman's study, published online in December 2012 in Applied Cognitive Psychology, had the memorable title Going Gaga: investigating, creating, and manipulating the song stuck in my head. In one part of the work, volunteers listened to songs and then did puzzles, such as sudoku or anagrams, while the researchers tracked earworms both straight away and again twenty-four hours later.",
+   "show": {
+    "type": "study",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "who": "Ira Hyman and colleagues",
+    "where": "Applied Cognitive Psychology, 2012",
+    "what": "Going Gaga: investigating the song stuck in my head"
+   }
+  },
+  {
+   "say": "Here's where it gets interesting. When the puzzles were too challenging, the volunteers reported more earworms, not fewer. And the effect was larger for sudoku than for anagrams. A task that was overly difficult seemed to leave people stuck, frustrated or disengaged, and in that state, the music slipped in. It's a reminder that a mind straining and failing is not the same as a mind absorbed.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "The puzzles",
+    "sub": "Too hard is a problem"
+   }
+  },
+  {
+   "say": "Let's gather the pattern. Earworms tend to find room during routine tasks, like the washing up, and during daydreaming and boredom. They can also appear when a task is so hard that we stop engaging with it properly. And they tend to show up less often when we're fully absorbed in something that holds our attention at just the right level.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "When earworms find room",
+    "items": [
+     "Routine tasks like washing up",
+     "Daydreaming and boredom",
+     "Tasks so hard we disengage",
+     "Less often: when fully absorbed"
+    ]
+   }
+  },
+  {
+   "say": "One way to picture this is as a Goldilocks zone. If a task is too easy, the mind wanders, and a tune can drift in. If it's too hard, we give up inwardly, and the same thing happens. But a task that's just right, demanding enough to absorb us but not so hard that we lose heart, leaves less space for an earworm to take hold.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "The Goldilocks idea",
+    "sub": "Not too easy, not too hard"
+   }
+  },
+  {
+   "say": "Ruth's washing up is close to the ideal stage for an earworm. Her hands are busy, her mind is free, the kitchen is quiet and the song is fresh. Every condition we've talked about so far lines up: recent exposure, a familiar and catchy chorus, a moment of silence and a wandering mind. It would be almost surprising if the chorus didn't come back.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "Ruth at the sink",
+    "sub": "The perfect stage"
+   }
+  },
+  {
+   "say": "It's worth saying that a wandering mind isn't a failing. Mind wandering is a normal and often useful part of thinking. It's when we plan, remember, imagine and sometimes solve problems without trying. An earworm is just one of the things that can fill those moments. The tune isn't proof that Ruth is distracted or lazy. It's proof that her mind is idling, as minds do.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Earworms and wandering",
+    "sub": "Not a sign of weakness"
+   }
+  },
+  {
+   "say": "These findings point to a gentle practical idea, which we'll come back to later. If an earworm really bothers you, one thing that may help is to turn to something that absorbs you at the right level. Not something trivial, and not something impossibly hard, but something that pulls your full attention into it. Hyman's work suggests that's when songs are least likely to return.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "title": "A practical note",
+    "items": [
+     "Find the right task"
+    ]
+   }
+  },
+  {
+   "say": "Ruth dries the last plate, puts it away, and realises she has been singing the chorus under her breath for the whole of the washing up. She doesn't mind. It made the job go quicker. And that, as we'll see in a later chapter, is something many people say about their earworms: sometimes, they even help.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "cap": "Ruth dries the last plate",
+    "sub": "Back to the chorus"
+   }
+  },
+  {
+   "say": "So, in this chapter, we've seen that Floridou and Müllensiefen, following forty volunteers six times a day for a week, found that activities shape mind wandering, and mind wandering makes earworms more likely, regardless of the time of day. And Hyman's team found that overly challenging puzzles produced more earworms, while being fully absorbed made them less likely to return.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "Looking back",
+    "sub": "The wandering mind"
+   }
+  },
+  {
+   "say": "In the next chapter, Ruth thinks about her Thursday choir, and we'll ask whether musical people get more earworms, and what the research says about who has them most often.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Up next",
+    "sub": "Who gets them most?"
+   }
+  }
+ ]
+}

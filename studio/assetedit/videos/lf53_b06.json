@@ -1,0 +1,184 @@
+{
+ "id": "lf53_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "While dinner simmers, Ruth works something out. She has heard this chorus before this week. It was playing in the same supermarket on Saturday, and possibly on the radio in the library staff room on Monday. Today was at least the third time. That might seem like a small detail. But researchers have found that the number of times we hear a song can make a real difference to whether it sticks.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "n": 6,
+    "title": "Hearing it again"
+   }
+  },
+  {
+   "say": "In 2023, Callum Killingly and Philippe Lacherez published a study in the Quarterly Journal of Experimental Psychology called The song that never ends. Their question was simple: if you hear a catchy chorus more times, are you more likely to get it stuck in your head the next day? And can an earworm get in the way of other things your mind is trying to do?",
+   "show": {
+    "type": "study",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "who": "Callum Killingly and Philippe Lacherez",
+    "where": "Quarterly Journal of Experimental Psychology, 2023",
+    "what": "The song that never ends"
+   }
+  },
+  {
+   "say": "The team chose their songs carefully. They wanted songs that were catchy, but that the volunteers were unlikely to have heard before, so that the experiment could control exactly how many times each one was heard. After a small pilot test, they picked four songs by little-known artists, including Healing by Oh Honey and Running Away by Royal Foundry.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "The songs",
+    "sub": "Chosen to be unfamiliar"
+   }
+  },
+  {
+   "say": "Forty-four volunteers took part. On the first day, they listened to the choruses of the four songs, but not equally. One chorus was played once, another twice, another three times and the last four times. So each person had a small, carefully arranged dose of repetition, with every song heard a different number of times.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "Day one",
+    "sub": "One, two, three or four times"
+   }
+  },
+  {
+   "say": "Then the volunteers came back for a second session. This time the researchers asked about earworms, both during the session and in the time between the two visits. And they gave the volunteers a memory task, in which they had to remember lists in order, so that the researchers could see whether a song in the head made it harder to concentrate.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "Day two",
+    "sub": "Coming back"
+   }
+  },
+  {
+   "say": "The results were striking. In the second session, sixty-eight percent of the volunteers reported having an earworm from one of the songs. Remember, these were songs they hadn't known before the first session. A few repetitions of an unfamiliar chorus, in a laboratory, were enough to put a tune in the heads of about two thirds of the people.",
+   "show": {
+    "type": "stat",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "title": "Reported an earworm in session two",
+    "big": "68%",
+    "label": "of the volunteers"
+   }
+  },
+  {
+   "say": "And it didn't only happen in the lab. Fifty-two percent of the volunteers said they had an earworm from the experiment's songs in the time between the two sessions, out in their everyday lives. So, for about half the group, a short listening session on one day was enough to follow them home.",
+   "show": {
+    "type": "stat",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "title": "Had an earworm between the sessions",
+    "big": "52%",
+    "label": "of the volunteers"
+   }
+  },
+  {
+   "say": "The repetition changed how people felt about the songs too. Between the sessions, the songs became more familiar, and the volunteers' desire to sing along increased. Interestingly, their enjoyment of the songs, and how catchy they rated them, didn't change significantly. Repetition seemed to make the songs easier to sing in the mind, without necessarily making people like them more.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "More hearings, more familiar",
+    "sub": "Wanting to sing along"
+   }
+  },
+  {
+   "say": "The memory test gave a clear result too. Recall was lower than usual only after the song that had been heard four times. One, two or three hearings didn't make a measurable difference. The authors linked this to the earworm itself: the more a chorus had been repeated, the more it seemed to compete with the task the volunteers were trying to do.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "The memory task",
+    "sub": "Four times was the tipping point"
+   }
+  },
+  {
+   "say": "A record turning slowly on a turntable. Each time a song goes round, it leaves a slightly deeper trace in memory. After enough repetitions, the mind can replay a chorus easily, without the music playing at all. One idea is that we start to sing it silently to ourselves, using the same inner voice we use for reading or rehearsing a phone number.",
+   "show": {
+    "type": "photo",
+    "file": "lf53_b06_01.jpg",
+    "cap": "A record turning slowly on a turntable"
+   }
+  },
+  {
+   "say": "As always, there are limits. The study had forty-four volunteers and only four songs, and the authors themselves noted that a small set of songs limits how far the findings can be stretched. Not every song behaved the same way. But the overall pattern, more hearings and more earworms, fits well with what people describe in everyday life.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "cap": "A note of caution",
+    "sub": "Small, careful steps"
+   }
+  },
+  {
+   "say": "Ira Hyman's team found a related pattern. In their experiments, the songs that had been played later, more recently, were more likely to become earworms. And they found that once a song started playing in someone's head soon after listening, it was more likely to return later. An earworm that has already happened once seems to make another one easier.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Hyman's experiments",
+    "sub": "The most recent song"
+   }
+  },
+  {
+   "say": "Hyman's team also described how earworms come and go. If a song keeps playing in your head after you stop listening, it tends to fade, and then return, often within twenty-four hours. That's very much what Ruth is experiencing. The chorus faded on the bus, came back with the news, and now drifts in and out while she cooks.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "cap": "Fading and returning",
+    "sub": "Within a day"
+   }
+  },
+  {
+   "say": "Let's sum up what repetition seems to do. It makes a song more familiar. It increases the urge to sing along. It makes an earworm more likely, even for a song that was unknown a day earlier. And after enough repetitions, it can compete a little with other things we're trying to keep in mind.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "What repetition does",
+    "items": [
+     "Makes a song more familiar",
+     "Raises the urge to sing along",
+     "Makes earworms more likely",
+     "Can briefly compete with other thinking"
+    ]
+   }
+  },
+  {
+   "say": "Ruth's chorus fits this perfectly. Saturday in the shop, Monday in the staff room, Tuesday in the queue. Three hearings, at least, spread across a few days. By the third, the chorus had become familiar enough to replay without effort, and the supermarket was all it took to start it.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "Ruth's week",
+    "sub": "Saturday, Monday, Tuesday"
+   }
+  },
+  {
+   "say": "So, we've seen that Killingly and Lacherez, in 2023, gave forty-four volunteers unfamiliar choruses to hear one to four times, and found that sixty-eight percent had an earworm in the next session and fifty-two percent between sessions. And Hyman's team found that recent songs, and songs that had already played in the head, were the likeliest to return.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "Hearing it again"
+   }
+  },
+  {
+   "say": "Next, we'll look inside the brain. What is happening when Ruth hears a chorus that isn't playing? A study published in 2005 found that the brain's hearing areas may be busy even in silence.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Up next",
+    "sub": "Music in silence"
+   }
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "id": "lf53_b18",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now, let's slow everything down. You've listened to a lot of ideas tonight, studies and numbers and names, and you don't need to hold on to any of them. They'll still be there tomorrow, if you want them. For now, let's set them down gently, one by one, the way Ruth set down her shopping bag when she came home, and let the evening become quiet.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "n": 18,
+    "title": "A slow wind-down"
+   }
+  },
+  {
+   "say": "If you can, find a comfortable position. Lying down, or sitting back, whatever feels easiest. Let your shoulders drop a little. Let your hands rest wherever they want to rest. There's nothing you need to do for the next few minutes, and nowhere you need to be. You can simply listen, or not listen, and let my voice drift by in the background.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "Getting comfortable",
+    "sub": "Wherever you are"
+   }
+  },
+  {
+   "say": "Let's begin with a slow breath. Breathe in gently through your nose, not too deeply, just a comfortable amount. And then let the breath out, slowly, a little longer than the breath in. There's no right way to do this. Just let each breath be a little slower and a little softer than the last, at whatever pace feels natural to you.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "The first breath",
+    "sub": "Slow and easy"
+   }
+  },
+  {
+   "say": "A fire glowing low in a stone fireplace. Imagine its warmth reaching you, softly, from across the room. The flames are small now, flickering slowly, and the logs have turned to a deep orange glow. There's a faint crackle every now and then, and otherwise, quiet. Let the warmth settle into your hands and your face, and let your breathing slow to match the calm of the room.",
+   "show": {
+    "type": "photo",
+    "file": "lf53_b18_01.jpg",
+    "cap": "A fire glowing low in a stone fireplace"
+   }
+  },
+  {
+   "say": "Now, let your attention drift down to your feet. Notice how they feel, warm or cool, heavy or light. You don't need to change anything. Just notice. And then, if you like, imagine them becoming a little heavier, a little more relaxed, sinking into whatever they're resting on. Let any tension there simply melt away, like snow in the sun.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Noticing the body",
+    "sub": "Starting with the feet"
+   }
+  },
+  {
+   "say": "Let that heaviness spread slowly upwards, into your ankles, your calves, your knees. Let your legs feel heavy and warm and still. Then your hips, and the base of your back. There's nothing to hold up now. Whatever you're lying on or sitting on is holding you completely, so your muscles can rest. Let them rest.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "Moving upwards",
+    "sub": "Legs and hips"
+   }
+  },
+  {
+   "say": "Now your belly. Notice it rising and falling, gently, as you breathe. You don't have to make it happen. It happens by itself, slow and steady, like waves on a quiet shore. And your chest, rising a little with each breath in, and settling with each breath out. Let each breath out carry a little more of the day away with it.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "The middle",
+    "sub": "Belly and chest"
+   }
+  },
+  {
+   "say": "Now, moving gently through the upper body. Your shoulders, dropping a little further. Your arms, heavy and loose. Your hands, soft and open, with nothing to hold. Your neck, letting go of the weight of your head. And your face: the forehead smooth, the eyes resting, the jaw loose, the tongue soft in the mouth.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "Letting go",
+    "items": [
+     "Shoulders",
+     "Arms",
+     "Hands",
+     "Neck",
+     "Face"
+    ]
+   }
+  },
+  {
+   "say": "If thoughts come into your mind, that's perfectly all right. Thoughts are a little like earworms. They come and go on their own. You don't need to follow them, and you don't need to fight them. Just notice them, and let them drift past, like leaves floating along a slow stream, and come back to the gentle rhythm of your breath.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "The quiet mind",
+    "sub": "Thoughts drifting by"
+   }
+  },
+  {
+   "say": "And if a tune appears in your mind, as tunes sometimes do, you know exactly what to do now. Nothing at all. Let it play, softly, in the distance, like music from a house far down the road. Don't chase it, and don't push it away. It will fade in its own time, as most of them do, and the quiet will come back.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "If a tune appears",
+    "sub": "Let it play softly"
+   }
+  },
+  {
+   "say": "Now, if you'd like, picture a place where you feel completely safe and at ease. It could be a real place you've been to, or somewhere imagined. A quiet beach, a garden in summer, a cosy room with a fire, a hillside at dusk. Let the picture form slowly, in its own time. You don't need every detail. Just a feeling of calm and safety.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "A peaceful place",
+    "sub": "Somewhere you feel safe"
+   }
+  },
+  {
+   "say": "A quiet hillside at dusk, the sky fading from gold to soft blue. Imagine yourself sitting there, warm and comfortable, with the whole evening laid out in front of you. The air is still. Far away, a bird calls once and then is quiet. There's nothing to do here except rest, and watch the light slowly fade, and breathe.",
+   "show": {
+    "type": "photo",
+    "file": "lf53_b18_02.jpg",
+    "cap": "A quiet hillside at dusk"
+   }
+  },
+  {
+   "say": "Notice what you might hear in your peaceful place. Maybe the soft rush of a breeze through grass. Maybe distant water, or rain on a roof, or the low crackle of a fire. Let the sounds be gentle and far away. They're not asking anything of you. They're simply there, like a soft blanket of sound, helping the quiet feel deeper.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Sounds of the place",
+    "sub": "Gentle and far away"
+   }
+  },
+  {
+   "say": "With each breath out, imagine yourself sinking a little further into rest. Heavier, warmer, slower. Your body is supported. Your mind is quiet. The day is behind you, with everything that happened in it, and tomorrow is still far away. For now, there's only this: the breath, the warmth, and the soft dark.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "Heavier and warmer",
+    "sub": "Sinking down"
+   }
+  },
+  {
+   "say": "Let's count down slowly together, from five to one, and with each number, let yourself relax a little more. Five, the body heavy and warm. Four, the breath slow and easy. Three, the mind quiet and soft. Two, sinking a little deeper still. And one, resting completely, with nothing left to hold.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Counting down",
+    "sub": "Slowly, from five"
+   }
+  },
+  {
+   "say": "Stay here as long as you like. There's no hurry. If you drift off to sleep, that's wonderful. If you stay awake, resting quietly, that's wonderful too. Rest is good for your body and your mind, whether or not sleep comes right away. Let yourself simply be here, warm and safe, for as long as you need.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "title": "Staying here",
+    "items": [
+     "As long as you like"
+    ]
+   }
+  }
+ ]
+}

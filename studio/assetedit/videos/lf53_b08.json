@@ -1,0 +1,186 @@
+{
+ "id": "lf53_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Dinner is ready. Ruth sits at the table with a plate of pasta, and as she eats, she notices her foot is tapping under the table, in perfect time with the chorus in her head. It's a steady, bouncy beat. And it occurs to her that the song in her head is going at about the same speed as the real song in the supermarket. Is that just her impression, or do our minds really keep the original tempo?",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "n": 8,
+    "title": "Keeping time"
+   }
+  },
+  {
+   "say": "In 2015, Kelly Jakubowski, Nicolas Farrugia, Andrea Halpern, Sathish Sankarpandi and Lauren Stewart published a study in the journal Memory and Cognition called The speed of our mental soundtracks. They wanted to measure, in everyday life rather than in a laboratory, how fast people's earworms really play, and how close that speed is to the original recording.",
+   "show": {
+    "type": "study",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "who": "Kelly Jakubowski and colleagues",
+    "where": "Memory and Cognition, 2015",
+    "what": "The speed of our mental soundtracks"
+   }
+  },
+  {
+   "say": "Seventeen volunteers, aged between twenty and thirty-four, took part. For four days, each of them wore a small motion sensor on the wrist, a device called an accelerometer, which records movement. Whenever they noticed an earworm, they tapped along to its beat with the hand wearing the sensor, and then wrote down details in a diary, including the song, the part of it and what they were doing.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "The method",
+    "sub": "A sensor on the wrist"
+   }
+  },
+  {
+   "say": "Tapping is a neat way to measure something hidden. Nobody else can hear your earworm, and it's hard to describe its speed in words. But almost anyone can tap along to a beat they're hearing in their head. The sensor turned each tapping session into a precise measurement of tempo, in beats per minute, which could then be compared with the real song.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "cap": "Why tapping",
+    "sub": "A clever measure"
+   }
+  },
+  {
+   "say": "Over the four days, the seventeen volunteers reported two hundred and seventy-five earworm episodes in their diaries. That's an average of around four a day per person, though some people had many more than others. The episodes came from a hundred and eighty-two different songs. Only one song, Barbie Girl by Aqua, was reported by two different volunteers.",
+   "show": {
+    "type": "stat",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "title": "Earworm episodes in the diaries",
+    "big": "275",
+    "label": "over four days, from 17 volunteers"
+   }
+  },
+  {
+   "say": "That last detail is striking. A hundred and eighty-two songs, and almost no overlap between people. It confirms what we saw earlier: earworms are highly personal. Even in a small group of young adults, the songs in their heads were almost entirely different. Each person was carrying their own private soundtrack.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "A wide variety",
+    "sub": "Everyone's own soundtrack"
+   }
+  },
+  {
+   "say": "The average tempo of the earworms was a hundred point nine beats per minute. That's a moderate, walking sort of pace, typical of much popular music. But the more interesting question was how close each earworm was to the real speed of its song. For many of the songs, there was a standard recording to compare with, so the researchers could check.",
+   "show": {
+    "type": "stat",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "title": "Average earworm tempo",
+    "big": "~101",
+    "label": "beats per minute (100.9 on average)"
+   }
+  },
+  {
+   "say": "The answer was that the minds of the volunteers kept time remarkably well. In the words of the paper, the tempo of earworms was recalled from long-term memory in a highly veridical form, which means very true to the original. When people hear a song in their heads, it tends to play at close to its real speed, even without hearing it recently.",
+   "show": {
+    "type": "quote",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "text": "Recalled from long-term memory in a highly veridical form",
+    "by": "Jakubowski and colleagues, 2015"
+   }
+  },
+  {
+   "say": "The authors noted one small, systematic drift, which they called regression to the mean. Very fast songs tended to be imagined a little slower than the original, and very slow songs a little faster. It's as if the mind gently pulls extreme tempos towards a comfortable middle. But on the whole, the accuracy was high, which tells us that tempo is stored in memory along with the melody.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "A small drift",
+    "sub": "Towards the middle"
+   }
+  },
+  {
+   "say": "A wooden metronome on a desk. The study suggests we each have something like a built-in metronome for songs we know, preserving not only the notes but also the speed. What makes this study special is that it caught the effect happening spontaneously, in earworms, in everyday life, rather than in a test.",
+   "show": {
+    "type": "photo",
+    "file": "lf53_b08_01.jpg",
+    "cap": "A wooden metronome on a desk"
+   }
+  },
+  {
+   "say": "There was also a link between how energetic people felt and the speed of their earworms. When volunteers reported feeling more alert or aroused, their earworms tended to be faster. It's a modest finding from a small group, but it fits a common experience: a tired evening tends to come with a slower tune, and a busy morning with a brisker one.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "cap": "Mood and speed",
+    "sub": "Arousal and tempo"
+   }
+  },
+  {
+   "say": "The diaries also showed that many earworms happened while people were moving in a repetitive way, especially walking. That fits Ruth's evening too. Her chorus was loud on the walk to the bus stop. Rhythmic movement and musical rhythm seem to go naturally together, and a steady walk may give an earworm a beat to ride on.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Walking and earworms",
+    "sub": "Moving to the beat"
+   }
+  },
+  {
+   "say": "Let's gather it up. Seventeen volunteers, over four days, reported two hundred and seventy-five episodes from a hundred and eighty-two songs. The average tempo was a hundred point nine beats per minute. And the imagined songs tended to play close to their original speed, with a gentle pull towards the middle for very fast and very slow songs.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "What the wrist sensors showed",
+    "items": [
+     "275 episodes in four days",
+     "182 different songs",
+     "Average tempo 100.9 beats per minute",
+     "Close to the original speed"
+    ]
+   }
+  },
+  {
+   "say": "It's worth keeping in mind that seventeen people is a small group, and that they were all fairly young. Larger studies would be needed to be sure the findings apply to everyone. But the method was a careful one, measuring earworms as they happened rather than relying on memory afterwards, and the main result was clear.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "The limits",
+    "sub": "Seventeen people"
+   }
+  },
+  {
+   "say": "Ruth looks down at her tapping foot and laughs. It's keeping time like a clock. If she could put a sensor on her ankle, it would probably show something close to the real tempo of the song in the supermarket. Her memory hasn't just stored the tune. It has stored the beat as well, and her body is happily following along.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "cap": "Ruth's foot",
+    "sub": "Steady as a clock"
+   }
+  },
+  {
+   "say": "So, in this chapter, we've seen that Jakubowski and her colleagues, in 2015, asked seventeen volunteers to tap along to their earworms while wearing wrist sensors. Over four days they recorded two hundred and seventy-five episodes from a hundred and eighty-two songs, with an average tempo of a hundred point nine beats per minute, and the songs played very close to their real speed.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Looking back",
+    "sub": "Keeping time"
+   }
+  },
+  {
+   "say": "In the next chapter, Ruth starts the washing up, a simple, repetitive task, and we'll look at why a wandering mind is one of the most welcoming places an earworm can find.",
+   "show": {
+    "type": "list",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "title": "Up next",
+    "items": [
+     "The wandering mind"
+    ]
+   }
+  }
+ ]
+}

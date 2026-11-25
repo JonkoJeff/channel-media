@@ -1,0 +1,182 @@
+{
+ "id": "lf53_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Ruth is home now. Biscuit greets her at the door with his whole body wagging, she puts the shopping on the counter and fills the kettle. The chorus has faded a little, but it hasn't gone. It's there in the gaps, while the kettle starts to hum and she looks for the tea. Ruth may assume this happens to her more than to most people. The numbers suggest otherwise.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "n": 3,
+    "title": "Almost everyone"
+   }
+  },
+  {
+   "say": "In 2012, the Finnish researcher Lassi Liikkanen published the results of a very large online survey about earworms, carried out in Finland, in the journal Psychology of Music. More than eleven thousand people took part, which makes it one of the biggest studies of the experience ever done. It was designed to find out how common earworms are, and which people have them most.",
+   "show": {
+    "type": "study",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "who": "Lassi Liikkanen",
+    "where": "Psychology of Music, 2012",
+    "what": "A national survey of earworms in Finland"
+   }
+  },
+  {
+   "say": "The headline finding has been quoted in almost every earworm paper since. Over ninety percent of people said they had an earworm at least once a week. In other words, for the great majority of us, this isn't an occasional oddity. It's a regular part of ordinary life, something that happens most weeks of the year, and often more than once.",
+   "show": {
+    "type": "stat",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "title": "Earworm at least once a week",
+    "big": "90%",
+    "label": "of people, in a large Finnish survey"
+   }
+  },
+  {
+   "say": "The music psychologist Victoria Williamson, then at Goldsmiths, University of London, put the same idea simply in a radio interview in 2012. Earworms, she said, happen to at least ninety percent of people once a week. When something happens to nine people in ten, every week, it's no longer really a quirk. It's a feature of how human minds work.",
+   "show": {
+    "type": "quote",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "text": "At least 90 percent of people once a week.",
+    "by": "Victoria Williamson, speaking to NPR, 2012"
+   }
+  },
+  {
+   "say": "Ruth pours the water over the tea bag and, without noticing, she's humming again. This time it's the line just before the chorus, the bit that leads into it. She's surprised she even knows that part. The fact that it surfaces so easily tells us something: even a song heard in passing leaves a surprisingly detailed trace in memory.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "Ruth's kitchen",
+    "sub": "The kettle and the chorus"
+   }
+  },
+  {
+   "say": "So, how long does an earworm last? Here, the two methods used by Beaman and Williams gave quite different answers. In their survey, where people described their earworms from memory, a typical episode was said to last several hours. But in the diary study, where people wrote down each earworm as it happened, the typical episode lasted about twenty-seven minutes.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "How long do they last?",
+    "sub": "Surveys and diaries disagree"
+   }
+  },
+  {
+   "say": "Twenty-seven minutes, in the diary study. That's still a while to have a song looping in your head, but it's much less than several hours. One likely reason for the difference is that the most stubborn earworms are the ones we remember best. When we look back, the earworm that lasted all afternoon stands out, and the dozens of short ones simply fade from memory.",
+   "show": {
+    "type": "bars",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "title": "How long an earworm lasted",
+    "unit": "minutes",
+    "bars": [
+     [
+      "Diary study, typical episode",
+      27.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The diaries showed something else that's reassuring. Very few earworms came back again on the same day, once they had faded, and most were gone by the following day. So the picture of an earworm as something that haunts you for days, like the jingle in Twain's story, is the exception. The usual pattern is a visit of half an hour or so, and then it's over.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Most don't come back",
+    "sub": "Gone by tomorrow"
+   }
+  },
+  {
+   "say": "And here's perhaps the biggest surprise. In the diary study, only about a third of earworms were described as unpleasant. Two thirds were neutral or even pleasant. We tend to talk about earworms as annoying, because the annoying ones are the ones we complain about. But most of the time, a tune in the head is just company, a bit of background music that the mind supplies for free.",
+   "show": {
+    "type": "stat",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "title": "Earworms described as unpleasant",
+    "big": "33%",
+    "label": "in the four-week diary study"
+   }
+  },
+  {
+   "say": "A kettle on the stove in a quiet kitchen. Ruth's earworm right now is probably like most of them: not distressing, just there. If she stopped to rate it, she might call it mildly irritating, or she might admit that she rather likes the chorus. Researchers have found that how we feel about an earworm depends a lot on the song, on our mood and on what we're trying to do at the time.",
+   "show": {
+    "type": "photo",
+    "file": "lf53_b03_01.jpg",
+    "cap": "A kettle on a stove in a warm kitchen"
+   }
+  },
+  {
+   "say": "That links to another finding, from Ira Hyman and his colleagues at Western Washington University. They found that earworms are usually songs that people know and like, not the most annoying songs they've heard. We remember the irritating ones, of course, because they stand out. But the typical earworm is a tune we're quite fond of, which may be part of why it plays so freely.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "The songs people like",
+    "sub": "Not usually the worst ones"
+   }
+  },
+  {
+   "say": "Let's gather the numbers so far. In the large Finnish survey, over ninety percent of people had an earworm at least once a week. In the diary study, a typical episode lasted about twenty-seven minutes, most were gone by the next day, and only about a third were described as unpleasant. That's a gentler picture than the one most of us carry around.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "What the numbers say so far",
+    "items": [
+     "Over 90% have one at least weekly",
+     "Typical diary episode: about 27 minutes",
+     "Most gone by the next day",
+     "Only about a third felt unpleasant"
+    ]
+   }
+  },
+  {
+   "say": "These numbers matter for a simple reason. If you sometimes worry about how often songs get stuck in your head, it helps to know that almost everyone has the same experience, and that it's usually short and harmless. Researchers study earworms precisely because they're so normal. They're a way of watching the ordinary memory system doing something visible.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Why this matters",
+    "sub": "A normal mind at work"
+   }
+  },
+  {
+   "say": "Ruth sits down at the kitchen table with her tea, and Biscuit settles at her feet. The chorus is quieter now, playing softly in the background of her thoughts while she scrolls through a recipe on her phone. She has decided, without really thinking about it, that it's not worth fighting. That might turn out to be wiser than she knows, as we'll see later tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "cap": "Ruth sits down",
+    "sub": "Tea, dog, chorus"
+   }
+  },
+  {
+   "say": "So, in this chapter, we've seen that more than nine in ten people have an earworm at least once a week, that a typical episode in a diary lasts about twenty-seven minutes, that most don't return the next day, and that only around a third feel unpleasant. Earworms are much more common, and much milder, than their reputation suggests.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Looking back",
+    "sub": "Common, short, mostly fine"
+   }
+  },
+  {
+   "say": "In the next chapter, we'll look at the moments that let an earworm in, from shop speakers and radios to a single word, a memory or a feeling, and we'll see why Ruth's chorus might come back even after it seems to have gone.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "title": "Up next",
+    "items": [
+     "How do they start?"
+    ]
+   }
+  }
+ ]
+}

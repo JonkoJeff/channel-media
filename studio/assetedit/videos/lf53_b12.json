@@ -1,0 +1,188 @@
+{
+ "id": "lf53_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Ruth has a small realisation. The supermarket chorus, the one that started all this, is the only part of the song she really knows. She knows the hook and a line or two before it, and then the memory just stops. Every time the earworm plays, it reaches the end of the chorus and jumps back to the beginning, like a scratched record. She wonders whether that's why it keeps coming back: it never gets to finish.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "n": 12,
+    "title": "The unfinished song"
+   }
+  },
+  {
+   "say": "This idea has a long history in psychology. In 1927, the Lithuanian-born psychologist Bluma Zeigarnik, working in Berlin, published research on memory for tasks that had been completed and tasks that had been interrupted. Her work gave its name to what's now called the Zeigarnik effect: the idea that unfinished tasks tend to stay active in memory more than finished ones.",
+   "show": {
+    "type": "study",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "who": "Bluma Zeigarnik",
+    "where": "Psychologische Forschung, 1927",
+    "what": "Memory for finished and unfinished tasks"
+   }
+  },
+  {
+   "say": "The intuition is easy to recognise. A task you've completed can be set aside. A task you've left halfway seems to nag at you, popping back into your thoughts until it's done. Psychologists have debated for decades how strong and reliable this effect really is, and the evidence is mixed. But as an idea, it has proved very appealing, and earworm researchers have naturally wondered about it.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "The basic idea",
+    "sub": "An open loop"
+   }
+  },
+  {
+   "say": "Applied to earworms, the idea goes like this. If you only know a fragment of a song, or you heard it cut off halfway, your mind may treat it as unfinished business. It keeps returning to it, trying to complete it, but since it doesn't know the rest, it can only loop back to the start of the fragment. The earworm, in this view, is the mind trying to close an open loop.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Earworms as open loops",
+    "sub": "A song that never ends"
+   }
+  },
+  {
+   "say": "Ira Hyman's team discussed this idea in their Going Gaga study. They suggested that the Zeigarnik effect might help explain why partial songs return, why fragments loop in the mind. It's a tidy and attractive explanation, and it fits many people's experience. But when Hyman's team tested it directly in the laboratory, the results were more complicated.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Hyman's suggestion",
+    "sub": "Partial songs returning"
+   }
+  },
+  {
+   "say": "In one experiment, the researchers played some songs in full and stopped others partway through. If the unfinished-song idea were simply right, the songs that were cut off should have become earworms more often. But they didn't. Playing only part of a song did not increase the chance that it would become an earworm. The incomplete songs were no stickier than the complete ones.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "title": "The experiment",
+    "items": [
+     "Whole songs and part songs"
+    ]
+   }
+  },
+  {
+   "say": "A record with the needle lifted, paused partway through a song. It's a strong image, the unfinished song looping in the mind, but the laboratory evidence suggests that simply interrupting a song isn't enough to make it stick. What seems more important is how familiar the song is, how recently and how often we've heard it, and what state our minds are in.",
+   "show": {
+    "type": "photo",
+    "file": "lf53_b12_01.jpg",
+    "cap": "A vinyl record with the needle lifted"
+   }
+  },
+  {
+   "say": "Let's be clear about where things stand. The unfinished-song idea is appealing and often repeated. Hyman's team suggested it as a possible explanation for why fragments return. But in their own experiment, interrupting songs didn't make earworms more likely. Earworms do usually loop short fragments, but probably for other reasons.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "The unfinished-song idea",
+    "items": [
+     "Appealing and widely repeated",
+     "Suggested by Hyman's team",
+     "Not supported in their experiment",
+     "Fragments still loop for other reasons"
+    ]
+   }
+  },
+  {
+   "say": "So why do earworms usually consist of short fragments? One simple answer is that the fragments are what we know best. The chorus of a pop song is usually its most repeated, most memorable part. Ruth has heard the chorus many more times than the verses, simply because it repeats within the song. It's the strongest trace in her memory, so it's the part that plays.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "Why fragments, then?",
+    "sub": "Memory stores the hook best"
+   }
+  },
+  {
+   "say": "And if the memory only contains a few bars, those few bars are all the mind can replay. When it reaches the end of what it knows, there's nowhere to go but back to the beginning. That creates the familiar looping quality of an earworm, without any need for the mind to be trying to finish something. It's simply playing what it has, again and again.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "A loop of known music",
+    "sub": "It can only play what it has"
+   }
+  },
+  {
+   "say": "Many people believe that listening to the whole song, from start to finish, can cure an earworm by closing the loop. In the large Sticky Tunes study we'll look at in the next chapter, more than half of the Finnish participants said they had listened to the song itself because of an earworm. Some people find it helps. Others find it just refreshes the tune and makes it stronger.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "The full song trick",
+    "sub": "Does listening to the end help?"
+   }
+  },
+  {
+   "say": "Ruth decides to try. She finds the song on her phone and listens to it all the way through, verse, chorus, bridge and ending. It's quite a nice song, really. When it finishes, there's a pause. And then, after a few seconds, the chorus starts again in her head, though perhaps a little more softly. It hasn't vanished, but it feels less pushy, as if it has been listened to properly at last.",
+   "show": {
+    "type": "list",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "title": "Ruth tries it",
+    "items": [
+     "The whole song, once"
+    ]
+   }
+  },
+  {
+   "say": "Ruth's experience is typical of what people report. For some, hearing the whole song seems to satisfy the earworm, and it fades. For others, the extra exposure makes it come back more strongly. Given what we know about repetition, that's not surprising. Listening again is, after all, another hearing, and hearings make earworms more likely.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Mixed results",
+    "sub": "It depends"
+   }
+  },
+  {
+   "say": "The honest answer is that researchers don't yet fully understand why earworms loop and stop when they do. The unfinished-song idea is not well supported by experiments, and the fragment explanation is only part of the picture. Earworms remain a genuine small mystery, which is part of what makes them such an interesting thing to study.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "cap": "The honest answer",
+    "sub": "We don't fully know"
+   }
+  },
+  {
+   "say": "There's a gentle idea here for anyone bothered by a looping fragment. You don't have to complete it, solve it or fight it. Usually, as the diary studies show, it will fade on its own within half an hour or so. Sometimes the kindest thing to do with a looping song is simply to let it play, and let it go when it's ready.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "living_room_day",
+    "cap": "A gentle thought",
+    "sub": "Let the loop run"
+   }
+  },
+  {
+   "say": "So, in this chapter, we've met the Zeigarnik effect, from Bluma Zeigarnik's work published in 1927, and the idea that earworms are unfinished songs. Hyman's team suggested it, but in their experiment, songs that were cut off didn't become earworms more often. Fragments loop, it seems, mainly because the fragment is what memory holds most strongly.",
+   "show": {
+    "type": "list",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "title": "Looking back",
+    "items": [
+     "The unfinished song"
+    ]
+   }
+  },
+  {
+   "say": "In the next chapter, we'll look at a study that collected over a thousand descriptions of how people react to their earworms, from humming along to playing a special cure song, and which of these strategies seem to help.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Up next",
+    "sub": "What people do about it"
+   }
+  }
+ ]
+}

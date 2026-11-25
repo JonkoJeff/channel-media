@@ -1,0 +1,186 @@
+{
+ "id": "lf53_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Ruth switches the radio off and the kitchen goes quiet, apart from the soft bubbling of the pan. And in that quiet, the chorus is suddenly clearer than ever. It's as if the silence has made room for it. She can hear the melody, the rhythm, even something like the voice of the singer. Nothing in the room is making that sound. So where, exactly, is it coming from?",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "n": 7,
+    "title": "Music in the silence"
+   }
+  },
+  {
+   "say": "In March 2005, a team at Dartmouth College in the United States published a short paper in the journal Nature with a lovely title: Sound of silence activates auditory cortex. The first author was David Kraemer, working with William Kelley, Neil Macrae and Adam Green. They wanted to see what the brain does when a familiar song suddenly stops.",
+   "show": {
+    "type": "study",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "who": "David Kraemer and colleagues",
+    "where": "Nature, March 2005",
+    "what": "Sound of silence activates auditory cortex"
+   }
+  },
+  {
+   "say": "The volunteers lay in a brain scanner, a functional MRI machine that tracks changes in blood flow linked to brain activity, while they listened to music. Some of the music was familiar to them, and some was not. And here's the clever part. Every so often, the researchers cut the sound, leaving short gaps of silence in the middle of the music, and looked at what the brain was doing during those gaps.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "The method",
+    "sub": "Songs with holes in them"
+   }
+  },
+  {
+   "say": "During the gaps in familiar songs, the auditory cortex, the part of the brain that processes sound, stayed active. The volunteers weren't hearing any music, yet their hearing areas behaved as if they were, at least in part. They reported that they kept the song going in their heads during the silence, filling in what should have come next.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "cap": "The result",
+    "sub": "The hearing areas kept going"
+   }
+  },
+  {
+   "say": "This only happened in a strong way when the song was familiar. With unfamiliar music, the volunteers had nothing to fill the gap with, because they didn't know what came next. So the activity in the silence seems to come from memory. When we know a song well, the brain can play its continuation from stored knowledge, using some of the same machinery that handles real sound.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Familiar versus unfamiliar",
+    "sub": "You need to know the song"
+   }
+  },
+  {
+   "say": "A quiet, empty concert hall. When the music stops, the room is silent, but the mind of someone who knows the piece isn't. This is a helpful way to think about Ruth's kitchen. There's no song playing, but her auditory system, drawing on her memory of the chorus, is producing something close to the experience of hearing it.",
+   "show": {
+    "type": "photo",
+    "file": "lf53_b07_01.jpg",
+    "cap": "A quiet empty concert hall"
+   }
+  },
+  {
+   "say": "The study found an interesting difference between songs with words and songs without. When the music was instrumental, the gaps recruited a wider set of hearing areas, reaching further back towards the earliest stages of sound processing. When the songs had lyrics, the activity was more concentrated in the later, more advanced regions. One example of an instrumental piece in the study was the Pink Panther theme.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Words and no words",
+    "sub": "Two kinds of gap"
+   }
+  },
+  {
+   "say": "Kraemer suggested that, for songs with words, the lyrics may become the focus of the memory. The words give the mind something to hold on to, so it doesn't have to rebuild every detail of the sound. For instrumental music, there are no words to lean on, so the brain may have to recreate more of the sound itself. It's a tentative explanation, but an intriguing one.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "cap": "Why that might be",
+    "sub": "Lyrics give the mind a handle"
+   }
+  },
+  {
+   "say": "Here's what the scanner showed, in brief. The brain's hearing areas stayed active during silent gaps. This was strongest for familiar songs. Instrumental gaps drew on more of the early hearing areas. And songs with lyrics shifted the activity towards later, more advanced areas. Together, these findings suggest that imagined music really does borrow the brain's equipment for real music.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "What the scanner showed",
+    "items": [
+     "Hearing areas active in silence",
+     "Strongest for familiar songs",
+     "Instrumental gaps used more early areas",
+     "Lyrics shifted activity to later areas"
+    ]
+   }
+  },
+  {
+   "say": "It's worth being careful here. The study didn't show that imagined music is identical to real music in the brain. Ruth doesn't mistake her earworm for a radio. She knows perfectly well that the kitchen is silent. What the research shows is an overlap: some of the same regions work during both. That overlap helps explain why an earworm can feel so vivid, so close to actual sound.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "Not quite the same",
+    "sub": "Imagined, not heard"
+   }
+  },
+  {
+   "say": "The study wasn't about earworms directly. It was about voluntary filling in, when people knew the song and kept it going on purpose. But it gives us a picture of the machinery involved. An earworm may be what happens when that same filling-in process starts up on its own, without a gap to fill and without being asked, and then keeps going.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "A link to earworms",
+    "sub": "The brain fills in"
+   }
+  },
+  {
+   "say": "Ruth stirs the pan, and the chorus plays on. In the noisy supermarket, it was just one sound among many. In the quiet kitchen, with no music competing, her own internal version has the stage to itself. That's one reason earworms can seem louder in silence: there's simply nothing else for the hearing system to process.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "Ruth stirs the pan",
+    "sub": "Clearer in the quiet"
+   }
+  },
+  {
+   "say": "This also hints at why real sound can sometimes push an earworm aside. If the hearing system is busy with an actual conversation, a podcast or a different piece of music, there's less room for the imagined chorus. We'll see later that many people use exactly this strategy, putting on something else to listen to, and with mixed success.",
+   "show": {
+    "type": "list",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "title": "Real sound often helps",
+    "items": [
+     "Something else to hear"
+    ]
+   }
+  },
+  {
+   "say": "There's something rather wonderful in all this. Each of us carries a kind of concert hall in the mind, stocked with thousands of songs, ready to be replayed at a moment's notice. Usually we choose what plays. Sometimes the hall starts playing by itself. Ruth's earworm is a small sign of a very rich musical memory at work.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "cap": "A thought",
+    "sub": "Your inner concert hall"
+   }
+  },
+  {
+   "say": "Since 2005, many other brain imaging studies have looked at musical imagery, and they've broadly supported the idea that imagining music and hearing music share parts of the same brain networks. Some of that work has looked specifically at people who often get earworms, and we'll meet one such study later, which found differences in the structure of their brains.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Many studies since",
+    "sub": "A growing picture"
+   }
+  },
+  {
+   "say": "So, in this chapter, we've seen that Kraemer and his colleagues at Dartmouth, in 2005, found that the auditory cortex stayed active during silent gaps in familiar songs, as people filled in the missing music from memory. Instrumental gaps drew on earlier hearing areas, and songs with lyrics drew more on later ones. Imagined music borrows some of the machinery of real hearing.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "cap": "Looking back",
+    "sub": "Music in the silence"
+   }
+  },
+  {
+   "say": "In the next chapter, Ruth taps her foot along with the chorus, and we'll find out how accurately our minds keep the original tempo of a song, thanks to a study in which volunteers wore a small sensor on their wrists for four days.",
+   "show": {
+    "type": "list",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "title": "Up next",
+    "items": [
+     "The speed of the song"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "id": "lf53_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Ruth is still awake, the chorus still looping quietly. Back in the Baylor sleep laboratory, the researchers now had a night's worth of brain waves from fifty volunteers, along with their reports of earworms at bedtime, in the night and in the morning. The question was simple: did the songs follow people into sleep, and if they did, did it matter?",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "n": 16,
+    "title": "What the sleep lab found"
+   }
+  },
+  {
+   "say": "The first finding was that earworms didn't only happen while people were falling asleep. Some volunteers also reported waking up with a song in their heads, in the middle of the night or in the morning. It seems an earworm can persist, or return, across the boundary of sleep, which suggests the brain may keep working on recently heard music even while we rest.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "Earworms in the night",
+    "sub": "Not only at bedtime"
+   }
+  },
+  {
+   "say": "And it did matter. Volunteers who had an earworm at bedtime had more difficulty falling asleep. They woke up more often during the night. And they spent more time in the lighter stages of sleep. These differences were measured objectively by the polysomnography, not just remembered by the volunteers. A song in the head, it seems, can genuinely disturb sleep.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "Volunteers with a sleep earworm",
+    "items": [
+     "Took longer to fall asleep",
+     "Woke more often in the night",
+     "Spent more time in light sleep"
+    ]
+   }
+  },
+  {
+   "say": "Then came the most surprising result. You might expect the versions with lyrics to cause more earworms, since words give the mind something to grab. But it was the other way round. The instrumental versions, with the voices removed, were more likely to produce earworms and to disrupt sleep. They led to about twice as many earworms as the versions with lyrics.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "The surprise",
+    "sub": "Instrumental versions"
+   }
+  },
+  {
+   "say": "About twice as many earworms. That's a counterintuitive finding, and the reasons for it aren't fully understood. One possibility is that, without the words, the mind tries harder to fill in the missing vocal line, which keeps the music active in memory. It's a reminder that what feels most relaxing isn't always what's best for sleep. Instrumental music isn't automatically safer at bedtime.",
+   "show": {
+    "type": "stat",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "title": "Earworms after instrumental versions",
+    "big": "2x",
+    "label": "compared with the versions with lyrics"
+   }
+  },
+  {
+   "say": "The brain wave recordings revealed something even more intriguing. Volunteers who had a sleep earworm showed more slow oscillations during sleep, a kind of brain wave linked to the processing of memories. And these slow oscillations were concentrated over the region of the brain associated with the primary auditory cortex, the area that first handles incoming sound.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The brain waves",
+    "sub": "A clue from deep sleep"
+   }
+  },
+  {
+   "say": "The researchers interpreted this as a possible sign that the brain was reprocessing the music during sleep, as it does with other recent memories. We know that sleep helps to strengthen memories of the day. If a catchy song is one of those memories, the brain may keep replaying it, which could be part of why the earworm lingers and why sleep becomes lighter. This is an interpretation, not yet a settled fact.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "What it might mean",
+    "sub": "Replaying the song"
+   }
+  },
+  {
+   "say": "A bedside lamp switched off at night. The idea that the brain might process music during sleep is a fascinating one. It connects earworms to the much bigger story of how sleep and memory work together. But the practical point is simpler: a song heard just before bed can follow us into the night, and it may affect the quality of our rest.",
+   "show": {
+    "type": "photo",
+    "file": "lf53_b16_01.jpg",
+    "cap": "A bedside lamp switched off at night"
+   }
+  },
+  {
+   "say": "Scullin's team drew a practical lesson from their findings. If you have trouble sleeping, and you often listen to catchy music before bed, it may be worth trying a break from it in the hour or so before sleep, to see whether it helps. They noted that many people believe music helps them sleep, but that, for some, it may be doing the opposite without their realising.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "What the researchers suggested",
+    "sub": "A practical takeaway"
+   }
+  },
+  {
+   "say": "Here are some gentle ideas that fit the research. Try a music-free last hour before bed, at least as an experiment. Remember that instrumental music isn't automatically safer. Wind down with something calm and absorbing, like a book or quiet conversation. And if a tune does start, let it fade without fighting it, since struggling tends to keep us awake.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "Gentle bedtime ideas",
+    "items": [
+     "A music-free last hour",
+     "Not only lyrics: instrumentals can stick",
+     "Wind down with something calm and absorbing",
+     "Let the tune fade, without fighting it"
+    ]
+   }
+  },
+  {
+   "say": "It's worth saying that this doesn't mean everyone should give up music at night. For some people, calm music may genuinely help them relax, and that's fine. The study suggests that catchy, upbeat songs in particular, with or without lyrics, may be the ones to be careful about before bed. As always, it's worth paying attention to what works for you.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Not for everyone",
+    "sub": "Some music still helps"
+   }
+  },
+  {
+   "say": "Thinking back, Ruth listened to the whole supermarket song on her phone this evening, only an hour or so before bed. Given everything the Baylor team found, that may be part of why the chorus is with her now. If she wanted to try something different tomorrow, she might put the phone down a little earlier, and let the evening end in quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Ruth's evening",
+    "sub": "She listened before bed"
+   }
+  },
+  {
+   "say": "For tonight, though, there's not much to do except let the chorus be. Ruth breathes slowly, notices the tune, and doesn't try to push it away. She lets it play, more and more quietly, like a radio in another room. Her thoughts start to blur at the edges. The chorus comes round once more, softer still, and then, somewhere in the middle of a bar, she's asleep.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "Letting go",
+    "sub": "Not fighting it"
+   }
+  },
+  {
+   "say": "Nobody knows exactly when an earworm stops at the edge of sleep. Ruth won't remember the last time it played. Sleep tends to arrive in a way we never quite catch, and the earworm goes with it. Whether her brain will keep processing the song during the night, as the slow oscillations in the Baylor study suggest it might, is a question for the sleep scientists.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "title": "A small mystery",
+    "items": [
+     "When it stops"
+    ]
+   }
+  },
+  {
+   "say": "The house is quiet now. The radio is off, the phone is dark, and Biscuit is snoring very gently in his basket. Somewhere inside Ruth's sleeping brain, perhaps, the memory of a chorus is being tidied away, along with the rest of the day. Tomorrow it may be gone, or it may be waiting for her when she wakes.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Into the night",
+    "sub": "Quiet at last"
+   }
+  },
+  {
+   "say": "So, in this chapter, we've seen that volunteers in the Baylor sleep lab who had a bedtime earworm took longer to fall asleep, woke more often and spent more time in light sleep. Instrumental versions caused about twice as many earworms as versions with lyrics. And sleep earworms came with more slow oscillations over the auditory region, a possible sign of the brain replaying the music.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "Looking back",
+    "sub": "What the sleep lab found"
+   }
+  },
+  {
+   "say": "In the next chapter, Ruth wakes up, and we'll gather together everything we've learned tonight, from Mark Twain's jingle to the sleep laboratory, into a gentle guide for living with earworms.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "Up next",
+    "sub": "The morning after"
+   }
+  }
+ ]
+}

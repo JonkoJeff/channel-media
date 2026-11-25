@@ -1,0 +1,180 @@
+{
+ "id": "lf53_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Ruth is standing in the queue at a small supermarket, late on a Tuesday afternoon, with a loaf of bread, a bag of apples and a box of tea in her basket. Above her, from a speaker in the ceiling, a bright pop chorus is playing. She isn't really listening. She's thinking about dinner, and about whether she remembered to lock the back door. The chorus plays for maybe twenty seconds, and then the shop's music moves on to something else.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "A quiet supermarket",
+    "sub": "Late on a Tuesday afternoon"
+   }
+  },
+  {
+   "say": "A quick word about Ruth. She's imagined. She's someone we've pictured together, to keep us company through tonight's ideas. She's forty-one, she works in a public library, she sings in a small community choir on Thursdays, and she has a dog called Biscuit who is waiting for her at home. Nothing about her is meant to stand for any real person, and nothing in her evening is a case study. She's here so the ideas have somewhere to land.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "cap": "A quick word about Ruth",
+    "sub": "Imagined, to keep us company"
+   }
+  },
+  {
+   "say": "Here's the strange part. Ruth pays, picks up her bag and steps out into the cool evening air, and the chorus comes with her. Not the whole song. Just a few bars of it, the catchiest few, playing again and again somewhere behind her thoughts. She didn't choose it. She doesn't even particularly like it. And yet, by the time she reaches the bus stop, it has looped perhaps a dozen times.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "cap": "Ten steps later",
+    "sub": "It's still playing"
+   }
+  },
+  {
+   "say": "You almost certainly know this feeling too. A tune slips into your head, often without asking, and it simply stays there, repeating a short fragment over and over. In everyday language we call it an earworm. Most of the time it's harmless, and sometimes it's even pleasant. But it can also be strangely stubborn, and it raises a real question about how memory and music work together inside the brain.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "street_day",
+    "title": "You know this feeling",
+    "items": [
+     "The song that won't leave"
+    ]
+   }
+  },
+  {
+   "say": "We'll follow Ruth through one ordinary evening, from that supermarket queue to the moment she finally falls asleep, and we'll stop along the way to look at the research. There are surveys of thousands of people, diary studies, experiments in which volunteers were deliberately given earworms, brain scans, and even a sleep laboratory.",
+   "show": {
+    "type": "list",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Where the word earworm comes from",
+     "How common earworms really are",
+     "What sets them off",
+     "Which songs are most likely to stick",
+     "Why repetition matters",
+     "What the brain is doing during an earworm",
+     "Why the tempo is so accurate",
+     "Mind wandering and boredom",
+     "Who gets them most",
+     "Unfinished songs",
+     "What people do about them",
+     "Chewing gum and the inner voice",
+     "Earworms at bedtime",
+     "A gentle way to live with them"
+    ]
+   }
+  },
+  {
+   "say": "Let me say plainly how we'll do this. Every study we mention tonight is a real, published piece of research, and when I give a number, it comes from that research. Where the scientists disagree, or where a finding rests on a small group of people, I'll say so. And there's no need to worry that thinking about earworms will give you one. If it does, you'll at least know exactly what's happening.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "A promise",
+    "sub": "Evidence, not guesswork"
+   }
+  },
+  {
+   "say": "Let's begin with what we're actually trying to explain. Ruth isn't hearing music. The supermarket is behind her now, and the street is quiet apart from the traffic. What she's experiencing is music that her own mind is producing, without being asked to, and that keeps coming back even when she would rather think about something else.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "living_room_day",
+    "n": 1,
+    "title": "The tune that walks home with you"
+   }
+  },
+  {
+   "say": "Researchers have a more careful name for this. They call it involuntary musical imagery, often shortened to I N M I. Musical imagery means hearing music in your mind when no music is playing. Involuntary means it arrives on its own, rather than because you decided to imagine a song. The everyday word, earworm, is the one most people use, and it's the one we'll mostly use tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "cap": "The scientific name",
+    "sub": "Involuntary musical imagery"
+   }
+  },
+  {
+   "say": "A small ceiling speaker in a quiet shop. This is where so many earworms begin: not at a concert, and not with a favourite album played on purpose, but with a few seconds of background music that we hardly notice at the time. Keep this ordinary little speaker in mind, because the way an earworm begins turns out to be one of the most studied parts of the whole experience.",
+   "show": {
+    "type": "photo",
+    "file": "lf53_b01_01.jpg",
+    "cap": "A small speaker in a quiet shop"
+   }
+  },
+  {
+   "say": "It helps to separate two things. If I asked you to imagine the opening of a song you know well, you could probably do it. That's voluntary musical imagery, and you're in charge of it. An earworm is different. It starts by itself, it tends to repeat a short section, and it can be hard to stop. The two use much of the same mental machinery, but they feel very different.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Two kinds of hearing",
+    "sub": "On purpose, or on its own"
+   }
+  },
+  {
+   "say": "Here's the shape of a typical earworm, as researchers describe it. It's usually a short fragment, often a chorus or a hook, rather than a whole song. It's nearly always a tune the person already knows. It repeats, sometimes for minutes and sometimes for much longer. And it starts on its own. Ruth's chorus ticks every one of these boxes.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "What an earworm usually is",
+    "items": [
+     "A short fragment, not a whole song",
+     "A tune you already know",
+     "Repeated in a loop",
+     "Started without choosing it"
+    ]
+   }
+  },
+  {
+   "say": "One thing worth knowing from the start: for most people, earworms are an ordinary part of mental life, not a sign that anything is wrong. Researchers study them because they're a wonderful window into how memory works, not because they're a disorder. Ruth's chorus is mildly annoying, perhaps, but it's also a small demonstration of something remarkable that her brain does every single day.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "cap": "Not a problem to fix",
+    "sub": "Mostly harmless"
+   }
+  },
+  {
+   "say": "Here's a first puzzle to take with us. Ruth heard dozens of songs this week, in shops, on the radio and in the car. Why did this particular chorus, heard for twenty seconds while she was thinking about something else, take up residence in her head? As we'll see, scientists have some surprisingly specific answers, about the song, about the situation and about the listener.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "A first puzzle",
+    "sub": "Why that one?"
+   }
+  },
+  {
+   "say": "Broadly, the research points to three kinds of explanation. Some songs are simply more likely to stick, because of how their melodies are built. Some moments are more likely to let a song in, such as when we're tired, bored or doing something routine. And some people get earworms more often than others. We'll look at all three, one at a time, as Ruth's evening unfolds.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "Three kinds of answer",
+    "sub": "Song, moment, listener"
+   }
+  },
+  {
+   "say": "So that's where we stand. We've met Ruth, who picked up a chorus in a supermarket queue and can't put it down. We've learned that researchers call this involuntary musical imagery, and that a typical earworm is a short, familiar fragment that repeats on its own. In the next chapter, we'll go back in time, to find out where the word earworm came from, and to a story written in 1876 about a jingle that spread from person to person.",
+   "show": {
+    "type": "list",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "title": "Looking ahead",
+    "items": [
+     "One evening, one tune"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,211 @@
+{
+ "id": "lf54_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Oskar takes his mug to the armchair by the window. Pepper follows and folds herself onto the rug. Outside, the rain has settled into something soft and even. This is a good moment to ask the practical question. After all these diaries, scans, forehead packs and lions, is there anything here that you can actually use tomorrow? A few small things, I think.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 16,
+    "title": "What to do with all this"
+   }
+  },
+  {
+   "say": "They're modest. A yawn isn't a verdict on your company. Your own yawns may tell you something about the shape of your day. Other people's yawns deserve a generous reading. And a tidy explanation that everybody repeats, like the one about oxygen, is always worth a second look. Let's take them one at a time, without any hurry.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "title": "Small things worth keeping",
+    "items": [
+     "A yawn is not a verdict on you",
+     "Notice when your yawns bunch together",
+     "Be gentle with other people's yawns",
+     "Treat tidy explanations with curiosity"
+    ]
+   }
+  },
+  {
+   "say": "First, the next time someone yawns while you're speaking, remember the crowd of possible reasons. They may have woken early, or be near bedtime. The room may be warm. They may be fighting to stay with you, or they may have just seen somebody else do it. You can let it pass, or kindly ask whether they'd like a break.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "When someone yawns at you",
+    "sub": "The kinder reading"
+   }
+  },
+  {
+   "say": "And when you're the one who yawns at an awkward moment, a light word is usually plenty. Sorry, long day. You haven't committed a crime. You've performed a movement that you began practising before you were born, and which is very hard to stop once it's under way. Most people understand that perfectly well, having done it themselves that very morning.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "When you yawn at someone",
+    "sub": "No need for a long apology"
+   }
+  },
+  {
+   "say": "Second, your own pattern can be a quiet clue. The diaries found yawning gathered near waking and near sleep. If you notice yourself yawning in a steady run late in the evening, it's reasonable to take that as one more nudge towards bed. It isn't a precise gauge of tiredness, but together with heavy eyes and a wandering mind, it's worth listening to.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "Reading your own pattern",
+    "sub": "A quiet clue"
+   }
+  },
+  {
+   "say": "Runs of yawns. Reading the same line twice. Eyelids that have grown heavy. Small tasks suddenly seeming rather large. None of these is proof of anything alone. Taken together, late at night, they're a fair hint that the day is complete. The washing up will, with great patience, still be there in the morning.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "title": "Signs the evening may be asking for rest",
+    "items": [
+     "Runs of yawns",
+     "Reading the same line twice",
+     "Heavy eyelids",
+     "Small things feeling like hard work"
+    ]
+   }
+  },
+  {
+   "say": "Third, a word of care. Yawning is normal. But if you find yourself yawning far more than usual for no clear reason, especially along with strong daytime sleepiness, or after starting a new medicine, it's sensible to mention it to a doctor or pharmacist. Poor sleep and some medicines can be involved, and a professional can look at your own situation. This video can't.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A word of care",
+    "sub": "When to mention it to someone"
+   }
+  },
+  {
+   "say": "Fourth, if you're responsible for a room full of people, as Oskar is, a wave of yawns is useful information, though it doesn't tell you which kind. A short pause, a chance to stand and stretch, a cooler room or simply a change of activity are all friendly responses. None of them requires anyone to feel accused of being bored.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "In meetings and classrooms",
+    "sub": "What might help the room"
+   }
+  },
+  {
+   "say": "Here's a rule of thumb that might make daily life a little easier. A yawn is something a body does, long before it's something a person means. You can almost always assume that no message was intended. If there's something your companion wants you to know, they have a much better instrument for it, namely words.",
+   "show": {
+    "type": "quote",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "text": "A yawn is something a body does, before it is something a person means",
+    "by": "A generous rule of thumb"
+   }
+  },
+  {
+   "say": "An armchair drawn close to a window, with rain on the glass and a lamp turned low. This is where we'll spend the rest of our time. The research is done for the evening. If your attention is starting to drift, that's exactly right, and there's no need to call it back. Let it go wherever the rain takes it.",
+   "show": {
+    "type": "photo",
+    "file": "lf54_b16_01.jpg",
+    "cap": "An armchair by a rainy window"
+   }
+  },
+  {
+   "say": "Before the quiet part, one short look back, just to put the evening in order. It began with a stranger's yawn on a late train. We slowed it down and found about six seconds of movement, with a quicker heart and a much larger breath, and a pattern that likes to finish once it has begun.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "One last look back",
+    "sub": "The journey in order"
+   }
+  },
+  {
+   "say": "We asked what it's for. Extra oxygen didn't turn out to be the answer. The timing points to changes of state, around waking, sleeping and dull stretches. The idea of cooling the brain has interesting support and real critics. And the notion of a signal between companions remains open. It's a fair bet that the full story has more than one strand.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "title": "The purpose question",
+    "items": [
+     "Oxygen: no support in the direct test",
+     "Timing: near waking, sleep and dull stretches",
+     "Cooling: promising and debated",
+     "Signalling: possible and open"
+    ]
+   }
+  },
+  {
+   "say": "We asked why it spreads. Seeing a yawn, even with the mouth hidden, reading about it or thinking about it can set it off. People differ widely and fairly consistently. It tends to arrive during childhood. In daily life it passed more among those who were close. And the presence of a real watcher could hold it back.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "title": "The contagion question",
+    "items": [
+     "Seeing, reading or thinking can set it off",
+     "People differ in a fairly steady way",
+     "It grows in during childhood",
+     "Closeness and company matter"
+    ]
+   }
+  },
+  {
+   "say": "And empathy? Hold that one loosely. Some findings lean towards a link, others don't, and one pair of studies found no connection with helpful behaviour. Whatever the eventual answer, your care for people is shown in what you do for them. It doesn't depend on whether your jaw joins in when theirs drops open.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Empathy, one more time",
+    "sub": "Held loosely"
+   }
+  },
+  {
+   "say": "Pepper sighs on the rug, the long, contented sigh of a dog who has found the exact right position. Perhaps she catches Oskar's yawns and perhaps she doesn't. Either way, here they both are, winding down in the same warm room. That is its own kind of falling into step, and it needs no study to be pleasant.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "What the dog knows",
+    "sub": "Companionship"
+   }
+  },
+  {
+   "say": "It's rather nice to think that the yawn has been with you all along. It was there on the scan before you had a name. It was there on your first day. It turned up at school, at weddings, in traffic and at bedtime. It'll arrive tonight and again tomorrow morning, asking nothing except about six seconds of your time.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "An old companion",
+    "sub": "With you the whole way"
+   }
+  },
+  {
+   "say": "From here on there's nothing new to learn. The words will slow down. We'll relax the body gently, part by part, and then walk back through the evening as a quiet story. If you're already half asleep, wonderful. You can stop listening at any point and you'll have missed nothing you need.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "title": "From here on",
+    "items": [
+     "Nothing new to learn",
+     "Slower words",
+     "Longer pauses",
+     "Rest whenever you like"
+    ]
+   }
+  },
+  {
+   "say": "So take a moment now to settle. Move whatever needs moving. Pull a blanket up, or push it off. Let the pillow or the chair take the weight of your head. Put aside anything bright, if you can. And if a yawn comes while you're arranging yourself, give it all the room it wants.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Settle your body",
+    "sub": "Getting comfortable"
+   }
+  }
+ ]
+}

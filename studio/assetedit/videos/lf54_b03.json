@@ -1,0 +1,182 @@
+{
+ "id": "lf54_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The windows on Oskar's train don't open. The carriage feels warm and close, and as the next yawn builds, a thought crosses his mind that has crossed millions of minds before. It must be stuffy in here, he thinks. I'm not getting enough air. It's a natural thing to conclude, and it has been repeated for a very long time.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "n": 3,
+    "title": "The air in the carriage"
+   }
+  },
+  {
+   "say": "Explanations that tie yawning to breathing are very old. Medical writers in earlier centuries linked the yawn to clearing bad air from the body, or to helping the blood move. These ideas made sense at a time when the workings of breathing were still being puzzled out. The modern version, about topping up oxygen, grew naturally from that long tradition of looking at the open mouth and thinking of lungs.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "An old family of ideas",
+    "sub": "Breath, blood and vapour"
+   }
+  },
+  {
+   "say": "Stated carefully, the theory makes a clear prediction. If low oxygen or a build-up of carbon dioxide triggers yawning, then giving people extra carbon dioxide should make them yawn more, and giving them pure oxygen should make them yawn less. That's the beauty of a clear idea. It can be checked, and it can turn out to be wrong.",
+   "show": {
+    "type": "list",
+    "sprite": "N29",
+    "bg": "cafe_sunset",
+    "title": "The popular theory, step by step",
+    "items": [
+     "Oxygen runs low or carbon dioxide builds up",
+     "The brain notices",
+     "A giant yawn restores the balance"
+    ]
+   }
+  },
+  {
+   "say": "In 1987, Robert Provine and two colleagues, Byron Tate and Lisa Geldmacher, published the results of doing exactly that. College students breathed different gas mixtures while their yawns were counted. Some breathed air with far more carbon dioxide than usual, at three or five percent. Some breathed pure oxygen. Ordinary air, for comparison, contains about a fifth oxygen and only a tiny trace of carbon dioxide.",
+   "show": {
+    "type": "study",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "who": "Robert Provine, Byron Tate and Lisa Geldmacher",
+    "where": "Behavioral and Neural Biology, published 1987",
+    "what": "Gas mixtures and yawning"
+   }
+  },
+  {
+   "say": "The result was plain. Breathing air with three percent or five percent carbon dioxide did not make people yawn more. Those levels are many times higher than normal, and carbon dioxide at such concentrations is well known to drive people to breathe harder. If yawning were the body's answer to a carbon dioxide build-up, this should have set it off. It didn't.",
+   "show": {
+    "type": "stat",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "title": "Extra carbon dioxide",
+    "big": "No increase",
+    "label": "in yawning, at either 3% or 5%"
+   }
+  },
+  {
+   "say": "Pure oxygen told the same story from the other side. Breathing one hundred percent oxygen did not reduce yawning. People who were, in a sense, getting far more of the supposedly missing ingredient than anyone ever needs carried on yawning about as before. For a theory built around oxygen hunger, that's a very awkward finding indeed.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "And pure oxygen?",
+    "sub": "The yawns carried on"
+   }
+  },
+  {
+   "say": "The researchers also looked at exercise. When you exercise, your body's demand for oxygen climbs steeply and your breathing changes a great deal. Yet in their test, physical exercise didn't change how much people yawned. Breathing and yawning, it seemed, were being controlled more separately than the popular story had assumed. A big breath was part of a yawn, but need for breath didn't appear to be its cause.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Exercise as well",
+    "sub": "Heavy breathing, same yawning"
+   }
+  },
+  {
+   "say": "A window standing open, with a light curtain stirring in the breeze. Opening a window when you're drowsy may well make you feel fresher, and there can be good reasons to air a stuffy room. What these experiments question is something narrower: the idea that the yawn itself is your body's way of fetching extra oxygen.",
+   "show": {
+    "type": "photo",
+    "file": "lf54_b03_01.jpg",
+    "cap": "An open window in the evening"
+   }
+  },
+  {
+   "say": "Now, in fairness, these were small groups. Provine's later summary mentions six people in the comparison with three percent carbon dioxide and twelve in the one with five percent. A tiny effect could slip past a study of that size. Provine also pointed out that this had been the only direct test of its kind for many years afterwards, which is a little surprising for such a famous idea.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "autumn_overlook",
+    "cap": "How big was the test?",
+    "sub": "Small, and worth saying so"
+   }
+  },
+  {
+   "say": "So we shouldn't say these experiments settle everything about yawning and breathing for all time. What we can say is that when the most obvious prediction of the oxygen theory was tested directly, even with large changes to the gases people breathed, the expected change in yawning didn't appear. Most researchers who study yawning now treat the simple oxygen explanation as unsupported.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "What it does show",
+    "sub": "The simple version struggles"
+   }
+  },
+  {
+   "say": "Why, then, is it still so widely repeated? I think it's because it matches our experience so neatly. We yawn in dull, closed, crowded rooms. We take in a lot of air when we do it. The two facts seem to join up on their own. But two things that arrive together don't always cause one another, and those same rooms are often warm, quiet and boring as well.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "living_room_day",
+    "cap": "Why the story survives",
+    "sub": "It feels right"
+   }
+  },
+  {
+   "say": "Think about what else is usually true of the places where we yawn the most. They tend to be warm. They tend to be quiet and uneventful. We're often sitting still. And there are frequently other people nearby who are yawning too. Any of those could be doing the work that the stale air gets blamed for. We'll look at several of them tonight.",
+   "show": {
+    "type": "list",
+    "sprite": "A12",
+    "bg": "rooftop_dusk",
+    "title": "Other things stuffy rooms often are",
+    "items": [
+     "Warm",
+     "Quiet",
+     "Uneventful",
+     "Full of other people yawning"
+    ]
+   }
+  },
+  {
+   "say": "There's a gentle lesson here that reaches well beyond yawning. An explanation can be repeated by parents, teachers and friends for generations, can sound completely reasonable, and can still fall over the first time somebody sits down with a clear test. It isn't foolish to have believed it. Most of us never had a reason to check.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "A gentle lesson",
+    "sub": "Check the obvious"
+   }
+  },
+  {
+   "say": "On the train, Oskar remembers hearing that the oxygen idea doesn't hold up. He looks around the warm, dim carriage with fresh eyes. If it isn't the air, what is it? He checks the time. It's late. He was up early. The journey is dull. And he's just seen another person yawn. That's quite a list of suspects for one tired man.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Oskar reconsiders",
+    "sub": "Maybe it isn't the air"
+   }
+  },
+  {
+   "say": "Let's gather it up. The oxygen theory said that gases should change yawning. In Provine's 1987 experiments, extra carbon dioxide didn't raise it, pure oxygen didn't lower it, and exercise didn't change it. The studies were small, but they gave the popular idea no support. So we need to look somewhere else for what sets a yawn going.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "title": "Where we are",
+    "items": [
+     "The oxygen idea made a clear prediction",
+     "Extra carbon dioxide did not raise yawning",
+     "Pure oxygen did not lower it",
+     "Exercise did not change it"
+    ]
+   }
+  },
+  {
+   "say": "One of the simplest places to look is the clock. If we want to know what a behaviour is connected to, we can ask people to write down every time they do it, from morning to night, and see where the entries pile up. That is exactly what a group of volunteers did for a whole week, and it's where we're heading now.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "autumn_overlook",
+    "cap": "Next stop",
+    "sub": "Ask the clock"
+   }
+  }
+ ]
+}

@@ -1,0 +1,191 @@
+{
+ "id": "lf54_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The train stops at a small station, and nobody gets on. Oskar looks at the clock on the platform and does a little sum. He was up at six this morning. It's now past ten at night. If he had been writing down every yawn today, he suspects the page would be fairly empty around midday and rather crowded right about now.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "n": 4,
+    "title": "The yawning hours"
+   }
+  },
+  {
+   "say": "In 1987, Provine, together with Heidi Hamernik and Barbara Curchack, published a study that did exactly this. Sixty-four people spent a week keeping a log. They noted when they yawned, when they stretched, and when they went to sleep and woke up. Put together, that adds up to more than a year's worth of days of one person's yawning life.",
+   "show": {
+    "type": "study",
+    "sprite": "N27",
+    "bg": "cafe_sunset",
+    "who": "Robert Provine, Heidi Hamernik and Barbara Curchack",
+    "where": "Ethology, published 1987",
+    "what": "A week of yawn diaries"
+   }
+  },
+  {
+   "say": "The pattern had a clear shape. Yawning was frequent in the period just after waking, and it rose again in the period before going to sleep. The two ends of the waking day were the busy times. The middle was comparatively calm. If you imagine a line drawn across the day, it dips like a shallow valley and climbs on both sides.",
+   "show": {
+    "type": "curve",
+    "sprite": "N29",
+    "bg": "cabin_fireplace",
+    "title": "Yawning across the waking day",
+    "x": "Time since waking",
+    "y": "How often",
+    "peak": 0.1,
+    "label": "busy at both ends"
+   }
+  },
+  {
+   "say": "Yawning before bed fits what most of us expect. We link yawns with tiredness, after all. The morning peak is more interesting. You've just slept. You're about as rested as you're going to be. And there you are, yawning in the kitchen while the kettle boils. Whatever yawning is connected to, it seems to be something more than simply running low on sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Before sleep makes sense",
+    "sub": "After waking is interesting"
+   }
+  },
+  {
+   "say": "One way to read the pattern is that yawns cluster around transitions. In the morning, you're moving from sleep into full alertness. At night, you're moving from alertness toward sleep. Some researchers have suggested that yawning is linked to these shifts, perhaps helping the brain move from one state to another, or perhaps just marking that a shift is under way. It's a reasonable idea that still needs firmer testing.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "autumn_overlook",
+    "cap": "Changing states",
+    "sub": "A doorway idea"
+   }
+  },
+  {
+   "say": "The diaries also tracked stretching, which behaved differently. Stretching peaked after waking, but didn't show the same rise before sleep. And the two were linked in a lopsided way. About forty-seven percent of stretches came with a yawn, while only about eleven percent of yawns came with a stretch. They're friends, then, but not inseparable ones. Most yawns travel alone.",
+   "show": {
+    "type": "bars",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "title": "Yawns and stretches in the diaries",
+    "unit": "percent",
+    "bars": [
+     [
+      "Stretch + yawn",
+      47.0
+     ],
+     [
+      "Yawn + stretch",
+      11.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "A small notebook and pencil beside a clock. Diary studies like this are humble tools. They rely on people noticing what they do and remembering to write it down, so some yawns surely went unrecorded. But they have one great strength: they follow behaviour through real life, across breakfasts, bus rides and bedtimes, in a way a short laboratory visit can't.",
+   "show": {
+    "type": "photo",
+    "file": "lf54_b04_01.jpg",
+    "cap": "A notebook beside a clock"
+   }
+  },
+  {
+   "say": "You might think about your own pattern. When did you last yawn before this evening? Many people find, when they pay attention, that there's a rhythm to it: a few on waking, perhaps some in a sleepy stretch after lunch, and a cluster late at night. Yours may differ. The study describes averages across a group, and any one person can wander a long way from the average.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "Your own diary",
+    "sub": "A thought experiment"
+   }
+  },
+  {
+   "say": "Late night and early morning don't explain everything, though. Think of the yawns that catch you at three in the afternoon, wide awake an hour ago, now sitting through something that doesn't hold your attention. That brings us to the suspect that every teacher knows, and that Oskar spends a certain amount of energy hoping not to see in the third row: boredom.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "cap": "Not only tiredness",
+    "sub": "Another suspect"
+   }
+  },
+  {
+   "say": "Provine and Hamernik tested this directly with a wonderfully simple design, published in 1986. Thirty-two first-year college students came in on two separate days. On one visit they watched thirty minutes of a television colour bar test pattern, with no sound at all. On the other they watched thirty minutes of rock and pop music videos. The order was balanced, and their yawns were counted.",
+   "show": {
+    "type": "study",
+    "sprite": "N01",
+    "bg": "cafe_sunset",
+    "who": "Robert Provine and Heidi Hamernik",
+    "where": "Bulletin of the Psychonomic Society, published 1986",
+    "what": "Colour bars against music videos"
+   }
+  },
+  {
+   "say": "During the silent colour bars, students yawned about five point eight times on average. During the music videos, it was about three point four. That's roughly seventy percent more yawning while staring at the test pattern. Half an hour of unchanging stripes turned out to be a very effective way to make young people yawn. I doubt anyone was surprised, but now it had been counted.",
+   "show": {
+    "type": "bars",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "title": "Average yawns in thirty minutes",
+    "unit": "yawns",
+    "bars": [
+     [
+      "Colour bars",
+      6.0
+     ],
+     [
+      "Music videos",
+      3.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "One honest note. In statistical terms, that difference sat right on the usual borderline for calling a result reliable. So it's good evidence that dull viewing goes with more yawning, but it isn't overwhelming on its own. Among the fourteen students who yawned in both sessions, the yawns were also somewhat longer during the colour bars, at around three point eight seconds against three.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "Read with care",
+    "sub": "A borderline result"
+   }
+  },
+  {
+   "say": "Why would dullness bring on yawns? One suggestion fits with what we heard earlier. When there's little to engage you, your level of alertness starts to sag, yet you're still expected to stay awake. A yawn, with its brief quickening of the heart and its deep breath, might be part of the effort to hold on. That remains a hypothesis, though it's a tidy one.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "What boredom is doing",
+    "sub": "Holding on"
+   }
+  },
+  {
+   "say": "This suggests a kinder way to read a yawn across a table. We often take it as a verdict: you're boring me. Sometimes dullness really is involved. But a person might be yawning because it's late, because they've just woken, because the room is warm, because they saw someone else do it, or because they're working to stay with you. A yawn alone can't tell you which.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "A kinder view of yawns",
+    "sub": "It isn't an insult"
+   }
+  },
+  {
+   "say": "There's one more puzzle that boredom can't explain. Some people report yawning before things that are anything but dull: before a race, a performance or an interview. Oskar has watched young violinists yawn backstage before a concert, wide-eyed and nervous. These are everyday reports more than firm laboratory findings, but they fit the idea that yawns gather around moments when the body is changing gear.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Yawning before big moments",
+    "sub": "A common report"
+   }
+  },
+  {
+   "say": "So we have yawns at waking, yawns before sleep, yawns during dull half hours, and perhaps yawns before exciting ones. To find out how deep this behaviour runs, we can go back much further than this morning, back before a person has ever seen a sunrise. As the train pulls away from the little station, let's look at yawning before birth.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "bedroom_night",
+    "cap": "Next stop",
+    "sub": "Before the very first morning"
+   }
+  }
+ ]
+}

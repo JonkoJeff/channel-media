@@ -1,0 +1,215 @@
+{
+ "id": "lf54_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The student opposite Oskar yawns again, and this time Oskar tries to watch himself closely. He sees the open mouth. A heartbeat or two later, nothing. He thinks he has escaped. Then, perhaps half a minute afterwards, there it is. Contagious yawns often arrive with a delay like this, as though the idea needed a little while to travel from the eyes to the jaw.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "n": 8,
+    "title": "How a yawn travels"
+   }
+  },
+  {
+   "say": "To study this properly, you need a yawn you can switch on at will. Robert Provine's solution was to make videotapes. Some showed a man yawning again and again. Others showed the same man smiling again and again, which gave a fair comparison: a face doing something with its mouth, repeated, but not yawning. Then he simply watched the watchers.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "cap": "Studying it in a room",
+    "sub": "Videotapes of yawns"
+   }
+  },
+  {
+   "say": "In work published in 1986, groups of volunteers watched five minutes of video containing thirty repetitions, either of yawns or of smiles. The question couldn't be more direct. Would people who watched the yawning tape yawn more than people who watched the smiling tape? Provine later summarised the figures in his 2005 article on yawning.",
+   "show": {
+    "type": "study",
+    "sprite": "N27",
+    "bg": "cabin_fireplace",
+    "who": "Robert Provine",
+    "where": "Ethology, published 1986",
+    "what": "Yawns as a trigger for yawns"
+   }
+  },
+  {
+   "say": "Fifty-five percent of those watching the yawns yawned themselves, compared with twenty-one percent of those watching smiles. So seeing yawn after yawn more than doubled the share of people who joined in. Notice, too, that it wasn't everyone. Close to half of the people sat through thirty yawns without giving one back. We'll want to ask why.",
+   "show": {
+    "type": "bars",
+    "sprite": "N29",
+    "bg": "autumn_overlook",
+    "title": "People who yawned while watching",
+    "unit": "percent",
+    "bars": [
+     [
+      "Yawn videos",
+      55.0
+     ],
+     [
+      "Smile videos",
+      21.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "You might assume that the gaping mouth is the trigger. Provine tested that by editing the images. According to his account, a yawning face with the mouth masked out worked about as well as the whole face, while a yawning mouth shown on its own was no more powerful than a smile. The eyes, the head tilt and the rest of the expression seem to carry the message.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Which part of the face?",
+    "sub": "Covering the mouth"
+   }
+  },
+  {
+   "say": "That's a surprising and rather practical result. It suggests that politely covering your mouth with your hand may not stop your yawn from being catching, because the squeezed eyes and the tilted head are still on show. On the train, the student does raise a hand. Oskar sees the eyes crease above it, and the damage is already done.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "cap": "What that means",
+    "sub": "Hiding the mouth isn't enough"
+   }
+  },
+  {
+   "say": "It doesn't even take a face. Provine reported that people who read an article about yawning yawned more than people who read a comparison passage about hiccups. Thirty percent yawned while reading about yawning, against eleven percent of the hiccup readers. And counting those who yawned or felt tempted to, the figures were seventy-five percent against eleven.",
+   "show": {
+    "type": "study",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "who": "Robert Provine",
+    "where": "Summarised in American Scientist, 2005",
+    "what": "Reading and thinking about yawns"
+   }
+  },
+  {
+   "say": "Simply thinking about it could be enough. When volunteers were asked to think about yawning for half an hour, Provine reported that eighty-eight percent of them yawned during that time. Of course, thirty minutes of sitting and thinking about one thing is also fairly dull, so boredom may have lent a hand. Still, it shows how little the system sometimes needs.",
+   "show": {
+    "type": "stat",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "title": "Asked to think about yawning",
+    "big": "88%",
+    "label": "yawned within thirty minutes, in Provine's report"
+   }
+  },
+  {
+   "say": "An open book under a lamp. Words on a page contain no face, no jaw and no sound, only marks that your brain turns into meaning. If those marks can leave a reader yawning, then the trigger isn't a simple visual reflex. The idea of a yawn, once it's vivid in the mind, appears to be able to do the job.",
+   "show": {
+    "type": "photo",
+    "file": "lf54_b08_01.jpg",
+    "cap": "An open book under a warm lamp"
+   }
+  },
+  {
+   "say": "If you've yawned during this video, you've just taken part in an informal version of that experiment. Please don't take it as a reason to leave. As far as I know, this is one of the few subjects where a yawning audience counts as evidence that the speaker is describing things accurately. I'll accept it gratefully.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "If you've just yawned",
+    "sub": "That's the study in action"
+   }
+  },
+  {
+   "say": "In 2003, Steven Platek and colleagues showed sixty-five students a set of short video clips, each seven seconds long. Some clips showed people yawning and others didn't. They recorded who yawned, and they also gave the students questionnaires and tasks concerned with how people think about themselves and about other minds.",
+   "show": {
+    "type": "study",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "who": "Steven Platek, Samuel Critton, Thomas Myers and Gordon Gallup",
+    "where": "Cognitive Brain Research, published 2003",
+    "what": "Who catches it, and what else they're like"
+   }
+  },
+  {
+   "say": "During yawn clips, yawning occurred about forty-one and a half percent of the time on their measure, compared with nine percent for the other clips. And among those who caught yawns, about sixty percent did so more than once. Once again, the yawns really did travel, and once again, they travelled to some people much more readily than to others.",
+   "show": {
+    "type": "bars",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "title": "Yawning during the clips",
+    "unit": "percent",
+    "bars": [
+     [
+      "Yawn clips",
+      42.0
+     ],
+     [
+      "Other clips",
+      9.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The researchers reported that students who yawned contagiously tended to do better on a task about spotting social blunders, which requires thinking about what another person knows and feels. They also scored lower on a questionnaire measuring certain unusual social and thinking styles. The authors suggested that catching yawns might be connected to the capacity to model other people's states.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The extra measures",
+    "sub": "A first hint about empathy"
+   }
+  },
+  {
+   "say": "That suggestion became famous: people who catch yawns are more empathetic. But notice the scale. The follow-up tasks involved a few dozen students, some measures showed no relationship, and a single study can't carry so large a conclusion. We'll weigh the empathy question properly a little later, with much bigger samples. For now, keep it as an interesting lead.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "cap": "Hold that thought",
+    "sub": "Small groups, big idea"
+   }
+  },
+  {
+   "say": "Here's the list of triggers so far. A video of a yawning face. A yawning face with the mouth hidden. An article about yawning. And plain thought about yawning. Researchers have also used recordings of the sound, and many people find that hearing a long, sighing yawn on the telephone is quite enough to set one off.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "title": "Things reported to set off a yawn",
+    "items": [
+     "Watching a yawning face",
+     "A face with the mouth hidden",
+     "Reading about yawning",
+     "Thinking about yawning"
+    ]
+   }
+  },
+  {
+   "say": "What these have in common is that the response gets going without a decision. Nobody in the room with the videotape chose to join in. The perception, or the idea, reaches the movement system more or less directly. You can sometimes dampen it or disguise it once you notice, but the urge arrives first and your opinion about it arrives second.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "Automatic, mostly",
+    "sub": "Before you decide"
+   }
+  },
+  {
+   "say": "Still, that other half deserves our attention. They watched the same tapes. Their eyes worked just as well. Yet no yawn came, or none that anyone could see. Is that because of something steady in their make-up, or just the mood of the moment? If you tested the same person again months later, would you get the same answer?",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cafe_sunset",
+    "cap": "The ones who don't",
+    "sub": "A puzzle in the other half"
+   }
+  },
+  {
+   "say": "A team at Duke University set out to answer that with several hundred volunteers and a three minute video, and they brought some of those people back to do it all again. Their results tidy up some questions and leave one very large one open. The train is slowing for another station. Let's go and look.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "Next stop",
+    "sub": "Three hundred and twenty-eight volunteers"
+   }
+  }
+ ]
+}

@@ -1,0 +1,214 @@
+{
+ "id": "lf54_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The doors slide open at a larger station and several people climb in, shaking rain off their coats. Oskar yawns, and he watches to see who follows. A man with a newspaper does. A girl with headphones doesn't. An older couple carry on talking, untouched. It's the same yawn, seen from much the same distance, and it lands completely differently from one seat to the next.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "autumn_overlook",
+    "n": 9,
+    "title": "Who catches it"
+   }
+  },
+  {
+   "say": "If you had to guess what separates the yawn catchers from everyone else, what would you pick? Perhaps the catchers are more tired. Perhaps they're more empathetic, more tuned in to other people. Perhaps they're paying closer attention, or they're morning people, or night owls. Each of those is a reasonable guess, and a study at Duke University lined many of them up together.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "street_day",
+    "cap": "The obvious guesses",
+    "sub": "Tiredness, empathy, cleverness"
+   }
+  },
+  {
+   "say": "Alex Bartholomew and Elizabeth Cirulli published their work in 2014. Three hundred and twenty-eight healthy volunteers watched a three minute video of people yawning and clicked a button each time they yawned themselves. Some did it in the laboratory and others away from it. They also completed measures of empathy, sleepiness, thinking skills, mood contagion and whether they were morning or evening types.",
+   "show": {
+    "type": "study",
+    "sprite": "N22",
+    "bg": "bedroom_night",
+    "who": "Alex Bartholomew and Elizabeth Cirulli",
+    "where": "PLoS ONE, published 2014",
+    "what": "A three minute yawn video"
+   }
+  },
+  {
+   "say": "Two hundred and twenty-two of them yawned at least once, which is about sixty-eight percent. The numbers per person ran all the way from none to fifteen yawns in three minutes. Picture those two extremes sitting side by side on Oskar's train: one passenger completely unmoved, and the next one yawning every twelve seconds or so.",
+   "show": {
+    "type": "stat",
+    "sprite": "N29",
+    "bg": "street_day",
+    "title": "Out of 328 people",
+    "big": "222",
+    "label": "yawned at least once during a three minute video"
+   }
+  },
+  {
+   "say": "Then the analysts asked which of all those measures could predict how many yawns a person gave. Empathy scores, sleepiness, thinking skills, mood contagion and morning or evening preference all fell away once one other factor was in the picture. That factor was age. On average, the older the participant, the less they yawned in response to the video.",
+   "show": {
+    "type": "char",
+    "sprite": "N14",
+    "bg": "attic_rain",
+    "cap": "What predicted it?",
+    "sub": "One factor stood out"
+   }
+  },
+  {
+   "say": "But here's the number that matters most. Even age accounted for only about eight percent of the variation between people. That leaves more than nine tenths of the difference unexplained by anything the study measured. Knowing someone's age, mood, sleepiness and empathy score would still leave you largely unable to predict whether they would catch your yawn.",
+   "show": {
+    "type": "stat",
+    "sprite": "A12",
+    "bg": "street_day",
+    "title": "How much age explained",
+    "big": "About 8%",
+    "label": "of the differences between people"
+   }
+  },
+  {
+   "say": "Raindrops running down a window with the lights of a station blurred behind them. Each drop finds its own path down the same pane of glass, and you'd struggle to say in advance which way a particular one will go. Yawn catching, at least with the measures researchers have tried, is a bit like that for any single person.",
+   "show": {
+    "type": "photo",
+    "file": "lf54_b09_01.jpg",
+    "cap": "Rain on a train window"
+   }
+  },
+  {
+   "say": "Maybe, then, it's simply random: today you catch yawns, tomorrow you don't. The researchers checked. They invited people to watch again at a later date, often more than two months afterwards. If yawn catching were a matter of passing mood, many people ought to have switched sides between the first session and the second.",
+   "show": {
+    "type": "char",
+    "sprite": "N22",
+    "bg": "attic_rain",
+    "cap": "Is it just chance?",
+    "sub": "Test them again"
+   }
+  },
+  {
+   "say": "Most didn't switch. About seventy-eight percent stayed in the same category, as yawners or non-yawners, and the number of yawns each person gave was strongly related across the two sessions. So your tendency to catch yawns appears to be a fairly stable trait. It's something like a personal signature, even though nobody has yet worked out what writes it.",
+   "show": {
+    "type": "bars",
+    "sprite": "N14",
+    "bg": "bedroom_night",
+    "title": "Did people stay the same?",
+    "unit": "percent",
+    "bars": [
+     [
+      "Same category later",
+      78.0
+     ],
+     [
+      "Switched",
+      22.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "That combination is unusual and rather interesting. The trait holds steady over weeks, so something consistent about each person seems to be behind it. Yet the obvious candidates explain very little. The authors pointed to genetics as one possible direction for future work. That's a suggestion about where to look, and it shouldn't be heard as a gene that has already been found.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "living_room_day",
+    "cap": "Stable but mysterious",
+    "sub": "An unusual combination"
+   }
+  },
+  {
+   "say": "There's one more charming detail. Before watching, about ninety-four percent of the participants expected that they would yawn. In the event, only about sixty-eight percent did. Most of us seem to believe we're thoroughly catchable. Quite a few of us turn out to be less so, at least when someone is counting during three minutes of video.",
+   "show": {
+    "type": "bars",
+    "sprite": "N29",
+    "bg": "cafe_sunset",
+    "title": "What people expected and what they did",
+    "unit": "percent",
+    "bars": [
+     [
+      "Expected to yawn",
+      94.0
+     ],
+     [
+      "Actually yawned",
+      68.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The age pattern comes from adults, so don't stretch it backwards and assume that small children must be the greatest yawn catchers of all. As we'll hear shortly, very young children hardly catch yawns. Whatever the shape across a whole life, it appears to rise during childhood and then, in adults, drift gently downwards with the years.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cabin_fireplace",
+    "cap": "Age and the young",
+    "sub": "Not a simple line"
+   }
+  },
+  {
+   "say": "Why would older adults catch fewer yawns? It could be changes in attention, in where people look, in how strongly they respond to social signals, or in the underlying yawning system itself. These are guesses. The study could show that the pattern exists in its sample. It wasn't designed to show why, and I won't pretend that it did.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "cap": "Why might age matter?",
+    "sub": "Open guesses"
+   }
+  },
+  {
+   "say": "So, in brief: about two thirds of three hundred and twenty-eight people caught at least one yawn. Age was the clearest predictor and still explained only a small slice. The other measures added nothing reliable once age was counted. And people tended to respond in a similar way when tested again weeks later.",
+   "show": {
+    "type": "list",
+    "sprite": "N10",
+    "bg": "autumn_overlook",
+    "title": "The Duke study in brief",
+    "items": [
+     "328 people, three minutes of yawning",
+     "About 68% yawned",
+     "Age explained about 8%",
+     "Most gave a similar response on retest"
+    ]
+   }
+  },
+  {
+   "say": "If you're someone who rarely catches a yawn, you can relax. Plenty of healthy people in these studies didn't. It isn't a diagnosis, and it isn't a measure of your kindness. A single response to a video says very little about the sort of friend, parent or colleague you are. There are far better ways to find that out.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "If you don't catch yawns",
+    "sub": "Nothing to worry about"
+   }
+  },
+  {
+   "say": "And if you're the person who yawns at every picture, every mention and every dog, that's ordinary too. You're simply towards the more catchable end of a very wide range. Oskar, it turns out, is firmly at that end. His pupils discovered this early in the school year and have been quietly experimenting on him ever since.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "cap": "If you catch every one",
+    "sub": "Also fine"
+   }
+  },
+  {
+   "say": "On those occasions he tries very hard to resist. He presses his lips together, breathes through his nose and stares at the music stand. Sometimes it works and sometimes it very much doesn't. Which raises a question about what's happening in the head during that struggle. Can the brain simply say no to a contagious yawn?",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "cafe_sunset",
+    "cap": "Trying to hold it back",
+    "sub": "A familiar struggle"
+   }
+  },
+  {
+   "say": "A team at the University of Nottingham put that question to the test, using video clips of yawns, a simple instruction to resist, and a method that gently stimulates the surface of the brain from outside the head. Let's look at what they found, while Oskar does his best not to look at the man with the newspaper.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Next stop",
+    "sub": "The urge and the brake"
+   }
+  }
+ ]
+}

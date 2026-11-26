@@ -1,0 +1,201 @@
+{
+ "id": "lf54_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's begin very simply. You don't have to breathe in any special way. Just notice that you're breathing already, and have been all evening without any help from you. One breath comes in. It turns, without effort. It goes out again. Let the next one be exactly as long as it wants to be, and the one after that.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "n": 17,
+    "title": "Letting the body go soft"
+   }
+  },
+  {
+   "say": "If it feels pleasant, let the breath out last a little longer than the breath in. Don't strain for it and don't count. Just let the air leave slowly, the way it does at the end of a good yawn, when the shoulders sink and the face goes smooth. If this doesn't feel comfortable, leave it and breathe as you normally would.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "A longer breath out",
+    "sub": "No counting needed"
+   }
+  },
+  {
+   "say": "Bring your attention to your jaw. It has been busy today, speaking, chewing, perhaps clenching when something was difficult. Let the back teeth part a little. Let the hinge on each side, just in front of your ears, become loose. Your lips can stay gently closed or rest slightly open. Either way, the jaw has nothing to hold on to now.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "The jaw",
+    "sub": "The hinge that worked all day"
+   }
+  },
+  {
+   "say": "Now the rest of your face. Let your forehead widen and become smooth. Let the small muscles around your eyes give up their effort, so that your eyelids simply rest, without being squeezed shut. Your cheeks grow soft. Your tongue settles on the floor of your mouth. Your face doesn't need to show anything to anyone for the rest of the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "The face",
+    "sub": "Smoothing out"
+   }
+  },
+  {
+   "say": "Forehead, soft. Eyes, soft. Jaw, soft. Tongue, resting. There's no need to check whether you've done it properly. Even noticing a part of yourself kindly, for a moment, is enough. If something stays a little tight, that's quite all right. You can leave it be, and it may loosen in its own time while you're busy with something else.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "title": "Softening, from the top",
+    "items": [
+     "Forehead",
+     "Eyes",
+     "Jaw",
+     "Tongue"
+    ]
+   }
+  },
+  {
+   "say": "Let your attention drift down into your neck. Whatever is supporting your head can have all of its weight. Your shoulders can drop away from your ears. Imagine you've been carrying two heavy bags up the road from a station in the rain, and now you've set them down just inside the door. Your arms don't have to lift them again tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "Neck and shoulders",
+    "sub": "Putting down the load"
+   }
+  },
+  {
+   "say": "Your upper arms grow heavy. Your elbows rest. Your forearms sink into whatever lies beneath them. And your hands, which have typed and carried and opened doors all day, can lie open, fingers slightly curled, the way they do when a person is asleep. There's nothing for them to reach for. Let each finger be quite still, or move if it likes.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "attic_rain",
+    "cap": "Arms and hands",
+    "sub": "Open fingers"
+   }
+  },
+  {
+   "say": "Soft moonlight falling across folded linen. Picture that cool, pale light moving very slowly over you as the night goes on. It touches your hands, then your arms, then your shoulders, and wherever it rests, things grow quieter. You needn't hold the picture clearly. A vague impression of pale light is more than enough.",
+   "show": {
+    "type": "photo",
+    "file": "lf54_b17_01.jpg",
+    "cap": "Moonlight on folded linen"
+   }
+  },
+  {
+   "say": "Notice your chest rising and falling by itself. Feel your back against the bed or the chair, wide and supported. With each breath out, let a little more of your weight go down into that support. You don't have to hold yourself up. For once, something else is doing all of the holding, and it will carry on doing so while you sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Chest and back",
+    "sub": "Rising and falling"
+   }
+  },
+  {
+   "say": "Let your stomach be soft. Many of us hold it tight without realising, as though bracing for something. There's nothing to brace for here. Allow it to rise with the breath in and fall with the breath out, loosely and roundly. If your mind offers a worry just now, you can notice it, and let the next breath out carry your attention gently back.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "cap": "The stomach",
+    "sub": "Nothing to brace against"
+   }
+  },
+  {
+   "say": "Thoughts will come by. That's what minds do, even very tired ones. You needn't argue with them or chase them away. Watch each one pass like a lit window seen from a train: there for a moment, with its own little scene inside, and then behind you in the dark. Then come back to the breath, whenever you happen to remember it.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "title": "If a thought comes by",
+    "items": [
+     "Notice it",
+     "No need to argue",
+     "Let it pass like a lit window",
+     "Come back to the breath"
+    ]
+   }
+  },
+  {
+   "say": "Let your hips settle and widen. Your thighs, which took you up and down stairs today, can become heavy and warm. Your knees rest, with nothing to straighten for. Down through your calves, the same slow heaviness spreads, like warmth from a cup of tea moving outward. There's no schedule for it. It arrives when it arrives.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "cap": "Hips and legs",
+    "sub": "Heavy and warm"
+   }
+  },
+  {
+   "say": "And finally your feet. They've carried you through the whole day, along pavements and corridors, from the platform to the front door. Now they can fall gently to the sides. Your heels sink. Your toes relax. The road has ended for tonight. If your feet are cold, tuck them in. If they're warm, let them be. Either way, they're finished.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "Feet",
+    "sub": "The end of the road"
+   }
+  },
+  {
+   "say": "Now let your attention spread out to take in your whole body at once, from the crown of your head to the tips of your toes, lying here, breathing. It doesn't need to be sharp. It can be a soft, general sense of being heavy and held. This body knows how to sleep. It has done it thousands of times without instructions.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "The whole of you",
+    "sub": "Resting together"
+   }
+  },
+  {
+   "say": "If a yawn rises now, let it be a good one. Let the jaw swing wide, let the breath pour in, let your eyes water if they want to. Feel it hold for a moment at the very top, and then feel everything fall away on the way out, a little further down than where you started. And if no yawn comes, that's equally fine.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "A yawn is welcome",
+    "sub": "Let it come"
+   }
+  },
+  {
+   "say": "A soft face. Loose shoulders. Open hands. Quiet legs. Stay with this for as long as it's pleasant, and don't worry if the list slips away from you. Forgetting where you'd got to is often one of the first gentle signs that sleep is somewhere nearby, taking its time and in no hurry to announce itself.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "title": "Resting here",
+    "items": [
+     "Soft face",
+     "Loose shoulders",
+     "Open hands",
+     "Quiet legs"
+    ]
+   }
+  },
+  {
+   "say": "In a moment we'll walk back through Oskar's journey, this time as a plain, slow story, with nothing to weigh or decide. You've heard it all once already, so nothing in it can surprise you. Familiar things are easy to fall asleep to. Let the pictures come and go as they please, and drift off wherever you like along the line.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Room to wander",
+    "sub": "Back to the evening"
+   }
+  },
+  {
+   "say": "Take one more easy breath. And one more after that. Somewhere in your imagination, a platform appears under yellow lamps, wet and shining. A late train stands waiting with its doors open. There's no need to run for it. It won't leave until you're comfortably in your seat, and there's a seat by the window that nobody else wants.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "rooftop_dusk",
+    "cap": "Breathing, then the train",
+    "sub": "One quiet pause"
+   }
+  }
+ ]
+}

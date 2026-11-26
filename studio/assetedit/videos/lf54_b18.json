@@ -1,0 +1,190 @@
+{
+ "id": "lf54_b18",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The train begins to move so gently that you hardly feel it start. The lamps of the platform slide past one by one. Oskar is in the seat across from you, his bag on his knees, his tie loosened. He gives you a small nod, the kind that asks for no conversation, and turns to look at his own reflection in the window.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "n": 18,
+    "title": "The slow ride home"
+   }
+  },
+  {
+   "say": "Beyond the glass there are fields you can't quite make out. A farmhouse with one lit window. A level crossing with its little red lamps. A long stretch of nothing at all. The wheels keep up their even rhythm underneath you. You don't need to know where you are on the line. Somebody else is driving, and the track goes only one way.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Fields in the dark",
+    "sub": "Nothing to see, and that's fine"
+   }
+  },
+  {
+   "say": "Across the aisle a woman opens her mouth in a long, slow yawn. You watch it rise and hold and fall. Oskar catches it. Perhaps you do too. Nobody says a word. For a moment three tired people, who know nothing about one another, are doing exactly the same thing, and then each goes back to their own quiet thoughts.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "The first yawn again",
+    "sub": "A stranger across the aisle"
+   }
+  },
+  {
+   "say": "The train stops at a small station. A clock glows above an empty bench. Late in the evening, one of the busy yawning hours, if the diaries are anything to go by. The doors open, cool air drifts in, smelling of rain and wet leaves, and nobody gets on. The doors close again, softly, and the rhythm of the wheels returns.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The little station",
+    "sub": "A clock on the platform"
+   }
+  },
+  {
+   "say": "A little station platform in the rain, with one warm lamp and a bench. It's the sort of place you pass without ever learning its name. Let it slide by. There's something restful about all the places that don't need anything from you, that carry on perfectly well in the dark while you go past on your way to bed.",
+   "show": {
+    "type": "photo",
+    "file": "lf54_b18_01.jpg",
+    "cap": "A rainy station platform"
+   }
+  },
+  {
+   "say": "Somewhere out there, in one of those houses, a baby yawns an enormous yawn and goes straight back to sleep. It hasn't caught it from anyone. It's simply doing what people do from the very beginning, opening wide, holding for a moment, closing again. Its parents watch, tired and fond, and one of them, inevitably, yawns as well.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "A baby somewhere",
+    "sub": "Dreaming and yawning"
+   }
+  },
+  {
+   "say": "Out in the fields, cattle lie with their legs folded under them. Birds have fluffed their feathers in the hedges. A fox stretches at the start of her night. Far away, on a grassland where it's the same late hour, a lion yawns beside another lion, and after a little while the second yawns too, and neither of them is in any rush.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Animals settling",
+    "sub": "Fox, bird and cow"
+   }
+  },
+  {
+   "say": "The family is still here, further down the carriage. The small boy sleeps against his father's shoulder with his mouth open. His father is trying to stay awake for their stop, and losing, and recovering, and losing again. His mother smiles at the window. Someday the boy will catch their yawns. Tonight he only needs to sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "cap": "The family aboard",
+    "sub": "A sleeping boy"
+   }
+  },
+  {
+   "say": "And now Oskar stands, lifts his bag and gives you another small nod. This is his stop. You watch him walk along the wet platform with his collar turned up, past the lamp, up the steps and out into the street. In ten minutes he'll hear claws on the floorboards behind a front door, and he'll know that he's home.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Oskar's station",
+    "sub": "Rain on his collar"
+   }
+  },
+  {
+   "say": "You travel on a little further. The carriage is very quiet now. The lights seem lower than before. You can let your head rest against the window, or against your own soft pillow, which has been here underneath you all along. The rocking is slow. The rain makes thin silver lines across the glass, and each one fades before you've finished watching it.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "You travel on",
+    "sub": "A little further"
+   }
+  },
+  {
+   "say": "A lit window, and then it's gone. A row of dark trees. The hollow sound of a bridge, there and finished. Fields, and more fields. Nothing here asks to be remembered. You can let each thing arrive and leave without giving it a name, and notice, if you notice anything at all, how long the gaps between them are becoming.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "title": "Passing by",
+    "items": [
+     "A lit window",
+     "A row of trees",
+     "A bridge",
+     "Quiet fields"
+    ]
+   }
+  },
+  {
+   "say": "Your own day is somewhere far back along the line now. Whatever went well in it is safely done. Whatever didn't can wait. You can't repair anything from this seat, and you aren't being asked to. Tomorrow has its own train. For tonight, it's enough that you got through today, and that you're warm and still.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "cap": "The day behind you",
+    "sub": "Set down"
+   }
+  },
+  {
+   "say": "If there's one thought to take with you, let it be a gentle one. Your body does a great many things on your behalf without being asked. It breathes, it keeps its warmth, it stretches in the morning and yawns at night. It's been looking after you in small ways since before you could look after anything. You can trust it with this night too.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "Kindness to yourself",
+    "sub": "One gentle thought"
+   }
+  },
+  {
+   "say": "The words can grow further apart now. The wheels are turning more slowly. The rain is soft. Your breath comes in, and goes out. Your jaw is loose. Your hands are open. There's nothing left to follow and nothing left to find. If you're still awake, that's perfectly all right. Resting quietly is a good way to spend these minutes.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "Slower now",
+    "sub": "Words with room around them"
+   }
+  },
+  {
+   "say": "You don't have to watch for your stop. There isn't one you can miss. Let the carriage carry you through the dark, past one more lamp, then past a long, long stretch with no lamps at all. If your thoughts are becoming strange and loose, joining things that don't usually belong together, let them. That's only sleep, arriving by its own road.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "bedroom_night",
+    "cap": "Drifting",
+    "sub": "No stop to watch for"
+   }
+  },
+  {
+   "say": "Stay here as long as you like. The seat is yours. The window is cool against the night and the air around you is warm. Somewhere a dog sighs and settles on a rug. Somewhere a kettle cools. Somebody yawns, far off, and the sound reaches you very faintly, and it doesn't matter at all whether you answer.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Staying here",
+    "sub": "As long as you like"
+   }
+  },
+  {
+   "say": "So there's only one thing left to say. Thank you for the company, and for your curiosity tonight. Be gentle with yourself, now and tomorrow. Rest well, or sleep well. And the next time a stranger's yawn travels across a room and finds you, you can let it come, smile a little, and remember this ride. We'll see you next time.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Goodnight",
+    "sub": "Rest well"
+   }
+  },
+  {
+   "say": "Next time, we'll look at another small mystery of everyday life, the tears that arrive when we're sad, moved or overwhelmed, and ask what researchers have found about why people cry.",
+   "show": {
+    "type": "end",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "next": "Why Humans Cry"
+   }
+  }
+ ]
+}

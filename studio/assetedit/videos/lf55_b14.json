@@ -1,0 +1,191 @@
+{
+ "id": "lf55_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The music fades behind Hugo as he walks on. The path here is darker, running between the canal and a long hedge, and he can hear small creatures rustling in the leaves. He thinks of his old friend Pieter from the bus depot, a kind and gentle man, who once told him he hadn't cried in thirty years and didn't know why. Was something wrong with him?",
+   "show": {
+    "type": "chapter",
+    "sprite": "N14",
+    "bg": "attic_rain",
+    "n": 14,
+    "title": "When tears don't come"
+   }
+  },
+  {
+   "say": "Our tenth and final belief is a quieter one, but it can hurt people. It's the idea that if someone doesn't cry, they don't really feel. A dry-eyed person at a funeral must be cold. A partner who never cries must not care very much. As we'll see, the relationship between feeling and tears is much looser than that.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "The belief",
+    "sub": "If you don't cry, you don't feel"
+   }
+  },
+  {
+   "say": "Some people find it very hard or impossible to cry, even when they feel deeply. Vingerhoets has been studying this with the neurologist Michael Trimble of University College London. After Trimble gave an interview to the BBC, about nine hundred people emailed to say that they couldn't cry and would like to volunteer for research. That's a lot of people, from a single interview, quietly carrying the same puzzle.",
+   "show": {
+    "type": "char",
+    "sprite": "A09",
+    "bg": "bedroom_night",
+    "cap": "More common than you'd think",
+    "sub": "People who cannot cry"
+   }
+  },
+  {
+   "say": "There are many reasons why someone might not cry. Some are about upbringing: a childhood where tears were mocked or punished can teach a person to switch them off very early. Some are about personality and attachment, as we saw with the dismissive style. Some are about medication or health. And for some people, there's no obvious reason at all. Their feelings are there, but the tears don't follow.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "living_room_day",
+    "cap": "Many reasons",
+    "sub": "Not one cause"
+   }
+  },
+  {
+   "say": "One unusual group gives us a clue about what tears might do for the person crying. Sjögren's syndrome is a condition in which the body's tear and saliva glands produce much less fluid, so people can find it very hard to shed tears. In 2012, Nienke van Leeuwen at Utrecht University reported on patients with this condition.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "who": "Nienke van Leeuwen and colleagues",
+    "where": "Clinical and Experimental Rheumatology, published 2012",
+    "what": "Sjögren's syndrome and feelings"
+   }
+  },
+  {
+   "say": "She found that twenty-two percent of patients with Sjögren's syndrome had significantly more difficulty identifying their own feelings than people in a comparison group. That doesn't prove that the lack of tears caused the difficulty. A long illness affects people in many ways. But it raises the intriguing possibility that tears help us notice, as well as show, what we feel.",
+   "show": {
+    "type": "stat",
+    "sprite": "N28",
+    "bg": "cabin_fireplace",
+    "title": "Patients with Sjögren's syndrome who had significantly more difficulty identifying their feelings",
+    "big": "22%",
+    "label": "compared with people without the condition"
+   }
+  },
+  {
+   "say": "Robert Provine, whose tear-removal study we met earlier, argued that eye doctors tend to treat dry eye purely as a medical problem, overlooking its psychological and social effects. If tears are part of how people signal sadness and ask for comfort, then losing them could affect relationships too. It's an interesting idea, although it's an argument rather than a tested finding.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "cap": "Provine's complaint",
+    "sub": "Dry eyes are more than an eye problem"
+   }
+  },
+  {
+   "say": "A dark country path running beside a tall hedge, a few dry leaves on the ground and a soft lamp far ahead. Not every feeling shows itself on the surface. Some move quietly underneath, like the small creatures in the hedge, present and alive even when nothing can be seen.",
+   "show": {
+    "type": "photo",
+    "file": "lf55_b14_01.jpg",
+    "cap": "A hedge-lined path at night"
+   }
+  },
+  {
+   "say": "You might expect people with depression to cry much more than others. The picture is more complicated. In Frey's early work, depressed people didn't cry much more than other people. And a 2003 study by Jonathan Rottenberg and colleagues found that after a tear-inducing film, the calming shift in the nervous system seen in other criers didn't appear in criers who were depressed. Tears may not bring the same relief when someone is very low.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Depression and tears",
+    "sub": "Not as simple as more crying"
+   }
+  },
+  {
+   "say": "What this suggests is that crying doesn't work the same way for everyone. When someone is very low, the tears may come without the calming shift that sometimes follows in other people. The same outward cry can work differently inside different people. And for those who are struggling, kind support may matter even more than the tears themselves.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "title": "What this suggests",
+    "items": [
+     "Tears may not soothe when someone is very low",
+     "The same cry can work differently in different people",
+     "Support matters even more"
+    ]
+   }
+  },
+  {
+   "say": "That's worth saying gently. If you've noticed that you're crying far more than usual, or that you feel unable to cry at all while also feeling low, flat or hopeless for weeks at a time, that's a good reason to talk to a doctor or another health professional. Changes in crying aren't a diagnosis. But they can be one of the body's ways of telling you that something needs care.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "A gentle word",
+    "sub": "When to seek help"
+   }
+  },
+  {
+   "say": "There's also the opposite case: tears without the feeling behind them. The phrase crocodile tears describes crying that's put on to persuade or manipulate. Vingerhoets has described research linking this kind of strategic crying to personality traits such as neuroticism and narcissism. Actors, meanwhile, are said to produce real tears on stage by calling up stored memories of their own emotional experiences.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "Crocodile tears",
+    "sub": "Tears that aren't what they seem"
+   }
+  },
+  {
+   "say": "So the link between feeling and tears is real but loose. Some people feel deeply and rarely cry. Some cry easily, at almost anything, and that doesn't mean their feelings are shallow. A few can produce tears with very little feeling at all. Tears are one possible outlet for emotion, shaped by biology, upbringing, health and culture, not a direct gauge of how much someone cares.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "title": "Feeling and tears are loosely linked",
+    "items": [
+     "Some feel deeply but rarely cry",
+     "Some cry with little feeling",
+     "Upbringing shapes the link",
+     "Health and medication can change it"
+    ]
+   }
+  },
+  {
+   "say": "Vingerhoets has pointed out that crying also follows the ordinary rules of learning. If a child's tears reliably bring attention, they may cry more often. If tears are met with mockery, a child may learn to swallow them. That's not a reason to ignore a crying child. It's simply a reminder that each of us learned, long ago, how freely our tears were allowed to flow.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "rooftop_dusk",
+    "cap": "Learned tears",
+    "sub": "Children and attention"
+   }
+  },
+  {
+   "say": "Hugo thinks of his friend Pieter again, who never cried, and of his own father, who never cried either. Two quiet men. Perhaps one had learned to hold tears back as a boy, and the other simply never had many to shed. From the outside, they looked alike. Inside, they may have been entirely different, and both of them deeply feeling men.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Hugo and Pieter",
+    "sub": "Two kinds of quiet"
+   }
+  },
+  {
+   "say": "So the tenth belief is a myth, and sometimes an unkind one. Not crying doesn't mean not feeling. A dry-eyed mourner may be grieving deeply, and a partner who never cries may care enormously. If anything, the evidence suggests that people who can't cry may be missing a useful tool, not a heart. Pieter, Hugo thinks, was one of the kindest men he ever knew.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "title": "The verdict on dry eyes",
+    "items": [
+     "Not crying is not the same as not feeling",
+     "A dry-eyed mourner may grieve deeply",
+     "People who cannot cry may lack a tool, not a heart"
+    ]
+   }
+  },
+  {
+   "say": "The hedge ends, and Hugo can see the lights of his own street at the top of a short slope. He's almost home. The family will be there soon, arguing cheerfully about who forgot whose scarf. He slows down a little. There's one more thing he wants to think through before he goes in: what, after all this, he should actually do with what he's learned.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "cap": "Nearly home",
+    "sub": "The lights of his street"
+   }
+  }
+ ]
+}

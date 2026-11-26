@@ -1,0 +1,198 @@
+{
+ "id": "lf55_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The path widens beside a small boatyard, where a few narrowboats are tied up for the winter, their windows dark. Hugo sits for a moment on a cold bench. He's thinking about babies, and about how much crying fills those first months of life, the night feeds, the pacing up and down, the relief when a small face finally relaxes into sleep.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "n": 5,
+    "title": "Crying before tears"
+   }
+  },
+  {
+   "say": "Here's a smaller belief, one that many people hold without ever thinking about it: that babies cry tears from the very beginning, just as adults do. It's an easy assumption to make. Newborns cry often and loudly. Their faces crumple, their mouths open wide, and the sound is impossible to ignore. Surely the tears are there as well.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "autumn_overlook",
+    "cap": "A different kind of belief",
+    "sub": "Babies cry tears from the start"
+   }
+  },
+  {
+   "say": "In fact, the sound and the tears don't arrive together. In their 2009 paper on tears as signals, Robert Provine and his colleagues noted that emotional tearing doesn't appear until several months after birth. Newborns have the basic tear film that protects their eyes, but the flowing emotional tears that adults know usually come later. For the first stretch of life, crying is almost entirely a sound.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "What researchers describe",
+    "sub": "The sound comes first"
+   }
+  },
+  {
+   "say": "That makes sense when you think about what a newborn needs. A baby can't walk to you or explain what's wrong. Its cry has to carry across a room, through a closed door, into the middle of the night. A silent tear would be useless in a dark nursery. A loud, rising cry is exactly the kind of signal that brings someone running.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "cap": "A sound built to be heard",
+    "sub": "And hard to ignore"
+   }
+  },
+  {
+   "say": "A young baby's cry can mean many things. Hunger, discomfort, tiredness, or simply the need to be held. Parents slowly learn to guess which is which, often by trial and error in the middle of the night. What matters, from the baby's point of view, is that the cry gets someone to come. Working out the reason can be left to the grown-ups.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "title": "What a young baby's cry can mean",
+    "items": [
+     "I'm hungry",
+     "I'm uncomfortable",
+     "I'm tired",
+     "I need to be held"
+    ]
+   }
+  },
+  {
+   "say": "And there's something else hidden in those first cries. In 2009, Birgit Mampe, Kathleen Wermke and their colleagues published a study in Current Biology. They recorded the cries of sixty newborns, thirty from French families and thirty from German families, when the babies were just two to five days old, and then analysed the melody of each cry, the way its pitch rose and fell.",
+   "show": {
+    "type": "study",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "who": "Birgit Mampe, Angela Friederici, Anne Christophe and Kathleen Wermke",
+    "where": "Current Biology, published 2009",
+    "what": "Cries of French and German newborns"
+   }
+  },
+  {
+   "say": "The difference was striking. The French newborns more often produced cries with a rising melody, climbing towards the end. The German newborns more often cried with a falling melody, starting loud and high and then sloping down. Those patterns echo the two languages. French words often carry their stress at the end, so the voice rises. German tends to do the opposite.",
+   "show": {
+    "type": "bars",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "title": "Newborns recorded",
+    "unit": "babies",
+    "bars": [
+     [
+      "French families",
+      30.0
+     ],
+     [
+      "German families",
+      30.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "How could a baby only a few days old already cry with an accent? The researchers' explanation is that babies can already hear in the womb before they are born. Through the walls of the body, the individual sounds of words are muffled, but the melody and rhythm come through. The newborns seem to have absorbed those patterns and reproduced them in their very first cries.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "How could a newborn know?",
+    "sub": "Listening in the womb"
+   }
+  },
+  {
+   "say": "As always, a caveat. This was a single study comparing two languages, with thirty babies in each group. It's a fascinating finding and it fits other work on how babies learn sound before birth, but it doesn't mean every baby's cry can tell you their family's language. It's a glimpse of how early learning begins, not a test you could run in a hospital.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "cap": "A small caveat",
+    "sub": "One study, two languages"
+   }
+  },
+  {
+   "say": "An empty wooden cradle beside a window, with a knitted blanket folded inside and soft lamplight on the floor. Every family that has rocked a cradle like this knows the sound of a young baby's cry, and how much of the night it can fill. Researchers have tried to measure exactly how much.",
+   "show": {
+    "type": "photo",
+    "file": "lf55_b05_01.jpg",
+    "cap": "A small cradle in soft lamplight"
+   }
+  },
+  {
+   "say": "In 2017, Dieter Wolke, Ayten Bilgin and Muthanna Samara published a review in The Journal of Pediatrics. They pooled twenty-eight diary studies, covering eight thousand six hundred and ninety infants, in which parents had recorded how long their babies fussed and cried each day. It's one of the largest attempts to answer a simple question: how much crying is normal?",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "who": "Dieter Wolke, Ayten Bilgin and Muthanna Samara",
+    "where": "The Journal of Pediatrics, published 2017",
+    "what": "28 diary studies of infant crying"
+   }
+  },
+  {
+   "say": "In the first six weeks, average fussing and crying across the studies came to between about one hundred and seventeen and one hundred and thirty-three minutes a day. That's roughly two hours, every day, on average. By ten to twelve weeks, the average had fallen to about sixty-eight minutes. And these are averages; some babies cried far more and some far less.",
+   "show": {
+    "type": "stat",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "title": "In the first six weeks, babies fussed and cried for about",
+    "big": "2 hours",
+    "label": "a day on average, across the pooled studies"
+   }
+  },
+  {
+   "say": "You may have heard that crying peaks at exactly six weeks for every baby. Interestingly, the review found no statistical evidence for a universal crying peak at six weeks. Crying was high through the early weeks and then declined. The authors also found that the rate of colic, meaning very long bouts of crying, was lowest in Denmark and Japan, so perhaps care and culture play some part, though the review couldn't say why.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "living_room_day",
+    "cap": "No universal peak",
+    "sub": "A surprise in the data"
+   }
+  },
+  {
+   "say": "Hugo remembers those nights well. Walking the hallway at three in the morning with his first child on his shoulder, humming the same tune over and over, watching the streetlight through the curtains. It felt endless at the time. Now it seems like a few short weeks. Most parents, he suspects, remember the crying more clearly than the moment it finally began to fade.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "autumn_overlook",
+    "cap": "Hugo remembers the nights",
+    "sub": "Pacing the hallway"
+   }
+  },
+  {
+   "say": "Here's an important point for our bigger question. The Frontiers in Psychology review we met earlier describes infant distress cries as having no direct soothing effect on the baby. A young baby's relief comes from the comfort the cry brings: being picked up, fed, held and rocked. In other words, crying begins life as a call for help. Its calming power lies in the people who answer it.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "title": "Where a baby's comfort comes from",
+    "items": [
+     "Being picked up",
+     "Being fed",
+     "Being held and rocked"
+    ]
+   }
+  },
+  {
+   "say": "As children grow, tears arrive and the reasons for crying multiply. Vingerhoets has described how crying follows normal social and emotional development. Fear of strangers, for example, brings a new kind of crying. Later, the development of guilt and empathy brings others. A toddler cries over a fall; a ten-year-old might cry over a friend's unkindness.",
+   "show": {
+    "type": "char",
+    "sprite": "N14",
+    "bg": "neon_alley_rain",
+    "cap": "Then tears arrive",
+    "sub": "And so do new reasons"
+   }
+  },
+  {
+   "say": "Hugo stands up from the bench, rubbing his hands. It occurs to him that his tears in the school hall were a long way from a newborn's cry. Nobody was coming to pick him up. He wasn't asking for anything at all. So why does he feel, even now, a little better than he did an hour ago? That's the most popular belief of all, and our next stop.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "cap": "Hugo stands up",
+    "sub": "The bench is cold"
+   }
+  }
+ ]
+}

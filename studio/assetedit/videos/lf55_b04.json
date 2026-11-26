@@ -1,0 +1,195 @@
+{
+ "id": "lf55_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The dog behind the wall has gone quiet. Hugo walks on past a row of narrow gardens, each with a small light in a kitchen window. He thinks about the spaniel next door, and about every film he's seen where an elephant or a horse seems to cry. Is that real, or is it something we see because we want to?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "n": 4,
+    "title": "Do animals weep?"
+   }
+  },
+  {
+   "say": "The third belief is that animals weep from sadness, just as we do. It's a warm idea, and you can see why it's popular. Many animals clearly feel distress, and many of them make sounds when they're separated, hurt or frightened. Pets can look sorrowful, and their eyes are sometimes wet. So it seems natural to assume that their tears mean what ours do.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "The belief",
+    "sub": "Animals cry when they're sad"
+   }
+  },
+  {
+   "say": "It helps to separate two things that we usually bundle together. One is the distress call: the whimper, the howl, the bleat, the cry of a lost chick. The other is the shedding of tears because of a feeling. In humans, the two often come together. But in the animal world, as far as researchers can tell, they come apart.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Two different things",
+    "sub": "Sounds and tears"
+   }
+  },
+  {
+   "say": "Charles Darwin thought about this in his 1872 book on the expression of emotions in humans and animals. He wrote that we must look at weeping as an incidental result, as purposeless as the secretion of tears from a blow outside the eye. In other words, he saw emotional tears as a kind of side effect, a spill-over from muscles and glands, with no real job of their own.",
+   "show": {
+    "type": "quote",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "text": "We must look at weeping as an incidental result, as purposeless as the secretion of tears from a blow outside the eye",
+    "by": "Charles Darwin, 1872"
+   }
+  },
+  {
+   "say": "Darwin was an extraordinary observer, but on this point many modern researchers think he was only partly right. He was right that animals make distress sounds that resemble our crying. But the claim that tears serve no purpose is now widely challenged. Later tonight, we'll see evidence that tears do quite a lot, though mostly in the eyes of the people watching.",
+   "show": {
+    "type": "char",
+    "sprite": "N14",
+    "bg": "attic_rain",
+    "cap": "Was Darwin right?",
+    "sub": "Half right, perhaps"
+   }
+  },
+  {
+   "say": "So what do animals actually do? Nonhuman primates, our closest relatives, make crying sounds when they're distressed, especially the young when they're separated from their mothers. But according to researchers such as Ad Vingerhoets, no other known animal sheds tears in response to something unpleasant in the way that humans do. A chimpanzee can sound heartbroken. Its cheeks, as far as anyone has documented, stay dry.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "What researchers report",
+    "sub": "Distress calls, but no tears"
+   }
+  },
+  {
+   "say": "None of this is to say that animals don't feel. Many animals clearly show distress. Many call out when they're separated from those they depend on. Some plainly seek comfort from others. What researchers haven't found is an animal that sheds tears from sadness. The feeling seems to be widely shared. The tears, so far, do not.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "title": "What we can say about animal feelings",
+    "items": [
+     "Many animals show distress",
+     "Many make calls when separated",
+     "Some clearly seek comfort",
+     "None weep tears in sadness, as far as is known"
+    ]
+   }
+  },
+  {
+   "say": "A brick garden wall at night with ivy climbing over it and a single lit window beyond. Somewhere behind walls like this, animals are sleeping, dreaming and occasionally calling out. Many of them feel things we'd recognise. The question isn't whether animals have feelings. It's whether their feelings come out through their tear glands.",
+   "show": {
+    "type": "photo",
+    "file": "lf55_b04_01.jpg",
+    "cap": "A quiet garden wall at night"
+   }
+  },
+  {
+   "say": "Animals certainly have tears. Dogs, cats, horses and many other species keep their eyes moist with them and wash out grit and dust, just as our basal and reflex tears do. A dog with watery eyes may have an irritation, an allergy or a blocked tear duct. That's why vets look closely at a weepy eye. It's usually a sign about the eye itself, not about the animal's mood.",
+   "show": {
+    "type": "list",
+    "sprite": "N07",
+    "bg": "autumn_overlook",
+    "title": "What animal tears do",
+    "items": [
+     "Keep the eye moist",
+     "Wash out dust and grit",
+     "Protect against infection"
+    ]
+   }
+  },
+  {
+   "say": "And yet there's a recent surprise. In 2022, a team in Japan including Kaori Murata and Takefumi Kikusui published a short report in Current Biology. They measured the amount of tear fluid in dogs' eyes before and after the dogs were reunited with their owners. Tear volume rose after the reunion with the owner, but not after a reunion with an unfamiliar person.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "who": "Kaori Murata, Takefumi Kikusui and colleagues",
+    "where": "Current Biology, published 2022",
+    "what": "Dogs reunited with their owners"
+   }
+  },
+  {
+   "say": "The researchers suspected a hormone called oxytocin, which is linked to bonding and closeness. When they placed an oxytocin solution in the dogs' eyes, tear volume increased as well. They also showed people photos of dogs' faces with and without artificial tears added. People responded more positively to the teary-eyed dogs, which hints that moist eyes might help a dog's bond with its humans.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "cap": "A clue from a hormone",
+    "sub": "Oxytocin"
+   }
+  },
+  {
+   "say": "Now the caveats, and there are several. The dogs' eyes became moist, but tears didn't run down their faces. Only happy reunions were tested, not sad or painful situations. It's a single early study, and the researchers themselves describe it as possibly the first of its kind. And the idea began with one observation: a poodle nursing her puppies whose eyes seemed to be teary.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "title": "Honest caveats",
+    "items": [
+     "Tears welled up but did not fall",
+     "Only happy reunions were tested",
+     "It is one early study",
+     "The idea began with a single poodle"
+    ]
+   }
+  },
+  {
+   "say": "So do dogs cry with emotion? Not in the way we do. There's no evidence that dogs shed streaming tears in sadness. But the 2022 study raises the intriguing possibility that, at least in dogs, the eyes can grow moister at moments of strong social feeling. If it holds up, it would be a small, damp crack in the old idea that emotional tears are entirely ours.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "cap": "So, do dogs cry?",
+    "sub": "Not like us, but maybe a little"
+   }
+  },
+  {
+   "say": "The verdict on the third belief, then, is mostly myth. Many animals cry out in distress, and many feel things deeply, but streaming emotional tears appear to be a human speciality. The dog study leaves the door slightly open, and that's how good science often looks: a firm general answer, and one small observation that keeps people curious.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "The verdict on animal tears",
+    "items": [
+     "Many animals cry out in distress",
+     "Streaming emotional tears seem uniquely human",
+     "Dogs' eyes may moisten at reunions"
+    ]
+   }
+  },
+  {
+   "say": "That leaves a big question hanging. If emotional tears are so rare in nature, why did humans end up with them? Hugo turns this over as he walks. Babies cry from the moment they're born, he remembers, red-faced and furious. But did his own children have tears in those first weeks? He can't remember. That's where our next stop begins.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "Why only us?",
+    "sub": "A question for later"
+   }
+  },
+  {
+   "say": "The psychologist Robert Provine, whom we'll meet properly a little later, once put it like this: tears add valence and nuance to the perception of faces. In other words, they change how others read us. If that's true, it might help explain why tears are so rare in nature. A signal only matters if somebody close is watching, and humans are unusually watchful of one another's faces.",
+   "show": {
+    "type": "quote",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "text": "Tears add valence and nuance to the perception of faces",
+    "by": "Robert Provine"
+   }
+  },
+  {
+   "say": "He glances back along the canal. The school is far behind now, just a few lit windows above the trees. Somewhere inside, his granddaughter is probably laughing with her friends, pleased the concert is over. Hugo remembers the first time he held her, a tiny bundle making a thin, wavering cry. That sound, it turns out, carries a surprising amount of information.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cabin_fireplace",
+    "cap": "Hugo looks back",
+    "sub": "The school lights behind him"
+   }
+  }
+ ]
+}

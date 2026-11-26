@@ -1,0 +1,187 @@
+{
+ "id": "lf55_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The canal passes behind an old brick factory, its tall windows dark, a clock on the wall stopped years ago at twenty to four. Hugo glances up at it. Time, he thinks. When he cried at the funeral, he didn't feel better straight away. That came later, in the evening, sitting in the kitchen with a cup of tea. Perhaps relief needs a little while to arrive.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A20",
+    "bg": "cabin_fireplace",
+    "n": 8,
+    "title": "The ninety minute turn"
+   }
+  },
+  {
+   "say": "For decades, laboratory studies produced a stubborn puzzle. Researchers showed volunteers sad films, recorded who cried, and measured mood before and after. The Frontiers in Psychology review lists several such studies, from 1988, 1991, 1994 and 2002. Their findings were consistent: people who cried during the film reported a worse mood afterwards than people who didn't. That's the opposite of the popular belief.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "cap": "The lab puzzle",
+    "sub": "Sad films, worse moods"
+   }
+  },
+  {
+   "say": "The reviewers offered several reasons why the lab might be different from real life. In the laboratory, there's usually nobody to comfort you. You may feel watched and embarrassed. You can't change what happens in the film, so there's no resolution. And crucially, mood was usually measured straight after the crying, leaving no time for anything to change.",
+   "show": {
+    "type": "list",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "title": "Why the lab might differ",
+    "items": [
+     "No comfort from anyone",
+     "Strangers watching",
+     "No control over the story",
+     "Mood measured right away"
+    ]
+   }
+  },
+  {
+   "say": "That last point inspired a neat experiment. In 2015, Asmir Gračanin and colleagues in Croatia and the Netherlands published a study in the journal Motivation and Emotion. Sixty volunteers watched two films known for making audiences cry: Life Is Beautiful, and Hachi, A Dog's Tale. Twenty-eight of them cried, and thirty-two did not. The key change was in the timing of the mood checks.",
+   "show": {
+    "type": "study",
+    "sprite": "A05",
+    "bg": "autumn_overlook",
+    "who": "Asmir Gračanin and colleagues",
+    "where": "Motivation and Emotion, published 2015",
+    "what": "Two tearjerker films and three mood checks"
+   }
+  },
+  {
+   "say": "Instead of measuring mood only once, straight after the films, the researchers measured it three times: immediately afterwards, twenty minutes later, and ninety minutes later. That simple change let them watch the emotional story unfold over the following hour and a half, rather than taking a single snapshot at the lowest point.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "title": "When mood was measured",
+    "items": [
+     "Right after the films",
+     "Twenty minutes later",
+     "Ninety minutes later"
+    ]
+   }
+  },
+  {
+   "say": "And here's what they saw. For the people who didn't cry, mood barely moved at all. For the criers, mood dropped noticeably right after the films. By twenty minutes later, it had climbed back to where it had been before the films began. And by ninety minutes, the criers' mood was actually higher than at the start. Down first, then back, then a little above.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "title": "The criers' mood after the films",
+    "items": [
+     "Right after: lower than before",
+     "20 minutes later: back to the start",
+     "90 minutes later: higher than before"
+    ]
+   }
+  },
+  {
+   "say": "That pattern might explain the gap between the laboratory and everyday memory. If crying first deepens a low mood and then, over the following hour or so, lifts it beyond where it started, then the lab studies that measured mood straight away would only catch the dip. People remembering a cry weeks later would remember mostly the lift. Both could be right, just looking at different moments.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A possible answer",
+    "sub": "Relief takes time"
+   }
+  },
+  {
+   "say": "One more detail from the study is worth mentioning. The mood shift didn't depend on how many times people cried during the films. Whether someone cried once or several times, the dip-then-rise pattern looked similar. It's as though what mattered was crossing into tears at all, rather than how much crying took place.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Interesting detail",
+    "sub": "The number of tears didn't matter"
+   }
+  },
+  {
+   "say": "As always, this deserves a careful word. Sixty people is a modest sample. The films were sad stories, not real losses, and people chose for themselves whether to cry. It's possible that people who cry easily at films differ from others in ways that also shape how their mood recovers. So it's a promising finding, not a final one.",
+   "show": {
+    "type": "char",
+    "sprite": "N14",
+    "bg": "attic_rain",
+    "cap": "The usual caveat",
+    "sub": "Sixty people and two films"
+   }
+  },
+  {
+   "say": "An old clock on a weathered brick wall, its hands frozen in place, lit softly by a lamp below. Time turns out to matter a great deal in the science of crying. A tear's effects aren't fixed in the moment it falls. They seem to unfold over minutes and hours, in ways that only careful timing can catch.",
+   "show": {
+    "type": "photo",
+    "file": "lf55_b08_01.jpg",
+    "cap": "A stopped clock on a brick wall"
+   }
+  },
+  {
+   "say": "Other researchers have looked at what happens in the body minute by minute. In 2007, Michelle Hendriks, Jonathan Rottenberg and Ad Vingerhoets published a study in the journal Emotion. Sixty female students watched neutral and sad films while the researchers recorded their heart activity and breathing, so they could follow what changed when crying began.",
+   "show": {
+    "type": "study",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "who": "Michelle Hendriks, Jonathan Rottenberg and Ad Vingerhoets",
+    "where": "Emotion, published 2007",
+    "what": "Heart and breathing during crying"
+   }
+  },
+  {
+   "say": "When crying began, heart rate rose, but that increase faded quickly. At the same time, breathing slowed and a measure of the heart's calming rhythm increased. All of these crying-related effects had faded within about four minutes. So crying seemed to involve both a brief surge of arousal and a calming shift, with the calming side quietly following the surge.",
+   "show": {
+    "type": "list",
+    "sprite": "N07",
+    "bg": "living_room_day",
+    "title": "What the body did",
+    "items": [
+     "Heart rate rose, then quickly settled",
+     "Breathing slowed",
+     "Calming signals in the heart increased",
+     "Effects faded within about four minutes"
+    ]
+   }
+  },
+  {
+   "say": "A later study tested whether crying helps people cope with stress afterwards. In 2019, Leah Sharman and her colleagues in Australia reported on one hundred and ninety-seven female students who watched either a sad or a neutral video for about seventeen minutes. About half of those in the sad group cried. Then everyone put a hand into nearly freezing water, a standard laboratory stress test.",
+   "show": {
+    "type": "study",
+    "sprite": "A03",
+    "bg": "cafe_sunset",
+    "who": "Leah Sharman, Genevieve Dingle, Ad Vingerhoets and Eric Vanman",
+    "where": "Emotion, published 2019",
+    "what": "A sad video, then ice-cold water"
+   }
+  },
+  {
+   "say": "The criers didn't keep their hands in the cold water any longer than the others, and their stress hormone levels weren't significantly different. But there was some evidence that the criers were better at regulating their breathing. It's a modest result. Crying didn't make people tougher, but it may have helped them keep their breathing steadier when the stress arrived.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "The results",
+    "sub": "Mostly no difference, one hint"
+   }
+  },
+  {
+   "say": "So, does a good cry always make you feel better? No. It often makes no difference, and sometimes it makes things worse. But under the right conditions, with support, some resolution, and enough time, crying can be followed by a genuine lift in mood. The relief is real for some people, some of the time, and it may simply take an hour or more to arrive.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "rooftop_dusk",
+    "cap": "The verdict",
+    "sub": "Sometimes, and slowly"
+   }
+  },
+  {
+   "say": "Hugo checks his watch. It's been about forty minutes since the last song. He feels calm now, quieter inside than he has in weeks. Perhaps that's the ninety minute turn beginning, he thinks, or perhaps it's just the walk and the cold air. Either way, he's glad he cried. And he wonders, for the first time, whether anyone in the hall saw him.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Hugo checks his watch",
+    "sub": "Forty minutes since the song"
+   }
+  }
+ ]
+}

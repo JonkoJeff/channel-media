@@ -1,0 +1,184 @@
+{
+ "id": "lf55_b10",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "A little further on, a narrow footbridge crosses the canal, and Hugo stops in the middle of it to look down at the water. He used to stand on bridges like this with his own children, dropping sticks to see whose came out first on the other side. He remembers telling his son, once, that big boys don't cry. He winces a little at the memory now.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N14",
+    "bg": "conspiracy_board",
+    "n": 10,
+    "title": "Weak, or warm?"
+   }
+  },
+  {
+   "say": "Here's the sixth belief. Crying, especially in public, makes other people think less of you. It makes you look weak, unprofessional or out of control. For many people, this belief is the main reason they fight back tears at work, at a funeral or, like Hugo, in a school hall. So it's worth asking whether other people really react the way we fear.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "The belief",
+    "sub": "Crying makes people think less of you"
+   }
+  },
+  {
+   "say": "Psychologists who study how we judge one another often talk about two broad qualities. One is warmth: does this person seem friendly, kind and trustworthy? The other is competence: does this person seem capable and effective? When we worry that crying makes us look weak, we're mostly worrying about competence. But what about warmth?",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "rooftop_dusk",
+    "cap": "Two qualities",
+    "sub": "Warmth and competence"
+   }
+  },
+  {
+   "say": "In 2017, Niels van de Ven, Ad Vingerhoets and a colleague named Meijs published a study in the journal Cognition and Emotion. Their title gives the main finding away: what emotional tears convey. Tearful individuals are seen as warmer, but also as less competent. So the belief seemed to be half right. Tears raised warmth, and they lowered competence, at least in these experiments.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "autumn_overlook",
+    "who": "Niels van de Ven, Meijs and Ad Vingerhoets",
+    "where": "Cognition and Emotion, published 2017",
+    "what": "Tearful faces judged by strangers"
+   }
+  },
+  {
+   "say": "Here's where good science gets interesting. The competence effect in that study was fairly small. And a follow-up by Janis Zickfeld and Thomas Schubert, testing people in two different populations, found no competence effect at all. So in 2018, Zickfeld, van de Ven, Schubert and Vingerhoets went back and tested the question again, more carefully, in a paper with a wonderfully honest title.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "cap": "But was it solid?",
+    "sub": "Researchers checked"
+   }
+  },
+  {
+   "say": "The title was: are tearful individuals perceived as less competent? Probably not. In their first study, with five hundred and thirty-one participants, tearful people were again seen as slightly less competent. But in the second, with four hundred and seventy-one participants and a wider range of pictures, the effect was much smaller and not statistically reliable. The authors concluded that it seemed to depend on the particular photos used.",
+   "show": {
+    "type": "list",
+    "sprite": "N07",
+    "bg": "cabin_fireplace",
+    "title": "Are tearful individuals perceived as less competent?",
+    "items": [
+     "Probably not",
+     "Study one, 531 people: yes, slightly",
+     "Study two, 471 people: no clear effect",
+     "It depended on the photos used"
+    ]
+   }
+  },
+  {
+   "say": "So the fear that tears make you look incompetent may be larger than the real effect. In some situations, with some faces, people may judge a crier as slightly less capable. But it isn't a reliable rule. Meanwhile, the warmth effect has been much steadier. People who cry tend to be seen as warmer and more in need of kindness.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "neon_alley_rain",
+    "cap": "What that means",
+    "sub": "The fear may be bigger than the effect"
+   }
+  },
+  {
+   "say": "A narrow wooden footbridge arching over a dark canal, with a single lamp at one end and mist on the water. Bridges are a good picture for what tears may do between people. They make a connection where there was a gap, and they invite someone to cross over to you.",
+   "show": {
+    "type": "photo",
+    "file": "lf55_b10_01.jpg",
+    "cap": "A footbridge over a canal at night"
+   }
+  },
+  {
+   "say": "The largest test so far came in 2021. Janis Zickfeld and a large international team published a study in the Journal of Experimental Social Psychology. Seven thousand and seven participants in forty-one countries gave nearly twenty-five thousand ratings of pictures of people, some with tears and some without. The question was simple: would seeing tears make people want to help?",
+   "show": {
+    "type": "study",
+    "sprite": "A15",
+    "bg": "living_room_day",
+    "who": "Janis Zickfeld, Niels van de Ven, Olivia Pich and many colleagues",
+    "where": "Journal of Experimental Social Psychology, published 2021",
+    "what": "Tearful faces rated across 41 countries"
+   }
+  },
+  {
+   "say": "They found that seeing a tearful person clearly increased people's intention to offer social support. The effect appeared across countries, though its size varied from place to place. In the language of statistics, it was a moderate effect, large enough to matter, and found across a remarkable range of cultures. Tears, it seems, make people want to come closer.",
+   "show": {
+    "type": "stat",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "title": "Participants across 41 countries",
+    "big": "7,007",
+    "label": "gave 24,886 ratings of tearful and tearless faces"
+   }
+  },
+  {
+   "say": "The researchers also looked at why. Part of the effect came from the crier being seen as warmer and more helpless. Part came from viewers feeling more connected to the crier, and feeling more empathic concern for them. Interestingly, the viewers' own personal distress didn't explain the effect. Tears seemed to draw people in through care, rather than through discomfort.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "title": "Why tears drew support",
+    "items": [
+     "The crier seemed warmer",
+     "The crier seemed more helpless",
+     "Viewers felt more connected",
+     "Viewers felt more empathic concern"
+    ]
+   }
+  },
+  {
+   "say": "Vingerhoets has described related studies in other settings. In one line of work, people convicted of an offence who were shown crying were rated as more reliable, more trustworthy and more remorseful than the same people shown without tears. In one version, observers recommended less harsh punishment for an offender who was visibly crying. Tears seem to change how remorseful people appear.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Other settings",
+    "sub": "Remorse and trust"
+   }
+  },
+  {
+   "say": "Vingerhoets's team has also asked how people see professionals who cry. Nurses were less likely than doctors to see crying at work as unprofessional. And when it came to doctors crying in front of patients, doctors and the public held broadly similar views. Many people saw it as a sign of empathy. A significant minority saw it as unprofessional. But few thought it made a doctor unfit for the job.",
+   "show": {
+    "type": "list",
+    "sprite": "N07",
+    "bg": "rooftop_dusk",
+    "title": "Tears at work, in their surveys",
+    "items": [
+     "Nurses saw it as less unprofessional than doctors did",
+     "Many saw a doctor's tears as empathy",
+     "A minority saw them as unprofessional",
+     "Few thought tears made a doctor unfit"
+    ]
+   }
+  },
+  {
+   "say": "So does crying make people think less of you? Mostly not. You may lose a little in perceived competence in some situations, though even that effect is unreliable. In return, you're likely to be seen as warmer, and people around you are more likely to want to help. That's a long way from the cold judgement many of us imagine.",
+   "show": {
+    "type": "char",
+    "sprite": "N14",
+    "bg": "bedroom_night",
+    "cap": "The verdict",
+    "sub": "Mostly a myth"
+   }
+  },
+  {
+   "say": "Hugo drops a small twig into the water and watches it drift under the bridge. If he could go back, he thinks, he'd tell his son something different. Not that big boys don't cry, but that crying is allowed, and that the people who love you are more likely to come closer than to step away. He makes a note to tell him that, one of these days, as an old man to a grown one.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "Hugo on the bridge",
+    "sub": "A different thing to tell his son"
+   }
+  },
+  {
+   "say": "As he crosses the rest of the bridge, the air smells of wet leaves and wood smoke from a chimney somewhere. Hugo thinks idly about smells, and how much they can carry. That reminds him of a story he once heard on the radio, about scientists who had people sniff tears. It sounded absurd at the time. It turns out to be a real line of research, and our seventh stop.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "cap": "A scent of sadness?",
+    "sub": "The next belief"
+   }
+  }
+ ]
+}

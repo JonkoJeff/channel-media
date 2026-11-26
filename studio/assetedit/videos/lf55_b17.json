@@ -1,0 +1,191 @@
+{
+ "id": "lf55_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's take one more walk along the canal together, but this time very slowly, with nothing to think about and nothing to find. It's a soft, quiet night. The rain has thinned to a fine mist. The path is smooth beneath your feet, and the water beside you is dark and still. There's no destination. Only the walking, and the quiet.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A15",
+    "bg": "street_day",
+    "n": 17,
+    "title": "The slow walk back"
+   }
+  },
+  {
+   "say": "You step onto the path behind the school. The gravel crunches softly with each step, a gentle, even rhythm. Left, and right. Left, and right. The sound is calming, like a clock ticking in another room. Behind you, the hall is dark now, the chairs stacked away, the music finished. Ahead, the lamps of the canal path glow one after another.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "The first steps",
+    "sub": "Gravel underfoot"
+   }
+  },
+  {
+   "say": "With each step, your body feels a little heavier, a little slower, a little softer. It's as if the path itself is helping you along, carrying some of your weight so you don't have to. There's no hurry. The lamps will wait. The water will wait. You can take as long as you like.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Each step",
+    "items": [
+     "Heavier",
+     "Slower",
+     "Softer"
+    ]
+   }
+  },
+  {
+   "say": "Beside you, the canal moves so slowly you can hardly see it moving at all. Here and there, a leaf turns on the surface. A lamp's reflection stretches out into a long, soft line of gold. You don't need to look closely at anything. Just let the water be there, beside you, calm and patient and in no hurry at all.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "street_day",
+    "cap": "The water",
+    "sub": "Slow and dark"
+   }
+  },
+  {
+   "say": "A misty canal path at night, lamps fading one by one into the distance, the water still and dark beside it. Imagine walking here, slowly, with nobody else around and nothing you need to do. Each lamp is a small, warm circle of light, and between them the darkness is soft and kind.",
+   "show": {
+    "type": "photo",
+    "file": "lf55_b17_01.jpg",
+    "cap": "A misty canal path with lamps"
+   }
+  },
+  {
+   "say": "You come to the low stone bridge. For a few steps, your footsteps echo softly against the old stone, and the air feels a little cooler. Then you're through, and out the other side, and the quiet closes around you again like a blanket. Somewhere far off, a dog barks once, and then settles down to sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "cap": "Under the bridge",
+    "sub": "Echoes, then quiet"
+   }
+  },
+  {
+   "say": "As you walk, you might notice small things. The smell of rain on stone. A light in a distant window, where someone else is getting ready for sleep. The soft, steady rushing of water at a lock. Your own slow breath, misting a little in the cool air. You don't need to hold onto any of them. Let each one come, and gently go.",
+   "show": {
+    "type": "list",
+    "sprite": "A20",
+    "bg": "autumn_overlook",
+    "title": "Things you might notice",
+    "items": [
+     "The smell of rain on stone",
+     "A light in a distant window",
+     "The soft sound of water at a lock",
+     "Your own slow breath"
+    ]
+   }
+  },
+  {
+   "say": "You pass the little boatyard. The narrowboats are tied up for the winter, their windows dark, their ropes slack. They rock very slightly on the water, as if breathing in their sleep. You might feel a little like them now: tied up safely for the night, resting, rocking gently, with nowhere you need to go until morning.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cafe_sunset",
+    "cap": "The boatyard",
+    "sub": "Boats asleep for winter"
+   }
+  },
+  {
+   "say": "There's a bench here, beside the water. You can sit down on it, if you like. It isn't cold. It's just right, as if it's been warmed for you. Let your body settle onto it. Let your hands rest in your lap. The water moves slowly past. The lamps glow. And for a while, you simply sit, and breathe, and let the night be quiet around you.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "The bench",
+    "sub": "Sit for a while"
+   }
+  },
+  {
+   "say": "Somewhere back along the path is the day you've just lived. Whatever went well in it is safely done, and can stay behind. Whatever went wrong can wait until tomorrow, when you'll face it rested. Tonight, nothing more is needed from you. You've done enough. You can let the whole day drift away downstream, out of sight.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "title": "Letting the day go",
+    "items": [
+     "What went well can stay behind",
+     "What went wrong can wait",
+     "Tonight, nothing is needed"
+    ]
+   }
+  },
+  {
+   "say": "If, as you rest, a little emotion rises in you, a memory, a face, a feeling you didn't expect, that's all right. You don't need to push it away. If a tear comes, let it come. You know now that tears are nothing to be ashamed of. They're one of the gentlest things a body can do. Let it fall, and let it go.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Tears, if they come",
+    "sub": "Let them be"
+   }
+  },
+  {
+   "say": "On the water, a pair of ducks have tucked their heads beneath their wings, floating together by the bank. They don't worry about tomorrow. They don't replay the day. They simply rest, side by side, rocked by the slow movement of the water. You can rest like that too, here and now, with nothing to hold onto.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "The ducks",
+    "sub": "Tucked in for the night"
+   }
+  },
+  {
+   "say": "Two small ducks resting on dark still water near a reedy bank, heads tucked beneath their wings, a lamp glowing softly on the far side. It's a picture of complete ease. Nothing to do, nowhere to go, nothing to prove. Just rest, and the slow, kind movement of water carrying them gently through the night.",
+   "show": {
+    "type": "photo",
+    "file": "lf55_b17_02.jpg",
+    "cap": "Two ducks resting on still water"
+   }
+  },
+  {
+   "say": "When you're ready, and only if you want to, you can stand up from the bench and walk on a little further. Slowly. There's no hurry at all. The path stretches ahead, soft and dim, and every step feels a little heavier and a little easier than the one before. Your body is getting ready for sleep, all by itself.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Getting up",
+    "sub": "Slowly walking on"
+   }
+  },
+  {
+   "say": "You come to the narrow footbridge, and stop in the middle to look down. The water below is perfectly still, holding the reflection of a single lamp. You might imagine dropping a small leaf from the bridge and watching it float slowly away underneath, carrying with it one last thought from the day. Watch it go. Let it go.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "cap": "The footbridge",
+    "sub": "Over the water"
+   }
+  },
+  {
+   "say": "Everything is slowing now. Your steps are slower. Your breath is softer. Your thoughts are further apart, with long quiet spaces between them. If the words begin to blur and blend together, that's perfectly fine. That's only sleep, coming closer, the way a lamp comes closer on a misty path, slowly, softly, without any effort from you.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "autumn_overlook",
+    "title": "Heavier now",
+    "items": [
+     "Your steps are slower",
+     "Your breath is softer",
+     "Your thoughts are further apart"
+    ]
+   }
+  },
+  {
+   "say": "At the end of the path, a short gentle slope leads up to a quiet street, where a porch light is glowing. It's waiting for you. Inside, there's a warm room, a soft bed, and nothing at all you need to do. You're nearly home now. Just a few more slow steps. And then rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Nearly home",
+    "sub": "The lights of the street"
+   }
+  }
+ ]
+}

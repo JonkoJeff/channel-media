@@ -1,0 +1,183 @@
+{
+ "id": "lf55_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Beyond the boatyard, the canal runs straight for a long way, lined with bare trees. The rain has turned to a fine mist that hangs in the lamplight. Hugo walks steadily, and he notices that his chest feels looser than it did in the hall, his breathing slower. He thinks of the phrase his mother used to say. Have a good cry, love. You'll feel better.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "n": 6,
+    "title": "A good cry always helps"
+   }
+  },
+  {
+   "say": "That's our fourth belief, and probably the most widely held of all: a good cry always makes you feel better. It's offered as comfort at funerals and after break-ups, and it sits behind the phrase, let it all out. If you've ever felt drained but lighter after crying, you'll know why the idea feels true. The question is whether it's true always, sometimes, or only in memory.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "cap": "The belief",
+    "sub": "Crying always makes you feel better"
+   }
+  },
+  {
+   "say": "This belief matters more than the others, because it goes to the heart of why we cry. If tears reliably make us feel better, then perhaps that's their purpose: a built-in way of recovering from strong emotion. If they don't, we'll need to look elsewhere for an explanation. Researchers have tested this from several directions, and the directions don't all agree.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "street_day",
+    "cap": "Why this one matters",
+    "sub": "It's the heart of the mystery"
+   }
+  },
+  {
+   "say": "There are three main ways to study it. You can ask people to think back to their last cry and say how they felt afterwards. You can ask them to keep a diary, recording each cry as it happens. Or you can bring them into a laboratory, show them a sad film, and measure their mood before and after. Each method has strengths, and each tells a slightly different story.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Three ways to test it",
+    "items": [
+     "Ask people to remember their last cry",
+     "Ask people to keep a diary",
+     "Make people cry in a laboratory"
+    ]
+   }
+  },
+  {
+   "say": "Let's begin with memory. In 2008, Lauren Bylsma, Ad Vingerhoets and Jonathan Rottenberg reported findings from an international study of more than three thousand recent crying experiences, gathered outside the laboratory from people in many countries. Participants were asked to recall their latest episode of crying and describe how they felt afterwards.",
+   "show": {
+    "type": "study",
+    "sprite": "N14",
+    "bg": "conspiracy_board",
+    "who": "Lauren Bylsma, Ad Vingerhoets and Jonathan Rottenberg",
+    "where": "Published in 2008",
+    "what": "More than 3,000 recent crying episodes"
+   }
+  },
+  {
+   "say": "The results sound like a vote for the old belief. A majority of people reported that their mood improved after crying. But not everyone. About a third reported no improvement at all. And roughly one in ten said they felt worse afterwards than before. So even in people's own memories, a good cry was far from guaranteed to help.",
+   "show": {
+    "type": "list",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "title": "How people said they felt afterwards",
+    "items": [
+     "A majority felt better",
+     "About a third felt no change",
+     "About one in ten felt worse"
+    ]
+   }
+  },
+  {
+   "say": "The researchers also looked at who felt better. People who received comfort and support from others while crying were more likely to report that it helped. The setting mattered too. Crying where you felt safe and accepted seemed to go better than crying where you felt watched, judged or embarrassed. We'll see that pattern again and again tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "Who felt better?",
+    "sub": "Support made a difference"
+   }
+  },
+  {
+   "say": "It's worth knowing who took part in studies like this. International surveys of crying have often relied heavily on university students, because they're easier to reach in large numbers across many countries. That's useful, but it means older adults, like Hugo, are less well represented. The findings give us a broad picture of crying, rather than a perfect portrait of everyone.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "A note on the sample",
+    "sub": "Many countries, mostly students"
+   }
+  },
+  {
+   "say": "A long straight stretch of canal with bare trees on both sides, fading into soft mist under a row of lamps. Memory works a little like this view. The near things are clear and sharp, and the further back you look, the more the details soften and blend. That matters, because a lot of what we believe about crying comes from looking back.",
+   "show": {
+    "type": "photo",
+    "file": "lf55_b06_01.jpg",
+    "cap": "Bare trees along a canal in mist"
+   }
+  },
+  {
+   "say": "Here's the trouble with asking people to remember. Our memories of emotional events aren't recordings. They're reconstructions, coloured by what we already believe. If you grew up hearing that a good cry helps, you may be more likely to remember feeling better, and to forget the part where you felt worse for an hour first. Researchers have raised exactly this concern.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "neon_alley_rain",
+    "cap": "The problem with looking back",
+    "sub": "Memory edits the story"
+   }
+  },
+  {
+   "say": "There's another subtle problem. People asked about their most recent cry might pick one that ended well, or one that felt meaningful, and skip the frustrating cries that came from tiredness or a pointless argument. Without meaning to, they'd be offering a flattering sample. So memory studies are valuable, but they can't settle the question on their own.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "cap": "The other source of bias",
+    "sub": "Which cries we remember"
+   }
+  },
+  {
+   "say": "In fact, Vingerhoets has pointed out an interesting gap. Most people say they believe crying is generally beneficial. But when asked about their own most recent episode, they're less likely to say it actually improved their mood. The general belief is stronger than the individual experience, which is a gentle hint that the belief may run ahead of the evidence.",
+   "show": {
+    "type": "list",
+    "sprite": "A05",
+    "bg": "street_day",
+    "title": "A gap between belief and experience",
+    "items": [
+     "Most people believe crying is good for them",
+     "Fewer say their last cry actually helped"
+    ]
+   }
+  },
+  {
+   "say": "So researchers turned to a cleaner method: the diary. Instead of asking people to look back weeks later, you ask them to record each cry on the same day it happens, along with how they felt before and after. Memory has far less time to tidy the story. It's more effort for everyone involved, but it gets much closer to the truth of ordinary crying.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "A cleaner method",
+    "sub": "Write it down on the day"
+   }
+  },
+  {
+   "say": "Hugo thinks back to his own crying, not that there's been much of it in adult life. He remembers one night, years ago, crying in the car after an argument with his brother, and feeling only worse afterwards, tired and stupid and still angry. He remembers crying at his father's funeral and feeling, oddly, steadier afterwards. Two cries, two very different outcomes.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "Hugo remembers",
+    "sub": "Some cries didn't help at all"
+   }
+  },
+  {
+   "say": "Hugo's two memories capture the problem perfectly. Crying doesn't seem to have one effect. It has several, depending on what triggered it and what happened next. To understand those differences, we need many crying episodes, recorded carefully as they happen. And that's exactly what one research team collected: more than a thousand of them.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "street_day",
+    "cap": "The next stop",
+    "sub": "A thousand cries in a diary"
+   }
+  },
+  {
+   "say": "A diary can capture details that memory loses. What set the tears off. Who was there at the time. How intense the crying was, and how long it lasted. And how the person felt afterwards, written down while the feeling was still fresh. With enough of these records, patterns start to appear that no single memory could ever reveal.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "title": "What a diary can capture",
+    "items": [
+     "What set the tears off",
+     "Who was there",
+     "How intense the cry was",
+     "How the person felt afterwards"
+    ]
+   }
+  }
+ ]
+}

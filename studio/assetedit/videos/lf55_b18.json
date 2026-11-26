@@ -1,0 +1,187 @@
+{
+ "id": "lf55_b18",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "You're home now. The door closes softly behind you, and the house is warm and dim. Somewhere a clock ticks. The rain taps lightly on the window, gentle and unhurried. You take off your coat, and with it the whole long day seems to slip from your shoulders, and you hang it by the door, and leave it there.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "n": 18,
+    "title": "Home, and goodnight"
+   }
+  },
+  {
+   "say": "The room is just as you'd like it. A small lamp, low and golden. A soft bed, or a deep chair, with a blanket waiting. The air is warm, but not too warm. Everything is quiet. There's nothing here that needs your attention. You can let yourself sink down, and be held, and simply rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "rooftop_dusk",
+    "cap": "The room",
+    "sub": "Warm and dim"
+   }
+  },
+  {
+   "say": "Let yourself lie down, or settle deeper, wherever you are. Feel the weight of your head sinking into the pillow. Your shoulders, your back, your hips, your legs, all supported, all held. You don't need to hold yourself up any more. The bed will do that for you. All you need to do is let go, a little more with each breath.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Lying down",
+    "sub": "Every part supported"
+   }
+  },
+  {
+   "say": "A bedroom window at night with rain on the glass, a low warm lamp on a small table, and soft curtains half drawn. Outside, the world is wet and dark and still. Inside, it's warm and quiet. You're safe here. You can let the rain sing you towards sleep.",
+   "show": {
+    "type": "photo",
+    "file": "lf55_b18_01.jpg",
+    "cap": "A window with rain and a low lamp"
+   }
+  },
+  {
+   "say": "Your breath is slow now, slower than it was at the start of the night. In, and out. In, and out. Each breath out carries a little more of the day away. Each breath in brings a little more quiet. You don't need to do anything to keep it going. It will carry on all night, steady and kind, while you sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "cap": "The breath",
+    "sub": "Slow and easy"
+   }
+  },
+  {
+   "say": "Listen, if you like, to the small sounds of the night. The rain on the window, soft and uneven. The clock somewhere in the house, ticking slowly. Perhaps the hum of a fridge, or a car passing far away. Each sound is a little quieter than the last. Each one asks nothing of you. They're only there to keep you company as you drift.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "cap": "The sounds",
+    "sub": "Rain and a clock"
+   }
+  },
+  {
+   "say": "Everything is slowing down. The rain is softer. The clock is quieter. The words are further apart now, with long gentle pauses between them. If you're still listening, that's fine. If you've already drifted, that's fine too. There's no right way to do this. Only rest, in whatever way it comes to you.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "title": "Everything slowing",
+    "items": [
+     "The rain, softer",
+     "The clock, quieter",
+     "The words, further apart"
+    ]
+   }
+  },
+  {
+   "say": "Somewhere far away, the canal flows on through the dark. The lamps glow along the path, one after another, with nobody walking beneath them now. The ducks sleep by the bank. The boats rest at their moorings. The old stone bridge stands quietly over the water, as it has for a very long time, and will stand tomorrow too.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The canal",
+    "sub": "Far away now"
+   }
+  },
+  {
+   "say": "And in a small house at the top of a short slope, Hugo has fallen asleep in his armchair, his blanket slipping a little from his knees. He's smiling slightly. Perhaps he's dreaming of a school hall, and a song about the sea, and a small girl singing with her whole heart. Whatever it is, it's a good dream. Let him rest. Let yourself rest too.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "Hugo, asleep",
+    "sub": "The house is quiet"
+   }
+  },
+  {
+   "say": "If you'd like one last thought to carry with you, let it be a kind one. Your body has looked after you today in more ways than you could count. It has blinked and breathed and kept you warm. And if you've cried recently, for any reason, it was trying to look after you then too. You can trust it with this night.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "autumn_overlook",
+    "cap": "One kind thought",
+    "sub": "To take into sleep"
+   }
+  },
+  {
+   "say": "For tonight, there are only three things, and you don't even need to try at them. Rest. Breathe. Let go. That's all. The rest will look after itself. The night is long and soft and kind. And you have all the time in the world to drift slowly, gently, all the way down into sleep.",
+   "show": {
+    "type": "list",
+    "sprite": "N07",
+    "bg": "living_room_day",
+    "title": "For tonight",
+    "items": [
+     "Rest",
+     "Breathe",
+     "Let go"
+    ]
+   }
+  },
+  {
+   "say": "Tomorrow will come, as it always does, and it will bring its own light and its own small tasks. But it isn't here yet. It's still far away, on the other side of a long, deep, restful night. You don't need to think about it now. It will wait for you, patiently, until you're ready. For now, there's only tonight, and sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "rooftop_dusk",
+    "cap": "Tomorrow",
+    "sub": "It will wait"
+   }
+  },
+  {
+   "say": "There's no path to follow now. No lamp to walk towards. No bridge to cross. Just a soft darkness, warm and safe, and the faint, faraway sound of rain. If your thoughts are becoming loose and strange, joining things that don't usually belong together, let them. That's only sleep, arriving quietly, by its own gentle road.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "autumn_overlook",
+    "cap": "Drifting",
+    "sub": "No path to follow"
+   }
+  },
+  {
+   "say": "Stay here as long as you like. The bed is yours. The night is yours. There's nothing you need to wake for, and nothing you need to remember. Somewhere, very faintly, the canal is still flowing. Somewhere, a lamp is still glowing. And here, in this warm quiet room, you're resting, and that is more than enough.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cabin_fireplace",
+    "cap": "Staying here",
+    "sub": "As long as you like"
+   }
+  },
+  {
+   "say": "Slower now. And slower. Softer. Quieter. Stiller. The words are almost finished. The voice is almost done. Let it fade into the sound of the rain, and let the rain fade into the quiet, and let the quiet carry you down, gently, all the way into sleep.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "cafe_sunset",
+    "title": "Slower, and slower",
+    "items": [
+     "Softer",
+     "Quieter",
+     "Stiller"
+    ]
+   }
+  },
+  {
+   "say": "So there's only one thing left to say. Thank you for walking with Hugo and me tonight, and for your curiosity. Be gentle with yourself, and with other people's tears, now and tomorrow. Rest well, or sleep well. And the next time a tear surprises you, at a concert, a film or a kitchen table, you can let it come, and remember this walk.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "cap": "Goodnight",
+    "sub": "Rest well"
+   }
+  },
+  {
+   "say": "Next time, we'll look at another everyday mystery, the laughter that bursts out of us with friends, at bad jokes and sometimes at the worst possible moment, and ask what researchers have found about why humans laugh.",
+   "show": {
+    "type": "end",
+    "sprite": "A19",
+    "bg": "bedroom_night",
+    "next": "Why We Laugh"
+   }
+  }
+ ]
+}

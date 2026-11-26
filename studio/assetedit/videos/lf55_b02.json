@@ -1,0 +1,186 @@
+{
+ "id": "lf55_b02",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The canal path begins just behind the school, a narrow strip of gravel between the water and a row of old brick walls. Hugo walks slowly, hands in his pockets. His eyes still feel warm and a little swollen, and he notices, the way you do after crying, that his nose is running too. He sniffs, and wonders why crying always seems to involve the nose.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cafe_sunset",
+    "n": 2,
+    "title": "A tear is a tear"
+   }
+  },
+  {
+   "say": "The first belief we're testing is that a tear is a tear. Salty water from the eyes, the same stuff whether it's falling at a funeral or in a kitchen full of onions. It's an understandable idea, because the drops look identical on a cheek. But researchers and eye doctors usually describe at least three different kinds of tears, made for quite different reasons.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "The belief",
+    "sub": "Salty water, nothing more"
+   }
+  },
+  {
+   "say": "The first kind are called basal tears. They're produced all the time in small amounts, keeping the surface of the eye moist and protected. The second kind are reflex tears, which flood in when something irritates the eye, such as dust, smoke or onion fumes. The third kind are emotional tears, the ones that arrive with grief, joy, relief, or a choir singing about the sea.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "title": "Three kinds of tears",
+    "items": [
+     "Basal tears, always there",
+     "Reflex tears, for irritation",
+     "Emotional tears, for feelings"
+    ]
+   }
+  },
+  {
+   "say": "You're making basal tears right now, as you listen. Each time you blink, your eyelids sweep a thin film of fluid across the front of your eye, a little like a windscreen wiper with a very gentle touch. Without that film, the eye would dry out, feel scratchy and see less clearly. It's one of those jobs the body does all day long without ever asking for your attention.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "street_day",
+    "cap": "Basal tears",
+    "sub": "The quiet, constant kind"
+   }
+  },
+  {
+   "say": "Blinking is so automatic that you probably haven't noticed a single blink since this video began. Yet each one refreshes that film of tears, smoothing it across the eye like a hand smoothing a tablecloth. When you're tired, or staring at a screen, you may blink less, and your eyes can start to feel dry and gritty. It's a small reminder of how hard basal tears are working.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "cap": "Blinking",
+    "sub": "A quiet, constant habit"
+   }
+  },
+  {
+   "say": "That thin film isn't just water. Eye specialists describe it as having three layers. On the outside sits a thin oily layer that keeps the surface smooth and slows evaporation. In the middle is a thicker watery layer, which does most of the moistening and helps keep bacteria out. And closest to the eye is a layer of mucus, which helps the whole film cling to the surface.",
+   "show": {
+    "type": "list",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "title": "The tear film has layers",
+    "items": [
+     "An oily outer layer",
+     "A watery middle layer",
+     "A mucus inner layer"
+    ]
+   }
+  },
+  {
+   "say": "Most of the watery part is made by the lacrimal glands, which sit mainly at the upper outer corner of each eye. Blinking spreads the tears across the surface, and then they drain away into small tear ducts that empty into the back of the nose. That's the answer to Hugo's little puzzle. When you cry hard, the extra fluid takes its usual route, and the nose runs.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Where tears come from",
+    "sub": "And where they go"
+   }
+  },
+  {
+   "say": "Rain running down a dark window at dusk, beads of water catching the last of the light. Tears are mostly water too, with salts, proteins, oils and enzymes dissolved in them. One description from a large American hospital estimates that each tear holds only about a third of a milligram of salt. It's a small, ordinary drop, which makes its connection to our feelings all the more curious.",
+   "show": {
+    "type": "photo",
+    "file": "lf55_b02_01.jpg",
+    "cap": "Rain on a window at dusk"
+   }
+  },
+  {
+   "say": "Now let's look at reflex tears, and the most famous trigger of all. For a long time, people assumed the stinging came from a single onion enzyme called alliinase. Then, in 2002, a team in Japan led by Shunsuke Imai reported in the journal Nature that a second, previously unknown enzyme was doing the crucial work. They named it lachrymatory factor synthase, which simply means the enzyme that makes the tear-causing substance.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Now the onion",
+    "sub": "A chemical puzzle solved in 2002"
+   }
+  },
+  {
+   "say": "Here's the sequence, step by step. Cutting breaks open the onion's cells, and their contents mix. Enzymes turn sulphur-containing compounds into an unstable acid, and the newly found enzyme rearranges that acid into an irritating gas with a long name, syn-propanethial-S-oxide. The gas drifts upward, reaches the surface of your eye, and your tear glands respond by flooding the area to rinse it away.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "What happens when you cut an onion",
+    "items": [
+     "Cutting breaks open the onion's cells",
+     "Enzymes turn sulphur compounds into an unstable acid",
+     "The acid rearranges into an irritating gas",
+     "The gas drifts up to your eyes",
+     "Your eyes flood to wash it away"
+    ]
+   }
+  },
+  {
+   "say": "So the onion tear has a clear job. Something irritating lands on the eye, and the eye washes it off. Reflex tears are produced quickly and in large amounts, and one hospital guide notes that they also carry antibodies that help fight bacteria. If you've ever had a speck of dust in your eye and felt your vision blur with water, you've watched this system work perfectly.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "A tear with a job",
+    "sub": "Clear and simple"
+   }
+  },
+  {
+   "say": "But Hugo wasn't chopping onions in the school hall. Nothing was irritating his eyes, and yet the same glands opened up anyway. That's the first real clue tonight. Emotional tears seem to borrow the body's plumbing, the same glands and the same drains, but they're switched on by something happening in the mind rather than on the surface of the eye.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "Hugo wasn't chopping onions",
+    "sub": "So what was his tear for?"
+   }
+  },
+  {
+   "say": "Are emotional tears chemically different, though, or only differently triggered? In the 1980s, a biochemist named William Frey compared the two. He collected reflex tears from volunteers exposed to onion vapour and emotional tears from volunteers watching sad films, and reported that the emotional tears contained more protein. A magazine account of his work put the difference at about twenty-one percent.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "who": "William Frey and colleagues",
+    "where": "Reported in the 1980s",
+    "what": "Onion tears compared with film tears"
+   }
+  },
+  {
+   "say": "That sounds like a neat answer. Emotional tears are a special recipe. But science depends on findings being repeated, and here the story wobbles. The Dutch psychologist Ad Vingerhoets, one of the best known crying researchers in the world, has said that he tried twice to replicate the protein difference and could not. So the chemistry of emotional tears remains much less settled than it's often made to sound.",
+   "show": {
+    "type": "char",
+    "sprite": "N14",
+    "bg": "neon_alley_rain",
+    "cap": "Did that hold up?",
+    "sub": "Not quite"
+   }
+  },
+  {
+   "say": "So, is a tear just a tear? Partly. The drops share the same basic ingredients and travel the same route. But they're made for different reasons, and the emotional kind remains the strange one, triggered by thoughts and feelings rather than by anything touching the eye. Whether their recipe is genuinely different is still an open question.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "title": "The verdict so far",
+    "items": [
+     "Tears are not all made for the same reason",
+     "Basal and reflex tears have clear jobs",
+     "Emotional tears use the same glands",
+     "Whether their chemistry differs is still unsettled"
+    ]
+   }
+  },
+  {
+   "say": "Hugo finds a folded tissue in his coat pocket, the kind he always carries and never seems to use. He wipes his nose and feels oddly better for knowing why it ran. A pair of ducks drift past on the dark water. He thinks of something he once read, that crying gets rid of something bad inside you, like letting steam out of an engine. That belief is our next stop.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "cabin_fireplace",
+    "cap": "Hugo sniffs",
+    "sub": "And keeps walking"
+   }
+  }
+ ]
+}

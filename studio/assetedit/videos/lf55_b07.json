@@ -1,0 +1,200 @@
+{
+ "id": "lf55_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "A cyclist passes Hugo on the path, a small red light blinking on the back of the bike, and then the quiet closes in again. Hugo listens to the water lapping against the stone edge of the canal. He's still thinking about his two very different cries, the one in the car and the one at the funeral. What made the difference?",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "n": 7,
+    "title": "A thousand cries in a diary"
+   }
+  },
+  {
+   "say": "In 2011, Lauren Bylsma, Marcel Croon, Ad Vingerhoets and Jonathan Rottenberg published a diary study in the Journal of Research in Personality. Ninety-seven female university students kept daily records for between forty and seventy-three days. Each time they cried, they noted what triggered it, who was there, how intense it was, and how they felt afterwards.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "street_day",
+    "who": "Lauren Bylsma, Marcel Croon, Ad Vingerhoets and Jonathan Rottenberg",
+    "where": "Journal of Research in Personality, published 2011",
+    "what": "A daily diary of crying"
+   }
+  },
+  {
+   "say": "Over those weeks, the students recorded one thousand and four crying episodes between them. Every single participant cried at least once. That's a remarkable amount of real crying to study, captured on the day it happened, rather than remembered long afterwards. It meant the researchers could finally compare different kinds of cries side by side.",
+   "show": {
+    "type": "stat",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "title": "Crying episodes recorded",
+    "big": "1004",
+    "label": "in the diaries of 97 students"
+   }
+  },
+  {
+   "say": "And here's what the diaries showed. In sixty point eight percent of crying episodes, mood afterwards was unchanged. In about thirty percent, mood improved. And in eight point eight percent, mood got worse. So in the most common outcome, crying made no difference to mood at all. That's a long way from the belief that a good cry always helps.",
+   "show": {
+    "type": "list",
+    "sprite": "N14",
+    "bg": "bedroom_night",
+    "title": "Mood after crying, in the diaries",
+    "items": [
+     "Unchanged in 60.8% of episodes",
+     "Improved in 30%",
+     "Worse in 8.8%"
+    ]
+   }
+  },
+  {
+   "say": "The diaries showed something else too. Mood tended to be lower for a couple of days before a crying episode, and it stayed lower on the day of crying and for a couple of days afterwards. That doesn't mean crying caused the low mood. More likely, crying tends to happen during difficult stretches of life, and the tears are one part of a longer storm.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Before and after",
+    "sub": "The days around a cry"
+   }
+  },
+  {
+   "say": "What made the students cry? The most common trigger was conflict, such as an argument or a clash with someone. Next came loss, and then a sense of personal failing. These are ordinary human troubles, the kind that fill a few weeks of anyone's life. And they didn't all lead to the same outcome.",
+   "show": {
+    "type": "list",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "title": "Most common triggers",
+    "items": [
+     "Conflict",
+     "Loss",
+     "Personal failing"
+    ]
+   }
+  },
+  {
+   "say": "Tears that came from conflict were not usually linked to feeling better. That fits Hugo's memory of crying in the car after the argument with his brother. When the thing that upset you is still unresolved, and perhaps the other person is still angry, crying may simply sit alongside the frustration rather than ease it.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "Conflict tears",
+    "sub": "Usually no relief"
+   }
+  },
+  {
+   "say": "Tears that came from loss could be quite different. Loss is often something a person can't change: a death, a move, a friendship that has ended. In those cases, crying may be part of slowly accepting what has happened. It doesn't fix anything. But it can be one of the ways a person begins to make room for a change they never wanted.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "cap": "Loss tears",
+    "sub": "A different kind of cry"
+   }
+  },
+  {
+   "say": "So when did crying help? It was more likely to improve mood when the situation changed for the better as a result, or when the crier reached some new understanding. Crying after feelings of inadequacy was also linked to improved mood. More intense crying, though not longer crying, was linked to better outcomes. A short, deep cry seemed to help more than a long, drawn-out one.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "When crying helped",
+    "sub": "Resolution and understanding"
+   }
+  },
+  {
+   "say": "Two cups of tea on a wooden kitchen table, steam rising from both, a soft lamp in the background. It's a picture of company, and company turned out to be one of the most important details in the diaries. Who was with you when you cried made a real difference to how you felt afterwards.",
+   "show": {
+    "type": "photo",
+    "file": "lf55_b07_01.jpg",
+    "cap": "Two cups of tea on a kitchen table"
+   }
+  },
+  {
+   "say": "Crying with one other person present was more often linked to feeling better than crying alone or crying in front of several people. With two or more people around, mood was more likely to stay the same or get worse. One trusted person seems to be the sweet spot. Often, in the diaries, that one person was someone close, a partner, a friend, a family member.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cabin_fireplace",
+    "title": "Who was there",
+    "items": [
+     "Alone",
+     "With one other person",
+     "With two or more people"
+    ]
+   }
+  },
+  {
+   "say": "Why would one person help more than several? The researchers can't say for certain, but it's easy to imagine. One close person can offer comfort without making you feel like a performer on a stage. A group can bring embarrassment, the sense of being watched, and the worry of what everyone will think. And embarrassment, as we've seen, seems to block the relief that crying can bring.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "Why one person?",
+    "sub": "Comfort without an audience"
+   }
+  },
+  {
+   "say": "Bylsma's work, as described in the American Psychological Association's magazine, also pointed to situations where mood tended to get worse. These included feeling embarrassed or ashamed about crying, being with unsupportive people, and crying from witnessing suffering. In each case, the tears arrive, but the conditions that might let them soothe aren't there.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "title": "When crying tends not to help",
+    "items": [
+     "Feeling embarrassed or ashamed",
+     "Being with unsupportive people",
+     "Crying from seeing others suffer",
+     "The problem is still unresolved"
+    ]
+   }
+  },
+  {
+   "say": "Let's be honest about this study's limits. All ninety-seven participants were young women at university. We can't assume that older people, men, or people in very different cultures would show exactly the same pattern. And mood was rated on a fairly simple three-point scale. Still, a thousand cries recorded on the day they happened is far better evidence than vague memories.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "cap": "A caveat about the sample",
+    "sub": "Young women only"
+   }
+  },
+  {
+   "say": "So the diary evidence gives a more careful answer to our fourth belief. A good cry doesn't always help. Most of the time, mood stays roughly where it was. Sometimes it improves, especially when someone kind is present and something gets resolved. Occasionally it gets worse. The honest answer, as so often in psychology, is that it depends.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "title": "The emerging picture",
+    "items": [
+     "Usually, mood stays the same",
+     "Sometimes, it improves",
+     "Occasionally, it gets worse",
+     "Support and resolution tip the balance"
+    ]
+   }
+  },
+  {
+   "say": "Hugo nods to himself as he walks. The cry in the car: alone, unresolved, still angry. No relief. The cry at the funeral: his wife's hand on his arm, the end of a long illness, a kind of understanding settling in. Steadier afterwards. Neither cry was wrong. They just happened under very different conditions.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Hugo's cries, explained",
+    "sub": "The car and the funeral"
+   }
+  },
+  {
+   "say": "There's one more piece to this puzzle, and it's a strange one. When researchers make people cry in a laboratory, with a sad film and careful measurements, the results look different again. Crying in the lab usually makes people feel worse, at least at first. So how do we fit that together with the relief people describe? The answer, it seems, may be a matter of time.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "rooftop_dusk",
+    "cap": "But what about the lab?",
+    "sub": "A different result again"
+   }
+  }
+ ]
+}

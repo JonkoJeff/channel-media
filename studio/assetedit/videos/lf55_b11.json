@@ -1,0 +1,190 @@
+{
+ "id": "lf55_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The canal path runs past a little allotment now, rows of winter cabbages and a shed with a padlocked door. Somewhere a bonfire has been damped down for the night, and the smell of smoke lingers in the damp air. Hugo breathes it in. It's strange, he thinks, how a smell can bring back a whole autumn from fifty years ago in a single breath.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A09",
+    "bg": "neon_alley_rain",
+    "n": 11,
+    "title": "The scent of tears"
+   }
+  },
+  {
+   "say": "Our seventh belief is one most people have never had reason to question. Tears carry their messages through the eyes, not the nose. Emotional tears have no smell that anyone can detect, so whatever they communicate must be visual. It seems obvious. And yet a small group of researchers has spent more than a decade testing whether it's actually true.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "The belief",
+    "sub": "Tears say nothing to the nose"
+   }
+  },
+  {
+   "say": "The idea came partly from animal research. Many animals, especially rodents, communicate through chemical signals that they can detect without consciously noticing a smell. In rodents, for example, male aggression is known to be blocked when the males smell female tears. So researchers wondered whether human tears might carry chemical signals too, even if we can't consciously smell them.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "cafe_sunset",
+    "cap": "A clue from animals",
+    "sub": "Rodents and chemical signals"
+   }
+  },
+  {
+   "say": "In 2011, Shani Gelstein, Noam Sobel and their colleagues at the Weizmann Institute of Science in Israel published a study in Science. Women volunteers watched a sad film and collected their fresh emotional tears in small vials held under their eyes. Then men sniffed either those tears or a salt solution, without knowing which. Neither substance had a smell anyone could tell apart.",
+   "show": {
+    "type": "study",
+    "sprite": "N28",
+    "bg": "neon_alley_rain",
+    "who": "Shani Gelstein, Noam Sobel and colleagues",
+    "where": "Science, published 2011",
+    "what": "Men sniffing women's emotional tears"
+   }
+  },
+  {
+   "say": "In the first experiment, twenty-four men sniffed tears on one day and salt solution on another, and rated pictures of women's faces. After sniffing tears, the faces seemed less sexually attractive to them, although the tears didn't change how sad the faces looked. In a second experiment with fifty men, sniffing tears lowered self-reported sexual arousal and lowered testosterone measured in saliva. Brain scans in a further experiment pointed the same way.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "bedroom_night",
+    "title": "What the 2011 study reported",
+    "items": [
+     "24 men rated faces after sniffing",
+     "50 men watched a sad film after sniffing",
+     "Brain scans in a further experiment",
+     "No effect on how sad faces looked"
+    ]
+   }
+  },
+  {
+   "say": "That was a startling result, and it made headlines around the world. It suggested that women's emotional tears contain a chemical signal that quietly dampens something in the men nearby. The researchers were careful not to call it a pheromone, a term that remains disputed. They also didn't know what the active chemical was. But the claim was out there: tears might speak to the nose.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "attic_rain",
+    "cap": "A striking claim",
+    "sub": "A chemical message in tears"
+   }
+  },
+  {
+   "say": "As with every surprising finding, the important question was whether it would hold up when others tried. A team in South Korea published a study in 2012 that reported a similar effect on men's testosterone. That looked encouraging. But a few years later, a larger and more ambitious replication attempt told a different story.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Then came the checks",
+    "sub": "What happened next?"
+   }
+  },
+  {
+   "say": "In 2017, Asmir Gračanin, Ad Vingerhoets and their colleagues published three experiments trying to replicate the 2011 finding. They added a comparison with irritant tears, like those from onions, and tested whether sniffing tears changed helpfulness or aggression. Vingerhoets has described one of these studies as involving nearly three hundred participants.",
+   "show": {
+    "type": "study",
+    "sprite": "A20",
+    "bg": "street_day",
+    "who": "Asmir Gračanin, Marcel van Assen, Višnja Omrčen, Ivana Koraj and Ad Vingerhoets",
+    "where": "Cognition and Emotion, published 2017",
+    "what": "Three attempts to repeat the 2011 finding"
+   }
+  },
+  {
+   "say": "The original effects didn't replicate. Not in any of the three studies on its own, and not when the three were combined in a single analysis. Sniffing tears also made no difference to feelings of connection, aggression or helpful behaviour. The authors concluded that any effect of women's tears on men's arousal or judgements was very weak at best, and that crying's powerful social effects most likely work through sight and sound.",
+   "show": {
+    "type": "list",
+    "sprite": "N28",
+    "bg": "bedroom_night",
+    "title": "What the replication found",
+    "items": [
+     "The 2011 effects did not appear",
+     "Not in any single study",
+     "Not when the studies were combined",
+     "No effect on aggression or helpfulness"
+    ]
+   }
+  },
+  {
+   "say": "A small wooden shed at the edge of a winter allotment, a lantern hanging by the door and mist over the rows of plants. Science sometimes moves like a gardener testing a plot. One year a crop grows wonderfully. The next year, in a different patch, it doesn't come up at all. The only way to know what's real is to keep planting.",
+   "show": {
+    "type": "photo",
+    "file": "lf55_b11_01.jpg",
+    "cap": "A garden shed beside an allotment at night"
+   }
+  },
+  {
+   "say": "But the story didn't end there. In December 2023, the Weizmann team, led this time by Shani Agron with Noam Sobel, published a new study in PLoS Biology. This time they looked at aggression. Men sniffed either women's emotional tears or salt solution while playing a two-person computer game designed to provoke them, in which the other player seemed to be cheating and the men could take revenge.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "who": "Shani Agron, Noam Sobel and colleagues",
+    "where": "PLoS Biology, published 2023",
+    "what": "Tears, provocation and the brain"
+   }
+  },
+  {
+   "say": "After sniffing tears, the men's revenge-seeking dropped by more than forty percent compared with salt solution. Brain scans showed that two regions linked to aggression, in the prefrontal cortex and the anterior insula, were less active during provocation after sniffing tears. And men whose brain activity changed more tended to seek revenge less often.",
+   "show": {
+    "type": "stat",
+    "sprite": "A09",
+    "bg": "rooftop_dusk",
+    "title": "After sniffing tears, revenge-seeking in the game fell by",
+    "big": "over 40%",
+    "label": "compared with salt solution"
+   }
+  },
+  {
+   "say": "The team also tested sixty-two different human smell receptors in a laboratory dish. Four of them were activated by tears, even though tears seem to have no smell. That's an intriguing hint at how a scentless signal might be detected. But it's a lab result, and it doesn't yet show how the signal works in a living person's nose.",
+   "show": {
+    "type": "bars",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "title": "Smell receptors tested in a dish",
+    "unit": "receptors",
+    "bars": [
+     [
+      "Tested",
+      62.0
+     ],
+     [
+      "Activated by tears",
+      4.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So what should we make of the seventh belief? Here, the honest answer is that nobody knows yet. One team has repeatedly found effects of tears on men, first on arousal and now on aggression. Another team failed to replicate the original finding in three experiments. The active chemical hasn't been identified, and only women's tears have been tested, partly because the researchers couldn't recruit men willing to donate tears.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "street_day",
+    "cap": "The honest verdict",
+    "sub": "Genuinely unsettled"
+   }
+  },
+  {
+   "say": "If the newer finding does hold up, it would fit nicely with the other things we've learned tonight. Tears would join the face and the voice as one more way of saying I'm not a threat, please be gentle with me. That's an attractive idea. But attractive ideas are exactly the ones we should hold most loosely until other labs have tested them too.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "cabin_fireplace",
+    "cap": "Why it matters",
+    "sub": "A quiet calming signal?"
+   }
+  },
+  {
+   "say": "Hugo sniffs the air again, smoke and wet leaves and rain. He can't imagine smelling tears, and apparently nobody can. But the thought that something unseen might pass between people when they cry, something nobody chose and nobody noticed, stays with him as he walks on. Ahead, under a lamp, a young couple are sharing an umbrella and laughing.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "autumn_overlook",
+    "cap": "Hugo sniffs the air",
+    "sub": "Smoke, leaves, and rain"
+   }
+  }
+ ]
+}

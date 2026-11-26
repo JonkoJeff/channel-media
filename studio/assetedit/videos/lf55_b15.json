@@ -1,0 +1,197 @@
+{
+ "id": "lf55_b15",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Hugo reaches his front gate and stops with his hand on the cold latch. The house is dark except for the porch light, which he left on for the family. He doesn't go in yet. Instead he sits down on the low garden wall, the way he used to as a teenager, and lets the whole walk settle in his mind, from the school hall to here.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "n": 15,
+    "title": "What to do with all this"
+   }
+  },
+  {
+   "say": "Let's gather up what we found along the way. A tear isn't simply a tear; there are different kinds for different jobs. The toxin story is probably a myth. Streaming emotional tears seem to be a human speciality. Babies cry for months before emotional tears arrive. And a good cry doesn't always help, though sometimes, given time and support, it really does.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "title": "Ten beliefs, and what we found",
+    "items": [
+     "A tear is a tear: partly",
+     "Tears flush out toxins: probably not",
+     "Animals weep like us: mostly not",
+     "Babies cry tears from birth: no",
+     "A good cry always helps: no, but sometimes",
+     "Tears are private: no",
+     "Tears make you look weak: mostly not",
+     "Tears carry a scent signal: unsettled",
+     "Women cry more by biology alone: half true",
+     "No tears means no feeling: no"
+    ]
+   }
+  },
+  {
+   "say": "Tears are far from private. They make sadness clearer, they're read in a fraction of a second, and they tend to draw kindness rather than contempt. Whether they also carry a chemical signal is genuinely unsettled. Women do cry more often than men, but culture shapes that gap a great deal. Tears can come from joy as well as grief. And not crying doesn't mean not feeling.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "bedroom_night",
+    "cap": "And the rest",
+    "sub": "Signals, culture and joy"
+   }
+  },
+  {
+   "say": "If there's one idea that ties all of this together, it's that crying seems to be mostly about other people. It begins as a baby's call for help. It grows into a quiet, close-range signal that says I'm struggling, or I'm overwhelmed, or this matters to me. And its soothing power often seems to come from the people who answer it. We may cry alone, but tears seem made for company.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "autumn_overlook",
+    "cap": "The bigger picture",
+    "sub": "Why humans cry"
+   }
+  },
+  {
+   "say": "If you'd like to take anything practical from tonight, here are a few small things. Tears aren't a sign of weakness. If you cry and don't feel better straight away, that's normal, and relief may come later. One kind person nearby can make a real difference. Not every cry has to achieve anything. And when someone else cries near you, it's usually an invitation to come a little closer.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "title": "Small things worth keeping",
+    "items": [
+     "Tears are not a weakness",
+     "Relief may take an hour to come",
+     "One kind person can make the difference",
+     "Not every cry needs to help",
+     "Others' tears are an invitation, not a burden"
+    ]
+   }
+  },
+  {
+   "say": "What helps, when someone else is in tears? The research we've met tonight points in a gentle direction. Support and acceptance help. Embarrassment and judgement don't. A single, calm person is often more comforting than a crowd. You don't need to fix anything or find the perfect words. Often, simply staying, and letting the tears be what they are, is enough.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "neon_alley_rain",
+    "cap": "When someone cries near you",
+    "sub": "What tends to help"
+   }
+  },
+  {
+   "say": "Here it is in a simple list. Staying close tends to help. Calm acceptance tends to help. Judgement and teasing don't. And rushing to fix things, or telling someone to stop crying, often doesn't either. None of this needs special training. Most of us already know it, deep down. We just need permission to trust it.",
+   "show": {
+    "type": "list",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "title": "What tends to help, and what doesn't",
+    "items": [
+     "Staying close helps",
+     "Calm acceptance helps",
+     "Judgement and teasing don't",
+     "Rushing to fix things often doesn't"
+    ]
+   }
+  },
+  {
+   "say": "A small porch light glowing beside a front door on a quiet street at night, a garden gate in the foreground, damp leaves on the path. It's the end of Hugo's walk, and nearly the end of our questions. Everything we've talked about tonight has been leading home, to the ordinary places where most real crying happens.",
+   "show": {
+    "type": "photo",
+    "file": "lf55_b15_01.jpg",
+    "cap": "A porch light on a quiet street"
+   }
+  },
+  {
+   "say": "Hugo decides that when his daughter asks about the concert, and she will, he'll tell her the truth. That he cried at the last song. That he isn't quite sure why, but that it felt like pride and love and missing her mother all at once. That it was, honestly, one of the nicest moments he's had in a long time. He thinks she'll understand. He thinks she may have seen.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "cap": "Hugo on the wall",
+    "sub": "What he'll tell them"
+   }
+  },
+  {
+   "say": "Do you remember the puzzle we began with? A tear can arrive without a decision, and sometimes without a reason we could put into words. We still don't understand crying completely. But perhaps it's a little less strange now. Hugo's tears weren't a malfunction or a weakness. They were his body saying, as clearly as it could, this matters.",
+   "show": {
+    "type": "char",
+    "sprite": "N14",
+    "bg": "conspiracy_board",
+    "cap": "A callback",
+    "sub": "The puzzle we started with"
+   }
+  },
+  {
+   "say": "It's worth ending the science with a little humility. Crying research is a small field. Many of the studies we've met had modest samples, often young women at university. Some well-known findings haven't replicated, and others are waiting for their first proper test. That's not a reason to dismiss what we've learned. It's a reason to keep listening as the evidence grows.",
+   "show": {
+    "type": "list",
+    "sprite": "A20",
+    "bg": "cabin_fireplace",
+    "title": "A little humility",
+    "items": [
+     "Crying research is a small field",
+     "Many samples were modest",
+     "Some findings have not replicated",
+     "Others still wait for a proper test"
+    ]
+   }
+  },
+  {
+   "say": "And now Hugo's walk is over, and so is ours. The questions can stop here. You don't need to remember a single study or number. If some small piece of tonight stays with you, perhaps it will be this: that tears are one of the gentlest ways human beings have of reaching for each other. Let's leave the science on the garden wall for now.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "Time to rest",
+    "sub": "The walk is over"
+   }
+  },
+  {
+   "say": "From here on, we'll slow everything right down. You can let your body grow heavy wherever you're lying or sitting. If your eyes feel warm or tired, that's fine. Let them close if they'd like to. There's nothing more to follow. Just the quiet of a street at night, the sound of a little rain, and the slow, steady rhythm of your own breathing.",
+   "show": {
+    "type": "char",
+    "sprite": "A09",
+    "bg": "neon_alley_rain",
+    "cap": "Settling",
+    "sub": "Into the quiet"
+   }
+  },
+  {
+   "say": "For the rest of tonight, there's nothing more to learn, nothing to fix and nowhere you need to be. You might hear the words, or you might drift in and out of them. Both are perfect. The voice will keep you company for a while longer, softly, and then it will fade into the night, the way footsteps fade on a long canal path.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "title": "For the rest of tonight",
+    "items": [
+     "Nothing to learn",
+     "Nothing to fix",
+     "Nowhere to be"
+    ]
+   }
+  },
+  {
+   "say": "Let's begin with one slow breath. Breathe in gently through your nose, not too deeply, just a little fuller than usual. Hold it for a moment. And then let it go, slowly, through softly parted lips. Feel your shoulders drop just a little as the air leaves. Let your next breath come all by itself, whenever it's ready, without any effort from you.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "cap": "One slow breath",
+    "sub": "In, and out"
+   }
+  },
+  {
+   "say": "And another. Breathe in, slowly and gently, feeling the air fill your chest and your belly. Let it rest there for just a moment. And then let it go, all the way out, as slowly as you like. Imagine each breath out carrying away a little of the day, a word you wish you hadn't said, a task you didn't finish, a worry you can put down for now.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "rooftop_dusk",
+    "cap": "Another breath",
+    "sub": "Softer still"
+   }
+  }
+ ]
+}

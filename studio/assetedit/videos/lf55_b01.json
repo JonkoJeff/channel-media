@@ -1,0 +1,206 @@
+{
+ "id": "lf55_b01",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Hugo is sitting near the back of a school hall on a cold winter evening. His granddaughter's choir has just begun the final song of the concert, something slow and simple that he doesn't even know. Nothing sad is happening. The children are fine, the hall is warm, and the song is about the sea. And then, without asking his permission, his eyes fill, and a tear runs down beside his nose.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "bedroom_night",
+    "cap": "A school hall in winter",
+    "sub": "The last song"
+   }
+  },
+  {
+   "say": "A quick word about Hugo. He's imagined. He's someone we've pictured together, to keep us company tonight. He's sixty-three, he spent most of his working life repairing buses, and he's the kind of man who prefers to fix things rather than talk about them. Nothing about him stands for any real person, and nothing in his evening is a case study.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "living_room_day",
+    "cap": "A quick word about Hugo",
+    "sub": "Imagined, to keep us company"
+   }
+  },
+  {
+   "say": "Here's what makes it strange. If you had asked Hugo how he felt in that moment, he wouldn't have said sad. He might have said proud, or full, or a little caught off guard. Yet his body reached for the same response it uses for grief, for pain and for chopping onions. He wipes his cheek with the back of his hand and hopes nobody noticed.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "neon_alley_rain",
+    "cap": "Here's the strange part",
+    "sub": "He wasn't even sad"
+   }
+  },
+  {
+   "say": "We'll walk home with Hugo after the concert, along a quiet canal path, and as we go we'll test some of the most common beliefs about crying against what researchers have actually found. Some of those beliefs hold up. Some are half true. And a few, it turns out, are simply wrong.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "title": "Tonight, we'll explore",
+    "items": [
+     "Whether all tears are the same",
+     "The idea that tears wash out stress",
+     "Whether animals weep",
+     "How babies cry before they shed tears",
+     "Whether a good cry really helps",
+     "What tears tell other people",
+     "Whether tears carry a scent",
+     "Men, women and culture",
+     "Tears of joy",
+     "People who cannot cry",
+     "A slow walk home to sleep"
+    ]
+   }
+  },
+  {
+   "say": "Let me say how we'll do this. Every study we mention is a real, published piece of research, and when I give a number, it comes from that research. Where scientists disagree, where a sample was small, or where an idea is still only a hypothesis, I'll say so plainly. Crying is one of the most human things we do, and it is still surprisingly poorly understood.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "cap": "A promise",
+    "sub": "Real studies, honest doubts"
+   }
+  },
+  {
+   "say": "Tonight works a little like a gentle trial. We'll take one popular belief at a time, the kind of thing you might hear from a friend or read in a magazine, and then we'll look at the evidence. Not to win an argument, and not to make anyone feel foolish for believing it. Most of these ideas exist for good reasons, and it's worth seeing where they came from.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "n": 1,
+    "title": "Belief and evidence"
+   }
+  },
+  {
+   "say": "Think about how often you've cried in your life. As a baby, it was your main way of speaking. As a child, it came with scraped knees and lost toys. As an adult, perhaps it comes less often, and in stranger places: at a film, at a wedding, at a piece of news, or on an ordinary afternoon for reasons you couldn't quite name.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "cap": "You've done this many times",
+    "sub": "And you've wondered too"
+   }
+  },
+  {
+   "say": "Most of us could make a list like this. Films and books. Weddings and funerals. A particular song. A piece of news, sometimes good news. And every so often, a cry that seems to come from nowhere, on a bus or in a supermarket queue. Each of these is a small mystery, and together they make one of the oddest habits our species has.",
+   "show": {
+    "type": "list",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "title": "Places people often cry",
+    "items": [
+     "At films and in books",
+     "At weddings and funerals",
+     "At music",
+     "At news, good and bad",
+     "For no clear reason at all"
+    ]
+   }
+  },
+  {
+   "say": "An empty school hall after a concert, with folding chairs still in their rows and soft light over a small stage. It's the place where our evening begins. A room built for ordinary things, homework and assemblies and lunch, which for a few minutes became somewhere a grown man found himself in tears. Keep this hall in mind as we go.",
+   "show": {
+    "type": "photo",
+    "file": "lf55_b01_01.jpg",
+    "cap": "A school hall after a concert"
+   }
+  },
+  {
+   "say": "It helps to separate two questions that often get tangled together. The first is why our eyes make tears at all, which is a question about the body. The second is why strong feelings, sad or happy, should be connected to those tears in the first place. The first question has a fairly clear answer. The second is where the real mystery lives.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "Two questions, not one",
+    "items": [
+     "Why does the body make tears at all",
+     "Why do feelings set them off"
+    ]
+   }
+  },
+  {
+   "say": "Back in the hall, Hugo tries to stop the second tear. He looks up at the ceiling and swallows hard, the way his own father taught him to do. It half works. The song ends, the children bow, and the audience begins to clap. He claps too, a little too loudly, and decides that whatever just happened, it can wait until he's outside.",
+   "show": {
+    "type": "char",
+    "sprite": "A08",
+    "bg": "neon_alley_rain",
+    "cap": "Hugo in the hall",
+    "sub": "Trying to stop it"
+   }
+  },
+  {
+   "say": "If he'd been asked to describe it, Hugo might have listed a few sensations. Warmth behind the eyes. A tightness in the throat, as if he'd swallowed something too big. A heavy, full feeling in his chest. And his breath catching a little, just once, before he got it back under control. Keep those sensations in mind, because researchers have studied nearly every one of them.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "title": "What Hugo noticed in his body",
+    "items": [
+     "Warmth behind the eyes",
+     "A tight throat",
+     "A heavy, full chest",
+     "Breath that caught a little"
+    ]
+   }
+  },
+  {
+   "say": "That's the puzzle we'll carry with us. A tear can arrive without a decision, and sometimes without a reason we could put into words. It can come from loss, from beauty, from relief, from being proud of someone small singing about the sea. Understanding even part of how that works tells us something about how closely feeling and body are tied together.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "text": "We cry for reasons we can't always name",
+    "by": "The puzzle for tonight"
+   }
+  },
+  {
+   "say": "Before we start, one gentle thing. Nothing we discuss tonight treats crying as a problem to be fixed. Some people cry easily, others hardly at all, and both are normal ranges of being human. This video is for learning and not medical advice. If you ever find yourself crying far more than usual, or feeling low for a long time, that's a good reason to talk to a doctor.",
+   "show": {
+    "type": "list",
+    "sprite": "N07",
+    "bg": "street_day",
+    "title": "Before we start",
+    "items": [
+     "Crying is not a problem to fix",
+     "Some people cry easily, some rarely",
+     "Crying far more than usual? Talk to a doctor"
+    ]
+   }
+  },
+  {
+   "say": "So settle in, wherever you are tonight. If you'd like to listen closely, every detail is there for you. If you'd rather let the walk carry you along and drift off somewhere by the canal, that's completely fine too. There's nothing you need to remember and no test at the end. You can leave whenever sleep finds you.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Settle in",
+    "sub": "There's no test at the end"
+   }
+  },
+  {
+   "say": "Outside, the air is cold and smells faintly of rain. Hugo's family are still inside, collecting coats and saying goodbyes, so he says he'll walk home along the canal and meet them there. It's not far. As he sets off, the question forms quite clearly in his mind, the way questions do when you're alone. Why on earth did that happen?",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "autumn_overlook",
+    "cap": "Outside the hall",
+    "sub": "Cold air, and a question"
+   }
+  },
+  {
+   "say": "Our first stop is a belief so basic that most of us have never examined it. It's the idea that a tear is simply a tear, salty water that falls the same way whether you're grieving, laughing or slicing an onion. It sounds reasonable. Let's see what the eye itself has to say about it.",
+   "show": {
+    "type": "char",
+    "sprite": "N14",
+    "bg": "conspiracy_board",
+    "cap": "First belief",
+    "sub": "A tear is a tear"
+   }
+  }
+ ]
+}

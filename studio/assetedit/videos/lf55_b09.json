@@ -1,0 +1,195 @@
+{
+ "id": "lf55_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The path climbs a few steps to cross a road, and Hugo waits at the edge while a single car passes, its headlights sweeping across the wet tarmac. On the other side, the canal continues past a row of small houses. He's still wondering whether anyone in the hall noticed his tears. And if they did, what did they think they were seeing?",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "autumn_overlook",
+    "n": 9,
+    "title": "A message on the face"
+   }
+  },
+  {
+   "say": "Our fifth belief comes straight from Darwin's quote. It's the idea that tears are a private by-product, a leak with no meaning for anyone else, a bit like sweat on a hot day. On this view, the real communication is in the face and the voice. Tears just happen to come along for the ride, and other people barely register them.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "conspiracy_board",
+    "cap": "The belief",
+    "sub": "Tears are a private leak"
+   }
+  },
+  {
+   "say": "It's not a silly idea. When someone is upset, we read their whole face, the crumpled brow, the trembling mouth, the downcast eyes. It's easy to assume that the tears themselves add very little to all that. A face can look desperately sad without a single tear on it. So do tears tell us anything the face doesn't already show?",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Why it seems plausible",
+    "sub": "We notice the face, not the water"
+   }
+  },
+  {
+   "say": "In 2009, Robert Provine, Kurt Krosnowski and Nicole Brocato published a clever test in the journal Evolutionary Psychology. They took photographs of people with visible tears on their faces. Then they made a second copy of each picture in which the tears had been digitally removed, and nothing else changed. Volunteers rated how sad each face looked.",
+   "show": {
+    "type": "study",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "who": "Robert Provine, Kurt Krosnowski and Nicole Brocato",
+    "where": "Evolutionary Psychology, published 2009",
+    "what": "Photos with the tears removed"
+   }
+  },
+  {
+   "say": "The faces without tears were rated as less sad. And something else happened, which the authors noted informally. Without their tears, many expressions became ambiguous. A face that had clearly looked grief-stricken could now be read as puzzled, worried, thoughtful or even in awe. The researchers called this the tear effect: tears make sadness clearer and remove doubt about what someone feels.",
+   "show": {
+    "type": "list",
+    "sprite": "A03",
+    "bg": "bedroom_night",
+    "title": "What changed without tears",
+    "items": [
+     "Faces looked less sad",
+     "Expressions became harder to read",
+     "Some looked puzzled, concerned or in awe"
+    ]
+   }
+  },
+  {
+   "say": "You could think of tears as a caption under the picture. The face shows that something is happening, and the tears say, quite plainly, this is sadness, or this is overwhelming. Provine described tears as a kind of social lubricant, and said they add valence and nuance to the way we perceive faces. They're not a leak. They're part of the message.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Like adding a caption",
+    "sub": "Tears clarify the face"
+   }
+  },
+  {
+   "say": "In 2013, a Dutch team published two experiments taking the idea further. Martijn Balsters and his colleagues showed people images of faces for just fifty milliseconds each, a twentieth of a second, far too fast for careful study. In the first experiment, they added tears to sad faces. In the second, they added tears to both sad and neutral faces.",
+   "show": {
+    "type": "study",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "who": "Martijn Balsters, Emiel Krahmer, Marc Swerts and Ad Vingerhoets",
+    "where": "Evolutionary Psychology, published 2013",
+    "what": "Faces flashed for 50 milliseconds"
+   }
+  },
+  {
+   "say": "Fifty milliseconds is shorter than a blink. And yet in the first experiment, people recognised sad faces significantly faster when tears were present. In the second, faces with tears, both sad and neutral, were judged as needing significantly more social support than the same faces without tears. The authors concluded that tears act as a visual cue at a very early stage of perception, before we've even had time to think.",
+   "show": {
+    "type": "stat",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "title": "Each face appeared for only",
+    "big": "50 ms",
+    "label": "far too fast for careful thought"
+   }
+  },
+  {
+   "say": "That second result is worth pausing on. Even a neutral face, with no other sign of sadness, looked as if it needed more support once tears were added. Tears seem to carry their own message, separate from the rest of the expression. And that message is surprisingly specific. It isn't just, I feel something. It's closer to, I could use some help.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Even on a neutral face",
+    "sub": "Tears ask for help"
+   }
+  },
+  {
+   "say": "To put the two experiments side by side: in the first, tears made sadness quicker to recognise. In the second, tears made faces, even neutral ones, seem to need more support. And both effects appeared when each face was on screen for only a twentieth of a second. Whatever tears are doing, they do it fast, long before we've had time to think about it.",
+   "show": {
+    "type": "list",
+    "sprite": "N07",
+    "bg": "autumn_overlook",
+    "title": "Two experiments, two findings",
+    "items": [
+     "Tears made sadness quicker to spot",
+     "Tears made faces seem to need more support",
+     "Both in a twentieth of a second"
+    ]
+   }
+  },
+  {
+   "say": "A row of small terraced houses beside a canal, their windows lit, each one reflected in the dark water. Behind every window, people are reading one another's faces all evening, mostly without noticing. Tears are one of the clearest signals in that silent conversation, and we seem to read them almost instantly.",
+   "show": {
+    "type": "photo",
+    "file": "lf55_b09_01.jpg",
+    "cap": "A row of lit windows by the water"
+   }
+  },
+  {
+   "say": "Vingerhoets has offered a thoughtful idea about why adult crying might be quiet and wet, rather than loud like a baby's. A loud distress call can be dangerous, because it tells anyone nearby, including those who might do you harm, exactly where you are. Tears, by contrast, are silent. They speak only to people close enough to see your face, which usually means the people you trust.",
+   "show": {
+    "type": "char",
+    "sprite": "N14",
+    "bg": "neon_alley_rain",
+    "cap": "A quiet signal",
+    "sub": "Better than a loud cry?"
+   }
+  },
+  {
+   "say": "On this view, tears are a signal designed for close range. Vingerhoets has described crying as a communication system that says, roughly, I need your help and support. Some researchers add that tears also signal that the crier isn't going to fight. Blurred eyes and a wet face don't make anyone look dangerous. These are theories, but they fit much of the evidence we've seen.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "title": "What tears may signal",
+    "items": [
+     "I need help and support",
+     "I'm not a threat",
+     "I can't cope with this alone"
+    ]
+   }
+  },
+  {
+   "say": "Vingerhoets has also argued that people are most likely to cry when they feel helpless or hopeless, when something has happened that they can't fix by themselves. That helps explain a lot. A lost toy, a death, a failed exam, a frightening diagnosis. In each case, the crier can't solve the problem alone. Tears turn a private difficulty into something other people can see.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "Helplessness",
+    "sub": "The common thread"
+   }
+  },
+  {
+   "say": "There's another hint that tears are meant for others. Researchers have reported that people tend to produce more tears when watching a sad film with others than when watching alone. If tears were purely private, company shouldn't make much difference. The fact that it seems to suggests that, at some level, our bodies are aware of who is there to see.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "More tears with company",
+    "sub": "A clue from films"
+   }
+  },
+  {
+   "say": "So, are tears a private leak with no meaning for anyone else? The evidence says no. Tears make sadness easier and faster to recognise, they make faces look as if they need support, and they may be quietly tuned for an audience of the people nearest to us. Darwin called them purposeless. Many modern researchers think their purpose is mostly social.",
+   "show": {
+    "type": "list",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "title": "The verdict on private tears",
+    "items": [
+     "Tears make sadness clearer",
+     "Tears are read in a fraction of a second",
+     "Tears make faces look in need of support"
+    ]
+   }
+  },
+  {
+   "say": "Hugo thinks of his daughter, sitting beside him in the hall. Did she see his tears? If she did, what did she make of them? Will she think less of her tough old father now? That's a worry many people carry, especially men of Hugo's generation. And it brings us to our sixth belief, the idea that crying makes other people think less of you.",
+   "show": {
+    "type": "char",
+    "sprite": "A20",
+    "bg": "autumn_overlook",
+    "cap": "Hugo wonders",
+    "sub": "Did his daughter see?"
+   }
+  }
+ ]
+}

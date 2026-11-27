@@ -1,0 +1,178 @@
+{
+ "id": "lf56_b04",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Nadia walks past a bus stop where two teenagers are sharing a phone and laughing at something on the screen. She doesn't know what it is. She'll never know. But she finds herself smiling as she passes, and a small laugh almost escapes her. It's one of the oddest things about laughter. It travels.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "n": 4,
+    "title": "Why laughter spreads"
+   }
+  },
+  {
+   "say": "You've probably felt this yourself. Someone near you starts laughing, perhaps on a train or in a waiting room, and before long you're smiling, or fighting back a laugh, without any idea what's funny. Laughter seems to be catching, like a yawn. And people have known this for a long time, long before anyone studied it properly.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "cap": "Contagious laughter",
+    "sub": "You've felt it too"
+   }
+  },
+  {
+   "say": "In 1922, a record company called OKeh released a gramophone record that became surprisingly popular. On it, a musician begins to play a serious tune on a cornet, and is interrupted by someone laughing. Then more people laugh. Soon the music is forgotten, and the record is simply people laughing, on and on. Listeners found themselves laughing along.",
+   "show": {
+    "type": "study",
+    "sprite": "N29",
+    "bg": "cafe_sunset",
+    "who": "OKeh Records",
+    "where": "Recorded 1922",
+    "what": "The OKeh Laughing Record"
+   }
+  },
+  {
+   "say": "There's no joke on that record. No story, no punchline, nothing to understand. Just the sound of people laughing. And yet it set off laughter in people listening at home. Robert Provine later used it as an example of how laughter can spread by sound alone. You don't need to know why someone is laughing to feel the pull of it.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "Nothing funny at all",
+    "sub": "Just the sound"
+   }
+  },
+  {
+   "say": "Television producers noticed the same thing. For decades, many comedy shows have added recorded laughter, a laugh track, to make audiences at home feel part of a crowd. People often say they dislike laugh tracks. But there's a reason they've lasted so long. They seem to work, at least a little, by tapping into this old pull towards laughing along.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "The laugh track",
+    "sub": "Television's trick"
+   }
+  },
+  {
+   "say": "In 2019, a team at University College London, including the laughter researcher Sophie Scott, tested this directly. They recorded forty deliberately bad jokes, the kind people call dad jokes, and played them to volunteers. Some jokes were played on their own. Others had laughter added afterwards, either real, spontaneous laughter or forced, posed laughter.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "cafe_sunset",
+    "who": "Qing Cai, Sophie Scott and colleagues",
+    "where": "Current Biology, 2019",
+    "what": "Modulation of humour ratings of bad jokes by other people's laughter"
+   }
+  },
+  {
+   "say": "The added laughter made the jokes seem funnier. Volunteers rated jokes higher when laughter followed them, and the real, spontaneous laughter helped more than the posed kind. The jokes themselves didn't change at all. Only the sound of other people enjoying them changed. It's a small, slightly silly study, but it says something real about how laughter works.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "autumn_overlook",
+    "cap": "Bad jokes, better laughs",
+    "sub": "The laughter helped"
+   }
+  },
+  {
+   "say": "The researchers also included a group of autistic adults, and found that the added laughter made the jokes seem funnier for them too. So the pull of laughter wasn't limited to one kind of listener. Put simply, hearing other people laugh nudges us to find something funny ourselves, and genuine laughter nudges harder than the polite kind.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "title": "What the bad jokes taught us",
+    "items": [
+     "Laughter makes things seem funnier",
+     "Real laughter works better than fake",
+     "The effect appeared in autistic adults too"
+    ]
+   }
+  },
+  {
+   "say": "Why should this happen? An earlier brain-imaging study, published in 2006 by Jane Warren, Sophie Scott and colleagues, offers part of an answer. Volunteers lay in a brain scanner and listened to different sounds, including laughter and cheering, as well as sounds of disgust and fear. None of the volunteers was asked to move or to make any sound at all.",
+   "show": {
+    "type": "study",
+    "sprite": "N14",
+    "bg": "conspiracy_board",
+    "who": "Jane Warren, Sophie Scott and colleagues",
+    "where": "Journal of Neuroscience, 2006",
+    "what": "Positive emotions preferentially engage an auditory-motor mirror system"
+   }
+  },
+  {
+   "say": "Even so, hearing laughter activated areas of the brain involved in preparing movements of the face, the kind of movements we'd use to smile or laugh. Positive sounds like laughter and cheering did this more strongly than negative ones. It was as if the brain, on hearing laughter, quietly got the face ready to join in, just in case.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Getting ready to join in",
+    "sub": "The brain prepares to laugh"
+   }
+  },
+  {
+   "say": "A bus stop on a wet street at night, its shelter glowing under a lamp, puddles reflecting the light. It's where Nadia passed the two laughing teenagers. A completely ordinary place, where strangers stand side by side every day without speaking, and where a single shared laugh can cross the gap between them for a moment.",
+   "show": {
+    "type": "photo",
+    "file": "lf56_b04_01.jpg",
+    "cap": "A bus stop on a wet street"
+   }
+  },
+  {
+   "say": "It's tempting to think of contagious laughter as simple copying, like an echo. But it seems to be more than that. When laughter spreads, it often brings a little of the feeling with it. People who catch a laugh frequently report feeling lighter, friendlier, more relaxed. The sound doesn't only move the face. It can move the mood.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Not just copying",
+    "sub": "Shared feeling"
+   }
+  },
+  {
+   "say": "Of course, laughter isn't always catching. If we're tired, worried or annoyed, someone else's laughter can feel irritating rather than infectious. And laughter we think is aimed at us, rather than shared with us, can hurt. Context matters a great deal. Laughter seems to spread most easily when we feel safe, and when the laugh seems to be an invitation.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "Not always",
+    "sub": "The laugh you don't catch"
+   }
+  },
+  {
+   "say": "So, putting it together, laughter seems to spread most easily under certain conditions. When we feel safe. When we like or know the person laughing. When the laugh sounds genuine rather than forced. And when it feels like an invitation to join in, rather than something happening at our expense. The couple at the next table, it seems, felt invited.",
+   "show": {
+    "type": "list",
+    "sprite": "N27",
+    "bg": "rooftop_dusk",
+    "title": "Laughter spreads most easily when",
+    "items": [
+     "We feel safe",
+     "We like the person laughing",
+     "The laugh sounds real",
+     "It feels like an invitation"
+    ]
+   }
+  },
+  {
+   "say": "Why might contagious laughter have been useful for our ancestors? One idea, which researchers like Sophie Scott have discussed, is that it helps a group fall into the same mood at the same time. A shared laugh can turn a group of separate people into something more like a single, relaxed unit, ready to trust each other a little more.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "bedroom_night",
+    "cap": "Why might this help us?",
+    "sub": "Bringing a group together"
+   }
+  },
+  {
+   "say": "Walking on, Nadia realises she's still smiling about the teenagers' video, the one she never saw. It's a lovely, slightly ridiculous thought. Her face has been borrowed, for a moment, by strangers. And that leads her to an even older question. If laughter is so deeply built into us, how long have we been doing it?",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Nadia smiles",
+    "sub": "Still not knowing why"
+   }
+  }
+ ]
+}

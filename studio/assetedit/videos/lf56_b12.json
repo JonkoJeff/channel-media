@@ -1,0 +1,180 @@
+{
+ "id": "lf56_b12",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "The saying is everywhere. Laughter is the best medicine. You'll find it on mugs and greeting cards, in magazine articles and on hospital walls. It's a lovely idea, and it's easy to see why people like it. But what does the research actually say about laughter and the body? The honest answer is more interesting, and more modest, than the slogan.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "cafe_sunset",
+    "n": 12,
+    "title": "Is laughter the best medicine?"
+   }
+  },
+  {
+   "say": "Part of the idea's popularity comes from a famous story. In 1979, the American journalist Norman Cousins wrote a book describing how, during a serious illness, he watched comedy films and found that a good laugh helped him sleep without pain for a while. His account inspired a great deal of interest in laughter and health. But one person's experience, however moving, isn't a study.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "attic_rain",
+    "cap": "A famous story",
+    "sub": "A man who laughed his way back"
+   }
+  },
+  {
+   "say": "One of the best-known studies on laughter and the body was published in 2012 by Robin Dunbar and colleagues at the University of Oxford. Volunteers watched either comedy or neutral documentaries, sometimes in groups, sometimes alone. Before and after, the researchers measured how much discomfort each person could tolerate, using things like a frozen cooling sleeve wrapped around the arm.",
+   "show": {
+    "type": "study",
+    "sprite": "N20",
+    "bg": "cafe_sunset",
+    "who": "Robin Dunbar and colleagues",
+    "where": "Proceedings of the Royal Society B, 2012",
+    "what": "Social laughter is correlated with an elevated pain threshold"
+   }
+  },
+  {
+   "say": "After watching comedy and laughing, people could tolerate more discomfort than before. After the neutral documentaries, they generally couldn't. The more people laughed, the bigger the effect tended to be. Dunbar and his colleagues suggested that hearty laughter might trigger the release of the body's own natural painkillers, chemicals called endorphins.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "living_room_day",
+    "cap": "Laughing raised the threshold",
+    "sub": "Comedy, not documentaries"
+   }
+  },
+  {
+   "say": "A later study, published in 2017 by Sandra Manninen, Lauri Nummenmaa and colleagues in Finland, looked for those chemicals directly. Using a type of brain scan called PET, they measured activity in the brain's natural opioid system in young men, once after spending half an hour laughing at comedy clips with close friends, and once after a quiet half hour alone.",
+   "show": {
+    "type": "study",
+    "sprite": "N01",
+    "bg": "rooftop_dusk",
+    "who": "Sandra Manninen, Lauri Nummenmaa and colleagues",
+    "where": "Journal of Neuroscience, 2017",
+    "what": "Social laughter releases endogenous opioids in humans"
+   }
+  },
+  {
+   "say": "The scans suggested that social laughter released the brain's own opioids in several areas involved in emotion and reward. The researchers suggested that this could be one reason shared laughter feels so good, and why it may help to strengthen bonds between people. It's a careful, interesting result, though it came from a small group of volunteers, all men.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "cap": "The brain's own opioids",
+    "sub": "Released by laughing together"
+   }
+  },
+  {
+   "say": "So what do these studies suggest? That a good, hearty laugh can raise how much discomfort we tolerate, at least for a while. That it may release the brain's own opioid chemicals. And that this could help explain why laughing with friends feels so rewarding. But the samples were small, and the findings should be held lightly until they're repeated more widely.",
+   "show": {
+    "type": "list",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "title": "What these studies suggest",
+    "items": [
+     "Laughing can raise pain thresholds",
+     "It may release natural opioids",
+     "Shared laughter may feel rewarding",
+     "Small samples, so hold it lightly"
+    ]
+   }
+  },
+  {
+   "say": "A steaming mug of tea on a windowsill, rain streaking the glass, a soft lamp glowing behind. A familiar picture of comfort. It's tempting to think of laughter the same way, as a warm drink for the mind. In some ways, that's fair. But as with most comforts, it's worth knowing what it can, and can't, really do.",
+   "show": {
+    "type": "photo",
+    "file": "lf56_b12_01.jpg",
+    "cap": "A rainy window with a mug"
+   }
+  },
+  {
+   "say": "In 2001, the psychologist Rod Martin, whose laughter diary study we met earlier, published a careful review of research on humour, laughter and physical health. He found that many popular claims were based on weak studies, small samples or no proper comparison groups. The evidence that laughter improves long-term health, he concluded, was much less solid than the headlines suggested.",
+   "show": {
+    "type": "study",
+    "sprite": "A19",
+    "bg": "autumn_overlook",
+    "who": "Rod Martin",
+    "where": "Psychological Bulletin, 2001",
+    "what": "Humor, laughter, and physical health: methodological issues and research findings"
+   }
+  },
+  {
+   "say": "That's still a fair summary today. There's reasonable evidence that laughter can lift mood, ease tension and make discomfort a little easier to bear in the moment. There's much less evidence that it cures illness or extends life. Laughter is a lovely thing, and it's good for us in many everyday ways. But it isn't a replacement for medicine.",
+   "show": {
+    "type": "char",
+    "sprite": "A04",
+    "bg": "bedroom_night",
+    "cap": "The honest verdict",
+    "sub": "Good for the moment, unclear for the long run"
+   }
+  },
+  {
+   "say": "Let's check the slogan, point by point. Laughter lifts mood in the moment: likely. Eases tension: likely. Raises pain tolerance for a while: some evidence. Cures illness: there's no good evidence for that. Replaces treatment: no. So laughter isn't the best medicine. But it may be one of the best everyday comforts we have.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "title": "The best medicine, checked",
+    "items": [
+     "Lifts mood in the moment: likely",
+     "Eases tension: likely",
+     "Raises pain tolerance briefly: some evidence",
+     "Cures illness: no good evidence",
+     "Replaces treatment: no"
+    ]
+   }
+  },
+  {
+   "say": "Physically, a long laugh does work a few muscles. The diaphragm and the muscles around your ribs and belly contract again and again, and your breathing and heart rate can rise for a while, before settling back down afterwards. That's part of why Nadia's belly feels pleasantly tired now. It's a bit like a very small, very silly workout.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "What laughter does to your breath",
+    "sub": "A gentle workout"
+   }
+  },
+  {
+   "say": "And many people describe a loose, calm feeling after a good laugh, as if their muscles have let go. Nadia certainly feels it now. Her shoulders, which were tight from a long week of teaching, have dropped. Her jaw is soft. Whatever the exact mechanism, the loose, lighter feeling after a good laugh is something most people recognise.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "cabin_fireplace",
+    "cap": "The calm afterwards",
+    "sub": "Why you feel loose and light"
+   }
+  },
+  {
+   "say": "A gentle note, too. For people going through a hard time, being told to just laugh more can feel unhelpful or even hurtful. Laughter tends to come naturally when we feel safe and connected, and that isn't always possible. If laughing feels hard for a long stretch, or nothing seems enjoyable any more, that's worth talking about with a doctor, rather than trying to force a smile.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "living_room_day",
+    "cap": "A gentle note",
+    "sub": "When laughter is hard"
+   }
+  },
+  {
+   "say": "So here's where the evidence leaves us. Laughter, especially shared laughter, seems to be good for us in the moment. It can lift mood, ease tension, bring people closer and perhaps soften discomfort for a while. It's not a cure. But it may be one of the most natural, freely available comforts human beings have ever had.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "What we can say",
+    "sub": "Comfort, not cure"
+   }
+  },
+  {
+   "say": "Nadia's walk is nearly half done. As she passes a darkened school, not her own, she thinks of a moment years ago when she got the giggles during a serious assembly and couldn't stop. It was mortifying. Laughter doesn't always come at the right moment, or for the right reasons. And sometimes, it comes in very strange ways indeed.",
+   "show": {
+    "type": "char",
+    "sprite": "N14",
+    "bg": "bedroom_night",
+    "cap": "Next question",
+    "sub": "When laughter goes strange"
+   }
+  }
+ ]
+}

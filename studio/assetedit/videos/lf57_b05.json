@@ -1,0 +1,151 @@
+{
+ "id": "lf57_b05",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Elena steps out of the church hall into the cold. The air bites her warm cheeks, and it feels wonderful, like cool water on a hot day. Her breath comes out in little clouds. The street is quiet, and the snow that fell this morning has frozen into a crisp crust along the edges of the pavement.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "rooftop_dusk",
+    "n": 4,
+    "title": "The blushing brain"
+   }
+  },
+  {
+   "say": "While she walks, let's ask what her brain was doing in that moment on stage. Darwin's theory suggested that a blush starts with thinking about what others think of you. If that were true, a brain scan of a blushing person should show the areas we use to imagine other minds lighting up. In 2024, a team decided to test that directly.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "autumn_overlook",
+    "cap": "A question for the scanner",
+    "sub": "What is the brain doing?"
+   }
+  },
+  {
+   "say": "The study was led by Milica Nikolić, working with Christian Keysers, Valeria Gazzola and colleagues in the Netherlands. They recruited forty young women. At a first visit, each of them was recorded singing four deliberately tricky songs, the kind of thing you'd only attempt at karaoke after a long evening.",
+   "show": {
+    "type": "study",
+    "sprite": "A01",
+    "bg": "cafe_sunset",
+    "who": "Milica Nikolic, Christian Keysers, Valeria Gazzola and colleagues",
+    "where": "Proceedings of the Royal Society B, 2024",
+    "what": "40 young women watched themselves singing in a scanner while their cheek temperature was tracked"
+   }
+  },
+  {
+   "say": "At a second visit, the volunteers lay in a brain scanner, with a sensor tracking the temperature of their cheek, and watched videos. Some showed themselves singing. Some showed other volunteers of similar ability. And some showed a professional singer whom they'd been told was just another participant, so that they wouldn't feel she was in a different league.",
+   "show": {
+    "type": "list",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "title": "Who they watched in the scanner",
+    "items": [
+     "Themselves singing",
+     "Other people of similar ability",
+     "A professional singer"
+    ]
+   }
+  },
+  {
+   "say": "As you might expect, cheek temperature rose more when people watched themselves than when they watched anybody else. The researchers wrote that this aligns with the notion that blushing typically occurs when the self is exposed. So far, so Darwin. The surprise was in the brain.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Cheeks warmer for the self",
+    "sub": "As expected"
+   }
+  },
+  {
+   "say": "The people who blushed more didn't show extra activity in the brain areas linked to thinking about what other people believe or feel. Instead, the strongest blushers showed stronger activity in the cerebellum, a part of the brain at the back of the head that's involved in movement and timing, but also, it seems, in emotional arousal and attention.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "attic_rain",
+    "cap": "Not where Darwin expected",
+    "sub": "No mind-reading boost"
+   }
+  },
+  {
+   "say": "So the authors suggested a different picture. Perhaps a blush isn't triggered by a careful chain of thought, like, they're looking at me, they might be judging me, how embarrassing. Perhaps it's triggered by something faster and simpler: a sudden surge of alertness at being socially exposed. A jolt of, oh, I'm being watched, before any real thinking has happened.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "living_room_day",
+    "cap": "A surge of alertness",
+    "sub": "Rather than a long thought"
+   }
+  },
+  {
+   "say": "A street like the one Elena is walking down now, cold and lamplit and still. Her brain, if the 2024 study is right, did its quick work in the hall before she'd had a single conscious thought about the audience.",
+   "show": {
+    "type": "photo",
+    "file": "lf57_b05_01.jpg",
+    "cap": "A frosty street after the concert"
+   }
+  },
+  {
+   "say": "There was one more finding that's rather comforting. The researchers asked the volunteers how embarrassed they felt, and gave them questionnaires about social anxiety. Neither was clearly linked to how much they actually blushed. A person could feel mortified and barely warm up, or feel fairly relaxed and glow.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "cabin_fireplace",
+    "cap": "Feeling versus blushing",
+    "sub": "Not as linked as you'd think"
+   }
+  },
+  {
+   "say": "As always, one study is only one study. All forty volunteers were young women, so we can't be sure the same pattern holds for everyone. And a brain scanner is a strange place to blush, lying very still in a noisy machine. But it's the first time anyone has looked inside the head at the very moment a face warms up, and it nudges the old theory in an interesting direction.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "rooftop_dusk",
+    "cap": "A careful caveat",
+    "sub": "One study, one group"
+   }
+  },
+  {
+   "say": "If you put the old and new ideas side by side, Darwin was half right. He said the trigger was self-attention in relation to the opinion of others. The new study agrees that the self being exposed is key. But it suggests that the blush may start before the thinking does, as a quick alarm rather than a slow reflection.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "autumn_overlook",
+    "cap": "Darwin was half right",
+    "sub": "Exposure, not reflection"
+   }
+  },
+  {
+   "say": "Elena can feel the truth of that. On stage, she didn't think, oh no, they're judging me. There wasn't time. She sang her eight bars and stepped back, and the warmth simply arrived, like a reflex. The thoughts came afterwards, when she was already glowing and wondering why.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Back on the street",
+    "sub": "That quick jolt"
+   }
+  },
+  {
+   "say": "A cat sitting on a low garden wall watches her go by, its eyes catching the lamplight. It doesn't blush, of course. Darwin would point out that the cat may feel many things, but it isn't wondering what Elena thinks of it. Elena smiles at it anyway, and it closes its eyes slowly, the way cats do when they've decided you're acceptable.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "street_day",
+    "cap": "A cat on a wall",
+    "sub": "Watching her pass"
+   }
+  },
+  {
+   "say": "So now we know a little about the skin and a little about the brain. But blushing isn't the same for everyone. Some people hardly ever do it. Others feel it several times a day. And the age you are seems to make a big difference. Let's look at who blushes, how often, and at what kinds of moments.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "living_room_day",
+    "cap": "Who blushes most?",
+    "sub": "And when"
+   }
+  }
+ ]
+}

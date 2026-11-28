@@ -1,0 +1,177 @@
+{
+ "id": "lf57_b23",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now, as you lie here, warm and heavy and still, let's think back very gently over the evening, one last time, like turning the pages of a picture book you know by heart. You don't need to remember anything. Just let the pictures drift past, slowly, each one softer than the last.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "n": 22,
+    "title": "Goodnight"
+   }
+  },
+  {
+   "say": "The little church hall, dark and quiet, with its stacked chairs and its closed piano and the frost growing on its tall windows. Resting.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "The hall",
+    "sub": "Resting"
+   }
+  },
+  {
+   "say": "The frosty street, with its old lamps casting soft pools of gold on the pavement, and the cat on the wall, its eyes half closed. Resting.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "cap": "The street",
+    "sub": "Pools of light"
+   }
+  },
+  {
+   "say": "The shop windows on the high street, the empty bakery trays, the sleeping books, the white flowers in their buckets. Resting.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "cap": "The shop windows",
+    "sub": "Glowing softly"
+   }
+  },
+  {
+   "say": "The little square, with its frosted steps and its cobblestones and the café on the corner, its chairs turned up on the tables. Resting.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "The square",
+    "sub": "Hushed"
+   }
+  },
+  {
+   "say": "The slow, dark river, with its ribbons of lamplight and its path of moonlight, and the two ducks asleep on the wall. Resting.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "The river",
+    "sub": "Slow and dark"
+   }
+  },
+  {
+   "say": "The old green footbridge, its rail glittering with frost, holding steady over the moving water, as it has for a hundred years. Resting.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "cap": "The bridge",
+    "sub": "Green and old"
+   }
+  },
+  {
+   "say": "The great oak tree in the park, with its bare branches spread against the stars, and the bench beneath it, and the single soft lamp. Resting.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The oak",
+    "sub": "And the stars"
+   }
+  },
+  {
+   "say": "The little bakery on the high street, its trays empty, and tomorrow's dough resting quietly under its cloths at the back, rising slowly through the night. Resting.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "cap": "The bakery",
+    "sub": "And its dough"
+   }
+  },
+  {
+   "say": "And somewhere far away, in a warm aviary, the bright blue-and-yellow parrots, asleep on their perches with their heads tucked into their feathers, their pale cheeks cool and still. Resting.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The macaws",
+    "sub": "Asleep on their perches"
+   }
+  },
+  {
+   "say": "Elena's little workshop near the station, dark and peaceful, with its shelves of old clocks ticking softly together, each at its own slow pace, keeping the time all night long. Resting.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "Elena's workshop",
+    "sub": "The clocks ticking"
+   }
+  },
+  {
+   "say": "And Elena, somewhere across the town, asleep at last in her own warm bed. Her cheeks are cool now. Her face is soft and still. Tonight she stepped forward and sang, and was seen, and blushed, and it was all right. More than all right. And now she's resting too, dreaming, perhaps, of music.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "And Elena",
+    "sub": "Asleep at last"
+   }
+  },
+  {
+   "say": "And you, here, now, warm under your covers, heavy and soft and drifting. You don't need to do anything else tonight. You've done enough. You are enough, just as you are, seen or unseen, pale or glowing. There's nothing left to do but rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "And you",
+    "sub": "Here and now"
+   }
+  },
+  {
+   "say": "Outside, the frost goes on quietly drawing its feathers on the windows, and the river goes on murmuring under the old bridge, and the stars go on shining over the oak. All of it carries on, gently, without you, so that you can let go of it completely.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "cap": "The frost and the river",
+    "sub": "Carrying on"
+   }
+  },
+  {
+   "say": "Let the last of the words grow faint now, like footsteps in snow fading into the distance. Warm and still. Soft and slow. Drifting, and drifting, a little further each breath, down into a deep, kind, winter sleep.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Drifting",
+    "sub": "Into sleep"
+   }
+  },
+  {
+   "say": "Sleep well. Goodnight.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Sleep well",
+    "sub": "Goodnight"
+   }
+  },
+  {
+   "say": "And next time, if you'd like to join me again, we'll explore another very human puzzle of the night. Why do some of us talk, mumble, laugh or even shout in our sleep, and what is the sleeping brain actually doing when the words come out? I'll see you then.",
+   "show": {
+    "type": "end",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "next": "Why We Talk in Our Sleep"
+   }
+  }
+ ]
+}

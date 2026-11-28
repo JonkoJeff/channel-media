@@ -1,0 +1,157 @@
+{
+ "id": "lf57_b11",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Elena walks slowly along the park path, under the bare trees. Somewhere in the dark branches above her, a bird shifts in its sleep and gives a single sleepy chirp, then falls silent again. She looks up, but she can't see it. Just the frosty branches, and the stars behind them, and the quiet.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N29",
+    "bg": "cabin_fireplace",
+    "n": 10,
+    "title": "Blushing parrots?"
+   }
+  },
+  {
+   "say": "Birds bring us to our first puzzle. In 2018, a group of French researchers asked a question that sounds almost like a joke. Can a parrot blush? They weren't thinking of a parrot that feels embarrassed about a bad joke. They wanted to know whether a bird's face might change colour in social moments, the way ours does.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "A bird that blushes?",
+    "sub": "An unusual question"
+   }
+  },
+  {
+   "say": "The study was led by Aline Bertin, at the French national research institute for agriculture, working with zoo staff. They studied five hand-reared blue-and-yellow macaws, the big parrots with bright blue backs, golden chests, and a patch of bare white skin on each side of the face, right where our cheeks would be.",
+   "show": {
+    "type": "study",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "who": "Aline Bertin and colleagues",
+    "where": "PLOS ONE, 2018",
+    "what": "Five hand-reared blue-and-yellow macaws were photographed while a familiar caretaker talked to them, and while the caretaker ignored them"
+   }
+  },
+  {
+   "say": "The researchers compared two kinds of moment. In one, a caretaker the birds knew well stood near them, talked to them and kept up eye contact. In the other, the caretaker was in the same room, but ignored the bird and turned their back. The birds were photographed throughout, and their faces were studied carefully.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "autumn_overlook",
+    "cap": "Two kinds of moment",
+    "sub": "Attention, or none"
+   }
+  },
+  {
+   "say": "People who didn't know what the study was about looked at the photographs. During the moments when the caretaker was talking to the birds and looking at them, a significantly higher proportion of observers judged that the bare skin of the cheeks had reddened. The birds' faces seemed to flush pink when someone they knew was paying them attention.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "living_room_day",
+    "cap": "Pinker cheeks",
+    "sub": "When someone paid attention"
+   }
+  },
+  {
+   "say": "There was something else. The small feathers on the top of the birds' heads, the crown, were ruffled up more often when the caretaker was actively engaging with them. So the birds had at least two ways of changing their faces: a flush of colour, and a lifting of feathers. The researchers wondered whether these might be little windows into how the birds felt.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "cabin_fireplace",
+    "cap": "Ruffled feathers too",
+    "sub": "A crown that rises"
+   }
+  },
+  {
+   "say": "Bertin was careful but intrigued. Blushing, she said, may not be a characteristic unique to humans. And in the paper, the team argued that crown ruffling and changes in skin colour may provide facial signs of the birds' inner feelings. Mark Twain, I suspect, would have enjoyed that very much.",
+   "show": {
+    "type": "quote",
+    "sprite": "N29",
+    "bg": "rooftop_dusk",
+    "text": "Blushing may not be a characteristic unique to humans.",
+    "by": "Aline Bertin, 2018"
+   }
+  },
+  {
+   "say": "A blue-and-yellow macaw, with that pale patch of skin on its face. When someone it knows looks at it and talks to it, that patch may turn pink. It isn't the same as our blush, and we can't know what the bird feels. But it's a lovely thing to wonder about.",
+   "show": {
+    "type": "photo",
+    "file": "lf57_b11_01.jpg",
+    "cap": "A blue-and-yellow macaw"
+   }
+  },
+  {
+   "say": "It's important to be honest about how small this study was. Five birds is a tiny number, and the authors themselves wrote that caution must be exercised when interpreting the data because of the small sample. A parrot's flush might mean excitement, or pleasure, or simply alertness. It doesn't show that a macaw feels self-conscious the way a person does.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "living_room_day",
+    "cap": "A very small study",
+    "sub": "Caution needed"
+   }
+  },
+  {
+   "say": "But notice what switched it on. Not food, not danger, but being looked at and spoken to by a familiar person. Attention. That's the same trigger we keep finding in human blushing, from Darwin's letters to the singing studies to the brain scanner. It may be that being noticed by another mind is a powerful moment for many social creatures, not only for us.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "cabin_fireplace",
+    "cap": "Still, a nice echo",
+    "sub": "Attention, again"
+   }
+  },
+  {
+   "say": "That brings us to another small puzzle, and you can try it right now if you like. Can you blush on purpose? Try to make your cheeks go red, just by wanting them to. For almost everyone, nothing happens. You can smile on command, or frown, or raise your eyebrows. But the blush won't come when it's called.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "street_day",
+    "cap": "Can you blush on purpose?",
+    "sub": "Almost nobody can"
+   }
+  },
+  {
+   "say": "And here's the other half of the puzzle. Once a blush has started, you can't make it stop by wanting it to, either. Many people try. They tell themselves not to go red, and it seems to get worse. Remember the 2003 feedback study, where simply being told you were blushing helped push blood flow higher in people who already worried about it.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "living_room_day",
+    "cap": "And you can't stop one either",
+    "sub": "The other half of the puzzle"
+   }
+  },
+  {
+   "say": "In a way, that's exactly what makes a blush valuable as a signal. If we could switch it on and off at will, nobody would trust it. Because it happens to us, rather than being something we do, the people around us can read it as honest. It's one of the very few messages the body sends that we really can't edit.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "cafe_sunset",
+    "cap": "Why that's useful",
+    "sub": "An honest signal"
+   }
+  },
+  {
+   "say": "Elena, walking under the trees, actually tries. She thinks, go red, and waits. Nothing. Her cheeks stay cool in the night air. She laughs softly at herself, and her breath makes a little cloud in the dark. Of course it doesn't work. A blush only arrives when someone is watching, and the only one watching her now is a sleeping bird.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "street_day",
+    "cap": "Elena tries it",
+    "sub": "And laughs"
+   }
+  },
+  {
+   "say": "There's one more thing she's wondering about, and it might be the most useful thing of all. On that stage, she felt as if her face were glowing like a beacon, as if every single person could see it. But could they? How much do other people actually notice, when we feel that everyone is looking? Psychologists have tested that too, with a rather embarrassing T-shirt.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "autumn_overlook",
+    "cap": "The second puzzle",
+    "sub": "How much do others notice?"
+   }
+  }
+ ]
+}

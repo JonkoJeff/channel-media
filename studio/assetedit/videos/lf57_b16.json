@@ -1,0 +1,166 @@
+{
+ "id": "lf57_b16",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now picture the high street, quiet and empty, with its row of little shops all closed for the night. Their windows are still softly lit, small squares of warm light along the frosty pavement. You walk slowly past them, one after another, like turning the pages of a picture book, with no need to read the words.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "n": 15,
+    "title": "The high street windows"
+   }
+  },
+  {
+   "say": "Picture the bakery window first. The trays are empty now, swept clean, and the shelves behind them are bare. Earlier today they were full of warm loaves and buns, and the whole street smelled of bread. Now there's only the faintest memory of that smell, drifting out from under the door, soft and comforting.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "The bakery",
+    "sub": "Empty trays"
+   }
+  },
+  {
+   "say": "Somewhere at the back of the bakery, in the dark, tomorrow's dough is resting in big bowls under cloths, rising very slowly through the night. It doesn't need anyone to watch it. It just rests, and breathes, and grows a little softer and a little rounder, hour by hour, until morning. You can rest like that too.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Tomorrow's bread",
+    "sub": "Rising slowly"
+   }
+  },
+  {
+   "say": "Picture the bookshop next door, with its window full of books. There's a pile of winter novels, their covers in deep blues and soft whites, and a little wooden sledge with a toy bear sitting on it. Behind the window, the shop is dark, and the shelves are full of stories, all closed, all resting until someone opens them again.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "The bookshop",
+    "sub": "A pile of winter novels"
+   }
+  },
+  {
+   "say": "Imagine all those stories sleeping on the shelves. Adventures and mysteries, long romances and gentle tales about the countryside. Thousands and thousands of words, all perfectly still, waiting patiently between their covers. Not one of them needs to be read tonight. They're happy to wait.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "So many stories",
+    "sub": "All quiet"
+   }
+  },
+  {
+   "say": "The bookshop window, glowing softly in the frost. A little sledge, a toy bear, a pile of quiet books. You can look at it for as long as you like, and then, when you're ready, drift on to the next window.",
+   "show": {
+    "type": "photo",
+    "file": "lf57_b16_01.jpg",
+    "cap": "A bookshop window on a winter night"
+   }
+  },
+  {
+   "say": "Picture one more window, a little toy shop squeezed between the bookshop and the florist. On its shelves sit wooden animals in a neat row, a painted fox, a rabbit, a small brown bear, a red train with three carriages. They're all perfectly still, as if they've fallen asleep where they stand, waiting for morning and for small hands to pick them up.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The toy shop",
+    "sub": "Wooden animals"
+   }
+  },
+  {
+   "say": "In the corner of the toy shop window, a tiny lamp shaped like a crescent moon has been left on, glowing a soft pale yellow. It lights up the faces of the wooden animals just a little, enough to see their painted eyes and their gentle smiles. It's the kind of light you might leave on for a child who's afraid of the dark. Soft, and kind.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "The lamp in the window",
+    "sub": "A tiny glow"
+   }
+  },
+  {
+   "say": "Picture yourself walking on along the row of windows, so slowly that you hardly seem to move. There's no need to look at everything. Let your eyes rest on whatever they like, a window, a lamp, the frost on the pavement, and then let them drift on. Each window a little dimmer than the last. Each step a little softer.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "cap": "Walking on",
+    "sub": "Slowly, slowly"
+   }
+  },
+  {
+   "say": "Picture the florist's window, with its buckets of white chrysanthemums, and a few red roses at the front. The flowers are cool and still in the dim light. Their petals are folded softly, layer on layer. They're resting too, drinking slowly from the water in their buckets, staying fresh for tomorrow.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The florist",
+    "sub": "White flowers"
+   }
+  },
+  {
+   "say": "If you stood very close to the florist's door, you might just catch the faint, sweet, green scent of the flowers, the smell of leaves and stems and cool water. Picture taking a slow breath of it. In, slowly. And out, slowly. Let the breath carry away a little of the day, and leave you lighter.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The scent",
+    "sub": "Faint and sweet"
+   }
+  },
+  {
+   "say": "In the dark glass of the window, you can see a soft reflection of the street behind you, the lamps and the frosty pavement, all a little blurred, like a dream of a street. Everything looks gentle in that glass. Nothing is sharp or hurried. It's all soft edges and warm light.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "cap": "The glass",
+    "sub": "Your reflection, soft"
+   }
+  },
+  {
+   "say": "Picture the bus stop at the end of the high street, its little shelter glowing under a single light. There's nobody waiting. The timetable says there won't be another bus until the morning. The bench in the shelter is empty and still, and a few snowflakes have drifted in and settled on it, very lightly.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "cap": "The bus stop",
+    "sub": "Nobody waiting"
+   }
+  },
+  {
+   "say": "And look, a single snowflake is drifting down, all on its own, through the light of the lamp. It turns slowly as it falls, catching the light, then losing it, then catching it again. It isn't in any hurry. It takes its time, floating down, down, until it lands without a sound on the pavement, and rests there.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "A single snowflake",
+    "sub": "Falling slowly"
+   }
+  },
+  {
+   "say": "You might let your thoughts be like that snowflake. Whatever is still floating around in your mind from today, let it drift down, slowly, in its own time, and settle. You don't have to push any thought away. Just let each one float down and come to rest, softly, without a sound.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Let thoughts settle",
+    "sub": "Like snow"
+   }
+  },
+  {
+   "say": "At the end of the high street, the road opens out into the little square. You walk towards it, slowly, your footsteps soft on the frost. The shop windows glow behind you, one by one, and ahead of you is the square, with its old stone memorial and the café on the corner, quiet now, resting at the end of the evening.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "Onward",
+    "sub": "Towards the square"
+   }
+  }
+ ]
+}

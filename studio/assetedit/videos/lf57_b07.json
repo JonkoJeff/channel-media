@@ -1,0 +1,158 @@
+{
+ "id": "lf57_b07",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Elena crosses the little square with the war memorial in the middle, its stone steps dusted with frost. A café on the corner is still open, just. Its windows glow, and through them she can see a waiter wiping tables and stacking chairs, ready to close. The smell of coffee drifts out into the cold.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "n": 6,
+    "title": "Blushing on every skin"
+   }
+  },
+  {
+   "say": "Let's go back to Darwin's letters. When the answers to his questions came in from around the world, he concluded that blushing is, in the language of his time, common to most, probably to all, of the races of man. His correspondents described blushes in many peoples, including people with very dark skin.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "text": "Common to most, probably to all, of the races of man.",
+    "by": "Charles Darwin, 1872"
+   }
+  },
+  {
+   "say": "Darwin's point was that a blush is a change in blood flow, and that happens in everyone. What differs is how easily you can see it. On pale skin, extra blood near the surface shows as a vivid pink or red. On darker skin, the same rush of blood may show as a slight deepening of colour, or hardly show at all. He even noted that more blood in the skin seemed to make dark skin look a little darker.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "Harder to see",
+    "sub": "Not absent"
+   }
+  },
+  {
+   "say": "In 2000, Peter Drummond and Hwee Ling Lim put this to a direct test. They studied sixteen people with fair skin and sixteen with darker skin, and measured blood flow in the forehead and temperature in the cheek while the volunteers did two things: mental arithmetic, and, yes, singing.",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "autumn_overlook",
+    "who": "Peter Drummond and Hwee Ling Lim",
+    "where": "Personality and Individual Differences, 2000",
+    "what": "16 fair-skinned and 16 dark-skinned volunteers were measured while doing arithmetic and singing"
+   }
+  },
+  {
+   "say": "The physical blush was the same. The changes in blood flow and temperature didn't differ between the two groups. But the fair-skinned volunteers judged that they blushed more intensely, and they reported feeling more self-conscious while singing. As the authors put it, blushing is difficult to detect in people with dark skin, and that seemed to change how much people worried about it.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "rooftop_dusk",
+    "cap": "The blood flow was the same",
+    "sub": "The feeling was not"
+   }
+  },
+  {
+   "say": "That's a striking idea. The same inner response, in two bodies, felt quite different, depending partly on whether other people could see it. If you know your blush shows, you may become more anxious about it. If you know it rarely shows, it may matter less. The authors were careful, too. Their groups also differed in other ways, so the result needs repeating.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "Why that matters",
+    "sub": "A visible signal"
+   }
+  },
+  {
+   "say": "Another study, by Shields and Simon in 1996, asked American students about their blushes. Seventy-seven percent of Black participants said they noticed the warmth of a blush in their face without any visible change in colour. Only eleven percent of white participants said the same. The feeling was there. It just didn't always show.",
+   "show": {
+    "type": "bars",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "title": "Noticed warmth, but no colour change",
+    "unit": "% of participants",
+    "bars": [
+     [
+      "Black participants",
+      77.0
+     ],
+     [
+      "White participants",
+      11.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The café on the corner of the square, its windows warm and steamy. Elena thinks about going in for a hot chocolate, but the waiter is already turning the sign on the door. Another night, she thinks.",
+   "show": {
+    "type": "photo",
+    "file": "lf57_b07_01.jpg",
+    "cap": "A café about to close"
+   }
+  },
+  {
+   "say": "The colour red runs through how people talk about shame in many parts of the world. In one survey of languages, by Casimir and Schnegg, published in 2002, researchers looked at languages that link shame to a colour. In about eight in ten of them, the colour was red. That's not proof of anything about faces, but it shows how widely people have noticed the link.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Red for shame",
+    "sub": "Across languages"
+   }
+  },
+  {
+   "say": "Eighty percent of those languages connect shame with red. A smaller number, about one in ten, connect it with black, perhaps reflecting what a blush looks like on darker skin. Around the world, in other words, people have looked at a face in a moment of exposure and named what they saw.",
+   "show": {
+    "type": "stat",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "title": "Languages linking shame to red",
+    "big": "80%",
+    "label": "of those that link shame to a colour, in one 2002 survey"
+   }
+  },
+  {
+   "say": "Cultures also seem to differ in how much people say they blush. In one study by Robert Edelmann, published in 1990, people recalled an embarrassing incident. More than half of the British participants reported blushing in their story, but only about a quarter of the Greek and about a fifth of the Spanish participants did. That might reflect skin, or habits of speech, or what each culture thinks is worth mentioning.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "autumn_overlook",
+    "cap": "Cultures differ, too",
+    "sub": "Saying versus showing"
+   }
+  },
+  {
+   "say": "So here's where we've got to. The blush itself, the rush of blood to the face, seems to be something humans share. What changes is whether it shows, how people feel about it, and what their culture says it means. Darwin guessed much of this a hundred and fifty years ago, from letters that took months to arrive.",
+   "show": {
+    "type": "char",
+    "sprite": "A02",
+    "bg": "cafe_sunset",
+    "cap": "One body, many meanings",
+    "sub": "The same rush of blood"
+   }
+  },
+  {
+   "say": "Elena leaves the square and takes the narrow lane that leads down towards the river. It's quieter here. The houses are older and closer together, and the only sound is her footsteps crunching on the frost. She's still thinking about the concert, and about the warmth that came and went in her face. Did it help her, or give her away?",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "street_day",
+    "cap": "Past the square",
+    "sub": "Towards the river"
+   }
+  },
+  {
+   "say": "That's the next question, and it's one where Darwin may have been wrong. Remember, he thought blushing was of no use to anyone. But in the last few decades, researchers in the Netherlands and elsewhere have been asking a different question. What does a blush do to the people who see it?",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "living_room_day",
+    "cap": "Does a blush help?",
+    "sub": "Darwin said no"
+   }
+  }
+ ]
+}

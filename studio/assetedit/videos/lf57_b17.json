@@ -1,0 +1,156 @@
+{
+ "id": "lf57_b17",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Now picture the little square, small and still in the middle of the town. In its centre stands the old stone memorial, its steps white with frost. Around the edges, tall, old houses lean gently towards each other, their windows dark. The whole square is hushed, as if it were holding its breath, very gently, so as not to wake anyone.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "n": 16,
+    "title": "The little square"
+   }
+  },
+  {
+   "say": "Picture the stone steps of the memorial, worn smooth by many years of people sitting on them, on sunny afternoons and summer evenings. Tonight they're cool and frosted and empty. The frost on them glitters very faintly in the lamplight, like a scattering of fine sugar on a cake.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "The stone steps",
+    "sub": "Cool and smooth"
+   }
+  },
+  {
+   "say": "Picture the café on the corner, closed now. The waiter has gone home. Inside, the chairs are turned upside down on the tables, their legs pointing up towards the ceiling, like a little forest of wooden trees. The coffee machine is switched off and cool. A single small lamp has been left on behind the counter, glowing softly.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The café",
+    "sub": "Chairs on the tables"
+   }
+  },
+  {
+   "say": "The rich smell of coffee that drifted out into the square earlier is fading now, growing fainter and fainter in the cold air, until it's just a memory. In the morning, someone will come and turn the sign, and switch on the machine, and the smell will come back. But for now, the café is resting, and it's happy to rest.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The smell of coffee",
+    "sub": "Fading"
+   }
+  },
+  {
+   "say": "Picture a bicycle leaning against the railing at the edge of the square, its basket empty, its saddle dusted with frost. Someone rode it here this morning and walked home tonight, leaving it to rest. Its wheels are still. Its bell is silent. In the morning, someone will brush off the frost and ride it away. But for now, it rests.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "cap": "A bicycle",
+    "sub": "Leaning on a railing"
+   }
+  },
+  {
+   "say": "Picture the old stone memorial in the centre of the square, tall and grey, with names carved long ago into its sides. It has stood here for more than a century, through every kind of weather, watching over the square. Tonight it stands quietly in the frost and the lamplight, keeping its own long, patient silence.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "The memorial",
+    "sub": "Old and quiet"
+   }
+  },
+  {
+   "say": "Notice your hands again. Let them be warm, and still, and soft. Let your fingers rest wherever they are, curled a little, the way they curl when you're nearly asleep. There's nothing for your hands to hold, nothing to carry, nothing to do. They can rest, like the bicycle against the railing, until morning.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "Your hands",
+    "sub": "Warm and still"
+   }
+  },
+  {
+   "say": "As you picture the quiet café, notice your shoulders. If they've crept up at all, let them sink down, slowly. Let your neck soften. Let your jaw loosen, so that your teeth aren't touching. Let your tongue rest softly in your mouth. These small places hold on to the day without our noticing. Let them let go.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "attic_rain",
+    "cap": "Your shoulders",
+    "sub": "Letting go"
+   }
+  },
+  {
+   "say": "The square at night, hushed and frosted, with the café's last little light glowing on the corner. Nothing is happening here. Nothing needs to happen. The square simply rests, the way you're resting now.",
+   "show": {
+    "type": "photo",
+    "file": "lf57_b17_01.jpg",
+    "cap": "The square, fast asleep"
+   }
+  },
+  {
+   "say": "Picture the cobblestones of the square, each one rounded and smooth, fitted together in gentle curving rows. A thin layer of frost lies over them, and the lamplight shines softly on the rounded tops of the stones, so that the whole square seems to be covered in tiny, glowing pebbles, row after row after row.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "cap": "The cobblestones",
+    "sub": "Round and cold"
+   }
+  },
+  {
+   "say": "If you like, you could count the rows of cobblestones, slowly, one by one. One row. Two rows. Three. Or you could not count at all, and just let your eyes drift across them, the way your eyes drift across the sea when you're sitting on a beach. Either way is fine. There's no right way to rest.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Counting slowly",
+    "sub": "Or not at all"
+   }
+  },
+  {
+   "say": "Somewhere above the square, in an old tower, a clock begins to strike the hour. The sound is soft and deep and slow, rolling out over the rooftops. One. And a long pause. Two. And another long pause. You don't need to count the strokes. Just let each one wash over you, and fade away into the quiet.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "cap": "A clock in a tower",
+    "sub": "Striking softly"
+   }
+  },
+  {
+   "say": "Elena, who repairs old clocks, would know that sound. Somewhere across town, in her little workshop near the station, a dozen clocks are ticking away in the dark on their shelves, each at its own gentle pace. Tick, and tock, and tick. None of them in a hurry. All of them keeping the slow, patient time of the night.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "Elena's clocks",
+    "sub": "Ticking in the workshop"
+   }
+  },
+  {
+   "say": "Tonight, time can go as slowly as it likes. There's nothing waiting for you, nothing to finish, nothing to catch. The clocks can keep the time, so that you don't have to. You can let go of the hours altogether, and just be here, in the quiet square, under the stars, resting.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "Time slowing",
+    "sub": "Nowhere to be"
+   }
+  },
+  {
+   "say": "On the far side of the square, a narrow lane leads gently downhill, towards the river. Picture yourself walking towards it, slowly. The houses grow older and closer together, and the lane narrows, and the sound of your footsteps grows softer, until it's almost nothing at all.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "The lane",
+    "sub": "Down to the river"
+   }
+  }
+ ]
+}

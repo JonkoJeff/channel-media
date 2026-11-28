@@ -1,0 +1,147 @@
+{
+ "id": "lf57_b09",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Elena reaches the old footbridge over the river. It's a narrow iron bridge, painted dark green, with a handrail worn smooth by a century of hands. Halfway across, she stops and leans on the rail, looking down at the black water sliding by. Her cheeks have finally cooled. Her hands, in her pockets, are warm.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "n": 8,
+    "title": "The prisoner's dilemma"
+   }
+  },
+  {
+   "say": "While she rests there, let's look at that experiment from 2002. It used a game that economists and psychologists love, called the prisoner's dilemma. Two players each choose, in secret, whether to cooperate or to act selfishly. If both cooperate, both do well. If one acts selfishly while the other cooperates, the selfish one does better and the trusting one loses out.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "cap": "A game about trust",
+    "sub": "Cooperate or not?"
+   }
+  },
+  {
+   "say": "The study, by Peter de Jong, Madelon Peters, David De Cremer and Caroline Vranken, used pairs of women who had all been chosen because they tended to cooperate. Each pair played ten rounds. But on the fourth round, one player in each pair had secretly been asked by the researchers to act selfishly, to let the other one down.",
+   "show": {
+    "type": "study",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "who": "Peter de Jong, Madelon Peters, David De Cremer and Caroline Vranken",
+    "where": "European Journal of Social Psychology, 2002",
+    "what": "25 pairs played ten rounds; on one round, one player was instructed to let the other down"
+   }
+  },
+  {
+   "say": "Throughout the game, the researchers measured the colour of the players' cheeks with a sensor, along with the small changes in sweat that show arousal. Afterwards, both players, and outside observers, rated how much the defector had blushed, how ashamed she seemed, and how reliable she was. Twenty-five pairs ended up in the final analysis.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "Measuring the blush",
+    "sub": "Real faces, real stakes"
+   }
+  },
+  {
+   "say": "The players who let their partner down did blush. Their cheek colour peaked higher on the round where they defected than on the round just before. And they felt it. Their own ratings of shame jumped from about twelve to about forty-six on the researchers' scale. Even though they'd been told to do it, letting someone down still made their faces burn.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "cap": "The defectors blushed",
+    "sub": "On exactly that round"
+   }
+  },
+  {
+   "say": "And it showed. Before the defection, the defector's reliability was rated at about ninety. After it, the rating fell to about fifty-eight. No surprise there. Being let down in a trust game makes you trust a person less. The interesting question was what the blush did to that judgement.",
+   "show": {
+    "type": "bars",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "title": "How reliable the partner seemed",
+    "unit": "rating out of 100",
+    "bars": [
+     [
+      "Before the defection",
+      90.0
+     ],
+     [
+      "After the defection",
+      58.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Here, the blush didn't help. In fact, the more intensely the defector was seen to blush, the lower her reliability was rated. In this game, a blush seemed to work less like an apology and more like a confession. It revealed that she'd done something she felt bad about, without undoing any of it.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "A blush that revealed",
+    "sub": "Not one that healed"
+   }
+  },
+  {
+   "say": "The authors concluded that only when the situation is clear does a blush have its healing, remedial effect. If you clearly made an innocent mistake, a blush says sorry. If the situation is murky, a blush may say, yes, I did something. It's the same red face, read in two completely different ways, depending on the story around it.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Appeasing or revealing?",
+    "sub": "It depends on the story"
+   }
+  },
+  {
+   "say": "The footbridge where Elena stands, its rail glittering with frost under the lamps. A bridge is a good picture for a blush, perhaps. A blush connects what's going on inside you with what other people see, whether you want them to or not.",
+   "show": {
+    "type": "photo",
+    "file": "lf57_b09_01.jpg",
+    "cap": "An old footbridge in the frost"
+   }
+  },
+  {
+   "say": "Putting it all together, many researchers now think a blush is, at heart, a sign that you care how others see you. Most of the time, that's a good thing to show. It tells people that you're aware, that you're sensitive to them, that you belong to the group. It only backfires when people already suspect you of something.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "cafe_sunset",
+    "cap": "So what is a blush for?",
+    "sub": "Showing that you care"
+   }
+  },
+  {
+   "say": "Elena's blush, after her solo, was the good kind, the kind that comes from a moment of being seen doing something you care about. Nobody in that audience thought she'd done anything wrong. Her red face simply said, this mattered to me. And that's a message most people are glad to receive.",
+   "show": {
+    "type": "char",
+    "sprite": "A01",
+    "bg": "street_day",
+    "cap": "Elena's kind of blush",
+    "sub": "The good kind"
+   }
+  },
+  {
+   "say": "She pushes herself off the rail and carries on across the bridge. On the far side, the path leads up through the edge of a small park, where the trees are bare and the grass is white with frost. There's one more question she's been turning over, a less comfortable one. What about people for whom blushing isn't a small thing at all?",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "living_room_day",
+    "cap": "Crossing the bridge",
+    "sub": "Towards the park"
+   }
+  },
+  {
+   "say": "For some people, the fear of blushing becomes a real burden. They avoid speaking up, or meeting new people, because they dread their face going red. That's something researchers take seriously, and what they've found is both surprising and, I think, quietly reassuring. Let's go there gently.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "autumn_overlook",
+    "cap": "When blushing becomes a worry",
+    "sub": "Gently, now"
+   }
+  }
+ ]
+}

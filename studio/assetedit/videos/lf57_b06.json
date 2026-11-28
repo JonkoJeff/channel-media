@@ -1,0 +1,165 @@
+{
+ "id": "lf57_b06",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Elena turns the corner onto the high street. The shops are closed, but their windows are still softly lit, a bakery with its empty trays, a bookshop with a pile of winter novels, a florist with buckets of white chrysanthemums. A bus goes by, almost empty, its windows fogged.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "cafe_sunset",
+    "n": 5,
+    "title": "Who blushes, and when"
+   }
+  },
+  {
+   "say": "Walking past the bookshop, Elena remembers being fourteen. Back then she seemed to blush all the time. When a teacher asked her a question. When she walked into a room late. When anybody at all mentioned anybody she liked. These days it happens less often, and she's always assumed she simply grew out of it. Researchers have looked at exactly that.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "living_room_day",
+    "cap": "A teenage memory",
+    "sub": "Blushing all the time"
+   }
+  },
+  {
+   "say": "In 1990, Stephanie Shields, Mary Mallory and Angela Simon interviewed sixty-five people, aged from thirteen to fifty-five, some of whom said they blushed often and some rarely. They asked how often they blushed, what it felt like, and what tended to set it off. They found a clear pattern with age.",
+   "show": {
+    "type": "study",
+    "sprite": "A12",
+    "bg": "street_day",
+    "who": "Stephanie Shields, Mary Mallory and Angela Simon",
+    "where": "Journal of Nonverbal Behavior, 1990",
+    "what": "65 frequent and infrequent blushers aged 13 to 55 were interviewed about their blushing"
+   }
+  },
+  {
+   "say": "Among people aged twenty-five or younger, sixty-four percent said they blushed more than once a week, and more than a third said they blushed every day. Among those over twenty-five, only twenty-eight percent blushed more than once a week. The older people were, the less often they reported blushing.",
+   "show": {
+    "type": "bars",
+    "sprite": "N01",
+    "bg": "cabin_fireplace",
+    "title": "Blushed more than once a week",
+    "unit": "% of people",
+    "bars": [
+     [
+      "25 or younger",
+      64.0
+     ],
+     [
+      "Over 25",
+      28.0
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Why might blushing become less frequent with age? The researchers couldn't say for certain. It may be that older people simply care a little less about being looked at. It may be that they've had more practice at being the centre of attention. And it may be that the situations which make young people blush, like new relationships and new social worlds, come along less often later in life.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "autumn_overlook",
+    "cap": "Why would it fade?",
+    "sub": "A few possibilities"
+   }
+  },
+  {
+   "say": "That same research team asked whether being alone made a difference. About half the people said being alone made them blush less, and only a few said it made them blush more. That fits everything we've heard so far. A blush is about other people. It's rare to blush in an empty room, unless you're remembering something, and even then, you're usually picturing other people in the memory.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "cap": "Alone, less",
+    "sub": "Others make it worse"
+   }
+  },
+  {
+   "say": "A later study looked at blushing in everyday life rather than in the laboratory. Marije aan het Rot, D. S. Moskowitz and Peter de Jong asked young adults to fill in a short questionnaire after their conversations, every day, for two weeks. Did they blush? How did they feel? How did they act?",
+   "show": {
+    "type": "study",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "who": "Marije aan het Rot, D. S. Moskowitz and Peter de Jong",
+    "where": "PLOS ONE, 2015",
+    "what": "Young adults filled in a short form after their social encounters for two weeks"
+   }
+  },
+  {
+   "say": "On average, the young adults in that study blushed about once a day, but with large differences between people. Some blushed many times a day. Others hardly at all. And that's worth remembering if you're one of the frequent ones. You're not strange. You're just at one end of a very wide, very normal range.",
+   "show": {
+    "type": "stat",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "title": "How often young adults blushed",
+    "big": "about 1 a day",
+    "label": "on average, with big differences between people"
+   }
+  },
+  {
+   "say": "Here's the part I find lovely. The people who blushed only rarely tended to blush mostly in pleasant situations, during friendly, warm encounters. The researchers suggested that this points to a positive side of blushing, a way of showing something good, like warmth or modesty, to the person you're with.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "Pleasant blushes",
+    "sub": "Not only bad moments"
+   }
+  },
+  {
+   "say": "For people who blushed often, the picture was a little different. They tended to describe themselves as more submissive and less dominant in their interactions, even at moments when they weren't blushing, and they felt more shame when a blush did happen. So the blush itself isn't the problem. It's how a person feels about it that shapes the experience.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Frequent blushers",
+    "sub": "More shame when it happens"
+   }
+  },
+  {
+   "say": "A shop window full of flowers, glowing on a winter night. Elena stops in front of it for a moment, because it's pretty, and because her cheeks are almost the same colour as the few red roses at the front.",
+   "show": {
+    "type": "photo",
+    "file": "lf57_b06_01.jpg",
+    "cap": "Flowers in a winter window"
+   }
+  },
+  {
+   "say": "Put the studies together, and some of the most common blush triggers look like this. Praise in front of other people. Being stared at, even kindly. Being the centre of attention. Small slips that others notice. And, oddly, being told you're blushing. Very few of them involve doing anything wrong. Most simply involve being seen.",
+   "show": {
+    "type": "list",
+    "sprite": "A19",
+    "bg": "living_room_day",
+    "title": "Common blush triggers",
+    "items": [
+     "Praise in front of others",
+     "Being stared at",
+     "Being the centre of attention",
+     "Being told you're blushing",
+     "A small slip noticed by others"
+    ]
+   }
+  },
+  {
+   "say": "Praise is the one that surprises people most. Why would a compliment make your face burn? But think about what praise does. It puts you, suddenly, at the centre. Everybody's attention turns your way. And it asks you to accept something about yourself in front of others, which is a surprisingly exposing thing to do. The woman with the tea did exactly that to Elena.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "street_day",
+    "cap": "Praise burns brightest",
+    "sub": "Why compliments do it"
+   }
+  },
+  {
+   "say": "So far we've been talking as if a blush looks the same on everyone. But it doesn't. On some skin it's a bright, obvious red. On other skin you might barely see it at all. Does that mean some people don't blush? Darwin wondered about that in 1867. Modern researchers have taken his question into the laboratory.",
+   "show": {
+    "type": "char",
+    "sprite": "A15",
+    "bg": "cafe_sunset",
+    "cap": "A wider question",
+    "sub": "Does everyone blush?"
+   }
+  }
+ ]
+}

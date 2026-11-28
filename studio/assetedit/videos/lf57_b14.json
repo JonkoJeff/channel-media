@@ -1,0 +1,166 @@
+{
+ "id": "lf57_b14",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's begin back in the little church hall, long after everyone has gone home. Picture it now in the dark. The folding chairs are stacked in tidy towers along one wall. The piano lid is closed. The radiators are still ticking softly as they cool, a slow, gentle sound, like a very old clock.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N09",
+    "bg": "cabin_fireplace",
+    "n": 13,
+    "title": "The hall, after everyone has gone"
+   }
+  },
+  {
+   "say": "Picture the place at the front where the choir stood, just a stretch of worn wooden floor now. There's a faint mark where the conductor's music stand was. And there, a little in front of the rest, is the spot where Elena took her one step forward and sang. It's just floorboards again. Quiet, ordinary, resting.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "attic_rain",
+    "cap": "The empty stage",
+    "sub": "Where she stood"
+   }
+  },
+  {
+   "say": "Picture the tall windows along the side of the hall. Frost has begun to creep across the glass in delicate feathery patterns, white on black. Outside, a streetlamp glows faintly through them, so the frost catches the light and glimmers, very softly, like tiny stars that have come down to rest on the windowpane.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "The tall windows",
+    "sub": "Frost on the glass"
+   }
+  },
+  {
+   "say": "As you picture the hall, let your breathing slow down, as if you were breathing with the building. In, slowly, the way warm air rises. And out, slowly, the way the heat leaves the radiators, a little at a time. There's no need to try. Just let the breath find its own easy pace, and follow it.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Breathing slowly",
+    "sub": "Like the hall"
+   }
+  },
+  {
+   "say": "Picture the row of coat hooks by the door of the hall, all empty now. An hour ago they were heavy with winter coats and woolly hats and long scarves. One by one, the coats were lifted down and carried off into the night, to other houses, other hallways, other warm hooks. Now the hooks just wait, quietly, in a neat little row.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "cap": "The coat hooks",
+    "sub": "Empty now"
+   }
+  },
+  {
+   "say": "On the floor beneath the hooks lies a single lost glove, soft and grey, dropped by someone in the bustle of leaving. Tomorrow, someone will find it and put it on the windowsill for its owner. But tonight it just lies there, curled up on the wooden floor, perfectly content to wait. Nothing about this evening needs to be put right tonight.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "cap": "A lost glove",
+    "sub": "Waiting to be found"
+   }
+  },
+  {
+   "say": "Picture the whole hall breathing slowly in the dark, the way an old building seems to. A soft creak from the roof as the beams settle in the cold. A faint sigh from the pipes. Then quiet again. Breathe with it. In, slowly. And out, slowly. The building rests, and you rest with it.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "cap": "The hall breathes",
+    "sub": "Slowly, slowly"
+   }
+  },
+  {
+   "say": "Picture the trestle table at the back, where the tea was served. It's bare now. The cups have all been washed and dried and put away in a cupboard, stacked upside down in neat rows. The biscuit plate is empty, not a crumb on it. The tea urn sits at the end, cool and silent, its job done for the evening.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "The trestle table",
+    "sub": "Cups washed and put away"
+   }
+  },
+  {
+   "say": "The cups, upside down on their shelf, waiting quietly for the next concert, the next rehearsal, the next cold evening. They don't mind waiting. They're very good at it.",
+   "show": {
+    "type": "photo",
+    "file": "lf57_b14_01.jpg",
+    "cap": "Teacups put away for the night"
+   }
+  },
+  {
+   "say": "Picture the old radiators under the windows, painted cream long ago, the paint a little chipped at the corners. Earlier tonight, Elena's coat hung over one of them and grew pleasantly warm. Now they're cooling slowly, giving the last of their heat to the room, so that the air stays mild for a while yet, long after the lights are out.",
+   "show": {
+    "type": "char",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "cap": "The radiators",
+    "sub": "Warm, then cooler"
+   }
+  },
+  {
+   "say": "Picture the upright piano in the corner, its lid closed over the keys. It's an old piano, with a few yellowed keys and one that sticks a little in cold weather. It played for an hour tonight, and now it rests in the dark, its wooden case cool and smooth, holding all those notes quietly inside, the way a shell holds the sound of the sea.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "cap": "The piano",
+    "sub": "Resting"
+   }
+  },
+  {
+   "say": "Picture the pile of sheet music on top of the piano, squared off neatly by somebody careful. The pages are soft and a little worn at the corners, covered in pencil marks: breathe here, softer there, watch the conductor. Tonight's songs are in there, and Elena's eight bars, resting between the pages like pressed flowers.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "attic_rain",
+    "cap": "The sheet music",
+    "sub": "In a neat pile"
+   }
+  },
+  {
+   "say": "Picture the heavy wooden door of the hall, locked now. The caretaker turned the big iron key an hour ago and went home to bed. On the other side of the door, the street is cold and still. On this side, the hall is dark and safe and quiet. Nothing will happen here until morning, and that's exactly as it should be.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "cap": "The door",
+    "sub": "Locked for the night"
+   }
+  },
+  {
+   "say": "And as you picture the hall at rest, let your own body rest too. Let your arms feel heavy, as if they were sinking gently into the bed. Let your legs feel heavy. Let your face soften, your forehead, your eyes, your cheeks, all of it relaxing, the way the hall has relaxed now that everyone has gone.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Your own body",
+    "sub": "Heavy and warm"
+   }
+  },
+  {
+   "say": "The hall is so quiet now that you might almost hear the frost growing on the windows. There's only the faint tick of the cooling radiators, slower and slower, and then, eventually, not even that. Just a deep, soft, peaceful quiet, wrapping around the whole building like a thick winter blanket.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "bedroom_night",
+    "cap": "The quiet",
+    "sub": "Deep and soft"
+   }
+  },
+  {
+   "say": "In a little while, we'll leave the hall and step back out into the winter street, the way Elena did. But there's no hurry at all. Stay here as long as you like, in the warm dark, with the stacked chairs and the closed piano and the frost on the windows. When you're ready, we'll go on, slowly.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Moving on",
+    "sub": "Out into the night"
+   }
+  }
+ ]
+}

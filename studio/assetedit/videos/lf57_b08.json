@@ -1,0 +1,131 @@
+{
+ "id": "lf57_b08",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Down by the river, the air is even colder. There's a path along the water with old iron lamps every few metres, and their light lies in long wobbly lines on the dark surface. A pair of ducks is asleep on a low wall, heads tucked under their wings. Elena slows down. There's no hurry tonight.",
+   "show": {
+    "type": "chapter",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "n": 7,
+    "title": "What a blush tells other people"
+   }
+  },
+  {
+   "say": "Let's think about the audience in that church hall. When Elena stepped back into the row with her face glowing, what did they see? Most of them, I'd guess, saw someone who'd just done something a little brave and felt a little shy about it. They didn't think less of her. If anything, they warmed to her. Researchers have tried to find out whether that's a general rule.",
+   "show": {
+    "type": "char",
+    "sprite": "N07",
+    "bg": "cafe_sunset",
+    "cap": "Think of the audience",
+    "sub": "What did they see?"
+   }
+  },
+  {
+   "say": "The idea goes like this. When you make a small mistake in front of others, like knocking over a glass, or forgetting someone's name, a blush might work as a kind of apology without words. It shows that you know something went wrong, that you care what others think, and that you're not going to brush it off. Psychologists call this the remedial function of blushing.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "living_room_day",
+    "cap": "An apology without words",
+    "sub": "The remedial idea"
+   }
+  },
+  {
+   "say": "For a signal like that to be trusted, it helps if it's difficult to fake. And a blush is very difficult to fake. You can force a smile, you can fake a frown, but almost nobody can blush on purpose. That makes a blush rather like an honest message from the body, one that the person sending it can't easily control.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "cabin_fireplace",
+    "cap": "A signal that's hard to fake",
+    "sub": "Why that matters"
+   }
+  },
+  {
+   "say": "In 2003, Peter de Jong, Madelon Peters and David De Cremer ran two experiments, with forty-nine and then fifty-eight volunteers. People read short descriptions of someone in an awkward situation. Sometimes the person blushed, and sometimes they didn't. Then the volunteers judged what they thought of that person.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "who": "Peter de Jong, Madelon Peters and David De Cremer",
+    "where": "Motivation and Emotion, 2003",
+    "what": "Volunteers judged people in short stories who blushed, or didn't, after mishaps and in unclear situations"
+   }
+  },
+  {
+   "say": "The results were more interesting than a simple yes or no. After an obvious accident, blushing helped: the person who blushed was judged more kindly. After a clear, deliberate wrong, blushing also helped, as a sign of regret. But when the situation was unclear, when it wasn't obvious whether the person had done anything wrong at all, blushing undermined how trustworthy they seemed.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "attic_rain",
+    "title": "What the 2003 study found",
+    "items": [
+     "After an obvious mishap, blushing helped",
+     "After a deliberate wrong, it helped too",
+     "In an unclear situation, it hurt trust"
+    ]
+   }
+  },
+  {
+   "say": "The paper's title says it all: Blushing May Signify Guilt. If nobody knows what happened, and you go red, people may fill in the gap with the worst explanation. So the blush seems to work as a kind of amplifier. It makes whatever people already believe about the situation a little stronger, for better or worse.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "living_room_day",
+    "cap": "Blushing may signify guilt",
+    "sub": "When the story is unclear"
+   }
+  },
+  {
+   "say": "The river path, its old lamps reflected in the water. The light doesn't change the river, it only shows what's already there. A blush may work a little like that, lighting up whatever people already think is happening.",
+   "show": {
+    "type": "photo",
+    "file": "lf57_b08_01.jpg",
+    "cap": "Lamplight on the river"
+   }
+  },
+  {
+   "say": "Other researchers have found similar things. A study by Corine Dijk, Peter de Jong and Madelon Peters, published in 2009, found that people who blushed after a mishap or a small wrong were judged more positively than those who stayed pale. Psychologists who study embarrassment, like Dacher Keltner in America, have also argued that the whole embarrassed display works to calm others down after a social slip.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "Other studies agree",
+    "sub": "Blushing after a mishap"
+   }
+  },
+  {
+   "say": "So maybe Darwin was wrong on this one point. He thought a blush was no use to anyone. Modern research suggests it may be quite useful after all. Not always, and not in every situation. But in the everyday business of living among other people, where we're constantly making little mistakes, a blush may help smooth things over.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "cabin_fireplace",
+    "cap": "Darwin, revisited",
+    "sub": "Maybe it is useful"
+   }
+  },
+  {
+   "say": "Back in the church hall, Elena's situation wasn't ambiguous at all. She'd done something brave, it went well, and her blush said, I care about this, and I'm a little shy. That's probably why the woman with the tea came over to say something kind. The blush didn't give Elena away. It invited people in.",
+   "show": {
+    "type": "char",
+    "sprite": "N29",
+    "bg": "rooftop_dusk",
+    "cap": "Elena's audience",
+    "sub": "Warmth returned"
+   }
+  },
+  {
+   "say": "But reading stories about imaginary people is one thing. What happens when real people are face to face, with something actually at stake? In 2002, the same Dutch research group set up an experiment with a well-known game from economics, where people have to decide whether to trust each other. They wanted to see what a real blush does in a real moment of letting someone down.",
+   "show": {
+    "type": "char",
+    "sprite": "A12",
+    "bg": "street_day",
+    "cap": "A sharper test",
+    "sub": "A game with real stakes"
+   }
+  }
+ ]
+}

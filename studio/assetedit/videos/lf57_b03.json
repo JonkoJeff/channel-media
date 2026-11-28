@@ -1,0 +1,153 @@
+{
+ "id": "lf57_b03",
+ "part": true,
+ "vibe": "calm",
+ "voice": "am_michael",
+ "segments": [
+  {
+   "say": "Let's slow down and look closely at Elena's cheek, as if we could see through the skin. Just beneath the surface there's a dense web of tiny blood vessels, thinner than hairs. Normally, only some of the blood flowing through your body passes through them. But when you blush, that changes, quite quickly.",
+   "show": {
+    "type": "chapter",
+    "sprite": "N01",
+    "bg": "attic_rain",
+    "n": 2,
+    "title": "What happens in the skin"
+   }
+  },
+  {
+   "say": "In a blush, the small blood vessels in the skin of the face widen. Scientists call this vasodilation. Wider vessels mean more warm blood flows close to the surface, and because skin is slightly see-through, that blood shows as a pink or red glow. It's the same basic thing that happens when your face goes red after running up the stairs, but triggered by a feeling instead of by effort.",
+   "show": {
+    "type": "char",
+    "sprite": "A03",
+    "bg": "cabin_fireplace",
+    "cap": "Wider vessels",
+    "sub": "More blood near the surface"
+   }
+  },
+  {
+   "say": "Blushing has its own favourite places. Researchers usually describe it as limited mostly to the face, the cheeks above all, sometimes spreading to the ears, the neck and the upper chest. That's why people sometimes talk about the blush region. Your hands and your arms don't really blush, even when your face is burning.",
+   "show": {
+    "type": "list",
+    "sprite": "N09",
+    "bg": "living_room_day",
+    "title": "Where a blush usually shows",
+    "items": [
+     "Cheeks",
+     "Forehead",
+     "Ears",
+     "Neck",
+     "Sometimes the upper chest"
+    ]
+   }
+  },
+  {
+   "say": "Why the face in particular? Part of the answer seems to be how the blood vessels there are built. The skin of the cheeks has many vessels lying close to the surface, and researchers have suggested that the veins of the face can hold extra blood for a while, a little like a pool. That pooling may help explain why a blush can linger after the moment has passed.",
+   "show": {
+    "type": "char",
+    "sprite": "N20",
+    "bg": "rooftop_dusk",
+    "cap": "Why the face?",
+    "sub": "A special kind of skin"
+   }
+  },
+  {
+   "say": "A clue about the nerves came from a study published in 1982 by a team led by Mellander. They found that stimulating a particular kind of receptor, called a beta-receptor, in a facial vein made the vessel widen rapidly, and that a drug which blocks those receptors prevented it. This pointed to the body's own alarm system as one of the drivers of the blush.",
+   "show": {
+    "type": "study",
+    "sprite": "A13",
+    "bg": "autumn_overlook",
+    "who": "Mellander and colleagues",
+    "where": "Laboratory study, 1982",
+    "what": "A facial vein widened quickly when beta-receptors were stimulated, and a beta-blocker stopped it"
+   }
+  },
+  {
+   "say": "That alarm system is the sympathetic nervous system, the part of you that gets your body ready for action. It speeds up your heart when you're startled, makes your palms damp before an exam, and sends blood where it's needed. Researchers generally assume it's involved in blushing, although exactly how is still being worked out. It's one of those details that sounds settled and isn't quite.",
+   "show": {
+    "type": "char",
+    "sprite": "A10",
+    "bg": "cabin_fireplace",
+    "cap": "The alarm system",
+    "sub": "Fight or flight, a little"
+   }
+  },
+  {
+   "say": "There's another clue. For a small number of people whose blushing is extreme and distressing, surgeons have sometimes cut the sympathetic nerves that lead to the face. After that operation, blushing is usually reduced. It's a serious procedure, with side effects, and it's only ever a last resort. But scientifically it tells us something simple: those nerves matter for the blush.",
+   "show": {
+    "type": "char",
+    "sprite": "N10",
+    "bg": "bedroom_night",
+    "cap": "A clue from surgery",
+    "sub": "Cutting the link reduces blushing"
+   }
+  },
+  {
+   "say": "A leaf like this one has a fine network of veins carrying what it needs to every corner. Your cheeks have something similar, a mesh of tiny vessels, and in a blush that mesh fills up, quietly, from the inside, until the colour shows through.",
+   "show": {
+    "type": "photo",
+    "file": "lf57_b03_01.jpg",
+    "cap": "A web of fine veins"
+   }
+  },
+  {
+   "say": "Many people say they feel a blush before anyone else could possibly see it. A sudden heat, a tingling, a sense of the face going tight. That's real. Researchers who measure blushing often record a rise in the temperature of the cheek, and people are very sensitive to that warmth. Elena felt hers start before she'd even finished her last note.",
+   "show": {
+    "type": "char",
+    "sprite": "A19",
+    "bg": "attic_rain",
+    "cap": "You feel it first",
+    "sub": "Heat before colour"
+   }
+  },
+  {
+   "say": "It's worth separating the blush from other kinds of red face. A hot bath, a spicy meal, a glass of wine, a fever or a hard run can all redden the face too. Those are usually called flushing. The blush, the social blush, is the one that's switched on by other people: by attention, by praise, by being caught out, by being seen.",
+   "show": {
+    "type": "char",
+    "sprite": "N01",
+    "bg": "living_room_day",
+    "cap": "Not the same as flushing",
+    "sub": "Different triggers"
+   }
+  },
+  {
+   "say": "Even before Darwin, people tried to sort blushes into kinds. In 1839, a doctor named Thomas Burgess wrote a whole book called The Physiology or Mechanism of Blushing. He separated what he called a true blush, which he saw as a sign of shame, from a false blush, which he put down to over-sensitivity. His categories haven't lasted, but his curiosity has.",
+   "show": {
+    "type": "quote",
+    "sprite": "A13",
+    "bg": "cabin_fireplace",
+    "text": "A true blush, and a false one.",
+    "by": "Thomas Burgess, The Physiology or Mechanism of Blushing, 1839"
+   }
+  },
+  {
+   "say": "A blush doesn't switch on instantly, and it doesn't switch off instantly either. It tends to build over a few seconds, peak, and then fade slowly, sometimes over a minute or more. That's why trying to make it go away usually feels hopeless. By the time you've noticed it, it's already on its way, and it will leave in its own time.",
+   "show": {
+    "type": "char",
+    "sprite": "N09",
+    "bg": "autumn_overlook",
+    "cap": "A little delay",
+    "sub": "And a slow fade"
+   }
+  },
+  {
+   "say": "In the church hall, Elena's blush is finally fading. The cup of tea is half empty. People are drifting towards the door in little groups, saying goodnight, winding scarves round their necks. Her cheeks are still a little pink, but the heat has gone down to a gentle glow, like the last coals in a fireplace.",
+   "show": {
+    "type": "char",
+    "sprite": "A05",
+    "bg": "rooftop_dusk",
+    "cap": "In the hall",
+    "sub": "The fade begins"
+   }
+  },
+  {
+   "say": "If you wanted to study blushing properly, though, you'd hit a problem straight away. How do you make someone blush on purpose, in a laboratory, with wires on their face? And how do you measure something that comes and goes in seconds? The researchers who first tried it came up with a rather clever answer. They asked people to sing.",
+   "show": {
+    "type": "char",
+    "sprite": "N27",
+    "bg": "cafe_sunset",
+    "cap": "Measuring it",
+    "sub": "Harder than it sounds"
+   }
+  }
+ ]
+}
